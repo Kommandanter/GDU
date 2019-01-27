@@ -1,0 +1,15 @@
+state={
+	id=698
+	name="STATE_698"
+	manpower = 1
+	
+	state_category = small_island
+	
+	history={
+		owner = BRA
+	}
+	
+	provinces={
+		1751 
+	}
+}
