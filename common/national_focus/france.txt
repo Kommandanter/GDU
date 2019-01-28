@@ -1689,49 +1689,5 @@ focus_tree = {
 		}
 	}
 
-	focus = {
-		id = FRA_request_uk_territory
-		icon = GFX_goal_tfv_saf_secure_interests_in_africa
-		prerequisite = { focus = FRA_france_libre }
-		prerequisite = { focus = FRA_sway_west_africa }
-		x = 23
-		y = 2
-		cost = 10
-
-		available_if_capitulated = yes
-
-		available = {
-			date > 1940.6.1
-		}
-
-		completion_reward = {
-			custom_effect_tooltip = FRA_request_uk_territory_tt
-
-			FRA = { add_timed_idea = { idea = FRA_english_africa_cost days = 80 } }
-			ENG = { add_timed_idea = { idea = ENG_colonial_trade days = 80 } }
-			hidden_effect = {
-				news_event = { id = pfunews.5 hours = 6 }
-				if = {
-					limit = { 558 = { is_controlled_by = ENG } }
-					FRA = { transfer_state = 558 }
-				}
-				if = {
-					limit = { 274 = { is_controlled_by = ENG } }
-					FRA = { transfer_state = 274 }
-				}
-				if = {
-					limit = { 700 = { is_controlled_by = ENG } }
-					FRA = { transfer_state = 700 }
-				}
-				if = {
-					limit = { 296 = { is_controlled_by = POR } }
-					FRA = { transfer_state = 296 }
-				}
-				if = {
-					limit = { 701 = { is_controlled_by = ENG } }
-					FRA = { transfer_state = 701 }
-				}
-			}
-		}
-	}
+	
 }

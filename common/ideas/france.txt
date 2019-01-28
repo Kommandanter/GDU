@@ -17,18 +17,7 @@ ideas = {
 			picture = FRA_factory_strikes
 
 			modifier = {
-				conversion_cost_civ_to_mil_factor= 0.1
-			}
-		}
-
-		FRA_english_africa_cost = {
-			allowed = { always = no }
-
-			removal_cost = -1
-			picture = generic_goods_red_bonus
-
-			modifier = {
-				consumer_goods_factor = 0.05
+				conversion_cost_civ_to_mil_factor= 0.15
 			}
 		}
 
@@ -50,9 +39,7 @@ ideas = {
 			research_bonus = {
 				land_doctrine = -0.75
 			}
-			modifier = {
-				conscription = -0.005
-			}
+
 		}
 
 		FRA_disjointed_government = {
@@ -114,6 +101,10 @@ ideas = {
 			modifier = {
 				max_planning = 0.25
 				planning_speed = -0.25
+				army_attack_factor = -0.10
+				army_defence_factor = -0.10
+				army_core_attack_factor = 0.15
+				army_core_defence_factor = 0.15
 			}
 		}
 
