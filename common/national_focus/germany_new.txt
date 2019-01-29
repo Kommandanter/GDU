@@ -1,0 +1,122 @@
+
+
+##Below is content from PFU-mod## 
+
+	focus = {
+		id = GER_flak_36
+		icon = GFX_goal_generic_army_artillery
+		prerequisite = { focus = GER_army_innovation_2 }
+		x = 5
+		y = 4
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			army_experience = 20
+			add_tech_bonus = {
+				name = anti_air
+				bonus = 0.5
+				uses = 1
+				technology = antiair1
+			}
+			add_tech_bonus = {
+				name = anti_air
+				bonus = 0.5
+				uses = 1
+				technology = antiair2
+			}
+			add_tech_bonus = {
+				name = anti_air
+				bonus = 0.5
+				uses = 1
+				technology = antiair3
+			}
+			add_tech_bonus = {
+				name = anti_air
+				bonus = 0.5
+				uses = 1
+				technology = antiair4
+			}
+			add_tech_bonus = {
+				name = anti_air
+				bonus = 0.5
+				uses = 1
+				technology = antiair5
+			}
+		}
+	}
+
+
+	focus = {
+		id = GER_battle_russia
+		icon = GFX_goal_generic_army_tanks
+		prerequisite = { focus = GER_army_innovation_2 }
+		x = 7
+		y = 4
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+        available = {
+			has_war_with = SOV
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			army_experience = 100
+            custom_effect_tooltip = pfu.battlerussia.tt
+			hidden_effect = {
+				set_technology = { improved_heavy_tank = 1 }
+				add_tech_bonus = {
+					name = at_bonus
+					bonus = 0.5
+					uses = 3
+					category = cat_anti_tank
+				}
+			}
+		}
+	}
+	focus = {
+		id = GER_foreign_ss
+		icon = GFX_goal_generic_SS_focus
+		prerequisite = { focus = GER_flak_36 focus = GER_battle_russia }
+		x = 7
+		y = 5
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+        available = {
+			has_war_with = SOV
+		    has_war_with = ENG
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = GER_foreign_ss
+		}
+	}
+
+	focus = {
+		id = GER_hitlerjugend0
+		icon = GFX_goal_generic_SS_focus
+		prerequisite = { focus = GER_flak_36 focus = GER_battle_russia }
+		x = 5
+		y = 5
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = GER_hitler_jugend
+		}
+	}
