@@ -445,7 +445,7 @@ SOV_industry_relocation = {
 	}
 }
 
-#Category only allowed for SOV - Order 227 has been disabled by KLS
+#Category only allowed for SOV
 SOV_great_patriotic_war = {
 
 	SOV_order_227 = {
@@ -454,18 +454,14 @@ SOV_great_patriotic_war = {
 
 		available = {
 			has_war = yes
-			any_enemy_country = {
-				is_major = yes
-			}
-			has_civil_war = no
-			surrender_progress > 0.2
+			surrender_progress > 0.50
 		}
 
 		cost = 50
 		fire_only_once = yes
 		visible = {
 			has_war = yes
-			surrender_progress > 0.9
+			surrender_progress > 0.0
 			any_enemy_country = {
 				is_major = yes
 			}
@@ -1221,38 +1217,6 @@ operations = {
 }
 
 political_actions = {
-
-	force_soviet_peacedeal = {
-
-		allowed = {
-			original_tag = SOV
-		}
-
-		available = {
-			SOV = {
-				surrender_progress > 0.50 #almost capitulate but not really
-			}
-		}
-
-		cost = 15
-
-		fire_only_once = no
-
-		ai_will_do = {
-			factor = 0
-		}
-		days_remove = 30
-
-		visible = {
-			SOV = {
-				surrender_progress > 0.40
-			}
-		}
-
-		complete_effect = {
-			GER = { country_event = { id = JFU_germany.2 days = 1 } }
-		}
-	}
 
 	SOV_return_manchuria = {
 

@@ -1,5 +1,4 @@
 ﻿l_english:
-    force_soviet_peacedeal:0 "Make a Peacedeal with the Germans"
     annex_canada_idea:0 "Annexed Canada"
     annex_british_raj_idea:0 "Annexed British Raj"
     annex_south_africa_idea:0 "Annexed South Africa"
@@ -7,7 +6,10 @@
     annex_new_zealand_idea:0 "Annexed New Zealand"
     annex_bulgaria_idea:0 "Annexed Bulgaria"
     annex_hungary_idea:0 "Annexed Hungary"
+  
 
+    AST_annex_new_zealand:0 "The Resource Consolidation Act"
+    AST_annex_new_zealand_desc:0 "While not a particularly popular idea amongst the citizens of New Zealand, the worthiness of the island nation as an independent state is questionable. With the approval of Parliament, we can pass the Resource Consolidation Act to bring Australia and New Zealand under one responsible government."
     annex_canada:0 "Annex Canada"
     annex_canada_desc:0 "Only to be used when no replacement player can be found for Canada."
     annex_british_raj:0 "Annex British Raj"
@@ -22,5 +24,5 @@
     annex_bulgaria_desc:0 "Only to be used when no replacement player can be found for Bulgaria."
     annex_hungary:0 "Annex Hungary"
     annex_hungary_desc:0 "Only to be used when no replacement player can be found for Hungary."
-    puppet_vichy_france:0 "Puppet Vichy France"
-    puppet_vichy_france_desc:0 "Use this when something goes wrong and Vichy France does not end up as a puppet or if Vichy France is a player."
+    annex_vichy_france:0 "Annex Vichy France"
+    annex_vichy_france_desc:0 "The time has come to put an end to the pretension of the so called 'Vichy State'. Their commitment to the cause of fascism is questionable, at best, and we're in dire need of their resources. With a quick operation, we can secure their assets and even begin setting up defenses in Africa!"

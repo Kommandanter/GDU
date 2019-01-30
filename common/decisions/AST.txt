@@ -1,6 +1,6 @@
 political_actions = {
 
-	annex_new_zealand = {
+	AST_annex_new_zealand = {
 		ai_will_do = { factor = 0 }
 		cost = 20
 		visible = {

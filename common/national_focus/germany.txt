@@ -33,10 +33,9 @@ focus_tree = {
 				category = construction_tech
 			}
 			add_ideas = hjalmar_schacht
-			hidden = {
 			custom_effect_tooltip = available_political_advisor
 			show_ideas_tooltip = hjalmar_schacht
-			}
+			
 
 		}
 		

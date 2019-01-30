@@ -877,7 +877,7 @@ war_measures = {
                 AND = {
                     has_government = fascism
                     OR = {
-                        has_war_support > 0.89
+                        has_war_support > 0.79
                         surrender_progress > 0
                     }
                 }
@@ -898,7 +898,7 @@ war_measures = {
             has_war = no
         }
         modifier = {
-            conscription = 0.02
+            conscription = 0.03
             stability_factor = -0.05
         }
         ai_will_do = {
@@ -942,8 +942,8 @@ war_measures = {
                 AND = {
                     has_government = fascism
                     OR = {
-                        has_war_support > 0.89
-                        surrender_progress > 0
+                        has_war_support > 0.79
+                        surrender_progress > 0.10
                     }
                 }
                 AND = {
@@ -952,12 +952,7 @@ war_measures = {
                     has_stability > 0.7
                 }
             }
-            if = {
-					limit = {
-						original_tag = GER
-					}
-					NOT = { has_idea = GER_short_war }
-				}
+ 
         }
         visible = {
             has_war = yes

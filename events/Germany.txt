@@ -33,7 +33,6 @@ country_event = {
 				add_core_of = GER
 			}
 		}
-
 		annex_country = { target = AUS transfer_troops = yes }
 		add_political_power = 75
 		hidden_effect = {
