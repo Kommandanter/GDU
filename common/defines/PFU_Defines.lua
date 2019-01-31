@@ -49,7 +49,7 @@ NDefines.NProduction.CAPITULATE_STOCKPILES_RATIO = 0.75
 NDefines.NProduction.BASE_FACTORY_SPEED_MIL = 5
 NDefines.NProduction.MIN_LICENSE_ACTIVE_DAYS = 5
 NDefines.NProduction.ANNEX_FIELD_EQUIPMENT_RATIO = 1.0
-NDefines.NProduction.EQUIPMENT_BASE_LEND_LEASE_WEIGHT = 1.0
+NDefines.NProduction.EQUIPMENT_BASE_LEND_LEASE_WEIGHT = 1.20
 
 NDefines.NBuildings.ANTI_AIR_SUPERIORITY_MULT = 20.0	-- How much air superiority reduction to the enemy does our AA guns? Normally each building level = -1 reduction. With this multiplier.
 NDefines.NBuildings.MAX_SHARED_SLOTS = 50
