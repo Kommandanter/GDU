@@ -6,7 +6,7 @@
     london_naval_treaty:0 "London Naval Treaty"
     london_naval_treaty_desc:0 "Everyone better follow, otherwise I will show them Britannia Rules the Waves"
     JAP_cg_defense_state:0 "National Defense State"
-
+	
     generic_neutral_country:0 "Neutral Country"
     generic_neutral_country_desc:0 "This country is not supposed to be played OR conquered and thus is neutral."
     shattered_retreat:0 "Shattered retreat"
@@ -29,6 +29,11 @@
     special_forces_3b_desc:0 ""
     special_forces_1c:0 "Call To Arms"
     special_forces_1c_desc:0 ""
+	
+    cat_antiair:0 "Anti-Air Technology"
+    cat_tiger:0 "Panzerkampfwagen VI Tiger"
+    cat_mechanized_1:0 "Mechanized Equipment I"
+    cat_mechanized_2:0 "Mechanized Equipment II"
 
     etat_folder:0 "Special Forces"
     etat_folder_desc:0 "Special Forces Training"

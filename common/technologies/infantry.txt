@@ -1357,6 +1357,7 @@ technologies = {
 			motorized_equipment
 			infantry_tech
 			cat_mechanized_equipment
+			cat_mechanized_1
 		}
 
 		ai_will_do = {
@@ -1390,6 +1391,7 @@ technologies = {
 			motorized_equipment
 			infantry_tech
 			cat_mechanized_equipment
+			cat_mechanized_2
 		}
 
 		ai_will_do = {

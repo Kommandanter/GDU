@@ -576,6 +576,7 @@ technologies = {
 		}
 		
 		categories = {
+			cat_antiair
 			artillery
 		}
 	}
@@ -612,6 +613,7 @@ technologies = {
 		}
 		
 		categories = {
+			cat_antiair
 			artillery
 		}
 	}
@@ -648,6 +650,7 @@ technologies = {
 		}
 		
 		categories = {
+			cat_antiair
 			artillery
 		}
 	}
@@ -684,6 +687,7 @@ technologies = {
 		}
 		
 		categories = {
+			cat_antiair
 			artillery
 		}
 	}
@@ -720,6 +724,7 @@ technologies = {
 		}
 		
 		categories = {
+			cat_antiair
 			artillery
 		}
 	}
@@ -751,6 +756,7 @@ technologies = {
 		}
 		
 		categories = {
+			cat_antiair
 			artillery
 		}
 	}
