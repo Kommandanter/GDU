@@ -79,7 +79,7 @@ equipments = {
 		visual_level = 2
 		
 		#Defensive Abilities
-		defense = 22.4
+		defense = 22.5
 		breakthrough = 6
 
 		#Offensive Abilities
