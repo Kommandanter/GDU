@@ -397,7 +397,7 @@ focus_tree = {
 		completion_reward = {
 			add_resource = {
 				type = oil
-				amount = 60
+				amount = 90
 				state = 662
 			}
 			add_tech_bonus = {
