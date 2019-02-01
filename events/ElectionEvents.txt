@@ -19,57 +19,7 @@ country_event = {
 }
 
 # Public Opposes Rearmament
-country_event = {
-	id = election.2
-	title = election.2.t
-	desc = election.2.d
-	picture = GFX_report_event_airplane_factory
-	
-	is_triggered_only = yes
-	
-	trigger = {
-		NOT = { 
-			AND = { 
-				tag = USA 
-				date < 1.1.1949
-			} 
-		}
-		OR = { NOT = { tag = SPR } NOT = { date < 1937.1.1 } }
-		has_government = democratic
-		NOT = {
-			OR = {
-				has_war = yes
-				any_neighbor_country = {
-					has_war = yes
-				}
-				any_allied_country = {
-					has_war = yes
-				}
-			}
-		}
-		has_idea = partial_economic_mobilisation
-	}
 
-	option = {
-		ai_chance = { 
-			base = 1
-		}
-		name = election.2.a
-		add_ideas = low_economic_mobilisation
-	}
-
-	option = {
-		name = election.2.b
-		ai_chance = {
-			base = 0
-			modifier = {
-				add = 10
-				can_lose_unity = yes
-			}
-		}
-		add_stability = -0.05
-	}
-}
 
 
 # Public Demands Rearmament
