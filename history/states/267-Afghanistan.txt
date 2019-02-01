@@ -9,7 +9,8 @@ state={
 	resources={
 	}
 	history={
-		owner = BRA
+		owner = AFG
+		add_core_of = AFG
 		buildings = {
 			infrastructure = 2
 		}

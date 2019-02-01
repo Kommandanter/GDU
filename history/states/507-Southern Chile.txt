@@ -7,7 +7,8 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = BRA
+		owner = CHL
+		add_core_of = CHL
 	}
 
 	provinces={

@@ -4,7 +4,8 @@ state={
 	name="STATE_322"
 
 	history={
-		owner = BRA
+		owner = TIB
+		add_core_of = TIB
 	}
 
 	provinces={

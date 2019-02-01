@@ -6,7 +6,8 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = BRA
+		owner = SAU
+		add_core_of = SAU
 	}
 
 	impassable = yes

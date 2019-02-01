@@ -75,8 +75,7 @@ set_politics = {
 	elections_allowed = no
 }
 			add_ideas = {
-	tib_neutrality
-    neutrality_idea		
+	tib_neutrality	
 }
 
 create_country_leader = {

@@ -2,13 +2,13 @@
 state={
 	id=540
 	name="STATE_540"
-	manpower = 3225000
+	manpower = 1
 	
 	state_category = rural
 	impassable = yes
 
 	history={
-		owner = ENG
+		owner = POR
 		buildings = {
 			infrastructure = 2
 			8248 ={

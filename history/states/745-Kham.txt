@@ -5,7 +5,9 @@ state={
 		4407 5018 5080 5102 8041 8059 10741 10856
 	}
 	history={
-		owner = BRA
+		
+		owner = TIB
+		add_core_of = TIB
 	}
 	manpower=1
 	buildings_max_level_factor=1.000

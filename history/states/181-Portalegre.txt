@@ -7,10 +7,16 @@ state={
 	state_category = town
 	
 	resources={
+		tungsten = 38 # was: 300
 	}
 
 	history={
-		owner = BRA
+		owner = POR
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+		}
+		add_core_of = POR
 	}
 
 	provinces={

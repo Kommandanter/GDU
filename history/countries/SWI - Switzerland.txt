@@ -116,8 +116,7 @@ set_politics = {
 }
 
 add_ideas = {
-	swiss_neutrality
-    neutrality_idea		
+	swiss_neutrality	
 	extensive_conscription
 	free_trade
 }

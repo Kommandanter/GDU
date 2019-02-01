@@ -6,7 +6,6 @@ set_research_slots = 3
 
 add_ideas = {
 	turkish_neutrality
-	neutrality_idea
 	free_trade
 }
 

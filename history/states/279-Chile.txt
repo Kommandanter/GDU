@@ -8,7 +8,8 @@ state={
 
 
 	history={
-		owner = BRA
+		owner = CHL
+		add_core_of = CHL
 	}
 
 	provinces={

@@ -5,7 +5,8 @@ state = {
 	state_category = rural
 
 	history={
-		owner = BRA
+		owner = MEX
+		add_core_of = MEX
 	}
 	provinces= { 1892 1904 7964 8119 12461 12736 12859 }
 }

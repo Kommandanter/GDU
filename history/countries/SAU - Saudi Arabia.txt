@@ -10,7 +10,6 @@ set_technology = {
 
 add_ideas = {
 	saudi_neutrality
-	neutrality_idea
 }
 
 set_convoys = 5
