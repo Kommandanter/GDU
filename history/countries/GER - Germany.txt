@@ -10,6 +10,7 @@ set_technology = {
 	tech_recon = 1
 	tech_support = 1
 	tech_engineers = 1
+	tech_signal_company = 1
 	paratroopers = 1
 	tech_mountaineers = 1
 	motorised_infantry = 1
@@ -49,6 +50,9 @@ set_technology = {
 	transport = 1
 	tech_field_hospital = 1
 	tech_military_police = 1
+	electronic_mechanical_engineering = 1
+	radio = 1
+	
 }
 
 
@@ -239,6 +243,7 @@ add_to_faction = GER
 
 
 add_ideas = {
+	GER_mefo_bills_1
 	sour_loser
 	general_staff
 	limited_exports
