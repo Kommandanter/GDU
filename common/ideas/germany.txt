@@ -1210,7 +1210,7 @@ ideas = {
 				original_tag = GER
 			}
 
-			traits = { fascist_demagogue }
+			traits = { fascist_demagogue propaganda_expert }
 
 			on_add = {
 				country_event = political.7
@@ -1252,10 +1252,6 @@ ideas = {
 					has_government = fascism
 					has_country_flag = GER_reinstated_nazi_leadership
 				}
-			}
-
-			on_add = {
-				custom_effect_tooltip = GER_SS_himmler_recruit
 			}
 
 			traits = { prince_of_terror }

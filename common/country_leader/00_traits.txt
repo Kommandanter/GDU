@@ -319,6 +319,15 @@ leader_traits = {
 			factor = 1
 		}
 	}
+	
+	propaganda_expert = {
+		sprite = 13
+		war_support_factor = 0.10 
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 
 	silent_workhorse = {
 		random = yes
@@ -332,9 +341,7 @@ leader_traits = {
 
 	prince_of_terror = {
 		sprite = 13
-		enemy_partisan_effect = -0.25
-		foreign_subversive_activites = -0.3
-		non_core_manpower = 0.02
+		non_core_manpower = 0.15
 
 		ai_will_do = {
 			factor = 1
