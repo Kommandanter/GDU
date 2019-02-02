@@ -26,15 +26,8 @@ focus_tree = {
 			factor = 12
 		}
 		completion_reward = {
-			add_tech_bonus = {
-				name = GER_four_year_plan
-				bonus = 0.5
-				uses = 1
-				category = construction_tech
-			}
 			add_ideas = hjalmar_schacht
-			custom_effect_tooltip = available_political_advisor
-			show_ideas_tooltip = hjalmar_schacht
+
 			
 
 		}
@@ -219,7 +212,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = GER_four_year_plan
 				bonus = 0.5
-				uses = 1
+				uses = 2
 				category = construction_tech
 			}
 			add_ideas = GER_autarky_idea
