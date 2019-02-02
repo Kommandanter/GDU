@@ -2636,7 +2636,7 @@
  trade_unionism:0 "Neutrality Land"
  trade_unionism_desc:0 "This nation has failed in every possible aspect and has given up on life by becoming a completely neutral country."
  latin_neutrality:0 "Latin America"
- latin_neutrality_desc:0 "While historically some of the countries of Latin America participated in World War II, many of them stayed neutral. To cut down on the number of players needed to begin a game in GDU, Latin America is neutral and what strength it can contribute has been given to the United States. The region's resources have been distributed elsewhere across the map, especially into Africa, Asia, and the US."
+ latin_neutrality_desc:0 "While historically much of Latin America entered World War II after Japan's attack on the United States, their contribution was small. To cut down on the number of players needed to begin a game in GDU, Latin America is neutral and what strength it can contribute has been given to the United States. The region's resources have been distributed elsewhere across the map, especially into Africa, Asia, and the US."
  swiss_neutrality:0 "Swiss Neutrality"
  swiss_neutrality_desc:0 "Self-imposed, permanent, and armed, designed to ensure external security. Switzerland is the oldest neutral country in the world since 1815; it has not fought a foreign war since its neutrality was established by the Treaty of Paris in 1815."
  GER_blitzkrieg:0 "Blitzkrieg"
