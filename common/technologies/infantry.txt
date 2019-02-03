@@ -191,8 +191,7 @@ technologies = {
 	infantry_at = {
 
 		category_all_infantry = {
-			hard_attack = 0.25
-			ap_attack = 1
+			hard_attack = 0.50
 		}
 
 		path = {
@@ -219,8 +218,7 @@ technologies = {
 	infantry_at2 = {
 
 		category_all_infantry = {
-			hard_attack = 0.25
-			ap_attack = 1
+			hard_attack = 0.50
 		}
 
 		research_cost = 1.5
