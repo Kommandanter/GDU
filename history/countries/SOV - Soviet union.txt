@@ -235,6 +235,12 @@ create_faction = Comintern
 add_to_faction = SOV
 add_to_faction = MON
 
+set_autonomy = {
+		target = MON
+		autonomous_state = autonomy_commune
+		freedom_level = 0
+	}
+
 
 add_ideas = {
 	trotskyite_plot
