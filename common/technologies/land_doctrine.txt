@@ -1637,7 +1637,7 @@ technologies = {
 		}
 	}
 
-	c3.6i_theory = {
+	c3i_theory = {
 
 		land_reinforce_rate = 0.02
 		category_all_infantry = {

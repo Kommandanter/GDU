@@ -12,11 +12,11 @@ upgrades = {
 	}
 	tank_armor_upgrade = {
 		max_level = 5
-
 		cost = land
-		armor_value = 0.05
+		defense = 0.03
+		breakthrough = 0.03
 		maximum_speed = -0.02
-		reliability = -0.05
+		reliability = -0.03
 	}
 	tank_engine_upgrade = {
 		max_level = 5
