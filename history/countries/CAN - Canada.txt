@@ -222,18 +222,18 @@ set_war_support = 0.1
 create_corps_commander = {
 	name = "Thomas Victor Anderson"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-	traits = {  }
+	traits = {  naval_invader commando infantry_leader trait_engineer  }
 	skill = 4
-	attack_skill = 4
-	defense_skill = 4
-	planning_skill = 4
-	logistics_skill = 4
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
 }
 
 create_field_marshal = {
 	name = "Charles Foulkes"
 	gfx = "GFX_CAN_charles_foulkes"
-	traits = { }
+	traits = { brilliant_strategist organizer desert_fox infantry_leader }
 	skill = 4
 		attack_skill = 4
 		defense_skill = 4
@@ -244,32 +244,22 @@ create_field_marshal = {
 create_corps_commander = {
 	name = "John Montague"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
-	traits = { panzer_leader}
-	skill = 3
-		attack_skill = 4
-		defense_skill = 3
+	traits = { armor_officer panzer_leader trickster hill_fighter}
+	skill = 4
+		attack_skill = 5
+		defense_skill = 4
 		planning_skill = 4
-		logistics_skill = 2
+		logistics_skill = 5
 }
 create_corps_commander = {
 	name = "Bert Hoffmeister"
 	gfx = "GFX_CAN_bert_hoffmeister"
-	traits = { hill_fighter }
+	traits = { desert_fox infantry_leader hill_fighter }
 	skill = 4
 		attack_skill = 4
-		defense_skill = 3
-		planning_skill = 4
-		logistics_skill = 4
-}
-create_corps_commander = {
-	name = "Lauren Southern"
-	portrait_path = "gfx/leaders/CAN/Portrait_CAN_Lauren_Southern.dds"
-	traits = {   }
-	skill = 1
-		attack_skill = 2
-		defense_skill = 2
-		planning_skill = 2
-		logistics_skill = 2
+		defense_skill = 5
+		planning_skill = 3
+		logistics_skill = 5
 }
 
 create_navy_leader = {

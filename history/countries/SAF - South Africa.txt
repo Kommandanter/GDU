@@ -224,11 +224,22 @@ create_country_leader = {
 create_corps_commander = {
 	name = "George Edwin Brink"
 	gfx = "GFX_SAF_george_edwin_brink"
-	traits = { desert_fox  panzer_leader}
+	traits = { desert_fox  panzer_leader trickster}
 	skill = 4
 	attack_skill = 5
 	defense_skill = 4
 	planning_skill = 3
+	logistics_skill = 5
+}
+
+create_field_marshal = {
+	name = "Dan Pienaar"
+	gfx = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	traits = { organizer brilliant_strategist commando }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 5
+	planning_skill = 4
 	logistics_skill = 5
 }
 

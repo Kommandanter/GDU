@@ -229,13 +229,13 @@ set_convoys = 100
 create_corps_commander = {
 	name = "Leslie Morshead"
 	gfx = "GFX_AST_leslie_morshead"
-	traits = { naval_invader infantry_leader }
+	traits = { naval_invader infantry_leader organizer trait_engineer inflexible_strategist }
 	skill = 5
 
 	attack_skill = 5
 	defense_skill = 5
 	planning_skill = 4
-	logistics_skill = 5
+	logistics_skill = 6
 }
 
 
@@ -243,7 +243,7 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Thomas Blamey"
 	gfx = "GFX_AST_thomas_blamey"
-	traits = { panzer_leader }
+	traits = { panzer_leader trickster desert_fox }
 	skill = 4
 	attack_skill = 4
 	defense_skill = 4
@@ -253,7 +253,7 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Henry Wynter"
 	gfx = "GFX_AST_henry_wynter"
-	traits = { }
+	traits = { trickster hill_fighter infantry_leader naval_invader commando }
 	skill = 4
 	attack_skill = 4
 	defense_skill = 4
@@ -263,44 +263,35 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Alan Vasey"
 	gfx = "GFX_AST_alan_vasey"
-	traits = { trickster jungle_rat trait_engineer }
+	traits = { jungle_rat infantry_leader infantry_officer naval_invader commando}
 	skill = 5
 	attack_skill = 5
 	defense_skill = 4
 	planning_skill = 3
-	logistics_skill = 3
+	logistics_skill = 5
 }
 create_corps_commander = {
 	name = "Horace Robertson"
 	gfx = "GFX_AST_horace_robertson"
 	traits = { desert_fox infantry_leader }
 	skill = 3
-	attack_skill = 5
-	defense_skill = 5
+	attack_skill = 4
+	defense_skill = 4
 	planning_skill = 3
-	logistics_skill = 3
+	logistics_skill = 5
 }
 create_corps_commander = {
 	name = "John Northcott"
 	gfx = "GFX_AST_john_northcott"
-	traits = { panzer_leader}
-	skill = 1
+	traits = { panzer_leader jungle_rat}
+	skill = 3
 	attack_skill = 3
 	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 3
+	planning_skill = 4
+	logistics_skill = 4
 }
 
-create_corps_commander = {
-	name = "Dropbear"
-	picture = "dropbears.dds"
-	traits = {}
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
+
 create_navy_leader = {
 	name = "Harold Farncomb"
 	gfx = "GFX_AST_harold_farncomb"
