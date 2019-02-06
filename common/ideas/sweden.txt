@@ -880,7 +880,6 @@ ideas = {
 		SWE_per_edvin_skold = {
 			picture = generic_political_advisor_europe_1
 			allowed = { original_tag = SWE }
-			available = { has_completed_focus = SWE_forsvarsbeslutet }
 
 			traits = { quartermaster_general }
 			#traits = { armaments_organizer  }
@@ -889,7 +888,6 @@ ideas = {
 		SWE_axel_wennergren = {
 			#picture = generic_political_advisor_europe_3
 			allowed = { original_tag = SWE }
-			available = { has_completed_focus = SWE_bofors_nobelkrut }
 
 			traits = { war_industrialist  }
 		}
@@ -970,7 +968,6 @@ ideas = {
 			}
 			traits = { mathematician }
 			picture = frederic_irene_joliot_curie
-			available = { has_completed_focus = SWE_crypto_bomb_focus }
 #			modifier = {
 #				decryption_factor = 0.15
 #			}

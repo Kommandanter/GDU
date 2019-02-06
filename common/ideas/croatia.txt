@@ -259,9 +259,6 @@ ideas = {
 			allowed = {
 				original_tag = CRO
 			}
-			available = {
-				has_completed_focus = CRO_integrate_orthodox_croats_focus
-			}
 
 
 
