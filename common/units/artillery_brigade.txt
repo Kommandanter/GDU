@@ -33,8 +33,6 @@ sub_units = {
 		training_time = 120
 		weight = 0.5
 		supply_consumption = 0.18
-		
-		soft_attack = 0.25
 
 		forest = {
 			attack = -0.2
