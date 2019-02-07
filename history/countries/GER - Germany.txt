@@ -368,7 +368,7 @@ create_corps_commander = {
 create_field_marshal = {
 	name = "Erich von Manstein"
 	picture = "Portrait_Germany_Erich_von_Manstein.dds"
-	traits = { offensive_doctrine thorough_planner fast_planner  inspirational_leader brilliant_strategist }
+	traits = { offensive_doctrine logistics_wizard aggressive_assaulter fast_planner inspirational_leader brilliant_strategist panzer_leader trickster trait_engineer }
 	skill = 7
 	id = 5
 	attack_skill = 6
@@ -377,17 +377,17 @@ create_field_marshal = {
 	logistics_skill = 5
 }
 
-#create_field_marshal = {
-#	name = "MemeLS"
-#	picture = "lich.dds"
-#	traits = { inspirational_leader }
-#	skill = 5
-#	id = 45
-#	attack_skill = 5
-#	defense_skill = 5
-#	planning_skill = 4
-#	logistics_skill = 4
-#}
+create_field_marshal = {
+	name = "Walter Model"
+	picture = "Portrait_Germany_Walter_Model.dds"
+	traits = { inspirational_leader unyielding_defender defensive_doctrine organisational_leader logistics_wizard infantry_leader ambusher trickster  }
+	skill = 5
+	id = 10
+	attack_skill = 6
+	defense_skill = 5
+	planning_skill = 4
+	logistics_skill = 5
+}
 
 create_corps_commander = {
 	name = "Heinz Guderian"
@@ -435,18 +435,6 @@ create_field_marshal = {
 	attack_skill = 4
 	defense_skill = 4
 	planning_skill = 3
-	logistics_skill = 5
-}
-
-create_field_marshal = {
-	name = "Walter Model"
-	picture = "Portrait_Germany_Walter_Model.dds"
-	traits = { inspirational_leader defensive_doctrine organisational_leader  }
-	skill = 5
-	id = 10
-	attack_skill = 6
-	defense_skill = 5
-	planning_skill = 4
 	logistics_skill = 5
 }
 
