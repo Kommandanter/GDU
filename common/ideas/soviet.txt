@@ -1,5 +1,45 @@
 ideas = {
 	country = {
+	
+		soviet_closed_market = {
+		
+			allowed = {
+				always = no 
+			}
+			
+			picture = idea_generic_closed_economy
+			
+			removal_cost = -1
+			
+			modifier = {
+				industrial_capacity_factory = 0.15
+				industrial_capacity_dockyard = 0.15
+				production_speed_buildings_factor = 0.25
+				research_time_factor = -0.10
+			}
+			
+		}
+		
+		soviet_limited_market = {
+		
+			allowed = {
+				always = no 
+			}
+			
+			picture = idea_generic_limited_exports
+			
+			removal_cost = -1
+			
+			modifier = {
+				industrial_capacity_factory = 0.10
+				industrial_capacity_dockyard = 0.10
+				production_speed_buildings_factor = 0.20
+				research_time_factor = -0.09
+			}
+			
+		}
+			
+			
 		shattered_retreat = {
 
 			allowed = {

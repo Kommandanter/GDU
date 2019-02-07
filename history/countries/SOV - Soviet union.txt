@@ -245,8 +245,9 @@ set_autonomy = {
 add_ideas = {
 	trotskyite_plot
 	home_of_revolution
+	soviet_closed_market
 	production_targets_idea
-
+	closed_economy
 }
 
 create_country_leader = {
