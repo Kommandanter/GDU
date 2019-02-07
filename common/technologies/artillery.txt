@@ -60,10 +60,6 @@ technologies = {
 		artillery_brigade = {
 			soft_attack = 0.1
 		}
-		### DD'S ADDITION
-		motorized_artillery_brigade = {
-			soft_attack = 0.1
-		}
 		
 		path = {
 			leads_to_tech = artillery1
@@ -162,10 +158,6 @@ technologies = {
 		artillery_brigade = {
 			soft_attack = 0.1
 		}
-		### DD'S ADDITION
-		motorized_artillery_brigade = {
-			soft_attack = 0.1
-		}
 		
 		path = {
 			leads_to_tech = artillery3
@@ -216,10 +208,6 @@ technologies = {
 			soft_attack = 0.1
 		}
 		artillery_brigade = {
-			soft_attack = 0.1
-		}
-		### DD'S ADDITION
-		motorized_artillery_brigade = {
 			soft_attack = 0.1
 		}
 		
@@ -313,10 +301,6 @@ technologies = {
 			soft_attack = 0.1
 		}
 		artillery_brigade = {
-			soft_attack = 0.1
-		}
-		### DD'S ADDITION
-		motorized_artillery_brigade = {
 			soft_attack = 0.1
 		}
 		
@@ -589,10 +573,6 @@ technologies = {
 		anti_air_brigade = {
 			air_attack = 0.1
 		}
-		### DD'S ADDITION
-		motorized_anti_air_brigade = {
-			air_attack = 0.1
-		}
 		
 		path = {
 			leads_to_tech = antiair2
@@ -663,10 +643,6 @@ technologies = {
 		anti_air_brigade = {
 			air_attack = 0.1
 		}
-		### DD'S ADDITION
-		motorized_anti_air_brigade = {
-			air_attack = 0.1
-		}
 		
 		path = {
 			leads_to_tech = antiair4
@@ -698,10 +674,6 @@ technologies = {
 			air_attack = 0.1
 		}
 		anti_air_brigade = {
-			air_attack = 0.1
-		}
-		### DD'S ADDITION
-		motorized_anti_air_brigade = {
 			air_attack = 0.1
 		}
 		
@@ -814,10 +786,6 @@ technologies = {
 		anti_tank_brigade = {
 			hard_attack = 0.1
 		}
-		### DD'S ADDITION
-		motorized_anti_tank_brigade = {
-			hard_attack = 0.1
-		}
 		
 		path = {
 			leads_to_tech = antitank2
@@ -915,10 +883,6 @@ technologies = {
 		anti_tank_brigade = {
 			hard_attack = 0.1
 		}
-		### DD'S ADDITION
-		motorized_anti_tank_brigade = {
-			hard_attack = 0.1
-		}
 		
 		path = {
 			leads_to_tech = antitank4
@@ -965,10 +929,6 @@ technologies = {
 			hard_attack = 0.1
 		}
 		anti_tank_brigade = {
-			hard_attack = 0.1
-		}
-		### DD'S ADDITION
-		motorized_anti_tank_brigade = {
 			hard_attack = 0.1
 		}
 	
