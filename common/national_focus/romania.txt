@@ -899,7 +899,7 @@ focus_tree = {
 			is_subject = no
 			OR = {
 				has_war = yes
-				threat > 0.25
+				date > 1938.1.1
 			}
 		}
 
@@ -1157,7 +1157,6 @@ focus_tree = {
 			}
 			custom_effect_tooltip = available_political_advisor
 			show_ideas_tooltip = ROM_mihail_sturdza
-			add_stability = -0.05
 			add_opinion_modifier = { modifier = ROM_appoint_german_friendly_government target = GER }
 			GER = { add_opinion_modifier = { modifier = ROM_appoint_german_friendly_government target = ROOT } }
 
