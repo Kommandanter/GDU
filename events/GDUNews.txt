@@ -1,5 +1,7 @@
 ﻿add_namespace = gdunews
 
+
+### Beginning of WW2 
 news_event = {
 	id = gdunews.1
 	title = gdunews.1.t
@@ -49,8 +51,6 @@ news_event = {
 			NOT = { tag = FRA }
 			NOT = { tag = USA }
 		}
-		add_timed_idea = { idea = alli_phoney_war days = 240 }
-		add_ideas = war_economy
 	}
 	
 	option = { 
@@ -74,6 +74,8 @@ news_event = {
 				tag = SOV
 				tag = FRA
 				tag = IRE 
+				tag = HOL
+				tag = POL
 			}
 		}
 	}

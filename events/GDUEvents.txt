@@ -1,73 +1,44 @@
 ﻿add_namespace = gduevents
 
-#### This event is equivalent to gdunews.1, specifically made for sneaky people who try to disable news event popups... ####
+#### Event that gives phoney war to allies ####
 country_event = { 
 	id = gduevents.1
 	title = gduevents.1.t
 	desc = gduevents.1.d
-	picture = GFX_news_event_polandinvasion
-
-	hidden = yes
+	picture = GFX_report_event_canadian_soldiers
 	
 	trigger = {
-		GER = {
-			has_war_with = FRA
-		}
-		GER = {
-			has_war_with = ENG
-		}
-		GER = {
-			has_war_with = POL
-		}
+		has_global_flag = war_is_hell 
 		NOT = {
-			has_global_flag = war_is_hell_2
+			has_country_flag = war_is_hell_2
 		}
-		
+		OR = { 
+			tag = IRE 
+			tag = HOL
+			tag = ENG
+			is_in_faction_with = ENG 
+		}
+		NOT = { tag = FRA }
+		NOT = { tag = USA }
 	}
-	
-	major = yes 
+		
 	
 	mean_time_to_happen = {
 		days = 2
 	}
 	
-	immediate = {
-		set_global_flag = war_is_hell_2
-		if = {
-			limit = {
-				OR = { 
-					tag = HOL 
-					tag = ENG
-					tag = NZL 
-					tag = AST
-					tag = SAF
-					tag = RAJ
-					tag = CAN 
-					tag = IRE
-				}
-			
-			}
-		add_timed_idea = { idea = alli_phoney_war days = 240 }
-		add_ideas = war_economy
-		}
+	immediate = { 
+		set_country_flag = war_is_hell_2
 	}
 	
 	option = {
 		name = gduevents.1.a
-		trigger = {
-			OR = { 
-				tag = IRE 
-				tag = HOL
-				tag = ENG
-				is_in_faction_with = ENG 
-			}
-			NOT = { tag = FRA }
-			NOT = { tag = USA }
-		}
-		set_global_flag = war_is_hell_2
 		add_timed_idea = { idea = alli_phoney_war days = 240 }
 		add_ideas = war_economy
+	
 	}
+	
+	
 	
 		
 			
