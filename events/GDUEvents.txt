@@ -1,0 +1,75 @@
+﻿add_namespace = gduevents
+
+#### This event is equivalent to gdunews.1, specifically made for sneaky people who try to disable news event popups... ####
+country_event = { 
+	id = gduevents.1
+	title = gduevents.1.t
+	desc = gduevents.1.d
+	picture = GFX_news_event_polandinvasion
+
+	hidden = yes
+	
+	trigger = {
+		GER = {
+			has_war_with = FRA
+		}
+		GER = {
+			has_war_with = ENG
+		}
+		GER = {
+			has_war_with = POL
+		}
+		NOT = {
+			has_global_flag = war_is_hell_2
+		}
+		
+	}
+	
+	major = yes 
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	immediate = {
+		set_global_flag = war_is_hell_2
+		if = {
+			limit = {
+				OR = { 
+					tag = HOL 
+					tag = ENG
+					tag = NZL 
+					tag = AST
+					tag = SAF
+					tag = RAJ
+					tag = CAN 
+					tag = IRE
+				}
+			
+			}
+		add_timed_idea = { idea = alli_phoney_war days = 240 }
+		add_ideas = war_economy
+		}
+	}
+	
+	option = {
+		name = gduevents.1.a
+		trigger = {
+			OR = { 
+				tag = IRE 
+				tag = HOL
+				tag = ENG
+				is_in_faction_with = ENG 
+			}
+			NOT = { tag = FRA }
+			NOT = { tag = USA }
+		}
+		set_global_flag = war_is_hell_2
+		add_timed_idea = { idea = alli_phoney_war days = 240 }
+		add_ideas = war_economy
+	}
+	
+		
+			
+		
+}

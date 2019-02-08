@@ -231,18 +231,6 @@ create_country_leader = {
 #	skill = 4
 #}
 
-create_corps_commander = {
-	name = "Marechal Salt"
-	picture = "saltFactory.dds"
-	traits = { panzer_leader }
-	skill = 1
-	id = 45
-	attack_skill = 4
-	defense_skill = 4
-	planning_skill = 2
-	logistics_skill = 2
-}
-
 create_field_marshal = {
 	name = "Maurice Gamelin"
 	picture = "Portrait_France_Maurice_Gamelin.dds"
