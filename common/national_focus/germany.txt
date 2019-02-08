@@ -1427,7 +1427,6 @@ focus_tree = {
 		completion_reward = {
 			42 = { set_demilitarized_zone = no }
 			51 = { set_demilitarized_zone = no }
-			custom_effect_tooltip = GER_rhineland_ultimatum
 			add_political_power = 120
 			army_experience = 15
 			add_named_threat = { threat = 5 name = GER_rhineland }
@@ -1435,7 +1434,6 @@ focus_tree = {
 				limit = { FRA = { is_puppet = no } }
 				FRA = {
 					country_event = { id = germany.60 }
-					custom_effect_tooltip = may_provoke_hostility
 				}
 			}
 		}
