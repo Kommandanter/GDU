@@ -1,0 +1,39 @@
+ideas = { 
+
+	country = {
+	
+		alli_phoney_war = {
+			
+			allowed = { 
+				always = no 
+			}
+			
+			cancel = {
+				OR = { 
+					has_war_with = ITA 
+					FRA = { has_capitulated = yes }
+				}
+			}
+			
+			removal_cost = -1
+
+			picture = chi_incompetent_officers
+			
+			modifier = {
+				army_attack_factor = -0.20
+				army_defence_factor = -0.20
+				army_core_attack_factor = 0.20
+				army_core_defence_factor = 0.20
+				war_support_factor = -0.20
+			}
+			
+		}
+	
+		
+		
+		
+		
+	}
+	
+	
+}
