@@ -833,44 +833,12 @@ country_event = {
 			target = EFR
 			type = puppet_wargoal_focus
 		}
-		hidden_effect = {
-			if = {
-				limit = { NOT = { USA = { has_tech = basic_medium_art } } }
-				USA = { set_technology = { basic_medium_art = 1 }	}
-			}
-			if = {
-				limit = { NOT = { USA = { has_tech = mechanised_infantry } } }
-				USA = { set_technology = { mechanised_infantry = 1 }	}
-			}
-			if = {
-				limit = { NOT = { USA = { has_tech = basic_medium_tank } } }
-				USA = { set_technology = { basic_medium_tank = 1 }	}
-			}
-			if = {
-				limit = { NOT = { ENG = { has_tech = basic_medium_tank } } }
-				ENG = { set_technology = { basic_medium_tank = 1 }	}
-			}
-			if = {
-				limit = { NOT = { ENG = { has_tech = basic_heavy_tank } } }
-				ENG = { set_technology = { basic_heavy_tank = 1 }	}
-			}
-			if = {
-				limit = { NOT = { ENG = { has_tech = basic_medium_art } } }
-				ENG = { set_technology = { basic_medium_art = 1 }	}
-			}
-		}
-
-		hidden_effect = {
-			load_oob = USA_Torch_historical
-			ENG = { load_oob = ENG_Torch_historical }
-		}
 
 		hidden_effect = {
 			GER = {
 				puppet = EFR
 			}
 		}
-		custom_effect_tooltip = USA_operation_torch_effect_2
 	}
 }
 
