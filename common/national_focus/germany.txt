@@ -2241,6 +2241,9 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
+			HUN = {
+				country_event = { id = germany.51 days = 30 }
+			}
 			if =  {
 				limit = {
 					OR = {
