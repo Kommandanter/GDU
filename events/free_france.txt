@@ -158,7 +158,6 @@ country_event = {
 		FRA = { transfer_state = 680 }
 		hidden_effect = {
 			FRA = {
-				hidden_effect = { load_oob = FRA_free_france_operation_exporter }
 				custom_effect_tooltip = FRA_free_france_operation_exporter_tt
 				country_event = free_france.71
 			}
@@ -239,7 +238,6 @@ country_event = {
 		}
 
 		custom_effect_tooltip = FRA_Torch_historical_tt
-		hidden_effect = { load_oob = FRA_Torch_historical }
 	}
 }
 
@@ -286,8 +284,6 @@ country_event = {
 		FRA = { transfer_state = 462 }
 		FRA = { transfer_state = 460 }
 		FRA = { transfer_state = 513 }
-		hidden_effect = { load_oob = FRA_free_france_afn_corps }
-		custom_effect_tooltip = FRA_free_france_afn_corps_tt
 		ai_chance = {
 			factor = 100
 		}
