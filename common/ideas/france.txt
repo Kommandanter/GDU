@@ -19,6 +19,7 @@ ideas = {
 			modifier = {
 				conversion_cost_civ_to_mil_factor= 0.15
 			}
+			
 		}
 
 		FRA_victors_of_wwi = {

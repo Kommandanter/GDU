@@ -767,6 +767,34 @@ air_wings = {
 			owner = "ENG"
 			amount = 100
 		}
+		###Below is equipment which technically belongs to France but goes to ENG anyway because they're the air controller
+		fighter_equipment_1 = {
+			owner = "ENG"
+			version_name = "fighter1 var1"
+			amount = 100
+		}
+		fighter_equipment_1 = {
+			owner = "ENG"
+			version_name = "fighter1 var1"
+			amount = 100
+		}
+		fighter_equipment_1 = {
+			owner = "ENG"
+			version_name = "fighter1 var1"
+			amount = 100
+		}
+		tac_bomber_equipment_1 =  {
+			owner = "ENG"
+			amount = 100
+		}
+		tac_bomber_equipment_1 =  {
+			owner = "ENG"
+			amount = 100
+		}
+		nav_bomber_equipment_1 = {
+			owner = "ENG"
+			amount = 100
+		}
 	}
   }
 
