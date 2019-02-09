@@ -2595,15 +2595,8 @@ focus_tree = {
 				declare_war_on = {
 					target = EFR
 					type = annex_everything
-			}
-			remove_ideas = inexperienced_army
-		
-		custom_effect_tooltip = USA_torch.tt
-		hidden_effect = {
-			
-		USA = {
-			load_oob = USA_torch
-		}
+				}
+				remove_ideas = inexperienced_army
 		
 	#	GER = { 
 	#	transfer_state = 32
@@ -2629,9 +2622,9 @@ focus_tree = {
 	
 		}
 			
-			}
-		}
 	}
+}
+	
 	
 	focus = {
 		id = USA_nondiscriminatory_draft
