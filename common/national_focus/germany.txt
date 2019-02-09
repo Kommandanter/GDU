@@ -1878,34 +1878,10 @@ focus_tree = {
 						}
 					}
 				}
-				effect_tooltip = {
-					transfer_state = 85
-					transfer_state = 86
-					transfer_state = 762
-					add_state_core = 85
-					add_state_core = 86
-					add_state_core = 762
-				}
+				add_state_core = 85
+				add_state_core = 86
 				POL = {
 					country_event = { id = germany.86 }
-					if = {
-						limit = { NOT = { is_in_faction_with = ROOT } }
-						custom_effect_tooltip = needs_approval
-					}
-					if = {
-						limit = {
-							is_in_faction_with = ROOT
-							ROOT = { is_faction_leader = yes }
-						}
-						custom_effect_tooltip = GER_danzig_or_war_POL_faction_GER_leader
-					}
-					if = {
-						limit = {
-							is_in_faction_with = ROOT
-							NOT = { ROOT = { is_faction_leader = yes } }
-						}
-						custom_effect_tooltip = GER_danzig_or_war_POL_faction_GER_noleader
-					}
 				}
 			}
 			if = {
@@ -1933,7 +1909,6 @@ focus_tree = {
 					}
 					country_event = { id = germany.113 days = 1 }
 				}
-				custom_effect_tooltip = GER_danzig_or_war_POL_civil_war
 			}
 		}
 	}
