@@ -1587,6 +1587,8 @@ country_event = {
 		ai_chance = { factor = 99 }
 		ENG = { country_event = germany.62 }
 		add_opinion_modifier = { target = GER modifier = protest_action }
+		add_war_support = 0.10
+		add_ideas = partial_economic_mobilisation
 	}
 }
 

@@ -129,7 +129,7 @@
  germany.60.d:0 "Several German divisions recently advanced into the Rhineland, marking the first time since the end of the Great War that Germany has forces positioned west of the Rhine. This is in clear violation of the Versailles Treaty, under which Germany is forbidden from militarizing the region! Unless we issue an ultimatum demanding their withdrawal, the treaty will not be enforced."
  germany.60.a:0 "This is an act of war! Rally the British to our side!"
  germany.60.a.tt:0 "§RIf war breaks out, we will suffer a civil war due to our §YDisjointed Government:§!\n"
- germany.60.b:0 "Issue a diplomatic objection."
+ germany.60.b:0 "Issue a diplomatic objection... And quietly begin rearmament."
  germany.61.d:0 "Several German divisions recently advanced into the Rhineland, marking the first time since the end of the Great War that Germany has forces positioned west of the Rhine. This is in clear violation of the Versailles Treaty, under which Germany is forbidden from militarizing the region!\n\nThe French are mobilizing their forces, and seem intent on issuing an ultimatum. If Germany refuses, they are prepared to advance into Germany to deal with this threat. Popular opinion in Britain is against a war, but if we refuse to stand by the French our alliance with them will be dissolved."
  germany.61.a:0 "A war is out of the question."
  germany.61.b:0 "We must stand by France!"
