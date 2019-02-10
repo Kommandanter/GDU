@@ -830,9 +830,7 @@ focus_tree = {
 		x = 13
 		y = 0
 		cost = 10
-								available = {
-			num_of_factories > 1
-		}
+
 		available_if_capitulated = yes
 
 		completion_reward = {
