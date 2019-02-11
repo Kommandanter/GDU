@@ -27,7 +27,7 @@ LUX = {
 BEL = { color 	 = rgb { 193 171 8  }
 		color_ui = rgb { 251 222 10 }
 	  }
-HOL = {	color = rgb { 203 138 74 }
+HOL = {	color = rgb { 220 140 0 }
 		color_ui = rgb { 255 179 96 }
 }
 CZE = {	color = rgb { 54 167 156 }
@@ -54,7 +54,7 @@ LAT = {
 	color_ui = rgb { 124 125 184 }
 }
 SPR = {
-	color = rgb { 242 205 94 }
+	color = rgb { 249 165 0 }
 	color_ui = rgb { 255 255 122 }
 }
 ITA = {
@@ -78,7 +78,7 @@ TUR = {
 	color_ui = rgb { 222 247 198 }
 }
 GRE = {
-	color = rgb { 93 181 227 }
+	color = rgb { 13 181 227 }
 	color_ui = rgb { 121 235 255 }
 }
 ALB = {
@@ -110,7 +110,7 @@ IRE = {
 	color_ui = rgb { 104 207 117 }
 }
 HUN = {
-	color = rgb { 249 126 98 }
+	color = rgb { 180 52 32 }
 	color_ui = rgb { 255 164 127 }
 }
 AFG = {
@@ -122,7 +122,7 @@ ARG = {
 	color_ui = rgb { 189 204 255 }
 }
 AST = {
-	color = rgb { 57 143 97 }
+	color = rgb { 0 132 61 }
 	color_ui = rgb { 74 186 126 }
 }
 BHU = {
@@ -202,7 +202,7 @@ NIC = {
 	color_ui = rgb { 146 179 191 }
 }
 NZL = {
-	color = rgb { 152 130 191 }
+	color = rgb { 192 192 192 }
 	color_ui = rgb { 198 169 248 }
 }
 PAN = {
@@ -222,7 +222,7 @@ PRU = {
 	color_ui = rgb { 255 246 255 }
 }
 SAF = {
-	color = rgb { 152 130 191 }
+	color = rgb { 200 120 0 }
 	color_ui = rgb { 198 169 248 }
 }
 SAU = {
