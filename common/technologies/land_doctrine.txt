@@ -1329,7 +1329,7 @@ technologies = {
 		}
 
 		#planning max bonus increase
-		max_planning = 0.2
+		max_planning = 0.3
 
 		doctrine = yes
 		research_cost = 3.6
@@ -1678,7 +1678,7 @@ technologies = {
 		}
 		category_light_infantry = {
 			max_organisation = 5
-			breakthrough = 0.2
+			default_morale = 0.10
 		}
 
 		enable_tactic = tactic_infantry_charge
@@ -1791,10 +1791,11 @@ technologies = {
 
 	night_assault_tactics = {
 
-		#reduce land night combat penalty
-		land_night_attack = 0.25 # negates half of base penalty
-
-
+		
+		category_leg_infantry = { 
+			breakthrough = 0.15
+		}
+		
 		path = {
 			leads_to_tech = attritional_containment
 			research_cost_coeff = 1
@@ -1862,10 +1863,10 @@ technologies = {
 
 	infiltration_in_depth = {
 
-		land_reinforce_rate = 0.02
+		land_reinforce_rate = 0.05
 
 		recon = {
-			recon = 1
+			recon = 3
 		}
 
 		doctrine = yes

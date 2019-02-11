@@ -2794,12 +2794,8 @@ focus_tree = {
 					has_government = democratic
 				}
 				add_popularity = {
-					ideology = fascism
-					popularity = -0.1
-				}
-				add_popularity = {
-					ideology = communism
-					popularity = -0.1
+					ideology = democratic
+					popularity = 0.15
 				}
 			}
 			if = {
