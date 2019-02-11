@@ -437,7 +437,6 @@ leader_traits = {
 		
 		cost = 1000
 		modifier = {
-			cavalry_attack_factor = 0.05
 			motorized_attack_factor = 0.05
 			mechanized_attack_factor = 0.05
 		}
@@ -883,8 +882,8 @@ leader_traits = {
 		}
 		cost = 500
 		modifier = {
-			cavalry_attack_factor = 0.05
-			cavalry_defence_factor = 0.075
+			cavalry_attack_factor = 0.00
+			cavalry_defence_factor = 0.00
 		}
 		
 		ai_will_do = {
@@ -910,9 +909,7 @@ leader_traits = {
 		}
 		cost = 700
 		modifier = {
-			fort = {
-				attack = 0.1
-			}
+			fortification_damage = 0.3
 		}
 		enable_ability = siege_artillery
 		
