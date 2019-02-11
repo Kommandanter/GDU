@@ -120,7 +120,7 @@ NDefines.NMilitary.UNIT_LEADER_ASSIGN_TRAIT_COST = 0.00 -- Assigning traits is a
 NDefines.NMilitary.ARMOR_VS_AVERAGE = 0.2			                -- how to weight in highest armor & pen vs the division average
 NDefines.NMilitary.PEN_VS_AVERAGE = 1.0
 
-
+NDefines.NAir.AIR_MORE_GROUND_CREWS_COST = 500.0 -- Disables ground crews. They're cancerous. 
 NDefines.NAir.ENEMY_AIR_SUPERIORITY_IMPACT= -0.9
 NDefines.NAir.COMBAT_AMOUNT_DIFF_AFFECT_GANG_CHANCE = 0.4
 NDefines.NAir.COMBAT_SITUATION_WIN_CHANCE_FROM_GANG = 0.1
