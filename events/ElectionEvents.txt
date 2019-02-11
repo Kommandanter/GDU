@@ -635,7 +635,7 @@ country_event = {
 		}
 		name = election.14.b
 		add_political_power = 20
-		add_stability = -0.05
+		add_stability = 0.05
 		add_popularity = {
 			ideology = communism
 			popularity = 0.05
