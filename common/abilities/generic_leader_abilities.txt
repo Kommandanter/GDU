@@ -41,7 +41,6 @@ ability = {
 		duration = 168
 
 		one_time_effect = {
-			set_country_flag = using_attack
 			add_temporary_buff_to_units = {
 				combat_offense = 0.1
 				combat_breakthrough = 0.1
