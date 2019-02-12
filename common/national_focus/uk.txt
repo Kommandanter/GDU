@@ -842,7 +842,7 @@ focus = {
 		icon = GFX_goal_generic_air_doctrine
 		x = 7
 		y = 2
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -1063,7 +1063,7 @@ focus = {
 		icon = GFX_goal_generic_air_fighter
 		x = 6
 		y = 4
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -1074,7 +1074,7 @@ focus = {
 			air_experience = 100
 			add_tech_bonus = {
 				name = fighter_command_focus
-				bonus = 0.5
+				bonus = 0.75
 				uses = 1
 				technology = fighter2
 			}
