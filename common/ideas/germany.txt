@@ -1302,7 +1302,10 @@ ideas = {
 
 			cost = 75
 			allowed = {
+				OR = { 
+				original_tag = BUL
 				original_tag = GER
+				}
 			}
 
 			research_bonus = {
@@ -1345,7 +1348,11 @@ ideas = {
 
 			cost = 75
 			allowed = {
-				original_tag = GER
+				or = { 
+					original_TAG = GER
+					original_TAG = HUN 
+					original_TAG = BUL 
+				}
 			}
 
 			research_bonus = {
@@ -1393,18 +1400,15 @@ ideas = {
 			equipment_bonus = {
 				heavy_tank_equipment = {
 					hard_attack = 0.2
-					ap_attack = 0.2
+					soft_attack = 0.1
 					defense = 0.2
-					armor_value = 0.20
-					build_cost_ic = 0.15
+					build_cost_ic = 0.10
 				}
 				heavy_tank_destroyer_equipment = {
 					hard_attack = 0.25
-					ap_attack = 0.2
-					armor_value = 0.2
 					defense = 0.2
-					breakthrough = -0.10
-					build_cost_ic = 0.10
+					breakthrough = 0.10
+					build_cost_ic = 0.05
 				}
 			}
 		}
@@ -1413,7 +1417,11 @@ ideas = {
 
 			cost = 75
 			allowed = {
-				original_tag = GER
+				or = { 
+					original_TAG = GER
+					original_TAG = HUN 
+					original_TAG = BUL 
+				}
 			}
 			research_bonus = {
 				armor = 0.10
@@ -1461,10 +1469,10 @@ ideas = {
 			equipment_bonus = {
 				medium_tank_equipment = {
 					hard_attack = 0.20
-					ap_attack = 0.20
-					armor_value = 0.20
+					soft_attack = 0.10
+					maximum_speed = 0.10 
 					reliability = -0.05
-					build_cost_ic = 0.15
+					build_cost_ic = 0.10
 				}
 			}
 		}
@@ -1473,7 +1481,10 @@ ideas = {
 
 			cost = 75
 			allowed = {
-				original_tag = GER
+				or = { 
+					original_TAG = GER
+					original_TAG = HUN 
+				}
 			}
 
 			research_bonus = {
@@ -1482,10 +1493,10 @@ ideas = {
 
 			equipment_bonus = {
 				heavy_tank_equipment = {
-					armor_value = 0.10
-					ap_attack = 0.10
-					reliability = -0.05
-					build_cost_ic = 0.10
+					hard_attack = 0.05 
+					soft_attack = 0.05
+					reliability = 0.05
+					build_cost_ic = 0.05
 		}
 			}
 

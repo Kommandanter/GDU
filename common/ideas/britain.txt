@@ -1077,7 +1077,16 @@ ideas = {
 		birmingham_rcw = {
 			cost = 75
 			allowed = {
-				original_TAG = ENG
+				OR = { 
+					original_TAG = ENG
+					original_TAG = CAN
+					original_TAG = RAJ 
+					original_TAG = SAF 
+					original_TAG = NZL 
+					original_TAG = AST 
+					original_TAG = HOL
+					original_TAG = IRE 
+				}
 			}
 			available = {
 				date > 1939.1.1
@@ -1088,20 +1097,17 @@ ideas = {
 
 			equipment_bonus = {
 				medium_tank_equipment = {
-					armor_value = 0.10
 					maximum_speed = 0.1
-					soft_attack = 0.05
+					soft_attack = 0.1
+					hard_attack = 0.05
 					reliability = 0.1
 				}
 				medium_tank_destroyer_equipment = {
-					armor_value = 0.15
 					maximum_speed = 0.1
 					hard_attack = 0.1
-					ap_attack = 0.05
 					reliability = 0.1
 				}
 				medium_tank_artillery_equipment = {
-					armor_value = 0.15
 					maximum_speed = 0.1
 					soft_attack = 0.05
 					reliability = 0.1
@@ -1134,7 +1140,16 @@ ideas = {
 		nuffield = {
 			cost = 75
 			allowed = {
-				original_TAG = ENG
+				OR = { 
+					original_TAG = ENG
+					original_TAG = CAN
+					original_TAG = RAJ 
+					original_TAG = SAF 
+					original_TAG = NZL 
+					original_TAG = AST 
+					original_TAG = HOL
+					original_TAG = IRE 
+				}
 			}
 			research_bonus = {
 				armor = 0.10
@@ -1162,7 +1177,16 @@ ideas = {
 		vauxhall_motors = {
 			cost = 75
 			allowed = {
-				original_TAG = ENG
+				OR = { 
+					original_TAG = ENG
+					original_TAG = CAN
+					original_TAG = RAJ 
+					original_TAG = SAF 
+					original_TAG = NZL 
+					original_TAG = AST 
+					original_TAG = HOL
+					original_TAG = IRE 
+				}
 			}
 			available = {
 				date > 1939.6.1
@@ -1173,25 +1197,22 @@ ideas = {
 
 			equipment_bonus = {
 				heavy_tank_equipment = {
-					armor_value = 0.15
+					hard_attack = 0.1
+					soft_attack = 0.1
 					defense = 0.1
-					maximum_speed = -0.15
+					maximum_speed = -0.10
 					reliability = 0.05
-					ap_attack = -0.05
 				}
 				heavy_tank_destroyer_equipment = {
-					armor_value = 0.2
 					defense = 0.1
-					hard_attack = 0.1
-					ap_attack = 0.1
-					maximum_speed = -0.15
+					hard_attack = 0.05
+					maximum_speed = -0.10
 					reliability = 0.05
 				}
 				heavy_tank_artillery_equipment = {
-					armor_value = 0.2
 					defense = 0.1
-					soft_attack = 0.05
-					maximum_speed = -0.15
+					soft_attack = 0.1
+					maximum_speed = -0.10
 					reliability = -0.05
 				}
 				}
@@ -1200,7 +1221,16 @@ ideas = {
 		vickers_armstrong_eng = {
 			cost = 75
 			allowed = {
-				original_TAG = ENG
+				OR = { 
+					original_TAG = ENG
+					original_TAG = CAN
+					original_TAG = RAJ 
+					original_TAG = SAF 
+					original_TAG = NZL 
+					original_TAG = AST 
+					original_TAG = HOL
+					original_TAG = IRE 
+				}
 			}
 			research_bonus = {
 				armor = 0.10
@@ -1208,22 +1238,18 @@ ideas = {
 
 			equipment_bonus = {
 				heavy_tank_equipment = {
-					armor_value = 0.10
-					maximum_speed = -0.15
+					maximum_speed = -0.05
 					reliability = 0.05
 				}
 				heavy_tank_destroyer_equipment = {
-					armor_value = 0.10
-					hard_attack = 0.1
-					ap_attack = 0.05
-					maximum_speed = -0.15
+					hard_attack = 0.15
+					maximum_speed = -0.10
 					reliability = 0.05
 				}
 				heavy_tank_artillery_equipment = {
-					armor_value = 0.10
-					breakthrough = 0.05
+					breakthrough = 0.1
 					soft_attack = 0.05
-					maximum_speed = -0.15
+					maximum_speed = -0.10
 					reliability = 0.05
 				}
 				light_tank_equipment = {

@@ -642,9 +642,8 @@ ideas = {
 			equipment_bonus = {
 				medium_tank_equipment = {
 					hard_attack = 0.10
-					ap_attack = 0.10
-					armor_value = 0.10
-					reliability = 0.05
+					soft_attack = 0.05 
+					reliability = 0.15
 				}
 			}
 		}
