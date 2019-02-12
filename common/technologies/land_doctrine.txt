@@ -81,7 +81,7 @@ technologies = {
 
 	elastic_defence = {
 
-		land_reinforce_rate = 0.02
+		land_reinforce_rate = 0.05
 
 		category_tanks = {
 			max_organisation = 1
@@ -1186,7 +1186,7 @@ technologies = {
 
 	forward_observers = {
 
-		land_reinforce_rate = 0.02
+		land_reinforce_rate = 0.05
 
 		recon = {
 			recon = 1
@@ -1458,10 +1458,10 @@ technologies = {
 		}
 
 		motorized = {
-			max_organisation = 10
+			max_organisation = 15
 		}
 		mechanized = {
-			max_organisation = 10
+			max_organisation = 15
 		}
 
 		enable_tactic = tactic_blitz
@@ -1541,7 +1541,7 @@ technologies = {
 			max_organisation = 5
 		}
 		category_tanks = {
-			max_organisation = 1
+			max_organisation = 3
 		}
 
 		path = {
@@ -1615,8 +1615,9 @@ technologies = {
 
 	central_planning = {
 
+		supply_consumption_factor = -0.15
 		max_planning = 0.1
-		planning_speed = 0.1
+		planning_speed = 0.15
 
 
 		path = {
@@ -1650,12 +1651,12 @@ technologies = {
 
 	c3i_theory = {
 
-		land_reinforce_rate = 0.02
+		land_reinforce_rate = 0.05
 		category_all_infantry = {
 			max_organisation = 5
 		}
 		category_tanks = {
-			max_organisation = 1
+			max_organisation = 2
 		}
 
 		doctrine = yes
@@ -1688,8 +1689,8 @@ technologies = {
 			grand_mechanized_offensive
 		}
 		category_light_infantry = {
-			max_organisation = 5
-			default_morale = 0.10
+			max_organisation = 10
+			default_morale = 0.05
 		}
 
 		enable_tactic = tactic_infantry_charge
@@ -1769,8 +1770,10 @@ technologies = {
 	infiltration_assault = {
 
 
-		supply_consumption_factor = -0.20
-
+		supply_consumption_factor = -0.15
+		amphibious_invasion_defence = 0.15
+		max_planning = 0.10
+		
 		path = {
 			leads_to_tech = night_assault_tactics
 			research_cost_coeff = 1
@@ -1802,8 +1805,9 @@ technologies = {
 
 	night_assault_tactics = {
 
+		planning_speed = 0.1
 		
-		category_leg_infantry = { 
+		category_light_infantry = { 
 			breakthrough = 0.15
 		}
 		
@@ -1841,8 +1845,14 @@ technologies = {
 	attritional_containment = {
 
 		category_all_infantry = {
-			max_organisation = 10
+			max_organisation = 5
 		}
+		
+		category_line_artillery = {
+			max_organisation = 5
+			default_morale = 0.05
+		}
+		
 		path = {
 			leads_to_tech = infiltration_in_depth
 			research_cost_coeff = 1
@@ -1879,6 +1889,11 @@ technologies = {
 		recon = {
 			recon = 3
 		}
+		
+		category_army = { 
+			maximum_speed = 0.1
+		}
+			
 
 		doctrine = yes
 		research_cost = 3.6
