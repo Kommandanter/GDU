@@ -2539,29 +2539,6 @@ focus_tree = {
 		}
 	}
 
-	focus = {
-		id = USA_preemptive_intervention
-		icon = GFX_goal_generic_territory_or_war
-		prerequisite = { focus = USA_pax_americana }
-		x = 11
-		y = 4
-		cost = 10
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				has_government = democratic
-			}
-		}
-		completion_reward = {
-					add_named_threat = { 
-						threat = 1 name = USA_preemptive_intervention 
-					}					 
-					puppet = VEN 
-					
-		}
-	}
-
 	
 	focus = {
 		id = USA_vichy_ultimatum
