@@ -1501,7 +1501,7 @@ focus_tree = {
 		cost = 1
 		
 		available = {
-			date > 1941.6.1
+			date > 1941.1.1
 		}
 		historical_ai = {
 			NOT = {
@@ -1539,10 +1539,7 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
-			create_wargoal = {
-				type = annex_everything
-				target = SOV
-		}
+			unlock_decision_tooltip = GER_case_barbarossa
 	}
 }
 
@@ -2847,6 +2844,7 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
+			add_war_support = 0.20
 			remove_ideas = sour_loser
 			add_ideas = triumphant_will
 		}

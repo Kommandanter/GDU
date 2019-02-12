@@ -72,4 +72,40 @@ country_event = {
 	
 }
 
+# This event is triggered by Germany's decision to begin Barbarossa, unlocked by the USSR wargoal focus for GER. It warns the Axis of what's coming. 
+
+country_event = { 
+	id = gduevents.3
+	title = gduevents.3.t
+	desc = gduevents.3.d
+	picture = GFX_report_event_fall_blau
+	
+	is_triggered_only = yes
+		
+	fire_only_once = yes 
+	
+	option = {
+		name = gduevents.3.a
+	}
+	
+	
+}
+
+country_event = { 
+	id = gduevents.4
+	title = gduevents.4.t
+	desc = gduevents.4.d
+	picture = GFX_report_event_soviet_tanks
+	
+	is_triggered_only = yes
+		
+	fire_only_once = yes 
+	
+	option = {
+		name = gduevents.4.a
+		custom_effect_tooltip = SOV_barbarossa_tooltip
+	}
+	
+	
+}
 

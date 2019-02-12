@@ -13,3 +13,5 @@
  SPR_civil_war_threat:0 "Spanish Civil War"
  JAP_war_with_china:0 "Counterweight for Japanese War"
  GER_fall_gelb_tooltip:0 "Unlocks §YCase Yellow§!, allowing for the simultaneous invasion of the entire Benelux region.\n\n"
+ GER_barbarossa_tooltip:0 "§RThe entire Axis will strike the Soviet Union in an unprovoked surprise attack.§!\n\n"
+ SOV_barbarossa_tooltip:0 "§RThey are coming.§!"
