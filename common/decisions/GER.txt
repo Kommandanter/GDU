@@ -121,6 +121,49 @@ GER_case_anton_category = {
 
 operations = {
 
+	GER_fall_gelb = { 
+	
+		icon = generic_operation
+		fire_only_once = yes
+		
+		allowed = { 
+			tag = GER 
+		}
+	
+		available = { 
+			has_completed_focus = GER_around_maginot 
+		}	
+	
+		cost = 0
+		ai_will_do = {
+			factor = 10
+			
+		}
+		
+		visible = { 
+			has_war = yes
+		}
+		
+		complete_effect = {
+			declare_war_on = {
+				target = HOL
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = BEL
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = LUX
+				type = annex_everything
+			}		
+		}
+	
+	}
+	
+	
+	
+
 	GER_barbarossa_mission = {
 
 		icon = generic_operation

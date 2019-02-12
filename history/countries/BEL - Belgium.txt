@@ -22,6 +22,10 @@ set_technology = {
 
 }
 
+add_ideas = { 
+	benelux_neutrality 
+}
+
 1939.1.1 = {
 	add_ideas = {
 		limited_conscription

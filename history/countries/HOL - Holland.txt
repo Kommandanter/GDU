@@ -22,6 +22,10 @@ set_technology = {
 	transport = 1
 }
 
+add_ideas = { 
+	benelux_neutrality 
+}
+
 # DIPLOMACY
 if = {
 	limit = {
