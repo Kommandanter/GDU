@@ -1136,11 +1136,11 @@ technologies = {
 		}
 
 		category_all_infantry = { 
-			soft_attack = 0.075 
+			soft_attack = 0.05 
 			max_organisation = 5
 		}
 		category_line_artillery = {
-			soft_attack = 0.075
+			soft_attack = 0.05
 			max_organisation = 3
 		}
 
