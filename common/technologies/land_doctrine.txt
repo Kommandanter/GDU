@@ -1105,7 +1105,12 @@ technologies = {
 
 		#combat advantage when air superior
 		army_bonus_air_superiority_factor = 0.20
-
+		
+		
+		category_light_infantry = { 
+			hard_attack = 0.1 
+		}
+		
 		doctrine = yes
 		research_cost = 3.6
 
