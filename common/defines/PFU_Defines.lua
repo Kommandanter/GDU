@@ -117,7 +117,6 @@ NDefines.NMilitary.ORG_LOSS_FACTOR_ON_CONQUER = 0.25
 NDefines.NMilitary.PLAYER_ORDER_PLANNING_DECAY = 0.01
 NDefines.NMilitary.STRATEGIC_SPEED_BASE = 7.0
 NDefines.NMilitary.EFFICIENCY_REGION_CHANGE_DAILY_GAIN_STRATEGIC_BOMBER = 0.018
-NDefines.NMilitary.UNIT_LEADER_ASSIGN_TRAIT_COST = 0.00 -- Assigning traits is a PITA. Why should it cost anything?
 NDefines.NMilitary.ARMOR_VS_AVERAGE = 0.2			                -- how to weight in highest armor & pen vs the division average
 NDefines.NMilitary.PEN_VS_AVERAGE = 1.0
 NDefines.NMilitary.REINFORCE_CHANCE = 0.05
@@ -134,9 +133,12 @@ NDefines.NMilitary.PARACHUTE_ORG_REGAIN_PENALTY_DURATION = 120   -- penalty in o
 NDefines.NMilitary.PARACHUTE_ORG_REGAIN_PENALTY_MULT = -0.6	   -- penalty to org regain after being parachuted.
 NDefines.NMilitary.PARADROP_PENALTY = -0.2 
 
-NDefines.NMilitary.ACCLIMATIZATION_IN_COMBAT_SPEED_FACTOR = 4,		-- Acclimatization speed multiplier while being in combat.
-NDefines.NMilitary.ACCLIMATIZATION_SPEED_GAIN = 0.05,				-- A variable used to balance the overall speed of gaining the acclimatization
-NDefines.NMilitary.ACCLIMATIZATION_LOSS_SPEED_FACTOR = 4.0,		-- Loosing one acclimatization while being under affect of the opposite climate should cause it to drop down much faster than gaining.
+NDefines.NMilitary.ACCLIMATIZATION_IN_COMBAT_SPEED_FACTOR = 4		-- Acclimatization speed multiplier while being in combat.
+NDefines.NMilitary.ACCLIMATIZATION_SPEED_GAIN = 0.05				-- A variable used to balance the overall speed of gaining the acclimatization
+NDefines.NMilitary.ACCLIMATIZATION_LOSS_SPEED_FACTOR = 4.0		-- Loosing one acclimatization while being under affect of the opposite climate should cause it to drop down much faster than gaining.
+
+NDefines.NMilitary.UNIT_LEADER_ASSIGN_TRAIT_COST = 0.00 -- Assigning traits is a PITA. Why should it cost anything?
+NDefines.NMilitary.PROMOTE_LEADER_CP_COST = 0.0 -- CP is used for too many things in the mod for it to be spent on something like this without it being a nuisance. 
 
 NDefines.NAir.AIR_MORE_GROUND_CREWS_COST = 500.0 -- Disables ground crews. They're cancerous. 
 NDefines.NAir.ENEMY_AIR_SUPERIORITY_IMPACT= -0.9
