@@ -88,6 +88,7 @@ NDefines.NMilitary.MAX_ARMY_EXPERIENCE = 1000
 NDefines.NMilitary.MAX_NAVY_EXPERIENCE = 1000
 NDefines.NMilitary.MAX_AIR_EXPERIENCE = 1000
 NDefines.NMilitary.COMBAT_MINIMUM_TIME = 2
+NDefines.NMilitary.CHANCE_TO_AVOID_HIT_AT_NO_DEF = 50
 NDefines.NMilitary.LAND_COMBAT_STR_DAMAGE_MODIFIER = 0.08
 NDefines.NMilitary.LAND_COMBAT_ORG_DAMAGE_MODIFIER = 0.05
 NDefines.NMilitary.LAND_COMBAT_ORG_ARMOR_DEFLECTION_FACTOR = 0.50 -- damage reduction if armor outclassing enemy
