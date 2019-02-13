@@ -11,41 +11,6 @@ focus_tree = {
 	}
 
 	default = no
-##################################################
-###########Special PFU EVENTS
-##################################################
-focus = {
-		id = ENG_Operation_Husky
-		icon = GFX_goal_generic_position_armies
-		
-	    available = {
-			ENG = { controls_state = 448 }
-			ENG = { controls_state = 450 }
-			ENG = { controls_state = 116 }
-			ITA = { controls_state = 115 }
-		}
-
-		x = 9
-		y = 0
-		cost = 0.2
-
-		completion_reward = {
-			add_timed_idea = { idea = ENG_OPERATION_HUSKY days = 25 }
-			USA = { add_timed_idea = { idea = USA_OPERATION_HUSKY days = 25 } }
-			CAN = { add_timed_idea = { idea = COM_OPERATION_HUSKY days = 25 } }
-			SAF = { add_timed_idea = { idea = COM_OPERATION_HUSKY days = 25 } }
-			FRA = { add_timed_idea = { idea = COM_OPERATION_HUSKY days = 25 } }
-			AST = { add_timed_idea = { idea = COM_OPERATION_HUSKY days = 25 } }
-			NZL = { add_timed_idea = { idea = COM_OPERATION_HUSKY days = 25 } }
-			custom_effect_tooltip = ENG_Operation_Husky_tt
-		}
-	}
-
-
-##################################################
-###########End of Special PFU EVENTS
-##################################################
-
 
 	focus = {
 		id = crypto_bomb_focus
