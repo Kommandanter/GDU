@@ -188,7 +188,6 @@ add_ideas = {
 	home_of_the_free
 	usa_special_forces
 	discriminatory_draft
-	inexperienced_army
 }
 
 

@@ -17,20 +17,6 @@ ideas = {
 			}
 		}
 		
-		inexperienced_army = {
-
-			removal_cost = -1
-
-			picture = generic_victors_of_ww1
-			
-			modifier = {
-				army_core_defence_factor = 0.35
-				army_core_attack_factor = 0.35
-				army_defence_factor = -0.2
-				army_attack_factor = -0.2
-			}
-		}
-		
 		advanced_mahanian_doctrine = {
 			allowed = {
 				always = no
