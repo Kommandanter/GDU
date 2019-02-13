@@ -23,6 +23,7 @@ buildings = {
 		max_level = 50
 		shares_slots = yes
 		value = 8
+		damage_factor = 0.8
 		infrastructure_construction_effect = yes
 	}
 ### civs
@@ -34,6 +35,7 @@ buildings = {
 		icon_frame = 1
 		max_level = 50
 		shares_slots = yes
+		damage_factor = 0.5
 		value = 5
 		infrastructure_construction_effect = yes
 	}
@@ -98,6 +100,7 @@ buildings = {
 		only_costal = yes
 		max_level = 50
 		shares_slots = yes
+		damage_factor = 0.75
 		value = 5
 		infrastructure_construction_effect = yes
 	}
@@ -126,6 +129,7 @@ buildings = {
 		max_level = 3 # This is the max unlock level
 		shares_slots = yes
 		value = 5
+		damage_factor = 0.75
 		infrastructure_construction_effect = yes
 	}
 
