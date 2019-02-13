@@ -134,6 +134,10 @@ NDefines.NMilitary.PARACHUTE_ORG_REGAIN_PENALTY_DURATION = 120   -- penalty in o
 NDefines.NMilitary.PARACHUTE_ORG_REGAIN_PENALTY_MULT = -0.6	   -- penalty to org regain after being parachuted.
 NDefines.NMilitary.PARADROP_PENALTY = -0.2 
 
+NDefines.NMilitary.ACCLIMATIZATION_IN_COMBAT_SPEED_FACTOR = 4,		-- Acclimatization speed multiplier while being in combat.
+NDefines.NMilitary.ACCLIMATIZATION_SPEED_GAIN = 0.05,				-- A variable used to balance the overall speed of gaining the acclimatization
+NDefines.NMilitary.ACCLIMATIZATION_LOSS_SPEED_FACTOR = 4.0,		-- Loosing one acclimatization while being under affect of the opposite climate should cause it to drop down much faster than gaining.
+
 NDefines.NAir.AIR_MORE_GROUND_CREWS_COST = 500.0 -- Disables ground crews. They're cancerous. 
 NDefines.NAir.ENEMY_AIR_SUPERIORITY_IMPACT= -0.9
 NDefines.NAir.COMBAT_AMOUNT_DIFF_AFFECT_GANG_CHANCE = 0.4
