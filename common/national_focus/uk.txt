@@ -181,6 +181,7 @@ focus = {
 		available_if_capitulated = yes
 
 		complete_tooltip = {
+			add_political_power = 100 
 			every_state = {
 				limit = { has_state_flag = ENG_limited_rearmament_focus_2IC }
 				add_extra_state_shared_building_slots = 2
