@@ -132,6 +132,7 @@ NDefines.NMilitary.PARACHUTE_DISRUPTED_AA_PENALTY = 1            -- How much the
 NDefines.NMilitary.PARACHUTE_COMPLETE_ORG = 0.3				   -- Organisation value (in %) after unit being dropped, regardless if failed, disrupted, or successful.
 NDefines.NMilitary.PARACHUTE_ORG_REGAIN_PENALTY_DURATION = 120   -- penalty in org regain after being parachuted. Value is in hours.
 NDefines.NMilitary.PARACHUTE_ORG_REGAIN_PENALTY_MULT = -0.6	   -- penalty to org regain after being parachuted.
+NDefines.NMilitary.PARADROP_PENALTY = -0.2 
 
 NDefines.NAir.AIR_MORE_GROUND_CREWS_COST = 500.0 -- Disables ground crews. They're cancerous. 
 NDefines.NAir.ENEMY_AIR_SUPERIORITY_IMPACT= -0.9
