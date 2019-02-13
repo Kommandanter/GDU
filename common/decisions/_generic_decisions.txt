@@ -647,12 +647,12 @@ special_projects = {
 
 		fire_only_once = no
 
-		days_remove = 180
+		days_remove = 90
 
 		cost = 100
 
 		modifier = {
-			civilian_factory_use = 5
+			civilian_factory_use = 6
 		}
 
 		remove_effect = {
