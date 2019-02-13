@@ -194,6 +194,7 @@ focus = {
 		}
 
 		completion_reward = {
+			add_political_power = 100 
 			random_owned_controlled_state = {
 				prioritize = { 338 128 123 125 126 127 129 }
 				limit = {
