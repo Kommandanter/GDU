@@ -1490,7 +1490,6 @@ focus_tree = {
 		id = GER_ussr_war_goal
 		icon = GFX_goal_generic_war_with_comintern
 		prerequisite = { focus = GER_war_with_france }
-		will_lead_to_war_with = SOV
 
 		cancel = {
 			NOT = { country_exists = SOV }
