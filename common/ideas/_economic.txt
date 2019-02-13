@@ -150,8 +150,7 @@ ideas = {
 				consumer_goods_factor = 0.20
 				production_speed_dockyard_factor = 0.1
 				production_speed_arms_factory_factor = 0.1
-				conversion_cost_civ_to_mil_factor= -0.1
-				conversion_cost_mil_to_civ_factor = -0.1
+				conversion_cost_civ_to_mil_factor = -0.1
 			}
 
 			cancel_if_invalid = no
@@ -202,8 +201,7 @@ ideas = {
 				consumer_goods_factor = 0.15
 				production_speed_dockyard_factor = 0.2
 				production_speed_arms_factory_factor = 0.2
-				conversion_cost_civ_to_mil_factor= -0.2
-				conversion_cost_mil_to_civ_factor = -0.2
+				conversion_cost_civ_to_mil_factor = -0.2
 			}
 
 			cancel_if_invalid = no
@@ -283,7 +281,6 @@ ideas = {
 				production_speed_dockyard_factor = 0.3
 				production_speed_arms_factory_factor = 0.3
 				conversion_cost_civ_to_mil_factor= -0.3
-				conversion_cost_mil_to_civ_factor = -0.3
 			}
 
 			cancel_if_invalid = no

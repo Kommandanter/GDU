@@ -40,7 +40,7 @@ NDefines.NCountry.STARTING_COMMAND_POWER = 50.0
 NDefines.NCountry.ATTACHE_XP_SHARE = 0.05
 NDefines.NCountry.BASE_MOBILIZATION_SPEED = 0.04
 NDefines.NCountry.NUM_DAYS_TO_FULLY_DELETE_STOCKPILED_EQUIPMENT = 999
-NDefines.NCountry.AIR_SUPPLY_CONVERSION_SCALE = 0.30 -- original 0.05 air supply?
+NDefines.NCountry.AIR_SUPPLY_CONVERSION_SCALE = 0.25 -- original 0.05 air supply?
 NDefines.NCountry.RESISTANCE_STRENGTH_FROM_VP = 0.00 -- This disables the resistance mechanic. It was 0.001 in vanilla. Resistance is a poorly implemented mechanic that causes undue stress and incurs heavy hidden, hard to calculate costs on a balance level. Instead, events are implemented into the mod that decrease Germany's/Jap's MP as if they were using suppression cavalry.
 
 NDefines.NProduction.MIN_POSSIBLE_TRAINING_MANPOWER = 500000

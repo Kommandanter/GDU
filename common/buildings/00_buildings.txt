@@ -16,7 +16,7 @@ buildings = {
 
 	arms_factory = {
 		show_on_map = 6
-		base_cost = 8600
+		base_cost = 7200
 		base_cost_conversion = 4800
 		military_production = 1
 		icon_frame = 2
@@ -28,7 +28,7 @@ buildings = {
 ### civs
 	industrial_complex = {
 		show_on_map = 6
-		base_cost = 13000
+		base_cost = 10800
 		base_cost_conversion = 10800
 		general_production = 1
 		icon_frame = 1
@@ -45,6 +45,7 @@ buildings = {
 		air_base = yes
 		max_level = 10
 		value = 1
+		damage_factor = 0.4
 	}
 
 	naval_base = {
@@ -104,8 +105,8 @@ buildings = {
 
 	anti_air_building = {
 		show_on_map = 3
-		base_cost = 750
-		per_level_extra_cost = 250
+		base_cost = 700
+		per_level_extra_cost = 200
 		icon_frame = 9
 		anti_air = yes
 		disabled_in_dmz = yes
@@ -114,24 +115,23 @@ buildings = {
 		damage_factor = 0.1
 		value = 1
 	}
-### 1939 tech is the base of old 1.42
+
 	synthetic_refinery = {
 		show_on_map = 1
-		base_cost = 12000
+		base_cost = 13000
 		icon_frame = 10
-		local_resources_oil = 3 # May use local_resources_ + any resource name
-		local_resources_rubber = 1 # May use local_resources_ + any resource name
+		local_resources_oil = 2 # May use local_resources_ + any resource name
+		local_resources_rubber = 2 # May use local_resources_ + any resource name
 		refinery = yes
-		max_level = 6 # This is the max unlock level
+		max_level = 3 # This is the max unlock level
 		shares_slots = yes
 		value = 5
 		infrastructure_construction_effect = yes
-		damage_factor = 0.1
 	}
 
 	radar_station = {
 		show_on_map = 1
-		base_cost = 4000
+		base_cost = 3400
 		icon_frame = 11
 		radar = yes
 		#max_level = 0 # max: 5
