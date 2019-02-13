@@ -414,7 +414,6 @@ operations = {
 		icon = GFX_decision_generic_ignite_civil_war
 
 		available = {
-            num_of_factories > 1000
 			OR = {
 				has_full_control_of_state = 446
 				has_full_control_of_state = 453
@@ -441,7 +440,6 @@ operations = {
 		}
 
 		visible = {
-            num_of_factories > 1000
 			has_war = yes
 			NOT = { has_global_flag = SUEZ_CANAL_BLOCKED }
 			any_state = {
@@ -455,7 +453,7 @@ operations = {
 
 		fire_only_once = no
 
-		days_remove = 30
+		days_remove = 15
 
 		cost = 75
 
