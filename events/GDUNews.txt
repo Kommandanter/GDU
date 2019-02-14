@@ -1,6 +1,5 @@
 ﻿add_namespace = gdunews
 
-
 ### Beginning of WW2 
 news_event = {
 	id = gdunews.1
@@ -25,20 +24,16 @@ news_event = {
 		}
 		
 	}
-	
 	mean_time_to_happen = {
 		days = 2
 	}
-	
 	immediate = {
 		set_global_flag = war_is_hell
 	}
-
 	option = {
 		name = gdunews.1.a
 		trigger = { tag = GER }
 	}
-	
 	option = {
 		name = gdunews.1.b
 		trigger = {
@@ -52,17 +47,14 @@ news_event = {
 			NOT = { tag = USA }
 		}
 	}
-	
 	option = { 
 		name = gdunews.1.c
 		trigger = { tag = USA } 
 	}
-	
 	option = {
 		name = gdunews.1.de
 		trigger = { tag = SOV }
 	}
-	
 	option = {
 		name = gdunews.1.e
 		trigger = {
@@ -79,12 +71,252 @@ news_event = {
 			}
 		}
 	}
-	
 	option = { 
 		name = gdunews.1.f
 		trigger = { tag = FRA } 
 	}
-		
-			
-		
 }
+
+news_event = {  ### Katyn Massacre 
+	id = gdunews.2
+	title = gdunews.2.t
+	desc = gdunews.2.d
+	#picture = change this to Katyn someday:tm:
+
+	major = yes
+
+	trigger = {
+		date > 1940.4.2
+		SOV = {
+			owns_state = 94
+		}
+		NOT = {
+			has_global_flag = gdunews.katyn
+		}
+	}
+	mean_time_to_happen = {   ### Please for the love of all that is holy, figure out how to fix the errors without mtth
+		days = 2
+	}
+	immediate = {
+		set_global_flag = gdunews.katyn
+	}
+	option = {
+		name = gdunews.2.pol
+		trigger = { 
+			tag = POL 
+		}
+	}
+	option = {
+		name = gdunews.2.sov
+		trigger = { 
+			OR = {
+				tag = SOV 
+				is_in_faction_with = SOV
+				has_government = communism
+			}
+		}
+	}
+	option = {
+		name = gdunews.2.general
+		trigger = { 
+			NOT = {
+				tag = POL 
+				tag = SOV 
+				is_in_faction_with = SOV
+				has_government = communism
+			}
+		}
+	}
+}
+
+news_event = {  ### The Pilecki Report   [The Holocaust]
+	id = gdunews.3
+	title = gdunews.3.t
+	desc = gdunews.3.d
+	#picture = change this to Auschwitz someday:tm:
+
+	major = yes
+
+	trigger = {
+		date > 1940.9.18
+		NOT = {
+			has_global_flag = gdunews.pilecki
+		}
+	}
+	mean_time_to_happen = {   ### Please for the love of all that is holy, figure out how to fix the errors without mtth
+		days = 2
+	}
+	immediate = {
+		set_global_flag = gdunews.pilecki
+	}
+	option = {      ### If you wish to, you can add more events for countries that participated in the Holocaust, like Luxembourg and their criminal behaviour
+		name = gdunews.3.pol
+		trigger = { 
+			tag = POL 
+		}
+	}
+	option = {
+		name = gdunews.3.ger
+		trigger = { 
+			tag = GER
+		}
+	}
+	option = {
+		name = gdunews.3.cro
+		trigger = { 
+			tag = CRO
+		}
+	}
+	option = {
+		name = gdunews.3.rom
+		trigger = { 
+			tag = ROM
+		}
+	}
+	option = {
+		name = gdunews.3.fascist
+		trigger = { 
+			NOT = {
+				tag = GER
+				tag = CRO 
+				tag = ROM
+			}
+			OR = {
+				has_government = fascism
+				is_in_faction_with = GER
+			}
+		}
+	}
+	option = {
+		name = gdunews.3.general
+		trigger = { 
+			NOT = {
+				tag = POL 
+				tag = GER 
+				tag = CRO 
+				tag = ROM
+				has_government = fascism
+				is_in_faction_with = GER
+			}
+		}
+	}
+}
+
+news_event = {  ### Warsaw Ghetto Uprising 
+	id = gdunews.4
+	title = gdunews.4.t
+	desc = gdunews.4.d
+	#picture = change this to the famous image of this uprising someday:tm:
+
+	major = yes
+
+	trigger = {
+		date > 1943.4.8
+		GER = {
+			controls_state = 10
+		}
+		NOT = {
+			has_global_flag = gdunews.ghetto_uprising
+		}
+	}
+	mean_time_to_happen = {   ### Please for the love of all that is holy, figure out how to fix the errors without mtth
+		days = 2
+	}
+	immediate = {
+		set_global_flag = gdunews.ghetto_uprising
+	}
+	option = {
+		name = gdunews.4.pol
+		trigger = { 
+			tag = POL 
+		}
+	}
+	option = {
+		name = gdunews.4.ger
+		trigger = { 
+			tag = GER
+		}
+	}
+	option = {
+		name = gdunews.4.general
+		trigger = { 
+			NOT = {
+				tag = POL 
+				tag = GER 
+			}
+		}
+	}
+}
+
+news_event = {  ### Warsaw Uprising 
+	id = gdunews.5
+	title = gdunews.5.t
+	desc = gdunews.5.d
+	#picture = change this to the famous image of this uprising someday:tm:
+
+	major = yes
+
+	trigger = {  ### Note that I might transform this event into one with game impact. Not yet though.
+		date > 1944.7.31
+		GER = {
+			controls_state = 10
+		}
+		NOT = {
+			has_global_flag = gdunews.warsaw_uprising
+		}
+	}
+	mean_time_to_happen = {   ### Please for the love of all that is holy, figure out how to fix the errors without mtth
+		days = 2
+	}
+	immediate = {
+		set_global_flag = gdunews.warsaw_uprising
+	}
+	option = {
+		name = gdunews.5.pol
+		trigger = { 
+			tag = POL 
+		}
+	}
+	option = {
+		name = gdunews.5.ger
+		trigger = { 
+			tag = GER
+		}
+	}
+	option = {
+		name = gdunews.5.sov
+		trigger = { 
+			tag = GER
+		}
+	}
+	option = {
+		name = gdunews.5.general
+		trigger = { 
+			NOT = {
+				tag = POL 
+				tag = GER 
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

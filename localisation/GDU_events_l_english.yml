@@ -134,6 +134,9 @@
  pfunews.3.t:0 "The White Death"
  pfunews.3.d:0 "A sniper is emerging from the war in Finland, Simo Hayha or better known as the "White Death" by his Soviet counterparts. Reports are coming in that a kill count of over 500 confirmed dead from Simo alone, which would rank him the highest ranking sniper thus far. In temperatures as low as -40 °C and armed with only a rifle without a scope, one can only admire the Finnish will, determination, and perseverance under such conditions. "
  pfunews.3.a:0 "Impressive"
+ 
+ 
+ ### Put into a new file plez
  gdunews.1.t:0 "Beginning of World War II"
  gdunews.1.d:0 "After the Great War, French Marshal Ferdinand Foch remarked that the Treaty of Versailles was not a peace, but an armistice for twenty years.\n\nAlthough he didn't live to see it, he was right. Hitler's German Reich has invaded Poland to allegedly reclaim Danzig, an aggressive move quickly responded to by declarations of war on Germany by France, the United Kingdom, and its Commonwealth in Poland's defense.\n\nMartial law has been declared in France, civilian planes in Germany are grounded, and children in London are being evacuated to the countryside. Once more, the world ignites."
  gdunews.1.a:0 "They'll pay for humiliating us!"
@@ -141,7 +144,38 @@
  gdunews.1.c:0 "Well, that's hardly an American concern. What's for dinner?"
  gdunews.1.de:0 "A perfect distraction..."
  gdunews.1.e:0 "War is hell."
- gdunews.1.f:0 "Don't worry, Poland! We'll be right there.."
+ gdunews.1.f:0 "Don't worry, Poland! We'll be right there..."
+
+ gdunews.2.t:0 "The Katyn Massacre"
+ gdunews.2.d:0 "Placeholder"
+ gdunews.2.pol:0 "The Russians treat us as always..."
+ gdunews.2.sov:0 "Nothing to see here..."
+ gdunews.2.general:0 "Communism has once again exposed its true face."
+ 
+ gdunews.3.t:0 "The Pilecki Report"
+ gdunews.3.d:0 "Placeholder"
+ gdunews.3.pol:0 "Pilecki is a True Polish Hero!"
+ gdunews.3.ger:0 "The world is learning of our acts... We can hardly hide it anymore."
+ gdunews.3.cro:0 "Hopefully no one will discover our own crimes..."
+ gdunews.3.rom:0 "The Iron Guard has done quite some barbaric acts, but not on this scale..."
+ gdunews.3.fascist:0 "We are allied to a monster..."
+ gdunews.3.general:0 "This crime against humanity will not go unpunished!"
+ 
+ gdunews.4.t:0 "The Warsaw Ghetto Uprising"
+ gdunews.4.d:0 "Placeholder"
+ gdunews.4.pol:0 "Soon, we'll make our own uprising too!"
+ gdunews.4.ger:0 "We'll defeat them in a few days..."  
+ # Historically, the uprising lasted a month
+ gdunews.4.general:0 "A true David vs. Goliath situation."
+ 
+ gdunews.5.t:0 "The Warsaw Ghetto Uprising"
+ gdunews.5.d:0 "Placeholder"
+ gdunews.5.pol:0 "Tadeusz Bór-Komorowski, liberate Poland!"
+ gdunews.5.ger:0 "We'll defeat them in a week..."  
+ # Historically, the uprising lasted >2 months
+ gdunews.5.ger:0 "Betrayal? No, we just act in our own interest."
+ gdunews.5.general:0 "An even truer David vs. Goliath situation."
+ 
  gduevents.1.t:0 "The Phoney War"
  gduevents.1.d:0 "Despite being at war with Germany, allied forces and command remain hesitant and unwilling to fight. There remains a lingering hope for peace with the Axis. Only something drastic like a declaration of war from Italy or the improbable collapse of French forces will rouse the Empire from this stupor."
  gduevents.1.a:0 "Surely, there's nothing to be too alarmed about?"
