@@ -1,5 +1,5 @@
 name="CFU: Gotterdammerung"
-path="mod/CFU Gotterdammerung/"
+path="mod/cfu-gotterdammerung/"
 tags={
 	"Balance"
 	"Events"
