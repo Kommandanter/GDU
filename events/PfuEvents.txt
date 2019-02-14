@@ -55,7 +55,13 @@ country_event = {
 
 	option = {
 		name = pfu.18.a
-	    add_timed_idea = { idea = GER_short_war days = 1160 }
+		add_popularity  = { 
+			ideology = fascism
+			popularity = 0.10
+		}
+		add_stability = 0.05
+		add_war_support = 0.20 
+	    add_timed_idea = { idea = GER_short_war days = 1000 }
 		add_ideas = war_economy
 	}
 	mean_time_to_happen = { days = 30 }
@@ -105,8 +111,12 @@ country_event = {
 
 	option = {
 		name = pfu.21.a
-		remove_ideas = GER_short_war
-		add_ideas = GER_total_war
+		add_stability = 0.15
+		add_war_support = 0.40 
+		swap_ideas = { 
+			remove_idea = GER_short_war
+			add_idea = GER_total_war
+		}
 	}
 	mean_time_to_happen = { days = 30 }
 }
