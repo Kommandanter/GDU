@@ -340,7 +340,7 @@
  GER_danzig_or_war:0 "Fall Weiss"
  GER_danzig_or_war_POL_faction_GER_leader:0 "§R[This.GetName] must approve of the agreement for bonuses to take effect. They will leave [Root.GetFactionName] if war is declared.§!\n"
  GER_danzig_or_war_POL_faction_GER_noleader:0 "§R[This.GetName] must approve of the agreement for bonuses to take effect. You will leave [Root.GetFactionName] the faction if war is declared.§!\n"
- GER_danzig_or_war_desc:0 "With the reunification of the German people nearly completed, the time has come to begin the acquisition of our rightful Lebensraum. The Danzig corridor, a German-majority area wrongfully given to Poland following the Great War, will provide a perfect pretext for invasion. The Western democracies claim they will stand behind Poland; they are likely bluffing, just as they were with Czechoslovakia, and if not? We shall crush them as well."
+ GER_danzig_or_war_desc:0 "With the reunification of the German people nearly completed, the time has come to begin the acquisition of our rightful Lebensraum. The Danzig corridor, a German-majority area wrongfully given to Poland following the Great War, will provide a perfect pretext for invasion. The Western democracies claim they will stand behind Poland; they are likely bluffing, and if not? We shall crush them as well."
  GER_czech_friend:0 "Befriend Czechoslovakia"
  GER_czech_friend_desc:0 "The Czechs and the Slovaks are industrious and admirable peoples. It is unfortunate that our territorial ambitions clash with theirs, but it is not too late to pursue friendship rather than subjugation."
  GER_demand_sudetenland:0 "Demand Sudetenland"
