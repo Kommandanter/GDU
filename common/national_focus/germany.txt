@@ -1780,8 +1780,9 @@ focus_tree = {
 			SOV = {
 				country_event = { id = germany.11 days = 1 }
 				custom_effect_tooltip = GER_mol_rib_pact_tt
-				add_threat = 10
+				add_named_threat = { threat = 5 name = GER_mol_rib_pact }
 			}
+			add_named_threat = { threat = 5 name = GER_mol_rib_pact } 
 		}
 	}
 	
@@ -1802,27 +1803,7 @@ focus_tree = {
 					original_tag = POL
 				}
 			}
-			OR = {
-				POL = {
-					has_civil_war = no
-				}
-				#custom_trigger_tooltip = {
-					#tooltip = GER_danzig_trigger_polish_civil_war
-					AND = {
-						any_other_country = {
-							original_tag = POL
-							has_civil_war = yes
-							OR = {
-								is_in_faction_with = ROOT
-								has_volunteers_amount_from = {
-									tag = GER
-									count > 0
-								}
-							}
-						}
-					}
-				#}
-			}
+		
 		}
 
 		bypass = {
@@ -1845,7 +1826,7 @@ focus_tree = {
 		x = -1
 		y = 2
 		relative_position_id = GER_demand_memel
-		cost = 3
+		cost = 1
 		ai_will_do = {
 			factor = 10
 			modifier = {
@@ -1876,8 +1857,11 @@ focus_tree = {
 				}
 				add_state_core = 85
 				add_state_core = 86
-				POL = {
-					country_event = { id = germany.86 }
+				GER = {
+					declare_war_on = {
+						target = POL
+						type = annex_everything
+					}
 				}
 			}
 			if = {
