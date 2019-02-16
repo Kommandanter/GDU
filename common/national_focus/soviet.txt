@@ -563,7 +563,7 @@ focus_tree = {
 
 	focus = {
 		id = SOV_defense_of_stalingrad
-		icon = GFX_goal_generic_fortify_city
+		icon = GFX_focus_ger_great_red_menace 
 		prerequisite = { focus = SOV_defense_of_moscow }
 		prerequisite = { focus = SOV_wartime_propaganda focus = SOV_extra_tech_slot_2 } 
 		available = {
