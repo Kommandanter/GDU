@@ -1,3 +1,11 @@
 ﻿l_english:
  GER_crush_yugoslavia:0 "Crush Yugoslavia"
  GER_crush_yugoslavia_desc:0 "A disgusting and especially abominable product of Versailles, Yugoslavia is an artificial construct. Not only that, but their alignment with our interests seems unlikely. There's only one good solution to a problem like this..."
+ SOV_invade_Japan:0 "Liberate Manchuria"
+ SOV_invade_Japan_desc:0 "With the situation in the West relatively stable, the time has come to teach the Japanese Imperialists a lesson. The workers of Manchuria and China await liberation!" 
+ SOV_anti_capitalist_raids:0 "Crush the Trudoviks"
+ SOV_anti_capitalist_raids_desc:0 "Although most within our glorious Union have come to accept Comrade Stalin's leadership, there is still a small portion of the population that have failed to fall in line. Reactionary influences of any kind cannot be tolerated."
+ SOV_proclaim_victory_over_fascism:0 "Proclaim Victory Over Fascism"
+ SOV_proclaim_victory_over_fascism_desc:0 "Comrades! Men and women compatriots! The great day of victory has come. Fascist Germany, forced to her knees by the Red Army and the troops of our Allies, has declared unconditional surrender. The Great Patriotic War has ended in our complete victory. Eternal glory to the heroes who fell in the struggle against the enemy and gave their lives for the freedom and happiness of our people!"
+ SOV_extra_tech_slot_2:0 "Great Patriotic Research"
+ SOV_extra_tech_slot_2_desc:0 "As the fight against Fascism continues, the time has never been better for Soviet researchers and innovators to contribute to the people's defense and liberation!" 

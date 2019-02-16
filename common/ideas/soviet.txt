@@ -40,6 +40,22 @@ ideas = {
 			}
 			
 		}
+		
+		soviet_union_eternal = { 
+			
+			allowed = { 
+				always = no 
+			}
+			
+			picture = saf_soviet_advisers
+			
+			removal_cost = -1 
+			
+			modifier = { 
+				political_power_gain = 1.00
+				drift_defence_factor = 0.50 
+			}
+		}
 			
 			
 		shattered_retreat = {
@@ -154,7 +170,7 @@ ideas = {
 			picture = generic_manpower_bonus
 
 			modifier = {
-				conscription = 0.01
+				conscription = 0.02
 			}
 		}
 	    SOV_order_227 = {
@@ -315,7 +331,7 @@ ideas = {
 			picture = generic_manpower_bonus
 
 			modifier = {
-				conscription = 0.03
+				conscription = 0.02
 			}
 		}
 

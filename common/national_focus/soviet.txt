@@ -15,8 +15,9 @@ focus_tree = {
 	focus = {
 		id = SOV_finish_five_year_plan
 		icon = GFX_goal_generic_construct_civ_factory
-		x = 1
-		y = 0
+		prerequisite = { focus = SOV_stalin_constitution } 
+		x = 7
+		y = 1
 		cost = 10
 		ai_will_do = {
 			factor = 5
@@ -89,10 +90,11 @@ focus_tree = {
 	focus = {
 		id = SOV_move_industry_to_urals
 		icon = GFX_goal_generic_construct_civilian
-		prerequisite = { focus = SOV_finish_five_year_plan }
-		x = -1
-		y = 1
-		relative_position_id = SOV_finish_five_year_plan
+		x = 0
+		y = 2
+		relative_position_id = SOV_great_purge
+		prerequisite = { focus = SOV_great_purge } 
+		
 		cost = 4.3
 		ai_will_do = {
 			factor = 10
@@ -104,7 +106,7 @@ focus_tree = {
 
 		available = {
 			OR = {
-			has_defensive_war_with = GER
+			has_war_with = GER
 			NOT = {
 			126 = {
 		    is_owned_and_controlled_by = ENG
@@ -417,12 +419,60 @@ focus_tree = {
 	}
 }
 
+	focus = { 
+		id = SOV_invade_Japan
+		icon = GFX_focus_AST_war_japan
+		prerequisite = { focus = SOV_defense_of_moscow } 
+		available = { 
+			date > 1943.6.1
+		}
+		relative_position_id = SOV_move_industry_to_urals
+		x = -4
+		y = 2
+		cost = 4.3
+		ai_will_do = {
+			factor = 0
+		}
+
+		completion_reward = { 
+			create_wargoal = { 
+				type = annex_everything
+				target = JAP 
+			}
+			create_wargoal = { 
+				type = annex_everything
+				target = MAN 
+			}
+	}
+}
+	
+	focus = { 
+		id = SOV_proclaim_victory_over_fascism
+		icon = GFX_focus_generic_anti_fascist_diplomacy 
+		prerequisite = { focus = SOV_defense_of_stalingrad } 
+		available = { 
+			controls_state = 64
+			GER = { has_capitulated = yes }
+		}
+		relative_position_id = SOV_move_industry_to_urals
+		x = 0
+		y = 4
+		cost = 0
+			
+		completion_reward = { 
+			add_ideas = soviet_union_eternal
+		}
+		
+		
+	}
+
+
 	focus = {
 		id = SOV_defense_of_moscow
 		icon = GFX_goal_generic_fortify_city
 		prerequisite = { focus = SOV_move_industry_to_urals }
 		available = {
-			has_defensive_war_with = GER
+			has_war_with = GER
 		}
 		x = 0
 		y = 1
@@ -515,19 +565,14 @@ focus_tree = {
 		id = SOV_defense_of_stalingrad
 		icon = GFX_goal_generic_fortify_city
 		prerequisite = { focus = SOV_defense_of_moscow }
+		prerequisite = { focus = SOV_wartime_propaganda focus = SOV_extra_tech_slot_2 } 
 		available = {
-			217 = {
-				is_controlled_by = ROOT
-
-				OR = {
-					any_neighbor_state = {
-						NOT = { is_controlled_by = ROOT }
-					}
-
-					SOV = { surrender_progress > 0.50 }
-				}
-			}
+			has_war_with = GER 
 		}
+		bypass = { 
+			GER = { has_capitulated = yes } 
+		} 
+		relative_position_id = SOV_move_industry_to_urals
 		x = 0
 		y = 3
 		cost = 5
@@ -537,6 +582,8 @@ focus_tree = {
 		cancel_if_invalid = no
 		continue_if_invalid = yes
         completion_reward = {
+			custom_effect_tooltip = SOV_red_army_resurgent_tooltip
+			country_event = gduevents.5 
 			add_timed_idea = { idea = SOV_order_227 days = 100 }
 			if = { limit = { has_idea = officers_purged } remove_ideas = officers_purged }
 			if = { limit = { has_idea = officers_purged_2 } remove_ideas = officers_purged_2 }
@@ -569,9 +616,9 @@ focus_tree = {
 		id = SOV_production_effort
 		text = production_effort
 		icon = GFX_goal_generic_construct_mil_factory
-		prerequisite = { focus = SOV_finish_five_year_plan }
-		x = 1
-		y = 1
+		prerequisite = { focus = SOV_infrastructure_effort }
+		x = -3
+		y = 2
 		relative_position_id = SOV_finish_five_year_plan
 		cost = 10
 		ai_will_do = {
@@ -713,35 +760,14 @@ focus_tree = {
 			}
 		}
 	}
-
-	focus = {
-		id = SOV_extra_tech_slot_early
-		icon = GFX_focus_research
-		text = extra_tech_slot
-		prerequisite = { focus = SOV_production_effort }
-		prerequisite = { focus = SOV_collectivist_propaganda }
-		x = 0
-		y = 1
-		relative_position_id = SOV_production_effort
-		cost = 10
-		ai_will_do = {
-			factor = 5
-		}
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_research_slot = 1
-		}
-	}
 	
 	focus = {
 		id = SOV_infrastructure_effort
 		icon = GFX_goal_generic_construct_infrastructure
-		prerequisite = { focus = SOV_extra_tech_slot_early }
-		x = 0
+		prerequisite = { focus = SOV_finish_five_year_plan }
+		x = -2
 		y = 1
-		relative_position_id = SOV_extra_tech_slot_early
+		relative_position_id = SOV_finish_five_year_plan
 		cost = 10
 		ai_will_do = {
 			factor = 5
@@ -811,10 +837,10 @@ focus_tree = {
 	focus = {
 		id = SOV_tranformation_of_nature
 		icon = GFX_goal_generic_soviet_construction
-		prerequisite = { focus = SOV_infrastructure_effort }
-		x = 0
-		y = 1
-		relative_position_id = SOV_infrastructure_effort
+		prerequisite = { focus = SOV_improve_railway focus = SOV_workers_culture }
+		x = 1
+		y = 2
+		relative_position_id = SOV_finish_five_year_plan
 		cost = 10
 		ai_will_do = {
 			factor = 5
@@ -836,8 +862,8 @@ focus_tree = {
 
 	focus = {
 		id = SOV_stalin_constitution
-		icon = GFX_goal_support_communism
-		x = 6
+		icon = GFX_focus_generic_join_comintern 
+		x = 18
 		y = 0
 		cost = 10
 		ai_will_do = {
@@ -855,10 +881,10 @@ focus_tree = {
 		id = SOV_collectivist_propaganda
 		icon = GFX_goal_generic_propaganda
 		prerequisite = { focus = SOV_stalin_constitution }
-		mutually_exclusive = { focus = SOV_positive_heroism }
-		x = -2
-		y = 1
 		relative_position_id = SOV_stalin_constitution
+		x = -3
+		y = 1
+		
 		cost = 10
 		ai_will_do = {
 			factor = 0.25
@@ -867,8 +893,6 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_political_power = 150
-			remove_unit_leader = 402
 			# add_stability = 0.20 # replaced with idea
 			add_ideas = SOV_collectivist_propaganda
 		}
@@ -878,9 +902,9 @@ focus_tree = {
 		id = SOV_militarized_schools
 		icon = GFX_goal_generic_army_doctrines
 		prerequisite = { focus = SOV_collectivist_propaganda }
-		x = 0
-		y = 1
-		relative_position_id = SOV_collectivist_propaganda
+		relative_position_id = SOV_stalin_constitution		
+		x = -3
+		y = 2
 		cost = 10
 		ai_will_do = {
 			factor = 1
@@ -896,10 +920,10 @@ focus_tree = {
 	focus = {
 		id = SOV_workers_culture
 		icon = GFX_goal_generic_construction
-		prerequisite = { focus = SOV_militarized_schools }
+		relative_position_id = SOV_finish_five_year_plan
+		prerequisite = { focus = SOV_finish_five_year_plan } 
 		x = 0
 		y = 1
-		relative_position_id = SOV_militarized_schools
 		cost = 10
 		ai_will_do = {
 			factor = 1
@@ -915,11 +939,11 @@ focus_tree = {
 	focus = {
 		id = SOV_women_pilots
 		icon = GFX_goal_generic_CAS
-		prerequisite = { focus = SOV_workers_culture }
-		x = 0
-		y = 1
-		relative_position_id = SOV_workers_culture
+		x = 4
+		y = 4
 		cost = 10
+		relative_position_id = SOV_positive_heroism
+		prerequisite = { focus = SOV_aviation_cult } 
 		ai_will_do = {
 			factor = 1
 		}
@@ -946,11 +970,10 @@ focus_tree = {
 	focus = {
 		id = SOV_positive_heroism
 		icon = GFX_goal_generic_cavalry
-		prerequisite = { focus = SOV_stalin_constitution }
-		mutually_exclusive = { focus = SOV_collectivist_propaganda }
-		x = 0
+		x = 27
 		y = 1
-		relative_position_id = SOV_stalin_constitution
+		prerequisite = { focus = SOV_stalin_constitution } 
+		
 		cost = 10
 		ai_will_do = {
 			factor = 1
@@ -970,10 +993,10 @@ focus_tree = {
 	focus = {
 		id = SOV_progress_cult
 		icon = GFX_goal_generic_scientific_exchange
-		prerequisite = { focus = SOV_positive_heroism }
+		prerequisite = { focus = SOV_workers_culture }
 		x = 0
-		y = 1
-		relative_position_id = SOV_positive_heroism
+		y = 3
+		relative_position_id = SOV_finish_five_year_plan
 		cost = 10
 		ai_will_do = {
 			factor = 1
@@ -989,10 +1012,10 @@ focus_tree = {
 	focus = {
 		id = SOV_socialist_science
 		icon = GFX_goal_generic_national_unity
-		prerequisite = { focus = SOV_progress_cult }
-		x = 0
-		y = 1
-		relative_position_id = SOV_progress_cult
+		prerequisite = { focus = SOV_socialist_realism }
+		relative_position_id = SOV_stalin_constitution
+		x = 3
+		y = 2
 		cost = 10
 		ai_will_do = {
 			factor = 1
@@ -1008,11 +1031,11 @@ focus_tree = {
 	focus = {
 		id = SOV_extra_tech_slot
 		icon = GFX_focus_research
+		prerequisite = { focus = SOV_progress_cult }
 		text = extra_tech_slot
-		prerequisite = { focus = SOV_socialist_science }
-		x = 0
-		y = 1
-		relative_position_id = SOV_socialist_science
+		x = -1
+		y = 4
+		relative_position_id = SOV_finish_five_year_plan
 		cost = 10
 		ai_will_do = {
 			factor = 1
@@ -1024,13 +1047,33 @@ focus_tree = {
 			add_research_slot = 1
 		}
 	}
+	
+	focus = {
+		id = SOV_extra_tech_slot_2
+		icon = GFX_focus_research
+		relative_position_id = SOV_move_industry_to_urals
+		x = 2
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_research_slot = 1
+		}
+		
+		prerequisite = { focus = SOV_defense_of_moscow } 
+	}
 
 	focus = {
 		id = SOV_aviation_cult
 		icon = GFX_goal_generic_air_doctrine
 		prerequisite = { focus = SOV_positive_heroism }
-		x = 2
-		y = 2
+		x = 3
+		y = 3
 		relative_position_id = SOV_positive_heroism
 		cost = 10
 		ai_will_do = {
@@ -1065,9 +1108,10 @@ focus_tree = {
 		id = SOV_socialist_realism
 		icon = GFX_goal_generic_forceful_treaty
 		prerequisite = { focus = SOV_stalin_constitution }
-		x = 2
-		y = 1
 		relative_position_id = SOV_stalin_constitution
+		x = 3
+		y = 1
+		
 		cost = 10
 		ai_will_do = {
 			factor = 1
@@ -1083,8 +1127,10 @@ focus_tree = {
 	focus = {
 		id = SOV_improve_railway
 		icon = GFX_goal_generic_construct_infrastructure
-		x = 11
-		y = 3
+		prerequisite = { focus = SOV_finish_five_year_plan }
+		x = 2
+		y = 1
+		relative_position_id = SOV_finish_five_year_plan
 		cost = 10
 		ai_will_do = {
 			factor = 1
@@ -1121,10 +1167,10 @@ focus_tree = {
 	focus = {
 		id = SOV_Sinteticheskii_Kauchuk
 		icon = GFX_goal_generic_army_motorized
-		prerequisite = { focus = SOV_improve_railway }
-		x = 0
-		y = 1
-		relative_position_id = SOV_improve_railway
+		prerequisite = { focus = SOV_workers_culture focus = SOV_infrastructure_effort }
+		x = -1
+		y = 2
+		relative_position_id = SOV_finish_five_year_plan
 		cost = 10
 		ai_will_do = {
 			factor = 5
@@ -1201,10 +1247,12 @@ focus_tree = {
 	focus = {
 		id = SOV_transpolar_flights
 		icon = GFX_goal_generic_air_fighter2
+		relative_position_id = SOV_positive_heroism
 		x = 2
-		y = 0
+		y = 4
 		cost = 10
-		relative_position_id = SOV_improve_railway
+		prerequisite = { focus = SOV_aviation_cult } 
+		
 		ai_will_do = {
 			factor = 1
 		}
@@ -1223,9 +1271,11 @@ focus_tree = {
 	focus = {
 		id = SOV_ocean_going_navy
 		icon = GFX_goal_generic_navy_battleship
-		x = 4
-		y = 0
-		relative_position_id = SOV_improve_railway
+		relative_position_id = SOV_anti_capitalist_diplomacy
+		x = 1
+		y = 1
+		cost = 5
+		prerequisite = { focus = SOV_anti_capitalist_diplomacy } 
 		ai_will_do = {
 			factor = 1
 		}
@@ -1242,33 +1292,14 @@ focus_tree = {
 		}
 	}
 
-	focus = {
-		id = SOV_diplomatic_effort
-		icon = GFX_goal_generic_improve_relations
-		prerequisite = { focus = SOV_improve_railway focus = SOV_transpolar_flights focus = SOV_ocean_going_navy  }
-		relative_position_id = SOV_improve_railway
-		x = 2
-		y = 1
-		cost = 10
-		ai_will_do = {
-			factor = 1
-		}
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_political_power = 150
-		}
-	}
+	
 	focus = {
 		id = SOV_peoples_commissariat
 		icon = GFX_goal_support_communism
-		prerequisite = { focus = SOV_improve_railway }
-		prerequisite = { focus = SOV_transpolar_flights }
-		prerequisite = { focus = SOV_ocean_going_navy }
-		x = 2
-		y = 2
-		relative_position_id = SOV_improve_railway
+		prerequisite = { focus = SOV_progress_cult }
+		x = 1
+		y = 4
+		relative_position_id = SOV_finish_five_year_plan
 		cost = 10
 		ai_will_do = {
 			factor = 1
@@ -1284,10 +1315,12 @@ focus_tree = {
 	focus = {
 		id = SOV_anti_fascist_diplomacy
 		icon = GFX_goal_generic_military_deal
-		prerequisite = { focus = SOV_peoples_commissariat }
-		x = -2
+		
+		prerequisite = { focus = SOV_great_purge } 
+		relative_position_id = SOV_great_purge
+		x = -4
 		y = 1
-		relative_position_id = SOV_peoples_commissariat
+		
 		cost = 5
 		ai_will_do = {
 			factor = 1
@@ -1562,31 +1595,15 @@ focus_tree = {
 	focus = {
 		id = SOV_operation_countenance
 		icon = GFX_goal_generic_territory_or_war
-		prerequisite = { focus = SOV_improve_stalin_line focus = SOV_far_east_fortification }
-		x = 0
+		relative_position_id = SOV_move_industry_to_urals
+		x = 4
 		y = 2
 		cost = 4.3
-		relative_position_id = SOV_anti_fascist_diplomacy
+		prerequisite = { focus = SOV_defense_of_moscow }
 		ai_will_do = {
 			factor = 1
 		}
-		available = {
-			
-        OR = {
-				has_defensive_war_with = GER
-				
-				NOT = {
-					126 = {
-				    is_owned_and_controlled_by = ENG
-					}
-				}
-				NOT = {
-					127 = {
-				    is_owned_and_controlled_by = ENG
-					}
-				}
-			}
-		}
+
 		completion_reward = {
 	       if = {
 			limit = {
@@ -1600,10 +1617,6 @@ focus_tree = {
 				transfer_state = 418
 				transfer_state = 266
 				transfer_state = 416
-				add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 10000 producer = USA }
-				add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 500 producer = USA }
-				add_equipment_to_stockpile = { type = support_equipment_1 amount = 500 producer = USA }
-				#fighter_equipment_1
 			}
 			ENG = { puppet = PER }
 				else = {
@@ -1624,10 +1637,11 @@ focus_tree = {
 	focus = {
 		id = SOV_anti_capitalist_diplomacy
 		icon = GFX_goal_molotov_ribbentrop_pact
-		prerequisite = { focus = SOV_peoples_commissariat }		
-		x = 2
+		relative_position_id = SOV_great_purge
+		prerequisite = { focus = SOV_great_purge } 
+		x = 4
 		y = 1
-		relative_position_id = SOV_peoples_commissariat		
+				
 		cost = 5
 		ai_will_do = {
 			factor = 0.25
@@ -1660,15 +1674,39 @@ focus_tree = {
 			FRA = { add_opinion_modifier = { target = SOV modifier = anti_capitalist_diplomacy_capitalists } }
 		}
 	}
+	
+	focus = {
+		id = SOV_anti_capitalist_raids
+		icon = GFX_focus_generic_strike_at_democracy2
+		prerequisite = { focus = SOV_anti_capitalist_diplomacy } 
+		relative_position_id = SOV_anti_capitalist_diplomacy
+		x = -1
+		y = 1
+				
+		cost = 5
+		ai_will_do = {
+			factor = 0.25
+
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_popularity  = { 
+			ideology = communism
+			popularity = 0.10
+		}
+
+		}
+	}
 
 	focus = {
 		id = SOV_expand_red_fleet
 		icon = GFX_goal_generic_build_navy
-		prerequisite = { focus = SOV_anti_capitalist_diplomacy }
-		available = { has_offensive_war = no }
-		x = -1
-		y = 1
-		relative_position_id = SOV_anti_capitalist_diplomacy
+		prerequisite = { focus = SOV_improve_railway }
+		x = 3
+		y = 2
+		relative_position_id = SOV_finish_five_year_plan
 		cost = 10
 		ai_will_do = {
 			factor = 1
@@ -1739,57 +1777,13 @@ focus_tree = {
 		}
 	}
 	### END BRANCH ###
+
 	focus = {
-		id = SOV_reconcile_japan
-		icon = GFX_goal_generic_major_alliance
-		prerequisite = { focus = SOV_anti_capitalist_diplomacy }
-		available = {
-			is_puppet = no
-			JAP = { NOT = { is_in_faction_with = GER } }
-			NOT = { has_war_with = JAP }
-		}
-
-		bypass = {
-			NOT = { country_exists = JAP }
-		}
-		x = 1
-		y = 1
-		cost = 5
-		relative_position_id = SOV_anti_capitalist_diplomacy
-		ai_will_do = {
-			factor = 1
-		}
-		completion_reward = {
-			JAP = {
-				add_opinion_modifier = { target = SOV modifier = border_conflict_reconciled }
-				country_event = { id = soviet.23 days = 1 }
-				effect_tooltip = { transfer_state = 655 }
-			}
-		}
-	}
-
-		focus = {
 		id = SOV_wartime_propaganda
 		icon = GFX_focus_generic_soviet_politics
-		prerequisite = { focus = SOV_reconcile_japan focus = SOV_expand_red_fleet }
-		relative_position_id = SOV_anti_capitalist_diplomacy
-		available = {
-			OR = {
-			has_defensive_war_with = GER
-			NOT = {
-			126 = {
-		    is_owned_and_controlled_by = ENG
-			}
-			}
-			NOT = {
-			127 = {
-		    is_owned_and_controlled_by = ENG
-			}
-			}
-			}
-		}
-
-		x = 0
+		prerequisite = { focus = SOV_defense_of_moscow }
+		relative_position_id = SOV_move_industry_to_urals
+		x = -2
 		y = 2
 		cost = 10
 		ai_will_do = {
@@ -1808,8 +1802,10 @@ focus_tree = {
 			has_government = communism
 			date > 1937.5.1
 		}
-		x = 25
-		y = 0
+		prerequisite = { focus = SOV_stalin_constitution } 
+		relative_position_id = SOV_stalin_constitution
+		x = 0
+		y = 2
 		cost = 30
 		ai_will_do = {
 			factor = 10
@@ -1930,11 +1926,12 @@ focus_tree = {
 	focus = {
 		id = SOV_rehabilitated_military
 		icon = GFX_goal_generic_small_arms
-		prerequisite = { focus = SOV_great_purge }
 		mutually_exclusive = { focus = SOV_nkvd_primacy }
-		x = -2
+		relative_position_id = SOV_positive_heroism
+		prerequisite = { focus = SOV_positive_heroism } 
+		x = -1
 		y = 1
-		relative_position_id = SOV_great_purge
+		
 		cost = 10
 		ai_will_do = {
 			factor = 1
@@ -1984,11 +1981,12 @@ focus_tree = {
 	focus = {
 		id = SOV_nkvd_primacy
 		icon = GFX_goal_generic_military_deal
-		prerequisite = { focus = SOV_great_purge }
 		mutually_exclusive = { focus = SOV_rehabilitated_military }
-		x = 0
+		relative_position_id = SOV_positive_heroism
+		prerequisite = { focus = SOV_positive_heroism } 
+		x = 1
 		y = 1
-		relative_position_id = SOV_great_purge
+		
 		cost = 10
 		ai_will_do = {
 			factor = 10
@@ -2126,57 +2124,6 @@ focus_tree = {
 
 	### END BRANCH ###
 
-	focus = {
-		id = SOV_smersh
-		icon = GFX_goal_generic_forceful_treaty
-		prerequisite = { focus = SOV_great_purge }
-		available = {
-			OR = {
-				has_war_with = GER
-				has_war_with = JAP
-				has_war_with = ENG
-				has_war_with = FRA
-				has_war_with = USA
-				has_war_with = ITA
-			}
-		}
-		bypass = {
-			NOT = { has_idea = trotskyite_plot_purged }
-		}
-		x = 2
-		y = 1
-		relative_position_id = SOV_great_purge
-		cost = 10
-		ai_will_do = {
-			factor = 1
-		}
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			#custom_effect_tooltip = SOV_smersh_tt
-			remove_ideas = trotskyite_plot_purged
-		}
-	}
-
-	focus = {
-		id = SOV_partisan_suppression
-		icon = GFX_goal_generic_dangerous_deal
-		prerequisite = { focus = SOV_smersh }
-		x = 0
-		y = 1
-		relative_position_id = SOV_smersh
-		cost = 10
-		ai_will_do = {
-			factor = 1
-		}
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_ideas = partisan_suppression_focus
-		}
-	}
 
 }
 	
