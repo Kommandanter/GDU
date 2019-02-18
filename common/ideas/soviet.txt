@@ -439,6 +439,8 @@ ideas = {
 			}
 
 			modifier = {
+				army_attack_factor = -0.50
+				army_defence_factor = -0.50
 				army_org_factor = -0.5
 			}
 				equipment_bonus = {
@@ -486,6 +488,8 @@ ideas = {
 			}
 
 			modifier = {
+				army_attack_factor = -0.45
+				army_defence_factor = -0.45
 				army_org_factor = -0.45
 				}
 				equipment_bonus = {
@@ -532,6 +536,8 @@ ideas = {
 			}
 
 			modifier = {
+				army_attack_factor = -0.40
+				army_defence_factor = -0.40
 				army_org_factor = -0.4
 				}
 				equipment_bonus = {
@@ -578,6 +584,8 @@ ideas = {
 			}
 
 			modifier = {
+				army_attack_factor = -0.35
+				army_defence_factor = -0.35
 				army_org_factor = -0.35
 				}
 					equipment_bonus = {
@@ -624,6 +632,8 @@ ideas = {
 			}
 
 			modifier = {
+				army_attack_factor = -0.30
+				army_defence_factor = -0.30
 				army_org_factor = -0.30
 				}
 					equipment_bonus = {
@@ -670,6 +680,8 @@ ideas = {
 			}
 
 			modifier = {
+				army_attack_factor = -0.25
+				army_defence_factor = -0.25
 				army_org_factor = -0.25
 				}
 					equipment_bonus = {
@@ -715,6 +727,8 @@ ideas = {
 			}
 
 			modifier = {
+				army_attack_factor = -0.20
+				army_defence_factor = -0.20
 				army_org_factor = -0.20
 				}
 				equipment_bonus = {
@@ -760,6 +774,8 @@ ideas = {
 			}
 
 			modifier = {
+				army_attack_factor = -0.15
+				army_defence_factor = -0.15
 				army_org_factor = -0.15
 				}
 				equipment_bonus = {
@@ -805,6 +821,8 @@ ideas = {
 			}
 
 			modifier = {
+				army_attack_factor = -0.10
+				army_defence_factor = -0.10
 				army_org_factor = -0.10
 				}
 				equipment_bonus = {
@@ -851,6 +869,8 @@ ideas = {
 			}
 
 			modifier = {
+				army_attack_factor = -0.05
+				army_defence_factor = -0.05
 				army_org_factor = -0.05
 				}
 				equipment_bonus = {

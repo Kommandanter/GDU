@@ -694,42 +694,6 @@ country_event = {
 	}
 }
 
-
-# France national focus -  requests to join commitern
-country_event = {
-	id = soviet.29
-	title = soviet.29.t
-	desc = soviet.29.d
-	picture = GFX_report_event_stalin_01
-
-	is_triggered_only = yes
-
-	option = {
-		name = soviet.29.a
-		SOV = { add_to_faction = FRA }
-		FRA = {
-			add_ai_strategy = {
-				type = alliance
-				id = "SOV"
-				value = 200
-			}
-		}
-		hidden_effect = {
-			news_event = { hours = 6 id = news.180 }
-		}
-	}
-	option = {
-		name = soviet.29.b
-		ai_chance = { factor = 0 }
-		FRA = {
-			add_opinion_modifier = {
-				target = SOV
-				modifier = SOV_FRA_join_comintern_reject
-			}
-		}
-	}
-}
-
 # Demand Bessarabia
 country_event = {
 	id = soviet.30
