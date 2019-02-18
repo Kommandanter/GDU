@@ -29,7 +29,8 @@ NDefines.NAI.GIVE_STATE_CONTROL_MIN_CONTROL_DIFF = 0
 
 NDefines.NCountry.EVENT_PROCESS_OFFSET = 25 -- Performance enhancer. --TW/WTT
 NDefines.NCountry.VP_TO_SUPPLY_BASE = 2
-NDefines.NCountry.SUPPLY_PATH_MAX_DISTANCE = 8
+NDefines.NCountry.SUPPLY_PATH_MAX_DISTANCE = 15
+NDefines.NCountry.SUPPLY_FROM_DAMAGED_INFRA = 0.2                -- damaged infrastructure counts as this in supply calcs
 NDefines.NCountry.SPECIAL_FORCES_CAP_MIN = 28
 NDefines.NCountry.REINFORCEMENT_EQUIPMENT_DELIVERY_SPEED = 1
 NDefines.NCountry.REINFORCEMENT_MANPOWER_DELIVERY_SPEED = 30.0
