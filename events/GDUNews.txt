@@ -81,7 +81,7 @@ news_event = {  ### Katyn Massacre
 	id = gdunews.2
 	title = gdunews.2.t
 	desc = gdunews.2.d
-	#picture = change this to Katyn someday:tm:
+	picture = GFX_news_event_katyn
 
 	major = yes
 
