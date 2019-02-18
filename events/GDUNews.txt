@@ -76,30 +76,31 @@ news_event = {
 		trigger = { tag = FRA } 
 	}
 }
-
-news_event = {  ### Katyn Massacre 
-	id = gdunews.2
-	title = gdunews.2.t
-	desc = gdunews.2.d
-	picture = GFX_news_event_katyn
-
-	major = yes
-
+### Note, in order not to have to cut on loc, these news events will be country events.
+country_event = {  ### Katyn Massacre 
+	id = gdunews.2002
+	hidden = yes 
+	fire_only_once = yes 
 	trigger = {
 		date > 1940.4.2
 		SOV = {
 			owns_state = 94
 		}
-		NOT = {
-			has_global_flag = gdunews.katyn
+	}
+	option = {
+		every_country = {
+			country_event = {
+				id = gdunews.2
+			}
 		}
 	}
-	mean_time_to_happen = {   ### Please for the love of all that is holy, figure out how to fix the errors without mtth
-		days = 2
-	}
-	immediate = {
-		set_global_flag = gdunews.katyn
-	}
+}	
+country_event = {  ### Katyn Massacre 
+	id = gdunews.2
+	title = gdunews.2.t
+	desc = gdunews.2.d
+	#picture = GFX_news_event_katyn
+	is_triggered_only = yes 
 	option = {
 		name = gdunews.2.pol
 		trigger = { 
@@ -128,27 +129,30 @@ news_event = {  ### Katyn Massacre
 		}
 	}
 }
-
-news_event = {  ### The Pilecki Report   [The Holocaust]
-	id = gdunews.3
-	title = gdunews.3.t
-	desc = gdunews.3.d
-	#picture = change this to Auschwitz someday:tm:
-
-	major = yes
-
+country_event = {  ### The Pilecki Report   [The Holocaust]
+	id = gdunews.2003
+	hidden = yes 
+	fire_only_once = yes 
 	trigger = {
 		date > 1940.9.18
 		NOT = {
 			has_global_flag = gdunews.pilecki
 		}
 	}
-	mean_time_to_happen = {   ### Please for the love of all that is holy, figure out how to fix the errors without mtth
-		days = 2
+	option = {
+		every_country = {
+			country_event = {
+				id = gdunews.3
+			}
+		}
 	}
-	immediate = {
-		set_global_flag = gdunews.pilecki
-	}
+}	
+country_event = {  ### The Pilecki Report   [The Holocaust]
+	id = gdunews.3
+	title = gdunews.3.t
+	desc = gdunews.3.d
+	#picture = GFX_news_event_pileck_report
+	is_triggered_only = yes 
 	option = {      ### If you wish to, you can add more events for countries that participated in the Holocaust, like Luxembourg and their criminal behaviour
 		name = gdunews.3.pol
 		trigger = { 
@@ -201,30 +205,30 @@ news_event = {  ### The Pilecki Report   [The Holocaust]
 		}
 	}
 }
-
-news_event = {  ### Warsaw Ghetto Uprising 
-	id = gdunews.4
-	title = gdunews.4.t
-	desc = gdunews.4.d
-	#picture = change this to the famous image of this uprising someday:tm:
-
-	major = yes
-
+country_event = {  ### Warsaw Ghetto Uprising
+	id = gdunews.2004
+	hidden = yes 
+	fire_only_once = yes 
 	trigger = {
 		date > 1943.4.8
 		GER = {
 			controls_state = 10
 		}
-		NOT = {
-			has_global_flag = gdunews.ghetto_uprising
+	}
+	option = {
+		every_country = {
+			country_event = {
+				id = gdunews.4
+			}
 		}
 	}
-	mean_time_to_happen = {   ### Please for the love of all that is holy, figure out how to fix the errors without mtth
-		days = 2
-	}
-	immediate = {
-		set_global_flag = gdunews.ghetto_uprising
-	}
+}
+country_event = {  ### Warsaw Ghetto Uprising 
+	id = gdunews.4
+	title = gdunews.4.t
+	desc = gdunews.4.d
+	#picture = GFX_news_event_ghetto_uprising
+	is_triggered_only = yes 
 	option = {
 		name = gdunews.4.pol
 		trigger = { 
@@ -247,30 +251,31 @@ news_event = {  ### Warsaw Ghetto Uprising
 		}
 	}
 }
-
-news_event = {  ### Warsaw Uprising 
-	id = gdunews.5
-	title = gdunews.5.t
-	desc = gdunews.5.d
-	#picture = change this to the famous image of this uprising someday:tm:
-
-	major = yes
-
+country_event = {  ### Warsaw Uprising 
+	id = gdunews.2005
+	hidden = yes 
+	fire_only_once = yes 
 	trigger = {  ### Note that I might transform this event into one with game impact. Not yet though.
 		date > 1944.7.31
 		GER = {
 			controls_state = 10
 		}
-		NOT = {
-			has_global_flag = gdunews.warsaw_uprising
+	}
+	option = {
+		every_country = {
+			country_event = {
+				id = gdunews.5
+			}
 		}
 	}
-	mean_time_to_happen = {   ### Please for the love of all that is holy, figure out how to fix the errors without mtth
-		days = 2
-	}
-	immediate = {
-		set_global_flag = gdunews.warsaw_uprising
-	}
+}
+country_event = {  ### Warsaw Uprising 
+	id = gdunews.5
+	title = gdunews.5.t
+	desc = gdunews.5.d
+	#picture = GFX_news_event_warsaw_uprising
+	is_triggered_only = yes 
+	
 	option = {
 		name = gdunews.5.pol
 		trigger = { 
@@ -286,7 +291,7 @@ news_event = {  ### Warsaw Uprising
 	option = {
 		name = gdunews.5.sov
 		trigger = { 
-			tag = GER
+			tag = SOV
 		}
 	}
 	option = {

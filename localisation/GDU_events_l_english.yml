@@ -148,13 +148,13 @@
  gdunews.1.f:0 "Don't worry, Poland! We'll be right there..."
 
  gdunews.2.t:0 "The Katyn Massacre"
- gdunews.2.d:0 "Placeholder"
+ gdunews.2.d:0 "Following the Occupation of Eastern Poland by the Soviet Union in the context of the Molotov-Ribbentrop Pact and the September Campaign, thousands of Polish officers have been arrested and interned by the NKVD, the Soviet secret police.\n\nBy the order of Lavrentiy Beria, the chief of the NKVD, and with the approval of the Politburo including Joseph Stalin himself, large scale executions violating against international law took place on multiple locations in the Soviet Union, most notably in the Katyn Forest.\n\nDuring the time period of April to May 1940, over 22.000 innocent Polish citizens, including 8.000 captured officers, 6.000 police officers and 1.700 Jews were brutally murdered by NKVD forces.\nIn addition to these staggering numbers, the NKVD had rounded up multiple hundreds of thousands of Polish citizens, who were deported to Siberian labour camps or prisons.\nThe execution sites were discovered in 1943 by German forces, however responsibility of having committed the massacres was denied by Soviet authorities until 1990."
  gdunews.2.pol:0 "The Russians treat us as always..."
  gdunews.2.sov:0 "Nothing to see here..."
  gdunews.2.general:0 "Communism has once again exposed its true face."
  
  gdunews.3.t:0 "The Pilecki Report"
- gdunews.3.d:0 "Placeholder"
+ gdunews.3.d:0 "Revealing horrors which have previously circulated as unbelievable rumors, the final form of the Pilecki Report, written by the Polish cavalryman Witold Pilecki, encompassed more than 100 pages and detailed the horrors of Auschwitz.\n\nAfter receiving approval from his superiors in the TAP underground organization,\nPilecki voluntarily become a prisoner of the Auschwitz extermination camp in September 1940.\nAs inmate #4859, Pilecki organized the ZOW, an undergound organization linked to the Polish resistance, inside the camp. Through an intelligence network, the ZOW started sending regular reports on the situation in Auschwitz to the Polish government, which forwarded it to other Allied powers.\nThese reports made up an essential part of Allied information on the Holocaust.\n\n\nPilecki's Report accurately describes the horrors of the Holocaust, during which 17 million innocent civilians including 6 million Jews and 2 million non-Jewish Poles were brutally murdered in a way that humanity had never experienced before.\n\nThese numbers include 1,3 million Jews executed through 'Einsatzgruppen' Firing Squads on occupied Soviet territory, 1,1 million Jews and 146 thousand non-Jewish Poles killed in Auschwitz, 900 thousand Jews killed in the Treblinka Extermination Camp, along with millions of deaths through disease, starvation and abysmal working conditions."
  gdunews.3.pol:0 "Pilecki is a True Polish Hero!"
  gdunews.3.ger:0 "The world is learning of our acts... We can hardly hide it anymore."
  gdunews.3.cro:0 "Hopefully no one will discover our own crimes..."
@@ -163,18 +163,18 @@
  gdunews.3.general:0 "This crime against humanity will not go unpunished!"
  
  gdunews.4.t:0 "The Warsaw Ghetto Uprising"
- gdunews.4.d:0 "Placeholder"
+ gdunews.4.d:0 "In the context of the Holocaust, German authorities established ghettoes in many cities across Europe, mostly in Poland.\nThese ghettoes, multiple streetblocks large, usually had abysmal living standards as Germans were pushing thousands of people into an area far too small, in addition to catastrophically low rations, complete lack of healthcare and terrible working conditions.\nFrom the ghettoes, regular deportations and liquidations would send people into a certain death in a local extermination camp.\n\nIn 1943, the remainder of the Warsaw Ghetto, which at its peak housed half a million Jews on an area of 3.3 km², reduced to less than 100 thousand following actions such as the Großaktion Warsaw in 1942, was to be liquided to the Treblinka extermintion camp.\nJewish undergound organizations, such as the ŻOB and ŻZW, had fortified the ghetto after the Großaktion with makeshift bunkers and armed themselves with makeshift grenades and black market weapons.\n\nStarting on the 19 April 1943, German SS forces, including Ukrainian SS battalions, commenced a battle in the ghetto which would last for almost a month. During the fighting, the Germans suffered 110 casulties, while 13.000 Jewish fighters and civilians were murdered, half of which burned or suffocated to death."
  gdunews.4.pol:0 "Soon, we'll make our own uprising too!"
  gdunews.4.ger:0 "We'll defeat them in a few days..."  
  # Historically, the uprising lasted a month
  gdunews.4.general:0 "A true David vs. Goliath situation."
  
- gdunews.5.t:0 "The Warsaw Ghetto Uprising"
- gdunews.5.d:0 "Placeholder"
+ gdunews.5.t:0 "The Warsaw Uprising"
+ gdunews.5.d:0 "In conjunction with the Soviet Lublin-Brest offensive, the Polish Home Army (Armia Krajowa; AK) launched an uprising in Warsaw, taking control of most of the city.\n\nFollowing the occupation of Poland by German and Soviet forces in 1939, the Polish underground state was formed, which at its peek was more than half a million strong, of which 400.000 belonged to the AK, making it one of the largest resistance organizations in all of Europe.\nPlans for a general uprising had been discussed the years before the Warsaw Uprising, but as Soviet forces were pressing on into Polish territory, it was decided to concentrate AK forces on Warsaw.\n\nFighting began at 15.00 on the 1 August 1944, and would last until the 2 October 1944, at which point the last pockets of resistance capitulated. During the Uprising, German forces suffered 25.000 casulties, while Allied forces (including the Soviet 1st Polish Army and the Allied airforces) suffered 26.000 casulties, with an additional 15.000 POWs.\nUp to 200.000 innocent civilians had been killed by German forces, 700.000 more had been expelled and the 80% of the city of Warsaw was destroyed.\nThe Uprising ended in a catastrophic failure for the Free Polish as Soviet forces, which at one point even entered Praga, refused to participate in the battle."
  gdunews.5.pol:0 "Tadeusz Bór-Komorowski, liberate Poland!"
  gdunews.5.ger:0 "We'll defeat them in a week..."  
  # Historically, the uprising lasted >2 months
- gdunews.5.ger:0 "Betrayal? No, we just act in our own interest."
+ gdunews.5.sov:0 "Betrayal? No, we just act in our own interest."
  gdunews.5.general:0 "An even truer David vs. Goliath situation."
  
  gduevents.1.t:0 "The Phoney War"
