@@ -935,6 +935,16 @@ leader_traits = {
 	### Military Minister Traits
 
 	# 1 is worst, 3 is best
+	
+	marshal_of_victory = { # IT'S ZHUKOV 
+		sprite = 7
+		army_org_factor = 0.02 
+		army_attack_factor = 0.10 
+		
+		ai_will_do = { 
+			factor = 1 
+		}
+	}
 
 	army_chief_defensive_1 = { # +5 Defensive efficiency
 		sprite = 9

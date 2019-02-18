@@ -218,57 +218,6 @@ focus_tree = {
 		}
 	}
 
-	focus = {
-		id = RAJ_protect_ceylon
-		icon = GFX_focus_RAJ_indianisation_of_army
-		prerequisite = { focus = RAJ_request_ports }
-		x = 0
-		y = 3
-
-		cost = 15
-
-		ai_will_do = {
-			factor = 25
-		}
-
-		available = {
-			is_subject = yes
-			threat > 0.99
-			422 = { is_controlled_by = ENG }
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			RAJ = { add_timed_idea = { idea = RAJ_cost_of_ceylon days =  180} }
-			RAJ = { add_timed_idea = { idea = RAJ_protect_ceylon days = 30 } }
-			ENG = { add_timed_idea = { idea = ENG_colonial_trade days = 80 } }
-
-			custom_effect_tooltip = RAJ_protect_ceylon_tt
-
-			hidden_effect = {
-				news_event = { id = pfunews.7 hours = 6 }
-				RAJ = {
-					transfer_state = 422
-					add_state_core = 422
-				}
-
-				add_resource = {
-					type = rubber
-					amount = -80
-					state = 422
-				}
-
-				add_resource = {
-					type = rubber
-					amount = 80
-					state = 126
-				}
-			}
-		}
-	}
 	############################
 	######### SHARED ###########
 	############################

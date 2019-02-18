@@ -656,7 +656,7 @@ high_command = {
 			original_tag = AST
 		}
 		
-		traits = { air_air_superiority_3 }
+		traits = { army_artillery_2 }
 		
 		ai_will_do = {
 			factor = 1

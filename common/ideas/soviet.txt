@@ -978,13 +978,6 @@ ideas = {
 			allowed = {
 				original_tag = "SOV"
 			}
-			available =
-			{
-				NOT = { has_country_flag = purged_kalinin }
-				NOT = { has_country_flag = counter_purge }
-			}
-
-
 
 			traits = { popular_figurehead }
 		}
@@ -1003,9 +996,7 @@ ideas = {
 					tooltip =  SOV_beria_idea
 					has_country_flag = purge_2_group_a
 				}
-				NOT = {
-					has_country_flag = counter_purge
-				}
+
 			}
 
 			traits = { ideological_crusader }
@@ -1043,7 +1034,6 @@ ideas = {
 
 			available =
 			{
-				NOT = { has_country_flag = counter_purge }
 				NOT = { has_country_flag = purge_2_group_a }
 			}
 
@@ -1058,13 +1048,6 @@ ideas = {
 			allowed = {
 				original_tag = "SOV"
 			}
-			available =
-			{
-				NOT = { has_country_flag = purged_khrushchev }
-				NOT = { has_country_flag = counter_purge }
-			}
-
-
 
 			traits = { communist_revolutionary }
 
@@ -1187,6 +1170,26 @@ ideas = {
 				factor = 1
 			}
 		}
+		
+		georgy_zhukov_CoA = {
+		
+			picture = georgy_zhukov
+
+
+			allowed = {
+				original_tag = SOV # Unlocked via focus
+
+			}
+
+			available = {
+				has_completed_focus = SOV_defense_of_moscow
+			}
+
+			cost = 150
+
+			traits = { marshal_of_victory }
+		}
+		
 	}
 	navy_chief = {
 
@@ -1377,22 +1380,6 @@ ideas = {
 			allowed = {
 				original_tag = SOV
 			}
-			available =
-			{
-				NOT = { has_country_flag = counter_purge }
-				custom_trigger_tooltip = {
-				tooltip = SOV_konev_civil_war
-					NOT = {
-						any_other_country = {
-							has_war_with = SOV
-							original_tag = SOV
-							has_unit_leader = 408
-						}
-					}
-				}
-			}
-
-
 
 			traits = { army_concealment_2 }
 			# Almost certainly a psychopath
@@ -1409,21 +1396,6 @@ ideas = {
 				original_tag = SOV
 
 			}
-			available =
-			{
-				NOT = { has_country_flag = purge_2_group_b }
-				hidden_trigger = {
-					NOT = {
-						any_other_country = {
-							has_war_with = SOV
-							original_tag = SOV
-							has_unit_leader = 407
-						}
-					}
-				}
-			}
-
-
 
 			traits = { army_regrouping_2 }
 
@@ -1470,12 +1442,6 @@ ideas = {
 				original_tag = SOV
 
 			}
-			available =
-			{
-				NOT = { has_country_flag = counter_purge }
-			}
-
-
 
 			traits = { air_airborne_1 }
 
@@ -1513,12 +1479,6 @@ ideas = {
 				original_tag = SOV
 
 			}
-			available =
-			{
-				NOT = { has_country_flag = counter_purge }
-			}
-
-
 
 			traits = { air_air_combat_training_2 }
 
@@ -1595,21 +1555,6 @@ ideas = {
 				original_tag = SOV
 
 			}
-			available =
-			{
-				NOT = { has_country_flag = counter_purge }
-				hidden_trigger = {
-					NOT = {
-						any_other_country = {
-							has_war_with = SOV
-							original_tag = SOV
-							has_unit_leader = 409
-						}
-					}
-				}
-			}
-
-
 
 			traits = { navy_amphibious_assault_2 }
 
@@ -2037,10 +1982,7 @@ ideas = {
 				original_tag = SOV # Unlocked via focus
 
 			}
-			available =
-			{
-				NOT = { has_country_flag = counter_purge }
-			}
+
 			available = {
 				has_completed_focus = SOV_positive_heroism
 			}
@@ -2053,6 +1995,7 @@ ideas = {
 
 			traits = { mass_assault_expert }
 		}
+		
 
 		sergey_gorshkov = {
 
@@ -2060,10 +2003,6 @@ ideas = {
 			allowed = {
 				original_tag = SOV
 
-			}
-			available =
-			{
-				NOT = { has_country_flag = counter_purge }
 			}
 
 			cost = 150
@@ -2097,10 +2036,6 @@ ideas = {
 			allowed = {
 				original_tag = SOV
 
-			}
-			available =
-			{
-				NOT = { has_country_flag = counter_purge }
 			}
 
 			cost = 150
