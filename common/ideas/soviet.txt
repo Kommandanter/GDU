@@ -401,7 +401,7 @@ ideas = {
 			}
 
 			modifier = {
-				stability_factor = -0.2
+				stability_factor = -0.25
 			}
 		}
 
@@ -419,6 +419,72 @@ ideas = {
 			modifier = {
 				stability_factor = -0.05
 			}
+		}
+		
+		officers_purged_start = {
+		
+			removal_cost = -1
+			
+			picture = officers_purged
+
+			allowed = {
+				always = no # Added via event
+			}
+
+			allowed_civil_war = {
+				has_government = communism
+			}
+
+			research_bonus = {
+				land_doctrine = -0.05
+				naval_doctrine = -0.05
+				air_doctrine = -0.05
+			}
+
+		}
+		
+		officers_purged_start1 = {
+		
+			removal_cost = -1
+			
+			picture = officers_purged
+
+			allowed = {
+				always = no # Added via event
+			}
+
+			allowed_civil_war = {
+				has_government = communism
+			}
+
+			research_bonus = {
+				land_doctrine = -0.07
+				naval_doctrine = -0.07
+				air_doctrine = -0.07
+			}
+
+		}
+		
+		officers_purged_start2 = {
+		
+			removal_cost = -1
+			
+			picture = officers_purged
+
+			allowed = {
+				always = no # Added via event
+			}
+
+			allowed_civil_war = {
+				has_government = communism
+			}
+
+			research_bonus = {
+				land_doctrine = -0.09
+				naval_doctrine = -0.09
+				air_doctrine = -0.09
+			}
+
 		}
 
 		officers_purged = {

@@ -486,13 +486,14 @@ country_event = {
 	is_triggered_only = yes
 	
 	immediate = { 
-		hidden_effect = { 
-			country_event = { id = soviet.25 days = 10 }
+		hidden_effect = {
+			country_event = { id = soviet.25 days = 105 }
 		}
 	}
 	
 	option = {
 		name = soviet.24.a
+		add_ideas = officers_purged_start
 		
 	}
 }
@@ -508,7 +509,7 @@ country_event = {
 	
 	immediate = { 
 		hidden_effect = { 
-			country_event = { id = soviet.26 days = 10 }
+			country_event = { id = soviet.26 days = 210 }
 		}
 	}
 	
@@ -532,13 +533,17 @@ country_event = {
 	
 	immediate = { 
 		hidden_effect = { 
-			country_event = { id = soviet.27 days = 10 }
+			country_event = { id = soviet.27 days = 240 }
 		}
 	}
 	
 	option = {
 		name = soviet.26.a
 		set_country_flag = purge_1_group_a
+		swap_ideas = { 
+			remove_idea = officers_purged_start
+			add_idea = officers_purged_start1
+		}
 		custom_effect_tooltip = remove_theorist
 		show_ideas_tooltip = mikhail_tukhachevsky
 		custom_effect_tooltip = remove_chief_of_army
@@ -570,12 +575,16 @@ country_event = {
 	
 	immediate = { 
 		hidden_effect = { 
-			country_event = { id = soviet.53 days = 10 }
+			country_event = { id = soviet.53 days = 30 }
 		}
 	}
 
 	option = {
 		name = soviet.27.a
+		swap_ideas = { 
+			remove_idea = officers_purged_start1
+			add_idea = officers_purged_start2
+		}
 		remove_ideas = trotskyite_plot
 		add_ideas = trotskyite_plot_purged
 		set_country_flag = purge_2_group_a
@@ -1118,6 +1127,7 @@ country_event = {
 		remove_ideas = trotskyite_plot_purged
 		set_country_flag = SOV_purge_complete
 		set_country_flag = SOV_great_purge_complete_tt
+		remove_ideas = officers_purged_start2
 		add_timed_idea = {
 					idea = officers_purged
 					days = 2200
