@@ -16,9 +16,9 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				army_morale_factor = 0.15
-				army_core_attack_factor = 0.30
-				army_core_defence_factor = 0.30
+				army_morale_factor = 0.10
+				army_core_attack_factor = 0.35
+				army_core_defence_factor = 0.35
 			}
 		}
 		no_finnish_justification = {

@@ -136,6 +136,8 @@ focus_tree = {
 		 cancel_if_invalid = no
 		continue_if_invalid = yes
 		completion_reward = {
+			add_ideas = tot_economic_mobilisation 
+			add_ideas = SOV_industrial_relocations
 			
 		}
 		
@@ -200,13 +202,17 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = SOV_move_industry_to_urals
-		cost = 5
+		cost = 12.9
 		ai_will_do = {
 			factor = 100
 		}	
 		cancel_if_invalid = no
 		continue_if_invalid = yes
 		completion_reward = {
+			swap_ideas = { 
+				remove_idea = SOV_industrial_relocations
+				add_idea = SOV_war_for_communism
+			}
 			create_field_marshal = {
 				name = "Georgy Zhukov"
 				id = 410
@@ -218,10 +224,13 @@ focus_tree = {
 				planning_skill = 7
 				logistics_skill = 7
 			}
-			add_ideas = general_winter_idea
-			add_ideas = great_patriotic_war
 			add_ideas = georgy_zhukov_CoA
-			add_ideas = extensive_conscription
+			add_ideas = general_winter_idea
+			add_tech_bonus = {
+				name = armor_bonus
+				bonus = 0.75
+				category = land_doctrine
+			}
 
 			219 = {
 				custom_effect_tooltip = SOV_defense_of_moscow_forts
@@ -299,7 +308,7 @@ focus_tree = {
 		relative_position_id = SOV_move_industry_to_urals
 		x = 0
 		y = 3
-		cost = 5
+		cost = 12.9
 		ai_will_do = {
 			factor = 100
 		}
@@ -307,8 +316,11 @@ focus_tree = {
 		continue_if_invalid = yes
         completion_reward = {
 			custom_effect_tooltip = SOV_red_army_resurgent_tooltip
+			swap_ideas = { 
+				remove_idea = SOV_war_for_communism
+				add_idea = great_patriotic_war 
+			}
 			country_event = gduevents.5 
-			add_timed_idea = { idea = SOV_order_227 days = 100 }
 			if = { limit = { has_idea = officers_purged } remove_ideas = officers_purged }
 			if = { limit = { has_idea = officers_purged_2 } remove_ideas = officers_purged_2 }
 			if = { limit = { has_idea = officers_purged_3 } remove_ideas = officers_purged_3 }

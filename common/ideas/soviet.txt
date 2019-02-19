@@ -896,8 +896,8 @@ ideas = {
 				}
 			}
 		}
-
-		great_patriotic_war = {
+		
+		SOV_industrial_relocations = {
 			removal_cost = -1
 
 			picture = generic_intel_bonus
@@ -912,8 +912,50 @@ ideas = {
 
 			modifier = {
 				consumer_goods_factor = -0.05
+			}
+		}
+		
+		SOV_war_for_communism = {
+			removal_cost = -1
+
+			picture = generic_intel_bonus
+
+			allowed = {
+				always = no # Added via event
+			}
+
+			allowed_civil_war = {
+				has_government = communism
+			}
+
+			modifier = {
+				army_org_factor = 0.10
+				army_morale_factor = 0.10
+				consumer_goods_factor = -0.05
 				conscription = 0.02
-				training_time_factor = -0.50
+				training_time_factor = -0.60
+			}
+		}
+	
+		great_patriotic_war = {
+			removal_cost = -1
+
+			picture = generic_intel_bonus
+
+			allowed = {
+				always = no # Added via event
+			}
+
+			allowed_civil_war = {
+				has_government = communism
+			}
+
+			modifier = {
+				army_org_factor = 0.10
+				army_morale_factor = 0.10
+				consumer_goods_factor = -0.05
+				conscription = 0.02
+				training_time_factor = -0.60
 			}
 		}
 

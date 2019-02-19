@@ -272,6 +272,7 @@ country_event = {
 			transfer_state = 770
 		}
 		GER = { add_to_faction = FIN }
+		remove_state_core = 146 
 	}
 }
 
