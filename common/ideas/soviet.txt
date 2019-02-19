@@ -73,9 +73,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-             army_speed_factor = 0.15
-			 army_morale_factor = -0.05
-			 army_armor_defence_factor = 0.10 
+             army_speed_factor = 0.10
 			}
 		}
 		general_winter_idea = {
@@ -401,7 +399,7 @@ ideas = {
 			}
 
 			modifier = {
-				stability_factor = -0.25
+				stability_factor = -0.20
 			}
 		}
 
@@ -508,6 +506,7 @@ ideas = {
 				army_attack_factor = -0.50
 				army_defence_factor = -0.50
 				army_org_factor = -0.5
+				army_morale_factor = -0.05
 			}
 				equipment_bonus = {
 				fighter_equipment = {
@@ -557,6 +556,7 @@ ideas = {
 				army_attack_factor = -0.45
 				army_defence_factor = -0.45
 				army_org_factor = -0.45
+				army_morale_factor = -0.05
 				}
 				equipment_bonus = {
 				fighter_equipment = {
@@ -605,6 +605,7 @@ ideas = {
 				army_attack_factor = -0.40
 				army_defence_factor = -0.40
 				army_org_factor = -0.4
+				army_morale_factor = -0.05
 				}
 				equipment_bonus = {
 				fighter_equipment = {
@@ -650,9 +651,10 @@ ideas = {
 			}
 
 			modifier = {
-				army_attack_factor = -0.35
-				army_defence_factor = -0.35
-				army_org_factor = -0.35
+				army_attack_factor = -0.25
+				army_defence_factor = -0.25
+				army_org_factor = -0.25
+				army_morale_factor = -0.05
 				}
 					equipment_bonus = {
 					fighter_equipment = {
@@ -698,9 +700,10 @@ ideas = {
 			}
 
 			modifier = {
-				army_attack_factor = -0.30
-				army_defence_factor = -0.30
-				army_org_factor = -0.30
+				army_attack_factor = -0.25
+				army_defence_factor = -0.25
+				army_org_factor = -0.25
+				army_morale_factor = -0.05
 				}
 					equipment_bonus = {
 					fighter_equipment = {
@@ -748,7 +751,8 @@ ideas = {
 			modifier = {
 				army_attack_factor = -0.25
 				army_defence_factor = -0.25
-				army_org_factor = -0.25
+				army_org_factor = -0.20
+				army_morale_factor = -0.05
 				}
 					equipment_bonus = {
 				fighter_equipment = {
@@ -793,9 +797,10 @@ ideas = {
 			}
 
 			modifier = {
-				army_attack_factor = -0.20
-				army_defence_factor = -0.20
+				army_attack_factor = -0.15
+				army_defence_factor = -0.15
 				army_org_factor = -0.20
+				army_morale_factor = -0.05
 				}
 				equipment_bonus = {
 				fighter_equipment = {
@@ -842,7 +847,8 @@ ideas = {
 			modifier = {
 				army_attack_factor = -0.15
 				army_defence_factor = -0.15
-				army_org_factor = -0.15
+				army_org_factor = -0.20
+				army_morale_factor = -0.05
 				}
 				equipment_bonus = {
 				fighter_equipment = {
@@ -887,9 +893,10 @@ ideas = {
 			}
 
 			modifier = {
-				army_attack_factor = -0.10
-				army_defence_factor = -0.10
-				army_org_factor = -0.10
+				army_attack_factor = -0.15
+				army_defence_factor = -0.15
+				army_org_factor = -0.20
+				army_morale_factor = -0.05
 				}
 				equipment_bonus = {
 				fighter_equipment = {
@@ -935,9 +942,9 @@ ideas = {
 			}
 
 			modifier = {
-				army_attack_factor = -0.05
-				army_defence_factor = -0.05
-				army_org_factor = -0.05
+				army_attack_factor = -0.10
+				army_defence_factor = -0.10
+				army_org_factor = -0.10
 				}
 				equipment_bonus = {
 				fighter_equipment = {
@@ -1551,7 +1558,7 @@ ideas = {
 
 			}
 
-			traits = { air_airborne_1 }
+			traits = { army_infantry_1 }
 
 			ai_will_do = {
 				factor = 1

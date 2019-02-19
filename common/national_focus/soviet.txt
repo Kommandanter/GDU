@@ -317,9 +317,17 @@ focus_tree = {
 		continue_if_invalid = yes
         completion_reward = {
 			custom_effect_tooltip = SOV_red_army_resurgent_tooltip
-			swap_ideas = { 
-				remove_idea = SOV_war_for_communism
-				add_idea = great_patriotic_war 
+			add_tech_bonus = {
+				name = armor_bonus
+				bonus = 0.5
+				uses = 1
+				technology = advanced_medium_tank
+			}
+			hidden_effect = { 
+				swap_ideas = { 
+					remove_idea = SOV_war_for_communism
+					add_idea = great_patriotic_war 
+				}
 			}
 			country_event = gduevents.5 
 			if = { limit = { has_idea = officers_purged } remove_ideas = officers_purged }
@@ -691,18 +699,15 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			air_experience = 375
+			air_experience = 350
 			set_rule = {
 				can_generate_female_aces = yes
 			}
-			if = {
-				limit = {
-					SOV = { has_full_control_of_state = 219 }
-				}
-				custom_effect_tooltip = SOV_night_witches_tt
-				hidden_effect = {
-					load_oob = "SOV_night_witches"
-				}
+			add_tech_bonus = {
+				name = bomber_bonus
+				bonus = 0.6
+				uses = 1
+				technology = CAS2
 			}
 		}
 	}
@@ -827,7 +832,7 @@ focus_tree = {
 
 			add_tech_bonus = {
 				name = air_bonus
-				bonus = 0.5
+				bonus = 0.75
 				uses = 1
 				technology = fighter1
 				technology = fighter2

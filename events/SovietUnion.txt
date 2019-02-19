@@ -1076,7 +1076,7 @@ country_event = {
 				idea = officers_purged_9
 				days = 450
 			}
-			country_event = { id = soviet.45 days = 146 }
+			country_event = { id = soviet.45 days = 175 }
 		}
 	}
 	option = {
@@ -1103,7 +1103,6 @@ country_event = {
 				days = 450
 			}
 		}
-		country_event = { id = soviet.47 days = 146 }
 	}
 	option = {
 		name = soviet.37.a
