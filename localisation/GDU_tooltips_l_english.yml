@@ -16,3 +16,6 @@
  GER_barbarossa_tooltip:0 "§RThe entire Axis will strike the Soviet Union in an unprovoked surprise attack.§!\n\n"
  SOV_barbarossa_tooltip:0 "§RThey are coming.§!"
  SOV_red_army_resurgent_tooltip:0 "§GRemoves all penalties from officers purged and unlocks superior staff!\n\n§!"
+ SOV_great_purge_completed:0 "The Great Purge will only be removed after a long period of time, or when the Soviet Union has to overcome §Rgreat danger.§!\n\n" 
+ SOV_purge_complete:0 "The Great Purge has been completed." 
+ SOV_great_purge_complete_tt:0 "This focus will automatically bypass when the Great Purge has been completed."
