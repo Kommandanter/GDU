@@ -985,6 +985,10 @@ technologies = {
 
 		start_year = 1943
 		
+		allow = { 
+			date > 1942.3.1
+		}
+		
 		folder = {
 			name = artillery_folder
 			position = { x = 7 y = 12 }
