@@ -10,6 +10,7 @@ buildings = {
 		per_level_extra_cost = 500
 		icon_frame = 3
 		infrastructure = yes
+		damage_factor = 0.70 
 		max_level = 10
 		value = 1
 	}
