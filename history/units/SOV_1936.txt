@@ -1679,43 +1679,27 @@ air_wings = {
 			amount = 100
 		# TODO -- 46ya Transporta Aviabrigada -- transport planes
 	}
-	fighter_equipment_0 = {
+	fighter_equipment_1 = {
 			owner = "SOV"
 			amount = 100
 		}
-				fighter_equipment_0 = {
+				fighter_equipment_1 = {
 			owner = "SOV"
 			amount = 100
 		}
-				fighter_equipment_0 = {
+				fighter_equipment_1 = {
 			owner = "SOV"
 			amount = 100
 		}
-				fighter_equipment_0 = {
+				fighter_equipment_1 = {
 			owner = "SOV"
 			amount = 100
 		}
-						fighter_equipment_0 = {
+						fighter_equipment_1 = {
 			owner = "SOV"
 			amount = 100
 		}
-						fighter_equipment_0 = {
-			owner = "SOV"
-			amount = 100
-		}
-						fighter_equipment_0 = {
-			owner = "SOV"
-			amount = 100
-		}
-						fighter_equipment_0 = {
-			owner = "SOV"
-			amount = 100
-		}
-						fighter_equipment_0 = {
-			owner = "SOV"
-			amount = 100
-		}
-						fighter_equipment_0 = {
+						fighter_equipment_1 = {
 			owner = "SOV"
 			amount = 100
 		}
@@ -1725,27 +1709,27 @@ air_wings = {
 			owner = "SOV"
 			amount = 100
 		}
-				fighter_equipment_0 = {
+				fighter_equipment_1 = {
 			owner = "SOV"
 			amount = 100
 		}
-				fighter_equipment_0 = {
+				fighter_equipment_1 = {
 			owner = "SOV"
 			amount = 100
 		}
-				fighter_equipment_0 = {
+				fighter_equipment_1 = {
 			owner = "SOV"
 			amount = 100
 		}
-				fighter_equipment_0 = {
+				fighter_equipment_1 = {
 			owner = "SOV"
 			amount = 100
 		}
-						fighter_equipment_0 = {
+						fighter_equipment_1 = {
 			owner = "SOV"
 			amount = 100
 		}
-						fighter_equipment_0 = {
+						fighter_equipment_1 = {
 			owner = "SOV"
 			amount = 100
 		}
@@ -1769,26 +1753,6 @@ air_wings = {
 			owner = "SOV"
 			amount = 100
 		}				fighter_equipment_0 = {
-			owner = "SOV"
-			amount = 100
-		}
-						fighter_equipment_0 = {
-			owner = "SOV"
-			amount = 100
-		}
-						fighter_equipment_0 = {
-			owner = "SOV"
-			amount = 100
-		}
-						fighter_equipment_0 = {
-			owner = "SOV"
-			amount = 100
-		}
-						fighter_equipment_0 = {
-			owner = "SOV"
-			amount = 100
-		}
-						fighter_equipment_0 = {
 			owner = "SOV"
 			amount = 100
 		}
