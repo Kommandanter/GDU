@@ -138,6 +138,7 @@ NDefines.NMilitary.PARACHUTE_COMPLETE_ORG = 0.3				   -- Organisation value (in 
 NDefines.NMilitary.PARACHUTE_ORG_REGAIN_PENALTY_DURATION = 120   -- penalty in org regain after being parachuted. Value is in hours.
 NDefines.NMilitary.PARACHUTE_ORG_REGAIN_PENALTY_MULT = -0.6	   -- penalty to org regain after being parachuted.
 NDefines.NMilitary.PARADROP_PENALTY = -0.2 
+NDefines.NMilitary.LAND_COMBAT_COLLATERAL_FACTOR = 0.003
 
 NDefines.NMilitary.ACCLIMATIZATION_IN_COMBAT_SPEED_FACTOR = 4		-- Acclimatization speed multiplier while being in combat.
 NDefines.NMilitary.ACCLIMATIZATION_SPEED_GAIN = 0.05				-- A variable used to balance the overall speed of gaining the acclimatization
