@@ -1107,7 +1107,7 @@ technologies = {
 		army_bonus_air_superiority_factor = 0.20
 		
 		
-		category_leg_infantry = { 
+		category_all_infantry = { 
 			hard_attack = 0.05
 		}
 		
