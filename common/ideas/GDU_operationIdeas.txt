@@ -29,7 +29,7 @@ ideas = {
 				removal_cost = -1
 
 				modifier = {
-					amphibious_invasion_defence = 0.2
+					amphibious_invasion_defence = 0.15
 					amphibious_invasion = 0.1
 					special_forces_attack_factor = 0.10
 				}
@@ -79,7 +79,7 @@ ideas = {
 				removal_cost = -1
 
 				modifier = {
-					max_dig_in  = 7.0
+					max_dig_in  = 6.0
 					dig_in_speed_factor = 0.25
 					defence = 0.1
 
@@ -143,11 +143,11 @@ ideas = {
 					instant = yes
 				}
 				artillery_equipment = {
-					breakthrough = 0.2
+					breakthrough = 0.15
 					instant = yes 
 				}
 				anti_tank_equipment = {
-					breakthrough = 0.2
+					breakthrough = 0.15
 					instant = yes
 				}
 			}
