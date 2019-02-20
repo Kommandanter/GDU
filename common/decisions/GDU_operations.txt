@@ -84,47 +84,6 @@ operations = {
 		
 	}
 	
-	GDU_mobile_operation = {
-		icon = GFX_decision_category_ger_military_buildup
-		ai_will_do = { factor = 0 }
-		cost = 20
-		
-		allowed = { always = yes }
-		
-		available = {
-			NOT = { has_idea = GDU_mobile_operation_idea }
-			NOT = { command_power < 100 } 
-			
-		}
-		
-		visible = { always = yes }
-		
-		custom_cost_trigger = {
-			command_power > -1
-			}
-		
-		
-		days_remove = 60
-		
-		custom_cost_text = GDU_operation_cost
-		
-		fire_only_once = no
-		
-		complete_effect = {
-			add_command_power = -100.0
-			add_timed_idea = { idea = GDU_mobile_operation_idea days = 60 }
-		}
-		
-		remove_effect = {
-			hidden_effect =  {
-					remove_ideas = GDU_mobile_operation_idea
-				}
-		}	
-				
-			
-		
-	}
-	
 	GDU_infantry_offensive = {
 		icon = GFX_decision_category_infiltration
 		ai_will_do = { factor = 0 }
@@ -159,47 +118,6 @@ operations = {
 		remove_effect = {
 			hidden_effect =  {
 					remove_ideas = GDU_infantry_offensive_idea
-				}
-		}	
-				
-			
-		
-	}
-	
-	GDU_logistical_emphasis = {
-		icon = GFX_decision_generic_operation
-		ai_will_do = { factor = 0 }
-		cost = 20
-		
-		allowed = { always = yes }
-		
-		available = {
-			NOT = { has_idea = GDU_logistical_emphasis_idea }
-			NOT = { command_power < 100 } 
-			
-		}
-		
-		visible = { always = yes }
-		
-		custom_cost_trigger = {
-			command_power > -1
-			}
-		
-		
-		days_remove = 60
-		
-		custom_cost_text = GDU_operation_cost
-		
-		fire_only_once = no
-		
-		complete_effect = {
-			add_command_power = -100.0
-			add_timed_idea = { idea = GDU_logistical_emphasis_idea  days = 60 }
-		}
-		
-		remove_effect = {
-			hidden_effect =  {
-					remove_ideas = GDU_logistical_emphasis_idea
 				}
 		}	
 				
@@ -248,6 +166,47 @@ operations = {
 		
 	}
 	
+	GDU_logistical_emphasis = {
+		icon = GFX_decision_generic_operation
+		ai_will_do = { factor = 0 }
+		cost = 20
+		
+		allowed = { always = yes }
+		
+		available = {
+			NOT = { has_idea = GDU_logistical_emphasis_idea }
+			NOT = { command_power < 100 } 
+			
+		}
+		
+		visible = { always = yes }
+		
+		custom_cost_trigger = {
+			command_power > -1
+			}
+		
+		
+		days_remove = 60
+		
+		custom_cost_text = GDU_operation_cost
+		
+		fire_only_once = no
+		
+		complete_effect = {
+			add_command_power = -100.0
+			add_timed_idea = { idea = GDU_logistical_emphasis_idea  days = 60 }
+		}
+		
+		remove_effect = {
+			hidden_effect =  {
+					remove_ideas = GDU_logistical_emphasis_idea
+				}
+		}	
+				
+			
+		
+	}
+	
 	GDU_amphibious_assault = {
 		icon = GFX_decision_generic_naval
 		ai_will_do = { factor = 0 }
@@ -289,6 +248,88 @@ operations = {
 		
 	}
 	
+	GDU_mobile_operation = {
+		icon = GFX_decision_category_ger_military_buildup
+		ai_will_do = { factor = 0 }
+		cost = 20
+		
+		allowed = { always = yes }
+		
+		available = {
+			NOT = { has_idea = GDU_mobile_operation_idea }
+			NOT = { command_power < 50 } 
+			
+		}
+		
+		visible = { always = yes }
+		
+		custom_cost_trigger = {
+			command_power > -1
+			}
+		
+		
+		days_remove = 60
+		
+		custom_cost_text = GDU_operation_cost_50
+		
+		fire_only_once = no
+		
+		complete_effect = {
+			add_command_power = -50.0
+			add_timed_idea = { idea = GDU_mobile_operation_idea days = 60 }
+		}
+		
+		remove_effect = {
+			hidden_effect =  {
+					remove_ideas = GDU_mobile_operation_idea
+				}
+		}	
+				
+			
+		
+	}
+	
+	GDU_org_operation = {
+		icon = GFX_decision_generic_form_nation
+		ai_will_do = { factor = 0 }
+		cost = 20
+		
+		allowed = { always = yes }
+		
+		available = {
+			NOT = { has_idea = GDU_org_operation_idea }
+			NOT = { command_power < 50 } 
+			
+		}
+		
+		visible = { always = yes }
+		
+		custom_cost_trigger = {
+			command_power > -1
+			}
+		
+		
+		days_remove = 60
+		
+		custom_cost_text = GDU_operation_cost_50
+		
+		fire_only_once = no
+		
+		complete_effect = {
+			add_command_power = -50.0
+			add_timed_idea = { idea = GDU_org_operation_idea days = 60 }
+		}
+		
+		remove_effect = {
+			hidden_effect =  {
+					remove_ideas = GDU_org_operation_idea
+				}
+		}	
+				
+			
+		
+	}
+	
 	GDU_air_land_battle_operation = {
 		icon = GFX_decision_generic_air
 		ai_will_do = { factor = 0 }
@@ -298,7 +339,7 @@ operations = {
 		
 		available = {
 			NOT = { has_idea = GDU_air_land_battle_operation_idea }
-			NOT = { command_power < 100 } 
+			NOT = { command_power < 50 } 
 
 
 			
@@ -313,12 +354,12 @@ operations = {
 		
 		days_remove = 60
 		
-		custom_cost_text = GDU_operation_cost
+		custom_cost_text = GDU_operation_cost_50
 		
 		fire_only_once = no
 		
 		complete_effect = {
-			add_command_power = -100.0
+			add_command_power = -50.0
 			add_timed_idea = { idea = GDU_air_land_battle_operation_idea  days = 60 }
 		}
 		

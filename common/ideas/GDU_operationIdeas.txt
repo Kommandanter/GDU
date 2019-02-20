@@ -13,10 +13,8 @@ ideas = {
 				modifier = {
 					#offence = 0.1
 					#defence = 0.1
-					army_armor_speed_factor = 0.05
-					army_armor_attack_factor = 0.1 
+					army_armor_attack_factor = 0.15
 					army_armor_defence_factor = 0.1
-					army_morale_factor = 0.1 
 					
 				}
 			
@@ -31,9 +29,9 @@ ideas = {
 				removal_cost = -1
 
 				modifier = {
-					amphibious_invasion_defence = 0.15
+					amphibious_invasion_defence = 0.2
 					amphibious_invasion = 0.1
-					special_forces_attack_factor = 0.1
+					special_forces_attack_factor = 0.10
 				}
 			
 			}
@@ -64,7 +62,7 @@ ideas = {
 
 				modifier = {
 					supply_consumption_factor = -0.10
-					out_of_supply_factor = -0.20
+					out_of_supply_factor = -0.25
 					attrition = -0.10
 					no_supply_grace = 72
 
@@ -81,9 +79,9 @@ ideas = {
 				removal_cost = -1
 
 				modifier = {
-					max_dig_in  = 5.0
+					max_dig_in  = 7.0
 					dig_in_speed_factor = 0.25
-					defence = 0.05
+					defence = 0.1
 
 				}
 			
@@ -113,10 +111,8 @@ ideas = {
 				removal_cost = -1
 
 				modifier = {
-					mechanized_attack_factor = 0.10
-					mechanized_defence_factor = 0.10
-				    motorized_defence_factor = 0.05
-					motorized_attack_factor = 0.05
+				    motorized_defence_factor = 0.15
+					motorized_attack_factor = 0.15
 				}
 				
 				equipment_bonus = {
@@ -143,21 +139,37 @@ ideas = {
 				
 			equipment_bonus = {
 				infantry_equipment = {
-					breakthrough = 0.25
+					breakthrough = 0.2
 					instant = yes
 				}
 				artillery_equipment = {
-					breakthrough = 0.20
+					breakthrough = 0.2
 					instant = yes 
 				}
 				anti_tank_equipment = {
-					breakthrough = 0.20
+					breakthrough = 0.2
 					instant = yes
 				}
 			}
 
 				modifier = {
-					army_infantry_attack_factor = 0.05
+					army_infantry_attack_factor = 0.075
+				
+
+				}
+			
+		}
+		
+		GDU_org_operation_idea = {
+				allowed = {
+					always = no # Unlocked via decision
+				}
+				picture = FRA_army_of_aggression_focus
+	
+				removal_cost = -1
+
+				modifier = {
+					army_org_factor = 0.05
 				
 
 				}
