@@ -137,7 +137,14 @@
  pfunews.3.a:0 "Impressive"
  
  
- ### Put into a new file plez
+ ### Good Stuff from here
+ 
+ # News Events Decisions 
+ turn_on_off_news_category:0 "News Event Settings"
+ turn_news_on_decision:0 "Turn on News Events"
+ turn_news_off_decision:0 "Turn off News Events"
+ 
+ # News Events Themselves
  gdunews.1.t:0 "Beginning of World War II"
  gdunews.1.d:0 "After the Great War, French Marshal Ferdinand Foch remarked that the Treaty of Versailles was not a peace, but an armistice for twenty years.\n\nAlthough he didn't live to see it, he was right. Hitler's German Reich has invaded Poland to allegedly reclaim Danzig, an aggressive move quickly responded to by declarations of war on Germany by France, the United Kingdom, and its Commonwealth in Poland's defense.\n\nMartial law has been declared in France, civilian planes in Germany are grounded, and children in London are being evacuated to the countryside. Once more, the world ignites."
  gdunews.1.a:0 "They'll pay for humiliating us!"
