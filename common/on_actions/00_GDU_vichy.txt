@@ -1,0 +1,256 @@
+on_actions = { 
+	on_capitulation = { 
+		effect = {
+		
+			if = {
+				limit = { 
+					AND = { 
+						tag = FRA 
+						NOT = { has_global_flag = fall_of_france } 
+					}
+				}
+				
+				set_global_flag = achievement_france_surrender
+				set_global_flag = fall_of_france
+				
+				country_event = { days = 15 id = pfunews.2 } 
+				country_event = { days = 2 id = news.34 }           
+				if = { 
+					limit = { 
+						AND = { 
+							ITA = { NOT = { has_war_with = ENG } }  
+						}
+					}
+					ITA = { country_event = { id = pfu.35 days = 10 } } # Force Italian war declaration on the allies.
+				}
+				
+				FRA = { news_event = { id = france.20 days = 1 } }
+				
+				FRA = {
+					##add checks if general exists
+					remove_unit_leader = 801
+					remove_unit_leader = 802
+					remove_unit_leader = 803
+					remove_unit_leader = 804
+					remove_unit_leader = 805
+					remove_unit_leader = 806
+					remove_unit_leader = 807
+					#remove_unit_leader = 808 #René-Émile Godfroy
+					remove_unit_leader = 809
+					add_ideas = FRA_FREE_army
+					set_cosmetic_tag = FRA_FREE
+			
+					create_corps_commander = {
+						name = "Charles De Gaulle"
+						picture = "Portrait_France_Charles_De_Gaulle.dds"
+						traits = { panzer_leader infantry_leader infantry_expert trickster }
+						skill = 6
+						attack_skill = 6
+						defense_skill = 6
+						planning_skill = 3
+						logistics_skill = 4
+					}
+					create_corps_commander = {
+						name = "Philippe Leclerc"
+						picture = "portrait_france_philippe_leclerc.dds"
+						traits = { panzer_leader }
+						skill = 3
+						attack_skill = 3
+						defense_skill = 4
+						planning_skill = 3
+						logistics_skill = 3
+					}
+					create_corps_commander = {
+						name = "Marie-Pierre Koenig"
+						picture = "Portrait_France_Marie_Pierre_Koenig.dds"
+						traits = { trickster }
+						skill = 2
+						attack_skill = 2
+						defense_skill = 2
+						planning_skill = 3
+						logistics_skill = 2
+					}
+					create_corps_commander = {
+						name = "Edgard de Larminat"
+						picture = "Portrait_France_Generic_land_4.dds"
+						traits = { desert_fox }
+						skill = 1
+						attack_skill = 1
+						defense_skill = 2
+						planning_skill = 1
+						logistics_skill = 1
+					}
+					create_navy_leader = {
+						name = "Émile Muselier"
+						picture = "Portrait_France_Emile_Muselier.dds"
+						traits = { spotter }
+						skill = 3
+					}
+					set_country_flag = free_france
+					set_capital = 539
+				
+				}
+				
+				if = {
+						limit = {
+						AND = {
+							21 = { #Provence
+								NOT = { is_controlled_by = ITA } 
+							}
+						}
+					}
+					EFR = { transfer_state = 21 }
+				}
+				if = {
+					limit = {
+						AND = {
+							1 = { #Corsica
+								NOT = { is_controlled_by = ITA } 
+							}
+						}
+					}
+					EFR = { transfer_state = 1 }
+				}
+				if = {
+					limit = {
+						AND = {
+							665 = { #Gabes
+								NOT = { is_controlled_by = ITA } 
+							}
+						}
+					}
+					EFR = { transfer_state = 665 }
+				}
+				if = {
+					limit = {
+						AND = {
+							458 = { #Tunisia
+								NOT = { is_controlled_by = ITA } 
+							}
+						}
+					}
+					EFR = { transfer_state = 458 }
+				}
+				if = {
+					limit = {
+						AND = { 
+							32 = { #Alpes
+								NOT = { is_controlled_by = ITA } 
+							}
+						}
+					}
+					EFR = { transfer_state = 32 }
+				}
+				if = {
+					limit = {
+						AND = { 
+							735 = { #Savoy
+								NOT = { is_controlled_by = ITA } 
+							}
+						}
+					}
+					EFR = { transfer_state = 735 }
+				}
+			
+				EFR = {
+					transfer_state = 26
+					transfer_state = 22
+					transfer_state = 31
+					transfer_state = 25
+					transfer_state = 20
+					transfer_state = 33
+
+					transfer_state = 677
+					transfer_state = 680
+					transfer_state = 554
+					transfer_state = 459
+					transfer_state = 460
+					transfer_state = 461
+					transfer_state = 462
+					#transfer_state = 514
+
+					#transfer_state = 557
+					transfer_state = 272
+					transfer_state = 556
+					transfer_state = 671
+					transfer_state = 670
+					transfer_state = 741
+					transfer_state = 286
+					transfer_state = 513
+
+					transfer_state = 553
+					transfer_state = 543
+					#transfer_state = 708
+					#transfer_state = 706
+					#transfer_state = 268
+					#transfer_state = 713
+					#transfer_state = 730
+					#transfer_state = 515
+					transfer_state = 298
+					set_capital = 26
+					add_ideas = idea_EFR_neutrality
+					diplomatic_relation = { country = ENG relation = non_aggression_pact }
+					diplomatic_relation = { country = USA relation = non_aggression_pact }
+					diplomatic_relation = { country = PHI relation = non_aggression_pact }
+					diplomatic_relation = { country = FRA relation = non_aggression_pact }
+					diplomatic_relation = { country = SAF relation = non_aggression_pact }
+					diplomatic_relation = { country = CAN relation = non_aggression_pact }
+					diplomatic_relation = { country = RAJ relation = non_aggression_pact }
+					diplomatic_relation = { country = AST relation = non_aggression_pact }
+					diplomatic_relation = { country = NZL relation = non_aggression_pact }
+					diplomatic_relation = { country = BRA relation = non_aggression_pact }
+					diplomatic_relation = { country = GER relation = non_aggression_pact }
+					create_corps_commander = {
+						name = "Henri Dentz"
+						picture = "Portrait_France_Generic_land_3.dds" ##looks like the generic portrait is really him
+						traits = { }
+						skill = 1
+					}
+					every_state = {
+						limit = {
+							is_core_of = FRA
+							is_controlled_by = EFR
+						}
+						add_core_of = EFR
+					}
+					every_state = {
+						limit = {
+							NOT = {
+								is_core_of = FRA
+							}
+							is_controlled_by = EFR
+						}
+						add_claim_by  = FRA
+					}
+					28 = {
+						remove_core_of = EFR
+					}
+				
+					set_capital = 26
+					set_politics = {
+						ruling_party = fascism
+						elections_allowed = no
+						parties = {
+							democratic = {
+									popularity = 18
+								}
+							fascism = {
+									popularity = 70
+							}
+							communism = {
+								popularity = 2
+							}
+								neutrality = {
+									popularity = 10
+							}
+						}
+					}
+
+				}
+
+						
+			}
+		}
+	}
+
+}

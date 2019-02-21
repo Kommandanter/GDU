@@ -15,6 +15,7 @@ news_event = {
 	}
 }
 
+#Adolf Hitler visits Paris, triggered by 00_GDU_Vichy in on_actions
 news_event = {
 	id = pfunews.2
 	title = pfunews.2.t
@@ -22,24 +23,8 @@ news_event = {
 	picture = GFX_news_event_hitler_paris
 
 	major = yes
-
-	trigger = {
-		FRA = {
-				has_capitulated = yes
-			}
-		GER = {
-			controls_state = 16
-		}
-		NOT = { has_global_flag = hitler_visits_paris }
-	}
-
-	immediate = {
-		set_global_flag = hitler_visits_paris
-	}
-
-	mean_time_to_happen = {
-		days = 30
-	}
+	
+	is_triggered_only = yes 
 
 	option = {
 		name = pfunews.2.a

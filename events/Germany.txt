@@ -196,6 +196,9 @@ country_event = {
 				remove_state_core = 80
 				remove_state_core = 73
 			}
+			FRA = { 
+				country_event = { days = 10 id = france.24 } 
+			}
 		}
 		GER = {
 			country_event = { days = 1 id = germany.12 }

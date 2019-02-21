@@ -295,6 +295,8 @@ country_event = {
 	}
 }
 
+# This event forces Italy into the war if they haven't already joined and fires 10 days after the Fall of France. Please see: GDU_vichy in on actions. 
+
 country_event = {
 	id = pfu.35
 	title = pfu.35.t
@@ -303,12 +305,7 @@ country_event = {
 
 	fire_only_once = yes
 
-	trigger = {
-		tag = ITA
-		FRA = {
-			has_capitulated = yes
-		}
-	}
+	is_triggered_only = yes 
 
 	option = {
 		name = pfu.35.a
@@ -323,64 +320,5 @@ country_event = {
 				}
 		}
 	}
-	mean_time_to_happen = { days = 30 }
-}
-
-country_event = {
-	id = pfu.37
-	title = pfu.37.t
-	desc = pfu.37.d
-	picture = GFX_report_event_royalarmor
 	
-	fire_only_once = yes
-	
-	trigger = {
-		tag = GER
-		date > 1942.1.20
-	}
-	mean_time_to_happen = {
-		days = 0
-	}
-	
-	immediate = {
-		set_global_flag = GER_TANK3
-	}
-	
-	option = {
-		name = pfu.37.a 
-		add_tech_bonus = {
-			bonus = 0.5
-			uses = 1
-			name = FrontLineTankResearch
-			technology = basic_medium_tank
-			technology = improved_medium_tank
-			technology = advanced_medium_tank
-		}
-	}
-}
-
-country_event = {
-	id = pfu.38
-	title = pfu.38.t
-	desc = pfu.38.d
-	picture = GFX_report_event_tihkvin
-	
-	fire_only_once = yes
-	
-	trigger = {
-		tag = GER
-		date > 1942.6.30
-	}
-	mean_time_to_happen = {
-		days = 0
-	}
-	
-	immediate = {
-		set_global_flag = GER_Industry
-	}
-	
-	option = {
-		name = pfu.38.a 
-		add_timed_idea = { idea = speer_reforms days = 30 }
-	}
 }
