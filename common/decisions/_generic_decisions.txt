@@ -348,6 +348,9 @@ propaganda_efforts = {
 					is_justifying_wargoal_against = ROOT
 					has_war_with = ROOT
 				}
+				NOT = { 
+					is_in_faction_with = ROOT 
+				}
 			}
 		}
 
@@ -955,7 +958,7 @@ war_measures = {
                 }
                 AND = {
                     has_government = neutrality
-                    has_war_support > 0.89
+                    has_war_support > 0.79
                     has_stability > 0.7
                 }
             }
