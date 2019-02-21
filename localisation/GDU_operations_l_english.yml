@@ -40,3 +40,9 @@
 	
     assume_control_crete:0 "Command Crete Garrison"
     assume_control_crete_desc:0 "After a valiant defense against the Axis, Greece has fallen. Their government has exiled to the island of Crete, and intends on continuing the struggle. Crete is in a strategic position in the Mediterranean, and given the extreme circumstances the Greeks will be quite understanding if we take command of local defense. Naturally, the Greek government will also come under our care in this difficult period."
+    
+    GDU_FRA_seize_Africa:0 "Seize North Africa"
+    GDU_FRA_seize_Africa_desc:0 "With the defeat of Italy in Libya, the Vichy state's holdings in North Africa are in a tenuous position. With some political pressure and the help of our allies, we can reclaim these territories and prepare for the liberation of our homeland."
+	
+    GDU_GER_seize_syria:0 "Seize Syria"
+    GDU_GER_seize_syria_desc:0 "With the Egyptian campaign won, there's little reason to respect Vichy France's 'rights' to Syria. A brief talk with them will make them understand the pressing need for German military occupation in this region."

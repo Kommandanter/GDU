@@ -27,6 +27,13 @@ on_actions = {
 				FRA = { news_event = { id = france.20 days = 1 } }
 				
 				FRA = {
+					start_civil_war = {
+						ideology = fascism
+						size = 0.9
+						capital = 26
+						states = { 26 }
+					
+					}
 					##add checks if general exists
 					remove_unit_leader = 801
 					remove_unit_leader = 802

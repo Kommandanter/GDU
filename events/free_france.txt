@@ -221,23 +221,7 @@ country_event = {
 		ai_chance = {
 			factor = 100
 		}
-		hidden_effect = {
-			set_technology = { partisans = 1 }
-			set_province_controller = 7069
-			set_province_controller = 11943
-			set_province_controller = 10070
-			set_province_controller = 7132
-			set_province_controller = 4116
-			set_province_controller = 11923
-			set_province_controller = 1145
-			set_province_controller = 9964
-			set_province_controller = 11939
-			set_province_controller = 9994
-			set_province_controller = 11969
-			set_province_controller = 4163
-		}
 
-		custom_effect_tooltip = FRA_Torch_historical_tt
 	}
 }
 

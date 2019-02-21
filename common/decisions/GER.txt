@@ -88,7 +88,7 @@ GER_case_anton_category = {
 			}
 			OR = { 
 				EFR = { has_war = yes } 
-				date > 1942.2.1
+				date > 1942.3.15
 			}
 		}
 

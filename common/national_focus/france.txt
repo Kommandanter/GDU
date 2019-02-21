@@ -1641,7 +1641,6 @@ focus_tree = {
 
 		completion_reward = {
 			country_event = { days = 1 id = free_france.9 }
-			custom_effect_tooltip = unleash_the_resistance_1_tt
 
 		}
 	}

@@ -1284,32 +1284,7 @@ country_event = {
 					}
 				}
 			}
-			SLO = {
-				set_technology = { basic_medium_tank = 1 }
-				create_equipment_variant = {
-					name = "LT-38 E"
-					type = medium_tank_equipment_1
-					parent_version = 0
-					upgrades = {
-						tank_gun_upgrade = 2
-						tank_armor_upgrade = 4
-						tank_engine_upgrade = 3
-						tank_reliability_upgrade = 6
-					}
-				}
-			}
-			SLO = {
-				set_technology = { improved_light_tank = 1 }
-				create_equipment_variant = {
-					name = "LT-35"
-					type = light_tank_equipment_2
-					upgrades = {
-						tank_gun_upgrade = 2
-						tank_armor_upgrade = 2
-						tank_reliability_upgrade = 4
-					}
-				}
-			}
+			
 		}
 
 	}
@@ -1328,101 +1303,14 @@ country_event = {
 			amount = 500
 			producer = CZE
 		}
-		if = {
-			limit = {
-				70 = {
-					OR = {
-						is_owned_by = CZE
-						is_owned_by = GER
-					}
-				}
-			}
-			SLO = { transfer_state = 70 }
-		}
-		if = {
-			limit = {
-				71 = {
-					OR = {
-						is_owned_by = CZE
-						is_owned_by = GER
-					}
-				}
-			}
-			SLO = { transfer_state = 71 }
-		}
-		if = {
-			limit = {
-				154 = { is_owned_by = HUN }
-				HUN = {
-					is_friend_or_potential_friend_of_GER = yes
-				}
-				73 = {
-					OR = {
-						is_owned_by = CZE
-						is_owned_by = GER
-					}
-				}
-				country_exists = HUN
-			}
-			HUN = { transfer_state = 73 }
-		}
 
+		HUN = { transfer_state = 73 }	
 
-		if = {
-			limit = {
-				NOT = { 154 = { is_owned_by = HUN } }
-				HUN = { is_friend_or_potential_friend_of_GER = no }
-				73 = {
-					OR = {
-						is_owned_by = CZE
-						is_owned_by = GER
-					}
-				}
-			}
-			SLO = { transfer_state = 73 }
-		}
-
-		if = {
-			limit = {
-				664 = {
-					OR = {
-						is_owned_by = CZE
-						is_owned_by = GER
-					}
-				}
-			}
-			SLO = { transfer_state = 664 }
-		}
 		if = {
 			limit = { country_exists = CZE }
 			annex_country = { target = CZE }
 		}
-		puppet = SLO
-		if = {
-			limit = {
-				72 = {
-					OR = {
-						is_owned_by = CZE
-						is_owned_by = GER
-					}
-				}
-				country_exists = POL
-			}
-			POL = { transfer_state = 72 } # Give Poland Zaolzie
-		}
 
-		if = {
-			limit = {
-				72 = {
-					OR = {
-						is_owned_by = CZE
-						is_owned_by = GER
-					}
-				}
-				NOT = { country_exists = POL }
-			}
-			SLO = { transfer_state = 72 } # Give Slovakia Zaolzie
-		}
 
 		if = {
 			limit = { has_global_flag = GER_HUN_CZE_split }
@@ -1431,17 +1319,7 @@ country_event = {
 
 		hidden_effect = {
 			country_event = { hours = 6 id = news.60 }
-			every_state = {
-				limit = {
-					is_owned_by = SLO
-				}
-				add_core_of = SLO
-			}
-			SLO = {
-				load_oob = SLO_1939
-				add_manpower = 50000
-				add_political_power = 600
-			}
+
 		}
 	}
 }

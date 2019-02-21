@@ -201,24 +201,47 @@ ideas = {
 				always = yes
 			}
 
-			picture = generic_morale_bonus
+			picture = stiff_upper_lip
 
 				equipment_bonus = {
 				fighter_equipment = {
-					air_agility = 0.10
-					air_range = 0.10
+					air_agility = 0.15
+					air_range = 0.15
 					instant = yes
 				}
 			}
-						modifier = {
+				modifier = {
 				army_defence_factor = 0.1
-				industry_air_damage_factor = 0.2
-				army_org_Factor = 0.10
-				army_morale_factor = 0.10
+				army_org_Factor = 0.1
+				army_morale_factor = 0.1
 
 				}
 
 		}
+		
+		finest_hour_com = {
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = stiff_upper_lip
+
+				modifier = {
+				army_defence_factor = 0.1
+				army_org_Factor = 0.1
+				army_morale_factor = 0.1
+
+				}
+
+		}
+		
 				wartime_industry_focus = {
 
 			allowed = {

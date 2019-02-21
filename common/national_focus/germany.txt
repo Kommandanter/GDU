@@ -1846,6 +1846,10 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_named_threat = { threat = 5 name = GER_danzig_or_war }
+			hidden_effect = { 
+				country_event = { id = pfu.18 days = 30 }
+			}
+
 			if = {
 				limit = {
 					85 = {
