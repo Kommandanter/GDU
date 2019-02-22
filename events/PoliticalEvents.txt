@@ -732,6 +732,7 @@ country_event = {
 					tag = CHI
 				}			
 			}
+			NOT = { tag = FRA } #France can't go communist. 
 		}
 		set_politics = {
 			ruling_party = communism

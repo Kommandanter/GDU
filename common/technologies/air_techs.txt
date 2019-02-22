@@ -194,7 +194,7 @@ technologies = {
 		research_cost = 2
 		start_year = 1940
 		allow = { 
-			date > 1937.1.1
+			date > 1937.6.1 
 		}
 		
 		folder = {
@@ -561,7 +561,7 @@ technologies = {
 		research_cost = 2
 		start_year = 1940
 		allow = { 
-			date > 1937.1.1
+			date > 1937.6.1 
 		}
 
 		folder = {
@@ -826,7 +826,7 @@ technologies = {
 		research_cost = 2
 		start_year = 1940
 		allow = { 
-			date > 1937.1.1
+			date > 1937.6.1 
 		}
 		folder = {
 			name = air_techs_folder
@@ -1064,7 +1064,7 @@ technologies = {
 		research_cost = 2
 		start_year = 1940
 		allow = { 
-			date > 1937.1.1
+			date > 1937.6.1 
 		}
 		folder = {
 			name = air_techs_folder
@@ -1173,7 +1173,7 @@ technologies = {
 		research_cost = 2
 		start_year = 1940
 		allow = { 
-			date > 1937.1.1
+			date > 1937.6.1 
 		}
 		folder = {
 			name = air_techs_folder
@@ -1362,7 +1362,7 @@ technologies = {
 		research_cost = 2
 		start_year = 1940
 		allow = { 
-			date > 1937.1.1
+			date > 1937.6.1 
 		}
 		folder = {
 			name = air_techs_folder

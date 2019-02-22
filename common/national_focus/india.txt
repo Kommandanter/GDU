@@ -178,46 +178,6 @@ focus_tree = {
 		}
 	}
 
-	focus = {
-		id = RAJ_request_ports
-		icon = GFX_goal_generic_major_alliance
-		prerequisite = { focus = RAJ_quit_india_movement }
-		x = 0
-		y = 2
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 25
-		}
-
-		available = {
-			is_subject = yes
-			threat > 0.99
-			320 = { is_controlled_by = FRA }
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			custom_effect_tooltip = RAJ_request_ports_tt
-			RAJ = { add_timed_idea = { idea = RAJ_french_india_cost days = 160 } }
-			FRA = { add_timed_idea = { idea = ENG_colonial_trade days = 80 } }
-
-			hidden_effect = {
-				news_event = { id = pfunews.4 hours = 6 }
-				RAJ = {
-					transfer_state = 320
-					transfer_state = 321
-					add_state_core = 320
-					add_state_core = 321
-				}
-			}
-		}
-	}
-
 	############################
 	######### SHARED ###########
 	############################
