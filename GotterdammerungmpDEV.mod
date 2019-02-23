@@ -1,5 +1,5 @@
 ﻿name="Gotterdammerung MP Alpha 0.7.1: Fall Weiss DEV"
-path="mod/Gotterdammerung Multiplayer/"
+path="mod/cfu-gotterdammerung/"
 tags={
 	"Balance"
 	"Events"
