@@ -86,8 +86,8 @@ ALB = {
 	color_ui = rgb { 194 59 133 }
 }
 NOR = {
-	color = rgb { 111 71 71 }
-	color_ui = rgb { 144 92 92 }
+	color = rgb { 179 187 201 }
+	color_ui = rgb { 179 187 201 }
 }
 DEN = {
 	color = rgb { 153 116 93 }
