@@ -1458,10 +1458,10 @@ technologies = {
 		}
 
 		motorized = {
-			max_organisation = 15
+			max_organisation = 10
 		}
 		mechanized = {
-			max_organisation = 15
+			max_organisation = 10
 		}
 
 		enable_tactic = tactic_blitz
@@ -2116,7 +2116,7 @@ technologies = {
 
 	operational_concentration = {
 
-		max_planning = 0.25
+		max_planning = 0.20
 		land_reinforce_rate = 0.13
 		category_all_infantry = {
 			max_organisation = 5
@@ -2162,7 +2162,7 @@ technologies = {
 		category_line_artillery = {
 			soft_attack = 0.05
 			max_organisation = 5
-			default_morale = 0.15
+			default_morale = 0.10
 		}
 		
 		category_front_line = {
