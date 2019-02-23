@@ -79,8 +79,8 @@ ideas = {
 				removal_cost = -1
 
 				modifier = {
-					max_dig_in  = 6.0
-					dig_in_speed_factor = 0.25
+					max_dig_in  = 5.0
+					dig_in_speed_factor = 0.15
 					defence = 0.1
 
 				}
@@ -139,7 +139,7 @@ ideas = {
 				
 			equipment_bonus = {
 				infantry_equipment = {
-					breakthrough = 0.2
+					breakthrough = 0.15
 					instant = yes
 				}
 				artillery_equipment = {
