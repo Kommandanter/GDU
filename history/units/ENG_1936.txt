@@ -696,32 +696,32 @@ air_wings = {
 		fighter_equipment_1 = {
 			owner = "ENG"
 			amount = 400
-			version_name = "fighter1 var1"
+			version_name = "Hurricane 109 B"
 		}
 		fighter_equipment_1 = {
 			owner = "ENG"
 			amount = 200
-			version_name = "fighter1 var1"
+			version_name = "Hurricane 109 B"
 		}
 		fighter_equipment_1 = {
 			owner = "ENG"
 			amount = 200
-			version_name = "fighter1 var1"
+			version_name = "Hurricane 109 B"
 		}
 		fighter_equipment_1 = {
 			owner = "ENG"
 			amount = 200
-			version_name = "fighter1 var1"
+			version_name = "Hurricane 109 B"
 		}
 		fighter_equipment_1 = {
 			owner = "ENG"
 			amount = 200
-			version_name = "fighter1 var1"
+			version_name = "Hurricane 109 B"
 		}
 		fighter_equipment_1 =  {		# Ar 68
 			owner = "ENG" 
 			amount = 500
-			version_name = "fighter1 var1"
+			version_name = "Hurricane 109 B"
 		}
 
 		CAS_equipment_1 = {
@@ -755,17 +755,17 @@ air_wings = {
 		###Below is equipment which technically belongs to France but goes to ENG anyway because they're the air controller
 		fighter_equipment_1 = {
 			owner = "ENG"
-			version_name = "fighter1 var1"
+			version_name = "Hurricane 109 B"
 			amount = 100
 		}
 		fighter_equipment_1 = {
 			owner = "ENG"
-			version_name = "fighter1 var1"
+			version_name = "Hurricane 109 B"
 			amount = 100
 		}
 		fighter_equipment_1 = {
 			owner = "ENG"
-			version_name = "fighter1 var1"
+			version_name = "Hurricane 109 B"
 			amount = 100
 		}
 		tac_bomber_equipment_1 =  {
@@ -837,7 +837,7 @@ instant_effect = {
 		equipment = {
 			type = fighter_equipment_1
 			creator = "ENG"
-			version_name = "fighter1 var1"
+			version_name = "Hurricane 109 B"
 		}
 		requested_factories = 1
 		progress = 0.15

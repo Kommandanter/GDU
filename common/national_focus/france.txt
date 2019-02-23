@@ -1589,12 +1589,17 @@ focus_tree = {
 		cost = 10
 
 		available_if_capitulated = yes
+		
+		bypass = { 
+		 GER = {  controls_state = 554 } 
+		}
 
 		completion_reward = {
 			country_event = { days = 1 id = free_france.5 }
 			custom_effect_tooltip = syria_sway_tt
 		}
 	}
+	
 	focus = {
 		id = FRA_take_Manda
 		icon = GFX_goal_generic_improve_relations

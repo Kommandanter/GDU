@@ -244,6 +244,54 @@ ideas = {
 					}
 					NOT = { has_idea = GER_short_war }
 				}
+				if = {
+					limit = {
+						original_tag = ENG
+					}
+					NOT = { has_idea = alli_phoney_war }
+				}
+				if = {
+					limit = {
+						original_tag = SAF
+					}
+					NOT = { has_idea = alli_phoney_war }
+				}
+				if = {
+					limit = {
+						original_tag = RAJ
+					}
+					NOT = { has_idea = alli_phoney_war }
+				}
+				if = {
+					limit = {
+						original_tag = AST
+					}
+					NOT = { has_idea = alli_phoney_war }
+				}
+				if = {
+					limit = {
+						original_tag = NZL
+					}
+					NOT = { has_idea = alli_phoney_war }
+				}
+				if = {
+					limit = {
+						original_tag = HOL
+					}
+					NOT = { has_idea = alli_phoney_war }
+				}
+				if = {
+					limit = {
+						original_tag = IRE
+					}
+					NOT = { has_idea = alli_phoney_war }
+				}
+				if = {
+					limit = {
+						original_tag = CAN
+					}
+					NOT = { has_idea = alli_phoney_war }
+				}
 			}
 
 			ai_will_do = {
