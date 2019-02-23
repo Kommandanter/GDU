@@ -29,8 +29,6 @@ ideas = {
 		}
 		
 		FRA_phoney_war = {
-		
-			text = alli_phoney_war
 			
 			allowed = { 
 				always = no 
