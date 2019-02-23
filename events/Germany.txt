@@ -170,11 +170,7 @@ country_event = {
 		add_state_claim = 97
 		add_state_claim = 80
 		set_global_flag = finland_flag
-		add_ideas = limited_exports
-		swap_ideas = {
-			remove_idea = soviet_closed_market
-			add_idea = soviet_limited_market
-		}
+
 		hidden_effect =  {
 			add_timed_idea = { idea = SOV_molotov_ribbentrop_pact days = 730 }
 			SOV = {
@@ -1469,7 +1465,7 @@ country_event = {
 		ENG = { country_event = germany.62 }
 		add_opinion_modifier = { target = GER modifier = protest_action }
 		add_war_support = 0.10
-		add_ideas = partial_economic_mobilisation
+		add_ideas = low_economic_mobilisation
 	}
 }
 

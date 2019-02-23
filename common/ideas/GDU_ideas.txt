@@ -29,6 +29,37 @@ ideas = {
 			
 		}
 		
+		FRA_phoney_war = {
+		
+			text = alli_phoney_war
+			
+			allowed = { 
+				always = no 
+			}
+			
+			cancel = {
+				GER = {
+					OR = { 
+						has_war_with = HOL
+						has_war_with = BEL
+						has_war_with = LUX
+					}
+				}
+			}
+			
+			removal_cost = -1
+
+			picture = chi_incompetent_officers
+			
+			modifier = {
+				army_attack_factor = -0.1
+				army_defence_factor = -0.1
+				army_core_attack_factor = 0.1
+				army_core_defence_factor = 0.1
+			}
+			
+		}
+		
 		benelux_neutrality = {
 			allowed = {
 				always = no

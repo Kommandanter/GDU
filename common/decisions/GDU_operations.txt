@@ -30,7 +30,7 @@ operations = {
 		
 		complete_effect = {
 			add_command_power = -100.0
-			add_timed_idea = { idea = GDU_armored_operation_idea  days = 60 }
+			add_timed_idea = { idea = GDU_armored_operation_idea  days = 45 }
 		}
 		
 		remove_effect = {
@@ -71,7 +71,7 @@ operations = {
 		
 		complete_effect = {
 			add_command_power = -100.0
-			add_timed_idea = { idea = GDU_motorized_operation_idea  days = 60 }
+			add_timed_idea = { idea = GDU_motorized_operation_idea  days = 45 }
 		}
 		
 		remove_effect = {
@@ -112,7 +112,7 @@ operations = {
 		
 		complete_effect = {
 			add_command_power = -100.0
-			add_timed_idea = { idea = GDU_infantry_offensive_idea  days = 60 }
+			add_timed_idea = { idea = GDU_infantry_offensive_idea  days = 45 }
 		}
 		
 		remove_effect = {
@@ -153,7 +153,7 @@ operations = {
 		
 		complete_effect = {
 			add_command_power = -100.0
-			add_timed_idea = { idea = GDU_static_defense_operation_idea  days = 60 }
+			add_timed_idea = { idea = GDU_static_defense_operation_idea  days = 45 }
 		}
 		
 		remove_effect = {
@@ -194,7 +194,7 @@ operations = {
 		
 		complete_effect = {
 			add_command_power = -100.0
-			add_timed_idea = { idea = GDU_logistical_emphasis_idea  days = 60 }
+			add_timed_idea = { idea = GDU_logistical_emphasis_idea  days = 45 }
 		}
 		
 		remove_effect = {
@@ -235,7 +235,7 @@ operations = {
 		
 		complete_effect = {
 			add_command_power = -100.0
-			add_timed_idea = { idea = GDU_amphibious_assault_idea  days = 60 }
+			add_timed_idea = { idea = GDU_amphibious_assault_idea  days = 45 }
 		}
 		
 		remove_effect = {
@@ -276,7 +276,7 @@ operations = {
 		
 		complete_effect = {
 			add_command_power = -50.0
-			add_timed_idea = { idea = GDU_mobile_operation_idea days = 60 }
+			add_timed_idea = { idea = GDU_mobile_operation_idea days = 45 }
 		}
 		
 		remove_effect = {
@@ -317,7 +317,7 @@ operations = {
 		
 		complete_effect = {
 			add_command_power = -50.0
-			add_timed_idea = { idea = GDU_org_operation_idea days = 60 }
+			add_timed_idea = { idea = GDU_org_operation_idea days = 45 }
 		}
 		
 		remove_effect = {
@@ -360,7 +360,7 @@ operations = {
 		
 		complete_effect = {
 			add_command_power = -50.0
-			add_timed_idea = { idea = GDU_air_land_battle_operation_idea  days = 60 }
+			add_timed_idea = { idea = GDU_air_land_battle_operation_idea  days = 45 }
 		}
 		
 		remove_effect = {

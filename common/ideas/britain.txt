@@ -205,15 +205,13 @@ ideas = {
 
 				equipment_bonus = {
 				fighter_equipment = {
-					air_agility = 0.15
-					air_range = 0.15
+					air_agility = 0.10
+					air_range = 0.10
 					instant = yes
 				}
 			}
 				modifier = {
-				army_defence_factor = 0.1
 				army_org_Factor = 0.1
-				army_morale_factor = 0.1
 
 				}
 
@@ -234,9 +232,7 @@ ideas = {
 			picture = stiff_upper_lip
 
 				modifier = {
-				army_defence_factor = 0.1
 				army_org_Factor = 0.1
-				army_morale_factor = 0.1
 
 				}
 

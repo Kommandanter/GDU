@@ -1130,7 +1130,6 @@ focus_tree = {
 		completion_reward = {
 			remove_ideas = FRA_disjointed_government
 			set_rule = { can_send_volunteers = yes }
-			add_to_tech_sharing_group = commonwealth_research
 		}
 	}
 	##### END ###########
@@ -1502,6 +1501,12 @@ focus_tree = {
 			country_event = { days = 1 id = free_france.1 }
 			add_offsite_building = { type = industrial_complex level = 2 }
 			add_offsite_building = { type = arms_factory level = 2 }
+			add_tech_bonus = {
+				name = FRA_army_reform
+				bonus = 0.3
+				uses = 2
+				category = land_doctrine
+			}
 		}
 	}
 

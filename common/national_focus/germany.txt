@@ -1296,13 +1296,20 @@ focus_tree = {
 				uses = 2
 				category = air_doctrine
 			}
+			
 
 			add_ideas = GER_ace_idea
 			# Balance research bonus to next tech among radio, radio_detection, decimetric_radar, improved_decimetric_radar, centimetric_radar, improved_centimetric_radar, advanced_centimetric_radar
 			add_tech_bonus = {
+				name = air_bonus
+				bonus = 0.2
+				uses = 1
+				technology = fighter2
+			}
+			add_tech_bonus = {
 				name = radar_tech_bonus
 				bonus = 0.5
-				uses = 1
+				uses = 2
 				category = radar_tech
 			}
 			if = {
@@ -1341,7 +1348,7 @@ focus_tree = {
 				category = land_doctrine
 			}
 			add_tech_bonus = {
-				bonus = 0.5
+				bonus = 0.65
 				uses = 1
 				name = mech_army_bonus
 				technology = improved_medium_tank

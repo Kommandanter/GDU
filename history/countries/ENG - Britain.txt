@@ -872,10 +872,10 @@ create_equipment_variant = {
 
 }
 create_equipment_variant = {
-		name = "fighter1 var1"
+		name = "Hurricane 109 B"
 		type = fighter_equipment_1
 		upgrades = {
-			plane_range_upgrade = 5
-			plane_engine_upgrade = 3
+			plane_range_upgrade = 4
+			plane_engine_upgrade = 0
 		}
 	}
