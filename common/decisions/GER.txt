@@ -112,7 +112,7 @@ GER_case_anton_category = {
 		
 		complete_effect = {
 			GER = {
-				annex_country = { target = EFR transfer_troops = yes }
+				annex_country = { target = EFR transfer_troops = no }
 			}
 		}
 	}

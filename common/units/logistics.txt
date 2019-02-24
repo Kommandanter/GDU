@@ -33,7 +33,7 @@ sub_units = {
 		can_be_parachuted = yes
 
 		# Important Ability
-		supply_consumption_factor = -0.15
+		supply_consumption_factor = -0.10
 		
 		essential = {
 			support_equipment

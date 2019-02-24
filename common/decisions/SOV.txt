@@ -459,7 +459,7 @@ SOV_great_patriotic_war = {
 			}
 		}
 
-		cost = 50
+		cost = 0
 		fire_only_once = yes
 		visible = {
 			has_war = yes
@@ -491,7 +491,7 @@ SOV_great_patriotic_war = {
 			has_country_flag = SOV_scorched_earth
 		}
 
-		cost = 50
+		cost = 0
 		fire_only_once = yes
 		visible = {
 			has_war = yes
@@ -550,7 +550,7 @@ SOV_great_patriotic_war = {
 			has_country_flag = SOV_scorched_earth
 		}
 
-		cost = 75
+		cost = 0
 		fire_only_once = yes
 		visible = {
 			has_war = yes
@@ -603,7 +603,7 @@ SOV_great_patriotic_war = {
 			has_country_flag = SOV_scorched_earth
 		}
 
-		cost = 75
+		cost = 0
 		fire_only_once = yes
 		visible = {
 			has_war = yes
@@ -706,7 +706,7 @@ SOV_great_patriotic_war = {
 			has_country_flag = SOV_scorched_earth
 		}
 
-		cost = 75
+		cost = 0
 		fire_only_once = yes
 		visible = {
 			has_war = yes
@@ -770,7 +770,7 @@ SOV_great_patriotic_war = {
 			has_country_flag = SOV_scorched_earth
 		}
 
-		cost = 75
+		cost = 0
 		fire_only_once = yes
 		visible = {
 			has_war = yes
@@ -835,7 +835,7 @@ SOV_great_patriotic_war = {
 			has_country_flag = SOV_scorched_earth
 		}
 
-		cost = 75
+		cost = 0
 		fire_only_once = yes
 		visible = {
 			has_war = yes
