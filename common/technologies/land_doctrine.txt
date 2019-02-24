@@ -2209,10 +2209,10 @@ technologies = {
 		}
 		category_all_infantry = {
 			max_organisation = 7
-			breakthrough = 0.15
+			breakthrough = 0.10
 		}
 		category_line_artillery = {
-			breakthrough = 0.15
+			breakthrough = 0.10
 		}
 		
 
