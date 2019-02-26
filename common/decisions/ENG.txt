@@ -331,7 +331,6 @@ operations = {
 		}
 			
 		available = { 
-			tag = ENG 
 			has_war_with = GER 
 			GRE = { has_capitulated = yes }
 			GRE = { controls_state = 182 } 
@@ -349,7 +348,6 @@ operations = {
 		
 		visible = {
 			tag = ENG 
-			has_war_with = GER 
 		}
 		
 		complete_effect = {
