@@ -763,9 +763,6 @@ technologies = {
 		}
 	}
 			
-			modifier = {
-				factor = 1.2
-				date > "1946.1.1"
 	tech_flamethrower = {
 
 		enable_subunits = {
