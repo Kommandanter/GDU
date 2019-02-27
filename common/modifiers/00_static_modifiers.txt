@@ -12,6 +12,7 @@ weather_rain_light = { # on Region
 	air_bombing_targetting = -0.1
 	air_mission_efficiency = -0.1
 	local_org_regain = -0.05
+	naval_retreat_speed = 0.05
 }
 weather_rain_heavy = { # on Region 
 	air_detection = -0.3
@@ -23,6 +24,7 @@ weather_rain_heavy = { # on Region
 	air_bombing_targetting = -0.5
 	local_org_regain = -0.2
 	air_mission_efficiency = -0.3
+	naval_retreat_speed = 0.10 
 }
 weather_snow = { # on Region 
 	air_detection = -0.5
@@ -34,6 +36,8 @@ weather_snow = { # on Region
 	air_bombing_targetting = -0.5
 	local_org_regain = -0.20
 	air_mission_efficiency = -0.4
+	naval_retreat_speed = 0.05
+	positioning = -0.1
 
 }
 weather_blizzard = { # on Region 
@@ -42,6 +46,7 @@ weather_blizzard = { # on Region
 	naval_hit_chance = -0.1
 	naval_speed_factor = -0.1
 	carrier_traffic = -0.9
+	naval_strike = -0.4
 	air_accidents = 0.3
 	air_bombing_targetting = -0.9
 	local_org_regain = -0.7
@@ -55,6 +60,12 @@ weather_sandstorm = { # on Region
 	local_org_regain = -0.5
 	air_mission_efficiency = -0.5
 	heat_attrition = 0.2
+}
+weather_arctic_water = { # on Region 
+	navy_casualty_on_sink = 0.2
+	naval_attrition = 0.1
+	naval_retreat_speed = -0.05
+	positioning = -0.2
 }
 weather_mud = { # on Province
 	attrition = 0.65
@@ -86,6 +97,7 @@ weather_ground_snow_medium = { # on Province
 	army_attack_factor = -0.35
 	local_org_regain = -0.2
 	winter_attrition = 0.35
+	naval_retreat_speed = 0.1 
 }
 weather_ground_snow_high = { # on Province
 	army_speed_factor = -0.4
@@ -94,10 +106,17 @@ weather_ground_snow_high = { # on Province
 	winter_attrition = 0.35
 }
 
+flooded = { # on Province
+	army_speed_factor = -0.5
+	army_defence_factor = 0.5
+	dig_in_speed_factor = 0.2
+}
+
 night = { # On province. Multiplied by amount of darkness.
 	naval_hit_chance = -0.25
 	carrier_traffic = -0.75
 	air_bombing_targetting = -0.5
+	naval_retreat_speed = 0.1 
 }
 
 occupation_policy_1 = { # Gentlest
@@ -306,3 +325,53 @@ diff_very_hard_ai = {
 diff_strong_ai_generic = {
 }
 
+naval_mines_effect = {
+	naval_accidents_chance = 0.15
+	naval_speed_factor = -0.8
+	naval_invasion_penalty = 0.5
+}
+
+air_wing_experience_bad = {
+	air_attack_factor = -0.15
+	#air_defence_factor = -0.15
+	air_agility_factor = -0.15
+	air_night_penalty = 0.15
+	#air_weather_penalty = 0.15
+}
+
+air_wing_experience = {
+	air_attack_factor = 0.2
+	#air_defence_factor = 0.2
+	air_agility_factor = 0.3
+	air_night_penalty = -0.2
+	#air_weather_penalty = -0.3
+}
+
+pride_of_the_fleet = {
+	experience_gain_navy_unit_factor = 0.25
+	critical_receive_chance = -0.5
+}
+
+
+pride_of_the_fleet_country = {
+	war_support_factor = 0.05
+}
+
+pride_of_the_fleet_sunk_temporary = {
+	# country
+	war_support_factor = -0.10
+}
+
+water_modifier_shark_infested = {
+	navy_casualty_on_sink = 0.6
+}
+
+screening_bonus = { 
+  naval_retreat_speed = 0.2 
+  naval_hit_chance = 0.4
+}
+
+capital_screening_bonus = { 
+  naval_retreat_speed = 0.2
+  sortie_efficiency = 0.1
+}
