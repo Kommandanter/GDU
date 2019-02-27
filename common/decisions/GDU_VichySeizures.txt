@@ -27,6 +27,21 @@ political_actions = {
 					}
 				}
 			}
+			GER = { 
+				NOT = { 
+					AND = { 
+					 OR = { 
+						controls_state = 458
+						controls_state = 665
+						controls_state = 460
+						controls_state = 459
+						controls_state = 461
+						controls_state = 462
+						controls_state = 513 
+					 }
+					} 
+				}
+			}
 		}
 
 		cost = 50
@@ -40,8 +55,6 @@ political_actions = {
 			NOT = {			
 				AND = {
 					OR = { 
-						controls_state = 665
-						controls_state = 458
 						controls_state = 460
 						controls_state = 459
 						controls_state = 461
