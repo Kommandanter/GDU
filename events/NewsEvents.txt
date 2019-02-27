@@ -9,7 +9,7 @@ news_event = {
 	id = news.1
 	title = news.1.t
 	desc = news.1.d
-	picture = GFX_news_event_500
+	picture = GFX_news_event_001
 	
 	major = yes
 	
@@ -69,7 +69,7 @@ news_event = {
 	id = news.5
 	title = news.5.t
 	desc = news.5.d
-	picture = GFX_news_event_511
+	picture = GFX_news_event_002
 	
 	major = yes
 	
@@ -110,7 +110,7 @@ news_event = {
 	id = news.6
 	title = news.5.t
 	desc = news.6.d
-	picture = GFX_news_event_511
+	picture = GFX_news_event_002
 	
 	major = yes
 	
@@ -151,7 +151,7 @@ news_event = {
 	id = news.7
 	title = news.7.t
 	desc = news.7.d
-	picture = GFX_news_event_501
+	picture = GFX_news_event_005
 	
 	major = yes
 	
@@ -181,7 +181,7 @@ news_event = {
 	id = news.8
 	title = news.7.t
 	desc = news.8.d
-	picture = GFX_news_event_510
+	picture = GFX_news_event_004
 	
 	major = yes
 	
@@ -211,7 +211,7 @@ news_event = {
 	id = news.9
 	title = news.9.t
 	desc = news.9.d
-	picture = GFX_news_event_510
+	picture = GFX_news_event_004
 	
 	major = yes
 	
@@ -241,7 +241,7 @@ news_event = {
 	id = news.10
 	title = news.10.t
 	desc = news.10.d
-	picture = GFX_news_event_503
+	picture = SOMEPIC
 	
 	major = yes
 	
@@ -12753,6 +12753,156 @@ news_event = {
 				TAG = BUL
 				TAG = ALB
 			}
+		}
+	}
+}
+
+#Icelandic Independence
+news_event = {
+	id = news.331
+	title = news.331.t
+	desc = news.331.desc
+	picture = GFX_news_event_generic_sign_treaty3
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.331.a
+	}
+}
+
+#Mers-El-Kebir - French Surrender
+news_event = {
+	id = news.332
+	title = news.332.t
+	desc = news.332.desc
+	picture = GFX_news_event_generic_sign_treaty3
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.332.a
+		trigger = {
+			is_in_faction_with = ENG
+			NOT = { original_tag = FRA }
+		}
+	}
+	option = {
+		name = news.332.b
+		trigger = {
+			is_in_faction_with = ENG
+			original_tag = FRA
+		}
+	}
+	option = {
+		name = news.332.c
+		trigger = {
+			is_in_faction_with = GER
+			NOT = { original_tag = FRA }
+		}
+	}
+	option = {
+		name = news.332.d
+		trigger = {
+			is_in_faction_with = GER
+			original_tag = FRA
+		}
+	}
+	option = {
+		name = news.332.e
+		trigger = {
+			NOT = { is_in_faction_with = ENG }
+			NOT = { is_in_faction_with = GER }
+		}
+	}
+}
+
+#Mers-El-Kebir - Attack
+news_event = {
+	id = news.333
+	title = news.333.t
+	desc = news.333.desc
+	picture = GFX_news_event_generic_sign_treaty3
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.333.a
+		trigger = {
+			is_in_faction_with = ENG
+			NOT = { original_tag = FRA }
+		}
+	}
+	option = {
+		name = news.333.b
+		trigger = {
+			is_in_faction_with = ENG
+			original_tag = FRA
+		}
+	}
+	option = {
+		name = news.333.c
+		trigger = {
+			is_in_faction_with = GER
+			NOT = { original_tag = FRA }
+		}
+	}
+	option = {
+		name = news.333.d
+		trigger = {
+			is_in_faction_with = GER
+			original_tag = FRA
+		}
+	}
+	option = {
+		name = news.333.e
+		trigger = {
+			NOT = { is_in_faction_with = ENG }
+			NOT = { is_in_faction_with = GER }
+		}
+	}
+}
+
+news_event = { #Panay Incident - initial incident
+	id = news.334
+	title = news.334.t
+	desc = news.334.d
+	picture = GFX_news_event_panay_incident
+
+	trigger = {
+		NOT = { tag = USA }
+	}
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.334.a
+		trigger = {
+			NOT = {
+				OR = {
+					TAG = JAP
+					TAG = ENG
+				}
+			}
+		}
+	}
+	option = {
+		name = news.334.b
+		trigger = { TAG = JAP }
+	}
+	option = {
+		name = news.334.c
+		trigger = { TAG = ENG }
+		ENG = {
+			add_opinion_modifier = { target = JAP modifier = panay_inc2_opinion_modifier }
 		}
 	}
 }

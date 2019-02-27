@@ -229,23 +229,6 @@ political_actions = {
 		}
 	}
 
-	annex_ireland = {
-		ai_will_do = { factor = 0 }
-		cost = 50	
-		visible = {
-			tag = ENG
-			IRE = { is_ai = yes }
-			country_exists = IRE
-			date > 1939.1.1
-		}
-		fire_only_once = yes
-		complete_effect = {
-			ENG = {
-				annex_country = { target = IRE transfer_troops = yes }
-			}
-		}
-	}
-
 	annex_british_raj = {
 		ai_will_do = { factor = 0 }
 		cost = 50
@@ -419,59 +402,6 @@ operations = {
 		}
 	}
 
-	invade_ireland = {
-
-		icon = generic_operation
-
-		allowed = {
-			tag = ENG
-		}
-
-		available = {
-			tag = ENG
-			has_government = democratic
-			has_war_with = GER
-			IRE = { exists = yes }
-			NOT = { has_war_with = IRE }
-			NOT = { is_in_faction_with = IRE }
-			NOR = { has_capitulated = yes }
-			is_in_faction_with = NOR
-			FRA = { has_capitulated = yes }
-			is_in_faction_with = FRA
-		}
-
-		cost = 50
-
-		ai_will_do = {
-			factor = 0
-			modifier = {
-				add = 100
-				any_enemy_country = {
-					has_attache_from = IRE
-				}
-			}
-			modifier = {
-				add = 1
-				has_opinion = { target = IRE value < -50 }
-			}
-			modifier = {
-				add = 1
-				IRE = { has_added_tension_amount > 0.05 }
-			}
-		}
-
-		visible = {
-			tag = ENG
-			has_war_with = GER
-			IRE = { exists = yes }
-		}
-
-		complete_effect = {
-			declare_war_on = { target = IRE type = annex_everything }
-			add_popularity = { ideology = democratic popularity = -0.03 }
-		}
-	}
-
 	mers_el_kebir_raid = {
 
 		icon = generic_naval
@@ -486,8 +416,7 @@ operations = {
 			has_government = democratic
 			has_war_with = GER
 			any_country = {
-				original_tag = FRA
-				has_government = fascism
+				original_tag = EFR
 			}
 		}
 
@@ -504,23 +433,17 @@ operations = {
 			tag = ENG
 			has_government = democratic
 			has_war_with = GER
-			OR = {
-				AND = {
-					is_in_faction_with = FRA
-					FRA = { surrender_progress > 0.2 }
-				}
-				any_country = {
-					original_tag = FRA
-					has_government = fascism
-				}
+			any_country = {
+				original_tag = EFR
+				has_government = fascism
 			}
+
 		}
 
 		complete_effect = {
 			random_other_country = {
 				limit = {
-					original_tag = FRA
-					has_government = fascism
+					original_tag = EFR
 				}
 				country_event = { id = wtt_britain.25 hours = 5 }
 			}
