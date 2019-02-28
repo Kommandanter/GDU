@@ -125,6 +125,39 @@ division_template = {
 ###### OOB ######
 units = {
 
+	##### Philippine High Command #####
+	
+	division = {
+		name = "1st Philippines Division"
+		location = 10265
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+	}
+        division = {
+		name = "2nd Philippines Division"
+		location = 4241
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+	}
+        division = {
+		name = "3rd Philippines Division"
+		location = 12118
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+	}
+        division = {
+		name = "4th Philippines Division"
+		location = 4288
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+	}
+        division = {
+		name = "5th Philippines Division"
+		location = 12213
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+	}
+
 	### 1st Army -- note: Armies only paper organizations in 1936 ###
 	# I Army Corps #
 	division= {
@@ -662,6 +695,13 @@ units = {
 		ship = { name = "USS S-43" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
 		ship = { name = "USS S-44" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
 		ship = { name = "USS S-45" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
+	}
+	
+	navy = {
+		name = "OSP 'Mosquito' Fleet"
+		location = 10265 # Manila
+		ship = { name = "PT Q-111 Luzon" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+		ship = { name = "PT Q-112 Manila" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
 	}
 
 }
