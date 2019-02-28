@@ -768,10 +768,10 @@ technologies = {
 		enable_subunits = {
 			flamethrower
 			}
-			
-			modifier = {
-				factor = 1.2
-				date > "1947.1.1"
+		
+		path = {
+			leads_to_tech = tech_flamethrower2
+			research_cost_coeff = 1
 		}
 
 		research_cost = 1
