@@ -1,4 +1,17 @@
 ﻿##### Division Templates #####
+
+division_template = {
+	name = "Morit Diviziin"			# Cavalry Division, Mongolia 
+
+	division_names_group = MON_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+	}
+}
+
 division_template = {
 	name = "Strelkovaya Diviziya"			# Rifle Division
 
@@ -221,6 +234,64 @@ division_template = {
 
 ##### OOB #####
 units = {
+	## We start Russia out with Mongolian units, because it's about 1k guns worth and Mongolia will do nothing with them but cause lag. 
+	division = {
+		#name = "1-r Morit Diviziin"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 4801
+		division_template = "Morit Diviziin"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		#name = "2-p Morit Diviziin"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 4792
+		division_template = "Morit Diviziin"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		#name = "3-p Morit Diviziin"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 12557
+		division_template = "Morit Diviziin"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		#name = "4-p Morit Diviziin"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 1743
+		division_template = "Morit Diviziin"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		#name = "5-p Morit Diviziin"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 4873
+		division_template = "Morit Diviziin"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+
 	##### Severno-Zapadnoe TVD (North West Theatre) -- Archangelsk #####
 	# 1ya Strelkoviy Korpus
 	division= {
