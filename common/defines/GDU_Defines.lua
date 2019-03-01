@@ -159,8 +159,8 @@ NDefines.NAir.AIR_WING_MAX_SIZE = 1600
 NDefines.NAir.ACE_WING_SIZE_MAX_BONUS = 10
 NDefines.NAir.STRATEGIC_BOMBER_NUKE_AIR_SUPERIORITY = 0.90
 NDefines.NAir.COMBAT_MULTIPLANE_CAP = 2.0
-NDefines.NAir.ANTI_AIR_PLANE_DAMAGE_FACTOR = 0.8 -- original 0.8 Anti Air Gun Damage factor. Thi define does nothing as far as I can tell -- TW/WTT 
-NDefines.NAir.ANTI_AIR_PLANE_DAMAGE_CHANCE = 0.1 -- original 0.1 Anti Air Gun hit chance. This define does nothing as far as I can tell -- TW/WTT
+NDefines.NAir.ANTI_AIR_PLANE_DAMAGE_FACTOR = 0.001 -- original 0.8 Anti Air Gun Damage factor. Thi define does nothing as far as I can tell -- TW/WTT 
+NDefines.NAir.ANTI_AIR_PLANE_DAMAGE_CHANCE = 0.05 -- original 0.1 Anti Air Gun hit chance. This define does nothing as far as I can tell -- TW/WTT
 NDefines.NAir.ANTI_AIR_ATTACK_TO_DAMAGE_REDUCTION_FACTOR = 0.85 -- original 1.00 Balancing value to convert equipment stat anti_air_attack to the damage reduction modifier apply to incoming air attacks against units with AA.
 NDefines.NAir.DISRUPTION_DEFENCE_ATTACK_FACTOR = 2.0
 NDefines.NAir.NAVAL_STRIKE_DAMAGE_TO_STR = 1.0
@@ -171,23 +171,9 @@ NDefines.NAir.AIR_COMBAT_FINAL_DAMAGE_SCALE = 0.5 -- 0.015	 % how many max disru
 NDefines.NAir.AA_INDUSTRY_AIR_DAMAGE_FACTOR = -0.14 -- -0.12	5x levels = 60% defense from bombing
 NDefines.NAir.ANTI_AIR_MAXIMUM_DAMAGE_REDUCTION_FACTOR = 0.90 -- .75 Maximum damage reduction factor applied to incoming air attacks against units with AA.
 
-
 NDefines.NNavy.NAVAL_SUPREMACY_CAN_INVADE = 0.65
-NDefines.NNavy.COMBAT_CHASE_RESIGNATION_HOURS = 24  --- before 16 testing 18
-NDefines.NNavy.COMBAT_MIN_DURATION = 32
-NDefines.NNavy.COMBAT_SHIP_SPEED_TO_FIELD_FACTOR = 0.09
-NDefines.NNavy.CONVOY_EFFICIENCY_LOSS_MODIFIER = 2.0	-- Vanilla: 1.5 How much efficiency drops when losing convoys. If modifier is 0.5, then losing 100% of convoys in short period, the efficiency will drop by 50%.
-NDefines.NNavy.CONVOY_EFFICIENCY_REGAIN_AFTER_DAYS = 9	--Vanilla: 7 Convoy starts regaining it's efficiency after X days without any convoys being sink.
-NDefines.NNavy.CONVOY_EFFICIENCY_REGAIN_BASE_SPEED = 0.04 --Vanilla: 0.04 How much efficiency regains every day.
-NDefines.NNavy.ANTI_AIR_ATTACK_TO_AMOUNT = 0.001 -- Original in PFU: 0.01. 0.005 in vanilla. Balancing value to convert equipment stat anti_air_attack to the random % value of airplanes being hit. That's what vanilla defines says; in reality, this appears to be the plane damage factor define.
-NDefines.NNavy.ANTI_AIR_TARGETTING_TO_CHANCE = 0.05 --Original in PFU: 0.1. In vanilla, 0.07 Balancing value to convert averaged equipment stats (anti_air_targetting and naval_strike_agility) to probability chances of airplane being hit by navies AA. That's what vanilla defines says; in reality, this appears to be the real 'Plane Damage Chance' define for land AA.
-NDefines.NNavy.CARRIER_STACK_PENALTY = 4 -- 
-NDefines.NNavy.CARRIER_STACK_PENALTY_EFFECT = 99.999
-NDefines.NNavy.COMBAT_TORPEDO_CRITICAL_DAMAGE_MULT = 3.0
-NDefines.NNavy.ANTI_AIR_TARGETING = 1.8			-- Vanilla: 0.9 how good ships are at hitting aircraft
 NDefines.NNavy.NAVAL_TRANSFER_BASE_SPEED = 12
 NDefines.NNavy.NAVAL_INVASION_PREPARE_HOURS = 72
-
 
 NDefines.NAI.DIVISION_UPGRADE_MIN_XP = 400
 NDefines.NAI.DIVISION_CREATE_MIN_XP = 500
