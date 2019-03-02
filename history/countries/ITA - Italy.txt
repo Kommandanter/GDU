@@ -207,23 +207,23 @@ create_field_marshal = {
 	name = "Emilio De Bono"
 	picture = "portrait_italy_emilio_de_bono.dds"
 	traits = { defensive_doctrine old_guard infantry_officer infantry_officer media_personality career_officer politically_connected inflexible_strategist desert_fox}
-	skill = 5
-	attack_skill = 6
-	defense_skill = 5
+	skill = 4
+	attack_skill = 5
+	defense_skill = 4
 	planning_skill = 2
-	logistics_skill = 3
+	logistics_skill = 2
 
 }
 
 create_corps_commander = {
 	name = "Ugo Cavallero"
 	picture = "Portrait_Italy_Ugo_Cavallero.dds"
-	traits = { old_guard organizer politically_connected infantry_leader career_officer cavalry_officer harsh_leader desert_fox trickster }
-	skill = 6
+	traits = { organizer politically_connected infantry_leader career_officer cavalry_officer harsh_leader desert_fox trickster }
+	skill = 5
 	attack_skill = 3
-	defense_skill = 7
-	planning_skill = 6
-	logistics_skill = 3
+	defense_skill = 6
+	planning_skill = 5
+	logistics_skill = 2
 }
 
 create_corps_commander = {
@@ -242,11 +242,11 @@ create_corps_commander = {
 	name = "Italo Balbo"
 	picture = "portrait_italy_italo_balbo.dds"
 	traits = { career_officer harsh_leader old_guard infantry_officer infantry_leader urban_assault_specialist skilled_staffer politically_connected}
-	skill = 5
-	attack_skill = 2
-	defense_skill = 7
+	skill = 4
+	attack_skill = 1
+	defense_skill = 6
 	planning_skill = 1
-	logistics_skill = 6
+	logistics_skill = 5
 }
 
 create_corps_commander = {
@@ -264,11 +264,11 @@ create_corps_commander = {
 	name = "Ubaldo Soddu"
 	picture = "Portrait_Italy_Ubaldo_Soddu.dds"
 	traits = { panzer_leader armor_officer politically_connected organizer trait_reckless trait_mountaineer trait_engineer }
-	skill = 5
-	attack_skill = 4
+	skill = 4
+	attack_skill = 3
 	defense_skill = 2
 	planning_skill = 8
-	logistics_skill = 2
+	logistics_skill = 1
 }
 
 create_field_marshal = {

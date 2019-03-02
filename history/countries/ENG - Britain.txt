@@ -399,11 +399,11 @@ create_corps_commander = {
 	name = "William Platt"
 	picture = "Portrait_Britain_William_Platt.dds"
 	traits = { trait_engineer old_guard ranger}
-	skill = 4
+	skill = 3
 	attack_skill = 2
-	defense_skill = 6
-	planning_skill = 6
-	logistics_skill = 2
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 1
 }
 
 create_field_marshal = {
@@ -520,11 +520,11 @@ create_corps_commander = {
 	name = "Jock Campbell"
 		picture = "Portrait_Britain_Jock_Campbell.dds"
 	traits = { panzer_leader desert_fox war_hero career_officer trait_cautious skilled_staffer}
-	skill = 5
+	skill = 4
 	attack_skill = 2
-	defense_skill = 7
+	defense_skill = 6
 	planning_skill = 2
-	logistics_skill = 5
+	logistics_skill = 4
 }
 
 create_corps_commander = {
@@ -542,21 +542,21 @@ create_corps_commander = {
 	name = "Miles Dempsey"
 	picture = "Portrait_Britain_Miles_Dempsey.dds"
 	traits = { naval_invader infantry_leader commando infantry_officer trait_reckless politically_connected}
-	skill = 5
-	attack_skill = 5
+	skill = 4
+	attack_skill = 4
 	defense_skill = 1
-	planning_skill = 2
-	logistics_skill = 8
+	planning_skill = 1
+	logistics_skill = 7
 }
 
 create_corps_commander = {
 	name = "Brian Horrocks"
 	picture = "Portrait_Britain_Brian_Horrocks.dds"
 	traits = { panzer_leader ranger inflexible_strategist career_officer}
-	skill = 5
+	skill = 4
 	attack_skill = 4
-	defense_skill = 4
-	planning_skill = 7
+	defense_skill = 2
+	planning_skill = 6
 	logistics_skill = 1
 }
 
