@@ -540,7 +540,7 @@ leader_traits = {
 		
 		gui_row = 6
 	}
-	skilled_staffer = { 
+	i = { 
 		type = corps_commander
 		gain_xp = {
 			check_variable = { num_units > 23 }

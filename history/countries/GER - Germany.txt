@@ -480,9 +480,9 @@ create_corps_commander = {
 	traits = {  harsh_leader politically_connected ranger}
 	skill = 4
 	id = 15
-	attack_skill = 6
+	attack_skill = 7
 	defense_skill = 1
-	planning_skill = 3
+	planning_skill = 2
 	logistics_skill = 2
 }
 
