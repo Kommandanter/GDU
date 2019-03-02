@@ -61,7 +61,7 @@ leader_traits = {
 		
 		modifier = {
 			max_dig_in = 2.5
-			army_deffence_factor = 0.05
+			army_defence_factor = 0.05
 		}
 		
 		non_shared_modifier = {
@@ -77,8 +77,8 @@ leader_traits = {
 		attack_skill = 1
 		planning_skill = 1
 		modifier = {
-			army_speed_factor = o.05
-			army_deffence_factor = -0.05
+			army_speed_factor = 0.05
+			army_defence_factor = -0.05
 		}	
 		
 		attack_skill_factor = 1
@@ -90,8 +90,8 @@ leader_traits = {
 		type = land
 		trait_type = personality_trait
 		modifier = {
-			army_speed_factor = -o.5
-			army_deffence_factor = 0.05
+			army_speed_factor = -0.05
+			army_defence_factor = 0.05
 		}	
 		defense_skill = 1
 		logistics_skill = 1
@@ -108,7 +108,7 @@ leader_traits = {
 			promote_cost_factor = -0.05
 		}
 		modifier = {
-			supply_consumption_factor = -0.08
+			supply_consumption_factor = -0.07
 		}
 		
 		planning_skill_factor = 1
@@ -155,7 +155,7 @@ leader_traits = {
 		modifier = {
 			planning_speed = -0.10
 			wounded_chance_factor = -0.5
-			army_deffence_factor = 0.05
+			army_defence_factor = 0.05
 		}
 		
 		defense_skill_factor = 1
