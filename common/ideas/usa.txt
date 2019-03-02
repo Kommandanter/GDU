@@ -1310,9 +1310,6 @@ ideas = {
 			allowed = {
 				original_tag = USA
 			}
-			available = {
-				not = { has_idea = harry_white }
-			}
 			
 			traits = { financial_expert }
 		}
@@ -1471,9 +1468,6 @@ ideas = {
 			picture = generic_air_europe_3
 			allowed = {
 				original_tag = USA
-			}
-			available = {
-				has_completed_focus = USA_send_lindbergh_to_germany
 			}
 
 			cost = 50
