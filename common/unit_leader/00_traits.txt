@@ -231,7 +231,7 @@ leader_traits = {
 			infantry_leader = 1     #+100%
 		}
 		modifier = {
-			infantry_speed_factor = 0.05
+			max_dig_in = 2
 		}
 		
 		defense_skill_factor = 1
@@ -246,7 +246,7 @@ leader_traits = {
 			cavalry_leader = 1     #+100%
 		}
 		modifier = {
-			cavalry_speed_factor = 0.05
+			recon_factor = 0.15
 		}		
 		attack_skill_factor = 1
 		logistics_skill_factor = 1
@@ -260,7 +260,8 @@ leader_traits = {
 			panzer_leader = 1     #+100%
 		}
 		modifier = {
-			army_armor_speed_factor = 0.05
+			army_speed_factor = 0.075
+			supply_consumption_factor = 0.025
 		}		
 		attack_skill_factor = 1
 		planning_skill_factor = 1
@@ -484,7 +485,7 @@ leader_traits = {
 		cost = 1000
 		modifier = {
 			planning_speed = 0.1
-			army_motal_factor = 0.04
+			army_moral_factor = 0.04
 		}
 		
 		ai_will_do = {
@@ -590,7 +591,7 @@ leader_traits = {
 		}
 		cost = 500
 		modifier = {
-			winter_attrition_factor = -0.5
+			winter_attrition_factor = -0.25
 		}
 		
 		ai_will_do = {
@@ -714,7 +715,7 @@ leader_traits = {
 		}
 		cost = 700
 		modifier = {
-			out_of_supply_factor = -0.5
+			out_of_supply_factor = -0.2
 		}
 		
 		ai_will_do = {
