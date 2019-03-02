@@ -119,7 +119,7 @@ ideas = {
 			}
 
 			modifier = {
-				research_time_factor = -0.05
+				research_time_speed = -0.05
 			}
 
 			removal_cost = -1

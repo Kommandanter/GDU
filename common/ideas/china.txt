@@ -85,7 +85,7 @@ ideas = {
 			}
 
 			modifier = {
-				research_time_factor = 0.25
+				research_time_speed = 0.25
 			}
 
 			research_bonus = {

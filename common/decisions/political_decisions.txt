@@ -1519,7 +1519,7 @@ political_actions = {
         }
 
         modifier = {
-            research_time_factor = -0.01
+            research_time_speed = -0.01
             stability_factor = -0.015
         }
         complete_effect = {
@@ -1571,7 +1571,7 @@ political_actions = {
         }
 
         modifier = {
-            research_time_factor = -0.01
+            research_time_speed = -0.01
             stability_factor = -0.015
         }
         complete_effect = {
