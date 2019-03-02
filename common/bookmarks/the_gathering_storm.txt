@@ -18,6 +18,7 @@ bookmarks = {
 			focuses = {
 				FRA_initiate_government_reform
 				FRA_support_status_quo
+				FRA_army_reform 
 			}
 		}
 		"USA"={
@@ -29,7 +30,9 @@ bookmarks = {
 				undisturbed_isolation
 			}
 			focuses = {
-				USA_war_plan_black
+				USA_two_ocean_navy_act 
+				USA_lend_lease_act
+				USA_the_giant_wakes 
 			}
 		}
 		"ENG"={
@@ -41,6 +44,8 @@ bookmarks = {
 				george_v
 			}
 			focuses = {
+				general_rearmament_focus 
+				fighter_command_focus 
 				tizard_mission_focus
 			}
 		}
@@ -49,6 +54,7 @@ bookmarks = {
 			history = "GER_GATHERING_STORM_DESC"
 			ideology = fascism
 			ideas = {
+				GER_mefo_bills_1 
 				sour_loser
 				general_staff
 			}
@@ -66,6 +72,8 @@ bookmarks = {
 				victor_emmanuel
 			}
 			focuses = {
+				ITA_mare_nostrum
+				ITA_slovenia_dalmatia_claims 
 				ITA_pact_of_steel
 			}
 		}
@@ -89,6 +97,8 @@ bookmarks = {
 			}
 			focuses = {
 				SOV_great_purge
+				SOV_defense_of_stalingrad
+				SOV_proclaim_victory_over_fascism 
 			}
 		}
 

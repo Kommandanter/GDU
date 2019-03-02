@@ -55,7 +55,7 @@ focus_tree = {
 	focus = {
 		id = USA_continue_the_new_deal
 		icon = GFX_focus_generic_self_management
-		x = 16
+		x = 10
 		y = 0
 		offset = {
 			x = -12
@@ -91,7 +91,7 @@ focus_tree = {
 	focus = {
 		id = USA_suspend_the_presecution
 		icon = GFX_focus_generic_diplomatic_treaty
-		x = -9
+		x = -4
 		y = 1
 		prerequisite = { focus = USA_continue_the_new_deal }
 		relative_position_id = USA_continue_the_new_deal
@@ -104,6 +104,7 @@ focus_tree = {
 			has_dlc = "Man the Guns"
 		}
 		available = {
+			NOT = { has_completed_focus = USA_america_first } 
 
 		}
 		
@@ -117,17 +118,15 @@ focus_tree = {
 
 		completion_reward = {
 			add_stability = -0.05
-			custom_effect_tooltip = available_political_advisor
-		    show_ideas_tooltip = earl_browder
 		}
 	}
 	focus = {
 		id = USA_desegregate_the_armed_forces
 		icon = GFX_goal_generic_small_arms
-		x = -1
+		x = 0
 		y = 1
-		prerequisite = { focus = USA_suspend_the_presecution }
-		relative_position_id = USA_suspend_the_presecution
+		prerequisite = { focus = USA_womens_armed_service_integration_act }
+		relative_position_id = USA_womens_armed_service_integration_act
 		cost = 10
 
 		ai_will_do = {
@@ -135,10 +134,7 @@ focus_tree = {
 		}
 
 		available = {
-			OR = {
-				communism > 0.1
-				has_country_leader = { ruling_only = yes name = "Harry S. Truman" }
-			}
+			date > 1944.1.1
 		}
 		
 		bypass = {
@@ -167,8 +163,8 @@ focus_tree = {
 		icon = GFX_goal_generic_consumer_goods
 		x = -2
 		y = 1
-		prerequisite = { focus = USA_union_representation_act }
-		relative_position_id = USA_wpa
+		prerequisite = { focus = USA_suspend_the_presecution }
+		relative_position_id = USA_suspend_the_presecution
 		cost = 10
 
 		ai_will_do = {
@@ -235,9 +231,8 @@ focus_tree = {
 		id = USA_reach_out_to_the_ware_group
 		icon = GFX_goal_generic_propaganda
 		x = 0
-		y = 3
+		y = 1
 		prerequisite = { focus = USA_suspend_the_presecution }
-		prerequisite = { focus = USA_agricultural_adjustment_act }
 		relative_position_id = USA_suspend_the_presecution
 		cost = 10
 
@@ -261,11 +256,7 @@ focus_tree = {
 
 		completion_reward = {
 			custom_effect_tooltip = available_political_advisor
-			show_ideas_tooltip = harry_white
-			custom_effect_tooltip = available_political_advisor
 			show_ideas_tooltip = victor_perlo
-			custom_effect_tooltip = available_political_advisor
-			show_ideas_tooltip = whittaker_chambers
 		}
 	}
 
@@ -280,7 +271,7 @@ focus_tree = {
 		icon = GFX_goal_generic_production
 		prerequisite = { focus = USA_continue_the_new_deal }
 		relative_position_id = USA_continue_the_new_deal
-		x = -6
+		x = 8
 		y = 1
 		cost = 10
 		#ai_will_do = {
@@ -780,7 +771,6 @@ focus_tree = {
 
 		available = {
 			congress_low_support_trigger = yes
-			democratic > 0.95
 		}
 		
 		bypass = {
@@ -851,7 +841,6 @@ focus_tree = {
 			else = {
 				congress_high_support_trigger = yes
 			}
-			democratic > 0.95
 			custom_trigger_tooltip = {
 				tooltip = USA_lend_lease_act_neutrality_tt
 			}
@@ -967,7 +956,7 @@ focus_tree = {
 		x = -1
 		y = -1
 		relative_position_id = USA_lend_lease_act
-		cost = 10
+		cost = 5
 		#ai_will_do = {
 		#	factor = 1
 		#}
@@ -1001,9 +990,6 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1 
 		}
-		available = {
-			democratic > 0.95 
-		}
 		bypass = { 
 			has_completed_focus = USA_limited_intervention
 		}
@@ -1024,9 +1010,6 @@ focus_tree = {
 		cost = 10
 		ai_will_do = {
 			factor = 1
-		}
-		available = {
-			democratic > 0.95
 		}
 		bypass = {
 			AND = {
@@ -1152,7 +1135,6 @@ focus_tree = {
 				has_war = yes
 				has_war_support > 0.3
 			}
-			democratic > 0.95
 		}
 		continue_if_invalid = yes
 		x = 0
@@ -1203,9 +1185,6 @@ focus_tree = {
 			factor = 1
 		}
 		available_if_capitulated = yes
-		available = {
-			democratic > 0.95
-		}
 		completion_reward = {
 			add_ideas = wartime_industry_focus
 			custom_effect_tooltip = available_designer
@@ -1556,183 +1535,7 @@ focus_tree = {
 			army_experience = 10			
 		}
 	}
-###  ## ###  ##  ###  #   ###  ## #  #     ### #  # ###      ##   ##  #   ###       ## ###  ##  #  # ###   ##  ###  ###  
-#   #    #  #  # #  # #    #  #   #  #      #  #  # #       #    #  # #   #  #     #    #  #  # ## # #  # #  # #  # #  # 
-##   #   #  #### ###  #    #   #  ####      #  #### ##      # ## #  # #   #  #      #   #  #### # ## #  # #### ###  #  # 
-#     #  #  #  # #  # #    #    # #  #      #  #  # #       #  # #  # #   #  #       #  #  #  # #  # #  # #  # #  # #  # 
-### ##   #  #  # ###  ### ### ##  #  #      #  #  # ###      ##   ##  ### ###      ##   #  #  # #  # ###  #  # #  # ###  
 
-	focus = {
-		id = USA_adjusted_compensation_act
-		icon = GFX_goal_generic_consumer_goods
-		x = 7
-		y = 1
-		prerequisite = { focus = USA_continue_the_new_deal }
-		relative_position_id = USA_continue_the_new_deal
-		cost = 10
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-			congress_medium_support_trigger = yes
-			has_government = democratic
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = no
-		continue_if_invalid = yes
-		available_if_capitulated = no
-
-		completion_reward = {
-			add_timed_idea = { idea = USA_adjusted_compensation_payment days = 180 }
-			USA_great_depression_level_down = yes
-			if = {
-				limit = {
-					not = { congress_medium_support_trigger = yes }
-				}
-				USA_congress_small_opposition = yes
-			}
-		}
-	}
-	focus = {
-		id = USA_labour_management_relations_act
-		icon = GFX_focus_generic_military_academy
-		x = 0
-		y = 1
-		prerequisite = { focus = USA_adjusted_compensation_act }
-		relative_position_id = USA_adjusted_compensation_act
-		cost = 10
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-			congress_medium_support_trigger = yes
-			has_government = democratic
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = no
-		continue_if_invalid = yes
-		available_if_capitulated = no
-
-		completion_reward = {
-			add_ideas = USA_labour_management_relations_act
-			if = {
-				limit = {
-					communism < 0.1 
-				}
-				USA_congress_small_opposition = yes
-			}
-			else = {
-				USA_congress_medium_opposition = yes
-			}
-		}
-	}
-	focus = {
-		id = USA_protectionist_tariffs
-		icon = GFX_goal_generic_defence
-		x = 0
-		y = 3
-		prerequisite = { focus = USA_labour_management_relations_act }
-		relative_position_id = USA_adjusted_compensation_act
-		cost = 10
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-			has_government = democratic
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			USA_great_depression_level_down = yes
-			if = {
-				limit = {
-					has_idea = free_trade
-				}
-				add_ideas = export_focus
-			}
-		}
-	}
-	focus = {
-		id = USA_income_tax_reform
-		icon = GFX_goal_generic_intelligence_exchange
-		x = 0
-		y = 4
-		prerequisite = { focus = USA_protectionist_tariffs }
-		relative_position_id = USA_adjusted_compensation_act
-		cost = 10
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-			congress_high_support_trigger = yes
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = no
-		continue_if_invalid = yes
-		available_if_capitulated = no
-
-		completion_reward = {
-			USA_great_depression_level_down = yes
-			USA_congress_medium_opposition = yes
-			unlock_decision_tooltip = { decision = USA_give_tax_break show_effect_tooltip = yes }
-		}
-	}
-	focus = {
-		id = USA_institute_of_american_sciences
-		icon = GFX_focus_research
-		x = 0
-		y = 6
-		prerequisite = { focus = USA_income_tax_reform }
-		relative_position_id = USA_adjusted_compensation_act
-		cost = 10
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			add_research_slot = 1
-		}
-	}
  ## ### ###  ### #  #  ##  ### #  # ### #  #     ### #  # ###      ##  #   # ### ###  ###  ##   ##  #  #     #   ###  ##  ###  ##  #  # 
 #    #  #  # #   ## # #     #  #  # #   ## #      #  #  # #       #  # ## ## #   #  #  #  #  # #  # ## #     #   #   #     #  #  # ## # 
  #   #  ###  ##  # ## # ##  #  #### ##  # ##      #  #### ##      #### # # # ##  ###   #  #    #### # ##     #   ##  # ##  #  #  # # ## 
@@ -1742,7 +1545,7 @@ focus_tree = {
 	focus = {
 		id = USA_america_first
 		icon = GFX_goal_generic_political_pressure
-		x = 10
+		x = 4
 		y = 1
 		prerequisite = { focus = USA_continue_the_new_deal }
 		relative_position_id = USA_continue_the_new_deal
@@ -1755,7 +1558,7 @@ focus_tree = {
 			has_dlc = "Man the Guns"
 		}
 		available = {
-
+			NOT = { has_completed_focus = USA_suspend_the_presecution } 
 		}
 		
 		bypass = {
@@ -1768,7 +1571,7 @@ focus_tree = {
 
 		completion_reward = {
 			custom_effect_tooltip = available_political_advisor
-		    show_ideas_tooltip = charles_coughlin
+		    show_ideas_tooltip = USA_william_regnery
 		    add_popularity = { ideology = fascism popularity = 0.05 }
 		}
 	}
@@ -1804,88 +1607,7 @@ focus_tree = {
 			}
 		}
 	}
-	focus = {
-		id = USA_empower_the_huac
-		icon = GFX_goal_generic_war_with_comintern
-		x = 0
-		y = 3
-		prerequisite = { focus = USA_extend_the_chinese_exclusion_acts }
-		prerequisite = { focus = USA_labour_management_relations_act }
-		relative_position_id = USA_america_first
-		cost = 10
 
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-		
-		completion_reward = {
-			custom_effect_tooltip = available_political_advisor
-		    show_ideas_tooltip = USA_joseph_mccarthy
-		    unlock_decision_tooltip = { decision = USA_use_huac show_effect_tooltip = yes }
-		}
-		
-	}
-	focus = {
-		id = USA_voter_registration_act
-		icon = GFX_focus_usa_voter_registration_act
-		x = 0
-		y = 5
-		prerequisite = { focus = USA_empower_the_huac }
-		relative_position_id = USA_america_first
-		cost = 10
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-			fascism > 0.15
-			congress_high_support_trigger = yes
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = no
-		continue_if_invalid = yes
-		available_if_capitulated = no
-
-		completion_reward = {
-			USA_return_majority = yes
-			if = {
-				limit = {
-					democratic > 0.75
-				}
-				add_stability = -0.1
-			}
-			if = {
-				limit = {
-					has_country_flag = mtg_usa_civil_war_democrats_1
-					not = { has_country_flag = mtg_usa_civil_war_democrats_2 }
-				}
-				country_event = mtg_usa_civil_war_democrats.2
-				custom_effect_tooltip = mtg_usa_civil_war_warning_tt
-			}
-			else_if = {
-				limit = { not = { has_country_flag = mtg_usa_civil_war_democrats_1 } }
-				country_event = mtg_usa_civil_war_democrats.1
-				custom_effect_tooltip = mtg_usa_civil_war_warning_tt
-			}
-		}
-	}
 
  ##  #   #   #   #     #   # ### ### #  #     ### #  # ###      ## ### #   #   # ### ###       ## #  # ### ###  ###  ## 
 #  # #   #    # #      #   #  #   #  #  #      #  #  # #       #    #  #   #   # #   #  #     #   #  #  #  #  #  #  #   
@@ -1949,15 +1671,8 @@ focus_tree = {
  	focus = {
 		id = USA_war_plans_division
 		icon = GFX_goal_generic_position_armies
-		x = 42
-		y = 0
-		offset = {
-			x = -26
-			y = 0
-			trigger = {
-				not = { has_dlc = "Man the Guns" }
-			}
-		}
+		x = 0
+		y = 1
 		
 		cost = 10
 
@@ -1968,6 +1683,9 @@ focus_tree = {
 		available = {
 
 		}
+		
+		prerequisite = { focus = USA_department_of_defense } 
+		relative_position_id = USA_department_of_defense
 		
 		bypass = {
 
@@ -1983,90 +1701,20 @@ focus_tree = {
 			unlock_decision_category_tooltip = USA_war_plans
 		}
 	}
-
-	focus = {
-		id = USA_reinforce_monroe_doctrine
-		icon = GFX_goal_generic_positive_trade_relations
-		x = -3
-		y = 2
-		prerequisite = { focus = USA_intervention_in_the_americas }
-		relative_position_id = USA_war_plans_division
-		cost = 10
-		ai_will_do = {
-			factor = 2
-		}
-		completion_reward = {
-			custom_effect_tooltip = USA_reinforce_monroe_doctrine_tt
-			unlock_decision_category_tooltip = USA_intervention_mandate
-			hidden_effect = {
-				CUB = { add_opinion_modifier =  { target = USA modifier = monroe_doctrine_trade } }
-				HAI = { add_opinion_modifier =  { target = USA modifier = monroe_doctrine_trade } }
-				DOM = { add_opinion_modifier =  { target = USA modifier = monroe_doctrine_trade } }
-				GUA = { add_opinion_modifier =  { target = USA modifier = monroe_doctrine_trade } }
-				ELS = { add_opinion_modifier =  { target = USA modifier = monroe_doctrine_trade } }
-				HON = { add_opinion_modifier =  { target = USA modifier = monroe_doctrine_trade } }
-				NIC = { add_opinion_modifier =  { target = USA modifier = monroe_doctrine_trade } }
-				COS = { add_opinion_modifier =  { target = USA modifier = monroe_doctrine_trade } }
-				CAN = { add_opinion_modifier =  { target = USA modifier = monroe_doctrine_trade } }
-				MEX = { add_opinion_modifier =  { target = USA modifier = monroe_doctrine_trade } }
-				COL = { add_opinion_modifier =  { target = USA modifier = monroe_doctrine_trade } }
-				VEN = { add_opinion_modifier =  { target = USA modifier = monroe_doctrine_trade } }
-				ECU = { add_opinion_modifier =  { target = USA modifier = monroe_doctrine_trade } }
-				PRU = { add_opinion_modifier =  { target = USA modifier = monroe_doctrine_trade } }
-				BRA = { add_opinion_modifier =  { target = USA modifier = monroe_doctrine_trade } }
-				BOL = { add_opinion_modifier =  { target = USA modifier = monroe_doctrine_trade } }
-				PAR = { add_opinion_modifier =  { target = USA modifier = monroe_doctrine_trade } }
-				URG = { add_opinion_modifier =  { target = USA modifier = monroe_doctrine_trade } }
-				ARG = { add_opinion_modifier =  { target = USA modifier = monroe_doctrine_trade } }
-				CHL = { add_opinion_modifier =  { target = USA modifier = monroe_doctrine_trade } }
-				"PAN" = { add_opinion_modifier =  { target = USA modifier = monroe_doctrine_trade } }
-			}
-		}
-	}
-
-	focus = {
-		id = USA_intervention_in_europe
-		icon = GFX_goal_generic_territory_or_war
-		x = 0
-		y = 1
-		prerequisite = { focus = USA_war_plans_division }
-		relative_position_id = USA_war_plans_division
-		cost = 10
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			add_ideas = USA_intervention_in_europe
-		}
-	}
 	
 	focus = {
 		id = USA_war_plan_black
 		icon = GFX_focus_attack_germany
-		prerequisite = { focus = USA_intervention_in_europe }
+		prerequisite = { focus = USA_war_plans_division	}
 		available = {
 		}
 
 		continue_if_invalid = yes
 		available_if_capitulated = yes
 
-		x = 0
-		y = 2
-		relative_position_id = USA_intervention_in_europe
+		x = -1
+		y = 1
+		relative_position_id = USA_war_plans_division
 		cost = 10
 		#ai_will_do = {
 		#	factor = 1
@@ -2075,61 +1723,23 @@ focus_tree = {
 			GER = {
 				add_opinion_modifier = { target = USA modifier = war_plan_black }
 			}
-			unlock_decision_tooltip = { decision = USA_execute_war_plan_black show_effect_tooltip = yes }
+			add_ideas = USA_intervention_in_europe
 		}
 	}
 
-	focus = {
-		id = USA_intervention_in_asia
-		icon = GFX_goal_generic_major_war
-		x = 2
-		y = 1
-		prerequisite = { focus = USA_war_plans_division }
-		relative_position_id = USA_war_plans_division
-		cost = 10
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			create_corps_commander = {
-				name = "Alexander Vandegrift"
-				gfx = GFX_portrait_usa_alexander_vandegrift
-				skill = 3
-				attack_skill = 3
-				defense_skill = 1
-				planning_skill = 3
-				logistics_skill = 3
-				traits = { naval_invader }
-			}
-		}
-	}
 	focus = {
 		id = USA_war_plan_orange
 		icon = GFX_focus_attack_japan
-		prerequisite = { focus = USA_intervention_in_asia }
+		prerequisite = { focus = USA_war_plans_division }
 		available = {
 			
 		}
 		continue_if_invalid = yes
 		available_if_capitulated = yes
 
-		x = 0
+		x = 1
 		y = 1
-		relative_position_id = USA_intervention_in_asia
+		relative_position_id = USA_war_plans_division
 		cost = 10
 		#ai_will_do = {
 		#	factor = 1
@@ -2140,104 +1750,15 @@ focus_tree = {
 			JAP = {
 				add_opinion_modifier = { target = USA modifier = war_plan_orange }
 			}
-			unlock_decision_tooltip = { decision = USA_execute_war_plan_orange show_effect_tooltip = yes }
-		}
-	}
-
-	focus = {
-		id = USA_defense_of_the_pacific
-		icon = GFX_goal_generic_occupy_states_coastal
-		prerequisite = { focus = USA_war_plan_yellow }
-		prerequisite = { focus = USA_war_plan_orange }
-		available = {
-			JAP = {
-				exists = yes
-				NOT = { has_government = ROOT }
-			}
-		}
-		will_lead_to_war_with = JAP
-		x = 0
-		y = 2
-		relative_position_id = USA_intervention_in_asia
-		cost = 10
-		#ai_will_do = {
-		#	factor = 1
-		#}
-		completion_reward = {
-			650 = {
-				#Fortify naval bases
-				add_building_construction = {
-					type = coastal_bunker
-					province = 13067
-					level = 2
-					instant_build = yes
-				}
-				add_building_construction = {
-					type = naval_base
-					province = 13067
-					level = 2
-					instant_build = yes
-				}
-			}
-			631 = {
-				#Fortify naval bases
-				add_building_construction = {
-					type = coastal_bunker
-					province = 13052
-					level = 2
-					instant_build = yes
-				}
-				add_building_construction = {
-					type = naval_base
-					province = 13052
-					level = 2
-					instant_build = yes
-				}
-			}
-			632 = {
-				#Fortify naval bases
-				add_building_construction = {
-					type = coastal_bunker
-					province = 13047
-					level = 2
-					instant_build = yes
-				}
-				add_building_construction = {
-					type = naval_base
-					province = 13047
-					level = 2
-					instant_build = yes
-				}
-			}
-			638 = {
-				#Fortify naval bases
-				add_building_construction = {
-					type = coastal_bunker
-					province = 12140
-					level = 2
-					instant_build = yes
-				}
-				add_building_construction = {
-					type = naval_base
-					province = 12140
-					level = 2
-					instant_build = yes
-				}
-			}
-			642 = {
-				#Fortify naval bases
-				add_building_construction = {
-					type = coastal_bunker
-					province = 13050
-					level = 2
-					instant_build = yes
-				}
-				add_building_construction = {
-					type = naval_base
-					province = 13050
-					level = 2
-					instant_build = yes
-				}
+			create_corps_commander = {
+				name = "Alexander Vandegrift"
+				gfx = GFX_portrait_usa_alexander_vandegrift
+				skill = 3
+				attack_skill = 3
+				defense_skill = 1
+				planning_skill = 3
+				logistics_skill = 3
+				traits = { naval_invader }
 			}
 		}
 	}
@@ -2252,7 +1773,7 @@ focus_tree = {
 	focus = {
 		id = USA_war_department
 		icon = GFX_goal_generic_army_doctrines
-		x = 58
+		x = 33
 		y = 0
 		offset = {
 			x = -26
@@ -2286,7 +1807,7 @@ focus_tree = {
 	focus = {
 		id = USA_selective_training_act
 		icon = GFX_focus_generic_military_mission
-		x = -5
+		x = -8
 		y = 1
 		prerequisite = { focus = USA_war_department }
 		relative_position_id = USA_war_department
@@ -2657,7 +2178,7 @@ focus_tree = {
 	focus = {
 		id = USA_build_the_pentagon
 		icon = GFX_focus_usa_build_the_pentagon
-		x = -1
+		x = 0
 		y = 1
 		prerequisite = { focus = USA_war_department }
 		relative_position_id = USA_war_department
@@ -2686,7 +2207,7 @@ focus_tree = {
 	focus = {
 		id = USA_department_of_defense
 		icon = GFX_goal_generic_military_sphere
-		x = -1
+		x = 0
 		y = 2
 		prerequisite = { focus = USA_build_the_pentagon }
 		relative_position_id = USA_war_department
@@ -2727,7 +2248,7 @@ focus_tree = {
 	focus = {
 		id = USA_air_war_plans_division
 		icon = GFX_goal_generic_build_airforce
-		x = 2
+		x = 5
 		y = 1
 		cost = 10
 		#ai_will_do = {
@@ -2986,7 +2507,7 @@ focus_tree = {
 	focus = {
 		id = USA_two_ocean_navy_act
 		icon = GFX_focus_generic_navy_battleship2
-		x = 8
+		x = 12
 		y = 1
 		prerequisite = { focus = USA_war_department }
 		relative_position_id = USA_war_department
@@ -3085,42 +2606,13 @@ focus_tree = {
 			}
 		}
 	}
-	focus = {
-		id = USA_maritime_commission
-		icon = GFX_goal_generic_production2
-		x = -3
-		y = 1
-		prerequisite = { focus = USA_two_ocean_navy_act }
-		relative_position_id = USA_two_ocean_navy_act
-		cost = 10
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			add_ideas = USA_maritime_commission
-		}
-	}
 	
 	focus = {
 		id = USA_liberty_ships
 		icon = GFX_goal_generic_amphibious_assault
-		prerequisite = { focus = USA_maritime_commission }
+		prerequisite = { focus = USA_two_ocean_navy_act }
 		x = -3
-		y = 2
+		y = 1
 		relative_position_id = USA_two_ocean_navy_act
 		cost = 10
 		#ai_will_do = {

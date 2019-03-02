@@ -21,6 +21,8 @@
     no_finnish_justification_desc:0 "Finland is not supposed to attack anyone, and for this this idea was added."
     easy_surrender:0 "Quick Surrender"
     varna_shipyard:0 "Varna Shipyard"
+    FRA_inflexible_industry:0 "Inflexible Industry" 
+    FRA_inflexible_industry_desc:0 "France's population will not easily accept a conversion of prized civilian industry into military potential, regardless of the dangers looming before them." 
 
     USA_advanced_mahanian_doctrine:0 "Advanced Mahanian Doctrine"
     USA_advanced_mahanian_doctrine_desc:0 "The influence of Alfred Thayer Mahan on naval warfare can hardly be underestimated. Building on his work will allow us to make good use of battleships, which he considered a decisive factor."

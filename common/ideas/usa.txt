@@ -244,7 +244,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				conscription = 0.02	
+				conscription = 0.01
 			}
 		}
 		USA_war_department = {	
@@ -380,7 +380,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				conscription = 0.02	
+				conscription = 0.01	
 			}
 		}
 		USA_full_desegregation = {
@@ -1155,69 +1155,7 @@ ideas = {
 	
 	
 	
-	political_advisor = {
-		earl_browder = {
-			
-			
-			allowed = {
-				original_tag = "USA"
-			}
-			available = {
-				if = {
-					limit = {
-						has_dlc = "Man the Guns"
-					}
-					has_completed_focus = USA_suspend_the_presecution
-				}
-				if = {
-					limit = { has_dlc = "Man the Guns" }	
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-
-			
-			traits = { communist_revolutionary }
-
-			do_effect = {
-				NOT = {
-					has_government = communism
-				}
-			}
-			
-			ai_will_do = {
-				factor = 10
-			}
-		}	
-		harry_white = {
-			
-			picture = USA_harry_white
-			allowed = {
-				original_tag = "USA"
-			}
-			allowed_civil_war = {
-				has_government = communism
-			}
-			available = {
-				if = {
-					limit = {
-						has_dlc = "Man the Guns"
-					}
-					has_completed_focus = USA_reach_out_to_the_ware_group
-				}
-				not = { has_idea = USA_henry_morgenthau }
-			}
-
-			
-			traits = { financial_expert }
-			cost = 0
-			do_effect = {
-		
-			}
-			
-			ai_will_do = {
-				factor = 0
-			}
-		}
+	political_advisor = {	
 		victor_perlo = {
 			
 			picture = generic_political_advisor_europe_1
@@ -1247,35 +1185,7 @@ ideas = {
 				factor = 0
 			}
 		}
-		whittaker_chambers = {
-			
-			picture = USA_whittaker_chambers
-			allowed = {
-				original_tag = "USA"
-			}
-			allowed_civil_war = {
-				has_government = communism
-			}
-			available = {
-				if = {
-					limit = {
-						has_dlc = "Man the Guns"
-					}
-					has_completed_focus = USA_reach_out_to_the_ware_group
-				}
-			}
 
-			
-			traits = { editor }
-			cost = 0
-			do_effect = {
-		
-			}
-			
-			ai_will_do = {
-				factor = 0
-			}
-		}
 		USA_joseph_patterson = {
 			
 			picture = generic_political_advisor_europe_1
@@ -1325,7 +1235,7 @@ ideas = {
 
 			
 			traits = { captain_of_industry }
-			cost = 50
+			cost = 150
 			do_effect = {
 		
 			}
@@ -1361,39 +1271,6 @@ ideas = {
 			}
 		}
 		
-		charles_coughlin = {
-			
-			
-			allowed = {
-				original_tag = "USA"
-			}
-			available = {
-				if = {
-					limit = {
-						has_dlc = "Man the Guns"
-					}
-					has_completed_focus = USA_america_first
-				}
-				if = {
-					limit = { has_dlc = "Man the Guns" }	
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-
-			
-			traits = { fascist_demagogue }
-	
-			do_effect = {
-				NOT = {
-					has_government = fascism
-				}
-			}
-			
-			ai_will_do = {
-				factor = 10
-			}
-		}
-
 		USA_robert_taft = {
 			
 			picture = generic_political_advisor_europe_1
@@ -1403,18 +1280,6 @@ ideas = {
 			}
 			
 			traits = { silent_workhorse }
-		}
-		USA_joseph_mccarthy = {
-			picture = generic_political_advisor_europe_1
-			
-			allowed = {
-				original_tag = USA
-			}
-			available = {
-				has_completed_focus = USA_empower_the_huac
-			}
-			
-			traits = { anti_communist_crusader }
 		}
 
 		USA_john_winant = {
