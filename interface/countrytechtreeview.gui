@@ -323,6 +323,13 @@ guiTypes = {
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
+			
+			gridboxtype = {
+			name = "special_forces_0_tree"
+			position = { x = 1300 y = 875 }
+			slotsize = { width = 70 height = 70 }
+			format = "UP"
+			}
 		}
 
 		containerWindowType = {
@@ -3547,59 +3554,6 @@ guiTypes = {
 		}
 
 		containerWindowType = {
-			name = "etat_folder"
-			position = { x=0 y=47 }
-			size = { width = 100%% height = 100%% }
-			margin = { top = 13 left = 13 bottom = 24 right = 25}
-			drag_scroll = { left middle }
-			verticalScrollbar = "right_vertical_slider"
-			horizontalScrollbar = "bottom_horizontal_slider"
-
-			background = {
-				name = "Background"
-				quadTextureSprite ="GFX_tiled_window_2b_border"
-			}
-
-		containerWindowType = {
-				name = "techtree_stripes"
-				position = { x= 0 y= 0 }
-				size = {
-					width = 100%% height = 1100
-					min = { width = 100%% height = 100%% }
-				}
-				clipping = no
-
-				background = {
-					name = "Background"
-					quadTextureSprite ="GFX_techtree_stripes"
-				}
-
-				iconType = {
-					name ="GFX_etat_techtree_bg"
-					spriteType = "GFX_engineering_techtree_bg"
-					position = { x=0 y=0 }
-				}
-
-			containerWindowType = {
-				name = "etat_year_left"
-				position = { x=60 y=40 }
-				size = { width = 130 height = 100% }
-				orientation = upper_left
-			}
-
-		}
-
-		gridboxtype = {
-			name = "special_forces_0_tree"
-			position = { x = 210 y = 172 }
-			slotsize = { width = 70 height = 70 }
-			format = "UP"
-		}
-	}
-
-###------> X <><> <><> <><> <><> <><>
-
-		containerWindowType = {
 			name = "folder_tabs"
 			position = { x=0 y=7 }
 			size = { width = 100%% height = 30 }
@@ -3729,33 +3683,6 @@ guiTypes = {
 				hide = yes
 				alwaystransparent = yes
 			}
-
-###------> Etat Folder Tabs <><> <><> <><> <><> <><>
-
-			#buttonType = {
-			#	position = { x = 1121 y = 0 }
-			#	name = "etat_folder_tab"
-			#	quadTextureSprite = "GFX_left_side_special_forces_tab"
-			#	clicksound = click_default
-			#}
-			
-			buttonType = {
-				name = "etat_folder_tab"
-				position = { x = 1121 y = 0 }
-				quadTextureSprite = "GFX_infantry_folder_tab"
-				frame = 1
-				clicksound = click_default
-			}
-
-			iconType = {
-				name = "highlight_etat_folder"
-				spriteType = "GFX_tutorial_research_folder_icon_glow"
-				position = { x=1121 y=0}
-				hide = yes
-				alwaystransparent = yes
-			}
-
-###------> X <><> <><> <><> <><> <><>
 
 		}
 

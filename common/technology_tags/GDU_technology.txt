@@ -6,6 +6,3 @@ technology_categories = {
 	special_forces
 }
 
-technology_folders = {
-	etat_folder
-}
