@@ -486,7 +486,7 @@ leader_traits = {
 		cost = 1000
 		modifier = {
 			planning_speed = 0.1
-			army_moral_factor = 0.04
+			army_morale_factor = 0.04
 		}
 		
 		ai_will_do = {
@@ -2117,6 +2117,10 @@ leader_traits = {
 	substance_abuser = { 
 		type = all
 		trait_type = status_trait
+		modifier = {
+			army_speed_factor = 0.1
+			army_morale_factor = 0.1
+		}
 	}
 	
 	substance_addict = { 
