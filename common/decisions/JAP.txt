@@ -2,55 +2,6 @@
 
 foreign_politics = {
 
-		steal_siam_Rubber = { #195
-
-		icon = rubber
-
-		highlight_states = {
-			state = 530
-		}
-
-		allowed = {
-			#Everyone
-		}
-
-		available = {
-			has_full_control_of_state = 530
-		}
-
-		visible = {
-			controls_state = 530
-			tag = JAP
-			SIA = { is_ai = yes }
-			country_exists = SIA
-		}
-
-		fire_only_once = yes
-
-		cost = 25
-
-		modifier = {
-
-		}
-
-		complete_effect = {
-				724 = {
-					add_resource = {
-						type = rubber
-						amount = -77
-					}
-				}
-				530 = {
-					add_resource = {
-						type = rubber
-						amount = 77
-					}
-				}
-			
-		}
-	}
-
-
 	JAP_sue_for_peace_CHI = {
 
 		available = {
@@ -736,12 +687,12 @@ operations = {
 					add_tech_bonus = {
 						name = sov_jap_border_conflict_won
 						category = land_doctrine
-						bonus = 0.5
+						bonus = 1.00 
 					}
 					add_tech_bonus = {
 						name = sov_jap_border_conflict_won
 						category = armor
-						bonus = 0.5
+						bonus = 1.00 
 					}
 				}
 			}
@@ -791,12 +742,12 @@ operations = {
 					add_tech_bonus = {
 						name = sov_jap_border_conflict_won
 						category = land_doctrine
-						bonus = 0.5
+						bonus = 1.00 
 					}
 					add_tech_bonus = {
 						name = sov_jap_border_conflict_won
 						category = armor
-						bonus = 0.5
+						bonus = 1.00 
 					}
 				}
 			}

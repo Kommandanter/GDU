@@ -17,6 +17,11 @@ add_ideas = {
 	Jap_Coup
 }
 
+set_autonomy = {
+	target = SIA
+	autonomous_state =  autonomy_Imperial_Protectorate 
+}
+
 set_technology = {
 	bicycle_infantry = 1 
 	infantry_weapons = 1

@@ -69,7 +69,7 @@ NDefines.NTechnology.BASE_TECH_COST = 100
 NDefines.NTechnology.LICENSE_PRODUCTION_TECH_BONUS = 0.00
 NDefines.NTechnology.LICENSE_EQUIPMENT_BASE_SPEED = -0.20
 NDefines.NTechnology.LICENSE_EQUIPMENT_TECH_SPEED_PER_YEAR = -0.000
-NDefines.NTechnology.MAX_TECH_SHARING_BONUS = 0.50 			-- Max technology sharing bonus that can be applied instantly
+NDefines.NTechnology.MAX_TECH_SHARING_bonus = 0.50  			-- Max technology sharing bonus that can be applied instantly
 
 NDefines.NPolitics.DEFAULT_OCCUPATION_POLICY = 3
 NDefines.NPolitics.BASE_LEADER_TRAITS = 6

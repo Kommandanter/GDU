@@ -35,7 +35,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = CHI_industrial_reform
-				bonus = 0.5
+				bonus = 1.00 
 				uses = 1
 				category = industry
 				}
@@ -68,7 +68,7 @@ focus_tree = {
  			add_stability = 0.1
 			add_tech_bonus = {
 				name = secret_bonus
-				bonus = 0.5
+				bonus = 1.00 
 				uses = 1
 				category = electronics
 			}
@@ -397,7 +397,7 @@ focus_tree = {
 		completion_reward = {
 				add_tech_bonus = {
 				name = navy_bonus
-				bonus = 0.5
+				bonus = 1.00 
 				uses = 2
 				category = naval_equipment
 			}
@@ -431,7 +431,7 @@ focus_tree = {
 		    		add_tech_bonus = {
 					name = land_doc_bonus
 					uses = 1
-					bonus = 0.50
+					bonus = 1.00 
 					category = cat_mass_assault
 				}
 		}
@@ -537,7 +537,7 @@ focus_tree = {
 				add_tech_bonus = {
 					name = land_doc_bonus
 					uses = 2
-					bonus = 0.75
+					bonus = 2.00 
 					category = cat_mass_assault
 				}
 			}
@@ -548,7 +548,7 @@ focus_tree = {
 				add_tech_bonus = {
 					name = land_doc_bonus
 					uses = 2
-					bonus = 0.5
+					bonus = 1.00 
 					category = cat_mass_assault
 				}
 			}
@@ -707,7 +707,7 @@ focus_tree = {
 		cost = 10
 		completion_reward = {
 			add_tech_bonus = {
-				bonus = 0.5
+				bonus = 1.00 
 				uses = 2
 				category = infantry_weapons
 			}
@@ -741,7 +741,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_tech_bonus = {
-				bonus = 0.5
+				bonus = 1.00 
 				uses = 1
 				category = artillery
 				category = armor
@@ -760,7 +760,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = CHI_special_forces_bonus
-				bonus = 0.5
+				bonus = 1.00 
 				uses = 1
 				technology = paratroopers
 				technology = paratroopers2
@@ -856,7 +856,7 @@ focus_tree = {
 			air_experience = 10
 			add_tech_bonus = {
 				name = air_sup_bonus
-				bonus = 0.5
+				bonus = 1.00 
 				uses = 1
 				category = air_doctrine
 			}
@@ -879,7 +879,7 @@ focus_tree = {
 			air_experience = 50
 			add_tech_bonus = {
 				name = air_doctrine_bonus
-				bonus = 0.5
+				bonus = 1.00 
 				uses = 2
 				category = air_doctrine
 			}

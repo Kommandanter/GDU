@@ -178,18 +178,18 @@ country_event = {
 		}
 		# REVISIT Balance research bonus, also in event below
 		add_tech_bonus = {
-			bonus = 0.5
+			bonus = 1.00 
 			uses = 1
 			technology = tech_mountaineers2
 		}
 		add_tech_bonus = {
-			bonus = 0.5
+			bonus = 1.00 
 			uses = 2
 			category = naval_doctrine
 		}
 		add_tech_bonus = {
 			name = synth_bonus
-			bonus = 0.75
+			bonus = 2.00 
 			uses = 1
 			category = synth_resources
 		}
@@ -219,7 +219,7 @@ country_event = {
 		# REVISIT Balance research bonus
 		add_tech_bonus = {
 			name = synth_bonus
-			bonus = 0.75
+			bonus = 2.00 
 			uses = 1
 			category = synth_resources
 		}

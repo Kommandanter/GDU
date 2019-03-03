@@ -1,4 +1,13 @@
-on_actions = { 
+on_actions = {
+	on_startup = {
+		effect = {
+			#We give Japan Siam's rubber because the AI isn't going to trade Germany back and now we need one less player to start the game. 
+			SIA = {
+				give_resource_rights = { receiver = JAP state = 724 }
+				give_resource_rights = { receiver = JAP state = 289 }
+			}
+		}
+	}
 	on_capitulation = { 
 		effect = {
 		

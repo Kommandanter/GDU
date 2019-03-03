@@ -1536,7 +1536,7 @@ country_event = {
 		}
 		add_tech_bonus = {
 			name = armor_bonus
-			bonus = 0.5
+			bonus = 1.00 
 			uses = 1
 			technology = basic_medium_tank
 			technology = improved_medium_tank
@@ -1596,7 +1596,7 @@ country_event = {
 	option = {
 		name = germany.78.a
 		add_tech_bonus = {
-			bonus = 0.5
+			bonus = 1.00 
 			uses = 1
 			category = radar_tech
 		}

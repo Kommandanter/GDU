@@ -149,11 +149,6 @@ create_country_leader = {
 	}
 }
 
-add_ideas = {
-	PHI_unstable_state
-	PHI_ideological_rebels
-}
-
 create_corps_commander = {
 	name = "Mateo Capinpin"
 	        picture = "Portrait_Philippines_Land_General_3.dds"

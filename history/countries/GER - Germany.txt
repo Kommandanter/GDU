@@ -128,7 +128,7 @@ create_import = {
 	#Soviet treaty
 	unlock_national_focus = GER_soviet_treaty
 	add_tech_bonus = {
-		bonus = 0.5
+		bonus = 1.00 
 		uses = 2
 		category = armor
 	}
