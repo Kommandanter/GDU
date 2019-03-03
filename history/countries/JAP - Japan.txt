@@ -576,7 +576,7 @@ create_corps_commander = {
 	logistics_skill = 1
 }
 
-create_corps_commander = {
+create_field_marshal = {
 	name = "Kuniaki Koiso"
 		picture = "Portrait_Japan_Kuniaki_Koiso.dds"
 	traits = { JAP_samurai_lineage old_guard politically_connected skilled_staffer war_hero expert_delegator inflexible_strategist}

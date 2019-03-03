@@ -128,7 +128,7 @@ create_import = {
 	#Soviet treaty
 	unlock_national_focus = GER_soviet_treaty
 	add_tech_bonus = {
-		bonus = 1.00 
+		bonus = 0.5
 		uses = 2
 		category = armor
 	}
@@ -477,7 +477,7 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Walter Krüger"
 	picture = "Portrait_Germany_Walter_Kruger.dds"
-	traits = {  harsh_leader politically_connected ranger}
+	traits = {  harsh_leader infantry_officer ranger}
 	skill = 4
 	id = 15
 	attack_skill = 7

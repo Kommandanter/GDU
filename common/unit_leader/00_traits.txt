@@ -77,9 +77,33 @@ leader_traits = {
 		attack_skill = 1
 		planning_skill = 1
 		modifier = {
-			army_speed_factor = 0.05
+			desert = {
+				movement = 0.05
+			}
+			hills = {
+				movement = 0.05
+			}
+			forest = {
+				movement = 0.05
+			}
+			mountain = {
+				movement = 0.05
+			}
+			plains = {
+				movement = 0.05
+			}
+			urban = {
+				movement = 0.05
+			}
+			jungle = {
+				movement = 0.05
+			}
+			marsh = {
+				movement = 0.05
+			}
 			army_defence_factor = -0.05
 		}	
+	
 		
 		attack_skill_factor = 1
 		planning_skill_factor = 1
@@ -90,8 +114,32 @@ leader_traits = {
 		type = land
 		trait_type = personality_trait
 		modifier = {
-			army_speed_factor = -0.05
+			desert = {
+				movement = -0.05
+			}
+			hills = {
+				movement = -0.05
+			}
+			forest = {
+				movement = -0.05
+			}
+			mountain = {
+				movement = -0.05
+			}
+			plains = {
+				movement = -0.05
+			}
+			urban = {
+				movement = -0.05
+			}
+			jungle = {
+				movement = -0.05
+			}
+			marsh = {
+				movement = -0.05
+			}
 			army_defence_factor = 0.05
+			
 		}	
 		defense_skill = 1
 		logistics_skill = 1
@@ -125,7 +173,8 @@ leader_traits = {
 		}
 		modifier = {
 			army_morale_factor = 0.05
-			army_org_factor = 0.05
+			max_planning = 0.05
+			
 		}
 		new_commander_weight = {
 			factor = 0  # Scripted starting leaders only
@@ -143,6 +192,7 @@ leader_traits = {
 		}
 		modifier = {
 			army_morale_factor = 0.05
+			dig_in_speed_factor = 0.15
 		}
 		planning_skill_factor = 1
 		logistics_skill_factor = 1
@@ -170,8 +220,10 @@ leader_traits = {
 			planning_speed = 0.20
 			wounded_chance_factor = 0.5  # +50% chance to get wounded
 			army_attack_factor = 0.075
-			army_org_factor = -0.05
+			out_of_supply_factor = 0.15
 			supply_consumption_factor = 0.05
+			equipment_capture = 0.05
+			max_planning = -0.1
 			
 		}
 		
@@ -202,7 +254,30 @@ leader_traits = {
 
 		modifier = {
 			army_morale_factor = -0.05
-			army_speed_factor = 0.05
+			desert = {
+				movement = 0.05
+			}
+			hills = {
+				movement = 0.05
+			}
+			forest = {
+				movement = 0.05
+			}
+			mountain = {
+				movement = 0.05
+			}
+			plains = {
+				movement = 0.05
+			}
+			urban = {
+				movement = 0.05
+			}
+			jungle = {
+				movement = 0.05
+			}
+			marsh = {
+				movement = 0.05
+			}
 		}
 		
 		attack_skill_factor = 1
@@ -260,7 +335,30 @@ leader_traits = {
 			panzer_leader = 1     #+100%
 		}
 		modifier = {
-			army_speed_factor = 0.075
+			desert = {
+				movement = 0.075
+			}
+			hills = {
+				movement = 0.075
+			}
+			forest = {
+				movement = 0.075
+			}
+			mountain = {
+				movement = 0.075
+			}
+			plains = {
+				movement = 0.075
+			}
+			urban = {
+				movement = 0.075
+			}
+			jungle = {
+				movement = 0.075
+			}
+			marsh = {
+				movement = 0.075
+			}
 			supply_consumption_factor = 0.025
 		}		
 		attack_skill_factor = 1
@@ -460,7 +558,8 @@ leader_traits = {
 		
 		field_marshal_modifier = {
 			max_army_group_size = 3
-			army_org_factor = 0.1
+			equipment_capture = 0.08
+			land_reinforce_rate = 0.03
 		}
 		
 		ai_will_do = {
@@ -510,8 +609,9 @@ leader_traits = {
 		
 		cost = 1000
 		modifier = {
-			motorized_attack_factor = 0.05
-			mechanized_attack_factor = 0.05
+			motorized_defence_factor = 0.1
+			mechanized_defence_factor = 0.1
+			cavalry_defence_factor = 0.1
 		}
 		
 		ai_will_do = {
@@ -532,7 +632,7 @@ leader_traits = {
 		
 		cost = 1000
 		modifier = {
-			army_infantry_defence_factor = 0.05
+			army_infantry_defence_factor = 0.1
 		}
 		
 		ai_will_do = {
@@ -552,7 +652,8 @@ leader_traits = {
 		
 		corps_commander_modifier = {
 			max_commander_army_size = 6
-			army_org_factor = 0.08
+			dig_in_speed_factor = 0.1
+			equipment_capture = 0.05
 		}
 		
 		ai_will_do = {
@@ -694,6 +795,8 @@ leader_traits = {
 		modifier = {
 			army_armor_speed_factor = 0.05 
 			army_armor_attack_factor = 0.1 
+			motorized_attack_factor = 0.05
+			mechanized_attack_factor = 0.05
 		}
 		
 		ai_will_do = {
@@ -904,6 +1007,8 @@ leader_traits = {
 		cost = 1000
 		modifier = {
 			army_armor_defence_factor = 0.15 
+			motorized_defence_factor = 0.05
+			mechanized_defence_factor = 0.05
 		}
 		
 		custom_effect_tooltip = INCREASED_BLITZ_AND_ENCIRCLEMENT_CHANCE
@@ -928,8 +1033,9 @@ leader_traits = {
 		}
 		cost = 500
 		modifier = {
-			motorized_defence_factor = 0.075
-			mechanized_defence_factor = 0.075
+			army_armor_attack_factor = 0.05
+			motorized_defence_factor = 0.15
+			mechanized_defence_factor = 0.15
 		}
 		
 		custom_effect_tooltip = INCREASED_BLITZ_AND_ENCIRCLEMENT_CHANCE
@@ -956,8 +1062,10 @@ leader_traits = {
 		}
 		cost = 500
 		modifier = {
-			cavalry_attack_factor = 0.00
-			cavalry_defence_factor = 0.00
+			cavalry_attack_factor = 0.10
+			motorized_attack_factor = 0.1
+			mechanized_attack_factor = 0.1
+
 		}
 		
 		ai_will_do = {
@@ -1004,7 +1112,7 @@ leader_traits = {
 		}
 		cost = 500
 		modifier = {
-			equipment_capture = 0.03
+			equipment_capture = 0.1
 		}
 		
 		ai_will_do = {
@@ -1025,7 +1133,7 @@ leader_traits = {
 		}
 		cost = 500
 		modifier = {
-			army_infantry_attack_factor = 0.075
+			army_infantry_attack_factor = 0.1
 		}
 		
 		ai_will_do = {
