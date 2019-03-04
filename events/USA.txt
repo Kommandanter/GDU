@@ -232,8 +232,7 @@ country_event = {
 			}
 		}		
 		add_ideas = new_deal
-		set_variable = { election_factor = random }
-		add_to_variable = { election_factor = -0.5 }
+		set_variable = { election_factor = -0.5 }
 		USA_election_senate = yes
 		USA_election_house = yes
 		custom_effect_tooltip = usa_congress_elections_tt_bad
@@ -255,8 +254,7 @@ country_event = {
 			}
 		}		
 		set_party_name = { ideology = democratic long_name = USA_republican_party name = USA_republican_party }
-		set_variable = { election_factor = random }
-		add_to_variable = { election_factor = -0.6 }
+		set_variable = { election_factor = -0.6 }
 		USA_election_senate = yes
 		USA_election_house = yes
 		USA_flip_support = yes
@@ -316,8 +314,7 @@ country_event = {
 		ai_chance = {
 			factor = 75
 		}
-		set_variable = { election_factor = random }
-		add_to_variable = { election_factor = -0.5 }
+		set_variable = { election_factor = -0.5 }
 		USA_election_senate = yes
 		USA_election_house = yes
 		custom_effect_tooltip = usa_congress_elections_tt_bad
@@ -337,8 +334,7 @@ country_event = {
 		set_party_name = { ideology = democratic long_name = USA_republican_party name = USA_republican_party }
 		remove_ideas = new_deal
 		add_ideas = wilkies_new_deal
-		set_variable = { election_factor = random }
-		add_to_variable = { election_factor = -0.6 }
+		set_variable = { election_factor = -0.6 }
 		add_political_power = 120
 		USA_election_senate = yes
 		USA_election_house = yes
@@ -384,8 +380,7 @@ country_event = {
 	option = { 
 		name = usa.8.a
 		add_political_power = -40
-		set_variable = { election_factor = random }
-		add_to_variable = { election_factor = -0.5 }
+		set_variable = { election_factor = -0.5 }
 		USA_election_senate = yes
 		USA_election_house = yes
 		custom_effect_tooltip = usa_congress_elections_tt_bad
@@ -398,8 +393,7 @@ country_event = {
 		add_ideas = new_deal
 		retire_country_leader = yes
 		add_political_power = 120
-		set_variable = { election_factor = random }
-		add_to_variable = { election_factor = -0.6 }
+		set_variable = { election_factor = -0.6 }
 		USA_election_senate = yes
 		USA_election_house = yes
 		USA_flip_support = yes
@@ -436,8 +430,7 @@ country_event = {
 			factor = 75
 		}
 		add_political_power = 10
-		set_variable = { election_factor = random }
-		add_to_variable = { election_factor = -0.5 }
+		set_variable = { election_factor = -0.5 }
 		USA_election_senate = yes
 		USA_election_house = yes
 		custom_effect_tooltip = usa_congress_elections_tt_bad
@@ -456,8 +449,7 @@ country_event = {
 		}		
 		remove_ideas = new_deal
 		set_party_name = { ideology = democratic long_name = USA_republican_party name = USA_republican_party }
-		set_variable = { election_factor = random }
-		add_to_variable = { election_factor = -0.6 }
+		set_variable = { election_factor = -0.6 }
 		USA_election_senate = yes
 		USA_election_house = yes
 		USA_flip_support = yes
@@ -502,8 +494,7 @@ country_event = {
 	option = { 
 		name = usa.10.a
 		add_political_power = 10
-		set_variable = { election_factor = random }
-		add_to_variable = { election_factor = -0.5 }
+		set_variable = { election_factor = -0.5 }
 		USA_election_senate = yes
 		USA_election_house = yes
 		custom_effect_tooltip = usa_congress_elections_tt_bad
@@ -514,8 +505,7 @@ country_event = {
 		name = usa.10.b
 		add_ideas = new_deal
 		set_party_name = { ideology = democratic long_name = USA_democratic_party name = USA_democratic_party }
-		set_variable = { election_factor = random }
-		add_to_variable = { election_factor = -0.6 }
+		set_variable = { election_factor = -0.6 }
 		USA_election_senate = yes
 		USA_election_house = yes
 		USA_flip_support = yes
@@ -561,8 +551,7 @@ country_event = {
 			factor = 25
 		}	
 		add_political_power = 10
-		set_variable = { election_factor = random }
-		add_to_variable = { election_factor = -0.5 }
+		set_variable = { election_factor = -0.5 }
 		USA_election_senate = yes
 		USA_election_house = yes
 		custom_effect_tooltip = usa_congress_elections_tt_bad
@@ -580,8 +569,7 @@ country_event = {
 		}
 		remove_ideas = new_deal
 		set_party_name = { ideology = democratic long_name = USA_republican_party name = USA_republican_party }
-		set_variable = { election_factor = random }
-		add_to_variable = { election_factor = -0.6 }
+		set_variable = { election_factor = -0.6 }
 		USA_election_senate = yes
 		USA_election_house = yes
 		USA_flip_support = yes
@@ -1055,7 +1043,6 @@ country_event = {
 
 }
 
-#midterm elections
 country_event = {
 	id = usa.35
 	title = usa.35.t
@@ -1064,8 +1051,15 @@ country_event = {
 	hidden = yes
 	is_triggered_only = yes
 
-	immediate = {
-		country_event = usa.32
+	immediate = {	
+	
+			set_variable = { election_factor = -0.45 }
+			USA_election_senate = yes
+			USA_election_house = yes
+			country_event = usa.30
+
+
+		
 	}
 
 	option = {
@@ -1074,180 +1068,24 @@ country_event = {
 	}
 
 }
-#small support event - senate
-country_event = {
-	id = usa.40
-	title = usa.40.t
-	desc = usa.40.desc
-	picture = GFX_report_event_FDR_speech
 
-	is_triggered_only = yes
-	trigger = {
-		tag = USA
-	}
+#small support event - senate: Removed, kinda RNG 
 
-	option = {
-		name = usa.40.a
-		USA_senate_small_support = yes
-		hidden_effect = {
-			country_event = { id = usa.50 days = 70 random = 10 }
-		}
-	}
+# small support event - house: Removed, kinda RNG. 
 
-}
-# small support event - house
-country_event = {
-	id = usa.41
-	title = usa.41.t
-	desc = usa.41.desc
-	picture = GFX_report_event_FDR_speech
+# small opposition event - senate: Removed, kinda RNG 
 
-	is_triggered_only = yes
-	trigger = {
-		tag = USA
-	}
+# small opposition event - house: Removed, kinda RNG 
 
-	option = {
-		name = usa.41.a
-		USA_house_small_support = yes
-		hidden_effect = {
-			country_event = { id = usa.51 days = 70 random = 10 }
-		}
-	}
+# medium support event - senate: Removed, kinda RNG 
 
-}
+# medium support event - house: Removed, kinda RNG 
 
-#small opposition event - senate
-country_event = {
-	id = usa.42
-	title = usa.42.t
-	desc = usa.42.desc
-	picture = GFX_report_event_journalists_speech
+# medium opposition event - senate: Removed, kinda RNG
+ 
+# medium opposition event - house: Removed, kinda RNG 
 
-	is_triggered_only = yes
-	
-	trigger = {
-		tag = USA
-	}
-
-	option = {
-		name = usa.42.a
-		USA_senate_small_opposition = yes
-		hidden_effect = {
-			country_event = { id = usa.50 days = 70 random = 10 }
-		}
-	}
-
-}
-# small opposition event - house
-country_event = {
-	id = usa.43
-	title = usa.43.t
-	desc = usa.43.desc
-	picture = GFX_report_event_journalists_speech
-
-	is_triggered_only = yes
-	trigger = {
-		tag = USA
-	}
-
-	option = {
-		name = usa.43.a
-		USA_house_small_opposition = yes
-		hidden_effect = {
-			country_event = { id = usa.51 days = 70 random = 10 }
-		}
-	}
-
-}
-
-#medium support event - senate
-country_event = {
-	id = usa.44
-	title = usa.44.t
-	desc = usa.44.desc
-	picture = GFX_report_event_FDR_speech
-
-	is_triggered_only = yes
-	trigger = {
-		tag = USA
-	}
-
-	option = {
-		name = usa.44.a
-		USA_senate_medium_support = yes
-		hidden_effect = {
-			country_event = { id = usa.50 days = 70 random = 20 }
-		}
-	}
-
-}
-# medium support event - house
-country_event = {
-	id = usa.45
-	title = usa.45.t
-	desc = usa.45.desc
-	picture = GFX_report_event_FDR_speech
-
-	is_triggered_only = yes
-	trigger = {
-		tag = USA
-	}
-
-	option = {
-		name = usa.45.a
-		USA_house_medium_support = yes
-		hidden_effect = {
-			country_event = { id = usa.51 days = 70 random = 10 }
-		}
-	}
-
-}
-
-#medium opposition event - senate
-country_event = {
-	id = usa.46
-	title = usa.46.t
-	desc = usa.46.desc
-	picture = GFX_report_event_journalists_speech
-
-	is_triggered_only = yes
-	trigger = {
-		tag = USA
-	}
-
-	option = {
-		name = usa.46.a
-		USA_senate_medium_opposition = yes
-		hidden_effect = {
-			country_event = { id = usa.50 days = 70 random = 20 }
-		}
-	}
-
-}
-# medium opposition event - house
-country_event = {
-	id = usa.47
-	title = usa.47.t
-	desc = usa.47.desc
-	picture = GFX_report_event_journalists_speech
-
-	is_triggered_only = yes
-	trigger = {
-		tag = USA
-	}
-
-	option = {
-		name = usa.47.a
-		USA_house_medium_opposition = yes
-		hidden_effect = {
-			country_event = { id = usa.51 days = 70 random = 10 }
-		}
-	}
-
-}
-
-# dispatcher event - senate
+# investment opportunity dispatcher event, used to basically just be the senate dispatcher event but literally all the events were RNG-based except this one. I guess there's some RNG here, but it's manageable and good for the player. - TW 
 country_event = {
 	id = usa.50
 	Hidden = yes
@@ -1256,142 +1094,15 @@ country_event = {
 		tag = USA
 	}
 
-	immediate = {
-		random_list = {
-			20 = { 
-				modifier = {
-					not = { congress_medium_support_trigger = yes }
-					factor = 1.25
-				}
-				modifier = {
-					not = { congress_low_support_trigger = yes }
-					factor = 2
-				}
-				country_event = { id = usa.40 days = 15 random = 6 } #small support
-			} 
-			20 = { 
-				modifier = {
-					congress_high_support_trigger = yes
-					factor = 2
-				}
-				modifier = {
-					has_idea_with_trait = fascist_demagogue
-					factor = 2
-				}
-				modifier = {
-					has_idea_with_trait = communist_revolutionary
-					factor = 2
-				}
-				country_event = { id = usa.42 days = 20 random = 6 } #small opposition 
-			} 
-			15 = { 
-				modifier = {
-					not = { congress_medium_support_trigger = yes }
-					factor = 1.25
-				}
-				modifier = {
-					not = { congress_low_support_trigger = yes }
-					factor = 2
-				}
-				country_event = { id = usa.44 days = 20 random = 10 } #medium support
-			} 
-			15 = { 
-				modifier = {
-					congress_high_support_trigger = yes
-					factor = 2
-				}
-				modifier = {
-					has_idea_with_trait = fascist_demagogue
-					factor = 2
-				}
-				modifier = {
-					has_idea_with_trait = communist_revolutionary
-					factor = 2
-				}
-				country_event = { id = usa.46 days = 20 random = 10 }  #medium opposition
-			}
-			30 = { #investment opportunity
-				modifier = {
-					has_country_flag = USA_congress_investment
-					factor = 0
-				}
-				modifier = {
-					has_completed_focus = USA_wpa
-					factor = 1.5
-				} 
-				country_event = { id = usa.60 days = 10 random = 15 } 
-			} 
-		}
-	}
+	immediate = {   
+		country_event = { id = usa.60 days = 10 random = 15 } 
+	} 
 }
 
-# dispatcher event - house
-country_event = {
-	id = usa.51
-	Hidden = yes
-	is_triggered_only = yes
-	trigger = {
-		tag = USA
-	}
 
-	immediate = {
-		random_list = {
-			35 = { 
-				modifier = {
-					not = { congress_medium_support_trigger = yes }
-					factor = 1.25
-				}
-				modifier = {
-					not = { congress_low_support_trigger = yes }
-					factor = 2
-				}
-				country_event = { id = usa.41 days = 15 random = 6 } #small support
-			} 
-			25 = {
-				modifier = {
-					congress_high_support_trigger = yes
-					factor = 2
-				}
-				modifier = {
-					has_idea_with_trait = fascist_demagogue
-					factor = 2
-				}
-				modifier = {
-					has_idea_with_trait = communist_revolutionary
-					factor = 2
-				} 
-				country_event = { id = usa.43 days = 20 random = 6 } #small opposition
-			} 
-			25 = { 
-				modifier = {
-					not = { congress_medium_support_trigger = yes }
-					factor = 1.25
-				}
-				modifier = {
-					not = { congress_low_support_trigger = yes }
-					factor = 2
-				}
-				country_event = { id = usa.45 days = 25 random = 10 } #medium support
-			} 
-			15 = { 
-				modifier = {
-					congress_high_support_trigger = yes
-					factor = 2
-				}
-				modifier = {
-					has_idea_with_trait = fascist_demagogue
-					factor = 2
-				}
-				modifier = {
-					has_idea_with_trait = communist_revolutionary
-					factor = 2
-				}
-				country_event = { id = usa.47 days = 30 random = 15 } #medium opposition
-			} 
-		}
-	}
-}
-# senator wants investment in their state - hidden dispatch event
+# dispatcher event - house - Removed, nothing but RNG
+
+#Congress wants investment in their state - hidden dispatch event
 country_event = {
 	id = usa.60
 	hidden = yes
@@ -1531,7 +1242,7 @@ country_event = {
 			}
 		}
 		hidden_effect = {
-			country_event = { id = usa.50 days = 70 random = 10 }
+			country_event = { id = usa.50 days = 135 random = 10 }
 		}
 	}
 }

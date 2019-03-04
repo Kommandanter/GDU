@@ -21,3 +21,22 @@
  news.60.d:0 "German troops have crossed into Bohemia and Moravia, ostensibly to restore order to the regions in the wake of the collapsing Czechoslovakian government. \n\nIn Prague, the occupying forces announced the creation of an 'autonomous protectorate' within the German Reich.\n\nWith German support, Slovakia has been "declared independent" under the leadership of Jozef Tiso. The nation of Czechoslovakia is no more."
  USA_the_giant_wakes:0 "The Giant Wakes" 
  USA_the_giant_wakes_desc:0 "America has awakened, and now she comes. Let there be retribution for the fallen, the enslaved, and those too weak to stand up for themselves. Let there be hope for the future, the forgotten, and the downtrodden. Let there be victory for the people of the world, mankind, and the United States! We go to destroy fascism, not only because we will it, but because we must."
+ 
+ mtg_usa_congress_small_opposition_tt:1 "§Y2 Senators§! and §Y10 Representatives§! will go into §ROpposition§!.\n" # Senators adjusted, house adjusted
+ mtg_usa_congress_medium_opposition_tt:1 "§Y4 Senators§! and §Y20 Representatives§! will go into §ROpposition§!.\n"
+ mtg_usa_congress_large_opposition_tt:1 "§Y13 Senators§! and §Y50 Representatives§! will go into §ROpposition§!.\n"
+ mtg_usa_congress_small_support_tt:1 "§Y3 Senators§! and §Y15 Representatives§! will §GSupport§! the Government.\n"
+ mtg_usa_congress_medium_support_tt:1 "§Y8 Senators§! and §Y37 Representatives§! will §GSupport§! the Government.\n"
+ mtg_usa_congress_large_support_tt:1 "§Y20 Senators§! and §Y75 Representatives§! will §GSupport§! the Government.\n"
+ mtg_usa_senate_small_opposition_tt:0 "§Y2 Senators§! will go into §ROpposition§!.\n"  # Senators adjusted 
+ mtg_usa_house_small_opposition_tt:0 "§Y10 Representatives§! will go into §ROpposition§!.\n" #House adjusted 
+ mtg_usa_senate_small_support_tt:0 "§Y3 Senators§! will §GSupport§! the Government.\n"
+ mtg_usa_house_small_support_tt:0 "§Y15 Representatives§! will §GSupport§! the Government.\n"
+ mtg_usa_senate_medium_opposition_tt:0 "§Y8 Senators§! will go into §ROpposition§!.\n"
+ mtg_usa_house_medium_opposition_tt:0 "§Y20 Representatives§! will go into §ROpposition§!.\n"
+ mtg_usa_senate_medium_support_tt:0 "§Y8 Senators§! will §GSupport§! the Government.\n"
+ mtg_usa_house_medium_support_tt:0 "§Y37 Representatives§! will §GSupport§! the Government.\n"
+ mtg_usa_senate_large_opposition_tt:0 "§Y13 Senators§! will go into §ROpposition§!.\n"
+ mtg_usa_house_large_opposition_tt:0 "§Y50 Representatives§! will go into §ROpposition§!.\n"
+ mtg_usa_senate_large_support_tt:0 "§Y20 Senators§! will §GSupport§! the Government.\n"
+ mtg_usa_house_large_support_tt:0 "§Y75 Representatives§! will §GSupport§! the Government.\n"
