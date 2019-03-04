@@ -205,8 +205,8 @@ focus_tree = {
 
 		available = {
 			OR = { 
-				threat > 0.15 
-				date > 1938.6.1
+				threat > 0.35 
+				date > 1938.11.1
 			}
 
 		}
@@ -991,7 +991,7 @@ focus_tree = {
 	
 	focus = { 
 		id = USA_indirect_help
-		icon = GFX_goal_support_democracy
+		icon = GFX_focus_chi_british_cooperation 
 		prerequisite = { focus = USA_neutrality_act focus = USA_limited_intervention } 
 		x = 1 
 		y = -1 
@@ -1004,7 +1004,13 @@ focus_tree = {
 			has_completed_focus = USA_limited_intervention
 		}
 		completion_reward = {
-			custom_effect_tooltip = USA_indirect_help_tt 
+			custom_effect_tooltip = USA_indirect_help_tt  
+			unlock_decision_tooltip = USA_convoy_shipment
+			unlock_decision_tooltip = USA_emergency_arms_deliveries
+			unlock_decision_tooltip = USA_emergency_fighter_deliveries
+			unlock_decision_tooltip = USA_emergency_CAS_deliveries
+			unlock_decision_tooltip = USA_emergency_TACB_deliveries 
+			unlock_decision_tooltip = USA_arsenal_of_democracy_decision
 			USA_congress_medium_opposition = yes
 		}
 	}

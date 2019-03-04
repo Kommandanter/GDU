@@ -184,7 +184,7 @@ country_event = {
 	}
 }
 
-# Emergency Arms Deliveries
+# Emergency Arms Deliveries - Event should not trigger right now. Decision was changed to give equipment to CAN instead, UK gets convoys though 
 country_event = {
 	id = wtt_britain.30
 	title = wtt_britain.30.t

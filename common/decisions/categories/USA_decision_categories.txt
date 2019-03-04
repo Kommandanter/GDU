@@ -15,10 +15,7 @@ USA_aid_britain = {
 		original_tag = USA
 	}
 	visible = {
-		ENG = {
-			has_war = yes
-			has_government = ROOT
-		}
+		has_completed_focus = USA_indirect_help
 	}
 }
 USA_congress = {

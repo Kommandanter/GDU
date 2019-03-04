@@ -46,3 +46,12 @@
 	
     GDU_GER_seize_syria:0 "Seize Syria"
     GDU_GER_seize_syria_desc:0 "With the Egyptian campaign won, there's little reason to respect Vichy France's 'rights' to Syria. A brief talk with them will make them understand the pressing need for German military occupation in this region."
+	
+    USA_convoy_shipment:0 "Ship Convoys to Britain" 
+    USA_convoy_shipment_desc:0 "Not even the idiots in Congress will object to us sending the United Kingdom some shipping vessels on credit." 
+    USA_emergency_fighter_deliveries:0 "Fighter Deliveries to Canada"
+    USA_emergency_fighter_deliveries_desc:0 "The acts passed by Congress restrict the shipping of war materials. There's no law against someone buying war material on our soil and then pushing it across the border, though..." 
+    USA_emergency_CAS_deliveries:0 "CAS Deliveries to Canada" 
+    USA_emergency_CAS_deliveries_desc:0 "The acts passed by Congress restrict the shipping of war materials. There's no law against someone buying war material on our soil and then pushing it across the border, though..." 
+    USA_emergency_TACB_deliveries:0 "Tactical Bomber Deliveries to Canada" 
+    USA_emergency_TACB_deliveries_desc:0 "The acts passed by Congress restrict the shipping of war materials. There's no law against someone buying war material on our soil and then pushing it across the border, though... Admittedly, bombers is a bit of a stretch, but hopefully no one notices." 
