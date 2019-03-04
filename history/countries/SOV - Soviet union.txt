@@ -304,8 +304,8 @@ create_corps_commander = {
 	skill = 6
 	
 	attack_skill =6
-	defense_skill = 3
-	planning_skill = 7
+	defense_skill = 5
+	planning_skill = 5
 	logistics_skill = 3
 }
 
@@ -326,7 +326,7 @@ create_corps_commander = {
 create_field_marshal = {
 	name = "Boris Shaposhnikov"
 		picture = "Portrait_Soviet_Boris_Shaposhnikov.dds"
-	traits = { trait_cautious career_officer old_guard infantry_officer orginizer defensive_doctrine }
+	traits = { trait_cautious career_officer old_guard infantry_officer orginizer defensive_doctrine politically_connected orginizer}
 	skill = 5
 	
 	attack_skill = 2
@@ -485,12 +485,12 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Filipp Golikov"
 		picture = "Portrait_Soviet_Filipp_Golikov.dds"
-	traits = { career_officer brilliant_strategist }
-	skill = 3
+	traits = { career_officer brilliant_strategist harsh_leader panzer_leader armor_officer trait_reckless }
+	skill = 4
 	
-	attack_skill = 2
+	attack_skill = 3
 	defense_skill = 4
-	planning_skill = 4
+	planning_skill = 3
 	logistics_skill = 1
 }
 
@@ -559,7 +559,7 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Vasily Kuznetsov"
 		picture = "Portrait_Soviet_Vasily_Kuznetsov.dds"
-	traits = { commando infantry_officer politically_connected infantry_leader media_personality swamp_fox brilliant_strategist }
+	traits = { commando infantry_officer politically_connected infantry_leader media_personality war_hero swamp_fox brilliant_strategist }
 	skill = 5
 	
 	attack_skill = 5
