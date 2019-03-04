@@ -397,13 +397,13 @@ create_field_marshal = {
 	id = 401
 		picture = "Portrait_Soviet_Mikhail_Tukhachevsky.dds"
 	traits = { offensive_doctrine brilliant_strategist career_officer infantry_officer trait_reckless skilled_staffer}
-	skill = 3
+	skill = 7
 
 	
-	attack_skill = 4
-	defense_skill = 1
-	planning_skill = 4
-	logistics_skill = 1
+	attack_skill = 8
+	defense_skill = 6
+	planning_skill = 3
+	logistics_skill = 4
 }
 
 create_field_marshal = {
@@ -708,7 +708,7 @@ create_corps_commander = {
 create_field_marshal = {
 	name = "Vasily Chuikov"
 		picture = "Portrait_Soviet_Vasily_Chuikov.dds"
-	traits = { brilliant_strategist career_officer infantry_leader panzer_leader trait_engineer swamp_fox trait_cautious}
+	traits = { brilliant_strategist career_officer infantry_leader panzer_leader trait_engineer urban_assault_specialist trait_cautious}
 	skill = 4
 
 	

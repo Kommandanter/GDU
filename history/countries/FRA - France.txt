@@ -211,94 +211,103 @@ create_country_leader = {
 
 	}
 }
-### Add Pierre Koenig for Free France.
-#create_corps_commander = {
-#	name = "Jean de Lattre de Tassigny"
-#	picture = "Portrait_France_Jean_de_Lattre_de_Tassigny.dds"
-#	traits = { trickster }
-#	skill = 4
-#}
+create_corps_commander = {
+	name = "Jean de Lattre de Tassigny"
+	picture = "Portrait_France_Jean_de_Lattre_de_Tassigny.dds"
+	traits = { trickster brilliant_strategist cavalry_officer war_hero cavalry_leader harsh_leader }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 5
+	logistics_skill = 2
+}
 
-#create_corps_commander = {
-#	name = "Alphonse Juin"
-#	picture = "Portrait_France_Alphonse_Juin.dds"
-#	traits = { panzer_leader  }
-#	id = 799
-#	skill = 4
-#}
+create_corps_commander = {
+	name = "Alphonse Juin"
+	picture = "Portrait_France_Alphonse_Juin.dds"
+	traits = { armor_officer career_officer trait_cautious panzer_leader skilled_staffer trait_cautious }
+	skill = 4
+	attack_skill = 2
+	defense_skill = 6
+	planning_skill = 4
+	logistics_skill = 1
+}
 
 create_field_marshal = {
 	name = "Maurice Gamelin"
 	picture = "Portrait_France_Maurice_Gamelin.dds"
-	traits = { defensive_doctrine old_guard }
-	id = 800
-	skill = 2
+	traits = { defensive_doctrine old_guard inflexible_strategist career_officer trait_cautious infantry_leader ambusher unyielding_defender}
+	skill = 3
 	attack_skill = 2
 	defense_skill = 3
-	planning_skill = 1
-	logistics_skill = 2
+	planning_skill = 3
+	logistics_skill = 1
 }
 
 create_field_marshal = {
 	name = "Maxime Weygand"
 	picture = "Portrait_France_Maxime_Weygand.dds"
-	traits = { defensive_doctrine old_guard }
-	id = 801
-	skill = 3
-	attack_skill = 2
-	defense_skill = 4
-	planning_skill = 1
-	logistics_skill = 2
+	traits = { defensive_doctrine old_guard inflexible_strategist career_officer trait_cautious infantry_officer }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 1
+	planning_skill = 5
+	logistics_skill = 3
 }
 
 create_field_marshal = {
 	name = "Alphonse Georges"
 	picture = "Portrait_France_Alphonse_Joseph_Georges.dds"
-	traits = { defensive_doctrine old_guard }
-	id = 802
-	skill = 3
-	attack_skill = 4
-	defense_skill = 4
+	traits = { defensive_doctrine old_guard trait_cautious trait_mountaineer }
+	skill = 2
+	attack_skill = 6
+	defense_skill = 1
 	planning_skill = 1
 	logistics_skill = 1
 }
 
-#create_corps_commander = {
-#	name = "Charles De Gaulle"
-#	picture = "Portrait_France_Charles_De_Gaulle.dds"
-#	traits = {  panzer_leader }
-#	skill = 3
-#}
+create_corps_commander = {
+	name = "Charles De Gaulle"
+	picture = "Portrait_France_Charles_De_Gaulle.dds"
+	traits = {  armor_officer harsh_leader media_personality trait_reckless panzer_leader}
+	skill = 4
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 5
+}
 
-#create_corps_commander = {
-#	name = "Philippe Leclerc"
-#	picture = "portrait_france_philippe_leclerc.dds"
-#	traits = {  panzer_leader }
-#	skill = 3
-#}
+create_corps_commander = {
+	name = "Philippe Leclerc"
+	picture = "portrait_france_philippe_leclerc.dds"
+	traits = {  armor_officer trait_reckless career_officer politically_connected panzer_leader}
+	skill = 3
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 7
+	logistics_skill = 1
+}
 
 create_corps_commander = {
 	name = "Henri Giraud"
 	picture = "portrait_france_henri_giraud.dds"
-	traits = {  trickster }
-	id = 803
-	skill = 3
+	traits = {  trickster trait_cautious career_officer infantry_officer old_guard infantry_leader}
+	skill = 4
 	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 3
-	logistics_skill = 2
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 3
 }
 
 create_corps_commander = {
 	name = "Charles Huntziger"
 	picture = "portrait_france_charles_huntziger.dds"
-	traits = { old_guard }
-	id = 804
-	skill = 3
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 2
+	traits = { old_guard infantry_officer  war_hero trait_reckless}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 5
 }
 
 
