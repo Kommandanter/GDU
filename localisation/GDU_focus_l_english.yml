@@ -30,6 +30,10 @@
  
  USA_denounce_axis:0 "Denounce the Axis!"
  USA_denounce_axis_desc:0 "The Germans have gone too far in Europe, as have the Japanese in China! They will pay for this."
+ USA_the_giant_sleeps:0 "The Giant Sleeps"
+ USA_the_giant_sleeps_desc:0 "Despite the Great Depression, the United States is a bastion of peace and plenty. Let the world fight and destroy itself; we refuse to get drawn into another war. Our concerns are purely domestic."
+ USA_indirect_help:0 "Indirect Assistance"
+ USA_indirect_help_desc:0 "The Neutrality Act does prohibit the intercontinental shipping of war materials, but it doesn't stop us from sending food and other supplies. There's also nothing against, say, leaving some fighters and firearms on the Canadian border after their sale to private Canadian citizens. It's not our responsibility if they go straight to the United Kingdom after!" 
  
  FRA_revive_naval_construction:0 "Revive our Naval Construction"
  FRA_revive_naval_construction_desc:0 "With the fall of our country, we have to rebuild our industry. Starting with Dockyards we can begin again."

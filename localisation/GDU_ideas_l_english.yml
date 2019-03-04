@@ -28,7 +28,13 @@
     USA_advanced_mahanian_doctrine_desc:0 "The influence of Alfred Thayer Mahan on naval warfare can hardly be underestimated. Building on his work will allow us to make good use of battleships, which he considered a decisive factor."
     USA_carrier_primacy:0 "Carrier Primacy"
     USA_carrier_primacy_desc:0 "Air power will be needed in battles to come, and the most practical means of extending its range is the use of aircraft carriers. We must create more advanced and specialized models."
-
+	
+    USA_giant_sleeps_idea:0 "The Giant Sleeps"
+    USA_giant_sleeps_idea_desc:0 "Our nation is peaceful and prosperous; we'll keep it that way."
+    USA_giant_sleeps_idea_2:0 "The Giant Sleeps"
+    USA_giant_sleeps_idea_2_desc:0 "Our nation is peaceful and prosperous; we'll keep it that way."
+    USA_early_wakey_idea:0 "The Giant Stirs" 
+    USA_early_wakey_idea_desc:0 "It is our moral imperative to be prepared to help those who fight to defend the values we share." 
 
     yarrow_design:0 "Overseas Empire Fleet Designer"
     new_port_ship:0 "Carrier Fleet Designer"

@@ -197,13 +197,17 @@ focus_tree = {
 		prerequisite = { focus = USA_the_giant_sleeps }
 
 		relative_position_id = USA_neutrality_act
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
 		}
 
 		available = {
+			OR = { 
+				threat > 0.15 
+				date > 1938.6.1
+			}
 
 		}
 		
@@ -216,7 +220,10 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_war_support = 0.1
+			swap_ideas = { 
+			remove_idea = USA_giant_sleeps_idea
+			add_idea = USA_giant_sleeps_idea_2
+			}
 		}
 	}
 	
@@ -318,9 +325,9 @@ focus_tree = {
 
 		completion_reward = {
 			USA_great_depression_level_down = yes
-			set_country_flag = { flag = USA_great_depression_cooldown value = 1 days = 230 }
+			set_country_flag = { flag = USA_great_depression_cooldown value = 1 days = 280 }
 			USA_congress_medium_opposition = yes
-			custom_effect_tooltip = USA_great_depression_cooldown_tt
+			custom_effect_tooltip = USA_great_depression_cooldown_gdu_tt
 			unlock_decision_tooltip = { decision = USA_pay_farm_subsidies show_effect_tooltip = yes }
 		}
 	}
@@ -359,8 +366,8 @@ focus_tree = {
 
 		completion_reward = {
 			USA_great_depression_level_down = yes
-			set_country_flag = { flag = USA_great_depression_cooldown value = 1 days = 230 }
-			custom_effect_tooltip = USA_great_depression_cooldown_tt
+			set_country_flag = { flag = USA_great_depression_cooldown value = 1 days = 280 }
+			custom_effect_tooltip = USA_great_depression_cooldown_gdu_tt 
 			USA_congress_medium_opposition = yes
 		}
 	}
@@ -555,51 +562,30 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			every_other_country = {
-				limit = {
-					is_major = yes
-					has_government = ROOT
-				}
-				ROOT = {
-					add_ai_strategy = {
-						type = support
-						id = PREV
-						value = 200
+			custom_effect_tooltip = USA_limited_interventionGDU_tt 
+			add_ideas = USA_early_wakey_idea 
+			hidden_effect = { 
+				every_other_country = {
+					limit = {
+						is_major = yes
+						has_government = ROOT
 					}
-					add_ai_strategy = {
-						type = alliance
-						id = PREV
-						value = 200
-					}
-				}
-			}
-			add_ideas = USA_limited_intervention
-			if = {
-				limit = {
-					OR = {
-						has_idea = undisturbed_isolation
-						has_idea = isolation
+					ROOT = {
+						add_ai_strategy = {
+							type = support
+							id = PREV
+							value = 200
+						}
+						add_ai_strategy = {
+							type = alliance
+							id = PREV
+							value = 200
+						}
 					}
 				}
-				add_ideas = civilian_economy
-			}
-			else = {
-				add_political_power = 150 #refund if already at civilian economy
 			}
 			USA_congress_medium_opposition = yes
-			if = {
-				limit = {
-					has_war_support < 0.4
-				}
-				add_stability = -0.1
-			}
-			if = {
-				limit = {
-					has_war_support < 0.2
-				}
-				add_stability = -0.1
-			}
-			custom_effect_tooltip = USA_limited_intervention_tt
+			add_stability = -0.25 
 			hidden_effect = {
 				news_event = { id = mtg_news.4 days = 3 }
 			}
@@ -782,6 +768,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			custom_effect_tooltip = USA_neutrality_act_tt
 			add_political_power = 200
 			add_ideas = USA_neutrality_act 
 			add_war_support = -0.05
@@ -791,7 +778,6 @@ focus_tree = {
 				}
 				USA_congress_small_support = yes
 			}
-			custom_effect_tooltip = USA_lend_lease_act_neutrality_tt
 			hidden_effect = {
 				news_event = { id = mtg_news.3 days = 3 random = 5 }
 			}
@@ -814,6 +800,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
+			add_ideas = USA_giant_sleeps_idea
 		
 		}
 	}
@@ -825,7 +812,7 @@ focus_tree = {
 		y = 2
 		prerequisite = { focus = USA_neutrality_act focus = USA_limited_intervention }
 		relative_position_id = USA_limited_intervention
-		cost = 10
+		cost = 2
 
 		ai_will_do = {
 			factor = 1
@@ -841,20 +828,22 @@ focus_tree = {
 			else = {
 				congress_high_support_trigger = yes
 			}
-			custom_trigger_tooltip = {
-				tooltip = USA_lend_lease_act_neutrality_tt
-			}
 			if = {
 				limit = {
 					has_completed_focus = USA_neutrality_act
 				}
-				any_other_country = {
-					is_major = yes
-					has_government = ROOT
-					has_war = yes
-					surrender_progress > 0
+				date > 1940.8.1 
+			}
+			if = {
+				limit = {
+					has_completed_focus = USA_limited_intervention 
+				}
+				OR = { 
+					ENG = { has_war_with = GER } 
+					date > 1939.9.1
 				}
 			}
+			
 		}
 		
 		bypass = {
@@ -866,37 +855,53 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			every_other_country = {
-				limit = {
-					is_major = yes
-					has_government = ROOT
-				}
-				ROOT = {
-					add_ai_strategy = {
-						type = support
-						id = PREV
-						value = 200
+			custom_effect_tooltip = USA_lend_lease_act_tt
+				hidden_effect = { 
+					every_other_country = {
+					limit = {
+						is_major = yes
+						has_government = ROOT
+					}
+					ROOT = {
+						add_ai_strategy = {
+							type = support
+							id = PREV
+							value = 200
+							}
+						}
 					}
 				}
-			}
+			add_ideas = civilian_economy
 			if = {
 				limit = {
 					has_completed_focus = USA_limited_intervention
 				}
-				swap_ideas = {
-					remove_idea = USA_limited_intervention
-					add_idea = USA_lend_lease_act_li
-				}
+				remove_idea = USA_early_wakey_idea
 			}
-			else_if = {
+			if = {
 				limit = { has_completed_focus = USA_neutrality_act }
-				swap_ideas = {
-					remove_idea = USA_neutrality_act
-					add_idea = USA_lend_lease_act_na
-				}
+				remove_ideas = USA_neutrality_act
 			}
-			else = {
-				add_ideas = USA_lend_lease_act_dummy #should never get here, just for tooltip purposes
+			if = {
+				limit = { 
+					AND = { 
+						has_completed_focus = USA_the_giant_sleeps 
+						NOT = { has_completed_focus = USA_guarantee_the_american_dream }
+					}
+				}
+				remove_ideas = USA_giant_sleeps_idea
+			}
+			if = { 
+				limit = { 
+					has_completed_focus = USA_guarantee_the_american_dream
+				}
+				remove_ideas = USA_giant_sleeps_idea_2
+			}
+			if = { 
+				limit = { 
+					has_completed_focus = USA_limited_intervention
+				}
+				remove_ideas = USA_early_wakey_idea
 			}
 			if = {
 				limit = {
@@ -986,7 +991,7 @@ focus_tree = {
 		x = 1 
 		y = -1 
 		relative_position_id = USA_lend_lease_act
-		cost = 5 
+		cost = 2
 		ai_will_do = {
 			factor = 1 
 		}
@@ -994,8 +999,8 @@ focus_tree = {
 			has_completed_focus = USA_limited_intervention
 		}
 		completion_reward = {
+			custom_effect_tooltip = USA_indirect_help_tt 
 			USA_congress_medium_opposition = yes
-			#SAMPLEunlock_decision_tooltip = { decision = USA_give_tax_break show_effect_tooltip = yes }
 		}
 	}
 		
@@ -1018,7 +1023,7 @@ focus_tree = {
 					all_owned_state = {
 						free_building_slots = {
 							building = industrial_complex
-							size < 3
+							size < 4
 							include_locked = yes
 						}
 					}
@@ -1028,7 +1033,7 @@ focus_tree = {
 					all_owned_state = {
 						free_building_slots = {
 							building = dockyard
-							size < 3
+							size < 4
 							include_locked = yes
 						}
 					}
@@ -1041,10 +1046,10 @@ focus_tree = {
 			army_experience = 10
 			every_state = {
 				limit = { has_state_flag = USA_arsenal_of_democracy_3AF }
-				add_extra_state_shared_building_slots = 3
+				add_extra_state_shared_building_slots = 4
 				add_building_construction = {
 					type = arms_factory
-					level = 3
+					level = 4
 					instant_build = yes
 				}
 			}
@@ -1062,10 +1067,10 @@ focus_tree = {
 						include_locked = yes
 					}
 				}
-				add_extra_state_shared_building_slots = 3
+				add_extra_state_shared_building_slots = 4
 				add_building_construction = {
 					type = arms_factory
-					level = 3
+					level = 4
 					instant_build = yes
 				}
 				set_state_flag = USA_arsenal_of_democracy_3AF
@@ -1079,10 +1084,10 @@ focus_tree = {
 						include_locked = yes
 					}
 				}
-				add_extra_state_shared_building_slots = 3
+				add_extra_state_shared_building_slots = 4
 				add_building_construction = {
 					type = arms_factory
-					level = 3
+					level = 4
 					instant_build = yes
 				}
 				set_state_flag = USA_arsenal_of_democracy_3AF
@@ -1127,8 +1132,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_the_giant_wakes
-		icon = GFX_goal_generic_construct_civ_factory
-		prerequisite = { focus = USA_arsenal_of_democracy focus = USA_the_giant_sleeps }
+		icon = GFX_america_goal_american_industry
 		prerequisite = { focus = USA_lend_lease_act } 
 		available = {
 			OR = {
@@ -1168,7 +1172,7 @@ focus_tree = {
 						has_country_flag = USA_the_giant_wakes_added_civ_eco
 					}
 				}
-				add_ideas = civilian_economy
+				add_ideas = tot_economic_mobilisation 
 				set_country_flag = USA_the_giant_wakes_added_civ_eco
 			}
 		}
@@ -1199,10 +1203,8 @@ focus_tree = {
 		prerequisite = { focus = USA_arsenal_of_democracy }
 		
 		available = {
-			OR = {
-				has_war = yes
-				has_war_support > 0.3
-			}
+			threat > 0.15 
+				
 		}
 
 		continue_if_invalid = yes
@@ -1222,7 +1224,7 @@ focus_tree = {
 				add_extra_state_shared_building_slots = 5
 				add_building_construction = {
 					type = arms_factory
-					level = 5
+					level = 7
 					instant_build = yes
 				}
 			}
@@ -1252,10 +1254,10 @@ focus_tree = {
 						region = 120
 					}
 				}
-				add_extra_state_shared_building_slots = 5
+				add_extra_state_shared_building_slots = 7
 				add_building_construction = {
 					type = arms_factory
-					level = 5
+					level = 7
 					instant_build = yes
 				}
 				set_state_flag = USA_military_construction_5MF
@@ -2542,18 +2544,18 @@ focus_tree = {
 
 		complete_tooltip = {
 			378 = { 
-				add_extra_state_shared_building_slots = 5
+				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = dockyard
-					level = 5
+					level = 3
 					instant_build = yes
 				}
 			}
 			358 = { 
-				add_extra_state_shared_building_slots = 5
+				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = dockyard
-					level = 5
+					level = 3
 					instant_build = yes
 				}
 			}
@@ -2577,10 +2579,10 @@ focus_tree = {
 					}
 				}
 				378 = { 
-					add_extra_state_shared_building_slots = 5
+					add_extra_state_shared_building_slots = 3
 					add_building_construction = {
 						type = dockyard
-						level = 5
+						level = 3
 						instant_build = yes
 					}
 				}
@@ -2596,10 +2598,10 @@ focus_tree = {
 					}
 				}
 				358 = { 
-					add_extra_state_shared_building_slots = 5
+					add_extra_state_shared_building_slots = 3
 					add_building_construction = {
 						type = dockyard
-						level = 5
+						level = 3
 						instant_build = yes
 					}
 				}
