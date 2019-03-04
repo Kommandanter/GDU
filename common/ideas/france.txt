@@ -38,7 +38,9 @@ ideas = {
 			picture = generic_victors_of_ww1
 
 			research_bonus = {
-				land_doctrine = -0.75
+				land_doctrine = -0.4
+				air_doctrine = -0.4 
+				naval_doctrine = -0.4
 			}
 
 		}
