@@ -222,44 +222,84 @@ set_war_support = 0.1
 create_corps_commander = {
 	name = "Thomas Victor Anderson"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-	traits = {  naval_invader commando infantry_leader trait_engineer  }
+	traits = { infantry_leader trait_engineer  career_officer ranger trait_cautious}
 	skill = 4
-	attack_skill = 5
-	defense_skill = 5
-	planning_skill = 5
-	logistics_skill = 5
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
 }
 
 create_field_marshal = {
 	name = "Charles Foulkes"
 	gfx = "GFX_CAN_charles_foulkes"
-	traits = { brilliant_strategist organizer desert_fox infantry_leader }
-	skill = 4
-		attack_skill = 4
+	traits = { brilliant_strategist organizer desert_fox infantry_leader old_guard skilled_staffer politically_connected}
+	skill = 5
+		attack_skill = 3
 		defense_skill = 4
-		planning_skill = 3
-		logistics_skill = 5
+		planning_skill = 2
+		logistics_skill = 6
 }
 
 create_corps_commander = {
 	name = "John Montague"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
-	traits = { armor_officer panzer_leader trickster hill_fighter}
+	traits = { armor_officer panzer_leader trickster hill_fighter trait_mountaineer trait_cautious}
 	skill = 4
-		attack_skill = 5
+		attack_skill = 4
 		defense_skill = 4
 		planning_skill = 4
-		logistics_skill = 5
+		logistics_skill = 4
 }
 create_corps_commander = {
 	name = "Bert Hoffmeister"
 	gfx = "GFX_CAN_bert_hoffmeister"
-	traits = { desert_fox infantry_leader hill_fighter }
-	skill = 4
-		attack_skill = 4
-		defense_skill = 5
+	traits = { hill_fighter trait_engineer trait_reckless harsh_leader infantry_officer}
+	skill = 5
+		attack_skill = 5
+		defense_skill = 4
 		planning_skill = 3
-		logistics_skill = 5
+		logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Georges Vanier"
+	picture = "Portrait_CAN_Georges_Vanier.dds"
+	traits = { skilled_staffer old_guard organizer politically_connected desert_fox trait_cautious} 
+	skill = 4
+		attack_skill = 3
+		defense_skill = 2
+		planning_skill = 5
+		logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Guy Simonds"
+	picture = "Portrait_CAN_Guy_Simonds.dds"
+	traits = { naval_invader infantry_leader urban_assault_specialist commando trait_engineer trait_reckless media_personality}
+	skill = 4
+		attack_skill = 6
+		defense_skill = 2
+		planning_skill = 2
+		logistics_skill = 1
+}
+create_field_marshal = {
+	name = "Harry Crerar"
+	picture = "Portrait_CAN_Harry_Crerar.dds"
+	traits = {  infantry_leader war_hero media_personality career_officer brilliant_strategist naval_invader}
+	skill = 5
+		attack_skill = 5
+		defense_skill = 4
+		planning_skill = 4
+		logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Kenneth Stuart"
+	picture = "Portrait_CAN_Kenneth_Stuart.dds"
+	traits = { career_officer cavarly_officer panzer_leader  skilled_staffer old_guard trait_cautious brilliant_strategist}
+	skill = 4
+		attack_skill = 5
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 2
 }
 
 create_navy_leader = {

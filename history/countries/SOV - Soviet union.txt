@@ -313,7 +313,7 @@ create_corps_commander = {
 	name = "Aleksandr Vasilevsky"
 	id = 407
 		picture = "Portrait_Soviet_Aleksandr_Vasilevsky.dds"
-	traits = { armor_officer politically_connected trait_cautious harsh_leader skilled_staffer panzer_leader orginizer}
+	traits = { armor_officer politically_connected trait_cautious harsh_leader skilled_staffer panzer_leader organizer}
 	skill = 6
 
 	
@@ -326,7 +326,7 @@ create_corps_commander = {
 create_field_marshal = {
 	name = "Boris Shaposhnikov"
 		picture = "Portrait_Soviet_Boris_Shaposhnikov.dds"
-	traits = { trait_cautious career_officer old_guard infantry_officer orginizer defensive_doctrine politically_connected orginizer}
+	traits = { trait_cautious career_officer old_guard infantry_officer organizer defensive_doctrine politically_connected organizer}
 	skill = 5
 	
 	attack_skill = 2
@@ -448,7 +448,7 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Leonid Govorov"
 		picture = "Portrait_Soviet_Leonid_Govorov.dds"
-	traits = {  skilled_staffer orginizer urban_assault_specialist infantry_leader trait_cautious}
+	traits = {  skilled_staffer organizer urban_assault_specialist infantry_leader trait_cautious}
 	skill = 3
 	
 	attack_skill = 2
@@ -510,7 +510,7 @@ create_corps_commander = {
 create_field_marshal = {
 	name = "Georgiy Zakharov"
 		picture = "Portrait_Soviet_Georgiy_Zakharov.dds"
-	traits = { career_officer politically_connected infantry_leader orginizer old_guard }
+	traits = { career_officer politically_connected infantry_leader organizer old_guard }
 	skill = 3
 
 	
@@ -571,7 +571,7 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Andrey Vlasov"
 		picture = "Portrait_Soviet_Andrey_Vlasov.dds"
-	traits = { winter_specialist infantry_officer skilled_staffer orginizer trait_engineer career_officer}
+	traits = { winter_specialist infantry_officer skilled_staffer organizer trait_engineer career_officer}
 	id = 412
 	skill = 4
 	
