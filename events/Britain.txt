@@ -521,87 +521,9 @@ country_event = {
 	}
 }
 
-# King abdicates
-country_event = {
-	id = britain.17
-	title = britain.17.t
-	desc = britain.17.d
-	picture = GFX_report_event_generic_sign_treaty2
+# King abdicates: Removed it's in MTG_britain anyway 
 
-	trigger = {
-		tag = ENG
-		has_country_flag = ENG_king_died
-		date > 1936.12.1
-	}
-
-	fire_only_once = yes
-
-	mean_time_to_happen = { days = 1 }
-
-	immediate = {
-		hidden_effect = {
-			remove_ideas = ENG_king_edward
-			add_ideas = ENG_george_vi
-		}
-	}
-
-	option = {
-		name = britain.17.a
-		effect_tooltip = {
-			remove_ideas = ENG_king_edward
-			add_ideas = ENG_george_vi
-		}
-	}
-}
-
-# Return of the Nazi King
-country_event = {
-	id = britain.18
-	title = britain.18.t
-	desc = britain.18.d
-	picture = GFX_report_event_fascist_gathering
-
-	trigger = {
-		tag = ENG
-		has_idea = ENG_george_vi
-		has_government = fascism
-	}
-
-	fire_only_once = yes
-
-	mean_time_to_happen = { days = 14 }
-
-	immediate = {
-		hidden_effect = {
-			remove_ideas = ENG_george_vi
-		}
-	}
-
-	option = {
-		name = britain.18.a
-		effect_tooltip = {
-			remove_ideas = ENG_george_vi
-		}
-		create_country_leader = {
-			name = "Edward VIII"
-			desc = "POLITICS_EDWARD_EDWARD_DESC"
-			picture = "Portrait_Britain_Edward_VIII.dds"
-			expire = "1965.1.1"
-			ideology = fascism_ideology
-			traits = {
-				inexperienced_imperialist
-			}
-		}
-	}
-
-	option = {
-		name = britain.18.b
-		effect_tooltip = {
-			remove_ideas = ENG_george_vi
-		}
-		add_ideas = ENG_king_edward_fascism
-	}
-}
+# Return of the Nazi King: Removed... 
 
 #Britain receives warning of the Indian National Army
 country_event = {
@@ -794,6 +716,64 @@ country_event = {
 		}
 	}
 
+}
+
+# Shadow Scheme Factories
+country_event = {
+    id = britain.24
+    title = britain.24.t
+    desc = britain.24.d
+    picture = GFX_report_event_generic_factory
+ 
+    fire_only_once = yes
+ 
+    trigger = {
+        original_tag = ENG
+        has_completed_focus = shadow_scheme_focus
+        has_war = yes
+    }
+
+    mean_time_to_happen = {
+        days = 7
+    }
+
+    option = {
+        name = britain.24.a
+        random_owned_controlled_state = {
+			limit = {
+				is_in_home_area = yes
+				free_building_slots = {
+					building = arms_factory
+					size > 1
+					include_locked = yes
+				}
+			}
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+			set_state_flag = shadow_scheme_2AF
+		}
+		random_owned_controlled_state = {
+			limit = {
+				is_in_home_area = yes
+				free_building_slots = {
+					building = arms_factory
+					size > 1
+					include_locked = yes
+				}
+			}
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+			set_state_flag = shadow_scheme_2AF
+		}
+    }
 }
 
 ###############################################################

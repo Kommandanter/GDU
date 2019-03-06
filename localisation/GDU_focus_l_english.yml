@@ -46,6 +46,9 @@
  FRA_take_Manda:0 "Retake Madagascar"
  FRA_take_Manda_desc:0 "Take it back to stop the japanese from using its naval bases and maybe we can get some rubber?"
  
+ ENG_blood_toil_tears:0 "Blood, Toil, Tears, and Sweat" 
+ ENG_blood_toil_tears_desc:0 "I have nothing to offer but blood, toil, tears and sweat. You ask, what is our policy? It is to wage war, by sea, land and air. That is our policy. You ask, what is our aim? I can answer in one word: Victory. Victory at all costs—Victory in spite of all terror—Victory, however long and hard the road may be... For without victory, there can be no survival."
+ 
  NZL_central_department_of_industry:0 "Central Department of Industry"
  
  CHI_industrial_reform:0 "Industrial Reform"

@@ -15,9 +15,9 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				production_speed_arms_factory_factor = 0.30
-				production_speed_dockyard_factor = 0.3 
-				consumer_goods_factor = -0.1
+				production_speed_arms_factory_factor = 0.20
+				production_speed_dockyard_factor = 0.20
+				consumer_goods_factor = -0.05
 			}
 		}
 	
@@ -35,9 +35,9 @@ ideas = {
 			
 			modifier = {
 				production_speed_industrial_complex_factor = 0.5
-				consumer_goods_factor = -0.15
-				production_speed_arms_factory_factor = -0.4
-				production_speed_dockyard_factor = -0.4				
+				consumer_goods_factor = -0.10
+				production_speed_arms_factory_factor = -0.45
+				production_speed_dockyard_factor = -0.45			
 			}
 		}
 		USA_giant_sleeps_idea_2 = {
@@ -55,8 +55,8 @@ ideas = {
 			modifier = {
 				production_speed_industrial_complex_factor = 0.5
 				consumer_goods_factor = -0.20
-				production_speed_arms_factory_factor = 0.3
-				production_speed_dockyard_factor = 0.3 
+				production_speed_arms_factory_factor = 0.25
+				production_speed_dockyard_factor = 0.25 
 			}
 		}
 		great_depression = {
@@ -95,7 +95,7 @@ ideas = {
 			
 			modifier = {
 				political_power_cost = 0.5
-				consumer_goods_factor = 0.35
+				consumer_goods_factor = 0.39
 				conscription_factor = -0.4
 				join_faction_tension = 0.20
 				local_resources_factor = -0.15
@@ -116,7 +116,7 @@ ideas = {
 			
 			modifier = {
 				political_power_cost = 0.35
-				consumer_goods_factor = 0.25
+				consumer_goods_factor = 0.33
 				conscription_factor = -0.2
 				join_faction_tension = 0.20
 				local_resources_factor = -0.1
@@ -607,8 +607,8 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				defensive_war_stability_factor = 0.2
-				offensive_war_stability_factor = 0.2
+				defensive_war_stability_factor = 0.1
+				offensive_war_stability_factor = 0.1
 			}
 		}
 		USA_army_of_the_united_states = {
@@ -701,7 +701,7 @@ ideas = {
 			picture = generic_production_bonus
 
 			modifier = {
-				conversion_cost_civ_to_mil_factor= -0.5
+				conversion_cost_civ_to_mil_factor= -0.1
 			}
 		}
 	

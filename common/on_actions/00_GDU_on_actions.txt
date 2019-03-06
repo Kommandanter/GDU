@@ -6,8 +6,15 @@ on_actions = {
 				give_resource_rights = { receiver = JAP state = 724 }
 				give_resource_rights = { receiver = JAP state = 289 }
 			}
+		
+			#Turning King Edward's abdication into an on_startup event instead of MTTH to help performance 
+			ENG = {
+				country_event = { id = mtg_britain.1 days = 190 } 
+			}
 		}
 	}
+	
+	
 	on_capitulation = { 
 		effect = {
 		

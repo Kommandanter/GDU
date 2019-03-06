@@ -40,3 +40,11 @@
  mtg_usa_house_large_opposition_tt:0 "§Y50 Representatives§! will go into §ROpposition§!.\n"
  mtg_usa_senate_large_support_tt:0 "§Y20 Senators§! will §GSupport§! the Government.\n"
  mtg_usa_house_large_support_tt:0 "§Y75 Representatives§! will §GSupport§! the Government.\n"
+ 
+ mtg_britain.17:0 "Guided by Britain" 
+ mtg_britain.17_desc:0 "As a member of the Commonwealth of Nations, we have access to the integrated network of trade, advisors, and general assistance from the United Kingdom. Our government has come to rely on this aid greatly. Perhaps, one day, we will seek to be independent--But for now, we stand with Britain as storm clouds gather."
+ mtg_britain.17.a: "God save the King." 
+ 
+ uk_empire_focus:0 "The Sun Never Sets" 
+ ENG_maintaining_the_balance_of_power:0 "Until the End"
+ ENG_maintaining_the_balance_of_power_desc:0 "This is what it has come to. The continent of Europe has been overrun; we stand alone, a flickering candle in a sea of darkness and evil. If this long island story of ours is to end at last, let it end only when each of us lies choking in his own blood upon the ground."

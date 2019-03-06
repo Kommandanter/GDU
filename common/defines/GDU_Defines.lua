@@ -61,6 +61,7 @@ NDefines.NProduction.ANNEX_FIELD_EQUIPMENT_RATIO = 1.0
 NDefines.NProduction.EQUIPMENT_BASE_LEND_LEASE_WEIGHT = 1.20
 NDefines.NProduction.LICENSE_EQUIPMENT_BASE_SPEED = -0.20
 NDefines.NProduction.LICENSE_EQUIPMENT_TECH_SPEED_PER_YEAR = -0.000
+NDefines.NProduction.CAPITAL_SHIP_MAX_NAV_FACTORIES_PER_LINE = 10 
 
 NDefines.NBuildings.ANTI_AIR_SUPERIORITY_MULT = 20.0	-- How much air superiority reduction to the enemy does our AA guns? Normally each building level = -1 reduction. With this multiplier.
 NDefines.NBuildings.MAX_SHARED_SLOTS = 50
@@ -150,7 +151,7 @@ NDefines.NMilitary.ACCLIMATIZATION_SPEED_GAIN = 0.05				-- A variable used to ba
 NDefines.NMilitary.ACCLIMATIZATION_LOSS_SPEED_FACTOR = 4.0		-- Loosing one acclimatization while being under affect of the opposite climate should cause it to drop down much faster than gaining.
 
 NDefines.NMilitary.UNIT_LEADER_ASSIGN_TRAIT_COST = 0.00 -- Assigning traits is a PITA. Why should it cost anything?
-NDefines.NMilitary.PROMOTE_LEADER_CP_COST = 0.0 -- CP is used for too many things in the mod for it to be spent on something like this without it being a nuisance. 
+NDefines.NMilitary.PROMOTE_LEADER_CP_COST = 500.0 -- CP is used for too many things in the mod for it to be spent on something like this without it being a nuisance. 
 
 NDefines.NAir.AIR_MORE_GROUND_CREWS_COST = 500.0 -- Disables ground crews. They're cancerous. 
 NDefines.NAir.ENEMY_AIR_SUPERIORITY_IMPACT= -0.9

@@ -35,6 +35,11 @@
     USA_giant_sleeps_idea_2_desc:0 "Our nation is peaceful and prosperous; we'll keep it that way."
     USA_early_wakey_idea:0 "The Giant Stirs" 
     USA_early_wakey_idea_desc:0 "It is our moral imperative to be prepared to help those who fight to defend the values we share." 
+	
+    eng_nosealionpls:0 "'Till the End" 
+    eng_nosealionpls_desc:0 "If this long island story of ours is to end at last, let it only end when each of us is choking in his own blood upon the ground." 
+    ENG_kickstart_the_war_industry:0 "Lock and Load"
+    ENG_kickstart_the_war_industry_desc:0 "We are outnumbered and outgunned. The only way we'll survive is if we give everything we have, and then a little more." 
 
     yarrow_design:0 "Overseas Empire Fleet Designer"
     new_port_ship:0 "Carrier Fleet Designer"
