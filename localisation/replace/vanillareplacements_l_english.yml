@@ -47,4 +47,6 @@
  
  uk_empire_focus:0 "The Sun Never Sets" 
  ENG_maintaining_the_balance_of_power:0 "Until the End"
- ENG_maintaining_the_balance_of_power_desc:0 "This is what it has come to. The continent of Europe has been overrun; we stand alone, a flickering candle in a sea of darkness and evil. If this long island story of ours is to end at last, let it end only when each of us lies choking in his own blood upon the ground."
+ ENG_maintaining_the_balance_of_power_desc:0 "If this long island story of ours is to end at last, let it end only when each of us lies choking in his own blood upon the ground."
+ ENG_kickstart_the_war_industry:0 "Lock and Load"
+ ENG_kickstart_the_war_industry_desc:0 "We are outnumbered and outgunned. The only way we'll survive is if we give everything we have, and then a little more." 

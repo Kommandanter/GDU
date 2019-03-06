@@ -38,8 +38,9 @@
 	
     eng_nosealionpls:0 "'Till the End" 
     eng_nosealionpls_desc:0 "If this long island story of ours is to end at last, let it only end when each of us is choking in his own blood upon the ground." 
-    ENG_kickstart_the_war_industry:0 "Lock and Load"
-    ENG_kickstart_the_war_industry_desc:0 "We are outnumbered and outgunned. The only way we'll survive is if we give everything we have, and then a little more." 
+    eng_blood_toil_tears_idea:0 "Blood, Toil, Tears, and Sweat" 
+    eng_blood_toil_tears_idea_desc:0 "For without victory, there can be no survival." 
+    
 
     yarrow_design:0 "Overseas Empire Fleet Designer"
     new_port_ship:0 "Carrier Fleet Designer"
