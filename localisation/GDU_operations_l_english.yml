@@ -38,9 +38,17 @@
     GDU_org_operation_idea:0 "Distribute Propaganda"
     GDU_org_operation_idea_desc:0 "Distributing some leaflets and pamphlets to the troops about the evil of our enemy and the imperative to fight them will inspire them to fight a bit harder. Perhaps it's a little simplistic, but it works!"
 	
+    GDU_eng_irq_invasion:0 "Secure Iraq" 
+    GDU_eng_irq_invasion_desc:0 "Given our current situation, Iraq is a troubling vulnerability. They are poised to strike us in the back at a whim, and recent rumblings in their government indicate a possible pro-Axis leaning. Not only that, but taking direct control of the oil fields will allow us to drill for more if we wish." 
+    GDU_eng_countenance:0 "Operation Countenance" 
+    GDU_eng_countenance_desc:0 "With the war in Egypt beginning to look questionable, we need to take further moves to defend ourselves. Iran is a large nation, but poorly industrialized and mostly rural. We can't count on them to be capable of defending themselves in case of an Axis attack towards the Raj, nor can we trust them to not give Germany passage. Stalin is debatably worse than Hitler, but he'll be willing to cooperate with us so long as he gets something out of it..."   
     assume_control_crete:0 "Command Crete Garrison"
     assume_control_crete_desc:0 "After a valiant defense against the Axis, Greece has fallen. Their government has exiled to the island of Crete, and intends on continuing the struggle. Crete is in a strategic position in the Mediterranean, and given the extreme circumstances the Greeks will be quite understanding if we take command of local defense. Naturally, the Greek government will also come under our care in this difficult period."
-    
+    GDU_GER_invade_irq:0 "Invade Iraq" 
+    GDU_GER_invade_irq_desc:0 "With the battle of Egypt won, the time has come to continue the push eastwards into the oil fields of Iraq." 
+    GDU_GER_invade_iran:0 "Invade Iran" 
+    GDU_GER_invade_iran_desc:0 "With Baghdad now in our hands, we're within striking distance of the British Raj. Only the weak and ineffectual state of Iran stands in the way; we'll easily crush them." 
+	
     GDU_FRA_seize_Africa:0 "Seize North Africa"
     GDU_FRA_seize_Africa_desc:0 "With the defeat of Italy in Libya, the Vichy state's holdings in North Africa are in a tenuous position. With some political pressure and the help of our allies, we can reclaim these territories and prepare for the liberation of our homeland."
 	

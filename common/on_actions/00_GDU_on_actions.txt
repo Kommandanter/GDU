@@ -17,7 +17,31 @@ on_actions = {
 	
 	on_capitulation = { 
 		effect = {
-		
+			if = { 
+				limit = { 
+					AND = { 
+						tag = IRQ
+						OR = { 
+							291 = { is_controlled_by = ENG } 
+							291 = { is_controlled_by = USA }
+							291 = { is_controlled_by = CAN } 
+							291 = { is_controlled_by = SAF }
+							291 = { is_controlled_by = AST }
+							291 = { is_controlled_by = NZL } 
+							291 = { is_controlled_by = RAJ } 
+						}
+					} 
+						
+						
+				}
+				ENG = { 
+					annex_country = {
+						target = IRQ 
+						transfer_troops = no 
+					}
+				} 
+			}
+			
 			if = {
 				limit = { 
 					AND = { 

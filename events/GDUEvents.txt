@@ -221,4 +221,30 @@ country_event = {
 		}
 	}
 }
+##Countenance event for Soviets 
+country_event = {
+	id = gduevents.11
+	title = gduevents.11.t
+	desc = gduevents.11.d
+	picture = GFX_report_event_canadian_soldiers
 
+	is_triggered_only = yes
+	
+	option = {
+		name = gduevents.11.a
+	}
+}
+
+##Countenance event for UK 
+country_event = {
+	id = gduevents.12
+	title = gduevents.12.t
+	desc = gduevents.12.d
+	picture = GFX_report_event_canadian_soldiers
+
+	is_triggered_only = yes
+	
+	option = {
+		name = gduevents.11.a
+	}
+}
