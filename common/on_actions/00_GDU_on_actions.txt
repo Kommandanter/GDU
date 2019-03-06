@@ -39,6 +39,7 @@ on_actions = {
 						target = IRQ 
 						transfer_troops = no 
 					}
+					set_state_controller = 291 
 				} 
 			}
 			
