@@ -3433,7 +3433,7 @@ focus_tree = {
 		continue_if_invalid = yes
 
 		icon = GFX_focus_eng_global_defense
-		x = 9
+		x = 8
 		y = 1
 		relative_position_id = uk_empire_focus 
 		cost = 10
@@ -3729,7 +3729,7 @@ focus_tree = {
 		id = ENG_home_defence
 		prerequisite = { focus = uk_empire_focus }
 		icon = GFX_focus_generic_home_defense
-		x = -8
+		x = -6
 		y = 1
 		offset = {
 			x = -5
