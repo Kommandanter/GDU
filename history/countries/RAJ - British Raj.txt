@@ -192,35 +192,87 @@ create_country_leader = {
 create_corps_commander = {
 	name = "Noel Beresford-Peirse"
 	gfx = "GFX_RAJ_noel_beresford_peirse"
-	traits = { panzer_leader trickster }
-	skill = 3
+	traits = { career_officer trickster old_guard inflexible_strategist infantry_officer desert_fox}
+	skill = 5
 	attack_skill = 4
-	defense_skill = 3
-	planning_skill = 4
-	logistics_skill = 3
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 5
 }
 
 create_corps_commander = {
 	name = "Frank Messervy"
 	gfx = "GFX_RAJ_frank_messervy"
-	traits = { hill_fighter trait_mountaineer infantry_leader }
-	skill = 3
+	traits = {   panzer_leader desert_fox hill_fighter skilled_staffer cavalry_officer media_personality }
+	skill = 4
 	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 4
+	defense_skill = 4
+	planning_skill = 2
 	logistics_skill = 4
 }
 
 create_corps_commander = {
-	name = "Douglas Gracey"
-	gfx = "GFX_RAJ_douglas_gracey"
-	traits = { desert_fox infantry_leader  }
-	skill = 3
+	name = "David Tennant Cowan"
+	picture = "Portrait_DEH_David_Tennant_Cowan.dds"
+	traits = {  infantry_leader infantry_officer trait_cautious organizer trait_engineer jungle_rat}
+	skill = 4
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 1
+	logistics_skill = 4
+}
+create_corps_commander = {
+	name = "Maharaja Rajendrasinhji Jadeja"
+	picture = "Portrait_DEH_Maharaja_Rajendrasinhji_Jadeja.dds"
+	traits = { desert_fox  career_officer harsh_leader cavalry_leader cavalry_officer}
+	skill = 4
+	attack_skill = 5
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 4
+}
+create_corps_commander = {
+	name = "Thomas Wynford Rees"
+	picture = "Portrait_DEH_Thomas_Wynford_Rees.dds"
+	traits = {   hill_fighter trait_mountaineer jungle_rat career_officer infantry_officer organizer}
+	skill = 4
 	attack_skill = 4
 	defense_skill = 4
 	planning_skill = 3
+	logistics_skill = 4
+}
+create_field_marshal = {
+	name = "Madras Thimayya"
+	picture = "Portrait_Madras_Thimayya.dds"
+	traits = {  infantry_leader infantry_officer media_personality war_hero brilliant_strategist organizer politically_connected inflexible_strategist harsh_leader armor_officer}
+	skill = 5
+	attack_skill = 2
+	defense_skill = 6
+	planning_skill = 2
+	logistics_skill = 6
+}
+
+create_corps_commander = {
+	name = "Syed Ahmed El Edroos"
+	picture = "Portrait_PRF_El_Edroos.dds"
+	traits = {  infantry_officer  trait_cautious harsh_leader brilliant_strategist skilled_staffer inflexible_strategist}
+	skill = 4
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 6
+	logistics_skill = 1
+}
+create_field_marshal = {
+	name = "Douglas Gracey"
+	gfx = "GFX_RAJ_douglas_gracey"
+	traits = { brilliant_strategist war_hero  trait_cautious media_personality infantry_officer skilled_staffer}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 2
+	planning_skill = 6
 	logistics_skill = 3
 }
+
 
 create_navy_leader = {
 	name = "Herbert Fitzherbert"

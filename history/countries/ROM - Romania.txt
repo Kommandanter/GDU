@@ -308,11 +308,66 @@ create_corps_commander = {
 	planning_skill = 4
 	logistics_skill = 2
 }
-
-if = {
-	limit = {
-		has_dlc = "Death or Dishonor"
-	}
+create_corps_commander = {
+	name = "Constantin Constantinescu-Claps"
+	picture = "Portrait_Romania_Constantin_Constantinescu_Claps.dds"
+	traits = { hill_fighter }
+	skill = 3
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Constantin Pantazi"
+	picture = "Portrait_Romania_Constantin_Pantazi.dds"
+	traits = { hill_fighter }
+	skill = 3
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Dumitru Popescu"
+	picture = "Portrait_Romania_Dumitru_Popescu.dds"
+	traits = { hill_fighter }
+	skill = 3
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Leonard Mociulschi"
+	picture = "Portrait_Romania_Leonard_Mociulschi.dds"
+	traits = { hill_fighter }
+	skill = 3
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Nicolae Ciuperca"
+	picture = "Portrait_Romania_Nicolae_Ciuperca.dds"
+	traits = { hill_fighter }
+	skill = 3
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Nicolae Macici"
+	picture = "Portrait_Romania_Nicolae_Macici.dds"
+	traits = { hill_fighter }
+	skill = 3
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 2
+}
 
 	create_corps_commander = {
 		name = "Gheorghe Avramescu"
@@ -331,7 +386,6 @@ if = {
 		traits = { spotter }
 		skill = 2
 	}
-}
 
 
 ### Ship Variants ###

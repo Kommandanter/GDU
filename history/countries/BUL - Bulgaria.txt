@@ -179,24 +179,76 @@ create_country_leader = {
 	}
 }
 
-create_corps_commander = {
+create_field_marshal = {
 	name = "Vasil Tenev Boydev"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
-	traits = { panzer_leader }
-	skill = 3
-	attack_skill = 6
-	defense_skill = 2
-	planning_skill = 1
-	logistics_skill = 1
+	traits = { panzer_leader trait_engineer skilled_staffer infantry_officer media_personality career_officer brilliant_strategist}
+	skill = 5
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 4
 }
 
 create_field_marshal = {
 	name = "Georgi Nikolov Popov"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
-	traits = { panzer_leader }
+	traits = { old_guard inflexible_strategist politically_connected defensive_doctrine organizer ranger}
+	skill = 5
+	attack_skill = 3
+	defense_skill = 6
+	planning_skill = 2
+	logistics_skill = 7
+}
+
+create_corps_commander = {
+	name = "Teodosi Daskalov"
+	picture = "Portrait_BUL_Teodosi_Daskalov.dds"
+	traits = { organizer infantry_officer old_guard politically_connected trait_engineer career_officer skilled_staffer harsh_leader}
 	skill = 4
-	attack_skill = 4
-	defense_skill = 5
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 5
+}
+create_corps_commander = {
+	name = "Vladimir Stoychev"
+	picture = "Portrait_BUL_Vladimir_Stoychev.dds"
+	traits = { panzer_leader trait_engineer trickster cavalry_leader cavalry_officer trait_reckless skilled_staffer}
+	skill = 5
+	attack_skill = 6
+	defense_skill = 2
 	planning_skill = 4
 	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Hristo Lukov"
+	picture = "Portrait_Bulgaria_Hristo_Lukov.dds"
+	traits = { naval_invader trait_engineer commando infantry_officer trait_reckless}
+	skill = 4
+	attack_skill = 5
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Ivan Valkov"
+	picture = "Portrait_BUL_Ivan_Valkov.dds"
+	traits = { war_hero brilliant_strategist media_personality infantry_officer infantry_leader}
+	skill = 5
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 6
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Nikola Totev Markov"
+	picture = "Portrait_Bulgaria_Nikola_Totev_Markov.dds"
+	traits = { organizer trait_engineer trait_mountaineer hill_fighter trait_cautious career_officer}
+	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
 }

@@ -523,18 +523,24 @@ focus_tree = {
 						infantry = { x = 0 y = 0 }
 						infantry = { x = 0 y = 1 }
 						infantry = { x = 0 y = 2 }
+						infantry = { x = 0 y = 3 }
+						infantry = { x = 0 y = 4 }
 
 	    	   		 	infantry = { x = 1 y = 0 }
 						infantry = { x = 1 y = 1 }
 						infantry = { x = 1 y = 2 }
+						infantry = { x = 1 y = 3 }
+						infantry = { x = 1 y = 4 }
 
 						infantry = { x = 2 y = 0 }
 						infantry = { x = 2 y = 1 }
 						infantry = { x = 2 y = 2 }
+						infantry = { x = 2 y = 3 }
 
 						artillery_brigade = { x = 3 y = 0 }
 						artillery_brigade = { x = 3 y = 1 }
 						artillery_brigade = { x = 3 y = 2 }
+						artillery_brigade = { x = 3 y = 3 }
 					}
 
 						support = {
@@ -688,15 +694,30 @@ focus_tree = {
 						mountaineers = { x = 0 y = 0 }
 						mountaineers = { x = 0 y = 1 }
 						mountaineers = { x = 0 y = 2 }
+						mountaineers = { x = 0 y = 3 }
+						mountaineers = { x = 0 y = 4 }
 
 	    	   		 	mountaineers = { x = 1 y = 0 }
 						mountaineers = { x = 1 y = 1 }
-						mountaineers = { x = 1 y = 2 }
+						infantry = { x = 1 y = 2 }
+						mountaineers = { x = 1 y = 3 }
+						mountaineers = { x = 1 y = 4 }
 
 						mountaineers = { x = 2 y = 0 }
 						mountaineers = { x = 2 y = 1 }
 						mountaineers = { x = 2 y = 2 }
+						mountaineers = { x = 2 y = 3 }
+
+						artillery_brigade = { x = 3 y = 0 }
+						artillery_brigade = { x = 3 y = 1 }
+						artillery_brigade = { x = 3 y = 2 }
+						artillery_brigade = { x = 3 y = 3 }
 					}
+
+						support = {
+        					artillery = { x = 0 y = 0 }
+        					engineer = { x = 0 y = 1 }
+							}
 				}
 
 				random_owned_controlled_state = {
@@ -747,31 +768,31 @@ focus_tree = {
 				create_corps_commander = {
 					name = "Kodandera Madappa Cariappa"
 					gfx = "GFX_RAJ_kodandera_madappa_cariappa"
-					traits = { infantry_leader organizer skilled_staffer  }
-					skill = 4
+					traits = { infantry_leader organizer skilled_staffer career_officer  trait_reckless harsh_leader hill_fighter trait_engineer}
+					skill = 5
 					attack_skill = 5
 					defense_skill = 4
 					planning_skill = 4
-					logistics_skill = 6
+					logistics_skill = 3
 				}
 				create_corps_commander = {
 					name = "Kodendera Subayya Thimayya"
 					gfx = "GFX_RAJ_kodendera_subayya_thimayya"
-					traits = { jungle_rat infantry_leader commando }
-					skill = 3
-					attack_skill = 3
-					defense_skill = 2
-					planning_skill = 3
-					logistics_skill = 5
+					traits = { jungle_rat infantry_leader commando inflexible_strategist trait_cautious infantry_officer politically_connected }
+					skill = 5
+					attack_skill = 4
+					defense_skill = 4
+					planning_skill = 1
+					logistics_skill = 7
 				}
 				create_corps_commander = {
-					name = "Jayanto Nath Chaudhuri"
-					gfx = "GFX_RAJ_jayanto_nath_chaudhuri"
-					traits = { panzer_leader trait_engineer }
-					skill = 3
-					attack_skill = 2
-					defense_skill = 4
-					planning_skill = 3
+					name = "Jayanto Nath Chaudhari"
+					picture = "Portrait_PRF_Chaudhari.dds"
+					traits = { desert_fox cavalry_leader  trickster panzer_leader career_officer trait_reckless armor_officer}
+					skill = 5
+					attack_skill = 6
+					defense_skill = 2
+					planning_skill = 4
 					logistics_skill = 3
 				}
 			}
@@ -820,14 +841,29 @@ focus_tree = {
 						infantry = { x = 0 y = 0 }
 						infantry = { x = 0 y = 1 }
 						infantry = { x = 0 y = 2 }
+						infantry = { x = 0 y = 3 }
+						infantry = { x = 0 y = 4 }
 
-		        		infantry = { x = 1 y = 0 }
+	    	   		 	infantry = { x = 1 y = 0 }
 						infantry = { x = 1 y = 1 }
 						infantry = { x = 1 y = 2 }
+						infantry = { x = 1 y = 3 }
+						infantry = { x = 1 y = 4 }
 
 						infantry = { x = 2 y = 0 }
 						infantry = { x = 2 y = 1 }
 						infantry = { x = 2 y = 2 }
+						infantry = { x = 2 y = 3 }
+
+						artillery_brigade = { x = 3 y = 0 }
+						artillery_brigade = { x = 3 y = 1 }
+						artillery_brigade = { x = 3 y = 2 }
+						artillery_brigade = { x = 3 y = 3 }
+						}
+						support = {
+        					artillery = { x = 0 y = 0 }
+        					engineer = { x = 0 y = 1 }
+							recon = {  x = 0 y = 2 }
 							}
 						}
 

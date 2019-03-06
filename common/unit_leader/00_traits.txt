@@ -454,7 +454,7 @@ leader_traits = {
 		}
 		cost = 1000
 		field_marshal_modifier = {
-			max_planning = 0.1
+			max_planning = 0.15
 		}
 		
 		ai_will_do = {
@@ -503,6 +503,10 @@ leader_traits = {
 		}
 		cost = 1000
 		modifier = {
+		}
+		field_marshal_modifier = {		
+			army_attack_factor = 0.05
+			max_planning = 0.075
 		}
 		custom_effect_tooltip = INCREASED_ASSAULT_AND_SHOCK_CHANCE
 		ai_will_do = {
