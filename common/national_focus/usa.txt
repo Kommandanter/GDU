@@ -198,7 +198,12 @@ focus_tree = {
 
 		relative_position_id = USA_neutrality_act
 		cost = 5
-
+		
+		available = { 
+			has_idea = USA_giant_sleeps_idea
+			NOT = { has_completed_focus = USA_lend_lease_act } 
+		} 
+		
 		ai_will_do = {
 			factor = 1
 		}
