@@ -626,9 +626,9 @@ focus_tree = {
 		id = ITA_special_forces
 		icon = GFX_goal_generic_special_forces
 		text = special_forces
-		prerequisite = { focus = ITA_modernized_army }
+		prerequisite = { focus = ITA_armored_effort }
 		x = 3
-		y = 4
+		y = 5
 		cost = 10
 		ai_will_do = {
 			factor = 1
@@ -657,9 +657,9 @@ focus_tree = {
 	focus = {
 		id = ITA_armored_effort
 		icon = GFX_goal_generic_army_tanks
-		prerequisite = { focus = ITA_special_forces }
+		prerequisite = { focus = ITA_modernized_army }
 		x = 3
-		y = 5
+		y = 4
 		cost = 10
 		ai_will_do = {
 			factor = 1
@@ -673,8 +673,7 @@ focus_tree = {
 				name = armor_effort
 				bonus = 1.00 
 				uses = 2
-				category = cat_light_armor
-				category = cat_medium_armor
+				category = armor 
 				category = cat_mechanized_equipment
 			}
 		}
