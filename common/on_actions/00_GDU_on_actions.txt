@@ -11,6 +11,16 @@ on_actions = {
 			ENG = {
 				country_event = { id = mtg_britain.1 days = 190 } 
 			}
+			#England had a commanding stake in Iranian and Iraqi oil, as well as Venezuela. We don't give them Venezuela for balance reasons. 
+			PER = {
+				give_resource_rights = { receiver = ENG state = 412 }
+				give_resource_rights = { receiver = ENG state = 413 }
+				give_resource_rights = { receiver = ENG state = 411 }
+			}
+			IRQ = { 
+				give_resource_rights = { receiver = ENG state = 676 }
+				give_resource_rights = { receiver = ENG state = 291 }
+			}
 		}
 	}
 	
