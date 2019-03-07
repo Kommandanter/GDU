@@ -61,23 +61,6 @@ set_convoys = 200
 set_stability = 0.75
 set_war_support = 0.40
 
-#Trade
-create_import = {
-		resource = tungsten
-		factories = 2
-		exporter = SPR
-}
-create_import = {
-		resource = rubber
-		factories = 2
-		exporter = SIA
-}
-create_import = {
-		resource = oil
-		factories = 2
-		exporter = ROM
-}
-
 1939.1.1 = {
 	add_named_threat = { threat = 40 name = 1939_bookmark_threat }
 
