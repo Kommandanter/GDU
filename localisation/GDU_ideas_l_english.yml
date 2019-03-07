@@ -69,6 +69,8 @@
     FRA_phoney_war_desc:0 "Despite being at war with Germany, French forces and command remain hesitant and unwilling to fight. There remains a lingering hope for peace with the Axis. If Germany were to attack the Benelux, however? The threat would be evident."
     benelux_neutrality:0 "Benelux Neutrality"
     benelux_neutrality_desc:0 "Traditionally, the Netherlands, Luxemburg, and Belgium have pursued a policy of neutrality towards their neighbors. Of course, neither Belgium or Luxemburg found their neutrality respected in the Great War, and with the way things are looking? The Dutch may have reason to fear as well..."
+    scandinavian_neutrality:0 "Scandinavian Neutrality" 
+    scandinavian_neutrality_desc:0 "Denmark and Norway have upheld a strict policy of neutrality for years, believing it to be a shield against aggressors. Unfortunately, the upcoming conflict is likely going to be a bit different." 
 	
     SOV_industrial_relocations:0 "Industrial Relocations"
     SOV_industrial_relocations_desc:0 "Industrial potential is being moved away from the front and behind the Urals where it is safer."
