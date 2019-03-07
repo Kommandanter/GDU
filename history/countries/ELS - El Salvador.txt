@@ -62,13 +62,13 @@ set_convoys = 5
 set_politics = {
 
 	parties = {
+	
+		neutrality = {
+			popularity = 100
+		}
 		democratic = { 
 			popularity = 0
 			banned = yes #default is no
-		}
-
-		fascism = {
-			popularity = 100
 		}
 		
 		communism = {
@@ -88,7 +88,7 @@ create_country_leader = {
 	desc = "POLITICS_MAXIMILIANO_HERNANDEZ_MARTINEZ_DESC"
 	picture = "GFX_portrait_el_salvador_maximiliano_hernandez_martinez"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = despotism 
 	traits = {
 		#
 	}

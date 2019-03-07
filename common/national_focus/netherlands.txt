@@ -3265,9 +3265,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_political_power = 120
-			unlock_decision_category_tooltip = HOL_gateway_to_europe_hol_category
-			custom_effect_tooltip = HOL_gateway_to_europe_tt
+			add_political_power = 250
 		}
 	}
 

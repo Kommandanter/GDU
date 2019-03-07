@@ -881,7 +881,7 @@ focus_tree = {
 				limit = {
 					has_completed_focus = USA_limited_intervention
 				}
-				remove_idea = USA_early_wakey_idea
+				remove_ideas = USA_early_wakey_idea
 			}
 			if = {
 				limit = { has_completed_focus = USA_neutrality_act }
@@ -1687,7 +1687,6 @@ focus_tree = {
 		completion_reward = {
 			custom_effect_tooltip = available_chief_of_army
 			show_ideas_tooltip = walter_krueger
-			unlock_decision_category_tooltip = USA_war_plans
 		}
 	}
 	
