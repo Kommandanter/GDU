@@ -116,9 +116,9 @@ buildings = {
 		icon_frame = 9
 		anti_air = yes
 		disabled_in_dmz = yes
-		air_defence = 1.25
+		air_defence = 1.00
 		max_level = 5 # This is the max unlock level
-		damage_factor = 0.07
+		damage_factor = 0.06
 		value = 1
 	}
 	

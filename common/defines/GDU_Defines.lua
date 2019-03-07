@@ -52,6 +52,12 @@ NDefines.NCountry.MAX_INTELLIGENCE_MILITARY_DATA_DEVIATION = 0.6
 NDefines.NCountry.AIR_SUPPLY_CONVERSION_SCALE = 0.25 -- original 0.05 air supply?
 NDefines.NCountry.RESISTANCE_STRENGTH_FROM_VP = 0.00 -- This disables the resistance mechanic. It was 0.001 in vanilla. Resistance is a poorly implemented mechanic that causes undue stress and incurs heavy hidden, hard to calculate costs on a balance level. Instead, events are implemented into the mod that decrease Germany's/Jap's MP as if they were using suppression cavalry.
 
+NDefines.NCountry.GIE_DIVISION_ATTACK_BONUS_AGAINST_OCCUPIER = 0.05 -- Attack bonus factor against whoever occupies your core territory.
+NDefines.NCountry.GIE_DIVISION_DEFENSE_BONUS_AGAINST_OCCUPIER = 0.05 -- Attack bonus factor against whoever occupies your core territory.
+NDefines.NCountry.GIE_DIVISION_ATTACK_BONUS_ON_CORE = 0.0 -- Attack bonus factor when fighting on cores.
+NDefines.NCountry.GIE_DIVISION_DEFENSE_BONUS_ON_CORE = 0.0 -- Defense bonus factor when fighting on cores.
+
+
 NDefines.NProduction.MIN_POSSIBLE_TRAINING_MANPOWER = 500000
 NDefines.NProduction.MIN_FIELD_TO_TRAINING_MANPOWER_RATIO = 0.9
 NDefines.NProduction.CAPITULATE_STOCKPILES_RATIO = 0.75
@@ -84,13 +90,20 @@ NDefines.NMilitary.FIELD_MARSHAL_ASSIGNABLE_TRAIT_NUM = 7
 NDefines.NMilitary.RECON_SKILL_IMPACT = 8
 NDefines.NMilitary.HOURLY_ORG_MOVEMENT_IMPACT = -0.15
 NDefines.NMilitary.LEADER_SKILL_FACTOR = 0.25
-NDefines.NMilitary.ARMY_LEADER_XP_GAIN_PER_UNIT_IN_COMBAT = 0.04
-NDefines.NMilitary.EXPERIENCE_COMBAT_FACTOR = 0.15
-NDefines.NMilitary.BASE_LEADER_TRAIT_GAIN_XP = 1.00
-NDefines.NMilitary.FIELD_MARSHAL_XP_RATIO = 0.5
+
+NDefines.NMilitary.ARMY_LEADER_XP_GAIN_PER_UNIT_IN_COMBAT = 0.00
+NDefines.NMilitary.EXPERIENCE_COMBAT_FACTOR = 0.00
+NDefines.NMilitary.MAX_RELATIVE_COMBAT_DAMAGE_TO_MODIFY_XP = 0.0			-- you gain more XP if you are doing more damage relative to enemy, this is the max relative amount to gain following RATe
+NDefines.NMilitary.XP_DECAY_RATE_PER_HOUR_IN_COMBAT = 0.00				-- you get reduced XP as combat drags
+NDefines.NMilitary.MIN_XP_RATE_TO_DECAY = 0.0
+NDefines.NMilitary.XP_GAIN_FACTOR_FOR_MAX_RELATIVE_COMBAT_DAMAGE = 0.0	-- XP factor scaling for max relative combat damage
+NDefines.NMilitary.BASE_LEADER_TRAIT_GAIN_XP = 0.00
+NDefines.NMilitary.FIELD_MARSHAL_XP_RATIO = 0.0
+NDefines.NMilitary.XP_GAIN_PER_OVERRUN_UNIT = 0.00
+NDefines.NMilitary.XP_GAIN_FOR_SHATTERING = 0.00
+NDefines.NMilitary.CONSTANT_XP_RATIO_FOR_MULTIPLE_LEADERS_IN_SAME_COMBAT = 0.0 -- if there are multiple leaders in same combat, each one gets thisratio + (1-thisratio)/num leaders. amount of xp each general gets scales 1 0.75 0.66 etc for 1 2 3 generals
+
 NDefines.NMilitary.GARRISON_ORDER_ARMY_CAP_FACTOR = 1.5
-NDefines.NMilitary.XP_GAIN_PER_OVERRUN_UNIT = 15.0
-NDefines.NMilitary.XP_GAIN_FOR_SHATTERING = 10.0
 NDefines.NMilitary.CORPS_COMMANDER_DIVISIONS_CAP = 200
 NDefines.NMilitary.FIELD_MARSHAL_DIVISIONS_CAP = 200
 NDefines.NMilitary.BASE_DIVISION_BRIGADE_GROUP_COST = 0
@@ -117,7 +130,7 @@ NDefines.NMilitary.UNIT_EXPERIENCE_PER_TRAINING_DAY = 0.0002
 NDefines.NMilitary.UNIT_EXP_LEVELS = { 0.2, 0.3, 0.4, 0.5 }
 NDefines.NMilitary.SLOWEST_SPEED = 3
 NDefines.NMilitary.EXPERIENCE_LOSS_FACTOR = 0.01
-NDefines.NMilitary.EQUIPMENT_COMBAT_LOSS_FACTOR = 0.6
+NDefines.NMilitary.EQUIPMENT_COMBAT_LOSS_FACTOR = 0.55
 NDefines.NMilitary.TRAINING_ATTRITION = 0.01
 NDefines.NMilitary.SPEED_REINFORCEMENT_BONUS = 0.1
 NDefines.NMilitary.OVERSEAS_LOSE_EQUIPMENT_FACTOR = 1
