@@ -36,7 +36,7 @@ equipments = {
 
 		build_cost_ic = 33
 		resources = {
-			oil = 1
+			#oil = 1
 			aluminium = 2
 			rubber = 1
 		}
@@ -82,7 +82,7 @@ equipments = {
 
 		build_cost_ic = 33
 		resources = {
-			oil = 1
+			#oil = 1
 			aluminium = 2
 			rubber = 1
 		}
@@ -126,8 +126,8 @@ equipments = {
 
 		build_cost_ic = 33
 		resources = {
-			oil = 1
-			aluminium = 3
+			#oil = 1
+			aluminium = 2
 			rubber = 1
 		}
 
@@ -171,8 +171,8 @@ equipments = {
 
 		build_cost_ic = 35
 		resources = {
-			oil = 1
-			aluminium = 3
+			#oil = 1
+			aluminium = 2
 			rubber = 1
 		}
 
@@ -212,7 +212,7 @@ equipments = {
 
 		build_cost_ic = 39
 		resources = {
-			oil = 1
+			#oil = 1
 			aluminium = 2
 			rubber = 1
 		}
@@ -255,7 +255,7 @@ equipments = {
 
 		build_cost_ic = 39
 		resources = {
-			oil = 1
+			#oil = 1
 			aluminium = 2
 			rubber = 1
 		}
@@ -296,8 +296,8 @@ equipments = {
 
 		build_cost_ic = 45
 		resources = {
-			oil = 3
-			aluminium = 2
+			#oil = 3
+			aluminium = 4
 			rubber = 1
 		}
 
@@ -340,8 +340,8 @@ equipments = {
 
 		build_cost_ic = 36
 		resources = {
-			oil = 1
-			aluminium = 3
+			#oil = 1
+			aluminium = 2
 			rubber = 1
 		}
 
@@ -366,7 +366,7 @@ equipments = {
 
 		build_cost_ic = 39
 		resources = {
-			oil = 2
+			#oil = 2
 			aluminium = 3
 			rubber = 1
 		}
@@ -392,7 +392,7 @@ equipments = {
 
 		build_cost_ic = 42
 		resources = {
-			oil = 2
+			#oil = 2
 			aluminium = 4
 			rubber = 1
 		}
@@ -433,8 +433,8 @@ equipments = {
 
 		build_cost_ic = 48
 		resources = {
-			oil = 3
-			aluminium = 3
+			#oil = 3
+			aluminium = 4
 			rubber = 1
 		}
 	}
@@ -475,7 +475,7 @@ equipments = {
 
 		build_cost_ic = 38
 		resources = {
-			oil = 1
+			#oil = 1
 			aluminium = 2
 			rubber = 1
 		}
@@ -500,7 +500,7 @@ equipments = {
 
 		build_cost_ic = 41
 		resources = {
-			oil = 1
+			#oil = 1
 			aluminium = 2
 			rubber = 1
 		}
@@ -524,7 +524,7 @@ equipments = {
 
 		build_cost_ic = 44
 		resources = {
-			oil = 2
+			#oil = 2
 			aluminium = 3
 			rubber = 1
 		}
@@ -568,7 +568,7 @@ equipments = {
 
 		build_cost_ic = 36
 		resources = {
-			oil = 1
+			#oil = 1
 			aluminium = 3
 			rubber = 1
 		}
@@ -594,7 +594,7 @@ equipments = {
 
 		build_cost_ic = 39
 		resources = {
-			oil = 2
+			#oil = 2
 			aluminium = 3
 			rubber = 1
 		}
@@ -641,7 +641,7 @@ equipments = {
 
 		build_cost_ic = 38 # cv_version costs 20% more of base archetype
 		resources = {
-			oil = 1
+			#oil = 1
 			aluminium = 3
 			rubber = 1
 		}
@@ -667,7 +667,7 @@ equipments = {
 
 		build_cost_ic = 41 # cv_version costs 20% more of base archetype
 		resources = {
-			oil = 2
+			#oil = 2
 			aluminium = 3
 			rubber = 1
 		}
@@ -708,7 +708,7 @@ equipments = {
 
 		build_cost_ic = 42
 		resources = {
-			oil = 1
+			#oil = 1
 			aluminium = 3
 			rubber = 1
 		}
@@ -732,7 +732,7 @@ equipments = {
 
 		build_cost_ic = 45
 		resources = {
-			oil = 2
+			#oil = 2
 			aluminium = 3
 			rubber = 1
 		}
@@ -772,7 +772,7 @@ equipments = {
 		naval_strike_targetting = 11
 		build_cost_ic = 44 # cv_version costs 20% more of base archetype
 		resources = {
-			oil = 1
+			#oil = 1
 			aluminium = 3
 			rubber = 1
 		}
@@ -795,7 +795,7 @@ equipments = {
 		naval_strike_targetting = 12.5
 		build_cost_ic = 47 # cv_version costs 20% more of base archetype
 		resources = {
-			oil = 2
+			#oil = 2
 			aluminium = 3
 			rubber = 1
 		}
