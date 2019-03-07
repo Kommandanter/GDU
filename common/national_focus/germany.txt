@@ -1296,9 +1296,7 @@ focus_tree = {
 				uses = 2
 				category = air_doctrine
 			}
-			
-
-			add_ideas = GER_ace_idea
+			add_ideas = GER_air_innovations_2_idea
 			# Balance research bonus to next tech among radio, radio_detection, decimetric_radar, improved_decimetric_radar, centimetric_radar, improved_centimetric_radar, advanced_centimetric_radar
 			add_tech_bonus = {
 				name = air_bonus
