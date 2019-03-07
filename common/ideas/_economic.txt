@@ -25,10 +25,7 @@ ideas = {
 			}
 
 			allowed_to_remove = {
-				OR = {
-					threat > 0.5
-					has_war = yes
-				}
+				has_war = yes
 			}
 
 			cancel_if_invalid = no
@@ -53,10 +50,8 @@ ideas = {
 				guarantee_tension = 0.5
 			}
 			allowed_to_remove = {
-				OR = {
-					threat > 0.75
-					has_war = yes
-				}
+				has_war = yes
+
 			}
 
 			cancel_if_invalid = no
