@@ -34,8 +34,8 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				production_speed_industrial_complex_factor = 0.5
-				consumer_goods_factor = -0.15
+				production_speed_industrial_complex_factor = 0.55
+				consumer_goods_factor = -0.10
 				production_speed_arms_factory_factor = -0.45
 				production_speed_dockyard_factor = -0.45			
 			}
@@ -1012,7 +1012,7 @@ ideas = {
 			}
 			modifier = {
 				drift_defence_factor = 0.2
-				ai_badass_factor = 0.03 # cares for 3% of normal threat
+				global_building_slots_factor = 0.5 
 			}
 		}
 
