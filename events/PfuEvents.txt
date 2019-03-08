@@ -180,41 +180,6 @@ country_event = {
 }
 
 country_event = {
-	id = pfu.27
-	title = pfu.27.t
-	desc = pfu.27.d
-	picture = GFX_report_event_JAP_rebels
-
-	trigger = {
-		tag = JAP
-		OR = {
-			NOT = { CHI = { controls_state = 605 } } # 20 steel
-            		NOT = { CHI = { controls_state = 601 } } # 2 oil province in china
-			JAP = { controls_state = 325 }  # yunan
-		    	JAP = { controls_state = 283 }  # china 
-		}
-		NOT = { has_global_flag = rebels }
-	}
-
-	immediate = {
-		set_global_flag = rebels
-	}
-
-	option = {
-		name = pfu.27.a
-		add_ideas = JAP_rebels
-
-		hidden_effect = {
-			CHI = {
-			remove_ideas = warlord_cliques
-			add_ideas = chinese_rebels
-			}
-		}
-	}
-	mean_time_to_happen = { days = 30 }
-}
-
-country_event = {
 	id = pfu.28
 	title = pfu.28.t
 	desc = pfu.28.d

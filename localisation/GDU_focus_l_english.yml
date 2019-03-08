@@ -51,6 +51,13 @@
  ENG_blood_toil_tears:0 "Blood, Toil, Tears, and Sweat" 
  ENG_blood_toil_tears_desc:0 "I have nothing to offer but blood, toil, tears and sweat. You ask, what is our policy? It is to wage war, by sea, land and air. That is our policy. You ask, what is our aim? I can answer in one word: Victory. Victory at all costs—Victory in spite of all terror—Victory, however long and hard the road may be... For without victory, there can be no survival."
  
+ JAP_Infra:0 "Rail Nationalization" 
+ JAP_Infra_desc:0 "As we move towards the defense and preservation of the Japanese state, we must look towards our rail system. Many of the railways remain in the hands of private owners; by transferring these under government control, we can improve wartime efficiency and make improvements to scheduling and gauges." 
+ JAP_naval_landings:0 "Advanced Landing Crafts" 
+ JAP_naval_landings_desc:0 "The IJN is calling for higher standards on naval landing equipment, training, and tactics. We'd be foolish not to listen." 
+ JAP_amphibious_armor:0 "Amphibious Landing Craft" 
+ JAP_amphibious_armor_desc:0 "In the case of a heavily guarded landing zone, marines might not be enough. Research into amphibious tanks will prove key in cracking stubborn island defenses." 
+ 
  NZL_central_department_of_industry:0 "Central Department of Industry"
  
  CHI_industrial_reform:0 "Industrial Reform"

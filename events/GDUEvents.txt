@@ -249,13 +249,13 @@ country_event = {
 	}
 }
 
-##PEARL HARBOR##
+##Yamamoto's Warning to JAP player 
 
 country_event = { 
 	id = gduevents.13 
 	title = gduevents.13.t 
 	desc = gduevents.13.d 
-	picture = GFX_report_event_canadian_soldiers 
+	picture = GFX_report_event_japanese_officers 
 	
 	is_triggered_only = yes 
 	
@@ -265,8 +265,7 @@ country_event = {
 	}
 	
 }
-	
-	
+
 	
 	
 	

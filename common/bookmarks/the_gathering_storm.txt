@@ -82,10 +82,13 @@ bookmarks = {
 			ideology = fascism
 			ideas = {
 				state_shintoism
+				JAP_zaibatsus
+				JAP_militarism
 			}
 			focuses = {
-				southern_expansion_focus
-				divine_wind_focus
+				JAP_strike_on_the_southern_resource_area
+				JAP_intervene_in_china
+				JAP_the_zero
 			}
 		}
 		"SOV"={

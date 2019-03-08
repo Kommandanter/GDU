@@ -134,6 +134,70 @@ political_actions = {
 }
 
 foreign_politics = { 
+	
+	GDU_JAP_pearl_harbor = { 
+	
+		icon = generic_operation
+		fire_only_once = yes
+		
+		allowed = { 
+			tag = JAP 
+		}
+	
+		available = { 
+			has_completed_focus = JAP_strike_on_the_southern_resource_area 
+		}	
+	
+		cost = 0
+		days_remove = 14
+		ai_will_do = {
+			factor = 0
+			
+		}
+		
+		visible = { 
+			has_completed_focus = JAP_strike_on_the_southern_resource_area  
+		}
+		
+		complete_effect = {
+		
+					
+		}
+		
+		remove_effect = {
+			custom_effect_tooltip = GDU_Jap_pearlharbor_tt
+		
+			declare_war_on = {
+				target = USA 
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = ENG 
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = CAN
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = RAJ
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = AST
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = NZL 
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = SAF 
+				type = annex_everything
+			}
+		}
+	
+	}
 
 	GDU_GER_invade_irq = { 
 		icon = generic_civil_support
