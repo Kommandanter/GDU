@@ -4,11 +4,14 @@ state={
 
 	history={
 		owner = FRA
+		add_core_of = TUN
+		victory_points = {
+			7005 1 
+		}
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
 
 		}
-		add_core_of = FRA
 	}
 	
 	state_category = pastoral

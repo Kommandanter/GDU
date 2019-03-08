@@ -3,23 +3,18 @@ state={
 	name="STATE_724"
 	manpower = 2041700
 	
-	state_category = town
+	state_category = rural
 	
 	resources={
-		rubber=70
+		rubber=40 # was: 70
 	}
 
 
 	history={
 		owner = SIA
 		buildings = {
-		7236 = {
-				naval_base = 2
-			}
-			infrastructure = 1
-		
+			infrastructure = 3
 		}
-
 		victory_points = {
 			7236 1 
 		}

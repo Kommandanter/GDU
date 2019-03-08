@@ -5,5 +5,6 @@ tags={
 	"Events"
 	"Gameplay"
 }
+replace_path = "history/states"
 picture="Warishell.jpg"
 supported_version="1.5.4"

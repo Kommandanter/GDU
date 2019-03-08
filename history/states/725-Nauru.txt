@@ -3,13 +3,12 @@ state={
 	name="STATE_725"
 	manpower=5785
 	state_category = tiny_island
-						resources={
-		oil=1
-	}
 
 	history={
 		owner = ENG
+		add_core_of = FIJ
 		buildings = {
+			infrastructure = 3
 			13038 = {
 				naval_base = 1
 			}

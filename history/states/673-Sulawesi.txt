@@ -3,20 +3,21 @@ state={
 	name="STATE_673"
 	manpower = 4232000
 	resources={
-		rubber=52
+		rubber=30 # was: 52
 	}
 
 	state_category = town
 
 
 	history= {
-		owner = HOL
+		owner = INS
+		add_core_of = INS
 		victory_points = {
-			10263 5
+			10263 3 
 		}
 
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
 			air_base = 4
 			10153 = {
 				naval_base = 3

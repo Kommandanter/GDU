@@ -3,19 +3,15 @@ state={
 	name="STATE_726"
 	manpower=123214
 	state_category = small_island
-						resources={
-		oil=1
-	}
 
 	history={
-		owner = USA
+		owner = NZL
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
 			7290 = {
 				naval_base = 1
 			}
 		}
-		add_core_of = USA
 	}
 	provinces={
 		7290 13080 

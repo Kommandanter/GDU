@@ -1,14 +1,12 @@
 state={
 	id=737
 	name="STATE_737"
-		resources={
-		rubber=12
-		oil=1
-	}
+
 	history={
+		add_core_of = PNG
 		owner = AST
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 			air_base = 1
 			7251 = {
 				naval_base = 5
