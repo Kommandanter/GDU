@@ -2197,7 +2197,7 @@ ideas = {
 				original_tag = ENG
 			}
 			
-			traits = { army_commando_3 }
+			traits = { army_commando_2 }
 			
 			ai_will_do = {
 				factor = 0.2
@@ -2752,26 +2752,6 @@ ideas = {
 			}
 			
 			traits = { rocket_scientist }
-		}
-
-		ENG_jfc_fuller = {
-			
-			picture = generic_army_europe_1
-
-			available = {
-				
-			}
-			
-			allowed = {
-				original_tag = ENG
-				has_dlc = "Man the Guns"
-			}
-			
-			traits = { blitzkrieg_theorist }
-
-			ai_will_do = {
-				factor = 1
-			}
 		}
 		
 		

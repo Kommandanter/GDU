@@ -1555,6 +1555,21 @@ ideas = {
 			}
 		}
 		
+		tomoyuki_yamashita_HC = {
+		
+			picture = tomoyuki_yamashita 
+			
+			allowed = {
+				original_tag = JAP 
+			}
+			
+			traits = { army_commando_2 }
+			
+			ai_will_do = {
+				factor = 0.2
+			}
+		}
+		
 		shunroku_hata = {
 			
 			
