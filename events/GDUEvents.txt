@@ -248,3 +248,26 @@ country_event = {
 		name = gduevents.11.a
 	}
 }
+
+##PEARL HARBOR##
+
+country_event = { 
+	id = gduevents.13 
+	title = gduevents.13.t 
+	desc = gduevents.13.d 
+	picture = GFX_report_event_canadian_soldiers 
+	
+	is_triggered_only = yes 
+	
+	option = { 
+		name = gduevents.13.a 
+
+	}
+	
+}
+	
+	
+	
+	
+	
+	
