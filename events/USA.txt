@@ -232,7 +232,7 @@ country_event = {
 			}
 		}		
 		add_ideas = new_deal
-		set_variable = { election_factor = -0.5 }
+		set_variable = { election_factor = -0.55 }
 		USA_election_senate = yes
 		USA_election_house = yes
 		custom_effect_tooltip = usa_congress_elections_tt_bad
@@ -1242,7 +1242,7 @@ country_event = {
 			}
 		}
 		hidden_effect = {
-			country_event = { id = usa.50 days = 135 random = 10 }
+			country_event = { id = usa.50 days = 170 random = 10 }
 		}
 	}
 }
