@@ -290,6 +290,18 @@ ideas = {
 		
 	# MILITARY
 	army_chief = {
+	
+		rodolfo_graziani_hc = { 
+		
+			picture = rodolfo_graziani 
+			
+			allowed = { 
+				original_tag = ITA 
+			}
+			
+				traits = { army_chief_offensive_1 } 
+				
+		}
 		
 		
 		pietro_badoglio = {
@@ -445,6 +457,17 @@ ideas = {
 	
 	high_command = {
 	
+		giovanni_messe_hc = {
+			
+			picture = giovanni_messe 
+			
+			allowed = {
+				original_tag = ITA
+			}
+			
+			traits = { army_armored_3 }
+		}
+	
 		mario_roatta = {
 			
 			
@@ -454,7 +477,7 @@ ideas = {
 			
 
 			
-			traits = { army_regrouping_1 }
+			traits = { army_regrouping_2 }
 			
 			ai_will_do = {
 				factor = 1
@@ -486,7 +509,7 @@ ideas = {
 			
 
 			
-			traits = { army_infantry_1 }
+			traits = { army_infantry_2 }
 			
 			ai_will_do = {
 				factor = 2

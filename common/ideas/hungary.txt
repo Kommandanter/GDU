@@ -508,7 +508,7 @@ ideas = {
 			
 
 			
-			traits = { army_armored_1 }
+			traits = { army_armored_3 }
 			
 			ai_will_do = {
 				factor = 1
@@ -554,7 +554,7 @@ ideas = {
 				original_tag = HUN
 			}
 			
-			traits = { army_cavalry_2 }
+			traits = { army_cavalry_3 }
 			
 			ai_will_do = {
 				factor = 1

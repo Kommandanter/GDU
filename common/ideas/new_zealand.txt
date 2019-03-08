@@ -331,13 +331,13 @@ ideas = {
 
 		NZL_h_d_mcgregor = {
 
-			picture = generic_air_europe_3
+			picture = generic_army_europe_2
 
 			allowed = {
 				original_tag = NZL
 			}
 
-			traits = { air_airborne_2 }
+			traits = { army_commando_2 }
 
 			ai_will_do = {
 				factor = 1
@@ -346,13 +346,26 @@ ideas = {
 
 		NZL_trevor_handley = {
 
-			picture = generic_navy_europe_1
+			picture = generic_army_europe_1
 
 			allowed = {
 				original_tag = NZL
 			}
 
-			traits = { navy_naval_air_defense_2 }
+			traits = { army_infantry_3 }
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		NZL_dropbear = {
+
+			allowed = {
+				original_tag = NZL
+			}
+
+			traits = { army_armored_2 }
 
 			ai_will_do = {
 				factor = 1

@@ -633,6 +633,21 @@ theorist = {
 
 high_command = {
 
+	AST_tank_dude = { 
+		
+		picture = generic_army_europe_4
+		
+		allowed = { 
+			original_tag = AST 
+		}
+		
+		traits = { army_armored_2 }
+		
+		ai_will_do = { 
+			factor = 1 
+		} 
+	} 
+
 	AST_arthur_allen = {
 
 		picture = generic_army_europe_2

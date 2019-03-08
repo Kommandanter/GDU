@@ -1584,7 +1584,22 @@ ideas = {
 			ai_will_do = {
 				factor = 1
 			}
-		}	
+		}
+
+		takeichi_nichi = { 
+		
+			picture = generic_army_asia_2 
+			
+			allowed = { 
+				original_tag = JAP 
+			}
+			
+			traits = { army_armored_2 } 
+			
+			ai_will_do = { 
+				factor = 1 
+			}
+		}
 		
 		mitsuo_fuchida = {
 			

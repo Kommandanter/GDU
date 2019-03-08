@@ -1601,6 +1601,23 @@ ideas = {
 	
 	
 	high_command = {
+	
+		george_patton_hc = { 
+		
+			picture = george_patton 
+			
+			allowed = {
+				original_tag = USA 
+			}
+			
+			traits = { army_armored_2 } 
+			
+			ai_will_do = { 
+				factor = 1 
+			} 
+			
+		}
+		
 		courtney_hodges = {
 			
 			

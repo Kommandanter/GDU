@@ -601,6 +601,22 @@ ideas = {
 	}
 
 	high_command = {
+	
+		richhpal_ram = { 
+		
+			picture = generic_army_arab_2 
+			
+			allowed = { 
+				original_tag = RAJ 
+			}
+			
+			traits = { army_armored_2 }
+			
+			ai_will_do = { 
+				factor = 1 
+			} 
+			
+		}
 
 		RAJ_ram_singh_thakur = {
 

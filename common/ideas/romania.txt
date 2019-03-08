@@ -879,6 +879,18 @@ ideas = {
 	}
 
 	high_command = {
+	
+		gheorghe_potopeanu_hc = { 
+			
+		
+			allowed = { 
+				original_tag = ROM 
+			}
+			
+			picture = ROM_gheorghe_potopeanu
+			
+			traits = { army_regrouping_1 } 
+		}
 
 		ROM_gheorghe_avramescu = {
 
