@@ -149,37 +149,6 @@ country_event = {
 }
 
 country_event = {
-	id = pfu.26
-	title = pfu.26.t
-	desc = pfu.26.d
-	picture = GFX_report_event_jap_southern
-
-	trigger = {
-		tag = JAP
-		date > 1940.5.1
-		CHI = {
-			controls_state = 605
-		}
-		NOT = { has_global_flag = jap_southern }
-	}
-
-	immediate = {
-		set_global_flag = jap_southern
-	}
-
-	option = {
-		name = pfu.26.a
-		custom_effect_tooltip = pfu.26.a.tt
-		hidden_effect = {
-			set_technology = { interwar_antiair = 1 }
-			add_manpower = -100000
-			load_oob = JAP_southern
-		}
-	}
-	mean_time_to_happen = { days = 30 }
-}
-
-country_event = {
 	id = pfu.28
 	title = pfu.28.t
 	desc = pfu.28.d
