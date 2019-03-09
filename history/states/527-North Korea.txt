@@ -13,7 +13,6 @@ state={
 		owner = JAP
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 1
 		}
 
 		victory_points = {

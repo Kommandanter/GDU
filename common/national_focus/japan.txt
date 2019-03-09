@@ -101,7 +101,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = JAP_liaison_conference
 
-		cost = 10
+		cost = 5
 
 		available = { 
 			date > 1937.5.1 
@@ -149,8 +149,13 @@ focus_tree = {
 				date < 1937.1.1
 			}
 		}
-
+		
+		select_effect = {
+        CHI = { country_event = china.100 }
+		}
 		completion_reward = {
+			declare_war_on = { target = CHI type = annex_everything }
+			declare_war_on = { target = PRC type = annex_everything }
 			if = {
 				limit = {
 					CHI = { #if CHI owns one of these states, they get the event
@@ -193,7 +198,6 @@ focus_tree = {
 					country_event = china.1
 				}
 			}
-			add_named_threat = { threat = 1 name = JAP_intervene_in_china }
 			add_ideas = JAP_intervene_in_china_5
 			unlock_decision_tooltip = JAP_china_step_up_war_effort
 		}
@@ -680,13 +684,11 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			swap_ideas = {
-				remove_idea = JAP_zaibatsus
-				add_idea = JAP_guide_the_zaibatsus				
-			}
+
 		}
 
 		completion_reward = {
+			unlock_decision_category_tooltip = GDU_Zaibatsu_category
 			random_owned_controlled_state = {
 				limit = {
 					ROOT = { has_full_control_of_state = PREV }
@@ -704,10 +706,6 @@ focus_tree = {
 					instant_build = yes
 				}
 				set_state_flag = JAP_zaibatsus_factories
-			}
-			swap_ideas = {
-				remove_idea = JAP_zaibatsus
-				add_idea = JAP_guide_the_zaibatsus
 			}
 		}
 	}
@@ -2387,7 +2385,7 @@ focus_tree = {
 				name = JAP_carrier_warfare_experiments
 				bonus = 1.0
 				uses = 2
-				category = cat_base_strike
+				category = naval_doctrine
 			}
 						add_tech_bonus = {
 				name = JAP_carrier_warfare_experiments
