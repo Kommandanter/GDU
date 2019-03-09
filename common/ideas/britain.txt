@@ -2279,6 +2279,8 @@ ideas = {
 		
 		supermarine = {
 			
+			cost = 100 
+			
 			allowed = {
 				original_TAG = ENG
 			}
@@ -2289,7 +2291,7 @@ ideas = {
 				air_equipment = 0.10
 			}
 			
-			traits = { light_aircraft_manufacturer }
+			traits = { supermarine_aircraft_manufacturer }
 			
 			modifier = {
 			}
@@ -2301,13 +2303,13 @@ ideas = {
 				original_TAG = ENG
 			}
 			
-
+			cost = 100 
 			
 			research_bonus = {
 				air_equipment = 0.10
 			}
 			
-			traits = { CAS_manufacturer } 
+			traits = { hawker_aircraft_manufacturer } 
 			
 			modifier = {
 			}
@@ -2318,13 +2320,13 @@ ideas = {
 				original_TAG = ENG
 			}
 			
-
+			cost = 100 
 			
 			research_bonus = {
 				air_equipment = 0.10
 			}
 			
-			traits = { medium_aircraft_manufacturer }
+			traits = { de_havilland_aircraft_manufacturer }
 			
 			modifier = {
 			}
@@ -2336,13 +2338,13 @@ ideas = {
 				original_TAG = ENG
 			}
 			
-
+			cost = 100 
 			
 			research_bonus = {
 				air_equipment = 0.10
 			}
 			
-			traits = { heavy_aircraft_manufacturer }
+			traits = { avro_aircraft_manufacturer }
 			
 			modifier = {
 			}
@@ -2353,14 +2355,14 @@ ideas = {
 			allowed = {
 				original_TAG = ENG
 			}
-			
+			cost = 100 
 
 			
 			research_bonus = {
 				air_equipment = 0.10
 			}
 			
-			traits = { naval_aircraft_manufacturer }
+			traits = { fairey_aircraft_manufacturer }
 			
 			modifier = {
 			}

@@ -1199,7 +1199,6 @@ focus_tree = {
 			modifier = {
 				factor = 2
 				OR = {
-					has_completed_focus = JAP_support_the_kodoha_faction
 					has_completed_focus = JAP_purge_the_kodoha_faction
 				}
 			}
@@ -1862,7 +1861,6 @@ focus_tree = {
 			factor = 1
 			modifier = {
 				factor = 2
-				has_completed_focus = JAP_support_the_kodoha_faction
 			}
 		}
 
@@ -1902,7 +1900,6 @@ focus_tree = {
 			factor = 1
 			modifier = {
 				factor = 2
-				has_completed_focus = JAP_support_the_kodoha_faction
 			}
 		}
 
@@ -1941,7 +1938,6 @@ focus_tree = {
 			factor = 1
 			modifier = {
 				factor = 2
-				has_completed_focus = JAP_support_the_kodoha_faction
 				has_completed_focus = JAP_purge_the_kodoha_faction
 			}
 		}
@@ -2301,12 +2297,6 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_tech_bonus = {
-				name = JAP_supremacy_of_the_battlefleet
-				bonus = 1.0 
-				uses = 1
-				category = shbb_tech	
-			}
 			random_owned_controlled_state = {
 				limit = {
 					ROOT = { has_full_control_of_state = PREV }

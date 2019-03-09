@@ -204,13 +204,6 @@ ideas = {
 
 		HUN_secret_rearmament = {
 
-			available = {
-				OR = {
-					has_idea = disarmed_nation 
-					has_idea = volunteer_only 
-				}
-			}
-
 			allowed_civil_war = {
 				
 			}

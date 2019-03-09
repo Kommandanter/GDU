@@ -1647,6 +1647,23 @@ leader_traits = {
 			factor = 1
 		}
 	}
+	
+	
+	light_aircraft_manufacturer_2 = { 
+		random = no
+		equipment_bonus = {
+			fighter_equipment = {
+				air_agility = 0.2 maximum_speed = 0.1
+			}
+			cv_fighter_equipment = {
+				air_agility = 0.2 maximum_speed = 0.1
+			}
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
 
 
 	CAS_manufacturer = {
@@ -1781,7 +1798,7 @@ leader_traits = {
 		#generic
 		equipment_bonus = {
 			armor = {
-				reliability = 0.05
+				reliability = 0.1
 			}
 		}
 
