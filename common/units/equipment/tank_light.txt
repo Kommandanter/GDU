@@ -44,7 +44,7 @@ equipments = {
 		resources = {
 			steel = 2
 		}
-
+		fuel_consumption = 2.4
 	}
 
 	# WW1 tank
@@ -75,6 +75,7 @@ equipments = {
 		air_attack = 0
 
 		build_cost_ic = 7 #gw tanks are clunky
+		fuel_consumption = 1.0
 	}
 
 	light_tank_equipment_1 = {
@@ -189,6 +190,8 @@ equipments = {
 			steel = 2
 			tungsten= 1
 		}
+		
+		fuel_consumption = 1.2
 
 	}
 
@@ -312,7 +315,7 @@ equipments = {
 			steel = 2
 			tungsten = 2
 		}
-
+		fuel_consumption = 1.2
 	}
 
 	light_tank_destroyer_equipment_1 = {
@@ -438,7 +441,7 @@ equipments = {
 		resources = {
 			steel = 2
 		}
-
+		fuel_consumption = 0.6
 	}
 
 	light_tank_aa_equipment_1 = {

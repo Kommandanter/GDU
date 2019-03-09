@@ -1911,6 +1911,7 @@ ideas = {
 					soft_attack = 0.1
 					hard_attack = 0.1 
 				}
+			}
 			
 
 		}	

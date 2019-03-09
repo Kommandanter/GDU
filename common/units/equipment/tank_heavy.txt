@@ -45,7 +45,7 @@ equipments = {
 			steel = 3
 			chromium = 3
 		}
-		
+		fuel_consumption = 4.4
 	}
 
 	# 1934
@@ -165,7 +165,7 @@ equipments = {
 			steel = 3
 			chromium = 3
 		}
-		
+		fuel_consumption = 2.6
 	}
 
 	heavy_tank_artillery_equipment_1 = {
@@ -291,6 +291,7 @@ equipments = {
 			steel = 3
 			chromium = 3
 		}
+		fuel_consumption = 2.6
 	}
 
 	heavy_tank_destroyer_equipment_1 = {
@@ -420,6 +421,7 @@ equipments = {
 			steel = 3
 			chromium = 3
 		}
+		fuel_consumption = 1.2
 		
 	}
 
