@@ -104,7 +104,7 @@ focus_tree = {
 		cost = 10
 
 		available = { 
-			date > 1937.3.1 
+			date > 1937.5.1 
 			NOT = { has_war_with = CHI }
 		}
 		bypass = {
