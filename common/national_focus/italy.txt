@@ -395,11 +395,6 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			add_resource = {
-				type = oil
-				amount = 90
-				state = 662
-			}
 			add_tech_bonus = {
 				name = ITA_autarky
 				bonus = 1.00 
