@@ -3,7 +3,7 @@ state={
 	name="STATE_662"
 	manpower = 13213
 	resources={
-		oil=90
+		oil=75
 	}
 	
 	state_category = wasteland
