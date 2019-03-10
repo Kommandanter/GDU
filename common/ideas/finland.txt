@@ -208,23 +208,6 @@ ideas = {
 
 	navy_chief = {
 
-		FIN_olavi_arho = {
-
-			picture = generic_navy_europe_2
-
-			allowed = {
-				original_tag = FIN
-			}
-
-
-
-			traits = { navy_chief_commerce_raiding_2 }
-
-			ai_will_do = {
-				factor = 1
-			}
-		}
-
 		FIN_eero_rahola = {
 
 			picture = generic_navy_europe_1
