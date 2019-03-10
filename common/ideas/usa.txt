@@ -40,6 +40,7 @@ ideas = {
 				production_speed_dockyard_factor = -0.45			
 			}
 		}
+		
 		USA_giant_sleeps_idea_2 = {
 			picture = man_five_year_plan_industry
 			allowed = {
@@ -283,7 +284,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				special_forces_cap = 0.05	
+				special_forces_min = 385	
 			}
 		}
 		USA_womens_armed_service_integration_act = {

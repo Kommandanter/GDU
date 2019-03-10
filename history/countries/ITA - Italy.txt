@@ -7,6 +7,7 @@ set_research_slots = 4
 add_ideas = {
 	victor_emmanuel
 	vittoria_mutilata
+	GDU_special_forces_cap
 	limited_exports
 	limited_conscription
 	partial_economic_mobilisation

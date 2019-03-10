@@ -709,7 +709,7 @@ ideas = {
 			picture = generic_naval_manufacturer_1
 			
 			modifier = {
-				special_forces_cap = 0.07
+				special_forces_min = 400
 			}
 		}
 

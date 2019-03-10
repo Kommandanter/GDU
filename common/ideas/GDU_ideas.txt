@@ -2,6 +2,18 @@ ideas = {
 
 	country = {
 	
+		GDU_special_forces_cap = {
+
+			allowed = { 
+			}
+			
+			picture = eng_special_air_service
+			
+			modifier = { 
+				special_forces_min = 320
+			}
+		} 
+	
 		eng_blood_toil_tears_idea = { 
 			
 			allowed = { 

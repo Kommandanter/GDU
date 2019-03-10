@@ -1,6 +1,6 @@
 ﻿l_english:
-    usa_special_forces:0 "USA Special Forces"
-    usa_special_forces_desc:0 "USA is a nation heavily dependent on special forces, and for this reason the cap was raised."
+    GDU_special_forces_cap:0 "Special Forces Raiser"
+    GDU_special_forces_cap_desc:0 "The Special Forces cap in GDU is 160 by default, which is roughly 10~ 40-width marine divisions with 2 artillery and 2 anti-tank or air. Majors need more than this, so they're given this idea, which raises it to about 30~ if you use AA and AT, and 34 if you use standard 14/4's. Some nations, like Japan, the UK, and America, get enhanced versions through their focus trees. You can also get up to 64 more total regiments through the Special Forces techs."
     inexperienced_army:0 "Inexperienced Army"
     the_big_blue_blanket:0 "The Weave Doctrine"
     britannia_rules_the_waves:0 "Britannia Rules The Waves"

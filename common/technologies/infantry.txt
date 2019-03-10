@@ -436,7 +436,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2
+		research_cost = 1
 		start_year = 1936
 		folder = {
 			name = infantry_folder
@@ -491,7 +491,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.5
+		research_cost = 1
 		start_year = 1939
 		folder = {
 			name = infantry_folder
@@ -529,7 +529,7 @@ technologies = {
 		}
 
 
-		research_cost = 2.0
+		research_cost = 1
 		start_year = 1943
 		folder = {
 			name = infantry_folder
@@ -583,7 +583,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2
+		research_cost = 1
 		start_year = 1936
 		folder = {
 			name = infantry_folder
@@ -621,7 +621,7 @@ technologies = {
 		}
 
 
-		research_cost = 1.5
+		research_cost = 1
 		start_year = 1939
 		folder = {
 			name = infantry_folder
@@ -653,7 +653,7 @@ technologies = {
 			max_organisation = 5
 		}
 
-		research_cost = 2.0
+		research_cost = 1
 		start_year = 1943
 		folder = {
 			name = infantry_folder
@@ -702,7 +702,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2
+		research_cost = 1 
 		start_year = 1936
 		folder = {
 			name = infantry_folder
@@ -731,7 +731,7 @@ technologies = {
 		}
 
 
-		research_cost = 1.5
+		research_cost = 1
 		start_year = 1939
 		folder = {
 			name = infantry_folder
@@ -754,7 +754,7 @@ technologies = {
 			max_organisation = 5
 		}
 
-		research_cost = 2.0
+		research_cost = 1
 		start_year = 1943
 		folder = {
 			name = infantry_folder
@@ -856,7 +856,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2
+		research_cost = 1
 		start_year = 1936
 		folder = {
 			name = infantry_folder
@@ -884,7 +884,7 @@ technologies = {
 		}
 
 
-		research_cost = 1.5
+		research_cost = 1
 		start_year = 1939
 		folder = {
 			name = infantry_folder
@@ -902,7 +902,7 @@ technologies = {
 			max_organisation = 5
 		}
 
-		research_cost = 2.0
+		research_cost = 1
 		start_year = 1943
 		folder = {
 			name = infantry_folder
@@ -937,7 +937,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2
+		research_cost = 1
 		start_year = 1936
 		folder = {
 			name = infantry_folder
@@ -965,7 +965,7 @@ technologies = {
 		}
 
 
-		research_cost = 1.5
+		research_cost = 1
 		start_year = 1939
 		folder = {
 			name = infantry_folder
@@ -983,7 +983,7 @@ technologies = {
 			max_organisation = 5
 		}
 
-		research_cost = 2.0
+		research_cost = 1
 		start_year = 1943
 		folder = {
 			name = infantry_folder
@@ -1018,7 +1018,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2
+		research_cost = 1
 		start_year = 1936
 		folder = {
 			name = infantry_folder
@@ -1046,7 +1046,7 @@ technologies = {
 		}
 
 
-		research_cost = 1.5
+		research_cost = 1
 		start_year = 1939
 		folder = {
 			name = infantry_folder
@@ -1064,7 +1064,7 @@ technologies = {
 			max_organisation = 5
 		}
 
-		research_cost = 2.0
+		research_cost = 1
 		start_year = 1943
 		folder = {
 			name = infantry_folder
@@ -1100,7 +1100,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2
+		research_cost = 1
 		start_year = 1936
 		folder = {
 			name = infantry_folder
@@ -1128,7 +1128,7 @@ technologies = {
 		}
 
 
-		research_cost = 1.5
+		research_cost = 1
 		start_year = 1939
 		folder = {
 			name = infantry_folder
@@ -1146,7 +1146,7 @@ technologies = {
 			max_organisation = 5
 		}
 
-		research_cost = 2.0
+		research_cost = 1
 		start_year = 1943
 		folder = {
 			name = infantry_folder
@@ -1180,7 +1180,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1
+		research_cost = 0.5 
 		start_year = 1936
 
 		folder = {
@@ -1202,10 +1202,9 @@ technologies = {
 
 	special_forces_1a = {
 
-		special_forces_cap = 0.15
 		special_forces_training_time_factor = -0.3
 
-		research_cost = 1
+		research_cost = 0.4 
 		start_year = 1936
 
 		folder = {
@@ -1236,9 +1235,7 @@ technologies = {
 			defense = 0.05
 		}
 
-		special_forces_training_time_factor = 0.1
-
-		research_cost = 1
+		research_cost = 0.5
 		start_year = 1936
 
 		folder = {
@@ -1270,9 +1267,9 @@ technologies = {
 			acclimatization_cold_climate_gain_factor = 0.50
 		}
 
-		special_forces_cap = 0.40
+		special_forces_min = 32
 
-		research_cost = 2
+		research_cost = 1
 		start_year = 1936
 
 		folder = {
@@ -1299,7 +1296,7 @@ technologies = {
 			acclimatization_cold_climate_gain_factor = 0.30
 		}
 
-		research_cost = 1
+		research_cost = 0.5
 		start_year = 1936
 
 		folder = {
@@ -1331,9 +1328,8 @@ technologies = {
 		desertinfantry = { breakthrough = 0.03 }
 		shocktroop = { breakthrough = 0.03 }
 
-		special_forces_cap = 0.15
 
-		research_cost = 1
+		research_cost = 0.5
 		start_year = 1936
 
 		folder = {
@@ -1405,9 +1401,7 @@ technologies = {
 		}
 
 
-		special_forces_training_time_factor = 0.3
-
-		research_cost = 2
+		research_cost = 1
 		start_year = 1936
 
 		folder = {
@@ -1429,7 +1423,7 @@ technologies = {
 
 	special_forces_1c = {
 
-		special_forces_cap = 0.25
+		special_forces_min = 32
 
 		research_cost = 0.5
 		start_year = 1936
