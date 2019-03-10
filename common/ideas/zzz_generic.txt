@@ -303,7 +303,7 @@ ideas = {
 			picture = FRA_scw_intervention_nationalists_focus
 			
 			modifier = {
-				special_forces_cap_min = 32 
+				special_forces_min = 32 
 			}
 		}
 		

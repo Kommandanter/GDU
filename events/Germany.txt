@@ -33,6 +33,12 @@ country_event = {
 				add_core_of = GER
 			}
 		}
+		hidden_effect = { 
+			4 = { remove_core_of = AUS }
+			152 = { remove_core_of = AUS }
+			153 = { remove_core_of = AUS } 
+			AUS = { remove_state_claim  = 39 } 
+		}
 		annex_country = { target = AUS transfer_troops = yes }
 		add_political_power = 75
 		custom_effect_tooltip = anschluss_mefo_bills_tt
@@ -1313,7 +1319,12 @@ country_event = {
 			limit = { country_exists = CZE }
 			annex_country = { target = CZE }
 		}
-		
+		hidden_effect = { 
+			every_state = { 
+				limit = { is_core_of = CZE } 
+				remove_core_of = CZE 
+			}
+		}
 		if = {
 			limit = {
 				72 = {
@@ -1356,9 +1367,7 @@ country_event = {
 				is_historical_focus_on = yes
 			}
 		}
-		trigger = {
-			664 = { is_owned_by = HUN }
-		}
+		
 		HUN = { country_event = germany.56 }
 		if = {
 			limit = {
@@ -1413,6 +1422,10 @@ country_event = {
 					value = 200
 				}
 			}
+		}
+		every_state = { 
+			limit = { is_core_of = CZE } 
+			remove_core_of = CZE 
 		}
 		hidden_effect = {
 			country_event = { hours = 6 id = news.61 }

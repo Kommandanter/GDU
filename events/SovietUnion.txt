@@ -18,6 +18,7 @@ country_event = {
 		SOV = {
 			transfer_state = 78
 			transfer_state = 80
+			transfer_state = 766
 		}
 		hidden_effect = {
 			SOV = {
@@ -64,6 +65,10 @@ country_event = {
 	option = {
 		name = soviet.6.a
 		annex_country = { target = EST }
+		hidden_effect = { 
+			191 = { remove_core_of = EST } 
+			13 = { remove_core_of = EST } 
+		}
 	}
 }
 
@@ -97,6 +102,10 @@ country_event = {
 	option = {
 		name = soviet.8.a
 		annex_country = { target = LAT }
+		hidden_effect = { 
+			12 = { remove_core_of = LAT } 
+			190 = { remove_core_of = LAT } 
+		} 
 	}
 }
 
@@ -130,6 +139,11 @@ country_event = {
 	option = {
 		name = soviet.10.a
 		annex_country = { target = LIT }
+		hidden_effect = { 
+			11 = { remove_core_of = LIT } 
+			189 = { remove_core_of = LIT }
+			188 = { remove_core_of = LIT } 
+		}
 	}
 }
 

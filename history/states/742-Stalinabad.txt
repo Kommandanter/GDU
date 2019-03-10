@@ -3,7 +3,6 @@ state={
 	name="STATE_742"
 
 	history={
-		add_core_of = TAJ
 		owner = SOV
 		victory_points = {
 			1384 1
