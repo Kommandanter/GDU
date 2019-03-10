@@ -458,8 +458,14 @@ focus_tree = {
 			add_tech_bonus = { 
 				name = JAP_armored_divisions
 				ahead_reduction = 3.5
-				uses = 2
-				technology = amphibious_tank 
+				uses = 1
+				technology = amphibious_tank
+			}
+			add_tech_bonus = { 
+				name = JAP_armored_divisions
+				ahead_reduction = 3.5
+				uses = 1
+				technology = amphibious_tank_2
 			}
 		}
 	}
