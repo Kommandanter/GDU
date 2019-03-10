@@ -1006,21 +1006,6 @@ ideas = {
 		
 		#Communist
 
-		CHI_xiao_jinguang = {
-			
-			picture = generic_navy_asia_1
-
-			allowed = {
-				original_tag = CHI
-			}
-					
-			traits = { navy_chief_commerce_raiding_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
-
 		#Clique
 
 		CHI_bai_chongxi = {
