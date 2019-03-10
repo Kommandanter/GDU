@@ -39,7 +39,7 @@ on_actions = {
 				}
 				army_experience = 50
 				air_experience = 50
-				
+				navy_experience = 25 
 			}
 		}
 	}
