@@ -1,5 +1,5 @@
 #	Example:
-#
+# 
 #	example_trigger = {
 #		tag = GER
 #		is_ai = no
@@ -11,7 +11,7 @@
 #	trigger = {
 #		example_trigger = yes
 #	}
-#
+# 
 #	THIS FILE IS FOR TRIGGERS SPECIFICALLY FOR THE CHI TAG
 
 is_independent_china_or_warlord = { #Does not include sinkiang
@@ -27,6 +27,41 @@ is_independent_china_or_warlord = { #Does not include sinkiang
 	is_puppet = no
 }
 
+has_hyper_inflation = {
+	if = {
+		limit = { has_idea = CHI_hyper_inflation_1 }
+		has_idea = CHI_hyper_inflation_1
+	}
+	if = {
+		limit = { has_idea = CHI_hyper_inflation_2 }
+		has_idea = CHI_hyper_inflation_2
+	}
+	if = {
+		limit = { has_idea = CHI_hyper_inflation_3 }
+		has_idea = CHI_hyper_inflation_3
+	}
+	if = {
+		limit = { has_idea = CHI_hyper_inflation_4 }
+		has_idea = CHI_hyper_inflation_4
+	}
+	if = {
+		limit = { has_idea = CHI_hyper_inflation_5 }
+		has_idea = CHI_hyper_inflation_5
+	}
+	if = {
+		limit = {
+			NOT = {
+				has_idea = CHI_hyper_inflation_1
+				has_idea = CHI_hyper_inflation_2
+				has_idea = CHI_hyper_inflation_3
+				has_idea = CHI_hyper_inflation_4
+				has_idea = CHI_hyper_inflation_5
+			}
+		}
+		has_idea = CHI_hyper_inflation_1
+	}
+}
+
 is_literally_china = {
 	OR = {
 		original_tag = CHI
@@ -40,7 +75,7 @@ is_literally_china = {
 }
 
 is_chinese_warlord = {
-	OR = {
+	OR = {		
 		original_tag = GXC
 		original_tag = YUN
 		original_tag = SHX

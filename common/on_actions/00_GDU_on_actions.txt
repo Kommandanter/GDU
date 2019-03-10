@@ -23,6 +23,26 @@ on_actions = {
 			}
 		}
 	}
+
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					original_tag = JAP 
+					FROM.FROM = {
+						is_core_of = CHI
+						NOT = { has_state_flag = GDU_JAP_xp_acquired } 
+					}
+				}
+				FROM.FROM = { 
+					set_state_flag = GDU_JAP_xp_acquired 
+				}
+				army_experience = 50
+				air_experience = 50
+				
+			}
+		}
+	}
 	
 	
 	on_capitulation = { 

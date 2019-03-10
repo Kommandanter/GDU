@@ -1178,16 +1178,6 @@ focus_tree = {
 	}
 
 	focus = {
-		id = CHI_united_front
-		icon = GFX_goal_generic_construction
-		x = 0
-		y = 0
-		cost = 10
-
-		completion_reward = { }
-	}
-
-	focus = {
 		id = GER_assassinate_mussolini
 		icon = GFX_goal_generic_construction
 		x = 0
@@ -1268,16 +1258,6 @@ focus_tree = {
 	}
 
 	focus = {
-		id = CHI_foreign_threats
-		icon = GFX_goal_generic_construction
-		x = 0
-		y = 0
-		cost = 10
-
-		completion_reward = { }
-	}
-
-	focus = {
 		id = MAN_five_people_armies
 		icon = GFX_goal_generic_construction
 		x = 0
@@ -1349,16 +1329,6 @@ focus_tree = {
 
 	focus = {
 		id = CHI_dare_to_die_corps
-		icon = GFX_goal_generic_construction
-		x = 0
-		y = 0
-		cost = 10
-
-		completion_reward = { }
-	}
-
-	focus = {
-		id = CHI_war_of_national_liberation
 		icon = GFX_goal_generic_construction
 		x = 0
 		y = 0
@@ -1497,5 +1467,133 @@ focus_tree = {
 		completion_reward = { }
 	}
 	
+	focus = {
+		id = CHI_legislative_yuan
+		icon = GFX_goal_generic_construction
+		x = 0
+		y = 0
+		cost = 10
+
+		completion_reward = { }
+	}
 	
+	focus = {
+		id = CHI_mining_commission
+		icon = GFX_goal_generic_construction
+		x = 0
+		y = 0
+		cost = 10
+
+		completion_reward = { }
+	}
+	
+	focus = {
+		id = CHI_give_falkenhausen_citizenship
+		icon = GFX_goal_generic_construction
+		x = 0
+		y = 0
+		cost = 10
+
+		completion_reward = { }
+	}
+	
+	focus = {
+		id = CHI_chinese_panzers
+		icon = GFX_goal_generic_construction
+		x = 0
+		y = 0
+		cost = 10
+
+		completion_reward = { }
+	}
+	
+	focus = {
+		id = CHI_local_bomber_production
+		icon = GFX_goal_generic_construction
+		x = 0
+		y = 0
+		cost = 10
+
+		completion_reward = { }
+	}
+	
+	focus = {
+		id = CHI_the_soviet_volunteer_group
+		icon = GFX_goal_generic_construction
+		x = 0
+		y = 0
+		cost = 10
+
+		completion_reward = { }
+	}
+	
+	focus = {
+		id = CHI_mission_to_the_soviet_union
+		icon = GFX_goal_generic_construction
+		x = 0
+		y = 0
+		cost = 10
+
+		completion_reward = { }
+	}
+	
+	focus = {
+		id = CHI_combined_arms_warfare
+		icon = GFX_goal_generic_construction
+		x = 0
+		y = 0
+		cost = 10
+
+		completion_reward = { }
+	}
+	
+	focus = {
+		id = PRC_anti_japanese_expedition
+		icon = GFX_goal_generic_construction
+		x = 0
+		y = 0
+		cost = 10
+
+		completion_reward = { }
+	}
+	
+	focus = {
+		id = PRC_marxist_orthodoxy
+		icon = GFX_goal_generic_construction
+		x = 0
+		y = 0
+		cost = 10
+
+		completion_reward = { }
+	}
+	
+	focus = {
+		id = PRC_coalition_government
+		icon = GFX_goal_generic_construction
+		x = 0
+		y = 0
+		cost = 10
+
+		completion_reward = { }
+	}
+	
+	focus = {
+		id = PRC_social_democracy
+		icon = GFX_goal_generic_construction
+		x = 0
+		y = 0
+		cost = 10
+
+		completion_reward = { }
+	}
+	
+	focus = {
+		id = PRC_provoke_japan
+		icon = GFX_goal_generic_construction
+		x = 0
+		y = 0
+		cost = 10
+
+		completion_reward = { }
+	}
 }

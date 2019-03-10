@@ -508,7 +508,6 @@ foreign_support = {
 				factor = 3
 				any_other_country = {
 					has_completed_focus = CHI_mission_to_the_us
-					surrender_progress > 0.2
 					has_defensive_war = yes
 				}
 			}
@@ -524,10 +523,10 @@ foreign_support = {
 			}
 		}
 
-		fire_only_once = no
+		fire_only_once = yes
 
 		modifier = {
-			civilian_factory_use = 5
+			civilian_factory_use = 6
 		}
 
 		days_remove = 180
@@ -541,12 +540,6 @@ foreign_support = {
 
 		remove_effect = {
 			add_war_support = 0.05
-			FROM = {
-				add_offsite_building = { type = arms_factory level = -3 }
-				hidden_effect = {
-					clr_global_flag = USA_support_the_anti_fascist_war_flag
-				}
-			}
 		}
 	}
 
@@ -613,7 +606,7 @@ foreign_support = {
 				send_equipment = {
 					target = FROM
 					type = infantry_equipment
-					amount = 1000
+					amount = 2500
 					old_prioritised = yes
 				}
 			}

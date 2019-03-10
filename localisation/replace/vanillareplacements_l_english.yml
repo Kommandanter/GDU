@@ -56,6 +56,13 @@
  JAP_strike_on_the_southern_resource_area:0 "Begin the Pacific Campaign" 
  JAP_strike_on_the_southern_resource_area_desc:0 "The only place we can obtain the raw resources needed to fuel our war machine is the East Indies. The American Philippines block our path, threatening to cut our logistics if we proceed. However, certain officers in the IJN have formulated a plan. The industry of the allies outmatches us by far, but if we strike quickly and aggressively enough, perhaps it won't matter." 
  JAP_purge_the_kodoha_faction:0 "Aftermath of the Kodoha Incident" 
- JAP_purge_the_kodoha_faction_desc:0 "On February 26, 1936, the Imperial Way Faction, or Kōdōha in Japanese, attempted to stage a coup of the Japanese government. They were rapidly suppressed and jailed, with several purges quickly taking place after. At the end of it all, the IJA emerged as the dominant force in Japanese politics." 
+ JAP_purge_the_kodoha_faction_desc:0 "On February 26, 1936, the Imperial Way Faction, or Kōdōha in Japanese, attempted to stage a coup of the Japanese government. They were rapidly suppressed and jailed, with several purges quickly taking place after. At the end of it all, the IJA and IJN emerged as the dominant force in Japanese politics." 
  JAP_fighter_modernization:0 "Air Modernization Program" 
  JAP_fighter_modernization_desc:0 "Our airforce is decidedly behind the West. A fierce program of air modernization from top-to-bottom is the only way to fix this issue." 
+ 
+ CHI_taiyuan_arsenal:0 "The Liangshan Stockpile" 
+ CHI_taiyuan_arsenal_desc:0 "While seen as an absurd idea, some have been promoting the construction of military industry deep inside our interior, even behind Chongqing. We could only construct a few factories, but it would certainly be hard for the Japanese to reach them."
+ CHI_develop_the_hanyan_arsenal:0 "Develop the Changde Arsenal" 
+ CHI_develop_the_hanyan_arsenal_desc:0 "Changde is a bit more of a practical choice, far enough away from Japan to not be at realistic risk... Right?" 
+ 
+ flying_tigers_tt:0 "Will receive 250 fighters from us." 
