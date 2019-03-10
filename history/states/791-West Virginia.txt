@@ -4,6 +4,14 @@ state={
 	provinces={
 		801 3941 3975 4627 6850 6958 6971 7466 7588 7646 9923 10441 11888 
 	}
-	manpower=0
+	manpower=250000
+	state_category = rural
+	impassable = yes
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 0
+		}
+	}
 	buildings_max_level_factor=1.000
 }
