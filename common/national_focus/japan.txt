@@ -467,6 +467,12 @@ focus_tree = {
 				uses = 1
 				technology = amphibious_tank_2
 			}
+			add_tech_bonus = { 
+				name = JAP_armored_divisions
+				ahead_reduction = 3.5
+				uses = 1
+				technology = amphibious_mechanized_infantry
+			}
 		}
 	}
 
