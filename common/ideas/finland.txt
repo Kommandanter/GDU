@@ -236,7 +236,7 @@ ideas = {
 
 			picture = generic_army_europe_3
 
-			traits = { army_regrouping_3 }
+			traits = { army_regrouping_2 }
 
 			ai_will_do = {
 				factor = 1
