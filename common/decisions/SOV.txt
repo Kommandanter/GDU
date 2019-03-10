@@ -517,6 +517,12 @@ SOV_great_patriotic_war = {
 						damage = 3
 					}
 				}
+				784 = {
+					damage_building = {
+						type = infrastructure
+						damage = 3
+					}
+				}
 				12 = {
 					damage_building = {
 						type = infrastructure
@@ -558,6 +564,12 @@ SOV_great_patriotic_war = {
 		}
 
 		complete_effect = {
+			96 = {
+				damage_building = {
+					type = infrastructure
+					damage = 3
+				}
+			}
 			194 = {
 				damage_building = {
 					type = infrastructure
