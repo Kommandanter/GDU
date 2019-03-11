@@ -453,10 +453,7 @@ technologies = {
 			volkssturm
 		}
 
-		motorized = {
-			max_organisation = 10
-		}
-		mechanized = {
+		category_all_infantry = {
 			max_organisation = 10
 		}
 		category_tanks = {

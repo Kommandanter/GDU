@@ -50,7 +50,7 @@ NDefines.NCountry.BASE_MOBILIZATION_SPEED = 0.04
 NDefines.NCountry.NUM_DAYS_TO_FULLY_DELETE_STOCKPILED_EQUIPMENT = 999
 NDefines.NCountry.MAX_INTELLIGENCE_AIR_DATA_DEVIATION = 0.6 
 NDefines.NCountry.MAX_INTELLIGENCE_MILITARY_DATA_DEVIATION = 0.6 
-NDefines.NCountry.AIR_SUPPLY_CONVERSION_SCALE = 0.25 -- original 0.05 air supply?
+NDefines.NCountry.AIR_SUPPLY_CONVERSION_SCALE = 0.35 -- original 0.05 air supply?
 NDefines.NCountry.RESISTANCE_STRENGTH_FROM_VP = 0.00 -- This disables the resistance mechanic. It was 0.001 in vanilla. Resistance is a poorly implemented mechanic that causes undue stress and incurs heavy hidden, hard to calculate costs on a balance level. Instead, events are implemented into the mod that decrease Germany's/Jap's MP as if they were using suppression cavalry.
 
 NDefines.NCountry.GIE_DIVISION_ATTACK_BONUS_AGAINST_OCCUPIER = 0.05 -- Attack bonus factor against whoever occupies your core territory.
@@ -69,6 +69,8 @@ NDefines.NProduction.EQUIPMENT_BASE_LEND_LEASE_WEIGHT = 1.20
 NDefines.NProduction.LICENSE_EQUIPMENT_BASE_SPEED = -0.20
 NDefines.NProduction.LICENSE_EQUIPMENT_TECH_SPEED_PER_YEAR = -0.000
 NDefines.NProduction.CAPITAL_SHIP_MAX_NAV_FACTORIES_PER_LINE = 10 
+NDefines.NProduction.MIN_NAVAL_EQUIPMENT_CONVERSION_IC_COST_FACTOR = 0.4		-- Minimum fraction of an equipment type's base industry capacity cost to use when converting a naval equipment, such as through ship refitting.
+NDefines.NProduction.MIN_NAVAL_EQUIPMENT_CONVERSION_RESOURCE_COST_FACTOR = 0.4	-- Minimum fraction of an equipment type's base strategic resource cost to use when converting a naval equipment, such as through ship refitting.
 
 NDefines.NBuildings.ANTI_AIR_SUPERIORITY_MULT = 20.0	-- How much air superiority reduction to the enemy does our AA guns? Normally each building level = -1 reduction. With this multiplier.
 NDefines.NBuildings.MAX_SHARED_SLOTS = 50
@@ -78,7 +80,7 @@ NDefines.NBuildings.AIRBASE_CAPACITY_MULT = 100
 NDefines.NBuildings.DESTRUCTION_COOLDOWN_IN_WAR = 120
 
 NDefines.NTechnology.BASE_RESEARCH_POINTS_SAVED = 45.0
-NDefines.NTechnology.BASE_TECH_COST = 100
+NDefines.NTechnology.BASE_TECH_COST = 90
 NDefines.NTechnology.LICENSE_PRODUCTION_TECH_BONUS = 0.00
 NDefines.NTechnology.MAX_TECH_SHARING_bonus = 0.50  			-- Max technology sharing bonus that can be applied instantly
 

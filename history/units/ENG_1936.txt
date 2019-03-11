@@ -815,7 +815,7 @@ instant_effect = {
 			type = support_equipment_1
 			creator = "ENG"
 		}
-		requested_factories = 3
+		requested_factories = 2
 		progress = 0.4
 		efficiency = 50
 	}

@@ -11,6 +11,14 @@ on_actions = {
 			ENG = {
 				country_event = { id = mtg_britain.1 days = 190 } 
 			}
+			#Event to drain GER's manpower in return for no suppression troubles. 
+			GER = { 
+				country_event = { id = gduevents.2 days = 1 } 
+			}
+			#Intro event for Japan 
+			JAP = { 
+				country_event = { id = pfu.28 days = 30 } 
+			}
 			#England had a commanding stake in Iranian and Iraqi oil, as well as Venezuela. We don't give them Venezuela for balance reasons. 
 			PER = {
 				give_resource_rights = { receiver = ENG state = 412 }
