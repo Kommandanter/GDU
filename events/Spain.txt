@@ -203,62 +203,7 @@ country_event = {
 }
 
 # Nationalist Spain Appreciates our Help
-country_event = {
-	id = spain.6
-	title = spain.6.t
-	desc = spain.6.d
-	picture = GFX_report_event_finnish_letter
 
-	trigger = {
-		has_country_flag = promised_help_nationalist_spain
-		SPR = { has_civil_war = yes }
-		any_other_country = {
-			original_tag = SPR
-			has_government = fascism
-			ROOT = { is_lend_leasing = PREV }
-		}
-	}
-
-	mean_time_to_happen = {
-		days = 2
-	}
-
-	option = {
-		name = spain.6.a
-		clr_country_flag = promised_help_nationalist_spain
-		random_other_country = {
-			limit = {
-				original_tag = SPR
-				has_government = fascism
-			}
-			add_opinion_modifier = { target = ROOT modifier = lend_leased_spanish_civil_war }
-		}
-	}
-}
-
-# Republican Spain Appreciates our Help
-country_event = {
-	id = spain.7
-	title = spain.7.t
-	desc = spain.7.d
-	picture = GFX_report_event_spain_civil_war_volunteers_01
-
-	trigger = {
-		has_country_flag = promised_help_republican_spain
-		SPR = { has_civil_war = yes }
-		is_lend_leasing = SPR
-	}
-
-	mean_time_to_happen = {
-		days = 2
-	}
-
-	option = {
-		name = spain.7.a
-		clr_country_flag = promised_help_republican_spain
-		SPR = { add_opinion_modifier = { target = ROOT modifier = lend_leased_spanish_civil_war } }
-	}
-}
 
 # Civil war over. Move Capital
 country_event = {

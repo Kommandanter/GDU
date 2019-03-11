@@ -367,75 +367,7 @@ country_event = {
 
 }
 #Hungary at war, Sweden gets offer to support
-country_event = {
-	id = DOD_hungary.20
-	title = DOD_hungary.20.t
-	desc = DOD_hungary.20.desc
-	picture = GFX_report_event_generic_parliament
-	
-	trigger = {
-		tag = SWE
-		NOT = { has_government = communism }
-		HUN = {
-			has_war = yes
-			has_government = democratic
-			has_idea = HUN_dynastic_ties
-			NOT = { has_war_with = SWE }
-		}
-	}
 
-	mean_time_to_happen = { days = 7 }
-
-	option = { #stay out
-		name = DOD_hungary.20.a
-		ai_chance = {
-			factor = 20
-			modifier = {
-				threat < 0.8
-				factor = 2
-			}
-		}
-		HUN = { country_event = { id = DOD_hungary.21 hours = 24 } }
-		
-	}
-	option = { #send volunteers/support
-		name = DOD_hungary.20.b
-		trigger = {
-			has_manpower > 8000
-			has_equipment = { infantry_equipment > 500 }
-		}
-		ai_chance = {
-			factor = 50
-			modifier = {
-				threat > 80
-				factor = 2
-			}
-			modifier = {
-				HUN = {
-					has_war_with = GER
-				}
-				factor = 2
-			}
-		}
-		HUN = { country_event = { id = DOD_hungary.22 hours = 24 } }
-		
-	}
-	option = { #to war!
-		name = DOD_hungary.20.c
-		ai_chance = {
-			factor = 30
-			modifier = {
-				HUN = {
-					has_war_with = DEN
-				}
-				factor = 1000 #reasonable
-			}
-		}
-		HUN = { country_event = { id = DOD_hungary.23 hours = 24 } }
-		
-	}
-
-}
 #Sweden decides to stay out (SAD!)
 country_event = {
 	id = DOD_hungary.21
@@ -526,55 +458,7 @@ country_event = {
 
 }
 #Sweden at war, Hungary gets offer to support
-country_event = {
-	id = DOD_hungary.24
-	title = DOD_hungary.24.t
-	desc = DOD_hungary.24.desc
-	picture = GFX_report_event_generic_panzer_attack
-	
-	trigger = {
-		tag = HUN
-		has_idea = HUN_dynastic_ties
-		NOT = { has_government = communism }
-		SWE = {
-			has_war = yes
-			NOT = { has_government = communism } 
-			NOT = { has_war_with = HUN }
-		}
-	}
 
-	mean_time_to_happen = { days = 7 }
-
-	option = { #stay out
-		name = DOD_hungary.24.a
-		ai_chance = {
-			factor = 20
-		}
-		SWE = { country_event = { id = DOD_hungary.25 hours = 24 } }
-		
-	}
-	option = { #send volunteers/support
-		name = DOD_hungary.24.b
-		trigger = {
-			has_manpower > 8000
-			has_equipment = { infantry_equipment > 500 }
-		}
-		ai_chance = {
-			factor = 50
-		}
-		SWE = { country_event = { id = DOD_hungary.26 hours = 24 } }
-		
-	}
-	option = { #to war!
-		name = DOD_hungary.24.c
-		ai_chance = {
-			factor = 30
-		}
-		SWE = { country_event = { id = DOD_hungary.27 hours = 24 } }
-		
-	}
-
-}
 #Hungary decides to stay out (SAD!)
 country_event = {
 	id = DOD_hungary.25
@@ -6737,47 +6621,3 @@ country_event = {
 }
 
 #Hungary rearms since there are no one left to oppose
-country_event = {
-	id = DOD_hungary.170
-	title = DOD_hungary.170.t
-	desc = DOD_hungary.170.desc 
-	picture = GFX_report_event_generic_military_parade
-	
-	mean_time_to_happen = { days = 2 }
-
-	trigger = {
-		#Trigger matches bypass trigger for normal rearm process
-		tag = HUN
-		OR = {
-			has_idea = HUN_treaty_of_triannon
-			has_idea = HUN_treaty_of_triannon_2
-		}
-		AND = {
-			ROM = {
-				OR = {
-					exists = no
-					is_puppet = yes
-				}
-			}
-			FRA = {
-				OR = {
-					exists = no
-					is_puppet = yes
-					NOT = { has_completed_focus = FRA_little_entente }
-				}
-			}
-		}
-	}
-
-	option = {# Great
-		name = DOD_hungary.170.a
-		if = {
-			limit = { has_idea = HUN_treaty_of_triannon }
-			remove_ideas = HUN_treaty_of_triannon
-		}
-		if = {
-			limit = { has_idea = HUN_treaty_of_triannon_2 }
-			remove_ideas = HUN_treaty_of_triannon_2
-		}
-	}
-}
