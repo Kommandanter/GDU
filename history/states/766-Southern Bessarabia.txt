@@ -13,7 +13,7 @@ state=
 		owner = ROM
 		buildings = {
 			infrastructure = 4
-			dockyard = 1
+			dockyard = 2
 			6727 = {
 				naval_base = 3
 			}
