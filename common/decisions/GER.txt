@@ -115,9 +115,6 @@ GER_case_anton_category = {
 		}
 		
 		remove_effect = {
-			GER = {
-				annex_country = { target = EFR transfer_troops = no }
-			}
 			if = { 
 				limit = { 
 					OR = { 
@@ -141,6 +138,10 @@ GER_case_anton_category = {
 					}
 				}	
 			}
+			GER = {
+				annex_country = { target = EFR transfer_troops = no }
+			}
+			
 		
 		}
 	}
