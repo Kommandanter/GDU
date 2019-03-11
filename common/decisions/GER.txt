@@ -498,7 +498,7 @@ foreign_politics = {
 					is_in_faction_with = GER 
 					NOT = { tag = GER } 
 				} 
-				country_event = { id = gduevents.3 days = 1 }
+				country_event = { id = gduevents.3 }
 			}
 			
 				

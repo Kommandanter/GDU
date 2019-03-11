@@ -31,3 +31,5 @@
  JAP_fighters:0 "Enables production of §YKI-43 Hayabusa.§!" 
  gduevents14a_tt:0 "§GTransfers the Vichy fleet to Germany upon Case Anton's completion.§!" 
  gduevents14b_tt:0 "§GTransfers the Vichy fleet to Italy upon Case Anton's completion.§!" 
+ GDU_torch_tt:0 "§RIntelligence reports indicate that Germany is likely to violate Vichy neutrality and integrate its territory into the Reich if we do not strike before March, 1942.§!"
+ GDU_usa_torch_war_tt:0 "§RThis decision will lead to war with Vichy France. Make sure you're ready to invade Africa.§!\n\n"

@@ -252,6 +252,7 @@ country_event = {
 	
 }
 
+#Germany chooses who to give Vichy fleet to
 country_event = { 
 	id = gduevents.14 
 	title = gduevents.14.t 
@@ -274,6 +275,21 @@ country_event = {
 		hidden_effect = { 
 			set_global_flag = vichyfleet_ITA
 		}
+
+	}
+	
+}
+
+country_event = { 
+	id = gduevents.15
+	title = gduevents.15.t 
+	desc = gduevents.15.d 
+	picture = GFX_report_event_saf_soldiers 
+	
+	is_triggered_only = yes 
+	
+	option = { 
+		name = gduevents.15.a 
 
 	}
 	

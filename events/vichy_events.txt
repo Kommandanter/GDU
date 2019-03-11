@@ -41,7 +41,16 @@ country_event = {
 	
 	# Prepare for Torch
 	option = {
-		name = vichy.3.a	
+		name = vichy.3.a
+		every_country = { 
+			limit = { 
+				is_in_faction_with = USA  
+			}
+			declare_war_on = {
+				target = EFR
+				type = annex_everything
+			}
+		}
 	}
 }
 

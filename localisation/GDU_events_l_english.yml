@@ -222,6 +222,9 @@
  gduevents.14.d:0 "With our troops preparing to execute Case Anton, the question of the Vichy Fleet remains unanswered. Should we manage to capture the fleet, who should it go to? Ourselves is the obvious answer; we're executing this operation, and are the dominant member of the Axis alliance. However, we could also hand over the fleet to the Italians; they're closer to it, and could perhaps make good use of it in the Mediterranean."
  gduevents.14.a:0 "The fleet is, naturally, German." 
  gduevents.14.b:0 "A fine gift for our friend Mussolini!" 
+ gduevents.15.t:0 "Operation Torch Imminent" 
+ gduevents.15.d:0 "The United States has informed us that Operation Torch, the invasion of North Africa and Vichy France, is about to begin. We need to be ready." 
+ gduevents.15.a:0 "Heard and understood!" 
  pfu.31.t:0 "The Fight Goes On"
  pfu.31.desc:0 "The Battle for France is over, but the war still rages on. Do not leave juste because you lost metropolitan France. \n \n GDU has some interesting mechanics for Free France in your National Focus (on the right) where you can help a lot for Operation Torch and get free divisions from the war in North Africa and later help in the war in Italy/D-Day. \n \n Courage !"
 

@@ -169,11 +169,13 @@ news_event = {
 	title = pfu.30.t
 	desc = pfu.30.desc
 	picture = GFX_news_event_vichy_neutral
+	
+	major = yes 
 
     is_triggered_only = yes
 
 	option = {
-		name = pfu.10.a
+		name = pfu.30.a
 	}
 }
 

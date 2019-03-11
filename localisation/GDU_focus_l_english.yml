@@ -36,6 +36,9 @@
  USA_the_giant_sleeps_desc:0 "Despite the Great Depression, the United States is a bastion of peace and plenty. Let the world fight and destroy itself; we refuse to get drawn into another war. Our concerns are purely domestic."
  USA_indirect_help:0 "Indirect Assistance"
  USA_indirect_help_desc:0 "The Neutrality Act does prohibit the intercontinental shipping of war materials, but it doesn't stop us from sending food and other supplies. There's also nothing against, say, leaving some fighters and firearms on the Canadian border after their sale to private Canadian citizens. It's not our responsibility if they go straight to the United Kingdom after!" 
+ GDU_USA_torch:0 "Prepare for Operation Torch" 
+ GDU_USA_torch_desc:0 "The illegitimate Vichy State is nothing but a German lapdog. It proclaims 'neutrality' in this conflict, but they remain unwilling to join our cause and vulnerable to German occupation on Hitler's whim. Operation Torch calls for an invasion of Vichy possessions as a way to strike the soft underbelly of Europe and put more pressure on the Axis without a full-on invasion of the continent." 
+ 
  
  FRA_revive_naval_construction:0 "Revive our Naval Construction"
  FRA_revive_naval_construction_desc:0 "With the fall of our country, we have to rebuild our industry. Starting with Dockyards we can begin again."
