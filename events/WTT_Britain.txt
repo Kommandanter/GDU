@@ -9,24 +9,6 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	#accept
-	option = {
-		ai_chance = {
-			factor = 80
-			modifier = {
-				has_government = fascism
-				factor = 0
-			}
-			modifier = {
-				is_historical_focus_on = yes
-				factor = 0
-			}
-		}
-		name = wtt_britain.24.a
-		IRE = { transfer_state = 119 }
-		ENG = { add_to_faction = IRE }
-		ENG = { country_event = { id = wtt_britain.28 } }
-	}
 	#decline
 	option = {
 		name = wtt_britain.24.b
@@ -68,12 +50,12 @@ country_event = {
 	}
 }
 
-#Mers-El-Kebir Raid: British informed of rejection; choice of going through with bombardment or not
+#Mers-El-Kebir Raid: British informed of rejection; bombs away! 
 country_event = {
 	id = wtt_britain.27
 	title = wtt_britain.27.t
 	desc = wtt_britain.27.d
-	picture = GFX_report_event_generic_sign_treaty1
+	picture = GFX_report_event_usa_pearl_harbor_airphoto
 
 	is_triggered_only = yes
 	
@@ -83,7 +65,6 @@ country_event = {
 			factor = 85
 		}
 		name = wtt_britain.27.a
-		add_popularity = { ideology = democratic popularity = -0.05 }
 		add_war_support = 0.05
 		random_other_country = {
 			limit = {
@@ -100,59 +81,25 @@ country_event = {
 		hidden_effect = {
 			news_event = { id = news.333 days = 1 }
 		}
-		random_list = {
-			60 = {
-				random_other_country = {
-					limit = {
-						original_tag = EFR
-						has_government = fascism
-					}
-					destroy_ships = {
-						type = destroyer
-						count = 1
-					}
-					destroy_ships = {
-						type = battleship
-						count = 1
-					}
-				}
+
+		EFR = {
+			destroy_ships = {
+				type = ship_hull_light_1
+				count = 6
 			}
-			30 = {
-				random_other_country = {
-					limit = {
-						original_tag = EFR
-						has_government = fascism
-					}
-					destroy_ships = {
-						type = destroyer
-						count = 2
-					}
-					destroy_ships = {
-						type = battleship
-						count = 2
-					}
-				}
+			destroy_ships = { 
+				type = ship_hull_cruiser_1
+				count = 2
 			}
-			10 = {
-				random_other_country = {
-					limit = {
-						original_tag = EFR
-						has_government = fascism
-					}
-					destroy_ships = {
-						type = destroyer
-						count = 4
-					}
-					destroy_ships = {
-						type = battleship
-						count = 3
-					}
-				}
+			destroy_ships = {
+				type = ship_hull_heavy_1 
+				count = 2
 			}
 		}
-	}
 
+	}
 }
+
 
 #MacDonald Proposal - Ireland Accepts
 country_event = {

@@ -338,6 +338,11 @@ on_actions = {
 					}
 
 				}
+				FRA = { 
+					transfer_navy = { 
+						target = EFR 
+					}
+				}
 
 						
 			}

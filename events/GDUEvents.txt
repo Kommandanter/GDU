@@ -252,6 +252,33 @@ country_event = {
 	
 }
 
+country_event = { 
+	id = gduevents.14 
+	title = gduevents.14.t 
+	desc = gduevents.14.d 
+	picture =  GFX_report_event_merchant_ship_01 
+	
+	is_triggered_only = yes 
+	
+	option = { 
+		name = gduevents.14.a
+		custom_effect_tooltip = gduevents14a_tt
+		hidden_effect = { 
+			set_global_flag = vichyfleet_GER 
+		}
+	}
+	
+	option = { 
+		name = gduevents.14.b 
+		custom_effect_tooltip = gduevents14b_tt
+		hidden_effect = { 
+			set_global_flag = vichyfleet_ITA
+		}
+
+	}
+	
+}
+
 	
 	
 	
