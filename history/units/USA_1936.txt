@@ -388,31 +388,33 @@ units = {
 		start_experience_factor = 0.2
 
 	}
-
+}
 
 	##### NAVAL UNITS #####
 
-air_wings = {
-	### 1 USAAF Wing -- Los Angeles
-	378 = {
-		tac_bomber_equipment_0 = {
-			owner = "USA"
-			amount = 250
-		}
+	air_wings = {
+		### 1 USAAF Wing -- Los Angeles
+			378 = {
+				tac_bomber_equipment_0 = {
+				owner = "USA"
+				amount = 250
+			}
 		
-		# 17th Attack Group
-		CAS_equipment_1 = {
-			owner = "USA"
-			amount = 200
+				# 17th Attack Group
+			CAS_equipment_1 = {
+				owner = "USA"
+				amount = 200
+			}
+			nav_bomber_equipment_1 =  {
+				owner = "USA"
+				amount = 100
+			}
 		}
-		nav_bomber_equipment_1 =  {
-			owner = "USA"
-			amount = 100
-		}
-	}
 
 
 }
+
+
 
 
 #########################

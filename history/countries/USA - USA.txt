@@ -237,8 +237,6 @@ give_guarantee = URG
 			improved_heavy_battery = 1
 			dp_secondary_battery = 1
 		}
-		remove_ideas = MTG_naval_treaty_adherent
-		add_ideas = MTG_naval_treaty_adherent_reduced
 	}
 	create_equipment_variant = {
 		name = "Martin M166"
