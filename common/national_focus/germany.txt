@@ -623,6 +623,8 @@ focus_tree = {
 		}
 		
 		completion_reward = {
+			HUN = { add_war_support = 0.3 } 
+			ROM = { add_war_support = 0.3 } 
 			if = {
 				limit = {
 					NOT = { is_in_faction_with = HUN }

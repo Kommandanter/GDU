@@ -284,6 +284,7 @@ propaganda_efforts = {
 
 		visible = {
 			FROM = { NOT = { has_government = ROOT } }
+			FROM = { NOT = { is_in_faction_with = ROOT } } 
 			FROM = {
 				NOT = { is_neighbor_of = ROOT }
 				OR = {
