@@ -163,7 +163,9 @@ foreign_politics = {
 		}	
 	
 		cost = 0
+		
 		days_remove = 14
+		
 		ai_will_do = {
 			factor = 0
 			
@@ -183,6 +185,10 @@ foreign_politics = {
 		
 			declare_war_on = {
 				target = USA 
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = PHI 
 				type = annex_everything
 			}
 			declare_war_on = {
