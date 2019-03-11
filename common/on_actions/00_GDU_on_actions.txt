@@ -119,15 +119,20 @@ on_actions = {
 					
 					}
 					##add checks if general exists
-					remove_unit_leader = 801
-					remove_unit_leader = 802
-					remove_unit_leader = 803
-					remove_unit_leader = 804
-					remove_unit_leader = 805
-					remove_unit_leader = 806
-					remove_unit_leader = 807
-					remove_unit_leader = 808 #René-Émile Godfroy
-					remove_unit_leader = 809
+					remove_unit_leader = 801 # Jean de Lattre de Tassigny
+					remove_unit_leader = 802 # Alphonse Juin
+					remove_unit_leader = 803 # Maurice Gamelin
+					remove_unit_leader = 804 # Maxime Weygand
+					remove_unit_leader = 805 # Alphonse Georges
+					remove_unit_leader = 806 # De Gaulle (We replace him.) 
+					remove_unit_leader = 807 # Philippe leclerc (We replace him) 
+					remove_unit_leader = 808 # Henri Giraud (Captured)
+					remove_unit_leader = 809 # Charles Huntziger
+					remove_unit_leader = 810 # François Darlan
+					remove_unit_leader = 811 # Jean-Marie Charles Abrial
+					remove_unit_leader = 812 # Jean-Pierre Esteva
+					remove_unit_leader = 813 # René-Émile Godfroy
+					remove_unit_leader = 814 # Jean de Laborde
 					add_ideas = FRA_FREE_army
 					set_cosmetic_tag = FRA_FREE
 			
@@ -136,7 +141,7 @@ on_actions = {
 						picture = "Portrait_France_Charles_De_Gaulle.dds"
 						traits = { armor_officer harsh_leader media_personality trait_reckless panzer_leader exiled_leader }
 						skill = 6
-						attack_skill = 6
+						attack_skill = 5
 						defense_skill = 6
 						planning_skill = 3
 						logistics_skill = 4
@@ -176,6 +181,10 @@ on_actions = {
 						picture = "Portrait_France_Emile_Muselier.dds"
 						traits = { spotter }
 						skill = 3
+						attack_skill = 3
+						defense_skill = 3
+						maneuvering_skill = 3
+						coordination_skill = 3
 					}
 					set_country_flag = free_france
 					set_capital = 539
@@ -253,30 +262,41 @@ on_actions = {
 
 					transfer_state = 677
 					transfer_state = 680
+					transfer_state = 553
 					transfer_state = 554
 					transfer_state = 459
 					transfer_state = 460
 					transfer_state = 461
 					transfer_state = 462
-					#transfer_state = 514
-
-					#transfer_state = 557
+					
+					transfer_state = 514  # Desert wastelands 
+					transfer_state = 786
+					transfer_state = 515
+					transfer_state = 782
+					transfer_state = 775
+					
+					transfer_state = 556 # Africa 
+					transfer_state = 557
 					transfer_state = 272
-					transfer_state = 556
+					transfer_state = 776
+					transfer_state = 777
+					transfer_state = 778 
+					transfer_state = 779
+					transfer_state = 780
+					transfer_state = 781
+					
 					transfer_state = 671
 					transfer_state = 670
 					transfer_state = 741
 					transfer_state = 286
 					transfer_state = 513
 
-					transfer_state = 553
 					transfer_state = 543
 					#transfer_state = 708
 					#transfer_state = 706
 					#transfer_state = 268
 					#transfer_state = 713
 					#transfer_state = 730
-					#transfer_state = 515
 					transfer_state = 298
 					set_capital = 26
 					add_ideas = idea_EFR_neutrality
@@ -291,12 +311,6 @@ on_actions = {
 					diplomatic_relation = { country = NZL relation = non_aggression_pact }
 					diplomatic_relation = { country = BRA relation = non_aggression_pact }
 					diplomatic_relation = { country = GER relation = non_aggression_pact }
-					create_corps_commander = {
-						name = "Henri Dentz"
-						picture = "Portrait_France_Generic_land_3.dds" ##looks like the generic portrait is really him
-						traits = { }
-						skill = 1
-					}
 					every_state = {
 						limit = {
 							is_core_of = FRA
@@ -338,6 +352,7 @@ on_actions = {
 					}
 
 				}
+				
 				FRA = { 
 					transfer_navy = { 
 						target = EFR 
