@@ -69,16 +69,30 @@ political_actions = {
 		}
 		
 		complete_effect = {
-			transfer_state = 665
+			transfer_state = 665 # North Africa 
 			transfer_state = 458
 			transfer_state = 460
 			transfer_state = 513
 			transfer_state = 459
 			transfer_state = 461 
 			transfer_state = 462
-			transfer_state = 556
+			
+			transfer_state = 786 # Saharan 
+			transfer_state = 782
+			transfer_state = 515 
+			transfer_state = 514 
+			
+			transfer_state = 556 # Sub-Saharan 	
+			transfer_state = 557 
+			transfer_state = 272 
 			transfer_state = 298
-			transfer_state = 272
+			transfer_state = 780 
+			transfer_state = 779 
+			transfer_state = 778 
+			transfer_state = 781 
+			transfer_state = 776 
+			transfer_state = 777
+			
 		}	
 				
 			
