@@ -182,7 +182,19 @@ foreign_politics = {
 		
 		remove_effect = {
 			custom_effect_tooltip = GDU_Jap_pearlharbor_tt
-		
+			USA = { country_event = gdunews.6 } 
+			USA = { 
+				add_timed_idea = { 
+					idea = USA_pearl_harbor_idea 
+					days = 100
+				}
+			}
+			JAP = { 
+				add_timed_idea = { 
+					idea = JAP_pearl_harbor_idea 
+					days = 100 
+				}
+			}
 			declare_war_on = {
 				target = USA 
 				type = annex_everything
@@ -193,6 +205,10 @@ foreign_politics = {
 			}
 			declare_war_on = {
 				target = ENG 
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = FRA 
 				type = annex_everything
 			}
 			declare_war_on = {

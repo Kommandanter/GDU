@@ -331,6 +331,49 @@ country_event = {  ### Warsaw Uprising
 			NOT = {
 				tag = POL 
 				tag = GER 
+				tag = SOV 
+			}
+		}
+	}
+}
+
+#A date which will live in infamy - December 7, 1941# 
+
+news_event = {  
+	id = gdunews.6
+	title = gdunews.6.t
+	desc = gdunews.6.d
+	picture = GFX_news_event_pearl_harbor
+	is_triggered_only = yes 
+	
+	major = yes 
+	
+	option = {
+		name = gdunews.6.usa 
+		trigger = { 
+			tag = USA 
+		}
+		custom_effect_tooltip = gdunews.6.usa_tt 
+	}
+	option = {
+		name = gdunews.6.ger
+		trigger = { 
+			tag = GER
+		}
+	}
+	option = {
+		name = gdunews.6.jap
+		trigger = { 
+			tag = JAP 
+		}
+	}
+	option = {
+		name = gdunews.6.general
+		trigger = { 
+			NOT = {
+				tag = USA  
+				tag = GER 
+				tag = JAP 
 			}
 		}
 	}

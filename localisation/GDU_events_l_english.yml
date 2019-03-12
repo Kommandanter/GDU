@@ -180,6 +180,14 @@
  gdunews.5.sov:0 "Betrayal? No, we just act in our own interest."
  gdunews.5.general:0 "An even truer David vs. Goliath situation."
  
+ gdunews.6.t:0 "A Date Which Will Live in Infamy" 
+ gdunews.6.d:0 "Yesterday, [GetDateText], a date which will live in infamy, the United States of America was suddenly and deliberately attacked by the Empire of Japan.\n\nUnprovoked and unannounced, Pearl Harbor has been bombed by the IJN. The United States responded with furious outrage and a declaration of war, followed shortly by the rest of the Allies.\n\nThe attack has caused severe damage to America's fleet in the Pacific, and experts believe it will take several months for their force projection capabilities to recover."
+ gdunews.6.usa:0 "They dare attack us?!" 
+ gdunews.6.usa_tt:0 "§ROur fleet will be severely debuffed for 3 months!§!"
+ gdunews.6.ger:0 "Not the best idea Japan's had." 
+ gdunews.6.jap:0 "For the Emperor!" 
+ gdunews.6.general:0 "The war escalates." 
+ 
  gduevents.1.t:0 "The Phoney War"
  gduevents.1.d:0 "Despite being at war with Germany, allied forces and command remain hesitant and unwilling to fight. There remains a lingering hope for peace with the Axis. Only something drastic like a declaration of war from Italy or the improbable collapse of French forces will rouse the Empire from this stupor."
  gduevents.1.a:0 "Surely, there's nothing to be too alarmed about?"

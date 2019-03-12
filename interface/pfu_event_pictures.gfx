@@ -127,6 +127,10 @@ spriteType = {
 		texturefile = "gfx/event_pictures/report_event_royalarmor.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_news_event_pearl_harbor"
+		texturefile = "gfx/event_pictures/news_event_pearl_harbor.dds"
+	}
 	
 }
 	

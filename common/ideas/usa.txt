@@ -2,6 +2,31 @@ ideas = {
 
 	country = {
 	
+		USA_pearl_harbor_idea = { 
+			picture = generic_navy_bonus 
+			
+			allowed = { 
+				always = no 
+			}
+			
+			allowed_civil_war = { 
+			}
+			
+			removal_cost = -1 
+			
+			modifier = { 
+				spotting_chance = -0.5 
+				navy_anti_air_attack_factor = -0.5 
+				sortie_efficiency = -0.5 
+				naval_hit_chance = -0.5 
+				naval_coordination = -0.5 
+				navy_capital_ship_attack_factor = -0.25 
+				navy_carrier_air_attack_factor = -0.25 
+				navy_submarine_attack_factor = -0.25 
+				navy_screen_attack_factor = -0.25 
+			}
+		}
+	
 		USA_early_wakey_idea = {
 			picture = man_five_year_plan_industry
 			allowed = {
