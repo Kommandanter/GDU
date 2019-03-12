@@ -1,4 +1,4 @@
-﻿name="Gotterdammerung MP Alpha 0.7.1: Fall Weiss DEV"
+﻿name="Gotterdammerung MP Beta 1.0: Ostfront"
 path="mod/cfu-gotterdammerung/"
 tags={
 	"Balance"
@@ -7,4 +7,4 @@ tags={
 }
 replace_path = "history/states"
 picture="Warishell.jpg"
-supported_version="1.5.4"
+supported_version="1.6.*"
