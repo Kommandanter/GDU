@@ -278,9 +278,14 @@ create_field_marshal = {
 }
 
 
+
 create_navy_leader = {
 	name = "Herbert Fitzherbert"
 	gfx = "GFX_RAJ_herbert_fitzherbert"
-	traits = { }
-	skill = 3
+	traits = { old_guard_navy }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 1
+	coordination_skill = 2
 }
