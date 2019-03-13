@@ -11,7 +11,161 @@ focus_tree = {
 	}
 	
 	default = no
+	
+	focus = {
+		id = SOV_stalin_constitution
+		icon = GFX_focus_generic_join_comintern 
+		x = 18
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
 
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 160
+			hidden_effect = { 
+				country_event = { id = soviet.24 days = 130 }
+			}
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_great_purge
+		icon = GFX_goal_generic_war_with_comintern
+		available = {
+			has_country_flag = SOV_purge_complete 
+		}
+		prerequisite = { focus = SOV_stalin_constitution } 
+		relative_position_id = SOV_stalin_constitution
+		x = 0
+		y = 2
+		cost = 0
+
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = SOV_great_purge_complete_tt 
+				has_country_flag = SOV_purge_complete
+			}
+		}
+
+		completion_reward = {
+			custom_effect_tooltip = SOV_great_purge_completed
+
+			#Full military purge. Hardest penalty
+			if = {
+				limit = {
+					OR = {
+						has_country_flag = purge_1_group_a
+						has_country_flag = purge_1_group_b
+					}
+					OR = {
+						has_country_flag = purge_2_group_a
+						has_country_flag = purge_2_group_b
+					}
+				}
+				add_timed_idea = {
+					idea = officers_purged
+					days = 2200
+				}
+				hidden_effect = {
+					country_event = { id = soviet.37 days = 146 }
+				}
+				hidden_effect = {
+					news_event = { hours = 6 id = news.219 }
+				}
+			}
+
+		}
+	}
+	
+	focus = {
+		id = SOV_anti_fascist_diplomacy
+		icon = GFX_goal_generic_military_deal
+		
+		prerequisite = { focus = SOV_great_purge } 
+		relative_position_id = SOV_great_purge
+		x = -4
+		y = 1
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 3
+				ai_irrationality < 25
+			}
+
+			modifier = {
+				factor = 0.75
+				ai_irrationality > 30
+			}
+
+			modifier = {
+				factor = 0.5
+				ai_irrationality > 40
+			}
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			USA = { add_opinion_modifier = { target = SOV modifier = anti_fascist_diplomacy_focus } }
+			ENG = { add_opinion_modifier = { target = SOV modifier = anti_fascist_diplomacy_focus } }
+			FRA = { add_opinion_modifier = { target = SOV modifier = anti_fascist_diplomacy_focus } }
+			every_other_country = {
+				limit = { has_government = fascism }
+				add_opinion_modifier = { target = SOV modifier = anti_fascist_diplomacy_fascists }
+			}
+		}
+	}
+	
+	
+	focus = {
+		id = SOV_anti_capitalist_diplomacy
+		icon = GFX_goal_molotov_ribbentrop_pact
+		relative_position_id = SOV_great_purge
+		prerequisite = { focus = SOV_great_purge } 
+		x = 4
+		y = 1
+				
+		cost = 5
+		ai_will_do = {
+			factor = 0.25
+
+			modifier = {
+				factor = 5
+				ai_irrationality > 25
+			}
+
+			modifier = {
+				factor = 5
+				ai_irrationality > 35
+			}
+
+			modifier = {
+				factor = 2
+				ai_irrationality > 40
+			}
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			every_other_country = {
+				limit = { has_government = fascism }
+				add_opinion_modifier = { target = SOV modifier = anti_capitalist_diplomacy_focus }
+			}
+			USA = { add_opinion_modifier = { target = SOV modifier = anti_capitalist_diplomacy_capitalists } }
+			ENG = { add_opinion_modifier = { target = SOV modifier = anti_capitalist_diplomacy_capitalists } }
+			FRA = { add_opinion_modifier = { target = SOV modifier = anti_capitalist_diplomacy_capitalists } }
+		}
+	}
+	
 	focus = {
 		id = SOV_finish_five_year_plan
 		icon = GFX_goal_generic_construct_civ_factory
@@ -629,27 +783,6 @@ focus_tree = {
 	}
 
 	focus = {
-		id = SOV_stalin_constitution
-		icon = GFX_focus_generic_join_comintern 
-		x = 18
-		y = 0
-		cost = 10
-		ai_will_do = {
-			factor = 1
-		}
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_political_power = 160
-			hidden_effect = { 
-				country_event = { id = soviet.24 days = 130 }
-			}
-			
-		}
-	}
-
-	focus = {
 		id = SOV_collectivist_propaganda
 		icon = GFX_goal_generic_propaganda
 		prerequisite = { focus = SOV_stalin_constitution }
@@ -706,7 +839,30 @@ focus_tree = {
 			add_ideas = workers_culture
 		}
 	}
+	
+	focus = {
+		id = SOV_positive_heroism
+		icon = GFX_goal_generic_cavalry
+		x = 27
+		y = 1
+		prerequisite = { focus = SOV_stalin_constitution } 
+		
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
 
+		available_if_capitulated = yes
+
+		completion_reward = {
+			custom_effect_tooltip = available_military_high_command
+			show_ideas_tooltip = konstantin_rokossovsky 
+			custom_effect_tooltip = available_theorist
+			show_ideas_tooltip = georgy_zhukov
+			# REVISIT Might want to add more
+		}
+	}
+	
 	focus = {
 		id = SOV_women_pilots
 		icon = GFX_goal_generic_CAS
@@ -732,29 +888,6 @@ focus_tree = {
 				uses = 1
 				technology = CAS2
 			}
-		}
-	}
-
-	focus = {
-		id = SOV_positive_heroism
-		icon = GFX_goal_generic_cavalry
-		x = 27
-		y = 1
-		prerequisite = { focus = SOV_stalin_constitution } 
-		
-		cost = 10
-		ai_will_do = {
-			factor = 1
-		}
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			custom_effect_tooltip = available_military_high_command
-			show_ideas_tooltip = konstantin_rokossovsky 
-			custom_effect_tooltip = available_theorist
-			show_ideas_tooltip = georgy_zhukov
-			# REVISIT Might want to add more
 		}
 	}
 
@@ -1079,49 +1212,7 @@ focus_tree = {
 			add_ideas = peoples_commissariat_focus
 		}
 	}
-
-	focus = {
-		id = SOV_anti_fascist_diplomacy
-		icon = GFX_goal_generic_military_deal
-		
-		prerequisite = { focus = SOV_great_purge } 
-		relative_position_id = SOV_great_purge
-		x = -4
-		y = 1
-		
-		cost = 5
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				factor = 3
-				ai_irrationality < 25
-			}
-
-			modifier = {
-				factor = 0.75
-				ai_irrationality > 30
-			}
-
-			modifier = {
-				factor = 0.5
-				ai_irrationality > 40
-			}
-		}
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			USA = { add_opinion_modifier = { target = SOV modifier = anti_fascist_diplomacy_focus } }
-			ENG = { add_opinion_modifier = { target = SOV modifier = anti_fascist_diplomacy_focus } }
-			FRA = { add_opinion_modifier = { target = SOV modifier = anti_fascist_diplomacy_focus } }
-			every_other_country = {
-				limit = { has_government = fascism }
-				add_opinion_modifier = { target = SOV modifier = anti_fascist_diplomacy_fascists }
-			}
-		}
-	}
-
+	
 	focus = {
 		id = SOV_far_east_fortification
 		icon = GFX_goal_generic_construct_military
@@ -1400,48 +1491,6 @@ focus_tree = {
 		}
 
 	}
-
-
-	focus = {
-		id = SOV_anti_capitalist_diplomacy
-		icon = GFX_goal_molotov_ribbentrop_pact
-		relative_position_id = SOV_great_purge
-		prerequisite = { focus = SOV_great_purge } 
-		x = 4
-		y = 1
-				
-		cost = 5
-		ai_will_do = {
-			factor = 0.25
-
-			modifier = {
-				factor = 5
-				ai_irrationality > 25
-			}
-
-			modifier = {
-				factor = 5
-				ai_irrationality > 35
-			}
-
-			modifier = {
-				factor = 2
-				ai_irrationality > 40
-			}
-		}
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			every_other_country = {
-				limit = { has_government = fascism }
-				add_opinion_modifier = { target = SOV modifier = anti_capitalist_diplomacy_focus }
-			}
-			USA = { add_opinion_modifier = { target = SOV modifier = anti_capitalist_diplomacy_capitalists } }
-			ENG = { add_opinion_modifier = { target = SOV modifier = anti_capitalist_diplomacy_capitalists } }
-			FRA = { add_opinion_modifier = { target = SOV modifier = anti_capitalist_diplomacy_capitalists } }
-		}
-	}
 	
 	focus = {
 		id = SOV_anti_capitalist_raids
@@ -1559,55 +1608,6 @@ focus_tree = {
 		}
 		completion_reward = {
         add_ideas = wartime_propaganda
-		}
-	}
-
-	focus = {
-		id = SOV_great_purge
-		icon = GFX_goal_generic_war_with_comintern
-		available = {
-			has_country_flag = SOV_purge_complete 
-		}
-		prerequisite = { focus = SOV_stalin_constitution } 
-		relative_position_id = SOV_stalin_constitution
-		x = 0
-		y = 2
-		cost = 0
-
-		bypass = {
-			custom_trigger_tooltip = {
-				tooltip = SOV_great_purge_complete_tt 
-				has_country_flag = SOV_purge_complete
-			}
-		}
-
-		completion_reward = {
-			custom_effect_tooltip = SOV_great_purge_completed
-
-			#Full military purge. Hardest penalty
-			if = {
-				limit = {
-					OR = {
-						has_country_flag = purge_1_group_a
-						has_country_flag = purge_1_group_b
-					}
-					OR = {
-						has_country_flag = purge_2_group_a
-						has_country_flag = purge_2_group_b
-					}
-				}
-				add_timed_idea = {
-					idea = officers_purged
-					days = 2200
-				}
-				hidden_effect = {
-					country_event = { id = soviet.37 days = 146 }
-				}
-				hidden_effect = {
-					news_event = { hours = 6 id = news.219 }
-				}
-			}
-
 		}
 	}
 

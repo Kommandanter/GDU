@@ -14,7 +14,65 @@ focus_tree = {
 
 	default = no
 
+	focus = {
+		id = GER_rhineland
+		icon = GFX_goal_generic_military_sphere
+		x = 12
+		y = 0
+		cost = 10
+		available = { is_puppet = no }
+		bypass = {
+			42 = { is_demilitarized_zone = no }
+			51 = { is_demilitarized_zone = no }
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			42 = { set_demilitarized_zone = no }
+			51 = { set_demilitarized_zone = no }
+			add_political_power = 150
+			army_experience = 15
+			add_named_threat = { threat = 5 name = GER_rhineland }
+			if = {
+				limit = { FRA = { is_puppet = no } }
+				FRA = {
+					country_event = { id = germany.60 }
+				}
+			}
+		}
+	}
 	
+	focus = {
+		id = GER_army_innovation
+		icon = GFX_goal_generic_axis_build_infantry
+		prerequisite = { focus = GER_rhineland }
+		x = 20
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		available = { has_completed_focus = GER_rhineland }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			# Balance research bonus for 2 techs under land_doctrine
+
+			army_experience = 50
+
+
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 1.00 
+				uses = 2
+				category = land_doctrine
+			}
+			custom_effect_tooltip = available_chief_of_army
+			show_ideas_tooltip = walther_von_brauchitsch
+		}
+	}
+
 	focus = {
 		id = GER_four_year_plan
 		icon = GFX_goal_generic_construction
@@ -1207,36 +1265,6 @@ focus_tree = {
 	}
 
 	focus = {
-		id = GER_army_innovation
-		icon = GFX_goal_generic_axis_build_infantry
-		prerequisite = { focus = GER_rhineland }
-		x = 20
-		y = 1
-		cost = 10
-		ai_will_do = {
-			factor = 1
-		}
-		available = { has_completed_focus = GER_rhineland }
-		available_if_capitulated = yes
-
-		completion_reward = {
-			# Balance research bonus for 2 techs under land_doctrine
-
-			army_experience = 50
-
-
-			add_tech_bonus = {
-				name = land_doc_bonus
-				bonus = 1.00 
-				uses = 2
-				category = land_doctrine
-			}
-			custom_effect_tooltip = available_chief_of_army
-			show_ideas_tooltip = walther_von_brauchitsch
-		}
-	}
-
-	focus = {
 		id = GER_soviet_treaty
 		icon = GFX_goal_generic_scientific_exchange
 		prerequisite = { focus = GER_army_innovation }
@@ -1437,35 +1465,6 @@ focus_tree = {
 	}
 
 	focus = {
-		id = GER_rhineland
-		icon = GFX_goal_generic_military_sphere
-		x = 12
-		y = 0
-		cost = 10
-		available = { is_puppet = no }
-		bypass = {
-			42 = { is_demilitarized_zone = no }
-			51 = { is_demilitarized_zone = no }
-		}
-		ai_will_do = {
-			factor = 10
-		}
-		completion_reward = {
-			42 = { set_demilitarized_zone = no }
-			51 = { set_demilitarized_zone = no }
-			add_political_power = 150
-			army_experience = 15
-			add_named_threat = { threat = 5 name = GER_rhineland }
-			if = {
-				limit = { FRA = { is_puppet = no } }
-				FRA = {
-					country_event = { id = germany.60 }
-				}
-			}
-		}
-	}
-
-	focus = {
 		id = GER_anti_comitern_pact
 		icon = GFX_goal_anti_comintern_pact
 		prerequisite = { focus = GER_rhineland  }
@@ -1511,64 +1510,7 @@ focus_tree = {
 			}
 		}
 	}
-
-	focus = {
-		id = GER_ussr_war_goal
-		icon = GFX_goal_generic_war_with_comintern
-		prerequisite = { focus = GER_war_with_france }
-
-		cancel = {
-			NOT = { country_exists = SOV }
-		}
-		x = 0
-		y = 1
-		relative_position_id = GER_war_with_france
-		cost = 1
-		
-		available = {
-			date > 1941.1.1
-		}
-		historical_ai = {
-			NOT = {
-				any_home_area_neighbor_country = {
-					has_war_with = ROOT
-				}
-			}
-		}
-		bypass = {
-			has_war_with = SOV
-		}
-		ai_will_do = {
-			factor = 10
-			modifier = {
-				factor = 0
-				OR = {
-					has_army_manpower = { size < 1199999 }
-					any_home_area_neighbor_country = {
-						has_war_with = ROOT
-					}
-				}
-			}
-			modifier = {
-				factor = 0 #AI should not pick this focus if it does not share a border with the Soviets
-				NOT = {
-					any_home_area_neighbor_country = {
-						tag = SOV
-					}
-				}
-			}
-			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
-				date < 1939.1.1
-			}
-		}
-		completion_reward = {
-			unlock_decision_tooltip = GER_case_barbarossa
-	}
-}
-
-
+	
 	focus = {
 		id = GER_anschluss
 		icon = GFX_goal_anschluss
@@ -1725,7 +1667,7 @@ focus_tree = {
 			}
 		}
 	}
-
+	
 	focus = {
 		id = GER_demand_memel
 		icon = GFX_goal_generic_forceful_treaty
@@ -1764,51 +1706,6 @@ focus_tree = {
 					country_event = { id = baltic.4 }
 				}
 			}
-		}
-	}
-	
-	focus = { #should already be signed in 39
-		id = GER_mol_rib_pact
-		icon = GFX_goal_molotov_ribbentrop_pact
-		prerequisite = { focus = GER_demand_memel }
-		prerequisite = { focus = GER_end_of_czechoslovakia }
-		available = {
-			has_completed_focus = GER_soviet_treaty 
-			is_puppet = no
-			has_government = fascism
-			has_army_manpower = { size > 849999 } #ca 90 div
-			SOV = {
-				NOT = { has_war_with = GER }
-				country_exists = SOV
-			}
-			date > 1939.3.1
-		}
-		cancel = {
-			OR = {
-				has_war_with = SOV
-				NOT = { country_exists = SOV }
-			}
-		}
-		cancel_if_invalid = no
-		x = 0
-		y = 5
-		relative_position_id = GER_rhineland
-		cost = 5
-		ai_will_do = {
-			factor = 10
-			modifier = {
-				factor = 0
-				NOT = { has_completed_focus = GER_anti_comitern_pact }
-			}
-		}
-		completion_reward = {
-			# REVISIT Rework event series to fit new design or retain old design
-			SOV = {
-				country_event = { id = germany.11 days = 1 }
-				custom_effect_tooltip = GER_mol_rib_pact_tt
-				add_named_threat = { threat = 5 name = GER_mol_rib_pact }
-			}
-			add_named_threat = { threat = 5 name = GER_mol_rib_pact } 
 		}
 	}
 	
@@ -1922,67 +1819,7 @@ focus_tree = {
 			}
 		}
 	}
-
-	focus = {
-		id = GER_weserubung
-		icon = GFX_goal_generic_more_territorial_claims
-		prerequisite = { focus = GER_danzig_or_war }
-		will_lead_to_war_with = DEN
-		will_lead_to_war_with = NOR
-
-		bypass = {
-			AND = {
-				OR = {
-					DEN = {
-						is_in_faction_with = GER
-						NOT = { country_exists = DEN }
-					}
-				}
-			}
-		}
-
-		available = {
-			POL = {
-				NOT = { controls_state = 85 }
-				NOT = { controls_state = 10 }
-			}
-			OR = {
-				has_war_with = ENG
-				NOT = {country_exists = ENG}
-			}
-		}
-
-		x = -2
-		y = 1
-		relative_position_id = GER_danzig_or_war
-		cost = 3
-		ai_will_do = {
-			factor = 10
-			modifier = {
-				factor = 0
-				date < 1939.1.1
-			}
-		}
-		completion_reward = {
-
-			custom_effect_tooltip = GER_weserubung_tt
-			unlock_decision_tooltip = GER_weserbung_operation
-
-			add_tech_bonus = {
-				name = tp_bonus
-				bonus = 1.00 
-				ahead_reduction = 1
-				uses = 1
-				technology = transport
-				technology = landing_craft
-				technology = tank_landing_craft
-			}
-			hidden_effect = {
-				news_event = { hours = 6 id = news.233 }
-			}
-		}
-	}
-
+	
 	focus = {
 		id = GER_around_maginot
 		icon = GFX_goal_generic_attack_allies
@@ -2059,6 +1896,211 @@ focus_tree = {
 			unlock_decision_tooltip = GER_fall_gelb
 			hidden_effect = {
 				news_event = { hours = 6 id = news.234 }
+			}
+		}
+	}
+	
+	focus = {
+		id = GER_war_with_france
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = GER_around_maginot focus = GER_weserubung focus = GER_crush_yugoslavia }
+		available = {
+			is_puppet = no
+			NOT = { is_in_faction_with = FRA }
+		}
+		x = 0
+		y = 1
+		relative_position_id = GER_around_maginot
+		cost = 1
+		bypass = {
+			OR = {
+				NOT = { country_exists = FRA }
+				has_war_with = FRA
+			}
+		}
+		historical_ai = {
+			date > 1939.1.1
+			NOT = {
+				any_neighbor_country = {
+					has_war_with = ROOT
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0.05
+				date < 1939.1.1
+			}
+		}
+		completion_reward = {
+			add_named_threat = { threat = 5 name = GER_war_with_france_threat }
+ 			create_wargoal = {
+ 				type = take_state_focus
+ 				target = FRA
+ 				generator = { 28 }
+ 			}
+		}
+	}
+	
+	focus = {
+		id = GER_ussr_war_goal
+		icon = GFX_goal_generic_war_with_comintern
+		prerequisite = { focus = GER_war_with_france }
+
+		cancel = {
+			NOT = { country_exists = SOV }
+		}
+		x = 0
+		y = 1
+		relative_position_id = GER_war_with_france
+		cost = 1
+		
+		available = {
+			date > 1941.1.1
+		}
+		historical_ai = {
+			NOT = {
+				any_home_area_neighbor_country = {
+					has_war_with = ROOT
+				}
+			}
+		}
+		bypass = {
+			has_war_with = SOV
+		}
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				OR = {
+					has_army_manpower = { size < 1199999 }
+					any_home_area_neighbor_country = {
+						has_war_with = ROOT
+					}
+				}
+			}
+			modifier = {
+				factor = 0 #AI should not pick this focus if it does not share a border with the Soviets
+				NOT = {
+					any_home_area_neighbor_country = {
+						tag = SOV
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				date < 1939.1.1
+			}
+		}
+		completion_reward = {
+			unlock_decision_tooltip = GER_case_barbarossa
+	}
+}
+
+	
+	focus = { #should already be signed in 39
+		id = GER_mol_rib_pact
+		icon = GFX_goal_molotov_ribbentrop_pact
+		prerequisite = { focus = GER_demand_memel }
+		prerequisite = { focus = GER_end_of_czechoslovakia }
+		available = {
+			has_completed_focus = GER_soviet_treaty 
+			is_puppet = no
+			has_government = fascism
+			has_army_manpower = { size > 849999 } #ca 90 div
+			SOV = {
+				NOT = { has_war_with = GER }
+				country_exists = SOV
+			}
+			date > 1939.3.1
+		}
+		cancel = {
+			OR = {
+				has_war_with = SOV
+				NOT = { country_exists = SOV }
+			}
+		}
+		cancel_if_invalid = no
+		x = 0
+		y = 5
+		relative_position_id = GER_rhineland
+		cost = 5
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				NOT = { has_completed_focus = GER_anti_comitern_pact }
+			}
+		}
+		completion_reward = {
+			# REVISIT Rework event series to fit new design or retain old design
+			SOV = {
+				country_event = { id = germany.11 days = 1 }
+				custom_effect_tooltip = GER_mol_rib_pact_tt
+				add_named_threat = { threat = 5 name = GER_mol_rib_pact }
+			}
+			add_named_threat = { threat = 5 name = GER_mol_rib_pact } 
+		}
+	}
+
+	focus = {
+		id = GER_weserubung
+		icon = GFX_goal_generic_more_territorial_claims
+		prerequisite = { focus = GER_danzig_or_war }
+		will_lead_to_war_with = DEN
+		will_lead_to_war_with = NOR
+
+		bypass = {
+			AND = {
+				OR = {
+					DEN = {
+						is_in_faction_with = GER
+						NOT = { country_exists = DEN }
+					}
+				}
+			}
+		}
+
+		available = {
+			POL = {
+				NOT = { controls_state = 85 }
+				NOT = { controls_state = 10 }
+			}
+			OR = {
+				has_war_with = ENG
+				NOT = {country_exists = ENG}
+			}
+		}
+
+		x = -2
+		y = 1
+		relative_position_id = GER_danzig_or_war
+		cost = 3
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				date < 1939.1.1
+			}
+		}
+		completion_reward = {
+
+			custom_effect_tooltip = GER_weserubung_tt
+			unlock_decision_tooltip = GER_weserbung_operation
+
+			add_tech_bonus = {
+				name = tp_bonus
+				bonus = 1.00 
+				ahead_reduction = 1
+				uses = 1
+				technology = transport
+				technology = landing_craft
+				technology = tank_landing_craft
+			}
+			hidden_effect = {
+				news_event = { hours = 6 id = news.233 }
 			}
 		}
 	}
@@ -2356,50 +2398,6 @@ focus_tree = {
 			custom_effect_tooltip = end_of_czechoslovakia_mefo_bills_tt
 		}
 	}
-
-	focus = {
-		id = GER_war_with_france
-		icon = GFX_goal_generic_major_war
-		prerequisite = { focus = GER_around_maginot focus = GER_weserubung focus = GER_crush_yugoslavia }
-		available = {
-			is_puppet = no
-			NOT = { is_in_faction_with = FRA }
-		}
-		x = 0
-		y = 1
-		relative_position_id = GER_around_maginot
-		cost = 1
-		bypass = {
-			OR = {
-				NOT = { country_exists = FRA }
-				has_war_with = FRA
-			}
-		}
-		historical_ai = {
-			date > 1939.1.1
-			NOT = {
-				any_neighbor_country = {
-					has_war_with = ROOT
-				}
-			}
-		}
-		ai_will_do = {
-			factor = 10
-			modifier = {
-				factor = 0.05
-				date < 1939.1.1
-			}
-		}
-		completion_reward = {
-			add_named_threat = { threat = 5 name = GER_war_with_france_threat }
- 			create_wargoal = {
- 				type = take_state_focus
- 				target = FRA
- 				generator = { 28 }
- 			}
-		}
-	}
-	
 	
 	focus = {
 		id = GER_naval_rearmament

@@ -35,7 +35,7 @@ country_event = {
 		NOT = { 
 			AND = { 
 				tag = USA 
-				date < 1.1.1949
+				date < 1949.1.1
 			} 
 		}
 		OR = { NOT = { tag = SPR } NOT = { date < 1937.1.1 } }
@@ -111,7 +111,7 @@ country_event = {
 		NOT = { 
 			AND = { 
 				tag = USA 
-				date < 1.1.1949
+				date < 1949.1.1
 			} 
 		}
 		OR = { NOT = { tag = SPR } NOT = { date < 1937.1.1 } }
@@ -171,7 +171,7 @@ country_event = {
 		NOT = { 
 			AND = { 
 				tag = USA 
-				date < 1.1.1949
+				date < 1949.1.1
 			} 
 		}
 		OR = { NOT = { tag = SPR } NOT = { date < 1937.1.1 } }
@@ -253,7 +253,7 @@ country_event = {
 		NOT = { 
 			AND = { 
 				tag = USA 
-				date < 1.1.1949
+				date < 1949.1.1
 			} 
 		}
 		OR = { NOT = { tag = SPR } NOT = { date < 1937.1.1 } }
@@ -327,7 +327,7 @@ country_event = {
 		NOT = { 
 			AND = { 
 				tag = USA 
-				date < 1.1.1949
+				date < 1949.1.1
 			} 
 		}
 		OR = { NOT = { tag = SPR } NOT = { date < 1937.1.1 } }
@@ -400,7 +400,7 @@ country_event = {
 		NOT = { 
 			AND = { 
 				tag = USA 
-				date < 1.1.1949
+				date < 1949.1.1
 			} 
 		}
 		OR = { NOT = { tag = SPR } NOT = { date < 1937.1.1 } }
@@ -549,7 +549,7 @@ country_event = {
 		NOT = { 
 			AND = {
 				Tag = USA
-				date < 1.1.1949
+				date < 1949.1.1
 			}
 		}
 		has_government = democratic
@@ -601,7 +601,7 @@ country_event = {
 		NOT = { 
 			AND = { 
 				tag = USA 
-				date < 1.1.1949
+				date < 1949.1.1
 			} 
 		}
 		OR = { NOT = { tag = SPR } NOT = { date < 1937.1.1 } }
@@ -660,7 +660,7 @@ country_event = {
 		NOT = { 
 			AND = { 
 				tag = USA 
-				date < 1.1.1949
+				date < 1949.1.1
 			} 
 		}
 		OR = { NOT = { tag = SPR } NOT = { date < 1937.1.1 } }
@@ -720,7 +720,7 @@ country_event = {
 		NOT = { 
 			AND = { 
 				tag = USA 
-				date < 1.1.1949
+				date < 1949.1.1
 			} 
 		}
 		OR = { NOT = { tag = SPR } NOT = { date < 1937.1.1 } }
@@ -747,7 +747,7 @@ country_event = {
 		NOT = { 
 			AND = { 
 				tag = USA 
-				date < 1.1.1949
+				date < 1949.1.1
 			}
 		}
 		OR = { NOT = { tag = SPR } NOT = { date < 1937.1.1 } }

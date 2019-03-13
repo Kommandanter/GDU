@@ -1519,8 +1519,8 @@ political_actions = {
         }
 
         modifier = {
-            research_speed_factor = 0.04
-            stability_factor = -0.015
+            research_speed_factor = 0.03
+            stability_factor = -0.02
         }
         complete_effect = {
 			set_country_flag = ger_research
@@ -1571,8 +1571,8 @@ political_actions = {
         }
 
         modifier = {
-            research_speed_factor = 0.04
-            stability_factor = -0.015
+            research_speed_factor = 0.03
+            stability_factor = -0.02
         }
         complete_effect = {
 			set_country_flag = ita_research
