@@ -1032,6 +1032,10 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		
+		available = { 
+			threat > 0.1 
+		}
 		bypass = {
 			AND = {
 				custom_trigger_tooltip =  {
@@ -1196,7 +1200,7 @@ focus_tree = {
 		prerequisite = { focus = USA_arsenal_of_democracy }
 		
 		available = {
-			threat > 0.15 
+			threat > 0.2 
 				
 		}
 

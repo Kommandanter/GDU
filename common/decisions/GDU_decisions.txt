@@ -282,7 +282,13 @@ foreign_politics = {
 			any_country = {
 				original_tag = PER 
 			}
-			controls_state = 291 
+			OR = { 
+				controls_state = 291 
+				ITA = { controls_state = 291 } 
+				ROM = { controls_state = 291 } 
+				HUN = { controls_state = 291 } 
+				BUL = { controls_state = 291 } 
+			}
 		}
 		
 		fire_only_once = yes
@@ -442,6 +448,9 @@ foreign_politics = {
 			OR = { 
 				NOT = { 
 					447 = { is_fully_controlled_by = ENG } 
+				}
+				NOT = { 
+					454 = { is_fully_controlled_by = ENG } 
 				}
 				date > 1940.6.1 
 			}
