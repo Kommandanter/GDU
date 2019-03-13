@@ -1,0 +1,301 @@
+﻿add_namespace = gduevents
+
+#### Event that gives phoney war to allies ####
+country_event = { 
+	id = gduevents.1
+	title = gduevents.1.t
+	desc = gduevents.1.d
+	picture = GFX_report_event_canadian_soldiers
+	
+	trigger = {
+		has_global_flag = war_is_hell 
+		NOT = {
+			has_country_flag = war_is_hell_2
+		}
+		OR = { 
+			tag = IRE 
+			tag = HOL
+			tag = ENG
+			is_in_faction_with = ENG 
+		}
+		NOT = { tag = FRA }
+		NOT = { tag = USA }
+	}
+		
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	immediate = { 
+		set_country_flag = war_is_hell_2
+	}
+	
+	option = {
+		name = gduevents.1.a
+		trigger = { NOT = { tag = FRA } } 
+		add_timed_idea = { idea = alli_phoney_war days = 240 }
+		add_ideas = war_economy
+	
+	}
+	
+	
+	
+}
+#on action 
+country_event = { 
+	id = gduevents.2
+	title = gduevents.2.t
+	desc = gduevents.2.d
+	picture = GFX_report_event_fall_blau
+	
+	is_triggered_only = yes 
+	
+	fire_only_once = yes 
+	
+	immediate = { 
+		hidden_effect = { 
+			add_manpower = -275000
+		}
+	}
+	
+	option = {
+		name = gduevents.2.a
+	}
+	
+	
+}
+
+# This event is triggered by Germany's decision to begin Barbarossa, unlocked by the USSR wargoal focus for GER. It warns the Axis of what's coming. 
+
+country_event = { 
+	id = gduevents.3
+	title = gduevents.3.t
+	desc = gduevents.3.d
+	picture = GFX_report_event_fall_blau
+	
+	is_triggered_only = yes
+		
+	fire_only_once = yes 
+	
+	option = {
+		name = gduevents.3.a
+	}
+	
+	
+}
+
+country_event = { 
+	id = gduevents.4
+	title = gduevents.4.t
+	desc = gduevents.4.d
+	picture = GFX_report_event_soviet_tanks
+	
+	is_triggered_only = yes
+		
+	fire_only_once = yes 
+	
+	option = {
+		name = gduevents.4.a
+		custom_effect_tooltip = SOV_barbarossa_tooltip
+	}
+	
+	
+}
+
+##Soviet 227 event
+
+country_event = { 
+	id = gduevents.5 
+	title = gduevents.5.t 
+	desc = gduevents.5.d
+	picture = GFX_report_event_stalin_01
+	
+	is_triggered_only = yes 
+	
+	fire_only_once = yes 
+	
+	option = { 
+		name = gduevents.5.a 
+	}
+	
+}
+
+country_event = {
+	id = gduevents.6
+	title = gduevents.6.t
+	desc = gduevents.6.d
+	picture = GFX_report_event_merchant_ship_01
+
+	is_triggered_only = yes
+	
+	#Praise the Americans!
+	option = {
+		name = gduevents.6.a
+		effect_tooltip = {
+			add_equipment_to_stockpile = { type = convoy amount = 200 producer = USA }
+		}
+	}
+}
+
+country_event = {
+	id = gduevents.7
+	title = gduevents.7.t
+	desc = gduevents.7.d
+	picture = GFX_report_event_generic_factory 
+
+	is_triggered_only = yes
+	
+	#Praise the Americans!
+	option = {
+		name = gduevents.7.a
+		effect_tooltip = {
+			add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 20000 producer = USA }
+			add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 500 producer = USA }
+			add_equipment_to_stockpile = { type = support_equipment_1 amount = 500 producer = USA }
+		}
+	}
+}
+
+country_event = {
+	id = gduevents.8
+	title = gduevents.8.t
+	desc = gduevents.8.d
+	picture = GFX_report_event_fighters
+
+	is_triggered_only = yes
+	
+	#Praise the Americans!
+	option = {
+		name = gduevents.8.a
+		effect_tooltip = {
+			add_equipment_to_stockpile = { type = fighter_equipment amount = 650 producer = USA }
+		}
+	}
+}
+
+country_event = {
+	id = gduevents.9
+	title = gduevents.9.t
+	desc = gduevents.9.d
+	picture = GFX_report_event_fighters
+
+	is_triggered_only = yes
+	
+	#Praise the Americans!
+	option = {
+		name = gduevents.9.a
+		effect_tooltip = {
+			add_equipment_to_stockpile = { type = CAS_equipment amount = 300 producer = USA }
+		}
+	}
+}
+
+country_event = {
+	id = gduevents.10
+	title = gduevents.10.t
+	desc = gduevents.10.d
+	picture = GFX_report_event_generic_bombers
+
+	is_triggered_only = yes
+	
+	#Praise the Americans!
+	option = {
+		name = gduevents.10.a
+		effect_tooltip = {
+			add_equipment_to_stockpile = { type = tac_bomber_equipment amount = 200 producer = USA }
+		}
+	}
+}
+##Countenance event for Soviets 
+country_event = {
+	id = gduevents.11
+	title = gduevents.11.t
+	desc = gduevents.11.d
+	picture = GFX_report_event_canadian_soldiers
+
+	is_triggered_only = yes
+	
+	option = {
+		name = gduevents.11.a
+	}
+}
+
+##Countenance event for UK 
+country_event = {
+	id = gduevents.12
+	title = gduevents.12.t
+	desc = gduevents.12.d
+	picture = GFX_report_event_canadian_soldiers
+
+	is_triggered_only = yes
+	
+	option = {
+		name = gduevents.11.a
+	}
+}
+
+##Yamamoto's Warning to JAP player 
+
+country_event = { 
+	id = gduevents.13 
+	title = gduevents.13.t 
+	desc = gduevents.13.d 
+	picture = GFX_report_event_japanese_officers 
+	
+	is_triggered_only = yes 
+	
+	option = { 
+		name = gduevents.13.a 
+
+	}
+	
+}
+
+#Germany chooses who to give Vichy fleet to
+country_event = { 
+	id = gduevents.14 
+	title = gduevents.14.t 
+	desc = gduevents.14.d 
+	picture =  GFX_report_event_merchant_ship_01 
+	
+	is_triggered_only = yes 
+	
+	option = { 
+		name = gduevents.14.a
+		custom_effect_tooltip = gduevents14a_tt
+		hidden_effect = { 
+			set_global_flag = vichyfleet_GER 
+		}
+	}
+	
+	option = { 
+		name = gduevents.14.b 
+		custom_effect_tooltip = gduevents14b_tt
+		hidden_effect = { 
+			set_global_flag = vichyfleet_ITA
+		}
+
+	}
+	
+}
+
+country_event = { 
+	id = gduevents.15
+	title = gduevents.15.t 
+	desc = gduevents.15.d 
+	picture = GFX_report_event_saf_soldiers 
+	
+	is_triggered_only = yes 
+	
+	option = { 
+		name = gduevents.15.a 
+
+	}
+	
+}
+
+	
+	
+	
+	

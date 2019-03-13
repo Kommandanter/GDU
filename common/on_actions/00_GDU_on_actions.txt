@@ -1,4 +1,45 @@
 on_actions = {
+
+	#THIS IS THE AIRBASE LIMITER. For exact states, go see GDU_scripted_triggers.# 
+	on_daily = { 
+		effect = {
+			#Small airbase limiter 
+			every_state = { 
+				limit = {
+					AND = { 
+						airbase_state_small = yes 
+						air_base > 1 
+					}
+				}
+				remove_building = { 
+					type = air_base 
+					level = 1 
+				}
+				controller = { 
+					PREV = { save_event_target_as = GDU_badairport1 } 
+					country_event = { id = gduairlimiter.1 }
+				}
+			}
+			#Medium airbase limiter. 
+			every_state = { 
+				limit = {
+					AND = { 
+						airbase_state_medium = yes 
+						air_base > 3 
+					}
+				}
+				remove_building = { 
+					type = air_base 
+					level = 1 
+				}
+				controller = { 
+					PREV = { save_event_target_as = GDU_badairport2 } 
+					country_event = { id = gduairlimiter.2 }
+				} 
+			}
+		}
+	}
+
 	on_startup = {
 		effect = {
 			#We give Japan Siam's rubber because the AI isn't going to trade Germany back and now we need one less player to start the game. 
