@@ -173,6 +173,7 @@ country_event = {
 		add_state_claim = 146
 		add_state_claim = 147
 		add_state_claim = 189
+		add_state_claim = 784 
 		add_state_claim = 78
 		add_state_claim = 89
 		add_state_claim = 91
@@ -195,6 +196,7 @@ country_event = {
 			}
 
 			POL = {
+				remove_state_core = 784
 				remove_state_core = 78
 				remove_state_core = 89
 				remove_state_core = 91
@@ -348,6 +350,21 @@ country_event = {
 				}
 			}
 			SOV = { transfer_state = 96 }
+		}
+		if = {
+			limit = {
+				784 = {
+					OR = {
+						is_controlled_by = GER
+						any_other_country = {
+							controls_state = 784
+							is_in_faction_with = GER
+							GER = { is_faction_leader = yes }
+						}
+					}
+				}
+			}
+			SOV = { transfer_state = 784 }
 		}
 		if = {
 			limit = {
