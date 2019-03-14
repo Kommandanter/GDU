@@ -1371,7 +1371,7 @@ focus_tree = {
 			add_offsite_building = { type = arms_factory level = 2 }
 			add_tech_bonus = {
 				name = FRA_army_reform
-				bonus = 0.3
+				bonus = 1.0
 				uses = 2
 				category = land_doctrine
 			}
