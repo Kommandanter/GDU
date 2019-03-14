@@ -2,7 +2,6 @@ state={
 	id=274
 	name="STATE_274"
 	resources={
-		rubber=4
 		aluminium=26
 	}
 	state_category = rural
