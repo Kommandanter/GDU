@@ -4,10 +4,6 @@ state={
 	
 	state_category = pastoral
 
-	resources={
-		rubber=3 
-	}
-
 	history={
 		owner = BEL
 		buildings = {
