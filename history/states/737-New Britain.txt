@@ -1,6 +1,10 @@
 state={
 	id=737
 	name="STATE_737"
+	
+	resources={
+		rubber=11
+	}
 
 	history={
 		owner = AST
