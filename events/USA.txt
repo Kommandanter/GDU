@@ -1095,7 +1095,7 @@ country_event = {
 	}
 
 	immediate = {   
-		country_event = { id = usa.60 days = 10 random = 15 } 
+		country_event = { id = usa.60 days = 10 } 
 	} 
 }
 
@@ -1254,7 +1254,7 @@ country_event = {
 			}
 		}
 		hidden_effect = {
-			country_event = { id = usa.50 days = 140 random = 10 }
+			country_event = { id = usa.50 days = 180 }
 		}
 	}
 }
