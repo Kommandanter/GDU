@@ -261,11 +261,12 @@ country_event = {
 	#Surrender and offer territory
 	option = {
 		name = finland.7.a
+		give_military_access = SOV 
 		ai_chance = {
 			base = 8
 		}
 		SOV = {
-			country_event = { id = finland.8 }
+			country_event = { id = finland.8 days = 20 }
 			white_peace = FIN
 			transfer_state = 146
 			transfer_state = 147
@@ -288,6 +289,13 @@ country_event = {
 	#Accept surrender
 	option = {
 		name = finland.8.a
+		SOV = { 
+				diplomatic_relation = {
+				country = FIN
+				relation = military_access
+				active = no
+				}
+			}
 		ai_chance = {
 			base = 9
 		}
