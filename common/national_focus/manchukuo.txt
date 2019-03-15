@@ -298,54 +298,6 @@ focus_tree = {
 	}
 
 	focus = {
-		id = MAN_research_and_education_department
-		icon = GFX_focus_research
-		prerequisite = { focus = MAN_law_university }
-		x = 0
-		y = 1
-		relative_position_id = MAN_law_university
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-			OR = {
-				num_of_factories > 50
-				all_state = {
-					OR = {
-						NOT = { is_core_of = CHI }
-						NOT = { is_core_of = PRC }
-						OR = {
-							is_controlled_by = ROOT
-							CONTROLLER = { is_in_faction_with = ROOT }
-							CONTROLLER = { is_subject_of = ROOT }
-						}
-					}
-				}
-			}
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		complete_tooltip = {
-
-		}
-
-		completion_reward = {
-			add_research_slot = 1
-		}
-	}
-
-	focus = {
 		id = MAN_trade_delegation
 		icon = GFX_goal_generic_trade
 		prerequisite = { focus = MAN_pacify_the_countryside }

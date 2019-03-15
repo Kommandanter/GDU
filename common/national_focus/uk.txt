@@ -3578,6 +3578,22 @@ focus_tree = {
 			}
 		}
 	}
+	
+	focus = {
+		id = uk_extra_tech_slot_2
+		icon = GFX_focus_research
+		prerequisite = { focus = ENG_blood_toil_tears }
+		x = 0
+		y = 2
+		relative_position_id = ENG_blood_toil_tears
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
 
 	focus = {
 		id = ENG_maintaining_imperial_integrity

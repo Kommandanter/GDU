@@ -1074,6 +1074,8 @@ focus_tree = {
 		}
 
 		completion_reward = {
+		
+			add_ideas = GER_air_innovations_2_idea
 
 			air_experience = 50
 
@@ -1326,7 +1328,6 @@ focus_tree = {
 				uses = 2
 				category = air_doctrine
 			}
-			add_ideas = GER_air_innovations_2_idea
 			# Balance research bonus to next tech among radio, radio_detection, decimetric_radar, improved_decimetric_radar, centimetric_radar, improved_centimetric_radar, advanced_centimetric_radar
 			add_tech_bonus = {
 				name = air_bonus
@@ -1337,7 +1338,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = radar_tech_bonus
 				bonus = 1.00 
-				uses = 2
+				uses = 3
 				category = radar_tech
 			}
 			if = {

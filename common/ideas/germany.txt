@@ -616,11 +616,32 @@ ideas = {
 			}
 
 			picture = generic_air_bonus
-
+			
+			equipment_bonus = {
+				fighter_equipment = {
+					air_agility = 0.05
+					air_attack = 0.05
+					air_defence = 0.05
+					instant = yes
+				}
+				CAS_equipment = {
+					air_agility = 0.05
+					air_ground_attack = 0.05
+					instant = yes
+				}
+				tac_bomber_equipment = {
+					reliability = 0.05
+					air_ground_attack = 0.05
+					instant = yes
+				}
+			}
+			
 			research_bonus = {
-				air_doctrine = 0.10
+				air_doctrine = 0.2
 				jet_technology = 0.10
 			}
+			
+			
 			modifier = { 
 				air_ace_generation_chance_factor = 0.15
 			} 
