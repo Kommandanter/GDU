@@ -302,40 +302,5 @@ air_night_day_bombing_ratios = {
 }
 
 #Battlefield Support tree
-formation_flying = {
-	enable = {
-		has_tech = formation_flying
-	}
-	abort = {
-		always = no
-	}
-	
-	ai_strategy = {
-		type = unit_ratio
-		id = interceptor
-		value = 20
-	}
-
-	ai_strategy = {
-		type = unit_ratio
-		id = cas
-		value = 50
-	}
-}
 
 #Operational Integrity tree
-force_rotation = {
-	enable = {
-		has_tech = force_rotation
-	}
-	abort = {
-		always = no
-	}
-	
-	ai_strategy = {
-		type = unit_ratio
-		id = fighter
-		value = 30
-	}
-	
-}

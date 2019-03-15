@@ -207,12 +207,7 @@ if = {
 		defence_in_depth = 1
 		battlefleet_concentration = 1
 		submarine_operations = 1
-
-		#Air
-		formation_flying = 1
-		dive_bombing = 1
-		direct_ground_support = 1
-
+		
 		#electronics
 		electronic_mechanical_engineering = 1
 		radio = 1

@@ -229,13 +229,7 @@ create_country_leader = {
 		basic_carrier = 1
 		improved_carrier = 1
 
-		#doctrines
-		#Air
-		air_superiority = 1
-		home_defence = 1
-		naval_strike_tactics = 1
-
-			grand_battle_plan = 1
+		grand_battle_plan = 1
 
 		prepared_defense = 1
 		battlefleet_concentration = 1

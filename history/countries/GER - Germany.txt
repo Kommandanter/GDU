@@ -36,7 +36,6 @@ set_technology = {
 	convoy_interdiction_ti = 1
 	unrestricted_submarine_warfare = 1
 	raider_patrols = 1
-	formation_flying = 1
 	synth_oil_experiments = 1
 	support_weapons = 1
 	tech_field_hospital = 1
@@ -207,10 +206,6 @@ set_war_support = 0.40
 		convoy_interdiction_ti = 1
 		unrestricted_submarine_warfare = 1
 		raider_patrols = 1
-		#air
-		formation_flying = 1
-		dive_bombing = 1
-		direct_ground_support = 1
 
 		#electronics
 		electronic_mechanical_engineering = 1

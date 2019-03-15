@@ -42,7 +42,6 @@ oob = "CRO_1936"
 	naval_bomber1 = 1
 	mobile_warfare = 1
 	trade_interdiction = 1
-	formation_flying = 1
 	synth_oil_experiments = 1
 	transport = 1
 
@@ -51,10 +50,6 @@ oob = "CRO_1936"
 		elastic_defence = 1
         mobile_infantry = 1
 		mass_motorization = 1
-		#air
-		formation_flying = 1
-		dive_bombing = 1
-		direct_ground_support = 1
 
 		#electronics
 		electronic_mechanical_engineering = 1

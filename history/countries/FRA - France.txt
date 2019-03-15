@@ -127,14 +127,7 @@ if = {
 		basic_battleship = 1
 		basic_battlecruiser = 1
 
-		#doctrines
-		#Air
-		force_rotation = 1
-		fighter_baiting = 1
-		low_echelon_support = 1
-		dispersed_fighting = 1
-
-			grand_battle_plan = 1
+		grand_battle_plan = 1
 
 		trench_warfare = 1
 		prepared_defense = 1

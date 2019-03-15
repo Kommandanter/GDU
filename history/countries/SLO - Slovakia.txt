@@ -38,7 +38,6 @@ oob = "SLO_1939"
 		naval_bomber1 = 1
 		mobile_warfare = 1
 		trade_interdiction = 1
-		formation_flying = 1
 		synth_oil_experiments = 1
 		transport = 1
 
@@ -47,10 +46,6 @@ oob = "SLO_1939"
 		elastic_defence = 1
         mobile_infantry = 1
 		mass_motorization = 1
-		#air
-		formation_flying = 1
-		dive_bombing = 1
-		direct_ground_support = 1
 
 		#electronics
 		electronic_mechanical_engineering = 1
@@ -99,8 +94,6 @@ oob = "SLO_1939"
 	complete_national_focus = production_effort
 
 	set_technology = {
-		#doctrines
-		formation_flying = 1
 		grand_battle_plan = 1
 		trench_warfare = 1
 
