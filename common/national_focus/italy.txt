@@ -463,6 +463,48 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
+			663 = { 
+				add_building_construction = {
+						type = bunker 
+						level = 2
+						province = 13238
+						instant_build = yes
+					}
+					
+				add_building_construction = {
+						type = bunker 
+						level = 2
+						province = 13240
+						instant_build = yes
+					}
+				add_building_construction = {
+						type = bunker 
+						level = 2
+						province = 1060
+						instant_build = yes
+					}
+					
+				add_building_construction = {
+						type = bunker 
+						level = 2
+						province = 4060
+						instant_build = yes
+					}
+				add_building_construction = {
+						type = bunker 
+						level = 2
+						province = 13236
+						instant_build = yes
+					}
+			}
+			451 = {		
+				add_building_construction = {
+						type = bunker 
+						level = 2
+						province = 10120
+						instant_build = yes
+					}
+			}
 			450  = {
 				if = {
 					limit = { is_controlled_by = ROOT }
