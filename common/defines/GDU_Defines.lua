@@ -107,6 +107,8 @@ NDefines.NMilitary.XP_GAIN_PER_OVERRUN_UNIT = 0.00
 NDefines.NMilitary.XP_GAIN_FOR_SHATTERING = 0.00
 NDefines.NMilitary.CONSTANT_XP_RATIO_FOR_MULTIPLE_LEADERS_IN_SAME_COMBAT = 0.0 -- if there are multiple leaders in same combat, each one gets thisratio + (1-thisratio)/num leaders. amount of xp each general gets scales 1 0.75 0.66 etc for 1 2 3 generals
 
+NDefines.NMilitary.MAX_DIVISION_SUPPORT_HEIGHT = 6
+
 NDefines.NMilitary.GARRISON_ORDER_ARMY_CAP_FACTOR = 1.5
 NDefines.NMilitary.CORPS_COMMANDER_DIVISIONS_CAP = 200
 NDefines.NMilitary.FIELD_MARSHAL_DIVISIONS_CAP = 200
@@ -140,6 +142,7 @@ NDefines.NMilitary.SPEED_REINFORCEMENT_BONUS = 0.1
 NDefines.NMilitary.OVERSEAS_LOSE_EQUIPMENT_FACTOR = 1
 NDefines.NMilitary.ENCIRCLED_PENALTY = -0.4
 NDefines.NMilitary.MAX_OUT_OF_SUPPLY_DAYS = 20 -- Because 30 is too long. 
+NDefines.NMilitary.OUT_OF_SUPPLY_ATTRITION = 0.4                -- max attrition when out of supply
 NDefines.NMilitary.AIR_SUPPORT_BASE = 0.30
 NDefines.NMilitary.ENCIRCLED_DISBAND_MANPOWER_FACTOR = 0
 NDefines.NMilitary.ORG_LOSS_FACTOR_ON_CONQUER = 0.25
