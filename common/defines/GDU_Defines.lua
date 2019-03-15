@@ -88,6 +88,8 @@ NDefines.NTechnology.MAX_TECH_SHARING_bonus = 0.50  			-- Max technology sharing
 NDefines.NPolitics.DEFAULT_OCCUPATION_POLICY = 3
 NDefines.NPolitics.BASE_LEADER_TRAITS = 6
 
+NDefines.NMilitary.EXILE_EQUIPMENT = 0.1						   -- Amount of equipment to keep
+
 NDefines.NMilitary.MAX_NUM_TRAITS = 10
 NDefines.NMilitary.CORPS_COMMANDER_ASSIGNABLE_TRAIT_NUM = 7
 NDefines.NMilitary.FIELD_MARSHAL_ASSIGNABLE_TRAIT_NUM = 7

@@ -139,7 +139,8 @@ on_actions = {
 				set_global_flag = fall_of_france
 				
 				country_event = { days = 15 id = pfunews.2 } 
-				country_event = { days = 2 id = news.34 }           
+				country_event = { days = 2 id = news.34 }   
+				
 				if = { 
 					limit = { 
 						AND = { 
@@ -150,6 +151,13 @@ on_actions = {
 				}
 				
 				FRA = { news_event = { id = france.20 days = 1 } }
+				
+				ITA = { country_event = { id = gduevents.17 days = 30 } }
+				GER = { country_event = { id = gduevents.17 days = 30 } }
+				BUL = { country_event = { id = gduevents.17 days = 30 } }
+				ROM = { country_event = { id = gduevents.17 days = 30 } }
+				SPR = { country_event = { id = gduevents.17 days = 30 } }
+				HUN = { country_event = { id = gduevents.17 days = 30 } } 
 				
 				FRA = {
 					start_civil_war = {
@@ -230,6 +238,15 @@ on_actions = {
 					set_country_flag = free_france
 					set_capital = 539
 				
+				}
+				
+				EFR = { 
+					give_military_access = GER 
+					give_military_access = ITA 
+					give_military_access = HUN 
+					give_military_access = ROM 
+					give_military_access = BUL 
+					give_military_access = SPR 
 				}
 				
 				if = {
@@ -391,6 +408,8 @@ on_actions = {
 							}
 						}
 					}
+					
+					country_event = { days = 60 id = gduevents.16 }
 
 				}
 				

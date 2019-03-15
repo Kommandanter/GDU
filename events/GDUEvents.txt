@@ -295,6 +295,95 @@ country_event = {
 	
 }
 
+###Cancels military access with EFR 45 days following the armistice.
+country_event = { 
+	id = gduevents.17
+	title = gduevents.17.t 
+	desc = gduevents.17.d 
+	picture = GFX_report_event_generic_peaceful_annexation  
+	
+	is_triggered_only = yes 
+	
+	option = { 
+		name = gduevents.17.a 
+		if = { 
+			limit = {
+				tag = GER 
+			}
+			GER = { 
+				diplomatic_relation = {
+				country = EFR
+				relation = military_access
+				active = no
+				}
+			}
+		}
+		if = { 
+			limit = {
+				tag = ITA  
+			}
+			ITA = { 
+				diplomatic_relation = {
+				country = EFR
+				relation = military_access
+				active = no
+				}
+			}
+		}
+		if = { 
+			limit = {
+				tag = ROM 
+			}
+			ROM = { 
+				diplomatic_relation = {
+				country = EFR
+				relation = military_access
+				active = no
+				}
+			}
+		}
+		if = { 
+			limit = {
+				tag = BUL
+			}
+			BUL = { 
+				diplomatic_relation = {
+				country = EFR
+				relation = military_access
+				active = no
+				}
+			}
+		}
+		if = { 
+			limit = {
+				tag = HUN
+			}
+			HUN = { 
+				diplomatic_relation = {
+				country = EFR
+				relation = military_access
+				active = no
+				}
+			}
+		}
+		if = { 
+			limit = {
+				tag = SPR
+			}
+			SPR = { 
+				diplomatic_relation = {
+				country = EFR
+				relation = military_access
+				active = no
+				}
+			}
+		}
+
+		
+	}
+	
+}
+
 	
 	
 	
