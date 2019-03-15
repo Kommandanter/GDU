@@ -200,7 +200,7 @@ technologies = {
 
 		# EFFECT ########
 		air_superiority_efficiency = 0.2
-		air_mission_xp_gain_factor = 0.1
+		air_mission_xp_gain_factor = 0.05
 		###########
 
 		path = {
