@@ -159,7 +159,9 @@ foreign_politics = {
 		}
 	
 		available = { 
-			has_completed_focus = JAP_strike_on_the_southern_resource_area 
+			has_completed_focus = JAP_strike_on_the_southern_resource_area
+			NOT = { has_war_with = USA } 
+			NOT = { has_war_with = ENG } 
 		}	
 	
 		cost = 0
