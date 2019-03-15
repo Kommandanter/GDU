@@ -1777,6 +1777,27 @@ ideas = {
 	aircraft_manufacturer = {
 
 		designer = yes
+		
+		lavochkin_design_bureau = {
+
+
+			allowed = {
+				original_tag = SOV
+			}
+			cost = 75
+			#removal_cost = 10
+
+
+
+			research_bonus = {
+				air_equipment = 0.10
+			}
+
+			traits = { lavochkin_design_bureau_aircraft_manufacturer }
+
+			modifier = {
+			}
+		}
 
 		mig_design_bureau = {
 
@@ -1785,6 +1806,10 @@ ideas = {
 				OR = {
 					original_tag = SOV
 				}
+			}
+			
+			available = {
+				date > 1941.1.1
 			}
 
 			cost = 75
@@ -1887,26 +1912,6 @@ ideas = {
 			}
 		}
 
-		lavochkin_design_bureau = {
-
-
-			allowed = {
-				original_tag = SOV
-			}
-			cost = 75
-			#removal_cost = 10
-
-
-
-			research_bonus = {
-				air_equipment = 0.10
-			}
-
-			traits = { lavochkin_design_bureau_aircraft_manufacturer }
-
-			modifier = {
-			}
-		}
 	}
 
 
