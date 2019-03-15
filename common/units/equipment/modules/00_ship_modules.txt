@@ -1747,7 +1747,7 @@ equipment_modules = {
 		gfx = ship_sub_snorkel_1
 		
 		multiply_stats = {
-			sub_visibility = -0.33
+			sub_visibility = -0.25
 		}
 		
 		add_stats = {
@@ -1759,7 +1759,7 @@ equipment_modules = {
 		gfx = ship_sub_snorkel_2
 		
 		multiply_stats = {
-			sub_visibility = -0.5
+			sub_visibility = -0.4
 		}
 		
 		add_stats = {
@@ -1813,8 +1813,8 @@ equipment_modules = {
 
 		add_equipment_type = capital_ship
 		add_stats = {
-			carrier_size = 20
-			build_cost_ic = 2000
+			carrier_size = 25
+			build_cost_ic = 1500
 		}
 		manpower = 500 #outside the add_stats section for code reasons
 		multiply_stats = {
