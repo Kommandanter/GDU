@@ -115,7 +115,7 @@ war_measures = {
 			}
 		}
 
-		cost = 25
+		cost = 50
 
 		ai_will_do = {
 			factor = 1
@@ -178,9 +178,9 @@ CHI_industrial_evacuations = {
 		}
 
 		fire_only_once = yes
-		cost = 25
+		cost = 50
 
-		days_remove = 15
+		days_remove = 90
 
 		modifier = {}
 
@@ -402,9 +402,9 @@ CHI_industrial_evacuations = {
 
 		fire_only_once = yes
 
-		cost = 25
+		cost = 50
 
-		days_remove = 15
+		days_remove = 90
 
 		modifier = {}
 
@@ -627,9 +627,9 @@ CHI_industrial_evacuations = {
 
 		fire_only_once = yes
 
-		cost = 25
+		cost = 50
 
-		days_remove = 15
+		days_remove = 90
 
 		modifier = {}
 
@@ -852,9 +852,9 @@ CHI_industrial_evacuations = {
 
 		fire_only_once = yes
 
-		cost = 25
+		cost = 50
 
-		days_remove = 15
+		days_remove = 90
 
 		modifier = {}
 
@@ -1077,9 +1077,9 @@ CHI_industrial_evacuations = {
 
 		fire_only_once = yes
 
-		cost = 25
+		cost = 50
 
-		days_remove = 15
+		days_remove = 90
 
 		modifier = {}
 
@@ -1302,9 +1302,9 @@ CHI_industrial_evacuations = {
 
 		fire_only_once = yes
 
-		cost = 25
+		cost = 50
 
-		days_remove = 15
+		days_remove = 90
 
 		modifier = {}
 
@@ -1527,9 +1527,9 @@ CHI_industrial_evacuations = {
 
 		fire_only_once = yes
 
-		cost = 25
+		cost = 50
 
-		days_remove = 15
+		days_remove = 90
 
 		modifier = {}
 
@@ -1752,9 +1752,9 @@ CHI_industrial_evacuations = {
 
 		fire_only_once = yes
 
-		cost = 25
+		cost = 50
 
-		days_remove = 15
+		days_remove = 90
 
 		modifier = {}
 
@@ -1976,9 +1976,9 @@ CHI_industrial_evacuations = {
 
 		fire_only_once = yes
 
-		cost = 25
+		cost = 50
 
-		days_remove = 15
+		days_remove = 90
 
 		modifier = {}
 
@@ -2201,9 +2201,9 @@ CHI_industrial_evacuations = {
 
 		fire_only_once = yes
 
-		cost = 25
+		cost = 50
 
-		days_remove = 15
+		days_remove = 90
 
 		modifier = {}
 
@@ -2426,9 +2426,9 @@ CHI_industrial_evacuations = {
 
 		fire_only_once = yes
 
-		cost = 25
+		cost = 50
 
-		days_remove = 15
+		days_remove = 90
 
 		modifier = {}
 
@@ -2650,9 +2650,9 @@ CHI_industrial_evacuations = {
 
 		fire_only_once = yes
 
-		cost = 25
+		cost = 50
 
-		days_remove = 15
+		days_remove = 90
 
 		modifier = {}
 
@@ -2875,9 +2875,9 @@ CHI_industrial_evacuations = {
 
 		fire_only_once = yes
 
-		cost = 25
+		cost = 50
 
-		days_remove = 15
+		days_remove = 90
 
 		modifier = {}
 
@@ -3099,9 +3099,9 @@ CHI_industrial_evacuations = {
 
 		fire_only_once = yes
 
-		cost = 25
+		cost = 50
 
-		days_remove = 15
+		days_remove = 90
 
 		modifier = {}
 
@@ -3324,9 +3324,9 @@ CHI_industrial_evacuations = {
 
 		fire_only_once = yes
 
-		cost = 25
+		cost = 50
 
-		days_remove = 15
+		days_remove = 90
 
 		modifier = {}
 
@@ -3548,9 +3548,9 @@ CHI_industrial_evacuations = {
 
 		fire_only_once = yes
 
-		cost = 25
+		cost = 50
 
-		days_remove = 15
+		days_remove = 90
 
 		modifier = {}
 
@@ -3772,9 +3772,9 @@ CHI_industrial_evacuations = {
 
 		fire_only_once = yes
 
-		cost = 25
+		cost = 50
 
-		days_remove = 15
+		days_remove = 90
 
 		modifier = {}
 
@@ -3996,9 +3996,9 @@ CHI_industrial_evacuations = {
 
 		fire_only_once = yes
 
-		cost = 25
+		cost = 50
 
-		days_remove = 15
+		days_remove = 90
 
 		modifier = {}
 
@@ -4220,9 +4220,9 @@ CHI_industrial_evacuations = {
 
 		fire_only_once = yes
 
-		cost = 25
+		cost = 50
 
-		days_remove = 15
+		days_remove = 90
 
 		modifier = {}
 
@@ -4444,9 +4444,9 @@ CHI_industrial_evacuations = {
 
 		fire_only_once = yes
 
-		cost = 25
+		cost = 50
 
-		days_remove = 15
+		days_remove = 90
 
 		modifier = {}
 
@@ -4775,7 +4775,7 @@ foreign_support = {
 		visible = {
 			has_country_flag = CHI_flying_tigers
 		}
-		cost = 25
+		cost = 50
 		ai_will_do = {
 			factor = 1
 		}
@@ -4813,7 +4813,7 @@ foreign_support = {
 		visible = {
 			has_country_flag = CHI_soviet_volunteer_group
 		}
-		cost = 25
+		cost = 50
 		ai_will_do = {
 			factor = 1
 		}
@@ -4969,7 +4969,7 @@ foreign_support = {
 		ai_will_do = {
 			factor = 1
 		}
-		cost = 25
+		cost = 50
 		days_remove = 60
 		modifier = {
 			civilian_factory_use = 6
@@ -5073,7 +5073,7 @@ foreign_support = {
 		ai_will_do = {
 			factor = 1
 		}
-		cost = 25
+		cost = 50
 		days_remove = 60
 		modifier = {
 			civilian_factory_use = 2
@@ -5149,7 +5149,7 @@ foreign_support = {
 				has_global_flag = CHI_hump_3
 			}
 		}
-		cost = 25
+		cost = 50
 		days_re_enable = 360
 		ai_will_do = {
 			factor = 1
@@ -5240,7 +5240,7 @@ political_actions = {
 			}
 			is_in_faction = no
 		}
-		cost = 25
+		cost = 50
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -5402,7 +5402,7 @@ CHI_xian_incident = {
 			}
 			event_target:WTT_current_china_leader = { tag = CHI }
 		}
-		cost = 25
+		cost = 50
 		fire_only_once = yes
 		ai_will_do = {
 			factor = 1
