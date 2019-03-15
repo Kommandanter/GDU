@@ -29,6 +29,21 @@ ideas = {
 				political_power_gain = -0.25
 			}
 		}
+		
+		CHI_no_factions_warlord = {
+			allowed = { always = no }
+			
+			picture = generic_disjointed_gov
+
+			allowed = {  }
+
+			removal_cost = -1
+
+			modifier = {
+				ai_get_ally_desire_factor = -100
+			}
+		}
+			
 
 		CHI_ideological_education = {
 			allowed = { always = no }

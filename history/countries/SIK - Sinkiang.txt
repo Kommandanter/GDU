@@ -13,6 +13,7 @@ if = {
 	add_ideas = {
 		PRC_government_corruption
 		CHI_ineffective_bureaucracy_warlord
+		CHI_no_factions_warlord
 	}
 }
 1939.1.1 = {
