@@ -4385,14 +4385,9 @@ country_event = {
 		if = { 
 			limit = { tag = FRA }
 			set_global_flag = HUN_FRA_engaged
-			ROM = { country_event = { id = DOD_hungary.141 days = 4 } }
-			YUG = { country_event = { id = DOD_hungary.141 days = 4 } }
-			CZE = { country_event = { id = DOD_hungary.141 days = 4 } }
 		}
 		if = { 
 			limit = { tag = ROM }
-			YUG = { country_event = { id = DOD_hungary.141 days = 4 } }
-			CZE = { country_event = { id = DOD_hungary.141 days = 4 } }
 		}
 		HUN = {
 			country_event = { id = DOD_hungary.142 days = 3 }

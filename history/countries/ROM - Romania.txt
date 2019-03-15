@@ -184,7 +184,7 @@ set_convoys = 10
 }
 
 add_ideas = {
-	free_trade
+	partial_economic_mobilisation 
 }
 
 set_politics = {
