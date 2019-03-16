@@ -162,6 +162,7 @@ set_politics = {
 		elections_allowed = yes
 	}
 }
+
 create_country_leader = {
 	name = "Risto Heikki Ryti"
 	desc = "POLITICS_RISTO_HEIKKI_RYT_DESC"
@@ -206,57 +207,59 @@ create_country_leader = {
 	}
 }
 
+#old_guard brilliant_strategist inflexible_strategist politically_connected war_hero career_officer trait_cautious trait_reckless media_personality harsh_leader infantry_officer cavalry_officer armor_officer offensive_doctrine defensive_doctrine organizer cavalry_leader infantry_leader skilled_staffer trickster winter_specialist
+#adaptable trait_engineer panzer_leader commando desert_fox swamp_fox trait_mountaineer hill_fighter jungle_rat ranger urban_assault_specialist naval_invader
 
 create_field_marshal = {
 	name = "Carl Gustaf Mannerheim"
 	picture = "Portrait_Finland_Carl_Gustaf_Mannerheim.tga"
-	traits = { defensive_doctrine logistics_wizard }
-	skill = 4
-	attack_skill = 4
-	defense_skill = 4
-	planning_skill = 3
-	logistics_skill = 3
+	traits = { defensive_doctrine skilled_staffer inflexible_strategist war_hero politically_connected old_guard ranger trait_cautious winter_specialist ranger}
+	skill = 6
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 4
+	logistics_skill = 5
 }
 
 create_field_marshal = {
 	name = "Aksel Airo"
 	picture = "Portrait_Finland_Aksel_Airo.tga"
-	traits = { thorough_planner }
-	skill = 3
-	attack_skill = 4
-	defense_skill = 4
-	planning_skill = 3
-	logistics_skill = 2
+	traits = { winter_specialist ranger infantry_leader infantry_officer trickster trait_cautious old_guard skilled_staffer media_personality}
+	skill = 5
+
+	attack_skill = 3
+	defense_skill = 6
+	planning_skill = 1
+	logistics_skill = 6
 }
 
 create_field_marshal = {
 	name = "Paavo Talvela"
 	picture = "Portrait_Finland_Paavo_Talvela.tga"
-	traits = { offensive_doctrine }
-	skill = 3
-
+	traits = "old_guard inflexible_strategist infantry_leader trait_cautious career_officer organizer infantry_leader skilled_staffer"
+	skill = 5
     attack_skill = 4
-    defense_skill = 2
-    planning_skill = 3
+    defense_skill = 3
+    planning_skill = 6
     logistics_skill = 3
 }
 
 create_corps_commander = {
 	name = "Karl Lennart Oesch"
 	picture = "Portrait_Finland_Karl_Lennart_Oesch.tga"
-	traits = { trickster ranger }
+	traits = {  winter_specialist ranger panzer_leader armor_officer skilled_staffer trait_reckless harsh_leader }
 	skill = 5
 
     attack_skill = 5
-    defense_skill = 6
-    planning_skill = 4
-    logistics_skill = 5
+    defense_skill = 4
+    planning_skill = 3
+    logistics_skill = 4
 }
 
 create_corps_commander = {
 	name = "Ruben Lagus"
 	picture = "Portrait_Finland_Ruben_Lagus.tga"
-	traits = { trickster panzer_leader }
+	traits = { winter_specialist ranger}
 	skill = 4
 
     attack_skill = 4
@@ -268,44 +271,45 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Aaro Pajari"
 	picture = "Portrait_Finland_Aaro_Pajari.tga"
-	traits = { winter_specialist }
+	traits = { winter_specialist ranger war_hero infantry_officer urban_assault_specialist trait_cautious}
 	skill = 4
 
     attack_skill = 4
     defense_skill = 4
-    planning_skill = 4
-    logistics_skill = 4
+    planning_skill = 2
+    logistics_skill = 3
 }
 
 create_corps_commander = {
 	name = "Hjalmar Siilasvuo"
 	picture = "Portrait_Finland_Hjalmar_Siilasvuo.tga"
-	traits = { commando }
-	skill = 3
+	traits = { winter_specialist ranger organizer cavalry_officer skilled_staffer infantry_leader infantry_officer trait_cautious}
+	skill = 4
 
-    attack_skill = 3
+    attack_skill = 2
     defense_skill = 2
-    planning_skill = 3
-    logistics_skill = 3
+    planning_skill = 7
+    logistics_skill = 2
 }
 
 create_corps_commander = {
 	name = "Erik Heinrichs"
 	picture = "Portrait_Finland_Erik_Heinrichs.tga"
-	traits = { trait_engineer }
-	skill = 3
-	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 3
-	logistics_skill = 3
+	traits = { winter_specialist ranger commando old_guard skilled_staffer trait_engineer career_officer }
+	skill = 4
+
+    attack_skill = 4
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 4
 }
 
 create_corps_commander = {
 	name = "Harald Öhquist"
 	picture = "Portrait_Finland_Harald_Ohquist.tga"
-	traits = { hill_fighter }
-	skill = 3
-	attack_skill = 3
+	traits = { winter_specialist ranger skilled_staffer trait_engineer infantry_officer politically_connected}
+	skill = 4
+	attack_skill = 4
 	defense_skill = 4
 	planning_skill = 3
 	logistics_skill = 2
@@ -314,57 +318,57 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Niilo Hersalo"
 	picture = "Portrait_Finland_Niilo_Hersalo.tga"
-	traits = { }
-	skill = 3
+	traits = {winter_specialist ranger commando politically_connected infantry_leader trait_cautious career_officer}
+	skill = 4
 	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 7
 }
 
 create_corps_commander = {
 	name = "Ernst Linder"
 	picture = "Portrait_Finland_Ernst_Linder.tga"
-	traits = { commando winter_specialist }
-	skill = 2
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 2
+	traits = { winter_specialist ranger career_officer cavalry_leader skilled_staffer harsh_leader substance_abuser}
+	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 5
 }
 
 create_corps_commander = {
 	name = "Harry Alfthan"
 	picture = "Portrait_Finland_Harry_Alfthan.tga"
-	traits = { }
-	skill = 2
-	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 2
+	traits = {winter_specialist ranger skilled_staffer trait_engineer infantry_leader trickster infantry_officer old_guard }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 5
+	planning_skill = 1
+	logistics_skill = 3
 }
 
 create_corps_commander = {
 	name = "Hugo Österman"
 	picture = "Portrait_Finland_Hugo_Osterman.tga"
-	traits = { ranger }
-	skill = 2
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 3
-	logistics_skill = 2
+	traits = { winter_specialist ranger panzer_leader armor_officer skilled_staffer organizer harsh_leader }
+	skill = 5
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 4
 }
 
 create_corps_commander = {
 	name = "Wiljo Tuompo"
 	picture = "Portrait_Finland_Wiljo_Tuompo.tga"
-	traits = { }
-	skill = 2
+	traits = {winter_specialist ranger substance_abuser infantry_officer organizer career_officer war_hero }
+	skill = 3
 
     attack_skill = 3
-    defense_skill = 2
-    planning_skill = 1
-    logistics_skill = 2
+    defense_skill = 3
+    planning_skill = 3
+    logistics_skill = 1
 }
 
 create_navy_leader = {
