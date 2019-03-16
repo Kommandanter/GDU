@@ -175,4 +175,18 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 4391;1703;impassable;-1;-1;-1;-1;-1;;pamir mountains
 4391;12526;impassable;-1;-1;-1;-1;-1;;pamir mountains
 3314;6336;sea;2752;2885;1578;2890;1581;;Afsluitdijk
+4318;12789;impassable;-1;-1;-1;-1;-1;;yunnan mountains
+4996;12789;impassable;-1;-1;-1;-1;-1;;yunnan mountains
+4996;12898;impassable;-1;-1;-1;-1;-1;;yunnan mountains
+4996;10863;impassable;-1;-1;-1;-1;-1;;yunnan mountains
+4225;10863;impassable;-1;-1;-1;-1;-1;;yunnan mountains
+10920;10863;impassable;-1;-1;-1;-1;-1;;yunnan mountains
+12363;10863;impassable;-1;-1;-1;-1;-1;;yunnan mountains
+4210;10863;impassable;-1;-1;-1;-1;-1;;yunnan mountains
+4210;7976;impassable;-1;-1;-1;-1;-1;;yunnan mountains
+4210;5009;impassable;-1;-1;-1;-1;-1;;yunnan mountains
+4210;10413;impassable;-1;-1;-1;-1;-1;;yunnan mountains
+7400;10413;impassable;-1;-1;-1;-1;-1;;yunnan mountains
+7909;10413;impassable;-1;-1;-1;-1;-1;;yunnan mountains
+7909;10776;impassable;-1;-1;-1;-1;-1;;yunnan mountains
 -1;-1;;-1;-1;-1;-1;-1;-1
