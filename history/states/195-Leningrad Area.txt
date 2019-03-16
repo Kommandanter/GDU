@@ -37,7 +37,7 @@ state={
 				bunker = 3
 			}
 			13259 = {
-				bunker = 8
+				bunker = 5
 			}
 			13260 = {
 				bunker = 2
