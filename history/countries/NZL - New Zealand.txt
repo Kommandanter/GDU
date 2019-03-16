@@ -236,36 +236,36 @@ set_convoys = 100
 	set_convoys = 50
 }
 
-create_corps_commander = {
+create_field_marshal = {
 	name = "Bernard Freyberg"
 	gfx = "GFX_NZL_bernard_freyberg"
-	traits = { infantry_leader organizer ranger }
-	skill = 4
-	attack_skill = 4
-	defense_skill = 4
+	traits = { desert_fox jungle_rat organizer inflexible_strategist skilled_staffer politically_connected media_personality }
+	skill = 6
+	attack_skill = 5
+	defense_skill = 5
 	planning_skill = 4
-	logistics_skill = 3
+	logistics_skill = 5
 }
 
 create_corps_commander = {
 	name = "Robert Row"
 	gfx = "GFX_NZL_robert_row"
-	traits = { naval_invader infantry_leader commando }
-	skill = 3
-	attack_skill = 3
+	traits = { naval_invader jungle_rat infantry_leader infantry_officer career_officer war_hero }
+	skill = 4
+	attack_skill = 4
 	defense_skill = 4
-	planning_skill = 3
-	logistics_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
 }
 
 create_corps_commander = {
 	name = "William Stevens"
 	gfx = "GFX_NZL_william_stevens"
-	traits = { panzer_leader trickster }
+	traits = { panzer_leader armor_officer desert_fox hill_fighter trait_cautious career_officer }
 	skill = 4
 	attack_skill = 4
 	defense_skill = 4
-	planning_skill = 3
+	planning_skill = 2
 	logistics_skill = 3
 }
 

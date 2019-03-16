@@ -581,12 +581,6 @@ leader_traits = {
 
 	organizer = { 
 		type = corps_commander
-		gain_xp = {
-			check_variable = { num_battle_plans > 0 }
-		}
-		custom_gain_xp_trigger_tooltip = is_using_battle_plans
-		
-		cost = 1000
 		modifier = {
 			planning_speed = 0.1
 			army_morale_factor = 0.04
@@ -600,18 +594,7 @@ leader_traits = {
 	}
 	
 	cavalry_leader = { 
-		type = corps_commander
-		gain_xp = {
-			set_temp_variable = { temp = num_units }
-			multiply_temp_variable = { temp = 0.4 }
-			set_temp_variable = { cmm = num_cavalry }
-			add_to_temp_variable = { cmm = num_motorized }
-			add_to_temp_variable = { cmm = num_mechanized }
-			check_variable = { cmm > temp }
-		}
-		custom_gain_xp_trigger_tooltip = cavalary_ratio_over_40
-		
-		cost = 1000
+		type = corps_commander	
 		modifier = {
 			motorized_defence_factor = 0.1
 			mechanized_defence_factor = 0.1
@@ -627,14 +610,6 @@ leader_traits = {
 	
 	infantry_leader = { 
 		type = corps_commander
-		gain_xp = {
-			set_temp_variable = { temp = num_units }
-			multiply_temp_variable = { temp = 0.8 }
-			check_variable = { num_infantry > temp }
-		}
-		custom_gain_xp_trigger_tooltip = infantry_ratio_over_80
-		
-		cost = 1000
 		modifier = {
 			army_infantry_defence_factor = 0.1
 		}
@@ -647,12 +622,6 @@ leader_traits = {
 	}
 	skilled_staffer = { 
 		type = corps_commander
-		gain_xp = {
-			check_variable = { num_units > 23 }
-		}
-		custom_gain_xp_trigger_tooltip = fighting_with_at_least_23_units
-		
-		cost = 2000
 		
 		corps_commander_modifier = {
 			max_commander_army_size = 6
@@ -669,13 +638,6 @@ leader_traits = {
 	}
 	trickster = { 
 		type = corps_commander
-		gain_xp = {
-			OR = {
-				has_flanked_opponent = yes
-				opponent = { has_flanked_opponent = yes }
-			}
-		}
-		custom_gain_xp_trigger_tooltip = has_flanked
 		
 		cost = 500
 		modifier = {
@@ -692,10 +654,7 @@ leader_traits = {
 
 	winter_specialist = { 
 		type = corps_commander
-		gain_xp = {
-			temperature < -10
-		}
-		cost = 500
+
 		modifier = {
 			winter_attrition_factor = -0.25
 		}
@@ -789,13 +748,6 @@ leader_traits = {
 
 	panzer_leader = {
  		type = corps_commander
-		gain_xp = {
-			set_temp_variable = { temp = num_units }
-			multiply_temp_variable = { temp = 0.4 }
-			check_variable = { num_armored > temp }
-		}
-		custom_gain_xp_trigger_tooltip = armored_ratio_over_40
-		cost = 700
 		modifier = {
 			army_armor_speed_factor = 0.05 
 			army_armor_attack_factor = 0.1 
@@ -814,14 +766,6 @@ leader_traits = {
 
 	commando = { 
  		type = corps_commander
-		gain_xp = {
-			OR = {
-				temperature < -15
-				temperature > 30
-				has_combat_modifier = paradrop
-			}
-		}
-		cost = 700
 		modifier = {
 			out_of_supply_factor = -0.2
 		}
@@ -834,10 +778,6 @@ leader_traits = {
 
 	desert_fox = { 
  		type = corps_commander
-		gain_xp = {
-			is_fighting_in_terrain = desert
-		}
-		cost = 700
 		modifier = {
 			desert = {
 				movement = 0.05
@@ -855,10 +795,6 @@ leader_traits = {
 
 	swamp_fox = { 
 		type = corps_commander
-		gain_xp = {
-			is_fighting_in_terrain = marsh
-		}
-		cost = 700
 		modifier = {
 			marsh = {
 				movement = 0.05
@@ -876,10 +812,6 @@ leader_traits = {
 
 	trait_mountaineer = { 
 		type = corps_commander
-		gain_xp = {
-			is_fighting_in_terrain = mountain
-		}
-		cost = 700
 		modifier = {
 			mountain = {
 				movement = 0.05
@@ -897,10 +829,6 @@ leader_traits = {
 
 	hill_fighter = { 
 		type = corps_commander
-		gain_xp = {
-			is_fighting_in_terrain = hills
-		}
-		cost = 700
 		modifier = {
 			hills = {
 				movement = 0.05
@@ -918,10 +846,6 @@ leader_traits = {
 
 	jungle_rat = { 
 		type = corps_commander
-		gain_xp = {
-			is_fighting_in_terrain = jungle
-		}
-		cost = 700
 		modifier = {
 			jungle = {
 				movement = 0.05
@@ -939,10 +863,6 @@ leader_traits = {
 
 	ranger = { 
 		type = corps_commander
-		gain_xp = {
-			is_fighting_in_terrain = forest
-		}
-		cost = 700
 		modifier = {
 			forest = {
 				movement = 0.05
@@ -960,10 +880,6 @@ leader_traits = {
 
 	urban_assault_specialist = { 
 		type = corps_commander
-		gain_xp = {
-			is_fighting_in_terrain = urban
-		}
-		cost = 500
 		modifier = {
 			urban = {
 				movement = 0.05
@@ -982,10 +898,6 @@ leader_traits = {
 	
 	naval_invader = {
 		type = corps_commander
-		gain_xp = {
-			is_amphibious_invasion = yes
-		}
-		cost = 100
 		modifier = {
 			amphibious_invasion = 0.3 # 30% faster invasions
 			invasion_preparation = -0.3
