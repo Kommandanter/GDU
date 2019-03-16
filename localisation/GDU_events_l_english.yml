@@ -188,6 +188,12 @@
  gdunews.6.jap:0 "For the Emperor!" 
  gdunews.6.general:0 "The war escalates." 
  
+ gdunews.7.t:0 "The Soviet Winter Counteroffensive" 
+ gdunews.7.d:0 "The world can only watch in horror as the slaughter on the Eastern Front continues. The Soviet Union has been sent reeling from Operation Barbarossa, with the Axis capturing significant portions of Soviet territory, scoring deadly encirclements, and beginning to approach large Russian population centers.\n\nNo longer content with being pushed back, the Red Army has initiated what is being called the Moscow Strategic Offensive Operation, hoping to push the Wehrmacht back and gain the initiative against the invaders. Reports are coming in of huge battles across the whole front the likes of which have not been seen since the Great War." 
+ gdunews.7.sov:0 "Drive them back!" 
+ gdunews.7.ger:0 "Repel the Bolshevik filth!" 
+ gdunews.7.general:0 "It seems the Soviets aren't just going to roll over..."  
+ 
  gduevents.1.t:0 "The Phoney War"
  gduevents.1.d:0 "Despite being at war with Germany, allied forces and command remain hesitant and unwilling to fight. There remains a lingering hope for peace with the Axis. Only something drastic like a declaration of war from Italy or the improbable collapse of French forces will rouse the Empire from this stupor."
  gduevents.1.a:0 "Surely, there's nothing to be too alarmed about?"

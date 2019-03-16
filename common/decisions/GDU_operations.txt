@@ -113,6 +113,19 @@ operations = {
 		complete_effect = {
 			add_command_power = -100.0
 			add_timed_idea = { idea = GDU_infantry_offensive_idea  days = 45 }
+			hidden_effect = { 
+				if = { 
+					limit = { 
+						AND = { 
+							tag = SOV 
+							date > 1941.9.15 
+							date < 1941.12.20
+							has_war = yes 
+						}
+					}
+				SOV = { country_event = gdunews.7 } 
+				}
+			}
 		}
 		
 		remove_effect = {
