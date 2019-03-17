@@ -882,7 +882,13 @@ technologies = {
 	air_offense = {
 
 		# EFFECT ########
-		air_escort_efficiency = 0.25
+		category_fighter = {
+				air_range = 0.10
+			}
+			category_heavy_fighter = {
+				air_range = 0.10
+				air_agility = 0.10
+			}
 		###########
 		
 		path = {
