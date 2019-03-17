@@ -3,7 +3,11 @@ state={
 	id=651
 	name="STATE_651" # Ufa
 	manpower = 2552075
-
+	
+	resources={
+		tungsten=32.000
+	}
+	
 	state_category = city
 
 	history={
