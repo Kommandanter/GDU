@@ -75,7 +75,7 @@ NDefines.NProduction.MIN_NAVAL_EQUIPMENT_CONVERSION_RESOURCE_COST_FACTOR = 0.5	-
 
 NDefines.NBuildings.ANTI_AIR_SUPERIORITY_MULT = 20.0	-- How much air superiority reduction to the enemy does our AA guns? Normally each building level = -1 reduction. With this multiplier.
 NDefines.NBuildings.MAX_SHARED_SLOTS = 50
-NDefines.NBuildings.INFRA_TO_SUPPLY = 2.2
+NDefines.NBuildings.INFRA_TO_SUPPLY = 2.5
 NDefines.NBuildings.INFRA_TO_SUPPLY_COEFF = 1 -- Testing, 1 in vanilla -- TW/WTT 
 NDefines.NBuildings.AIRBASE_CAPACITY_MULT = 100
 NDefines.NBuildings.DESTRUCTION_COOLDOWN_IN_WAR = 120

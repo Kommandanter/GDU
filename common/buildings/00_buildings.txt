@@ -19,8 +19,8 @@ buildings = {
 
 	arms_factory = {
 		show_on_map = 6
-		base_cost = 7200
-		base_cost_conversion = 4800
+		base_cost = 8600
+		base_cost_conversion = 5000
 		military_production = 1
 		icon_frame = 2
 		max_level = 50
@@ -32,7 +32,7 @@ buildings = {
 ### civs
 	industrial_complex = {
 		show_on_map = 6
-		base_cost = 10800
+		base_cost = 13000
 		base_cost_conversion = 10800
 		general_production = 1
 		icon_frame = 1
@@ -96,7 +96,7 @@ buildings = {
 	dockyard = {
 		show_on_map = 1
 		show_on_map_meshes = 3
-		base_cost = 6400
+		base_cost = 7800
 		only_costal = yes
 		naval_production = 1
 		icon_frame = 4
@@ -124,7 +124,7 @@ buildings = {
 	
 	synthetic_refinery = {
 		show_on_map = 1
-		base_cost = 15000
+		base_cost = 16000
 		icon_frame = 10
 		#local_resources_oil = 1 # May use local_resources_ + any resource name
 		local_resources_rubber = 1 # May use local_resources_ + any resource name
