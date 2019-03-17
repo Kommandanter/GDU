@@ -1116,8 +1116,8 @@ technologies = {
 	tech_logistics_company2 = {
 
 		logistics_company = {
-			supply_consumption_factor = -0.1
-			fuel_consumption_factor = -0.03
+			supply_consumption_factor = -0.09
+			fuel_consumption_factor = -0.05
 		}
 		
 		
@@ -1167,8 +1167,8 @@ technologies = {
 	tech_logistics_company3 = {
 
 		logistics_company = {
-			supply_consumption_factor = -0.1
-			fuel_consumption_factor = -0.03
+			supply_consumption_factor = -0.09
+			fuel_consumption_factor = -0.05
 		}
 		path = {
 			leads_to_tech = tech_logistics_company4
@@ -1210,7 +1210,7 @@ technologies = {
 	tech_logistics_company4 = {
 
 		logistics_company = {
-			supply_consumption_factor = -0.1
+			supply_consumption_factor = -0.09
 			fuel_consumption_factor = -0.03
 		}
 
