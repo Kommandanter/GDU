@@ -414,8 +414,7 @@ sub_units = {
 		}
 
 		urban = {
-			attack = 0.1
-			defence = 0.05
+			attack = 0.15
 			movement = 0.1
 		}
 	}
