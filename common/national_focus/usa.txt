@@ -2258,14 +2258,14 @@ focus_tree = {
 			add_tech_bonus = {
 				name = USA_air_war_plans_division
 				bonus = 1.0
-				uses = 2
+				uses = 3
 				category = air_doctrine
 			} # REVISIT May use modifier?
 			add_tech_bonus = {
 				name = USA_fighter_bonus
 				uses = 1
-				bonus = 1.00
-				technology = fighter2
+				bonus = 0.75
+				technology = cv_fighter2
 			}
 		}
 	}
