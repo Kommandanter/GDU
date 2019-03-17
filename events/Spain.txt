@@ -221,7 +221,7 @@ country_event = {
 					has_government = communism
 				}
 				load_oob = "SPR_Civil_War"
-				set_equipment_fraction = 0.7
+				set_equipment_fraction = 1
 				set_stability = 0.8
 				add_popularity = {
 					ideology = democratic
@@ -232,7 +232,7 @@ country_event = {
 			set_global_flag = spanish_civil_war
 
 			load_oob = "SPA_Civil_War"
-			set_equipment_fraction = 0.7
+			set_equipment_fraction = 1
 			set_stability = 0.9
 			add_popularity = {
 				ideology = fascism
