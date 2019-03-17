@@ -471,7 +471,7 @@ focus_tree = {
 			}
 		}
 				completion_reward = {
-			custom_effect_tooltip = RAJ_indian_sandhurst_tt
+			custom_effect_tooltip = GDU_defense_of_moscow_tt
 			hidden_effect = {
 			create_field_marshal = {
 		name = "Georgy Zhukov"
@@ -653,7 +653,7 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
-			custom_effect_tooltip = RAJ_indian_sandhurst_tt
+			custom_effect_tooltip = GDU_red_army_resurgent_tt
 			hidden_effect = {
 		create_corps_commander = {
 		name = "Konstantin Rokossovsky"
@@ -662,7 +662,7 @@ focus_tree = {
 		traits = {  armor_officer trait_cautious brilliant_strategist harsh_leader panzer_leader  war_hero}
 		skill = 6
 	
-		attack_skill =6
+		attack_skill = 6
 		defense_skill = 5
 		planning_skill = 5
 		logistics_skill = 3
@@ -1908,7 +1908,7 @@ focus_tree = {
 
 		available_if_capitulated = yes
 		completion_reward = {
-			custom_effect_tooltip = RAJ_indian_sandhurst_tt
+			custom_effect_tooltip = GDU_lessons_of_war_tt
 			hidden_effect = {
          # skill 4 generals and field marshals
 			create_corps_commander = {

@@ -48,6 +48,7 @@ set_technology = {
 	radio_detection = 1
 	fuel_silos = 1
 	fuel_refining = 1
+	tech_logistics_company = 1 
 # early -> basic -> improved
 }
 if = {

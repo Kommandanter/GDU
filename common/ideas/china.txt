@@ -1,6 +1,26 @@
 ideas = {
 	country = {
 	
+		CHI_primitive_shipindustry = {
+		
+			removal_cost = -1 
+			
+			picture = generic_navy_bonus 
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+				production_cost_max_ship_hull_submarine = 50.0
+			}
+			
+		}
+	
 		lure_them_in = {
 			removal_cost = -1
 			picture = FRA_scw_intervention_nationalists_focus

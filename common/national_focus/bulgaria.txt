@@ -1396,9 +1396,9 @@ focus_tree = {
 			}
 
 			set_technology = {
-				transport = 1
-				early_destroyer = 1
-				early_submarine = 1
+				mtg_transport = 1
+				early_ship_hull_light = 1
+				early_ship_hull_submarine = 1
 			}
 		}
 	}
@@ -1439,11 +1439,10 @@ focus_tree = {
 		completion_reward = {
 			navy_experience = 25
 			add_tech_bonus = {
-				name = BUL_submarine_effort
-				bonus = 1.00 
+				name = ss_bonus
+				bonus = 1.0
 				uses = 2
-				technology = basic_submarine
-				technology = improved_submarine
+				category = ss_tech
 			}
 		}
 	}
@@ -1488,13 +1487,16 @@ focus_tree = {
 		completion_reward = {
 			navy_experience = 25
 			add_tech_bonus = {
-				name = BUL_screen_effort
-				bonus = 1.00 
-				uses = 2
-				technology = basic_destroyer
-				technology = improved_destroyer
-				technology = early_light_cruiser
-				technology = basic_light_cruiser
+				name = dd_bonus
+				bonus = 1.0
+				uses = 1
+				category = cl_tech
+			}
+			add_tech_bonus = {
+				name = dd_bonus
+				bonus = 1.00
+				uses = 1
+				category = dd_tech
 			}
 		}
 	}
@@ -1527,14 +1529,22 @@ focus_tree = {
 				}
 			}
 			add_tech_bonus = {
-				name = BUL_screen_effort
-				bonus = 1.00 
-				ahead_reduction = 1
-				uses = 2
-				technology = improved_destroyer
-				technology = advanced_destroyer
-				technology = improved_submarine
-				technology = advanced_submarine
+				name = dd_bonus
+				bonus = 1.0
+				uses = 1
+				category = dd_tech
+			}
+			add_tech_bonus = {
+				name = ss_bonus
+				bonus = 1.0
+				uses = 1
+				category = ss_tech
+			}
+			add_tech_bonus = {
+				name = dd_bonus
+				bonus = 1.0
+				uses = 1
+				category = cl_tech
 			}
 		}
 	}

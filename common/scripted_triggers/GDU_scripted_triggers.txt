@@ -26,6 +26,7 @@ airbase_state_small = {
 		state = 555 #Kuril Islands, JAP
 		state = 650 #Attu Island, USA 
 		state = 684 #Caroline islands, JAP, LARGE chain
+		state = 797 #Yap Islands, JAP, used to be part of 684 in mod 
 		###Indian Ocean###
 		state = 733 #Andaman, UK 
 		state = 712 #Cocos, UK 
