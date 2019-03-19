@@ -10,6 +10,7 @@ state={
 	history = {
 		owner = ENG
 		buildings = {
+			air_base = 2
 			infrastructure = 2
 			1155 = {
 				naval_base = 2

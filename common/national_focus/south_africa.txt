@@ -563,6 +563,22 @@ focus_tree = {
 				limit = { 718 = { is_owned_and_controlled_by = BEL } }
 				transfer_state = 718
 			}
+			if = {
+				limit = { 769 = { is_owned_and_controlled_by = BEL } }
+				transfer_state = 769
+			}
+			if = {
+				limit = { 768 = { is_owned_and_controlled_by = BEL } }
+				transfer_state = 768
+			}
+			if = {
+				limit = { 771 = { is_owned_and_controlled_by = ENG } }
+				transfer_state = 771
+			}
+			if = {
+				limit = { 770 = { is_owned_and_controlled_by = ENG } }
+				transfer_state = 770
+			}
 
 			hidden_effect = {
 				news_event = { id = news.260 hours = 6 }

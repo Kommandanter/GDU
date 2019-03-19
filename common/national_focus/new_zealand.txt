@@ -362,8 +362,8 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = NZL_submarine_effort
-				bonus = 1.00 
-				ahead_reduction = 1
+				bonus = 0.5
+				ahead_reduction = 0.25 
 				uses = 1
 				category = ss_tech
 			}

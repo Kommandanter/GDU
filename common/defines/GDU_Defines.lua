@@ -83,7 +83,7 @@ NDefines.NBuildings.DESTRUCTION_COOLDOWN_IN_WAR = 120
 NDefines.NTechnology.BASE_RESEARCH_POINTS_SAVED = 45.0
 NDefines.NTechnology.BASE_TECH_COST = 90
 NDefines.NTechnology.LICENSE_PRODUCTION_TECH_BONUS = 0.00
-NDefines.NTechnology.MAX_TECH_SHARING_bonus = 0.50  			-- Max technology sharing bonus that can be applied instantly
+NDefines.NTechnology.MAX_TECH_SHARING_bonus = 0.4  			-- Max technology sharing bonus that can be applied instantly
 
 NDefines.NPolitics.DEFAULT_OCCUPATION_POLICY = 3
 NDefines.NPolitics.BASE_LEADER_TRAITS = 6
@@ -129,7 +129,7 @@ NDefines.NMilitary.LAND_COMBAT_FORT_DAMAGE_CHANCE = 4		-- chance to get a hit to
 NDefines.NMilitary.TACTIC_SWAP_FREQUENCEY = 16
 NDefines.NMilitary.RIVER_CROSSING_PENALTY = -0.2
 NDefines.NMilitary.RIVER_CROSSING_PENALTY_LARGE = -0.3
-NDefines.NMilitary.ENEMY_AIR_SUPERIORITY_IMPACT = -0.45
+NDefines.NMilitary.ENEMY_AIR_SUPERIORITY_IMPACT = -0.5
 NDefines.NMilitary.ENEMY_AIR_SUPERIORITY_SPEED_IMPACT = -0.25
 NDefines.NMilitary.ENEMY_AIR_SUPERIORITY_DEFENSE = 0.75	       -- more AA attack will approach this amount of help (diminishing returns)
 NDefines.NMilitary.ENEMY_AIR_SUPERIORITY_DEFENSE_STEEPNESS = 112 -- how quickly defense approaches the max impact diminishing returns curve
@@ -178,7 +178,6 @@ NDefines.NMilitary.PROMOTE_LEADER_CP_COST = 500.0 -- CP is used for too many thi
 NDefines.NMilitary.FUEL_CAPACITY_DEFAULT_HOURS = 160               -- default capacity if not specified 
 
 NDefines.NAir.AIR_MORE_GROUND_CREWS_COST = 500.0 -- Disables ground crews. They're cancerous. 
-NDefines.NAir.ENEMY_AIR_SUPERIORITY_IMPACT= -0.9
 NDefines.NAir.COMBAT_AMOUNT_DIFF_AFFECT_GANG_CHANCE = 0.4
 NDefines.NAir.COMBAT_SITUATION_WIN_CHANCE_FROM_GANG = 0.1
 NDefines.NAir.ACCIDENT_CHANCE_BASE = 0.06
@@ -198,7 +197,7 @@ NDefines.NAir.NAVAL_STRIKE_DAMAGE_TO_ORG = 1.0
 NDefines.NAir.EFFICIENCY_REGION_CHANGE_DAILY_GAIN_TACTICAL_BOMBER =	0.1	-- base 0.192 How much efficiency to regain per day. Gain applied hourly.
 NDefines.NAir.AIR_COMBAT_FINAL_DAMAGE_SCALE = 0.5 -- 0.015	 % how many max disrupted only planes are allowed to die in a single combat
 NDefines.NAir.AA_INDUSTRY_AIR_DAMAGE_FACTOR = -0.14 -- -0.12	5x levels = 60% defense from bombing
-NDefines.NAir.ANTI_AIR_MAXIMUM_DAMAGE_REDUCTION_FACTOR = 0.90 -- .75 Maximum damage reduction factor applied to incoming air attacks against units with AA.
+NDefines.NAir.ANTI_AIR_MAXIMUM_DAMAGE_REDUCTION_FACTOR = 0.82 -- .75 Maximum damage reduction factor applied to incoming air attacks against units with AA.
 
 NDefines.NAir.NAVAL_COMBAT_EXTERNAL_PLANES_JOIN_RATIO = 0.1		-- Max planes that can join a combat comparing to the total strength of the ships 0.05-->0.1
 NDefines.NAir.NAVAL_COMBAT_EXTERNAL_PLANES_JOIN_RATIO_PER_DAY = 0.25 -- max extra plane % that can join every day 0.2 ---> 0.25 

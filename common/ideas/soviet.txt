@@ -1516,7 +1516,7 @@ ideas = {
 
 
 			# Not purged, but tried and tortured, then released
-			traits = { army_armored_3 }
+			traits = { army_armored_2 }
 
 			ai_will_do = {
 				factor = 1
@@ -1531,7 +1531,7 @@ ideas = {
 
 			}
 
-			traits = { army_infantry_2 }
+			traits = { army_infantry_1 }
 
 			ai_will_do = {
 				factor = 1

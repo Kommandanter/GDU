@@ -1119,7 +1119,7 @@ focus_tree = {
 			navy_experience = 25
 			add_tech_bonus = {
 				name = ITA_sea_wolves
-				bonus = 1.0
+				bonus = 0.5
 				uses = 1
 				category = ss_tech
 			}
