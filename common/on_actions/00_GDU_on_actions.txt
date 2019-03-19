@@ -33,7 +33,7 @@ on_actions = {
 			add_to_array = { global.small_airbase_list = 648 } #Marcus Island, JAP 
 			add_to_array = { global.small_airbase_list = 555 } #Kuril Islands, JAP
 			add_to_array = { global.small_airbase_list = 650 } #Attu Island, USA 
-			add_to_array = { global.small_airbase_list = 684 } #Caroline islands, JAP, LARGE chain
+			add_to_array = { global.small_airbase_list = 684 } #Caroline islands, JAP, LglobalE chain
 			add_to_array = { global.small_airbase_list = 797 } #Yap Islands, JAP, used to be part of 684 in mod 
 			add_to_array = { global.small_airbase_list = 798 } #Truk Islands, JAP, used to be part of 684 in mod 
 		
@@ -177,7 +177,8 @@ on_actions = {
 	#THIS IS THE AIRBASE LIMITER. 
 	on_daily = { 
 		effect = {
-			ARG = { 
+			 if = {
+                limit = { NOT = { has_global_flag = airbase_limiter_ran } }
 				for_each_scope_loop = {
 					array = global.small_airbase_list
 					if = {
@@ -212,6 +213,7 @@ on_actions = {
 					}
 			
 				}
+				set_global_flag = { flag = airbase_limiter_ran value = 1 days = 1 }
 			}	
 		}
 	}
