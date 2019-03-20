@@ -128,7 +128,7 @@ ideas = {
 			}
 			
 			cancel = {
-				has_war = yes 
+				has_war = yes
 			}
 			
 			removal_cost = -1
@@ -137,7 +137,7 @@ ideas = {
 			
 
 			modifier = {
-				enemy_justify_war_goal_time = 1.0
+				enemy_justify_war_goal_time = 0.15
 				join_faction_tension = 2.00
 				lend_lease_tension = 2.00
 			}
