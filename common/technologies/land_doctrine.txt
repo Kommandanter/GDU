@@ -2244,7 +2244,7 @@ technologies = {
 
 
 
-		supply_consumption_factor = -0.10
+		supply_consumption_factor = -0.05
 
 		enable_tactic = tactic_relentless_assault
 		enable_tactic = tactic_default_relentless_assault

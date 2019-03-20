@@ -534,7 +534,7 @@ focus_tree = {
 		y = 2
 		prerequisite = { focus = USA_neutrality_act focus = USA_limited_intervention }
 		relative_position_id = USA_limited_intervention
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 1
@@ -554,10 +554,8 @@ focus_tree = {
 				limit = {
 					has_completed_focus = USA_neutrality_act
 				}
-				OR = { 
-					date > 1940.7.1 
-					threat > 0.99  
-				}
+				date > 1940.7.1 
+				
 			}
 			if = {
 				limit = {
@@ -815,7 +813,7 @@ focus_tree = {
 		available = {
 			OR = { 
 				threat > 0.35 
-				date > 1938.11.1
+				date > 1939.2.1
 			}
 
 		}
@@ -1620,7 +1618,7 @@ focus_tree = {
 				not = { has_dlc = "Man the Guns" }
 			}
 		}
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1

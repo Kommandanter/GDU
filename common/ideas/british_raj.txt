@@ -267,7 +267,7 @@ ideas = {
 
 			modifier = {
 				autonomy_gain = -0.4
-				consumer_goods_factor = -0.03
+				consumer_goods_factor = -0.05
 			}
 		}
 
@@ -292,7 +292,7 @@ ideas = {
 
 			modifier = {
 				autonomy_gain = -0.4
-				consumer_goods_factor = -0.03
+				consumer_goods_factor = -0.05
 				conscription_factor = 0.05
 			}
 		}

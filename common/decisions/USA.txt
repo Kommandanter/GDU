@@ -181,11 +181,7 @@ USA_aid_britain = {
 			}
 		}
 
-		modifier = {
-			war_support_weekly = 0.0025
-		}
-
-		days_remove = 30
+		days_remove = 35
 
 		visible = {
 			has_war = no
@@ -225,7 +221,7 @@ USA_aid_britain = {
 			}
 		}
 
-		cost = 20
+		cost = 10
 		fire_only_once = yes
 		ai_will_do = {
 			factor = 1
@@ -239,11 +235,7 @@ USA_aid_britain = {
 			}
 		}
 
-		modifier = {
-			war_support_weekly = 0.0025
-		}
-
-		days_remove = 30
+		days_remove = 35
 
 		visible = {
 			has_completed_focus = USA_indirect_help
@@ -254,19 +246,19 @@ USA_aid_britain = {
 			send_equipment = {
 				equipment = infantry_equipment_1
 				amount = 20000
-				target = CAN 
+				target = ENG 
 			}
 			send_equipment = {
 				equipment = artillery_equipment_1
 				amount = 500
-				target = CAN 
+				target = ENG 
 			}
 			send_equipment = {
 				equipment = support_equipment_1
 				amount = 500
-				target = CAN 
+				target = ENG 
 			}
-			CAN = {
+			ENG = {
 				country_event = { id = gduevents.7 }
 			}
 
@@ -289,7 +281,7 @@ USA_aid_britain = {
 			}
 		}
 
-		cost = 20
+		cost = 10
 		fire_only_once = yes
 		ai_will_do = {
 			factor = 1
@@ -303,11 +295,8 @@ USA_aid_britain = {
 			}
 		}
 
-		modifier = {
-			war_support_weekly = 0.0025
-		}
 
-		days_remove = 30
+		days_remove = 35
 
 		visible = {
 			has_war = no
@@ -317,9 +306,9 @@ USA_aid_britain = {
 			send_equipment = {
 				equipment = fighter_equipment 
 				amount = 650
-				target = CAN 
+				target = ENG 
 			}	
-			CAN = {
+			ENG = {
 				country_event = { id = gduevents.8 }
 			}
 		}
@@ -341,7 +330,7 @@ USA_aid_britain = {
 			}
 		}
 
-		cost = 20
+		cost = 10
 		fire_only_once = yes
 		ai_will_do = {
 			factor = 1
@@ -355,11 +344,7 @@ USA_aid_britain = {
 			}
 		}
 
-		modifier = {
-			war_support_weekly = 0.0025
-		}
-
-		days_remove = 30
+		days_remove = 35
 
 		visible = {
 			has_war = no
@@ -369,9 +354,9 @@ USA_aid_britain = {
 			send_equipment = {
 				equipment = CAS_equipment 
 				amount = 300
-				target = CAN 
+				target = ENG 
 			}	
-			CAN = {
+			ENG = {
 				country_event = { id = gduevents.9 }
 			}
 		}
@@ -407,11 +392,7 @@ USA_aid_britain = {
 			}
 		}
 
-		modifier = {
-			war_support_weekly = 0.0025
-		}
-
-		days_remove = 30
+		days_remove = 35
 
 		visible = {
 			has_war = no
@@ -421,9 +402,9 @@ USA_aid_britain = {
 			send_equipment = {
 				equipment = tac_bomber_equipment 
 				amount = 200
-				target = CAN 
+				target = ENG 
 			}	
-			CAN = {
+			ENG = {
 				country_event = { id = gduevents.10 }
 			}
 		}

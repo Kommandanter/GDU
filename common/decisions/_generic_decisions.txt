@@ -940,28 +940,6 @@ war_measures = {
 				has_war_with = USA 
 				has_war_with = FRA
 			}
-            OR = {
-                AND = {
-                    has_government = democratic
-                    has_war_support > 0.79
-                }
-                AND = {
-                    has_government = communism
-                    has_war_support > 0.79
-                }
-                AND = {
-                    has_government = fascism
-                    OR = {
-                        has_war_support > 0.79
-                        surrender_progress > 0.10
-                    }
-                }
-                AND = {
-                    has_government = neutrality
-                    has_war_support > 0.79
-                    has_stability > 0.7
-                }
-            }
  
         }
         visible = {
@@ -972,10 +950,10 @@ war_measures = {
 
 		days_remove = 180
 
-		cost = GER_war_bonds_var?50
+		cost = GER_war_bonds_var?35
 
 		modifier = {
-			consumer_goods_factor = -0.05
+			industrial_capacity_factory = 0.05 
 			war_support_weekly = 0.001
 		}
 

@@ -88,7 +88,7 @@ ideas = {
 				lend_lease_tension = 2
 				send_volunteers_tension = 0.20
 				guarantee_tension = 2.0
-				ai_get_ally_desire_factor = -100
+				ai_get_ally_desire_factor = -500
 			}
 		}
 

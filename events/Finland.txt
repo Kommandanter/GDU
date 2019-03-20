@@ -270,7 +270,6 @@ country_event = {
 			white_peace = FIN
 			transfer_state = 146
 			transfer_state = 147
-			transfer_state = 770
 		}
 		GER = { add_to_faction = FIN }
 		remove_state_core = 146 

@@ -359,14 +359,14 @@ units = {
 	}
 	division = {
 		name = "Mili Kichi Shubitai"
-		location = 13040 #Mili
+		location = 13041 #Mili
 		division_template = "Chuton-chi Shidan"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3		
 	}
 	division = {
 		name = "Maleolap Kichi Shubitai"
-		location = 13043 #Maleolap
+		location = 13041 #Maleolap
 		division_template = "Chuton-chi Shidan"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3

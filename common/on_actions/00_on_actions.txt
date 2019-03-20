@@ -388,7 +388,7 @@ on_actions = {
 					}
 					ROOT = { is_major = yes }
 				}
-				SOV = { country_event = { id = soviet.46 days = 2 } }
+				SOV = { add_timed_idea = { idea = shattered_retreat days = 90 } } 
 			}
 
 			## Soviet war after purge

@@ -586,7 +586,8 @@ focus_tree = {
 		id = SOV_defense_of_stalingrad
 		icon = GFX_focus_ger_great_red_menace 
 		prerequisite = { focus = SOV_defense_of_moscow }
-		prerequisite = { focus = SOV_wartime_propaganda focus = SOV_extra_tech_slot_2 } 
+		prerequisite = { focus = SOV_wartime_propaganda }
+		prerequisite = { focus = SOV_extra_tech_slot_2 } 
 		available = {
 			has_war_with = GER 
 		}
@@ -596,7 +597,7 @@ focus_tree = {
 		relative_position_id = SOV_move_industry_to_urals
 		x = 0
 		y = 3
-		cost = 12.9
+		cost = 15
 		ai_will_do = {
 			factor = 100
 		}
@@ -604,12 +605,6 @@ focus_tree = {
 		continue_if_invalid = yes
         completion_reward = {
 			custom_effect_tooltip = SOV_red_army_resurgent_tooltip
-			add_tech_bonus = {
-				name = armor_bonus
-				bonus = 1.60 
-				uses = 1
-				technology = advanced_medium_tank
-			}
 			hidden_effect = { 
 				swap_ideas = { 
 					remove_idea = SOV_war_for_communism
@@ -1037,7 +1032,7 @@ focus_tree = {
 			}
 			add_tech_bonus = {
 				name = bomber_bonus
-				bonus = 0.6
+				bonus = 1.2
 				uses = 1
 				technology = CAS2
 			}
@@ -1117,6 +1112,12 @@ focus_tree = {
 
 		completion_reward = {
 			add_research_slot = 1
+			add_tech_bonus = {
+				name = armor_bonus
+				bonus = 1.60 
+				uses = 1
+				technology = advanced_medium_tank
+			}
 		}
 		
 		prerequisite = { focus = SOV_defense_of_moscow } 
@@ -1141,19 +1142,9 @@ focus_tree = {
 
 			add_tech_bonus = {
 				name = air_bonus
-				bonus = 1.35
+				bonus = 1.2
 				uses = 1
-				technology = fighter1
 				technology = fighter2
-				technology = CAS1
-				technology = CAS2
-				technology = heavy_fighter1
-				technology = heavy_fighter2
-				technology = tactical_bomber1
-				technology = tactical_bomber2
-				technology = strategic_bomber1
-				technology = strategic_bomber2
-				category = naval_air
 			}
 		}
 	}
@@ -1269,7 +1260,7 @@ focus_tree = {
 			add_ideas = SOV_Sinteticheskii_Kauchuk_idea
 			add_tech_bonus = {
 				name = USA_rubber_reserve_company
-				bonus = 1.0
+				bonus = 1.25
 				uses = 2
 				technology = rubber_processing
 				technology = improved_rubber_processing
@@ -1325,7 +1316,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				bonus = 1.00 
-				uses = 1
+				uses = 2
 				category = air_doctrine
 			}
 		}

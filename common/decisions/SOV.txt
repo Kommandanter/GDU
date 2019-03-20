@@ -502,43 +502,43 @@ SOV_great_patriotic_war = {
 				189 = {
 					damage_building = {
 						type = infrastructure
-						damage = 3
+						damage = 2
 					}
 				}
 				11 = {
 					damage_building = {
 						type = infrastructure
-						damage = 3
+						damage = 2
 					}
 				}
 				190 = {
 					damage_building = {
 						type = infrastructure
-						damage = 3
+						damage = 2
 					}
 				}
 				784 = {
 					damage_building = {
 						type = infrastructure
-						damage = 3
+						damage = 2
 					}
 				}
 				12 = {
 					damage_building = {
 						type = infrastructure
-						damage = 3
+						damage = 2
 					}
 				}
 				191 = {
 					damage_building = {
 						type = infrastructure
-						damage = 3
+						damage = 2
 					}
 				}
 				13 = {
 					damage_building = {
 						type = infrastructure
-						damage = 3
+						damage = 2
 					}
 				}
 		}
@@ -567,37 +567,37 @@ SOV_great_patriotic_war = {
 			96 = {
 				damage_building = {
 					type = infrastructure
-					damage = 3
+					damage = 2
 				}
 			}
 			194 = {
 				damage_building = {
 					type = infrastructure
-					damage = 3
+					damage = 2
 				}
 			}
 			204 = {
 				damage_building = {
 					type = infrastructure
-					damage = 3
+					damage = 2
 				}
 			}
 			206 = {
 				damage_building = {
 					type = infrastructure
-					damage = 3
+					damage = 2
 				}
 			}
 			207 = {
 				damage_building = {
 					type = infrastructure
-					damage = 3
+					damage = 2
 				}
 			}
 			241 = {
 				damage_building = {
 					type = infrastructure
-					damage = 3
+					damage = 2
 				}
 			}
 		}
@@ -626,79 +626,79 @@ SOV_great_patriotic_war = {
 			192 = {
 				damage_building = {
 					type = infrastructure
-					damage = 3
+					damage = 2
 				}
 			}
 			198 = {
 				damage_building = {
 					type = infrastructure
-					damage = 3
+					damage = 2
 				}
 			}
 			199 = {
 				damage_building = {
 					type = infrastructure
-					damage = 3
+					damage = 2
 				}
 			}
 			197 = {
 				damage_building = {
 					type = infrastructure
-					damage = 3
+					damage = 2
 				}
 			}
 			203 = {
 				damage_building = {
 					type = infrastructure
-					damage = 3
+					damage = 2
 				}
 			}
 			202 = {
 				damage_building = {
 					type = infrastructure
-					damage = 3
+					damage = 2
 				}
 			}
 			201 = {
 				damage_building = {
 					type = infrastructure
-					damage = 3
+					damage = 2
 				}
 			}
 			259 = {
 				damage_building = {
 					type = infrastructure
-					damage = 3
+					damage = 2
 				}
 			}
 			193 = {
 				damage_building = {
 					type = infrastructure
-					damage = 3
+					damage = 2
 				}
 			}
 			225 = {
 				damage_building = {
 					type = infrastructure
-					damage = 3
+					damage = 2
 				}
 			}
 			221 = {
 				damage_building = {
 					type = infrastructure
-					damage = 3
+					damage = 2
 				}
 			}
 			227 = { 
 				damage_building = { 
 					type = infrastructure
-					damage = 3 
+					damage = 2 
 				}
 			}
 			228 = {
 				damage_building = {
 					type = infrastructure
-					damage = 3
+					damage = 2
 				}
 			}
 			
@@ -729,43 +729,43 @@ SOV_great_patriotic_war = {
 				229 = {
 					damage_building = {
 						type = infrastructure
-						damage = 3
+						damage = 2
 					}
 				}
 				230 = {
 					damage_building = {
 						type = infrastructure
-						damage = 3
+						damage = 2
 					}
 				}
 				231 = {
 					damage_building = {
 						type = infrastructure
-						damage = 3
+						damage = 2
 					}
 				}
 				232 = {
 					damage_building = {
 						type = infrastructure
-						damage = 3
+						damage = 2
 					}
 				}
 				233 = {
 					damage_building = {
 						type = infrastructure
-						damage = 3
+						damage = 2
 					}
 				}
 				234 = {
 					damage_building = {
 						type = infrastructure
-						damage = 3
+						damage = 2
 					}
 				}
 				235 = {
 					damage_building = {
 						type = infrastructure
-						damage = 3
+						damage = 2
 					}
 				}
 			}
@@ -793,43 +793,43 @@ SOV_great_patriotic_war = {
 				245 = {
 					damage_building = {
 						type = infrastructure
-						damage = 3
+						damage = 2
 					}
 				}
 				217 = {
 					damage_building = {
 						type = infrastructure
-						damage = 3
+						damage = 2
 					}
 				}
 				218 = {
 					damage_building = {
 						type = infrastructure
-						damage = 3
+						damage = 2
 					}
 				}
 				238 = {
 					damage_building = {
 						type = infrastructure
-						damage = 3
+						damage = 2
 					}
 				}
 				237 = {
 					damage_building = {
 						type = infrastructure
-						damage = 3
+						damage = 2
 					}
 				}
 				236 = {
 					damage_building = {
 						type = infrastructure
-						damage = 3
+						damage = 2
 					}
 				}
 				265 = {
 					damage_building = {
 						type = infrastructure
-						damage = 3
+						damage = 2
 					}
 				}
 		}
@@ -869,7 +869,7 @@ SOV_great_patriotic_war = {
 				}
 				damage_building = {
 					type = infrastructure
-					damage = 3
+					damage = 2
 				}
 			}
 		}

@@ -75,8 +75,6 @@ country_event = {
 	picture = GFX_report_event_fall_blau
 	
 	is_triggered_only = yes
-		
-	fire_only_once = yes 
 	
 	option = {
 		name = gduevents.3.a

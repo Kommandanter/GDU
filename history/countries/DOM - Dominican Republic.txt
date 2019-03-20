@@ -69,16 +69,19 @@ set_politics = {
 		}
 
 		fascism = {
-			popularity = 100
+			popularity = 0
 		}
 		
 		communism = {
 			popularity = 0
 			#banned = no #default is no
 		}
+		neutrality = { 
+			popularity = 100 
+		}
 	}
 	
-	ruling_party = fascism
+	ruling_party = neutrality 
 	last_election = "1934.5.16"
 	election_frequency = 48
 	elections_allowed = no
@@ -89,7 +92,7 @@ create_country_leader = {
 	desc = "POLITICS_RAFAEL_TRUJILLO_DESC"
 	picture = "GFX_portrait_dominca_rafael_trujillo"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = despotism 
 	traits = {
 		#
 	}

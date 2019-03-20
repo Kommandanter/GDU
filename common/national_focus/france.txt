@@ -128,11 +128,11 @@ focus_tree = {
 
 
 				completion_reward = {
-			16 = {
-					add_extra_state_shared_building_slots = 5
+			20 = {
+					add_extra_state_shared_building_slots = 3
 					add_building_construction = {
 						type = industrial_complex
-						level = 5
+						level = 3
 						instant_build = yes
 					}
 				}
@@ -157,11 +157,11 @@ focus_tree = {
 
 
 				completion_reward = {
-			16 = {
-					add_extra_state_shared_building_slots = 5
+			20 = {
+					add_extra_state_shared_building_slots = 3
 					add_building_construction = {
 						type = arms_factory
-						level = 5
+						level = 3
 						instant_build = yes
 					}
 				}
@@ -286,10 +286,10 @@ focus_tree = {
 		complete_tooltip = {
 			every_state = {
 				limit = { has_state_flag = FRA_colonial_industry_4IC }
-				add_extra_state_shared_building_slots = 4
+				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = industrial_complex
-					level = 4
+					level = 3
 					instant_build = yes
 				}
 			}
@@ -326,31 +326,15 @@ focus_tree = {
 						}
 						NOT = { is_on_continent = europe }
 					}
-					add_extra_state_shared_building_slots = 2
+					add_extra_state_shared_building_slots = 3
 					add_building_construction = {
 						type = industrial_complex
-						level = 2
+						level = 3
 						instant_build = yes
 					}
 					set_state_flag = FRA_colonial_industry_2IC
 				}
-				random_owned_controlled_state =  {
-					limit = {
-						free_building_slots = {
-							building = industrial_complex
-							size > 1
-							include_locked = yes
-						}
-						NOT = { is_on_continent = europe }
-					}
-					add_extra_state_shared_building_slots = 2
-					add_building_construction = {
-						type = industrial_complex
-						level = 2
-						instant_build = yes
-					}
-					set_state_flag = FRA_colonial_industry_2IC
-				}
+
 			}
 			if = {
 				limit = {
@@ -363,10 +347,10 @@ focus_tree = {
 					}
 				}
 				539 = {
-					add_extra_state_shared_building_slots = 4
+					add_extra_state_shared_building_slots = 3
 					add_building_construction = {
 						type = industrial_complex
-						level = 4
+						level = 3
 						instant_build = yes
 					}
 					set_state_flag = FRA_colonial_industry_4IC
@@ -412,19 +396,11 @@ focus_tree = {
 				add_extra_state_shared_building_slots = 4
 				add_building_construction = {
 					type = arms_factory
-					level = 4
+					level = 3
 					instant_build = yes
 				}
 			}
-			every_state = {
-				limit = { has_state_flag = FRA_colonial_military_factories_2MF }
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = arms_factory
-					level = 2
-					instant_build = yes
-				}
-			}
+
 		}
 
 		completion_reward = {
@@ -449,10 +425,10 @@ focus_tree = {
 						}
 						NOT = { is_on_continent = europe }
 					}
-					add_extra_state_shared_building_slots = 2
+					add_extra_state_shared_building_slots = 1
 					add_building_construction = {
 						type = arms_factory
-						level = 2
+						level = 1
 						instant_build = yes
 					}
 					set_state_flag = FRA_colonial_military_factories_2MF
@@ -486,10 +462,10 @@ focus_tree = {
 					}
 				}
 				539 = {
-					add_extra_state_shared_building_slots = 4
+					add_extra_state_shared_building_slots = 3
 					add_building_construction = {
 						type = arms_factory
-						level = 4
+						level = 3
 						instant_build = yes
 					}
 					set_state_flag = FRA_colonial_military_factories_4MF
@@ -1367,8 +1343,8 @@ focus_tree = {
 			add_political_power = 150
 			set_capital = 539
 			country_event = { days = 1 id = free_france.1 }
-			add_offsite_building = { type = industrial_complex level = 2 }
-			add_offsite_building = { type = arms_factory level = 2 }
+			add_offsite_building = { type = industrial_complex level = 4 }
+			add_offsite_building = { type = arms_factory level = 4 }
 			add_tech_bonus = {
 				name = FRA_army_reform
 				bonus = 1.0

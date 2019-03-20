@@ -21,6 +21,7 @@ ideas = {
 				lend_lease_tension = 2.00
 				send_volunteers_tension = 2.00
 				political_power_gain = -2
+				ai_get_ally_desire_factor = -100 
 			}
 		}
 		latin_neutrality = {
@@ -44,6 +45,7 @@ ideas = {
 			lend_lease_tension = 2.00
 			send_volunteers_tension = 2.00
 			political_power_gain = -2
+			ai_get_ally_desire_factor = -100 
 			
 			}
 		}

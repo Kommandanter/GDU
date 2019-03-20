@@ -230,6 +230,7 @@ ideas = {
 				has_war = yes
 				threat > 0.2
 				has_war_support > 0.8
+				date > 1941.1.1 
 				any_enemy_country = {
 					ic_ratio = {
 						tag = ROOT

@@ -11,6 +11,7 @@ state={
 		buildings = {
 			infrastructure = 4
 		}
+		add_core_of = GER 
 	}
 	buildings_max_level_factor=1.000
 }

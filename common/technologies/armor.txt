@@ -761,7 +761,7 @@ technologies = {
 		}
 	
 		research_cost = 0.5
-		start_year = 1939
+		start_year = 1937
 
 		
 		ai_will_do = {
@@ -820,7 +820,7 @@ technologies = {
 		}
 	
 		research_cost = 0.5
-		start_year = 1939
+		start_year = 1937
 		
 		ai_will_do = {
 			factor = 1
@@ -866,7 +866,7 @@ technologies = {
 		}
 	
 		research_cost = 0.5
-		start_year = 1939
+		start_year = 1937
 		
 		ai_will_do = {
 			factor = 1
@@ -1126,10 +1126,6 @@ technologies = {
 		
 		research_cost = 2
 		start_year = 1943
-		
-		allow = { 
-			date > 1942.1.1
-		}
 		
 		folder = {
 			name = armour_folder
@@ -1777,10 +1773,6 @@ technologies = {
 		research_cost = 2.5
 		start_year = 1943
 		
-		allow = { 
-			date > 1942.1.1
-		}
-		
 		folder = {
 			name = armour_folder
 			position = { x = 4 y = 10 }
@@ -1906,9 +1898,7 @@ technologies = {
 	
 		research_cost = 2.5
 		start_year = 1943
-		allow = { 
-			date > 1942.1.1
-		}
+
 		folder = {
 			name = armour_folder
 			position = { x = 8 y = 10 }

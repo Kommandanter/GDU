@@ -81,8 +81,6 @@ ideas = {
 			
 			modifier = {				
 				production_speed_arms_factory_factor = 0.1
-				industrial_capacity_factory = 0.05
-				industrial_capacity_dockyard = 0.05
 				conscription = 0.02
 				conscription_factor = 0.15
 				training_time_factor = -0.25
@@ -104,9 +102,9 @@ ideas = {
 			picture = generic_goods_red_bonus
 			
 			modifier = {
-				consumer_goods_factor = -0.05
-				industrial_capacity_factory = 0.07
-				industrial_capacity_dockyard = 0.07
+				consumer_goods_factor = -0.03
+				industrial_capacity_factory = 0.05
+				industrial_capacity_dockyard = 0.05
 				stability_factor = 0.05
 			}
 		}
@@ -126,9 +124,9 @@ ideas = {
 			picture = generic_goods_red_bonus
 			
 			modifier = {
-				consumer_goods_factor = -0.1
-				industrial_capacity_factory = 0.15
-				industrial_capacity_dockyard = 0.15
+				consumer_goods_factor = -0.05
+				industrial_capacity_factory = 0.12
+				industrial_capacity_dockyard = 0.12
 				stability_factor = 0.10
 			}
 		}

@@ -17,7 +17,7 @@ ideas = {
 			picture = FRA_factory_strikes
 
 			modifier = {
-				conversion_cost_civ_to_mil_factor= 0.15
+				conversion_cost_civ_to_mil_factor = 0.2
 			}
 			
 		}
@@ -61,7 +61,7 @@ ideas = {
 			picture = generic_disjointed_gov
 
 			modifier = {
-				political_power_cost = 0.8
+				political_power_cost = 0.65
 				stability_factor = -0.10
 			}
 		}
@@ -107,7 +107,7 @@ ideas = {
 				army_core_defence_factor = 0.05
 				planning_speed = -0.15
 				max_command_power = -150
-				surrender_limit = -0.25
+				surrender_limit = -0.3
 			}
 		}
 
@@ -458,21 +458,6 @@ ideas = {
 			}
 		}
 
-		FRA_jacques_duclos = {
-
-			allowed = {
-				original_tag = "FRA"
-			}
-
-			picture = generic_political_advisor_europe_3
-
-			traits = { backroom_backstabber }
-
-			ai_will_do = {
-				factor = 0
-			}
-		}
-
 		FRA_paul_baudouin = {
 
 			allowed = {
@@ -499,9 +484,7 @@ ideas = {
 			allowed = {
 				original_tag = "FRA"
 			}
-			available = {
-				has_country_flag = free_france
-			}
+
 			picture = generic_army_europe_5
 
 			traits = { war_industrialist }
