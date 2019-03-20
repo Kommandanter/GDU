@@ -280,7 +280,6 @@ add_ideas = {
 	production_targets_idea
 	GDU_special_forces_cap
 	closed_economy
-	low_economic_mobilisation 
 }
 
 create_country_leader = {
