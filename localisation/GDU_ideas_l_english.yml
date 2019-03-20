@@ -89,6 +89,8 @@
     benelux_neutrality_desc:0 "Traditionally, the Netherlands, Luxemburg, and Belgium have pursued a policy of neutrality towards their neighbors. Of course, neither Belgium or Luxemburg found their neutrality respected in the Great War, and with the way things are looking? The Dutch may have reason to fear as well..."
     scandinavian_neutrality:0 "Scandinavian Neutrality" 
     scandinavian_neutrality_desc:0 "Denmark and Norway have upheld a strict policy of neutrality for years, believing it to be a shield against aggressors. Unfortunately, the upcoming conflict is likely going to be a bit different." 
+    irish_neutrality:0 "Irish Neutrality"
+    irish_neutrality_desc:0 "Our Minister of Finance Boston has wrecked our economy. He hasn't gotten this fabled DD-214 the Americans are fond of. Because of this our economy is in ruins and can't begin to recover for many years. We can't afford to join any wars and must stay neutral as a result."
 	
     SOV_industrial_relocations:0 "Industrial Relocations"
     SOV_industrial_relocations_desc:0 "Industrial potential is being moved away from the front and behind the Urals where it is safer."
