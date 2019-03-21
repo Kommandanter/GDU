@@ -17,7 +17,7 @@ ideas = {
 			picture = FRA_factory_strikes
 
 			modifier = {
-				conversion_cost_civ_to_mil_factor = 0.2
+				conversion_cost_civ_to_mil_factor = 0.25
 			}
 			
 		}

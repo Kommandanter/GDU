@@ -2519,11 +2519,80 @@ focus_tree = {
 			336 = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
+					type = anti_air_building
+					level = 5
+					instant_build = yes
+				}
+				add_building_construction = { 
+					type = bunker 
+					level = 4 
+					province = 7342 
+				}
+				add_building_construction = { 
+					type = bunker 
+					level = 4 
+					province = 4310
+				}
+				add_building_construction = { 
+					type = bunker 
+					level = 4 
+					province = 7329
+				}
+				add_building_construction = { 
+					type = bunker 
+					level = 2
+					province = 12215
+				}
+				add_building_construction = { 
+					type = bunker 
+					level = 2
+					province = 1364 
+				}
+				add_building_construction = { 
+					type = bunker 
+					level = 2
+					province = 10227  
+				}
+				add_building_construction = { 
+					type = bunker 
+					level = 2
+					province = 12199  
+				}
+				add_building_construction = { 
+					type = bunker 
+					level = 2
+					province = 4412   
+				}
+				add_building_construction = { 
+					type = bunker 
+					level = 2
+					province = 12271  
+				}
+				add_building_construction = {
 					type = coastal_bunker
-					level = 3
+					level = 4
 					province = 12299
 					instant_build = yes
 				}
+				add_building_construction = {
+					type = bunker 
+					level = 2
+					province = 12299
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = coastal_bunker
+					level = 2
+					province = 4367
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = coastal_bunker
+					level = 2
+					province = 10313 
+					instant_build = yes
+				}
+				
 				if = {
 					limit = {
 						CONTROLLER = {
