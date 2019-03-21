@@ -1020,7 +1020,7 @@ focus_tree = {
 		x = 6
 		y = 1
 		relative_position_id = limited_rearmament_focus
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -1265,7 +1265,7 @@ focus_tree = {
 		x = 1
 		y = 2
 		relative_position_id = ENG_secure_the_imperial_shipping_routes
-		cost = 5
+		cost = 10
 		ai_will_do = {
 			factor = 1
 		}
@@ -3310,43 +3310,6 @@ focus_tree = {
 					localization = uk_south_africa_focus
 				}
 			}
-		}
-	}
-
-	focus = {
-		id = ENG_indian_autonomy
-		prerequisite = { focus = uk_india_focus }
-
-		allow_branch = {
-			has_dlc = "Man the Guns"
-		}
-
-		available = { 	
-			RAJ = {
-				is_subject_of = ENG
-			}
-		}
-
-		continue_if_invalid = no
-
-		icon = GFX_focus_generic_self_management
-
-		x = 0
-		y = 1
-		relative_position_id = uk_india_focus
-		cost = 3
-		ai_will_do = {
-			factor = 1
-			#modifier = {
-			#	factor = 0
-			#}
-		}	
-		completion_reward = {
-			set_autonomy = {
-				target = RAJ
-				autonomy_state = autonomy_dominion
-			}
-			RAJ = { add_timed_idea = { idea = ENG_indian_autonomy_RAJ_idea days = 730 } }
 		}
 	}
 

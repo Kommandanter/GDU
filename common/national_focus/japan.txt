@@ -617,11 +617,10 @@ focus_tree = {
 
 		completion_reward = {
 			add_tech_bonus = {
-				name = JAP_bypass_the_philippines
-			    ahead_reduction = 5.0  
+				name = uk_amphibious_focus
+				ahead_reduction = 4 
 				uses = 2
-				technology = mtg_landing_craft
-				technology = mtg_tank_landing_craft
+				category = tp_tech
 			}
 		}
 	}
