@@ -410,10 +410,10 @@ ideas = {
 			}
 
 			modifier = {
-				political_advisor_cost_factor = -0.25
-				trade_laws_cost_factor = -0.25
-				mobilization_laws_cost_factor = -0.25
-				economy_cost_factor = -0.25
+				political_advisor_cost_factor = -0.15
+				trade_laws_cost_factor = -0.15
+				mobilization_laws_cost_factor = -0.15
+				economy_cost_factor = -0.15
 			}
 
 			picture = eng_guided_by_britain
@@ -435,11 +435,11 @@ ideas = {
 			}
 
 			modifier = {
-				political_advisor_cost_factor = -0.25
-				trade_laws_cost_factor = -0.25
-				mobilization_laws_cost_factor = -0.25
-				economy_cost_factor = -0.25
-				autonomy_gain = 1
+				political_advisor_cost_factor = -0.15
+				trade_laws_cost_factor = -0.15
+				mobilization_laws_cost_factor = -0.15
+				economy_cost_factor = -0.15
+				autonomy_gain = 0.20 
 			}
 
 			picture = eng_guided_by_britain
@@ -698,16 +698,16 @@ ideas = {
 
 			equipment_bonus = {
 				screen_ship = {
-					naval_speed = 0.1 naval_range = 0.25
+					naval_range = 0.15
 				}
 				carrier = {
-					naval_speed = 0.1 naval_range = 0.25
+					naval_range = 0.15
 				}
 				capital_ship = {
-					naval_speed = 0.1 naval_range = 0.25
+					naval_range = 0.15
 				}
 				submarine = {
-					naval_speed = 0.1 naval_range = 0.25
+					naval_range = 0.15
 				}
 			}
 
@@ -1259,7 +1259,7 @@ ideas = {
 			}
 			
 			modifier = {
-				acclimatization_hot_climate_gain_factor = 0.1
+				non_core_manpower = 0.07 
 			}
 
 			picture = eng_service_overseas
