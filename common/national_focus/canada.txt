@@ -65,12 +65,12 @@ focus_tree = {
 	############################
 
 	focus = {
-		id = CAN_rowell_sirois_commission_2
+		id = CAN_rowell_sirois_commission
 		icon = GFX_goal_generic_consumer_goods
 		x = 0
 		y = 0
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 24
@@ -106,15 +106,15 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_civ_factory
 		x = 3
 		y = 0
-		relative_position_id = CAN_rowell_sirois_commission_2
+		relative_position_id = CAN_rowell_sirois_commission
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 25
 			modifier = {
 				factor = 3
-				has_completed_focus = CAN_rowell_sirois_commission_2
+				has_completed_focus = CAN_rowell_sirois_commission
 			}
 		}
 
@@ -144,11 +144,11 @@ focus_tree = {
 	focus = {
 		id = CAN_national_housing_act
 		icon = GFX_goal_generic_construct_civilian
-		prerequisite = { focus = CAN_rowell_sirois_commission_2 }
+		prerequisite = { focus = CAN_rowell_sirois_commission }
 		prerequisite = { focus = CAN_crown_corporations }
 		x = 2
 		y = 1
-		relative_position_id = CAN_rowell_sirois_commission_2
+		relative_position_id = CAN_rowell_sirois_commission
 
 		cost = 10
 
@@ -217,7 +217,7 @@ focus_tree = {
 		prerequisite = { focus = CAN_national_housing_act}
 		x = 2
 		y = 2
-		relative_position_id = CAN_rowell_sirois_commission_2
+		relative_position_id = CAN_rowell_sirois_commission
 
 		cost = 10
 
@@ -254,10 +254,10 @@ focus_tree = {
 	focus = {
 		id = CAN_canada_pacific_railway
 		icon = GFX_goal_generic_construct_infrastructure
-		prerequisite = { focus = CAN_rowell_sirois_commission_2 }
+		prerequisite = { focus = CAN_rowell_sirois_commission }
 		x = 0
 		y = 2
-		relative_position_id = CAN_rowell_sirois_commission_2
+		relative_position_id = CAN_rowell_sirois_commission
 
 		cost = 5
 
@@ -323,7 +323,7 @@ focus_tree = {
 		prerequisite = { focus = CAN_canada_pacific_railway }
 		x = 0
 		y = 3
-		relative_position_id = CAN_rowell_sirois_commission_2
+		relative_position_id = CAN_rowell_sirois_commission
 
 		cost = 5
 
@@ -390,7 +390,7 @@ focus_tree = {
 		prerequisite = { focus = CAN_bits_and_pieces_program }
 		x = 2
 		y = 3
-		relative_position_id = CAN_rowell_sirois_commission_2
+		relative_position_id = CAN_rowell_sirois_commission
 
 		cost = 5
 
@@ -460,7 +460,7 @@ focus_tree = {
 		prerequisite = { focus = CAN_retool_angus_shops }
 		x = 2
 		y = 4
-		relative_position_id = CAN_rowell_sirois_commission_2
+		relative_position_id = CAN_rowell_sirois_commission
 
 		cost = 5
 
@@ -1885,7 +1885,6 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			remove_ideas = CAN_great_depression_2
 			random_owned_controlled_state = {
 				limit = {
 					is_in_home_area = yes

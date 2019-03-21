@@ -1318,16 +1318,6 @@ focus_tree = {
 	}
 
 	focus = {
-		id = CAN_rowell_sirois_commission
-		icon = GFX_goal_generic_construction
-		x = 0
-		y = 0
-		cost = 10
-
-		completion_reward = { }
-	}
-
-	focus = {
 		id = CHI_dare_to_die_corps
 		icon = GFX_goal_generic_construction
 		x = 0
