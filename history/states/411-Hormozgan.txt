@@ -10,7 +10,6 @@ state={
 		owner = PER
 		buildings = {
 			infrastructure = 2	
-			air_base = 4
 		}
 		victory_points = {
 			2026 1 

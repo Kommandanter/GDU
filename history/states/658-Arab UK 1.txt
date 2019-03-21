@@ -12,6 +12,9 @@ state={
 
 	history={
 		owner = ENG
+		buildings = { 
+			air_base = 5
+		}
 		victory_points = {
 			7960 1 
 		}
