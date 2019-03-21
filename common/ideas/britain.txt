@@ -699,15 +699,19 @@ ideas = {
 			equipment_bonus = {
 				screen_ship = {
 					naval_range = 0.15
+					instant = yes
 				}
 				carrier = {
 					naval_range = 0.15
+					instant = yes
 				}
 				capital_ship = {
 					naval_range = 0.15
+					instant = yes
 				}
 				submarine = {
 					naval_range = 0.15
+					instant = yes
 				}
 			}
 
