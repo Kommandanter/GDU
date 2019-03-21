@@ -2243,7 +2243,7 @@ focus_tree = {
 				GER = {
 					country_event = germany.50
 				}
-				add_named_threat = { threat = 3 name = GER_demand_sudetenland_threat }
+				add_named_threat = { threat = 5 name = GER_demand_sudetenland_threat }
 			}
 			69 = {
 				add_claim_by = GER
