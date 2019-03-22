@@ -1245,7 +1245,6 @@ focus_tree = {
 				add_tech_bonus = {
 					name = med_armor_bonus
 					bonus = 1.00 
-					ahead_reduction = 1
 					technology = basic_medium_tank
 				}
 				# Balance research bonus to 2 techs in armor, also in event
@@ -1325,7 +1324,7 @@ focus_tree = {
 				category = land_doctrine
 			}
 			add_tech_bonus = {
-				bonus = 1.50
+				bonus = 1.10
 				uses = 1
 				name = mech_army_bonus
 				category = armor 
@@ -1338,7 +1337,7 @@ focus_tree = {
 				category = cat_mechanized_2
 			}
 			add_tech_bonus = {
-				bonus = 0.7
+				bonus = 1.00 
 				uses = 1
 				name = mech_army_bonus
 				category = cat_mechanized_1
