@@ -14,8 +14,7 @@ ideas = {
 			
 			removal_cost = -1 
 			
-			modifier = { 
-				spotting_chance = -0.5 
+			modifier = {
 				navy_anti_air_attack_factor = -0.5 
 				sortie_efficiency = -0.5 
 				naval_hit_chance = -0.5 
@@ -2306,7 +2305,7 @@ ideas = {
 				original_tag = USA
 			}
 			
-			cost = 250
+			cost = 150
 			
 			research_bonus = {
 				cat_superior_firepower = 0.10
@@ -2322,7 +2321,7 @@ ideas = {
 				original_tag = USA
 			}
 			
-			cost = 250
+			cost = 150
 			
 			research_bonus = {
 				cat_mobile_warfare = 0.10
@@ -2354,7 +2353,7 @@ ideas = {
 				original_tag = USA
 			}
 			
-			cost = 250
+			cost = 150
 			
 			research_bonus = {
 				cat_base_strike = 0.10
@@ -2370,7 +2369,11 @@ ideas = {
 				original_tag = USA
 			}
 			
-			cost = 250
+			available = { 
+				has_completed_focus = USA_combined_bomber_offensive 
+			} 
+			
+			cost = 150
 			
 			research_bonus = {
 				cat_strategic_destruction = 0.10
@@ -2391,6 +2394,11 @@ ideas = {
 			research_bonus = {
 				air_doctrine = 0.07
 			}
+			
+			available = { 
+				has_completed_focus = USA_TAC 
+			} 
+			
 			
 			traits = { air_warfare_theorist }
 		}

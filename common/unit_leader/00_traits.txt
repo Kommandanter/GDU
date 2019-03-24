@@ -104,6 +104,7 @@ leader_traits = {
 			army_defence_factor = -0.05
 		}	
 	
+		override_effect_tooltip = brilliant_strategist_GDU
 		
 		attack_skill_factor = 1
 		planning_skill_factor = 1
@@ -336,31 +337,34 @@ leader_traits = {
 		}
 		modifier = {
 			desert = {
-				movement = 0.075
+				movement = 0.05
 			}
 			hills = {
-				movement = 0.075
+				movement = 0.05
 			}
 			forest = {
-				movement = 0.075
+				movement = 0.05
 			}
 			mountain = {
-				movement = 0.075
+				movement = 0.05
 			}
 			plains = {
-				movement = 0.075
+				movement = 0.05
 			}
 			urban = {
-				movement = 0.075
+				movement = 0.05
 			}
 			jungle = {
-				movement = 0.075
+				movement = 0.05
 			}
 			marsh = {
-				movement = 0.075
+				movement = 0.05
 			}
-			supply_consumption_factor = 0.025
-		}		
+			supply_consumption_factor = 0.02
+		}
+		
+		override_effect_tooltip = armor_officer_GDU  
+		
 		attack_skill_factor = 1
 		planning_skill_factor = 1
 	}
@@ -1196,39 +1200,38 @@ leader_traits = {
 		}
 		cost = 500
 		modifier = {
+			river_crossing_factor = -0.6 
 			desert = {
-				movement = 0.1
+				movement = 0.05
 			}
 			hills = {
-				movement = 0.1
+				movement = 0.05
 			}
 			forest = {
-				movement = 0.1
+				movement = 0.05
 			}
 			mountain = {
-				movement = 0.1
+				movement = 0.05
 			}
 			plains = {
-				movement = 0.1
+				movement = 0.05
 			}
 			urban = {
-				movement = 0.1
+				movement = 0.05
 			}
 			jungle = {
-				movement = 0.1
+				movement = 0.05
 			}
 			marsh = {
-				movement = 0.1
+				movement = 0.05
 			}
 		}
 		
-		override_effect_tooltip = expert_improviser_movement_bonus_on_land
+		override_effect_tooltip = expert_improviser_movement_bonus_on_land_GDU 
 			
 		ai_will_do = {
 			factor = 1
 		}
-		
-		enable_ability = makeshift_bridges
 		
 		trait_type = assignable_trait
 		parent = trickster
@@ -2142,8 +2145,8 @@ leader_traits = {
 		type = all
 		trait_type = status_trait
 		modifier = {
-			army_speed_factor = 0.1
-			army_morale_factor = 0.1
+			army_speed_factor = 0.075
+			army_morale_factor = 0.075 
 		}
 	}
 	

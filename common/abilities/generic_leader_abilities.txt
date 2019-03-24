@@ -144,41 +144,6 @@ ability = {
 		duration = -1
 	}
 
-	makeshift_bridges = {
-		name = ABILITY_MAKESHIFT_BRIDGES
-		desc = ABILITY_MAKESHIFT_BRIDGES_DESC
-
-		type = army_leader
-
-		allowed = {
-			has_ability = makeshift_bridges
-			is_border_war = no
-		}
-
-
-		unit_modifiers = {
-			river_crossing_factor = -1.0 # was -0.5
-			#river = {
-			#	attack = 0.4
-			#}
-		}
-
-		cost = 0.1
-		duration = 168
-
-		ai_will_do = {
-			factor = -1
-			modifier = {
-				FROM = {
-					command_power > 2.0
-				}
-				check_variable = { num_units_crossing_river > 5 }
-
-				add = 2
-			}
-		}
-	}
-
 	extra_suplies = {
 		name = ABILITY_EXTRA_SUPLIES
 		desc = ABILITY_EXTRA_SUPLIES_DESC

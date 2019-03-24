@@ -89,6 +89,15 @@ GER_case_anton_category = {
 			OR = { 
 				EFR = { has_war = yes } 
 				date > 1942.3.15
+				OR = { 
+					NOT = { controls_state = 19 } 
+					NOT = { controls_state = 23 } 
+					NOT = { controls_state = 30 } 
+					NOT = { controls_state = 14 } 
+					NOT = { controls_state = 15 } 
+					NOT = { controls_state = 29 } 
+					ITA = { surrender_progress > 0.25 }
+				} 
 			}
 		}
 

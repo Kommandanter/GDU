@@ -63,6 +63,8 @@
  JAP_naval_landings_desc:0 "The IJN is calling for higher standards on naval landing equipment, training, and tactics. We'd be foolish not to listen." 
  JAP_amphibious_armor:0 "Amphibious Landing Craft" 
  JAP_amphibious_armor_desc:0 "In the case of a heavily guarded landing zone, marines might not be enough. Research into amphibious tanks will prove key in cracking stubborn island defenses." 
+ JAP_total_manchurian_integration:0 "Total Manchurian Integration" 
+ JAP_total_manchurian_integration_desc:0 "The Manchurian puppet state we set up has served its purpose. A complete integration of the intellectual, industrial, and manpower resources Manchukuo has to offer into Japan is in order." 
  
  NZL_central_department_of_industry:0 "Central Department of Industry"
  

@@ -27,7 +27,7 @@ equipments = {
 			plane_reliability_upgrade
 		}
 
-		air_superiority = 0.25
+		air_superiority = 1
 		reliability = 0.8
 
 		# Air vs Navy - high damage / low hit chance / hard to hurt

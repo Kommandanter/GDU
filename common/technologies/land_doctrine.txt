@@ -739,7 +739,7 @@ technologies = {
 			 soft_attack = 0.2
 		}
 		category_line_artillery = {
-			soft_attack = 0.1
+			soft_attack = 0.12
 		}
 
 		#category_army = {

@@ -59,7 +59,6 @@ on_actions = {
 			add_to_array = { global.small_airbase_list = 702 } #Cape Verde, POR 
 			add_to_array = { global.small_airbase_list = 178 } #Canary Islands, SPR 
 			add_to_array = { global.small_airbase_list = 697 } #Madeira, POR 
-			add_to_array = { global.small_airbase_list = 698 } #Azores, UK 
 			add_to_array = { global.small_airbase_list = 696 } #Bermuda, UK 
 			add_to_array = { global.small_airbase_list = 337 } #Faroes, DEN-UK
 			
@@ -240,77 +239,61 @@ on_actions = {
 				navy_experience = 25 
 			}
 			
-			if = {
-				limit = {
-					original_tag = GER 
-					SPR = { 
-						has_volunteers_amount_from = { 
-							tag = GER 
-							count > 1 
-						}
-					}
-					FROM.FROM = {
-						is_core_of = D01 # REPUBLICAN SPAIN tag, careful, this may change if you're doing something really weird that shouldn't be happening 
-						NOT = { has_state_flag = GDU_GER_xp_acquired } 
-					}
-				}
-				FROM.FROM = { 
-					set_state_flag = GDU_GER_xp_acquired 
-				}
-				army_experience = 25
-				air_experience = 25 
-			}
+		    if = {
+                limit = {
+                    tag = SPR 
+                    has_government = fascism
+                    has_volunteers_amount_from = { 
+                        tag = GER 
+                        count > 0 
+                    }
+                    FROM = {
+                        original_tag = SPR
+                        NOT = { has_government = fascism }
+                    }
+                    FROM.FROM = {
+                        is_core_of = SPR
+                        NOT = { has_state_flag = GDU_AXIS_xp_acquired } 
+                    }
+                }
+                FROM.FROM = { 
+                    set_state_flag = GDU_AXIS_xp_acquired 
+                }
+                GER = { 
+                    army_experience = 40
+                    air_experience = 40 
+                }
+				ITA = { 
+                    army_experience = 40
+                    air_experience = 40 
+                }
+            }
 			
 			if = {
-				limit = {
-					original_tag = ITA 
-					SPR = { 
-						has_volunteers_amount_from = { 
-							tag = ITA  
-							count > 1 
-						}
-					}
-					FROM.FROM = {
-						is_core_of = D01 # REPUBLICAN SPAIN tag, careful, this may change if you're doing something really weird that shouldn't be happening 
-						NOT = { has_state_flag = GDU_ITA_xp_acquired } 
-					}
-				}
-				FROM.FROM = { 
-					set_state_flag = GDU_ITA_xp_acquired
-				}
-				army_experience = 25
-				air_experience = 25 
-			}
-			
-			if = {
-				limit = {
-					original_tag = SOV  
-					D01 = { 
-						has_volunteers_amount_from = { 
-							tag = SOV  
-							count > 1 
-						}
-					}
-					FROM.FROM = {
-						OR = { 
-							state = 170
-							state = 169
-							state = 177 
-							state = 290 
-							state = 166 
-							state = 176 
-							state = 174
-							state = 171
-						}
-						NOT = { has_state_flag = GDU_SOV_xp_acquired } 
-					}
-				}
-				FROM.FROM = { 
-					set_state_flag = GDU_SOV_xp_acquired
-				}
-				army_experience = 25
-				air_experience = 25 
-			}
+                limit = {
+                    original_tag = SPR 
+                    has_government = communism 
+                    has_volunteers_amount_from = { 
+                        tag = SOV 
+                        count > 0 
+                    }
+                    FROM = {
+                        original_tag = SPR
+                        NOT = { has_government = communism }
+                    }
+                    FROM.FROM = {
+                        is_core_of = SPR
+                        NOT = { has_state_flag = GDU_Soviet_XP_acquired } 
+                    }
+                }
+                FROM.FROM = { 
+                    set_state_flag = GDU_Soviet_XP_acquired 
+                }
+                SOV = { 
+                    army_experience = 50
+                    air_experience = 50
+                }
+            }	
 		}
 	}
 	
@@ -342,6 +325,19 @@ on_actions = {
 					set_state_controller = 291 
 				} 
 			}
+			
+			if = { 
+				limit = { 
+					AND = { 
+						tag = DEN 
+						NOT = { has_global_flag = denmark_dead } 
+					}
+				}
+				
+				set_global_flag = denmark_dead 
+				
+				ENG = { country_event = { id = pfu.1 days = 1 } } # Give Iceland to England 
+			} 
 			
 			if = {
 				limit = { 

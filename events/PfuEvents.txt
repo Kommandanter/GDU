@@ -7,29 +7,19 @@ country_event = {
 	picture = GFX_report_event_generic_usa_treaty
 
 	fire_only_once = yes
-
-	trigger = {
-		tag = USA
-		DEN = {
-			controls_state = 100
-			controls_state = 101
-			controls_state = 337
-			has_capitulated = yes
-		}
-	}
+	
+	is_triggered_only = yes 
 
 	option = {
 		name = pfu.1.a
-		USA = {
-			transfer_state = 100
-			transfer_state = 101
-		}
 		ENG = {
 			transfer_state = 337
+			transfer_state = 101 
+			transfer_state = 100 
 		}
 		news_event = { hours = 6 id = pfunews.1 }
 	}
-	mean_time_to_happen = { days = 30 }
+	
 }
 
 country_event = {

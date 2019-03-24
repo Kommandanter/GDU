@@ -123,7 +123,7 @@ NDefines.NMilitary.MAX_AIR_EXPERIENCE = 1000
 NDefines.NMilitary.COMBAT_MINIMUM_TIME = 2
 NDefines.NMilitary.CHANCE_TO_AVOID_HIT_AT_NO_DEF = 50
 NDefines.NMilitary.LAND_COMBAT_STR_DAMAGE_MODIFIER = 0.07
-NDefines.NMilitary.LAND_COMBAT_ORG_DAMAGE_MODIFIER = 0.04
+NDefines.NMilitary.LAND_COMBAT_ORG_DAMAGE_MODIFIER = 0.034
 NDefines.NMilitary.LAND_COMBAT_ORG_ARMOR_DEFLECTION_FACTOR = 0.50 -- damage reduction if armor outclassing enemy, will look at increasing if AT is too deadly to org. 
 NDefines.NMilitary.LAND_COMBAT_FORT_DAMAGE_CHANCE = 4.3		-- chance to get a hit to damage on forts. (out of 100)
 NDefines.NMilitary.TACTIC_SWAP_FREQUENCEY = 16
@@ -219,9 +219,13 @@ NDefines.NNavy.BASE_GUN_COOLDOWNS = { -- doubled the cooldown of guns to make ba
 }
 NDefines.NNavy.HIGHER_SHIP_RATIO_POSITIONING_PENALTY_FACTOR = 0.45 -- (0.25 -> 0.45) this basically means that if the enemy fleet is 45% the size of your fleet you take maximum positioning penalty from fleet size, about -25% attack, -25% screening, -35% aa. I would avoid increasing the maximum too much since it might to lead to some absurd results
 
+NDefines.NNavy.ESCAPE_SPEED_SUB_BASE = 0.06 -- Trying to nerf subs.
+NDefines.NNavy.SUB_DETECTION_CHANCE_BASE = 6
+NDefines.NNavy.BASE_JOIN_COMBAT_HOURS = 2 -- the taskforces that wants to join existing combats will wait for at least this amount 8--->2 
+NDefines.NNavy.DEPTH_CHARGES_HIT_CHANCE_MULT = 2.0 -- multiplies hit chance of small guns, early application of 1.6.2 
+NDefines.NNavy.DEPTH_CHARGES_DAMAGE_MULT = 1.0 -- early application of 1.6.2 
 
-
-
+NDefines.NNavy.NAVAL_MINES_IN_REGION_MAX = 100 -- Max number of mines that can be layed by the ships. The value should be hidden from the user, as we present % so it's an abstract value that should be used for balancing.
 NDefines.NAI.DIVISION_UPGRADE_MIN_XP = 400
 NDefines.NAI.DIVISION_CREATE_MIN_XP = 500
 NDefines.NAI.VARIANT_UPGRADE_MIN_XP = 500

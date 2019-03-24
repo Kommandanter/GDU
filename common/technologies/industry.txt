@@ -1405,7 +1405,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 2
+		research_cost = 3
 		start_year = 1939
 		
 		folder = {
@@ -1464,7 +1464,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 2
+		research_cost = 3
 		start_year = 1941
 		
 		folder = {
@@ -1514,11 +1514,11 @@ technologies = {
 			modify_building_resources = {
 				building = synthetic_refinery
 				resource = rubber
-				amount = 2
+				amount = 1
 			}
 		}
 		
-		research_cost = 2
+		research_cost = 3
 		start_year = 1943
 		
 		folder = {

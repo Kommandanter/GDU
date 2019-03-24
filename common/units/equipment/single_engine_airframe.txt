@@ -24,7 +24,7 @@ equipments = {
 			plane_reliability_upgrade
 		}
 
-		air_superiority = 2
+		air_superiority = 1
 		reliability = 0.8
 
 		# Air vs Navy - low damage / high hit chance / easy to hurt
@@ -71,7 +71,7 @@ equipments = {
 			plane_reliability_upgrade
 		}
 
-		air_superiority = 2
+		air_superiority = 1
 		reliability = 0.8
 
 		# Air vs Navy - low damage / high hit chance / easy to hurt
@@ -116,7 +116,7 @@ equipments = {
 			plane_reliability_upgrade
 		}
 
-		air_superiority = 2
+		air_superiority = 1
 		reliability = 0.8
 
 		# Air vs Ground
@@ -163,7 +163,7 @@ equipments = {
 			plane_reliability_upgrade
 		}
 
-		air_superiority = 2
+		air_superiority = 1
 		reliability = 0.8
 
 		# Air vs Ground
@@ -208,7 +208,7 @@ equipments = {
 			plane_reliability_upgrade
 		}
 
-		air_superiority = 2
+		air_superiority = 1
 		reliability = 0.9
 
 		# Air vs Navy - high damage / medium hit chance / easy to hurt
@@ -252,7 +252,7 @@ equipments = {
 			plane_reliability_upgrade
 		}
 
-		air_superiority = 2
+		air_superiority = 1
 		reliability = 0.8
 
 		# Air vs Navy - high damage / medium hit chance / easy to hurt
@@ -294,7 +294,7 @@ equipments = {
 			plane_reliability_upgrade
 		}
 
-		air_superiority = 2
+		air_superiority = 1
 		reliability = 0.8
 
 		# Air vs Navy - low damage / high hit chance / easy to hurt
