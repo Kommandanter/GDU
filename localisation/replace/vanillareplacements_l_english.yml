@@ -8,6 +8,12 @@
  GER_improve_national_spirit:0 "Über Alles"
  GER_improve_national_spirit_desc:0 "May the bright flame of enthusiasm never be extinguished. It may be alright to possess power based upon guns, it is however better and more gratifying to win and also to champion the hearts of the people. It is our will that this state shall endure for a thousand years. We are happy to know that the future is ours entirely!"
  GER_around_maginot:0 "Fall Gelb"
+ GER_army_innovation:0 "Wehrmacht" 
+ GER_air_innovation:0 "Luftwaffe" 
+ GER_air_innovation_desc:0 "The Luftwaffe will provide the necessary air support and strategic destruction needed for the coming struggle." 
+ GER_naval_rearmament:0 "Kriegsmarine" 
+ GER_air_innovation_2:0 "Air Innovations" 
+ 
  USA_lend_lease_act:0 "Lend Lease Act"
  USA_lend_lease_act_desc:0 "To manufacture in arsenals, factories, and shipyards under their jurisdiction, or otherwise procure, to the extent to which funds are made available therefor, or contracts are authorized from time to time by the Congress, or both, any defense article for the government of any country whose defense the President deems vital to the defense of the United States."
  

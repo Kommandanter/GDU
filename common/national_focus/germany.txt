@@ -16,7 +16,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_rhineland
-		icon = GFX_goal_generic_military_sphere
+		icon = GFX_goal_gdu_rhineland
 		x = 12
 		y = 0
 		cost = 10
@@ -45,7 +45,7 @@ focus_tree = {
 	
 	focus = {
 		id = GER_army_innovation
-		icon = GFX_goal_generic_axis_build_infantry
+		icon = GFX_goal_ger_heer
 		prerequisite = { focus = GER_rhineland }
 		x = 20
 		y = 1
@@ -75,7 +75,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_four_year_plan
-		icon = GFX_goal_generic_construction
+		icon = GFX_goal_goring_plan
 		prerequisite = { focus = GER_rhineland }
 		x = 4
 		y = 1
@@ -246,7 +246,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_autarky
-		icon = GFX_goal_generic_construct_civilian
+		icon = GFX_goal_ger_autarchy
 		prerequisite = { focus = GER_four_year_plan }
 		x = 0
 		y = 1
@@ -358,7 +358,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_kdf_wagen
-		icon = GFX_goal_generic_construct_civ_factory
+		icon = GFX_goal_kdf_wagen
 		dynamic = yes
 		prerequisite = { focus = GER_hermann_goring_werke }
 		x = 0
@@ -533,7 +533,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_autobahn
-		icon = GFX_goal_generic_construct_infrastructure
+		icon = GFX_goal_ger_infrastructure
 		prerequisite = { focus = GER_autarky }
 		x = -2
 		y = 1
@@ -1042,8 +1042,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_air_innovation
-		text = air_innovation
-		icon = GFX_goal_generic_build_airforce
+		icon = GFX_goal_luftwaffe
 		prerequisite = { focus = GER_rhineland }
 		x = 25
 		y = 1
@@ -1102,7 +1101,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_tactical_air_effort
-		icon = GFX_goal_generic_CAS
+		icon = GFX_ger_goal_air
 		prerequisite = { focus = GER_air_innovation }
 		mutually_exclusive = { focus = GER_strategic_air_effort }
 		x = 1
@@ -1184,7 +1183,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_strategic_air_effort
-		icon = GFX_goal_generic_air_bomber
+		icon = GFX_ger_goal_air_2
 		prerequisite = { focus = GER_air_innovation }
 		mutually_exclusive = { focus = GER_tactical_air_effort }
 		x = -1
@@ -1255,7 +1254,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_air_innovation_2
-		icon = GFX_goal_generic_air_fighter2
+		icon = GFX_goal_ger_bf
 		prerequisite = { focus = GER_strategic_air_effort focus = GER_tactical_air_effort }
 		x = 0
 		y = 2
@@ -2055,7 +2054,7 @@ focus_tree = {
 	
 	focus = {
 		id = GER_crush_yugoslavia
-		icon = GFX_goal_generic_attack_allies
+		icon = GFX_goal_military_mission
 		prerequisite = { focus = GER_danzig_or_war }
 
 		available = {
@@ -2349,7 +2348,7 @@ focus_tree = {
 	
 	focus = {
 		id = GER_naval_rearmament
-		icon = GFX_goal_generic_build_navy
+		icon = GFX_goal_der_kriegsmarine
 		x = 30
 		y = 1
 		cost = 5
@@ -2577,7 +2576,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_plan_z
-		icon = GFX_goal_generic_navy_battleship
+		icon = GFX_goal_german_raeder_plan
 		prerequisite = { focus = GER_naval_effort }
 		relative_position_id = GER_naval_rearmament
 		mutually_exclusive = { focus = GER_u_boat_effort }
@@ -2665,7 +2664,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_u_boat_effort
-		icon = GFX_goal_generic_navy_submarine
+		icon = GFX_goal_ger_donitz_plan
 		relative_position_id = GER_naval_rearmament
 		prerequisite = { focus = GER_naval_effort }
 		mutually_exclusive = { focus = GER_plan_z }
