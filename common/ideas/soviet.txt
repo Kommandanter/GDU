@@ -743,10 +743,10 @@ ideas = {
 
 			modifier = {
 				army_attack_factor = -0.05
-				army_defence_factor = -0.10
-				army_org_factor = -0.10
-				air_superiority_efficiency = -0.05
-				air_intercept_efficiency = -0.05
+				army_defence_factor = -0.1
+				army_org_factor = -0.1
+				air_superiority_efficiency = -0.04
+				air_intercept_efficiency = -0.04
 				air_cas_efficiency = -0.1
 				air_strategic_bomber_bombing_factor = -0.1
 			}
