@@ -88,8 +88,6 @@ NDefines.NTechnology.MAX_TECH_SHARING_bonus = 0.4  			-- Max technology sharing 
 NDefines.NPolitics.DEFAULT_OCCUPATION_POLICY = 3
 NDefines.NPolitics.BASE_LEADER_TRAITS = 6
 
-NDefines.NMilitary.EXILE_EQUIPMENT = 0.1						   -- Amount of equipment to keep
-
 NDefines.NMilitary.MAX_NUM_TRAITS = 10
 NDefines.NMilitary.CORPS_COMMANDER_ASSIGNABLE_TRAIT_NUM = 7
 NDefines.NMilitary.FIELD_MARSHAL_ASSIGNABLE_TRAIT_NUM = 7
@@ -123,7 +121,7 @@ NDefines.NMilitary.MAX_AIR_EXPERIENCE = 1000
 NDefines.NMilitary.COMBAT_MINIMUM_TIME = 2
 NDefines.NMilitary.CHANCE_TO_AVOID_HIT_AT_NO_DEF = 50
 NDefines.NMilitary.LAND_COMBAT_STR_DAMAGE_MODIFIER = 0.07
-NDefines.NMilitary.LAND_COMBAT_ORG_DAMAGE_MODIFIER = 0.034
+NDefines.NMilitary.LAND_COMBAT_ORG_DAMAGE_MODIFIER = 0.032
 NDefines.NMilitary.LAND_COMBAT_ORG_ARMOR_DEFLECTION_FACTOR = 0.50 -- damage reduction if armor outclassing enemy, will look at increasing if AT is too deadly to org. 
 NDefines.NMilitary.LAND_COMBAT_FORT_DAMAGE_CHANCE = 4.3		-- chance to get a hit to damage on forts. (out of 100)
 NDefines.NMilitary.TACTIC_SWAP_FREQUENCEY = 16
@@ -138,7 +136,7 @@ NDefines.NMilitary.UNIT_EXPERIENCE_PER_TRAINING_DAY = 0.0002
 NDefines.NMilitary.UNIT_EXP_LEVELS = { 0.2, 0.3, 0.4, 0.5 }
 NDefines.NMilitary.SLOWEST_SPEED = 3
 NDefines.NMilitary.EXPERIENCE_LOSS_FACTOR = 0.01
-NDefines.NMilitary.EQUIPMENT_COMBAT_LOSS_FACTOR = 0.45
+NDefines.NMilitary.EQUIPMENT_COMBAT_LOSS_FACTOR = 0.55
 NDefines.NMilitary.TRAINING_ATTRITION = 0.01
 NDefines.NMilitary.SPEED_REINFORCEMENT_BONUS = 0.1
 NDefines.NMilitary.OVERSEAS_LOSE_EQUIPMENT_FACTOR = 1
