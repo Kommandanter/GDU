@@ -1055,6 +1055,85 @@ if = {
 		}
 	}
 }
+create_equipment_variant = {
+	name = "I-15bis"
+	type = fighter_equipment_0
+	upgrades = {
+		plane_gun_upgrade = 3
+		plane_range_upgrade = 5
+		plane_engine_upgrade = 5
+		plane_reliability_upgrade = 5
+	}
+	obsolete = yes
+}
+create_equipment_variant = {
+	name = "I-153"
+	type = fighter_equipment_0
+	upgrades = {
+		plane_gun_upgrade = 5
+		plane_range_upgrade = 8
+		plane_engine_upgrade = 10
+		plane_reliability_upgrade = 10
+	}
+}
+create_equipment_variant = {
+	name = "T-26 modle. 1931"
+	type = light_tank_equipment_1
+	upgrades = {
+
+	}
+	obsolete = yes
+}
+create_equipment_variant = {
+	name = "T-26 modle. 1933"
+	type = light_tank_equipment_1
+	upgrades = {
+		tank_gun_upgrade = 5
+		tank_armor_upgrade = 3
+		tank_reliability_upgrade = 3
+	}
+	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "T-27"
+	type = light_tank_equipment_1
+	upgrades = {
+		tank_reliability_upgrade = 3
+	}
+	obsolete = yes
+}
+create_equipment_variant = {
+	name = "BT.2"
+	type = light_tank_equipment_2
+	upgrades = {
+	}
+	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "BT.5"
+	type = light_tank_equipment_2
+	upgrades = {
+		tank_gun_upgrade = 3
+		tank_engine_upgrade = 2
+		tank_armor_upgrade = 2
+		tank_reliability_upgrade = 3
+	}
+	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "BT.7"
+	type = light_tank_equipment_2
+	upgrades = {
+		tank_gun_upgrade = 4
+		tank_armor_upgrade = 3
+		tank_engine_upgrade = 3
+		tank_reliability_upgrade = 4
+	}
+}
+
 
 # 1939 Start #
 1939.1.1 = {

@@ -26,6 +26,7 @@ set_technology = {
 	gwtank = 1
 	basic_light_tank = 1
 	improved_light_tank = 1
+	basic_heavy_tank = 1
 	early_fighter = 1
 	cv_early_fighter = 1
 	early_bomber = 1
@@ -412,6 +413,16 @@ create_navy_leader = {
 
 ### VARIANTS ###
 # 1936 Start #
+create_equipment_variant = {
+	name = "T-26 TU"
+	type = light_tank_equipment_1
+	upgrades = {
+		tank_gun_upgrade = 1
+		tank_armor_upgrade = 2
+		tank_engine_upgrade = 2
+		tank_reliability_upgrade = 3
+		}
+	}
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
 	### Ship Variants ###

@@ -19,17 +19,21 @@ division_template = {
 		infantry = { x = 2 y = 1 }
 		infantry = { x = 2 y = 2 }
 		infantry = { x = 2 y = 3 }
+		artillery_brigade = { x = 2 y = 4 }
 		artillery_brigade = { x = 3 y = 0 }
 		artillery_brigade = { x = 3 y = 1 }
-		artillery_brigade = { x = 3 y = 2 }
-		artillery_brigade = { x = 3 y = 3 }
+		anti_tank_brigade = { x = 3 y = 2 }
+		anti_tank_brigade = { x = 3 y = 3 }
+		anti_tank_brigade = { x = 3 y = 4 }
 
 
 	}
 	support = {
-		engineer = { x = 0 y = 0 }
-		recon = { x = 0 y = 1 }
+        engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 } 	
 		artillery = { x = 0 y = 2 }
+		anti_tank = { x = 0 y = 3 }
+		anti_air = { x = 0 y = 4 }
 	}
 }
 division_template = {
@@ -49,15 +53,21 @@ division_template = {
 		mountaineers = { x = 2 y = 1 }
 		mountaineers = { x = 2 y = 2 }
 		mountaineers = { x = 2 y = 3 }
+		artillery_brigade = { x = 2 y = 4 }
 		artillery_brigade = { x = 3 y = 0 }
 		artillery_brigade = { x = 3 y = 1 }
-		artillery_brigade = { x = 3 y = 2 }
-		artillery_brigade = { x = 3 y = 3 }
+		anti_tank_brigade = { x = 3 y = 2 }
+		anti_tank_brigade = { x = 3 y = 3 }
+		anti_tank_brigade = { x = 3 y = 4 }
+
+
 	}
 	support = {
-		engineer = { x = 0 y = 0 }      # includes 1x AC comp, 1x L tank comp
-		recon = { x = 0 y = 1 }
+        engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 } 	
 		artillery = { x = 0 y = 2 }
+		anti_tank = { x = 0 y = 3 }
+		anti_air = { x = 0 y = 4 }
 	}
 	priority = 2
 }
@@ -68,30 +78,34 @@ division_template = {
 	    motorized = { x = 0 y = 1 }
 		motorized = { x = 0 y = 2 }
 		motorized = { x = 0 y = 3 }
+		mot_artillery_brigade = { x = 0 y = 4 }
 
 		motorized = { x = 1 y = 0 }
 		motorized = { x = 1 y = 1 }
 		motorized = { x = 1 y = 2 }
 		motorized = { x = 1 y = 3 }
+		mot_anti_air_brigade = { x = 1 y = 4 }
 
 		light_armor = { x = 2 y = 0 }
 		light_armor = { x = 2 y = 1 }
 		light_armor = { x = 2 y = 2 }
 		light_armor = { x = 2 y = 3 }
+		light_armor = { x = 2 y = 4 }
+	
 		light_armor = { x = 3 y = 0 }
 		light_armor = { x = 3 y = 1 }
 		light_armor = { x = 3 y = 2 }
 		light_armor = { x = 3 y = 3 }
-		light_armor = { x = 4 y = 0 }
-		light_armor = { x = 4 y = 1 }
-		light_armor = { x = 4 y = 2 }
-		light_armor = { x = 4 y = 3 }
+		light_armor = { x = 3 y = 4 }
 
 	}
 	support = {
         engineer = { x = 0 y = 0 }
         recon = { x = 0 y = 1 }
 		logistics_company { x = 0 y = 2 }
+		artillery = { x = 0 y = 3 }
+		anti_tank = { x = 0 y = 4 }
+		anti_air = { x = 0 y = 5 }
 
 	}
 	priority = 2
@@ -113,6 +127,7 @@ division_template = {
 	}
 	support = {
 		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
 	}
 	priority = 0
 }
@@ -125,9 +140,17 @@ division_template = {
 		cavalry = { x = 0 y = 2 }
 		cavalry = { x = 0 y = 3 }
 		cavalry = { x = 0 y = 4 }
+
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 1 y = 3 }
+		cavalry = { x = 1 y = 4 }
 	}
 	support = {
-		recon = { x = 0 y = 0 }      # Recon Group consisted of 64 ACs/scout cars
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+		recon = { x = 0 y = 2 }      # Recon Group consisted of 64 ACs/scout cars
 	}
 }
 division_template = {
@@ -139,6 +162,33 @@ division_template = {
 		paratrooper = { x = 0 y = 2 }
 		paratrooper = { x = 0 y = 3 }
 		paratrooper = { x = 0 y = 4 }
+
+		paratrooper = { x = 1 y = 0 }
+		paratrooper = { x = 1 y = 1 }
+		paratrooper = { x = 1 y = 2 }
+		paratrooper = { x = 1 y = 3 }
+		paratrooper = { x = 1 y = 4 }
+
+		paratrooper = { x = 2 y = 0 }
+		paratrooper = { x = 2 y = 1 }
+		paratrooper = { x = 2 y = 2 }
+		paratrooper = { x = 2 y = 3 }
+		paratrooper = { x = 2 y = 4 }
+
+		paratrooper = { x = 3 y = 0 }
+		paratrooper = { x = 3 y = 1 }
+		paratrooper = { x = 3 y = 2 }
+		paratrooper = { x = 3 y = 3 }
+		paratrooper = { x = 3 y = 4 }
+	}
+	support = {
+        engineer = { x = 0 y = 0 }
+        recon = { x = 0 y = 1 }
+		logistics_company { x = 0 y = 2 }
+		artillery = { x = 0 y = 3 }
+		anti_tank = { x = 0 y = 4 }
+		anti_air = { x = 0 y = 5 }
+
 	}
 }
 
@@ -169,12 +219,14 @@ units = {
 		location = 11891
 		division_template = "Divisione di Fanteria"		# "Semi-Mountain" (less trained & equipped than Alpina)
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
 	}
 	division= {
 		name = "6a Divisione di Fanteria 'Cuneo'"
 		location = 11891
 		division_template = "Divisione di Fanteria"		# "Semi-Mountain" (less trained & equipped than Alpina)
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
 	}
 
 	# Subordinate to Army
@@ -194,6 +246,7 @@ units = {
 		location = 9738
 		division_template = "Divisione Alpina"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
 	}
 
 	# I Corpo d'Armata #
@@ -202,12 +255,14 @@ units = {
 		location = 6780
 		division_template = "Divisione di Fanteria"		# "Semi-Mountain" (less trained & equipped than Alpina)
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
 	}
 	division= {
 		name = "2a Divisione Alpina 'Tridentina'"
 		location = 6780
 		division_template = "Divisione Alpina"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
 	}
 
 	# IV Corpo d'Armata #
@@ -216,12 +271,14 @@ units = {
 		location = 611
 		division_template = "Divisione di Fanteria"		# "Semi-Mountain" (less trained & equipped than Alpina)
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {
 		name = "7a Divisione di Fanteria 'Lupi di Toscana'"
 		location = 611
 		division_template = "Divisione di Fanteria"
 		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
 	}
 
 	### Gruppo d'Armata Est ###
@@ -232,7 +289,7 @@ units = {
 		location = 11735
 		division_template = "Divisione di Fanteria"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.3
 
 	}
 
@@ -242,7 +299,7 @@ units = {
 		location = 628
 		division_template = "Divisione di Fanteria"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.3
 
 	}
 	division= {
@@ -258,7 +315,6 @@ units = {
 		location = 6626
 		division_template = "Raggruppamento Celere"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
 
 	}
 

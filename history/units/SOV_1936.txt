@@ -9,6 +9,14 @@ division_template = {
 		cavalry = { x = 0 y = 0 }
 		cavalry = { x = 0 y = 1 }
 		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 0 y = 3 }
+		cavalry = { x = 0 y = 4 }
+
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 1 y = 3 }
+		cavalry = { x = 1 y = 4 }
 	}
 }
 
@@ -21,26 +29,37 @@ division_template = {
 		infantry = { x = 0 y = 2 }
 		infantry = { x = 0 y = 3 }
 		infantry = { x = 0 y = 4 }
+
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
 		infantry = { x = 1 y = 2 }
 		infantry = { x = 1 y = 3 }
 		infantry = { x = 1 y = 4 }
+
 		infantry = { x = 2 y = 0 }
 		infantry = { x = 2 y = 1 }
 		infantry = { x = 2 y = 2 }
-		infantry = { x = 2 y = 3 }
+		anti_air_brigade = { x = 2 y = 3 }
+		anti_air_brigade = { x = 2 y = 4 }
+
 		artillery_brigade = { x = 3 y = 0 }
 		artillery_brigade = { x = 3 y = 1 }
 		artillery_brigade = { x = 3 y = 2 }
-		artillery_brigade = { x = 3 y = 3 }
+
+		anti_tank_brigade = { x = 4 y = 0 }
+		anti_tank_brigade = { x = 4 y = 1 }
+		anti_tank_brigade = { x = 4 y = 2 }
 
 
 	}
+
+
 	support = {
-		engineer = { x = 0 y = 0 } 	# (semi-mot) Engineer bn
-		recon = { x = 0 y = 1 } 		# Recon bn had 16 L tanks, 10 ACs, 1x mot inf co #Eng and recon removed and they seem rather OP. Could revisit if balance changes
-		artillery = { x = 0 y = 2 }
+        recon = { x = 0 y = 0 }
+	 	engineer = { x = 0 y = 1 }
+		anti_air = { x = 0 y = 2 }
+		anti_tank = { x = 0 y = 3 }
+		artillery = { x = 0 y = 4 }
 	}
 }
 
@@ -53,25 +72,30 @@ division_template = {
 		mountaineers = { x = 0 y = 2 }
 		mountaineers = { x = 0 y = 3 }
 		mountaineers = { x = 0 y = 4 }
+
 		mountaineers = { x = 1 y = 0 }
 		mountaineers = { x = 1 y = 1 }
 		mountaineers = { x = 1 y = 2 }
 		mountaineers = { x = 1 y = 3 }
 		mountaineers = { x = 1 y = 4 }
+
 		mountaineers = { x = 2 y = 0 }
 		mountaineers = { x = 2 y = 1 }
 		mountaineers = { x = 2 y = 2 }
-		mountaineers = { x = 2 y = 3 }
+		anti_air_brigade = { x = 2 y = 3 }
+		anti_tank_brigade = { x = 2 y = 4 }
+	
 		artillery_brigade = { x = 3 y = 0 }
 		artillery_brigade = { x = 3 y = 1 }
 		artillery_brigade = { x = 3 y = 2 }
 		artillery_brigade = { x = 3 y = 3 }
 	}
 	support = {
-		engineer = { x = 0 y = 0 }      # includes 1x AC comp, 1x L tank comp
-		recon = { x = 0 y = 1 }
-		logistics_company { x = 0 y = 2 }
-		artillery = { x = 0 y = 3 }
+        recon = { x = 0 y = 0 }
+	 	engineer = { x = 0 y = 1 }
+		anti_air = { x = 0 y = 2 }
+		anti_tank = { x = 0 y = 3 }
+		artillery = { x = 0 y = 4 }
 	}
 }
 
@@ -106,8 +130,10 @@ division_template = {
 	}
 	support = {
         recon = { x = 0 y = 0 }
-        engineer = { x = 0 y = 1 }
-		logistics_company = { x = 0 y = 2 }
+	 	engineer = { x = 0 y = 1 }
+		anti_air = { x = 0 y = 2 }
+		anti_tank = { x = 0 y = 3 }
+		artillery = { x = 0 y = 4 }
 	}
 	priority = 2
 }
@@ -131,20 +157,53 @@ division_template = {
 		light_armor = { x = 2 y = 1 }
 		light_armor = { x = 2 y = 2 }
 		light_armor = { x = 2 y = 3 }
+	
 		light_armor = { x = 3 y = 0 }
 		light_armor = { x = 3 y = 1 }
 		light_armor = { x = 3 y = 2 }
 		light_armor = { x = 3 y = 3 }
+	
 		light_armor = { x = 4 y = 0 }
 		light_armor = { x = 4 y = 1 }
 		light_armor = { x = 4 y = 2 }
 		light_armor = { x = 4 y = 3 }
 
+		
 	}
 	support = {
         recon = { x = 0 y = 0 }
-        engineer = { x = 0 y = 1 }
+	 	engineer = { x = 0 y = 1 }
+		anti_air = { x = 0 y = 2 }
+		anti_tank = { x = 0 y = 3 }
+		artillery = { x = 0 y = 4 }
 	}
+	priority = 2
+
+}
+
+division_template = {
+	name = "Mekhanizirovaniy Kavaleriyskaya Diviziya" 				# Represents regular mechanized corps (4 existed in 1935-38);
+													# Also represents groups of independent tank, mech brigades of the time, though groups are best represented by tank bge
+													# (2x M/L tank + 1x mot), and 2x mech bge (2x L tank + 1x mot)
+	regiments = {
+
+
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
+		light_armor = { x = 0 y = 3 }
+		light_armor = { x = 0 y = 4 }
+	
+		light_armor = { x = 1 y = 0 }
+		light_armor = { x = 1 y = 1 }
+		light_armor = { x = 1 y = 2 }
+		light_armor = { x = 1 y = 3 }
+		light_armor = { x = 1 y = 4 }
+
+
+		
+	}
+
 	priority = 2
 
 }
@@ -158,24 +217,37 @@ division_template = {
 		motorized = { x = 0 y = 2 }
 		motorized = { x = 0 y = 3 }
 		motorized = { x = 0 y = 4 }
-
+		
 		motorized = { x = 1 y = 0 }
 		motorized = { x = 1 y = 1 }
 		motorized = { x = 1 y = 2 }
 		motorized = { x = 1 y = 3 }
 		motorized = { x = 1 y = 4 }
-
-
+		
+		
 		motorized = { x = 2 y = 0 }
 	    motorized = { x = 2 y = 1 }
 		motorized = { x = 2 y = 2 }
-		motorized = { x = 2 y = 3 }
+		mot_anti_air_brigade = { x = 2 y = 3 }
+		mot_anti_air_brigade = { x = 2 y = 4 }
+		
+		mot_anti_tank_brigade = { x = 3 y = 0 }
+		mot_anti_tank_brigade = { x = 3 y = 1 }
+		mot_anti_tank_brigade = { x = 3 y = 2 }
+
+		mot_artillery_brigade = { x = 4 y = 0 }
+		mot_artillery_brigade = { x = 4 y = 1 }
+		mot_artillery_brigade = { x = 4 y = 2 }
+
+		
 
 	}
 	support = {
-		engineer = { x = 0 y = 0 } 		# Recon bn had 16x L tanks, 45 ACs #Eng and recon removed and they seem rather OP. Could revisit if balance changes
-		recon = { x = 0 y = 1 } 	# (mot) Engineer bn
-		logistics_company = { x = 0 y = 2 }
+        recon = { x = 0 y = 0 }
+	 	engineer = { x = 0 y = 1 }
+		anti_air = { x = 0 y = 2 }
+		anti_tank = { x = 0 y = 3 }
+		artillery = { x = 0 y = 4 }
 
 	}
 }
@@ -189,15 +261,27 @@ division_template = {
 		infantry = { x = 0 y = 2 }
 		infantry = { x = 0 y = 3 }
 		infantry = { x = 0 y = 4 }
+	
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
 		infantry = { x = 1 y = 2 }
 		infantry = { x = 1 y = 3 }
 		infantry = { x = 1 y = 4 }
+	
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 2 y = 3 }
+		infantry = { x = 2 y = 4 }
+		
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 3 y = 1 }
+		artillery_brigade = { x = 3 y = 2 }
+		artillery_brigade = { x = 3 y = 3 }
 	}
 	support = {
 		engineer = { x = 0 y = 0 }
-		recon = { x = 0 y = 1 }
+		artillery = { x = 0 y = 1 }
 
 	}
 	priority = 0
@@ -208,10 +292,33 @@ division_template = {
 
 	regiments = {
 		cavalry = { x = 0 y = 0 }
-        cavalry = { x = 0 y = 1 }
-        cavalry = { x = 0 y = 2 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
 		cavalry = { x = 0 y = 3 }
 		cavalry = { x = 0 y = 4 }
+
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 1 y = 3 }
+		cavalry = { x = 1 y = 4 }
+
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 2 y = 1 }
+		cavalry = { x = 2 y = 2 }
+		cavalry = { x = 2 y = 3 }
+		cavalry = { x = 2 y = 4 }
+
+		cavalry = { x = 3 y = 0 }
+		cavalry = { x = 3 y = 1 }
+		cavalry = { x = 3 y = 2 }
+		cavalry = { x = 3 y = 3 }
+		cavalry = { x = 3 y = 4 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+		recon = { x = 0 y = 2 }      # Recon Group consisted of 64 ACs/scout cars
 	}
 }
 
@@ -224,6 +331,29 @@ division_template = {
 		paratrooper = { x = 0 y = 2 }
 		paratrooper = { x = 0 y = 3 }
 		paratrooper = { x = 0 y = 4 }
+        paratrooper = { x = 1 y = 0 }
+		paratrooper = { x = 1 y = 1 }
+		paratrooper = { x = 1 y = 2 }
+		paratrooper = { x = 1 y = 3 }
+		paratrooper = { x = 1 y = 4 }
+		paratrooper = { x = 2 y = 0 }
+		paratrooper = { x = 2 y = 1 }
+		paratrooper = { x = 2 y = 2 }
+		paratrooper = { x = 2 y = 3 }
+		paratrooper = { x = 2 y = 4 }
+        paratrooper = { x = 3 y = 0 }
+		paratrooper = { x = 3 y = 1 }
+		paratrooper = { x = 3 y = 2 }
+		paratrooper = { x = 3 y = 3 }
+		paratrooper = { x = 3 y = 4 }
+	}
+	support = {
+        recon = { x = 0 y = 0 }
+	 	engineer = { x = 0 y = 1 }
+		anti_air = { x = 0 y = 2 }
+		anti_tank = { x = 0 y = 3 }
+		artillery = { x = 0 y = 4 }
+
 	}
 }
 
@@ -362,8 +492,7 @@ units = {
 		location = 3151
 		division_template = "Mekhanizirovaniy Korpus"		# 1x Tank Bge, 2x Mekh Bge
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
-		force_equipment_variants = { light_tank_equipment_1 = { owner = "SOV" } }
+		force_equipment_variants = { light_tank_equipment_1 = { owner = "SOV" version_name = "T-26 modle. 1933"} }
 
 
 	}
@@ -371,27 +500,27 @@ units = {
 		name = "16y Mekhanizirovanaya Gruppa"
 		location = 3151
 		division_template = "Mekhanizirovaniy Korpus"		# 1x Tank Bge, 2x Mekh Bge
-		force_equipment_variants = { light_tank_equipment_1 = { owner = "SOV" } }
+		force_equipment_variants = { light_tank_equipment_2 = { owner = "SOV" version_name = "BT.5"} }
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.8
+
 
 	}
 		division= {
 		name = "15y Mekhanizirovanaya Gruppa"
 		location = 3151
 		division_template = "Mekhanizirovaniy Korpus"		# 1x Tank Bge, 2x Mekh Bge
-		force_equipment_variants = { light_tank_equipment_1 = { owner = "SOV" } }
+		force_equipment_variants = { light_tank_equipment_2 = { owner = "SOV" version_name = "BT.2"} }
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.8
+
 
 	}
 			division= {
 		name = "11y Mekhanizirovanaya Gruppa"
 		location = 3151
 		division_template = "Mekhanizirovaniy Korpus"		# 1x Tank Bge, 2x Mekh Bge
-		force_equipment_variants = { light_tank_equipment_1 = { owner = "SOV" } }
+		force_equipment_variants = { light_tank_equipment_1 = { owner = "SOV" version_name = "T-26 modle. 1933"} }
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.8
+
 
 	}
 
@@ -419,6 +548,7 @@ units = {
 		name = "7ya Mekhanizirovaniy Korpus"
 		location = 6174
 		division_template = "Mekhanizirovaniy Korpus"		# 2x Mekh Bge, 1x Mot Bge
+		force_equipment_variants = { light_tank_equipment_2 = { owner = "SOV" version_name = "BT.5"} }
 		start_experience_factor = 0.3
 	}
 
@@ -428,6 +558,7 @@ units = {
 		location = 149
 		division_template = "Mekhanizirovaniy Korpus"		# 2x Mekh Bge
 		start_experience_factor = 0.3
+		force_equipment_variants = { light_tank_equipment_1 = { owner = "SOV" version_name = "T-26 modle. 1933"} }
 	}
 
 
@@ -462,8 +593,8 @@ units = {
 		location = 126
 		division_template = "Mekhanizirovaniy Korpus"		# 3x Mekh Bge
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
-		force_equipment_variants = { light_tank_equipment_1 = { owner = "SOV" } }
+		force_equipment_variants = { light_tank_equipment_2 = { owner = "SOV" version_name = "BT.5"} }
+
 
 	}
 
@@ -497,7 +628,7 @@ units = {
 		location = 11202
 		division_template = "Mekhanizirovaniy Korpus"		# 1x Tank Bge, 2x Mekh Bge
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		force_equipment_variants = { light_tank_equipment_2 = { owner = "SOV" version_name = "BT.5"} }
 
 	}
 
@@ -513,9 +644,9 @@ units = {
 	division= {
 		name = "36ya 'Chongarskaya' Kav. Div."
 		location = 6293
-		division_template = "Kavaleriyskaya Diviziya"
+		division_template = "Mekhanizirovaniy Kavaleriyskaya Diviziya"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		force_equipment_variants = { light_tank_equipment_1 = { owner = "SOV" version_name = "T-27"} }
 
 	}
 
@@ -549,17 +680,17 @@ units = {
 	division= {
 		name = "7ya Kavaleriyskaya Diviziya"
 		location = 3267
-		division_template = "Kavaleriyskaya Diviziya"
+		division_template = "Mekhanizirovaniy Kavaleriyskaya Diviziya"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		force_equipment_variants = { light_tank_equipment_1 = { owner = "SOV" version_name = "T-27"} }
 
 	}
 	division= {
 		name = "11ya Kavaleriyskaya Diviziya"
 		location = 11216
-		division_template = "Kavaleriyskaya Diviziya"
+		division_template = "Mekhanizirovaniy Kavaleriyskaya Diviziya"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		force_equipment_variants = { light_tank_equipment_1 = { owner = "SOV" version_name = "T-27"} }
 
 	}
 
@@ -622,7 +753,7 @@ units = {
 		location = 6380
 		division_template = "Mekhanizirovaniy Korpus"		# 3x Mekh Bge
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		force_equipment_variants = { light_tank_equipment_2 = { owner = "SOV" version_name = "BT.2"} }
 
 	}
 
@@ -679,6 +810,7 @@ units = {
 		location = 6380
 		division_template = "Mekhanizirovaniy Korpus"		# 2x Mekh Bge, 1x Mot Bge
 		start_experience_factor = 0.3
+		force_equipment_variants = { light_tank_equipment_2 = { owner = "SOV" version_name = "BT.5"} }
 	}
 
 
@@ -884,9 +1016,9 @@ units = {
 	division= {
 		name = "1ya 'Chernigov' Kav. Div."
 		location = 3430
-		division_template = "Kavaleriyskaya Diviziya"
+		division_template = "Mekhanizirovaniy Kavaleriyskaya Diviziya"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		force_equipment_variants = { light_tank_equipment_1 = { owner = "SOV" version_name = "T-27"} }
 
 	}
 	division= {
@@ -902,17 +1034,17 @@ units = {
 	division= {
 		name = "9ya 'Krymskiy' Kav. Div."
 		location = 525
-		division_template = "Kavaleriyskaya Diviziya"
+		division_template = "Mekhanizirovaniy Kavaleriyskaya Diviziya"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		force_equipment_variants = { light_tank_equipment_1 = { owner = "SOV" version_name = "T-26 modle. 1931"} }
 
 	}
 	division= {
 		name = "31ya Kavaleriyskaya Diviziya"
 		location = 525
-		division_template = "Kavaleriyskaya Diviziya"
+		division_template = "Mekhanizirovaniy Kavaleriyskaya Diviziya"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		force_equipment_variants = { light_tank_equipment_1 = { owner = "SOV" version_name = "T-26 modle. 1931"} }
 
 	}
 
@@ -951,7 +1083,9 @@ units = {
 		location = 525
 		division_template = "Mekhanizirovaniy Korpus"		# 1x Tank Bge, 2x Mekh Bge
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		force_equipment_variants = { light_tank_equipment_2 = { owner = "SOV" version_name = "BT.5"} }
+
+
 
 	}
 
@@ -985,7 +1119,7 @@ units = {
 		location = 11670
 		division_template = "Mekhanizirovaniy Korpus"		# 1x H Tank Bge, 2x Mekh Bge
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		force_equipment_variants = { light_tank_equipment_2 = { owner = "SOV" version_name = "BT.5"} }
 
 	}
 
@@ -1019,17 +1153,17 @@ units = {
 	division= {
 		name = "5ya 'Bleanov' Kav. Div."
 		location = 11437
-		division_template = "Kavaleriyskaya Diviziya"
+		division_template = "Mekhanizirovaniy Kavaleriyskaya Diviziya"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		force_equipment_variants = { light_tank_equipment_1 = { owner = "SOV" version_name = "T-26 modle. 1931"} }
 
 	}
 	division= {
 		name = "14ya 'Bessarabskaya' Kav. Div."
 		location = 11437
-		division_template = "Kavaleriyskaya Diviziya"
+		division_template = "Mekhanizirovaniy Kavaleriyskaya Diviziya"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		force_equipment_variants = { light_tank_equipment_1 = { owner = "SOV" version_name = "T-26 modle. 1931"} }
 
 	}
 
@@ -1039,6 +1173,7 @@ units = {
 		location = 11437
 		division_template = "Mekhanizirovaniy Korpus"		# 2x Mekh Bge, 1x Mot Bge
 		start_experience_factor = 0.3
+		force_equipment_variants = { light_tank_equipment_2 = { owner = "SOV" version_name = "BT.2"} }
 	}
 
 
@@ -1122,20 +1257,17 @@ units = {
 	division= {
 		name = "17ya Gorno-Kav. Div."
 		location = 3653
-		division_template = "Kavaleriyskaya Diviziya"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.7
+		division_template = "Mekhanizirovaniy Kavaleriyskaya Diviziya"
+		start_experience_factor = 0.2
+		force_equipment_variants = { light_tank_equipment_1 = { owner = "SOV" version_name = "T-26 modle. 1931"} }
 
 	}
 	division= {
 		name = "24ya Kavaleriyskaya Diviziya"
 		location = 3653
-		division_template = "Kavaleriyskaya Diviziya"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.7
-
+		division_template = "Mekhanizirovaniy Kavaleriyskaya Diviziya"
+		start_experience_factor = 0.2
+		force_equipment_variants = { light_tank_equipment_1 = { owner = "SOV" version_name = "T-26 modle. 1933"} }
 	}
 
 	# Subordinate to AG
@@ -1253,28 +1385,25 @@ units = {
 	division= {
 		name = "10ya Kavaleriyskaya Diviziya"
 		location = 6474
-		division_template = "Kavaleriyskaya Diviziya"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.7
+		division_template = "Mekhanizirovaniy Kavaleriyskaya Diviziya"
+		start_experience_factor = 0.2
+		force_equipment_variants = { light_tank_equipment_1 = { owner = "SOV" version_name = "T-26 modle. 1933"} }
 
 	}
 	division= {
 		name = "12ya 'Kubanskaya' Kav. Div."
 		location = 6474
-		division_template = "Kavaleriyskaya Diviziya"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.7
+		division_template = "Mekhanizirovaniy Kavaleriyskaya Diviziya"
+		start_experience_factor = 0.2
+		force_equipment_variants = { light_tank_equipment_1 = { owner = "SOV" version_name = "T-26 modle. 1933"} }
 
 	}
 	division= {
 		name = "13ya 'Kubanskaya' Kav. Div."
 		location = 6474
-		division_template = "Kavaleriyskaya Diviziya"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.7
+		division_template = "Mekhanizirovaniy Kavaleriyskaya Diviziya"
+		start_experience_factor = 0.2
+		force_equipment_variants = { light_tank_equipment_1 = { owner = "SOV" version_name = "T-26 modle. 1933"} }
 
 	}
 	division= {
@@ -1493,7 +1622,8 @@ units = {
 		location = 12189
 		division_template = "Mekhanizirovaniy Korpus"		# 3x Mekh Bge
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		force_equipment_variants = { light_tank_equipment_1 = { owner = "SOV" version_name = "T-26 modle. 1933"} }
+
 
 	}
 
@@ -1649,27 +1779,32 @@ air_wings = {
 			amount = 100
 		# TODO -- 46ya Transporta Aviabrigada -- transport planes
 	}
-	fighter_equipment_1 = {
+	fighter_equipment_0 = {
 			owner = "SOV"
 			amount = 100
 		}
-				fighter_equipment_1 = {
+				fighter_equipment_0 = {
+			version_name = "I-15bis"
 			owner = "SOV"
 			amount = 100
 		}
-				fighter_equipment_1 = {
+				fighter_equipment_0 = {
+			version_name = "I-15bis"
 			owner = "SOV"
 			amount = 100
 		}
-				fighter_equipment_1 = {
+				fighter_equipment_0 = {
+			version_name = "I-15bis"
 			owner = "SOV"
 			amount = 100
 		}
-						fighter_equipment_1 = {
+						fighter_equipment_0 = {
+			version_name = "I-15bis"
 			owner = "SOV"
 			amount = 100
 		}
-						fighter_equipment_1 = {
+						fighter_equipment_0 = {
+			version_name = "I-15bis"
 			owner = "SOV"
 			amount = 100
 		}
@@ -1679,47 +1814,58 @@ air_wings = {
 			owner = "SOV"
 			amount = 100
 		}
-				fighter_equipment_1 = {
+				fighter_equipment_0 = {
+			version_name = "I-15bis"
 			owner = "SOV"
 			amount = 100
 		}
-				fighter_equipment_1 = {
+				fighter_equipment_0 = {
+			version_name = "I-153"
 			owner = "SOV"
 			amount = 100
 		}
-				fighter_equipment_1 = {
+				fighter_equipment_0 = {
+			version_name = "I-153"
 			owner = "SOV"
 			amount = 100
 		}
-				fighter_equipment_1 = {
-			owner = "SOV"
-			amount = 100
-		}
-						fighter_equipment_1 = {
-			owner = "SOV"
-			amount = 100
-		}
-						fighter_equipment_1 = {
+				fighter_equipment_0 = {
+			version_name = "I-153"
 			owner = "SOV"
 			amount = 100
 		}
 						fighter_equipment_0 = {
+			version_name = "I-153"
 			owner = "SOV"
 			amount = 100
 		}
 						fighter_equipment_0 = {
+			version_name = "I-153"
 			owner = "SOV"
 			amount = 100
 		}
 						fighter_equipment_0 = {
+			version_name = "I-153"
 			owner = "SOV"
 			amount = 100
 		}
 						fighter_equipment_0 = {
+			version_name = "I-15bis"
 			owner = "SOV"
 			amount = 100
 		}
 						fighter_equipment_0 = {
+			version_name = "I-15bis"
+			owner = "SOV"
+			amount = 100
+		}
+						fighter_equipment_0 = {
+			version_name = "I-15bis"
+			owner = "SOV"
+			amount = 100
+		}
+						fighter_equipment_0 = {
+			version_name = "I-15bis"
 			owner = "SOV"
 			amount = 100
 		}				fighter_equipment_0 = {
@@ -1750,7 +1896,7 @@ instant_effect = {
 			type = infantry_equipment_1
 			creator = "SOV"
 		}
-		requested_factories = 25
+		requested_factories = 15
 		progress = 0.1
 		efficiency = 50
 	}
@@ -1779,7 +1925,7 @@ instant_effect = {
 			type = anti_tank_equipment_1
 			creator = "SOV"
 		}
-		requested_factories = 2
+		requested_factories = 3
 		progress = 0.3
 		efficiency = 50
 	}
@@ -1797,9 +1943,10 @@ instant_effect = {
 			add_equipment_production = {
 		equipment = {
 			type = light_tank_equipment_2
+			version_name = "BT.7"
 			creator = "SOV"
 		}
-		requested_factories = 1
+		requested_factories = 5
 		progress = 0.4
 		efficiency = 50
 	}
@@ -1823,6 +1970,18 @@ instant_effect = {
 		progress = 0.15
 		efficiency = 50
 	}
+	add_equipment_production = {
+		equipment = {
+			type = fighter_equipment_0
+			version_name = "I-153"
+			creator = "SOV"
+		}
+		requested_factories = 5
+		progress = 0.15
+		efficiency = 50
+	}
 
 }
+
+
 	#####################

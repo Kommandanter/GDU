@@ -10,15 +10,19 @@ division_template = {
 		infantry = { x = 0 y = 2 }
 		infantry = { x = 0 y = 3 }
 		infantry = { x = 0 y = 4 }
+
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
 		infantry = { x = 1 y = 2 }
 		infantry = { x = 1 y = 3 }
 		infantry = { x = 1 y = 4 }
+
 		infantry = { x = 2 y = 0 }
 		infantry = { x = 2 y = 1 }
 		infantry = { x = 2 y = 2 }
-		infantry = { x = 2 y = 3 }
+		anti_tank_brigade = { x = 2 y = 3 }
+		anti_tank_brigade = { x = 2 y = 4 }
+
 		artillery_brigade = { x = 3 y = 0 }
 		artillery_brigade = { x = 3 y = 1 }
 		artillery_brigade = { x = 3 y = 2 }
@@ -29,7 +33,9 @@ division_template = {
 	support = {
 		engineer = { x = 0 y = 0 } 	# (semi-mot) Engineer bn
 		recon = { x = 0 y = 1 } 		# Recon bn had 16 L tanks, 10 ACs, 1x mot inf co #Eng and recon removed and they seem rather OP. Could revisit if balance changes
-		artillery = { x = 0 y = 2 }
+		anti_tank = { x = 0 y = 2 }
+		artillery = { x = 0 y = 3 }
+		anti_air = { x = 0 y = 4 }
 	}
 }
 
@@ -43,15 +49,18 @@ division_template = {
 		mountaineers = { x = 0 y = 2 }
 		mountaineers = { x = 0 y = 3 }
 		mountaineers = { x = 0 y = 4 }
+
 		mountaineers = { x = 1 y = 0 }
 		mountaineers = { x = 1 y = 1 }
 		mountaineers = { x = 1 y = 2 }
 		mountaineers = { x = 1 y = 3 }
 		mountaineers = { x = 1 y = 4 }
+
 		mountaineers = { x = 2 y = 0 }
 		mountaineers = { x = 2 y = 1 }
 		mountaineers = { x = 2 y = 2 }
 		mountaineers = { x = 2 y = 3 }
+
 		artillery_brigade = { x = 3 y = 0 }
 		artillery_brigade = { x = 3 y = 1 }
 		artillery_brigade = { x = 3 y = 2 }
@@ -60,7 +69,9 @@ division_template = {
 	support = {
 		engineer = { x = 0 y = 0 }      # includes 1x AC comp, 1x L tank comp
 		recon = { x = 0 y = 1 }
-		logistics_company { x = 0 y = 2 }
+		anti_tank = { x = 0 y = 2 }
+		artillery = { x = 0 y = 3 }
+		anti_air = { x = 0 y = 4 }
 	}
 }
 
@@ -82,19 +93,64 @@ division_template = {
 		light_armor = { x = 2 y = 1 }
 		light_armor = { x = 2 y = 2 }
 		light_armor = { x = 2 y = 3 }
+
+	
 		light_armor = { x = 3 y = 0 }
 		light_armor = { x = 3 y = 1 }
 		light_armor = { x = 3 y = 2 }
 		light_armor = { x = 3 y = 3 }
-		light_armor = { x = 4 y = 0 }
-		light_armor = { x = 4 y = 1 }
-		light_armor = { x = 4 y = 2 }
-		light_armor = { x = 4 y = 3 }
+
+		mot_anti_tank_brigade = { x = 4 y = 0 }
+		mot_anti_tank_brigade = { x = 4 y = 1 }
+		mot_artillery_brigade = { x = 4 y = 2 }
+		mot_artillery_brigade = { x = 4 y = 3 }
+
+
+
 
 	}
 	support = {
         engineer = { x = 0 y = 0 }
         recon = { x = 0 y = 1 }
+		anti_tank = { x = 0 y = 2 }
+		artillery = { x = 0 y = 3 }
+		anti_air = { x = 0 y = 4 }
+	}
+}
+
+division_template = {
+	name = "Brigade de Chars de Combat" 	# Brigade de Chars de Combat, independent armor brigades of 2x Rgts., 2 Bns. each
+	division_names_group = FRA_ARM_01
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
+		light_armor = { x = 0 y = 3 }
+		light_armor = { x = 0 y = 4 }
+	
+		light_armor = { x = 1 y = 0 }
+		light_armor = { x = 1 y = 1 }
+		light_armor = { x = 1 y = 2 }
+		light_armor = { x = 1 y = 3 }
+		light_armor = { x = 1 y = 4 }
+	}
+}
+
+division_template = {
+	name = "Brigade de Chars de Combat Lourd" 	# Brigade de Chars de Combat, independent armor brigades of 2x Rgts., 2 Bns. each
+	division_names_group = FRA_ARM_01
+	regiments = {
+		heavy_armor = { x = 0 y = 0 }
+		heavy_armor = { x = 0 y = 1 }
+		heavy_armor = { x = 0 y = 2 }
+		heavy_armor = { x = 0 y = 3 }
+		heavy_armor = { x = 0 y = 4 }
+	
+		heavy_armor = { x = 1 y = 0 }
+		heavy_armor = { x = 1 y = 1 }
+		heavy_armor = { x = 1 y = 2 }
+		heavy_armor = { x = 1 y = 3 }
+		heavy_armor = { x = 1 y = 4 }
 	}
 }
 
@@ -107,24 +163,35 @@ division_template = {
 		motorized = { x = 0 y = 2 }
 		motorized = { x = 0 y = 3 }
 		motorized = { x = 0 y = 4 }
-
+		
 		motorized = { x = 1 y = 0 }
 		motorized = { x = 1 y = 1 }
 		motorized = { x = 1 y = 2 }
 		motorized = { x = 1 y = 3 }
 		motorized = { x = 1 y = 4 }
-
-
+		
+		
 		motorized = { x = 2 y = 0 }
 	    motorized = { x = 2 y = 1 }
 		motorized = { x = 2 y = 2 }
-		motorized = { x = 2 y = 3 }
+		mot_anti_air_brigade = { x = 2 y = 3 }
+		mot_anti_air_brigade = { x = 2 y = 4 }
+		
+		mot_anti_tank_brigade = { x = 3 y = 0 }
+		mot_anti_tank_brigade = { x = 3 y = 1 }
+		mot_anti_tank_brigade = { x = 3 y = 2 }
+
+		mot_artillery_brigade = { x = 4 y = 0 }
+		mot_artillery_brigade = { x = 4 y = 1 }
+		mot_artillery_brigade = { x = 4 y = 2 }
 
 	}
 	support = {
 		engineer = { x = 0 y = 0 } 		# Recon bn had 16x L tanks, 45 ACs #Eng and recon removed and they seem rather OP. Could revisit if balance changes
 		recon = { x = 0 y = 1 } 	# (mot) Engineer bn
-		logistics_company = { x = 0 y = 2 }
+		anti_tank = { x = 0 y = 2 }
+		artillery = { x = 0 y = 3 }
+		anti_air = { x = 0 y = 4 }
 
 	}
 }
@@ -138,6 +205,12 @@ division_template = {
 		cavalry = { x = 0 y = 2 }
 		cavalry = { x = 0 y = 3 }
 		cavalry = { x = 0 y = 4 }
+
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 1 y = 3 }
+		cavalry = { x = 1 y = 4 }
 	}
 	support = {
 		recon = { x = 0 y = 0 }      # Recon Group consisted of 64 ACs/scout cars
@@ -162,6 +235,7 @@ division_template = {
 	}
 	support = {
 		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
 
 	}
 	priority = 0
@@ -171,6 +245,40 @@ division_template = {
 
 ##### OOB #####
 units = {
+	division= {	
+		name = "3ème Brigade de Chars de Combat"
+		location = 11502
+		division_template = "Brigade de Chars de Combat" 		# FT-17s
+		start_experience_factor = 0.2
+		force_equipment_variants = { gw_tank_equipment = { owner = "FRA" } }
+	}
+	division= {	
+		name = "2ème Brigade de Chars de Combat"
+		location = 11516
+		division_template = "Brigade de Chars de Combat" 		# FT-17s
+		start_experience_factor = 0.2
+		force_equipment_variants = { gw_tank_equipment = { owner = "FRA" } }
+	}
+	division= {	
+		name = "5ème Brigade de Chars de Combat"
+		location = 11465
+		division_template = "Brigade de Chars de Combat" 		# R-35s
+		start_experience_factor = 0.2
+		force_equipment_variants = { gw_tank_equipment = { owner = "FRA" } }
+	}
+	division= {	
+		name = "4ème Brigade de Chars de Combat"
+		location = 11506
+		division_template = "Brigade de Chars de Combat Lourd" 		# R-35s
+		start_experience_factor = 0.2
+	}
+	division= {	
+		name = "1ère Brigade de Chars de Combat"
+		location = 6613
+		division_template = "Brigade de Chars de Combat" 			# FT-17s
+		start_experience_factor = 0.2
+		force_equipment_variants = { gw_tank_equipment = { owner = "FRA" } }
+	}
 	##### Northern France Region #####
 	# VIe Corps d'Armée (Région Militaire in 1936) -- Metz
 	division= {
@@ -281,8 +389,9 @@ units = {
 		name = "1ère Division Légère Mécanique"
 		location = 13011
 		division_template = "Division Légère Mécanique" 	# DLM is frontline, best equipment, L Arm = H-35
-		start_experience_factor = 0.3
 		force_equipment_variants = { light_tank_equipment_1 = { owner = "FRA" } }
+		start_experience_factor = 0.3
+
 	}
 
 	# IVe Corps d'Armée (Région Militaire in 1936) -- Le Mans

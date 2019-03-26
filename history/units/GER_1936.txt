@@ -7,19 +7,26 @@
 		infantry = { x = 0 y = 2 }
 		infantry = { x = 0 y = 3 }
 		infantry = { x = 0 y = 4 }
+
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
 		infantry = { x = 1 y = 2 }
 		infantry = { x = 1 y = 3 }
 		infantry = { x = 1 y = 4 }
+
 		infantry = { x = 2 y = 0 }
 		infantry = { x = 2 y = 1 }
 		infantry = { x = 2 y = 2 }
-		infantry = { x = 2 y = 3 }
+		anti_air_brigade = { x = 2 y = 3 }
+		anti_air_brigade = { x = 2 y = 4 }
+
 		artillery_brigade = { x = 3 y = 0 }
 		artillery_brigade = { x = 3 y = 1 }
 		artillery_brigade = { x = 3 y = 2 }
-		artillery_brigade = { x = 3 y = 3 }
+
+		anti_tank_brigade = { x = 4 y = 0 }
+		anti_tank_brigade = { x = 4 y = 1 }
+		anti_tank_brigade = { x = 4 y = 2 }
 
 
 	}
@@ -29,6 +36,8 @@
 		recon = { x = 0 y = 1 }
 		signal_company { x = 0 y = 2 }
 		artillery = { x = 0 y = 3 }
+		anti_tank = { x = 0 y = 4 }
+		anti_air = { x = 0 y = 5 }
 	}
 }
 division_template = {
@@ -64,6 +73,8 @@ division_template = {
         recon = { x = 0 y = 1 }
 		signal_company = { x = 0 y = 2 }
 		logistics_company = { x = 0 y = 3 }
+		anti_tank = { x = 0 y = 4 }
+		anti_air = { x = 0 y = 5 }
 	}
 priority = 2
 	
@@ -77,24 +88,25 @@ division_template = {
 	    motorized = { x = 0 y = 1 }
 		motorized = { x = 0 y = 2 }
 		motorized = { x = 0 y = 3 }
+		mot_artillery_brigade = { x = 0 y = 4 }
 		
 		motorized = { x = 1 y = 0 }
 		motorized = { x = 1 y = 1 }
 		motorized = { x = 1 y = 2 }
 		motorized = { x = 1 y = 3 }
+		mot_anti_air_brigade = { x = 1 y = 4 }
 	    
 		light_armor = { x = 2 y = 0 }
 		light_armor = { x = 2 y = 1 }
 		light_armor = { x = 2 y = 2 }
 		light_armor = { x = 2 y = 3 }
+		light_armor = { x = 2 y = 4 }
+	
 		light_armor = { x = 3 y = 0 }
 		light_armor = { x = 3 y = 1 }
 		light_armor = { x = 3 y = 2 }
 		light_armor = { x = 3 y = 3 }
-		light_armor = { x = 4 y = 0 }
-		light_armor = { x = 4 y = 1 }
-		light_armor = { x = 4 y = 2 }
-		light_armor = { x = 4 y = 3 }
+		light_armor = { x = 3 y = 4 }
 
 	}
 	support = {
@@ -102,6 +114,8 @@ division_template = {
         recon = { x = 0 y = 1 }
 		signal_company = { x = 0 y = 2 }
 		logistics_company = { x = 0 y = 3 }
+		anti_tank = { x = 0 y = 4 }
+		anti_air = { x = 0 y = 5 }
 	}
 }
 division_template = {
@@ -124,7 +138,17 @@ division_template = {
 		motorized = { x = 2 y = 0 }
 	    motorized = { x = 2 y = 1 }
 		motorized = { x = 2 y = 2 }
-		motorized = { x = 2 y = 3 }
+		mot_anti_air_brigade = { x = 2 y = 3 }
+		mot_anti_air_brigade = { x = 2 y = 4 }
+		
+		mot_anti_tank_brigade = { x = 3 y = 0 }
+		mot_anti_tank_brigade = { x = 3 y = 1 }
+		mot_anti_tank_brigade = { x = 3 y = 2 }
+
+		mot_artillery_brigade = { x = 4 y = 0 }
+		mot_artillery_brigade = { x = 4 y = 1 }
+		mot_artillery_brigade = { x = 4 y = 2 }
+
 		
 	}
 	support = {
@@ -133,6 +157,7 @@ division_template = {
         signal_company = { x = 0 y = 2 }
 		logistics_company = { x = 0 y = 3 }
 		anti_air = { x = 0 y = 4 }
+		anti_tank = { x = 0 y = 5 }
 	}
 
 }
@@ -182,15 +207,19 @@ division_template = {
 		mountaineers = { x = 0 y = 2 }
 		mountaineers = { x = 0 y = 3 }
 		mountaineers = { x = 0 y = 4 }
+
 		mountaineers = { x = 1 y = 0 }
 		mountaineers = { x = 1 y = 1 }
 		mountaineers = { x = 1 y = 2 }
 		mountaineers = { x = 1 y = 3 }
 		mountaineers = { x = 1 y = 4 }
+
 		mountaineers = { x = 2 y = 0 }
 		mountaineers = { x = 2 y = 1 }
 		mountaineers = { x = 2 y = 2 }
-		mountaineers = { x = 2 y = 3 }
+		anti_air_brigade = { x = 2 y = 3 }
+		anti_tank_brigade = { x = 2 y = 4 }
+	
 		artillery_brigade = { x = 3 y = 0 }
 		artillery_brigade = { x = 3 y = 1 }
 		artillery_brigade = { x = 3 y = 2 }
@@ -202,6 +231,9 @@ division_template = {
 		logistics_company { x = 0 y = 2 }
 		signal_company = { x = 0 y = 3 }
 		anti_tank = { x = 0 y = 4 }
+		artillery = { x = 0 y = 5 }
+		anti_air = { x = 0 y = 6 }
+		
 	}
 }
 
@@ -214,34 +246,33 @@ division_template = {
 		infantry = { x = 0 y = 2 }
 		infantry = { x = 0 y = 3 }
 		infantry = { x = 0 y = 4 }
+	
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
 		infantry = { x = 1 y = 2 }
 		infantry = { x = 1 y = 3 }
 		infantry = { x = 1 y = 4 }
+	
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 2 y = 3 }
+		infantry = { x = 2 y = 4 }
+		
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 3 y = 1 }
+		artillery_brigade = { x = 3 y = 2 }
+		artillery_brigade = { x = 3 y = 3 }
 	}
 	support = {
 		engineer = { x = 0 y = 0 }   # Pioneer Bn
+		artillery = { x = 0 y = 1 }
+		anti_air = { x = 0 y = 2 }
 	}
 priority = 0
 	
 }
 
-division_template = {
-	name = "Polizei-Brigade"
-
-	regiments = {
-		cavalry = { x = 0 y = 0 }
-        cavalry = { x = 0 y = 1 }
-        cavalry = { x = 0 y = 2 }
-		cavalry = { x = 0 y = 3 }
-		cavalry = { x = 0 y = 4 }
-	}
-	support = {
-	    military_police = { x = 0 y = 0 }
-	}
-priority = 0
-}
 
 units = {
 
@@ -383,12 +414,14 @@ units = {
 		location = 11264
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {	
 		name = "16. Infanterie-Division"
 		location = 11264
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	# IX. Armeekorps
 	division= {	
@@ -396,12 +429,14 @@ units = {
 		location = 11388
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {	
 		name = "15. Infanterie-Division"
 		location = 3326
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	# X. Armeekorps
 	division= {	
@@ -409,18 +444,21 @@ units = {
 		location = 6488
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {	
 		name = "20. Infanterie-Division"
 		location = 9572
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 	division= {	
 		name = "22. Infanterie-Division"
 		location = 9572
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 	}
 
 	# V. Armeekorps
@@ -626,6 +664,15 @@ instant_effect = {
 		add_equipment_production = {
 		equipment = {
 			type = anti_tank_equipment_1
+			creator = "GER" 
+		}
+		requested_factories = 2
+		progress = 0.3
+		efficiency = 50
+	}
+		add_equipment_production = {
+		equipment = {
+			type = anti_air_equipment_1
 			creator = "GER" 
 		}
 		requested_factories = 2
