@@ -37,17 +37,51 @@ division_template = {
 		infantry = { x = 2 y = 4 }
 		infantry = { x = 3 y = 0 }
 		infantry = { x = 3 y = 1 }
-		infantry = { x = 3 y = 2 }
-		infantry = { x = 3 y = 3 }
-		infantry = { x = 3 y = 4 }
+		artillery_brigade = { x = 3 y = 2 }
+		artillery_brigade = { x = 3 y = 3 }
 	}
 			
 	support = {     
 		engineer = { x = 0 y = 0 }
-		recon = { x = 0 y = 1 } 		
+		recon = { x = 0 y = 1 } 
+		artillery = { x = 0 y = 2 }		
 	}
 }
 
+division_template = {
+	name = "German Trained Infantry Division"			
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+		infantry = { x = 1 y = 4 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 2 y = 3 }
+		artillery_brigade = { x = 3 y = 0 }
+		artillery_brigade = { x = 3 y = 1 }
+		artillery_brigade = { x = 3 y = 2 }
+		artillery_brigade = { x = 3 y = 3 }
+
+
+	}
+	
+	support = {
+        engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 } 	
+		artillery = { x = 0 y = 2 }
+		anti_tank = { x = 0 y = 3 }
+		anti_air = { x = 0 y = 4 }
+	}
+}
 
 ### OOB ###
 units = {
@@ -424,44 +458,73 @@ units = {
 	}
 	### Capital Garrison Force (CO: ) ###
 	division = {
-		name = "2 Lujun Shi"
+		name = "1 German Trained Infantry Division"
 		location = 11913
-		division_template = "Juntuán"
-		start_equipment_factor = 0.3
+		division_template = "German Trained Infantry Division"
+		start_equipment_factor = 1
+		start_experience_factor = 1
+		force_equipment_variants = { infantry_equipment_1 = { owner = "GER" } }
+		force_equipment_variants = { anti_tank_equipment_1 = { owner = "GER" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "GER" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "GER" } }
 
 	}
 	division = {
-		name = "Peixun Shi"
+		name = "2 German Trained Infantry Division"
 		location = 11913
-		division_template = "Sanjiao Jun"		# Reorganized German-trained division (frontline infantry, better equipment and highest experience)
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
+		division_template = "German Trained Infantry Division"		# Reorganized German-trained division (frontline infantry, better equipment and highest experience)
+		start_experience_factor = 1
+		start_equipment_factor = 1
+		force_equipment_variants = { infantry_equipment_1 = { owner = "GER" } }
+		force_equipment_variants = { anti_tank_equipment_1 = { owner = "GER" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "GER" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "GER" } }
 
 	}
 	division = {
-		name = "1 Nanking Jingbei"
+		name = "3 German Trained Infantry Division"
 		location = 11913
-		division_template = "Juntuán"		# Garrison unit (poor equipment and training)
-		start_equipment_factor = 0.4
+		division_template = "German Trained Infantry Division"		# Garrison unit (poor equipment and training)
+		start_equipment_factor = 1
+		start_experience_factor = 1
+		force_equipment_variants = { infantry_equipment_1 = { owner = "GER" } }
+		force_equipment_variants = { anti_tank_equipment_1 = { owner = "GER" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "GER" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "GER" } }
 
 	}
 	division = {
-		name = "2 Nanking Jingbei"
+		name = "4 German Trained Infantry Division"
 		location = 11913
-		division_template = "Juntuán"		# Garrison unit (poor equipment and training)
-		start_equipment_factor = 0.4
+		division_template = "German Trained Infantry Division"		# Garrison unit (poor equipment and training)
+		start_equipment_factor = 1
+		start_experience_factor = 1
+		force_equipment_variants = { infantry_equipment_1 = { owner = "GER" } }
+		force_equipment_variants = { anti_tank_equipment_1 = { owner = "GER" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "GER" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "GER" } }
 	}
 	division = {
-		name = "3 Nanking Jingbei"
+		name = "5 German Trained Infantry Division"
 		location = 11913
-		division_template = "Juntuán"		# Garrison unit (poor equipment and training)
-		start_equipment_factor = 0.4
+		division_template = "German Trained Infantry Division"		# Garrison unit (poor equipment and training)
+		start_equipment_factor = 1
+		start_experience_factor = 1
+		force_equipment_variants = { infantry_equipment_1 = { owner = "GER" } }
+		force_equipment_variants = { anti_tank_equipment_1 = { owner = "GER" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "GER" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "GER" } }
 	}
 	division = {
-		name = "4 Nanking Jingbei"
+		name = "6 German Trained Infantry Division"
 		location = 11913
-		division_template = "Juntuán"		# Garrison unit (poor equipment and training)
-		start_equipment_factor = 0.4
+		division_template = "German Trained Infantry Division"		# Garrison unit (poor equipment and training)
+		start_equipment_factor = 1
+		start_experience_factor = 1
+		force_equipment_variants = { infantry_equipment_1 = { owner = "GER" } }
+		force_equipment_variants = { anti_tank_equipment_1 = { owner = "GER" } }
+		force_equipment_variants = { anti_air_equipment_1 = { owner = "GER" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "GER" } }
 	}
 
 	##### Fifth War Area (CO: Li Zongren) #####
@@ -526,7 +589,7 @@ instant_effect = {
 			type = infantry_equipment_0
 			creator = "CHI"
 		}
-		requested_factories = 5
+		requested_factories = 6
 		progress = 0.55
 		efficiency = 100
 	}
@@ -536,21 +599,20 @@ instant_effect = {
 			type = artillery_equipment_1
 			creator = "CHI"
 		}
-		requested_factories = 3
+		requested_factories = 4
 		progress = 0.55
 		efficiency = 100
 	}
 	
 	add_equipment_production = {
 		equipment = {
-			type = anti_air_equipment_1
-			creator = "CHI"
+			type = support_equipment_1
+			creator = "CHI" 
 		}
 		requested_factories = 2
 		progress = 0.55
 		efficiency = 100
 	}
-	
 
 	
 }
