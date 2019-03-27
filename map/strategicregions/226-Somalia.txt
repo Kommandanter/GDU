@@ -1,8 +1,9 @@
+
 strategic_region={
 	id=226
 	name="STRATEGICREGION_226"
 	provinces={
-		1905 1964 1966 2020 2063 4909 5065 5068 8094 8164 10777 10818 10833 10891 10921 10928 11014 12759 12814 12840 12941 12991 
+		1905 1964 1966 2020 2063 2753 2776 4909 5065 5068 5383 8094 8164 8788 10777 10818 10833 10891 10921 10928 11014 12759 12814 12840 12941 12991 
 	}
 	weather={
 		period={
@@ -170,20 +171,6 @@ strategic_region={
 			blizzard=0.000
 			arctic_water=0.000
 			mud=1.000
-			sandstorm=0.000
-			min_snow_level=0.000
-		}
-		period={
-			between={ 4.11 21.11 }
-			temperature={ -10.0 35.0 }
-			temperature_day_night={ 2.0 -2.0 }
-			no_phenomenon=1.500
-			rain_light=0.250
-			rain_heavy=0.100
-			snow=0.000
-			blizzard=0.000
-			arctic_water=0.000
-			mud=0.000
 			sandstorm=0.000
 			min_snow_level=0.000
 		}

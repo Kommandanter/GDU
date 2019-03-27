@@ -1,4 +1,4 @@
-﻿name="Gotterdammerung MP Beta 1.0: Ostfront"
+﻿name="Gotterdammerung MP Beta 1.2.1: Stalingrad"
 path="mod/cfu-gotterdammerung/"
 tags={
 	"Balance"
