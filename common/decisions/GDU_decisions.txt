@@ -92,6 +92,7 @@ political_actions = {
 			transfer_state = 781 
 			transfer_state = 776 
 			transfer_state = 777
+			transfer_state = 775 
 			
 		}	
 				

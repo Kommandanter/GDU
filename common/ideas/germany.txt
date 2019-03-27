@@ -1100,7 +1100,7 @@ ideas = {
 
 			equipment_bonus = {
 				fighter_equipment = {
-					build_cost_ic = -0.15 instant = yes
+					build_cost_ic = -0.25 instant = yes
 				}
 			}
 		}
@@ -1337,7 +1337,7 @@ ideas = {
 			}
 
 			research_bonus = {
-				armor = 0.10
+				armor = 0.15
 			}
 
 			equipment_bonus = {
@@ -1388,7 +1388,7 @@ ideas = {
 			}
 
 			research_bonus = {
-				armor = 0.10
+				armor = 0.15
 			}
 
 			equipment_bonus = {
@@ -1422,7 +1422,7 @@ ideas = {
 				date > 1940.1.1
 			}
 			research_bonus = {
-				armor = 0.10
+				armor = 0.15
 			}
 
 			ai_will_do = {
@@ -1456,7 +1456,7 @@ ideas = {
 				}
 			}
 			research_bonus = {
-				armor = 0.10
+				armor = 0.15
 			}
 
 			equipment_bonus = {
@@ -1491,7 +1491,7 @@ ideas = {
 			}
 
 			research_bonus = {
-				armor = 0.10
+				armor = 0.15
 			}
 
 			ai_will_do = {
@@ -1520,7 +1520,7 @@ ideas = {
 			}
 
 			research_bonus = {
-				armor = 0.10
+				armor = 0.15
 			}
 
 			equipment_bonus = {
@@ -1551,7 +1551,7 @@ ideas = {
 			}
 
 			research_bonus = {
-				naval_equipment = 0.10
+				naval_equipment = 0.15
 			}
 
 			equipment_bonus = {
@@ -1570,7 +1570,7 @@ ideas = {
 			}
 
 			research_bonus = {
-				naval_equipment = 0.10
+				naval_equipment = 0.15
 			}
 
 			traits = { raiding_fleet_naval_manufacturer }
@@ -1596,7 +1596,7 @@ ideas = {
 			#removal_cost = 10
 
 			research_bonus = {
-				air_equipment = 0.10
+				air_equipment = 0.15
 			}
 
 			traits = { messerschmitt_aircraft_manufacturer }
@@ -1619,7 +1619,7 @@ ideas = {
 			#removal_cost = 10
 
 			research_bonus = {
-				air_equipment = 0.10
+				air_equipment = 0.15
 			}
 
 			traits = { junkers_aircraft_manufacturer }
@@ -1646,7 +1646,7 @@ ideas = {
 
 
 			research_bonus = {
-				air_equipment = 0.10
+				air_equipment = 0.15
 			}
 
 			traits = { focke_wulf_aircraft_manufacturer }
@@ -1668,7 +1668,7 @@ ideas = {
 
 
 			research_bonus = {
-				air_equipment = 0.10
+				air_equipment = 0.15
 			}
 
 			traits = { heinkel_aircraft_manufacturer }
@@ -1689,7 +1689,7 @@ ideas = {
 
 
 			research_bonus = {
-				air_equipment = 0.10
+				air_equipment = 0.15
 			}
 
 			traits = { dornier_aircraft_manufacturer }
@@ -1710,7 +1710,7 @@ ideas = {
 
 
 			research_bonus = {
-				air_equipment = 0.10
+				air_equipment = 0.15
 			}
 
 			traits = { arado_aircraft_manufacturer }
@@ -1733,7 +1733,7 @@ ideas = {
 
 			research_bonus = {
 				industry = 0.05
-				synth_resources = 0.1
+				synth_resources = 0.2
 			}
 
 			traits = { refinery_concern }
@@ -1750,7 +1750,7 @@ ideas = {
 			}
 
 			research_bonus = {
-				industry = 0.10
+				industry = 0.15
 
 			}
 
@@ -1764,7 +1764,7 @@ ideas = {
 			}
 
 			research_bonus = {
-				electronics = 0.10
+				electronics = 0.15
 			}
 
 			traits = { electronics_concern }
@@ -1783,7 +1783,7 @@ ideas = {
 			}
 
 			research_bonus = {
-				artillery = 0.10
+				artillery = 0.15
 			}
 
 			traits = { artillery_manufacturer }
@@ -1801,7 +1801,7 @@ ideas = {
 			}
 
 			research_bonus = {
-				infantry_weapons = 0.10
+				infantry_weapons = 0.15
 			}
 
 			traits = { infantry_equipment_manufacturer }
@@ -1821,10 +1821,7 @@ ideas = {
 			}
 
 			research_bonus = {
-				motorized_equipment = 0.10
-			}
-			research_bonus = {
-				mechanized_equipment = 0.10
+				motorized_equipment = 0.3
 			}
 
 			traits = { motorized_equipment_manufacturer }
@@ -1853,7 +1850,7 @@ ideas = {
 			}
 
 			research_bonus = {
-				nuclear = 0.10
+				nuclear = 0.15
 			}
 
 			traits = { nuclear_scientist }
@@ -1867,7 +1864,7 @@ ideas = {
 			}
 
 			research_bonus = {
-				land_doctrine = 0.07
+				land_doctrine = 0.1
 			}
 
 
@@ -1884,7 +1881,7 @@ ideas = {
 			cost = 150
 
 			research_bonus = {
-				cat_mobile_warfare = 0.10
+				cat_mobile_warfare = 0.15
 			}
 
 
@@ -1901,7 +1898,7 @@ ideas = {
 			cost = 150
 
 			research_bonus = {
-				cat_battlefield_support = 0.10
+				cat_battlefield_support = 0.15
 			}
 
 			traits = { close_air_support_proponent }
@@ -1915,7 +1912,7 @@ ideas = {
 			}
 
 			research_bonus = {
-				air_doctrine = 0.07
+				air_doctrine = 0.1
 			}
 
 			traits = { air_warfare_theorist }
@@ -1929,7 +1926,7 @@ ideas = {
 			}
 
 			research_bonus = {
-				air_doctrine = 0.07
+				air_doctrine = 0.1
 			}
 
 			traits = { dive_bomber }
@@ -1959,7 +1956,7 @@ ideas = {
 			}
 
 			research_bonus = {
-				naval_doctrine = 0.07
+				naval_doctrine = 0.1
 			}
 
 			traits = { naval_theorist }
