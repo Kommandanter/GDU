@@ -307,13 +307,13 @@ sub_units = {
 		}
 
 		marsh = {
-			attack = 0.1
-			movement = 0.1
+			attack = 0.075
+			movement = 0.075
 		}
 		forest = {
-			attack = 0.10
-			defence = 0.1
-			movement = 0.1
+			attack = 0.075
+			defence = 0.075
+			movement = 0.075
 		}
 	}
 
@@ -359,8 +359,8 @@ sub_units = {
 		}
 
 		jungle = {
-			attack = 0.15
-			defence = 0.15
+			attack = 0.10
+			defence = 0.10
 			movement = 0.2
 		}
 		river = {
@@ -461,8 +461,8 @@ sub_units = {
 		}
 
 		desert = {
-			attack = 0.15
-			defence = 0.15
+			attack = 0.10
+			defence = 0.10
 			movement = 0.1
 		}
 	}

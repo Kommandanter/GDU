@@ -436,7 +436,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1
+		research_cost = 0.5
 		start_year = 1936
 		folder = {
 			name = infantry_folder
@@ -491,7 +491,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1
+		research_cost = 0.5
 		start_year = 1939
 		folder = {
 			name = infantry_folder
@@ -583,7 +583,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1
+		research_cost = 0.5
 		start_year = 1936
 		folder = {
 			name = infantry_folder
@@ -621,7 +621,7 @@ technologies = {
 		}
 
 
-		research_cost = 1
+		research_cost = 0.5
 		start_year = 1939
 		folder = {
 			name = infantry_folder
@@ -702,7 +702,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1 
+		research_cost = 0.5 
 		start_year = 1936
 		folder = {
 			name = infantry_folder
@@ -731,7 +731,7 @@ technologies = {
 		}
 
 
-		research_cost = 1
+		research_cost = 0.5
 		start_year = 1939
 		folder = {
 			name = infantry_folder
@@ -856,7 +856,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1
+		research_cost = 0.5
 		start_year = 1936
 		folder = {
 			name = infantry_folder
@@ -884,7 +884,7 @@ technologies = {
 		}
 
 
-		research_cost = 1
+		research_cost = 0.5
 		start_year = 1939
 		folder = {
 			name = infantry_folder
@@ -937,7 +937,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1
+		research_cost = 0.5
 		start_year = 1936
 		folder = {
 			name = infantry_folder
@@ -965,7 +965,7 @@ technologies = {
 		}
 
 
-		research_cost = 1
+		research_cost = 0.5
 		start_year = 1939
 		folder = {
 			name = infantry_folder
@@ -1018,7 +1018,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1
+		research_cost = 0.5
 		start_year = 1936
 		folder = {
 			name = infantry_folder
@@ -1046,7 +1046,7 @@ technologies = {
 		}
 
 
-		research_cost = 1
+		research_cost = 0.5
 		start_year = 1939
 		folder = {
 			name = infantry_folder
@@ -1100,7 +1100,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1
+		research_cost = 0.5
 		start_year = 1936
 		folder = {
 			name = infantry_folder
@@ -1128,7 +1128,7 @@ technologies = {
 		}
 
 
-		research_cost = 1
+		research_cost = 0.5
 		start_year = 1939
 		folder = {
 			name = infantry_folder

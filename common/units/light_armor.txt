@@ -42,9 +42,9 @@ sub_units = {
 			movement = -0.2
 		}
 		mountain = 	{
-		    attack = -0.2
-			defence = -0.1
-			movement = -0.3
+		    attack = -0.3
+			defence = -0.15
+			movement = -0.5
 		}
 		jungle = {
 		    attack = -0.1
