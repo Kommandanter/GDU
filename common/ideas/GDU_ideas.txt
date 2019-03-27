@@ -122,7 +122,7 @@ ideas = {
 			}
 		}
 
-                irish_neutrality = {
+        irish_neutrality = {
 			allowed = {
 				always = no
 			}

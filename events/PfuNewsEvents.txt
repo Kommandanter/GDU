@@ -197,17 +197,3 @@ news_event = {
 		}
 	}
 }
-news_event = {
-	id = pfunews.8
-	title = pfunews.8.t
-	desc = pfunews.8.d
-	picture = GFX_news_event_winter
-	
-	major = yes
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = pfunews.8.a
-	}
-}

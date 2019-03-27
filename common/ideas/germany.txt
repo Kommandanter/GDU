@@ -781,10 +781,14 @@ ideas = {
 
 			modifier = {
 				stability_factor = 0.20 
-				war_support_factor = 0.40 
+				war_support_factor = 0.2
 				army_attack_factor = 0.1
-				consumer_goods_factor = -0.05
+				consumer_goods_factor = -0.1
+				industry_free_repair_factor = 0.5 
+				production_factory_efficiency_gain_factor = 0.2
 				conversion_cost_civ_to_mil_factor = -0.4
+				stability_weekly_factor = -0.003
+				war_support_weekly_factor = -0.003
 			}
 		}
 

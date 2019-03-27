@@ -68,6 +68,42 @@ focus_tree = {
 				uses = 2
 				category = land_doctrine
 			}
+
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 1.00 
+				uses = 1
+				technology = improved_infantry_weapons
+			}
+			
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 1.00 
+				uses = 1
+				technology = artillery1
+			}
+			
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 1.00 
+				uses = 1
+				technology = tech_engineers2
+			}
+			
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 1.00 
+				uses = 1
+				technology = tech_recon2
+			}
+			
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 1.00 
+				uses = 1
+				technology = tech_signal_company2
+			}
+				
 			custom_effect_tooltip = available_chief_of_army
 			show_ideas_tooltip = walther_von_brauchitsch
 		}
@@ -458,6 +494,19 @@ focus_tree = {
 				bonus = 2.00 
 				uses = 1
 				category = synth_resources
+			}
+			
+			add_tech_bonus = {
+				name = GER_coal_liquidization
+				bonus = 2.00 
+				uses = 1
+				technology = fuel_refining2	
+			}
+			add_tech_bonus = {
+				name = GER_coal_liquidization
+				bonus = 2.00  
+				uses = 1
+				technology = fuel_refining3	
 			}
 			if = {
 				limit = {
@@ -1138,7 +1187,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = GER_tactical_air_effort
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 0.1
 		}
@@ -1164,7 +1213,7 @@ focus_tree = {
 		x = 0
 		y = 2
 		relative_position_id = GER_tactical_air_effort
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -2515,7 +2564,7 @@ focus_tree = {
 		prerequisite = { focus = GER_naval_effort }
 		x = 0
 		y = 2
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -2582,7 +2631,7 @@ focus_tree = {
 		mutually_exclusive = { focus = GER_u_boat_effort }
 		x = -1
 		y = 3
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 0.25
 		}	
@@ -2670,7 +2719,7 @@ focus_tree = {
 		mutually_exclusive = { focus = GER_plan_z }
 		x = 1
 		y = 3
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -2731,7 +2780,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = GER_u_boat_effort
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -2742,8 +2791,8 @@ focus_tree = {
 			add_tech_bonus = {
 				name = ti_bonus
 				name = GER_trade_interdiction
-				bonus = 1.00 
-				uses = 2
+				bonus = 1.25 
+				uses = 3
 				category = trade_interdiction_tree
 			}
 		}
@@ -2756,7 +2805,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = GER_trade_interdiction
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -2775,7 +2824,7 @@ focus_tree = {
 		x = 0
 		y = 8
 		relative_position_id = GER_anschluss
-		cost = 10
+		cost = 2
 		ai_will_do = {
 			factor = 10
 		}
@@ -2872,7 +2921,8 @@ focus_tree = {
 					}
 			add_tech_bonus = {
 				name = anti_air
-				bonus = 1.00 
+				bonus = 1.5 
+				ahead_reduction = 2.0 
 				uses = 5
 				category = cat_antiair
 			}
@@ -2930,7 +2980,7 @@ focus_tree = {
 		prerequisite = { focus = GER_flak_36 focus = GER_battle_russia }
 		x = -1
 		y = 5
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}

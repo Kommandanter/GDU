@@ -1644,24 +1644,29 @@ country_event = {
 	picture = GFX_report_event_physics_lab_01
 
 	is_triggered_only = yes
+	
+	immediate = {  
+		hidden_effect = { 
+			GER = {
+				country_event = { days = 2 id = germany.76 }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = sov_ger_treaty
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = sov_ger_treaty_trade
+				}
+			}
+		}
+	}
 
 	option = {
 		name = germany.75.a	#sounds good
-		GER = {
-			country_event = { days = 1 id = germany.76 }
-			add_opinion_modifier = {
-				target = ROOT
-				modifier = sov_ger_treaty
-			}
-			add_opinion_modifier = {
-				target = ROOT
-				modifier = sov_ger_treaty_trade
-			}
-		}
 		# REVISIT Balance research bonus
 		add_tech_bonus = {
 			name = med_armor_bonus
-			ahead_reduction = 1
+			ahead_reduction = 2
 			technology = basic_medium_tank
 			technology = improved_medium_tank
 		}
