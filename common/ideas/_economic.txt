@@ -352,8 +352,7 @@ ideas = {
 			removal_cost = -1
 			
 			available = {
-			NOT = { has_idea = soviet_closed_market }
-			NOT = { has_idea = soviet_limited_market } 			
+			NOT = { has_idea = soviet_closed_market }		
 			}
 			
 			modifier = {
@@ -374,10 +373,8 @@ ideas = {
 			removal_cost = -1
 
 			available = {
-			NOT = { has_idea = soviet_closed_market }
-			NOT = { has_idea = soviet_limited_market } 			
+			NOT = { has_idea = soviet_closed_market }		
 			NOT = { tag = POR }
-		    NOT = { tag = ROM }
 			NOT = { tag = SWE }
 			}
 
@@ -400,7 +397,6 @@ ideas = {
 			available = {
 				NOT = { has_idea = soviet_closed_market }
 				NOT = { tag = POR }
-				NOT = { tag = ROM }
 				OR = {
 					AND = {
 						has_government = democratic
