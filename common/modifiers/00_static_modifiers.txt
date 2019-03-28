@@ -120,30 +120,26 @@ night = { # On province. Multiplied by amount of darkness.
 }
 
 occupation_policy_1 = { # Gentlest
-	resistance_tick = 0.0
 	local_resources = 0.0
-	local_manpower = -1.0
+	local_manpower = -0.85 
 	local_factories = -0.1
 	occupation_cost = 0.02
 }
 occupation_policy_2 = { # Gentle
-	resistance_tick = 0.0
 	local_resources = 0.0
-	local_manpower = -1.0
+	local_manpower = -0.85
 	local_factories = -0.1
 	occupation_cost = 0.02
 }
 occupation_policy_3 = { # Harsh
-	resistance_tick = 0.0
 	local_resources = 0.0
-	local_manpower = -1.0
+	local_manpower = -0.85
 	local_factories = -0.1
 	occupation_cost = 0.02
 }
 occupation_policy_4 = { # Harshest
-	resistance_tick = 0.0
 	local_resources = 0.0
-	local_manpower = -1.0
+	local_manpower = -0.85
 	local_factories = -0.1
 	occupation_cost = 0.02
 }
