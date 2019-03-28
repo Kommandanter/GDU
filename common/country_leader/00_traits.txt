@@ -2016,8 +2016,8 @@ leader_traits = {
 	
 	marshal_of_victory = { # IT'S ZHUKOV 
 		sprite = 7
-		army_org_factor = 0.02 
 		army_attack_factor = 0.10 
+		experience_gain_army_factor = 0.15
 		
 		ai_will_do = { 
 			factor = 1 

@@ -854,8 +854,11 @@ ideas = {
 			
 			equipment_bonus = {
 				strat_bomber_equipment = {
-					air_range = 0.5 instant = yes
-				}	
+					air_range = 0.25 instant = yes
+				}
+				heavy_fighter_equipment = { 
+					air_range = 0.25 instant = yes 
+				} 
 			}
 		}
 
@@ -2370,7 +2373,7 @@ ideas = {
 			}
 			
 			available = { 
-				has_completed_focus = USA_combined_bomber_offensive 
+				has_completed_focus = USA_strategic_bombing  
 			} 
 			
 			cost = 150

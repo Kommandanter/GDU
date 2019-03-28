@@ -684,8 +684,8 @@ ideas = {
 
 			modifier = {
 				army_attack_factor = -0.20
-				army_defence_factor = -0.25
-				army_org_factor = -0.15
+				army_defence_factor = -0.2
+				army_org_factor = -0.1
 				air_superiority_efficiency = -0.15
 				air_intercept_efficiency = -0.15
 				air_cas_efficiency = -0.15
@@ -714,7 +714,7 @@ ideas = {
 			modifier = {
 				army_attack_factor = -0.08
 				army_defence_factor = -0.2
-				army_org_factor = -0.2
+				army_org_factor = -0.1
 				air_superiority_efficiency = -0.1
 				air_intercept_efficiency = -0.1
 				air_cas_efficiency = -0.1
@@ -743,8 +743,8 @@ ideas = {
 
 			modifier = {
 				army_attack_factor = -0.05
-				army_defence_factor = -0.06
-				army_org_factor = -0.06
+				army_defence_factor = -0.07
+				army_org_factor = -0.07
 				air_superiority_efficiency = -0.04
 				air_intercept_efficiency = -0.04
 				air_cas_efficiency = -0.1
@@ -766,9 +766,9 @@ ideas = {
 			}
 
 			modifier = {
-				army_attack_factor = -0.03
+				army_attack_factor = -0.05
 				army_defence_factor = -0.05
-				army_org_factor = -0.05
+				army_org_factor = -0.07
 				air_superiority_efficiency = -0.04
 				air_intercept_efficiency = -0.04
 				air_cas_efficiency = -0.1
@@ -809,11 +809,11 @@ ideas = {
 			}
 
 			modifier = {
-				army_org_factor = 0.10
-				army_morale_factor = 0.10
+				army_org_factor = 0.05
+				army_morale_factor = 0.05
 				consumer_goods_factor = -0.1
 				conscription = 0.02
-				training_time_factor = -0.60
+				training_time_factor = -0.65
 			}
 		}
 	
@@ -835,7 +835,7 @@ ideas = {
 				army_morale_factor = 0.10
 				consumer_goods_factor = -0.1
 				conscription = 0.02
-				training_time_factor = -0.60
+				training_time_factor = -0.65
 			}
 		}
 
@@ -1043,7 +1043,7 @@ ideas = {
 
 
 
-			traits = { army_chief_drill_1 }
+			traits = { army_chief_reform_2 }
 
 			ai_will_do = {
 				factor = 1
