@@ -297,6 +297,19 @@ on_actions = {
 		}
 	}
 	
+	on_declare_war = {
+		effect = {
+			if = {
+				limit = {
+					FROM = {
+						tag = USA 
+					}
+					ROOT = { tag = JAP }
+				}
+				USA = { country_event = { id = gduevents.18 days = 5 } } #Philippine military occupation 
+			}
+		}
+	}
 	
 	on_capitulation = { 
 		effect = {
