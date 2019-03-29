@@ -1068,7 +1068,23 @@ ideas = {
 				defense_bonus_against = 0.05
 			}
 		}
+		GER_the_great_red_menace = {
+			allowed = {
+				always = no
+			}
 
+			allowed_civil_war = {
+				has_government = democratic
+			}
+
+			removal_cost = -1
+
+			picture = ger_the_great_red_menace
+
+			modifier = {
+				communism_drift = -0.02
+			}
+		}
 		GER_dismantle_maginot = {
 			allowed = {
 				always = no
@@ -1087,6 +1103,25 @@ ideas = {
 				production_speed_bunker_factor = 0.1
 			}
 
+		}
+		
+		GER_dismantle_czechoslovakian_forts = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = fascism
+			}
+
+			removal_cost = -1
+
+			picture = generic_wall_line
+
+			modifier = {
+				production_speed_coastal_bunker_factor = 0.2
+				production_speed_bunker_factor = 0.2
+			}
 		}
 		GER_jaegernotprogramm = {
 			allowed = {
