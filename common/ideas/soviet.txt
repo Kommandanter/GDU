@@ -168,7 +168,7 @@ ideas = {
 			picture = generic_manpower_bonus
 
 			modifier = {
-				conscription = 0.02
+				conscription = 0.015
 			}
 		}
 	    SOV_order_227 = {
@@ -329,7 +329,7 @@ ideas = {
 			picture = generic_manpower_bonus
 
 			modifier = {
-				conscription = 0.02
+				conscription = 0.015
 			}
 		}
 
