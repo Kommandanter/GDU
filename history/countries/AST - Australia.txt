@@ -256,7 +256,7 @@ set_convoys = 100
 create_field_marshal = {
 	name = "Leslie Morshead"
 	gfx = "GFX_AST_leslie_morshead"
-	traits = { naval_invader infantry_leader organizer inflexible_strategist old_guard career_officer jungle_rat desert_fox war_hero}
+	traits = { naval_invader infantry_leader organizer inflexible_strategist old_guard career_officer jungle_rat war_hero}
 	skill = 5
 
 	attack_skill = 5
@@ -270,7 +270,7 @@ create_field_marshal = {
 create_field_marshal = {
 	name = "Thomas Blamey"
 	gfx = "GFX_AST_thomas_blamey"
-	traits = { old_guard skilled_staffer desert_fox organizer infantry_officer politically_connected trait_cautious }
+	traits = { old_guard skilled_staffer organizer infantry_officer politically_connected trait_cautious }
 	skill = 5
 	attack_skill = 2
 	defense_skill = 5
