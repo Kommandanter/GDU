@@ -359,7 +359,7 @@ on_actions = {
 							ITA = { NOT = { has_war_with = ENG } }  
 						}
 					}
-					ITA = { country_event = { id = pfu.35 days = 10 } } # Force Italian war declaration on the allies.
+					ITA = { country_event = { id = pfu.35 days = 20 } } # Force Italian war declaration on the allies.
 				}
 				
 				FRA = { news_event = { id = france.20 days = 1 } }
