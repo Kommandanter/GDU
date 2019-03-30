@@ -482,7 +482,7 @@ foreign_politics = {
 	
 		available = { 
 			has_completed_focus = GER_ussr_war_goal
-			date > 1941.5.16
+			#date > 1941.5.16
 			NOT = { has_war_with = SOV } 
 		}	
 	
@@ -519,8 +519,9 @@ foreign_politics = {
 			custom_effect_tooltip = GER_barbarossa_tooltip
 		
 			every_country = { 
-				limit = { 
+				limit = {
 					is_in_faction_with = GER 
+					NOT = { tag = FIN } 
 				}
 				declare_war_on = {
 					target = SOV
