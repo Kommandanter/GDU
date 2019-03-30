@@ -820,7 +820,7 @@ JAP_southern_expansion = {
 	JAP_pressure_france = { 
 
 		available = {
-			16 = { NOT = { is_controlled_by = FRA } }
+			EFR = { exists = yes } 
 		}
 
 		visible = {
@@ -856,7 +856,7 @@ JAP_southern_expansion = {
 		}
 
 		complete_effect = {
-			FRA = { country_event = { id = france.1 } }
+			EFR = { country_event = { id = france.1 } }
 		}
 
 	}

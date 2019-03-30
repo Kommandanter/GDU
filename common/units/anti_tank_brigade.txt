@@ -31,7 +31,7 @@ sub_units = {
 		max_strength = 0.6
 		training_time = 120
 		weight = 0.5
-		hard_attack = 0.25
+		hard_attack = 0.2
 		supply_consumption = 0.07
 
 		forest = {
@@ -103,7 +103,7 @@ sub_units = {
 		max_strength = 0.6
 		training_time = 120
 		weight = 0.5
-		hard_attack = -0.55 #Otherwise, the AT changes seriously break these. Remove at your own peril. -TW/MTG 
+		hard_attack = -0.56 #Otherwise, the AT changes seriously break these. Remove at your own peril. -TW/MTG 
 
 		supply_consumption = 0.17
 

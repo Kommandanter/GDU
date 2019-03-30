@@ -793,9 +793,9 @@ technologies = {
 	tech_flamethrower2 = {
 
 		flamethrower = {
-			soft_attack = 0.05
+			soft_attack = 0.03
 			fort = {
-				defence = 0.10
+				defence = 0.05
 				attack = 0.10
 			}
 			jungle = {
@@ -829,10 +829,10 @@ technologies = {
 	tech_flamethrower3 = {
 		
 		flamethrower = {
-			soft_attack = 0.05
+			soft_attack = 0.03
 			urban = {
 				attack = 0.1	
-				defence = 0.10
+				defence = 0.05
 			}
 			jungle = {
 				attack = 0.1

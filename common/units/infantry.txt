@@ -500,7 +500,7 @@ sub_units = {
 		training_time = 90
 		suppression = 1
 		weight = 0.75
-		supply_consumption = 0.10
+		supply_consumption = 0.11
 
 		# this is what moves us and sets speed
 		transport = motorized_equipment
@@ -562,8 +562,8 @@ sub_units = {
 		combat_width = 2
 
 		#Offensive Abilities
-		soft_attack = 0.15
-		hard_attack = 4.0
+		soft_attack = 0.2
+		hard_attack = 3.5
 
 		#Size Definitions
 		max_strength = 30
