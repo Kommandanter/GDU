@@ -236,7 +236,7 @@ if = {
 }
 
 
-set_convoys = 45
+set_convoys = 250
 set_stability = 0.5
 set_war_support = 0.8
 
