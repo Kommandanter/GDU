@@ -1234,28 +1234,13 @@ focus_tree = {
 					}
 				}
 
-		complete_tooltip = {
-			every_state = {
-				limit = { has_state_flag = SOV_Sinteticheskii_Kauchuk_2IC }
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = synthetic_refinery
-					level = 2
-					instant_build = yes
-				}
-			}
-			every_state = {
-				limit = { has_state_flag = SOV_Sinteticheskii_Kauchuk_1IC }
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = synthetic_refinery
-					level = 1
-					instant_build = yes
-				}
-			}
-		}
 		completion_reward = {
 			add_ideas = SOV_Sinteticheskii_Kauchuk_idea
+			modify_building_resources = {
+        	   building = synthetic_refinery
+        	   resource = rubber
+        	   amount = 2
+        	}
 			add_tech_bonus = {
 				name = USA_rubber_reserve_company
 				bonus = 2.00 
@@ -1276,19 +1261,19 @@ focus_tree = {
 				set_state_flag = SOV_Sinteticheskii_Kauchuk_2IC
 			}
 			260 = {
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = synthetic_refinery
-					level = 1
+					level = 2
 					instant_build = yes
 				}
 				set_state_flag = SOV_Sinteticheskii_Kauchuk_1IC
 			}
 			223 = {
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = synthetic_refinery
-					level = 1
+					level = 2
 					instant_build = yes
 				}
 				set_state_flag = SOV_Sinteticheskii_Kauchuk_1IC
