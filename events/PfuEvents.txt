@@ -33,7 +33,7 @@ country_event = {
 	option = {
 		name = pfu.18.a
 		custom_effect_tooltip = pfu.18.a.tt
-		add_timed_idea = { idea = GER_short_war days = 1000 }
+		add_timed_idea = { idea = GER_short_war days = 1400 }
 		add_ideas = war_economy
 		add_popularity  = { 
 			ideology = fascism
