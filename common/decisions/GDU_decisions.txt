@@ -473,10 +473,6 @@ foreign_politics = {
 				date > 1940.6.1 
 			}
 			has_completed_focus = uk_iran_focus
-			OR = { 
-				291 = { is_owned_by = ENG } 
-				291 = { is_controlled_by = ENG } 
-			}
 			444 = { is_controlled_by = RAJ } 
 
 		} 
