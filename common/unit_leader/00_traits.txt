@@ -1011,9 +1011,7 @@ leader_traits = {
 			}
 		}
 		cost = 700
-		modifier = {
-			fortification_damage = 0.75
-		}
+		enable_ability = siege_artillery
 		
 		ai_will_do = {
 			factor = 1
@@ -1025,7 +1023,6 @@ leader_traits = {
 		parent = trait_engineer
 		mutually_exclusive = scavenger
 	}
-	
 	scavenger = { 
 		type = corps_commander
 		gain_xp = {
