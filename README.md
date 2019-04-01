@@ -1,4 +1,4 @@
-# CFU Gotterdammerung
+# Gotterdammerung
 
-A HOI4 multiplayer mod based off of CFU (https://steamcommunity.com/sharedfiles/filedetails/?id=1420153510) and the Spot mod (https://steamcommunity.com/sharedfiles/filedetails/?id=1442593120).
-Special thanks to authors of both and Des.
+A HOI4 multiplayer mod found at https://steamcommunity.com/sharedfiles/filedetails/?id=1420153510
+Special thanks to James, Lee, and Des.
