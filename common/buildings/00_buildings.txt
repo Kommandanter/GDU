@@ -50,7 +50,7 @@ buildings = {
 		air_base = yes
 		max_level = 10
 		value = 1
-		damage_factor = 0.4
+		damage_factor = 0.7
 	}
 
 	naval_base = {
@@ -118,7 +118,7 @@ buildings = {
 		disabled_in_dmz = yes
 		air_defence = 1.00
 		max_level = 5 # This is the max unlock level
-		damage_factor = 0.05
+		damage_factor = 0.06
 		value = 1
 	}
 	
