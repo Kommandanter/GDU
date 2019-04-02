@@ -490,6 +490,7 @@ focus_tree = {
 		available = {
 			congress_high_support_trigger = yes 
 			has_government = democratic
+			has_completed_focus = USA_agricultural_adjustment_act
 		}
 		bypass = {
 			
@@ -497,7 +498,8 @@ focus_tree = {
 
 		completion_reward = {
 			custom_effect_tooltip = USA_limited_interventionGDU_tt 
-			add_ideas = USA_early_wakey_idea 
+			#add_ideas = USA_early_wakey_idea 
+			add_ideas = isolation
 			hidden_effect = { 
 				every_other_country = {
 					limit = {
@@ -597,12 +599,12 @@ focus_tree = {
 					}
 				}
 			add_ideas = civilian_economy
-			if = {
-				limit = {
-					has_completed_focus = USA_limited_intervention
-				}
-				remove_ideas = USA_early_wakey_idea
-			}
+		#	if = {
+		#		limit = {
+		#			has_completed_focus = USA_limited_intervention
+		#		}
+		#		remove_ideas = USA_early_wakey_idea
+		#	}
 			if = {
 				limit = { has_completed_focus = USA_neutrality_act }
 				remove_ideas = USA_neutrality_act
@@ -621,12 +623,6 @@ focus_tree = {
 					has_completed_focus = USA_guarantee_the_american_dream
 				}
 				remove_ideas = USA_giant_sleeps_idea_2
-			}
-			if = { 
-				limit = { 
-					has_completed_focus = USA_limited_intervention
-				}
-				remove_ideas = USA_early_wakey_idea
 			}
 			if = {
 				limit = {
@@ -764,6 +760,7 @@ focus_tree = {
 
 		available = {
 			congress_low_support_trigger = yes
+			has_completed_focus = USA_agricultural_adjustment_act
 		}
 		
 		bypass = {
@@ -2655,7 +2652,7 @@ focus_tree = {
 
 		completion_reward = {
 			navy_experience = 50
-			
+			add_ideas = bureau_of_ships_focus
 			378 = { 
 					add_extra_state_shared_building_slots = 2
 					add_building_construction = {

@@ -101,7 +101,7 @@ NDefines.NMilitary.HOURLY_ORG_MOVEMENT_IMPACT = -0.15
 NDefines.NMilitary.LEADER_SKILL_FACTOR = 0.25
 
 NDefines.NMilitary.ARMY_LEADER_XP_GAIN_PER_UNIT_IN_COMBAT = 0.00
-NDefines.NMilitary.EXPERIENCE_COMBAT_FACTOR = 0.15
+NDefines.NMilitary.EXPERIENCE_COMBAT_FACTOR = 0.1
 NDefines.NMilitary.MAX_RELATIVE_COMBAT_DAMAGE_TO_MODIFY_XP = 0.0			-- you gain more XP if you are doing more damage relative to enemy, this is the max relative amount to gain following RATe
 NDefines.NMilitary.XP_DECAY_RATE_PER_HOUR_IN_COMBAT = 0.00				-- you get reduced XP as combat drags
 NDefines.NMilitary.MIN_XP_RATE_TO_DECAY = 0.0
@@ -179,6 +179,9 @@ NDefines.NMilitary.UNIT_LEADER_ASSIGN_TRAIT_COST = 0.00 -- Assigning traits is a
 NDefines.NMilitary.PROMOTE_LEADER_CP_COST = 500.0 -- CP is used for too many things in the mod for it to be spent on something like this without it being a nuisance.
 
 NDefines.NMilitary.FUEL_CAPACITY_DEFAULT_HOURS = 200               -- default capacity if not specified 
+
+NDefines.NMilitary.UNIT_DIGIN_CAP = 2.5
+NDefines.NMilitary.PLANNING_MAX = 0.25                           	-- can get more from techs
 
 NDefines.NAir.AIR_MORE_GROUND_CREWS_COST = 500.0 -- Disables ground crews. They're cancerous. 
 NDefines.NAir.COMBAT_AMOUNT_DIFF_AFFECT_GANG_CHANCE = 0.4
