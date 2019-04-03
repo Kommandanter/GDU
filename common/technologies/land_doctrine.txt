@@ -868,7 +868,7 @@ technologies = {
 
 
 		category_support_battalions = {
-			max_organisation = 10
+			max_organisation = 8.5
 			soft_attack = 0.25
 		}
 
@@ -908,7 +908,7 @@ technologies = {
 		xp_research_bonus = 0.5
 
 		category_support_battalions = {
-			max_organisation = 10
+			max_organisation = 8.5
 			soft_attack = 0.25
 		}
 
