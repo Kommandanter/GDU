@@ -6,10 +6,10 @@ leader_traits = {
 		random = no
 		equipment_bonus = {
 			fighter_equipment = {
-				air_agility = 0.10 maximum_speed = 0.10 build_cost_ic = -0.1
+				air_agility = 0.10 maximum_speed = 0.10 build_cost_ic = -0.08
 			}
 			jet_fighter_equipment = {
-				maximum_speed = 0.1 air_attack = 0.1 build_cost_ic = -0.1
+				maximum_speed = 0.1 air_attack = 0.1 build_cost_ic = -0.08
 			}
 		}
 	}
@@ -18,7 +18,7 @@ leader_traits = {
 		random = no
 		equipment_bonus = {
 			fighter_equipment = {
-				reliability = 0.1 air_agility = 0.10 maximum_speed = 0.10 build_cost_ic = -0.1
+				reliability = 0.1 air_agility = 0.10 maximum_speed = 0.10 build_cost_ic = -0.08
 			}
 		}
 	}
@@ -30,7 +30,7 @@ leader_traits = {
 				reliability = 0.2 air_ground_attack = 0.1 build_cost_ic = -0.1
 			}
 			strat_bomber_equipment = {
-				air_bombing = 0.1 reliability = 0.1 air_defence = 0.1 build_cost_ic = -0.1
+				air_bombing = 0.1 reliability = 0.1 air_defence = 0.1 build_cost_ic = -0.08
 			}
 		}
 	}
@@ -39,7 +39,7 @@ leader_traits = {
 		random = no
 		equipment_bonus = {
 			fighter_equipment = {
-				maximum_speed = 0.15 air_agility = 0.10 reliability = 0.1 build_cost_ic = -0.1
+				maximum_speed = 0.15 air_agility = 0.10 reliability = 0.1 build_cost_ic = -0.08
 			}
 		}
 	}
@@ -48,10 +48,10 @@ leader_traits = {
 		random = no
 		equipment_bonus = {
 			tac_bomber_equipment = {
-				reliability = 0.2 air_agility = 0.1 air_ground_attack = 0.1 build_cost_ic = -0.1
+				reliability = 0.2 air_agility = 0.1 air_ground_attack = 0.1 build_cost_ic = -0.08
 			}
 			strat_bomber_equipment = {
-				air_bombing = 0.1 reliability = 0.1 air_defence = 0.1 build_cost_ic = -0.1
+				air_bombing = 0.1 reliability = 0.1 air_defence = 0.1 build_cost_ic = -0.08
 			}
 		}
 	}
