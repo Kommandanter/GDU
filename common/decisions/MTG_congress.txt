@@ -49,7 +49,7 @@ USA_congress = {
 				has_decision = USA_small_lobby_effort
 			}
 			OR = {
-				political_power_daily > 0.6
+				political_power_daily > 0.45
 				has_political_power > 25
 			}
 		}
@@ -71,7 +71,7 @@ USA_congress = {
 		}
 		days_remove = 45
 		modifier = {
-			political_power_gain = -0.6
+			political_power_gain = -0.45
 		}
 		remove_effect = {
 			USA_congress_medium_support = yes
@@ -178,7 +178,7 @@ USA_congress = {
 		highlight_states = {
 			has_state_flag = USA_congress_build_factory
 		}
-		days_mission_timeout = 360
+		days_mission_timeout = 250
 		is_good = no
 		activation = {
 			any_owned_state = {
@@ -226,7 +226,7 @@ USA_congress = {
 		highlight_states = {
 			has_state_flag = USA_congress_build_arms_factory
 		}
-		days_mission_timeout = 360
+		days_mission_timeout = 250
 		is_good = no
 		activation = {
 			any_owned_state = {
@@ -274,7 +274,7 @@ USA_congress = {
 		highlight_states = {
 			has_state_flag = USA_congress_build_dockyard
 		}
-		days_mission_timeout = 360
+		days_mission_timeout = 250
 		is_good = no
 		activation = {
 			any_owned_state = {
@@ -320,7 +320,7 @@ USA_congress = {
 		highlight_states = {
 			has_state_flag = USA_congress_build_infrastructure
 		}
-		days_mission_timeout = 360
+		days_mission_timeout = 250
 		is_good = no
 		activation = {
 			any_owned_state = {
