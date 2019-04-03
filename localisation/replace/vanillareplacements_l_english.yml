@@ -14,6 +14,9 @@
  GER_naval_rearmament:0 "Kriegsmarine" 
  GER_air_innovation_2:0 "Air Innovations" 
  
+ SOV_far_east_fortification:0 "Caucasus Defense" 
+ SOV_far_east_fortification_desc:0 "With Operation Countenance completed and parts of Iran securely in our hands, we need to create a defense-in-depth system to secure Baku against possible attacks."
+ 
  USA_lend_lease_act:0 "Lend Lease Act"
  USA_lend_lease_act_desc:0 "To manufacture in arsenals, factories, and shipyards under their jurisdiction, or otherwise procure, to the extent to which funds are made available therefor, or contracts are authorized from time to time by the Congress, or both, any defense article for the government of any country whose defense the President deems vital to the defense of the United States."
  

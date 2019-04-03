@@ -1360,99 +1360,114 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		available = { 
+			419 = { is_owned_by = ROOT } 
+		}
 		completion_reward = {
-			563 = {
+			229 = {
 				if = {
 					limit = { is_controlled_by = ROOT }
-					custom_effect_tooltip = SOV_far_east_fortification_forts_1
-					hidden_effect = {
 						add_building_construction = {
 							type = bunker
-							level = 2
-							province = 4719
+							level = 3
+							province = 9715
 							instant_build = yes
 						}
 						add_building_construction = {
 							type = bunker
-							level = 2
-							province = 12622
+							level = 3
+							province = 11704
 							instant_build = yes
 						}
 						add_building_construction = {
 							type = bunker
-							level = 2
-							province = 10559
+							level = 3
+							province = 12434
 							instant_build = yes
 						}
-					}
+						add_building_construction = {
+							type = bunker
+							level = 3
+							province = 4473
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 3
+							province = 4614
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 3
+							province = 1536
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 5
+							province = 7661
+							instant_build = yes
+						}
 				}
 			}
-			657 = {
+			230 = {
 				if = {
 					limit = { is_controlled_by = ROOT }
-					custom_effect_tooltip = SOV_far_east_fortification_forts_2
-					hidden_effect = {
 						add_building_construction = {
 							type = bunker
-							level = 2
-							province = 7763
+							level = 3
+							province = 12320
 							instant_build = yes
 						}
 						add_building_construction = {
 							type = bunker
-							level = 2
-							province = 4725
+							level = 3
+							province = 6997
 							instant_build = yes
 						}
 						add_building_construction = {
 							type = bunker
-							level = 2
-							province = 10655
+							level = 3
+							province = 4660
 							instant_build = yes
 						}
-						add_building_construction = {
-							type = bunker
-							level = 2
-							province = 7801
-							instant_build = yes
-						}
-					}
 				}
 			}
-			409 = {
+			419 = {
 				if = {
 					limit = { is_controlled_by = ROOT }
-					custom_effect_tooltip = SOV_far_east_fortification_forts_3
-					hidden_effect = {
 						add_building_construction = {
 							type = bunker
-							level = 2
-							province = 12189
+							level = 3
+							province = 7604
 							instant_build = yes
 						}
 						add_building_construction = {
 							type = bunker
-							level = 2
-							province = 10466
+							level = 3
+							province = 1896
 							instant_build = yes
 						}
-					}
+						add_building_construction = {
+							type = bunker
+							level = 3
+							province = 12793
+							instant_build = yes
+						}
 				}
 			}
-			408 = {
+			420 = {
 				if = {
 					limit = { is_controlled_by = ROOT }
-					add_building_construction = {
-						type = bunker
-						level = 2
-						province = 11643
-						instant_build = yes
-					}
+						add_building_construction = {
+							type = bunker
+							level = 3
+							province = 4901
+							instant_build = yes
+						}
 				}
 			}
-			# Other possible Provinces
-			# 4719 12622 10559 12543 7851 10678 12657 7763 4725 10655 7801 10722 7672 4805
-			# 12189 10466 11643 6686 664 6684 3787 6838 3977 11879 1755
 		}
 	}
 
