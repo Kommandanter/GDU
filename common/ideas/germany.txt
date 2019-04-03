@@ -638,12 +638,14 @@ ideas = {
 			
 			research_bonus = {
 				air_doctrine = 0.2
-				jet_technology = 0.10
+				jet_technology = 0.25
 			}
 			
 			
 			modifier = { 
 				air_ace_generation_chance_factor = 0.15
+				air_mission_xp_gain_factor = 0.2
+				air_training_xp_gain_factor = 0.2
 			} 
 		}
 
