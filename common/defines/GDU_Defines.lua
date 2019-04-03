@@ -245,10 +245,10 @@ NDefines.NNavy.CONVOY_EFFICIENCY_REGAIN_AFTER_DAYS = 4						-- Convoy starts reg
 NDefines.NNavy.CONVOY_EFFICIENCY_REGAIN_BASE_SPEED = 0.05						-- How much efficiency regains every day.
 NDefines.NNavy.CONVOY_EFFICIENCY_MIN_VALUE = 0.03								-- To avoid complete 0% efficiency, set the lower limit.
 
-NDefines.NNavy.UNIT_TRANSFER_DETECTION_CHANCE_BASE = 20.00						-- unit transfer and naval invasion base chance detection percentage (if this fails, no detection is done on that tick)
+NDefines.NNavy.UNIT_TRANSFER_DETECTION_CHANCE_BASE = 15.00						-- unit transfer and naval invasion base chance detection percentage (if this fails, no detection is done on that tick)
 NDefines.NNavy.BASE_SPOTTING_EFFECT_FOR_INITIAL_UNIT_TRANSFER_SPOTTING = 6.0	-- same as BASE_SPOTTING_EFFECT_FOR_INITIAL_CONVOY_SPOTTING, but for naval transfer convoys
 NDefines.NNavy.SPOTTING_SPEED_EFFECT_FOR_INITIAL_UNIT_TRANSFER_SPOTTING = 15.0 -- same as SPOTTING_SPEED_EFFECT_FOR_INITIAL_CONVOY_SPOTTING, but for naval transfer convoys
-NDefines.NNavy.BASE_SPOTTING_EFFECT_FOR_INITIAL_NAVAL_INVASION_SPOTTING = 1    -- same as BASE_SPOTTING_EFFECT_FOR_INITIAL_CONVOY_SPOTTING, but for naval invasion convoys
+NDefines.NNavy.BASE_SPOTTING_EFFECT_FOR_INITIAL_NAVAL_INVASION_SPOTTING = 0.75    -- same as BASE_SPOTTING_EFFECT_FOR_INITIAL_CONVOY_SPOTTING, but for naval invasion convoys
 NDefines.NNavy.SPOTTING_SPEED_EFFECT_FOR_INITIAL_NAVAL_INVASION_SPOTTING = 0.05  -- same as SPOTTING_SPEED_EFFECT_FOR_INITIAL_CONVOY_SPOTTING, but for naval invasion convoys
 
 
