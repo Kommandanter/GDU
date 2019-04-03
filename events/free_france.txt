@@ -77,6 +77,16 @@ country_event = {
 		ai_chance = {
 			factor = 100
 		}
+		FRA = { transfer_state = 557 }
+		FRA = { transfer_state = 272 }
+		FRA = { transfer_state = 780 }
+		FRA = { transfer_state = 298 }
+		FRA = { transfer_state = 556 }
+		FRA = { transfer_state = 779 }
+		FRA = { transfer_state = 778 }
+		FRA = { transfer_state = 781 }
+		FRA = { transfer_state = 777 }
+		FRA = { transfer_state = 776 }
 	}
 }
 
@@ -161,6 +171,12 @@ country_event = {
 				custom_effect_tooltip = FRA_free_france_operation_exporter_tt
 				country_event = free_france.71
 			}
+			EFR = {
+				add_state_claim = 553
+				add_state_claim = 677
+				add_state_claim = 554
+				add_state_claim = 680
+			}
 		}
 	}
 }
@@ -197,7 +213,8 @@ country_event = {
 		ai_chance = {
 			factor = 100
 		}
-
+		FRA = { transfer_state = 309 }
+		FRA = { transfer_state = 695 }
 	}
 }
 

@@ -1343,24 +1343,24 @@ focus_tree = {
 			add_political_power = 150
 			set_capital = 539
 			country_event = { days = 1 id = free_france.1 }
-			add_offsite_building = { type = industrial_complex level = 4 }
-			add_offsite_building = { type = arms_factory level = 4 }
-			add_tech_bonus = {
-				name = FRA_army_reform
-				bonus = 1.0
-				uses = 2
-				category = land_doctrine
-			}
+			add_offsite_building = { type = industrial_complex level = 3 }
+			add_offsite_building = { type = arms_factory level = 3 }
+			add_offsite_building = { type = dockyard level = 2 }
 		}
 	}
 
 	focus = {
 		id = FRA_sway_west_africa
 		icon = GFX_goal_generic_improve_relations
-		prerequisite = { focus = FRA_france_libre }
-		x = 24
-		y = 1
+		prerequisite = { focus = FRA_defend_dutch_american_colonies }
+		x = 26
+		y = 3
 		cost = 10
+
+		available = {
+			is_ai = no
+			date > 1941.1.1
+		}
 
 		available_if_capitulated = yes
 
@@ -1372,25 +1372,26 @@ focus_tree = {
 
 	focus = {
 		id = FRA_revive_naval_construction
-		icon = GFX_goal_generic_navy_cruiser
-		prerequisite = { focus = FRA_france_libre }
+		icon = GFX_goal_generic_build_navy
+		prerequisite = { focus = FRA_rebuild_military_production }
 		x = 22
-		y = 1
+		y = 4
 		cost = 10
 
 		available_if_capitulated = yes
 
 		completion_reward = {
+		    add_ideas = FRA_FREE_free_french_fleet
 			add_equipment_to_stockpile = {
 				type = convoy_1
 				amount = 100
 				producer = FRA
 			}
 			539 = {
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = dockyard
-					level = 1
+					level = 3
 					instant_build = yes
 				}
 			}
@@ -1400,7 +1401,44 @@ focus_tree = {
 	focus = {
 		id = FRA_revive_civilian_construction
 		icon = GFX_goal_generic_construct_civ_factory
-		prerequisite = { focus = FRA_revive_naval_construction }
+		prerequisite = { focus = FRA_gold_reserve }
+		x = 22
+		y = 2
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			539 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = FRA_gold_reserve
+		icon = GFX_focus_usa_reestablish_the_gold_standard
+		prerequisite = { focus = FRA_france_libre }
+		x = 22
+		y = 1
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = FRA_FREE_gold_reserves
+		}
+	}
+	
+	focus = {
+		id = FRA_rebuild_military_production
+		icon = GFX_goal_generic_construct_mil_factory
+		prerequisite = { focus = FRA_revive_civilian_construction }
 		x = 22
 		y = 3
 		cost = 10
@@ -1409,27 +1447,22 @@ focus_tree = {
 
 		completion_reward = {
 			539 = {
-				add_extra_state_shared_building_slots = 6
+				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
-					type = industrial_complex
-					level = 6
+					type = arms_factory
+					level = 3	
 					instant_build = yes
-				}
-				add_resource = {
-					type = steel
-					amount = 40
 				}
 			}
 		}
 	}
-
+	
 	focus = {
 		id = FRA_sway_syria
-		icon = GFX_goal_generic_improve_relations
-		prerequisite = { focus = FRA_france_libre }
+		icon = GFX_france_five
 		prerequisite = { focus = FRA_sway_west_africa }
-		x = 25
-		y = 2
+		x = 28
+		y = 4
 		cost = 10
 
 		available_if_capitulated = yes
@@ -1447,9 +1480,9 @@ focus_tree = {
 	focus = {
 		id = FRA_take_Manda
 		icon = GFX_goal_generic_improve_relations
-		prerequisite = { focus = FRA_sway_syria }
-		x = 27
-		y = 3
+		prerequisite = { focus = FRA_france_libre }
+		x = 26
+		y = 1
 		cost = 10
 
 		available_if_capitulated = yes
@@ -1461,12 +1494,34 @@ focus_tree = {
 	}
 
 	focus = {
-		id = FRA_organize_the_resistance
+		id = FRA_develop_our_resources
 		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = FRA_sway_syria }
-		prerequisite = { focus = FRA_sway_west_africa }
-		x = 25
-		y = 3
+		prerequisite = { focus = FRA_revive_naval_construction }
+		x = 22
+		y = 5
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			539 = {
+				add_resource = {
+					type = steel
+					amount = 30
+				}
+				add_resource = {
+					type = tungsten
+					amount = 20
+				}
+			}
+		}
+	}
+	focus = {
+		id = FRA_defend_dutch_american_colonies
+		icon = GFX_france_four
+		prerequisite = { focus = FRA_take_Manda }
+		x = 26
+		y = 2
 		cost = 10
 
 		available_if_capitulated = yes
@@ -1478,39 +1533,33 @@ focus_tree = {
 	}
 
 	focus = {
-		id = FRA_unleash_the_resistance_1
+		id = FRA_reform_our_doctrine
 		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = FRA_organize_the_resistance }
-		x = 25
-		y = 4
-		cost = 1.5
-
-		available = {
-			has_war_with = EFR
-			is_ai = no
-		}
-
+		prerequisite = { focus = FRA_france_libre }
+		x = 24
+		y = 1
+		cost = 10
 
 		available_if_capitulated = yes
 
 		completion_reward = {
-			country_event = { days = 1 id = free_france.9 }
+			add_tech_bonus = {
+				name = FRA_army_reform
+				bonus = 1.0
+				uses = 2
+				category = land_doctrine
+			}
 
 		}
 	}
 
 	focus = {
 		id = FRA_unleash_the_resistance_2
-		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = FRA_organize_the_resistance }
-		x = 27
+		icon = GFX_france_three
+		prerequisite = { focus = FRA_sway_west_africa }
+		x = 26
 		y = 4
 		cost = 5
-
-		available = {
-			is_ai = no
-			date > 1940.6.1
-		}
 
 		available_if_capitulated = yes
 
@@ -1521,24 +1570,126 @@ focus_tree = {
 	}
 
 	focus = {
-		id = FRA_unleash_the_resistance_3
+		id = FRA_reequip_our_forces
 		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = FRA_unleash_the_resistance_1 }
-		x = 25
-		y = 5
-		cost = 5
+		prerequisite = { focus = FRA_reform_our_doctrine }
+		x = 24
+		y = 2
+		cost = 10
+ 
+		available_if_capitulated = yes
 
-		available = {
-			is_ai = no
-			date > 1942.6.1
+		completion_reward = {
+		    add_equipment_to_stockpile = {
+			    type = infantry_equipment_1
+			    amount = 5000
+			    producer = FRA
+		    }
 		}
+	}
+	
+	focus = {
+		id = FRA_modernize_our_equipment
+		icon = GFX_goal_generic_army_artillery2
+		prerequisite = { focus = FRA_colonial_recruitment }
+		x = 24
+		y = 4
+		cost = 10
 
 		available_if_capitulated = yes
 
 		completion_reward = {
-			country_event = { days = 1 id = free_france.10 }
+			add_tech_bonus = {
+				name = FRA_artillery_focus
+				bonus = 1.00 
+				uses = 1
+				technology = tech_logistics_company3
+				technology = tech_logistics_company4
+			}
+			add_tech_bonus = {
+				name = FRA_artillery_focus
+				bonus = 1.00 
+				uses = 1
+				category = infantry_weapons
+			}
+		}
+	}
+	focus = {
+		id = FRA_colonial_recruitment
+		icon = GFX_france_four
+		prerequisite = { focus = FRA_reequip_our_forces }
+		x = 24
+		y = 3
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = FRA_FREE_colonial_manpower
+		}
+	}
+	focus = {
+		id = FRA_modernize_our_armor_force
+		icon = GFX_goal_generic_army_artillery2
+		prerequisite = { focus = FRA_modernize_our_equipment }
+		x = 24
+		y = 5
+		cost = 10
+
+		available_if_capitulated = yes
+	
+		completion_reward = {
+			add_tech_bonus = {
+				name = FRA_armor
+				bonus = 1.00 
+				uses = 1
+				category = armor
+			}
+		}
+	}
+	focus = {
+		id = FRA_viva_la_france
+		icon = GFX_france_one
+		prerequisite = { focus = FRA_unleash_the_resistance_2 }
+		x = 26
+		y = 5
+		cost = 5
+
+		available_if_capitulated = yes
+
+
+		completion_reward = {
+			add_ideas = FRA_FREE_viva_la_france
+		}
+	}
+	focus = {
+		id = FRA_rubber_refinery_program
+		icon = GFX_goal_generic_demand_territory
+		prerequisite = { focus = FRA_develop_our_resources }
+		x = 22
+		y = 6
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = FRA_FREE_joint_french_and_russian_rubber_refinery_program
+			add_tech_bonus = {
+				name = USA_rubber_reserve_company
+				bonus = 0.10
+				uses = 1
+				technology = rubber_processing
+				technology = improved_rubber_processing
+				technology = advanced_rubber_processing
+				technology = modern_rubber_processing
+			}
+			539 = {
+				add_resource = {
+					type = rubber
+					amount = 2
+				}
+			}
 		}
 	}
 
-	
 }
