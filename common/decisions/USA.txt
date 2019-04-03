@@ -9,13 +9,11 @@ war_measures = {
 		}
 
 		available = {
-			any_state = {
-				is_core_of = USA
-				NOT = {
-					is_controlled_by = USA
-				}
-			}
 			has_civil_war = no
+			any_of = {
+				array = USA.core_states
+				var:v = { NOT = { is_controlled_by = USA } }
+			}
 		}
 
 		cost = 50
@@ -31,7 +29,7 @@ war_measures = {
 		complete_effect = {
 			if = {
 				limit = {
-					NOT = { has_war_support > 0.89 }
+					has_war_support < 0.9
 				}
 				set_war_support = 0.9
 			}
@@ -455,7 +453,6 @@ foreign_support = {
 
 		allowed = {
 			original_tag = USA
-			has_government = democratic
 		}
 
 		available = {
@@ -530,7 +527,6 @@ foreign_support = {
 
 		allowed = {
 			original_tag = USA
-			has_government = democratic
 		}
 
 		available = {
