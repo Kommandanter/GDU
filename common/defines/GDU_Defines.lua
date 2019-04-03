@@ -183,6 +183,9 @@ NDefines.NMilitary.FUEL_CAPACITY_DEFAULT_HOURS = 200               -- default ca
 NDefines.NMilitary.UNIT_DIGIN_CAP = 2.5
 NDefines.NMilitary.PLANNING_MAX = 0.25                           	-- can get more from techs
 
+NDefines.NMilitary.ANTI_AIR_TARGETTING_TO_CHANCE = 0.06			-- Balancing value to determine the chance of ground AA hitting an attacking airplane, affecting both the effective average damage done by AA to airplanes, and the reduction of damage done by airplanes due to AA support
+NDefines.NMilitary.ANTI_AIR_ATTACK_TO_AMOUNT = 0.003				-- Balancing value to convert equipment stat anti_air_attack to the random % value of airplanes being hit.
+
 NDefines.NAir.AIR_MORE_GROUND_CREWS_COST = 500.0 -- Disables ground crews. They're cancerous. 
 NDefines.NAir.COMBAT_AMOUNT_DIFF_AFFECT_GANG_CHANCE = 0.4
 NDefines.NAir.COMBAT_SITUATION_WIN_CHANCE_FROM_GANG = 0.1
@@ -203,7 +206,7 @@ NDefines.NAir.NAVAL_STRIKE_DAMAGE_TO_ORG = 1.0
 NDefines.NAir.EFFICIENCY_REGION_CHANGE_DAILY_GAIN_TACTICAL_BOMBER =	0.1	-- base 0.192 How much efficiency to regain per day. Gain applied hourly.
 NDefines.NAir.AIR_COMBAT_FINAL_DAMAGE_SCALE = 0.5 -- 0.015	 % how many max disrupted only planes are allowed to die in a single combat
 NDefines.NAir.AA_INDUSTRY_AIR_DAMAGE_FACTOR = -0.14 -- -0.12	5x levels = 60% defense from bombing
-NDefines.NAir.ANTI_AIR_MAXIMUM_DAMAGE_REDUCTION_FACTOR = 0.83 -- .75 Maximum damage reduction factor applied to incoming air attacks against units with AA.
+NDefines.NAir.ANTI_AIR_MAXIMUM_DAMAGE_REDUCTION_FACTOR = 0.82 -- .75 Maximum damage reduction factor applied to incoming air attacks against units with AA.
 NDefines.NAir.ENEMY_AIR_SUPERIORITY_DEFENSE = 0.70	       -- more AA attack will approach this amount of help (diminishing returns)
 NDefines.NAir.ENEMY_AIR_SUPERIORITY_DEFENSE_STEEPNESS = 112 -- how quickly defense approaches the max impact diminishing returns curve
 
@@ -216,8 +219,8 @@ NDefines.NAir.DISRUPTION_FACTOR_CARRIER = 12.0							-- multiplier on disruption
 NDefines.NNavy.NAVAL_SUPREMACY_CAN_INVADE = 0.60
 NDefines.NNavy.NAVAL_TRANSFER_BASE_SPEED = 12
 NDefines.NNavy.NAVAL_INVASION_PREPARE_HOURS = 72
-NDefines.NNavy.ANTI_AIR_ATTACK_TO_AMOUNT = 0.002 -- Original in PFU: 0.01. 0.01 in vanilla. Balancing value to convert equipment stat anti_air_attack to the random % value of airplanes being hit. That's what vanilla defines says; in reality, this appears to be the plane damage factor define. 
-NDefines.NNavy.ANTI_AIR_TARGETTING_TO_CHANCE = 0.05 --Original in PFU: 0.1. In vanilla, 0.2? Balancing value to convert averaged equipment stats (anti_air_targetting and naval_strike_agility) to probability chances of airplane being hit by navies AA. That's what vanilla defines says; in reality, this appears to be the real 'Plane Damage Chance' define for land AA. 
+
+
 NDefines.NNavy.SHIP_TO_FLEET_ANTI_AIR_RATIO = 0.01 -- (0.2 -> 0.01) -- SilentLegion#1356, MTG 
 NDefines.NNavy.ANTI_AIR_POW_ON_INCOMING_AIR_DAMAGE = 0.75 -- (0.2 -> 0.75) -- SilentLegion#1356, MTG 
 NDefines.NNavy.ANTI_AIR_MULT_ON_INCOMING_AIR_DAMAGE = 0.04 -- (0.15 -> 0.04) -- These ones are a bit harder to explain but in essence it makes ship aa much more important and fleet aa less important. Low aa takes more damage and higher takes less, here's a spreadsheet to make it clearer what it does (should be editable so you can test some values yourself) -- SilentLegion#1356, MTG  https://docs.google.com/spreadsheets/d/1gILOpO6VzPlscVmSTEeHuEPUKPh2Y2_bQ2ky67gxUmI/edit?usp=sharing
@@ -235,7 +238,8 @@ NDefines.NNavy.SUB_DETECTION_CHANCE_BASE = 6
 NDefines.NNavy.BASE_JOIN_COMBAT_HOURS = 2 -- the taskforces that wants to join existing combats will wait for at least this amount 8--->2 
 NDefines.NNavy.DEPTH_CHARGES_HIT_CHANCE_MULT = 2.0 -- multiplies hit chance of small guns, early application of 1.6.2 
 NDefines.NNavy.DEPTH_CHARGES_DAMAGE_MULT = 1.0 -- early application of 1.6.2 
-
+NDefines.NNavy.ANTI_AIR_TARGETTING_TO_CHANCE = 0.1							-- Balancing value to convert averaged equipment stats (anti_air_targetting and naval_strike_agility) to probability chances of airplane being hit by navies AA.
+NDefines.NNavy.ANTI_AIR_ATTACK_TO_AMOUNT = 0.005								-- Balancing value to convert equipment stat anti_air_attack to the random % value of airplanes being hit.
 NDefines.NNavy.CONVOY_EFFICIENCY_LOSS_MODIFIER = 0.85							-- How much efficiency drops when losing convoys. If modifier is 0.5, then losing 100% of convoys in short period, the efficiency will drop by 50%.
 NDefines.NNavy.CONVOY_EFFICIENCY_REGAIN_AFTER_DAYS = 4						-- Convoy starts regaining it's efficiency after X days without any convoys being sink.
 NDefines.NNavy.CONVOY_EFFICIENCY_REGAIN_BASE_SPEED = 0.05						-- How much efficiency regains every day.
@@ -244,8 +248,8 @@ NDefines.NNavy.CONVOY_EFFICIENCY_MIN_VALUE = 0.03								-- To avoid complete 0%
 NDefines.NNavy.UNIT_TRANSFER_DETECTION_CHANCE_BASE = 20.00						-- unit transfer and naval invasion base chance detection percentage (if this fails, no detection is done on that tick)
 NDefines.NNavy.BASE_SPOTTING_EFFECT_FOR_INITIAL_UNIT_TRANSFER_SPOTTING = 6.0	-- same as BASE_SPOTTING_EFFECT_FOR_INITIAL_CONVOY_SPOTTING, but for naval transfer convoys
 NDefines.NNavy.SPOTTING_SPEED_EFFECT_FOR_INITIAL_UNIT_TRANSFER_SPOTTING = 15.0 -- same as SPOTTING_SPEED_EFFECT_FOR_INITIAL_CONVOY_SPOTTING, but for naval transfer convoys
-NDefines.NNavy.BASE_SPOTTING_EFFECT_FOR_INITIAL_NAVAL_INVASION_SPOTTING = 2    -- same as BASE_SPOTTING_EFFECT_FOR_INITIAL_CONVOY_SPOTTING, but for naval invasion convoys
-NDefines.NNavy.SPOTTING_SPEED_EFFECT_FOR_INITIAL_NAVAL_INVASION_SPOTTING = 0.08  -- same as SPOTTING_SPEED_EFFECT_FOR_INITIAL_CONVOY_SPOTTING, but for naval invasion convoys
+NDefines.NNavy.BASE_SPOTTING_EFFECT_FOR_INITIAL_NAVAL_INVASION_SPOTTING = 1    -- same as BASE_SPOTTING_EFFECT_FOR_INITIAL_CONVOY_SPOTTING, but for naval invasion convoys
+NDefines.NNavy.SPOTTING_SPEED_EFFECT_FOR_INITIAL_NAVAL_INVASION_SPOTTING = 0.05  -- same as SPOTTING_SPEED_EFFECT_FOR_INITIAL_CONVOY_SPOTTING, but for naval invasion convoys
 
 
 NDefines.NNavy.NAVAL_MINES_IN_REGION_MAX = 100 -- Max number of mines that can be layed by the ships. The value should be hidden from the user, as we present % so it's an abstract value that should be used for balancing.
