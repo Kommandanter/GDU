@@ -1,5 +1,5 @@
-﻿name="Gotterdammerung MP Beta 1.2.1: Stalingrad"
-path="mod/cfu-gotterdammerung/"
+﻿name="Gotterdammerung MP Beta 1.4: Leningrad"
+path="mod/Gotterdammerung/"
 tags={
 	"Balance"
 	"Events"
