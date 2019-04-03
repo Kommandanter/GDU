@@ -183,8 +183,8 @@ NDefines.NMilitary.FUEL_CAPACITY_DEFAULT_HOURS = 200               -- default ca
 NDefines.NMilitary.UNIT_DIGIN_CAP = 2.5
 NDefines.NMilitary.PLANNING_MAX = 0.25                           	-- can get more from techs
 
-NDefines.NMilitary.ANTI_AIR_TARGETTING_TO_CHANCE = 0.06			-- Balancing value to determine the chance of ground AA hitting an attacking airplane, affecting both the effective average damage done by AA to airplanes, and the reduction of damage done by airplanes due to AA support
-NDefines.NMilitary.ANTI_AIR_ATTACK_TO_AMOUNT = 0.003				-- Balancing value to convert equipment stat anti_air_attack to the random % value of airplanes being hit.
+NDefines.NMilitary.ANTI_AIR_TARGETTING_TO_CHANCE = 0.07		-- Balancing value to determine the chance of ground AA hitting an attacking airplane, affecting both the effective average damage done by AA to airplanes, and the reduction of damage done by airplanes due to AA support
+NDefines.NMilitary.ANTI_AIR_ATTACK_TO_AMOUNT = 0.002				-- Balancing value to convert equipment stat anti_air_attack to the random % value of airplanes being hit.
 
 NDefines.NAir.AIR_MORE_GROUND_CREWS_COST = 500.0 -- Disables ground crews. They're cancerous. 
 NDefines.NAir.COMBAT_AMOUNT_DIFF_AFFECT_GANG_CHANCE = 0.4
