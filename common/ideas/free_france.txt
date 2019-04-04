@@ -21,7 +21,80 @@ ideas = {
 				mobilization_laws_cost_factor = -0.25
 			}
 		}
+		FRA_FREE_gold_reserves = {
+			
+			allowed = {
+				original_tag = FRA
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				defensive_war_stability_factor = 0.1
+				consumer_goods_factor = -0.05
+			}
+		}
+		FRA_FREE_viva_la_france = {
+			
+			allowed = {
+				original_tag = FRA
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_core_attack_factor = 0.05
+				army_core_defence_factor = 0.05
+			}
+		}
+		FRA_FREE_colonial_manpower = {
+			
+			allowed = {
+				original_tag = FRA
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				non_core_manpower = 0.10
+				conscription = 0.015
+			}
+		}
+		FRA_FREE_joint_french_and_russian_rubber_refinery_program = {
+			
+			allowed = {
+				original_tag = FRA
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+                production_speed_synthetic_refinery_factor = 0.05
+			}
+		}
 	}
+	
+	
 	political_advisor = {
 		FRA_FREE_felix_eboue = { ##gave Free France  first lands
 			
@@ -114,4 +187,55 @@ ideas = {
 		}		
 	}	
 	
+	naval_manufacturer = {
+
+		designer = yes
+
+		FRA_FREE_free_french_fleet = {
+			
+			picture = generic_naval_manufacturer_2
+
+			allowed = {
+				original_tag = FRA
+			}
+
+			available = {
+				has_completed_focus = FRA_revive_naval_construction
+			}
+			
+			research_bonus = {
+				naval_equipment = 0.15
+			}			
+			
+			equipment_bonus = {
+			    carrier = {
+				    carrier_size = 0.1
+				    armor_value = 0.05 
+				    naval_range = 0.1
+				    build_cost_ic = -0.05
+			    }
+			    capital_ship = {
+				    naval_range = 0.1
+			        armor_value = 0.05
+				    hg_attack = 0.05
+				    build_cost_ic = -0.05
+			    }
+			    screen_ship = {
+				    naval_range = 0.1
+				    build_cost_ic = -0.1
+			    	sub_detection = 0.1 
+				    naval_speed = 0.1
+			    }
+			    submarine = {
+			     	naval_range = 0.10
+				    build_cost_ic = -0.05
+				    sub_visibility = -0.05
+				}
+			}
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+    }
 }
