@@ -1522,6 +1522,10 @@ political_actions = {
 
         available = {
             GER = { NOT = { has_government = ROOT } }
+			NOT = { 
+				tag = GER 
+				tag = ITA 
+			}
         }
 
         modifier = {
@@ -1576,6 +1580,10 @@ political_actions = {
 
         available = {
             ITA = { NOT = { has_government = ROOT } }
+			NOT = { 
+				tag = GER 
+				tag = ITA 
+			}
         }
 
         modifier = {
