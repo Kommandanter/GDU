@@ -2847,7 +2847,7 @@ focus_tree = {
 		prerequisite = { focus = GER_army_innovation_2 }
 		x = -2
 		y = 4
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
