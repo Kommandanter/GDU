@@ -1526,6 +1526,12 @@ political_actions = {
 				tag = GER 
 				tag = ITA 
 			}
+			OR = {
+                original_tag = ENG
+                original_tag = USA
+                original_tag = FRA
+                original_tag = CAN
+            }
         }
 
         modifier = {
@@ -1584,6 +1590,12 @@ political_actions = {
 				tag = GER 
 				tag = ITA 
 			}
+			OR = {
+                original_tag = ENG
+                original_tag = USA
+                original_tag = FRA
+                original_tag = CAN
+            }
         }
 
         modifier = {
