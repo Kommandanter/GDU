@@ -46,8 +46,7 @@
     FRA_FREE_gold_reserves:0 "French Gold Reserves"
     FRA_FREE_colonial_manpower:0 "Colonial Recruitment Efforts"
     FRA_FREE_viva_la_france:0 "Viva la France"
-    FRA_FREE_joint_french_and_russian_rubber_refinery_program:0 "Joint French-Soviet Rubber Refinery Program"
-    FRA_FREE_joint_french_and_russian_rubber_refinery_program_desc:0 "The Soviets have shared some of their know how on rubber refinement procedures." 
+    FRA_FREE_research_efforts:0 "Renewed Research Efforts"
 	
     tomoyuki_yamashita_HC:0 "Tomoyuki Yamashita" 
     takeichi_nichi:0 "Takeichi Nichi" 

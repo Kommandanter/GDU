@@ -21,6 +21,23 @@ ideas = {
 				mobilization_laws_cost_factor = -0.25
 			}
 		}
+		FRA_FREE_research_efforts = {
+			
+			allowed = {
+				original_tag = FRA
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+		    modifier = {
+				research_speed_factor =0.05
+			}
+		}
 		FRA_FREE_gold_reserves = {
 			
 			allowed = {
@@ -210,25 +227,21 @@ ideas = {
 			equipment_bonus = {
 			    carrier = {
 				    carrier_size = 0.1
-				    armor_value = 0.05 
 				    naval_range = 0.1
-				    build_cost_ic = -0.05
 			    }
 			    capital_ship = {
 				    naval_range = 0.1
 			        armor_value = 0.05
 				    hg_attack = 0.05
-				    build_cost_ic = -0.05
 			    }
 			    screen_ship = {
 				    naval_range = 0.1
-				    build_cost_ic = -0.1
+				    build_cost_ic = -0.05
 			    	sub_detection = 0.1 
 				    naval_speed = 0.1
 			    }
 			    submarine = {
 			     	naval_range = 0.10
-				    build_cost_ic = -0.05
 				    sub_visibility = -0.05
 				}
 			}
