@@ -745,8 +745,8 @@ ideas = {
 				army_attack_factor = -0.05
 				army_defence_factor = -0.08
 				army_org_factor = -0.08
-				air_superiority_efficiency = -0.05
-				air_intercept_efficiency = -0.05
+				air_superiority_efficiency = -0.06
+				air_intercept_efficiency = -0.06
 				air_cas_efficiency = -0.1
 				air_strategic_bomber_bombing_factor = -0.1
 			}
@@ -769,8 +769,8 @@ ideas = {
 				army_attack_factor = -0.05
 				army_defence_factor = -0.05
 				army_org_factor = -0.06
-				air_superiority_efficiency = -0.05
-				air_intercept_efficiency = -0.05
+				air_superiority_efficiency = -0.06
+				air_intercept_efficiency = -0.06
 				air_cas_efficiency = -0.1
 				air_strategic_bomber_bombing_factor = -0.1
 			}
