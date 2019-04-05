@@ -26,7 +26,7 @@ sub_units = {
 			anti_tank_equipment = 36
 		}
 		manpower = 500
-		max_organisation = 4
+		max_organisation = 2
 		default_morale = 0
 		max_strength = 0.6
 		training_time = 120

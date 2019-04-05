@@ -484,7 +484,7 @@ foreign_politics = {
 	
 		available = { 
 			has_completed_focus = GER_ussr_war_goal
-			#date > 1941.5.16
+			date > 1941.5.16
 			NOT = { has_war_with = SOV } 
 		}	
 	
@@ -685,7 +685,6 @@ GER_military_buildup = {
 
 		complete_effect = {
 			add_timed_idea = { idea = GER_jaegernotprogramm days = 90 }
-			add_stability = -0.05 
 		}
 	}
 }
