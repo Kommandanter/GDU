@@ -13270,8 +13270,8 @@
 13269;85;15;51;land;false;urban;1
 13270;44;210;3;land;false;urban;1
 13271;172;132;147;land;false;urban;1
-13272;28;56;54;land;false;plains;1
-13273;33;3;43;land;false;plains;1
+13272;28;56;54;land;true;plains;1
+13273;33;3;43;land;true;plains;1
 13274;43;21;178;land;true;urban;6
 13275;189;108;175;land;false;urban;6
 13276;124;169;182;land;true;urban;6
