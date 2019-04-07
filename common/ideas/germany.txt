@@ -803,10 +803,6 @@ ideas = {
 				stability_factor = 0.20 
 				war_support_factor = 0.2
 				army_attack_factor = 0.1
-				consumer_goods_factor = -0.1
-				industry_free_repair_factor = 1
-				production_factory_efficiency_gain_factor = 0.2
-				conversion_cost_civ_to_mil_factor = -0.5
 				stability_weekly_factor = -0.002
 				war_support_weekly_factor = -0.002
 			}
@@ -1254,8 +1250,11 @@ ideas = {
 			allowed = {
 				original_tag = GER
 			}
+			available = { 
+				date > 1943.1.1 
+			}
 
-			traits = { armaments_organizer }
+			traits = { total_war_organizer }
 		}
 
 		hjalmar_schacht = {
