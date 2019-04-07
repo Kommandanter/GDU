@@ -185,6 +185,9 @@
     vauxhall_motors:0 "Vauxhall Motors"
     #French tank designers
     somua:0 "SOMUA"
+    #French naval designer
+    free_french_fleet:0 "Free French Designer"
+    free_france_fleet:0 "Jack Of All Trades"
     #Japanese tank designers
     mitsubishi_tank:0 "Mitsubishi"
     army_technical_bureau:0 "Army Technical Bureau"

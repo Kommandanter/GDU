@@ -583,6 +583,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
+
 		custom_effect_tooltip = france.20.a_tt
 		set_country_flag = france_de_gaulle
 		remove_ideas = FRA_victors_of_wwi
@@ -590,6 +591,7 @@ country_event = {
 		remove_ideas = FRA_protected_by_the_maginot_line
 		remove_ideas = FRA_inflexible_industry
 		hidden_effect =  {
+            load_oob = FRA_naval_oob
 			retire_country_leader = yes
 		}
 		name = france.20.a
@@ -606,6 +608,7 @@ country_event = {
 	fire_only_once = yes
 
 	is_triggered_only = yes 
+
 
 	option = {
 		ai_chance = {
