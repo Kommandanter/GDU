@@ -1456,7 +1456,7 @@ focus_tree = {
 	focus = {
 		id = FRA_sway_syria
 		icon = GFX_france_nine
-		prerequisite = { focus = FRA_defend_dutch_american_colonies }
+		prerequisite = { focus = FRA_take_Manda }
 		x = 26
 		y = 4
 		cost = 10
@@ -1476,9 +1476,9 @@ focus_tree = {
 	focus = {
 		id = FRA_take_Manda
 		icon = GFX_france_one
-		prerequisite = { focus = FRA_sway_west_africa }
+		prerequisite = { focus = FRA_defend_dutch_american_colonies }
 		x = 28
-		y = 2
+		y = 3
 		cost = 10
 
 		available_if_capitulated = yes
@@ -1497,7 +1497,7 @@ focus_tree = {
 			focus = FRA_revive_civilian_construction
 			focus = FRA_revive_naval_construction
 		}
-		x = 24
+		x = 23
 		y = 3
 		cost = 10
 
@@ -1523,9 +1523,9 @@ focus_tree = {
 	focus = {
 		id = FRA_defend_dutch_american_colonies
 		icon = GFX_france_two
-		prerequisite = { focus = FRA_take_Manda }
+		prerequisite = { focus = FRA_sway_west_africa }
 		x = 28
-		y = 3
+		y = 2
 		cost = 10
 
 		available_if_capitulated = yes
@@ -1560,7 +1560,7 @@ focus_tree = {
 	focus = {
 		id = FRA_unleash_the_resistance_2
 		icon = GFX_france_four
-		prerequisite = { focus = FRA_defend_dutch_american_colonies }
+		prerequisite = { focus = FRA_take_Manda }
 		x = 28
 		y = 4
 		cost = 5
@@ -1584,13 +1584,15 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-		    add_equipment_to_stockpile = {
-			    type = infantry_equipment_1
-			    amount = 5000
-			    producer = FRA
-		    }
-		}
+		    add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 5000 producer = FRA }
+		    add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 600 producer = FRA }
+			add_equipment_to_stockpile = { type = support_equipment_1 amount = 300 producer = FRA }
+			add_equipment_to_stockpile = { type = anti_air_equipment_1 amount = 300 producer = FRA }
+			add_equipment_to_stockpile = { type = anti_tank_equipment_1  amount = 300 producer = FRA }
+			add_equipment_to_stockpile = { type = motorized_equipment amount = 150 producer = FRA }
+	    }
 	}
+
 	
 	focus = {
 		id = FRA_modernize_our_equipment
@@ -1668,9 +1670,13 @@ focus_tree = {
 	focus = {
 		id = FRA_research_efforts
 		icon = GFX_goal_tfv_generic_tech_sharing
-		prerequisite = { focus = FRA_develop_our_resources }
-		x = 24
-		y = 4
+		prerequisite = {
+			focus = FRA_rebuild_military_production
+			focus = FRA_revive_civilian_construction
+			focus = FRA_revive_naval_construction
+		}
+		x = 25
+		y = 3
 		cost = 10
 
 		available_if_capitulated = yes

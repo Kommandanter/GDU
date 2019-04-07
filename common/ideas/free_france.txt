@@ -190,6 +190,27 @@ ideas = {
 			}
 		}
 	}	
+    navy_chief = {
+
+		rene_emile_godfroy = {
+
+
+			allowed = {
+				original_tag = FRA
+				
+			}
+
+			available = {
+				has_country_flag = free_france
+			}
+
+			traits = { navy_screen_2 }
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+    }
 	high_command = {
 		
 		FRA_FREE_adolphe_cise = { ##military medic
