@@ -3017,7 +3017,7 @@ focus_tree = {
 		prerequisite = { focus = GER_rocketry_focus }
 		x = -2
 		y = 6
-		cost = 15
+		cost = 10
 		ai_will_do = {
 			factor = 1
 		}
@@ -3032,12 +3032,14 @@ focus_tree = {
 			add_tech_bonus = {
 				name = ta152_bonus
 				ahead_reduction = 5.0  
+				bonus = 1.00
 				uses = 1
 				technology = fighter3
 			}
 			add_tech_bonus = {
 				name = me262_bonus
-				ahead_reduction = 5.0 
+				ahead_reduction = 5.0
+				bonus = 1.00
 				uses = 1
 				technology = jet_fighter1
 			}

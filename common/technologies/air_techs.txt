@@ -313,6 +313,9 @@ technologies = {
 		
 		research_cost = 2
 		start_year = 1944
+		allow = { 
+			date > 1941.1.1 
+		}
 
 		folder = {
 			name = air_techs_folder
@@ -652,6 +655,9 @@ technologies = {
 		
 		research_cost = 2
 		start_year = 1944
+		allow = { 
+			date > 1941.1.1 
+		}
 		folder = {
 			name = air_techs_folder
 			position = { x = -4 y = 8 }
@@ -917,6 +923,9 @@ technologies = {
 		
 		research_cost = 2
 		start_year = 1944
+		allow = { 
+			date > 1941.1.1 
+		}
 		folder = {
 			name = air_techs_folder
 			position = { x = 4 y = 8 }
@@ -1095,6 +1104,9 @@ technologies = {
 
 		research_cost = 2
 		start_year = 1944
+		allow = { 
+			date > 1941.1.1 
+		}
 		folder = {
 			name = air_techs_folder
 			position = { x = -2 y = 8 }
@@ -1222,6 +1234,9 @@ technologies = {
 
 		research_cost = 2
 		start_year = 1944
+		allow = { 
+			date > 1941.1.1 
+		}
 		folder = {
 			name = air_techs_folder
 			position = { x = 2 y = 8 }
