@@ -622,7 +622,7 @@ focus_tree = {
 
 focus = {
 		id = FIN_the_lotta_svard
-		icon = GFX_goal_generic_specpeal_forces
+		icon = GFX_goal_generic_special_forces
         prerequisite = { focus = FIN_civilian_kitchens }
 		x = 5
 		y = 4

@@ -65,6 +65,8 @@
  JAP_amphibious_armor_desc:0 "In the case of a heavily guarded landing zone, marines might not be enough. Research into amphibious tanks will prove key in cracking stubborn island defenses." 
  JAP_total_manchurian_integration:0 "Total Manchurian Integration" 
  JAP_total_manchurian_integration_desc:0 "The Manchurian puppet state we set up has served its purpose. A complete integration of the intellectual, industrial, and manpower resources Manchukuo has to offer into Japan is in order." 
+ JAP_free_manchuria:0 "Manchurian Autonomy"
+ JAP_free_manchuria_desc:0 " Manchuria has pulled it's weigh and has been a loyal subject. To reward them or such lyality, we shall give them more freedom in the say of how their government is ran."
  
  NZL_central_department_of_industry:0 "Central Department of Industry"
  
