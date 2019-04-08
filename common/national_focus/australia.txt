@@ -1744,6 +1744,36 @@ focus_tree = {
 			}
 		}
 	}
+	
+	focus = {
+		id = AST_army_inventions_directorate
+		icon = GFX_focus_research
+		prerequisite = { focus = AST_industries_assistance_corporation }
+		x = 17
+		y = 1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 15
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
 
 	focus = {
 		id = AST_western_australian_government_railways
@@ -2326,37 +2356,6 @@ focus_tree = {
 	}
 
 	focus = {
-		id = AST_army_inventions_directorate
-		icon = GFX_focus_research
-		prerequisite = { focus = AST_national_security_act }
-		x = -2
-		y = 2
-		relative_position_id = AST_establish_advisory_war_council
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 15
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_research_slot = 1
-		}
-	}
-
-	focus = {
 		id = AST_invest_in_victory
 		icon = GFX_goal_generic_national_unity
 		prerequisite = { focus = AST_national_security_act }
@@ -2826,41 +2825,6 @@ focus_tree = {
 		}
 	}
 
-	focus = {
-		id = AST_fund_australian_defense_research
-		icon = GFX_focus_research
-		prerequisite = { focus = AST_rationing_and_recycling }
-		prerequisite = { focus = AST_classify_aliens }
-		x = 1
-		y = 4
-		relative_position_id = AST_establish_advisory_war_council
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-			is_subject = no
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		complete_tooltip = {
-
-		}
-
-		completion_reward = {
-			add_research_slot = 1
-		}
-	}
 
 	############################
 	#### GO WITH UK SECTION ####
@@ -2930,7 +2894,7 @@ focus_tree = {
 		x = 0
 		y = 1
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -2971,7 +2935,7 @@ focus_tree = {
 #		y = 1
 #		relative_position_id = AST_support_the_policy_of_appeasement
 #
-#		cost = 10
+#		cost = 5
 #
 #		ai_will_do = {
 #			factor = 0.2
@@ -3028,7 +2992,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = AST_support_the_policy_of_appeasement
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -3069,7 +3033,7 @@ focus_tree = {
 		y = 3
 		relative_position_id = AST_support_the_policy_of_appeasement
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 10

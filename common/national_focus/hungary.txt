@@ -106,7 +106,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_ideas = HUN_strengthen_fascists
-			add_popularity = { ideology = fascism popularity = 0.05 }
+			add_popularity = { ideology = fascism popularity = 0.1 }
 			set_party_name = { ideology = fascism long_name = HUN_arrow_cross_party_long name = HUN_arrow_cross_party }
 			hidden_effect = {
 				create_country_leader = {
@@ -994,7 +994,6 @@ focus_tree = {
 		id = HUN_civilian_industry
 		icon = GFX_goal_generic_construct_civ_factory
 		prerequisite = { focus = HUN_announce_the_gyor_program }
-		mutually_exclusive = { focus = HUN_domestic_arms_industry }
 		x = -1
 		y = 1
 		relative_position_id = HUN_announce_the_gyor_program
@@ -1213,42 +1212,6 @@ focus_tree = {
 		}
 	}
 
-	focus = {
-		id = HUN_expand_the_technical_university_of_budapest
-		icon = GFX_focus_research
-		prerequisite = { focus = HUN_expand_the_manfred_weiss_steel_works }
-		prerequisite = { focus = HUN_expand_the_aluminum_industry }
-		x = -2
-		y = 3
-		relative_position_id = HUN_civilian_industry
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 100
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		complete_tooltip = {
-
-		}
-
-		completion_reward = {
-			add_research_slot = 1
-		}
-	}
-
 	############################
 	###### ARMS INDUSTRY #######
 	############################
@@ -1257,7 +1220,6 @@ focus_tree = {
 		id = HUN_domestic_arms_industry
 		icon = GFX_goal_generic_construct_mil_factory
 		prerequisite = { focus = HUN_announce_the_gyor_program }
-		mutually_exclusive = { focus = HUN_civilian_industry }
 		x = 1
 		y = 1
 		relative_position_id = HUN_announce_the_gyor_program
@@ -1346,9 +1308,9 @@ focus_tree = {
 	focus = {
 		id = HUN_aeronautic_technology_institute
 		icon = GFX_focus_research
-		prerequisite = { focus = HUN_domestic_arms_industry }
+		prerequisite = { focus = HUN_boost_hungarian_aviation_industry }
 		x = 1
-		y = 1
+		y = 2
 		relative_position_id = HUN_domestic_arms_industry
 
 		cost = 10
@@ -1381,9 +1343,9 @@ focus_tree = {
 	focus = {
 		id = HUN_boost_hungarian_aviation_industry
 		icon = GFX_goal_generic_construct_mil_factory
-		prerequisite = { focus = HUN_aeronautic_technology_institute }
+		prerequisite = { focus = HUN_domestic_arms_industry }
 		x = 1
-		y = 2
+		y = 1
 		relative_position_id = HUN_domestic_arms_industry
 
 		cost = 10
