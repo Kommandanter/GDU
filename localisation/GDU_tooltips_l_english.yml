@@ -41,3 +41,5 @@
  armor_officer_GDU:0 "Movement speed bonus on land: §G+5%§!\nSupply Consumption: §R-2%§!\nAttack: §G+1§!\nPlanning: §G+1§! §!"
  brilliant_strategist_GDU:0 "Movement speed bonus on land: §G+5%§!\nAttack: §G+1§!\nPlanning: §G+1§!\nDivison Defence: §R-5%§!"
  ADEN_STRAIT:0 "Gulf of Aden"
+ 
+ GDU_homedefense_tt:0 "\n§GFortifies the Southern and Eastern coast of the British Isles against a possible invasion.\n\n§!§RThe Western Approaches will remain unfortified due to an invasion from that direction being considered unlikely.\n§!"
