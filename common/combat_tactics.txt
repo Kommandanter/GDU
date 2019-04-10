@@ -979,8 +979,8 @@ tactic_guerrilla_tactics = { #People's army defender tactic. also for German vol
 	picture = tactic_guerrilla_tactics
 
 	combat_width = -0.5
-	attacker = -0.7
-	defender = -0.75
+	attacker = -0.6
+	defender = -0.65
 }
 
 tactic_default_guerrilla_tactics = { #People's army defender tactic. also for German volksturm branch.
@@ -1000,8 +1000,8 @@ tactic_default_guerrilla_tactics = { #People's army defender tactic. also for Ge
 	picture = tactic_guerrilla_tactics
 
 	combat_width = -0.5
-	attacker = -0.7
-	defender = -0.75
+	attacker = -0.6
+	defender = -0.65
 }
 
 tactic_human_wave_tactics = { #People's army attacker tactic

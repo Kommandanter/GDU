@@ -45,8 +45,8 @@ ideas = {
 				removal_cost = -1
 
 				modifier = {
-					army_speed_factor = 0.10
-					org_loss_when_moving = -0.25
+					army_speed_factor = 0.07
+					org_loss_when_moving = -0.3
 
 				}
 			
