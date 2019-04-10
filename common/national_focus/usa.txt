@@ -556,7 +556,10 @@ focus_tree = {
 				limit = {
 					has_completed_focus = USA_neutrality_act
 				}
-				date > 1940.7.1 
+				OR = { 
+					date > 1940.7.1 
+					has_war = yes 
+				}
 				
 			}
 			if = {
