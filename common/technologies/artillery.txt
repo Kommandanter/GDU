@@ -603,6 +603,7 @@ technologies = {
 		}
 
 		industry_air_damage_factor = -0.20
+		tech_air_damage_factor = -0.02
 		
 		path = {
 			leads_to_tech = antiair2
@@ -677,6 +678,7 @@ technologies = {
 		}
 		
 		industry_air_damage_factor = -0.20
+		tech_air_damage_factor = -0.02
 
 		path = {
 			leads_to_tech = antiair4
@@ -715,6 +717,7 @@ technologies = {
 		}
 
 		industry_air_damage_factor = -0.20
+		tech_air_damage_factor = -0.02
 		
 		path = {
 			leads_to_tech = antiair5
