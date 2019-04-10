@@ -1334,7 +1334,10 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		available = {
-			EFR = { exists = yes }
+			OR = { 
+				has_global_flag = FRA_evacuated  
+				date > 1942.1.1 
+			}
 		}
 
 		completion_reward = {
@@ -1356,7 +1359,11 @@ focus_tree = {
 		x = 28
 		y = 1
 		cost = 10
-
+		
+		available = { 
+			EFR = { exists = yes } 
+		}
+		
 		available_if_capitulated = yes
 
 		completion_reward = {

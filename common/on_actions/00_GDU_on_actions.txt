@@ -308,7 +308,25 @@ on_actions = {
 				}
 				USA = { country_event = { id = gduevents.18 days = 5 } } #Philippine military occupation 
 			}
+			if = { 
+				limit = { 
+					FROM = { 
+						tag = BEL 
+					}
+					ROOT = { tag = GER }
+				}
+				hidden_effect = {
+					GER = {
+						activate_mission = GER_triumph_france
+					}
+					FRA = { 
+						activate_mission = FRA_evacuate_france
+					}
+					FRA =  { country_event = { id = gduevents.19 days = 1 } } #Warn France to hold. 
+				}
+			}
 		}
+		
 	}
 	
 	on_capitulation = { 
@@ -377,12 +395,12 @@ on_actions = {
 				
 				FRA = { news_event = { id = france.20 days = 1 } }
 				
-				ITA = { country_event = { id = gduevents.17 days = 30 } }
-				GER = { country_event = { id = gduevents.17 days = 30 } }
-				BUL = { country_event = { id = gduevents.17 days = 30 } }
-				ROM = { country_event = { id = gduevents.17 days = 30 } }
-				SPR = { country_event = { id = gduevents.17 days = 30 } }
-				HUN = { country_event = { id = gduevents.17 days = 30 } } 
+				#ITA = { country_event = { id = gduevents.17 days = 30 } }
+				#GER = { country_event = { id = gduevents.17 days = 30 } }
+				#BUL = { country_event = { id = gduevents.17 days = 30 } }
+				#ROM = { country_event = { id = gduevents.17 days = 30 } }
+				#SPR = { country_event = { id = gduevents.17 days = 30 } }
+				#HUN = { country_event = { id = gduevents.17 days = 30 } } 
 				
 				FRA = {
 					start_civil_war = {

@@ -591,8 +591,11 @@ country_event = {
 		remove_ideas = FRA_protected_by_the_maginot_line
 		remove_ideas = FRA_inflexible_industry
 		hidden_effect =  {
-            load_oob = FRA_naval_oob
 			retire_country_leader = yes
+		}
+		if = {
+			limit = { has_global_flag = FRA_evacuated }
+			load_oob = FRA_naval_oob
 		}
 		name = france.20.a
 	}
