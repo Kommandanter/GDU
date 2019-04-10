@@ -3,7 +3,7 @@ NZL_run_down_mid = {
 	desc = ""
 
 	enable = {
-		original_tag = NZL
+		original_tag = BUL 
 	}
 			
 		
@@ -13,20 +13,14 @@ NZL_run_down_mid = {
 	}
 
 	ai_national_focuses = {
-		NZL_national_roads_board
-		NZL_new_zealand_steel
-		NZL_central_department_of_industry 
-		NZL_bureau_of_industry 
-		NZL_wairarapa_sheep_farms 
-		NZL_industrial_conscription
-		NZL_army_reforms
-		NZL_charlton_automatic_rifle
-		NZL_domestic_arms_industry
-		NZL_think_big
-		NZL_taranaki_oil
-		NZL_transfer_the_new_zealand_division
-		NZL_form_the_rnzn
-		NZL_expand_devonport_naval_base 
+		BUL_Highway_Development
+		BUL_Begin_2_Year_Plan
+		BUL_Build_It_Better
+		BUL_Heavy_Machines
+		BUL_Fuel_Our_Industry
+		BUL_Finnish_2_Year_Plan
+		BUL_Arms_Expansion
+		BUL_Efficent_Designs
 		
 	}
 

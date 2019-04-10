@@ -124,6 +124,21 @@ ideas = {
 
 					is_major = yes
 				}
+				modifier = {
+					factor = 50
+
+					original_tag = NZL 
+				}
+				modifier = {
+					factor = 50
+
+					original_tag = BUL 
+				}
+				modifier = {
+					factor = 50
+
+					original_tag = FIN 
+				}
    			}
 		}
 
@@ -170,6 +185,21 @@ ideas = {
 					factor = 20
 
 					is_major = yes
+				}
+				modifier = {
+					factor = 50
+
+					original_tag = NZL 
+				}
+				modifier = {
+					factor = 50
+
+					original_tag = BUL 
+				}
+				modifier = {
+					factor = 50
+
+					original_tag = FIN 
 				}
    			}
 		}

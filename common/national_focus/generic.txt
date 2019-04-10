@@ -488,7 +488,7 @@ focus_tree = {
 
 		available = {
 			num_of_factories > 2
-			any_state = {
+			any_state = { 
 				is_coastal = yes
 				is_controlled_by = ROOT
 			}
@@ -524,6 +524,8 @@ focus_tree = {
 				}
 				random_owned_controlled_state = {
 					limit = {
+						NOT = { state = 188 } 
+						NOT = { state = 295 } 
 						is_coastal = yes
 						free_building_slots = {
 							building = dockyard
@@ -906,6 +908,7 @@ focus_tree = {
 		completion_reward = {
 			random_owned_controlled_state = {
 				limit = {
+					NOT = { state = 188 } 
 					free_building_slots = {
 						building = industrial_complex
 						size > 0
@@ -977,6 +980,7 @@ focus_tree = {
 		completion_reward = {
 			random_owned_controlled_state = {
 				limit = {
+					NOT = { state = 188 } 
 					free_building_slots = {
 						building = arms_factory
 						size > 0
@@ -1048,6 +1052,7 @@ focus_tree = {
 		completion_reward = {
 			random_owned_controlled_state = {
 				limit = {
+					NOT = { state = 188 } 
 					free_building_slots = {
 						building = industrial_complex
 						size > 0
@@ -1119,6 +1124,7 @@ focus_tree = {
 		completion_reward = {
 			random_owned_controlled_state = {
 				limit = {
+					NOT = { state = 188 } 
 					free_building_slots = {
 						building = arms_factory
 						size > 0
@@ -1183,6 +1189,7 @@ focus_tree = {
 		completion_reward = {
 			random_owned_controlled_state = {
 				limit = {
+					NOT = { state = 188 } 
 					free_building_slots = {
 						building = infrastructure
 						size > 0
@@ -1251,6 +1258,7 @@ focus_tree = {
 		completion_reward = {
 			random_owned_controlled_state = {
 				limit = {
+					NOT = { state = 188 } 
 					free_building_slots = {
 						building = arms_factory
 						size > 0
@@ -1315,6 +1323,7 @@ focus_tree = {
 		completion_reward = {
 			random_owned_controlled_state = {
 				limit = {
+					NOT = { state = 188 } 
 					free_building_slots = {
 						building = infrastructure
 						size > 0
@@ -1383,6 +1392,7 @@ focus_tree = {
 		completion_reward = {
 			random_owned_controlled_state = {
 				limit = {
+					NOT = { state = 188 } 
 					free_building_slots = {
 						building = industrial_complex
 						size > 1

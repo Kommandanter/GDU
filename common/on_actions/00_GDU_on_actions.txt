@@ -170,6 +170,35 @@ on_actions = {
 			SPR = { 
 				country_event = { id = spain.10 days = 185 } 
 			}
+			### Opinion modifiers so possible AI minors trade with right people 
+			GER = { 
+				add_opinion_modifier = { target = BUL modifier = huge_increase  }
+				add_opinion_modifier = { target = BUL modifier = huge_increase  }
+				add_opinion_modifier = { target = BUL modifier = huge_increase  }
+				add_opinion_modifier = { target = FIN modifier = huge_increase  }
+				add_opinion_modifier = { target = FIN modifier = huge_increase  }
+				add_opinion_modifier = { target = FIN modifier = huge_increase  }
+			}
+			BUL = { 
+				add_opinion_modifier = { target = GER modifier = huge_increase  }
+				add_opinion_modifier = { target = GER modifier = huge_increase  }
+				add_opinion_modifier = { target = GER modifier = huge_increase  }
+			}
+			FIN = { 
+				add_opinion_modifier = { target = GER modifier = huge_increase  }
+				add_opinion_modifier = { target = GER modifier = huge_increase  }
+				add_opinion_modifier = { target = GER modifier = huge_increase  }
+			}
+			NZL = { 
+				add_opinion_modifier = { target = AST modifier = huge_increase  }
+				add_opinion_modifier = { target = AST modifier = huge_increase  }
+				add_opinion_modifier = { target = AST modifier = huge_increase  }
+			}
+			AST = { 
+				add_opinion_modifier = { target = NZL modifier = huge_increase  }
+				add_opinion_modifier = { target = NZL modifier = huge_increase  }
+				add_opinion_modifier = { target = NZL modifier = huge_increase  }
+			}
 		}
 	}
 

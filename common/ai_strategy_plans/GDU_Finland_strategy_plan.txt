@@ -1,9 +1,9 @@
-NZL_run_down_mid = {
-	name = "NZL slave strat"
+Finland_strategy_plan = {
+	name = "I'm Finland"
 	desc = ""
 
 	enable = {
-		original_tag = NZL
+		original_tag = FIN 
 	}
 			
 		
@@ -13,20 +13,21 @@ NZL_run_down_mid = {
 	}
 
 	ai_national_focuses = {
-		NZL_national_roads_board
-		NZL_new_zealand_steel
-		NZL_central_department_of_industry 
-		NZL_bureau_of_industry 
-		NZL_wairarapa_sheep_farms 
-		NZL_industrial_conscription
-		NZL_army_reforms
-		NZL_charlton_automatic_rifle
-		NZL_domestic_arms_industry
-		NZL_think_big
-		NZL_taranaki_oil
-		NZL_transfer_the_new_zealand_division
-		NZL_form_the_rnzn
-		NZL_expand_devonport_naval_base 
+		FIN_imitate_sweden
+		FIN_stockpile_rations
+		FIN_prepare_for_winter 
+		FIN_invest_in_the_private_sector
+		FIN_prepare_for_war 
+		FIN_develop_the_war_machine
+		FIN_nokia 
+		FIN_eastern_defense
+		FIN_frantic_planning
+		FIN_promote_sisu
+		FIN_civilian_kitchens 
+		FIN_expand_the_mines 
+		FIN_cautious_politics
+		FIN_deterrence 
+		
 		
 	}
 
