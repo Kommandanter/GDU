@@ -57,6 +57,12 @@
     GDU_GER_seize_syria:0 "Seize Syria"
     GDU_GER_seize_syria_desc:0 "With the Egyptian campaign won, there's little reason to respect Vichy France's 'rights' to Syria. A brief talk with them will make them understand the pressing need for German military occupation in this region."
 	
+    FRA_evacuated:0 "French Resistance Prepared" 
+    FRA_evacuate_france:0 "Prepare the Resistance" 
+    FRA_evacuate_france_desc: "It seems we might not win against the German war machine. We need some time to prepare to continue the fight in case the worst comes to pass.." 
+    GER_triumph_france:0 "Blitzkrieg" 
+    GER_triumph_france_desc:0 "If we can defeat France in a swift and brutal campaign, we can expect popularity and rewards back at the homefront."
+	
     USA_convoy_shipment:0 "Ship Convoys to Britain" 
     USA_convoy_shipment_desc:0 "Not even the idiots in Congress will object to us sending the United Kingdom some shipping vessels on credit." 
     USA_emergency_fighter_deliveries:0 "Fighter Deliveries to Canada"

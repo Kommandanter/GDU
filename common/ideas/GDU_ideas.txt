@@ -163,6 +163,21 @@ ideas = {
 				lend_lease_tension = 2.00
 			}
 		}
+		
+		GER_triumph_france_idea = { 
+		
+			picture = chi_war_of_resistance	
+			
+			allowed = { 
+				always = no 
+			}
+			
+			removal_cost = -1 
+			
+			modifier = { 
+				stability_factor = 0.05 
+			}
+		}
 	
 		
 		

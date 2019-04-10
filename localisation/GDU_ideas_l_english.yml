@@ -26,6 +26,9 @@
 	
     CHI_primitive_shipindustry:0 "Outdated Shipbuilding Industry" 
     CHI_primitive_shipindustry_desc:0 "The best thing China's shipbuilding industries can hope to produce are basic coastal patrol vessels. Submarines and more advanced models of ships are completely out of the question." 
+	
+    GER_triumph_france_idea:0 "Triumph in France" 
+    GER_triumph_france_idea_desc:0 "We didn't just win in France, we annihilated our foe. This great victory has brought popularity to our regime." 
 
     USA_advanced_mahanian_doctrine:0 "Advanced Mahanian Doctrine"
     USA_advanced_mahanian_doctrine_desc:0 "The influence of Alfred Thayer Mahan on naval warfare can hardly be underestimated. Building on his work will allow us to make good use of battleships, which he considered a decisive factor."
