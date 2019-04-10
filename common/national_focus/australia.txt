@@ -2598,8 +2598,6 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			hidden_effect = { set_technology = { jungle_warfare = 1 } }
-			#if effect is there for the tooltips sake
 			if = {
 				limit = { has_idea = AST_great_depression_1 }
 				remove_ideas = AST_great_depression_1
