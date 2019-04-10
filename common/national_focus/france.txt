@@ -18,7 +18,7 @@ focus_tree = {
 
 		x = 0
 		y = 0
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -119,7 +119,8 @@ focus_tree = {
 			}
 		}
 		prerequisite = { focus = FRA_metropolitan_france }
-		x = 0
+		prerequisite = { focus = FRA_algerie_france } 
+		x = 1
 		y = 1
 		cost = 10
 		#ai_will_do = {
@@ -148,7 +149,7 @@ focus_tree = {
 			}
 		}
 		prerequisite = { focus = FRA_industrial_expansion }
-		x = 0
+		x = 1
 		y = 2
 		cost = 10
 		#ai_will_do = {
@@ -178,7 +179,7 @@ focus_tree = {
 		}
 		x = 2
 		y = 0
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 0.2
 		}
@@ -256,233 +257,11 @@ focus_tree = {
 	}
 
 	focus = {
-		id = FRA_colonial_industry
-		icon = GFX_goal_generic_construct_civ_factory
-		available = {
-		}
-		prerequisite = { focus = FRA_algerie_france }
-		x = 2
-		y = 1
-		cost = 10
-
-		available_if_capitulated = yes
-
-		bypass = {
-			custom_trigger_tooltip = {
-				tooltip = FRA_colonial_industry_tt
-				NOT = {
-					any_owned_state = {
-						free_building_slots = {
-							building = industrial_complex
-							size > 1
-							include_locked = yes
-						}
-						NOT = { is_on_continent = europe }
-					}
-				}
-			}
-		}
-
-		complete_tooltip = {
-			every_state = {
-				limit = { has_state_flag = FRA_colonial_industry_4IC }
-				add_extra_state_shared_building_slots = 3
-				add_building_construction = {
-					type = industrial_complex
-					level = 3
-					instant_build = yes
-				}
-			}
-			every_state = {
-				limit = { has_state_flag = FRA_colonial_industry_2IC }
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-			}
-		}
-
-		completion_reward = {
-			if = {
-				limit = {
-					NOT = {
-						539 = {
-							free_building_slots = {
-								building = industrial_complex
-								size > 3
-								include_locked = yes
-							}
-						}
-					}
-				}
-				random_owned_controlled_state =  {
-					limit = {
-						free_building_slots = {
-							building = industrial_complex
-							size > 1
-							include_locked = yes
-						}
-						NOT = { is_on_continent = europe }
-					}
-					add_extra_state_shared_building_slots = 3
-					add_building_construction = {
-						type = industrial_complex
-						level = 3
-						instant_build = yes
-					}
-					set_state_flag = FRA_colonial_industry_2IC
-				}
-
-			}
-			if = {
-				limit = {
-					539 = {
-						free_building_slots = {
-							building = industrial_complex
-							size > 3
-							include_locked = yes
-						}
-					}
-				}
-				539 = {
-					add_extra_state_shared_building_slots = 3
-					add_building_construction = {
-						type = industrial_complex
-						level = 3
-						instant_build = yes
-					}
-					set_state_flag = FRA_colonial_industry_4IC
-				}
-			}
-		}
-	}
-
-	focus = {
-		id = FRA_colonial_military_factories
-		icon = GFX_goal_generic_construct_mil_factory
-		available = {
-		}
-		prerequisite = { focus = FRA_colonial_industry }
-		x = 2
-		y = 2
-		cost = 10
-		#ai_will_do = {
-		#	factor = 1
-		#}
-
-		available_if_capitulated = yes
-
-		bypass = {
-			custom_trigger_tooltip = {
-				tooltip = FRA_colonial_military_factories_tt
-				NOT = {
-					any_owned_state = {
-						free_building_slots = {
-							building = arms_factory
-							size > 1
-							include_locked = yes
-						}
-						NOT = { is_on_continent = europe }
-					}
-				}
-			}
-		}
-
-		complete_tooltip = {
-			every_state = {
-				limit = { has_state_flag = FRA_colonial_military_factories_4MF }
-				add_extra_state_shared_building_slots = 4
-				add_building_construction = {
-					type = arms_factory
-					level = 3
-					instant_build = yes
-				}
-			}
-
-		}
-
-		completion_reward = {
-			if = {
-				limit = {
-					NOT = {
-						539 = {
-							free_building_slots = {
-								building = arms_factory
-								size > 3
-								include_locked = yes
-							}
-						}
-					}
-				}
-				random_owned_controlled_state =  {
-					limit = {
-						free_building_slots = {
-							building = arms_factory
-							size > 1
-							include_locked = yes
-						}
-						NOT = { is_on_continent = europe }
-					}
-					add_extra_state_shared_building_slots = 1
-					add_building_construction = {
-						type = arms_factory
-						level = 1
-						instant_build = yes
-					}
-					set_state_flag = FRA_colonial_military_factories_2MF
-				}
-				random_owned_controlled_state =  {
-					limit = {
-						free_building_slots = {
-							building = arms_factory
-							size > 1
-							include_locked = yes
-						}
-						NOT = { is_on_continent = europe }
-					}
-					add_extra_state_shared_building_slots = 2
-					add_building_construction = {
-						type = arms_factory
-						level = 2
-						instant_build = yes
-					}
-					set_state_flag = FRA_colonial_military_factories_2MF
-				}
-			}
-			if = {
-				limit = {
-					539 = {
-						free_building_slots = {
-							building = arms_factory
-							size > 3
-							include_locked = yes
-						}
-					}
-				}
-				539 = {
-					add_extra_state_shared_building_slots = 3
-					add_building_construction = {
-						type = arms_factory
-						level = 3
-						instant_build = yes
-					}
-					set_state_flag = FRA_colonial_military_factories_4MF
-				}
-			}
-		}
-	}
-
-	focus = {
 		id = FRA_extra_research_slot
 		icon = GFX_focus_research
 		available = {
 		}
-		prerequisite = {
-			focus = FRA_colonial_military_factories
-			focus = FRA_military_factories
-		}
+		prerequisite = { focus = FRA_military_factories }
 		x = 1
 		y = 3
 		cost = 10
@@ -591,6 +370,13 @@ focus_tree = {
 			army_experience = 10
 			custom_effect_tooltip = available_chief_of_army
 			show_ideas_tooltip = maxime_weygand
+			add_tech_bonus = {
+				name = anti_air
+				bonus = 1.5 
+				ahead_reduction = 2.0 
+				uses = 5
+				category = cat_antiair
+		    }			
 		}
 	}
 
@@ -745,6 +531,13 @@ focus_tree = {
 			army_experience = 10
 			custom_effect_tooltip = available_chief_of_army
 			show_ideas_tooltip = maurice_gamelin
+			add_tech_bonus = {
+				name = anti_air
+				bonus = 1.5 
+				ahead_reduction = 2.0 
+				uses = 5
+				category = cat_antiair
+		    }
 		}
 	}
 	focus = {
@@ -1405,10 +1198,10 @@ focus_tree = {
 
 		completion_reward = {
 			539 = {
-				add_extra_state_shared_building_slots = 3
+				add_extra_state_shared_building_slots = 6
 				add_building_construction = {
 					type = industrial_complex
-					level = 3
+					level = 6
 					instant_build = yes
 				}
 			}
@@ -1443,10 +1236,10 @@ focus_tree = {
 
 		completion_reward = {
 			539 = {
-				add_extra_state_shared_building_slots = 3
+				add_extra_state_shared_building_slots = 6
 				add_building_construction = {
 					type = arms_factory
-					level = 3	
+					level = 6	
 					instant_build = yes
 				}
 			}

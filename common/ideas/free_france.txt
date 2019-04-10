@@ -230,8 +230,28 @@ ideas = {
 			ai_will_do = {
 				factor = 1
 			}
-		}		
-	}	
+		}			
+
+		rene_prioux = {
+
+
+			allowed = {
+				original_tag = FRA
+				
+			}
+
+			available = {
+				original_tag = FRA
+				has_country_flag = free_france
+			}
+
+			traits = { army_armored_2 }
+
+			ai_will_do = {
+				factor = 1
+			}
+		}	
+	}
 	
 	naval_manufacturer = {
 

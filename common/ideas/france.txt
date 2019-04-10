@@ -15,10 +15,30 @@ ideas = {
 			removal_cost = -1
 
 			picture = FRA_factory_strikes
+			
+			equipment_bonus = {
 
+				ship_hull_heavy = {
+					build_cost_ic = 1.0 instant = yes
+				}
+				ship_hull_carrier = {
+					build_cost_ic = 1.0 instant = yes
+				}
+				ship_hull_cruiser = {
+					build_cost_ic = 1.0 instant = yes
+				}
+				ship_hull_light = {
+					build_cost_ic = 1.0 instant = yes
+				}
+				
+				ship_hull_submarine = {
+					build_cost_ic = 1.0 instant = yes
+				}
+            }
 			modifier = {
 				conversion_cost_civ_to_mil_factor = 0.25
 				consumer_goods_factor = 0.10
+				lend_lease_tension = 1.0
 			}
 			
 		}
@@ -827,48 +847,16 @@ ideas = {
 
 	high_command = {
 
-		rene_prioux = {
-
-
-			allowed = {
-				original_tag = FRA
-			}
-
-			available = {
-				original_tag = FRA
-				NOT = {has_country_flag = free_france}
-			}
-
-			traits = { army_cavalry_2 }
-
-			ai_will_do = {
-				factor = 1
-			}
-		}
 
 		charles_huntziger = {
 
 
 			allowed = {
-				OR = {
 					original_tag = FRA
-					original_tag = EFR
 				}
-			}
-
-			available = {
-				OR = {
-					AND = {
-				original_tag = FRA
-						NOT = {has_country_flag = free_france}
-					}
-					original_tag = EFR
-				}
-			}
 
 
-
-			traits = { army_logistics_1 }
+			traits = { army_infantry_1 }
 
 			ai_will_do = {
 				factor = 1
@@ -887,7 +875,7 @@ ideas = {
 				has_country_flag = free_france
 			}
 
-			traits = { army_infantry_3 }
+			traits = { army_commando_3 }
 
 			ai_will_do = {
 				factor = 1
