@@ -41,71 +41,27 @@ focus_tree = {
 			}
 		}
 
-		complete_tooltip = {
-			every_state = {
-				limit	= {	has_state_flag = FRA_french_focus_3Inf }
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
-			}
-		}
-
 		completion_reward = {
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = infrastructure
-						size > 2
-					}
-					OR = {
-						region = 19
-						region = 20
-					}
-				}
-				add_building_construction = {
+			29 = { 
+				add_building_construction = { 
 					type = infrastructure
-					level = 1
-					instant_build = yes
+					level = 2 
+					instant_build = yes 
 				}
-				set_state_flag = FRA_french_focus_3Inf
 			}
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = infrastructure
-						size > 2
-					}
-					OR = {
-						region = 19
-						region = 20
-					}
-				}
-				add_building_construction = {
+			23 = { 
+				add_building_construction = { 
 					type = infrastructure
-					level = 1
-					instant_build = yes
+					level = 2 
+					instant_build = yes 
 				}
-				set_state_flag = FRA_french_focus_3Inf
 			}
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = infrastructure
-						size > 2
-					}
-					OR = {
-						region = 19
-						region = 20
-					}
-				}
-				add_building_construction = {
+			17 = { 
+				add_building_construction = { 
 					type = infrastructure
-					level = 1
-					instant_build = yes
+					level = 1 
+					instant_build = yes 
 				}
-				set_state_flag = FRA_french_focus_3Inf
 			}
 		}
 	}
@@ -252,6 +208,14 @@ focus_tree = {
 					}
 					set_state_flag = FRA_algerie_france_2Inf
 				}
+				694 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+					}
+					set_state_flag = FRA_algerie_france_2Inf
+				}
 			}
 		}
 	}
@@ -369,7 +333,7 @@ focus_tree = {
 				name = anti_air
 				bonus = 1.5 
 				ahead_reduction = 2.0 
-				uses = 5
+				uses = 2
 				category = cat_antiair
 		    }			
 		}
@@ -405,7 +369,7 @@ focus_tree = {
 		prerequisite = { focus = FRA_defensive_focus }
 		x = 4
 		y = 2
-		cost = 10
+		cost = 5
 
 		available_if_capitulated = yes
 
@@ -419,7 +383,7 @@ focus_tree = {
 		prerequisite = { focus = FRA_fortification_focus }
 		x = 4
 		y = 3
-		cost = 10
+		cost = 5
 
 		available = {
 			735 = { is_controlled_by = FRA }
@@ -441,7 +405,7 @@ focus_tree = {
 		prerequisite = { focus = FRA_alpine_forts }
 		x = 4
 		y = 4
-		cost = 10
+		cost = 5
 
 		available = {
 			18 = { is_controlled_by = FRA }

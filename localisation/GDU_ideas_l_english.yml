@@ -21,8 +21,10 @@
     no_finnish_justification_desc:0 "Finland is not supposed to attack anyone, and for this this idea was added."
     easy_surrender:0 "Quick Surrender"
     varna_shipyard:0 "Varna Shipyard"
+	
     FRA_inflexible_industry:0 "Inflexible Industry" 
     FRA_inflexible_industry_desc:0 "France's population will not easily accept a conversion of prized civilian industry into military potential, regardless of the dangers looming before them." 
+    free_france:0 "France has fallen." 
 	
     CHI_primitive_shipindustry:0 "Outdated Shipbuilding Industry" 
     CHI_primitive_shipindustry_desc:0 "The best thing China's shipbuilding industries can hope to produce are basic coastal patrol vessels. Submarines and more advanced models of ships are completely out of the question." 
