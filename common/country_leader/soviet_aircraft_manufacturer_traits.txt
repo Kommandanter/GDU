@@ -60,7 +60,7 @@ leader_traits = {
 		random = no
 		equipment_bonus = {
 			CAS_equipment = {
-				air_ground_attack = 0.1 reliability = 0.1 build_cost_ic = -0.15
+				air_ground_attack = 0.1 reliability = 0.1 build_cost_ic = -0.1
 			}
 		}
 	}
