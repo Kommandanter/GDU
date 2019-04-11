@@ -1464,5 +1464,28 @@ focus_tree = {
 			add_ideas = FRA_FREE_research_efforts
 		}
 	}
+	focus = {
+		id = FRA_air_squadron
+		icon = GFX_goal_generic_air_fighter
+		prerequisite = { 
+		   focus = FRA_modernize_our_equipment 
+		   focus = FRA_modernize_our_armor_force
+		}
+		x = 31
+		y = 5
 
+		cost = 10
+
+        available_if_capitulated = yes
+		
+		available = {
+				SOV = { has_war_with = GER }
+            }
+ 
+		completion_reward = {
+			custom_effect_tooltip = FRA_fighters
+			hidden_effect = { set_technology = { fighter2 = 1 } }
+			SOV = { add_equipment_to_stockpile = { type = fighter_equipment_2 amount = 100 producer = FRA } }
+		}
+	}
 }

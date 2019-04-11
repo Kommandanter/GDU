@@ -39,6 +39,7 @@
  FRA_free_france_desc:0 "Forces Françaises Libres"
  FRA_free_france_effect_1:0 "Will gain a division of desert troops in Alexandria."
  FRA_free_france_operation_exporter_tt:0 "Will gain an Infantry Division in Damas"
+ FRA_fighters:0 "French Fighter command will send a squadron of aircraft to the eastern front.\n\n " 
 
  #EVENTS
  # FFL
