@@ -356,8 +356,6 @@ focus_tree = {
 		completion_reward = {
 			#add_ideas = maxime_weygand
 			army_experience = 10
-			custom_effect_tooltip = available_chief_of_army
-			show_ideas_tooltip = maxime_weygand
 			custom_effect_tooltip = available_military_high_command
 			show_ideas_tooltip = charles_huntziger
 		}
@@ -513,8 +511,6 @@ focus_tree = {
 		completion_reward = {
 			# add_ideas = maurice_gamelin
 			army_experience = 10
-			custom_effect_tooltip = available_chief_of_army
-			show_ideas_tooltip = maurice_gamelin
 			custom_effect_tooltip = available_military_high_command
 			show_ideas_tooltip = rene_prioux
 		}
