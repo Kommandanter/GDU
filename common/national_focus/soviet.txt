@@ -1165,6 +1165,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = air_bonus
 				bonus = 1.2
+				ahead_reduction = 0.25
 				uses = 1
 				technology = fighter2
 			}
