@@ -42,10 +42,10 @@ ability = {
 
 		one_time_effect = {
 			add_temporary_buff_to_units = {
-				combat_offense = 0.1
-				combat_breakthrough = 0.1
-				org_damage_multiplier = -0.25
-				str_damage_multiplier = 0.65
+				combat_offense = 0.07
+				combat_breakthrough = 0.07
+				org_damage_multiplier = -0.20
+				str_damage_multiplier = 0.55
 
 				days = 7
 				tooltip = ABILITY_FORCE_ATTACK_TOOLTIP
@@ -74,10 +74,10 @@ ability = {
 		
 		one_time_effect = {
 			add_temporary_buff_to_units = {
-				combat_defense = 0.1
-				combat_entrenchment = 0.1
-				org_damage_multiplier = -0.25
-				str_damage_multiplier = 0.65
+				combat_defense = 0.07
+				combat_entrenchment = 0.07
+				org_damage_multiplier = -0.20
+				str_damage_multiplier = 0.55
 				
 				days = 7
 				tooltip = ABILITY_LAST_STAND_TOOLTIP
