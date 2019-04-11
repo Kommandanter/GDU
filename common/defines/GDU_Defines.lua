@@ -40,7 +40,7 @@ NDefines.NCountry.EVENT_PROCESS_OFFSET = 25 -- Performance enhancer. --TW/WTT
 NDefines.NCountry.VP_TO_SUPPLY_BASE = 2
 NDefines.NCountry.SUPPLY_PATH_MAX_DISTANCE = 15
 NDefines.NCountry.SUPPLY_FROM_DAMAGED_INFRA = 0.25                -- damaged infrastructure counts as this in supply calcs
-NDefines.NCountry.SUPPLY_BONUS_FROM_INPUT = 0.25					-- % of supply bonus from input area. Look at this as a possible balancing tool. 
+NDefines.NCountry.SUPPLY_BONUS_FROM_INPUT = 0.6					-- % of supply bonus from input area. Look at this as a possible balancing tool. 
 NDefines.NCountry.SPECIAL_FORCES_CAP_BASE = 0.00
 NDefines.NCountry.SPECIAL_FORCES_CAP_MIN = 160
 NDefines.NCountry.REINFORCEMENT_EQUIPMENT_DELIVERY_SPEED = 1
@@ -81,7 +81,7 @@ NDefines.NProduction.MIN_NAVAL_EQUIPMENT_CONVERSION_RESOURCE_COST_FACTOR = 0.5	-
 
 NDefines.NBuildings.ANTI_AIR_SUPERIORITY_MULT = 20.0	-- How much air superiority reduction to the enemy does our AA guns? Normally each building level = -1 reduction. With this multiplier.
 NDefines.NBuildings.MAX_SHARED_SLOTS = 50
-NDefines.NBuildings.INFRA_TO_SUPPLY = 2.5
+NDefines.NBuildings.INFRA_TO_SUPPLY = 2.3
 NDefines.NBuildings.INFRA_TO_SUPPLY_COEFF = 1 -- Testing, 1 in vanilla -- TW/WTT 
 NDefines.NBuildings.AIRBASE_CAPACITY_MULT = 100
 NDefines.NBuildings.DESTRUCTION_COOLDOWN_IN_WAR = 120
@@ -193,20 +193,14 @@ NDefines.NMilitary.ANTI_AIR_ATTACK_TO_AMOUNT = 0.001				-- Balancing value to co
 NDefines.NAir.AIR_MORE_GROUND_CREWS_COST = 500.0 -- Disables ground crews. They're cancerous. 
 NDefines.NAir.ACCIDENT_CHANCE_BASE = 0.05
 NDefines.NAir.COMBAT_DAMAGE_SCALE = 0.12
+
 NDefines.NAir.AIR_WING_MAX_SIZE = 1600
 NDefines.NAir.ACE_WING_SIZE_MAX_BONUS = 10
 NDefines.NAir.STRATEGIC_BOMBER_NUKE_AIR_SUPERIORITY = 0.90
-NDefines.NAir.COMBAT_MULTIPLANE_CAP = 1.8
 NDefines.NAir.ANTI_AIR_PLANE_DAMAGE_FACTOR = 0.8 -- original 0.8 Anti Air Gun Damage factor. DOES NOTHING 
 NDefines.NAir.ANTI_AIR_PLANE_DAMAGE_CHANCE = 0.1 -- original 0.1 Anti Air Gun hit chance. DOES NOTHING 
 NDefines.NAir.ANTI_AIR_ATTACK_TO_DAMAGE_REDUCTION_FACTOR = 1.00 -- original 1.00 Balancing value to convert equipment stat anti_air_attack to the damage reduction modifier apply to incoming air attacks against units with AA.
-NDefines.NAir.DISRUPTION_FACTOR = 2.4  -- (4 -> 7) with decent radar coverage equal amounts of fighters vs naval bombers will disrupt almost all naval bombers if not escorted, with low detection very few bombers are intercepted still
-NDefines.NAir.ESCORT_FACTOR = 3.0 -- (2 -> 3) to make sure that escorted planes are still capable of bombing, with equal escorts/interceptors most of bombers get through Keep in mind that these values will also affect how cas/tac/strat bombers work, they make escorting planes much more important (which imo is 100% fine)
-NDefines.NAir.NAVAL_STRIKE_DAMAGE_TO_STR = 1.0
 NDefines.NAir.NAVAL_KAMIKAZE_DAMAGE_MULT = 5.0  -- vanilla is like 20
-NDefines.NAir.NAVAL_STRIKE_DAMAGE_TO_ORG = 1.0
-NDefines.NAir.EFFICIENCY_REGION_CHANGE_DAILY_GAIN_TACTICAL_BOMBER =	0.1	-- base 0.192 How much efficiency to regain per day. Gain applied hourly.
-NDefines.NAir.AIR_COMBAT_FINAL_DAMAGE_SCALE = 0.5 -- 0.015	 % how many max disrupted only planes are allowed to die in a single combat
 NDefines.NAir.AA_INDUSTRY_AIR_DAMAGE_FACTOR = -0.12 -- -0.12 vanilla, per level AA state 
 NDefines.NAir.ANTI_AIR_MAXIMUM_DAMAGE_REDUCTION_FACTOR = 0.9 -- .75 Maximum damage reduction factor applied to incoming air attacks against units with AA.
 
@@ -215,6 +209,12 @@ NDefines.NAir.NAVAL_COMBAT_EXTERNAL_PLANES_JOIN_RATIO_PER_DAY = 0.25 -- max extr
 NDefines.NAir.NAVAL_COMBAT_EXTERNAL_PLANES_MIN_CAP = 20			-- Min cap for planes that can join naval combat 
 NDefines.NAir.DISRUPTION_FACTOR_CARRIER = 16.0							-- multiplier on disruption damage to scale its effects on carrier vs carrier planes
 
+NDefines.NAir.DISRUPTION_FACTOR = 2.3  -- (4 -> 7) with decent radar coverage equal amounts of fighters vs naval bombers will disrupt almost all naval bombers if not escorted, with low detection very few bombers are intercepted still
+NDefines.NAir.ESCORT_FACTOR = 3.0 -- (2 -> 3) to make sure that escorted planes are still capable of bombing, with equal escorts/interceptors most of bombers get through Keep in mind that these values will also affect how cas/tac/strat bombers work, they make escorting planes much more important (which imo is 100% fine)
+NDefines.NAir.AIR_WING_XP_LOSS_WHEN_KILLED = 0.4
+NDefines.NAir.DETECT_CHANCE_FROM_AIRCRAFTS_EFFECTIVE_COUNT = 1
+NDefines.NAir.COMBAT_MULTIPLANE_CAP = 1.7
+NDefines.NAir.AIR_COMBAT_FINAL_DAMAGE_SCALE = 0.2 -- 0.015	 % how many max disrupted only planes are allowed to die in a single combat
 
 NDefines.NNavy.NAVAL_SUPREMACY_CAN_INVADE = 0.60
 NDefines.NNavy.NAVAL_TRANSFER_BASE_SPEED = 12
