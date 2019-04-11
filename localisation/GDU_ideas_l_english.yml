@@ -191,6 +191,9 @@
     #French naval designer
     free_french_fleet:0 "Free French Designer"
     free_france_fleet:0 "Jack Of All Trades"
+    #French generals
+    henri_giraud_hc:0 "Henri Giraud"
+    charles_de_gaulle_hc:0 "Charles De Gaulle"
     #Japanese tank designers
     mitsubishi_tank:0 "Mitsubishi"
     army_technical_bureau:0 "Army Technical Bureau"

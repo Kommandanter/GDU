@@ -351,14 +351,13 @@ focus_tree = {
 	}
 
 	#### END ####
-
+	
 	focus = {
-		id = FRA_defensive_focus
+		id = FRA_anti_air_development
 		icon = GFX_goal_generic_defence
-		mutually_exclusive = { focus = FRA_aggressive_focus }
-		x = 6
+		x = 7
 		y = 0
-		cost = 10
+		cost = 5
 
 		available_if_capitulated = yes
 
@@ -366,10 +365,6 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			#add_ideas = maxime_weygand
-			army_experience = 10
-			custom_effect_tooltip = available_chief_of_army
-			show_ideas_tooltip = maxime_weygand
 			add_tech_bonus = {
 				name = anti_air
 				bonus = 1.5 
@@ -381,11 +376,35 @@ focus_tree = {
 	}
 
 	focus = {
+		id = FRA_defensive_focus
+		icon = GFX_goal_generic_army_artillery
+		mutually_exclusive = { focus = FRA_aggressive_focus }
+		prerequisite = { focus = FRA_anti_air_development }
+		x = 6
+		y = 1
+		cost = 5
+
+		available_if_capitulated = yes
+
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			#add_ideas = maxime_weygand
+			army_experience = 10
+			custom_effect_tooltip = available_chief_of_army
+			show_ideas_tooltip = maxime_weygand
+			custom_effect_tooltip = available_military_high_command
+			show_ideas_tooltip = charles_huntziger
+		}
+	}
+
+	focus = {
 		id = FRA_fortification_focus
 		icon = GFX_goal_generic_construction2
 		prerequisite = { focus = FRA_defensive_focus }
 		x = 4
-		y = 1
+		y = 2
 		cost = 10
 
 		available_if_capitulated = yes
@@ -399,7 +418,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_military
 		prerequisite = { focus = FRA_fortification_focus }
 		x = 4
-		y = 2
+		y = 3
 		cost = 10
 
 		available = {
@@ -421,7 +440,7 @@ focus_tree = {
 		icon = GFX_goal_generic_fortify_city
 		prerequisite = { focus = FRA_alpine_forts }
 		x = 4
-		y = 3
+		y = 4
 		cost = 10
 
 		available = {
@@ -447,7 +466,7 @@ focus_tree = {
 		icon = GFX_goal_generic_allies_build_infantry
 		prerequisite = { focus = FRA_defensive_focus }
 		x = 6
-		y = 1
+		y = 2
 		cost = 10
 
 		available_if_capitulated = yes
@@ -462,7 +481,7 @@ focus_tree = {
 		icon = GFX_goal_generic_army_artillery2
 		prerequisite = { focus = FRA_infantry_focus }
 		x = 6
-		y = 2
+		y = 3
 		cost = 10
 
 		available_if_capitulated = yes
@@ -482,7 +501,7 @@ focus_tree = {
 		icon = GFX_goal_generic_army_tanks
 		prerequisite = { focus = FRA_artillery_focus }
 		x = 6
-		y = 3
+		y = 4
 		cost = 10
 
 		available_if_capitulated = yes
@@ -517,9 +536,10 @@ focus_tree = {
 		id = FRA_aggressive_focus
 		icon = GFX_goal_generic_major_war
 		mutually_exclusive = { focus = FRA_defensive_focus }
+		prerequisite = { focus = FRA_anti_air_development }
 		x = 8
-		y = 0
-		cost = 10
+		y = 1
+		cost = 5
 
 		available_if_capitulated = yes
 
@@ -531,13 +551,8 @@ focus_tree = {
 			army_experience = 10
 			custom_effect_tooltip = available_chief_of_army
 			show_ideas_tooltip = maurice_gamelin
-			add_tech_bonus = {
-				name = anti_air
-				bonus = 1.5 
-				ahead_reduction = 2.0 
-				uses = 5
-				category = cat_antiair
-		    }
+			custom_effect_tooltip = available_military_high_command
+			show_ideas_tooltip = rene_prioux
 		}
 	}
 	focus = {
@@ -545,7 +560,7 @@ focus_tree = {
 		icon = GFX_goal_generic_army_motorized
 		prerequisite = { focus = FRA_aggressive_focus }
 		x = 8
-		y = 1
+		y = 2
 		cost = 10
 
 		available_if_capitulated = yes
@@ -560,7 +575,7 @@ focus_tree = {
 		icon = GFX_goal_generic_build_tank
 		prerequisite = { focus = FRA_motorized_focus }
 		x = 8
-		y = 2
+		y = 3
 		cost = 10
 		completion_reward = {
 			army_experience = 25
@@ -577,7 +592,7 @@ focus_tree = {
 		icon = GFX_goal_generic_army_tanks
 		prerequisite = { focus = FRA_mechanized_focus }
 		x = 8
-		y = 3
+		y = 4
 		cost = 10
 
 		available_if_capitulated = yes
@@ -601,7 +616,7 @@ focus_tree = {
 			focus = FRA_heavy_armor_focus
 		}
 		x = 7
-		y = 4
+		y = 5
 		cost = 10
 
 		available_if_capitulated = yes

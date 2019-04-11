@@ -39,7 +39,8 @@
  GDU_USA_torch:0 "Prepare for Operation Torch" 
  GDU_USA_torch_desc:0 "The illegitimate Vichy State is nothing but a German lapdog. It proclaims 'neutrality' in this conflict, but they remain unwilling to join our cause and vulnerable to German occupation on Hitler's whim. Operation Torch calls for an invasion of Vichy possessions as a way to strike the soft underbelly of Europe and put more pressure on the Axis without a full-on invasion of the continent." 
  
- 
+ FRA_anti_air_development:0 "Anti-Air Development Program"
+ FRA_anti_air_development_desc:0 "It is evident that Germany is perparing for war. We must prepare ourselves for the war ahead, since we won't have better planes we shall build AA to offset Germany's advantage."
  FRA_revive_naval_construction:0 "Revive our Naval Construction"
  FRA_revive_naval_construction_desc:0 "It's not much, but we can construct some dockyards in our colonies with the help of our allies."
  FRA_revive_civilian_construction:0 "Revive our Civilian Construction"

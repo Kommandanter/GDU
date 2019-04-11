@@ -122,7 +122,8 @@ ideas = {
 	
 	political_advisor = {
 		FRA_FREE_felix_eboue = { ##gave Free France  first lands
-			
+		
+		    Cost = 25
 			
 			allowed = {
 				original_tag = FRA
@@ -230,14 +231,13 @@ ideas = {
 			ai_will_do = {
 				factor = 1
 			}
-		}			
-
-		rene_prioux = {
+		}	
+		
+	    philippe_leclerc = {
 
 
 			allowed = {
 				original_tag = FRA
-				
 			}
 
 			available = {
@@ -245,12 +245,54 @@ ideas = {
 				has_country_flag = free_france
 			}
 
-			traits = { army_armored_2 }
+			traits = { army_commando_3 }
 
 			ai_will_do = {
 				factor = 1
 			}
-		}	
+		}
+
+		henri_giraud_hc = {
+
+			picture = henri_giraud
+
+			allowed = {
+				original_tag = FRA
+			}
+
+			available = {
+                original_tag = FRA
+				has_country_flag = free_france
+			}
+
+			traits = { army_infantry_1 }
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		charles_de_gaulle_hc = { 
+		
+			picture = charles_de_gaulle
+			
+			allowed = {
+				original_tag = FRA
+			}
+		    available = {
+				original_tag = FRA
+				has_country_flag = free_france
+			}
+			
+			
+			traits = { army_armored_2 } 
+			
+			ai_will_do = { 
+				factor = 1 
+			} 
+			
+		}		
+
 	}
 	
 	naval_manufacturer = {
