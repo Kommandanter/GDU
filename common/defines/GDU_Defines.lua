@@ -90,6 +90,7 @@ NDefines.NTechnology.BASE_RESEARCH_POINTS_SAVED = 45.0
 NDefines.NTechnology.BASE_TECH_COST = 90
 NDefines.NTechnology.LICENSE_PRODUCTION_TECH_BONUS = 0.00
 NDefines.NTechnology.MAX_TECH_SHARING_bonus = 0.4  			-- Max technology sharing bonus that can be applied instantly
+NDefines.NTechnology.BASE_YEAR_AHEAD_PENALTY_FACTOR = 2.2		-- Base year ahead penalty
 
 NDefines.NPolitics.DEFAULT_OCCUPATION_POLICY = 3
 NDefines.NPolitics.BASE_LEADER_TRAITS = 6
