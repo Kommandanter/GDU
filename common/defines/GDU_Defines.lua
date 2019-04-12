@@ -213,7 +213,7 @@ NDefines.NAir.DISRUPTION_FACTOR = 2.5  -- (4 -> 7) with decent radar coverage eq
 NDefines.NAir.ESCORT_FACTOR = 3.0 -- (2 -> 3) to make sure that escorted planes are still capable of bombing, with equal escorts/interceptors most of bombers get through Keep in mind that these values will also affect how cas/tac/strat bombers work, they make escorting planes much more important (which imo is 100% fine)
 NDefines.NAir.AIR_WING_XP_LOSS_WHEN_KILLED = 0.4
 NDefines.NAir.DETECT_CHANCE_FROM_AIRCRAFTS_EFFECTIVE_COUNT = 1
-NDefines.NAir.COMBAT_MULTIPLANE_CAP = 1.7
+NDefines.NAir.COMBAT_MULTIPLANE_CAP = 1.6
 NDefines.NAir.AIR_COMBAT_FINAL_DAMAGE_SCALE = 0.2 -- 0.015	 % how many max disrupted only planes are allowed to die in a single combat
 
 NDefines.NNavy.NAVAL_SUPREMACY_CAN_INVADE = 0.60

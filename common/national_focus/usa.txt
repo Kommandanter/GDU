@@ -259,9 +259,10 @@ focus_tree = {
 
 		completion_reward = {
 			USA_great_depression_level_down = yes
-			set_country_flag = { flag = USA_great_depression_cooldown value = 1 days = 690 }
+			set_country_flag = { flag = USA_great_depression_cooldown value = 1 days = 645 }
 			USA_congress_medium_opposition = yes
 			custom_effect_tooltip = USA_great_depression_cooldown_gdu_tt
+			add_timed_idea = { idea = USA_legislation_being_drafted days = 645 } 
 			unlock_decision_tooltip = { decision = USA_pay_farm_subsidies show_effect_tooltip = yes }
 		}
 	}
@@ -300,8 +301,9 @@ focus_tree = {
 
 		completion_reward = {
 			USA_great_depression_level_down = yes
-			set_country_flag = { flag = USA_great_depression_cooldown value = 1 days = 690 }
+			set_country_flag = { flag = USA_great_depression_cooldown value = 1 days = 645 }
 			custom_effect_tooltip = USA_great_depression_cooldown_gdu_tt 
+			add_timed_idea = { idea = USA_legislation_being_drafted days = 645 }
 			USA_congress_medium_opposition = yes
 		}
 	}
@@ -437,33 +439,7 @@ focus_tree = {
 			add_research_slot = 1
 		}
 	}
-
-	focus = {
-		id = USA_rubber_reserve_company
-		icon = GFX_focus_generic_rubber
-		prerequisite = { focus = USA_office_of_scientific_research_and_development }
-		available = {
-			
-		}
-		x = 2
-		y = 2
-		relative_position_id = USA_wpa
-		cost = 10
-		#ai_will_do = {
-		#	factor = 1
-		#}
-		completion_reward = {
-			add_tech_bonus = {
-				name = USA_rubber_reserve_company
-				bonus = 0.75
-				uses = 1
-				technology = rubber_processing
-				technology = improved_rubber_processing
-				technology = advanced_rubber_processing
-				technology = modern_rubber_processing
-			}
-		}
-	}
+	
 #   ### #   # ### ### ### ###      ### #  # ### ### ###  #   # ### #  # ### ###  ##  #  # 
 #    #  ## ##  #   #  #   #  #      #  ## #  #  #   #  # #   # #   ## #  #   #  #  # ## # 
 #    #  # # #  #   #  ##  #  #      #  # ##  #  ##  ###   # #  ##  # ##  #   #  #  # # ## 
@@ -2526,18 +2502,18 @@ focus_tree = {
 
 		complete_tooltip = {
 			378 = { 
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 4
 				add_building_construction = {
 					type = dockyard
-					level = 2
+					level = 4
 					instant_build = yes
 				}
 			}
 			358 = { 
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 4
 				add_building_construction = {
 					type = dockyard
-					level = 2
+					level = 4
 					instant_build = yes
 				}
 			}
@@ -2561,10 +2537,10 @@ focus_tree = {
 					}
 				}
 				378 = { 
-					add_extra_state_shared_building_slots = 2
+					add_extra_state_shared_building_slots = 4
 					add_building_construction = {
 						type = dockyard
-						level = 2
+						level = 4
 						instant_build = yes
 					}
 				}
@@ -2580,10 +2556,10 @@ focus_tree = {
 					}
 				}
 				358 = { 
-					add_extra_state_shared_building_slots = 2
+					add_extra_state_shared_building_slots = 4
 					add_building_construction = {
 						type = dockyard
-						level = 2
+						level = 4
 						instant_build = yes
 					}
 				}

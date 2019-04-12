@@ -79,9 +79,10 @@ ideas = {
 			
 			modifier = {
 				production_speed_industrial_complex_factor = 0.6
-				consumer_goods_factor = -0.22
+				consumer_goods_factor = -0.23
 				production_speed_arms_factory_factor = 0.4
-				production_speed_dockyard_factor = 0.45
+				production_speed_dockyard_factor = 0.65
+				production_factory_efficiency_gain_factor = 0.1 
 			}
 		}
 		great_depression = {
@@ -514,6 +515,22 @@ ideas = {
 			
 			modifier = {
 				production_factory_max_efficiency_factor = 0.05	
+			}
+		}
+		USA_legislation_being_drafted = {
+			picture = generic_disjointed_gov
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				
+			}
+
+			removal_cost = -1
+			
+			modifier = {
 			}
 		}
 		USA_militia_organization_act = {
@@ -1041,6 +1058,7 @@ ideas = {
 			modifier = {
 				drift_defence_factor = 0.2
 				global_building_slots_factor = 0.5
+				production_speed_synthetic_refinery_factor = -0.2
 			}
 		}
 
