@@ -231,7 +231,17 @@ on_actions = {
 				add_opinion_modifier = { target = USA modifier = embargo }
 				add_opinion_modifier = { target = USA modifier = sanctions_relations }   
 				add_opinion_modifier = { target = USA modifier = large_decrease }
-				add_opinion_modifier = { target = USA modifier = hostile_status }  				
+				add_opinion_modifier = { target = USA modifier = hostile_status } 
+				add_opinion_modifier = { target = VEN modifier = embargo }
+				add_opinion_modifier = { target = VEN modifier = sanctions_relations }   
+				add_opinion_modifier = { target = VEN modifier = large_decrease }
+				add_opinion_modifier = { target = VEN modifier = hostile_status }  				
+			}
+			VEN = { 
+				add_opinion_modifier = { target = SPR modifier = embargo }
+				add_opinion_modifier = { target = SPR modifier = sanctions_relations }
+				add_opinion_modifier = { target = SPR modifier = large_decrease }
+				add_opinion_modifier = { target = SPR modifier = hostile_status }
 			}
 			SOV = { 
 				add_opinion_modifier = { target = SPR modifier = embargo }
