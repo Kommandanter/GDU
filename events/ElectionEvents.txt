@@ -206,7 +206,7 @@ country_event = {
 		}
 		add_popularity = {
 			ideology = communism
-			popularity = 0.1
+			popularity = 0.03
 		}
 		set_country_flag = coalition_with_communists
 	}
@@ -231,10 +231,9 @@ country_event = {
 				}
 			}
 		}
-		add_stability = -0.05
 		add_popularity = {
 			ideology = democratic
-			popularity = 0.03
+			popularity = 0.01
 		}
 		set_country_flag = government_declined_communists
 	}
