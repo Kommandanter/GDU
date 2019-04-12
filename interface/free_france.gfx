@@ -6,12 +6,46 @@ spriteTypes = {
 	name = "GFX_goal_france_libre"
 	texturefile = "gfx/interface/goals/goal_france_libre.dds"
 	}
-	
 	spriteType = {
 		name = "GFX_focus_france_libre"
 		texturefile = "gfx/interface/goals/focus_france_libre.dds"
 	}
-	
+	spriteType = {
+		name = "GFX_france_one"
+		texturefile = "gfx/interface/goals/france_one.tga"
+	}
+	spriteType = {
+		name = "GFX_france_two"
+		texturefile = "gfx/interface/goals/france_two.tga"
+	}
+	spriteType = {
+		name = "GFX_france_three"
+		texturefile = "gfx/interface/goals/france_three.tga"
+	}
+	spriteType = {
+		name = "GFX_france_four"
+		texturefile = "gfx/interface/goals/france_four.tga"
+	}
+	spriteType = {
+		name = "GFX_france_five"
+		texturefile = "gfx/interface/goals/france_five.tga"
+	}
+	spriteType = {
+		name = "GFX_france_six"
+		texturefile = "gfx/interface/goals/france_six.tga"
+	}
+	spriteType = {
+		name = "GFX_france_seven"
+		texturefile = "gfx/interface/goals/france_seven.tga"
+	}
+	spriteType = {
+		name = "GFX_france_eight"
+		texturefile = "gfx/interface/goals/france_eight.tga"
+	}
+	spriteType = {
+		name = "GFX_france_nine"
+		texturefile = "gfx/interface/goals/france_nine.tga"
+	}
 	spriteType = {
 		name = "GFX_news_event_appel_18_juin"
 		texturefile = "gfx/event_pictures/news_event_appel_18_juin.dds"

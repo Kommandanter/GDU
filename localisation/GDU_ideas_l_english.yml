@@ -21,11 +21,16 @@
     no_finnish_justification_desc:0 "Finland is not supposed to attack anyone, and for this this idea was added."
     easy_surrender:0 "Quick Surrender"
     varna_shipyard:0 "Varna Shipyard"
+	
     FRA_inflexible_industry:0 "Inflexible Industry" 
     FRA_inflexible_industry_desc:0 "France's population will not easily accept a conversion of prized civilian industry into military potential, regardless of the dangers looming before them." 
+    free_france:0 "France has fallen." 
 	
     CHI_primitive_shipindustry:0 "Outdated Shipbuilding Industry" 
-    CHI_primitive_shipindustry_desc:0 "The best thing China's shipbuilding industries can hope to produce are basic coastal patrol vessels. Submarines and more advanced models of ships are completely out of the question. Mostly, this is a balancing measure so you don't convoy raid Japan to death." 
+    CHI_primitive_shipindustry_desc:0 "The best thing China's shipbuilding industries can hope to produce are basic coastal patrol vessels. Submarines and more advanced models of ships are completely out of the question." 
+	
+    GER_triumph_france_idea:0 "Triumph in France" 
+    GER_triumph_france_idea_desc:0 "We didn't just win in France, we annihilated our foe. This great victory has brought popularity to our regime." 
 
     USA_advanced_mahanian_doctrine:0 "Advanced Mahanian Doctrine"
     USA_advanced_mahanian_doctrine_desc:0 "The influence of Alfred Thayer Mahan on naval warfare can hardly be underestimated. Building on his work will allow us to make good use of battleships, which he considered a decisive factor."
@@ -36,14 +41,17 @@
     JAP_pearl_harbor_idea:0 "Tora, Tora, Tora!" 
     JAP_pearl_harbor_idea_desc:0 "For the Emperor!" 
 	
-    total_war_organizer:0 "Reich Minister of Armaments"
-	
     USA_giant_sleeps_idea:0 "The Giant Sleeps"
     USA_giant_sleeps_idea_desc:0 "Our nation is peaceful and prosperous; we'll keep it that way."
     USA_giant_sleeps_idea_2:0 "The Giant Sleeps"
     USA_giant_sleeps_idea_2_desc:0 "Our nation is peaceful and prosperous; we'll keep it that way."
     USA_early_wakey_idea:0 "The Giant Stirs" 
     USA_early_wakey_idea_desc:0 "It is our moral imperative to be prepared to help those who fight to defend the values we share." 
+    
+    FRA_FREE_gold_reserves:0 "French Gold Reserves"
+    FRA_FREE_colonial_manpower:0 "Colonial Recruitment Efforts"
+    FRA_FREE_viva_la_france:0 "Viva la France"
+    FRA_FREE_research_efforts:0 "Renewed Research Efforts"
 	
     tomoyuki_yamashita_HC:0 "Tomoyuki Yamashita" 
     takeichi_nichi:0 "Takeichi Nichi" 
@@ -88,7 +96,7 @@
     FRA_phoney_war:0 "The Phoney War"
     FRA_phoney_war_desc:0 "Despite being at war with Germany, French forces and command remain hesitant and unwilling to fight. There remains a lingering hope for peace with the Axis. If Germany were to attack the Benelux, however? The threat would be evident."
     benelux_neutrality:0 "Benelux Neutrality"
-    benelux_neutrality_desc:0 "Traditionally, the Netherlands, Luxemburg, and Belgium have pursued a policy of neutrality towards their neighbours. Of course, neither Belgium or Luxemburg found their neutrality respected in the Great War, and with the way things are looking? The Dutch may have reason to fear as well..."
+    benelux_neutrality_desc:0 "Traditionally, the Netherlands, Luxemburg, and Belgium have pursued a policy of neutrality towards their neighbors. Of course, neither Belgium or Luxemburg found their neutrality respected in the Great War, and with the way things are looking? The Dutch may have reason to fear as well..."
     scandinavian_neutrality:0 "Scandinavian Neutrality" 
     scandinavian_neutrality_desc:0 "Denmark and Norway have upheld a strict policy of neutrality for years, believing it to be a shield against aggressors. Unfortunately, the upcoming conflict is likely going to be a bit different." 
     irish_neutrality:0 "Irish Neutrality"
@@ -182,6 +190,12 @@
     vauxhall_motors:0 "Vauxhall Motors"
     #French tank designers
     somua:0 "SOMUA"
+    #French naval designer
+    free_french_fleet:0 "Free French Designer"
+    free_france_fleet:0 "Jack Of All Trades"
+    #French generals
+    henri_giraud_hc:0 "Henri Giraud"
+    charles_de_gaulle_hc:0 "Charles De Gaulle"
     #Japanese tank designers
     mitsubishi_tank:0 "Mitsubishi"
     army_technical_bureau:0 "Army Technical Bureau"

@@ -21,10 +21,109 @@ ideas = {
 				mobilization_laws_cost_factor = -0.25
 			}
 		}
+		FRA_FREE_research_efforts = {
+		
+			picture = generic_research_bonus
+			
+			allowed = {
+				original_tag = FRA
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+		    modifier = {
+				research_speed_factor =0.05
+			}
+		}
+		FRA_FREE_gold_reserves = {
+		
+			picture = generic_foreign_capital
+			
+			allowed = {
+				original_tag = FRA
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				defensive_war_stability_factor = 0.1
+				consumer_goods_factor = -0.05
+			}
+		}
+		FRA_FREE_viva_la_france = {
+		
+			picture = FRA_scw_intervention_republicans_focus
+			
+			allowed = {
+				original_tag = FRA
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_core_attack_factor = 0.05
+				army_core_defence_factor = 0.05
+			}
+		}
+		FRA_FREE_colonial_manpower = {
+		
+			picture = generic_army_war_college
+			
+			allowed = {
+				original_tag = FRA
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				non_core_manpower = 0.10
+				conscription = 0.015
+			}
+		}
+		FRA_FREE_joint_french_and_russian_rubber_refinery_program = {
+			
+			allowed = {
+				original_tag = FRA
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+                production_speed_synthetic_refinery_factor = 0.05
+			}
+		}
 	}
+	
+	
 	political_advisor = {
 		FRA_FREE_felix_eboue = { ##gave Free France  first lands
-			
+		
+		    Cost = 25
 			
 			allowed = {
 				original_tag = FRA
@@ -92,6 +191,27 @@ ideas = {
 			}
 		}
 	}	
+    navy_chief = {
+
+		rene_emile_godfroy = {
+
+
+			allowed = {
+				original_tag = FRA
+				
+			}
+
+			available = {
+				has_country_flag = free_france
+			}
+
+			traits = { navy_screen_2 }
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+    }
 	high_command = {
 		
 		FRA_FREE_adolphe_cise = { ##military medic
@@ -111,7 +231,94 @@ ideas = {
 			ai_will_do = {
 				factor = 1
 			}
+		}	
+		
+	    philippe_leclerc = {
+
+
+			allowed = {
+				original_tag = FRA
+			}
+
+			available = {
+				original_tag = FRA
+				has_country_flag = free_france
+			}
+
+			traits = { army_commando_3 }
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		henri_giraud_hc = {
+
+			picture = henri_giraud
+
+			allowed = {
+				original_tag = FRA
+			}
+
+			available = {
+                original_tag = FRA
+				has_country_flag = free_france
+			}
+
+			traits = { army_infantry_1 }
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		charles_de_gaulle_hc = { 
+		
+			picture = charles_de_gaulle
+			
+			allowed = {
+				original_tag = FRA
+			}
+		    available = {
+				original_tag = FRA
+				has_country_flag = free_france
+			}
+			
+			
+			traits = { army_armored_2 } 
+			
+			ai_will_do = { 
+				factor = 1 
+			} 
+			
 		}		
-	}	
+
+	}
 	
+	naval_manufacturer = {
+
+		designer = yes	
+		
+		free_french_fleet = {
+			
+			picture = generic_naval_manufacturer_2
+
+			allowed = {
+				original_tag = FRA
+			}
+
+			available = {
+				has_completed_focus = FRA_revive_naval_construction
+			}
+			
+			research_bonus = {
+				naval_equipment = 0.15
+			}			
+
+			traits = { free_france_fleet }
+
+			modifier = {
+			}
+		}
+    }
 }

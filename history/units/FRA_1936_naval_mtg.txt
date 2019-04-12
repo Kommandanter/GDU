@@ -30,32 +30,21 @@ units= {
 		task_force = {
 			name = "2ème Région Navale"
 			location = 3552 # Brest			
-			ship = { name = "Béarn" definition = carrier equipment = { ship_hull_carrier_conversion_bb = { amount = 1 owner = FRA version_name = "Béarn Class" } } 
-				air_wings = {
-					cv_fighter_equipment_0 =  { owner = "FRA" amount = 40 }
-				}
-			}
 			# 2e Division des Contre-Torpilleurs
 			ship = { name = "Jaguar" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Chacal Class" } } }
 			ship = { name = "Chacal" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Chacal Class" } } }
-			ship = { name = "Léopard" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Chacal Class" } } }
-			ship = { name = "Panthère" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Chacal Class" } } }
 			# 2e Légère Division des Contre-Torpilleurs
 			ship = { name = "Fougueux" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Bourrasque Class" } } }	
 			ship = { name = "Frondeur" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Bourrasque Class" } } }	
 			ship = { name = "L'Adroit" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Bourrasque Class" } } }	
 			# 4e Légère Division des Contre-Torpilleurs
 			ship = { name = "Bourrasque" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Bourrasque Class" } } }	
-			ship = { name = "Ouragan" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Bourrasque Class" } } }
-			ship = { name = "Orage" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Bourrasque Class" } } }	
 			# 5e Légère Division des Contre-Torpilleurs
 			ship = { name = "Brestois" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Bourrasque Class" } } }	
 			ship = { name = "Le Foudroyant" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Bourrasque Class" } } }	
 			ship = { name = "Boulonnais" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Bourrasque Class" } } }	
 			# 6e Légère Division des Contre-Torpilleurs
 			ship = { name = "Cyclone" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Bourrasque Class" } } }
-			ship = { name = "Siroco" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Bourrasque Class" } } }	
-			ship = { name = "Mistral" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Bourrasque Class" } } }	
 		}				
 		task_force = {				
 			name = "4ème Escadron Sous-Marins"			
@@ -80,10 +69,6 @@ units= {
 		task_force = {				
 			name = "3ème Région Navale"			
 			location = 911 # Toulon	
-			ship = { name = "Courbet" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "Courbet Class" } } }        
-			ship = { name = "Paris" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "Courbet Class" } } }
-			ship = { name = "Algérie" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Algérie Class" } } }			
-			ship = { name = "Foch" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Suffren Class" } } }
 			ship = { name = "Dupleix" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Suffren Class" } } }
 			ship = { name = "Colbert" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Suffren Class" } } }
 			ship = { name = "Duquesne" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Suffren Class" } } }
@@ -151,7 +136,6 @@ units= {
 			ship = { name = "Provence" pride_of_the_fleet = yes definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "Bretagne Class" } } }			
 			ship = { name = "Lorraine" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "Bretagne Class" } } }			
 			ship = { name = "Bretagne" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "Bretagne Class" } } }			
-			ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Duguay-Trouin Class" } } }
 			# 1e Légère Division des Contre-Torpilleurs
 			ship = { name = "La Palme" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Bourrasque Class" } } }	
 			ship = { name = "Le Mars" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Bourrasque Class" } } }	
@@ -176,7 +160,6 @@ units= {
 			name = "Force d'Attaque Légère"			
 			location = 9994 # Bizerte, Tunisia	
 			ship = { name = "La Galissonnière" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "La Galissonnière Class" } } }
-			ship = { name = "Émile Bertin" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Émile Bertin Class" } } }
 			# 1e Division des Contre-Torpilleurs
 			ship = { name = "Lion" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Chacal Class" } } }
 			ship = { name = "Vauban" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Chacal Class" } } }
@@ -187,15 +170,11 @@ units= {
 			ship = { name = "Verdun" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Chacal Class" } } }
 			# 6e Division des Contre-Torpilleurs
 			ship = { name = "Aigle" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Chacal Class" } } }
-			ship = { name = "Milan" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Chacal Class" } } }
-			ship = { name = "Épervier" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Chacal Class" } } }
 		}				
 		task_force = {				
 			name = "Flotte d'Afrique de l'Ouest"			
 			location = 4948 # Dakar			
 			ship = { name = "Jeanne d'Arc" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Duguay-Trouin Class" } } }
-			ship = { name = "Duguay-Trouin" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Duguay-Trouin Class" } } }
-			ship = { name = "Primauguet" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Duguay-Trouin Class" } } }
 		}
 		task_force = {				
 			name = "2ème Escadron Sous-Marins" 			

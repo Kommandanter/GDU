@@ -102,6 +102,86 @@ political_actions = {
 	
 }
 
+operations = {
+
+	GER_triumph_france = {
+
+		icon = generic_operation
+
+		allowed = {
+			always = no
+			#added through on_action
+		}
+
+		available = {
+			FRA = { has_capitulated = yes } 
+		}
+
+		days_mission_timeout = 35
+		fire_only_once = yes
+
+		activation = {
+
+		}
+
+		is_good = no
+
+		complete_effect = {
+			add_war_support = 0.1
+			add_timed_idea = { idea = GER_triumph_france_idea days = 1095 } 
+		}
+
+		timeout_effect = {
+			add_war_support = -0.05 
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	FRA_evacuate_france = {
+
+		icon = generic_operation
+
+		allowed = {
+			always = no
+			#added through on_action
+		}
+
+		available = {
+			FRA = { has_capitulated = yes } 
+		}
+
+		days_mission_timeout = 35
+		fire_only_once = yes
+
+		activation = {
+
+		}
+
+		is_good = no
+
+		complete_effect = {
+			add_war_support = -0.1
+			add_stability = -0.05
+		}
+
+		timeout_effect = {
+			add_war_support = 0.2
+			add_stability = 0.1 
+			set_global_flag = FRA_evacuated 
+			country_event = gduevents.20
+			
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+}
+
 foreign_politics = { 
 
 	GDU_GER_seize_syria = { 

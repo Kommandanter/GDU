@@ -72,6 +72,12 @@ country_event = {
 		29 = {
 			add_building_construction = {
 				type = bunker
+				province = 3447
+				level = 2
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = bunker
 				province = 11606
 				level = 2
 				instant_build = yes
@@ -85,14 +91,6 @@ country_event = {
 			add_building_construction = {
 				type = bunker
 				province = 575
-				level = 2
-				instant_build = yes
-			}
-		}
-		785 = {
-			add_building_construction = {
-				type = bunker
-				province = 3447
 				level = 2
 				instant_build = yes
 			}
@@ -585,6 +583,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
+
 		custom_effect_tooltip = france.20.a_tt
 		set_country_flag = france_de_gaulle
 		remove_ideas = FRA_victors_of_wwi
@@ -593,6 +592,10 @@ country_event = {
 		remove_ideas = FRA_inflexible_industry
 		hidden_effect =  {
 			retire_country_leader = yes
+		}
+		if = {
+			limit = { has_global_flag = FRA_evacuated }
+			load_oob = FRA_naval_oob
 		}
 		name = france.20.a
 	}
@@ -608,6 +611,7 @@ country_event = {
 	fire_only_once = yes
 
 	is_triggered_only = yes 
+
 
 	option = {
 		ai_chance = {
