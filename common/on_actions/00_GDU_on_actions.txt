@@ -139,10 +139,10 @@ on_actions = {
 				give_resource_rights = { receiver = JAP state = 289 }
 			}
 		
-			##### Turning King Edward's abdication into an on_startup event instead of MTTH to help performance ####
+			##### Turning King Edward's abdication into an on_startup event instead of MTTH to help performance####
 			ENG = {
 				country_event = { id = britain.16 days = 20 } 
-				country_event = { id = mtg_britain.1 days = 190 } 
+				country_event = { id = mtg_britain.1 days = 190 }			
 			}
 			#### Event to drain GER's manpower in return for no suppression troubles. ####
 			GER = { 
@@ -198,6 +198,88 @@ on_actions = {
 				add_opinion_modifier = { target = NZL modifier = huge_increase  }
 				add_opinion_modifier = { target = NZL modifier = huge_increase  }
 				add_opinion_modifier = { target = NZL modifier = huge_increase  }
+			}
+			SPR = {
+				add_opinion_modifier = { target = ENG modifier = embargo }
+				add_opinion_modifier = { target = ENG modifier = sanctions_relations }
+				add_opinion_modifier = { target = ENG modifier = large_decrease }
+				add_opinion_modifier = { target = ENG modifier = hostile_status }
+				add_opinion_modifier = { target = RAJ modifier = embargo }
+				add_opinion_modifier = { target = RAJ modifier = sanctions_relations }
+				add_opinion_modifier = { target = RAJ modifier = large_decrease }
+				add_opinion_modifier = { target = RAJ modifier = hostile_status }
+				add_opinion_modifier = { target = CAN modifier = embargo }
+				add_opinion_modifier = { target = CAN modifier = sanctions_relations }
+				add_opinion_modifier = { target = CAN modifier = large_decrease }
+				add_opinion_modifier = { target = CAN modifier = hostile_status }
+				add_opinion_modifier = { target = SOV modifier = embargo }
+				add_opinion_modifier = { target = SOV modifier = sanctions_relations }
+				add_opinion_modifier = { target = SOV modifier = large_decrease }
+				add_opinion_modifier = { target = SOV modifier = hostile_status }
+				add_opinion_modifier = { target = SAF modifier = embargo }
+				add_opinion_modifier = { target = SAF modifier = sanctions_relations }
+				add_opinion_modifier = { target = SAF modifier = large_decrease }
+				add_opinion_modifier = { target = SAF modifier = hostile_status }
+				add_opinion_modifier = { target = AST modifier = embargo }
+				add_opinion_modifier = { target = AST modifier = sanctions_relations }
+				add_opinion_modifier = { target = AST modifier = large_decrease }
+				add_opinion_modifier = { target = AST modifier = hostile_status }
+				add_opinion_modifier = { target = NZL modifier = embargo }
+				add_opinion_modifier = { target = NZL modifier = sanctions_relations }
+				add_opinion_modifier = { target = NZL modifier = large_decrease }
+				add_opinion_modifier = { target = NZL modifier = hostile_status }
+				add_opinion_modifier = { target = USA modifier = embargo }
+				add_opinion_modifier = { target = USA modifier = sanctions_relations }   
+				add_opinion_modifier = { target = USA modifier = large_decrease }
+				add_opinion_modifier = { target = USA modifier = hostile_status }  				
+			}
+			SOV = { 
+				add_opinion_modifier = { target = SPR modifier = embargo }
+				add_opinion_modifier = { target = SPR modifier = sanctions_relations }
+				add_opinion_modifier = { target = SPR modifier = large_decrease }
+				add_opinion_modifier = { target = SPR modifier = hostile_status }
+			}
+			CAN = { 
+				add_opinion_modifier = { target = SPR modifier = embargo }
+				add_opinion_modifier = { target = SPR modifier = sanctions_relations }
+				add_opinion_modifier = { target = SPR modifier = large_decrease }
+				add_opinion_modifier = { target = SPR modifier = hostile_status }
+			}
+			ENG = { 
+				add_opinion_modifier = { target = SPR modifier = embargo }
+				add_opinion_modifier = { target = SPR modifier = sanctions_relations }
+				add_opinion_modifier = { target = SPR modifier = large_decrease }
+				add_opinion_modifier = { target = SPR modifier = hostile_status }
+			}
+			RAJ = { 
+				add_opinion_modifier = { target = SPR modifier = embargo }
+				add_opinion_modifier = { target = SPR modifier = sanctions_relations }
+				add_opinion_modifier = { target = SPR modifier = large_decrease }
+				add_opinion_modifier = { target = SPR modifier = hostile_status }
+			}
+			SAF = { 
+				add_opinion_modifier = { target = SPR modifier = embargo }
+				add_opinion_modifier = { target = SPR modifier = sanctions_relations }
+				add_opinion_modifier = { target = SPR modifier = large_decrease }
+				add_opinion_modifier = { target = SPR modifier = hostile_status }
+			}
+			AST = { 
+				add_opinion_modifier = { target = SPR modifier = embargo }
+				add_opinion_modifier = { target = SPR modifier = sanctions_relations }
+				add_opinion_modifier = { target = SPR modifier = large_decrease }
+				add_opinion_modifier = { target = SPR modifier = hostile_status }
+			}
+			NZL = { 
+				add_opinion_modifier = { target = SPR modifier = embargo }
+				add_opinion_modifier = { target = SPR modifier = sanctions_relations }
+				add_opinion_modifier = { target = SPR modifier = large_decrease }
+				add_opinion_modifier = { target = SPR modifier = hostile_status }
+			}
+			USA = { 
+				add_opinion_modifier = { target = SPR modifier = embargo }
+				add_opinion_modifier = { target = SPR modifier = sanctions_relations }
+				add_opinion_modifier = { target = SPR modifier = large_decrease }
+				add_opinion_modifier = { target = SPR modifier = hostile_status }
 			}
 		}
 	}
