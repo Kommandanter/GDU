@@ -1375,8 +1375,9 @@ focus_tree = {
 				category = land_doctrine
 			}
 			add_tech_bonus = {
-				bonus = 1.10
+				bonus = 1.00
 				uses = 1
+				ahead_reduction = 0.5
 				name = mech_army_bonus
 				category = armor 
 
