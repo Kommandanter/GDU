@@ -624,7 +624,6 @@ ideas = {
 				OR = {
 					AND = {
 						original_tag = FRA
-				has_completed_focus = FRA_defensive_focus
 						NOT = {has_country_flag = free_france}
 					}
 					original_tag = EFR
