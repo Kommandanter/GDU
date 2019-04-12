@@ -8,7 +8,6 @@ ai_historical_focus_list_GER = {
 		GER_four_year_plan
 		GER_west_wall
 		GER_autarky
-		GER_anti_comitern_pact
 		GER_hermann_goring_werke
 		GER_army_innovation
 		GER_soviet_treaty
