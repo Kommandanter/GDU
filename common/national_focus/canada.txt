@@ -1252,10 +1252,10 @@ focus_tree = {
 			}
 		}
 	}
-
+	
 	focus = {
-		id = CAN_polymer_corporation
-		icon = GFX_goal_generic_oil_refinery
+		id = CAN_defense_research_grants
+		icon = GFX_focus_research
 		prerequisite = { focus = CAN_victory_aircraft_limited focus = CAN_fund_the_national_research_council }
 		x = -1
 		y = 4
@@ -1264,144 +1264,27 @@ focus_tree = {
 		cost = 5
 
 		ai_will_do = {
-			factor = 50
+			factor = 25
 		}
 
 		available = {
-
+			
 		}
 		
 		bypass = {
-			custom_trigger_tooltip = {
-				tooltip = synth_oil_effort_tt
-				all_owned_state = {
-					free_building_slots = {
-						building = synthetic_refinery
-						size < 0
-						include_locked = yes
-					}
-				}
-			}
+
 		}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = yes
 
-
 		complete_tooltip = {
-			if = {
-				limit = { has_country_flag = CAN_polymer_corporation_unlock }
-				set_technology = { synth_oil_experiments = 1 }
-				else = {					
-					add_tech_bonus = {
-						name = CAN_polymer_corporation
-						ahead_reduction = 1
-						bonus = 1.00 
-						uses = 1
-						category = synth_resources
-					}
-				}				
-			}
-			random_state = {
-				limit = {
-					has_state_flag = CAN_polymer_corporation_1
-				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = synthetic_refinery
-					level = 1
-					instant_build = yes
-				}
-			}
-			random_state = {
-				limit = {
-					has_state_flag = CAN_polymer_corporation_2
-				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = synthetic_refinery
-					level = 1
-					instant_build = yes
-				}
-			}
+
 		}
 
 		completion_reward = {
-			if = {
-				limit = {
-					NOT = { has_tech = synth_oil_experiments }
-				}
-				set_technology = { synth_oil_experiments = 1 }
-				set_country_flag = CAN_polymer_corporation_unlock
-				effect_tooltip = {
-					random_owned_controlled_state = {
-						prioritize = { 682 }
-						limit = {
-						}
-						add_extra_state_shared_building_slots = 1
-						add_building_construction = {
-							type = synthetic_refinery
-							level = 1
-							instant_build = yes
-						}
-						set_state_flag = CAN_polymer_corporation_1
-					}
-					random_owned_controlled_state = {
-						prioritize = { 276 }
-						limit = {
-						}
-						add_extra_state_shared_building_slots = 1
-						add_building_construction = {
-							type = synthetic_refinery
-							level = 1
-							instant_build = yes
-						}
-						set_state_flag = CAN_polymer_corporation_2
-					}
-				}
-				else = {
-					add_tech_bonus = {
-						name = CAN_polymer_corporation
-						ahead_reduction = 1
-						bonus = 1.00 
-						uses = 1
-						category = synth_resources
-					}
-				}
-			}
-			random_owned_controlled_state = {
-				prioritize = { 682 }
-				limit = {
-					free_building_slots = {
-						building = synthetic_refinery
-						size > 0
-					}
-				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = synthetic_refinery
-					level = 1
-					instant_build = yes
-				}
-				set_state_flag = CAN_polymer_corporation_1
-			}
-			random_owned_controlled_state = {
-				prioritize = { 276 }
-				limit = {
-					free_building_slots = {
-						building = synthetic_refinery
-						size > 0
-					}
-				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = synthetic_refinery
-					level = 1
-					instant_build = yes
-				}
-				set_state_flag = CAN_polymer_corporation_2
-			}
+			add_research_slot = 1
 		}
 	}
 
@@ -1585,45 +1468,9 @@ focus_tree = {
 	}
 
 	focus = {
-		id = CAN_defense_research_grants
-		icon = GFX_focus_research
-		prerequisite = { focus = CAN_john_inglis_and_company }
-		prerequisite = { focus = CAN_if_day }
-		x = -3
-		y = 6
-		relative_position_id = CAN_defence_of_canada_regulations
-
-		cost = 20
-
-		ai_will_do = {
-			factor = 25
-		}
-
-		available = {
-			num_of_factories > 50
-		}
-		
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		complete_tooltip = {
-
-		}
-
-		completion_reward = {
-			add_research_slot = 1
-		}
-	}
-
-	focus = {
 		id = CAN_uranium_mining
 		icon = GFX_focus_wonderweapons
-		prerequisite = { focus = CAN_polymer_corporation focus = CAN_national_steel_car }
+		prerequisite = { focus = CAN_defense_research_grants focus = CAN_national_steel_car }
 		x = 0
 		y = 5
 		relative_position_id = CAN_defence_of_canada_regulations

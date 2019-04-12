@@ -1024,23 +1024,6 @@ ideas = {
 			}
 		}
 
-		polymer_corporation = {
-
-			picture = generic_industrial_concern_2
-
-			allowed = {
-				original_tag = CAN
-				has_dlc = "Together for Victory"
-			}
-
-			research_bonus = {
-				synth_resources = 0.1
-				industry = 0.05
-			}
-
-			traits = { refinery_concern }
-		}
-
 	}
 
 	materiel_manufacturer = {

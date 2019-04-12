@@ -1290,7 +1290,7 @@ focus_tree = {
 				}
 				add_resource = {
 					type = rubber
-					amount = 10
+					amount = 8
 				}
 			}
 		}
