@@ -1,6 +1,28 @@
 scripted_gui = {
 
-	eaw_welcome_screen = {
+	gdu_welcome_screen_toggle = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "gdu_welcome_screen_toggle_container"
+
+		visible = {
+			is_ai = no
+		}
+
+		effects = {
+			open_ws_click = {
+				if = {
+					limit = { NOT = { has_variable = gdu_welcome_screen } }
+					set_variable = { gdu_welcome_screen = 1 }
+				}
+				else = {
+					clear_variable = gdu_welcome_screen
+				}
+			}
+		}
+	}
+
+	gdu_welcome_screen = {
 		context_type = player_context
 
 		window_name = "gdu_welcome_screen_container"
@@ -8,6 +30,70 @@ scripted_gui = {
 		visible = {
 			is_ai = no
 			has_variable = gdu_welcome_screen
+		}
+
+		triggers = {
+			tab_1_on_visible = {
+				check_variable = { gdu_welcome_screen = 1 }
+			}
+
+			tab_1_off_visible = {
+				NOT = { check_variable = { gdu_welcome_screen = 1 } }
+			}
+
+			tab_2_on_visible = {
+				check_variable = { gdu_welcome_screen = 2 }
+			}
+
+			tab_2_off_visible = {
+				NOT = { check_variable = { gdu_welcome_screen = 2 } }
+			}
+
+			tab_1_header_visible = {
+				check_variable = { gdu_welcome_screen = 1 }
+			}
+
+			tab_2_header_visible = {
+				check_variable = { gdu_welcome_screen = 2 }
+			}
+		}
+
+		effects = {
+			close_button_click = {
+				clear_variable = gdu_welcome_screen
+			}
+
+			tab_1_off_click = {
+				set_variable = { gdu_welcome_screen = 1 }
+			}
+
+			tab_2_off_click = {
+				set_variable = { gdu_welcome_screen = 2 }
+			}
+		}
+	}
+
+	gdu_welcome_screen_tab_1_content = {
+		context_type = player_context
+
+		window_name = "gdu_ws_tab_1_slider"
+		parent_window_name = "gdu_welcome_screen_container"
+
+		visible = {
+			is_ai = no
+			check_variable = { gdu_welcome_screen = 1 }
+		}
+	}
+
+	gdu_welcome_screen_tab_2_content = {
+		context_type = player_context
+
+		window_name = "gdu_ws_tab_2_slider"
+		parent_window_name = "gdu_welcome_screen_container"
+
+		visible = {
+			is_ai = no
+			check_variable = { gdu_welcome_screen = 2 }
 		}
 	}
 }
