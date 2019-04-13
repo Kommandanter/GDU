@@ -781,7 +781,7 @@ ideas = {
 			modifier = {
 				stability_factor = 0.05
 				war_support_factor = 0.20 
-				army_attack_factor = 0.05
+				army_morale_factor = 0.025 
 				conversion_cost_civ_to_mil_factor = 0.2
 			}
 
@@ -802,7 +802,8 @@ ideas = {
 			modifier = {
 				stability_factor = 0.20 
 				war_support_factor = 0.2
-				army_attack_factor = 0.1
+				army_attack_factor = 0.05
+				army_morale_factor = 0.05
 				stability_weekly_factor = -0.002
 				war_support_weekly_factor = -0.002
 			}
