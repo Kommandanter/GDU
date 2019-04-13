@@ -1,21 +1,6 @@
 ideas = {
 
 	country = {
-		IRE_ira = {
-
-			picture = FRA_scw_intervention_republicans_focus
-
-			allowed = {
-				always = no
-				}
-
-				removal_cost = -1
-
-				modifier = {
-					political_power_cost = 0.25
-					stability_factor = -0.10
-				}
-		}
 		IRE_neutral = {
 
 			picture = neutrality_idea
