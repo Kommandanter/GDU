@@ -7,3 +7,5 @@ GDU_WS_TAB_1_HEADER:0 "This is tab 1"
 GDU_WS_TAB_2_HEADER:0 "This is tab 2"
 GDU_WS_TAB_1_TXT:0 "This is tab 1 text!"
 GDU_WS_TAB_2_TXT:0 "This is tab 2 text!"
+
+GDU_WS_GER_desc:0 "This is special text for Germany!"
