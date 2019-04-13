@@ -779,7 +779,7 @@ ideas = {
 			picture = generic_local_self_management
 
 			modifier = {
-				stability_factor = 0.05
+				stability_factor = 0.1
 				war_support_factor = 0.20 
 				army_morale_factor = 0.025 
 				conversion_cost_civ_to_mil_factor = 0.2
