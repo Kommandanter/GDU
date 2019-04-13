@@ -1,0 +1,40 @@
+guiTypes = {		
+	containerWindowType = {
+		name = "gdu_welcome_screen_toggle_container"
+		position = { x= 0 y = 0 }
+	
+		buttonType = {
+			name = "open_ws"
+			quadTextureSprite = "GFX_gdu_welcome_screen_btn"
+			pdx_tooltip = "GDU_WS_OPEN_TT"
+			position = { x = 420 y = 3 }
+		}
+	}
+
+	containerWindowType = {
+		name = "gdu_welcome_screen_container"
+		size = { width = 1167 height = 675}
+		position = { x=-583 y=-297 }
+		Orientation = center
+		moveable = yes
+		clipping = no
+		show_sound = menu_open_window
+		hide_sound = menu_close_window
+		
+		Background = {
+			name = "gdu_welcome_screen_bg"
+			quadTextureSprite = "GFX_tiled_gdu_welcome_screen_bg"
+		}
+		
+		instantTextboxType = {
+			name = "header_desc"
+			position = { x = -267 y = 23 }
+			font = "hoi_24header"
+			text = "GDU_WS_HEADER"
+			Orientation = center_up
+			format = center			
+			maxWidth = 530
+			maxHeight = 30
+		}
+	}
+}

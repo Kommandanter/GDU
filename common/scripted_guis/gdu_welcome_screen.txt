@@ -1,0 +1,13 @@
+scripted_gui = {
+
+	eaw_welcome_screen = {
+		context_type = player_context
+
+		window_name = "gdu_welcome_screen_container"
+
+		visible = {
+			is_ai = no
+			has_variable = gdu_welcome_screen
+		}
+	}
+}

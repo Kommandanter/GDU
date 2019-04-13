@@ -4,11 +4,13 @@ on_actions = {
 		effect = {
 		
 		#Adding the startup screen
-		if = {
-			limit = {
-				is_ai = no
+		every_country = {
+			if = {
+				limit = {
+					is_ai = no
+				}
+				set_variable = { gdu_welcome_screen = 1 }
 			}
-			set_variable = { eaw_welcome_screen = 1 }
 		}
 
 			#Initializing the global.small_airbase_list array#
