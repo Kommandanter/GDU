@@ -87,6 +87,13 @@ focus_tree = {
 				name = land_doc_bonus
 				bonus = 1.00 
 				uses = 1
+				technology = antitank2 
+			}
+			
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 1.00 
+				uses = 1
 				technology = tech_engineers2
 			}
 			
