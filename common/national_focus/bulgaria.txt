@@ -468,7 +468,7 @@ focus_tree = {
 		prerequisite = { focus = BUL_German_Adivsors }
 		x = 1
 		y = 3
-		cost = 10
+		cost = 5
 
 		available_if_capitulated = yes
 
@@ -484,7 +484,7 @@ focus_tree = {
 		prerequisite = { focus = BUL_The_Balkan_Strategy }
 		x = 1
 		y = 4
-		cost = 10
+		cost = 5
 
 		available_if_capitulated = no
 
@@ -500,7 +500,7 @@ focus_tree = {
 		prerequisite = { focus = BUL_oppress_macedonians}
 		x = 1
 		y = 5
-		cost = 10
+		cost = 5
 
 		available_if_capitulated = no
 
@@ -523,7 +523,7 @@ focus_tree = {
 		will_lead_to_war_with = GRE
 		x = 1
 		y = 6
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 10
 		}

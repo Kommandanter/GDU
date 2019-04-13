@@ -1390,7 +1390,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = JAP_the_manchurian_project
 
-		cost = 4
+		cost = 2
 
 		ai_will_do = {
 			factor = 2
@@ -1751,12 +1751,66 @@ focus_tree = {
 		}
 	}
 
+
+	focus = {
+		id = JAP_free_manchuria
+		icon = GFX_goal_generic_dangerous_deal
+		prerequisite = { focus = JAP_the_manchurian_project }		
+		x = 0
+		y = 1
+		relative_position_id = JAP_the_manchurian_project 
+		
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 2
+				OR = {
+					has_completed_focus = JAP_purge_the_kodoha_faction
+				}
+			}
+			modifier = {
+				factor = 10
+				has_completed_focus = JAP_technological_exchange
+			}
+		}
+
+		available = {
+			MAN = { is_subject_of = ROOT }
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			MAN = {				
+			    add_autonomy_ratio = {
+				value = 1.15
+				localization = MAN_the_two_emperors
+				}
+			}
+		}
+	}
+     
 	focus = {
 		id = JAP_fortify_the_border
 		icon = GFX_goal_generic_construct_military
-		prerequisite = { focus = JAP_the_manchurian_project }
-		x = 0
-		y = 1
+		prerequisite = {
+			focus = JAP_expand_the_showa_steel_works 
+			focus = JAP_free_manchuria
+		}
+		x = 1
+		y = 2
 		relative_position_id = JAP_the_manchurian_project 
 
 		cost = 2
