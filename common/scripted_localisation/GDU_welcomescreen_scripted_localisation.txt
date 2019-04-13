@@ -7,3 +7,19 @@
 # (eg Root or From.From).)
 # localization_key -> points to the localization key
 # that'll be used if trigger passes
+
+defined_text = {
+    name = GetCountryIntro
+    text = {
+        trigger = { tag = FIN}
+        localization_key = GDU_WS_FIN_desc
+    }
+}
+
+defined_text = {
+    name = GetCountryQuote
+    text = {
+        trigger = { tag = FIN }
+        localization_key = GDU_WS_FIN_header
+    }
+}

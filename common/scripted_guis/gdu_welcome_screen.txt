@@ -49,12 +49,36 @@ scripted_gui = {
 				NOT = { check_variable = { gdu_welcome_screen = 2 } }
 			}
 
+			tab_3_on_visible = {
+				check_variable = { gdu_welcome_screen = 3 }
+			}
+
+			tab_3_off_visible = {
+				NOT = { check_variable = { gdu_welcome_screen = 3 } }
+			}
+
+			tab_4_on_visible = {
+				check_variable = { gdu_welcome_screen = 4 }
+			}
+
+			tab_4_off_visible = {
+				NOT = { check_variable = { gdu_welcome_screen = 4 } }
+			}
+
 			tab_1_header_visible = {
 				check_variable = { gdu_welcome_screen = 1 }
 			}
 
 			tab_2_header_visible = {
 				check_variable = { gdu_welcome_screen = 2 }
+			}
+
+			tab_3_header_visible = {
+				check_variable = { gdu_welcome_screen = 3 }
+			}
+
+			tab_4_header_visible = {
+				check_variable = { gdu_welcome_screen =4 }
 			}
 		}
 
@@ -69,6 +93,14 @@ scripted_gui = {
 
 			tab_2_off_click = {
 				set_variable = { gdu_welcome_screen = 2 }
+			}
+
+			tab_3_off_click = {
+				set_variable = { gdu_welcome_screen = 3 }
+			}
+
+			tab_4_off_click = {
+				set_variable = { gdu_welcome_screen = 4 }
 			}
 		}
 	}
@@ -110,6 +142,30 @@ scripted_gui = {
 		visible = {
 			is_ai = no
 			check_variable = { gdu_welcome_screen = 2 }
+		}
+	}
+
+	gdu_welcome_screen_tab_3_content = {
+		context_type = player_context
+
+		window_name = "gdu_ws_tab_3_slider"
+		parent_window_name = "gdu_welcome_screen_container"
+
+		visible = {
+			is_ai = no
+			check_variable = { gdu_welcome_screen = 3 }
+		}
+	}
+
+	gdu_welcome_screen_tab_4_content = {
+		context_type = player_context
+
+		window_name = "gdu_ws_tab_4_slider"
+		parent_window_name = "gdu_welcome_screen_container"
+
+		visible = {
+			is_ai = no
+			check_variable = { gdu_welcome_screen = 4 }
 		}
 	}
 }

@@ -45,6 +45,24 @@ guiTypes = {
 		}
 
 		buttonType = {
+			name = "tab_3_on"
+			position = { x = 596 y = 104 }
+			quadTextureSprite ="GFX_gdu_welcome_screen_tab_on"
+			font = "hoi_18mbs"
+			buttonText = "GDU_WS_TAB_3"
+			pdx_tooltip = "GDU_WS_TAB_3_TT"
+		}
+
+		buttonType = {
+			name = "tab_4_on"
+			position = { x = 869 y = 104 }
+			quadTextureSprite ="GFX_gdu_welcome_screen_tab_on"
+			font = "hoi_18mbs"
+			buttonText = "GDU_WS_TAB_4"
+			pdx_tooltip = "GDU_WS_TAB_4_TT"
+		}
+
+		buttonType = {
 			name = "tab_1_off"
 			position = { x = 58 y = 104 }
 			quadTextureSprite ="GFX_gdu_welcome_screen_tab_off"
@@ -61,6 +79,26 @@ guiTypes = {
 			font = "hoi_18mbs"
 			buttonText = "GDU_WS_TAB_2"
 			pdx_tooltip = "GDU_WS_TAB_2_TT"
+			clicksound = click_default
+		}
+
+		buttonType = {
+			name = "tab_3_off"
+			position = { x = 596 y = 104 }
+			quadTextureSprite ="GFX_gdu_welcome_screen_tab_off"
+			font = "hoi_18mbs"
+			buttonText = "GDU_WS_TAB_3"
+			pdx_tooltip = "GDU_WS_TAB_3_TT"
+			clicksound = click_default
+		}
+
+		buttonType = {
+			name = "tab_4_off"
+			position = { x = 869 y = 104 }
+			quadTextureSprite ="GFX_gdu_welcome_screen_tab_off"
+			font = "hoi_18mbs"
+			buttonText = "GDU_WS_TAB_4"
+			pdx_tooltip = "GDU_WS_TAB_4_TT"
 			clicksound = click_default
 		}
 
@@ -93,6 +131,28 @@ guiTypes = {
 			position = { x = -550 y = 160 }
 			font = "hoi_24header"
 			text = "GDU_WS_TAB_2_HEADER"
+			Orientation = center_up
+			format = center			
+			maxWidth = 1100
+			maxHeight = 30
+		}
+
+		instantTextboxType = {
+			name = "tab_3_header"
+			position = { x = -550 y = 160 }
+			font = "hoi_24header"
+			text = "GDU_WS_TAB_3_HEADER"
+			Orientation = center_up
+			format = center			
+			maxWidth = 1100
+			maxHeight = 30
+		}
+
+		instantTextboxType = {
+			name = "tab_4_header"
+			position = { x = -550 y = 160 }
+			font = "hoi_24header"
+			text = "GDU_WS_TAB_4_HEADER"
 			Orientation = center_up
 			format = center			
 			maxWidth = 1100
@@ -142,6 +202,17 @@ guiTypes = {
 			maxHeight = 432
 			#fixedsize = yes
 		}
+
+		instantTextboxType = {
+			name = "tab_1_text_header"
+			position = { x=0 y=0 }
+			format = center
+			font = "hoi_24header"
+			text = "GDU_WS_TAB_1_header"
+			maxWidth = 1090
+			maxHeight = 432
+			#fixedsize = yes
+		}
 	}
 
 	containerWindowType = {
@@ -184,6 +255,52 @@ guiTypes = {
 			position = { x=0 y=0 }
 			font = "hoi_20bs"
 			text = "GDU_WS_TAB_2_TXT"
+			maxWidth = 1090
+			maxHeight = 432
+			#fixedsize = yes
+		}
+	}
+
+	containerWindowType = {
+		name = "gdu_ws_tab_3_slider"
+		position = { x=33 y=205 }
+		size = { width=1115 height=443 }
+		verticalScrollbar = "right_vertical_slider"
+		margin = { top = 4 bottom = 4 }
+		smooth_scrolling = yes
+		# background = {
+		# 	name = "Background"
+		# 	quadTextureSprite ="GFX_blank"
+		# }
+
+		instantTextboxType = {
+			name = "tab_3_text"
+			position = { x=0 y=0 }
+			font = "hoi_20bs"
+			text = "GDU_WS_TAB_3_TXT"
+			maxWidth = 1090
+			maxHeight = 432
+			#fixedsize = yes
+		}
+	}
+
+	containerWindowType = {
+		name = "gdu_ws_tab_4_slider"
+		position = { x=33 y=205 }
+		size = { width=1115 height=443 }
+		verticalScrollbar = "right_vertical_slider"
+		margin = { top = 4 bottom = 4 }
+		smooth_scrolling = yes
+		# background = {
+		# 	name = "Background"
+		# 	quadTextureSprite ="GFX_blank"
+		# }
+
+		instantTextboxType = {
+			name = "tab_4_text"
+			position = { x=0 y=0 }
+			font = "hoi_20bs"
+			text = "GDU_WS_TAB_4_TXT"
 			maxWidth = 1090
 			maxHeight = 432
 			#fixedsize = yes

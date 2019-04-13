@@ -1,11 +1,19 @@
 ﻿l_english:
 GDU_WS_OPEN_TT:0 "Open the Welcome Screen"
-GDU_WS_HEADER:0 "Hello, World!"
-GDU_WS_TAB_1:0 "This is the tab 1 button text"
-GDU_WS_TAB_2:0 "This is the tab 2 button text"
-GDU_WS_TAB_1_HEADER:0 "This is tab 1"
-GDU_WS_TAB_2_HEADER:0 "This is tab 2"
-GDU_WS_TAB_1_TXT:0 "This is tab 1 text!"
+GDU_WS_HEADER:0 "Welcome to Gotterdammerung!"
+GDU_WS_TAB_1:0 "Country Intro"
+GDU_WS_TAB_2:0 "Suggested Build"
+GDU_WS_TAB_3:0 "Tips and Tricks"
+GDU_WS_TAB_4:0 "GDU Mechanics Changes"
+GDU_WS_TAB_1_HEADER:0 "The Nation of [Root.GetNameDef]"
+GDU_WS_TAB_2_HEADER:0 "Building [Root.GetNameDef]"
+
+GDU_WS_TAB_1_TXT:0 "[Root.GetCountryIntro]"
+GDU_WS_TAB_1_header:0 "[Root.GetCountryQuote]"
 GDU_WS_TAB_2_TXT:0 "This is tab 2 text!"
 
+#These nations have extra-long descriptions and need
 GDU_WS_GER_desc:0 "This is special text for Germany!"
+
+GDU_WS_FIN_header:0 "\"Our country is so small, and they are so many. Where will we find room to bury them all?\""
+GDU_WS_FIN_desc:0 "\n\nThe §YRepublic of Finland§! has been an independent nation for nearly two decades, but recent developments in the world point to our independence once more soon being threatened. We might not be as large as other nations or have as much manpower, but we have the best weapon on our side: The undying determination and bravery of our people to defend their land at any cost.\n\nFinland is a member of the Axis powers, but not quite in the same way as most. Your focus is primarily on the Soviet Union, and in most cases the only conflict you have will be with Stalin and his hordes--Not the Allies.  You are not allowed to justify wargoals against anyone, and may not join World War II against the Allies unless they attack you first.\n\nOnce the Molotov-Ribbentrop pact is signed sometime in 1939 and Germany goes to war, you will be attacked by the Soviets. No one will help you. Don't worry, though! You are more than a match for the Soviets due to a hefty Officers Purged modifier that makes his army terrible along with your Sisu National Spirit, making you potent in your own land. He's not allowed to annex you and will only take Karjala and Salla. Still, this can be a good opportunity to fight and damage the Soviets if you prepare properly, draining their equipment and making them more vulnerable later in the game. Be careful to avoid getting encircled, and guard your ports against naval invasions.\n\nAfter the Winter War, you can rest and recuperate. Once Germany invades the Soviet Union, your objective is to help them as best you can by taking the city of Leningrad. While the Soviet Union is large, your troops are better than theirs will ever be and he is bound to be distracted fighting the rest of the Axis. You win by capitulating the Soviet Union and helping the Axis achieve victory."
