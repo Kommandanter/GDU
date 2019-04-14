@@ -1,6 +1,7 @@
 spriteTypes = {
     spriteType = {
-        name = "comintern"
-        textureFile = "gfx/interface/goals/focus_generic_join_comintern.dds"
+        name = "GFX_comintern_texticon"
+        textureFile = "gfx/texticons/join_comintern.dds"
+        legacy_lazy_load = no
     }
 }

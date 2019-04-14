@@ -23,3 +23,11 @@ defined_text = {
         localization_key = GDU_WS_FIN_header
     }
 }
+
+defined_text = {
+    name = GetCountryBuild
+    text = {
+        trigger = { tag = FIN }
+        localization_key = GDU_WS_FIN_build
+    }
+}
