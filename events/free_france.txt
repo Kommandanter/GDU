@@ -43,25 +43,6 @@ country_event = {
 	}
 }
 
-# Military Operations in West Africa
-country_event = {
-	id = free_france.2
-	title = free_france.2.t
-	desc = free_france.2.desc
-	picture = GFX_report_event_west_africa_sway
-
-	is_triggered_only = yes
-
-	#Try to attack
-	option = {
-		name = free_france.2.a
-		ai_chance = {
-			factor = 100
-		}
-		EFR = { country_event = free_france.3 }
-	}
-}
-
 # Vichy defense in West Africa
 country_event = {
 	id = free_france.3
@@ -244,7 +225,8 @@ country_event = {
 		ai_chance = {
 			factor = 100
 		}
-
+		FRA = { transfer_state = 309 }
+		FRA = { transfer_state = 695 }
 	}
 }
 

@@ -110,9 +110,6 @@ set_politics = {
 		elections_allowed = yes
 	}
 }
-add_ideas = {
-	IRE_ira
-}
 
 create_country_leader = {
 	name = "Éamon de Valera"
