@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = "comintern"
+        textureFile = "gfx/interface/goals/focus_generic_join_comintern.dds"
+    }
+}
