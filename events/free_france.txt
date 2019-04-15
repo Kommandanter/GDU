@@ -207,7 +207,8 @@ country_event = {
 		ai_chance = {
 			factor = 100
 		}
-
+		FRA = { transfer_state = 309 }
+		FRA = { transfer_state = 695 }
 	}
 }
 
@@ -225,8 +226,6 @@ country_event = {
 		ai_chance = {
 			factor = 100
 		}
-		FRA = { transfer_state = 309 }
-		FRA = { transfer_state = 695 }
 	}
 }
 
