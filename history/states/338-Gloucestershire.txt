@@ -20,10 +20,7 @@ state={
 			industrial_complex = 3
 			air_base = 2
 			3369 = {
-				naval_base = 10
-			}
-			6378 = {
-				naval_base = 8
+				naval_base = 15
 			}
 		}
 		add_core_of = ENG
