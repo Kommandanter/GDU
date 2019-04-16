@@ -96,8 +96,8 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				non_core_manpower = 0.10
-				conscription = 0.015
+				non_core_manpower = 0.2
+				conscription = 0.025
 			}
 		}
 		FRA_FREE_joint_french_and_russian_rubber_refinery_program = {
