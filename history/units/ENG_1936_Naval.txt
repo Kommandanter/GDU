@@ -338,7 +338,7 @@
 			ship = { name = "HMS Regulus" definition = submarine equipment = { ship_hull_cruiser_submarine = { amount = 1 owner = ENG version_name = "Rainbow Class" } } }	
 
 			#Grampus Class
-			ship = { name = "HMS Porpoise" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ENG version_name = "Grampus Class" } } }				
+			ship = { name = "HMS Big Dick" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ENG version_name = "Grampus Class" } } }				
 			
 			#S Class
 			ship = { name = "HMS Swordfish" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = ENG version_name = "S Class" } } }
