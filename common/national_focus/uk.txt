@@ -299,26 +299,20 @@ focus_tree = {
 					limit = { is_controlled_by = ROOT }
 					#Plymouth
 					add_building_construction = {
-						type = coastal_bunker
+						type = bunker
 						level = 5
 						province = 271
 						instant_build = yes
 					}
 					add_building_construction = {
-						type = bunker
-						level = 4
-						province = 271
-						instant_build = yes
-					}
-					add_building_construction = {
 						type = coastal_bunker
-						level = 4
+						level = 5
 						province = 221
 						instant_build = yes
 					}
 					add_building_construction = {
 						type = coastal_bunker
-						level = 4
+						level = 5
 						province = 322
 						instant_build = yes
 					}
@@ -330,15 +324,21 @@ focus_tree = {
 					limit = { is_controlled_by = ROOT }
 					#London
 					add_building_construction = {
-						type = coastal_bunker
+						type = bunker
 						level = 5
 						province = 11374
 						instant_build = yes
 					}
 					add_building_construction = {
 						type = bunker
-						level = 4
-						province = 11374
+						level = 5
+						province = 9239
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 5
+						province = 6103
 						instant_build = yes
 					}
 				}
@@ -349,26 +349,14 @@ focus_tree = {
 					limit = { is_controlled_by = ROOT }
 					#Dover
 					add_building_construction = {
-						type = coastal_bunker
+						type = bunker
 						level = 5
 						province = 3501
 						instant_build = yes
 					}
 					add_building_construction = {
-						type = bunker
-						level = 4
-						province = 3501
-						instant_build = yes
-					}
-					add_building_construction = {
 						type = coastal_bunker
-						level = 4
-						province = 13070
-						instant_build = yes
-					}
-					add_building_construction = {
-						type = coastal_bunker
-						level = 4
+						level = 5
 						province = 11446
 						instant_build = yes
 					}
@@ -381,7 +369,7 @@ focus_tree = {
 					}
 					add_building_construction = {
 						type = coastal_bunker
-						level = 4
+						level = 5
 						province = 6489
 						instant_build = yes
 					}
@@ -393,32 +381,26 @@ focus_tree = {
 					limit = { is_controlled_by = ROOT }
 					#Plymouth
 					add_building_construction = {
-						type = coastal_bunker
+						type = bunker
 						level = 5
 						province = 540
 						instant_build = yes
 					}
 					add_building_construction = {
-						type = bunker
-						level = 4
-						province = 540
-						instant_build = yes
-					}
-					add_building_construction = {
 						type = coastal_bunker
-						level = 4
+						level = 5
 						province = 3463
 						instant_build = yes
 					}
 					add_building_construction = {
 						type = coastal_bunker
-						level = 4
+						level = 5
 						province = 6526
 						instant_build = yes
 					}
 					add_building_construction = {
 						type = coastal_bunker
-						level = 4
+						level = 5
 						province = 3422
 						instant_build = yes
 					}
@@ -435,8 +417,14 @@ focus_tree = {
 					}
 					add_building_construction = {
 						type = bunker
-						level = 3
+						level = 5
 						province = 3369
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 5
+						province = 6221
 						instant_build = yes
 					}
 					add_building_construction = {
@@ -464,19 +452,19 @@ focus_tree = {
 					limit = { is_controlled_by = ROOT } 
 					add_building_construction = {
 						type = coastal_bunker
-						level = 3
+						level = 4
 						province = 11297
 						instant_build = yes
 					}
 					add_building_construction = {
 						type = coastal_bunker
-						level = 3
+						level = 4
 						province = 11317
 						instant_build = yes
 					}
 					add_building_construction = {
 						type = bunker
-						level = 3
+						level = 4
 						province = 11297
 						instant_build = yes
 					}
@@ -487,7 +475,7 @@ focus_tree = {
 					limit = { is_controlled_by = ROOT } 
 					add_building_construction = { 
 						type = coastal_bunker
-						level = 3 
+						level = 4 
 						province = 9250 
 						instant_build = yes 
 					}
@@ -498,7 +486,25 @@ focus_tree = {
 					limit = { is_controlled_by = ROOT } 
 					add_building_construction = { 
 						type = bunker
-						level = 3 
+						level = 5
+						province = 219 
+						instant_build = yes 
+					}
+				}
+				if = { 
+					limit = { is_controlled_by = ROOT } 
+					add_building_construction = { 
+						type = bunker
+						level = 5
+						province = 11332 
+						instant_build = yes 
+					}
+				}
+				if = { 
+					limit = { is_controlled_by = ROOT } 
+					add_building_construction = { 
+						type = bunker
+						level = 5
 						province = 351 
 						instant_build = yes 
 					}
@@ -507,7 +513,7 @@ focus_tree = {
 					limit = { is_controlled_by = ROOT } 
 					add_building_construction = { 
 						type = coastal_bunker
-						level = 3 
+						level = 4 
 						province = 351 
 						instant_build = yes 
 					}
@@ -516,7 +522,7 @@ focus_tree = {
 					limit = { is_controlled_by = ROOT } 
 					add_building_construction = { 
 						type = coastal_bunker
-						level = 3 
+						level = 4 
 						province = 11270 
 						instant_build = yes 
 					}
@@ -525,65 +531,91 @@ focus_tree = {
 					limit = { is_controlled_by = ROOT } 
 					add_building_construction = { 
 						type = coastal_bunker
-						level = 3 
+						level = 4 
 						province = 11299 
 						instant_build = yes 
 					}
 				}
+				
 			}
 			121 = { 
 				if = { 
 					limit = { is_controlled_by = ROOT } 
 					add_building_construction = { 
 						type = coastal_bunker
-						level = 3 
+						level = 4 
 						province = 6300 
 						instant_build = yes 
 					}
 					add_building_construction = { 
 						type = bunker
-						level = 3 
+						level = 4 
 						province = 6300 
 						instant_build = yes 
 					}
 					add_building_construction = { 
 						type = coastal_bunker
-						level = 3 
+						level = 4 
 						province = 9383 
 						instant_build = yes 
 					}
 					add_building_construction = { 
 						type = coastal_bunker
-						level = 3 
+						level = 4 
 						province = 3150 
 						instant_build = yes 
 					}
+					add_building_construction = {
+						type = bunker
+						level = 5
+						province = 9392
+						instant_build = yes
+					}
 				}
+				
+			}
+			133 = { 
+				if = { 
+					limit = { is_controlled_by = ROOT } 
+					add_building_construction = {
+						type = bunker
+						level = 5
+						province = 6320
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 5
+						province = 9237
+						instant_build = yes
+					}
+				}
+				
 			}
 			120 = { 
 				if = { 
 					limit = { is_controlled_by = ROOT } 
 					add_building_construction = { 
 						type = coastal_bunker
-						level = 3 
+						level = 4 
 						province = 11064 
 						instant_build = yes 
 					}
 					add_building_construction = { 
 						type = bunker
-						level = 3 
+						level = 4 
 						province = 11064 
 						instant_build = yes 
 					}
 					add_building_construction = { 
 						type = coastal_bunker
-						level = 3 
+						level = 4
 						province = 3159 
 						instant_build = yes 
 					}
 					add_building_construction = { 
 						type = coastal_bunker
-						level = 3 
+						level = 4 
 						province = 131 
 						instant_build = yes 
 					}
