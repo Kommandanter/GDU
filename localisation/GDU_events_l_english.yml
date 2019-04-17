@@ -249,7 +249,7 @@
  gduevents.18.a:0 "It's for their own protection!"
  
  gduevents.19.t:0 "The Battle of France"
- gduevents.19.d:0 "Germany has invaded the Benelux, and war--A real war--approaches.\n\nWe need to put up a fight and defend our homeland. Should we lose too quickly, our people's hope and faith in continued resistance will be extinguished.\n\n §RIf you do not survive for at least 35 days, you will not be able to access your France in Exile focus tree. Fight or perish.§!"
+ gduevents.19.d:0 "Germany has invaded the Benelux, and war--A real war--approaches.\n\nWe need to put up a fight and defend our homeland. Should we lose too quickly, our people's hope and faith in continued resistance will be extinguished.\n\n §RIf you do not survive for at least 30 days, you will not be able to access your France in Exile focus tree. Fight or perish.§!"
  gduevents.19.a:0 "I understand." 
  
  gduevents.20.t:0 "Resistance Prepared!" 

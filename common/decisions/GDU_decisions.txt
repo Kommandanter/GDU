@@ -117,7 +117,7 @@ operations = {
 			FRA = { has_capitulated = yes } 
 		}
 
-		days_mission_timeout = 35
+		days_mission_timeout = 30
 		fire_only_once = yes
 
 		activation = {
@@ -153,7 +153,7 @@ operations = {
 			FRA = { has_capitulated = yes } 
 		}
 
-		days_mission_timeout = 35
+		days_mission_timeout = 30
 		fire_only_once = yes
 
 		activation = {

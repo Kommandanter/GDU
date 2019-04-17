@@ -81,7 +81,7 @@ NDefines.NProduction.MIN_NAVAL_EQUIPMENT_CONVERSION_RESOURCE_COST_FACTOR = 0.5	-
 
 NDefines.NBuildings.ANTI_AIR_SUPERIORITY_MULT = 20.0	-- How much air superiority reduction to the enemy does our AA guns? Normally each building level = -1 reduction. With this multiplier.
 NDefines.NBuildings.MAX_SHARED_SLOTS = 50
-NDefines.NBuildings.INFRA_TO_SUPPLY = 2.3
+NDefines.NBuildings.INFRA_TO_SUPPLY = 2.5
 NDefines.NBuildings.INFRA_TO_SUPPLY_COEFF = 1 -- Testing, 1 in vanilla -- TW/WTT 
 NDefines.NBuildings.AIRBASE_CAPACITY_MULT = 100
 NDefines.NBuildings.DESTRUCTION_COOLDOWN_IN_WAR = 120
@@ -128,7 +128,7 @@ NDefines.NMilitary.MAX_AIR_EXPERIENCE = 1000
 NDefines.NMilitary.COMBAT_MINIMUM_TIME = 2
 NDefines.NMilitary.CHANCE_TO_AVOID_HIT_AT_NO_DEF = 50
 NDefines.NMilitary.LAND_COMBAT_STR_DAMAGE_MODIFIER = 0.07
-NDefines.NMilitary.LAND_COMBAT_ORG_DAMAGE_MODIFIER = 0.032
+NDefines.NMilitary.LAND_COMBAT_ORG_DAMAGE_MODIFIER = 0.03
 NDefines.NMilitary.LAND_COMBAT_ORG_ARMOR_DEFLECTION_FACTOR = 0.50 -- damage reduction if armor outclassing enemy, will look at increasing if AT is too deadly to org. 
 NDefines.NMilitary.LAND_COMBAT_ORG_ARMOR_ON_SOFT_DICE_SIZE = 6   -- extra damage dice if our armor outclasses enemy
 NDefines.NMilitary.LAND_COMBAT_STR_ARMOR_DEFLECTION_FACTOR = 0.4 -- damage reduction if armor outclassing enemy
@@ -152,7 +152,7 @@ NDefines.NMilitary.OVERSEAS_LOSE_EQUIPMENT_FACTOR = 1
 NDefines.NMilitary.ENCIRCLED_PENALTY = -0.4
 NDefines.NMilitary.MAX_OUT_OF_SUPPLY_DAYS = 20 -- Because 30 is too long. 
 NDefines.NMilitary.OUT_OF_SUPPLY_ATTRITION = 0.4                -- max attrition when out of supply
-NDefines.NMilitary.AIR_SUPPORT_BASE = 0.28
+NDefines.NMilitary.AIR_SUPPORT_BASE = 0.26
 NDefines.NMilitary.ENCIRCLED_DISBAND_MANPOWER_FACTOR = 0
 NDefines.NMilitary.ORG_LOSS_FACTOR_ON_CONQUER = 0.25
 NDefines.NMilitary.PLAYER_ORDER_PLANNING_DECAY = 0.01
@@ -184,8 +184,16 @@ NDefines.NMilitary.PROMOTE_LEADER_CP_COST = 500.0 -- CP is used for too many thi
 
 NDefines.NMilitary.FUEL_CAPACITY_DEFAULT_HOURS = 200               -- default capacity if not specified 
 
-NDefines.NMilitary.UNIT_DIGIN_CAP = 2.5
-NDefines.NMilitary.PLANNING_MAX = 0.25                           	-- can get more from techs
+NDefines.NMilitary.DECRYPTION_ADVANTAGE_BONUS = 0.025 -- Reducing all combat modifiers across the board
+NDefines.NMilitary.BASE_FORT_PENALTY = -0.12 					   -- fort penalty 
+NDefines.NMilitary.SHORE_BOMBARDMENT_CAP = 0.2
+
+
+
+--- Modifier Changes 
+																	-- Modifier changes 
+NDefines.NMilitary.UNIT_DIGIN_CAP = 2.0
+NDefines.NMilitary.PLANNING_MAX = 0.2                           	-- can get more from techs
 
 NDefines.NMilitary.ANTI_AIR_TARGETTING_TO_CHANCE = 0.01	-- Balancing value to determine the chance of ground AA hitting an attacking airplane, affecting both the effective average damage done by AA to airplanes, and the reduction of damage done by airplanes due to AA support
 NDefines.NMilitary.ANTI_AIR_ATTACK_TO_AMOUNT = 0.001				-- Balancing value to convert equipment stat anti_air_attack to the random % value of airplanes being hit.
@@ -204,8 +212,8 @@ NDefines.NAir.NAVAL_KAMIKAZE_DAMAGE_MULT = 5.0  -- vanilla is like 20
 NDefines.NAir.AA_INDUSTRY_AIR_DAMAGE_FACTOR = -0.12 -- -0.12 vanilla, per level AA state 
 NDefines.NAir.ANTI_AIR_MAXIMUM_DAMAGE_REDUCTION_FACTOR = 0.9 -- .75 Maximum damage reduction factor applied to incoming air attacks against units with AA.
 
-NDefines.NAir.NAVAL_COMBAT_EXTERNAL_PLANES_JOIN_RATIO = 0.1		-- Max planes that can join a combat comparing to the total strength of the ships 0.05-->0.13
-NDefines.NAir.NAVAL_COMBAT_EXTERNAL_PLANES_JOIN_RATIO_PER_DAY = 0.25 -- max extra plane % that can join every day 0.2 ---> 0.25 
+NDefines.NAir.NAVAL_COMBAT_EXTERNAL_PLANES_JOIN_RATIO = 0.07		-- Max planes that can join a combat comparing to the total strength of the ships 0.05-->0.13
+NDefines.NAir.NAVAL_COMBAT_EXTERNAL_PLANES_JOIN_RATIO_PER_DAY = 0.2 -- max extra plane % that can join every day 0.2 ---> 0.25 
 NDefines.NAir.NAVAL_COMBAT_EXTERNAL_PLANES_MIN_CAP = 20			-- Min cap for planes that can join naval combat 
 NDefines.NAir.DISRUPTION_FACTOR_CARRIER = 16.0							-- multiplier on disruption damage to scale its effects on carrier vs carrier planes
 
@@ -223,7 +231,7 @@ NDefines.NNavy.NAVAL_INVASION_PREPARE_HOURS = 72
 
 NDefines.NNavy.SHIP_TO_FLEET_ANTI_AIR_RATIO = 0.01 -- (0.2 -> 0.01) -- SilentLegion#1356, MTG 
 NDefines.NNavy.ANTI_AIR_POW_ON_INCOMING_AIR_DAMAGE = 0.8 -- (0.2 -> 0.75) -- SilentLegion#1356, MTG 
-NDefines.NNavy.ANTI_AIR_MULT_ON_INCOMING_AIR_DAMAGE = 0.04 -- (0.15 -> 0.04) -- These ones are a bit harder to explain but in essence it makes ship aa much more important and fleet aa less important. Low aa takes more damage and higher takes less, here's a spreadsheet to make it clearer what it does (should be editable so you can test some values yourself) -- SilentLegion#1356, MTG  https://docs.google.com/spreadsheets/d/1gILOpO6VzPlscVmSTEeHuEPUKPh2Y2_bQ2ky67gxUmI/edit?usp=sharing
+NDefines.NNavy.ANTI_AIR_MULT_ON_INCOMING_AIR_DAMAGE = 0.07 -- (0.15 -> 0.04) -- These ones are a bit harder to explain but in essence it makes ship aa much more important and fleet aa less important. Low aa takes more damage and higher takes less, here's a spreadsheet to make it clearer what it does (should be editable so you can test some values yourself) -- SilentLegion#1356, MTG  https://docs.google.com/spreadsheets/d/1gILOpO6VzPlscVmSTEeHuEPUKPh2Y2_bQ2ky67gxUmI/edit?usp=sharing
 NDefines.NNavy.MAX_ANTI_AIR_REDUCTION_EFFECT_ON_INCOMING_AIR_DAMAGE = 0.75 -- (0.5 -> 0.75) -- SilentLegion#1356, MTG 
 NDefines.NNavy.BASE_GUN_COOLDOWNS = { -- doubled the cooldown of guns to make battles last longer and give ships time to escape -- SilentLegion#1356, MTG 
         2.0,    -- big guns

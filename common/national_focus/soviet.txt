@@ -388,21 +388,129 @@ focus_tree = {
 		cancel_if_invalid = no
 		continue_if_invalid = yes
 		completion_reward = {
+			custom_effect_tooltip = SOV_defense_of_moscow_capitalmove
 			swap_ideas = { 
 				remove_idea = SOV_industrial_relocations
 				add_idea = SOV_war_for_communism
 			}
+			custom_effect_tooltip = GDU_spacer 
+			hidden_effect = {
+				if = { 
+					limit = { 251 = { is_controlled_by = ROOT } } 
+					set_capital = 251 
+				}
+				251 = { 
+					if = { 
+						limit = { 251 = { is_controlled_by = ROOT } }  
+						add_building_construction = {
+							type = infrastructure 
+							level = 5
+							instant_build = yes
+						}
+					}
+				}
+				401 = { 
+					if = { 
+						limit = { 401 = { is_controlled_by = ROOT } }  
+						add_building_construction = {
+							type = infrastructure 
+							level = 3
+							instant_build = yes
+						}
+					}
+				}
+				652 = { 
+					if = { 
+						limit = { 652 = { is_controlled_by = ROOT } }  
+						add_building_construction = {
+							type = infrastructure 
+							level = 3
+							instant_build = yes
+						}
+					}
+				}
+				239 = { 
+					if = { 
+						limit = { 239 = { is_controlled_by = ROOT } }  
+						add_building_construction = {
+							type = infrastructure 
+							level = 2
+							instant_build = yes
+						}
+					}
+				}
+				249 = { 
+					if = { 
+						limit = { 249 = { is_controlled_by = ROOT } }  
+						add_building_construction = {
+							type = infrastructure 
+							level = 2
+							instant_build = yes
+						}
+					}
+				}
+				256 = { 
+					if = { 
+						limit = { 256 = { is_controlled_by = ROOT } }  
+						add_building_construction = {
+							type = infrastructure 
+							level = 2
+							instant_build = yes
+						}
+					}
+				}
+				250 = { 
+					if = { 
+						limit = { 250 = { is_controlled_by = ROOT } }  
+						add_building_construction = {
+							type = infrastructure 
+							level = 2
+							instant_build = yes
+						}
+					}
+				}
+				351 = { 
+					if = { 
+						limit = { 351 = { is_controlled_by = ROOT } }  
+						add_building_construction = {
+							type = infrastructure 
+							level = 2
+							instant_build = yes
+						}
+					}
+				}
+				255 = { 
+					if = { 
+						limit = { 255 = { is_controlled_by = ROOT } }  
+						add_building_construction = {
+							type = infrastructure 
+							level = 2
+							instant_build = yes
+						}
+					}
+				}
+				352 = { 
+					if = { 
+						limit = { 352 = { is_controlled_by = ROOT } }  
+						add_building_construction = {
+							type = infrastructure 
+							level = 2
+							instant_build = yes
+						}
+					}
+				}
+			}		
 			add_ideas = georgy_zhukov_CoA
 			add_ideas = general_winter_idea
+			custom_effect_tooltip = GDU_spacer 
 			add_tech_bonus = {
 				name = armor_bonus
 				bonus = 2.00 
 				category = land_doctrine
 				uses = 2 
 			}
-
 			219 = {
-				custom_effect_tooltip = SOV_defense_of_moscow_forts
+				custom_effect_tooltip = SOV_defense_of_moscow_forts_GDU
 				hidden_effect = {
 					add_building_construction = {
 						type = bunker
@@ -484,23 +592,22 @@ focus_tree = {
 					}
 				}
 			}
-		}
-				completion_reward = {
-			custom_effect_tooltip = GDU_defense_of_moscow_tt
-			hidden_effect = {
+		custom_effect_tooltip = GDU_spacer
+		custom_effect_tooltip = GDU_defense_of_moscow_tt 
+		hidden_effect = {
 			create_field_marshal = {
-		name = "Georgy Zhukov"
-		id = 410
-			picture = "Portrait_Soviet_Gregory_Zhukov.dds"
-		traits = { winter_specialist armor_officer media_personality brilliant_strategist harsh_leader politically_connected panzer_leader trait_engineer}
-		skill = 6
+				name = "Georgy Zhukov"
+				id = 410
+				picture = "Portrait_Soviet_Gregory_Zhukov.dds"
+				traits = { winter_specialist armor_officer media_personality brilliant_strategist harsh_leader politically_connected panzer_leader trait_engineer}
+				skill = 6
 
 	
-		attack_skill = 6
-		defense_skill = 4
-		planning_skill = 4
-		logistics_skill = 5
-		}
+				attack_skill = 6
+				defense_skill = 4
+				planning_skill = 4
+				logistics_skill = 5
+			}
 		
 		create_field_marshal = {
 		name = "Boris Shaposhnikov"
@@ -602,9 +709,11 @@ focus_tree = {
 		logistics_skill = 8
 		}
 
-			}
+	
 		}
 	}
+	
+}
 
 	focus = {
 		id = SOV_defense_of_stalingrad
@@ -667,10 +776,10 @@ focus_tree = {
 		name = "Konstantin Rokossovsky"
 		id = 402
 			picture = "Portrait_Soviet_Konstantin_Rokossovsky.dds"
-		traits = {  armor_officer trait_cautious brilliant_strategist harsh_leader panzer_leader  war_hero}
+		traits = {  armor_officer panzer_leader trait_cautious brilliant_strategist harsh_leader trickster panzer_expert winter_specialist expert_improviser trait_engineer war_hero}
 		skill = 6
 	
-		attack_skill = 5
+		attack_skill = 6
 		defense_skill = 5
 		planning_skill = 5
 		logistics_skill = 3

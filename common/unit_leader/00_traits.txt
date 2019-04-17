@@ -78,30 +78,30 @@ leader_traits = {
 		planning_skill = 1
 		modifier = {
 			desert = {
-				movement = 0.05
+				movement = 0.025
 			}
 			hills = {
-				movement = 0.05
+				movement = 0.025
 			}
 			forest = {
-				movement = 0.05
+				movement = 0.025
 			}
 			mountain = {
-				movement = 0.05
+				movement = 0.025
 			}
 			plains = {
-				movement = 0.05
+				movement = 0.025
 			}
 			urban = {
-				movement = 0.05
+				movement = 0.025
 			}
 			jungle = {
-				movement = 0.05
+				movement = 0.025
 			}
 			marsh = {
-				movement = 0.05
+				movement = 0.025
 			}
-			army_defence_factor = -0.05
+			army_defence_factor = -0.025
 		}	
 	
 		override_effect_tooltip = brilliant_strategist_GDU
@@ -220,10 +220,10 @@ leader_traits = {
 		modifier = {		
 			planning_speed = 0.20
 			wounded_chance_factor = 0.5  # +50% chance to get wounded
-			army_attack_factor = 0.075
-			out_of_supply_factor = 0.15
-			supply_consumption_factor = 0.05
-			equipment_capture = 0.05
+			army_attack_factor = 0.05
+			out_of_supply_factor = 0.1
+			supply_consumption_factor = 0.04
+			equipment_capture = 0.04
 			max_planning = -0.1
 			
 		}
@@ -399,7 +399,7 @@ leader_traits = {
 		}
 		cost = 1000
 		field_marshal_modifier = {
-			org_loss_when_moving = -0.05
+			org_loss_when_moving = -0.35
 			planning_speed = 0.10
 			#offence = 0.05
 		}
@@ -420,7 +420,7 @@ leader_traits = {
 		}
 		cost = 1000
 		field_marshal_modifier = {
-			max_dig_in_factor = 0.15
+			max_dig_in_factor = 0.2
 			dig_in_speed_factor = 0.1 
 		}
 		
@@ -511,7 +511,6 @@ leader_traits = {
 		}
 		field_marshal_modifier = {		
 			army_attack_factor = 0.05
-			max_planning = 0.075
 		}
 		custom_effect_tooltip = INCREASED_ASSAULT_AND_SHOCK_CHANCE
 		ai_will_do = {
@@ -601,9 +600,9 @@ leader_traits = {
 	cavalry_leader = { 
 		type = corps_commander	
 		modifier = {
-			motorized_defence_factor = 0.1
-			mechanized_defence_factor = 0.1
-			cavalry_defence_factor = 0.1
+			motorized_defence_factor = 0.05
+			mechanized_defence_factor = 0.05
+			cavalry_defence_factor = 0.05
 		}
 		
 		ai_will_do = {
@@ -616,7 +615,7 @@ leader_traits = {
 	infantry_leader = { 
 		type = corps_commander
 		modifier = {
-			army_infantry_defence_factor = 0.1
+			army_infantry_defence_factor = 0.075
 		}
 		
 		ai_will_do = {
@@ -736,10 +735,10 @@ leader_traits = {
 		cost = 700
 		modifier = {
 			river = {
-				attack = 0.1
+				attack = 0.075
 			}
 			fort = {
-                attack = 0.1
+                attack = 0.075
             }
 		}
 		
@@ -755,7 +754,7 @@ leader_traits = {
  		type = corps_commander
 		modifier = {
 			army_armor_speed_factor = 0.025
-			army_armor_attack_factor = 0.1 
+			army_armor_attack_factor = 0.06
 			motorized_attack_factor = 0.05
 			mechanized_attack_factor = 0.05
 		}
@@ -785,9 +784,8 @@ leader_traits = {
  		type = corps_commander
 		modifier = {
 			desert = {
-				movement = 0.05
-				attack = 0.1
-				defence = 0.1
+				attack = 0.05
+				defence = 0.05
 			}
 		}
 		
@@ -927,7 +925,7 @@ leader_traits = {
 		}
 		cost = 1000
 		modifier = {
-			army_armor_defence_factor = 0.15 
+			army_armor_defence_factor = 0.10
 			motorized_defence_factor = 0.05
 			mechanized_defence_factor = 0.05
 		}
@@ -954,9 +952,9 @@ leader_traits = {
 		}
 		cost = 500
 		modifier = {
-			army_armor_attack_factor = 0.05
-			motorized_defence_factor = 0.15
-			mechanized_defence_factor = 0.15
+			army_armor_defence_factor = 0.05
+			motorized_defence_factor = 0.10
+			mechanized_defence_factor = 0.10
 		}
 		
 		custom_effect_tooltip = INCREASED_BLITZ_AND_ENCIRCLEMENT_CHANCE
@@ -983,9 +981,9 @@ leader_traits = {
 		}
 		cost = 500
 		modifier = {
-			cavalry_attack_factor = 0.10
-			motorized_attack_factor = 0.1
-			mechanized_attack_factor = 0.1
+			cavalry_attack_factor = 0.05
+			motorized_attack_factor = 0.05
+			mechanized_attack_factor = 0.05
 
 		}
 		
@@ -1030,7 +1028,7 @@ leader_traits = {
 		}
 		cost = 500
 		modifier = {
-			equipment_capture = 0.1
+			equipment_capture = 0.06
 		}
 		
 		ai_will_do = {
@@ -1051,7 +1049,7 @@ leader_traits = {
 		}
 		cost = 500
 		modifier = {
-			army_infantry_attack_factor = 0.1
+			army_infantry_attack_factor = 0.075
 		}
 		
 		ai_will_do = {
@@ -1072,7 +1070,7 @@ leader_traits = {
 		}
 		cost = 500
 		modifier = {
-			max_dig_in = 5
+			max_dig_in = 2.5
 			recon_factor_while_entrenched = 0.25
 		}
 		
@@ -2143,8 +2141,7 @@ leader_traits = {
 		type = all
 		trait_type = status_trait
 		modifier = {
-			army_speed_factor = 0.075
-			army_morale_factor = 0.075 
+			army_morale_factor = 0.15 
 		}
 	}
 	
