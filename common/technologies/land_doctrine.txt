@@ -2341,7 +2341,7 @@ technologies = {
 		max_planning = 0.20
 		land_reinforce_rate = 0.13
 		category_all_infantry = {
-			max_organisation = 2
+			max_organisation = 6
 			default_morale = 0.15
 		}
 		category_light_infantry = {
