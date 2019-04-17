@@ -2248,15 +2248,15 @@ technologies = {
 		
 		artillery_brigade = { 
 			default_morale = 0.05
-			max_strength = 12
+			max_strength = 14
 		}
 		anti_air_brigade = { 
 			default_morale = 0.05
-			max_strength = 6
+			max_strength = 7
 		}
 		anti_tank_brigade = { 
 			default_morale = 0.05
-			max_strength = 6 
+			max_strength = 7 
 		}
 
 		enable_tactic = tactic_relentless_assault
@@ -2387,9 +2387,8 @@ technologies = {
 		xp_research_bonus = 0.5
 		
 		artillery_brigade = { 
-			soft_attack = 0.05
-			max_organisation = 5
-			default_morale = 0.10
+			max_organisation = 4
+			default_morale = 0.05
 		}
 		anti_air_brigade = { 
 			max_organisation = 2
@@ -2503,12 +2502,12 @@ technologies = {
 		mechanized = {
 			max_organisation = 15
 			default_morale = 0.05
-			max_strength = 2.5
+			max_strength = 3
 		}
 		motorized = {
 			max_organisation = 15
 			default_morale = 0.05
-			max_strength = 2.5
+			max_strength = 3
 		}
 
 		path = {
