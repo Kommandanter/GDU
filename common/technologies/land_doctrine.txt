@@ -2499,10 +2499,12 @@ technologies = {
 		mechanized = {
 			max_organisation = 15
 			default_morale = 0.05
+			max_strength = 2.5
 		}
 		motorized = {
 			max_organisation = 15
 			default_morale = 0.05
+			max_strength = 2.5
 		}
 
 		path = {
