@@ -784,8 +784,8 @@ leader_traits = {
  		type = corps_commander
 		modifier = {
 			desert = {
-				attack = 0.05
-				defence = 0.05
+				attack = 0.04
+				defence = 0.04
 			}
 		}
 		
@@ -801,8 +801,8 @@ leader_traits = {
 		modifier = {
 			marsh = {
 				movement = 0.05
-				attack = 0.1
-				defence = 0.1
+				attack = 0.08
+				defence = 0.08
 			}
 		}
 		
@@ -818,8 +818,8 @@ leader_traits = {
 		modifier = {
 			mountain = {
 				movement = 0.05
-				attack = 0.1
-				defence = 0.1
+				attack = 0.08
+				defence = 0.08
 			}
 		}
 		
@@ -835,8 +835,8 @@ leader_traits = {
 		modifier = {
 			hills = {
 				movement = 0.05
-				attack = 0.1
-				defence = 0.1
+				attack = 0.08
+				defence = 0.08
 			}
 		}
 		
@@ -852,8 +852,8 @@ leader_traits = {
 		modifier = {
 			jungle = {
 				movement = 0.05
-				attack = 0.1
-				defence = 0.1
+				attack = 0.08
+				defence = 0.08
 			}
 		}
 		
@@ -869,8 +869,8 @@ leader_traits = {
 		modifier = {
 			forest = {
 				movement = 0.05
-				attack = 0.1
-				defence = 0.1
+				attack = 0.08
+				defence = 0.08
 			}
 		}
 		
@@ -886,8 +886,8 @@ leader_traits = {
 		modifier = {
 			urban = {
 				movement = 0.05
-				attack = 0.1
-				defence = 0.1
+				attack = 0.08
+				defence = 0.08
 			}
 		}
 		
