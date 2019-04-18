@@ -7,7 +7,7 @@ guiTypes = {
 			name = "open_ws"
 			quadTextureSprite = "GFX_gdu_welcome_screen_btn"
 			pdx_tooltip = "GDU_WS_OPEN_TT"
-			position = { x = 420 y = 3 }
+			position = { x = 420 y = 250 }
 		}
 	}
 
