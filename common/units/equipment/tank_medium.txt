@@ -166,7 +166,7 @@ equipments = {
 		
 		resources = {
 			#oil = 1
-			tungsten = 3
+			tungsten = 2
 			steel = 2
 		}
 		fuel_consumption = 1.8
@@ -213,7 +213,7 @@ equipments = {
 		
 		resources = {
 			steel = 3
-			tungsten = 3
+			tungsten = 2
 			#oil = 1
 		}
 	}
@@ -247,7 +247,7 @@ equipments = {
 		
 		resources = {
 			steel = 4
-			tungsten = 3
+			tungsten = 2
 			#oil = 2
 		}
 	}
@@ -295,7 +295,7 @@ equipments = {
 		
 		resources = {
 			#oil = 1
-			tungsten = 4
+			tungsten = 2
 			steel = 2
 		}
 		fuel_consumption = 1.8
@@ -345,7 +345,7 @@ equipments = {
 		
 		resources = {
 			#oil = 1
-			tungsten = 4
+			tungsten = 2
 			steel = 3
 		}		
 	}
@@ -381,7 +381,7 @@ equipments = {
 		
 		resources = {
 			#oil = 2
-			tungsten = 4
+			tungsten = 2
 			steel = 4
 		}
 	}
@@ -430,7 +430,7 @@ equipments = {
 		
 		resources = {
 			#oil = 1
-			tungsten = 3
+			tungsten = 2
 			steel = 2
 		}
 		fuel_consumption = 0.9
@@ -480,7 +480,7 @@ equipments = {
 		
 		resources = {
 			#oil = 1
-			tungsten = 3
+			tungsten = 2
 			steel = 3
 		}
 	}
@@ -516,7 +516,7 @@ equipments = {
 		
 		resources = {
 			#oil = 2
-			tungsten = 3
+			tungsten = 2
 			steel = 4
 		}		
 	}

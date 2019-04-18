@@ -495,7 +495,7 @@ instant_effect = {
 		efficiency = 50
 	}
 
-		add_equipment_production = {
+	add_equipment_production = {
 		equipment = {
 			type = motorized_equipment_1
 			creator = "ENG"
@@ -504,8 +504,16 @@ instant_effect = {
 		progress = 0.4
 		efficiency = 50
 	}
-
-
+	
+	add_equipment_production = {
+		equipment = {
+			type = anti_air_equipment_1
+			creator = "ENG"
+		}
+		requested_factories = 1
+		progress = 0.3
+		efficiency = 50
+	}
 
 
 	add_equipment_production = {
@@ -514,8 +522,18 @@ instant_effect = {
 			creator = "ENG"
 			version_name = "Hurricane 109 B"
 		}
-		requested_factories = 1
+		requested_factories = 2
 		progress = 0.15
+		efficiency = 50
+	}
+	
+	add_equipment_production = {
+		equipment = {
+			type = CAS_equipment_1
+			creator = "ENG" 
+		}
+		requested_factories = 2
+		progress = 0.2
 		efficiency = 50
 	}
 
