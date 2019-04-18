@@ -259,7 +259,7 @@ focus_tree = {
 		icon = GFX_focus_eng_imperial_federation
 		x = 26
 		y = 0
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}	
