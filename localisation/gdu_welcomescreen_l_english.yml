@@ -5,7 +5,7 @@ GDU_WS_TAB_1:0 "Country Intro"
 GDU_WS_TAB_2:0 "Suggested Build"
 GDU_WS_TAB_3:0 "Tips and Tricks"
 GDU_WS_TAB_4:0 "GDU Mechanics Changes"
-GDU_WS_TAB_1_HEADER:0 "The Nation of [Root.GetNameDef]"
+GDU_WS_TAB_1_HEADER:0 "[Root.GetNameDef]"
 GDU_WS_TAB_2_HEADER:0 "Building [Root.GetNameDef]"
 
 GDU_WS_TAB_1_TXT:0 "[Root.GetCountryIntro]"
