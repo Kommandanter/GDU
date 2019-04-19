@@ -4,7 +4,11 @@ state={
 	manpower = 667036
 	
 	state_category = wasteland
-
+	
+	resources={
+		rubber=10
+	}
+	
 	history={
 		owner = SOV
 		buildings = {

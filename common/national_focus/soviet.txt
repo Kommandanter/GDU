@@ -204,6 +204,12 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
+			add_tech_bonus = {
+				name = GER_four_year_plan
+				bonus = 0.5 
+				uses = 1
+				technology = construction2
+			}
 			random_owned_controlled_state = {
 				limit = {
 					industrial_complex > 0
@@ -1055,7 +1061,7 @@ focus_tree = {
 			add_political_power = 150
 			add_resource = {
 				type = rubber
-				amount = 20
+				amount = 10
 				state = 404
 			}
 		}
@@ -1281,7 +1287,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = air_bonus
 				bonus = 1.25
-				ahead_reduction = 0.25
+				ahead_reduction = 0.5
 				uses = 1
 				technology = fighter2
 			}

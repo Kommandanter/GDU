@@ -556,13 +556,13 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 0.5
+		research_cost = 1
 
 		start_year = 1936
 		
 		folder = {
 			name = artillery_folder
-			position = { x = -3 y = 2 }
+			position = { x = -3 y = 0 }
 		}
 		
 		ai_will_do = {
@@ -593,30 +593,30 @@ technologies = {
 	antiair1 = {
 
 		anti_air = {
-			air_attack = 0.1
+			air_attack = 0.08
 		}
 		anti_air_brigade = {
-			air_attack = 0.1
+			air_attack = 0.08
 		}
 		mot_anti_air_brigade = {
-			air_attack = 0.1
+			air_attack = 0.08
 		}
 
-		industry_air_damage_factor = -0.20
-		tech_air_damage_factor = -0.02
+		industry_air_damage_factor = -0.15
+		tech_air_damage_factor = -0.015
 		
 		path = {
 			leads_to_tech = antiair2
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 0.5
+		research_cost = 0.75 
 
-		start_year = 1939
+		start_year = 1936
 		
 		folder = {
 			name = artillery_folder
-			position = { x = -3 y = 4 }
+			position = { x = -3 y = 2 }
 		}
 		
 		ai_will_do = {
@@ -648,6 +648,45 @@ technologies = {
 		
 		research_cost = 1
 
+		start_year = 1939
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -3 y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			cat_antiair
+			artillery
+		}
+	}
+	
+	antiair3 = {
+
+		anti_air = {
+			air_attack = 0.08
+		}
+		anti_air_brigade = {
+			air_attack = 0.08
+		}
+		mot_anti_air_brigade = {
+			air_attack = 0.08
+		}
+		
+		industry_air_damage_factor = -0.15
+		tech_air_damage_factor = -0.015
+
+		path = {
+			leads_to_tech = antiair3_5
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 0.75 
+
 		start_year = 1940
 		
 		folder = {
@@ -665,27 +704,27 @@ technologies = {
 		}
 	}
 	
-	antiair3 = {
-
+	antiair3_5 = {
+		
 		anti_air = {
-			air_attack = 0.1
+			air_attack = 0.08
 		}
 		anti_air_brigade = {
-			air_attack = 0.1
+			air_attack = 0.08
 		}
 		mot_anti_air_brigade = {
-			air_attack = 0.1
+			air_attack = 0.08
 		}
-		
-		industry_air_damage_factor = -0.20
-		tech_air_damage_factor = -0.02
 
+		industry_air_damage_factor = -0.15
+		tech_air_damage_factor = -0.015
+		
 		path = {
 			leads_to_tech = antiair4
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1
+		research_cost = 0.75 
 
 		start_year = 1941
 		
@@ -707,24 +746,24 @@ technologies = {
 	antiair4 = {
 
 		anti_air = {
-			air_attack = 0.1
+			air_attack = 0.08
 		}
 		anti_air_brigade = {
-			air_attack = 0.1
+			air_attack = 0.08
 		}
 		mot_anti_air_brigade = {
-			air_attack = 0.1
+			air_attack = 0.08
 		}
 
-		industry_air_damage_factor = -0.20
-		tech_air_damage_factor = -0.02
+		industry_air_damage_factor = -0.15
+		tech_air_damage_factor = -0.015
 		
 		path = {
 			leads_to_tech = antiair5
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1
+		research_cost = 0.75
 
 		start_year = 1942
 		
@@ -785,13 +824,13 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 0.5
+		research_cost = 1
 
 		start_year = 1936
 		
 		folder = {
 			name = artillery_folder
-			position = { x = 7 y = 2 }
+			position = { x = 7 y = 0 }
 		}
 		
 		ai_will_do = {
@@ -822,13 +861,13 @@ technologies = {
 	antitank1 = {
 
 		anti_tank = {
-			hard_attack = 0.1
+			hard_attack = 0.08 
 		}
 		anti_tank_brigade = {
-			hard_attack = 0.1	
+			hard_attack = 0.08
 		}
 		mot_anti_tank_brigade = {
-			hard_attack = 0.1	
+			hard_attack = 0.08	
 		}
 		
 		path = {
@@ -836,13 +875,13 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 0.5
+		research_cost = 0.75 
 
-		start_year = 1939
+		start_year = 1936
 		
 		folder = {
 			name = artillery_folder
-			position = { x = 7 y = 4 }
+			position = { x = 7 y = 2 }
 		}
 		
 		ai_will_do = {
@@ -887,11 +926,11 @@ technologies = {
 		
 		research_cost = 1
 
-		start_year = 1940
+		start_year = 1939
 		
 		folder = {
 			name = artillery_folder
-			position = { x = 7 y = 6 }
+			position = { x = 7 y = 4 }
 		}
 		
 		ai_will_do = {
@@ -922,13 +961,64 @@ technologies = {
 	antitank3 = {
 
 		anti_tank = {
-			hard_attack = 0.1
+			hard_attack = 0.08
 		}
 		anti_tank_brigade = {
-			hard_attack = 0.1
+			hard_attack = 0.08
 		}
 		mot_anti_tank_brigade = {
-			hard_attack = 0.1
+			hard_attack = 0.08
+		}
+		
+		path = {
+			leads_to_tech = antitank3_5
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1
+
+		start_year = 1940
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 7 y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				date > "1941.1.6"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1942.1.1"
+			}
+			
+			modifier = {
+				factor = 5
+				date > "1943.1.1"
+			}
+		}
+		
+		categories = {
+			artillery
+			cat_anti_tank
+		}
+	}
+	
+	antitank3_5 = {
+
+		anti_tank = {
+			hard_attack = 0.08
+		}
+		anti_tank_brigade = {
+			hard_attack = 0.08
+		}
+		mot_anti_tank_brigade = {
+			hard_attack = 0.08
 		}
 		
 		path = {
@@ -973,13 +1063,13 @@ technologies = {
 	antitank4 = {
 
 		anti_tank = {
-			hard_attack = 0.1
+			hard_attack = 0.08
 		}
 		anti_tank_brigade = {
-			hard_attack = 0.1
+			hard_attack = 0.08
 		}
 		mot_anti_tank_brigade = {
-			hard_attack = 0.1
+			hard_attack = 0.08
 		}
 	
 		path = {

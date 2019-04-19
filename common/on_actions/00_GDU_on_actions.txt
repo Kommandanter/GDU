@@ -605,15 +605,6 @@ on_actions = {
 					
 				}
 				
-				EFR = { 
-					give_military_access = GER 
-					give_military_access = ITA 
-					give_military_access = HUN 
-					give_military_access = ROM 
-					give_military_access = BUL 
-					give_military_access = SPR 
-				}
-				
 				if = {
 						limit = {
 						AND = {

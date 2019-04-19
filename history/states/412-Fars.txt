@@ -23,9 +23,7 @@ state={
 			7982 = {
 				naval_base = 2
 			}
-			12832 = {
-				naval_base = 2
-			}
+
 		}
 		add_core_of = PER
 	}

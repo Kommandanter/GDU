@@ -1667,7 +1667,7 @@ country_event = {
 		add_tech_bonus = {
 			name = med_armor_bonus
 			ahead_reduction = 2
-			technology = basic_medium_tank
+			bonus = 1.00 
 			technology = improved_medium_tank
 		}
 		add_tech_bonus = {
@@ -1675,7 +1675,6 @@ country_event = {
 			bonus = 1.00 
 			uses = 1
 			technology = basic_medium_tank
-			technology = improved_medium_tank
 		}
 	}
 

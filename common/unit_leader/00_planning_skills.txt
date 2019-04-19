@@ -105,7 +105,7 @@ leader_planning_skills = {
 		cost = 200
 		type = corps_commander
 		modifier = {
-			planning_speed = 0.6
+			planning_speed = 0.06
 			max_planning = 0.07
 		}
 	}
@@ -115,7 +115,7 @@ leader_planning_skills = {
 		cost = 400
 		type = corps_commander
 		modifier = {
-			planning_speed = 0.9
+			planning_speed = 0.09
 			max_planning = 0.105
 		}
 	}

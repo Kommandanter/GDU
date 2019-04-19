@@ -32,4 +32,7 @@
     etat_folder:0 "Special Forces"
     etat_folder_desc:0 "Special Forces Training"
 	
-    GDU_defense_in_depth_tt:0 "All infantry & Mot/Mech:\n Organization: §G+5§!\n HP: §G+5§!\n Entrenchment Speed: §G+30%§!\n Max Entrenchment: §G+5§!"   
+    GDU_defense_in_depth_tt:0 "All infantry & Mot/Mech:\n Organization: §G+5§!\n HP: §G+5§!\n Entrenchment Speed: §G+30%§!\n Max Entrenchment: §G+5§!" 
+    antiair3_5:0 "Improved Anti-Air Upgrade II" 
+    antitank3_5:0 "Improved Anti-Tank Upgrade II" 
+	

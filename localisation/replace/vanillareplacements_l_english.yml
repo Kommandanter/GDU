@@ -89,3 +89,6 @@
  BATTLEFIELD_SUPPORT_DESC:0 "The fundamentals of dogfighting are vital for any modern airforce to grasp." 
  TITLE_OPERATIONAL_INTEGRITY:0 "Battlefield Support"
  BATTLEFIELD_SUPPORT_DESC:0 "By improving how close air support interacts with divisions we can lay waste to the enemy with optimal speed."
+ 
+ antiair4:0 "Improved Anti-Air Upgrade III" 
+ antitank4:0 "Improved Anti-Tank Upgrade III" 

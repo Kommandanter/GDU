@@ -709,7 +709,8 @@ focus_tree = {
 			add_tech_bonus = {
 				name = armor_effort
 				bonus = 1.00 
-				uses = 2
+				ahead_reduction = 0.5 
+				uses = 1
 				category = armor 
 				category = cat_mechanized_equipment
 			}
@@ -775,6 +776,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = fighter_bonus
 				bonus = 1.00 
+				ahead_reduction = 0.5 
 				uses = 1
 				technology = early_fighter
 				technology = fighter1

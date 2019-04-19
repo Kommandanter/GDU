@@ -1415,6 +1415,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = FRA_armor
 				bonus = 1.00 
+				ahead_reduction = 0.5 
 				uses = 1
 				category = armor
 			}

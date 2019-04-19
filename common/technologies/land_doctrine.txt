@@ -2338,10 +2338,10 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 0.5
 
-		max_planning = 0.20
+		max_planning = 0.15
 		land_reinforce_rate = 0.13
 		category_all_infantry = {
-			max_organisation = 6
+			max_organisation = 5
 			default_morale = 0.15
 		}
 		category_light_infantry = {

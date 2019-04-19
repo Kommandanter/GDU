@@ -312,9 +312,15 @@ focus_tree = {
 			}
 			add_tech_bonus = {
 				name = GER_four_year_plan
-				bonus = 1.00 
-				uses = 2
-				category = construction_tech
+				bonus = 1.5 
+				uses = 1
+				technology = construction3
+			}
+			add_tech_bonus = {
+				name = GER_four_year_plan
+				bonus = 1.5
+				uses = 1
+				technology = construction4
 			}
 			add_ideas = GER_autarky_idea
 		}
@@ -1336,7 +1342,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = air_bonus
 				bonus = 0.25
-				ahead_reduction = 0.25
+				ahead_reduction = 0.5
 				uses = 1
 				technology = fighter2
 			}
