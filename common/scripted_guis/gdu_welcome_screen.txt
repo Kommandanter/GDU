@@ -22,6 +22,28 @@ scripted_gui = {
 		}
 	}
 
+	gdu_menu_welcome_screen_toggle = {
+		context_type = player_context
+		parent_window_name = "ingamemenu"
+		window_name = "gdu_menu_welcome_screen_toggle"
+
+		visible = {
+			is_ai = no
+		}
+
+		effects = {
+			open_ws_click = {
+				if = {
+					limit = { NOT = { has_variable = gdu_welcome_screen } }
+					set_variable = { gdu_welcome_screen = 1 }
+				}
+				else = {
+					clear_variable = gdu_welcome_screen
+				}
+			}
+		}
+	}
+
 	gdu_welcome_screen = {
 		context_type = player_context
 

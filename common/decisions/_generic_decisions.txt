@@ -1,5 +1,25 @@
-political_actions = {
+welcome_toggle = {
+	toggle_welcome_screen = {
+		icon = generic_civil_support
 
+		ai_will_do = {
+			base = 0
+		}
+
+		complete_effect = {
+			if = {
+				limit = { NOT = { has_variable = gdu_welcome_screen } }
+				set_variable = { gdu_welcome_screen = 1 }
+			}
+			else = {
+				clear_variable = gdu_welcome_screen
+			}
+		}
+	}
+}
+
+
+political_actions = {
 	targeted_race_for_the_bomb = {
 
 		icon = generic_research

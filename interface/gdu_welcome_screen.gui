@@ -12,6 +12,23 @@ guiTypes = {
 	}
 
 	containerWindowType = {
+		name = "gdu_menu_welcome_screen_toggle"
+		position = {  x = 0 y = 0 }
+		
+
+		buttonType = {
+			name = "open_ws"
+			quadTextureSprite ="GFX_main_lobby_button"	
+			buttonText = "GDU_WS_OPEN_TT"
+			position = { x = 16 y = 258 }
+			buttonFont = "hoi_24header"
+			clicksound = click_default
+			oversound = ui_menu_over
+		}
+		
+	}
+
+	containerWindowType = {
 		name = "gdu_welcome_screen_container"
 		size = { width = 1167 height = 675}
 		position = { x=-583 y=-297 }

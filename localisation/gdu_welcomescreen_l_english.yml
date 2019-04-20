@@ -1,4 +1,7 @@
 ﻿l_english:
+welcome_toggle:0 "Welcome Screen Toggle"
+toggle_welcome_screen:0 "Toggle the Welcome Screen"
+
 GDU_WS_OPEN_TT:0 "Open the Welcome Screen"
 GDU_WS_HEADER:0 "Welcome to Götterdämmerung!"
 GDU_WS_TAB_1:0 "Country Intro"
@@ -12,7 +15,7 @@ GDU_WS_TAB_1_TXT:0 "[Root.GetCountryIntro]"
 GDU_WS_TAB_1_header:0 "[Root.GetCountryQuote]"
 GDU_WS_TAB_2_TXT:0 "[Root.GetCountryBuild]"
 
-#These nations have extra-long descriptions and need
+#These nations have extra-long descriptions and need their own slider
 GDU_WS_GER_desc:0 "This is special text for Germany!"
 
 GDU_WS_FIN_header:0 "\"Our country is so small, and they are so many. Where will we find room to bury them all?\""
