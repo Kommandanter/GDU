@@ -2234,9 +2234,9 @@ focus_tree = {
 			} # REVISIT May use modifier?
 			add_tech_bonus = {
 				name = USA_fighter_bonus
-				uses = 1
-				bonus = 0.75
-				technology = cv_fighter2
+				ahead_reduction = 0.5 
+				bonus = 0.25 
+				technology = fighter2
 			}
 		}
 	}
@@ -2261,6 +2261,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = CAS_effort
 				uses = 1
+				ahead_reduction = 0.5 
 				bonus = 1.0
 				category = cas_bomber
 			}
@@ -2289,6 +2290,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = USA_combined_bomber_offensive
 				bonus = 1.0
+				ahead_reduction = 0.5 
 				uses = 1
 				category = heavy_air
 			}
@@ -2316,6 +2318,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = USA_TAC
 				uses = 1
+				ahead_reduction = 0.5 
 				bonus = 1.0
 				category = tactical_bomber
 			}
@@ -2381,6 +2384,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = USA_escort_fighters
 				bonus = 2.5
+				ahead_reduction = 0.5 
 				uses = 1
 				technology = heavy_fighter1
 				technology = heavy_fighter2

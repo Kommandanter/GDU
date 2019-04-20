@@ -174,7 +174,7 @@ leader_traits = {
 		}
 		modifier = {
 			army_morale_factor = 0.05
-			max_planning = 0.05
+			max_planning = 0.03
 			
 		}
 		new_commander_weight = {
@@ -224,7 +224,6 @@ leader_traits = {
 			out_of_supply_factor = 0.1
 			supply_consumption_factor = 0.04
 			equipment_capture = 0.04
-			max_planning = -0.1
 			
 		}
 		
@@ -459,7 +458,7 @@ leader_traits = {
 		}
 		cost = 1000
 		field_marshal_modifier = {
-			max_planning = 0.15
+			max_planning = 0.1
 		}
 		
 		ai_will_do = {

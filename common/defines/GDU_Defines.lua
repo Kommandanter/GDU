@@ -39,11 +39,11 @@ NDefines.NAI.GIVE_STATE_CONTROL_MIN_CONTROL_DIFF = 0
 NDefines.NCountry.EVENT_PROCESS_OFFSET = 25 -- Performance enhancer. --TW/WTT
 NDefines.NCountry.VP_TO_SUPPLY_BASE = 2
 NDefines.NCountry.SUPPLY_PATH_MAX_DISTANCE = 15
-NDefines.NCountry.SUPPLY_FROM_DAMAGED_INFRA = 0.25                -- damaged infrastructure counts as this in supply calcs
+NDefines.NCountry.SUPPLY_FROM_DAMAGED_INFRA = 0.1                -- damaged infrastructure counts as this in supply calcs
 NDefines.NCountry.SUPPLY_BONUS_FROM_INPUT = 0.6					-- % of supply bonus from input area. Look at this as a possible balancing tool. 
 NDefines.NCountry.SPECIAL_FORCES_CAP_BASE = 0.00
 NDefines.NCountry.SPECIAL_FORCES_CAP_MIN = 160
-NDefines.NCountry.REINFORCEMENT_EQUIPMENT_DELIVERY_SPEED = 1
+NDefines.NCountry.REINFORCEMENT_EQUIPMENT_DELIVERY_SPEED = 0.7 
 NDefines.NCountry.REINFORCEMENT_MANPOWER_DELIVERY_SPEED = 30.0
 NDefines.NCountry.REINFORCEMENT_MANPOWER_CHUNK = 0.1
 NDefines.NCountry.MIN_MANPOWER_RATIO = 0.25
@@ -81,7 +81,7 @@ NDefines.NProduction.MIN_NAVAL_EQUIPMENT_CONVERSION_RESOURCE_COST_FACTOR = 0.5	-
 
 NDefines.NBuildings.ANTI_AIR_SUPERIORITY_MULT = 20.0	-- How much air superiority reduction to the enemy does our AA guns? Normally each building level = -1 reduction. With this multiplier.
 NDefines.NBuildings.MAX_SHARED_SLOTS = 50
-NDefines.NBuildings.INFRA_TO_SUPPLY = 2.5
+NDefines.NBuildings.INFRA_TO_SUPPLY = 2.4
 NDefines.NBuildings.INFRA_TO_SUPPLY_COEFF = 1 -- Testing, 1 in vanilla -- TW/WTT 
 NDefines.NBuildings.AIRBASE_CAPACITY_MULT = 100
 NDefines.NBuildings.DESTRUCTION_COOLDOWN_IN_WAR = 120
@@ -129,8 +129,8 @@ NDefines.NMilitary.COMBAT_MINIMUM_TIME = 2
 NDefines.NMilitary.CHANCE_TO_AVOID_HIT_AT_NO_DEF = 50
 NDefines.NMilitary.LAND_COMBAT_STR_DAMAGE_MODIFIER = 0.07
 NDefines.NMilitary.LAND_COMBAT_ORG_DAMAGE_MODIFIER = 0.03
-NDefines.NMilitary.LAND_COMBAT_ORG_ARMOR_DEFLECTION_FACTOR = 0.50 -- damage reduction if armor outclassing enemy, will look at increasing if AT is too deadly to org. 
-NDefines.NMilitary.LAND_COMBAT_ORG_ARMOR_ON_SOFT_DICE_SIZE = 6   -- extra damage dice if our armor outclasses enemy
+NDefines.NMilitary.LAND_COMBAT_ORG_ARMOR_DEFLECTION_FACTOR = 0.5 -- damage reduction if armor outclassing enemy, will look at increasing if AT is too deadly to org. 
+NDefines.NMilitary.LAND_COMBAT_ORG_ARMOR_ON_SOFT_DICE_SIZE = 5   -- extra damage dice if our armor outclasses enemy
 NDefines.NMilitary.LAND_COMBAT_STR_ARMOR_DEFLECTION_FACTOR = 0.55 -- damage reduction if armor outclassing enemy
 NDefines.NMilitary.LAND_COMBAT_FORT_DAMAGE_CHANCE = 5.1		-- chance to get a hit to damage on forts. (out of 100)
 NDefines.NMilitary.TACTIC_SWAP_FREQUENCEY = 16
@@ -179,8 +179,8 @@ NDefines.NMilitary.LAND_COMBAT_COLLATERAL_FACTOR = 0.002
 NDefines.NMilitary.LAND_AIR_COMBAT_STR_DAMAGE_MODIFIER = 0.03    -- air global damage modifier
 NDefines.NMilitary.LAND_AIR_COMBAT_ORG_DAMAGE_MODIFIER = 0.03    -- global damage modifier
 
-NDefines.NMilitary.ACCLIMATIZATION_IN_COMBAT_SPEED_FACTOR = 4		-- Acclimatization speed multiplier while being in combat.
-NDefines.NMilitary.ACCLIMATIZATION_SPEED_GAIN = 0.05				-- A variable used to balance the overall speed of gaining the acclimatization
+NDefines.NMilitary.ACCLIMATIZATION_IN_COMBAT_SPEED_FACTOR = 6		-- Acclimatization speed multiplier while being in combat.
+NDefines.NMilitary.ACCLIMATIZATION_SPEED_GAIN = 0.02				-- A variable used to balance the overall speed of gaining the acclimatization
 NDefines.NMilitary.ACCLIMATIZATION_LOSS_SPEED_FACTOR = 4.0		-- Loosing one acclimatization while being under affect of the opposite climate should cause it to drop down much faster than gaining.
 
 NDefines.NMilitary.UNIT_LEADER_ASSIGN_TRAIT_COST = 0.00 -- Assigning traits is a PITA. Why should it cost anything?
