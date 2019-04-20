@@ -166,6 +166,16 @@ on_actions = {
 				give_resource_rights = { receiver = ENG state = 676 }
 				give_resource_rights = { receiver = ENG state = 291 }
 			}
+			#### The USA is given control over Philippines resources since it is a puppet. This gives USA some rubber and prevents USA from purposely importing too much rubber from UK just for trade-buffing reasons. Later on it perhaps also gives USA a bit more of an incentive to defend the Philippines since USA gets the rubber there itself. ####
+			PHI = {
+				give_resource_rights = { receiver = USA state = 623 }
+				give_resource_rights = { receiver = USA state = 327 }
+				give_resource_rights = { receiver = USA state = 626 }
+				give_resource_rights = { receiver = USA state = 624 }
+				give_resource_rights = { receiver = USA state = 625 }
+				give_resource_rights = { receiver = USA state = 628 }
+				give_resource_rights = { receiver = USA state = 627 }
+			}		
 			#### The Spanish Civil war as a non-MTTH event. #### 
 			SPR = { 
 				country_event = { id = spain.10 days = 185 } 
