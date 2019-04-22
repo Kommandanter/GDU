@@ -223,6 +223,20 @@ NDefines.NAir.DISRUPTION_FACTOR_CARRIER = 16.0							-- multiplier on disruption
 
 NDefines.NAir.DISRUPTION_FACTOR = 2.9  -- (4 -> 7) with decent radar coverage equal amounts of fighters vs naval bombers will disrupt almost all naval bombers if not escorted, with low detection very few bombers are intercepted still
 NDefines.NAir.ESCORT_FACTOR = 2.6 -- (2 -> 3) to make sure that escorted planes are still capable of bombing, with equal escorts/interceptors most of bombers get through Keep in mind that these values will also affect how cas/tac/strat bombers work, they make escorting planes much more important (which imo is 100% fine)
+
+
+NDefines.NAir.DISRUPTION_FACTOR_CARRIER = 24.0						-- multiplier on disruption damage to scale its effects on carrier vs carrier planes
+NDefines.NAir.DISRUPTION_SPEED_FACTOR = 1.0
+NDefines.NAir.DISRUPTION_AGILITY_FACTOR = 0.0
+NDefines.NAir.DISRUPTION_ATTACK_FACTOR = 0.0
+NDefines.NAir.DISRUPTION_DETECTION_FACTOR = 1.0
+NDefines.NAir.ESCORT_SPEED_FACTOR = 1.0
+NDefines.NAir.ESCORT_AGILITY_FACTOR = 1.0
+NDefines.NAir.ESCORT_ATTACK_FACTOR = 1.0
+NDefines.NAir.DISRUPTION_DEFENCE_DEFENCE_FACTOR = 0.5
+NDefines.NAir.DISRUPTION_DEFENCE_SPEED_FACTOR = 1.0
+NDefines.NAir.DISRUPTION_DEFENCE_ATTACK_FACTOR = 0.5
+
 NDefines.NAir.AIR_WING_XP_LOSS_WHEN_KILLED = 0.4
 NDefines.NAir.DETECT_CHANCE_FROM_AIRCRAFTS_EFFECTIVE_COUNT = 1
 NDefines.NAir.COMBAT_MULTIPLANE_CAP = 1.6
@@ -232,11 +246,12 @@ NDefines.NNavy.NAVAL_SUPREMACY_CAN_INVADE = 0.60
 NDefines.NNavy.NAVAL_TRANSFER_BASE_SPEED = 12
 NDefines.NNavy.NAVAL_INVASION_PREPARE_HOURS = 72
 
+NDefines.NNavy.NAVAL_STRIKE_DAMAGE_TO_STR = 2.0					-- Balancing value to convert damage ( naval_strike_attack * hits ) to Strength reduction.
 
-NDefines.NNavy.SHIP_TO_FLEET_ANTI_AIR_RATIO = 0.01 -- (0.2 -> 0.01) -- SilentLegion#1356, MTG 
-NDefines.NNavy.ANTI_AIR_POW_ON_INCOMING_AIR_DAMAGE = 0.8 -- (0.2 -> 0.75) -- SilentLegion#1356, MTG 
-NDefines.NNavy.ANTI_AIR_MULT_ON_INCOMING_AIR_DAMAGE = 0.07 -- (0.15 -> 0.04) -- These ones are a bit harder to explain but in essence it makes ship aa much more important and fleet aa less important. Low aa takes more damage and higher takes less, here's a spreadsheet to make it clearer what it does (should be editable so you can test some values yourself) -- SilentLegion#1356, MTG  https://docs.google.com/spreadsheets/d/1gILOpO6VzPlscVmSTEeHuEPUKPh2Y2_bQ2ky67gxUmI/edit?usp=sharing
-NDefines.NNavy.MAX_ANTI_AIR_REDUCTION_EFFECT_ON_INCOMING_AIR_DAMAGE = 0.75 -- (0.5 -> 0.75) -- SilentLegion#1356, MTG 
+NDefines.NNavy.SHIP_TO_FLEET_ANTI_AIR_RATIO = 0.05 -- (0.2 -> 0.01) -- SilentLegion#1356, MTG 
+NDefines.NNavy.ANTI_AIR_POW_ON_INCOMING_AIR_DAMAGE = 1.4 -- (0.2 -> 0.75) -- SilentLegion#1356, MTG 
+NDefines.NNavy.ANTI_AIR_MULT_ON_INCOMING_AIR_DAMAGE = 0.03 -- (0.15 -> 0.04) -- These ones are a bit harder to explain but in essence it makes ship aa much more important and fleet aa less important. Low aa takes more damage and higher takes less, here's a spreadsheet to make it clearer what it does (should be editable so you can test some values yourself) -- SilentLegion#1356, MTG  https://docs.google.com/spreadsheets/d/1gILOpO6VzPlscVmSTEeHuEPUKPh2Y2_bQ2ky67gxUmI/edit?usp=sharing
+NDefines.NNavy.MAX_ANTI_AIR_REDUCTION_EFFECT_ON_INCOMING_AIR_DAMAGE = 0.85 -- (0.5 -> 0.75) -- SilentLegion#1356, MTG 
 NDefines.NNavy.BASE_GUN_COOLDOWNS = { -- doubled the cooldown of guns to make battles last longer and give ships time to escape -- SilentLegion#1356, MTG 
         2.0,    -- big guns
         8.0,    -- torpedos
