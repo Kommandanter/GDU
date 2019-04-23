@@ -227,6 +227,7 @@ NDefines.NAir.AIR_WING_XP_LOSS_WHEN_KILLED = 0.4
 NDefines.NAir.DETECT_CHANCE_FROM_AIRCRAFTS_EFFECTIVE_COUNT = 1
 NDefines.NAir.COMBAT_MULTIPLANE_CAP = 1.6
 NDefines.NAir.AIR_COMBAT_FINAL_DAMAGE_SCALE = 0.2 -- 0.015	 % how many max disrupted only planes are allowed to die in a single combat
+NDefines.NAir.NAVAL_STRIKE_DETECTION_BALANCE_FACTOR = 0.25 -- something about how naval bombing shakes out, ask SilentLegion#1356
 
 NDefines.NNavy.NAVAL_SUPREMACY_CAN_INVADE = 0.60
 NDefines.NNavy.NAVAL_TRANSFER_BASE_SPEED = 12

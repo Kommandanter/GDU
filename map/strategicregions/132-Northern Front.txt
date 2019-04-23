@@ -18,7 +18,7 @@ strategic_region={
 			arctic_water=0.000
 			mud=0.500
 			sandstorm=0.000
-			min_snow_level=0.000
+			min_snow_level=0.250
 		}
 		period={
 			between={ 0.1 27.1 }
@@ -32,7 +32,7 @@ strategic_region={
 			arctic_water=0.000
 			mud=0.610
 			sandstorm=0.000
-			min_snow_level=0.000
+			min_snow_level=0.150
 		}
 		period={
 			between={ 0.2 30.2 }
@@ -46,7 +46,7 @@ strategic_region={
 			arctic_water=0.000
 			mud=1.600
 			sandstorm=0.000
-			min_snow_level=0.000
+			min_snow_level=0.050
 		}
 		period={
 			between={ 0.3 29.3 }
@@ -158,7 +158,7 @@ strategic_region={
 			arctic_water=0.000
 			mud=0.500
 			sandstorm=0.000
-			min_snow_level=0.000
+			min_snow_level=0.100
 		}
 		period={
 			between={ 0.11 30.11 }
@@ -172,7 +172,7 @@ strategic_region={
 			arctic_water=0.000
 			mud=0.400
 			sandstorm=0.000
-			min_snow_level=0.010
+			min_snow_level=0.200
 		}
 	}
 }
