@@ -275,7 +275,7 @@ equipment_modules = {
 		}
 		build_cost_resources = {
 			steel = 1
-			chromium = 1
+			chromium = 0.5
 		}
 		multiply_stats = {
 			naval_speed = -0.1

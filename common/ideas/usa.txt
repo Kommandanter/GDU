@@ -103,7 +103,7 @@ ideas = {
 				consumer_goods_factor = 0.45
 				conscription_factor = -0.5
 				join_faction_tension = 0.20
-				local_resources_factor = -0.2
+				min_export = -0.60				
 			}
 		}
 		great_depression_2 = {
@@ -124,7 +124,7 @@ ideas = {
 				consumer_goods_factor = 0.39
 				conscription_factor = -0.4
 				join_faction_tension = 0.20
-				local_resources_factor = -0.15
+				min_export = -0.60								
 			}
 		}
 		great_depression_3 = {
@@ -145,7 +145,7 @@ ideas = {
 				consumer_goods_factor = 0.33
 				conscription_factor = -0.2
 				join_faction_tension = 0.20
-				local_resources_factor = -0.1
+				min_export = -0.60								
 			}
 		}
 		USA_limited_intervention = {
