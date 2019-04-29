@@ -321,7 +321,7 @@
 			ship = { name = "HMS Oswald" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "Odin Class" } } }			
 			ship = { name = "HMS Olympus" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "Odin Class" } } }
 			ship = { name = "HMS Odin" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "Odin Class" } } }	
-			ship = { name = "HMS Orpheus" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "OdinClass" } } }
+			ship = { name = "HMS Orpheus" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "Odin Class" } } }
 			ship = { name = "HMS Otus" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "Odin Class" } } }				
 			
 			#Parthian Class
