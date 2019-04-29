@@ -1,5 +1,7 @@
 spriteTypes = {	
 
+	SpriteType = { name = "GFX_antiair3_5_medium"	texturefile = "gfx/interface/technologies/antiair1.dds"}
+	SpriteType = { name = "GFX_antitank3_5_medium"	texturefile = "gfx/interface/technologies/antitank3.dds"}
 	SpriteType = { name = "GFX_gw_artillery_medium" texturefile = "gfx/interface/technologies/Art_Field_1_SWE_m29.dds" }
 	SpriteType = { name = "GFX_artillery1_medium" texturefile = "gfx/interface/technologies/Art_Field_2_SWE_m40.dds" }
 	SpriteType = { name = "GFX_artillery4_medium" texturefile = "gfx/interface/technologies/Art_Field_3_SWE_m42.dds" }
