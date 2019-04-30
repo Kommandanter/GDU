@@ -459,6 +459,19 @@ technologies = {
 			para_tech
 		}
 
+		allow = { 
+			NOT =
+				{
+					TAG = CHI
+					TAG = PRC
+					TAG = GXC
+					TAG = YUN
+					TAG = XSM
+					TAG = SHX
+					TAG = SIK
+				}
+		}
+
 		ai_will_do = {
 			factor = 0.5
 			

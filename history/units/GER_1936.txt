@@ -505,9 +505,14 @@ air_wings = {
 		# Jagdgeschwader 132 'Richtofen'		
 		fighter_equipment_1 =  {		# Ar 68
 			owner = "GER" 
-			amount = 200
+			amount = 100
 			version_name = "Bf 109 E"
 		}
+		fighter_equipment_1 =  {		# Ar 68
+			owner = "GER" 
+			amount = 100
+			version_name = "Bf 109 E"
+		}		
 		ace={ # Order is important. Ace will be assigned to the wing above (fighter_equipment_0).
 			modifier="fighter_genius"
 			name="Erich"
@@ -573,17 +578,74 @@ air_wings = {
 		}
 				fighter_equipment_1 =  {		# bf109s
 			owner = "GER" 
-			amount = 1000
+			amount = 100
 			version_name = "Bf 109 E"
 		}
+				fighter_equipment_1 =  {		# bf109s
+			owner = "GER" 
+			amount = 100
+			version_name = "Bf 109 E"
+		}
+				fighter_equipment_1 =  {		# bf109s
+			owner = "GER" 
+			amount = 100
+			version_name = "Bf 109 E"
+		}
+				fighter_equipment_1 =  {		# bf109s
+			owner = "GER" 
+			amount = 100
+			version_name = "Bf 109 E"
+		}
+				fighter_equipment_1 =  {		# bf109s
+			owner = "GER" 
+			amount = 100
+			version_name = "Bf 109 E"
+		}
+				fighter_equipment_1 =  {		# bf109s
+			owner = "GER" 
+			amount = 100
+			version_name = "Bf 109 E"
+		}
+				fighter_equipment_1 =  {		# bf109s
+			owner = "GER" 
+			amount = 100
+			version_name = "Bf 109 E"
+		}
+				fighter_equipment_1 =  {		# bf109s
+			owner = "GER" 
+			amount = 100
+			version_name = "Bf 109 E"
+		}
+				fighter_equipment_1 =  {		# bf109s
+			owner = "GER" 
+			amount = 100
+			version_name = "Bf 109 E"
+		}
+				fighter_equipment_1 =  {		# bf109s
+			owner = "GER" 
+			amount = 100
+			version_name = "Bf 109 E"
+		}		
 
 	}
 		64 = { 
 		# Jagdgeschwader 136		
 		CAS_equipment_1 =  {			# Hs 123
 			owner = "GER" 
-			amount = 400
+			amount = 100
 		}
+		CAS_equipment_1 =  {			# Hs 123
+			owner = "GER" 
+			amount = 100
+		}
+		CAS_equipment_1 =  {			# Hs 123
+			owner = "GER" 
+			amount = 100
+		}
+		CAS_equipment_1 =  {			# Hs 123
+			owner = "GER" 
+			amount = 100
+		}		
 		CAS_equipment_1 =  {			# Hs 123
 			owner = "GER" 
 			amount = 100

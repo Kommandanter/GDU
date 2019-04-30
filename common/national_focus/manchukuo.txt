@@ -171,7 +171,6 @@ focus_tree = {
 		}
 
 		available = {
-			NOT = { has_idea = MAN_banditry }
 			NOT = { has_war_with = JAP }
 		}
 

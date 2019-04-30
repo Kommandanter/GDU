@@ -49,7 +49,7 @@ focus_tree = {
 			add_popularity  = { 
 				ideology = fascism
 				popularity = 0.2
-			} 
+			}
 		}
 	}
 
@@ -1204,6 +1204,9 @@ focus_tree = {
 			else = {
 				add_ideas = war_economy
 			}
+			MAN = {
+				add_ideas = war_economy
+			}			
 		}
 	}
 
@@ -1288,6 +1291,9 @@ focus_tree = {
 			else = {
 				add_ideas = tot_economic_mobilisation
 			}
+			MAN = {
+				add_ideas = tot_economic_mobilisation
+			}			
 		}
 	}
 

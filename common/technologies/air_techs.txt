@@ -740,6 +740,19 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
+		allow = { 
+			NOT =
+				{
+					TAG = CHI
+					TAG = PRC
+					TAG = GXC
+					TAG = YUN
+					TAG = XSM
+					TAG = SHX
+					TAG = SIK					
+				}
+		}
+
 		research_cost = 2
 		start_year = 1936
 		folder = {

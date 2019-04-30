@@ -202,13 +202,13 @@ units = {
 	# II Corpo d'Armata #
 	division= {
 		name = "4a Divisione di Fanteria 'Livorno'"
-		location = 11721
+		location = 11837
 		division_template = "Divisione di Fanteria"		# "Semi-Mountain" (less trained & equipped than Alpina)
 		start_experience_factor = 0.3
 	}
 	division= {
 		name = "4a Divisione Alpina 'Cuneense'"
-		location = 11721
+		location = 11837
 		division_template = "Divisione Alpina"
 		start_experience_factor = 0.3
 	}
@@ -216,14 +216,14 @@ units = {
 	# III Corpo d'Armata #
 	division= {
 		name = "3a Divisione di Fanteria 'Ravenna'"
-		location = 11891
+		location = 11837
 		division_template = "Divisione di Fanteria"		# "Semi-Mountain" (less trained & equipped than Alpina)
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
 	}
 	division= {
 		name = "6a Divisione di Fanteria 'Cuneo'"
-		location = 11891
+		location = 11837
 		division_template = "Divisione di Fanteria"		# "Semi-Mountain" (less trained & equipped than Alpina)
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
@@ -232,7 +232,7 @@ units = {
 	# Subordinate to Army
 	division= {
 		name = "1° Raggruppamento Celere"
-		location = 6788
+		location = 11837
 		division_template = "Raggruppamento Celere"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -243,7 +243,7 @@ units = {
 	# Corpo d'Armata Alpina #
 	division= {
 		name = "1a Divisione Alpina 'Taurinense'"
-		location = 9738
+		location = 11837
 		division_template = "Divisione Alpina"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
@@ -252,14 +252,14 @@ units = {
 	# I Corpo d'Armata #
 	division= {
 		name = "1a Divisione di Fanteria 'Superga'"
-		location = 6780
+		location = 11837
 		division_template = "Divisione di Fanteria"		# "Semi-Mountain" (less trained & equipped than Alpina)
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
 	}
 	division= {
 		name = "2a Divisione Alpina 'Tridentina'"
-		location = 6780
+		location = 11837
 		division_template = "Divisione Alpina"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
@@ -268,14 +268,14 @@ units = {
 	# IV Corpo d'Armata #
 	division= {
 		name = "2a Divisione di Fanteria 'Sforzesca'"
-		location = 611
+		location = 11837
 		division_template = "Divisione di Fanteria"		# "Semi-Mountain" (less trained & equipped than Alpina)
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
 	}
 	division= {
 		name = "7a Divisione di Fanteria 'Lupi di Toscana'"
-		location = 611
+		location = 11837
 		division_template = "Divisione di Fanteria"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
@@ -286,7 +286,7 @@ units = {
 	# V Corpo d'Armata #
 	division= {
 		name = "9a Divisione di Fanteria 'Pasubio'"
-		location = 11735
+		location = 11837
 		division_template = "Divisione di Fanteria"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
@@ -296,7 +296,7 @@ units = {
 	# VI Corpo d'Armata #
 	division= {
 		name = "8a Divisione di Fanteria 'Po'"
-		location = 628
+		location = 11837
 		division_template = "Divisione di Fanteria"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
@@ -304,7 +304,7 @@ units = {
 	}
 	division= {
 		name = "3a Divisione Alpina 'Julia'"
-		location = 628
+		location = 11837
 		division_template = "Divisione Alpina"
 		start_experience_factor = 0.3
 	}
@@ -312,7 +312,7 @@ units = {
 	# Subordinate to Army
 	division= {
 		name = "2° Raggruppamento Celere"
-		location = 6626
+		location = 11837
 		division_template = "Raggruppamento Celere"
 		start_experience_factor = 0.2
 
@@ -322,7 +322,7 @@ units = {
 	# Corpo d'Armata Celere #
 	division= {
 		name = "1a Divisione Celere 'Eugenio di Savoia'"
-		location = 11584
+		location = 11837
 		division_template = "Divisione Celere"
 		start_experience_factor = 0.3
 	}
@@ -332,7 +332,7 @@ units = {
 	# VII Corpo d'Armata #
 	division= {
 		name = "20a Divisione di Fanteria 'Friuli'"
-		location = 4159
+		location = 11837
 		division_template = "Divisione di Fanteria"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -340,7 +340,7 @@ units = {
 	}
 	division= {
 		name = "25a Divisione di Fanteria 'Bologna'"
-		location = 10074
+		location = 11837
 		division_template = "Divisione di Fanteria"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -352,7 +352,7 @@ units = {
 	# Subordinate to Theatre #
 	division= {
 		name = "7a Divisione CC.NN. 'Cirene'"
-		location = 1149
+		location = 11837
 		division_template = "Divisione di Fanteria"		# CCNN militia, lower training and equipment
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -360,7 +360,7 @@ units = {
 	}
 	division= {
 		name = "2a Divisione Coloniale 'Libia'"
-		location = 1130
+		location = 11837
 		division_template = "Divisione Coloniale"		# Colonial militia, lower training and equipment
 		force_equipment_variants = { infantry_equipment_0 = { owner = "ITA" } }
 		start_equipment_factor = 0.5

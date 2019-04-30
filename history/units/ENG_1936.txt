@@ -370,35 +370,89 @@ air_wings = {
 		### No. 11 Fighter Command, Middlesex area -- Hawker Demons, Furys, Gloster Gauntlets
 		fighter_equipment_1 = {
 			owner = "ENG"
-			amount = 400
+			amount = 100
 			version_name = "Hurricane 109 B"
 		}
 		fighter_equipment_1 = {
 			owner = "ENG"
-			amount = 200
+			amount = 100
 			version_name = "Hurricane 109 B"
 		}
 		fighter_equipment_1 = {
 			owner = "ENG"
-			amount = 200
+			amount = 100
 			version_name = "Hurricane 109 B"
 		}
 		fighter_equipment_1 = {
 			owner = "ENG"
-			amount = 200
+			amount = 100
+			version_name = "Hurricane 109 B"
+		}		
+		fighter_equipment_1 = {
+			owner = "ENG"
+			amount = 100
 			version_name = "Hurricane 109 B"
 		}
 		fighter_equipment_1 = {
 			owner = "ENG"
-			amount = 200
+			amount = 100
+			version_name = "Hurricane 109 B"
+		}		
+		fighter_equipment_1 = {
+			owner = "ENG"
+			amount = 100
+			version_name = "Hurricane 109 B"
+		}
+		fighter_equipment_1 = {
+			owner = "ENG"
+			amount = 100
+			version_name = "Hurricane 109 B"
+		}		
+		fighter_equipment_1 = {
+			owner = "ENG"
+			amount = 100
+			version_name = "Hurricane 109 B"
+		}
+		fighter_equipment_1 = {
+			owner = "ENG"
+			amount = 100
+			version_name = "Hurricane 109 B"
+		}
+		fighter_equipment_1 = {
+			owner = "ENG"
+			amount = 100
+			version_name = "Hurricane 109 B"
+		}
+		fighter_equipment_1 = {
+			owner = "ENG"
+			amount = 100
+			version_name = "Hurricane 109 B"
+		}		
+		fighter_equipment_1 =  {		# Ar 68
+			owner = "ENG" 
+			amount = 100
 			version_name = "Hurricane 109 B"
 		}
 		fighter_equipment_1 =  {		# Ar 68
 			owner = "ENG" 
-			amount = 500
+			amount = 100
 			version_name = "Hurricane 109 B"
 		}
-
+		fighter_equipment_1 =  {		# Ar 68
+			owner = "ENG" 
+			amount = 100
+			version_name = "Hurricane 109 B"
+		}
+		fighter_equipment_1 =  {		# Ar 68
+			owner = "ENG" 
+			amount = 100
+			version_name = "Hurricane 109 B"
+		}
+		fighter_equipment_1 =  {		# Ar 68
+			owner = "ENG" 
+			amount = 100
+			version_name = "Hurricane 109 B"
+		}		
 		CAS_equipment_1 = {
 			owner = "ENG"
 			amount = 100
@@ -417,8 +471,12 @@ air_wings = {
 		}
 		tac_bomber_equipment_0 = {
 			owner = "ENG"
-			amount = 200
+			amount = 100
 		}
+		tac_bomber_equipment_0 = {
+			owner = "ENG"
+			amount = 100
+		}		
 		nav_bomber_equipment_1 = {
 			owner = "ENG"
 			amount = 100

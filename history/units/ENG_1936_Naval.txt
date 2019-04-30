@@ -421,7 +421,7 @@ instant_effect = {
 		}
 		requested_factories = 2
 		progress = 0.5
-		amount = 2
+		amount = 1
 	}
 	add_equipment_production = {
 		equipment = {
@@ -431,7 +431,7 @@ instant_effect = {
 		}
 		requested_factories = 2
 		progress = 0.5
-		amount = 2
+		amount = 1
 	}
 	add_equipment_production = {
 		equipment = {
@@ -441,7 +441,7 @@ instant_effect = {
 		}
 		requested_factories = 2
 		progress = 0.25
-		amount = 2
+		amount = 1
 	}
 
 	# DD: G/H class (x9) ("HMS Gallant" "HMS Garland" "HMS Gipsy" "HMS Glowworm" "HMS Grafton" "HMS Grenade" "HMS Grenville" "HMS Greyhound" "HMS Griffin")
@@ -454,7 +454,7 @@ instant_effect = {
 		name = "HMS Gallant"
 		requested_factories = 1
 		progress = 0.90
-		amount = 3
+		amount = 1
 	}
 	add_equipment_production = {
 		equipment = {
@@ -465,7 +465,7 @@ instant_effect = {
 		name = "HMS Garland"
 		requested_factories = 1
 		progress = 0.80
-		amount = 3
+		amount = 1
 	}
 	add_equipment_production = {
 		equipment = {
@@ -476,7 +476,7 @@ instant_effect = {
 		name = "HMS Gipsy"
 		requested_factories = 1
 		progress = 0.90
-		amount = 3
+		amount = 1
 	}
 	add_equipment_production = {
 		equipment = {
@@ -487,7 +487,7 @@ instant_effect = {
 		name = "HMS Glowworm"
 		requested_factories = 1
 		progress = 0.95
-		amount = 3
+		amount = 1
 	}
 	# SS: S-class variant (x2) ("HMS Seawolf" "HMS Narwhal")
 	add_equipment_production = {
@@ -499,7 +499,7 @@ instant_effect = {
 		name = "HMS Seawolf"
 		requested_factories = 1
 		progress = 0.9
-		amount = 40
+		amount = 1
 	}
 	add_equipment_production = {
 		equipment = {
@@ -510,7 +510,7 @@ instant_effect = {
 		name = "HMS Narwhal"
 		requested_factories = 1
 		progress = 0.85
-		amount = 7
+		amount = 1
 	}
 }
 
