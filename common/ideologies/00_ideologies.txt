@@ -38,6 +38,7 @@ ideologies = {
 		war_impact_on_world_tension = 0.0
 		faction_impact_on_world_tension = 0.1
 
+		can_host_government_in_exile = yes		
 		modifiers = {
 			generate_wargoal_tension = 1.00
 			join_faction_tension = 0.80
