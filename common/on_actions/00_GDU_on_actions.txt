@@ -301,6 +301,154 @@ on_actions = {
 				add_opinion_modifier = { target = SPR modifier = large_decrease }
 				add_opinion_modifier = { target = SPR modifier = hostile_status }
 			}
+<<<<<<< origin/beethoven_branch
+=======
+			
+			
+			#### Countries are given small amounts of starting navy XP to make some starting ship templates. Japan gets more because it is fuel deprived and can't really afford to train its navy early for navy XP. #### 
+
+			USA = { 
+				navy_experience = 33
+			}
+			ENG = { 
+				navy_experience = 33
+			}
+			ITA = { 
+				navy_experience = 33
+			}
+			GER = { 
+				navy_experience = 33
+			}
+			SOV = { 
+				navy_experience = 33
+			}
+			FRA = { 
+				navy_experience = 33
+			}
+			JAP = { 
+				navy_experience = 99
+			}
+			AST = { 
+				navy_experience = 33
+			}
+			CAN = { 
+				navy_experience = 33
+			}
+			SAF = { 
+				navy_experience = 33
+			}
+			RAJ = { 
+				navy_experience = 33
+			}
+			NZL = { 
+				navy_experience = 33
+			}
+
+
+		#### Annexing Manchukuo immediately to Japan if it starts the game as AI. In this case, Japan gets some of the industry from focuses Manchukuo would have done if it were a player. Although Japan gets this industry up front, it is less than the focus factories a human Manchukuo player can get. Given that Japan can use this for ongoing construction, Asian Axis should end up with about the same industry as you would get with a good Manchu player who properly develops it ####
+
+		if = { 
+			limit = { 
+				NOT = { has_global_flag = manchukuo_started_ai } 
+				date < 1936.1.2
+				MAN = { is_ai = yes }
+			}
+			set_global_flag = manchukuo_started_ai 
+			JAP = {	
+				add_research_slot = 1
+				annex_country = {
+							target = MAN
+							transfer_troops = yes
+				}
+			}
+			
+			610 = {
+				add_manpower = 25417
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = MAN_invite_japanese_settlers_2IC
+			}
+			716 = {
+				add_manpower = 25417
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = MAN_invite_japanese_settlers_2IC
+			}
+			every_state = {
+				limit = {
+					is_core_of = MAN
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+			715 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = MAN_expand_the_textile_industry_IC				
+			}
+			328 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = MAN_invite_japanese_investors_IC
+			}
+			716 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			716 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+					}
+				}
+			328 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+					}
+				}
+			610 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+					}
+				}
+			717 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+					}
+				}
+		}
+
+
+
+
+			
+>>>>>>> local
 		}
 	}
 
