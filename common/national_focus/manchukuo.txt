@@ -1115,8 +1115,8 @@ focus = {
 	icon = GFX_goal_generic_axis_build_infantry
 	prerequisite = { focus = CHI_closer_ties_with_germany }
 	x = -2
-	y = 1
-	relative_position_id = CHI_closer_ties_with_germany
+	y = 2
+	relative_position_id = CHI_mission_to_germany
 
 	cost = 10
 
@@ -1197,7 +1197,6 @@ focus = {
 	id = CHI_closer_ties_with_germany
 	icon = GFX_goal_generic_improve_relations
 	prerequisite = { focus = CHI_mission_to_germany }
-	mutually_exclusive = { focus = CHI_rapprochement_with_soviet_union }
 	x = 0
 	y = 1
 	relative_position_id = CHI_mission_to_germany
@@ -1295,7 +1294,7 @@ focus = {
 }
 
 focus = {
-	id = CHI_chinese_panzers
+	id = MAN_chinese_panzers
 	icon = GFX_goal_generic_production2
 	prerequisite = { focus = CHI_purchase_tanks }
 	prerequisite = { focus = CHI_closer_ties_with_germany }
@@ -1322,7 +1321,7 @@ focus = {
 
 	completion_reward = {
 		add_tech_bonus = {
-			name = CHI_chinese_panzers
+			name = MAN_chinese_panzers
 			bonus = 1.0
 			uses = 1
 			category = armor
@@ -1335,7 +1334,7 @@ focus = {
 focus = {
 	id = CHI_tank_plant
 	icon = GFX_goal_generic_construct_mil_factory
-	prerequisite = { focus = CHI_chinese_panzers }
+	prerequisite = { focus = MAN_chinese_panzers }
 	x = -2
 	y = 2
 	relative_position_id = CHI_purchase_tanks
@@ -1616,7 +1615,7 @@ focus = {
 }
 
 focus = {
-	id = CHI_combined_arms_warfare
+	id = MAN_combined_arms_warfare
 	icon = GFX_goal_generic_army_doctrines
 	prerequisite = { focus = CHI_experimental_mechanised_unit }
 	x = 0
@@ -1647,7 +1646,7 @@ focus = {
 
 	completion_reward = {
 		add_tech_bonus = {
-			name = CHI_combined_arms_warfare
+			name = MAN_combined_arms_warfare
 			bonus = 1.0
 			uses = 1
 			category = cat_mechanized_equipment
@@ -1736,7 +1735,7 @@ focus = {
 	prerequisite = { focus = MAN_elite_mountaineers }
 	x = 16
 	y = 4
-	relative_position_id = MAN_closer_ties_with_germany
+	relative_position_id = CHI_closer_ties_with_germany
 	
 	cost = 10
 
