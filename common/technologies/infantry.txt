@@ -1174,8 +1174,8 @@ technologies = {
 	special_forces_0 = {
 
 		category_special_forces = {
-			acclimatization_hot_climate_gain_factor = 0.10
-			acclimatization_cold_climate_gain_factor = 0.10
+			acclimatization_hot_climate_gain_factor = 0.2
+			acclimatization_cold_climate_gain_factor = 0.2
 		}
 
 		path = {
@@ -1276,8 +1276,8 @@ technologies = {
 	special_forces_3a = {
 
 		category_special_forces = {
-			acclimatization_hot_climate_gain_factor = 0.50
-			acclimatization_cold_climate_gain_factor = 0.50
+			acclimatization_hot_climate_gain_factor = 1.0
+			acclimatization_cold_climate_gain_factor = 1.0
 		}
 
 		special_forces_min = 32
@@ -1305,8 +1305,8 @@ technologies = {
 	special_forces_1b = {
 
 		category_special_forces = {
-			acclimatization_hot_climate_gain_factor = 0.30
-			acclimatization_cold_climate_gain_factor = 0.30
+			acclimatization_hot_climate_gain_factor = 0.8
+			acclimatization_cold_climate_gain_factor = 0.8
 		}
 
 		research_cost = 0.5

@@ -59,6 +59,7 @@ if = {
 	}
 }
 add_ideas = neutrality_idea
+add_ideas = GDU_scuffed_acclim
 
 #Kick off kings crazy life
 if = {

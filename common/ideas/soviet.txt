@@ -92,7 +92,7 @@ ideas = {
 
 			modifier = {
 				winter_attrition_factor = -0.6
-				acclimatization_cold_climate_gain_factor = 10.0 
+				acclimatization_cold_climate_gain_factor = 100.0 
 			}
 		}
 		SOV_winter_offensive = {

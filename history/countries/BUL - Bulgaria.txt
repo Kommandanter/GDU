@@ -8,6 +8,7 @@ set_war_support = 0.71
 
 add_ideas = {
 	limited_conscription
+	GDU_scuffed_acclim
 }
 
 set_technology = {

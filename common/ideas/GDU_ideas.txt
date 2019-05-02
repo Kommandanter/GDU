@@ -101,6 +101,26 @@ ideas = {
 			
 		}
 		
+		GDU_scuffed_acclim = { 
+			
+			allowed = { 
+				always = no 
+			}
+			
+			cancel = {
+				GER = {
+					has_war_with = SOV 
+				}
+			}
+			removal_cost = -1 
+			
+			picture = chi_incompetent_officers
+			
+			modifier = { 
+				acclimatization_cold_climate_gain_factor = -0.75 
+			}
+		}
+		
 		benelux_neutrality = {
 			allowed = {
 				always = no

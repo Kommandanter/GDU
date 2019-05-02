@@ -170,7 +170,7 @@
     wartime_propaganda_idea:0 "Wartime Propaganda"
     wartime_propaganda_idea_desc:0 "This is not a war for communism, but a war for Russia herself."
     general_winter_idea:0 "General Winter"
-    general_winter_idea_desc:0 "An ancient enemy and hero of the Russian people, General Winter has defended the Motherland many times before. Once more, it comes."
+    general_winter_idea_desc:0 "The Russian climate is harsh and unforgiving, shifting between ice-cold winters and muddy springs. General Winter has defended the Russian people time and time again, and once more he answers the call."
     production_targets_idea:0 "Production Targets"
     production_targets_idea_desc:0 "Building more advanced equipment takes time and temporarily lowers production. Such a reduction could easily be seen as sabotage in the Soviet Union."
     rear:0 "Big Rear Plan"
@@ -250,6 +250,9 @@
     GER_blitzkrieg:0 "Blitzkrieg"
     GER_blitzkrieg_desc:0 "We have won quick victorys in France and Poland using innovative 'Blitzkrieg' tactics combing both speed and armor breakthrough. We now have the oppur
     LUX_alexander_von_falkenhausen:0 "Alexander von Falkenhausen"
+	
+    GDU_scuffed_acclim:0 "Lack of Winterized Equipment" 
+    GDU_scuffed_acclim_desc:0 "A lack of foresight, poor logistics, and questionable priorities has led to a situation where we're critically short on winterized equipment for most of our army. Going to war with a certain superpower in a cold climate might just make the General Staff wake up." 
 	
     SOV_winter_offensive:0 "Soviet Winter Offensive" 
 	

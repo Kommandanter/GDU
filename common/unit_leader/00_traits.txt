@@ -678,8 +678,6 @@ leader_traits = {
 		cost = 1000
 		modifier = {
 			terrain_penalty_reduction = 0.20
-			acclimatization_cold_climate_gain_factor = 0.1
-			acclimatization_hot_climate_gain_factor = 0.1
 		}
 		
 		ai_will_do = {
@@ -709,7 +707,7 @@ leader_traits = {
 		}
 
 		modifier = {
-			acclimatization_cold_climate_gain_factor = 0.2
+			winter_attrition_factor = -0.25
 		}
 		
 		ai_will_do = {
