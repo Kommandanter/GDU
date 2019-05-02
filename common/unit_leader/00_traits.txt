@@ -438,7 +438,7 @@ leader_traits = {
 		}
 		cost = 1000
 		field_marshal_modifier = {
-			planning_speed = 0.10
+			planning_speed = 0.2
 		}
 		
 		ai_will_do = {
@@ -458,7 +458,7 @@ leader_traits = {
 		}
 		cost = 1000
 		field_marshal_modifier = {
-			max_planning = 0.1
+			max_planning = 0.075
 		}
 		
 		ai_will_do = {

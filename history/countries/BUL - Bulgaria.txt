@@ -237,9 +237,9 @@ create_corps_commander = {
 	picture = "Portrait_BUL_Ivan_Valkov.dds"
 	traits = { war_hero brilliant_strategist media_personality infantry_officer infantry_leader}
 	skill = 5
-	attack_skill = 4
+	attack_skill = 5
 	defense_skill = 3
-	planning_skill = 6
+	planning_skill = 5
 	logistics_skill = 3
 }
 create_corps_commander = {

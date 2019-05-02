@@ -225,8 +225,8 @@ create_field_marshal = {
 	traits = { old_guard offensive_doctrine infantry_leader skilled_staffer  media_personality career_officer brilliant_strategist}
 	skill = 5
 	attack_skill = 5
-	defense_skill = 2
-	planning_skill = 6
+	defense_skill = 3
+	planning_skill = 5
 	logistics_skill = 4
 	
 }
@@ -379,12 +379,12 @@ create_field_marshal = {
 create_corps_commander = {
 	name = "Giuseppe Cordero"
 	picture = "Portrait_ITA_Giuseppe_Cordero.dds"
-	traits = {infantry_officer panzer_leader skilled_staffer hill_fighter trait_mountaineer trait_reckless}
+	traits = {infantry_officer panzer_leader skilled_staffer hill_fighter trait_reckless}
 	skill = 4
 	attack_skill = 5
-	defense_skill = 4
+	defense_skill = 5
 	planning_skill = 2
-	logistics_skill = 2
+	logistics_skill = 3
 }
 
 create_corps_commander = {
@@ -403,9 +403,9 @@ create_corps_commander = {
 	picture = "Portrait_ITA_Gualano.dds"
 	traits = {harsh_leader infantry_officer skilled_staffer war_hero }
 	skill = 4
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 7
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
 	logistics_skill = 2
 }
 
