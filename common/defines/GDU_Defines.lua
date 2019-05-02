@@ -179,8 +179,8 @@ NDefines.NMilitary.LAND_COMBAT_COLLATERAL_FACTOR = 0.002
 NDefines.NMilitary.LAND_AIR_COMBAT_STR_DAMAGE_MODIFIER = 0.03    -- air global damage modifier
 NDefines.NMilitary.LAND_AIR_COMBAT_ORG_DAMAGE_MODIFIER = 0.03    -- global damage modifier
 
-NDefines.NMilitary.ACCLIMATIZATION_IN_COMBAT_SPEED_FACTOR = 6		-- Acclimatization speed multiplier while being in combat.
-NDefines.NMilitary.ACCLIMATIZATION_SPEED_GAIN = 0.02				-- A variable used to balance the overall speed of gaining the acclimatization
+NDefines.NMilitary.ACCLIMATIZATION_IN_COMBAT_SPEED_FACTOR = 1		-- Acclimatization speed multiplier while being in combat.
+NDefines.NMilitary.ACCLIMATIZATION_SPEED_GAIN = 0.002				-- A variable used to balance the overall speed of gaining the acclimatization
 NDefines.NMilitary.ACCLIMATIZATION_LOSS_SPEED_FACTOR = 4.0		-- Loosing one acclimatization while being under affect of the opposite climate should cause it to drop down much faster than gaining.
 
 NDefines.NMilitary.UNIT_LEADER_ASSIGN_TRAIT_COST = 0.00 -- Assigning traits is a PITA. Why should it cost anything?
@@ -227,7 +227,7 @@ NDefines.NAir.AIR_WING_XP_LOSS_WHEN_KILLED = 0.4
 NDefines.NAir.DETECT_CHANCE_FROM_AIRCRAFTS_EFFECTIVE_COUNT = 1
 NDefines.NAir.COMBAT_MULTIPLANE_CAP = 1.6
 NDefines.NAir.AIR_COMBAT_FINAL_DAMAGE_SCALE = 0.2 -- 0.015	 % how many max disrupted only planes are allowed to die in a single combat
-NDefines.NAir.NAVAL_STRIKE_DETECTION_BALANCE_FACTOR = 0.25 -- something about how naval bombing shakes out, ask SilentLegion#1356
+NDefines.NAir.NAVAL_STRIKE_DETECTION_BALANCE_FACTOR = 0.7 -- something about how naval bombing shakes out, ask SilentLegion#1356
 
 NDefines.NNavy.NAVAL_SUPREMACY_CAN_INVADE = 0.60
 NDefines.NNavy.NAVAL_TRANSFER_BASE_SPEED = 12

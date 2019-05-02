@@ -2,7 +2,6 @@ on_actions = {
 
 	on_startup = {
 		effect = {
-		
 			#Initializing the global.small_airbase_list array#
 	
 		if = { 
@@ -245,7 +244,11 @@ on_actions = {
 				add_opinion_modifier = { target = VEN modifier = embargo }
 				add_opinion_modifier = { target = VEN modifier = sanctions_relations }   
 				add_opinion_modifier = { target = VEN modifier = large_decrease }
-				add_opinion_modifier = { target = VEN modifier = hostile_status }  				
+				add_opinion_modifier = { target = VEN modifier = hostile_status } 
+				add_opinion_modifier = { target = FRA modifier = embargo }
+				add_opinion_modifier = { target = FRA modifier = sanctions_relations }   
+				add_opinion_modifier = { target = FRA modifier = large_decrease }
+				add_opinion_modifier = { target = FRA modifier = hostile_status }   				
 			}
 			VEN = { 
 				add_opinion_modifier = { target = SPR modifier = embargo }
@@ -301,6 +304,12 @@ on_actions = {
 				add_opinion_modifier = { target = SPR modifier = large_decrease }
 				add_opinion_modifier = { target = SPR modifier = hostile_status }
 			}
+			FRA = { 
+				add_opinion_modifier = { target = SPR modifier = embargo }
+				add_opinion_modifier = { target = SPR modifier = sanctions_relations }
+				add_opinion_modifier = { target = SPR modifier = large_decrease }
+				add_opinion_modifier = { target = SPR modifier = hostile_status }
+			}
 			
 			
 			#### Countries are given small amounts of starting navy XP to make some starting ship templates. Japan gets more because it is fuel deprived and can't really afford to train its navy early for navy XP. #### 
@@ -345,6 +354,8 @@ on_actions = {
 	}
 
 	#THIS IS THE AIRBASE LIMITER. 
+	#Oh, and there's something in here that checks for Somalian naval bases. Long story. It's so Italy doesn't invade SA.
+	#global.somalian_list
 	on_daily = { 
 		effect = {
 			 if = {
