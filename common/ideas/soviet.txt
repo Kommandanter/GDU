@@ -147,9 +147,11 @@ ideas = {
 			picture = generic_goods_red_bonus
 
 			modifier = {
-				production_factory_max_efficiency_factor = 0.10
-				production_factory_efficiency_gain_factor = -0.10
+				production_factory_max_efficiency_factor = 0.2
+				production_factory_efficiency_gain_factor = -0.1
+				line_change_production_efficiency_factor = -0.2  
 			}
+			
 		}
 
 		militarized_schools = {
@@ -223,6 +225,7 @@ ideas = {
 			modifier = {
 				production_speed_buildings_factor = 0.10
 			}
+			
 		}
 
 		partisan_suppression_focus = {
@@ -1692,21 +1695,20 @@ ideas = {
 
 			equipment_bonus = {
 				medium_tank_equipment = {
-					reliability = 0.1
-					build_cost_ic = -0.10
+					reliability = 0.15
 				}
 				medium_tank_destroyer_equipment = {
-					reliability = 0.1
+					reliability = 0.15
 					hard_attack = 0.10
 					defense = 0.1
 				}
 				medium_tank_artillery_equipment = {
-					reliability = 0.1
+					reliability = 0.15
 					soft_attack = 0.05
 					defense = 0.1
 				}
 				light_tank_equipment = {
-					reliability = 0.1
+					reliability = 0.15
 					soft_attack = 0.05
 					hard_attack = 0.10
 					maximum_speed = 0.05
@@ -1732,7 +1734,7 @@ ideas = {
 
 			equipment_bonus = {
 				light_tank_equipment = {
-					reliability = 0.2
+					reliability = 0.25
 					maximum_speed = 0.2
 				}
 			}
@@ -1752,17 +1754,16 @@ ideas = {
 
 			equipment_bonus = {
 				heavy_tank_equipment = {
-					reliability = 0.1
+					reliability = 0.15
 					hard_attack = 0.10
-					build_cost_ic = -0.10
 				}
 				heavy_tank_destroyer_equipment = {
-					reliability = 0.1
+					reliability = 0.15
 					hard_attack = 0.10
 					ap_attack = 0.05
 				}
 				heavy_tank_artillery_equipment = {
-					reliability = 0.1
+					reliability = 0.15
 					soft_attack = 0.1
 				}
 			}
