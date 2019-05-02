@@ -1009,10 +1009,10 @@ equipments = {
 		archetype = ship_hull_cruiser
 		priority = 1850
 		manpower = 1
-		build_cost_ic = 3300
+		build_cost_ic = 3100
 		naval_speed = 20
 		surface_visibility = 22
-		naval_range = 6000
+		naval_range = 5000
 		resources = {
 			steel = 3
 		}
