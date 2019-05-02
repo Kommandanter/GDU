@@ -384,10 +384,10 @@ create_field_marshal = {
 	picture = "Portrait_Britain_Bernard_Montgomery.dds"
 	traits = { brilliant_strategist trait_cautious organizer offensive_doctrine media_personality trait_cautious  infantry_officer trickster }
 	skill = 6 
-	attack_skill = 4
-	defense_skill = 4
-	planning_skill = 7
-	logistics_skill = 4
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
 }
 
 create_corps_commander = {
@@ -506,8 +506,8 @@ create_corps_commander = {
 	traits = { inflexible_strategist career_officer skilled_staffer}
 	skill = 3
 	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 7
+	defense_skill = 8
+	planning_skill = 5
 	logistics_skill = 4
 }
 

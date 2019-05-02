@@ -239,9 +239,9 @@ create_field_marshal = {
 	picture = "Portrait_Finland_Paavo_Talvela.tga"
 	traits = { old_guard inflexible_strategist infantry_leader trait_cautious career_officer organizer infantry_leader skilled_staffer } 
 	skill = 5
-    attack_skill = 4
-    defense_skill = 3
-    planning_skill = 6
+    attack_skill = 5
+    defense_skill = 4
+    planning_skill = 4
     logistics_skill = 3
 }
 
@@ -287,10 +287,10 @@ create_corps_commander = {
 	traits = { winter_specialist ranger organizer cavalry_officer skilled_staffer infantry_leader infantry_officer trait_cautious}
 	skill = 4
 
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 7
-    logistics_skill = 2
+    attack_skill = 3
+    defense_skill = 4
+    planning_skill = 4
+    logistics_skill = 4
 }
 
 create_corps_commander = {

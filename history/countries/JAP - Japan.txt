@@ -387,9 +387,9 @@ create_corps_commander = {
 		picture = "Portrait_Japan_Akira_Muto.dds"
 	traits = { career_officer brilliant_strategist infantry_leader}
 	skill = 4
-	attack_skill = 3
+	attack_skill = 4
 	defense_skill = 2
-	planning_skill = 6
+	planning_skill = 5
 	logistics_skill = 2
 }
 
@@ -409,9 +409,9 @@ create_corps_commander = {
 		picture = "Portrait_Japan_Shizuichi_Tanaka.dds"
 	traits = { trickster career_officer infantry_officer skilled_staffer infantry_leader}
 	skill = 5
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 7
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 6
 	logistics_skill = 3
 }
 
@@ -640,10 +640,10 @@ create_corps_commander = {
 		picture = "Portrait_Japan_Masatane_Kanda.dds"
 	traits = { trait_cautious organizer infantry_leader infantry_leader harsh_leader}
 	skill = 5
-	attack_skill = 2
+	attack_skill = 3
 	defense_skill = 3
-	planning_skill = 7
-	logistics_skill = 1
+	planning_skill = 6
+	logistics_skill = 2
 }
 
 create_field_marshal = {

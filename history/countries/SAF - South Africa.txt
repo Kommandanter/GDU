@@ -236,10 +236,10 @@ create_field_marshal = {
 	picture = "Portrait_SAF_Dan_Pienaar.dds"
 	traits = { brilliant_strategist trait_cautious skilled_staffer career_officer infantry_leader organizer media_personality}
 	skill = 5
-	attack_skill = 4
+	attack_skill = 6
 	defense_skill = 2
-	planning_skill = 7
-	logistics_skill = 3
+	planning_skill = 4
+	logistics_skill = 2
 }
 create_corps_commander = {
 	name = "Christiaan du Toit"
