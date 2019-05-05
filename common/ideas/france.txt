@@ -36,8 +36,8 @@ ideas = {
 				}
             }
 			modifier = {
-				conversion_cost_civ_to_mil_factor = 0.35
-				consumer_goods_factor = 0.10
+				conversion_cost_civ_to_mil_factor = 1.5
+				consumer_goods_factor = 0.08
 				lend_lease_tension = 1.0
 			}
 			
