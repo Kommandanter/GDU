@@ -494,6 +494,7 @@ foreign_politics = {
 		available = { 
 			has_completed_focus = GER_ussr_war_goal
 			date > 1941.5.16
+			command_power = 250 
 			NOT = { has_war_with = SOV } 
 		}	
 	
@@ -528,7 +529,15 @@ foreign_politics = {
 		
 		remove_effect = {
 			custom_effect_tooltip = GER_barbarossa_tooltip
-		
+			
+			if = { 
+				limit = { 
+					command_power = 250 
+				}
+				add_command_power = -250.0 
+				add_timed_idea = { idea = GER_barbarossa days = 90 } 
+			}
+			
 			every_country = { 
 				limit = {
 					is_in_faction_with = GER 
