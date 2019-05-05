@@ -2247,13 +2247,13 @@ technologies = {
 		supply_consumption_factor = -0.1
 		
 		artillery_brigade = { 
-			max_strength = 15
+			max_strength = 13
 		}
 		anti_air_brigade = { 
-			max_strength = 8
+			max_strength = 6
 		}
 		anti_tank_brigade = { 
-			max_strength = 8
+			max_strength = 6
 		}
 
 		enable_tactic = tactic_relentless_assault
