@@ -176,8 +176,8 @@ NDefines.NMilitary.PARADROP_PENALTY = -0.2
 NDefines.NMilitary.LAND_COMBAT_COLLATERAL_FACTOR = 0.002
 
 --- Nerfing CAS 
-NDefines.NMilitary.LAND_AIR_COMBAT_STR_DAMAGE_MODIFIER = 0.03    -- air global damage modifier
-NDefines.NMilitary.LAND_AIR_COMBAT_ORG_DAMAGE_MODIFIER = 0.03    -- global damage modifier
+NDefines.NMilitary.LAND_AIR_COMBAT_STR_DAMAGE_MODIFIER = 0.02    -- air global damage modifier
+NDefines.NMilitary.LAND_AIR_COMBAT_ORG_DAMAGE_MODIFIER = 0.02    -- global damage modifier
 
 NDefines.NMilitary.ACCLIMATIZATION_IN_COMBAT_SPEED_FACTOR = 1		-- Acclimatization speed multiplier while being in combat.
 NDefines.NMilitary.ACCLIMATIZATION_SPEED_GAIN = 0.015				-- A variable used to balance the overall speed of gaining the acclimatization
@@ -214,7 +214,7 @@ NDefines.NAir.ANTI_AIR_PLANE_DAMAGE_CHANCE = 0.1 -- original 0.1 Anti Air Gun hi
 NDefines.NAir.ANTI_AIR_ATTACK_TO_DAMAGE_REDUCTION_FACTOR = 1.0 -- original 1.00 Balancing value to convert equipment stat anti_air_attack to the damage reduction modifier apply to incoming air attacks against units with AA.
 NDefines.NAir.NAVAL_KAMIKAZE_DAMAGE_MULT = 5.0  -- vanilla is like 20
 NDefines.NAir.AA_INDUSTRY_AIR_DAMAGE_FACTOR = -0.12 -- -0.12 vanilla, per level AA state 
-NDefines.NAir.ANTI_AIR_MAXIMUM_DAMAGE_REDUCTION_FACTOR = 0.75 -- .75 Maximum damage reduction factor applied to incoming air attacks against units with AA.
+NDefines.NAir.ANTI_AIR_MAXIMUM_DAMAGE_REDUCTION_FACTOR = 0.6 -- .75 Maximum damage reduction factor applied to incoming air attacks against units with AA.
 
 NDefines.NAir.NAVAL_COMBAT_EXTERNAL_PLANES_JOIN_RATIO = 0.05		-- Max planes that can join a combat comparing to the total strength of the ships 0.05-->0.13
 NDefines.NAir.NAVAL_COMBAT_EXTERNAL_PLANES_JOIN_RATIO_PER_DAY = 0.2 -- max extra plane % that can join every day 0.2 ---> 0.25 
