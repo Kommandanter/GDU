@@ -16,8 +16,8 @@ ideas = {
 			picture = great_depression
 
 			modifier = {
-				consumer_goods_factor = 0.25							industrial_capacity_factory = -0.25
-				industrial_capacity_dockyard = -0.25
+				consumer_goods_factor = 0.2							industrial_capacity_factory = -0.1
+				industrial_capacity_dockyard = -0.1
 			}
 		}
 
@@ -37,8 +37,8 @@ ideas = {
 
 			modifier = {
 				consumer_goods_factor = 0.15
-				industrial_capacity_factory = -0.20
-				industrial_capacity_dockyard = -0.20
+				industrial_capacity_factory = -0.05
+				industrial_capacity_dockyard = -0.05
 			}
 		}
 
