@@ -361,6 +361,7 @@ foreign_politics = {
 		icon = generic_civil_support
 		
 		available = {
+			date > 1942.1.1 
 			original_tag = GER 
 			any_country = {
 				original_tag = PER 
@@ -388,26 +389,33 @@ foreign_politics = {
 			factor = 1
 		}
 		
-		complete_effect = {
+		days_remove = 30 
+		
+		complete_effect = { 
+			hidden_effect = { 
+				SOV = { country_event = { id = gduevents.21 days = 1 } }
+				ENG = { country_event = { id = gduevents.21 days = 1 } } 
+			}
+			
+		}
+		
+		remove_effect = {
 			declare_war_on = {
 				target = PER 
 				type = annex_everything
 			}
-			SOV = {
-				transfer_state = 420
-				transfer_state = 419
-				transfer_state = 418
-				transfer_state = 266
-				transfer_state = 416
-			}
-			ENG = { 
-				annex_country = {
-					target = PER  
-					transfer_troops = no 
+			SOV = { 
+				declare_war_on = {
+					target = PER
+					type = annex_everything
 				}
 			}
-			SOV = { country_event = { id = gduevents.11 days = 1 } }
-			ENG = { country_event = { id = gduevents.12 days = 1 } } 
+			ENG = { 
+				declare_war_on = {
+					target = PER
+					type = annex_everything
+				}
+			}
 		}
 	
 	}
@@ -529,9 +537,11 @@ foreign_politics = {
 		 }
 		} 
 		remove_effect = {	
-			declare_war_on = {
-				target = IRQ 
-				type = annex_everything
+			ENG = { 
+				annex_country = {
+					target = IRQ  
+					transfer_troops = no 
+				}
 			}
 		}
 
@@ -542,19 +552,10 @@ foreign_politics = {
 		icon = generic_operation
  		
 		available = { 
-			PER = { exists = yes } 
-			OR = { 
-				NOT = { 
-					447 = { is_fully_controlled_by = ENG } 
-				}
-				NOT = { 
-					454 = { is_fully_controlled_by = ENG } 
-				}
-				date > 1940.6.1 
-			}
-			has_completed_focus = uk_iran_focus
+			PER = { exists = yes }
+			has_completed_focus = uk_iran_focus			
 			444 = { is_controlled_by = RAJ } 
-
+			date > 1942.1.1 
 		} 
  		
 		cost = 25 
@@ -563,25 +564,78 @@ foreign_politics = {
 			tag = ENG 
 			PER = { exists = yes } 
 		}
- 		
+		
+		days_remove = 30
+		
 		complete_effect = { 
-			SOV = {
-				transfer_state = 420
-				transfer_state = 419
-				transfer_state = 418
-				transfer_state = 266
-				transfer_state = 416
-			}
-			ENG = { 
-				annex_country = {
-					target = PER  
-					transfer_troops = no 
+			hidden_effect = { 
+				if = { 
+					limit = {
+						AND = { 
+							NOT = { 447 = { is_fully_controlled_by = ENG } } 
+							NOT = { 454 = { is_fully_controlled_by = ENG } }
+						}
+					}
+					SOV = { country_event = { id = gduevents.21 days = 1 } }
+					GER = { country_event = { id = gduevents.21 days = 1 } }
 				}
 			}
-			SOV = { country_event = { id = gduevents.11 days = 1 } }
-							
 		}
+		
+		remove_effect = {
+			if = { 
+				limit = { 
+					AND = { 
+						447 = { is_fully_controlled_by = ENG }  
+						454 = { is_fully_controlled_by = ENG }  
+					}
+				}
+				SOV = {
+					transfer_state = 420
+					transfer_state = 419
+					transfer_state = 418
+					transfer_state = 266
+					transfer_state = 416
+				}
+				ENG = { 
+					annex_country = {
+						target = PER  
+						transfer_troops = no 
+					}
+				}	
+				SOV = { country_event = { id = gduevents.11 days = 1 } }
+			}
+			
+			if = { 
+				limit = {
+					OR = { 
+						NOT = { 447 = { is_fully_controlled_by = ENG } } 
+						NOT = { 454 = { is_fully_controlled_by = ENG } }
+					}
+				}
+				ENG = { 
+					declare_war_on = {
+						target = PER 
+						type = annex_everything
+					}
+				}
+				SOV = { 
+					declare_war_on = {
+						target = PER
+						type = annex_everything
+					}
+				}
+				GER = { 
+					declare_war_on = {
+						target = PER
+						type = annex_everything
+					}
+				}
+							
+			}
 
+		}
+		
 	}
 	
 	GDU_usa_torch_decision = { 

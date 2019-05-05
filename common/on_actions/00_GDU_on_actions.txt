@@ -518,25 +518,20 @@ on_actions = {
 					AND = { 
 						tag = IRQ
 						OR = { 
-							291 = { is_controlled_by = ENG } 
-							291 = { is_controlled_by = USA }
-							291 = { is_controlled_by = CAN } 
-							291 = { is_controlled_by = SAF }
-							291 = { is_controlled_by = AST }
-							291 = { is_controlled_by = NZL } 
-							291 = { is_controlled_by = RAJ } 
+							291 = { is_controlled_by = GER } 
+							291 = { is_controlled_by = ROM }
+							291 = { is_controlled_by = ITA } 
+							291 = { is_controlled_by = BUL }
+							291 = { is_controlled_by = HUN }
+							291 = { is_controlled_by = FIN } 
 						}
 					} 
 						
 						
 				}
-				ENG = { 
-					annex_country = {
-						target = IRQ 
-						transfer_troops = no 
-					}
-					set_state_controller = 291 
-				} 
+
+				GER = { transfer_state = 413 } 
+
 			}
 			
 			if = { 
