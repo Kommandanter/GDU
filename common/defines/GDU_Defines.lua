@@ -49,7 +49,7 @@ NDefines.NCountry.REINFORCEMENT_MANPOWER_CHUNK = 0.1
 NDefines.NCountry.MIN_MANPOWER_RATIO = 0.25
 NDefines.NCountry.PARADROP_AIR_SUPERIORITY_RATIO = 0.65
 NDefines.NCountry.BASE_MAX_COMMAND_POWER = 250.0
-NDefines.NCountry.BASE_COMMAND_POWER_GAIN = 0.0015				-- base value for daily command power gain
+NDefines.NCountry.BASE_COMMAND_POWER_GAIN = 0.002				-- base value for daily command power gain
 NDefines.NCountry.STARTING_COMMAND_POWER = 50.0
 NDefines.NCountry.ATTACHE_XP_SHARE = 0.05
 NDefines.NCountry.BASE_MOBILIZATION_SPEED = 0.04
@@ -176,12 +176,12 @@ NDefines.NMilitary.PARADROP_PENALTY = -0.2
 NDefines.NMilitary.LAND_COMBAT_COLLATERAL_FACTOR = 0.002
 
 --- Nerfing CAS 
-NDefines.NMilitary.LAND_AIR_COMBAT_STR_DAMAGE_MODIFIER = 0.02    -- air global damage modifier
-NDefines.NMilitary.LAND_AIR_COMBAT_ORG_DAMAGE_MODIFIER = 0.02    -- global damage modifier
+NDefines.NMilitary.LAND_AIR_COMBAT_STR_DAMAGE_MODIFIER = 0.03    -- air global damage modifier
+NDefines.NMilitary.LAND_AIR_COMBAT_ORG_DAMAGE_MODIFIER = 0.03    -- global damage modifier
 
-NDefines.NMilitary.ACCLIMATIZATION_IN_COMBAT_SPEED_FACTOR = 1		-- Acclimatization speed multiplier while being in combat.
-NDefines.NMilitary.ACCLIMATIZATION_SPEED_GAIN = 0.015				-- A variable used to balance the overall speed of gaining the acclimatization
-NDefines.NMilitary.ACCLIMATIZATION_LOSS_SPEED_FACTOR = 8.0		-- Loosing one acclimatization while being under affect of the opposite climate should cause it to drop down much faster than gaining.
+NDefines.NMilitary.ACCLIMATIZATION_IN_COMBAT_SPEED_FACTOR = 6		-- Acclimatization speed multiplier while being in combat.
+NDefines.NMilitary.ACCLIMATIZATION_SPEED_GAIN = 0.02				-- A variable used to balance the overall speed of gaining the acclimatization
+NDefines.NMilitary.ACCLIMATIZATION_LOSS_SPEED_FACTOR = 4.0		-- Loosing one acclimatization while being under affect of the opposite climate should cause it to drop down much faster than gaining.
 
 NDefines.NMilitary.UNIT_LEADER_ASSIGN_TRAIT_COST = 0.00 -- Assigning traits is a PITA. Why should it cost anything?
 NDefines.NMilitary.PROMOTE_LEADER_CP_COST = 500.0 -- CP is used for too many things in the mod for it to be spent on something like this without it being a nuisance.
@@ -214,20 +214,45 @@ NDefines.NAir.ANTI_AIR_PLANE_DAMAGE_CHANCE = 0.1 -- original 0.1 Anti Air Gun hi
 NDefines.NAir.ANTI_AIR_ATTACK_TO_DAMAGE_REDUCTION_FACTOR = 1.0 -- original 1.00 Balancing value to convert equipment stat anti_air_attack to the damage reduction modifier apply to incoming air attacks against units with AA.
 NDefines.NAir.NAVAL_KAMIKAZE_DAMAGE_MULT = 5.0  -- vanilla is like 20
 NDefines.NAir.AA_INDUSTRY_AIR_DAMAGE_FACTOR = -0.12 -- -0.12 vanilla, per level AA state 
-NDefines.NAir.ANTI_AIR_MAXIMUM_DAMAGE_REDUCTION_FACTOR = 0.6 -- .75 Maximum damage reduction factor applied to incoming air attacks against units with AA.
+NDefines.NAir.ANTI_AIR_MAXIMUM_DAMAGE_REDUCTION_FACTOR = 0.75 -- .75 Maximum damage reduction factor applied to incoming air attacks against units with AA.
 
 NDefines.NAir.NAVAL_COMBAT_EXTERNAL_PLANES_JOIN_RATIO = 0.05		-- Max planes that can join a combat comparing to the total strength of the ships 0.05-->0.13
 NDefines.NAir.NAVAL_COMBAT_EXTERNAL_PLANES_JOIN_RATIO_PER_DAY = 0.2 -- max extra plane % that can join every day 0.2 ---> 0.25 
 NDefines.NAir.NAVAL_COMBAT_EXTERNAL_PLANES_MIN_CAP = 20			-- Min cap for planes that can join naval combat 
 NDefines.NAir.DISRUPTION_FACTOR_CARRIER = 16.0							-- multiplier on disruption damage to scale its effects on carrier vs carrier planes
 
-NDefines.NAir.DISRUPTION_FACTOR = 2.9  -- (4 -> 7) with decent radar coverage equal amounts of fighters vs naval bombers will disrupt almost all naval bombers if not escorted, with low detection very few bombers are intercepted still
+NDefines.NAir.DISRUPTION_FACTOR = 7  -- (4 -> 7) with decent radar coverage equal amounts of fighters vs naval bombers will disrupt almost all naval bombers if not escorted, with low detection very few bombers are intercepted still
 NDefines.NAir.ESCORT_FACTOR = 2.6 -- (2 -> 3) to make sure that escorted planes are still capable of bombing, with equal escorts/interceptors most of bombers get through Keep in mind that these values will also affect how cas/tac/strat bombers work, they make escorting planes much more important (which imo is 100% fine)
+
+NDefines.NAir.DISRUPTION_DEFENCE_SPEED_FACTOR = 3
+NDefines.NAir.AIR_WING_MAX_STATS_SPEED = 2500
+
 NDefines.NAir.AIR_WING_XP_LOSS_WHEN_KILLED = 0.4
 NDefines.NAir.DETECT_CHANCE_FROM_AIRCRAFTS_EFFECTIVE_COUNT = 1
 NDefines.NAir.COMBAT_MULTIPLANE_CAP = 1.6
 NDefines.NAir.AIR_COMBAT_FINAL_DAMAGE_SCALE = 0.2 -- 0.015	 % how many max disrupted only planes are allowed to die in a single combat
-NDefines.NAir.NAVAL_STRIKE_DETECTION_BALANCE_FACTOR = 0.7 -- something about how naval bombing shakes out, ask SilentLegion#1356
+
+NDefines.NAir.NAVAL_STRIKE_DETECTION_BALANCE_FACTOR = 0.025		-- Value used to scale the surface_visibility stats to balance the gameplay, so 100% detection chance still won't spam the strikes.
+
+NDefines.NAir.DISRUPTION_DETECTION_FACTOR = 1.0
+
+NDefines.NAir.NAVAL_STRIKE_DAMAGE_TO_STR = 1.0					-- Balancing value to convert damage ( naval_strike_attack * hits ) to Strength reduction.
+NDefines.NAir.NAVAL_STRIKE_DAMAGE_TO_ORG = 4.0					-- Balancing value to convert damage ( naval_strike_attack * hits ) to Organisation reduction.
+
+NDefines.NNavy.SPOTTING_ENEMY_SPOTTING_MULTIPLIER_FOR_RUNNING_AWAY = 0.10		-- enemy spotting is multiplied by this value to simulate running away
+
+
+NDefines.NNavy.NAVAL_STRIKE_CARRIER_MULTIPLIER = 20.0              -- damage bonus when planes are in naval combat where their carrier is present (and can thus sortie faster and more effectively)
+
+NDefines.NAir.NAVAL_COMBAT_EXTERNAL_PLANES_JOIN_RATIO = 0.2		-- Max planes that can join a combat comparing to the total strength of the ships
+NDefines.NAir.NAVAL_COMBAT_EXTERNAL_PLANES_JOIN_RATIO_PER_DAY = 0.8 -- max extra plane % that can join every day
+NDefines.NAir.NAVAL_COMBAT_EXTERNAL_PLANES_MIN_CAP = 40			-- Min cap for planes that can join naval combat
+
+NDefines.NAir.HOURS_DELAY_AFTER_EACH_COMBAT = 2					-- How many hours needs the wing to be ready for the next combat. Use for tweaking if combats happens too often. (generally used as double because of roundtrip)
+NDefines.NAir.CARRIER_HOURS_DELAY_AFTER_EACH_COMBAT = 1          -- how often carrier planes do battle inside naval combat
+
+NDefines.NNavy.CARRIER_STACK_PENALTY = 4										-- The most efficient is 4 carriers in combat. 5+ brings the penalty to the amount of wings in battle.
+NDefines.NNavy.CARRIER_STACK_PENALTY_EFFECT = 0.2								-- Each carrier above the optimal amount decreases the amount of airplanes being able to takeoff by such %.
 
 NDefines.NNavy.NAVAL_SUPREMACY_CAN_INVADE = 0.60
 NDefines.NNavy.NAVAL_TRANSFER_BASE_SPEED = 12
@@ -245,19 +270,7 @@ NDefines.NNavy.BASE_GUN_COOLDOWNS = { -- doubled the cooldown of guns to make ba
 }
 NDefines.NNavy.HIGHER_SHIP_RATIO_POSITIONING_PENALTY_FACTOR = 0.45 -- (0.25 -> 0.45) this basically means that if the enemy fleet is 45% the size of your fleet you take maximum positioning penalty from fleet size, about -25% attack, -25% screening, -35% aa. I would avoid increasing the maximum too much since it might to lead to some absurd results
 
-NDefines.NNavy.MISSION_SUPREMACY_RATIOS = { -- supremacy multipliers for different mission types
-		0.0, -- HOLD
-		1.0, -- PATROL		
-		0.6, -- STRIKE FORCE 
-		0.5, -- CONVOY RAIDING
-		0.5, -- CONVOY ESCORT
-		0.3, -- MINES PLANTING	
-		0.3, -- MINES SWEEPING	
-		0.0, -- TRAIN
-		0.0, -- RESERVE_FLEET
-		1.0, -- NAVAL_INVASION_SUPPORT
-	}
-	
+
 NDefines.NNavy.ESCAPE_SPEED_SUB_BASE = 0.06 -- Trying to nerf subs.
 NDefines.NNavy.SUB_DETECTION_CHANCE_BASE = 6
 NDefines.NNavy.BASE_JOIN_COMBAT_HOURS = 2 -- the taskforces that wants to join existing combats will wait for at least this amount 8--->2 

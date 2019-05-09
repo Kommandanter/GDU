@@ -23,14 +23,22 @@ GDU_Zaibatsu_category = {
 					has_idea = JAP_zaibatsus
 				}
 				remove_ideas = JAP_zaibatsus
-				add_ideas = zaibatsu1 
+				add_ideas = zaibatsu1
+				MAN = {
+					remove_ideas = JAP_zaibatsus
+					add_ideas = zaibatsu1
+				}
 			}
 			if = { 
 				limit = {
 					has_idea = zaibatsu2 
 				}
 				remove_ideas = zaibatsu2 
-				add_ideas = zaibatsu1 
+				add_ideas = zaibatsu1
+				MAN = {
+					remove_ideas = zaibatsu2 
+					add_ideas = zaibatsu1
+				}
 			}
 			if = { 
 				limit = {
@@ -38,6 +46,10 @@ GDU_Zaibatsu_category = {
 				}
 				remove_ideas = zaibatsu3 
 				add_ideas = zaibatsu1 
+				MAN = {
+					remove_ideas = zaibatsu3 
+					add_ideas = zaibatsu1 
+				}
 			}
 			if = { 
 				limit = {
@@ -45,6 +57,10 @@ GDU_Zaibatsu_category = {
 				}
 				remove_ideas = zaibatsu4 
 				add_ideas = zaibatsu1 
+				MAN = {
+					remove_ideas = zaibatsu4 
+					add_ideas = zaibatsu1 
+				}
 			}
 		}
 	}
@@ -71,6 +87,10 @@ GDU_Zaibatsu_category = {
 				}
 				remove_ideas = JAP_zaibatsus
 				add_ideas = zaibatsu2
+				MAN = {
+					remove_ideas = JAP_zaibatsus
+					add_ideas = zaibatsu2
+				}
 			}
 			if = { 
 				limit = {
@@ -78,6 +98,10 @@ GDU_Zaibatsu_category = {
 				}
 				remove_ideas = zaibatsu1 
 				add_ideas = zaibatsu2 
+				MAN = {
+					remove_ideas = zaibatsu1 
+					add_ideas = zaibatsu2 
+				}				
 			}
 			if = { 
 				limit = {
@@ -85,6 +109,10 @@ GDU_Zaibatsu_category = {
 				}
 				remove_ideas = zaibatsu3 
 				add_ideas = zaibatsu2 
+				MAN = {
+					remove_ideas = zaibatsu3 
+					add_ideas = zaibatsu2 
+				}				
 			}
 			if = { 
 				limit = {
@@ -92,6 +120,10 @@ GDU_Zaibatsu_category = {
 				}
 				remove_ideas = zaibatsu4 
 				add_ideas = zaibatsu2 
+				MAN = {
+					remove_ideas = zaibatsu4 
+					add_ideas = zaibatsu2 
+				}				
 			}
 		}
 	}
@@ -118,6 +150,10 @@ GDU_Zaibatsu_category = {
 				}
 				remove_ideas = JAP_zaibatsus
 				add_ideas = zaibatsu3
+				MAN = {
+					remove_ideas = JAP_zaibatsus 
+					add_ideas = zaibatsu3 
+				}					
 			}
 			if = { 
 				limit = {
@@ -125,6 +161,10 @@ GDU_Zaibatsu_category = {
 				}
 				remove_ideas = zaibatsu1 
 				add_ideas = zaibatsu3
+				MAN = {
+					remove_ideas = zaibatsu1 
+					add_ideas = zaibatsu3 
+				}					
 			}
 			if = { 
 				limit = {
@@ -132,6 +172,10 @@ GDU_Zaibatsu_category = {
 				}
 				remove_ideas = zaibatsu2 
 				add_ideas = zaibatsu3 
+				MAN = {
+					remove_ideas = zaibatsu2 
+					add_ideas = zaibatsu3 
+				}					
 			}
 			if = { 
 				limit = {
@@ -139,6 +183,10 @@ GDU_Zaibatsu_category = {
 				}
 				remove_ideas = zaibatsu4 
 				add_ideas = zaibatsu3 
+				MAN = {
+					remove_ideas = zaibatsu4 
+					add_ideas = zaibatsu3
+				}					
 			}
 		}
 	}
@@ -165,6 +213,10 @@ GDU_Zaibatsu_category = {
 				}
 				remove_ideas = JAP_zaibatsus
 				add_ideas = zaibatsu4
+				MAN = {
+					remove_ideas = JAP_zaibatsus 
+					add_ideas = zaibatsu4
+				}				
 			}
 			if = { 
 				limit = {
@@ -172,6 +224,10 @@ GDU_Zaibatsu_category = {
 				}
 				remove_ideas = zaibatsu1 
 				add_ideas = zaibatsu4
+				MAN = {
+					remove_ideas = zaibatsu1 
+					add_ideas = zaibatsu4
+				}				
 			}
 			if = { 
 				limit = {
@@ -179,6 +235,10 @@ GDU_Zaibatsu_category = {
 				}
 				remove_ideas = zaibatsu2 
 				add_ideas = zaibatsu4 
+				MAN = {
+					remove_ideas = zaibatsu2 
+					add_ideas = zaibatsu4
+				}				
 			}
 			if = { 
 				limit = {
@@ -186,7 +246,11 @@ GDU_Zaibatsu_category = {
 				}
 				remove_ideas = zaibatsu3
 				add_ideas = zaibatsu4 
-			}
+				MAN = {
+					remove_ideas = zaibatsu3 
+					add_ideas = zaibatsu4
+				}				
+			}		
 		}
 	}
 	

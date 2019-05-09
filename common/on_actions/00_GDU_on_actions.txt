@@ -2,6 +2,7 @@ on_actions = {
 
 	on_startup = {
 		effect = {
+		
 			#Initializing the global.small_airbase_list array#
 	
 		if = { 
@@ -244,11 +245,7 @@ on_actions = {
 				add_opinion_modifier = { target = VEN modifier = embargo }
 				add_opinion_modifier = { target = VEN modifier = sanctions_relations }   
 				add_opinion_modifier = { target = VEN modifier = large_decrease }
-				add_opinion_modifier = { target = VEN modifier = hostile_status } 
-				add_opinion_modifier = { target = FRA modifier = embargo }
-				add_opinion_modifier = { target = FRA modifier = sanctions_relations }   
-				add_opinion_modifier = { target = FRA modifier = large_decrease }
-				add_opinion_modifier = { target = FRA modifier = hostile_status }   				
+				add_opinion_modifier = { target = VEN modifier = hostile_status }  				
 			}
 			VEN = { 
 				add_opinion_modifier = { target = SPR modifier = embargo }
@@ -304,12 +301,7 @@ on_actions = {
 				add_opinion_modifier = { target = SPR modifier = large_decrease }
 				add_opinion_modifier = { target = SPR modifier = hostile_status }
 			}
-			FRA = { 
-				add_opinion_modifier = { target = SPR modifier = embargo }
-				add_opinion_modifier = { target = SPR modifier = sanctions_relations }
-				add_opinion_modifier = { target = SPR modifier = large_decrease }
-				add_opinion_modifier = { target = SPR modifier = hostile_status }
-			}
+
 			
 			
 			#### Countries are given small amounts of starting navy XP to make some starting ship templates. Japan gets more because it is fuel deprived and can't really afford to train its navy early for navy XP. #### 
@@ -349,13 +341,117 @@ on_actions = {
 			}
 			NZL = { 
 				navy_experience = 33
-			}			
+			}
+
+
+		#### Annexing Manchukuo immediately to Japan if it starts the game as AI. In this case, Japan gets some of the industry from focuses Manchukuo would have done if it were a player. Although Japan gets this industry up front, it is less than the focus factories a human Manchukuo player can get. Given that Japan can use this for ongoing construction, Asian Axis should end up with about the same industry as you would get with a good Manchu player who properly develops it ####
+
+		if = { 
+			limit = { 
+				NOT = { has_global_flag = manchukuo_started_ai } 
+				date < 1936.1.2
+				MAN = { is_ai = yes }
+			}
+			set_global_flag = manchukuo_started_ai 
+			JAP = {	
+				add_research_slot = 1
+				annex_country = {
+							target = MAN
+							transfer_troops = yes
+				}
+			}
+			
+			610 = {
+				add_manpower = 25417
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = MAN_invite_japanese_settlers_2IC
+			}
+			716 = {
+				add_manpower = 25417
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = MAN_invite_japanese_settlers_2IC
+			}
+			every_state = {
+				limit = {
+					is_core_of = MAN
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+			715 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = MAN_expand_the_textile_industry_IC				
+			}
+			328 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = MAN_invite_japanese_investors_IC
+			}
+			716 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			716 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+					}
+				}
+			328 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+					}
+				}
+			610 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+					}
+				}
+			717 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+					}
+				}
+		}
+
+
+
+
+			
+
 		}
 	}
 
 	#THIS IS THE AIRBASE LIMITER. 
-	#Oh, and there's something in here that checks for Somalian naval bases. Long story. It's so Italy doesn't invade SA.
-	#global.somalian_list
 	on_daily = { 
 		effect = {
 			 if = {
@@ -518,20 +614,25 @@ on_actions = {
 					AND = { 
 						tag = IRQ
 						OR = { 
-							291 = { is_controlled_by = GER } 
-							291 = { is_controlled_by = ROM }
-							291 = { is_controlled_by = ITA } 
-							291 = { is_controlled_by = BUL }
-							291 = { is_controlled_by = HUN }
-							291 = { is_controlled_by = FIN } 
+							291 = { is_controlled_by = ENG } 
+							291 = { is_controlled_by = USA }
+							291 = { is_controlled_by = CAN } 
+							291 = { is_controlled_by = SAF }
+							291 = { is_controlled_by = AST }
+							291 = { is_controlled_by = NZL } 
+							291 = { is_controlled_by = RAJ } 
 						}
 					} 
 						
 						
 				}
-
-				GER = { transfer_state = 413 } 
-
+				ENG = { 
+					annex_country = {
+						target = IRQ 
+						transfer_troops = no 
+					}
+					set_state_controller = 291 
+				} 
 			}
 			
 			if = { 
@@ -609,30 +710,30 @@ on_actions = {
 					create_corps_commander = {
 						name = "Charles De Gaulle"
 						picture = "Portrait_France_Charles_De_Gaulle.dds"
-						traits = { armor_officer harsh_leader desert_fox media_personality trait_reckless panzer_leader exiled_leader }
+						traits = { armor_officer harsh_leader media_personality trait_reckless panzer_leader exiled_leader }
 						skill = 6
-						attack_skill = 6
-						defense_skill = 5
+						attack_skill = 5
+						defense_skill = 6
 						planning_skill = 3
-						logistics_skill = 2
+						logistics_skill = 4
 					}
 					create_field_marshal = {
 						name = "Philippe Leclerc"
 						picture = "portrait_france_philippe_leclerc.dds"
 						traits = { armor_officer trait_reckless career_officer politically_connected panzer_leader skilled_staffer organizer exiled_leader }
 						skill = 5
-						attack_skill = 6
-						defense_skill = 5
-						planning_skill = 4
-						logistics_skill = 7
+						attack_skill = 4
+						defense_skill = 3
+						planning_skill = 3
+						logistics_skill = 6
 					}
 					create_corps_commander = {
 						name = "Marie-Pierre Koenig"
 						picture = "Portrait_France_Marie_Pierre_Koenig.dds"
-						traits = { trickster trait_mountaineer desert_fox infantry_leader infantry_officer career_officer harsh_leader exiled_leader }
+						traits = { trickster trait_mountaineer infantry_leader infantry_officer career_officer harsh_leader exiled_leader }
 						skill = 5
-						attack_skill = 6
-						defense_skill = 5
+						attack_skill = 5
+						defense_skill = 3
 						planning_skill = 4
 						logistics_skill = 4
 					}
@@ -641,9 +742,9 @@ on_actions = {
 						picture = "Portrait_France_Generic_land_4.dds"
 						traits = { desert_fox war_hero politically_connected trait_reckless cavalry_leader armor_officer exiled_leader }
 						skill = 4
-						attack_skill = 6
-						defense_skill = 4
-						planning_skill = 2
+						attack_skill = 5
+						defense_skill = 3
+						planning_skill = 1
 						logistics_skill = 4
 					}
 					create_navy_leader = {

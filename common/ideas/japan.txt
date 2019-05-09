@@ -1492,8 +1492,11 @@ ideas = {
 		
 			picture = tomoyuki_yamashita 
 			
-			allowed = {
-				original_tag = JAP 
+			allowed = { 
+				OR = { 
+				original_tag = JAP
+				original_tag = MAN	
+				}
 			}
 			
 			traits = { army_commando_2 }
@@ -1524,7 +1527,10 @@ ideas = {
 			picture = generic_army_asia_2 
 			
 			allowed = { 
-				original_tag = JAP 
+				OR = { 
+				original_tag = JAP
+				original_tag = MAN	
+				}
 			}
 			
 			traits = { army_armored_2 } 
@@ -1716,11 +1722,14 @@ ideas = {
 		mitsubishi = {
 						
 			allowed = {
-				original_tag = JAP		
+				OR = {
+				original_tag = JAP
+				original_tag = MAN					
+				}
 			}
 			
 			available = {
-				has_completed_focus = JAP_agility_focus
+				JAP = { has_completed_focus = JAP_agility_focus }
 			}
 			
 			research_bonus = {
@@ -1737,11 +1746,14 @@ ideas = {
 		aichi = {
 			
 			allowed = {
+				OR = {
 				original_tag = JAP
+				original_tag = MAN					
+				}
 			}
-
+			
 			available = {
-				has_completed_focus = JAP_range_focus
+				JAP = { has_completed_focus = JAP_range_focus }
 			}
 						
 			research_bonus = {
@@ -1754,7 +1766,10 @@ ideas = {
 		nakajima = {
 						
 			allowed = {
+				OR = {
 				original_tag = JAP
+				original_tag = MAN					
+				}
 			}
 			
 			research_bonus = {
@@ -1768,7 +1783,10 @@ ideas = {
 		yokosuka = {
 						
 			allowed = {
+				OR = {
 				original_tag = JAP
+				original_tag = MAN					
+				}
 			}
 						
 			research_bonus = {
@@ -1865,7 +1883,10 @@ ideas = {
 		osaka_army_arsenal = {
 			
 			allowed = {
+				OR = { 
 				original_tag = JAP
+				original_tag = MAN	
+				}
 			}
 				
 			research_bonus = {

@@ -341,3 +341,11 @@
  SOV_Sinteticheskii_Kauchuk_desc:0 "Synthetic rubber was one of the success stories of the First Five-Year Plan. The Yaroslavl plant, SK-1 (Sinteticheskii Kauchuk-1), with a design capacity of ten thousand metric tons, was the first large-scale synthetic rubber plant to be built anywhere in the world. Before 1932 was out, another plant was operating at Voronezh and, in mid-1933, a third was comissioned at Efremov between Voronezh and Tula."
  continuous_convoy_production:0 "Convoy Production"
  CHI_army_reform_completed:0 "Completed all steps of §YArmy Reform§!\n"
+ 
+ MAN_heavy_weapons:0 "Heavy Weapons"
+ MAN_elite_mountaineers:0 "Elite Mountaineers"
+ MAN_small_arms_expertise:0 "Small Arms Expertise"
+ MAN_construction_battalions:0 "Construction Battalions"
+ MAN_modern_logistics:0 "Modern Logistics"
+ MAN_chinese_panzers:0 "Chinese Panzers"
+ MAN_combined_arms_warfare:0 "Combined Arms Warfare"
