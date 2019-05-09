@@ -156,7 +156,7 @@ on_actions = {
 			FRA = { 
 				country_event = { id = france.21 days = 180 } 
 			}
-			#### The UK had a commanding stake in Iranian and Iraqi oil, as well as Venezuela. We don't give them Venezuela for balance reasons. ####
+			#### The UK had a commanding stake in Iranian and Iraqi oil, as well as Venezuela. We don't give them Venezuela for balance reasons. Actually, as of 5/9/2019, we do--Removal of Strike Force from UK denial capability means they have to actually patrol and need more oil. ####
 			PER = {
 				give_resource_rights = { receiver = ENG state = 412 }
 				give_resource_rights = { receiver = ENG state = 413 }
@@ -165,6 +165,9 @@ on_actions = {
 			IRQ = { 
 				give_resource_rights = { receiver = ENG state = 676 }
 				give_resource_rights = { receiver = ENG state = 291 }
+			}
+			VEN = { 
+				give_resource_rights = { receiver = ENG state = 489 } 
 			}
 			#### The USA is given control over Philippines resources since it is a puppet. This gives USA some rubber and prevents USA from purposely importing too much rubber from UK just for trade-buffing reasons. Later on it perhaps also gives USA a bit more of an incentive to defend the Philippines since USA gets the rubber there itself. ####
 			PHI = {

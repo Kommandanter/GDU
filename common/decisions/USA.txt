@@ -301,6 +301,7 @@ USA_aid_britain = {
 		}
 
 		complete_effect = {
+			air_experience = 100 
 			send_equipment = {
 				equipment = fighter_equipment 
 				amount = 650
@@ -349,6 +350,7 @@ USA_aid_britain = {
 		}
 
 		complete_effect = {
+			air_experience = 100 
 			send_equipment = {
 				equipment = CAS_equipment 
 				amount = 300
@@ -397,6 +399,7 @@ USA_aid_britain = {
 		}
 
 		complete_effect = {
+			air_experience = 100 
 			send_equipment = {
 				equipment = tac_bomber_equipment 
 				amount = 200
