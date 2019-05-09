@@ -11,8 +11,7 @@ Minor_run_down_mid = {
 			original_tag = LIT 
 			original_tag = LAT 
 			original_tag = EST 
-			original_tag = LUX
-			original_tag = IRQ 
+			original_tag = LUX 
 			original_tag = PHI 
 			original_tag = SIA 
 		}

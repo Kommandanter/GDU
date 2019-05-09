@@ -864,6 +864,16 @@ focus_tree = {
 					num_of_controlled_states < 2
 				}
 			}
+			modifier = {
+				factor = 0
+				date < 1945.1.1
+				OR = {
+					# we dont want minors to go crazy with this. 
+					tag = PER 
+					tag = IRQ 
+
+				}
+			}
 		}
 	}
 

@@ -13,7 +13,7 @@
  SPR_civil_war_threat:0 "Spanish Civil War"
  JAP_war_with_china:0 "Counterweight for Japanese War"
  GER_fall_gelb_tooltip:0 "Unlocks §YCase Yellow§!, allowing for the simultaneous invasion of the entire Benelux region.\n\n"
- GER_barbarossa_tooltip:0 "§RThe entire Axis will strike the Soviet Union in an unprovoked surprise attack.§!\n\n"
+ GER_barbarossa_tooltip:0 "§RThe entire Axis will strike the Soviet Union in an unprovoked surprise attack.\n\nIf you have 250 Command Power, you'll receive a powerful buff for 3 months equal to several Operations combined.§!\n\n"
  SOV_barbarossa_tooltip:0 "§RThey are coming.§!"
  SOV_red_army_resurgent_tooltip:0 "§GRemoves all penalties from officers purged!\n\n§!"
  SOV_great_purge_completed:0 "The Great Purge will only be removed after a long period of time, or when the Soviet Union has to overcome §Rgreat danger.§!\n\n" 

@@ -42,7 +42,7 @@ upgrades = {
 		
 		cost = air
 
-		maximum_speed = 0.02
+		maximum_speed = 0.01
 		air_agility = 0.05
 	}	
 	plane_reliability_upgrade = {
