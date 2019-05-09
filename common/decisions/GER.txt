@@ -532,7 +532,7 @@ foreign_politics = {
 			
 			if = { 
 				limit = { 
-					command_power > 250 
+					NOT = { command_power < 250 }  
 				}
 				add_command_power = -250.0 
 				add_timed_idea = { idea = GER_barbarossa days = 90 } 
