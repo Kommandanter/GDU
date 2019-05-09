@@ -387,6 +387,7 @@ ideas = {
 			}
 
 			modifier = {
+				supply_consumption_factor = -0.1 
 				drift_defence_factor = 0.5
 				global_building_slots_factor = 0.10
 			}
