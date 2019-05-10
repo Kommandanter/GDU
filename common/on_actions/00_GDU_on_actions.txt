@@ -929,11 +929,11 @@ on_actions = {
 
 				}
 				
-				FRA = { 
-					transfer_navy = { 
-						target = EFR 
-					}
-				}
+				#FRA = { #Commented out due to errors. CTD.# 
+				#	transfer_navy = { 
+				#		target = EFR 
+				#	}
+				#}
 
 						
 			}
