@@ -1694,8 +1694,23 @@ country_event = {
 		# REVISIT Balance research bonus
 		add_tech_bonus = {
 			name = GER_soviet_treaty
-			bonus = 1.00 
+			bonus = 2.00 
 			technology = basic_medium_tank
+		}
+		add_tech_bonus = {
+			name = GER_soviet_treaty
+			bonus = 2.00 
+			technology = basic_medium_td
+		}
+		add_tech_bonus = {
+			name = GER_soviet_treaty
+			bonus = 2.00 
+			technology = basic_medium_art
+		}
+		add_tech_bonus = {
+			name = GER_soviet_treaty
+			bonus = 2.00 
+			technology = basic_medium_spaa
 		}
 		SOV = {
 			add_opinion_modifier = { target = GER modifier = sov_ger_treaty }
