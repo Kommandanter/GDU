@@ -1,0 +1,67 @@
+﻿add_namespace = gduvichy
+
+#### Event that gives Vichy stuff from 00_GDU_Vichy, we space it out to avoid destroying inferior CPU's #### 
+country_event = { 
+	id = gduvichy.1
+	title = gduvichy.1.t
+	desc = gduvichy.1.d
+	picture = GFX_report_event_canadian_soldiers
+	
+	is_triggered_only = yes 
+	
+	immediate = { 
+					transfer_state = 514  # Desert wastelands 
+					transfer_state = 786
+					transfer_state = 515
+					transfer_state = 782
+					transfer_state = 775
+					
+					transfer_state = 556 # Africa 
+					transfer_state = 557
+					transfer_state = 272
+					transfer_state = 776
+					transfer_state = 777
+					transfer_state = 778 
+	}
+	
+	option = {
+		name = gduvichy.1.a
+	
+	}
+	
+	
+	
+}
+
+country_event = { 
+	id = gduvichy.2
+	title = gduvichy.2.t
+	desc = gduvichy.2.d
+	picture = GFX_report_event_canadian_soldiers
+	
+	is_triggered_only = yes 
+	
+	immediate = {  
+					transfer_state = 779
+					transfer_state = 780
+					transfer_state = 781
+					transfer_state = 298 # Liberia, lol 
+					
+					transfer_state = 671
+					transfer_state = 670
+					transfer_state = 741
+					transfer_state = 286
+
+					transfer_state = 543 #Madagascar 
+					
+					set_capital = 26
+	}
+	
+	option = {
+		name = gduvichy.2.a
+	
+	}
+	
+	
+	
+}
