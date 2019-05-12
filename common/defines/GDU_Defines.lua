@@ -252,7 +252,7 @@ NDefines.NAir.NAVAL_COMBAT_EXTERNAL_PLANES_MIN_CAP = 50			-- Min cap for planes 
 
 NDefines.NAir.HOURS_DELAY_AFTER_EACH_COMBAT = 4					-- How many hours needs the wing to be ready for the next combat. Use for tweaking if combats happens too often. (generally used as double because of roundtrip)
 
-NDefines.NAir.NAVAL_STRIKE_DETECTION_BALANCE_FACTOR = 0.033		-- Value used to scale the surface_visibility stats to balance the gameplay, so 100% detection chance still won't spam the strikes.
+NDefines.NAir.NAVAL_STRIKE_DETECTION_BALANCE_FACTOR = 0.075		-- Value used to scale the surface_visibility stats to balance the gameplay, so 100% detection chance still won't spam the strikes.
 
 
 
