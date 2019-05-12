@@ -1760,6 +1760,9 @@ leader_traits = {
 			cv_CAS_equipment = {
 				air_range = 0.1 naval_strike_attack = 0.1
 			}
+			CAS_equipment = {
+				air_ground_attack = 0.1 air_range = 0.1
+			}			
 		}
 
 		ai_will_do = {
