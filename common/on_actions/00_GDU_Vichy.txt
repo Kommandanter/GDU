@@ -33,6 +33,14 @@ on_actions = {
 				
 				FRA = {
 				
+					start_civil_war = {
+						ideology = fascism
+						size = 0.9
+						capital = 26
+						states = { 26 }
+ 					
+					}
+				
 					add_state_core = 539
 					
 					##add checks if general exists
