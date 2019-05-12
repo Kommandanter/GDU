@@ -216,9 +216,6 @@ NDefines.NAir.NAVAL_KAMIKAZE_DAMAGE_MULT = 5.0  -- vanilla is like 20
 NDefines.NAir.AA_INDUSTRY_AIR_DAMAGE_FACTOR = -0.12 -- -0.12 vanilla, per level AA state 
 NDefines.NAir.ANTI_AIR_MAXIMUM_DAMAGE_REDUCTION_FACTOR = 0.6 -- .75 Maximum damage reduction factor applied to incoming air attacks against units with AA.
 
-NDefines.NAir.NAVAL_COMBAT_EXTERNAL_PLANES_JOIN_RATIO = 0.05		-- Max planes that can join a combat comparing to the total strength of the ships 0.05-->0.13
-NDefines.NAir.NAVAL_COMBAT_EXTERNAL_PLANES_JOIN_RATIO_PER_DAY = 0.2 -- max extra plane % that can join every day 0.2 ---> 0.25 
-NDefines.NAir.NAVAL_COMBAT_EXTERNAL_PLANES_MIN_CAP = 20			-- Min cap for planes that can join naval combat 
 NDefines.NAir.DISRUPTION_FACTOR_CARRIER = 16.0							-- multiplier on disruption damage to scale its effects on carrier vs carrier planes
 
 NDefines.NAir.DISRUPTION_FACTOR = 7  -- (4 -> 7) with decent radar coverage equal amounts of fighters vs naval bombers will disrupt almost all naval bombers if not escorted, with low detection very few bombers are intercepted still
@@ -242,9 +239,9 @@ NDefines.NNavy.SPOTTING_ENEMY_SPOTTING_MULTIPLIER_FOR_RUNNING_AWAY = 0.10		-- en
 
 NDefines.NNavy.NAVAL_STRIKE_CARRIER_MULTIPLIER = 20.0              -- damage bonus when planes are in naval combat where their carrier is present (and can thus sortie faster and more effectively)
 
-NDefines.NAir.NAVAL_COMBAT_EXTERNAL_PLANES_JOIN_RATIO = 0.25		-- Max planes that can join a combat comparing to the total strength of the ships
-NDefines.NAir.NAVAL_COMBAT_EXTERNAL_PLANES_JOIN_RATIO_PER_DAY = 0.9 -- max extra plane % that can join every day
-NDefines.NAir.NAVAL_COMBAT_EXTERNAL_PLANES_MIN_CAP = 50			-- Min cap for planes that can join naval combat
+NDefines.NAir.NAVAL_COMBAT_EXTERNAL_PLANES_JOIN_RATIO = 0.2		-- Max planes that can join a combat comparing to the total strength of the ships
+NDefines.NAir.NAVAL_COMBAT_EXTERNAL_PLANES_JOIN_RATIO_PER_DAY = 0.75 -- max extra plane % that can join every day
+NDefines.NAir.NAVAL_COMBAT_EXTERNAL_PLANES_MIN_CAP = 40			-- Min cap for planes that can join naval combat
 
 
 
