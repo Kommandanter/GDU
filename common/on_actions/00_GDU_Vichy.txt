@@ -14,9 +14,11 @@ on_actions = {
 				
 				country_event = { days = 15 id = pfunews.2 } 
 				country_event = { days = 2 id = news.34 }
+				
 				EFR = { country_event = { id = gduvichy.1 days = 5 } } # Give Vichy stuff, spacing out the African and Asian colonies to avoid death via much lag # 
 				EFR = { country_event = { id = gduvichy.2 days = 10 } } # Give Vichy stuff, spacing out the African and Asian colonies to avoid death via much lag # 
 				
+				country_event = { days = 7 id = free_france.1 }
 				
 				if = { 
 					limit = { 
@@ -27,16 +29,11 @@ on_actions = {
 					ITA = { country_event = { id = pfu.35 days = 20 } } # Force Italian war declaration on the allies.
 				}
 				
-				FRA = { news_event = { id = france.20 days = 1 } }
-				
-				#ITA = { country_event = { id = gduevents.17 days = 30 } }
-				#GER = { country_event = { id = gduevents.17 days = 30 } }
-				#BUL = { country_event = { id = gduevents.17 days = 30 } }
-				#ROM = { country_event = { id = gduevents.17 days = 30 } }
-				#SPR = { country_event = { id = gduevents.17 days = 30 } }
-				#HUN = { country_event = { id = gduevents.17 days = 30 } } 
+				FRA = { news_event = { id = france.20 days = 2 } }
 				
 				FRA = {
+				
+					add_state_core = 539
 					
 					##add checks if general exists
 					remove_unit_leader = 801 # Jean de Lattre de Tassigny
@@ -192,16 +189,6 @@ on_actions = {
 					transfer_state = 513
 					
 					add_ideas = idea_EFR_neutrality
-					diplomatic_relation = { country = ENG relation = non_aggression_pact }
-					diplomatic_relation = { country = USA relation = non_aggression_pact }
-					diplomatic_relation = { country = PHI relation = non_aggression_pact }
-					diplomatic_relation = { country = FRA relation = non_aggression_pact }
-					diplomatic_relation = { country = SAF relation = non_aggression_pact }
-					diplomatic_relation = { country = CAN relation = non_aggression_pact }
-					diplomatic_relation = { country = RAJ relation = non_aggression_pact }
-					diplomatic_relation = { country = AST relation = non_aggression_pact }
-					diplomatic_relation = { country = NZL relation = non_aggression_pact }
-					diplomatic_relation = { country = BRA relation = non_aggression_pact }
 					diplomatic_relation = { country = GER relation = non_aggression_pact }
 				
 					set_capital = 26

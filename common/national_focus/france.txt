@@ -1100,12 +1100,8 @@ focus_tree = {
 			}
 		}
 
-		completion_reward = {
-
-			add_state_core = 539
+		completion_reward = {	
 			add_political_power = 150
-			set_capital = 539
-			country_event = { days = 1 id = free_france.1 }
 			add_offsite_building = { type = industrial_complex level = 3 }
 			add_offsite_building = { type = arms_factory level = 3 }
 			add_offsite_building = { type = dockyard level = 2 }
