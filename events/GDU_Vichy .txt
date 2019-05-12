@@ -10,18 +10,12 @@ country_event = {
 	is_triggered_only = yes 
 	
 	immediate = { 
-					transfer_state = 514  # Desert wastelands 
-					transfer_state = 786
-					transfer_state = 515
-					transfer_state = 782
-					transfer_state = 775
-					
-					transfer_state = 556 # Africa 
-					transfer_state = 557
-					transfer_state = 272
-					transfer_state = 776
-					transfer_state = 777
-					transfer_state = 778 
+					transfer_state = 22
+					transfer_state = 31
+					transfer_state = 25
+					transfer_state = 20
+					transfer_state = 33
+					country_event = { id = gduvichy.2 days = 3 } 
 	}
 	
 	option = {
@@ -42,23 +36,111 @@ country_event = {
 	is_triggered_only = yes 
 	
 	immediate = {  
+					transfer_state = 677
+					transfer_state = 680
+					transfer_state = 553
+					transfer_state = 554
+					transfer_state = 459
+					transfer_state = 460
+					transfer_state = 461
+					transfer_state = 462
+					transfer_state = 513
+					country_event = { id = gduvichy.3 days = 3 } 
+	}
+	
+	option = {
+		name = gduvichy.2.a
+	
+	}
+	
+	
+	
+}
+
+country_event = { 
+	id = gduvichy.3
+	title = gduvichy.3.t
+	desc = gduvichy.3.d
+	picture = GFX_report_event_canadian_soldiers
+	
+	is_triggered_only = yes 
+	
+	immediate = {  
+					transfer_state = 514  # Desert wastelands 
+					transfer_state = 786
+					transfer_state = 515
+					transfer_state = 782
+					transfer_state = 775
+					
+					transfer_state = 556 # Africa 
+					transfer_state = 557
+					transfer_state = 272
+					transfer_state = 778 
+					transfer_state = 781
+					
+					country_event = { id = gduvichy.4 days = 3 }
+	}
+	
+	option = {
+		name = gduvichy.3.a
+	
+	}
+	
+	
+	
+}
+
+country_event = { 
+	id = gduvichy.4
+	title = gduvichy.4.t
+	desc = gduvichy.4.d
+	picture = GFX_report_event_canadian_soldiers
+	
+	is_triggered_only = yes 
+	
+	immediate = {  
 					transfer_state = 779
 					transfer_state = 780
-					transfer_state = 781
+					transfer_state = 776
+					transfer_state = 777
 					transfer_state = 298 # Liberia, lol 
+					transfer_state = 543 #Madagascar 
+					
+					country_event = { id = gduvichy.5 days = 3 }
+
+	}
+	
+	option = {
+		name = gduvichy.4.a
+	
+	}
+	
+	
+	
+}
+
+country_event = { 
+	id = gduvichy.5
+	title = gduvichy.5.t
+	desc = gduvichy.5.d
+	picture = GFX_report_event_canadian_soldiers
+	
+	is_triggered_only = yes 
+	
+	immediate = {  
+
 					
 					transfer_state = 671
 					transfer_state = 670
 					transfer_state = 741
 					transfer_state = 286
 
-					transfer_state = 543 #Madagascar 
 					
-					set_capital = 26
+					
 	}
 	
 	option = {
-		name = gduvichy.2.a
+		name = gduvichy.5.a
 	
 	}
 	

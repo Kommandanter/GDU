@@ -12,13 +12,13 @@ on_actions = {
 				set_global_flag = achievement_france_surrender
 				set_global_flag = fall_of_france
 				
-				country_event = { days = 15 id = pfunews.2 } 
-				country_event = { days = 2 id = news.34 }
+				country_event = { days = 30 id = pfunews.2 } 
 				
-				EFR = { country_event = { id = gduvichy.1 days = 5 } } # Give Vichy stuff, spacing out the African and Asian colonies to avoid death via much lag # 
-				EFR = { country_event = { id = gduvichy.2 days = 10 } } # Give Vichy stuff, spacing out the African and Asian colonies to avoid death via much lag # 
+				country_event = { days = 1 id = news.34 }
 				
 				country_event = { days = 7 id = free_france.1 }
+				
+				FRA = { news_event = { id = france.20 days = 2 } }
 				
 				if = { 
 					limit = { 
@@ -29,18 +29,8 @@ on_actions = {
 					ITA = { country_event = { id = pfu.35 days = 20 } } # Force Italian war declaration on the allies.
 				}
 				
-				FRA = { news_event = { id = france.20 days = 2 } }
-				
 				FRA = {
-				
-					start_civil_war = {
-						ideology = fascism
-						size = 0.9
-						capital = 26
-						states = { 26 }
- 					
-					}
-				
+					
 					add_state_core = 539
 					
 					##add checks if general exists
@@ -180,21 +170,9 @@ on_actions = {
 			
 				EFR = {
 					transfer_state = 26
-					transfer_state = 22
-					transfer_state = 31
-					transfer_state = 25
-					transfer_state = 20
-					transfer_state = 33
-
-					transfer_state = 677
-					transfer_state = 680
-					transfer_state = 553
-					transfer_state = 554
-					transfer_state = 459
-					transfer_state = 460
-					transfer_state = 461
-					transfer_state = 462
-					transfer_state = 513
+					set_capital = 26 
+					
+					country_event = { id = gduvichy.1 days = 4 }  # Give Vichy stuff, spacing out the African and Asian colonies to avoid death via much lag # 
 					
 					add_ideas = idea_EFR_neutrality
 					diplomatic_relation = { country = GER relation = non_aggression_pact }
@@ -220,6 +198,7 @@ on_actions = {
 					}
 
 				}
+				
 				every_state = {
 					limit = {
 						is_core_of = FRA
@@ -245,7 +224,7 @@ on_actions = {
 						target = EFR 
 					}
 				}
-
+			
 						
 			}
 		}

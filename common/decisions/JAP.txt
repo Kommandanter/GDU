@@ -855,7 +855,11 @@ JAP_southern_expansion = {
 	JAP_pressure_france = { 
 
 		available = {
-			EFR = { exists = yes } 
+			EFR = { exists = yes }
+			286 = { is_owned_by  = EFR } 
+			741 = { is_owned_by  = EFR } 
+			670 = { is_owned_by  = EFR } 
+			671 = { is_owned_by  = EFR } 
 		}
 
 		visible = {
