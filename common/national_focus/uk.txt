@@ -3724,19 +3724,7 @@ focus_tree = {
 			factor = 1
 		}	
 		completion_reward = {
-			if = {
-				limit = {
-					NOT = { has_idea = tot_economic_mobilisation }
-				}
-				add_ideas = tot_economic_mobilisation
-			}
-			if = {
-				limit = {
-				     has_idea = tot_economic_mobilisation 
-				}
-				add_political_power = 150 
-			}
-			add_timed_idea = { idea = eng_blood_toil_tears_idea days = 365 } 
+			add_timed_idea = { idea = eng_blood_toil_tears_idea days = 400 } 
 		}
 	}
 	

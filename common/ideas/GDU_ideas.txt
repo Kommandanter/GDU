@@ -23,7 +23,6 @@ ideas = {
 			picture = chi_war_of_resistance	
 			
 			modifier = { 
-				production_speed_buildings_factor = 0.05 
 				production_factory_efficiency_gain_factor = 0.1 
 				training_time_factor = -0.25
 			}
