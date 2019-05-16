@@ -1,4 +1,4 @@
-ideas = {
+	ideas = {
 	country = {
 
 		FRA_FREE_army = {
@@ -21,6 +21,26 @@ ideas = {
 				mobilization_laws_cost_factor = -0.25
 			}
 		}
+		FRA_joint_french_and_russian_rubber_refinery_program = {
+		
+		    picture = generic_morale_bonus
+			
+			allowed = {
+				original_tag = FRA
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+                production_speed_synthetic_refinery_factor = 0.1
+			}
+		}
+
 		FRA_FREE_research_efforts = {
 		
 			picture = generic_research_bonus
