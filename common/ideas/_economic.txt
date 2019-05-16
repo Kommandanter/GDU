@@ -28,7 +28,10 @@ ideas = {
 			}
 
 			allowed_to_remove = {
-				has_war = yes
+				OR = { 
+					has_war = yes
+					date > 1940.9.1
+				}
 			}
 
 			cancel_if_invalid = no
@@ -57,8 +60,10 @@ ideas = {
 				production_speed_synthetic_refinery_factor = -0.75
 			}
 			allowed_to_remove = {
-				has_war = yes
-
+				OR = { 
+					has_war = yes
+					date > 1940.9.1
+				}
 			}
 
 			cancel_if_invalid = no

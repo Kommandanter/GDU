@@ -530,17 +530,10 @@ focus_tree = {
 			}
 			if = {
 				limit = {
-					has_completed_focus = USA_neutrality_act
-				}
-				OR = { 
-					date > 1940.7.1 
-					has_war = yes 
-				}
-				
-			}
-			if = {
-				limit = {
-					has_completed_focus = USA_limited_intervention 
+					OR = { 
+						has_completed_focus = USA_limited_intervention 
+						has_completed_focus = USA_neutrality_act
+					}
 				}
 				OR = { 
 					ENG = { has_war_with = GER } 
@@ -577,7 +570,6 @@ focus_tree = {
 						}
 					}
 				}
-			add_ideas = civilian_economy
 		#	if = {
 		#		limit = {
 		#			has_completed_focus = USA_limited_intervention
@@ -587,6 +579,10 @@ focus_tree = {
 			if = {
 				limit = { has_completed_focus = USA_neutrality_act }
 				remove_ideas = USA_neutrality_act
+			}
+			if = {
+				limit = { has_completed_focus = USA_limited_intervention }
+				add_ideas = civilian_economy
 			}
 			if = {
 				limit = { 
@@ -629,6 +625,8 @@ focus_tree = {
 			}
 		}
 	}
+	
+	
 	
 	focus = {
 		id = USA_the_giant_wakes

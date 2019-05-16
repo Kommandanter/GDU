@@ -58,7 +58,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				production_speed_industrial_complex_factor = 0.6
+				production_speed_industrial_complex_factor = 0.65
 				consumer_goods_factor = -0.2
 				production_speed_arms_factory_factor = -0.15
 				production_speed_dockyard_factor = -0.15			
@@ -78,7 +78,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				production_speed_industrial_complex_factor = 0.6
+				production_speed_industrial_complex_factor = 0.65
 				consumer_goods_factor = -0.23
 				production_speed_arms_factory_factor = 0.4
 				production_speed_dockyard_factor = 0.65
