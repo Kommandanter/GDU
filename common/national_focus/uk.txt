@@ -3724,6 +3724,7 @@ focus_tree = {
 			factor = 1
 		}	
 		completion_reward = {
+			add_political_power = 200
 			add_timed_idea = { idea = eng_blood_toil_tears_idea days = 400 } 
 		}
 	}
