@@ -585,21 +585,6 @@ focus_tree = {
 				add_ideas = civilian_economy
 			}
 			if = {
-				limit = { 
-					AND = { 
-						has_completed_focus = USA_the_giant_sleeps 
-						NOT = { has_completed_focus = USA_guarantee_the_american_dream }
-					}
-				}
-				remove_ideas = USA_giant_sleeps_idea
-			}
-			if = { 
-				limit = { 
-					has_completed_focus = USA_guarantee_the_american_dream
-				}
-				remove_ideas = USA_giant_sleeps_idea_2
-			}
-			if = {
 				limit = {
 					has_war_support > 0.6
 					has_war = no
