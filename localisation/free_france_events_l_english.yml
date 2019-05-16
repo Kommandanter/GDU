@@ -40,9 +40,6 @@
  FRA_free_france_effect_1:0 "Will gain a division of desert troops in Alexandria."
  FRA_free_france_operation_exporter_tt:0 "Will gain an Infantry Division in Damas"
  FRA_fighters:0 "French Fighter command will send a squadron of aircraft to the eastern front.\n\n " 
- FRA_joint_refinery:0 "Joint French-Soviet Synth Program"
- FRA_joint_refinery_desc:0 "We will work with the Soviets to become indepentant on rubber."
- FRA_joint_french_and_russian_rubber_refinery_program:0 "French-Soviet refinery cooperation"
 
  #EVENTS
  # FFL
