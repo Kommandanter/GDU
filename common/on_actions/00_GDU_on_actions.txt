@@ -444,6 +444,20 @@ on_actions = {
 						instant_build = yes
 					}
 				}
+			#### Remove Manchukuo cores so that it is not possible for Japan to release Manchukuo and then re-annex it for another extra research slot ####
+			MAN = {
+				remove_state_core = 328			
+				remove_state_core = 610
+				remove_state_core = 611				
+				remove_state_core = 612				
+				remove_state_core = 714				
+				remove_state_core = 715				
+				remove_state_core = 716				
+				remove_state_core = 717
+				remove_state_core = 745				
+				remove_state_core = 761	
+				remove_state_core = 794				
+			}
 		}
 
 
