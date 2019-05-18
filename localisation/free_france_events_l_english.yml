@@ -33,7 +33,7 @@
  USA_operation_torch_effect_3:0 "Assemble Marines and tanks on the North African Coast. Not doing this focus will NOT result in Vichy France staying neutral. Vichy France will instead just join the Axis 3 months after the historical date (8 November 1942)."
  USA_Torch_historical_tt:0 "American Torch Divisions"
  ENG_Torch_historical_tt:0 "English Torch Divisions"
- FRA_Torch_historical_tt:0 "French Résistance forces will spawn in the ports and the beaches of Morocco and Algeria"
+ FRA_Torch_historical_tt:0 ""
  FRA_free_france_afn_corps_tt:0 "Will gain te XIX French Corps in Algiers"
  FRA_free_france_tt:0 "Forces Françaises Libres"
  FRA_free_france_desc:0 "Forces Françaises Libres"
