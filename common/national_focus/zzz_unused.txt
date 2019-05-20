@@ -28,6 +28,26 @@ focus_tree = {
 	}
 
 	focus = {
+		id = MAN_the_two_emperors
+		icon = GFX_goal_generic_construction
+		x = 0
+		y = 0
+		cost = 10
+
+		completion_reward = { }
+	}
+
+	focus = {
+		id = CHI_rapprochement_with_soviet_union
+		icon = GFX_goal_generic_construction
+		x = 0
+		y = 0
+		cost = 10
+
+		completion_reward = { }
+	}
+
+	focus = {
 		id = GER_focus_on_the_true_enemy
 		icon = GFX_goal_generic_construction
 		x = 0
