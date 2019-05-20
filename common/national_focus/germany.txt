@@ -2914,7 +2914,7 @@ focus_tree = {
 				name = anti_air
 				bonus = 1.5 
 				ahead_reduction = 2.0 
-				uses = 5
+				uses = 6
 				category = cat_antiair
 			}
 			
@@ -2958,7 +2958,8 @@ focus_tree = {
 			add_tech_bonus = {
 				name = at_bonus
 				bonus = 1.5 
-				uses = 3
+				uses = 4
+				ahead_reduction = 0.25
 				category = cat_anti_tank
 				}
 			}
