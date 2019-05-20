@@ -75,13 +75,13 @@ weather_extreme_cold = { # on Province
 	winter_attrition = 0.55
 	local_org_regain = -0.15
 	army_attack_factor = -0.4
-	army_speed_factor = -0.3
+	army_speed_factor = -0.2
 }
 weather_very_cold = { # on Province
 	winter_attrition = 0.35
 	local_org_regain = -0.1
 	army_attack_factor = -0.2
-	army_speed_factor = -0.2
+	army_speed_factor = -0.15
 }
 weather_very_hot = { # on Province
 	heat_attrition = 0.2
@@ -92,14 +92,14 @@ weather_extreme_hot = { # on Province
 	local_org_regain = -0.2
 }
 weather_ground_snow_medium = { # on Province
-	army_speed_factor = -0.2
+	army_speed_factor = -0.15
 	army_attack_factor = -0.35
 	local_org_regain = -0.15
 	winter_attrition = 0.4
 	naval_retreat_speed = 0.1 
 }
 weather_ground_snow_high = { # on Province
-	army_speed_factor = -0.3
+	army_speed_factor = -0.2
 	local_org_regain = -0.3
 	army_attack_factor = -0.5
 	winter_attrition = 0.6
