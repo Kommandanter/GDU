@@ -133,6 +133,28 @@ on_actions = {
 
 		}
 			
+
+		if = { 
+			limit = { 
+				NOT = { has_global_flag = impassable_infra_list_created } 
+			}
+			set_global_flag = impassable_infra_list_created 
+			
+			###Sahara Desert States### 
+			
+			add_to_array = { global.impassable_infra_list = 767 } #South Darfur, Sahara Desert
+			add_to_array = { global.impassable_infra_list = 552 } #Western Desert, Sahara Desert
+			add_to_array = { global.impassable_infra_list = 273 } #Borkou-Ennedi-Tibesti, Sahara Desert
+			add_to_array = { global.impassable_infra_list = 515 } #Southern Sahara, Sahara Desert
+			add_to_array = { global.impassable_infra_list = 514 } #Algerian Desert, Sahara Desert
+			add_to_array = { global.impassable_infra_list = 782 } #Tombouctou, Sahara Desert
+			add_to_array = { global.impassable_infra_list = 786 } #Mauritanian Desert, Sahara Desert
+
+		}			
+			
+			
+			
+			
 			#### We give Japan Siam's rubber because the AI isn't going to trade Germany back and now we need one less player to start the game. ####
 			SIA = {
 				give_resource_rights = { receiver = JAP state = 724 }
@@ -511,7 +533,33 @@ on_actions = {
 			}	
 		}
 	}
-		
+
+	#THIS IS THE INFRASTRUCTURE LIMITER. 
+	on_daily = { 
+		effect = {
+			 if = {
+                limit = { NOT = { has_global_flag = infra_limiter_ran } }
+				for_each_scope_loop = {
+					array = global.impassable_infra_list
+					if = {
+						limit = { 
+							infrastructure > 0 
+						}
+						remove_building = { 
+							type = infrastructure 
+							level = 1 
+						}
+						controller = { 
+							PREV = { save_event_target_as = GDU_badinfra1 } 
+							country_event = { id = gduinfralimiter.1 }
+						}
+					}
+			
+				}
+				set_global_flag = { flag = infra_limiter_ran value = 1 days = 1 }
+			}	
+		}
+	}		
 	
 	#### This thing gives JAP EXP when they conquer things in China. Also, Spanish Civil War. ####
 	
