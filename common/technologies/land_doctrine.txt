@@ -1511,7 +1511,7 @@ technologies = {
 
 		category_all_infantry = {
 			defense = 0.10
-			max_organisation = 10
+			max_organisation = 15
 		}
 
 		path = {
@@ -2346,7 +2346,7 @@ technologies = {
 		}
 		category_light_infantry = {
 			max_organisation = 5
-			default_morale = 0.15
+			default_morale = 0.1
 		}
 
 		enable_tactic = tactic_elastic_defense
