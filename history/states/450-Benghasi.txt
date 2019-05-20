@@ -10,18 +10,18 @@ state={
 		owner = ITA
 
 		victory_points = {
-			11954 3
+			11954 250
 		}
 		buildings = {
 			infrastructure = 3
 			air_base = 1
 			11954 = {
-				naval_base = 9
+				naval_base = 3
 			}
 		}
 	}
 
 	provinces={
-		1127 4120 10123 11954
+		1062 1186 4063 4120 4151 7139 10123 11954 12094
 	}
 }

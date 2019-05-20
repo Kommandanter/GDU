@@ -140,6 +140,16 @@ on_actions = {
 				if = {
 					limit = {
 						AND = {
+							805 = { #Sfax
+								NOT = { is_controlled_by = ITA } 
+							}
+						}
+					}
+					EFR = { transfer_state = 805 }
+				}				
+				if = {
+					limit = {
+						AND = {
 							458 = { #Tunisia
 								NOT = { is_controlled_by = ITA } 
 							}
