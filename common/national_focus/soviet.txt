@@ -631,7 +631,7 @@ focus_tree = {
 		name = "Ivan Konev"
 		id = 408
 			picture = "Portrait_Soviet_Ivan_Konev.dds"
-		traits = { winter_specialist armor_officer harsh_leader politically_connected panzer_leader trait_reckless ranger }
+		traits = { armor_officer harsh_leader politically_connected panzer_leader trait_reckless ranger }
 		skill = 5
 
 
@@ -645,11 +645,11 @@ focus_tree = {
 		create_corps_commander = {
 		name = "Vasily Kuznetsov"
 			picture = "Portrait_Soviet_Vasily_Kuznetsov.dds"
-		traits = { winter_specialist commando infantry_officer politically_connected infantry_leader media_personality war_hero swamp_fox brilliant_strategist }
+		traits = { winter_specialist commando infantry_officer politically_connected infantry_leader media_personality war_hero brilliant_strategist }
 		skill = 5
 	
-		attack_skill = 5
-		defense_skill = 5
+		attack_skill = 4
+		defense_skill = 4
 		planning_skill = 3
 		logistics_skill = 3
 		}
@@ -657,7 +657,7 @@ focus_tree = {
 		create_corps_commander = {
 		name = "Markian Popov"
 			picture = "Portrait_Soviet_Matkian_Popov.dds"
-		traits = { winter_specialist infantry_officer brilliant_strategist urban_assault_specialist trait_engineer}
+		traits = { infantry_officer brilliant_strategist urban_assault_specialist trait_engineer}
 		skill = 5
 
 	
@@ -670,7 +670,7 @@ focus_tree = {
 		create_corps_commander = {
 		name = "Nikolai Berzarin"
 			picture = "Portrait_Soviet_Nikolai_Berzarin.dds"
-		traits = { winter_specialist infantry_officer trait_mountaineer skilled_staffer old_guard trait_cautious }
+		traits = { infantry_officer trait_mountaineer skilled_staffer old_guard trait_cautious }
 		skill = 5
 	
 		attack_skill = 6
@@ -682,7 +682,7 @@ focus_tree = {
 		create_corps_commander = {
 		name = "Alexander Gorbatov"
 			picture = "Portrait_Soviet_Alexander_Gorbatov.dds"
-		traits = { winter_specialist career_officer cavalry_officer harsh_leader trait_reckless infantry_leader }
+		traits = { career_officer cavalry_officer harsh_leader trait_reckless infantry_leader }
 		skill = 5
 	
 		attack_skill = 4
@@ -694,7 +694,7 @@ focus_tree = {
 		create_corps_commander = {
 		name = "Dmitry Lelyushenko"
 			picture = "Portrait_Soviet_Dmitri_Danilovich_Lelyushenko.dds"
-		traits = { winter_specialist armor_officer trait_reckless panzer_leader harsh_leader ranger trickster  }
+		traits = { armor_officer trait_reckless panzer_leader harsh_leader ranger trickster  }
 		skill = 5
 	
 		attack_skill = 5
@@ -705,14 +705,14 @@ focus_tree = {
 		create_corps_commander = {
 		name = "Rodion Malinovsky"
 			picture = "Portrait_Soviet_Rodion_Malinovsky.dds"
-		traits = { winter_specialist career_officer old_guard trait_cautious politically_connected }
+		traits = { winter_specialist swamp_fox career_officer old_guard trait_cautious politically_connected }
 		skill = 5
 
 	
-		attack_skill = 3
-		defense_skill = 3
+		attack_skill = 1
+		defense_skill = 2
 		planning_skill = 2
-		logistics_skill = 8
+		logistics_skill = 7
 		}
 
 	
