@@ -1195,7 +1195,10 @@ focus_tree = {
 		id = fighter_command_focus
 		prerequisite = { focus = air_rearmament_focus }
 		available = { 
-			date > 1938.4.1 
+			OR = { 
+				date > 1938.4.1 
+				GER = { has_completed_focus = GER_anschluss } 
+			}
 		}
 		icon = GFX_goal_generic_air_fighter
 		x = -1
