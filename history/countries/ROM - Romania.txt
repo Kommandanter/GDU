@@ -358,7 +358,7 @@ create_corps_commander = {
 	traits = { hill_fighter trait_mountaineer  career_officer harsh_leader   }
 	skill = 4
 	attack_skill = 3
-	defense_skill = 5
+	defense_skill = 2
 	planning_skill = 2
 	logistics_skill = 3
 }
