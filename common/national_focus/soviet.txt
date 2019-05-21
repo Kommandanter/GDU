@@ -1511,6 +1511,87 @@ focus_tree = {
 			419 = { is_owned_by = ROOT } 
 		}
 		completion_reward = {
+			218 = { 
+				if = {
+					limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = coastal_bunker
+							level = 5
+							province = 9417
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 3
+							province = 9417
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = coastal_bunker
+							level = 3
+							province = 11559
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = coastal_bunker
+							level = 3
+							province = 9430
+							instant_build = yes
+						}
+					}
+				}
+			221 = { 
+				if = {
+					limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = coastal_bunker
+							level = 5
+							province = 3653
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 3
+							province = 3653
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = coastal_bunker
+							level = 5
+							province = 772
+							instant_build = yes
+						}
+					}
+				}
+			234 = { 
+				if = {
+					limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = coastal_bunker
+							level = 5
+							province = 719
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = bunker
+							level = 3
+							province = 719
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = coastal_bunker
+							level = 3
+							province = 717
+							instant_build = yes
+						}
+						add_building_construction = {
+							type = coastal_bunker
+							level = 3
+							province = 11668
+							instant_build = yes
+						}
+					}
+				}
 			229 = {
 				if = {
 					limit = { is_controlled_by = ROOT }
