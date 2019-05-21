@@ -1635,7 +1635,7 @@ leader_traits = {
 		equipment_bonus = {
 			armor = {
 				instant = yes
-				maximum_speed = 0.10
+				maximum_speed = 0.05
 			}
 		}
 		experience_gain_army = 0.2
