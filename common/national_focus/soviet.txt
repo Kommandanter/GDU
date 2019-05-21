@@ -1390,19 +1390,20 @@ focus_tree = {
         	}
 			add_tech_bonus = {
 				name = USA_rubber_reserve_company
-				bonus = 2.00 
+				bonus = 3.00 
+				ahead_reduction = 1.0
 				uses = 2
-				technology = rubber_processing
 				technology = improved_rubber_processing
 				technology = advanced_rubber_processing
 				technology = modern_rubber_processing
 			}
 			set_technology = { synth_oil_experiments = 1 }
+			set_technology = { rubber_processing = 1 }
 			248 = {
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = synthetic_refinery
-					level = 2
+					level = 3
 					instant_build = yes
 				}
 				set_state_flag = SOV_Sinteticheskii_Kauchuk_2IC
