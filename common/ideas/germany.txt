@@ -942,10 +942,9 @@ ideas = {
 				army_bonus_air_superiority_factor = 0.2
 				army_speed_factor = 0.05
 				org_loss_when_moving = -0.3
-				supply_consumption_factor = -0.10
+				supply_consumption_factor = -0.075
 				out_of_supply_factor = -0.25
 				attrition = -0.10
-				no_supply_grace = 48
 			}
 		}
 		GER_the_great_red_menace = {

@@ -60,10 +60,9 @@ ideas = {
 				removal_cost = -1
 
 				modifier = {
-					supply_consumption_factor = -0.10
+					supply_consumption_factor = -0.075
 					out_of_supply_factor = -0.25
 					attrition = -0.10
-					no_supply_grace = 48
 
 				}
 			
