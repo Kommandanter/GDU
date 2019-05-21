@@ -4,7 +4,6 @@ Minor_run_down_mid = {
 
 	enable = {
 		OR = { 
-			original_tag = GRE
 			original_tag = MON 
 			original_tag = ALB 
 			original_tag = AUS 

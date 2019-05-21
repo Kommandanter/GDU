@@ -857,6 +857,7 @@ focus_tree = {
 					tag = XSM
 					tag = BEL
 					tag = LUX
+					tag = GRE 
 					tag = HOL
 					tag = DEN
 
