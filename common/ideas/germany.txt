@@ -945,7 +945,7 @@ ideas = {
 				supply_consumption_factor = -0.10
 				out_of_supply_factor = -0.25
 				attrition = -0.10
-				no_supply_grace = 72
+				no_supply_grace = 48
 			}
 		}
 		GER_the_great_red_menace = {

@@ -2154,7 +2154,7 @@ technologies = {
 
 
 		#reduced pocketed combat penalty and/or reduces the out of supply penalty or increases time before moving to worse penalty
-		no_supply_grace = 72 # more hours before supply penalty changes
+		no_supply_grace = 48 # more hours before supply penalty changes
 		out_of_supply_factor = -0.10
 
 		path = {
