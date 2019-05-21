@@ -224,7 +224,7 @@ NDefines.NAir.DISRUPTION_FACTOR_CARRIER = 16.0							-- multiplier on disruption
 NDefines.NAir.DISRUPTION_FACTOR = 7  -- (4 -> 7) with decent radar coverage equal amounts of fighters vs naval bombers will disrupt almost all naval bombers if not escorted, with low detection very few bombers are intercepted still
 NDefines.NAir.ESCORT_FACTOR = 2.6 -- (2 -> 3) to make sure that escorted planes are still capable of bombing, with equal escorts/interceptors most of bombers get through Keep in mind that these values will also affect how cas/tac/strat bombers work, they make escorting planes much more important (which imo is 100% fine)
 
-NDefines.NAir.DISRUPTION_DEFENCE_SPEED_FACTOR = 3
+NDefines.NAir.DISRUPTION_DEFENCE_SPEED_FACTOR = 8
 NDefines.NAir.AIR_WING_MAX_STATS_SPEED = 2500
 
 NDefines.NAir.AIR_WING_XP_LOSS_WHEN_KILLED = 0.4
