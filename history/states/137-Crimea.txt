@@ -15,13 +15,13 @@ state={
 			air_base = 3
 			3686 = {
 				naval_base = 7
-				coastal_bunker = 2
+				coastal_bunker = 4
 				bunker = 5
 
 			}
 			9680 = {
 				naval_base = 2
-				coastal_bunker = 2
+				coastal_bunker = 4
 
 			}
 
