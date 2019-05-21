@@ -1145,14 +1145,7 @@ focus_tree = {
 				amount = 100
 				producer = FRA
 			}
-			539 = {
-				add_extra_state_shared_building_slots = 3
-				add_building_construction = {
-					type = dockyard
-					level = 3
-					instant_build = yes
-				}
-			}
+			add_offsite_building = { type = dockyard level = 3 }
 		}
 	}
 
@@ -1167,14 +1160,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			539 = {
-				add_extra_state_shared_building_slots = 6
-				add_building_construction = {
-					type = industrial_complex
-					level = 6
-					instant_build = yes
-				}
-			}
+			add_offsite_building = { type = industrial_complex level = 6 }
 		}
 	}
 
@@ -1205,14 +1191,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			539 = {
-				add_extra_state_shared_building_slots = 6
-				add_building_construction = {
-					type = arms_factory
-					level = 6	
-					instant_build = yes
-				}
-			}
+			add_offsite_building = { type = arms_factory level = 6 }
 		}
 	}
 	
