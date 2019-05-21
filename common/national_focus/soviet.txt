@@ -1169,7 +1169,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			air_experience = 350
+			air_experience = 500
 			set_rule = {
 				can_generate_female_aces = yes
 			}
