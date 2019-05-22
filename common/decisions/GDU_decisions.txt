@@ -37,7 +37,8 @@ political_actions = {
 						controls_state = 459
 						controls_state = 461
 						controls_state = 462
-						controls_state = 513 
+						controls_state = 513
+						transfer_state = 805									
 					 }
 					} 
 				}
@@ -76,6 +77,7 @@ political_actions = {
 			transfer_state = 459
 			transfer_state = 461 
 			transfer_state = 462
+			transfer_state = 805			
 			
 			transfer_state = 786 # Saharan 
 			transfer_state = 782
