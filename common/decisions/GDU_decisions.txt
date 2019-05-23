@@ -38,7 +38,7 @@ political_actions = {
 						controls_state = 461
 						controls_state = 462
 						controls_state = 513
-						transfer_state = 805									
+						controls_state = 805
 					 }
 					} 
 				}
@@ -60,7 +60,7 @@ political_actions = {
 						controls_state = 459
 						controls_state = 461
 						controls_state = 462
-						controls_state = 513 
+						controls_state = 513
 					}
 				}
 			}
