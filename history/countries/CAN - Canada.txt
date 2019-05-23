@@ -13,6 +13,7 @@ set_country_flag = monroe_doctrine
 
 # Starting tech
 set_technology = {
+	interwar_antiair = 1
 	motorised_infantry = 1
 	infantry_weapons = 1
 	infantry_weapons1 = 1
