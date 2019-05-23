@@ -563,16 +563,102 @@ ideas = {
 			picture = jap_interservice_rivalry_army_dominant
 			
 			research_bonus = {
-				naval_equipment = -0.1
-				naval_doctrine = -0.1
-				land_doctrine = 0.05
+				naval_doctrine = 0.0
+				land_doctrine = 0.10
+				air_doctrine = 0.05
 			}
 			
 			modifier = {
-				production_speed_arms_factory_factor = 0.1
-				production_speed_dockyard_factor = -0.2
-				industrial_capacity_factory = 0.1
-				industrial_capacity_dockyard = -0.2
+				production_speed_arms_factory_factor = 0.07
+				production_speed_dockyard_factor = 0.00
+			}			
+			
+			equipment_bonus = {
+				fighter_equipment = {
+					instant = yes
+					build_cost_ic = -0.035
+				}
+				jet_fighter_equipment = {
+					instant = yes
+					build_cost_ic = -0.035
+				}
+				rocket_interceptor_equipment = {
+					instant = yes
+					build_cost_ic = -0.035
+				}
+				heavy_fighter_equipment = {
+					instant = yes
+					build_cost_ic = -0.035
+				}					
+
+				armor = {
+					instant = yes
+					build_cost_ic = -0.07
+				}
+				motorized_equipment = {
+					instant = yes
+					build_cost_ic = -0.07
+				}
+				mechanized_equipment = {
+					instant = yes
+					build_cost_ic = -0.07
+				}
+				motorized_rocket_equipment = {
+					build_cost_ic = -0.07
+					instant = yes
+				}
+				infantry_equipment   = {
+					build_cost_ic = -0.07
+					instant = yes
+				}
+				support_equipment   = {
+					build_cost_ic = -0.07
+					instant = yes
+				}	
+				anti_air_equipment = {
+					instant = yes
+					build_cost_ic = -0.07
+				}
+				anti_tank_equipment = {
+					instant = yes
+					build_cost_ic = -0.07
+				}
+				artillery_equipment  = {
+					build_cost_ic = -0.07
+					instant = yes
+				}
+				rocket_artillery_equipment  = {
+					build_cost_ic = -0.07
+					instant = yes
+				}
+				CAS_equipment = {
+					instant = yes
+					build_cost_ic = -0.07
+				}				
+				tac_bomber_equipment = {
+					instant = yes
+					build_cost_ic = -0.07
+				}
+				jet_tac_bomber_equipment = {
+					instant = yes
+					build_cost_ic = -0.07
+				}
+				jet_strat_bomber_equipment = {
+					instant = yes
+					build_cost_ic = -0.07
+				}
+				strat_bomber_equipment = {
+					instant = yes
+					build_cost_ic = -0.07
+				}
+				transport_plane_equipment = {
+					instant = yes
+					build_cost_ic = -0.07
+				}
+				guided_missile_equipment = {
+					instant = yes
+					build_cost_ic = -0.07
+				}				
 			}
 		}
 
@@ -589,11 +675,140 @@ ideas = {
 
 			picture = jap_interservice_rivalry_army_strengthened
 			
+			research_bonus = {
+				naval_doctrine = 0.04
+				land_doctrine = 0.09
+				air_doctrine = 0.065
+			}			
+			
 			modifier = {
-				production_speed_arms_factory_factor = 0.05
-				production_speed_dockyard_factor = -0.1
-				industrial_capacity_factory = 0.05
-				industrial_capacity_dockyard = -0.1
+				production_speed_arms_factory_factor = 0.065
+				production_speed_dockyard_factor = 0.03
+			}
+			
+			equipment_bonus = {
+				fighter_equipment = {
+					instant = yes
+					build_cost_ic = -0.0475
+				}
+				jet_fighter_equipment = {
+					instant = yes
+					build_cost_ic = -0.0475
+				}
+				rocket_interceptor_equipment = {
+					instant = yes
+					build_cost_ic = -0.0475
+				}
+				heavy_fighter_equipment = {
+					instant = yes
+					build_cost_ic = -0.0475
+				}		
+				
+				carrier = {
+					instant = yes
+					build_cost_ic = -0.03
+				}
+				capital_ship = {
+					instant = yes
+					build_cost_ic = -0.03
+				}
+				screen_ship = {
+					instant = yes
+					build_cost_ic = -0.03
+				}
+				submarine = {
+					instant = yes
+					build_cost_ic = -0.03
+				}
+				convoy = {
+					instant = yes
+					build_cost_ic = -0.03
+				}
+				cv_fighter_equipment = {
+					instant = yes
+					build_cost_ic = -0.03
+				}
+				cv_CAS_equipment = {
+					instant = yes
+					build_cost_ic = -0.03
+				}
+				cv_nav_bomber_equipment = {
+					instant = yes
+					build_cost_ic = -0.03
+				}
+				nav_bomber_equipment = {
+					instant = yes
+					build_cost_ic = -0.03
+				}				
+
+				armor = {
+					instant = yes
+					build_cost_ic = -0.065
+				}
+				motorized_equipment = {
+					instant = yes
+					build_cost_ic = -0.065
+				}
+				mechanized_equipment = {
+					instant = yes
+					build_cost_ic = -0.065
+				}
+				motorized_rocket_equipment = {
+					build_cost_ic = -0.065
+					instant = yes
+				}
+				infantry_equipment   = {
+					build_cost_ic = -0.065
+					instant = yes
+				}
+				support_equipment   = {
+					build_cost_ic = -0.065
+					instant = yes
+				}	
+				anti_air_equipment = {
+					instant = yes
+					build_cost_ic = -0.065
+				}
+				anti_tank_equipment = {
+					instant = yes
+					build_cost_ic = -0.065
+				}
+				artillery_equipment  = {
+					build_cost_ic = -0.065
+					instant = yes
+				}
+				rocket_artillery_equipment  = {
+					build_cost_ic = -0.065
+					instant = yes
+				}
+				CAS_equipment = {
+					instant = yes
+					build_cost_ic = -0.065
+				}				
+				tac_bomber_equipment = {
+					instant = yes
+					build_cost_ic = -0.065
+				}
+				jet_tac_bomber_equipment = {
+					instant = yes
+					build_cost_ic = -0.065
+				}
+				jet_strat_bomber_equipment = {
+					instant = yes
+					build_cost_ic = -0.065
+				}
+				strat_bomber_equipment = {
+					instant = yes
+					build_cost_ic = -0.065
+				}
+				transport_plane_equipment = {
+					instant = yes
+					build_cost_ic = -0.065
+				}
+				guided_missile_equipment = {
+					instant = yes
+					build_cost_ic = -0.065
+				}				
 			}
 		}
 
@@ -608,7 +823,144 @@ ideas = {
 			
 			removal_cost = -1
 
-			picture = jap_interservice_rivalry_balanced	
+			picture = jap_interservice_rivalry_balanced
+			
+			research_bonus = {
+				naval_doctrine = 0.08
+				land_doctrine = 0.08
+				air_doctrine = 0.08
+			}				
+			
+			modifier = {
+				production_speed_arms_factory_factor = 0.06
+				production_speed_dockyard_factor = 0.06
+			}
+			
+			equipment_bonus = {
+				fighter_equipment = {
+					instant = yes
+					build_cost_ic = -0.06
+				}
+				jet_fighter_equipment = {
+					instant = yes
+					build_cost_ic = -0.06
+				}
+				rocket_interceptor_equipment = {
+					instant = yes
+					build_cost_ic = -0.06
+				}
+				heavy_fighter_equipment = {
+					instant = yes
+					build_cost_ic = -0.06
+				}		
+				
+				carrier = {
+					instant = yes
+					build_cost_ic = -0.06
+				}
+				capital_ship = {
+					instant = yes
+					build_cost_ic = -0.06
+				}
+				screen_ship = {
+					instant = yes
+					build_cost_ic = -0.06
+				}
+				submarine = {
+					instant = yes
+					build_cost_ic = -0.06
+				}
+				convoy = {
+					instant = yes
+					build_cost_ic = -0.06
+				}
+				cv_fighter_equipment = {
+					instant = yes
+					build_cost_ic = -0.06
+				}
+				cv_CAS_equipment = {
+					instant = yes
+					build_cost_ic = -0.06
+				}
+				cv_nav_bomber_equipment = {
+					instant = yes
+					build_cost_ic = -0.06
+				}
+				nav_bomber_equipment = {
+					instant = yes
+					build_cost_ic = -0.06
+				}				
+
+				armor = {
+					instant = yes
+					build_cost_ic = -0.06
+				}
+				motorized_equipment = {
+					instant = yes
+					build_cost_ic = -0.06
+				}
+				mechanized_equipment = {
+					instant = yes
+					build_cost_ic = -0.06
+				}
+				motorized_rocket_equipment = {
+					build_cost_ic = -0.06
+					instant = yes
+				}
+				infantry_equipment   = {
+					build_cost_ic = -0.06
+					instant = yes
+				}
+				support_equipment   = {
+					build_cost_ic = -0.06
+					instant = yes
+				}	
+				anti_air_equipment = {
+					instant = yes
+					build_cost_ic = -0.06
+				}
+				anti_tank_equipment = {
+					instant = yes
+					build_cost_ic = -0.06
+				}
+				artillery_equipment  = {
+					build_cost_ic = -0.06
+					instant = yes
+				}
+				rocket_artillery_equipment  = {
+					build_cost_ic = -0.06
+					instant = yes
+				}
+				CAS_equipment = {
+					instant = yes
+					build_cost_ic = -0.06
+				}				
+				tac_bomber_equipment = {
+					instant = yes
+					build_cost_ic = -0.06
+				}
+				jet_tac_bomber_equipment = {
+					instant = yes
+					build_cost_ic = -0.06
+				}
+				jet_strat_bomber_equipment = {
+					instant = yes
+					build_cost_ic = -0.06
+				}
+				strat_bomber_equipment = {
+					instant = yes
+					build_cost_ic = -0.06
+				}
+				transport_plane_equipment = {
+					instant = yes
+					build_cost_ic = -0.06
+				}
+				guided_missile_equipment = {
+					instant = yes
+					build_cost_ic = -0.06
+				}				
+			}
+			
 		}
 		
 		JAP_interservice_rivalry_navy_strengthened = {
@@ -624,11 +976,140 @@ ideas = {
 
 			picture = jap_interservice_rivalry_navy_strengthened
 			
+			research_bonus = {
+				naval_doctrine = 0.09
+				land_doctrine = 0.04
+				air_doctrine = 0.065
+			}				
+			
 			modifier = {
-				production_speed_arms_factory_factor = -0.1
-				production_speed_dockyard_factor = 0.1
-				industrial_capacity_factory = -0.05
-				industrial_capacity_dockyard = 0.05
+				production_speed_arms_factory_factor = 0.03
+				production_speed_dockyard_factor = 0.065
+			}
+			
+			equipment_bonus = {
+				fighter_equipment = {
+					instant = yes
+					build_cost_ic = -0.0475
+				}
+				jet_fighter_equipment = {
+					instant = yes
+					build_cost_ic = -0.0475
+				}
+				rocket_interceptor_equipment = {
+					instant = yes
+					build_cost_ic = -0.0475
+				}
+				heavy_fighter_equipment = {
+					instant = yes
+					build_cost_ic = -0.0475
+				}		
+				
+				carrier = {
+					instant = yes
+					build_cost_ic = -0.065
+				}
+				capital_ship = {
+					instant = yes
+					build_cost_ic = -0.065
+				}
+				screen_ship = {
+					instant = yes
+					build_cost_ic = -0.065
+				}
+				submarine = {
+					instant = yes
+					build_cost_ic = -0.065
+				}
+				convoy = {
+					instant = yes
+					build_cost_ic = -0.065
+				}
+				cv_fighter_equipment = {
+					instant = yes
+					build_cost_ic = -0.065
+				}
+				cv_CAS_equipment = {
+					instant = yes
+					build_cost_ic = -0.065
+				}
+				cv_nav_bomber_equipment = {
+					instant = yes
+					build_cost_ic = -0.065
+				}
+				nav_bomber_equipment = {
+					instant = yes
+					build_cost_ic = -0.065
+				}				
+
+				armor = {
+					instant = yes
+					build_cost_ic = -0.03
+				}
+				motorized_equipment = {
+					instant = yes
+					build_cost_ic = -0.03
+				}
+				mechanized_equipment = {
+					instant = yes
+					build_cost_ic = -0.03
+				}
+				motorized_rocket_equipment = {
+					build_cost_ic = -0.03
+					instant = yes
+				}
+				infantry_equipment   = {
+					build_cost_ic = -0.03
+					instant = yes
+				}
+				support_equipment   = {
+					build_cost_ic = -0.03
+					instant = yes
+				}	
+				anti_air_equipment = {
+					instant = yes
+					build_cost_ic = -0.03
+				}
+				anti_tank_equipment = {
+					instant = yes
+					build_cost_ic = -0.03
+				}
+				artillery_equipment  = {
+					build_cost_ic = -0.03
+					instant = yes
+				}
+				rocket_artillery_equipment  = {
+					build_cost_ic = -0.03
+					instant = yes
+				}
+				CAS_equipment = {
+					instant = yes
+					build_cost_ic = -0.03
+				}				
+				tac_bomber_equipment = {
+					instant = yes
+					build_cost_ic = -0.03
+				}
+				jet_tac_bomber_equipment = {
+					instant = yes
+					build_cost_ic = -0.03
+				}
+				jet_strat_bomber_equipment = {
+					instant = yes
+					build_cost_ic = -0.03
+				}
+				strat_bomber_equipment = {
+					instant = yes
+					build_cost_ic = -0.03
+				}
+				transport_plane_equipment = {
+					instant = yes
+					build_cost_ic = -0.03
+				}
+				guided_missile_equipment = {
+					instant = yes
+					build_cost_ic = -0.03
+				}				
 			}
 		}
 
@@ -645,18 +1126,72 @@ ideas = {
 
 			picture = jap_interservice_rivalry_navy_dominant
 			
-			research_bonus = { 
-				land_doctrine = -0.1
-				naval_doctrine = 0.05
+			research_bonus = {
+				naval_doctrine = 0.10
+				land_doctrine = 0.00
+				air_doctrine = 0.05
 			}
 
 			modifier = {
-				production_speed_arms_factory_factor = -0.2
-				production_speed_dockyard_factor = 0.2
-				planning_speed = -0.1
-				industrial_capacity_factory = -0.05
-				industrial_capacity_dockyard = 0.1
+				production_speed_arms_factory_factor = 0.0
+				production_speed_dockyard_factor = 0.07
 			}
+			
+			equipment_bonus = {
+				fighter_equipment = {
+					instant = yes
+					build_cost_ic = -0.035
+				}
+				jet_fighter_equipment = {
+					instant = yes
+					build_cost_ic = -0.035
+				}
+				rocket_interceptor_equipment = {
+					instant = yes
+					build_cost_ic = -0.035
+				}
+				heavy_fighter_equipment = {
+					instant = yes
+					build_cost_ic = -0.035
+				}				
+				
+				carrier = {
+					instant = yes
+					build_cost_ic = -0.07
+				}
+				capital_ship = {
+					instant = yes
+					build_cost_ic = -0.07
+				}
+				screen_ship = {
+					instant = yes
+					build_cost_ic = -0.07
+				}
+				submarine = {
+					instant = yes
+					build_cost_ic = -0.07
+				}
+				convoy = {
+					instant = yes
+					build_cost_ic = -0.07
+				}
+				cv_fighter_equipment = {
+					instant = yes
+					build_cost_ic = -0.07
+				}
+				cv_CAS_equipment = {
+					instant = yes
+					build_cost_ic = -0.07
+				}
+				cv_nav_bomber_equipment = {
+					instant = yes
+					build_cost_ic = -0.07
+				}
+				nav_bomber_equipment = {
+					instant = yes
+					build_cost_ic = -0.07
+				}									
+			}			
 		}		
 
 		JAP_supremacy_of_technology = {
@@ -1193,6 +1728,18 @@ ideas = {
 				fighter_equipment = { 
 					build_cost_ic = -0.05
 				}
+				jet_fighter_equipment = {
+					instant = yes
+					build_cost_ic = -0.05
+				}				
+				jet_tac_bomber_equipment = {
+					instant = yes
+					build_cost_ic = -0.05
+				}
+				rocket_interceptor_equipment = {
+					instant = yes
+					build_cost_ic = -0.05
+				}
 			}
 		}
 		JAP_prioritize_naval_aircraft_construction = {
@@ -1223,6 +1770,10 @@ ideas = {
 				nav_bomber_equipment = {
 					build_cost_ic = -0.05 instant = yes
 				}
+				heavy_fighter_equipment = {
+					instant = yes
+					build_cost_ic = -0.05
+				}				
 			}
 		}
 	}

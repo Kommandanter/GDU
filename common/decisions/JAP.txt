@@ -157,7 +157,7 @@ JAP_interservice_rivalry = {
 				has_country_flag = JAP_steel_for_ships
 			}
 		}
-		cost = 50
+		cost = 35
 		fire_only_once = yes
 		days_remove = -1
 		ai_will_do = {
@@ -220,7 +220,7 @@ JAP_interservice_rivalry = {
 				has_country_flag = JAP_steel_for_guns
 			}
 		}
-		cost = 50
+		cost = 35
 		fire_only_once = yes
 		days_remove = -1
 		ai_will_do = {
@@ -283,7 +283,7 @@ JAP_interservice_rivalry = {
 				has_country_flag = JAP_prioritize_naval_aircraft_construction
 			}
 		}
-		cost = 50
+		cost = 35
 		fire_only_once = yes
 		days_remove = -1
 		ai_will_do = {
@@ -313,7 +313,7 @@ JAP_interservice_rivalry = {
 				has_country_flag = JAP_prioritize_army_aircraft_construction
 			}
 		}
-		cost = 50
+		cost = 35
 		fire_only_once = yes
 		days_remove = -1
 		ai_will_do = {
@@ -343,7 +343,7 @@ JAP_interservice_rivalry = {
 				has_country_flag = JAP_draft_exemptions
 			}
 		}
-		cost = 50
+		cost = 35
 		fire_only_once = yes
 		days_remove = -1
 		ai_will_do = {
@@ -375,7 +375,7 @@ JAP_interservice_rivalry = {
 				has_country_flag = JAP_everybody_serves
 			}
 		}
-		cost = 50
+		cost = 35
 		days_remove = -1
 		fire_only_once = yes
 		ai_will_do = {
@@ -408,7 +408,7 @@ JAP_interservice_rivalry = {
 				has_country_flag = JAP_special_air_landing_force
 			}
 		}
-		cost = 50
+		cost = 35
 		fire_only_once = yes
 		days_remove = -1
 		ai_will_do = {
@@ -440,7 +440,7 @@ JAP_interservice_rivalry = {
 				has_country_flag = JAP_raiding_regiments
 			}
 		}
-		cost = 50
+		cost = 35
 		fire_only_once = yes
 		days_remove = -1
 		ai_will_do = {
@@ -504,7 +504,7 @@ JAP_interservice_rivalry = {
 				}
 			}
 		}
-		cost = 50
+		cost = 35
 		fire_only_once = yes
 		ai_will_do = {
 			factor = 1
@@ -563,7 +563,7 @@ JAP_interservice_rivalry = {
 				}
 			}
 		}
-		cost = 50
+		cost = 35
 		fire_only_once = yes
 		ai_will_do = {
 			factor = 1
