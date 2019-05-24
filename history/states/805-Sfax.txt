@@ -2,7 +2,7 @@
 state={
 	id=805
 	name="STATE_805" # Sfax
-	manpower = 1
+	manpower = 97047
 	
 	state_category = wasteland
 
