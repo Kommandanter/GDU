@@ -195,7 +195,11 @@ NDefines.NMilitary.DECRYPTION_ADVANTAGE_BONUS = 0.025 -- Reducing all combat mod
 NDefines.NMilitary.BASE_FORT_PENALTY = -0.12 					   -- fort penalty 
 NDefines.NMilitary.SHORE_BOMBARDMENT_CAP = 0.2
 
+--- FUEL: We lower naval and air while increasing army 
 
+NDefines.NMilitary.ARMY_FUEL_COST_MULT = 0.5						-- fuel cost multiplier for all army related stuff
+NDefines.NAir.FUEL_COST_MULT = 0.26
+NDefines.NNavy.FUEL_COST_MULT = 0.05 -- fuel multiplier for all naval missions
 
 --- Modifier Changes 
 																	-- Modifier changes 

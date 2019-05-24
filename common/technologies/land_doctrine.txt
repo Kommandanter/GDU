@@ -2295,7 +2295,7 @@ technologies = {
 		xp_research_bonus = 0.5
 		
 		category_tanks = {
-			max_organisation = 3
+			max_organisation = 2
 		}
 		category_all_armor = {
 			default_morale = 0.1
