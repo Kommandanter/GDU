@@ -148,7 +148,7 @@ NDefines.NMilitary.UNIT_EXPERIENCE_PER_TRAINING_DAY = 0.0002
 NDefines.NMilitary.UNIT_EXP_LEVELS = { 0.2, 0.3, 0.4, 0.5 }
 NDefines.NMilitary.SLOWEST_SPEED = 3
 NDefines.NMilitary.EXPERIENCE_LOSS_FACTOR = 0.01
-NDefines.NMilitary.EQUIPMENT_COMBAT_LOSS_FACTOR = 0.52
+NDefines.NMilitary.EQUIPMENT_COMBAT_LOSS_FACTOR = 0.53
 NDefines.NMilitary.TRAINING_ATTRITION = 0.01
 NDefines.NMilitary.SPEED_REINFORCEMENT_BONUS = 0.1
 NDefines.NMilitary.OVERSEAS_LOSE_EQUIPMENT_FACTOR = 1
@@ -211,7 +211,7 @@ NDefines.NMilitary.ANTI_AIR_ATTACK_TO_AMOUNT = 0.001				-- Balancing value to co
 
 NDefines.NAir.AIR_MORE_GROUND_CREWS_COST = 500.0 -- Disables ground crews. They're cancerous. 
 NDefines.NAir.ACCIDENT_CHANCE_BASE = 0.05
-NDefines.NAir.COMBAT_DAMAGE_SCALE = 0.12
+NDefines.NAir.COMBAT_DAMAGE_SCALE = 0.13
 
 NDefines.NAir.AIR_WING_MAX_SIZE = 1600
 NDefines.NAir.ACE_WING_SIZE_MAX_BONUS = 10
