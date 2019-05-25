@@ -2056,13 +2056,8 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			army_experience = 5
-			add_tech_bonus = {
-				name = CAN_red_deer_training_camp
-				bonus = 1.00 
-				uses = 1
-				category = land_doctrine
-			}
+			army_experience = 100
+
 		}
 	}
 

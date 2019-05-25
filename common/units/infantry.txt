@@ -364,9 +364,9 @@ sub_units = {
 		}
 
 		jungle = {
-			attack = 0.10
-			defence = 0.10
-			movement = 0.2
+			attack = 0.075
+			defence = 0.05
+			movement = 0.1
 		}
 		river = {
 			movement = 0.1
@@ -471,8 +471,8 @@ sub_units = {
 		}
 
 		desert = {
-			attack = 0.10
-			defence = 0.10
+			attack = 0.075
+			defence = 0.075
 			movement = 0.1
 		}
 	}

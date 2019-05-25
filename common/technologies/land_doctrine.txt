@@ -1262,7 +1262,7 @@ technologies = {
 		}
 		category_line_artillery = {
 			soft_attack = 0.05
-			max_organisation = 3
+			max_organisation = 2
 		}
 
 		path = {
