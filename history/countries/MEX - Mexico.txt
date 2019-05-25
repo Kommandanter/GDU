@@ -69,32 +69,17 @@ latin_neutrality
 }
 
 
-
-
 set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 5
-		}
-
-		fascism = {
-			popularity = 0
-		}
-		
-		communism = {
-			popularity = 1
-		}
-		
-		neutrality = { 
-			popularity = 94
-		}
-	}
-	
 	ruling_party = neutrality
 	last_election = "1934.7.1"
 	election_frequency = 72
 	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 5
+	fascism = 0
+	communism = 1
+	neutrality = 94
 }
 
 set_stability = 0.8

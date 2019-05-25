@@ -164,10 +164,20 @@ set_politics = {
 		}
 	}
 
+
+}
+
+set_politics = {
 	ruling_party = democratic
 	last_election = "1934.9.15"
 	election_frequency = 36
 	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 98
+	fascism = 0
+	communism = 2
+	neutrality = 0
 }
 
 create_country_leader = {

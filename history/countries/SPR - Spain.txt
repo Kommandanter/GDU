@@ -57,26 +57,18 @@ if = {
 		mtg_transport = 1
 	}
 }
+
 set_politics = {
-
-	parties = {
-		democratic = {
-			popularity = 47
-		}
-
-		fascism = {
-			popularity = 46
-		}
-
-		communism = {
-			popularity = 7
-		}
-	}
-
 	ruling_party = democratic
 	last_election = "1933.2.16"
 	election_frequency = 36
 	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 47
+	fascism = 46
+	communism = 7
+	neutrality = 0
 }
 
 set_convoys = 150
@@ -144,27 +136,6 @@ set_war_support = 0.8
 		dispersed_industry3 = 1
 	}
 
-	set_politics = {
-
-		parties = {
-			democratic = {
-				popularity = 22
-			}
-
-			fascism = {
-				popularity = 76
-			}
-
-			communism = {
-				popularity = 2
-			}
-		}
-
-		ruling_party = fascism
-		last_election = "1934.3.26"
-		election_frequency = 60
-		elections_allowed = no
-	}
 
 	set_global_flag = scw_over
 	add_timed_idea = { idea = SPA_recovering_from_civil_war days = 1095 }

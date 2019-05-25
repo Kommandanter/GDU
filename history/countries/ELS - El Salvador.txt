@@ -60,27 +60,16 @@ set_convoys = 5
 }
 
 set_politics = {
-
-	parties = {
-	
-		neutrality = {
-			popularity = 100
-		}
-		democratic = { 
-			popularity = 0
-			banned = yes #default is no
-		}
-		
-		communism = {
-			popularity = 0
-			banned = yes #default is no
-		}
-	}
-	
 	ruling_party = neutrality
 	last_election = "1935.1.15"
 	election_frequency = 48
 	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 0
+	fascism = 0
+	communism = 0
+	neutrality = 100
 }
 
 create_country_leader = {
@@ -91,31 +80,5 @@ create_country_leader = {
 	ideology = despotism 
 	traits = {
 		#
-	}
-}
-
-1939.1.1 = {
-	set_politics = {
-
-		parties = {
-			democratic = { 
-				popularity = 0
-				banned = yes #default is no
-			}
-
-			fascism = {
-				popularity = 100
-			}
-			
-			communism = {
-				popularity = 0
-				banned = yes #default is no
-			}
-		}
-		
-		ruling_party = fascism
-		last_election = "1939.1.3"
-		election_frequency = 48
-		elections_allowed = yes
 	}
 }

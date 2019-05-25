@@ -71,30 +71,16 @@ latin_neutrality
 }
 
 set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 18
-		}
-
-		fascism = {
-			popularity = 10
-		}
-		
-		neutrality = {
-			popularity = 72
-		}
-		
-		communism = {
-			popularity = 0
-			#banned = no #default is no
-		}
-	}
-	
 	ruling_party = neutrality 
 	last_election = "1931.10.11"
 	election_frequency = 96
 	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 18
+	fascism = 10
+	communism = 72
+	neutrality = 0
 }
 
 create_country_leader = {
