@@ -659,7 +659,7 @@ leader_traits = {
 		type = corps_commander
 
 		modifier = {
-			winter_attrition_factor = -0.25
+			winter_attrition_factor = -0.15
 		}
 		
 		ai_will_do = {
@@ -707,7 +707,7 @@ leader_traits = {
 		}
 
 		modifier = {
-			winter_attrition_factor = -0.25
+			winter_attrition_factor = -0.15
 		}
 		
 		ai_will_do = {
