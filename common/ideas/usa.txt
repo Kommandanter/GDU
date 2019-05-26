@@ -1852,6 +1852,7 @@ ideas = {
 	
 		marmon_herrington = {
 			
+			cost = 75 
 			
 			allowed = {
 				original_tag = USA
@@ -1869,6 +1870,8 @@ ideas = {
 		}
 		
 		chrysler = {
+		
+			cost = 75 
 			
 			
 			allowed = {
@@ -1887,6 +1890,8 @@ ideas = {
 			}
 		}
 		detroit_arsenal = {
+			
+			cost = 75 
 			
 			picture = generic_industrial_concern_1
 			allowed = {
@@ -1919,6 +1924,8 @@ ideas = {
 			}
 		}
 		tank_destroyer_board = {
+			
+			cost = 75 
 			
 			picture = usa_tank_destroyer_board
 			allowed = {
@@ -1974,6 +1981,7 @@ ideas = {
 		
 		army_ordnance_department = {
 			
+			cost = 75 
 			
 			allowed = {
 				original_tag = USA
@@ -2003,6 +2011,7 @@ ideas = {
 		
 		norfolk_naval_yard = {
 			
+			cost = 75 
 			
 			allowed = {
 				original_tag = USA
@@ -2022,6 +2031,7 @@ ideas = {
 		
 		electric_boat_company = {
 			
+			cost = 75 
 			
 			allowed = {
 				original_tag = USA
@@ -2041,6 +2051,7 @@ ideas = {
 		
 		brooklyn_naval_yard = {
 			
+			cost = 75 
 			
 			allowed = {
 				original_tag = USA
@@ -2060,6 +2071,7 @@ ideas = {
 		
 		newport_news_shipbuilding = {
 			
+			cost = 75 
 			
 			allowed = {
 				original_tag = USA

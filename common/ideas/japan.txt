@@ -2194,6 +2194,8 @@ ideas = {
 		designer = yes
 		
 		kure_naval_arsenal = {
+		
+			
 			
 			
 			allowed = {
@@ -2215,6 +2217,8 @@ ideas = {
 		}
 		
 		yokosuka_naval_arsenal = {
+		
+			cost = 75 
 						
 			allowed = {
 				original_tag = JAP
@@ -2232,6 +2236,8 @@ ideas = {
 		}
 		
 		maizuru_naval_arsenal = {
+		
+			cost = 75 
 						
 			allowed = {
 				original_tag = JAP
@@ -2249,6 +2255,8 @@ ideas = {
 		}
 		
 		sasebo_naval_arsenal = {
+		
+			cost = 75 
 			
 			allowed = {
 				original_tag = JAP
@@ -2271,7 +2279,9 @@ ideas = {
 		designer = yes
 		
 		mitsubishi = {
-						
+			
+			cost = 75 
+			
 			allowed = {
 				OR = {
 				original_tag = JAP
@@ -2295,6 +2305,8 @@ ideas = {
 		}
 
 		aichi = {
+		
+			cost = 75 
 			
 			allowed = {
 				OR = {
@@ -2315,6 +2327,8 @@ ideas = {
 		}
 		
 		nakajima = {
+		
+			cost = 75 
 						
 			allowed = {
 				OR = {
@@ -2332,7 +2346,9 @@ ideas = {
 		}
 		
 		yokosuka = {
-						
+			
+			cost = 75 
+			
 			allowed = {
 				OR = {
 				original_tag = JAP
@@ -2432,6 +2448,8 @@ ideas = {
 		designer = yes
 	
 		osaka_army_arsenal = {
+		
+			cost = 75 
 			
 			allowed = {
 				OR = { 
