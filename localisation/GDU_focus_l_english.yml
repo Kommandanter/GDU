@@ -1,5 +1,9 @@
 ﻿l_english:
 #Focuses 
+ ITA_consolidate_egypt:0 "Consolidate Egypt"
+ ITA_consolidate_egypt_desc:0 "With the conquest of Egypt and the Suez canal, Il Duce's dream of a new Roman Empire has come to fruition. Now is the time to consolidate our holdings, to improve our supply, and to fortify our crown jewel."
+ ITA_consolidate_levant:0 "Consolidate the Levant"
+ ITA_consolidate_levant_desc:0 "Now that we have consolidated our position in Egypt and taken the Levant, the time has come to consolidate our holdings in the Levant as well. This will improve our supply and construct new airfields from which the Regia Aeronautica shall rule the skies over the Middle East." 
  GER_crush_yugoslavia:0 "Crush Yugoslavia"
  GER_crush_yugoslavia_desc:0 "A disgusting and especially abominable product of Versailles, Yugoslavia is an artificial construct. Not only that, but their alignment with our interests seems unlikely. There's only one good solution to a problem like this..."
  GER_flak_36:0 "Flak 36"

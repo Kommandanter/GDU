@@ -385,7 +385,7 @@ focus_tree = {
 			}
 		}
 
-		x = 1
+		x = 0
 		y = 6
 		cost = 10
 
@@ -460,9 +460,9 @@ focus_tree = {
 		id = ITA_libyan_infrastructure
 		icon = GFX_goal_generic_construct_civilian
 		text = ITA_libyan_infrastructure
-		prerequisite = { focus = ITA_prospect_for_oil }
+		prerequisite = { focus = ITA_italian_highways }
 		x = 2
-		y = 7
+		y = 6
 		cost = 10
 		ai_will_do = {
 			factor = 1
@@ -571,7 +571,194 @@ focus_tree = {
 		}
 	}
 
+	focus = {
+		id = ITA_consolidate_egypt
+		icon = GFX_goal_generic_construct_civilian
+		text = ITA_consolidate_egypt
+		prerequisite = { focus = ITA_libyan_infrastructure }
+		x = 2
+		y = 7
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		cancel_if_invalid = no
+		available = {
+			ITA = {
+				controls_state = 446
+				controls_state = 447
+				controls_state = 453				
+			}
+		}
 
+		available_if_capitulated = yes
+
+		completion_reward = {
+			446  = {
+					add_building_construction = {
+						type = infrastructure
+						level = 3
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = coastal_bunker
+						level = 3
+						province = 4073
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 3
+						province = 7011
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 5
+						province = 4073
+						instant_build = yes
+					}		
+					add_building_construction = {
+						type = bunker
+						level = 5
+						province = 12049
+						instant_build = yes
+					}						
+			}
+			447  = {
+					add_building_construction = {
+						type = infrastructure
+						level = 3
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 3
+						province = 4076
+						instant_build = yes
+					}					
+			}
+			453  = {
+					add_building_construction = {
+						type = coastal_bunker
+						level = 3
+						province = 9946
+						instant_build = yes
+					}									
+			}			
+			457  = {
+					add_building_construction = {
+						type = bunker
+						level = 3
+						province = 10126
+						instant_build = yes
+					}					
+					add_building_construction = {
+						type = bunker
+						level = 3
+						province = 1080
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 3
+						province = 9957
+						instant_build = yes
+					}					
+			}
+		}
+	}
+
+	focus = {
+		id = ITA_consolidate_levant
+		icon = GFX_goal_generic_construct_civilian
+		text = ITA_consolidate_levant
+		prerequisite = { focus = ITA_libyan_infrastructure }
+		x = 4
+		y = 7
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		cancel_if_invalid = no
+
+		available = {
+			ITA = {
+				controls_state = 454
+				controls_state = 455
+				controls_state = 553
+				controls_state = 554
+				controls_state = 675
+				controls_state = 677
+				controls_state = 680				
+			}
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			454  = {
+					add_building_construction = {
+						type = air_base
+						level = 5
+						instant_build = yes
+					}					
+			}
+			455  = {
+					add_building_construction = {
+						type = air_base
+						level = 5
+						instant_build = yes
+					}					
+			}			
+			553  = {
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = air_base
+						level = 5
+						instant_build = yes
+					}					
+			}
+			554  = {
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = air_base
+						level = 5
+						instant_build = yes
+					}					
+			}			
+			675  = {
+					add_building_construction = {
+						type = air_base
+						level = 5
+						instant_build = yes
+					}					
+			}
+			677  = {
+					add_building_construction = {
+						type = air_base
+						level = 5
+						instant_build = yes
+					}					
+			}			
+			680  = {
+					add_building_construction = {
+						type = air_base
+						level = 5
+						instant_build = yes
+					}					
+			}			
+
+		}
+	}
 
 	focus = {
 		id = ITA_army_primacy
