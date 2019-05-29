@@ -333,7 +333,7 @@ NDefines.NNavy.SPOTTING_SPEED_EFFECT_FOR_INITIAL_NAVAL_INVASION_SPOTTING = 0.05 
 
 
 NDefines.NNavy.NAVAL_MINES_IN_REGION_MAX = 100 -- Max number of mines that can be layed by the ships. The value should be hidden from the user, as we present % so it's an abstract value that should be used for balancing.
-NDefines.Navy.TRAINING_ACCIDENT_CHANCES = 0.00						-- Chances one ship get damage each hour while on training
+NDefines.NNavy.TRAINING_ACCIDENT_CHANCES = 0.00						-- Chances one ship get damage each hour while on training
 
 NDefines.NAI.DIVISION_UPGRADE_MIN_XP = 400
 NDefines.NAI.DIVISION_CREATE_MIN_XP = 500
