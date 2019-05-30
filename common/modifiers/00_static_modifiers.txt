@@ -327,18 +327,18 @@ naval_mines_effect = {
 }
 
 air_wing_experience_malus_min = {
-	air_attack_factor = -0.1
+	air_attack_factor = -0.0
 	#air_defence_factor = -0.15
-	air_agility_factor = -0.1
-	air_night_penalty = 0.1
+	air_agility_factor = -0.12
+	air_night_penalty = 0.12
 	#air_weather_penalty = 0.15
 }
 
 air_wing_experience_bonus_max = {
-	air_attack_factor = 0.15
+	air_attack_factor = 0.0
 	#air_defence_factor = 0.2
-	air_agility_factor = 0.2
-	air_night_penalty = -0.15
+	air_agility_factor = 0.25
+	air_night_penalty = -0.2
 	#air_weather_penalty = -0.3
 }
 
