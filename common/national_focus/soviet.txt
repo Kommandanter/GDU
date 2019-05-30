@@ -377,7 +377,7 @@ focus_tree = {
 		cost = 0
 			
 		completion_reward = { 
-			add_ideas = soviet_union_eternal
+			add_ideas = soviet_union_eternal				
 		}
 		
 		
@@ -406,6 +406,11 @@ focus_tree = {
 				remove_idea = SOV_industrial_relocations
 				add_idea = SOV_war_for_communism
 			}
+			swap_ideas = { 
+				remove_idea = officers_purged_9
+				add_idea = officers_purged_10
+			}
+						
 			custom_effect_tooltip = GDU_spacer 
 			hidden_effect = {
 				if = { 
@@ -517,7 +522,7 @@ focus_tree = {
 			add_ideas = general_winter_idea
 			custom_effect_tooltip = GDU_spacer 
 			add_tech_bonus = {
-				name = armor_bonus
+				name = land_doctrine_moscow
 				bonus = 2.00 
 				category = land_doctrine
 				uses = 2 
@@ -755,7 +760,13 @@ focus_tree = {
 			swap_ideas = { 
 				remove_idea = SOV_war_for_communism
 				add_idea = great_patriotic_war 
-			} 
+			}
+			add_tech_bonus = {
+				name = land_doctrine_stalingrad
+				bonus = 4.00 
+				category = land_doctrine
+				uses = 2 
+			}			
 			if = { limit = { has_idea = officers_purged } remove_ideas = officers_purged }
 			if = { limit = { has_idea = officers_purged_2 } remove_ideas = officers_purged_2 }
 			if = { limit = { has_idea = officers_purged_3 } remove_ideas = officers_purged_3 }
@@ -1269,6 +1280,12 @@ focus_tree = {
 				uses = 1
 				technology = advanced_medium_tank
 			}
+			add_tech_bonus = {
+				name = land_doctrine_patriotic_research
+				bonus = 4.00 
+				category = land_doctrine
+				uses = 1 
+			}			
 		}
 		
 		prerequisite = { focus = SOV_defense_of_moscow } 

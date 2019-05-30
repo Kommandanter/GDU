@@ -205,7 +205,7 @@ ideas = {
 			}
 
 			modifier = {
-				industrial_capacity_factory = 0.05
+				industrial_capacity_factory = 0.125
 			}
 		}
 		workers_culture = {
@@ -440,7 +440,7 @@ ideas = {
 			}
 
 			research_bonus = {
-				land_doctrine = -0.05
+				land_doctrine = -0.75
 				naval_doctrine = -0.05
 				air_doctrine = -0.05
 			}
@@ -462,7 +462,7 @@ ideas = {
 			}
 
 			research_bonus = {
-				land_doctrine = -0.07
+				land_doctrine = -0.28
 				naval_doctrine = -0.07
 				air_doctrine = -0.07
 			}
@@ -484,7 +484,7 @@ ideas = {
 			}
 
 			research_bonus = {
-				land_doctrine = -0.1
+				land_doctrine = -0.40
 				naval_doctrine = -0.1
 				air_doctrine = -0.1
 			}
@@ -503,7 +503,7 @@ ideas = {
 			}
 
 			research_bonus = {
-				land_doctrine = -0.13
+				land_doctrine = -0.52
 				naval_doctrine = -0.13
 				air_doctrine = -0.13
 			}
@@ -552,7 +552,7 @@ ideas = {
 			}
 
 			research_bonus = {
-				land_doctrine = -0.12
+				land_doctrine = -0.48
 				naval_doctrine = -0.12
 				air_doctrine = -0.12
 			}
@@ -600,7 +600,7 @@ ideas = {
 			}
 
 			research_bonus = {
-				land_doctrine = -0.11
+				land_doctrine = -0.44
 				naval_doctrine = -0.11
 				air_doctrine = -0.11
 			}
@@ -648,7 +648,7 @@ ideas = {
 			}
 
 			research_bonus = {
-				land_doctrine = -0.1
+				land_doctrine = -0.40
 				naval_doctrine = -0.1
 				air_doctrine = -0.1
 			}
@@ -696,7 +696,7 @@ ideas = {
 			}
 
 			research_bonus = {
-				land_doctrine = -0.09
+				land_doctrine = -0.36
 				naval_doctrine = -0.09
 				air_doctrine = -0.09
 			}
@@ -744,7 +744,7 @@ ideas = {
 			}
 
 			research_bonus = {
-				land_doctrine = -0.08
+				land_doctrine = -0.32
 				naval_doctrine = -0.08
 				air_doctrine = -0.08
 			}
@@ -791,7 +791,7 @@ ideas = {
 			}
 
 			research_bonus = {
-				land_doctrine = -0.07
+				land_doctrine = -0.28
 				naval_doctrine = -0.07
 				air_doctrine = -0.07
 			}
@@ -838,7 +838,7 @@ ideas = {
 			}
 
 			research_bonus = {
-				land_doctrine = -0.06
+				land_doctrine = -0.24
 				naval_doctrine = -0.06
 				air_doctrine = -0.06
 			}
@@ -886,34 +886,36 @@ ideas = {
 			}
 
 			research_bonus = {
-				land_doctrine = -0.04
+				land_doctrine = -0.08
 				naval_doctrine = -0.04
 				air_doctrine = -0.04
 			}
 
 			modifier = {
-				army_attack_factor = -0.075
-				army_org_factor = -0.2
+				army_attack_factor = -0.125
+				army_org_factor = -0.5
+				planning_speed = -0.4
+				max_planning = -0.1
 			}
 			equipment_bonus = {
 				fighter_equipment = {
-					air_agility = -0.05
-					air_attack = -0.05
+					air_agility = -0.15
+					air_attack = -0.15
 					instant = yes
 				}
 				heavy_fighter_equipment = {
-					air_agility = -0.05
-					air_attack = -0.05
+					air_agility = -0.15
+					air_attack = -0.15
 					instant = yes
 				}
 				CAS_equipment = {
-					air_agility = -0.05
-					air_ground_attack = -0.05
+					air_agility = -0.15
+					air_ground_attack = -0.15
 					instant = yes
 				}
 				tac_bomber_equipment = {
-					air_agility = -0.05
-					air_ground_attack = -0.05
+					air_agility = -0.15
+					air_ground_attack = -0.15
 					instant = yes
 				}
 			}
@@ -933,28 +935,30 @@ ideas = {
 			}
 
 			modifier = {
-				army_attack_factor = -0.06
-				army_org_factor = -0.15
+				army_attack_factor = -0.075
+				army_org_factor = -0.3
+				planning_speed = -0.25
+				max_planning = -0.075				
 			}
 			equipment_bonus = {
 				fighter_equipment = {
-					air_agility = -0.05
-					air_attack = -0.05
+					air_agility = -0.075
+					air_attack = -0.075
 					instant = yes
 				}
 				heavy_fighter_equipment = {
-					air_agility = -0.05
-					air_attack = -0.05
+					air_agility = -0.075
+					air_attack = -0.075
 					instant = yes
 				}
 				CAS_equipment = {
-					air_agility = -0.05
-					air_ground_attack = -0.05
+					air_agility = -0.075
+					air_ground_attack = -0.075
 					instant = yes
 				}
 				tac_bomber_equipment = {
-					air_agility = -0.05
-					air_ground_attack = -0.05
+					air_agility = -0.075
+					air_ground_attack = -0.075
 					instant = yes
 				}
 			}
@@ -977,6 +981,7 @@ ideas = {
 			modifier = {
 				consumer_goods_factor = -0.1
 				training_time_factor = -0.7
+				global_building_slots_factor = 0.05
 			}
 		}
 		
@@ -994,10 +999,10 @@ ideas = {
 			}
 
 			modifier = {
-				army_morale_factor = 0.05
 				consumer_goods_factor = -0.1
 				conscription = 0.02
 				training_time_factor = -0.7
+				global_building_slots_factor = 0.05
 			}
 		}
 	
@@ -1015,10 +1020,10 @@ ideas = {
 			}
 
 			modifier = {
-				army_morale_factor = 0.10
 				consumer_goods_factor = -0.1
 				conscription = 0.02
 				training_time_factor = -0.7
+				global_building_slots_factor = 0.10
 			}
 		}
 
