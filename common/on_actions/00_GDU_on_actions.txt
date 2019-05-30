@@ -641,6 +641,123 @@ on_actions = {
 		}
 	}
 	
+	
+	#### This thing gives Soviets 100 army XP each time they finish a new land doctrine tech. The purpose is to allow them to take the XP boost to land doctrine research for every tech, allowing the purge penalty on land doctrine to be higher and making it effectively impossible for Soviets to rush land doctrine more than desired for balance. ####
+	
+	on_daily = {
+		effect = {
+		
+			if = {
+				limit = {
+					original_tag = SOV 
+					NOT = { has_global_flag = GDU_SOV_got_tier1_doctrine_XP } 
+					SOV_land_doctrine_tier_1_trigger = yes
+				}
+				FROM.FROM = { 
+					set_global_flag = GDU_SOV_got_tier1_doctrine_XP 
+				}
+				army_experience = 100
+			}
+			
+			if = {
+				limit = {
+					original_tag = SOV 
+					NOT = { has_global_flag = GDU_SOV_got_tier2_doctrine_XP } 
+					SOV_land_doctrine_tier_2_trigger = yes
+				}
+				FROM.FROM = { 
+					set_global_flag = GDU_SOV_got_tier2_doctrine_XP 
+				}
+				army_experience = 100
+			}
+
+			if = {
+				limit = {
+					original_tag = SOV 
+					NOT = { has_global_flag = GDU_SOV_got_tier3_doctrine_XP } 
+					SOV_land_doctrine_tier_3_trigger = yes
+				}
+				FROM.FROM = { 
+					set_global_flag = GDU_SOV_got_tier3_doctrine_XP 
+				}
+				army_experience = 100
+			}
+
+			if = {
+				limit = {
+					original_tag = SOV 
+					NOT = { has_global_flag = GDU_SOV_got_tier4_doctrine_XP } 
+					SOV_land_doctrine_tier_4_trigger = yes
+				}
+				FROM.FROM = { 
+					set_global_flag = GDU_SOV_got_tier4_doctrine_XP 
+				}
+				army_experience = 100
+			}
+
+			if = {
+				limit = {
+					original_tag = SOV 
+					NOT = { has_global_flag = GDU_SOV_got_tier5_doctrine_XP } 
+					SOV_land_doctrine_tier_5_trigger = yes
+				}
+				FROM.FROM = { 
+					set_global_flag = GDU_SOV_got_tier5_doctrine_XP 
+				}
+				army_experience = 100
+			}
+
+			if = {
+				limit = {
+					original_tag = SOV 
+					NOT = { has_global_flag = GDU_SOV_got_tier6_doctrine_XP } 
+					SOV_land_doctrine_tier_6_trigger = yes
+				}
+				FROM.FROM = { 
+					set_global_flag = GDU_SOV_got_tier6_doctrine_XP 
+				}
+				army_experience = 100
+			}
+
+			if = {
+				limit = {
+					original_tag = SOV 
+					NOT = { has_global_flag = GDU_SOV_got_tier7_doctrine_XP } 
+					SOV_land_doctrine_tier_7_trigger = yes
+				}
+				FROM.FROM = { 
+					set_global_flag = GDU_SOV_got_tier7_doctrine_XP 
+				}
+				army_experience = 100
+			}
+
+			if = {
+				limit = {
+					original_tag = SOV 
+					NOT = { has_global_flag = GDU_SOV_got_tier8_doctrine_XP } 
+					SOV_land_doctrine_tier_8_trigger = yes
+				}
+				FROM.FROM = { 
+					set_global_flag = GDU_SOV_got_tier8_doctrine_XP 
+				}
+				army_experience = 100
+			}
+
+			if = {
+				limit = {
+					original_tag = SOV 
+					NOT = { has_global_flag = GDU_SOV_got_tier9_doctrine_XP } 
+					SOV_land_doctrine_tier_9_trigger = yes
+				}
+				FROM.FROM = { 
+					set_global_flag = GDU_SOV_got_tier9_doctrine_XP 
+				}
+				army_experience = 100
+			}			
+			
+		}
+	}	
+	
 	on_declare_war = {
 		effect = {
 			if = {

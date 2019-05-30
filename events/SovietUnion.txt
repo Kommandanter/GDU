@@ -508,7 +508,15 @@ country_event = {
 	option = {
 		name = soviet.24.a
 		add_ideas = officers_purged_start
-		
+		add_tech_bonus = {
+			name = purge_landdoc_rush_disincentive_bonus
+			bonus = 5.00 
+			uses = 1
+			technology = delay
+			technology = sup_delay
+			technology = grand_battle_plan
+			technology = pocket_defence
+		}
 	}
 }
 
