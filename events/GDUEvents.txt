@@ -96,6 +96,18 @@ country_event = {
 	option = {
 		name = gduevents.4.a
 		custom_effect_tooltip = SOV_barbarossa_tooltip
+		add_tech_bonus = {
+			name = barb_landdoc_rush_disincentive_bonus
+			bonus = 7.50 
+			uses = 1
+			technology = kampfgruppe
+			technology = concentrated_fire_plans
+			technology = centralized_fire_control
+			technology = branch_interoperation
+			technology = infiltration_assault
+			technology = vast_offensives
+			technology = human_wave_offensive
+		}
 	}
 	
 	

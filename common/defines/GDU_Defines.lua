@@ -240,7 +240,7 @@ NDefines.NAir.AIR_WING_MAX_STATS_SPEED = 2500
 NDefines.NAir.AIR_WING_XP_LOSS_WHEN_KILLED = 0.4
 NDefines.NAir.DETECT_CHANCE_FROM_AIRCRAFTS_EFFECTIVE_COUNT = 1
 NDefines.NAir.COMBAT_MULTIPLANE_CAP = 1.6
-NDefines.NAir.AIR_COMBAT_FINAL_DAMAGE_SCALE = 0.2 -- 0.015	 % how many max disrupted only planes are allowed to die in a single combat
+NDefines.NAir.AIR_COMBAT_FINAL_DAMAGE_SCALE = 0.2  -- 0.015	 % how many max disrupted only planes are allowed to die in a single combat
 
 NDefines.NAir.DISRUPTION_DETECTION_FACTOR = 1.0
 
