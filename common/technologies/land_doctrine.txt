@@ -1893,11 +1893,8 @@ technologies = {
 		xp_research_bonus = 0.5
 		
 		max_planning = 0.1
-		category_tanks = {
-			max_organisation = 3
-		}
 		category_all_armor = {
-			default_morale = 0.1
+			max_organisation = 4
 		}
 
 		enable_tactic = tactic_blitz
@@ -2288,10 +2285,6 @@ technologies = {
 		xp_research_type = army
 		xp_research_cost = 100
 		xp_research_bonus = 0.5
-		
-		category_all_armor = {
-			max_strength = 0.75 
-		}
 
 		mechanized = {
 			max_strength = 3
@@ -2301,6 +2294,7 @@ technologies = {
 		}		
 		
 		category_all_armor = {
+			max_strength = 0.75
 			default_morale = 0.1
 			max_organisation = 3 
 		}
