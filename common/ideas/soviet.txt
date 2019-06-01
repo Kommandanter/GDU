@@ -917,8 +917,8 @@ ideas = {
 			}
 
 			modifier = {			
-				army_attack_factor = -0.1
-				army_org_factor = -0.4
+				army_attack_factor = -0.05
+				army_org_factor = -0.35
 				planning_speed = -0.5
 				max_planning = -0.15
 			}
@@ -964,8 +964,8 @@ ideas = {
 			}
 
 			modifier = {			
-				army_attack_factor = -0.05
-				army_org_factor = -0.3
+				army_attack_factor = -0.025
+				army_org_factor = -0.25
 				planning_speed = -0.25
 				max_planning = -0.075				
 			}
