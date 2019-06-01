@@ -2396,6 +2396,15 @@ technologies = {
 			max_organisation = 13
 			breakthrough = 0.10
 		}
+		
+		mechanized = {
+			max_organisation = 5
+			default_morale = 0.05
+		}
+		motorized = {
+			max_organisation = 5
+			default_morale = 0.05
+		}
 
 
 		enable_tactic = tactic_overwhelming_fire
@@ -2483,12 +2492,12 @@ technologies = {
 		xp_research_bonus = 0.5
 
 		mechanized = {
-			max_organisation = 15
-			default_morale = 0.1
+			max_organisation = 10
+			default_morale = 0.05
 		}
 		motorized = {
-			max_organisation = 15
-			default_morale = 0.1
+			max_organisation = 10
+			default_morale = 0.05
 		}
 
 		path = {
