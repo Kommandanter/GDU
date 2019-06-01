@@ -200,8 +200,8 @@ NDefines.NMilitary.SHORE_BOMBARDMENT_CAP = 0.2
 
 --- FUEL: We lower naval and air while increasing army 
 
-NDefines.NMilitary.ARMY_FUEL_COST_MULT = 0.5						-- fuel cost multiplier for all army related stuff
-NDefines.NAir.FUEL_COST_MULT = 0.27
+NDefines.NMilitary.ARMY_FUEL_COST_MULT = 0.46						-- fuel cost multiplier for all army related stuff
+NDefines.NAir.FUEL_COST_MULT = 0.22
 NDefines.NNavy.FUEL_COST_MULT = 0.07 -- fuel multiplier for all naval missions
 
 --- Modifier Changes 

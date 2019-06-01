@@ -660,7 +660,7 @@ on_actions = {
 				FROM.FROM = { 
 					set_global_flag = GDU_SOV_got_tier1_doctrine_XP 
 				}
-				army_experience = 160
+				army_experience = 200
 			}
 			
 			if = {
@@ -672,7 +672,7 @@ on_actions = {
 				FROM.FROM = { 
 					set_global_flag = GDU_SOV_got_tier2_doctrine_XP 
 				}
-				army_experience = 160
+				army_experience = 200
 			}
 
 			if = {
@@ -684,7 +684,7 @@ on_actions = {
 				FROM.FROM = { 
 					set_global_flag = GDU_SOV_got_tier3_doctrine_XP 
 				}
-				army_experience = 160
+				army_experience = 200
 			}
 
 			if = {
@@ -696,7 +696,7 @@ on_actions = {
 				FROM.FROM = { 
 					set_global_flag = GDU_SOV_got_tier4_doctrine_XP 
 				}
-				army_experience = 160
+				army_experience = 200
 			}
 
 			if = {
@@ -708,7 +708,7 @@ on_actions = {
 				FROM.FROM = { 
 					set_global_flag = GDU_SOV_got_tier5_doctrine_XP 
 				}
-				army_experience = 160
+				army_experience = 200
 			}
 
 			if = {
@@ -720,7 +720,7 @@ on_actions = {
 				FROM.FROM = { 
 					set_global_flag = GDU_SOV_got_tier6_doctrine_XP 
 				}
-				army_experience = 160
+				army_experience = 200
 			}
 
 			if = {
@@ -732,7 +732,7 @@ on_actions = {
 				FROM.FROM = { 
 					set_global_flag = GDU_SOV_got_tier7_doctrine_XP 
 				}
-				army_experience = 160
+				army_experience = 200
 			}
 
 			if = {
@@ -744,7 +744,7 @@ on_actions = {
 				FROM.FROM = { 
 					set_global_flag = GDU_SOV_got_tier8_doctrine_XP 
 				}
-				army_experience = 160
+				army_experience = 200
 			}
 
 			if = {
@@ -756,7 +756,7 @@ on_actions = {
 				FROM.FROM = { 
 					set_global_flag = GDU_SOV_got_tier9_doctrine_XP 
 				}
-				army_experience = 160
+				army_experience = 200
 			}			
 			
 		}
