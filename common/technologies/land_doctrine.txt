@@ -2349,7 +2349,7 @@ technologies = {
 		
 		category_light_infantry = { 
 			max_organisation = 5 
-			default_morale = 0.15 
+			default_morale = 0.1 
 		}
 
 		enable_tactic = tactic_elastic_defense
@@ -2397,7 +2397,7 @@ technologies = {
 		
 		category_all_infantry = {
 			soft_attack = 0.05
-			max_organisation = 15
+			max_organisation = 13
 			breakthrough = 0.10
 		}
 
