@@ -406,6 +406,7 @@ focus_tree = {
 				remove_idea = SOV_industrial_relocations
 				add_idea = SOV_war_for_communism
 			}
+			custom_effect_tooltip = GDU_spacer 
 			swap_ideas = { 
 				remove_idea = officers_purged_9
 				add_idea = officers_purged_10
