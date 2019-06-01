@@ -254,7 +254,11 @@
  
  gduevents.20.t:0 "Resistance Prepared!" 
  gduevents.20.d:0 "The resistance is now set up and prepared to continue the struggle overseas. The fight continues; should the worst come to pass, the French people will not give up hope!" 
- gduevents.20.a:0 "Excellent!" 
+ gduevents.20.a:0 "Excellent!"
+
+ gduevents.21.t:0 "IMPORTANT INFORMATION"
+ gduevents.21.d:0 "IF YOU READ NOTHING ELSE, READ THIS\n\nDo not research doctrine day one as the Soviets, and do not cheese your doctrine ahead of time. You will get an event beginning the Great Purge automatically without taking the focus which will give you your first doctrine for free.\n\nThe penalty on the purge is large, but you get 100 free army XP per doctrine research completed to boost your next doctrine research--In total, it's about a 60% penalty with this in mind.\n\nIf you do it right, you will research a total of 6 doctrines by May 1941~. When Germany attacks, you'll get an event giving you your 7th doctrine for free, meaning there's no reason to use the technology saving exploit to research ahead of time.\n\nYou'll also get massive doctrine bonuses for your last three doctrines in your tree, so pay attention to those! Good luck and have fun." 
+ gduevents.21.a:0 "Actually, I just won't read this, then I'll complain. Thanks."
  
  pfu.31.t:0 "The Fight Goes On"
  pfu.31.desc:0 "The Battle for France is over, but the war still rages on. Do not leave juste because you lost metropolitan France. \n \n GDU has some interesting mechanics for Free France in your National Focus (on the right) where you can help a lot for Operation Torch and get free divisions from the war in North Africa and later help in the war in Italy/D-Day. Keep in mind that you don't get to access these focuses unless you survive Germany for 35 days.\n \n Courage!"

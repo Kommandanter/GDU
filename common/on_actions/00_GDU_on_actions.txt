@@ -170,6 +170,10 @@ on_actions = {
 			GER = { 
 				country_event = { id = gduevents.2 days = 1 } 
 			}
+			#### EVENT EXPLAINING Purge mechanics to Soviets #### 
+			SOV = { 
+				country_event = { id = gduevents.21 days = 5 } 
+			}
 			#### Intro event for Japan #### 
 			JAP = { 
 				country_event = { id = pfu.28 days = 30 } 
