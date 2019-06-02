@@ -1191,7 +1191,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_offsite_building = { type = arms_factory level = 6 }
+			add_offsite_building = { type = arms_factory level = 5 }
 		}
 	}
 	

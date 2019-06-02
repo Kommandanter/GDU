@@ -78,8 +78,8 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				production_speed_industrial_complex_factor = 0.65
-				consumer_goods_factor = -0.2
+				production_speed_industrial_complex_factor = 0.70
+				consumer_goods_factor = -0.225
 				production_speed_arms_factory_factor = -0.15
 				production_speed_dockyard_factor = -0.15			
 			}
@@ -108,11 +108,11 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				production_speed_industrial_complex_factor = 0.65
-				consumer_goods_factor = -0.25
-				production_speed_arms_factory_factor = 0.4
-				production_speed_dockyard_factor = 0.65
-				production_factory_efficiency_gain_factor = 0.1 
+				production_speed_industrial_complex_factor = 0.70
+				consumer_goods_factor = -0.275
+				production_speed_arms_factory_factor = 0.45
+				production_speed_dockyard_factor = 0.70
+				production_factory_efficiency_gain_factor = 0.15 
 			}
 		}
 		great_depression = {
