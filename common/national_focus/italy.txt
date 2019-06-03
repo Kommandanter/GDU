@@ -587,7 +587,6 @@ focus_tree = {
 			ITA = {
 				controls_state = 446
 				controls_state = 447
-				controls_state = 453				
 			}
 		}
 
@@ -646,26 +645,6 @@ focus_tree = {
 						instant_build = yes
 					}									
 			}			
-			457  = {
-					add_building_construction = {
-						type = bunker
-						level = 3
-						province = 10126
-						instant_build = yes
-					}					
-					add_building_construction = {
-						type = bunker
-						level = 3
-						province = 1080
-						instant_build = yes
-					}
-					add_building_construction = {
-						type = bunker
-						level = 3
-						province = 9957
-						instant_build = yes
-					}					
-			}
 		}
 	}
 
@@ -688,9 +667,7 @@ focus_tree = {
 				controls_state = 455
 				controls_state = 553
 				controls_state = 554
-				controls_state = 675
 				controls_state = 677
-				controls_state = 680				
 			}
 		}
 
