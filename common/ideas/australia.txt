@@ -634,7 +634,7 @@ high_command = {
 			original_tag = AST
 		}
 		
-		traits = { army_infantry_3 }
+		traits = { army_infantry_2 }
 		
 		ai_will_do = {
 			factor = 1
