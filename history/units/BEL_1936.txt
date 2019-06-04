@@ -119,9 +119,6 @@ units = {
 
 }
 
-air_wings = {
-	### Aéronautique Militaire Belge -- Brussels (Nivelle)
-}
 
 ### Starting Production ###
 instant_effect = {
