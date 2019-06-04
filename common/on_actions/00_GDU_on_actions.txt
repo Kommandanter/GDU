@@ -774,18 +774,46 @@ on_actions = {
 				USA = { country_event = { id = gduevents.18 days = 5 } } #Philippine military occupation 
 			}
 			if = { 
-				limit = { 
-					FROM = { 
-						tag = BEL 
-					}
-					ROOT = { tag = GER }
+				limit = {
+					OR = {
+						AND = {
+							FROM = { 
+								tag = BEL 
+							}
+							ROOT = { tag = GER }
+						}
+						AND = {
+							FROM = { 
+								tag = FRA 
+							}
+							ROOT = { tag = ITA }
+						}						
+					}	
 				}
 				hidden_effect = {
 					GER = {
-						activate_mission = GER_triumph_france
+						activate_mission = GER_triumph_france1
+						activate_mission = GER_triumph_france2
+						activate_mission = GER_triumph_france3
+						activate_mission = GER_triumph_france4
+						activate_mission = GER_triumph_france5
+						activate_mission = GER_triumph_france6
+						activate_mission = GER_triumph_france7
+						activate_mission = GER_triumph_france8
+						activate_mission = GER_triumph_france9
+						activate_mission = GER_triumph_france10					
 					}
 					FRA = { 
-						activate_mission = FRA_evacuate_france
+						activate_mission = FRA_evacuate_france1
+						activate_mission = FRA_evacuate_france2
+						activate_mission = FRA_evacuate_france3
+						activate_mission = FRA_evacuate_france4
+						activate_mission = FRA_evacuate_france5
+						activate_mission = FRA_evacuate_france6
+						activate_mission = FRA_evacuate_france7
+						activate_mission = FRA_evacuate_france8
+						activate_mission = FRA_evacuate_france9
+						activate_mission = FRA_evacuate_france10						
 					}
 					FRA =  { country_event = { id = gduevents.19 days = 1 } } #Warn France to hold. 
 				}

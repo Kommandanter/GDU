@@ -258,3 +258,6 @@
 	
     CHI_no_factions_warlord:0 "No Factions"
     CHI_no_factions_warlord:0 "This idea is just here to make sure Sinkiang doesn't join the Comintern." 
+    
+    FRF_efficiency_gain:0 "Free France Initial Efficiency Gain"
+    FRF_retrain:0 "Free France Initial Re-training"

@@ -134,13 +134,132 @@ country_event = {
 					transfer_state = 670
 					transfer_state = 741
 					transfer_state = 286
+					
+				country_event = { id = gduvichy.8 days = 3 }				
+				
+	}
+		
+	
+	option = {
+		name = gduvichy.5.a
+	
+	}
+	
+	
+	
+}
+
+
+
+country_event = { 
+	id = gduvichy.6
+	title = gduvichy.6.t
+	desc = gduvichy.6.d
+	picture = GFX_report_event_canadian_soldiers
+	
+	is_triggered_only = yes 
+	
+	immediate = {  
 
 					
+				#### Stuff to replace the old France (FRA) with a brand new Free France (FRF) country #### 
+			
+				FRF = {
+					transfer_state = 539
+					transfer_state = 772
+					transfer_state = 773
+					transfer_state = 660
+					transfer_state = 774
+					transfer_state = 268
+					transfer_state = 708
+					transfer_state = 706					
+				}
+			
+				#### switch France (FRA) to Free France (FRF) ####
+
+				FRF = {
+					change_tag_from = FRA
+				}					
+					
+				country_event = { id = gduvichy.7 days = 3 }
+				FRF = { news_event = { id = france.20 days = 1 } }				
 					
 	}
 	
 	option = {
-		name = gduvichy.5.a
+		name = gduvichy.6.a
+	
+	}
+	
+	
+	
+}
+
+
+
+country_event = { 
+	id = gduvichy.7
+	title = gduvichy.7.t
+	desc = gduvichy.7.d
+	picture = GFX_report_event_canadian_soldiers
+	
+	is_triggered_only = yes 
+	
+	immediate = {  
+
+					
+				FRF = {
+					transfer_state = 713
+					transfer_state = 320
+					transfer_state = 728
+					transfer_state = 635
+					transfer_state = 734
+					transfer_state = 641
+					transfer_state = 310
+					transfer_state = 694
+					transfer_state = 730					
+				}	
+					
+				country_event = { id = gduvichy.1 days = 3 }					
+					
+	}
+	
+	option = {
+		name = gduvichy.7.a
+	
+	}
+	
+	
+	
+}
+
+
+
+
+country_event = { 
+	id = gduvichy.8
+	title = gduvichy.8.t
+	desc = gduvichy.8.d
+	picture = GFX_report_event_canadian_soldiers
+	
+	is_triggered_only = yes 
+	
+	immediate = {  
+
+					
+				GER = {	
+					annex_country = {
+							target = FRA
+							transfer_troops = no
+					}
+				}	
+					
+				country_event = { id = gduvichy.1 days = 3 }					
+					
+	}
+	
+	option = {
+		name = gduvichy.8.a
 	
 	}
 	

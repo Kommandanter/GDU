@@ -459,7 +459,20 @@ country_event = {
 }
 
 
+country_event = { 
+	id = gduevents.22
+	title = gduevents.22.t 
+	desc = gduevents.22.d 
+	picture = GFX_report_event_french_resistance_01
 	
+	is_triggered_only = yes 
+	
+	option = { 
+		name = gduevents.22.a 
+
+	}
+	
+}	
 	
 	
 	

@@ -4,7 +4,7 @@ ideas = {
 		FRA_FREE_army = {
 			
 			allowed = {
-				original_tag = FRA
+				original_tag = FRF
 				always = no
 			}
 
@@ -26,7 +26,7 @@ ideas = {
 			picture = generic_research_bonus
 			
 			allowed = {
-				original_tag = FRA
+				original_tag = FRF
 				always = no
 			}
 
@@ -45,7 +45,7 @@ ideas = {
 			picture = generic_foreign_capital
 			
 			allowed = {
-				original_tag = FRA
+				original_tag = FRF
 				always = no
 			}
 
@@ -65,7 +65,7 @@ ideas = {
 			picture = FRA_scw_intervention_republicans_focus
 			
 			allowed = {
-				original_tag = FRA
+				original_tag = FRF
 				always = no
 			}
 
@@ -85,7 +85,7 @@ ideas = {
 			picture = generic_army_war_college
 			
 			allowed = {
-				original_tag = FRA
+				original_tag = FRF
 				always = no
 			}
 
@@ -103,7 +103,7 @@ ideas = {
 		FRA_FREE_joint_french_and_russian_rubber_refinery_program = {
 			
 			allowed = {
-				original_tag = FRA
+				original_tag = FRF
 				always = no
 			}
 
@@ -126,11 +126,11 @@ ideas = {
 		    Cost = 25
 			
 			allowed = {
-				original_tag = FRA
+				original_tag = FRF
 			}
 			
 			available = {
-				original_tag = FRA
+				original_tag = FRF
 				has_country_flag = free_france
 			}
 			
@@ -145,7 +145,7 @@ ideas = {
 		FRA_FREE_georges_catroux = { ##		
 			
 			allowed = {
-				original_tag = FRA
+				original_tag = FRF
 				
 			}
 			available = {
@@ -160,7 +160,7 @@ ideas = {
 		FRA_FREE_edgard_de_larminat = { ##			
 			
 			allowed = {
-				original_tag = FRA
+				original_tag = FRF
 				
 			}
 			available = {
@@ -178,7 +178,7 @@ ideas = {
 		FRA_FREE_henry_de_rancourt_de_mimerand = { ##bomber pilot, founder of the first free french air school 			
 			
 			allowed = {
-				original_tag = FRA
+				original_tag = FRF
 				
 			}
 			available = {
@@ -197,7 +197,7 @@ ideas = {
 
 
 			allowed = {
-				original_tag = FRA
+				original_tag = FRF
 				
 			}
 
@@ -218,11 +218,11 @@ ideas = {
 			
 			
 			allowed = {
-				original_tag = FRA
+				original_tag = FRF
 			}
 			
 			available = {
-				original_tag = FRA
+				original_tag = FRF
 				has_country_flag = free_france
 			}
 			
@@ -237,11 +237,11 @@ ideas = {
 
 
 			allowed = {
-				original_tag = FRA
+				original_tag = FRF
 			}
 
 			available = {
-				original_tag = FRA
+				original_tag = FRF
 				has_country_flag = free_france
 			}
 
@@ -257,11 +257,11 @@ ideas = {
 			picture = henri_giraud
 
 			allowed = {
-				original_tag = FRA
+				original_tag = FRF
 			}
 
 			available = {
-                original_tag = FRA
+                original_tag = FRF
 				has_country_flag = free_france
 			}
 
@@ -277,10 +277,10 @@ ideas = {
 			picture = charles_de_gaulle
 			
 			allowed = {
-				original_tag = FRA
+				original_tag = FRF
 			}
 		    available = {
-				original_tag = FRA
+				original_tag = FRF
 				has_country_flag = free_france
 			}
 			
@@ -304,7 +304,7 @@ ideas = {
 			picture = generic_naval_manufacturer_2
 
 			allowed = {
-				original_tag = FRA
+				original_tag = FRF
 			}
 
 			available = {
