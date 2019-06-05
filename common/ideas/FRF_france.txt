@@ -160,7 +160,9 @@ ideas = {
 				original_tag = FRF
 				always = no
 			}
-
+			
+			picture = FRA_fortification_focus
+			
 			allowed_civil_war = {
 				always = yes
 			}
@@ -183,7 +185,9 @@ ideas = {
 			allowed_civil_war = {
 				always = yes
 			}
-
+			
+			picture = FRF_FRA_motorized_focus
+		
 			removal_cost = -1
 
 			equipment_bonus = {
@@ -200,7 +204,8 @@ ideas = {
 				allowed = {
 					always = no # Added via focus
 				}
-
+			
+		
 				allowed_civil_war = {
 					NOT = {
 						OR = {
@@ -247,7 +252,9 @@ ideas = {
 			allowed_civil_war = {
 				has_government = communism
 			}
-
+			
+			picture = FRA_national_mobilization_focus
+		
 			modifier = {
 				conscription = 0.02
 				army_morale_factor = 0.10
@@ -401,9 +408,11 @@ ideas = {
 
 		FRF_leon_blum = {
 
-
+			
+			picture = leon_blum
+		
 			allowed = {
-				original_tag = "FRA"
+				original_tag = FRF
 			}
 
 			available = {
@@ -428,9 +437,11 @@ ideas = {
 		}
 		FRF_FRA_FREE_rene_cassin = {
 
-
+			
+			picture = FRA_FREE_rene_cassin
+		
 			allowed = {
-				original_tag = "FRA"
+				original_tag = FRF
 			}
 
 			available = {
@@ -457,7 +468,7 @@ ideas = {
 		FRF_FRA_gaston_henry_haye = {
 
 			allowed = {
-				original_tag = "FRA"
+				original_tag = FRF
 			}
 			available = {
 				NOT = {has_country_flag = free_france}
@@ -482,7 +493,7 @@ ideas = {
 		FRF_FRA_paul_baudouin = {
 
 			allowed = {
-				original_tag = "FRA"
+				original_tag = FRF
 			}
 
 			picture = generic_political_advisor_europe_3
@@ -503,7 +514,7 @@ ideas = {
 		FRF_FRA_zivony_peshkov = {
 
 			allowed = {
-				original_tag = "FRA"
+				original_tag = FRF
 			}
 
 			picture = generic_army_europe_5
@@ -524,7 +535,7 @@ ideas = {
 		FRF_FRA_felix_gouin = {
 
 			allowed = {
-				original_tag = "FRA"
+				original_tag = FRF
 			}
 
 			picture = generic_political_advisor_europe_3
@@ -545,7 +556,7 @@ ideas = {
 		FRF_FRA_charles_tillon = {
 
 			allowed = {
-				original_tag = "FRA"
+				original_tag = FRF
 			}
 
 			picture = generic_political_advisor_europe_3
@@ -566,7 +577,7 @@ ideas = {
 		FRF_FRA_paul_reynaud = {
 
 			allowed = {
-				original_tag = "FRA"
+				original_tag = FRF
 			}
 			available = {
 				NOT = {has_country_flag = free_france}
@@ -593,7 +604,9 @@ ideas = {
 
 		FRF_maurice_gamelin = {
 
-
+			
+			picture = maurice_gamelin
+		
 			allowed = {
 				original_tag = FRF
 			}
@@ -612,7 +625,9 @@ ideas = {
 
 		FRF_maxime_weygand = {
 
-
+			
+			picture = maxime_weygand
+		
 			allowed = {
 					AND = {
 				original_tag = FRF
@@ -680,7 +695,9 @@ ideas = {
 
 		FRF_alphonse_georges = {
 
-
+			
+			picture = alphonse_georges
+		
 			allowed = {
 				original_tag = FRF
 			}
@@ -701,7 +718,9 @@ ideas = {
 
 		FRF_francois_darlan = {
 
-
+			
+			picture = francois_darlan
+		
 			allowed = {
 				OR = {
 				original_tag = FRF
@@ -727,7 +746,9 @@ ideas = {
 		}
 
 		FRF_marcel_gensoul = {
-
+			
+			picture = marcel_gensoul
+		
 
 			allowed = {
 				OR = {
@@ -755,7 +776,9 @@ ideas = {
 
 		FRF_jean_marie_abrial = {
 
-
+			
+			picture = jean_marie_abrial
+		
 			allowed = {
 				OR = {
 				original_tag = FRF
@@ -786,7 +809,9 @@ ideas = {
 
 		FRF_joseph_vuillemin = {
 
-
+			
+			picture = joseph_vuillemin
+		
 			allowed = {
 				original_tag = FRF
 			}
@@ -807,7 +832,9 @@ ideas = {
 
 		FRF_robert_odic = {
 
-
+			
+			picture = robert_odic
+		
 			allowed = {
 				original_tag = FRF
 			}
@@ -826,7 +853,9 @@ ideas = {
 
 		FRF_philippe_fequant = {
 
-
+			
+			picture = philippe_fequant
+		
 			allowed = {
 				original_tag = FRF
 			}
@@ -849,7 +878,9 @@ ideas = {
 
 		FRF_charles_huntziger = {
 
-
+			
+			picture = charles_huntziger
+		
 			allowed = {
 				original_tag = FRF
 			}
@@ -871,7 +902,9 @@ ideas = {
 
 		FRF_alfred_heurtaux = {
 
-
+			
+			picture = alfred_heurtaux
+		
 			allowed = {
 				original_tag = FRF
 			}
@@ -890,7 +923,9 @@ ideas = {
 		
 		FRF_rene_prioux = {
 
-
+			
+			picture = rene_prioux
+		
 			allowed = {
 				original_tag = FRF
 			}
@@ -911,7 +946,9 @@ ideas = {
 
 		FRF_martial_valin = {
 
-
+			
+			picture = martial_valin
+		
 			allowed = {
 				original_tag = FRF
 			}
@@ -927,7 +964,9 @@ ideas = {
 
 		FRF_jean_francois_jannekeyn = {
 
-
+			
+			picture = jean_francois_jannekeyn
+		
 			allowed = {
 				OR = {
 				original_tag = FRF
@@ -954,7 +993,9 @@ ideas = {
 
 		FRF_jean_de_laborde = {
 
-
+			
+			picture = jean_de_laborde
+		
 			allowed = {
 				OR = {
 					original_tag = FRF
@@ -982,7 +1023,9 @@ ideas = {
 
 		FRF_emile_muselier = {
 
-
+			
+			picture = emile_muselier
+		
 			allowed = {
 				original_tag = FRF
 			}
@@ -1025,7 +1068,9 @@ ideas = {
 		}
 
 		FRF_somua1 = {
-
+			
+			picture = somua1
+		
 			allowed = {
 				OR = {
 					original_tag = FRF
@@ -1087,6 +1132,8 @@ ideas = {
 
 		FRF_somua = {
 
+			picture = somua
+
 			allowed = {
 				OR = {
 					original_tag = FRF
@@ -1107,6 +1154,8 @@ ideas = {
 
 		FRF_mas = {
 
+			picture = mas
+
 			allowed = {
 				OR = {
 					original_tag = FRF
@@ -1122,6 +1171,8 @@ ideas = {
 		}
 
 		FRF_schneider = {
+
+			picture = schneider
 
 			allowed = {
 				OR = {
@@ -1144,6 +1195,8 @@ ideas = {
 
 		FRF_morane_saulnier = {
 
+			picture = morane_saulnier
+			
 			cost = 150
 
 			allowed = {
@@ -1161,6 +1214,8 @@ ideas = {
 		}
 
 		FRF_bloch = {
+
+			picture = bloch
 
 			allowed = {
 				OR = {
@@ -1183,6 +1238,8 @@ ideas = {
 
 		FRF_amiot = {
 
+			picture = amiot
+
 			cost = 150
 
 			allowed = {
@@ -1202,6 +1259,8 @@ ideas = {
 
 		FRF_latecoere = {
 
+			picture = latecoere
+
 			allowed = {
 				OR = {
 					original_tag = FRF
@@ -1217,6 +1276,8 @@ ideas = {
 		}
 
 		FRF_dewoitine = {
+
+			picture = dewoitine
 
 			allowed = {
 				OR = {
@@ -1239,6 +1300,8 @@ ideas = {
 
 		FRF_fcm = {
 
+			picture = fcm
+
 			allowed = {
 				OR = {
 					original_tag = FRF
@@ -1258,6 +1321,8 @@ ideas = {
 
 		FRF_famh = {
 
+			picture = famh
+
 			allowed = {
 				OR = {
 					original_tag = FRF
@@ -1276,6 +1341,8 @@ ideas = {
 
 	theorist = {
 		FRF_charles_de_gaulle = {
+
+			picture = charles_de_gaulle
 
 			allowed = {
 				original_tag = FRF
@@ -1303,6 +1370,8 @@ ideas = {
 
 		FRF_henri_giraud = {
 
+			picture = henri_giraud
+
 			allowed = {
 				original_tag = FRF
 			}
@@ -1326,6 +1395,8 @@ ideas = {
 
 		FRF_louis_kahn = {
 
+			picture = louis_kahn
+
 
 			allowed = {
 				original_tag = FRF
@@ -1341,6 +1412,8 @@ ideas = {
 		}
 
 		FRF_jean_decoux = {
+
+			picture = jean_decoux
 
 
 			allowed = {
@@ -1360,6 +1433,7 @@ ideas = {
 
 		FRF_victor_denain = {
 
+			picture = victor_denain
 
 			allowed = {
 				OR = {
@@ -1389,6 +1463,8 @@ ideas = {
 
 		FRF_jean_marie_bergeret = {
 
+			picture = jean_marie_bergeret
+
 			allowed = {
 				OR = {
 					AND = {
@@ -1407,6 +1483,8 @@ ideas = {
 		}
 
 		FRF_frederic_irene_joliot_curie = {
+
+			picture = frederic_irene_joliot_curie
 
 
 			allowed = {

@@ -102,6 +102,8 @@
     benelux_neutrality_desc:0 "Traditionally, the Netherlands, Luxemburg, and Belgium have pursued a policy of neutrality towards their neighbors. Of course, neither Belgium or Luxemburg found their neutrality respected in the Great War, and with the way things are looking? The Dutch may have reason to fear as well..."
     scandinavian_neutrality:0 "Scandinavian Neutrality" 
     scandinavian_neutrality_desc:0 "Denmark and Norway have upheld a strict policy of neutrality for years, believing it to be a shield against aggressors. Unfortunately, the upcoming conflict is likely going to be a bit different." 
+    norwegian_neutrality:0 "Norwegian Neutrality" 
+    norwegian_neutrality_desc:0 "Denmark and Norway have upheld a strict policy of neutrality for years, believing it to be a shield against aggressors. Unfortunately, the upcoming conflict is likely going to be a bit different."     
     irish_neutrality:0 "Irish Neutrality"
     irish_neutrality_desc:0 "Our Minister of Finance Boston has wrecked our economy. He hasn't gotten this fabled DD-214 the Americans are fond of. Because of this our economy is in ruins and can't begin to recover for many years. We can't afford to join any wars and must stay neutral as a result."
 	
@@ -261,3 +263,26 @@
     
     FRF_efficiency_gain:0 "Free France Initial Efficiency Gain"
     FRF_retrain:0 "Free France Initial Re-training"
+    
+    FRA_evacuate_france1:0 "Hold France for 1 Week"
+    FRA_evacuate_france2:0 "Hold France for 2 Weeks"
+    FRA_evacuate_france3:0 "Hold France for 3 Weeks"
+    FRA_evacuate_france4:0 "Hold France for 4 Weeks"
+    FRA_evacuate_france5:0 "Hold France for 5 Weeks"
+    FRA_evacuate_france6:0 "Hold France for 6 Weeks"
+    FRA_evacuate_france7:0 "Hold France for 7 Weeks"
+    FRA_evacuate_france8:0 "Hold France for 8 Weeks"
+    FRA_evacuate_france9:0 "Hold France for 9 Weeks"
+    FRA_evacuate_france10:0 "Hold France for 10 Weeks"
+
+    GER_triumph_france1:0 "Capitulate France within 1 Week"
+    GER_triumph_france2:0 "Capitulate France within 2 Weeks"
+    GER_triumph_france3:0 "Capitulate France within 3 Weeks"
+    GER_triumph_france4:0 "Capitulate France within 4 Weeks"
+    GER_triumph_france5:0 "Capitulate France within 5 Weeks"
+    GER_triumph_france6:0 "Capitulate France within 6 Weeks"
+    GER_triumph_france7:0 "Capitulate France within 7 Weeks"
+    GER_triumph_france8:0 "Capitulate France within 8 Weeks"
+    GER_triumph_france9:0 "Capitulate France within 9 Weeks"
+    GER_triumph_france10:0 "Capitulate France within 10 Weeks"
+    

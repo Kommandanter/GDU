@@ -183,6 +183,25 @@ ideas = {
 			}
 		}
 		
+		norwegian_neutrality = {
+			allowed = {
+				always = no
+			}
+			
+			cancel = {
+				has_war = yes 
+			}
+			
+			removal_cost = -1
+
+			picture = generic_pp_unity_bonus
+			
+
+			modifier = {
+				war_support_factor = -0.25
+			}
+		}		
+		
 		GER_triumph_france_idea = { 
 		
 			picture = chi_war_of_resistance	
@@ -213,7 +232,7 @@ ideas = {
 			}
 		}		
 		
-		FRF_efficiency_gain = { 
+		FRF_retrain = { 
 		
 			picture = generic_pp_unity_bonus	
 			

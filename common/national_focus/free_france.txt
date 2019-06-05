@@ -33,7 +33,7 @@ focus_tree = {
 
 		completion_reward = {	
 			add_political_power = 150
-			
+			custom_effect_tooltip = FRF_france_libre 				
 			if = { 
 				limit = {
 					has_global_flag = FRA_evacuated1 
@@ -116,6 +116,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
+			custom_effect_tooltip = FRF_revive_naval_construction 				
 		    add_ideas = free_french_fleet
 			add_equipment_to_stockpile = {
 				type = convoy_1
@@ -167,6 +168,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
+			custom_effect_tooltip = FRF_revive_civilian_construction 
 			if = { 
 				limit = {
 					has_global_flag = FRA_evacuated1 
@@ -257,6 +259,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
+			custom_effect_tooltip = FRF_rebuild_military_production 		
 			if = { 
 				limit = {
 					has_global_flag = FRA_evacuated1 

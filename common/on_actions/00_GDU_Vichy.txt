@@ -228,7 +228,7 @@ on_actions = {
 					remove_core_of = EFR
 				}				
 				
-				FRA = { 
+				ECU = { 
 					transfer_navy = { 
 						target = EFR 
 					}

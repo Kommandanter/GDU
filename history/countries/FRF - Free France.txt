@@ -165,18 +165,18 @@ if = {
 }
 
 set_convoys = 300
-set_stability = 0.5
-set_war_support = 0.15
+set_stability = 0.8
+set_war_support = 0.8
 
 set_politics = {
 
 	parties = {
 		democratic = {
-			popularity = 80
+			popularity = 100
 		}
 
 		communism = {
-			popularity = 20
+			popularity = 0
 		}
 	}
 
@@ -193,6 +193,7 @@ add_ideas = {
 	FRA_inflexible_industry
 	GDU_special_forces_cap
 	volunteer_only
+	FRA_communism_banned
 }
 
 #give_guarantee = CZE

@@ -477,6 +477,9 @@ foreign_politics = {
 				target = NOR 
 				type = annex_everything
 			}
+			hidden_effect = {
+				NOR = { add_war_support = -0.25 }
+			}
 		
 		}
 	

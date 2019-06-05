@@ -773,17 +773,18 @@ on_actions = {
 				}
 				USA = { country_event = { id = gduevents.18 days = 5 } } #Philippine military occupation 
 			}
-			if = { 
+			if = {
 				limit = {
+					NOT = { has_global_flag = GDU_Battle_Of_France_Missions_Activated }
 					OR = {
 						AND = {
-							FROM = { 
+							FROM = {
 								tag = BEL 
 							}
 							ROOT = { tag = GER }
 						}
 						AND = {
-							FROM = { 
+							FROM = {
 								tag = FRA 
 							}
 							ROOT = { tag = ITA }
@@ -815,12 +816,84 @@ on_actions = {
 						activate_mission = FRA_evacuate_france9
 						activate_mission = FRA_evacuate_france10						
 					}
-					FRA =  { country_event = { id = gduevents.19 days = 1 } } #Warn France to hold. 
+					FRA =  { country_event = { id = gduevents.19 days = 1 } } #Warn France to hold.
+					set_global_flag = GDU_Battle_Of_France_Missions_Activated
 				}
 			}
 		}
 		
 	}
+	
+	
+	#### Make the Battle of France Missions activate if France loses a state, even if somehow Germany has not declared war on Belgium. Failsafe to stop people from getting around it by avoiding declaring war on Belgium in various ways. ####
+	
+	on_state_control_changed = {
+		effect = {
+		
+			if = {
+				limit = {
+					NOT = { has_global_flag = GDU_Battle_Of_France_Missions_Activated }
+					OR = {
+						original_tag = GER
+						original_tag = ITA
+						original_tag = HUN
+						original_tag = ROM
+						original_tag = BUL
+						original_tag = FIN
+						original_tag = SPR					
+					}
+					OR = {
+						FROM.FROM = {
+							is_core_of = FRA
+						}
+						FROM.FROM = {
+							is_core_of = BEL
+						}
+						FROM.FROM = {
+							is_core_of = HOL
+						}
+						FROM.FROM = {
+							is_core_of = LUX
+						}						
+					}
+				}
+				hidden_effect = {
+					GER = {
+						activate_mission = GER_triumph_france1
+						activate_mission = GER_triumph_france2
+						activate_mission = GER_triumph_france3
+						activate_mission = GER_triumph_france4
+						activate_mission = GER_triumph_france5
+						activate_mission = GER_triumph_france6
+						activate_mission = GER_triumph_france7
+						activate_mission = GER_triumph_france8
+						activate_mission = GER_triumph_france9
+						activate_mission = GER_triumph_france10					
+					}
+					FRA = { 
+						activate_mission = FRA_evacuate_france1
+						activate_mission = FRA_evacuate_france2
+						activate_mission = FRA_evacuate_france3
+						activate_mission = FRA_evacuate_france4
+						activate_mission = FRA_evacuate_france5
+						activate_mission = FRA_evacuate_france6
+						activate_mission = FRA_evacuate_france7
+						activate_mission = FRA_evacuate_france8
+						activate_mission = FRA_evacuate_france9
+						activate_mission = FRA_evacuate_france10						
+					}
+					FRA =  { country_event = { id = gduevents.19 days = 1 } } #Warn France to hold. 
+					set_global_flag = GDU_Battle_Of_France_Missions_Activated
+				} 
+			}
+			
+
+				
+		}
+	}
+	
+	
+	
 	
 	on_capitulation = { 
 		effect = {

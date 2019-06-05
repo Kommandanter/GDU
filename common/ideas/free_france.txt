@@ -245,7 +245,7 @@ ideas = {
 				has_country_flag = free_france
 			}
 
-			traits = { army_commando_3 }
+			traits = { army_commando_2 }
 
 			ai_will_do = {
 				factor = 1

@@ -3,7 +3,7 @@ no_ai_planes = {
 	desc = "Disable AI plane production and research"
 
 	enable = {
-		date = 1936.1.1
+		date > 1935.1.1
         NOT = { original_tag = SPR }
         NOT = { original_tag = CHI }		
 	}

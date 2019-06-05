@@ -1752,6 +1752,11 @@ focus_tree = {
 			add_named_threat = { threat = 5 name = GER_danzig_or_war }
 			hidden_effect = { 
 				country_event = { id = pfu.18 days = 30 }
+				FRA = { 
+					transfer_navy = { 
+						target = ECU 
+					}
+				}
 			}
 
 			if = {

@@ -47,3 +47,10 @@
  SOV_defense_of_moscow_capitalmove:0 "§GMoves the capital to Kuibyshev, and retools railways for wartime logistics accordingly.§!\n\n" 
  GDU_spacer:0 "\n\n"
  SOV_defense_of_moscow_forts_GDU:0 "Adds §Y40§! land forts in and around Moscow." 
+ 
+ FRF_revive_civilian_construction:0 "§GAdds 1 off-map civilian factory for each week that you hold France, up to a maximum of 10 for holding 10 weeks. Any factories that you don't get here up to the maximum of 10 were given to Germany as soon as you capitulated.§!\n\n" 
+ FRF_rebuild_military_production:0 "§GAdds 1 off-map civilian factory for each week that you hold France, up to a maximum of 10 for holding 10 weeks. Any factories that you don't get here up to the maximum of 10 were given to Germany as soon as you capitulated.§!\n\n"  
+ FRF_revive_naval_construction:0 "§GAdds a varying number of off-map civilian factory depending on how long you hold France, up to a maximum of 5 for holding 10 weeks (4 for 8 weeks, 3 for 4 weeks, 2 for 3 weeks, and 1 for 2 weeks).§!\n\n"  
+ FRF_france_libre:0 "§GAdds a varying number of off-map civilian factories, military factories, and dockyards depending on how long you hold France. If you hold a minimal time (3 weeks), you get the maximum of 3 Civs, 3 Mils, and 2 Docks. Less if you can't hold that long.§!\n\n"  
+
+
