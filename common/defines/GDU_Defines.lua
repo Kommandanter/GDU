@@ -92,7 +92,7 @@ NDefines.NBuildings.DESTRUCTION_COOLDOWN_IN_WAR = 120
 NDefines.NTechnology.BASE_RESEARCH_POINTS_SAVED = 45.0
 NDefines.NTechnology.BASE_TECH_COST = 90
 NDefines.NTechnology.LICENSE_PRODUCTION_TECH_BONUS = 0.00
-NDefines.NTechnology.MAX_TECH_SHARING_BONUS = 99.99  			-- Max technology sharing bonus that can be applied instantly
+NDefines.NTechnology.MAX_TECH_SHARING_BONUS = 0.40  			-- Max technology sharing bonus that can be applied instantly
 NDefines.NTechnology.BASE_YEAR_AHEAD_PENALTY_FACTOR = 3.0		-- Base year ahead penalty
 
 NDefines.NPolitics.DEFAULT_OCCUPATION_POLICY = 3

@@ -181,7 +181,9 @@ country_event = {
 					change_tag_from = FRA
 					add_state_core = 539
 				}					
-					
+
+				FRF = { inherit_technology = FRA }
+				
 				ENG = { add_to_faction = FRF }
 				
 				GER = { declare_war_on = { target = FRF type = take_state id = 539 } }
