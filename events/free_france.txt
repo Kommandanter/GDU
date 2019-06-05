@@ -288,7 +288,7 @@ country_event = {
 
 
 	trigger = {
-		tag = FRF
+		tag = FRA
 		NOT = { has_global_flag = FRA_dontleave }
 	}
 

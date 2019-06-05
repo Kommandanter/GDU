@@ -6,7 +6,7 @@
 	desc = french_research_desc
 	picture = GFX_technology_sharing_default
     
-	research_sharing_per_country_bonus = 9.99
+	research_sharing_per_country_bonus = 99.99
 
 	available = {
 		AND = {

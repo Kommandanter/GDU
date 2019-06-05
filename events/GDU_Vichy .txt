@@ -179,7 +179,12 @@ country_event = {
 
 				FRF = {
 					change_tag_from = FRA
+					add_state_core = 539
 				}					
+					
+				ENG = { add_to_faction = FRF }
+				
+				GER = { declare_war_on = { target = FRF type = take_state id = 539 } }
 					
 				country_event = { id = gduvichy.7 days = 3 }
 				FRF = { news_event = { id = france.20 days = 1 } }				
