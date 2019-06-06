@@ -67,7 +67,7 @@ weather_arctic_water = { # on Region
 	positioning = -0.2
 }
 weather_mud = { # on Province
-	attrition = 0.7
+	attrition = 0.6
 	army_speed_factor = -0.8
 	army_attack_factor = -0.6
 }
@@ -95,14 +95,14 @@ weather_ground_snow_medium = { # on Province
 	army_speed_factor = -0.15
 	army_attack_factor = -0.2
 	local_org_regain = -0.1
-	winter_attrition = 0.2
+	winter_attrition = 0.15
 	naval_retreat_speed = 0.1 
 }
 weather_ground_snow_high = { # on Province
 	army_speed_factor = -0.2
 	local_org_regain = -0.2
 	army_attack_factor = -0.4
-	winter_attrition = 0.3
+	winter_attrition = 0.25
 }
 
 flooded = { # on Province
