@@ -186,7 +186,7 @@ country_event = {
 				
 				ENG = { add_to_faction = FRF }
 				
-				GER = { declare_war_on = { target = FRF type = take_state id = 539 } }
+				GER = { declare_war_on = { target = FRF type = annex_everything } }
 					
 				country_event = { id = gduvichy.7 days = 3 }
 				FRF = { news_event = { id = france.20 days = 1 } }				
@@ -260,8 +260,7 @@ country_event = {
 							transfer_troops = no
 					}
 				}	
-					
-				country_event = { id = gduvichy.1 days = 3 }					
+										
 					
 	}
 	

@@ -300,8 +300,8 @@ country_event = {
 			
 		}
 		if = {
-			limit = { has_global_flag = FRA_evacuated }
-			load_oob = FRA_naval_oob
+			limit = { FRA = { has_global_flag = FRA_evacuated1 } }
+			load_oob = FRF_naval_oob
 		}
 		name = france.20.a
 	}
