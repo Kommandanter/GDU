@@ -13,7 +13,7 @@ USA_congress = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				has_political_power > 96.97
+				has_political_power > -23.43
 				factor = 0
 			}
 		}
@@ -26,7 +26,7 @@ USA_congress = {
 	USA_amend_the_budget = {
 		icon = ger_mefo_bills
 		available = {
-			has_political_power > 121.67
+			has_political_power > 1.27
 		}
 		visible = {has_government = democratic }
 		cost = 25
@@ -35,7 +35,7 @@ USA_congress = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				has_political_power > 96.97
+				has_political_power > -23.43
 				factor = 0
 			}
 		}
@@ -47,7 +47,7 @@ USA_congress = {
 	USA_research_grants = {
 		icon = ger_mefo_bills
 		available = {
-			has_political_power > 121.67
+			has_political_power > 1.27
 		}
 		visible = {has_government = democratic }
 		cost = 25
@@ -56,7 +56,7 @@ USA_congress = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				has_political_power > 96.97
+				has_political_power > -23.43
 				factor = 0
 			}
 		}

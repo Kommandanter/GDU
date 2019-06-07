@@ -265,15 +265,8 @@
  gduevents.22.a:0 "Actually, I am going to try to exploit anyway, then I'll complain when I realize it doesn't work." 
 
  gduevents.23.t:0 "IMPORTANT INFORMATION"
- gduevents.23.d:0 "IF YOU READ NOTHING ELSE, READ THIS\n\nThe Congress Mechanic is removed from GDU as a quality-of-life improvement for USA.\n\nInstead, GDU simulates the effects of Congress support through political power so that balance is not changed, but you don't have to bother remembering when to click on the lobbying efforts.\n\nIf you play as normal, you shouldn't notice any substantive difference other than not having to click on the lobbying efforts.\n\nYour first focus will take the silent workhorse and give you 120 PP. DON'T SPEND THE 120 PP; this is effectively your political capital and represents your Congress Support. In order to do focuses like Agricultural Adjustment Act which normally require Congress Support in vanilla, you instead need to have PP to do them.\n\nAs long as you keep 150 PP on hand at all times, you shouldn't have any problems doing the focuses you are supposed to be able to do.\n\nTo simulate drops of Congress support from elections, the 1936 Election will cost you an extra 65 PP, the 1938 election will cost an extra 50 PP, and the 1940 election will cost an extra 130 PP (offsetting the extra 120 PP that you get from your first focus)." 
+ gduevents.23.d:0 "IF YOU READ NOTHING ELSE, READ THIS\n\nThe Congress Mechanic is removed from GDU as a quality-of-life improvement for USA.\n\nInstead, GDU simulates the effects of Congress support through political power so that balance is not changed, but you don't have to bother remembering when to click on the lobbying efforts.\n\nIf you play as normal, you shouldn't notice any substantive difference other than not having to click on the lobbying efforts.\n\nIn order to do focuses like Agricultural Adjustment Act which normally require Congress Support in vanilla, you instead need to have a small amount of PP to do them.\n\nAs long as you keep PP on hand at all times, you shouldn't have any problems doing the focuses you are supposed to be able to do.\n\nTo simulate drops of Congress support from elections, the 1936 Election will cost you an extra 65 PP, the 1938 election will cost an extra 50 PP, and the 1940 election will cost an extra 10 PP." 
  gduevents.23.a:0 "OK." 
-
- 
- 
- gduevents.24.t:0 "Reminder, don't spend this PP"
- gduevents.24.d:0 "Reminder: you just got 120 PP. DON'T SPEND THE 120 PP; this is effectively your 'political capital' and represents your Congress Support. In order to do focuses like Agricultural Adjustment Act which normally require Congress Support in vanilla, you instead need to have PP to do them." 
- gduevents.24.a:0 "Actually, I am going to spend the PP and then get stuck on the Great Depression." 
- 
  
  
  pfu.31.t:0 "The Fight Goes On"

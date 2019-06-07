@@ -496,17 +496,4 @@ country_event = {
 
 
 
-# Reminding USA when they finish their first focus not to spend the PP; since they need it for Agricultural Adjustment Act.
-country_event = { 
-	id = gduevents.24 
-	title = gduevents.24.t 
-	desc = gduevents.24.d 
-	picture = GFX_report_event_usa_election_generic 
-
-	is_triggered_only = yes 
 	
-	option = { 
-		name = gduevents.24.a
-	}
-	
-}	

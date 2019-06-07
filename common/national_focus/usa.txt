@@ -85,8 +85,6 @@ focus_tree = {
 
 		completion_reward = {
 			add_ideas = USA_robert_taft
-			add_political_power = 120.4
-			country_event = { id = gduevents.24 days = 0 }			
 		}
 	}
 
@@ -145,7 +143,7 @@ focus_tree = {
 		}
 
 		available = {
-			has_political_power > 121.67
+			has_political_power > 1.27
 			date > 1937.5.2	
 		}
 		
@@ -242,7 +240,7 @@ focus_tree = {
 		}
 
 		available = {
-			has_political_power > 121.67
+			has_political_power > 1.27
 			has_government = democratic
 		}
 		
@@ -283,7 +281,7 @@ focus_tree = {
 		}
 
 		available = {
-			has_political_power > 121.67
+			has_political_power > 1.27
 			has_government = democratic
 			not = { has_country_flag = USA_great_depression_cooldown }
 		}
@@ -324,7 +322,7 @@ focus_tree = {
 		}
 
 		available = {
-			has_political_power > 121.67
+			has_political_power > 1.27
 			has_government = democratic
 			not = { has_country_flag = USA_great_depression_cooldown }
 		}
@@ -467,7 +465,7 @@ focus_tree = {
 		cancel_if_invalid = no
 		continue_if_invalid = yes
 		available = {
-			has_political_power > 144.83 
+			has_political_power > 24.43 
 			has_government = democratic
 			has_completed_focus = USA_agricultural_adjustment_act
 			OR = {
@@ -530,10 +528,10 @@ focus_tree = {
 				limit = {
 					has_war_support > 0.4
 				}
-				has_political_power > 121.67
+				has_political_power > 1.27
 			}
 			else = {
-				has_political_power > 144.83
+				has_political_power > 24.43
 			}
 			if = {
 				limit = {
@@ -729,7 +727,7 @@ focus_tree = {
 		}
 
 		available = {
-			has_political_power > 96.97
+			has_political_power > -23.43
 			has_completed_focus = USA_agricultural_adjustment_act
 			OR = {
 				date < 1936.12.1
@@ -1496,7 +1494,7 @@ focus_tree = {
 		}
 
 		available = {
-			has_political_power > 96.97
+			has_political_power > -23.43
 		}
 		
 		bypass = {
@@ -1545,7 +1543,7 @@ focus_tree = {
 		}
 
 		available = {
-			has_political_power > 144.83
+			has_political_power > 24.43
 		}
 		
 		bypass = {
@@ -1788,10 +1786,10 @@ focus_tree = {
 					threat < 0.5
 					has_war = no
 				}
-				has_political_power > 144.83
+				has_political_power > 24.43
 			}
 			else = {
-				has_political_power > 96.97
+				has_political_power > -23.43
 			}
 			OR = {
 				date < 1936.12.1
@@ -1978,7 +1976,7 @@ focus_tree = {
 		}
 
 		available = {
-			has_political_power > 121.67
+			has_political_power > 1.27
 		}
 		
 		bypass = {
@@ -2492,10 +2490,10 @@ focus_tree = {
 					threat < 0.5
 					has_war = no
 				}
-				has_political_power > 144.83
+				has_political_power > 24.43
 			}
 			else = {
-				has_political_power > 96.97
+				has_political_power > -23.43
 			}
 			controls_state = 378
 			controls_state = 358
