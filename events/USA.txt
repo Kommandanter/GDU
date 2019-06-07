@@ -232,6 +232,7 @@ country_event = {
 			}
 		}		
 		add_ideas = new_deal
+		add_political_power = -65		
 		set_variable = { election_factor = -0.55 }
 		USA_election_senate = yes
 		USA_election_house = yes
@@ -259,7 +260,7 @@ country_event = {
 		USA_election_house = yes
 		USA_flip_support = yes
 		custom_effect_tooltip = usa_congress_elections_tt_good
-		add_political_power = 120
+		add_political_power = -65
 		if = {
 			limit = {
 				has_idea = standard_oil_california
@@ -380,6 +381,7 @@ country_event = {
 	option = { 
 		name = usa.8.a
 		add_political_power = -40
+		add_political_power = -130
 		set_variable = { election_factor = -0.5 }
 		USA_election_senate = yes
 		USA_election_house = yes
@@ -391,6 +393,7 @@ country_event = {
 		name = usa.8.b
 		set_party_name = { ideology = democratic long_name = USA_democratic_party name = USA_democratic_party }
 		add_ideas = new_deal
+		add_political_power = -130
 		retire_country_leader = yes
 		add_political_power = 120
 		set_variable = { election_factor = -0.6 }
@@ -1057,7 +1060,7 @@ country_event = {
 			USA_election_senate = yes
 			USA_election_house = yes
 			country_event = usa.30
-
+			add_political_power = -50
 
 		
 	}

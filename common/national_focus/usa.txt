@@ -84,7 +84,9 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 150
+			add_ideas = USA_robert_taft
+			add_political_power = 120.4
+			country_event = { id = gduevents.24 days = 0 }			
 		}
 	}
 
@@ -105,7 +107,7 @@ focus_tree = {
 		}
 		available = {
 			NOT = { has_completed_focus = USA_america_first } 
-
+			has_completed_focus = USA_agricultural_adjustment_act
 		}
 		
 		bypass = {
@@ -143,7 +145,8 @@ focus_tree = {
 		}
 
 		available = {
-			congress_medium_support_trigger = yes
+			has_political_power > 121.67
+			date > 1937.5.2	
 		}
 		
 		bypass = {
@@ -156,7 +159,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_stability = 0.1
-			USA_congress_small_opposition = yes
+			add_political_power = -5.27
 		}
 	}
 
@@ -239,7 +242,7 @@ focus_tree = {
 		}
 
 		available = {
-			congress_medium_support_trigger = yes
+			has_political_power > 121.67
 			has_government = democratic
 		}
 		
@@ -260,7 +263,7 @@ focus_tree = {
 		completion_reward = {
 			USA_great_depression_level_down = yes
 			set_country_flag = { flag = USA_great_depression_cooldown value = 1 days = 645 }
-			USA_congress_medium_opposition = yes
+			add_political_power = -13.17
 			custom_effect_tooltip = USA_great_depression_cooldown_gdu_tt
 			add_timed_idea = { idea = USA_legislation_being_drafted days = 645 } 
 			unlock_decision_tooltip = { decision = USA_pay_farm_subsidies show_effect_tooltip = yes }
@@ -280,7 +283,7 @@ focus_tree = {
 		}
 
 		available = {
-			congress_medium_support_trigger = yes
+			has_political_power > 121.67
 			has_government = democratic
 			not = { has_country_flag = USA_great_depression_cooldown }
 		}
@@ -304,7 +307,7 @@ focus_tree = {
 			set_country_flag = { flag = USA_great_depression_cooldown value = 1 days = 645 }
 			custom_effect_tooltip = USA_great_depression_cooldown_gdu_tt 
 			add_timed_idea = { idea = USA_legislation_being_drafted days = 645 }
-			USA_congress_medium_opposition = yes
+			add_political_power = -13.17
 		}
 	}
 	focus = {
@@ -321,7 +324,7 @@ focus_tree = {
 		}
 
 		available = {
-			congress_medium_support_trigger = yes
+			has_political_power > 121.67
 			has_government = democratic
 			not = { has_country_flag = USA_great_depression_cooldown }
 		}
@@ -343,7 +346,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			USA_great_depression_level_down = yes
-			USA_congress_medium_opposition = yes
+			add_political_power = -13.17
 			random_owned_controlled_state = {
 				limit = {
 					free_building_slots = {
@@ -464,9 +467,13 @@ focus_tree = {
 		cancel_if_invalid = no
 		continue_if_invalid = yes
 		available = {
-			congress_high_support_trigger = yes 
+			has_political_power > 144.83 
 			has_government = democratic
 			has_completed_focus = USA_agricultural_adjustment_act
+			OR = {
+				date < 1936.12.1
+				date > 1937.5.2
+			}			
 		}
 		bypass = {
 			
@@ -497,7 +504,7 @@ focus_tree = {
 				}
 			}
 			add_political_power = 100
-			USA_congress_medium_opposition = yes
+			add_political_power = -13.17
 			hidden_effect = {
 				news_event = { id = mtg_news.4 days = 3 }
 			}
@@ -523,10 +530,10 @@ focus_tree = {
 				limit = {
 					has_war_support > 0.4
 				}
-				congress_medium_support_trigger = yes
+				has_political_power > 121.67
 			}
 			else = {
-				congress_high_support_trigger = yes
+				has_political_power > 144.83
 			}
 			if = {
 				limit = {
@@ -589,24 +596,24 @@ focus_tree = {
 					has_war_support > 0.6
 					has_war = no
 				}
-				USA_congress_small_support = yes
+				add_political_power = 7.90
 			}
 			else_if = {
 				limit = {
 					has_war_support > 0.4
 					has_war = no
 				}
-				USA_congress_small_opposition = yes
+				add_political_power = -5.27
 			}
 			else_if = {
 				limit = {
 					has_war_support < 0.4
 					has_war = no
 				}
-				USA_congress_large_opposition = yes
+				add_political_power = -30.14
 			}
 			else = {
-				USA_congress_medium_opposition = yes
+				add_political_power = -13.17
 			}
 		}
 	}
@@ -722,8 +729,12 @@ focus_tree = {
 		}
 
 		available = {
-			congress_low_support_trigger = yes
+			has_political_power > 96.97
 			has_completed_focus = USA_agricultural_adjustment_act
+			OR = {
+				date < 1936.12.1
+				date > 1937.5.2
+			}
 		}
 		
 		bypass = {
@@ -743,7 +754,7 @@ focus_tree = {
 				limit = {
 					has_war_support < 0.4
 				}
-				USA_congress_small_support = yes
+				add_political_power = 7.90
 			}
 			hidden_effect = {
 				news_event = { id = mtg_news.3 days = 3 random = 5 }
@@ -908,7 +919,7 @@ focus_tree = {
 			unlock_decision_tooltip = USA_emergency_CAS_deliveries
 			unlock_decision_tooltip = USA_emergency_TACB_deliveries 
 			unlock_decision_tooltip = USA_arsenal_of_democracy_decision
-			USA_congress_medium_opposition = yes
+			add_political_power = -13.17
 		}
 	}
 		
@@ -1454,6 +1465,7 @@ focus_tree = {
 		}
 		available = {
 			NOT = { has_completed_focus = USA_suspend_the_presecution } 
+			has_completed_focus = USA_agricultural_adjustment_act
 		}
 		
 		bypass = {
@@ -1484,7 +1496,7 @@ focus_tree = {
 		}
 
 		available = {
-			congress_low_support_trigger = yes
+			has_political_power > 96.97
 		}
 		
 		bypass = {
@@ -1496,7 +1508,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			USA_congress_large_support = yes
+			add_political_power = 45.84
 			event_target:WTT_current_china_leader = {
 				add_opinion_modifier = { modifier = USA_extend_the_chinese_exclusion_acts target = ROOT }
 			}
@@ -1533,7 +1545,7 @@ focus_tree = {
 		}
 
 		available = {
-			congress_high_support_trigger = yes
+			has_political_power > 144.83
 		}
 		
 		bypass = {
@@ -1582,6 +1594,7 @@ focus_tree = {
 		}
 
 		available = {
+			has_completed_focus = USA_agricultural_adjustment_act
 
 		}
 		
@@ -1775,11 +1788,19 @@ focus_tree = {
 					threat < 0.5
 					has_war = no
 				}
-				congress_high_support_trigger = yes
+				has_political_power > 144.83
 			}
 			else = {
-				congress_low_support_trigger = yes
+				has_political_power > 96.97
 			}
+			OR = {
+				date < 1936.12.1
+				AND = {
+					date > 1937.5.2
+					date < 1938.12.1					
+				}
+				date > 1939.3.23							
+			}			
 		}
 		
 		bypass = {
@@ -1813,7 +1834,7 @@ focus_tree = {
 				limit = {
 					has_war_support < 0.4 
 				}
-				USA_congress_medium_opposition = yes
+				add_political_power = -13.17
 			}
 		}
 	}
@@ -1957,7 +1978,7 @@ focus_tree = {
 		}
 
 		available = {
-			congress_medium_support_trigger = yes
+			has_political_power > 121.67
 		}
 		
 		bypass = {
@@ -2471,13 +2492,17 @@ focus_tree = {
 					threat < 0.5
 					has_war = no
 				}
-				congress_high_support_trigger = yes
+				has_political_power > 144.83
 			}
 			else = {
-				congress_low_support_trigger = yes
+				has_political_power > 96.97
 			}
 			controls_state = 378
 			controls_state = 358
+			OR = {
+				date < 1936.12.1
+				date > 1937.5.2
+			}
 		}
 		
 		bypass = {
@@ -2512,7 +2537,7 @@ focus_tree = {
 				limit = {
 					 has_war_support < 0.4 
 				}
-				USA_congress_medium_opposition = yes
+				add_political_power = -13.17
 			}
 			if = { 
 				limit = { 

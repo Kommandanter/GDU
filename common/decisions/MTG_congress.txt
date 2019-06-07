@@ -1,103 +1,4 @@
 USA_congress = {
-	USA_small_lobby_effort = {
-		icon = generic_political_discourse
-		available = {
-			OR = {
-				check_variable = { senators_support < senators_total }
-				check_variable = { representatives_support < representatives_total }
-			}
-			not = {
-				has_decision = USA_medium_lobby_effort
-			}
-			OR = {
-				political_power_daily > 0.3
-				has_political_power > 10
-			}
-		}
-		cost = 0
-		ai_will_do = {
-			factor = 10
-			modifier = {
-				congress_medium_support_trigger = yes
-				factor = 0.5
-			}
-			modifier = {
-				congress_low_support_trigger = yes
-				factor = 0.5
-			}
-			modifier = {
-				congress_high_support_trigger = yes
-				factor = 0
-			}
-		}
-		modifier = {
-			political_power_gain = -0.3
-		}
-		days_remove = 30
-		remove_effect = {
-			USA_congress_small_support = yes
-		}
-	}
-	USA_medium_lobby_effort = {
-		icon = generic_political_discourse
-		available = {
-			OR = {
-				check_variable = { senators_support < senators_total }
-				check_variable = { representatives_support < representatives_total }
-			}
-			not = {
-				has_decision = USA_small_lobby_effort
-			}
-			OR = {
-				political_power_daily > 0.45
-				has_political_power > 25
-			}
-		}
-		cost = 0
-		ai_will_do = {
-			factor = 10
-			modifier = {
-				congress_medium_support_trigger = yes
-				factor = 0.5
-			}
-			modifier = {
-				congress_low_support_trigger = yes
-				factor = 0.5
-			}
-			modifier = {
-				congress_high_support_trigger = yes
-				factor = 0
-			}
-		}
-		days_remove = 45
-		modifier = {
-			political_power_gain = -0.45
-		}
-		remove_effect = {
-			USA_congress_medium_support = yes
-		}
-	}
-	USA_special_measures = {
-		icon = ger_mefo_bills
-		available = {
-			OR = {
-				check_variable = { senators_support < senators_total }
-				check_variable = { representatives_support < representatives_total }
-			}
-		}
-		cost = 50
-		ai_will_do = {
-			factor = 100
-			modifier = {
-				congress_low_support_trigger = yes
-				factor = 0
-			}
-		}
-		days_re_enable = 90
-		complete_effect = {
-			USA_congress_small_support = yes
-		}
-	}
 	USA_pay_farm_subsidies = {
 		icon = ger_mefo_bills
 		available = {
@@ -112,20 +13,20 @@ USA_congress = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				congress_low_support_trigger = yes
+				has_political_power > 96.97
 				factor = 0
 			}
 		}
 		days_remove = 90
 		modifier = { consumer_goods_factor = 0.02 }
 		remove_effect = {
-			USA_congress_small_support = yes
+			add_political_power = 7.9
 		}
 	}
 	USA_amend_the_budget = {
 		icon = ger_mefo_bills
 		available = {
-			congress_medium_support_trigger = yes
+			has_political_power > 121.67
 		}
 		visible = {has_government = democratic }
 		cost = 25
@@ -134,19 +35,19 @@ USA_congress = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				congress_low_support_trigger = yes
+				has_political_power > 96.97
 				factor = 0
 			}
 		}
 		modifier = { consumer_goods_factor = -0.03 }
 		remove_effect = {
-			USA_congress_medium_opposition = yes
+			add_political_power = -13.17
 		}
 	}
 	USA_research_grants = {
 		icon = ger_mefo_bills
 		available = {
-			congress_medium_support_trigger = yes
+			has_political_power > 121.67
 		}
 		visible = {has_government = democratic }
 		cost = 25
@@ -155,13 +56,13 @@ USA_congress = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				congress_low_support_trigger = yes
+				has_political_power > 96.97
 				factor = 0
 			}
 		}
 		modifier = { research_speed_factor = 0.04 }
 		remove_effect = {
-			USA_congress_medium_opposition = yes
+			add_political_power = -13.17
 		}
 	}
 	USA_invest_in_state_factory = {
@@ -194,7 +95,7 @@ USA_congress = {
 				clear_variable = factory_goal
 			}
 			
-			USA_congress_small_opposition = yes 
+			add_political_power = -5.27 
 			clr_country_flag = USA_congress_investment
 		}
 		complete_effect = {
@@ -206,7 +107,7 @@ USA_congress = {
 				clear_variable = factory_goal
 			}
 			ROOT = {
-				USA_congress_medium_support = yes 
+				add_political_power = 20.25 
 				clr_country_flag = USA_congress_investment
 			}
 			
@@ -242,7 +143,7 @@ USA_congress = {
 				clear_variable = arms_factory_goal
 			}
 			
-			USA_congress_small_opposition = yes 
+			add_political_power = -5.27 
 			clr_country_flag = USA_congress_investment
 		}
 		complete_effect = {
@@ -254,7 +155,7 @@ USA_congress = {
 				clear_variable = arms_factory_goal
 			}
 			ROOT = {
-				USA_congress_medium_support = yes 
+				add_political_power = 20.25 
 				clr_country_flag = USA_congress_investment
 			}
 			
@@ -289,7 +190,7 @@ USA_congress = {
 				clr_state_flag = USA_congress_build_dockyard
 				clear_variable = dockyard_goal
 			}
-			USA_congress_small_opposition = yes 
+			add_political_power = -5.27 
 			clr_country_flag = USA_congress_investment
 		}
 		complete_effect = {
@@ -301,7 +202,7 @@ USA_congress = {
 				clear_variable = dockyard_goal
 			}
 			ROOT = {
-				USA_congress_medium_support = yes 
+				add_political_power = 20.25 
 				clr_country_flag = USA_congress_investment
 			}
 		}
@@ -336,7 +237,7 @@ USA_congress = {
 				clear_variable = infrastructure_goal
 			}
 			
-			USA_congress_small_opposition = yes 
+			add_political_power = -5.27 
 			clr_country_flag = USA_congress_investment
 		}
 		complete_effect = {
@@ -348,7 +249,7 @@ USA_congress = {
 				clear_variable = infrastructure_goal
 			}
 			ROOT = {
-				USA_congress_medium_support = yes 
+				add_political_power = 20.25 
 				clr_country_flag = USA_congress_investment
 			}
 			

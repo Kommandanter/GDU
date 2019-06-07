@@ -476,3 +476,37 @@ country_event = {
 	
 	
 	
+# Explaining to USA that the Congress mechanic has been removed and replaced with PP so you don't have to remember when/how much to repeatedly click lobbying efforts.
+country_event = { 
+	id = gduevents.23 
+	title = gduevents.23.t 
+	desc = gduevents.23.d 
+	picture = GFX_report_event_usa_election_generic 
+
+	is_triggered_only = yes 
+	
+	option = { 
+		name = gduevents.23.a
+		hidden_effect = { 
+			set_global_flag = GDU_USA_Congress_Abolished 
+		}
+	}
+	
+}	
+
+
+
+# Reminding USA when they finish their first focus not to spend the PP; since they need it for Agricultural Adjustment Act.
+country_event = { 
+	id = gduevents.24 
+	title = gduevents.24.t 
+	desc = gduevents.24.d 
+	picture = GFX_report_event_usa_election_generic 
+
+	is_triggered_only = yes 
+	
+	option = { 
+		name = gduevents.24.a
+	}
+	
+}	
