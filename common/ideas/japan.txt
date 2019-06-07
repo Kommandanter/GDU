@@ -1247,6 +1247,11 @@ ideas = {
 			
 			modifier = {
 				special_forces_min = 400
+				extra_marine_supply_grace = 100
+				extra_paratrooper_supply_grace = 100
+				amphibious_invasion_defence = 0.2
+				naval_invasion_capacity = 25
+				amphibious_invasion = 0.25
 			}
 		}
 
