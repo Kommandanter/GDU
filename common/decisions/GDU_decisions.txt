@@ -1112,27 +1112,16 @@ foreign_politics = {
 			ENG = { puppet = GRE }
 			hidden_effect = { 
 				GRE = { 
-					set_politics = {
-						parties = {
-							democratic = { 
-								popularity = 15
-							}
-
-							fascism = {
-								popularity = 2
-							}
-		
-							communism = {
-								popularity = 5
-							}
-		
-							neutrality = { 
-								popularity = 78
-							}
-						}
-	
+					set_politics = {	
 						ruling_party = neutrality
-					}
+                }
+
+                    set_popularities = {
+                        democratic = 15
+                        fascism = 2
+                        communism = 5
+                        neutrality = 78
+                    }
 				}
 			}
 			

@@ -186,24 +186,18 @@ on_actions = {
 					add_ideas = idea_EFR_neutrality
 					diplomatic_relation = { country = GER relation = non_aggression_pact }
 				
-					set_capital = 26
+					set_capital = 26					
+					
 					set_politics = {
 						ruling_party = fascism
 						elections_allowed = no
-						parties = {
-							democratic = {
-									popularity = 18
-								}
-							fascism = {
-									popularity = 70
-							}
-							communism = {
-								popularity = 2
-							}
-								neutrality = {
-									popularity = 10
-							}
-						}
+					}
+
+					set_popularities = {
+						fascism = 70
+						democratic = 18
+						communism = 2
+						neutrality = 10
 					}
 
 				}

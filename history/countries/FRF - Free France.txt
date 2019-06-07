@@ -144,21 +144,15 @@ set_stability = 0.8
 set_war_support = 0.8
 
 set_politics = {
-
-	parties = {
-		democratic = {
-			popularity = 100
-		}
-
-		communism = {
-			popularity = 0
-		}
-	}
-
 	ruling_party = democratic
 	last_election = "1932.5.1"
 	election_frequency = 48
 	elections_allowed = yes
+}
+
+set_popularities = {
+    democratic = 100
+    communism = 0
 }
 
 add_ideas = {

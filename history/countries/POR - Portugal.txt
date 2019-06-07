@@ -79,26 +79,6 @@ set_convoys = 100
 	free_trade
 }
 set_politics = {
-
-
-	parties = {
-		democratic = {
-			popularity = 0
-		}
-
-		fascism = {
-			popularity = 5
-		}
-
-		communism = {
-			popularity = 5
-		}
-
-		neutrality = {
-			popularity = 90
-		}
-	}
-
 	ruling_party = neutrality
 	last_election = "1933.3.5"
 	election_frequency = 48
@@ -107,33 +87,28 @@ set_politics = {
 
 }
 
+set_popularities = {
+    democratic = 0
+    fascism = 5
+    communism = 5
+    neutrality = 90
+}
+
 1939.1.1 = {
 	set_politics = {
-
-		parties = {
-			democratic = {
-				popularity = 0
-			}
-
-			fascism = {
-				popularity = 0
-			}
-
-			communism = {
-				popularity = 0
-			}
-
-			neutrality = {
-				popularity = 100
-			}
-		}
-
 		ruling_party = neutrality
 		last_election = "1938.10.30"
 		election_frequency = 48
 		elections_allowed = yes
 
-	}
+}
+
+    set_popularities = {
+        democratic = 0
+        fascism = 0
+        communism = 0
+        neutrality = 100
+    }
 }
 
 set_convoys = 100
