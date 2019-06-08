@@ -1,0 +1,15 @@
+add_namespace = gduoutofdate
+
+country_event = {
+	id = gduoutofdate.1
+	title = gduoutofdate.1.t 
+	desc = gduoutofdate.1.d
+	picture = GFX_report_event_usa_pearl_harbor_airphoto
+	
+	is_triggered_only = yes 
+	
+	option = {
+		name = gduoutofdate.1.a 
+	}
+	
+}

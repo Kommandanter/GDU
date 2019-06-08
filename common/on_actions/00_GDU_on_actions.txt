@@ -680,8 +680,10 @@ on_actions = {
 
 		}			
 			
-			
-			
+			## VERSION OUT OF DATE EVENT IS HERE 
+			every_country = { 
+				country_event = { id = gduoutofdate.1 days = 5 } 
+			}
 			
 			#### We give Japan Siam's rubber because the AI isn't going to trade Germany back and now we need one less player to start the game. ####
 			SIA = {
