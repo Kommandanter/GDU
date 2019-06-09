@@ -4,7 +4,7 @@ state={
 	name="STATE_573" # Zlatoust
 	manpower = 556677
 	
-	state_category = pastoral
+	state_category = large_city
 	resources={
 		aluminium=130
 		chromium=73
@@ -13,7 +13,7 @@ state={
 	history={
 		owner = SOV
 		buildings = {
-			infrastructure = 4
+			infrastructure = 5
 
 		}
 		add_core_of = SOV

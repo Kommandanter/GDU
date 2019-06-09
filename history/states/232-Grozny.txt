@@ -4,7 +4,7 @@ state={
 	name="STATE_232"
 	manpower = 1658292
 	
-	state_category = rural
+	state_category = town
 	
 	resources={
 		oil=26
@@ -14,7 +14,7 @@ state={
 		owner = SOV
 		buildings = {
 			industrial_complex = 1
-			infrastructure = 4
+			infrastructure = 5
 		}
 		victory_points = {
 			3672 5 

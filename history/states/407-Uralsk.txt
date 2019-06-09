@@ -4,12 +4,12 @@ state={
 	name="STATE_407"
 	manpower = 268572
 	
-	state_category = rural
+	state_category = town
 
 	history={
 		owner = SOV
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
 		}
 		add_core_of = SOV
 		#add_core_of = KAZ

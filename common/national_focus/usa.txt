@@ -264,7 +264,6 @@ focus_tree = {
 			add_political_power = -15
 			custom_effect_tooltip = USA_great_depression_cooldown_gdu_tt
 			add_timed_idea = { idea = USA_legislation_being_drafted days = 645 } 
-			unlock_decision_tooltip = { decision = USA_pay_farm_subsidies show_effect_tooltip = yes }
 		}
 	}
 	focus = {
