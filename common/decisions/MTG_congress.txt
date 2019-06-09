@@ -1,35 +1,11 @@
 USA_congress = {
-	USA_pay_farm_subsidies = {
-		icon = ger_mefo_bills
-		available = {
-			has_government = democratic
-			OR = {
-				check_variable = { senators_support < senators_total }
-				check_variable = { representatives_support < representatives_total }
-			}
-		}
-		visible = { has_completed_focus = USA_agricultural_adjustment_act }
-		cost = 0
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				has_political_power > -23.43
-				factor = 0
-			}
-		}
-		days_remove = 90
-		modifier = { consumer_goods_factor = 0.02 }
-		remove_effect = {
-			add_political_power = 7.9
-		}
-	}
 	USA_amend_the_budget = {
 		icon = ger_mefo_bills
 		available = {
-			has_political_power > 1.27
+			has_political_power > 1
 		}
 		visible = {has_government = democratic }
-		cost = 25
+		cost = 40
 		days_remove = 90
 		days_re_enable = 275
 		ai_will_do = {
@@ -41,16 +17,15 @@ USA_congress = {
 		}
 		modifier = { consumer_goods_factor = -0.03 }
 		remove_effect = {
-			add_political_power = -13.17
 		}
 	}
 	USA_research_grants = {
 		icon = ger_mefo_bills
 		available = {
-			has_political_power > 1.27
+			has_political_power > 1
 		}
 		visible = {has_government = democratic }
-		cost = 25
+		cost = 40
 		days_remove = 90
 		days_re_enable = 275
 		ai_will_do = {
@@ -62,7 +37,6 @@ USA_congress = {
 		}
 		modifier = { research_speed_factor = 0.04 }
 		remove_effect = {
-			add_political_power = -13.17
 		}
 	}
 	USA_invest_in_state_factory = {
@@ -95,7 +69,7 @@ USA_congress = {
 				clear_variable = factory_goal
 			}
 			
-			add_political_power = -5.27 
+			add_political_power = -5
 			clr_country_flag = USA_congress_investment
 		}
 		complete_effect = {
@@ -107,7 +81,7 @@ USA_congress = {
 				clear_variable = factory_goal
 			}
 			ROOT = {
-				add_political_power = 20.25 
+				add_political_power = 20 
 				clr_country_flag = USA_congress_investment
 			}
 			
@@ -143,7 +117,7 @@ USA_congress = {
 				clear_variable = arms_factory_goal
 			}
 			
-			add_political_power = -5.27 
+			add_political_power = -5 
 			clr_country_flag = USA_congress_investment
 		}
 		complete_effect = {
@@ -155,7 +129,7 @@ USA_congress = {
 				clear_variable = arms_factory_goal
 			}
 			ROOT = {
-				add_political_power = 20.25 
+				add_political_power = 20 
 				clr_country_flag = USA_congress_investment
 			}
 			
@@ -190,7 +164,7 @@ USA_congress = {
 				clr_state_flag = USA_congress_build_dockyard
 				clear_variable = dockyard_goal
 			}
-			add_political_power = -5.27 
+			add_political_power = -5 
 			clr_country_flag = USA_congress_investment
 		}
 		complete_effect = {
@@ -202,7 +176,7 @@ USA_congress = {
 				clear_variable = dockyard_goal
 			}
 			ROOT = {
-				add_political_power = 20.25 
+				add_political_power = 20 
 				clr_country_flag = USA_congress_investment
 			}
 		}
@@ -237,7 +211,7 @@ USA_congress = {
 				clear_variable = infrastructure_goal
 			}
 			
-			add_political_power = -5.27 
+			add_political_power = -5 
 			clr_country_flag = USA_congress_investment
 		}
 		complete_effect = {
@@ -249,7 +223,7 @@ USA_congress = {
 				clear_variable = infrastructure_goal
 			}
 			ROOT = {
-				add_political_power = 20.25 
+				add_political_power = 20 
 				clr_country_flag = USA_congress_investment
 			}
 			
