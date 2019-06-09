@@ -62,7 +62,8 @@ ideas = {
 			picture = generic_goods_red_bonus
 			
 			modifier = {
-				consumer_goods_factor = -0.05
+				min_export = -0.25
+				local_resources_factor = 0.05
 			}
 		}
 		spiritual_mobilization_idea = {

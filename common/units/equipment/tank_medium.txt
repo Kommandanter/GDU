@@ -43,8 +43,8 @@ equipments = {
 		build_cost_ic = 14.5
 		resources = {
 			#oil = 1
-			tungsten = 2
-			steel = 2
+			tungsten = 1
+			steel = 3
 		}
 		fuel_consumption = 3.6
 	}
@@ -166,8 +166,8 @@ equipments = {
 		
 		resources = {
 			#oil = 1
-			tungsten = 2
-			steel = 2
+			tungsten = 1
+			steel = 3
 		}
 		fuel_consumption = 1.8
 	}
@@ -295,8 +295,8 @@ equipments = {
 		
 		resources = {
 			#oil = 1
-			tungsten = 2
-			steel = 2
+			tungsten = 1
+			steel = 3
 		}
 		fuel_consumption = 1.8
 	}
@@ -430,8 +430,8 @@ equipments = {
 		
 		resources = {
 			#oil = 1
-			tungsten = 2
-			steel = 2
+			tungsten = 1
+			steel = 3
 		}
 		fuel_consumption = 0.9
 	}
