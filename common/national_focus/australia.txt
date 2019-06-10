@@ -117,7 +117,7 @@ focus_tree = {
 			army_experience = 5
 			add_tech_bonus = {
 				name = AST_additional_militia_training
-				bonus = 1.00 
+				bonus = 0.5 
 				uses = 1
 				category = land_doctrine
 			}
@@ -190,7 +190,7 @@ focus_tree = {
 			army_experience = 5
 			add_tech_bonus = {
 				name = AST_promote_reservists
-				bonus = 1.00 
+				bonus = 0.5 
 				uses = 1
 				category = land_doctrine
 			}
@@ -271,13 +271,13 @@ focus_tree = {
 			army_experience = 5
 			add_tech_bonus = {
 				name = AST_hmas_assault
-				bonus = 1.00 
+				bonus = 0.5 
 				uses = 1
 				category = land_doctrine
 			}
 			add_tech_bonus = {
 				name = AST_hmas_assault
-				bonus = 1.00 
+				bonus = 0.5 
 				uses = 1
 				category = marine_tech
 			}

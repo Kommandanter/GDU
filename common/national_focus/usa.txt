@@ -1893,10 +1893,11 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			remove_ideas = inexperienced_army
 			army_experience = 20
 			add_tech_bonus = {
 				name = USA_louisiana_maneuvers
-				bonus = 1.0
+				bonus = 0.5
 				uses = 1
 				category = land_doctrine
 			}

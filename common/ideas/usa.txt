@@ -2,6 +2,20 @@ ideas = {
 
 	country = {
 	
+		inexperienced_army = {
+
+			removal_cost = -1
+
+			picture = generic_victors_of_ww1
+			
+			research_bonus = {
+				land_doctrine = -0.30
+			}
+			modifier = {
+
+			}
+		}	
+	
 		USA_pearl_harbor_idea = { 
 			picture = generic_navy_bonus 
 			

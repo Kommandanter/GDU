@@ -1556,7 +1556,7 @@ focus_tree = {
 			army_experience = 20
 			add_tech_bonus = {
 				name = CAN_independent_command
-				bonus = 1.00 
+				bonus = 0.5 
 				uses = 1
 				category = land_doctrine
 			}
@@ -1768,7 +1768,7 @@ focus_tree = {
 			army_experience = 5 
 			add_tech_bonus = {
 				name = CAN_army_modernization
-				bonus = 1.00 
+				bonus = 0.5 
 				uses = 1
 				category = land_doctrine
 			}
