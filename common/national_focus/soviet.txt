@@ -307,8 +307,9 @@ focus_tree = {
 
 		available = {
 			OR = {
-			has_war_with = GER
-			ENG = { surrender_progress > 0.15 } 
+				has_war_with = GER
+				ENG = { surrender_progress > 0.15 }
+				USA = { surrender_progress > 0.15 }			
 			}
 			219 = {
 				is_owned_and_controlled_by = SOV
@@ -389,7 +390,11 @@ focus_tree = {
 		icon = GFX_goal_generic_fortify_city
 		prerequisite = { focus = SOV_move_industry_to_urals }
 		available = {
-			has_war_with = GER
+			OR = {
+				has_war_with = GER
+				ENG = { surrender_progress > 0.15 }
+				USA = { surrender_progress > 0.15 }			
+			}
 		}
 		x = 0
 		y = 1
@@ -748,7 +753,11 @@ focus_tree = {
 		prerequisite = { focus = SOV_wartime_propaganda }
 		prerequisite = { focus = SOV_extra_tech_slot_2 } 
 		available = {
-			has_war_with = GER 
+			OR = {
+				has_war_with = GER
+				ENG = { surrender_progress > 0.15 }
+				USA = { surrender_progress > 0.15 }			
+			}
 		}
 		bypass = { 
 			GER = { has_capitulated = yes } 
@@ -810,6 +819,10 @@ focus_tree = {
 		completion_reward = {
 			custom_effect_tooltip = GDU_red_army_resurgent_tt
 			hidden_effect = {
+			remove_ideas = GDU_SOV_Stalin_Line_Fallen
+			remove_ideas = GDU_SOV_Danger_To_Heartland
+			remove_ideas = GDU_SOV_Heartland_Falling
+			
 		create_corps_commander = {
 		name = "Konstantin Rokossovsky"
 		id = 402
@@ -1285,6 +1298,14 @@ focus_tree = {
 		}
 
 		available_if_capitulated = yes
+
+		available = {
+			OR = {
+				has_war_with = GER
+				ENG = { surrender_progress > 0.15 }
+				USA = { surrender_progress > 0.15 }			
+			}
+		}	
 
 		completion_reward = {
 			add_research_slot = 1
@@ -1904,7 +1925,13 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
-
+		available = {
+			OR = {
+				has_war_with = GER
+				ENG = { surrender_progress > 0.15 }
+				USA = { surrender_progress > 0.15 }			
+			}
+		}
 		completion_reward = {
 			SOV = {
 				transfer_state = 420
@@ -2048,6 +2075,14 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		available = {
+			OR = {
+				has_war_with = GER
+				ENG = { surrender_progress > 0.15 }
+				USA = { surrender_progress > 0.15 }			
+			}
+		}		
+		
 		completion_reward = {
         add_ideas = wartime_propaganda
 		}
