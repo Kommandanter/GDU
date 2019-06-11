@@ -45,6 +45,10 @@ if = {
 	}
 }
 
+add_ideas = { 
+	benelux_neutrality
+}
+
 set_convoys = 25
 set_popularities = {
 	democratic = 10
