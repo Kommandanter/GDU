@@ -937,13 +937,13 @@ foreign_politics = {
 			USA = { 
 				add_timed_idea = { 
 					idea = USA_pearl_harbor_idea 
-					days = 100
+					days = 120
 				}
 			}
 			JAP = { 
 				add_timed_idea = { 
 					idea = JAP_pearl_harbor_idea 
-					days = 100 
+					days = 120 
 				}
 			}
 			declare_war_on = {
@@ -980,6 +980,10 @@ foreign_politics = {
 			}
 			declare_war_on = {
 				target = SAF 
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = INS 
 				type = annex_everything
 			}
 		}
