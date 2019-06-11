@@ -927,8 +927,12 @@ foreign_politics = {
 		}
 		
 		complete_effect = {
-		
-					
+		    ENG = { 
+				annex_country = {
+					target = INS  
+					transfer_troops = yes 
+				}
+			}
 		}
 		
 		remove_effect = {
@@ -980,10 +984,6 @@ foreign_politics = {
 			}
 			declare_war_on = {
 				target = SAF 
-				type = annex_everything
-			}
-			declare_war_on = {
-				target = INS 
 				type = annex_everything
 			}
 		}
