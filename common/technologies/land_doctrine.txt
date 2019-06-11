@@ -618,6 +618,11 @@ technologies = {
 		# faster planning
 		planning_speed = 0.2
 		
+		signal_company = {
+			recon = 1
+			initiative = 0.05
+		}
+		
 		enable_tactic = tactic_overwhelming_fire
 		
 		path = {
@@ -828,8 +833,8 @@ technologies = {
 		xp_research_bonus = 0.5
 		category_all_armor = {
 			max_organisation = 3
-			soft_attack = 0.10
-			hard_attack = 0.10
+			soft_attack = 0.05
+			hard_attack = 0.05
 		}
 
 		category_all_armor = {

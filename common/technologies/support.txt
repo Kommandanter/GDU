@@ -655,8 +655,9 @@ technologies = {
 	tech_maintenance_company2 = {
 
 		maintenance_company = {
-			reliability_factor = 0.05
-			equipment_capture_factor = 0.05
+			reliability_factor = 0.10
+			equipment_capture_factor = 0.025
+			max_strength = 2.5
 		}
 		
 		
@@ -700,8 +701,9 @@ technologies = {
 	tech_maintenance_company3 = {
 
 		maintenance_company = {
-			reliability_factor = 0.05
-			equipment_capture_factor = 0.05
+			reliability_factor = 0.10
+			equipment_capture_factor = 0.025
+			max_strength = 2.5
 		}
 		path = {
 			leads_to_tech = tech_maintenance_company4
@@ -742,8 +744,9 @@ technologies = {
 	tech_maintenance_company4 = {
 
 		maintenance_company = {
-			reliability_factor = 0.05
-			equipment_capture_factor = 0.05
+			reliability_factor = 0.10
+			equipment_capture_factor = 0.025
+			max_strength = 2.5
 		}
 
 		research_cost = 0.75
@@ -936,8 +939,9 @@ technologies = {
 	tech_field_hospital2 = {
 
 		field_hospital = {
-			casualty_trickleback = 0.10
+			casualty_trickleback = 0.15
 			experience_loss_factor = -0.10
+			max_strength = 5			
 		}
 		
 		path = {
@@ -981,8 +985,9 @@ technologies = {
 	tech_field_hospital3 = {
 
 		field_hospital = {
-			casualty_trickleback = 0.1
+			casualty_trickleback = 0.15
 			experience_loss_factor = -0.10
+			max_strength = 5			
 		}
 		path = {
 			leads_to_tech = tech_field_hospital4
@@ -1024,8 +1029,9 @@ technologies = {
 	tech_field_hospital4 = {
 
 		field_hospital = {
-			casualty_trickleback = 0.1
+			casualty_trickleback = 0.15
 			experience_loss_factor = -0.10
+			max_strength = 5
 		}
 
 		research_cost = 0.75
