@@ -37,6 +37,8 @@ ideas = {
 				navy_carrier_air_attack_factor = -0.25 
 				navy_submarine_attack_factor = -0.25 
 				navy_screen_attack_factor = -0.25 
+				army_attack_factor = -0.20
+				army_defence_factor = -0.20
 			}
 		}
 	
