@@ -1688,6 +1688,7 @@ ideas = {
 				navy_screen_attack_factor = 0.2 
 				navy_submarine_attack_factor = 0.2 
 				navy_capital_ship_attack_factor = 0.2
+				amphibious_invasion = 0.1
 			}
 		}
 
