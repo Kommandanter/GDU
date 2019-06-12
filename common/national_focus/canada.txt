@@ -58,40 +58,7 @@ focus_tree = {
 #	}
 
 
-	focus = {
-		id = CAN_synthetic_rubber
-		icon = GFX_focus_generic_rubber
-		prerequisite = { focus = CAN_fund_the_national_research_council }
-		x = 1
-		y = 1
-		relative_position_id = CAN_fund_the_national_research_council
-		cost = 10
-		ai_will_do = {
-			factor = 4
-		}
 
-		available = {
-			has_war_with = JAP
-		}
-
-		completion_reward = {
-			add_ideas = CAN_synthetic_rubber
-        	modify_building_resources = {
-        	   building = synthetic_refinery
-        	   resource = rubber
-        	   amount = 1
-        	}
-			add_tech_bonus = {
-				name = CAN_rubber
-				bonus = 1
-				uses = 1
-				technology = rubber_processing
-				technology = improved_rubber_processing
-				technology = advanced_rubber_processing
-				technology = modern_rubber_processing
-			}
-		}
-	}
 
 	############################
 	##### INDUSTRY SECTION #####
@@ -3625,6 +3592,41 @@ focus_tree = {
 					instant_build = yes
 				}
 				set_state_flag = CAN_united_shipyards_DY
+			}
+		}
+	}
+
+	focus = {
+		id = CAN_synthetic_rubber
+		icon = GFX_focus_generic_rubber
+		prerequisite = { focus = CAN_fund_the_national_research_council }
+		x = 1
+		y = 1
+		relative_position_id = CAN_fund_the_national_research_council
+		cost = 10
+		ai_will_do = {
+			factor = 4
+		}
+
+		available = {
+			has_war_with = JAP
+		}
+
+		completion_reward = {
+			add_ideas = CAN_synthetic_rubber
+        	modify_building_resources = {
+        	   building = synthetic_refinery
+        	   resource = rubber
+        	   amount = 1
+        	}
+			add_tech_bonus = {
+				name = CAN_rubber
+				bonus = 1
+				uses = 1
+				technology = rubber_processing
+				technology = improved_rubber_processing
+				technology = advanced_rubber_processing
+				technology = modern_rubber_processing
 			}
 		}
 	}
