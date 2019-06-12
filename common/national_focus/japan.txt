@@ -616,8 +616,8 @@ focus_tree = {
 
 		completion_reward = {
 			add_tech_bonus = {
-				name = uk_amphibious_focus
-				ahead_reduction = 4 
+				name = jap_amphibious_focus
+				ahead_reduction = 5 
 				uses = 2
 				category = tp_tech
 			}
