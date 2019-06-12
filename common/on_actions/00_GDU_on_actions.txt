@@ -1658,7 +1658,780 @@ on_actions = {
 	
 	
 	
-	on_capitulation = { 
+	#### Check for DDay. If a DDay occurs, Axis gets a mission to defeat the DDay within 1 year; if they defeat it, Axis gets some buffs and Allies lose stability/war support because of the failed DDay. Germany's Totaler Krieg event also gets triggered upon DDay, if it has not already been triggered. The idea is that this gives Allies realistic incentives for DDay; they shouldn't want to launch one until they are sure that they will succeed, because in reality a failed DDay would have been a disaster and would have resulted in large amounts of lost/captured equipment (like Dunkirk) and would have been a PR disaster for the Democracies that relied on popular support for continuing the war. ####
+	
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_global_flag = GDU_dday_started }				
+					date > 1941.1.1
+					OR = {
+						original_tag = USA
+						original_tag = ENG
+						original_tag = CAN
+						original_tag = SAF
+						original_tag = RAJ
+						original_tag = NZL
+						original_tag = AST
+						original_tag = FRF
+						original_tag = HOL
+						original_tag = BEL
+						original_tag = LUX
+						original_tag = DEN												
+					}
+					OR = {
+						controls_state = 735 # Savoy
+						controls_state = 21 # Provence
+						controls_state = 18 # Languedoc
+						controls_state = 31 # Midi Pyrenees
+						controls_state = 19 # Aquitane
+						controls_state = 23 # Poitou
+						controls_state = 30 # Loire
+						controls_state = 14 # Brittany
+						controls_state = 15 # Normandy
+						controls_state = 785 # Picardy
+						controls_state = 29 # Nord-Pas-de-Calais
+						controls_state = 6 # Vlaandern
+						controls_state = 7 # Holland
+						controls_state = 36 # Friesland
+						controls_state = 56 # Weser-Ems
+						controls_state = 59 # Hannover
+						controls_state = 58 # Schleswig-Holstein
+						controls_state = 99 # Jutland
+						controls_state = 61 # Mecklenburg
+						controls_state = 62 # Vorpommern
+						controls_state = 63 # Hinterpommern
+						controls_state = 85 # Danzig
+						controls_state = 788 # East Prussia
+						controls_state = 763 # Konigsberg
+					}	
+								
+						
+					}
+				
+				hidden_effect = {
+					set_global_flag = GDU_dday_started
+					GER = { 
+						activate_mission = GER_defeat_dday					
+					}
+				}
+			}
+			}
+
+			
+		}
+		
+	
+	
+	# Check if Allies have capitulated and create missions to liberate them if they have and apply penalties/bonuses accordingly #
+	
+		on_capitulation = {
+		effect = {
+		
+		
+		
+		
+			# Set global flag when the Dutch East Indies capitulates to Japan. This is used later for island hopping; we only want to give stability bonuses/penalties for re-taking the DEI, not for Japan taking it in the first place (which is expected for game balance)#
+		
+			if = {
+				limit = {
+					AND = {
+						tag = INS
+						OR = { 
+							335 = { is_controlled_by = JAP } 
+							335 = { is_controlled_by = MAN }
+							335 = { is_controlled_by = SIA } 
+						}
+					}
+				}			
+				
+				set_global_flag = GDU_DEI_capitulated
+				
+			}
+
+			# Set global flag when the Philippines capitulates to Japan. This is used later for island hopping; we only want to give stability bonuses/penalties for re-taking the Philippines, not for Japan taking it in the first place (which is expected for game balance)#
+		
+			if = {
+				limit = {
+					AND = {
+						tag = PHI
+						OR = { 
+							327 = { is_controlled_by = JAP } 
+							327 = { is_controlled_by = MAN }
+							327 = { is_controlled_by = SIA } 
+						}
+					}
+				}			
+				
+				set_global_flag = GDU_Philippines_capitulated
+				
+			}
+			
+		
+		
+		
+		
+		
+		
+			# If Australia capitulated to Japan
+		
+			if = {
+				limit = {
+					AND = {
+						tag = AST
+						OR = { 
+							285 = { is_controlled_by = JAP } 
+							285 = { is_controlled_by = MAN }
+							285 = { is_controlled_by = SIA } 
+						}
+					}
+				}
+				
+				JAP = {
+					add_ideas = JAP_AST_resources
+					add_timed_idea = { idea = JAP_triumph_AST_idea days = 730 } 
+				}
+				MAN = {
+					add_ideas = JAP_AST_resources
+					add_timed_idea = { idea = JAP_triumph_AST_idea days = 730 } 
+				}
+				SIA = {
+					add_ideas = JAP_AST_resources
+					add_timed_idea = { idea = JAP_triumph_AST_idea days = 730 } 
+				}				
+				
+				USA = {
+					activate_mission = liberate_AST_mission
+
+					add_stability = -0.10
+					add_war_support = -0.10
+				}
+				ENG = {
+					activate_mission = liberate_AST_mission
+
+					add_stability = -0.10
+					add_war_support = -0.10					
+				}
+				CAN = {
+					activate_mission = liberate_AST_mission
+
+					add_stability = -0.10
+					add_war_support = -0.10	
+				}
+				SAF = {
+					activate_mission = liberate_AST_mission
+
+					add_stability = -0.10
+					add_war_support = -0.10	
+				}
+				RAJ = {
+					activate_mission = liberate_AST_mission
+
+					add_stability = -0.10
+					add_war_support = -0.10	
+				}
+				NZL = {
+					activate_mission = liberate_AST_mission
+
+					add_stability = -0.10
+					add_war_support = -0.10	
+				}
+				AST = {
+					activate_mission = liberate_AST_mission
+
+					add_stability = -0.10
+					add_war_support = -0.10	
+				}
+				FRF = {
+					activate_mission = liberate_AST_mission
+
+					add_stability = -0.10
+					add_war_support = -0.10	
+				}				
+			}
+			
+
+			# If New Zealand capitulated to Japan
+		
+			if = {
+				limit = {
+					AND = {
+						tag = NZL
+						OR = { 
+							284 = { is_controlled_by = JAP } 
+							284 = { is_controlled_by = MAN }
+							284 = { is_controlled_by = SIA } 
+						}
+					}
+				}
+				
+				JAP = {
+					add_ideas = JAP_NZL_resources
+					add_timed_idea = { idea = JAP_triumph_NZL_idea days = 730 } 
+				}
+				MAN = {
+					add_ideas = JAP_NZL_resources
+					add_timed_idea = { idea = JAP_triumph_NZL_idea days = 730 } 
+				}
+				SIA = {
+					add_ideas = JAP_NZL_resources
+					add_timed_idea = { idea = JAP_triumph_NZL_idea days = 730 } 
+				}				
+				
+				USA = {
+					activate_mission = liberate_NZL_mission
+
+					add_stability = -0.05
+					add_war_support = -0.05						
+				}
+				ENG = {
+					activate_mission = liberate_NZL_mission
+
+					add_stability = -0.05
+					add_war_support = -0.05	
+				}
+				CAN = {
+					activate_mission = liberate_NZL_mission
+
+					add_stability = -0.05
+					add_war_support = -0.05	
+				}
+				SAF = {
+					activate_mission = liberate_NZL_mission
+
+					add_stability = -0.05
+					add_war_support = -0.05	
+				}
+				RAJ = {
+					activate_mission = liberate_NZL_mission
+
+					add_stability = -0.05
+					add_war_support = -0.05	
+				}
+				NZL = {
+					activate_mission = liberate_NZL_mission
+
+					add_stability = -0.05
+					add_war_support = -0.05	
+				}
+				AST = {
+					activate_mission = liberate_NZL_mission
+
+					add_stability = -0.05
+					add_war_support = -0.05	
+				}
+				FRF = {
+					activate_mission = liberate_NZL_mission
+
+					add_stability = -0.05
+					add_war_support = -0.05	
+				}				
+			}
+			
+			
+
+
+			# If Australia capitulated to Japan and Australia has annexed New Zealand, in which case New Zealand has effectively also capitulated...
+		
+			if = {
+				limit = {
+					AND = {
+						tag = AST
+						284 = { is_core_of = AST }
+						NOT = { JAP = { has_idea = JAP_NZL_resources } }
+						OR = { 
+							284 = { is_controlled_by = JAP } 
+							284 = { is_controlled_by = MAN }
+							284 = { is_controlled_by = SIA } 
+						}
+					}
+				}
+				
+				JAP = {
+					add_ideas = JAP_NZL_resources
+					add_timed_idea = { idea = JAP_triumph_NZL_idea days = 730 } 
+				}
+				MAN = {
+					add_ideas = JAP_NZL_resources
+					add_timed_idea = { idea = JAP_triumph_NZL_idea days = 730 } 
+				}
+				SIA = {
+					add_ideas = JAP_NZL_resources
+					add_timed_idea = { idea = JAP_triumph_NZL_idea days = 730 } 
+				}				
+				
+				USA = {
+					activate_mission = liberate_NZL_mission
+
+					add_stability = -0.05
+					add_war_support = -0.05
+				}
+				ENG = {
+					activate_mission = liberate_NZL_mission
+
+					add_stability = -0.05
+					add_war_support = -0.05	
+				}
+				CAN = {
+					activate_mission = liberate_NZL_mission
+
+					add_stability = -0.05
+					add_war_support = -0.05	
+				}
+				SAF = {
+					activate_mission = liberate_NZL_mission
+
+					add_stability = -0.05
+					add_war_support = -0.05	
+				}
+				RAJ = {
+					activate_mission = liberate_NZL_mission
+
+					add_stability = -0.05
+					add_war_support = -0.05	
+				}
+				NZL = {
+					activate_mission = liberate_NZL_mission
+
+					add_stability = -0.05
+					add_war_support = -0.05	
+				}
+				AST = {
+					activate_mission = liberate_NZL_mission
+
+					add_stability = -0.05
+					add_war_support = -0.05	
+				}
+				FRF = {
+					activate_mission = liberate_NZL_mission
+
+					add_stability = -0.05
+					add_war_support = -0.05	
+				}				
+			}
+			
+			
+			
+			
+			# If the British Raj capitulated to Japan
+		
+			if = {
+				limit = {
+					AND = {
+						tag = RAJ
+						OR = { 
+							439 = { is_controlled_by = JAP } 
+							439 = { is_controlled_by = MAN }
+							439 = { is_controlled_by = SIA } 
+						}
+					}
+				}
+				
+				JAP = {
+					add_ideas = JAP_RAJ_resources
+					add_timed_idea = { idea = JAP_triumph_RAJ_idea days = 730 } 
+				}
+				MAN = {
+					add_ideas = JAP_RAJ_resources
+					add_timed_idea = { idea = JAP_triumph_RAJ_idea days = 730 } 
+				}
+				SIA = {
+					add_ideas = JAP_RAJ_resources
+					add_timed_idea = { idea = JAP_triumph_RAJ_idea days = 730 } 
+				}				
+				
+				USA = {
+					activate_mission = liberate_RAJ_mission
+
+					add_stability = -0.10
+					add_war_support = -0.10						
+				}
+				ENG = {
+					activate_mission = liberate_RAJ_mission
+
+					add_stability = -0.10
+					add_war_support = -0.10							
+				}
+				CAN = {
+					activate_mission = liberate_RAJ_mission
+
+					add_stability = -0.10
+					add_war_support = -0.10							
+				}
+				SAF = {
+					activate_mission = liberate_RAJ_mission
+
+					add_stability = -0.10
+					add_war_support = -0.10							
+				}
+				RAJ = {
+					activate_mission = liberate_RAJ_mission
+
+					add_stability = -0.10
+					add_war_support = -0.10							
+				}
+				NZL = {
+					activate_mission = liberate_RAJ_mission
+
+					add_stability = -0.10
+					add_war_support = -0.10							
+				}
+				AST = {
+					activate_mission = liberate_RAJ_mission
+
+					add_stability = -0.10
+					add_war_support = -0.10							
+				}
+				FRF = {
+					activate_mission = liberate_RAJ_mission
+
+					add_stability = -0.10
+					add_war_support = -0.10							
+				}				
+			}
+
+
+			# If South Africa capitulated to Japan
+		
+			if = {
+				limit = {
+					AND = {
+						tag = SAF
+						OR = { 
+							275 = { is_controlled_by = JAP } 
+							275 = { is_controlled_by = MAN }
+							275 = { is_controlled_by = SIA } 
+						}
+					}
+				}
+				
+				JAP = {
+					add_ideas = JAP_SAF_resources
+					add_timed_idea = { idea = JAP_triumph_SAF_idea days = 730 } 
+				}
+				MAN = {
+					add_ideas = JAP_SAF_resources
+					add_timed_idea = { idea = JAP_triumph_SAF_idea days = 730 } 
+				}
+				SIA = {
+					add_ideas = JAP_SAF_resources
+					add_timed_idea = { idea = JAP_triumph_SAF_idea days = 730 } 
+				}				
+				
+				USA = {
+					activate_mission = liberate_SAF_mission
+
+					add_stability = -0.10
+					add_war_support = -0.10							
+				}
+				ENG = {
+					activate_mission = liberate_SAF_mission
+
+					add_stability = -0.10
+					add_war_support = -0.10		
+				}
+				CAN = {
+					activate_mission = liberate_SAF_mission
+
+					add_stability = -0.10
+					add_war_support = -0.10		
+				}
+				SAF = {
+					activate_mission = liberate_SAF_mission
+
+					add_stability = -0.10
+					add_war_support = -0.10		
+				}
+				RAJ = {
+					activate_mission = liberate_SAF_mission
+
+					add_stability = -0.10
+					add_war_support = -0.10		
+				}
+				NZL = {
+					activate_mission = liberate_SAF_mission
+
+					add_stability = -0.10
+					add_war_support = -0.10		
+				}
+				AST = {
+					activate_mission = liberate_SAF_mission
+
+					add_stability = -0.10
+					add_war_support = -0.10		
+				}
+				FRF = {
+					activate_mission = liberate_SAF_mission
+
+					add_stability = -0.10
+					add_war_support = -0.10		
+				}				
+			}			
+			
+		}
+	}
+	
+
+	
+	
+	
+	#### Pacific/Indian Ocean Island Hopping. Gives bonuses/penalties to stability/war support when islands are taken, so that they are not simply ignored as much ####
+
+	
+	on_state_control_changed = {
+		effect = {
+		
+			# When Japan/Asian Axis takes a small/unimportant island worth 1 stability and war support #
+		
+			if = {
+				limit = {				
+					date > 1941.1.1
+					OR = {
+						original_tag = JAP
+						original_tag = MAN
+						original_tag = SIA
+					}
+					OR = {
+						controls_state = 281 #Maldives
+						controls_state = 523 #Papua											
+						controls_state = 524 #Taiwan					
+						controls_state = 534 #Madagascar
+						controls_state = 537 #South Sakhalin						
+						controls_state = 555 #Kuril Islands												
+						controls_state = 630 #Johnston Atoll
+						controls_state = 632 #Wake Island
+						controls_state = 633 #Marshall Islands
+						controls_state = 635 #New Caledonia
+						controls_state = 636 #Fiji
+						controls_state = 638 #Guam
+						controls_state = 639 #Gilbert Islands
+						controls_state = 641 #Tahiti
+						controls_state = 642 #Phoenix Island
+						controls_state = 643 #Ellice Islands
+						controls_state = 646 #Saipan
+						controls_state = 647 #Palau
+						controls_state = 648 #Marcus Island						
+						controls_state = 650 #Attu Island
+						controls_state = 684 #Caroline Islands
+						controls_state = 706 #Reunion
+						controls_state = 707 #Mauritious
+						controls_state = 708 #Comoro Islands
+						controls_state = 709 #Seychelles
+						controls_state = 710 #Diego Garcia
+						controls_state = 711 #Christmas Island
+						controls_state = 712 #Cocos Islands
+						controls_state = 713 #Kergeulen
+						controls_state = 725 #Nauru
+						controls_state = 726 #Samoa
+						controls_state = 727 #Line Islands
+						controls_state = 733 #Andaman
+						controls_state = 734 #Nendo
+						controls_state = 737 #Bismarck
+						controls_state = 739 #Haida Gwaii
+						controls_state = 740 #Vancouver Island
+						controls_state = 797 #Yap Islands						
+						controls_state = 798 #Truk Islands
+						
+						
+						
+
+					}
+				}
+				hidden_effect = {
+				
+				JAP = {
+					add_stability = 0.01
+					add_war_support = 0.01							
+				}
+				MAN = {
+					add_stability = 0.01
+					add_war_support = 0.01		
+				}
+				SIA = {
+					add_stability = 0.01
+					add_war_support = 0.01		
+				}
+				USA = {
+					add_stability = -0.01
+					add_war_support = -0.01							
+				}
+				ENG = {
+					add_stability = -0.01
+					add_war_support = -0.01		
+				}
+				CAN = {
+					add_stability = -0.01
+					add_war_support = -0.01		
+				}
+				SAF = {
+					add_stability = -0.01
+					add_war_support = -0.01		
+				}
+				RAJ = {
+					add_stability = -0.01
+					add_war_support = -0.01		
+				}
+				NZL = {
+					add_stability = -0.01
+					add_war_support = -0.01		
+				}
+				AST = {
+					add_stability = -0.01
+					add_war_support = -0.01		
+				}
+				FRF = {
+					add_stability = -0.01
+					add_war_support = -0.01		
+				}
+
+				}
+			}
+			
+
+			# When Japan/Asian Axis takes a medium/somewhat important island worth 2 stability and war support #
+		
+			if = {
+				limit = {				
+					date > 1941.1.1
+					OR = {
+						original_tag = JAP
+						original_tag = MAN
+						original_tag = SIA
+					}
+					OR = {
+						controls_state = 631 #Midway Island
+						controls_state = 634 #Solomon Islands (Guadalcanal)
+						controls_state = 526 #Okinawa
+						controls_state = 645 #Iwo Jima
+					}
+				}
+				hidden_effect = {
+				
+				JAP = {
+					add_stability = 0.02
+					add_war_support = 0.02							
+				}
+				MAN = {
+					add_stability = 0.02
+					add_war_support = 0.02		
+				}
+				SIA = {
+					add_stability = 0.02
+					add_war_support = 0.02		
+				}
+				USA = {
+					add_stability = -0.02
+					add_war_support = -0.02							
+				}
+				ENG = {
+					add_stability = -0.02
+					add_war_support = -0.02		
+				}
+				CAN = {
+					add_stability = -0.02
+					add_war_support = -0.02		
+				}
+				SAF = {
+					add_stability = -0.02
+					add_war_support = -0.02		
+				}
+				RAJ = {
+					add_stability = -0.02
+					add_war_support = -0.02		
+				}
+				NZL = {
+					add_stability = -0.02
+					add_war_support = -0.02		
+				}
+				AST = {
+					add_stability = -0.02
+					add_war_support = -0.02		
+				}
+				FRF = {
+					add_stability = -0.02
+					add_war_support = -0.02		
+				}
+
+				}
+			}
+
+
+			# When Japan/Asian Axis takes a large/important island worth 5 stability and war support #
+		
+			if = {
+				limit = {				
+					date > 1941.1.1
+					OR = {
+						original_tag = JAP
+						original_tag = MAN
+						original_tag = SIA
+					}
+					OR = {
+						controls_state = 629 #Hawaii
+						controls_state = 685 #Panama Canal
+
+					}
+				}
+				hidden_effect = {
+				
+				JAP = {
+					add_stability = 0.05
+					add_war_support = 0.05							
+				}
+				MAN = {
+					add_stability = 0.05
+					add_war_support = 0.05		
+				}
+				SIA = {
+					add_stability = 0.05
+					add_war_support = 0.05		
+				}
+				USA = {
+					add_stability = -0.05
+					add_war_support = -0.05							
+				}
+				ENG = {
+					add_stability = -0.05
+					add_war_support = -0.05		
+				}
+				CAN = {
+					add_stability = -0.05
+					add_war_support = -0.05		
+				}
+				SAF = {
+					add_stability = -0.05
+					add_war_support = -0.05		
+				}
+				RAJ = {
+					add_stability = -0.05
+					add_war_support = -0.05		
+				}
+				NZL = {
+					add_stability = -0.05
+					add_war_support = -0.05		
+				}
+				AST = {
+					add_stability = -0.05
+					add_war_support = -0.05		
+				}
+				FRF = {
+					add_stability = -0.05
+					add_war_support = -0.05		
+				}
+
+				}
+			}
+
+
+				
+		}
+	}
+	
+	
+	
+	
+	on_capitulation = {
 		effect = {
 			if = { 
 				limit = { 

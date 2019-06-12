@@ -110,7 +110,12 @@ country_event = {
 	picture = GFX_report_event_totalwar
 
 	trigger = {
-		date > 1943.1.1
+		OR = {
+			date > 1943.1.1
+			has_global_flag = GDU_dday_started
+			has_global_flag = GDU_gothic_line_breached
+			has_global_flag = GDU_eastern_front_Axis_danger
+		}
 		tag = GER
 		NOT = { has_global_flag = total_war }
 	}

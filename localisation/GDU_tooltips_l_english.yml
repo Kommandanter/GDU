@@ -53,4 +53,10 @@
  FRF_revive_naval_construction:0 "§GAdds a varying number of off-map civilian factory depending on how long you hold France, up to a maximum of 5 for holding 10 weeks (4 for 8 weeks, 3 for 4 weeks, 2 for 3 weeks, and 1 for 2 weeks).§!\n\n"  
  FRF_france_libre:0 "§GAdds a varying number of off-map civilian factories, military factories, and dockyards depending on how long you hold France. If you hold a minimal time (3 weeks), you get the maximum of 3 Civs, 3 Mils, and 2 Docks. Less if you can't hold that long.§!\n\n"  
 
+ GER_defeat_dday_tt:0 "Drive the Allies back into the sea; push them out of all coastal states from France to Denmark to East Prussia"
 
+ liberate_AST_mission_tt:0 "Liberate Australia (take back all mainland states in Australia)"
+ liberate_SAF_mission_tt:0 "Liberate South Africa (take back all states in South Africa)" 
+ liberate_NZL_mission_tt:0 "Liberate New Zealand (take back all states in New Zealand)"
+ liberate_RAJ_mission_tt:0 "Liberate the British Raj (take back all states in the British Raj west of the Dacca line)" 
+ 

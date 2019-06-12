@@ -216,7 +216,247 @@ ideas = {
 				stability_factor = 0.05 
 			}
 		}
-	
+		
+		GER_triumph_dday_idea = { 
+		
+			picture = chi_war_of_resistance	
+			
+			allowed = { 
+				always = no 
+			}
+			
+			removal_cost = -1 
+			
+			modifier = { 
+				stability_factor = 0.10
+				army_morale_factor = 0.05
+			}
+		}
+		
+		JAP_triumph_AST_idea = { 
+		
+			picture = chi_war_of_resistance	
+			
+			allowed = { 
+				always = no 
+			}
+			
+			removal_cost = -1 
+			
+			modifier = { 
+				stability_factor = 0.10
+				war_support_factor = 0.10
+				army_morale_factor = 0.01
+			}
+		}
+
+		JAP_triumph_NZL_idea = { 
+		
+			picture = chi_war_of_resistance	
+			
+			allowed = { 
+				always = no 
+			}
+			
+			removal_cost = -1 
+			
+			modifier = { 
+				stability_factor = 0.05
+				war_support_factor = 0.05
+				army_morale_factor = 0.005
+			}
+		}
+		
+		JAP_triumph_SAF_idea = { 
+		
+			picture = chi_war_of_resistance	
+			
+			allowed = { 
+				always = no 
+			}
+			
+			removal_cost = -1 
+			
+			modifier = { 
+				stability_factor = 0.10
+				war_support_factor = 0.10
+				army_morale_factor = 0.01
+			}
+		}	
+
+		JAP_triumph_CAN_idea = { 
+		
+			picture = chi_war_of_resistance	
+			
+			allowed = { 
+				always = no 
+			}
+			
+			removal_cost = -1 
+			
+			modifier = { 
+				stability_factor = 0.10
+				war_support_factor = 0.10
+				army_morale_factor = 0.01
+			}
+		}
+		
+		JAP_triumph_RAJ_idea = { 
+		
+			picture = chi_war_of_resistance	
+			
+			allowed = { 
+				always = no 
+			}
+			
+			removal_cost = -1 
+			
+			modifier = { 
+				stability_factor = 0.10
+				war_support_factor = 0.10
+				army_morale_factor = 0.01
+			}
+		}		
+		
+		JAP_triumph_ENG_idea = { 
+		
+			picture = chi_war_of_resistance	
+			
+			allowed = { 
+				always = no 
+			}
+			
+			removal_cost = -1 
+			
+			modifier = { 
+				stability_factor = 0.20
+				war_support_factor = 0.20
+				army_morale_factor = 0.02
+			}
+		}
+		
+		JAP_triumph_USA_idea = { 
+		
+			picture = chi_war_of_resistance	
+			
+			allowed = { 
+				always = no 
+			}
+			
+			removal_cost = -1 
+			
+			modifier = { 
+				stability_factor = 0.20
+				war_support_factor = 0.20
+				army_morale_factor = 0.02
+			}
+		}
+
+		JAP_AST_resources = { 
+		
+			picture = generic_goods_red_bonus	
+			
+			allowed = { 
+				always = no 
+			}
+			
+			removal_cost = -1 
+			
+			modifier = { 
+				local_resources_factor = 0.05				
+			}
+		}
+		
+		JAP_NZL_resources = { 
+		
+			picture = generic_goods_red_bonus	
+			
+			allowed = { 
+				always = no 
+			}
+			
+			removal_cost = -1 
+			
+			modifier = { 
+				local_resources_factor = 0.025				
+			}
+		}
+
+		JAP_RAJ_resources = { 
+		
+			picture = generic_goods_red_bonus	
+			
+			allowed = { 
+				always = no 
+			}
+			
+			removal_cost = -1 
+			
+			modifier = { 
+				local_resources_factor = 0.05				
+			}
+		}
+
+		JAP_SAF_resources = { 
+		
+			picture = generic_goods_red_bonus	
+			
+			allowed = { 
+				always = no 
+			}
+			
+			removal_cost = -1 
+			
+			modifier = { 
+				local_resources_factor = 0.05				
+			}
+		}		
+
+		JAP_CAN_resources = { 
+		
+			picture = generic_goods_red_bonus	
+			
+			allowed = { 
+				always = no 
+			}
+			
+			removal_cost = -1 
+			
+			modifier = { 
+				local_resources_factor = 0.05				
+			}
+		}
+		
+		JAP_ENG_resources = { 
+		
+			picture = generic_goods_red_bonus	
+			
+			allowed = { 
+				always = no 
+			}
+			
+			removal_cost = -1 
+			
+			modifier = { 
+				local_resources_factor = 0.05				
+			}
+		}
+		
+		JAP_USA_resources = { 
+		
+			picture = generic_goods_red_bonus	
+			
+			allowed = { 
+				always = no 
+			}
+			
+			removal_cost = -1 
+			
+			modifier = { 
+				local_resources_factor = 0.05			
+			}
+		}		
+
 		FRF_efficiency_gain = { 
 		
 			picture = generic_pp_unity_bonus	
@@ -247,6 +487,143 @@ ideas = {
 			}
 		}			
 		
+		
+		ALLIES_fail_dday_idea = { 
+		
+			picture = chi_war_of_resistance	
+			
+			allowed = { 
+				always = no 
+			}
+			
+			removal_cost = -1 
+			
+			modifier = { 
+				army_morale_factor = -0.05
+				industrial_capacity_factory = -0.15
+			}
+		}
+
+
+		ALLIES_AST_capitulated_idea = { 
+		
+			picture = chi_war_of_resistance	
+			
+			allowed = { 
+				always = no 
+			}
+			
+			removal_cost = -1 
+			
+			modifier = { 
+				stability_factor = -0.10
+				war_support_factor = -0.10
+				industrial_capacity_factory = -0.05
+			}
+		}
+		
+		
+		ALLIES_NZL_capitulated_idea = { 
+		
+			picture = chi_war_of_resistance	
+			
+			allowed = { 
+				always = no 
+			}
+			
+			removal_cost = -1 
+			
+			modifier = { 
+				stability_factor = -0.05
+				war_support_factor = -0.05
+				industrial_capacity_factory = -0.025				
+			}
+		}
+
+		ALLIES_RAJ_capitulated_idea = { 
+		
+			picture = chi_war_of_resistance	
+			
+			allowed = { 
+				always = no 
+			}
+			
+			removal_cost = -1 
+			
+			modifier = { 
+				stability_factor = -0.10
+				war_support_factor = -0.10
+				industrial_capacity_factory = -0.05				
+			}
+		}
+
+		ALLIES_SAF_capitulated_idea = { 
+		
+			picture = chi_war_of_resistance	
+			
+			allowed = { 
+				always = no 
+			}
+			
+			removal_cost = -1 
+			
+			modifier = { 
+				stability_factor = -0.10
+				war_support_factor = -0.10
+				industrial_capacity_factory = -0.05				
+			}
+		}
+		
+		ALLIES_CAN_capitulated_idea = { 
+		
+			picture = chi_war_of_resistance	
+			
+			allowed = { 
+				always = no 
+			}
+			
+			removal_cost = -1 
+			
+			modifier = { 
+				stability_factor = -0.10
+				war_support_factor = -0.10
+				industrial_capacity_factory = -0.05				
+			}
+		}		
+
+		ALLIES_ENG_capitulated_idea = { 
+		
+			picture = chi_war_of_resistance	
+			
+			allowed = { 
+				always = no 
+			}
+			
+			removal_cost = -1 
+			
+			modifier = { 
+				stability_factor = -0.10
+				war_support_factor = -0.10
+				industrial_capacity_factory = -0.05				
+			}
+		}
+
+		ALLIES_USA_capitulated_idea = { 
+		
+			picture = chi_war_of_resistance	
+			
+			allowed = { 
+				always = no 
+			}
+			
+			removal_cost = -1 
+			
+			modifier = { 
+				stability_factor = -0.10
+				war_support_factor = -0.10
+				industrial_capacity_factory = -0.05				
+			}
+		}		
 		
 
 		

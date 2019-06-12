@@ -848,7 +848,964 @@ operations = {
 	
 	
 	
+	GER_defeat_dday = {
+
+		icon = generic_operation
+
+		allowed = {
+			always = no
+			#added through on_action
+		}
+
+		available = {
+			
+			custom_trigger_tooltip = {
+				tooltip = GER_defeat_dday_tt
+			}
+
+			NOT = {
+					OR = {
+						USA = { controls_state = 735 }
+						ENG = { controls_state = 735 }
+						CAN = { controls_state = 735 }
+						SAF = { controls_state = 735 }
+						RAJ = { controls_state = 735 }
+						NZL = { controls_state = 735 }
+						AST = { controls_state = 735 }
+						FRF = { controls_state = 735 }
+						HOL = { controls_state = 735 }
+						BEL = { controls_state = 735 }
+						LUX = { controls_state = 735 }
+						DEN	= { controls_state = 735 }											
+					}
+					OR = {
+						USA = { controls_state = 21 }
+						ENG = { controls_state = 21 }
+						CAN = { controls_state = 21 }
+						SAF = { controls_state = 21 }
+						RAJ = { controls_state = 21 }
+						NZL = { controls_state = 21 }
+						AST = { controls_state = 21 }
+						FRF = { controls_state = 21 }
+						HOL = { controls_state = 21 }
+						BEL = { controls_state = 21 }
+						LUX = { controls_state = 21 }
+						DEN	= { controls_state = 21 }											
+					}
+										OR = {
+						USA = { controls_state = 18 }
+						ENG = { controls_state = 18 }
+						CAN = { controls_state = 18 }
+						SAF = { controls_state = 18 }
+						RAJ = { controls_state = 18 }
+						NZL = { controls_state = 18 }
+						AST = { controls_state = 18 }
+						FRF = { controls_state = 18 }
+						HOL = { controls_state = 18 }
+						BEL = { controls_state = 18 }
+						LUX = { controls_state = 18 }
+						DEN	= { controls_state = 18 }											
+					}
+										OR = {
+						USA = { controls_state = 31 }
+						ENG = { controls_state = 31 }
+						CAN = { controls_state = 31 }
+						SAF = { controls_state = 31 }
+						RAJ = { controls_state = 31 }
+						NZL = { controls_state = 31 }
+						AST = { controls_state = 31 }
+						FRF = { controls_state = 31 }
+						HOL = { controls_state = 31 }
+						BEL = { controls_state = 31 }
+						LUX = { controls_state = 31 }
+						DEN	= { controls_state = 31 }											
+					}
+										OR = {
+						USA = { controls_state = 19 }
+						ENG = { controls_state = 19 }
+						CAN = { controls_state = 19 }
+						SAF = { controls_state = 19 }
+						RAJ = { controls_state = 19 }
+						NZL = { controls_state = 19 }
+						AST = { controls_state = 19 }
+						FRF = { controls_state = 19 }
+						HOL = { controls_state = 19 }
+						BEL = { controls_state = 19 }
+						LUX = { controls_state = 19 }
+						DEN	= { controls_state = 19 }											
+					}
+										OR = {
+						USA = { controls_state = 23 }
+						ENG = { controls_state = 23 }
+						CAN = { controls_state = 23 }
+						SAF = { controls_state = 23 }
+						RAJ = { controls_state = 23 }
+						NZL = { controls_state = 23 }
+						AST = { controls_state = 23 }
+						FRF = { controls_state = 23 }
+						HOL = { controls_state = 23 }
+						BEL = { controls_state = 23 }
+						LUX = { controls_state = 23 }
+						DEN	= { controls_state = 23 }											
+					}
+										OR = {
+						USA = { controls_state = 30 }
+						ENG = { controls_state = 30 }
+						CAN = { controls_state = 30 }
+						SAF = { controls_state = 30 }
+						RAJ = { controls_state = 30 }
+						NZL = { controls_state = 30 }
+						AST = { controls_state = 30 }
+						FRF = { controls_state = 30 }
+						HOL = { controls_state = 30 }
+						BEL = { controls_state = 30 }
+						LUX = { controls_state = 30 }
+						DEN	= { controls_state = 30 }											
+					}
+										OR = {
+						USA = { controls_state = 14 }
+						ENG = { controls_state = 14 }
+						CAN = { controls_state = 14 }
+						SAF = { controls_state = 14 }
+						RAJ = { controls_state = 14 }
+						NZL = { controls_state = 14 }
+						AST = { controls_state = 14 }
+						FRF = { controls_state = 14 }
+						HOL = { controls_state = 14 }
+						BEL = { controls_state = 14 }
+						LUX = { controls_state = 14 }
+						DEN	= { controls_state = 14 }											
+					}
+										OR = {
+						USA = { controls_state = 15 }
+						ENG = { controls_state = 15 }
+						CAN = { controls_state = 15 }
+						SAF = { controls_state = 15 }
+						RAJ = { controls_state = 15 }
+						NZL = { controls_state = 15 }
+						AST = { controls_state = 15 }
+						FRF = { controls_state = 15 }
+						HOL = { controls_state = 15 }
+						BEL = { controls_state = 15 }
+						LUX = { controls_state = 15 }
+						DEN	= { controls_state = 15 }											
+					}
+										OR = {
+						USA = { controls_state = 785 }
+						ENG = { controls_state = 785 }
+						CAN = { controls_state = 785 }
+						SAF = { controls_state = 785 }
+						RAJ = { controls_state = 785 }
+						NZL = { controls_state = 785 }
+						AST = { controls_state = 785 }
+						FRF = { controls_state = 785 }
+						HOL = { controls_state = 785 }
+						BEL = { controls_state = 785 }
+						LUX = { controls_state = 785 }
+						DEN	= { controls_state = 785 }											
+					}
+										OR = {
+						USA = { controls_state = 29 }
+						ENG = { controls_state = 29 }
+						CAN = { controls_state = 29 }
+						SAF = { controls_state = 29 }
+						RAJ = { controls_state = 29 }
+						NZL = { controls_state = 29 }
+						AST = { controls_state = 29 }
+						FRF = { controls_state = 29 }
+						HOL = { controls_state = 29 }
+						BEL = { controls_state = 29 }
+						LUX = { controls_state = 29 }
+						DEN	= { controls_state = 29 }											
+					}
+										OR = {
+						USA = { controls_state = 6 }
+						ENG = { controls_state = 6 }
+						CAN = { controls_state = 6 }
+						SAF = { controls_state = 6 }
+						RAJ = { controls_state = 6 }
+						NZL = { controls_state = 6 }
+						AST = { controls_state = 6 }
+						FRF = { controls_state = 6 }
+						HOL = { controls_state = 6 }
+						BEL = { controls_state = 6 }
+						LUX = { controls_state = 6 }
+						DEN	= { controls_state = 6 }											
+					}
+										OR = {
+						USA = { controls_state = 7 }
+						ENG = { controls_state = 7 }
+						CAN = { controls_state = 7 }
+						SAF = { controls_state = 7 }
+						RAJ = { controls_state = 7 }
+						NZL = { controls_state = 7 }
+						AST = { controls_state = 7 }
+						FRF = { controls_state = 7 }
+						HOL = { controls_state = 7 }
+						BEL = { controls_state = 7 }
+						LUX = { controls_state = 7 }
+						DEN	= { controls_state = 7 }											
+					}
+										OR = {
+						USA = { controls_state = 36 }
+						ENG = { controls_state = 36 }
+						CAN = { controls_state = 36 }
+						SAF = { controls_state = 36 }
+						RAJ = { controls_state = 36 }
+						NZL = { controls_state = 36 }
+						AST = { controls_state = 36 }
+						FRF = { controls_state = 36 }
+						HOL = { controls_state = 36 }
+						BEL = { controls_state = 36 }
+						LUX = { controls_state = 36 }
+						DEN	= { controls_state = 36 }											
+					}
+										OR = {
+						USA = { controls_state = 56 }
+						ENG = { controls_state = 56 }
+						CAN = { controls_state = 56 }
+						SAF = { controls_state = 56 }
+						RAJ = { controls_state = 56 }
+						NZL = { controls_state = 56 }
+						AST = { controls_state = 56 }
+						FRF = { controls_state = 56 }
+						HOL = { controls_state = 56 }
+						BEL = { controls_state = 56 }
+						LUX = { controls_state = 56 }
+						DEN	= { controls_state = 56 }											
+					}
+										OR = {
+						USA = { controls_state = 59 }
+						ENG = { controls_state = 59 }
+						CAN = { controls_state = 59 }
+						SAF = { controls_state = 59 }
+						RAJ = { controls_state = 59 }
+						NZL = { controls_state = 59 }
+						AST = { controls_state = 59 }
+						FRF = { controls_state = 59 }
+						HOL = { controls_state = 59 }
+						BEL = { controls_state = 59 }
+						LUX = { controls_state = 59 }
+						DEN	= { controls_state = 59 }											
+					}
+										OR = {
+						USA = { controls_state = 58 }
+						ENG = { controls_state = 58 }
+						CAN = { controls_state = 58 }
+						SAF = { controls_state = 58 }
+						RAJ = { controls_state = 58 }
+						NZL = { controls_state = 58 }
+						AST = { controls_state = 58 }
+						FRF = { controls_state = 58 }
+						HOL = { controls_state = 58 }
+						BEL = { controls_state = 58 }
+						LUX = { controls_state = 58 }
+						DEN	= { controls_state = 58 }											
+					}
+										OR = {
+						USA = { controls_state = 99 }
+						ENG = { controls_state = 99 }
+						CAN = { controls_state = 99 }
+						SAF = { controls_state = 99 }
+						RAJ = { controls_state = 99 }
+						NZL = { controls_state = 99 }
+						AST = { controls_state = 99 }
+						FRF = { controls_state = 99 }
+						HOL = { controls_state = 99 }
+						BEL = { controls_state = 99 }
+						LUX = { controls_state = 99 }
+						DEN	= { controls_state = 99 }											
+					}
+										OR = {
+						USA = { controls_state = 61 }
+						ENG = { controls_state = 61 }
+						CAN = { controls_state = 61 }
+						SAF = { controls_state = 61 }
+						RAJ = { controls_state = 61 }
+						NZL = { controls_state = 61 }
+						AST = { controls_state = 61 }
+						FRF = { controls_state = 61 }
+						HOL = { controls_state = 61 }
+						BEL = { controls_state = 61 }
+						LUX = { controls_state = 61 }
+						DEN	= { controls_state = 61 }											
+					}
+										OR = {
+						USA = { controls_state = 62 }
+						ENG = { controls_state = 62 }
+						CAN = { controls_state = 62 }
+						SAF = { controls_state = 62 }
+						RAJ = { controls_state = 62 }
+						NZL = { controls_state = 62 }
+						AST = { controls_state = 62 }
+						FRF = { controls_state = 62 }
+						HOL = { controls_state = 62 }
+						BEL = { controls_state = 62 }
+						LUX = { controls_state = 62 }
+						DEN	= { controls_state = 62 }											
+					}
+										OR = {
+						USA = { controls_state = 63 }
+						ENG = { controls_state = 63 }
+						CAN = { controls_state = 63 }
+						SAF = { controls_state = 63 }
+						RAJ = { controls_state = 63 }
+						NZL = { controls_state = 63 }
+						AST = { controls_state = 63 }
+						FRF = { controls_state = 63 }
+						HOL = { controls_state = 63 }
+						BEL = { controls_state = 63 }
+						LUX = { controls_state = 63 }
+						DEN	= { controls_state = 63 }											
+					}
+										OR = {
+						USA = { controls_state = 85 }
+						ENG = { controls_state = 85 }
+						CAN = { controls_state = 85 }
+						SAF = { controls_state = 85 }
+						RAJ = { controls_state = 85 }
+						NZL = { controls_state = 85 }
+						AST = { controls_state = 85 }
+						FRF = { controls_state = 85 }
+						HOL = { controls_state = 85 }
+						BEL = { controls_state = 85 }
+						LUX = { controls_state = 85 }
+						DEN	= { controls_state = 85 }											
+					}
+										OR = {
+						USA = { controls_state = 788 }
+						ENG = { controls_state = 788 }
+						CAN = { controls_state = 788 }
+						SAF = { controls_state = 788 }
+						RAJ = { controls_state = 788 }
+						NZL = { controls_state = 788 }
+						AST = { controls_state = 788 }
+						FRF = { controls_state = 788 }
+						HOL = { controls_state = 788 }
+						BEL = { controls_state = 788 }
+						LUX = { controls_state = 788 }
+						DEN	= { controls_state = 788 }											
+					}
+										OR = {
+						USA = { controls_state = 763 }
+						ENG = { controls_state = 763 }
+						CAN = { controls_state = 763 }
+						SAF = { controls_state = 763 }
+						RAJ = { controls_state = 763 }
+						NZL = { controls_state = 763 }
+						AST = { controls_state = 763 }
+						FRF = { controls_state = 763 }
+						HOL = { controls_state = 763 }
+						BEL = { controls_state = 763 }
+						LUX = { controls_state = 763 }
+						DEN	= { controls_state = 763 }											
+					}
+				}
+			
+			
+
+		}
+
+		days_mission_timeout = 999
+		fire_only_once = yes
+
+		activation = {
+
+		}
+
+		is_good = no
+
+		complete_effect = {
+			set_global_flag = GDU_dday_defeated		
+			clr_global_flag = GDU_dday_started
+			add_war_support = 0.1
+			add_stability = 0.1
+			
+			add_equipment_to_stockpile = { type = infantry_equipment_2 amount = 8000 producer = USA }
+			add_equipment_to_stockpile = { type = infantry_equipment_3 amount = 2000 producer = USA }
+
+			add_equipment_to_stockpile = { type = anti_air_equipment_2 amount = 500 producer = USA }
+			add_equipment_to_stockpile = { type = anti_air_equipment_3 amount = 150 producer = USA }
+			
+			add_equipment_to_stockpile = { type = artillery_equipment_2 amount = 800 producer = USA }
+			add_equipment_to_stockpile = { type = artillery_equipment_3 amount = 200 producer = USA }			
+
+			add_equipment_to_stockpile = { type = anti_tank_equipment_2 amount = 600 producer = USA }
+			add_equipment_to_stockpile = { type = anti_tank_equipment_3 amount = 150 producer = USA }
+
+			add_equipment_to_stockpile = { type = motorized_equipment_1 amount = 1000 producer = USA }
+			add_equipment_to_stockpile = { type = mechanized_equipment_2 amount = 700 producer = USA }			
+			add_equipment_to_stockpile = { type = support_equipment_1 amount = 1000 producer = USA }
+
+			add_equipment_to_stockpile = { type = heavy_tank_equipment_2 amount = 200 producer = USA }
+			add_equipment_to_stockpile = { type = light_tank_equipment_2 amount = 200 producer = USA }
+			add_equipment_to_stockpile = { type = medium_tank_equipment_2 amount = 1000 producer = USA }
+						
+			add_timed_idea = { idea = GER_triumph_dday_idea days = 365 } 
+			USA = {
+				add_timed_idea = { idea = ALLIES_fail_dday_idea days = 365 }
+				add_war_support = -0.2
+				add_stability = -0.2
+				add_political_power = -50
+				add_popularity = {
+					ideology = fascism
+					popularity = 0.05
+				}
+				add_popularity = {
+					ideology = communism
+					popularity = 0.05
+				}
+				add_popularity = {
+					ideology = neutrality
+					popularity = 0.05
+				}				
+			}
+			ENG = {
+				add_timed_idea = { idea = ALLIES_fail_dday_idea days = 365 }
+				add_war_support = -0.2
+				add_stability = -0.2
+				add_political_power = -50
+				add_popularity = {
+					ideology = fascism
+					popularity = 0.05
+				}
+				add_popularity = {
+					ideology = communism
+					popularity = 0.05
+				}
+				add_popularity = {
+					ideology = neutrality
+					popularity = 0.05
+				}				
+			}
+			CAN = {
+				add_timed_idea = { idea = ALLIES_fail_dday_idea days = 365 }
+				add_war_support = -0.2
+				add_stability = -0.2
+				add_political_power = -50
+				add_popularity = {
+					ideology = fascism
+					popularity = 0.05
+				}
+				add_popularity = {
+					ideology = communism
+					popularity = 0.05
+				}
+				add_popularity = {
+					ideology = neutrality
+					popularity = 0.05
+				}				
+			}			
+			SAF = {
+				add_timed_idea = { idea = ALLIES_fail_dday_idea days = 365 }
+				add_war_support = -0.2
+				add_stability = -0.2
+				add_political_power = -50
+				add_popularity = {
+					ideology = fascism
+					popularity = 0.05
+				}
+				add_popularity = {
+					ideology = communism
+					popularity = 0.05
+				}
+				add_popularity = {
+					ideology = neutrality
+					popularity = 0.05
+				}				
+			}
+			AST = {
+				add_timed_idea = { idea = ALLIES_fail_dday_idea days = 365 }
+				add_war_support = -0.2
+				add_stability = -0.2
+				add_political_power = -50
+				add_popularity = {
+					ideology = fascism
+					popularity = 0.05
+				}
+				add_popularity = {
+					ideology = communism
+					popularity = 0.05
+				}
+				add_popularity = {
+					ideology = neutrality
+					popularity = 0.05
+				}				
+			}			
+			USA = {
+				add_timed_idea = { idea = ALLIES_fail_dday_idea days = 365 }
+				add_war_support = -0.2
+				add_stability = -0.2
+				add_political_power = -50
+				add_popularity = {
+					ideology = fascism
+					popularity = 0.05
+				}
+				add_popularity = {
+					ideology = communism
+					popularity = 0.05
+				}
+				add_popularity = {
+					ideology = neutrality
+					popularity = 0.05
+				}				
+			}
+			NZL = {
+				add_timed_idea = { idea = ALLIES_fail_dday_idea days = 365 }
+				add_war_support = -0.2
+				add_stability = -0.2
+				add_political_power = -50
+				add_popularity = {
+					ideology = fascism
+					popularity = 0.05
+				}
+				add_popularity = {
+					ideology = communism
+					popularity = 0.05
+				}
+				add_popularity = {
+					ideology = neutrality
+					popularity = 0.05
+				}				
+			}
+			USA = {
+				add_timed_idea = { idea = ALLIES_fail_dday_idea days = 365 }
+				add_war_support = -0.2
+				add_stability = -0.2
+				add_political_power = -50
+				add_popularity = {
+					ideology = fascism
+					popularity = 0.05
+				}
+				add_popularity = {
+					ideology = communism
+					popularity = 0.05
+				}
+				add_popularity = {
+					ideology = neutrality
+					popularity = 0.05
+				}				
+			}
+			RAJ = {
+				add_timed_idea = { idea = ALLIES_fail_dday_idea days = 365 }
+				add_war_support = -0.2
+				add_stability = -0.2
+				add_political_power = -50
+				add_popularity = {
+					ideology = fascism
+					popularity = 0.05
+				}
+				add_popularity = {
+					ideology = communism
+					popularity = 0.05
+				}
+				add_popularity = {
+					ideology = neutrality
+					popularity = 0.05
+				}				
+			}
+			FRF = {
+				add_timed_idea = { idea = ALLIES_fail_dday_idea days = 365 }
+				add_war_support = -0.2
+				add_stability = -0.2
+				add_political_power = -50
+				add_popularity = {
+					ideology = fascism
+					popularity = 0.05
+				}
+				add_popularity = {
+					ideology = communism
+					popularity = 0.05
+				}
+				add_popularity = {
+					ideology = neutrality
+					popularity = 0.05
+				}				
+			}			
+			
+			
+		}
+
+		timeout_effect = {
+			set_global_flag = GDU_dday_succeeded				
+ 			set_global_flag = GDU_dday_started
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	
+	
+	
+	
+	
+	liberate_AST_mission = {
+
+		icon = generic_operation
+
+		allowed = {
+			always = no
+			#added through on_action
+		}
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = liberate_AST_mission_tt
+			}
+					OR = {
+						AST = { controls_state = 520 }
+						ENG = { controls_state = 520 }
+					}
+					OR = {
+						AST = { controls_state = 521 }
+						ENG = { controls_state = 521 }										
+					}
+					OR = {
+						AST = { controls_state = 285 }
+						ENG = { controls_state = 285 }										
+					}
+					OR = {
+						AST = { controls_state = 517 }
+						ENG = { controls_state = 517 }										
+					}
+					OR = {
+						AST = { controls_state = 519 }
+						ENG = { controls_state = 519 }										
+					}
+					OR = {
+						AST = { controls_state = 522 }
+						ENG = { controls_state = 522 }										
+					}
+					
+				
+			
+			}
+
+		
+
+		days_mission_timeout = 365
+		fire_only_once = yes
+
+		activation = {
+
+		}
+
+		is_good = no
+
+		complete_effect = {
+			add_stability = 0.10
+			add_war_support = 0.10
+			remove_ideas = ALLIES_AST_capitulated_idea
+			JAP = {
+				remove_ideas = JAP_AST_resources
+				remove_ideas = JAP_triumph_AST_idea				
+			}
+		}
+
+		timeout_effect = {
+			add_stability = -0.05
+			add_war_support = -0.05	
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	
+	
+
+
+	liberate_RAJ_mission = {
+
+		icon = generic_operation
+
+		allowed = {
+			always = no
+			#added through on_action
+		}
+
+		available = {
+			
+			custom_trigger_tooltip = {
+				tooltip = liberate_RAJ_mission_tt
+			}
+
+					OR = {
+						RAJ = { controls_state = 444 }
+						ENG = { controls_state = 444 }
+					}
+					OR = {
+						RAJ = { controls_state = 445 }
+						ENG = { controls_state = 445 }										
+					}
+					OR = {
+						RAJ = { controls_state = 442 }
+						ENG = { controls_state = 442 }										
+					}
+					OR = {
+						RAJ = { controls_state = 440 }
+						ENG = { controls_state = 440 }										
+					}
+					OR = {
+						RAJ = { controls_state = 787 }
+						ENG = { controls_state = 787 }										
+					}
+					OR = {
+						RAJ = { controls_state = 441 }
+						ENG = { controls_state = 441 }										
+					}
+					OR = {
+						RAJ = { controls_state = 439 }
+						ENG = { controls_state = 439 }										
+					}
+					OR = {
+						RAJ = { controls_state = 433 }
+						ENG = { controls_state = 433 }										
+					}
+					OR = {
+						RAJ = { controls_state = 428 }
+						ENG = { controls_state = 428 }										
+					}
+					OR = {
+						RAJ = { controls_state = 438 }
+						ENG = { controls_state = 438 }										
+					}
+					OR = {
+						RAJ = { controls_state = 435 }
+						ENG = { controls_state = 435 }										
+					}
+					OR = {
+						RAJ = { controls_state = 431 }
+						ENG = { controls_state = 431 }										
+					}
+					OR = {
+						RAJ = { controls_state = 430 }
+						ENG = { controls_state = 430 }										
+					}
+					OR = {
+						RAJ = { controls_state = 426 }
+						ENG = { controls_state = 426 }										
+					}
+					OR = {
+						RAJ = { controls_state = 436 }
+						ENG = { controls_state = 436 }										
+					}
+					OR = {
+						RAJ = { controls_state = 429 }
+						ENG = { controls_state = 429 }										
+					}
+					OR = {
+						RAJ = { controls_state = 427 }
+						ENG = { controls_state = 427 }										
+					}
+					OR = {
+						RAJ = { controls_state = 425 }
+						ENG = { controls_state = 425 }										
+					}
+					OR = {
+						RAJ = { controls_state = 424 }
+						ENG = { controls_state = 424 }										
+					}
+					OR = {
+						RAJ = { controls_state = 423 }
+						ENG = { controls_state = 423 }										
+					}					
+					
+				
+			
+			}
+
+		
+
+		days_mission_timeout = 365
+		fire_only_once = yes
+
+		activation = {
+
+		}
+
+		is_good = no
+
+		complete_effect = {
+			add_stability = 0.10
+			add_war_support = 0.10
+			remove_ideas = ALLIES_RAJ_capitulated_idea
+			JAP = {
+				remove_ideas = JAP_RAJ_resources
+				remove_ideas = JAP_triumph_RAJ_idea				
+			}
+		}
+
+		timeout_effect = {
+			add_stability = -0.05
+			add_war_support = -0.05	
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	
+	
+	
+	
+	liberate_SAF_mission = {
+
+		icon = generic_operation
+
+		allowed = {
+			always = no
+			#added through on_action
+		}
+
+		available = {
+			
+			custom_trigger_tooltip = {
+				tooltip = liberate_SAF_mission_tt
+			}
+
+					OR = {
+						SAF = { controls_state = 541 }
+						ENG = { controls_state = 541 }
+					}
+					OR = {
+						SAF = { controls_state = 681 }
+						ENG = { controls_state = 681 }										
+					}
+					OR = {
+						SAF = { controls_state = 275 }
+						ENG = { controls_state = 275 }										
+					}
+					OR = {
+						SAF = { controls_state = 719 }
+						ENG = { controls_state = 719 }										
+					}
+					
+				
+			
+			}
+
+		
+
+		days_mission_timeout = 365
+		fire_only_once = yes
+
+		activation = {
+
+		}
+
+		is_good = no
+
+		complete_effect = {
+			add_stability = 0.10
+			add_war_support = 0.10
+			remove_ideas = ALLIES_SAF_capitulated_idea
+			JAP = {
+				remove_ideas = JAP_SAF_resources
+				remove_ideas = JAP_triumph_SAF_idea				
+			}
+		}
+
+		timeout_effect = {
+			add_stability = -0.05
+			add_war_support = -0.05	
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+	
+	
+	
+	
+	
+	
+
+	liberate_NZL_mission = {
+
+		icon = generic_operation
+
+		allowed = {
+			always = no
+			#added through on_action
+		}
+
+		available = {
+			
+			custom_trigger_tooltip = {
+				tooltip = liberate_NZL_mission_tt
+			}
+
+					OR = {
+						NZL = { controls_state = 723 }
+						ENG = { controls_state = 723 }
+						AST = { controls_state = 723 }						
+					}
+					OR = {
+						NZL = { controls_state = 284 }
+						ENG = { controls_state = 284 }
+						AST = { controls_state = 284 }						
+					}
+					
+				
+			
+			}
+
+		
+
+		days_mission_timeout = 365
+		fire_only_once = yes
+
+		activation = {
+
+		}
+
+		is_good = no
+
+		complete_effect = {
+			add_stability = 0.10
+			add_war_support = 0.10
+			remove_ideas = ALLIES_NZL_capitulated_idea
+			JAP = {
+				remove_ideas = JAP_NZL_resources
+				remove_ideas = JAP_triumph_NZL_idea				
+			}
+		}
+
+		timeout_effect = {
+			add_stability = -0.05
+			add_war_support = -0.05	
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }
+
+
+
+
+
 
 foreign_politics = { 
 
