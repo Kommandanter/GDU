@@ -10,12 +10,12 @@ state=
 	
 	state_category = rural
 
-	history=
-	{
+	history= {
 		owner = ENG
 		victory_points = {
 			7371 5
 		}
+		set_demilitarized_zone = yes
 		buildings = {
 			infrastructure = 1
 			1208 = {
