@@ -1,6 +1,27 @@
 ideas = {
 
 	hidden_ideas = {
+	
+		RAJ_synthetic_rubber = {
+			
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = FRA_motorized_focus
+			
+			modifier = {
+				production_speed_synthetic_refinery_factor = 0.2
+			}
+		}	
+		
 		RAJ_lions_of_the_great_war = {
 
 			allowed = {

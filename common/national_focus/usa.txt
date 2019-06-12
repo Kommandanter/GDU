@@ -1761,19 +1761,20 @@ focus_tree = {
    	focus = {
    		id = USA_rubber_reserve_company
    		icon = GFX_focus_generic_rubber
-   		prerequisite = { focus = USA_war_plan_orange }
+   		prerequisite = { focus = USA_office_of_scientific_research_and_development }
    		available = {
-			date > 1941.1.1 
+			has_war_with = JAP
    		}
 		x = 0
 		y = 1
-		relative_position_id = USA_war_plan_orange
-   		cost = 5
+		relative_position_id = USA_office_of_scientific_research_and_development
+   		cost = 10
    		completion_reward = {
+			add_ideas = USA_synthetic_rubber_program
    			add_tech_bonus = {
    				name = USA_rubber_reserve_company
    				bonus = 1.0
-   				uses = 2
+   				uses = 1
    				technology = rubber_processing
    				technology = improved_rubber_processing
    				technology = advanced_rubber_processing
@@ -1781,7 +1782,7 @@ focus_tree = {
    			}
 				add_resource = {
 					type = rubber
-					amount = 60
+					amount = 6
 					state = 369 #Kentucky
 				}
    		}

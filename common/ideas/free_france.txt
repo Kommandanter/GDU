@@ -40,7 +40,7 @@ ideas = {
 				research_speed_factor =0.05
 			}
 		}
-		FRA_joint_french_and_russian_rubber_refinery_program = {
+		FRA_rubber_refinery_program = {
 		
 		    picture = generic_goods_red_bonus
 			
@@ -56,7 +56,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-                production_speed_synthetic_refinery_factor = 0.1
+                production_speed_synthetic_refinery_factor = 0.20
 			}
 		}
 		FRA_FREE_gold_reserves = {
@@ -119,23 +119,7 @@ ideas = {
 				conscription = 0.025
 			}
 		}
-		FRA_FREE_joint_french_and_russian_rubber_refinery_program = {
-			
-			allowed = {
-				original_tag = FRF
-				always = no
-			}
 
-			allowed_civil_war = {
-				always = no
-			}
-
-			removal_cost = -1
-			
-			modifier = {
-                production_speed_synthetic_refinery_factor = 0.05
-			}
-		}
 	}
 	
 	

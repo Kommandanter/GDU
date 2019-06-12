@@ -21,6 +21,43 @@ focus_tree = {
 
 	continuous_focus_position = { x = 50 y = 1000 }
 
+
+	focus = {
+		id = AST_synthetic_rubber
+		icon = GFX_focus_generic_rubber
+		prerequisite = { focus = AST_research_collaboration }
+		x = 0
+		y = 1
+		relative_position_id = AST_research_collaboration
+		cost = 10
+		ai_will_do = {
+			factor = 4
+		}
+
+		available = {
+			has_war_with = JAP
+		}
+
+		completion_reward = {
+			add_ideas = AST_synthetic_rubber
+        	modify_building_resources = {
+        	   building = synthetic_refinery
+        	   resource = rubber
+        	   amount = 1
+        	}
+			add_tech_bonus = {
+				name = AST_rubber
+				bonus = 1
+				uses = 1
+				technology = rubber_processing
+				technology = improved_rubber_processing
+				technology = advanced_rubber_processing
+				technology = modern_rubber_processing
+			}
+		}
+	}
+
+
 #	focus = {
 #		id = AST_
 #		icon = GFX_goal_generic_construction

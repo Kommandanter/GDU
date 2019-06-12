@@ -1,6 +1,27 @@
 ideas = {
 
 	country = {
+	
+		CAN_synthetic_rubber = {
+			
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = FRA_motorized_focus
+			
+			modifier = {
+				production_speed_synthetic_refinery_factor = 0.2
+			}
+		}		
+	
 		CAN_great_depression_1 = {
 
 			allowed = {

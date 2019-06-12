@@ -2896,7 +2896,7 @@ focus_tree = {
 	focus = {
 		id = ENG_war_with_japan
 		available = {
-			date > 1941.1.1 	
+			date > 1941.8.15 	
 		}
 		bypass = {
 			has_war_with = JAP
@@ -2923,13 +2923,17 @@ focus_tree = {
 	focus = {
 		id = ENG_synthetic_rubber
 		icon = GFX_focus_generic_rubber
-		prerequisite = { focus = ENG_war_with_japan }
-		x = 0
+		prerequisite = { focus = uk_extra_tech_slot }
+		x = 2
 		y = 1
-		relative_position_id = ENG_war_with_japan
-		cost = 5
+		relative_position_id = uk_extra_tech_slot
+		cost = 10
 		ai_will_do = {
 			factor = 4
+		}
+
+		available = {
+			has_war_with = JAP
 		}
 
 		completion_reward = {
@@ -2938,14 +2942,14 @@ focus_tree = {
         	#   resource = oil
         	#   amount = -2
         	#}
-
+			add_ideas = ENG_synthetic_rubber
         	modify_building_resources = {
         	   building = synthetic_refinery
         	   resource = rubber
         	   amount = 1
         	}
 			add_tech_bonus = {
-				name = GER_coal_liquidization
+				name = eng_rubber
 				bonus = 1
 				uses = 1
 				technology = rubber_processing

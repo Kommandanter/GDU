@@ -581,7 +581,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = FRA_joint_refinery
+		id = FRA_refinery
 		icon = GFX_goal_generic_army_motorized
 		prerequisite = {
 			focus = FRA_research_efforts
@@ -593,11 +593,15 @@ focus_tree = {
 
 		available_if_capitulated = yes
 
+		available = { 
+			has_war_with = JAP
+		}
+
 		completion_reward = {
-			add_ideas = FRA_joint_french_and_russian_rubber_refinery_program
+			add_ideas = FRA_rubber_refinery_program
 			add_tech_bonus = {
-				name = USA_rubber_reserve_company
-				bonus = 0.5
+				name = FRA_rubber
+				bonus = 1
 				uses = 1
 				technology = rubber_processing
 				technology = improved_rubber_processing

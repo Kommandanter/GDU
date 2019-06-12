@@ -51,6 +51,41 @@ focus_tree = {
 #	}
 
 
+	focus = {
+		id = RAJ_synthetic_rubber
+		icon = GFX_focus_generic_rubber
+		prerequisite = { focus = RAJ_indian_institute_of_science }
+		x = 1
+		y = 2
+		relative_position_id = RAJ_indian_institute_of_science
+		cost = 10
+		ai_will_do = {
+			factor = 4
+		}
+
+		available = {
+			has_war_with = JAP
+		}
+
+		completion_reward = {
+			add_ideas = RAJ_synthetic_rubber
+        	modify_building_resources = {
+        	   building = synthetic_refinery
+        	   resource = rubber
+        	   amount = 1
+        	}
+			add_tech_bonus = {
+				name = RAJ_rubber
+				bonus = 1
+				uses = 1
+				technology = rubber_processing
+				technology = improved_rubber_processing
+				technology = advanced_rubber_processing
+				technology = modern_rubber_processing
+			}
+		}
+	}
+
 	############################
 	## THE BIG QUEEN SECTION ###
 	############################
