@@ -1769,9 +1769,6 @@ focus_tree = {
 		y = 1
 		relative_position_id = USA_war_plan_orange
    		cost = 5
-		available = {
-			date > 1941.1.1 	
-		}
    		completion_reward = {
    			add_tech_bonus = {
    				name = USA_rubber_reserve_company
