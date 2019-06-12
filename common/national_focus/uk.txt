@@ -2921,6 +2921,42 @@ focus_tree = {
 	}
 	
 	focus = {
+		id = ENG_synthetic_rubber
+		icon = GFX_focus_generic_rubber
+		prerequisite = { focus = ENG_war_with_japan }
+		x = 0
+		y = 1
+		relative_position_id = ENG_war_with_japan
+		cost = 5
+		ai_will_do = {
+			factor = 4
+		}
+
+		completion_reward = {
+			#modify_building_resources = {
+        	#   building = synthetic_refinery
+        	#   resource = oil
+        	#   amount = -2
+        	#}
+
+        	modify_building_resources = {
+        	   building = synthetic_refinery
+        	   resource = rubber
+        	   amount = 1
+        	}
+			add_tech_bonus = {
+				name = GER_coal_liquidization
+				bonus = 1
+				uses = 1
+				technology = rubber_processing
+				technology = improved_rubber_processing
+				technology = advanced_rubber_processing
+				technology = modern_rubber_processing
+			}
+		}
+	}
+	
+	focus = {
 		id = uk_commonwealth_focus 
 		prerequisite = { focus = uk_colonial_focus }
 		available = {

@@ -580,4 +580,30 @@ focus_tree = {
 			SOV = { add_equipment_to_stockpile = { type = fighter_equipment_2 amount = 100 producer = FRA } }
 		}
 	}
+	focus = {
+		id = FRA_joint_refinery
+		icon = GFX_goal_generic_army_motorized
+		prerequisite = {
+			focus = FRA_research_efforts
+			focus = FRA_develop_our_resources
+		}
+		x = 4
+		y = 4
+		cost = 5
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = FRA_joint_french_and_russian_rubber_refinery_program
+			add_tech_bonus = {
+				name = USA_rubber_reserve_company
+				bonus = 0.5
+				uses = 1
+				technology = rubber_processing
+				technology = improved_rubber_processing
+				technology = advanced_rubber_processing
+				technology = modern_rubber_processing
+			}
+		}
+	}
 }

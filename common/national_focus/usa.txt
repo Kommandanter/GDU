@@ -1758,6 +1758,37 @@ focus_tree = {
 			}
 		}
 	}
+   	focus = {
+   		id = USA_rubber_reserve_company
+   		icon = GFX_focus_generic_rubber
+   		prerequisite = { focus = USA_war_plan_orange }
+   		available = {
+			date > 1941.1.1 
+   		}
+		x = 0
+		y = 1
+		relative_position_id = USA_war_plan_orange
+   		cost = 5
+		available = {
+			date > 1941.1.1 	
+		}
+   		completion_reward = {
+   			add_tech_bonus = {
+   				name = USA_rubber_reserve_company
+   				bonus = 1.0
+   				uses = 2
+   				technology = rubber_processing
+   				technology = improved_rubber_processing
+   				technology = advanced_rubber_processing
+   				technology = modern_rubber_processing
+   			}
+				add_resource = {
+					type = rubber
+					amount = 60
+					state = 369 #Kentucky
+				}
+   		}
+   	}
 
 #   #  ##  ###      ###  ### ###   ##  ###  ### #   # ### #  # ### 
 #   # #  # #  #     #  # #   #  # #  # #  #  #  ## ## #   ## #  #  
@@ -3009,12 +3040,4 @@ focus_tree = {
 			}
 		}
 	}
-
-	
-
-	
-
-	
-
-	
 }
