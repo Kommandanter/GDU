@@ -1782,7 +1782,7 @@ focus_tree = {
    			}
 				add_resource = {
 					type = rubber
-					amount = 6
+					amount = 8
 					state = 369 #Kentucky
 				}
    		}

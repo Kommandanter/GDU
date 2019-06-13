@@ -81,8 +81,8 @@
  FRA_research_efforts_desc:0 "Given our exile, we're short on personnel for research. Using the last of our gold reserves to hire foreign experts to advise us on modernization and technology seems like a wise move."
  FRA_air_squadron:0 "French Air Mission to the USSR"
  FRA_air_squadron_desc:0 "With the German invasion of the USSR, we must establish closer ties with the Soviets isnce we are now allies. We shall send a squadron of French aircraft to the eastern Front to fight side byside with the Soviet Air Force."
- FRA_joint_refinery:0 "Free French Synthetic Rubber Program"
- FRA_joint_refinery_desc:0 "With war against Japan having begun, we must prepare for the possibility that our natural rubber supply in Asia will be lost. We shall start a program to produce synthetic rubber to fulfill our resource needs."
+ FRA_joint_refinery:0 "French Synthetic Rubber Program"
+ FRA_joint_refinery_desc:0 "With war against Japan having begun, we must prepare for the possibility that our natural rubber supply in Asia will be lost. We shall start a program to produce synthetic rubber to fulfill our resource needs. To do this we must work with the British, Americans and Soviets to set up facilities."
 
  
  ENG_blood_toil_tears:0 "Blood, Toil, Tears, and Sweat" 

@@ -18,7 +18,7 @@ ideas = {
 			picture = FRA_motorized_focus
 			
 			modifier = {
-				production_speed_synthetic_refinery_factor = 0.2
+				production_speed_synthetic_refinery_factor = 0.15
 			}
 		}		
 	
@@ -37,7 +37,8 @@ ideas = {
 			picture = great_depression
 
 			modifier = {
-				consumer_goods_factor = 0.25											industrial_capacity_factory = -0.20
+				consumer_goods_factor = 0.25											
+				industrial_capacity_factory = -0.20
 				industrial_capacity_dockyard = -0.20
 			}
 		}
