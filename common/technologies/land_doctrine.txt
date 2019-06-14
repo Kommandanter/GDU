@@ -2762,6 +2762,9 @@ technologies = {
 		#reduced pocketed combat penalty and/or reduces the out of supply penalty or increases time before moving to worse penalty
 		no_supply_grace = 48 # more hours before supply penalty changes
 		out_of_supply_factor = -0.10
+		category_light_infantry = {
+			defense = 0.05
+		}
 
 		path = {
 			leads_to_tech = defence_in_depth
@@ -2803,6 +2806,7 @@ technologies = {
 		infantry = {
 			max_organisation = 5
 			max_strength = 5.5
+			defense = 0.05
 		}
 
 
