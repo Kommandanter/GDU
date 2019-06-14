@@ -581,7 +581,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = FRA_refinery
+		id = FRA_joint_refinery
 		icon = GFX_goal_generic_army_motorized
 		prerequisite = {
 			focus = FRA_research_efforts
