@@ -176,6 +176,87 @@ on_actions = {
 					}
 					EFR = { transfer_state = 735 }
 				}
+				
+				
+				
+				
+				if = {
+						limit = {
+						AND = {
+							21 = { #Provence
+								is_controlled_by = ITA
+							}
+						}
+					}
+					ITA = { transfer_state = 21 }
+					21 = { add_claim_by = ITA }										
+				}
+				if = {
+					limit = {
+						AND = {
+							1 = { #Corsica
+								is_controlled_by = ITA
+							}
+						}
+					}
+					ITA = { transfer_state = 1 }
+					1 = { add_claim_by = ITA }										
+				}
+				if = {
+					limit = {
+						AND = {
+							665 = { #Gabes
+								is_controlled_by = ITA 
+							}
+						}
+					}
+					ITA = { transfer_state = 665 }
+					665 = { add_claim_by = ITA }										
+				}
+				if = {
+					limit = {
+						AND = {
+							805 = { #Sfax
+								is_controlled_by = ITA
+							}
+						}
+					}
+					ITA = { transfer_state = 805 }
+					805 = { add_claim_by = ITA }										
+				}				
+				if = {
+					limit = {
+						AND = {
+							458 = { #Tunisia
+								is_controlled_by = ITA
+							}
+						}
+					}
+					ITA = { transfer_state = 458 }
+					458 = { add_claim_by = ITA }					
+				}
+				if = {
+					limit = {
+						AND = { 
+							32 = { #Alpes
+								is_controlled_by = ITA 
+							}
+						}
+					}
+					ITA = { transfer_state = 32 }
+					32 = { add_claim_by = ITA }					
+				}
+				if = {
+					limit = {
+						AND = { 
+							735 = { #Savoy
+								is_controlled_by = ITA 
+							}
+						}
+					}
+					ITA = { transfer_state = 735 }
+					735 = { add_claim_by = ITA }
+				}				
 			
 				EFR = {
 					transfer_state = 26
