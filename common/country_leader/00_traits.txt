@@ -1158,8 +1158,8 @@ leader_traits = {
 		random = no 
 		consumer_goods_factor = -0.1
 		industry_free_repair_factor = 1
-		production_factory_efficiency_gain_factor = 0.3
-		conversion_cost_civ_to_mil_factor = -0.6
+		production_factory_efficiency_gain_factor = 0.2
+		conversion_cost_civ_to_mil_factor = -0.3
 		
 		ai_will_do = { 
 			factor = 5 
