@@ -2937,6 +2937,11 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			#modify_building_resources = {
+        	#   building = synthetic_refinery
+        	#   resource = oil
+        	#   amount = -2
+        	#}
 			add_ideas = ENG_synthetic_rubber
         	modify_building_resources = {
         	   building = synthetic_refinery
