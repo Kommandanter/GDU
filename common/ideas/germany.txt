@@ -1108,7 +1108,7 @@ ideas = {
 			}
 			available = { 
 				date > 1941.7.1
-				has ideas = total_mobilization
+				has ideas = tot_economic_mobilisation
 			}
 
 			traits = { total_war_organizer }
