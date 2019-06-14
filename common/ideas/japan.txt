@@ -577,19 +577,19 @@ ideas = {
 			equipment_bonus = {
 				fighter_equipment = {
 					instant = yes
-					build_cost_ic = -0.035
+					build_cost_ic = -0.0175
 				}
 				jet_fighter_equipment = {
 					instant = yes
-					build_cost_ic = -0.035
+					build_cost_ic = -0.0175
 				}
 				rocket_interceptor_equipment = {
 					instant = yes
-					build_cost_ic = -0.035
+					build_cost_ic = -0.0175
 				}
 				heavy_fighter_equipment = {
 					instant = yes
-					build_cost_ic = -0.035
+					build_cost_ic = -0.0175
 				}					
 
 				armor = {
@@ -690,19 +690,19 @@ ideas = {
 			equipment_bonus = {
 				fighter_equipment = {
 					instant = yes
-					build_cost_ic = -0.0475
+					build_cost_ic = -0.02375
 				}
 				jet_fighter_equipment = {
 					instant = yes
-					build_cost_ic = -0.0475
+					build_cost_ic = -0.02375
 				}
 				rocket_interceptor_equipment = {
 					instant = yes
-					build_cost_ic = -0.0475
+					build_cost_ic = -0.02375
 				}
 				heavy_fighter_equipment = {
 					instant = yes
-					build_cost_ic = -0.0475
+					build_cost_ic = -0.02375
 				}		
 				
 				carrier = {
@@ -840,19 +840,19 @@ ideas = {
 			equipment_bonus = {
 				fighter_equipment = {
 					instant = yes
-					build_cost_ic = -0.06
+					build_cost_ic = -0.03
 				}
 				jet_fighter_equipment = {
 					instant = yes
-					build_cost_ic = -0.06
+					build_cost_ic = -0.03
 				}
 				rocket_interceptor_equipment = {
 					instant = yes
-					build_cost_ic = -0.06
+					build_cost_ic = -0.03
 				}
 				heavy_fighter_equipment = {
 					instant = yes
-					build_cost_ic = -0.06
+					build_cost_ic = -0.03
 				}		
 				
 				carrier = {
@@ -991,19 +991,19 @@ ideas = {
 			equipment_bonus = {
 				fighter_equipment = {
 					instant = yes
-					build_cost_ic = -0.0475
+					build_cost_ic = -0.02375
 				}
 				jet_fighter_equipment = {
 					instant = yes
-					build_cost_ic = -0.0475
+					build_cost_ic = -0.02375
 				}
 				rocket_interceptor_equipment = {
 					instant = yes
-					build_cost_ic = -0.0475
+					build_cost_ic = -0.02375
 				}
 				heavy_fighter_equipment = {
 					instant = yes
-					build_cost_ic = -0.0475
+					build_cost_ic = -0.02375
 				}		
 				
 				carrier = {
@@ -1141,19 +1141,19 @@ ideas = {
 			equipment_bonus = {
 				fighter_equipment = {
 					instant = yes
-					build_cost_ic = -0.035
+					build_cost_ic = -0.0175
 				}
 				jet_fighter_equipment = {
 					instant = yes
-					build_cost_ic = -0.035
+					build_cost_ic = -0.0175
 				}
 				rocket_interceptor_equipment = {
 					instant = yes
-					build_cost_ic = -0.035
+					build_cost_ic = -0.0175
 				}
 				heavy_fighter_equipment = {
 					instant = yes
-					build_cost_ic = -0.035
+					build_cost_ic = -0.0175
 				}				
 				
 				carrier = {
@@ -1727,25 +1727,25 @@ ideas = {
 
 			equipment_bonus = {
 				CAS_equipment = {
-					build_cost_ic = -0.05 instant = yes
+					build_cost_ic = -0.04 instant = yes
 				}
 				tac_bomber_equipment = {
-					build_cost_ic = -0.05 instant = yes
+					build_cost_ic = -0.04 instant = yes
 				}
 				fighter_equipment = { 
-					build_cost_ic = -0.05
+					build_cost_ic = -0.04
 				}
 				jet_fighter_equipment = {
 					instant = yes
-					build_cost_ic = -0.05
+					build_cost_ic = -0.04
 				}				
 				jet_tac_bomber_equipment = {
 					instant = yes
-					build_cost_ic = -0.05
+					build_cost_ic = -0.04
 				}
 				rocket_interceptor_equipment = {
 					instant = yes
-					build_cost_ic = -0.05
+					build_cost_ic = -0.04
 				}
 			}
 		}
@@ -1766,20 +1766,20 @@ ideas = {
 
 			equipment_bonus = {
 				cv_fighter_equipment = {
-					build_cost_ic = -0.05 instant = yes
+					build_cost_ic = -0.04 instant = yes
 				}
 				cv_CAS_equipment = {
-					build_cost_ic = -0.05 instant = yes
+					build_cost_ic = -0.04 instant = yes
 				}
 				cv_nav_bomber_equipment = {
-					build_cost_ic = -0.05 instant = yes
+					build_cost_ic = -0.04 instant = yes
 				}
 				nav_bomber_equipment = {
-					build_cost_ic = -0.05 instant = yes
+					build_cost_ic = -0.04 instant = yes
 				}
 				heavy_fighter_equipment = {
 					instant = yes
-					build_cost_ic = -0.05
+					build_cost_ic = -0.04
 				}				
 			}
 		}

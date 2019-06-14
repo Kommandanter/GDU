@@ -8,7 +8,7 @@ state={
 		aluminium=1 # was: 104
 	}	
 	
-	state_category = rural
+	state_category = town
 
 	history={
 		owner = HOL
