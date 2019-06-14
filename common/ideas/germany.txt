@@ -1107,7 +1107,7 @@ ideas = {
 				original_tag = GER
 			}
 			available = { 
-				date > 1943.1.1 
+				date > 1941.7.1 
 			}
 
 			traits = { total_war_organizer }
