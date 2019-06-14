@@ -1107,8 +1107,8 @@ ideas = {
 				original_tag = GER
 			}
 			available = { 
-				date > 1941.7.1
-				has ideas = tot_economic_mobilisation
+				date > 1941.6.1
+				GER = { has_idea = tot_economic_mobilisation }
 			}
 
 			traits = { total_war_organizer }

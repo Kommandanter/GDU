@@ -11,7 +11,7 @@ add_ideas = {
 	GDU_scuffed_acclim
 }
 
-set_technology = {desert_fox 
+set_technology = { 
 	interwar_antiair = 1
 	infantry_weapons = 1
 	infantry_weapons1 = 1
