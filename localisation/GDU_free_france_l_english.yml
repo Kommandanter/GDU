@@ -27,6 +27,7 @@
  FRF_FRA_factory_strikes:0 "Factory Strikes"
  FRF_FRA_matignon_agreements:0 "Matignon Agreements"
  FRF_FRA_communism_banned:0 "Communism Banned"
+ french_research_name:0 "Free French Research Group" 
  
  andre_marty:0 "André Marty"
  FRF_rene_cassin:0 "René Cassin"
@@ -59,8 +60,6 @@
  FRF_victor_denain:0 "Victor Denain"
  FRF_jean_marie_bergeret:0 "Jean-Marie Bergeret"
  FRF_frederic_irene_joliot_curie:0 "Frédéric & Iréne Joliot-Curie" 
- 
- french_research_name:0 "Free French Research Group" 
  
  FRF_renault_fra:0 "Renault"
  FRF_somua1:0 "Somua"
