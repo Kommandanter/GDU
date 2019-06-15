@@ -152,62 +152,62 @@ create_country_leader = {
 	}
 }
 
-create_corps_commander = {
-	name = "Zhang Haipeng"
-	GFX = "GFX_portrait_man_zhang_haipeng"
-	traits = {  }
-	skill = 2
-	
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 1
-	logistics_skill = 2
-}
-create_corps_commander = {
+create_field_marshal = {
 	name = "Aisin Gioro Puyi"
 	
 	picture = "gfx/leaders/MAN/Portrait_Manchuria_Henry_Pu_Yi.dds"
-	traits = { infantry_officer  }
-	skill = 2
+	traits = { infantry_leader infantry_officer media_personality war_hero brilliant_strategist organizer politically_connected harsh_leader skilled_staffer }
+	skill = 5
 	
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 1
-	logistics_skill = 2
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 5
 }
+
+create_corps_commander = {
+	name = "Zhang Haipeng"
+	GFX = "GFX_portrait_man_zhang_haipeng"
+					traits = { jungle_rat infantry_leader commando inflexible_strategist trait_cautious infantry_officer politically_connected }
+					skill = 5
+					attack_skill = 4
+					defense_skill = 4
+					planning_skill = 2
+					logistics_skill = 6
+}
+
 
 create_corps_commander = {
 	name = "Zhang Jinghui"
 	GFX = "GFX_portrait_man_zhang_jinghui"
-	traits = { infantry_officer }
-	skill = 2
-	
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 2
-	logistics_skill = 2
+					traits = { infantry_leader organizer trickster career_officer  harsh_leader trait_mountaineer jungle_rat trait_engineer}
+					skill = 5
+					attack_skill = 4
+					defense_skill = 4
+					planning_skill = 4
+					logistics_skill = 3
 }
 
 create_corps_commander = {
 	name = "Aisin Gioro Xiqia"
 	GFX = "GFX_portrait_man_aisin_gioro_xiqia"
-	traits = { career_officer }
-	skill = 3
-	attack_skill = 3
-	defense_skill = 3
+	traits = {   hill_fighter trait_mountaineer jungle_rat career_officer infantry_officer organizer}
+	skill = 4
+	attack_skill = 4
+	defense_skill = 4
 	planning_skill = 3
-	logistics_skill = 1
+	logistics_skill = 4
 }
 
 create_corps_commander = {
 	name = "Yoshiko Kawashima"
 	gfx = "GFX_portrait_man_yoshiko_kawashima"
-	traits = { cavalry_officer }
-	skill = 3
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 2
+					traits = { hill_fighter cavalry_leader  trickster panzer_leader career_officer trait_reckless armor_officer}
+					skill = 5
+					attack_skill = 6
+					defense_skill = 2
+					planning_skill = 4
+					logistics_skill = 3
 	female = yes
 }
 
