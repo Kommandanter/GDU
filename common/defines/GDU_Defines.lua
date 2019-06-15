@@ -88,6 +88,7 @@ NDefines.NBuildings.INFRA_TO_SUPPLY = 2.4
 NDefines.NBuildings.INFRA_TO_SUPPLY_COEFF = 1 -- Testing, 1 in vanilla -- TW/WTT 
 NDefines.NBuildings.AIRBASE_CAPACITY_MULT = 100
 NDefines.NBuildings.DESTRUCTION_COOLDOWN_IN_WAR = 120
+NDefines.NBuildings.OWNER_CHANGE_EXTRA_SHARED_SLOTS_FACTOR = 1.0 --Scale factor of extra shared slots when state owner change.
 
 NDefines.NTechnology.BASE_RESEARCH_POINTS_SAVED = 45.0
 NDefines.NTechnology.BASE_TECH_COST = 90
