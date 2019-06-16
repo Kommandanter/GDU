@@ -235,7 +235,7 @@ focus_tree = {
 				NOT = { country_exists = FRA }
 			}
 		}
-		cancel_if_invalid = yes
+		cancel_if_invalid = no
 		x = -1
 		y = 1
 		relative_position_id = GER_west_wall
@@ -2194,7 +2194,7 @@ focus_tree = {
 		cancel = {
 			is_puppet = yes
 		}
-		cancel_if_invalid = yes
+		cancel_if_invalid = no
 		x = 0
 		y = 1
 		relative_position_id = GER_anschluss

@@ -1560,7 +1560,7 @@ focus_tree = {
 		id = ITA_german_rd_treaty
 		icon = GFX_goal_generic_scientific_exchange
 		prerequisite = { focus = ITA_pact_of_steel }
-		cancel = { has_war_with = GER }
+
 		x = 12
 		y = 4
 		cost = 10

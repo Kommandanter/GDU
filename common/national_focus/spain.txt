@@ -297,7 +297,7 @@ focus_tree = {
 
 	focus = {
 		id = SPR_Civ_Econ
-		icon = GFX_goal_generic_construct_civ_factory
+		icon = GFX_focus_research
 		prerequisite = {
 	 		focus = SPR_Colonial_oil
 	 		focus = SPR_Mines
