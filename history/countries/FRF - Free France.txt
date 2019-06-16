@@ -30,6 +30,7 @@ if = {
 		basic_battlecruiser = 1
 		early_carrier = 1
 		transport = 1
+		synth_oil_experiments = 1		
 	}
 }
 if = {
@@ -53,6 +54,7 @@ if = {
 		basic_secondary_battery = 1
 		basic_heavy_armor_scheme = 1
 		mtg_transport = 1
+		synth_oil_experiments = 1		
 	}
 }
 1939.1.1 = {

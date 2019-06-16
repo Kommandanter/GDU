@@ -52,6 +52,7 @@ set_technology = {
 	tech_logistics_company = 1 
 	desertinfantry_at = 1
 	marines = 1
+	synth_oil_experiments = 1
 # early -> basic -> improved
 	#GDU additions for UK air control 
 	air_superiority = 1
