@@ -1514,7 +1514,6 @@ focus_tree = {
 		prerequisite = { focus = GER_rhineland }
 		available = {
 			is_puppet = no
-			has_army_manpower = { size > 549999 }
 		}
 		cancel = {
 			OR = {
@@ -1713,7 +1712,6 @@ focus_tree = {
 		will_lead_to_war_with = POL
 		available = {
 			is_puppet = no
-			has_army_manpower = { size > 949999 } #100 div
 			#Make custom trigger tooltip here
 			85 = {
 				owner = {
@@ -1976,7 +1974,6 @@ focus_tree = {
 			modifier = {
 				factor = 0
 				OR = {
-					has_army_manpower = { size < 1199999 }
 					any_home_area_neighbor_country = {
 						has_war_with = ROOT
 					}
@@ -2011,7 +2008,6 @@ focus_tree = {
 			has_completed_focus = GER_soviet_treaty 
 			is_puppet = no
 			has_government = fascism
-			has_army_manpower = { size > 849999 } #ca 90 div
 			SOV = {
 				NOT = { has_war_with = GER }
 				country_exists = SOV
@@ -2177,7 +2173,6 @@ focus_tree = {
 		will_lead_to_war_with = FRA
 		available = {
 			is_puppet = no
-			has_army_manpower = { size > 749999 } #80 div
 			NOT = {
 				AND = {
 					CZE = { is_in_faction_with = GER }
@@ -2334,7 +2329,6 @@ focus_tree = {
 		relative_position_id = GER_anschluss
 		available = {
 			is_puppet = no
-			has_army_manpower = { size > 749999 }
 			NOT = { has_war_with = CZE }
 		}
 

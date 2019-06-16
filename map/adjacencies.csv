@@ -190,4 +190,30 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 7400;10413;impassable;-1;-1;-1;-1;-1;;yunnan mountains
 7909;10413;impassable;-1;-1;-1;-1;-1;;yunnan mountains
 7909;10776;impassable;-1;-1;-1;-1;-1;;yunnan mountains
+4568;10776;impassable;-1;-1;-1;-1;-1;;GDU China Yunnan
+12433;10776;impassable;-1;-1;-1;-1;-1;;GDU China Yunnan
+12392;10776;impassable;-1;-1;-1;-1;-1;;GDU China Yunnan
+12392;1522;impassable;-1;-1;-1;-1;-1;;GDU China Yunnan
+12319;1522;impassable;-1;-1;-1;-1;-1;;GDU China Yunnan
+12319;1114;impassable;-1;-1;-1;-1;-1;;GDU China Yunnan
+12008;1114;impassable;-1;-1;-1;-1;-1;;GDU China Yunnan
+12008;1196;impassable;-1;-1;-1;-1;-1;;GDU China Yunnan
+7518;1196;impassable;-1;-1;-1;-1;-1;;GDU China Yunnan
+7518;1172;impassable;-1;-1;-1;-1;-1;;GDU China Yunnan
+4656;1172;impassable;-1;-1;-1;-1;-1;;GDU China Yunnan
+1172;10459;impassable;-1;-1;-1;-1;-1;;GDU China Yunnan
+1172;1625;impassable;-1;-1;-1;-1;-1;;GDU China Yunnan
+1653;1625;impassable;-1;-1;-1;-1;-1;;GDU China Yunnan
+7606;1625;impassable;-1;-1;-1;-1;-1;;GDU China Yunnan
+7606;1884;impassable;-1;-1;-1;-1;-1;;GDU China Yunnan
+7606;4192;impassable;-1;-1;-1;-1;-1;;GDU China Yunnan
+7446;4192;impassable;-1;-1;-1;-1;-1;;GDU China Yunnan
+1319;4192;impassable;-1;-1;-1;-1;-1;;GDU China Yunnan
+1319;12841;impassable;-1;-1;-1;-1;-1;;GDU China Yunnan
+7294;12841;impassable;-1;-1;-1;-1;-1;;GDU China Yunnan
+2067;12841;impassable;-1;-1;-1;-1;-1;;GDU China Yunnan
+2067;5072;impassable;-1;-1;-1;-1;-1;;GDU China Yunnan
+12819;5072;impassable;-1;-1;-1;-1;-1;;GDU China Yunnan
+12819;11972;impassable;-1;-1;-1;-1;-1;;GDU China Yunnan
+4973;5042;impassable;-1;-1;-1;-1;-1;;GDU Cancerous TibetRaj Connection
 -1;-1;;-1;-1;-1;-1;-1;-1
