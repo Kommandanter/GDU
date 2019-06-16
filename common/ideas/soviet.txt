@@ -917,7 +917,7 @@ ideas = {
 
 			modifier = {			
 				army_attack_factor = -0.075
-				army_org_factor = -0.425
+				army_org_factor = -0.40
 				planning_speed = -0.5
 				max_planning = -0.15
 				air_superiority_efficiency = -0.25
@@ -970,7 +970,7 @@ ideas = {
 
 			modifier = {			
 				army_attack_factor = -0.05
-				army_org_factor = -0.325
+				army_org_factor = -0.30
 				planning_speed = -0.25
 				max_planning = -0.075
 				air_superiority_efficiency = -0.15
@@ -1012,7 +1012,7 @@ ideas = {
 
 			modifier = {			
 				army_attack_factor = 0.025
-				army_org_factor = 0.075
+				army_org_factor = 0.05
 				army_morale_factor = 0.025
 				air_superiority_efficiency = 0.05
 				army_bonus_air_superiority_factor = 0.05
