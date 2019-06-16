@@ -387,13 +387,13 @@ political_actions = {
 	}
 	puppet_france = {
 		ai_will_do = { factor = 0 }
-		cost = 25
+		cost = 0
 
 		visible = {
 			tag = ENG
 			country_exists = FRA
 			date > 1940.6.1
-			FRA = { is_ai = yes }
+			FRF = { is_ai = yes }
 
 		}
 		fire_only_once = yes
@@ -404,7 +404,7 @@ political_actions = {
 
 	annex_canada = {
 		ai_will_do = { factor = 0 }
-		cost = 50	
+		cost = 0	
 		visible = {
 			tag = ENG
 			CAN = { is_ai = yes }
@@ -422,7 +422,7 @@ political_actions = {
 
 	annex_british_raj = {
 		ai_will_do = { factor = 0 }
-		cost = 50
+		cost = 0
 		visible = {
 			tag = ENG
 			RAJ = { is_ai = yes }
@@ -440,7 +440,7 @@ political_actions = {
 
 	annex_south_africa = {
 		ai_will_do = { factor = 0 }
-		cost = 30
+		cost = 0
 		visible = {
 			tag = ENG
 			SAF = { is_ai = yes }
@@ -458,7 +458,7 @@ political_actions = {
 
 	annex_australia = {
 		ai_will_do = { factor = 0 }
-		cost = 30
+		cost = 0
 		visible = {
 			tag = ENG
 			AST = { is_ai = yes }
@@ -476,7 +476,7 @@ political_actions = {
 
 	annex_new_zealand_uk = {
 		ai_will_do = { factor = 0 }
-		cost = 20
+		cost = 0
 		visible = {
 			tag = ENG
 			NZL = { is_ai = yes }
@@ -493,6 +493,25 @@ political_actions = {
 			}
 		}
 	}
+
+	annex_france_uk = {
+		ai_will_do = { factor = 0 }
+		cost = 0
+		visible = {
+			tag = ENG
+			FRF = { is_ai = yes }
+			country_exists = FRF
+			date > 1939.1.1
+			has_global_flag = fall_of_france
+		}
+		fire_only_once = yes
+		complete_effect = {
+			ENG = {
+				annex_country = { target = FRF transfer_troops = yes }
+				add_ideas = annex_france_idea
+			}
+		}
+	}	
 }
 
 operations = {

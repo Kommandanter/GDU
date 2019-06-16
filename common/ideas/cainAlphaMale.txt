@@ -163,6 +163,16 @@ ideas = {
 			}
 		}
 
+		annex_france_idea = {
+			allowed = { always = yes }
+			removal_cost = -1
+			picture = generic_goods_red_bonus
+			modifier = {
+				##consumer_goods_factor = 0.00
+				stability_factor = -0.01
+			}
+		}
+
 		annex_bulgaria_idea = {
 			allowed = { always = yes }
 			removal_cost = -1

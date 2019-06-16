@@ -215,7 +215,7 @@ political_actions = {
 
 	annex_bulgaria = {
 		ai_will_do = { factor = 0 }
-		cost = 20
+		cost = 0
 		visible = {
 			tag = GER
 			BUL = { is_ai = yes }
@@ -233,7 +233,7 @@ political_actions = {
 
 	Operation_Panzerfaust = {
 		ai_will_do = { factor = 0 }
-		cost = 25
+		cost = 0
 		visible = {
 			tag = GER
 			HUN = { is_ai = yes }
