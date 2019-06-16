@@ -2039,6 +2039,17 @@ leader_traits = {
 			factor = 1 
 		}
 	}
+	
+	marshal_of_victory2 = { # IT'S ZHUKOV 
+		sprite = 7
+		army_attack_factor = 0.10
+		army_defence_factor = 0.05		
+		experience_gain_army_factor = 0.15
+		
+		ai_will_do = { 
+			factor = 1 
+		}
+	}	
 
 	army_chief_defensive_1 = { # +5 Defensive efficiency
 		sprite = 9

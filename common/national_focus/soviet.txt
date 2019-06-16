@@ -778,6 +778,10 @@ focus_tree = {
 				remove_idea = SOV_war_for_communism
 				add_idea = great_patriotic_war 
 			}
+			swap_ideas = { 
+				remove_idea = georgy_zhukov_CoA
+				add_idea = georgy_zhukov_CoA2 
+			}			
 			add_tech_bonus = {
 				name = stalingrad_landdoc_9
 				bonus = 4.00 

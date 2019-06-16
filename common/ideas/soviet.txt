@@ -1470,6 +1470,25 @@ ideas = {
 			traits = { marshal_of_victory }
 		}
 		
+		georgy_zhukov_CoA2 = {
+		
+			picture = georgy_zhukov
+
+
+			allowed = {
+				original_tag = SOV # Unlocked via focus
+
+			}
+
+			available = {
+				has_completed_focus = SOV_defense_of_stalingrad
+			}
+
+			cost = 150
+
+			traits = { marshal_of_victory2 }
+		}		
+		
 	}
 	navy_chief = {
 
