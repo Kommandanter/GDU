@@ -496,4 +496,204 @@ country_event = {
 
 
 
+
+
+
+
+
+# Returning France to its normal infrastructure levels in 1939
+country_event = { 
+	id = gduevents.24
+	title = gduevents.24.t 
+	desc = gduevents.24.d 
+	picture = GFX_report_event_usa_election_generic 
+
+	is_triggered_only = yes 
+	
+	option = { 
+		name = gduevents.24.a
+		hidden_effect = { 
+
+
+
+			14 = { 
+				add_building_construction = { 
+					type = infrastructure
+					level = 2
+					instant_build = yes 
+				}
+			}
+			15 = { 
+				add_building_construction = { 
+					type = infrastructure
+					level = 3
+					instant_build = yes 
+				}
+			}
+			16 = { 
+				add_building_construction = { 
+					type = infrastructure
+					level = 4
+					instant_build = yes 
+				}
+			}
+			17 = { 
+				add_building_construction = { 
+					type = infrastructure
+					level = 4
+					instant_build = yes 
+				}
+			}
+			18 = { 
+				add_building_construction = { 
+					type = infrastructure
+					level = 3
+					instant_build = yes 
+				}
+			}
+			19 = { 
+				add_building_construction = { 
+					type = infrastructure
+					level = 2
+					instant_build = yes 
+				}
+			}
+			20 = { 
+				add_building_construction = { 
+					type = infrastructure
+					level = 3
+					instant_build = yes 
+				}
+			}
+			21 = { 
+				add_building_construction = { 
+					type = infrastructure
+					level = 2
+					instant_build = yes 
+				}
+			}				
+			22 = { 
+				add_building_construction = { 
+					type = infrastructure
+					level = 2
+					instant_build = yes 
+				}
+			}
+			23 = { 
+				add_building_construction = { 
+					type = infrastructure
+					level = 4
+					instant_build = yes 
+				}
+			}
+			24 = { 
+				add_building_construction = { 
+					type = infrastructure
+					level = 3
+					instant_build = yes 
+				}
+			}
+			25 = { 
+				add_building_construction = { 
+					type = infrastructure
+					level = 1
+					instant_build = yes 
+				}
+			}
+			26 = { 
+				add_building_construction = { 
+					type = infrastructure
+					level = 1
+					instant_build = yes 
+				}
+			}			
+			27 = { 
+				add_building_construction = { 
+					type = infrastructure
+					level = 3
+					instant_build = yes 
+				}
+			}			
+			28 = { 
+				add_building_construction = { 
+					type = infrastructure
+					level = 3
+					instant_build = yes 
+				}
+			}
+			29 = { 
+				add_building_construction = { 
+					type = infrastructure
+					level = 6 
+					instant_build = yes 
+				}
+			}
+			30 = { 
+				add_building_construction = { 
+					type = infrastructure
+					level = 3
+					instant_build = yes 
+				}
+			}
+			31 = { 
+				add_building_construction = { 
+					type = infrastructure
+					level = 2
+					instant_build = yes 
+				}
+			}			
+			33 = { 
+				add_building_construction = { 
+					type = infrastructure
+					level = 2
+					instant_build = yes 
+				}
+			}
+			458 = { 
+				add_building_construction = { 
+					type = infrastructure
+					level = 2 
+					instant_build = yes 
+				}
+			}
+			665 = { 
+				add_building_construction = { 
+					type = infrastructure
+					level = 1 
+					instant_build = yes 
+				}
+			}
+			785 = { 
+				add_building_construction = { 
+					type = infrastructure
+					level = 4 
+					instant_build = yes 
+				}
+			}
+			
+		}
+	}
+	
+}	
+
+
+
+
+
+# Explaining France Infrastructure to the France Player
+country_event = { 
+	id = gduevents.25
+	title = gduevents.25.t 
+	desc = gduevents.25.d 
+	picture = GFX_report_event_generic_peaceful_annexation 
+	
+	is_triggered_only = yes 
+	
+	option = { 
+		name = gduevents.25.a 
+
+	}
+	
+}
+
 	

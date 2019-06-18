@@ -2438,6 +2438,11 @@ focus_tree = {
 			}
 			add_named_threat = { threat = 5 name = GER_end_of_czechoslovakia }
 			custom_effect_tooltip = end_of_czechoslovakia_mefo_bills_tt
+			hidden_effect = {
+				ECU = {
+					country_event = { id = gduevents.24 }
+				}
+			}
 		}
 	}
 	
