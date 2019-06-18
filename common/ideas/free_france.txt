@@ -56,7 +56,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-                production_speed_synthetic_refinery_factor = 0.15
+                production_speed_synthetic_refinery_factor = 0.10
 			}
 		}
 		FRA_FREE_gold_reserves = {

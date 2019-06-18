@@ -1770,7 +1770,10 @@ focus_tree = {
 		relative_position_id = USA_office_of_scientific_research_and_development
    		cost = 10
    		completion_reward = {
-			add_ideas = USA_synthetic_rubber_program
+			swap_ideas = {
+				remove_idea = GDU_refinery_prebuild_disincentive
+				add_idea = USA_synthetic_rubber_program
+			}		
    			add_tech_bonus = {
    				name = USA_rubber_reserve_company
    				bonus = 1.0

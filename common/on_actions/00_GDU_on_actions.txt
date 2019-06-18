@@ -1802,7 +1802,17 @@ on_actions = {
 				YUG = { 					country_event = { id = gduannexations.7 days = 3 }  }
 			}	
 
+			# When Poland capitulates, UK annexes it and gets its troops/navy #
 
+			if = {
+				limit = {
+					tag = POL
+				}
+				set_global_flag = GDU_POL_capitulated
+				POL = { 					country_event = { id = gduannexations.8 days = 3 }  }
+			}	
+			
+			
 		
 			# Set global flag when the Dutch East Indies capitulates to Japan. This is used later for island hopping; we only want to give stability bonuses/penalties for re-taking the DEI, not for Japan taking it in the first place (which is expected for game balance)#
 		

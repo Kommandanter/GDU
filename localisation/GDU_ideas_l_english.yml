@@ -1,4 +1,6 @@
 ﻿l_english:
+    GDU_refinery_prebuild_disincentive:0 "Refinery Pre-building Disincentive"
+    GDU_refinery_prebuild_disincentive_desc:0 "Historically the Allies did not know when (or if) Japan would attack and take over most of the world's natural rubber supply. Without the benefit of hindsight, they had no reason to prepare major synthetic rubber efforts in advance. This idea serves as a disincentive for you to take advantage of historical foresight and pre-build refineries in advance of Japan's attack. Instead, you are incentivized to hold on to what limited natural rubber supplies you can for as long as possible, while scrambling to begin synthetic rubber production. You should expect some short-term rubber shortages.\n\nYou can get rid of this penalty and instead get a bonus to refinery construction by completing your synthetic rubber focus, which is available as soon as Japan joins the war."
     GDU_special_forces_cap:0 "Special Forces Raiser"
     GDU_special_forces_cap_desc:0 "The Special Forces cap in GDU is 160 by default, which is roughly 10~ 40-width marine divisions with 2 artillery and 2 anti-tank or air. Majors need more than this, so they're given this idea, which raises it to about 30~ if you use AA and AT, and 34 if you use standard 14/4's. Some nations, like Japan, the UK, and America, get enhanced versions through their focus trees. You can also get up to 64 more total regiments through the Special Forces techs.\n\nYour special forces are very important. Make sure you build them, and use them wisely!"
     inexperienced_army:0 "Inexperienced Army"
@@ -340,3 +342,5 @@
     JAP_triumph_CAN_idea:0 "Triumph in Canada"
     JAP_triumph_ENG_idea:0 "Triumph in the UK"
     JAP_triumph_USA_idea:0 "Triumph in the USA"
+
+    MAN_takeichi_nichi:0 "Takeichi Nichi"

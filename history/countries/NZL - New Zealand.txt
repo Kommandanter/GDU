@@ -86,6 +86,7 @@ if = {
 		#laws
 		low_economic_mobilisation
 		limited_conscription
+		GDU_refinery_prebuild_disincentive		
 	}
 
 

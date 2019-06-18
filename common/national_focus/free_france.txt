@@ -589,7 +589,7 @@ focus_tree = {
 		}
 		x = 4
 		y = 4
-		cost = 5
+		cost = 10
 
 		available_if_capitulated = yes
 
@@ -598,7 +598,10 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_ideas = FRA_rubber_refinery_program
+			swap_ideas = {
+				remove_idea = GDU_refinery_prebuild_disincentive
+				add_idea = FRA_rubber_refinery_program
+			}				
 			add_tech_bonus = {
 				name = FRA_rubber
 				bonus = 1

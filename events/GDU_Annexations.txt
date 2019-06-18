@@ -164,3 +164,28 @@ country_event = {
 	}
 	
 }
+
+
+country_event = { 
+	id = gduannexations.8
+	title = gduannexations.8.t
+	desc = gduannexations.8.d
+	picture = GFX_report_event_canadian_soldiers
+	
+	is_triggered_only = yes 
+	
+	immediate = { 
+				ENG = {
+					annex_country = {
+						target = POL
+						transfer_troops = yes
+					}
+				}
+	}
+	
+	option = {
+		name = gduannexations.8.a
+	
+	}
+	
+}

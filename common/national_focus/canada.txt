@@ -3613,7 +3613,10 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_ideas = CAN_synthetic_rubber
+			swap_ideas = {
+				remove_idea = GDU_refinery_prebuild_disincentive
+				add_idea = CAN_synthetic_rubber
+			}			
         	modify_building_resources = {
         	   building = synthetic_refinery
         	   resource = rubber

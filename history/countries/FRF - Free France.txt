@@ -165,6 +165,7 @@ add_ideas = {
 	GDU_special_forces_cap
 	volunteer_only
 	FRA_communism_banned
+	GDU_refinery_prebuild_disincentive	
 }
 
 #give_guarantee = CZE

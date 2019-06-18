@@ -2942,7 +2942,10 @@ focus_tree = {
         	#   resource = oil
         	#   amount = -2
         	#}
-			add_ideas = ENG_synthetic_rubber
+			swap_ideas = {
+				remove_idea = GDU_refinery_prebuild_disincentive
+				add_idea = ENG_synthetic_rubber
+			}
         	modify_building_resources = {
         	   building = synthetic_refinery
         	   resource = rubber

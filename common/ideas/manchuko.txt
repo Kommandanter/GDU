@@ -558,6 +558,21 @@ ideas = {
 				factor = 1
 			}
 		}
+		
+		MAN_takeichi_nichi = { 
+		
+			picture = generic_army_asia_2 
+			
+			allowed = { 
+				original_tag = MAN
+			}
+			
+			traits = { army_armored_2 } 
+			
+			ai_will_do = { 
+				factor = 1 
+			}
+		}		
 
 		MAN_hesehn_tiemei = {
 
