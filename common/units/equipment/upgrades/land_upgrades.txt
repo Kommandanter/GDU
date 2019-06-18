@@ -32,7 +32,7 @@ upgrades = {
 
 		cost = land
 		air_attack = 0.05
-		maximum_speed = -0.02
+		maximum_speed = -0.01
 		reliability = -0.05
 	}
 	tank_at_upgrade = {
@@ -41,7 +41,7 @@ upgrades = {
 		cost = land
 		soft_attack = 0.1
 		hard_attack = 0.1
-		maximum_speed = -0.02
+		maximum_speed = -0.01
 		reliability = -0.05
 	}
 	tank_art_upgrade = {
@@ -49,7 +49,7 @@ upgrades = {
 
 		cost = land
 		soft_attack = 0.03
-		maximum_speed = -0.02
+		maximum_speed = -0.01
 		reliability = -0.05
 	}
 }

@@ -460,7 +460,7 @@ equipments = {
 
 		#Offensive Abilities
 		soft_attack = 6
-		hard_attack = 4.5
+		hard_attack = 6.5
 		ap_attack = 60
 		air_attack = 31
 		
@@ -497,7 +497,7 @@ equipments = {
 
 		#Offensive Abilities
 		soft_attack = 7.5
-		hard_attack = 6
+		hard_attack = 9
 		ap_attack = 88
 		air_attack = 40
 		
