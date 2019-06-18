@@ -533,6 +533,13 @@ focus_tree = {
 						instant_build = yes
 					}
 				}
+				65 = {
+					add_building_construction = {
+						type = fuel_silo
+						level = 3
+						instant_build = yes
+					}
+				}				
 			}
 		}
 	}
