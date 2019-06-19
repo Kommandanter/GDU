@@ -696,4 +696,20 @@ country_event = {
 	
 }
 
+
+# USA can't join allies yet, letting USA player know
+country_event = { 
+	id = gduevents.26
+	title = gduevents.26.t 
+	desc = gduevents.26.d 
+	picture = GFX_report_event_merchant_ship_01 
+	
+	is_triggered_only = yes 
+	
+	option = { 
+		name = gduevents.26.a 
+
+	}
+	
+}
 	

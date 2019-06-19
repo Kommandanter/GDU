@@ -250,7 +250,24 @@ DIPLOMACY_MILACC_ENABLE_TRIGGER = {
 				option = FREE
 			}
 		}
-		always = yes
+		#always = yes
+		OR = {
+			NOT = {
+				OR = {
+					tag = USA
+					tag = PHI
+				}
+			}
+			AND = {
+				tag = USA			
+				USA = { has_war = yes }					
+			}
+			AND = {
+				tag = PHI			
+				PHI = { has_war = yes }					
+			}			
+		}
+		
 	}
 	if = {
 		limit = {
@@ -263,6 +280,22 @@ DIPLOMACY_MILACC_ENABLE_TRIGGER = {
 			tooltip = RULE_ALLOW_MILITARY_ACCESS_SAME_IDEOLOGY_TT
 			has_government = FROM
 		}
+		OR = {
+			NOT = {
+				OR = {
+					tag = USA
+					tag = PHI
+				}
+			}
+			AND = {
+				tag = USA			
+				USA = { has_war = yes }					
+			}
+			AND = {
+				tag = PHI			
+				PHI = { has_war = yes }					
+			}			
+		}			
 	}
 	if = {
 		limit = {
@@ -285,7 +318,19 @@ DIPLOMACY_OFFER_MILACC_ENABLE_TRIGGER = {
 				option = FREE
 			}
 		}
-		always = yes
+		#always = yes
+			NOT = {
+				AND = {
+					FROM = { tag = USA }
+					date < 1941.1.1
+				}
+				AND = {
+					FROM = { tag = USA }
+					ENG = { surrender_progress < 0.7 }
+				}				
+			}
+		
+					
 	}
 	if = {
 		limit = {
@@ -298,6 +343,16 @@ DIPLOMACY_OFFER_MILACC_ENABLE_TRIGGER = {
 			tooltip = RULE_ALLOW_MILITARY_ACCESS_SAME_IDEOLOGY_TT
 			has_government = FROM
 		}
+			NOT = {
+				AND = {
+					FROM = { tag = USA }
+					date < 1941.1.1
+				}
+				AND = {
+					FROM = { tag = USA }
+					ENG = { surrender_progress < 0.7 }
+				}				
+			}	
 	}
 	if = {
 		limit = {
@@ -320,7 +375,23 @@ DIPLOMACY_DOCKING_RIGHTS_ENABLE_TRIGGER = {
 				option = FREE
 			}
 		}
-		always = yes
+		#always = yes
+		OR = {
+			NOT = {
+				OR = {
+					tag = USA
+					tag = PHI
+				}
+			}
+			AND = {
+				tag = USA			
+				USA = { has_war = yes }					
+			}
+			AND = {
+				tag = PHI			
+				PHI = { has_war = yes }					
+			}			
+		}		
 	}
 	if = {
 		limit = {
@@ -333,6 +404,22 @@ DIPLOMACY_DOCKING_RIGHTS_ENABLE_TRIGGER = {
 			tooltip = RULE_ALLOW_MILITARY_ACCESS_SAME_IDEOLOGY_TT
 			has_government = FROM
 		}
+		OR = {
+			NOT = {
+				OR = {
+					tag = USA
+					tag = PHI
+				}
+			}
+			AND = {
+				tag = USA			
+				USA = { has_war = yes }					
+			}
+			AND = {
+				tag = PHI			
+				PHI = { has_war = yes }					
+			}			
+		}		
 	}
 	if = {
 		limit = {
@@ -355,7 +442,18 @@ DIPLOMACY_OFFER_DOCKING_RIGHTS_ENABLE_TRIGGER = {
 				option = FREE
 			}
 		}
-		always = yes
+		#always = yes
+			NOT = {
+				AND = {
+					FROM = { tag = USA }
+					date < 1941.1.1
+				}
+				AND = {
+					FROM = { tag = USA }
+					ENG = { surrender_progress < 0.7 }
+				}				
+			}	
+	
 	}
 	if = {
 		limit = {
@@ -368,6 +466,16 @@ DIPLOMACY_OFFER_DOCKING_RIGHTS_ENABLE_TRIGGER = {
 			tooltip = RULE_ALLOW_MILITARY_ACCESS_SAME_IDEOLOGY_TT
 			has_government = FROM
 		}
+			NOT = {
+				AND = {
+					FROM = { tag = USA }
+					date < 1941.1.1
+				}
+				AND = {
+					FROM = { tag = USA }
+					ENG = { surrender_progress < 0.7 }
+				}				
+			}		
 	}
 	if = {
 		limit = {

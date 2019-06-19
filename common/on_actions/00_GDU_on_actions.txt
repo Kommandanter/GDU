@@ -1026,6 +1026,25 @@ on_actions = {
 		}
 	}
 
+	#THIS PREVENTS USA FROM JOINING THE ALLIES UNTIL IT IS EITHER 1941 OR UNLESS A SEALION HAS TAKEN AT LEAST 1 STATE IN THE UK. This prevents various cheesy stuff that is possible with pre-war military access/docking rights
+	on_daily = { 
+		effect = {
+			 if = {
+                limit = {
+					TAG = USA
+					OR = {
+						date < 1941.1.1
+						ENG = { surrender_progress < 0.7 }
+					}
+					USA = { is_in_faction = yes }
+				}
+				USA = { leave_faction = yes }
+				PHI = { leave_faction = yes }
+				USA = { country_event = { id = gduevents.26 } }
+			}
+		}
+	}
+
 	#THIS IS THE AIRBASE LIMITER. 
 	on_daily = { 
 		effect = {
