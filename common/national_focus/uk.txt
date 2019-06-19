@@ -1363,8 +1363,6 @@ focus_tree = {
 
 	focus = {
 		id = ENG_secure_the_imperial_shipping_routes
-		prerequisite = { focus = general_rearmament_focus }
-		prerequisite = { focus = naval_rearmament_focus } 
 		icon = GFX_focus_generic_cruiser2
 		x = 2
 		y = 1
@@ -1379,6 +1377,21 @@ focus_tree = {
 		cost = 10
 		ai_will_do = {
 			factor = 1
+		}
+
+		available = {
+				ENG = {
+					has_completed_focus = naval_rearmament_focus
+				}	
+			OR = {
+				GER = {
+					has_completed_focus = GER_naval_rearmament
+				}
+				ENG = {
+					has_completed_focus = general_rearmament_focus
+				}				
+			}
+
 		}
 
 		available_if_capitulated = no
