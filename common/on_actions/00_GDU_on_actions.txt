@@ -702,6 +702,10 @@ on_actions = {
 			SOV = { 
 				country_event = { id = gduevents.21 days = 5 } 
 			}
+			#### EVENT EXPLAINING Sealion Mechanic to UK #### 
+			ENG = { 
+				country_event = { id = gduevents.27 days = 5 } 
+				}
 			#### EVENT for USA to remove Congress mechanic (or not) #### 			
 			USA = { 
 				country_event = { id = gduevents.23 days = 5 } 

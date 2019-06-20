@@ -3882,8 +3882,8 @@ focus_tree = {
 		id = uk_extra_tech_slot_2
 		icon = GFX_focus_research
 		prerequisite = { focus = ENG_blood_toil_tears }
-		x = 0
-		y = 2
+		x = 1
+		y = 1
 		relative_position_id = ENG_blood_toil_tears
 		cost = 10
 
@@ -3932,28 +3932,7 @@ focus_tree = {
 		}
 	}
 
-	focus = {
-		id = ENG_maintaining_the_balance_of_power
-		prerequisite = { focus = ENG_blood_toil_tears }
-		available = { 
-			is_subject = no
-		}
 
-		continue_if_invalid = yes
-
-		icon = GFX_focus_AST_never_gallipoli
-		x = 1
-		y = 1
-		relative_position_id = ENG_blood_toil_tears
-		cost = 2
-		ai_will_do = {
-			factor = 10
-		}	
-		completion_reward = {
-			add_ideas = eng_nosealionpls 
-
-		}
-	}
 
 	### HOME DEFENCE BRANCH
 

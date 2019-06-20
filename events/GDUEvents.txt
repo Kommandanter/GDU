@@ -698,7 +698,7 @@ country_event = {
 
 
 # USA can't join allies yet, letting USA player know
-country_event = { 
+country_event = {
 	id = gduevents.26
 	title = gduevents.26.t 
 	desc = gduevents.26.d 
@@ -713,3 +713,20 @@ country_event = {
 	
 }
 	
+	
+	
+# Explaining Sealion Mechanic to UK
+country_event = {
+	id = gduevents.27
+	title = gduevents.27.t 
+	desc = gduevents.27.d 
+	picture = GFX_report_event_merchant_ship_01 
+	
+	is_triggered_only = yes 
+	
+	option = { 
+		name = gduevents.27.a 
+
+	}
+	
+}	
