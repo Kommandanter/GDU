@@ -879,6 +879,19 @@ ideas = {
 			
 			traits = { atlantic_fleet_naval_manufacturer }
 		}
+		
+		ansaldo = {
+						
+			allowed = {
+				original_tag = ITA
+			}
+						
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+			
+			traits = { coastal_defence_naval_manufacturer }
+		}
 
 		odero_terni_orlando = {
 						
