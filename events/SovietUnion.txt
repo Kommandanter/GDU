@@ -362,15 +362,7 @@ country_event = {
 		PRC = { country_event = { id = soviet.19 days = 1 } }
 	}
 
-	# Refuse to negotiate
-	option = {
-		name = soviet.18.b
-		ai_chance = { factor = 0 }
-		PRC = { country_event = { id = soviet.19 days = 1 } }
-		hidden_effect = {
-			news_event = { hours = 6 id = dumbnews.0 }
-		}
-	}
+
 }
 
 # Xi'an Incident - Communist China

@@ -529,17 +529,59 @@ focus_tree = {
 			custom_effect_tooltip = GDU_spacer
 			add_tech_bonus = {
 				name = moscow_landdoc_7
-				bonus = 4.00 
+				bonus = 8.00 
 				uses = 1
 				technology = volkssturm
-				technology = firebrigades
+				technology = firebrigades				
 				technology = combined_arms
-				technology = forward_observers
+				technology = forward_observers				
 				technology = assault_breakthrough
 				technology = night_assault_tactics
 				technology = breakthrough_priority
 				technology = guerilla_warfare
+			}
+			if = {
+				limit = {
+					SOV = { has_tech = kampfgruppe }
+				}
+				set_technology = { firebrigades = 1 }
+			}
+			if = {
+				limit = {			
+					SOV = { has_tech = concentrated_fire_plans }
+				}	
+				set_technology = { combined_arms = 1 }
+			}
+			if = {
+				limit = {			
+					SOV = { has_tech = centralized_fire_control }
+				}	
+				set_technology = { forward_observers = 1 }
+			}
+			if = {
+				limit = {			
+					SOV = { has_tech = branch_interoperation }
+				}	
+				set_technology = { assault_breakthrough = 1 }
+			}
+			if = {
+				limit = {			
+					SOV = { has_tech = infiltration_assault }
+				}	
+				set_technology = { night_assault_tactics = 1 }
 			}			
+			if = {
+				limit = {			
+					SOV = { has_tech = vast_offensives }
+				}
+				set_technology = { breakthrough_priority = 1 }
+			}
+			if = {
+				limit = {			
+					SOV = { has_tech = human_wave_offensive }
+				}
+				set_technology = { guerilla_warfare = 1 }
+			}					
 			219 = {
 				custom_effect_tooltip = SOV_defense_of_moscow_forts_GDU
 				hidden_effect = {
@@ -784,7 +826,7 @@ focus_tree = {
 			}			
 			add_tech_bonus = {
 				name = stalingrad_landdoc_9
-				bonus = 4.00 
+				bonus = 8.00
 				uses = 1
 				technology = modern_blitzkrieg
 				technology = werwolf_guerillas
@@ -793,7 +835,49 @@ focus_tree = {
 				technology = c3i_theory
 				technology = infiltration_in_depth
 				technology = continuous_offensive
-			}							
+			}
+			if = {
+				limit = {
+					SOV = { has_tech = nd_conscription }
+				}
+				set_technology = { werwolf_guerillas = 1 }
+			}
+			if = {
+				limit = {
+					SOV = { has_tech = backhand_blow }
+				}
+				set_technology = { modern_blitzkrieg = 1 }
+			}
+			if = {
+				limit = {
+					SOV = { has_tech = tactical_control }
+				}
+				set_technology = { air_land_battle = 1 }
+			}
+			if = {
+				limit = {
+					SOV = { has_tech = advanced_firebases }
+				}
+				set_technology = { shock_and_awe = 1 }
+			}
+			if = {
+				limit = {
+					SOV = { has_tech = central_planning }
+				}	
+				set_technology = { c3i_theory = 1 }
+			}			
+			if = {
+				limit = {
+					SOV = { has_tech = attritional_containment }
+				}
+				set_technology = { infiltration_in_depth = 1 }
+			}
+			if = {
+				limit = {
+					SOV = { has_tech = mechanized_wave }
+				}
+				set_technology = { continuous_offensive = 1 }
+			}	
 			if = { limit = { has_idea = officers_purged } remove_ideas = officers_purged }
 			if = { limit = { has_idea = officers_purged_2 } remove_ideas = officers_purged_2 }
 			if = { limit = { has_idea = officers_purged_3 } remove_ideas = officers_purged_3 }
@@ -1321,7 +1405,7 @@ focus_tree = {
 			}
 			add_tech_bonus = {
 				name = patriotic_landdoc_8
-				bonus = 4.00 
+				bonus = 8.00 
 				uses = 1
 				technology = nd_conscription
 				technology = backhand_blow
@@ -1330,8 +1414,50 @@ focus_tree = {
 				technology = central_planning
 				technology = attritional_containment
 				technology = mechanized_wave
-			}						
-		}
+			}								
+			if = {
+				limit = {
+					SOV = { has_tech = volkssturm }
+				}	
+				set_technology = { nd_conscription = 1 }
+			}
+			if = {
+				limit = {
+					SOV = { has_tech = firebrigades }
+				}
+				set_technology = { backhand_blow = 1 }
+			}
+			if = {
+				limit = {
+					SOV = { has_tech = combined_arms }
+				}
+				set_technology = { tactical_control = 1 }
+			}
+			if = {
+				limit = {
+					SOV = { has_tech = forward_observers }
+				}
+				set_technology = { advanced_firebases = 1 }
+			}
+			if = {
+				limit = {
+					SOV = { has_tech = assault_breakthrough }
+				}
+				set_technology = { central_planning = 1 }
+			}			
+			if = {
+				limit = {
+					SOV = { has_tech = night_assault_tactics }
+				}
+				set_technology = { attritional_containment = 1 }
+			}
+			if = {
+				limit = {
+					SOV = { has_tech = breakthrough_priority }
+				}
+				set_technology = { mechanized_wave = 1 }
+			}
+}			
 		
 		prerequisite = { focus = SOV_defense_of_moscow } 
 	}

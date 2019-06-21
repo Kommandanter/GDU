@@ -98,7 +98,7 @@ country_event = {
 		custom_effect_tooltip = SOV_barbarossa_tooltip
 		add_tech_bonus = {
 			name = barb_landdoc_rush_disincentive_bonus
-			bonus = 7.50 
+			bonus = 9.99 
 			uses = 1
 			technology = kampfgruppe
 			technology = concentrated_fire_plans
@@ -107,6 +107,50 @@ country_event = {
 			technology = infiltration_assault
 			technology = vast_offensives
 			technology = human_wave_offensive
+		
+			if = {
+				limit = {
+					SOV = { has_tech = mechanised_offensive }
+				}	
+				SOV = { set_technology = { kampfgruppe = 1 } }
+			}
+			if = {
+				limit = {
+					SOV = { has_tech = blitzkrieg }
+				}	
+				SOV = { set_technology = { kampfgruppe = 1 } }
+			}
+			if = {
+				limit = {
+					SOV = { has_tech = sup_mechanized_offensive }
+				}
+				SOV = { set_technology = { concentrated_fire_plans = 1 } }
+			}
+			if = {
+				limit = {
+					SOV = { has_tech = armored_operations }
+				}
+				SOV = { set_technology = { infiltration_assault = 1 } }
+			}
+			if = {
+				limit = {
+					SOV = { has_tech = assault_concentration }
+				}
+				SOV = { set_technology = { branch_interoperation = 1 } }
+			}			
+			if = {
+				limit = {
+					SOV = { has_tech = operational_concentration }
+				}
+				SOV = { set_technology = { vast_offensives = 1 } }
+			}
+			if = {
+				limit = {
+					SOV = { has_tech = large_front_offensive }
+				}
+				SOV = { set_technology = { human_wave_offensive = 1 } }
+			}
+
 		}
 	}
 	
@@ -729,4 +773,27 @@ country_event = {
 
 	}
 	
-}	
+}
+
+
+
+
+
+# When Soviets finish their 5th land doctrine, explain that they are stopped from researching the 6th one for now to avoid wasting research and they will get a bonus for the 7th when they get the event about suspicious activity on the western border just before Barbarossa
+country_event = { 
+	id = gduevents.28
+	title = gduevents.28.t
+	desc = gduevents.28.d
+	picture = GFX_report_event_soviet_tanks
+	
+	is_triggered_only = yes
+		
+	fire_only_once = yes 
+	
+	option = {
+		name = gduevents.28.a
+	}
+	
+	
+}
+

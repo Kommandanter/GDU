@@ -623,6 +623,15 @@ technologies = {
 			initiative = 0.05
 		}
 		
+		allow = {
+			NOT = {
+				AND = {
+					date < 1941.5.1 
+					tag = SOV
+				}
+			}
+		}
+		
 		enable_tactic = tactic_overwhelming_fire
 		
 		path = {
@@ -1447,6 +1456,15 @@ technologies = {
 		category_army = {
 			hard_attack = 0.10
 		}
+
+		allow = {
+			NOT = {
+				AND = {
+					date < 1941.5.1 
+					tag = SOV
+				}
+			}
+		}
 		
 		path = {
 			leads_to_tech = combined_arms 
@@ -1664,6 +1682,14 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		allow = {
+			NOT = {
+				AND = {
+					date < 1941.5.1 
+					tag = SOV
+				}
+			}
+		}
 		
 		doctrine = yes	
 		research_cost = 3.6
@@ -2193,6 +2219,15 @@ technologies = {
 		category_tanks = {
 			max_organisation = 1
 		}
+
+		allow = {
+			NOT = {
+				AND = {
+					date < 1941.5.1 
+					tag = SOV
+				}
+			}
+		}
 		
 		path = {
 			leads_to_tech = assault_breakthrough 
@@ -2521,6 +2556,15 @@ technologies = {
 
 		doctrine = yes	
 		research_cost = 3.6
+
+		allow = {
+			NOT = {
+				AND = {
+					date < 1941.5.1 
+					tag = SOV
+				}
+			}
+		}
 		
 		categories = {
 			land_doctrine
@@ -3005,6 +3049,15 @@ technologies = {
 		anti_tank_brigade = { 
 			hard_attack = 0.05 
 		}
+
+		allow = {
+			NOT = {
+				AND = {
+					date < 1941.5.1 
+					tag = SOV
+				}
+			}
+		}
 		
 		category_all_infantry = {
 			max_organisation = 13
@@ -3315,7 +3368,14 @@ technologies = {
 			combat_width = -0.4
 		}
 
-
+		allow = {
+			NOT = {
+				AND = {
+					date < 1941.5.1 
+					tag = SOV
+				}
+			}
+		}
 
 		path = {
 			leads_to_tech = guerilla_warfare

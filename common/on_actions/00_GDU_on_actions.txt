@@ -688,7 +688,10 @@ on_actions = {
 				give_resource_rights = { receiver = JAP state = 724 }
 				give_resource_rights = { receiver = JAP state = 289 }
 			}
-		
+			##### Soviet event to remind/explain that they get a bonus for the 7th land doctrine into an on_startup event instead of MTTH to help performance####
+			SOV = {
+				country_event = { id = gduevents.28 days = 1582 } 
+			}		
 			##### Turning King Edward's abdication into an on_startup event instead of MTTH to help performance####
 			ENG = {
 				country_event = { id = britain.16 days = 20 } 
@@ -1832,7 +1835,7 @@ on_actions = {
 					tag = POL
 				}
 				set_global_flag = GDU_POL_capitulated
-				POL = { 					country_event = { id = gduannexations.8 days = 3 }  }
+				POL = { 					country_event = { id = gduannexations.8 days = 150 }  }
 			}	
 			
 			
