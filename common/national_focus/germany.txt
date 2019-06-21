@@ -1139,17 +1139,16 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-		
-			add_ideas = GER_air_innovations_2_idea
-
-			air_experience = 50
 
 			add_tech_bonus = {
-				name = air_sup_bonus
-				bonus = 2.00 
+				name = air_bonus
+				bonus = 0.25
+				ahead_reduction = 0.5
 				uses = 1
-				category = air_doctrine
+				technology = fighter2
 			}
+		
+			add_ideas = GER_air_innovations_2_idea
 
 			51 = { 
 				add_building_construction = {
@@ -1200,7 +1199,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			air_experience = 100
+			air_experience = 150
 			add_tech_bonus = {
 				name = op_dest_bonus
 				bonus = 1.00 
@@ -1283,7 +1282,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			air_experience = 100
+			air_experience = 150
 			add_tech_bonus = {
 				name = strat_dest_bonus
 				bonus = 1.00				
@@ -1373,17 +1372,10 @@ focus_tree = {
 			add_tech_bonus = {
 				name = air_sup_bonus
 				bonus = 1.00 
-				uses = 2
+				uses = 3
 				category = air_doctrine
 			}
 			# Balance research bonus to next tech among radio, radio_detection, decimetric_radar, improved_decimetric_radar, centimetric_radar, improved_centimetric_radar, advanced_centimetric_radar
-			add_tech_bonus = {
-				name = air_bonus
-				bonus = 0.25
-				ahead_reduction = 0.5
-				uses = 1
-				technology = fighter2
-			}
 			add_tech_bonus = {
 				name = radar_tech_bonus
 				bonus = 1.00 
