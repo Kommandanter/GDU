@@ -9,7 +9,8 @@ state={
 	history={
 		owner = FRA
 		buildings = {
-			infrastructure = 1
+			infrastructure = 4
+			air_base = 10
 		}
 	}
 

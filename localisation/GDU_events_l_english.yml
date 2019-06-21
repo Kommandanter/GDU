@@ -281,7 +281,7 @@
  gduevents.27.a:0 "OK, I think I'll go no-navy UK, send my entire starting fleet to the Med, and see if I can manage to get Sealioned. Thanks." 
  
  gduevents.28.t:0 "Land Doctrine"
- gduevents.28.d:0 "You just finished your 6th land doctrine.\n\nUnless it is already May 1941, you will find that you can't research the 7th doctrine yet.\n\nThis is to prevent you from accidentally wasting a lot of research.\n\nWhen you get the "Suspicious Acivity at the Western border" event right before Barbarossa, it gives you a huge research bonus for the 7th land doctrine, and you should be able to research it instantly then.\n\n"
+ gduevents.28.d:0 "It's about a year before Barbarossa and you should probably be researching your 6th land doctrine by this point to finish it before Barbarossa. \n\nUnless it is already May 1941, you will find that you can't research the 7th doctrine yet once the 6th one is done.\n\nThis is to prevent you from accidentally wasting a lot of research.\n\nWhen you get the "Suspicious Acivity at the Western border" event right before Barbarossa, it gives you a huge research bonus for the 7th land doctrine, and you should be able to research it instantly then.\n\n"
  gduevents.28.a:0 "Wait until the Suspicious Activity event, then research the 7th Land Doctrine."  
  
  pfu.31.t:0 "The Fight Goes On"
