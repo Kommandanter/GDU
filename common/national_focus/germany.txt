@@ -41,7 +41,7 @@ focus_tree = {
 				}
 			}
 		}
-	}
+	}	
 	
 	focus = {
 		id = GER_army_innovation
@@ -286,6 +286,50 @@ focus_tree = {
 			add_ideas = GER_ostwall_idea
 		}
 	}
+	
+	focus = {
+		id = GER_gothic_line
+		icon = GFX_goal_generic_construct_military
+
+		prerequisite = { focus = GER_west_wall }
+
+		x = 17
+		y = 4
+
+		cost = 5
+
+		available = {	
+				ITA = {
+					has_war_with = ENG
+				}			
+	}
+
+		continue_if_invalid = yes
+		available_if_capitulated = no
+
+		completion_reward = {
+			162 = {
+				add_building_construction = { type = bunker province = 6973 level = 5 instant_build = yes }
+				add_building_construction = { type = bunker province = 1616 level = 5 instant_build = yes }
+				add_building_construction = { type = bunker province = 11889 level = 5 instant_build = yes }
+				add_building_construction = { type = bunker province = 9879 level = 5 instant_build = yes }				
+			}		
+			157 = {
+				add_building_construction = { type = bunker province = 11861 level = 5 instant_build = yes }
+				add_building_construction = { type = bunker province = 967 level = 5 instant_build = yes }			
+			}
+			161 = {
+				add_building_construction = { type = bunker province = 9924 level = 5 instant_build = yes }
+				add_building_construction = { type = bunker province = 782 level = 5 instant_build = yes }
+				add_building_construction = { type = bunker province = 6985 level = 5 instant_build = yes }
+				add_building_construction = { type = bunker province = 3976 level = 5 instant_build = yes }
+				add_building_construction = { type = bunker province = 3773 level = 5 instant_build = yes }				
+			}
+			158 = {
+				add_building_construction = { type = bunker province = 6788 level = 5 instant_build = yes }
+			}			
+	 }
+  }	
 
 	focus = {
 		id = GER_autarky

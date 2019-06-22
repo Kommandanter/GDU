@@ -1483,6 +1483,45 @@ on_actions = {
 
 				
 		}
+	}
+	
+	
+	#### If Allies are advancing into Northern Italy (anything from Bologna to the north, i.e. of the Gothic Line) AND if Germany has also bothered to do the Gothic Line Focus, then that is enough to trigger Totaler Krieg for Germany ####
+	
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_global_flag = GDU_gothic_line_breached }
+					date > 1941.1.1
+					GER = { has_completed_focus = GER_gothic_line }
+					OR = {
+						original_tag = USA
+						original_tag = ENG
+						original_tag = FRF
+						original_tag = CAN
+						original_tag = SAF
+						original_tag = RAJ
+						original_tag = AST
+						original_tag = NZL						
+					}
+					OR = {
+						controls_state = 158 # Piedmont
+						controls_state = 159 # Lombardy
+						controls_state = 39 # South Tyrol
+						controls_state = 160 # Veneto
+						controls_state = 736 # Istria
+						controls_state = 161 # Emilia Romagna				
+					}
+				}
+				hidden_effect = {
+					set_global_flag = GDU_gothic_line_breached
+				} 
+			}
+			
+
+				
+		}
 	}	
 	
 	
