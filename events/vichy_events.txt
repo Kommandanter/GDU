@@ -82,8 +82,8 @@ country_event = {
 					level = 1
 					instant_build = yes
 				}			
-			}		
-		
+			}
+		}
 }
 
 # Vichy loses neutrality when attacked
