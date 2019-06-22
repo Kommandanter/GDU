@@ -1453,6 +1453,37 @@ on_actions = {
 	
 	
 	
+	#### If Soviets start advancing beyond the pre-Barbarossa boundaries into Poland/East Prussia after 1942 but before 1943, that is sufficient to trigger Totaler Krieg for Germany to give it one last gasping breath of life ####
+	
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_global_flag = GDU_eastern_front_Axis_danger }
+					date > 1942.1.1
+					OR = {
+						original_tag = SOV					
+					}
+					OR = {
+						controls_state = 188 # Memel
+						controls_state = 5 # Ermland-Masuren
+						controls_state = 763 # Konigsberg
+						controls_state = 788 # East Prussia
+						controls_state = 98 # Plock
+						controls_state = 10 # Warsazawa
+						controls_state = 92 # Lublin
+						controls_state = 88 # Krakow					
+					}
+				}
+				hidden_effect = {
+					set_global_flag = GDU_eastern_front_Axis_danger
+				} 
+			}
+			
+
+				
+		}
+	}	
 	
 	
 	
@@ -1749,14 +1780,40 @@ on_actions = {
 		}
 		
 	
-	
-	# Check if Allies have capitulated and create missions to liberate them if they have and apply penalties/bonuses accordingly #
+
+	# If Hungary, Romania, or Bulgaria capitulate prior to 1943 (but after 1941), that is sufficient to trigger Totaler Krieg for Germany to give Axis one last shot to recover.
 	
 		on_capitulation = {
 		effect = {
 		
+			if = {
+				limit = {
+					tag = HUN
+					date > 1941.1.1
+				}
+				set_global_flag = GDU_eastern_front_Axis_danger
+			}
+
+			if = {
+				limit = {
+					tag = ROM
+					date > 1941.1.1
+				}
+				set_global_flag = GDU_eastern_front_Axis_danger
+			}
+			
+			if = {
+				limit = {
+					tag = BUL
+					date > 1941.1.1
+				}
+				set_global_flag = GDU_eastern_front_Axis_danger
+			}			
 
 
+
+
+	# Check if Allies have capitulated and create missions to liberate them if they have and apply penalties/bonuses accordingly #
 
 			# When Belgium capitulates, UK annexes it and gets its troops/navy #
 		
