@@ -1041,8 +1041,8 @@ on_actions = {
 					TAG = USA
 					AND = {
 						date < 1941.1.1
-						ENG = { surrender_progress < 0.7 }\
-						USA = { is_in_faction = yes }						
+						ENG = { surrender_progress < 0.7 }
+						USA = { is_in_faction = yes }
 					}
 				}
 				USA = { leave_faction = yes }
