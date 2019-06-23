@@ -149,6 +149,8 @@ ideas = {
 			modifier = {
 				production_factory_max_efficiency_factor = 0.2
 				production_factory_efficiency_gain_factor = -0.2
+				air_superiority_efficiency = -0.10
+				air_intercept_efficiency = -0.10			
 			}
 			
 		}
