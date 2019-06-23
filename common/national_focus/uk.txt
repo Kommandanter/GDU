@@ -3673,6 +3673,9 @@ focus_tree = {
 		prerequisite = { focus = uk_canada_focus }
 		prerequisite = { focus = uk_new_zealand_focus }
 		prerequisite = { focus = uk_south_africa_focus }
+		prerequisite = { focus = uk_australia_focus }
+		prerequisite = { focus = uk_india_focus }
+		
 
 		allow_branch = {
 			has_dlc = "Man the Guns"
