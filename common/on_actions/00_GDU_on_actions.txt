@@ -1854,6 +1854,16 @@ on_actions = {
 
 	# Check if Allies have capitulated and create missions to liberate them if they have and apply penalties/bonuses accordingly #
 
+			# When Iraq capitulates, UK annexes it and gets its troops/navy #
+		
+			if = {
+				limit = {
+					tag = IRQ
+				}
+				set_global_flag = GDU_IRQ_capitulated
+				IRQ = { 					country_event = { id = gduannexations.1 days = 3 }  }
+			}
+
 			# When Belgium capitulates, UK annexes it and gets its troops/navy #
 		
 			if = {

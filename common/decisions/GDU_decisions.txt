@@ -1847,10 +1847,12 @@ foreign_politics = {
 		}
 		
 		complete_effect = {
-			transfer_state = 553
-			transfer_state = 677
-			transfer_state = 680
-			transfer_state = 554
+			ITA = {
+				transfer_state = 553
+				transfer_state = 677
+				transfer_state = 680
+				transfer_state = 554
+			}
 		}
 	
 	}
