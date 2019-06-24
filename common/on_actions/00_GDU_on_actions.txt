@@ -1861,8 +1861,12 @@ on_actions = {
 					tag = IRQ
 				}
 				set_global_flag = GDU_IRQ_capitulated
-				IRQ = { 					country_event = { id = gduannexations.1 days = 3 }  }
-			}
+				IRQ = { 
+					transfer_navy = { 
+						target = AST 
+					}
+				}
+				IRQ = { 					country_event = { id = gduannexations.3 days = 3 }  }			}
 
 			# When Belgium capitulates, UK annexes it and gets its troops/navy #
 		
@@ -1871,7 +1875,12 @@ on_actions = {
 					tag = BEL
 				}
 				set_global_flag = GDU_BEL_capitulated
-				BEL = { 					country_event = { id = gduannexations.1 days = 3 }  }
+				BEL = { 
+					transfer_navy = { 
+						target = CAN 
+					}
+				}
+				BEL = { 					country_event = { id = gduannexations.3 days = 3 }  }
 			}
 
 			# When Luxembourg capitulates, UK annexes it and gets its troops/navy #
@@ -1881,7 +1890,12 @@ on_actions = {
 					tag = LUX
 				}
 				set_global_flag = GDU_LUX_capitulated
-				LUX = { 					country_event = { id = gduannexations.2 days = 3 }  }
+				LUX = { 
+					transfer_navy = { 
+						target = CAN 
+					}
+				}
+				LUX = { 					country_event = { id = gduannexations.3 days = 3 }  }
 			}
 			
 			# When Holland capitulates, UK annexes it and gets its troops/navy #
@@ -1891,6 +1905,11 @@ on_actions = {
 					tag = HOL
 				}
 				set_global_flag = GDU_HOL_capitulated
+				HOL = { 
+					transfer_navy = { 
+						target = CAN 
+					}
+				}
 				HOL = { 					country_event = { id = gduannexations.3 days = 3 }  }
 			}
 
@@ -1901,8 +1920,12 @@ on_actions = {
 					tag = DEN
 				}
 				set_global_flag = GDU_DEN_capitulated
-				DEN = { 					country_event = { id = gduannexations.4 days = 3 }  }
-			}			
+				DEN = { 
+					transfer_navy = { 
+						target = CAN 
+					}
+				}
+				DEN = { 					country_event = { id = gduannexations.3 days = 3 }  }			}						
 		
 			# When Norway capitulates, UK annexes it and gets its troops/navy #
 		
@@ -1911,8 +1934,12 @@ on_actions = {
 					tag = NOR
 				}
 				set_global_flag = GDU_NOR_capitulated
-				NOR = { 					country_event = { id = gduannexations.5 days = 3 }  }
-			}		
+				NOR = { 
+					transfer_navy = { 
+						target = AST 
+					}
+				}
+				NOR = { 					country_event = { id = gduannexations.3 days = 3 }  }			}					
 
 			# When Greece capitulates, UK annexes it and gets its troops/navy #
 		
@@ -1921,8 +1948,12 @@ on_actions = {
 					tag = GRE
 				}
 				set_global_flag = GDU_GRE_capitulated
-				GRE = { 					country_event = { id = gduannexations.6 days = 3 }  }
-			}		
+				GRE = { 
+					transfer_navy = { 
+						target = AST 
+					}
+				}
+				GRE = { 					country_event = { id = gduannexations.3 days = 3 }  }			}					
 
 			# When Yugoslavia capitulates, UK annexes it and gets its troops/navy #
 
@@ -1931,8 +1962,12 @@ on_actions = {
 					tag = YUG
 				}
 				set_global_flag = GDU_YUG_capitulated
-				YUG = { 					country_event = { id = gduannexations.7 days = 3 }  }
-			}	
+				YUG = { 
+					transfer_navy = { 
+						target = AST 
+					}
+				}
+				YUG = { 					country_event = { id = gduannexations.3 days = 3 }  }			}				
 
 			# When Poland capitulates, UK annexes it and gets its troops/navy #
 
@@ -1941,8 +1976,12 @@ on_actions = {
 					tag = POL
 				}
 				set_global_flag = GDU_POL_capitulated
-				POL = { 					country_event = { id = gduannexations.8 days = 150 }  }
-			}	
+				POL = { 
+					transfer_navy = { 
+						target = CAN 
+					}
+				}
+				POL = { 					country_event = { id = gduannexations.3 days = 3 }  }			}				
 			
 			
 		

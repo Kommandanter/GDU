@@ -1842,6 +1842,61 @@ focus_tree = {
 						target = ECU 
 					}
 				}
+				
+				if = {
+					limit = {
+						HUN = { is_ai = no }						
+					}
+					GER = { add_to_faction = HUN }
+					
+					HUN = {
+						declare_war_on = {
+							target = ENG
+							type = annex_everything
+						}
+							declare_war_on = {
+							target = POL
+							type = annex_everything
+						}					
+					}
+				}
+
+				if = {
+					limit = {
+						ROM = { is_ai = no }						
+					}
+					GER = { add_to_faction = ROM }
+					
+					ROM = {
+						declare_war_on = {
+							target = ENG
+							type = annex_everything
+						}
+							declare_war_on = {
+							target = POL
+							type = annex_everything
+						}					
+					}
+				}
+
+				if = {
+					limit = {
+						BUL = { is_ai = no }						
+					}
+					GER = { add_to_faction = BUL }
+					
+					BUL = {
+						declare_war_on = {
+							target = ENG
+							type = annex_everything
+						}
+							declare_war_on = {
+							target = POL
+							type = annex_everything
+						}					
+					}
+				}
+				
 			}
 
 			if = {
