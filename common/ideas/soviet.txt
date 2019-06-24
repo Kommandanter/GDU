@@ -1719,6 +1719,30 @@ ideas = {
 				factor = 1
 			}
 		}
+		
+		konstantin_rokossovsky2 = {
+			#Also unit leader: 402
+
+			picture = konstantin_rokossovsky
+
+			allowed = {
+				original_tag = SOV # Unlocked via focus
+			}
+			available =
+			{
+				has_completed_focus = SOV_defense_of_stalingrad
+			}
+
+
+
+			# Not purged, but tried and tortured, then released
+			traits = { army_armored_3 }
+
+			ai_will_do = {
+				factor = 1
+			}
+		}				
+		
 
 		pavel_zhigarev = {
 

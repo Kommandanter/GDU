@@ -823,7 +823,11 @@ focus_tree = {
 			swap_ideas = { 
 				remove_idea = georgy_zhukov_CoA
 				add_idea = georgy_zhukov_CoA2 
-			}			
+			}	
+			swap_ideas = { 
+				remove_idea = konstantin_rokossovsky
+				add_idea = konstantin_rokossovsky2 
+			}					
 			add_tech_bonus = {
 				name = stalingrad_landdoc_9
 				bonus = 8.00

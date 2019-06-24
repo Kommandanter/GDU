@@ -2949,6 +2949,15 @@ technologies = {
 		artillery_brigade = { 
 			max_strength = 13
 		}
+		mot_artillery_brigade = {
+			max_strength = 13		
+		}
+		rocket_artillery_brigade = {
+			max_strength = 13			
+		}
+		motorized_rocket_brigade = {
+			max_strength = 13			
+		}		
 		anti_air_brigade = { 
 			max_strength = 6
 		}
@@ -3005,6 +3014,12 @@ technologies = {
 			max_strength = 0.75
 			default_morale = 0.1
 			max_organisation = 3 
+		}
+
+		motorized_rocket_brigade = {
+			reliability = 0.15
+			soft_attack = 0.05
+			defense = 0.10
 		}
 
 		enable_tactic = tactic_blitz
@@ -3170,6 +3185,10 @@ technologies = {
 		artillery_brigade = {
 			breakthrough = 0.10
 		}
+		motorized_rocket_brigade = {
+			breakthrough = 0.20
+			default_morale = 0.15			
+		}
 		
 
 		enable_tactic = tactic_breakthrough
@@ -3216,6 +3235,11 @@ technologies = {
 			max_organisation = 10
 			default_morale = 0.05
 		}
+		motorized_rocket_brigade = {
+			max_organisation = 6
+			supply_consumption_factor = -0.25
+		}
+		
 
 		path = {
 			leads_to_tech = continuous_offensive
@@ -3255,6 +3279,10 @@ technologies = {
 		category_army = {
 			default_morale = 0.10
 		}
+		motorized_rocket_brigade = {
+			soft_attack = 0.05
+		}
+		
 		enable_tactic = tactic_backhand_blow
 		enable_tactic = tactic_default_backhand_blow
 
