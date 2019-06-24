@@ -2527,7 +2527,7 @@ focus_tree = {
 		icon = GFX_goal_der_kriegsmarine
 		x = 30
 		y = 1
-		cost = 5
+		cost = 10
 		ai_will_do = {
 			factor = 1
 		}
@@ -2561,10 +2561,10 @@ focus_tree = {
 			}
 			every_state = {
 				limit = {	has_state_flag = GER_naval_rearmament_1dockyard }
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = dockyard
-					level = 2
+					level = 1
 					instant_build = yes
 				}
 			}
@@ -2597,10 +2597,10 @@ focus_tree = {
 						include_locked = yes
 					}
 				}
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = dockyard
-					level = 2
+					level = 1
 					instant_build = yes
 				}
 				set_state_flag = GER_naval_rearmament_1dockyard
@@ -2616,7 +2616,7 @@ focus_tree = {
 		prerequisite = { focus = GER_naval_rearmament }
 		x = 0
 		y = 1
-		cost = 5
+		cost = 10
 		ai_will_do = {
 			factor = 1
 		}
@@ -2627,10 +2627,10 @@ focus_tree = {
 			navy_experience = 25
 			every_state = {
 				limit = { has_state_flag = GER_naval_effort_2dockyards }
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = dockyard
-					level = 2
+					level = 1
 					instant_build = yes
 				}
 			}
@@ -2658,14 +2658,14 @@ focus_tree = {
 					dockyard > 0
 					free_building_slots = {
 						building = dockyard
-						size > 2
+						size > 1
 						include_locked = yes
 					}
 				}
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = dockyard
-					level = 2
+					level = 1
 					instant_build = yes
 				}
 				set_state_flag = GER_naval_effort_2dockyards
@@ -2695,7 +2695,7 @@ focus_tree = {
 		prerequisite = { focus = GER_naval_effort }
 		x = 0
 		y = 2
-		cost = 5
+		cost = 10
 		ai_will_do = {
 			factor = 1
 		}
@@ -2703,15 +2703,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		complete_tooltip = {
-			every_state = {
-				limit = { has_state_flag = GER_naval_effort_2dockyards }
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = dockyard
-					level = 2
-					instant_build = yes
-				}
-			}
+
 		}
 
 		completion_reward = {
@@ -2738,15 +2730,15 @@ focus_tree = {
 					dockyard > 0
 					free_building_slots = {
 						building = dockyard
-						size > 2
+						size > 1
 						include_locked = yes
 					}
 					NOT = { has_state_flag = GER_naval_effort2_2dockyards }
 				}
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = dockyard
-					level = 2
+					level = 1
 					instant_build = yes
 				}
 				set_state_flag = GER_naval_effort2_2dockyards
@@ -2762,7 +2754,7 @@ focus_tree = {
 		mutually_exclusive = { focus = GER_u_boat_effort }
 		x = -1
 		y = 3
-		cost = 5
+		cost = 10
 		ai_will_do = {
 			factor = 0.25
 		}	
@@ -2773,10 +2765,10 @@ focus_tree = {
 			navy_experience = 50
 			every_state = {
 				limit = { has_state_flag = GER_plan_z_dockyards }
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = dockyard
-					level = 2
+					level = 1
 					instant_build = yes
 				}
 			}
@@ -2815,10 +2807,10 @@ focus_tree = {
 						include_locked = yes
 					}
 				}
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = dockyard
-					level = 2
+					level = 1
 					instant_build = yes
 				}
 				set_state_flag = GER_plan_z_dockyards
@@ -2856,7 +2848,7 @@ focus_tree = {
 		mutually_exclusive = { focus = GER_plan_z }
 		x = 1
 		y = 3
-		cost = 5
+		cost = 10
 		ai_will_do = {
 			factor = 1
 		}
@@ -2867,10 +2859,10 @@ focus_tree = {
 			navy_experience = 25
 			every_state = {
 				limit = { has_state_flag = GER_u_boat_effort_2dockyards }
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = dockyard
-					level = 2
+					level = 1
 					instant_build = yes
 				}
 			}
@@ -2893,10 +2885,10 @@ focus_tree = {
 						include_locked = yes
 					}
 				}
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = dockyard
-					level = 2
+					level = 1
 					instant_build = yes
 				}
 				set_state_flag = GER_u_boat_effort_2dockyards
