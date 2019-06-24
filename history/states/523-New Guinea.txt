@@ -3,7 +3,7 @@ state={
 	id=523
 	name="STATE_523"
 	resources={
-		rubber=26.000
+		rubber=36.000
 		aluminium=19.000
 	}
 
@@ -12,12 +12,24 @@ state={
 		buildings = {
 			infrastructure = 1
 			air_base = 3
+			1222 = {
+				naval_base = 1
+
+			}			
 			4329 = {
-				naval_base = 3
+				naval_base = 2
 
 			}
+			10251 = {
+				naval_base = 1
+
+			}					
+			10260 = {
+				naval_base = 1
+
+			}			
 			12237 = {
-				naval_base = 2
+				naval_base = 1
 
 			}
 			12154 = {

@@ -2,7 +2,7 @@ state={
 	id=634
 	name="STATE_634"
 		resources={
-		rubber=20
+		rubber=25
 		oil=5
 		aluminium=3
 	}
@@ -10,10 +10,26 @@ state={
 		owner = AST
 		buildings = {
 		infrastructure = 1
+			1042 = {
+				naval_base = 1
+
+			}	
+			1085 = {
+				naval_base = 1
+
+			}		
 			1269 = {
-				naval_base = 2
+				naval_base = 1
 
 			}
+			1370 = {
+				naval_base = 1
+
+			}				
+			4292 = {
+				naval_base = 1
+
+			}			
 			4226 = {
 				naval_base = 1
 
@@ -22,6 +38,14 @@ state={
 				naval_base = 1
 
 			}
+			10319 = {
+				naval_base = 1
+
+			}			
+			7437 = {
+				naval_base = 1
+
+			}			
 
 		}
 		victory_points = {

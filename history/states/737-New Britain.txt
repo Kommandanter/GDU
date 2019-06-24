@@ -4,6 +4,7 @@ state={
 	
 	resources={
 		rubber=11
+		oil=13
 	}
 
 	history={
@@ -11,10 +12,22 @@ state={
 		buildings = {
 			infrastructure = 2
 			air_base = 1
-			7251 = {
-				naval_base = 5
+			1329 = {
+				naval_base = 1
 
 			}
+			4304 = {
+				naval_base = 1
+
+			}	
+			7251 = {
+				naval_base = 2
+
+			}
+			7324 = {
+				naval_base = 1
+
+			}			
 			4352 = {
 				naval_base = 1
 
