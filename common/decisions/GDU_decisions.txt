@@ -1817,7 +1817,7 @@ foreign_politics = {
 				original_tag = ITA
 			}
 			or = {
-				date > 1932.11.7
+				date > 1942.11.7
 				USA = { controls_state = 461 }
 			}
 			ITA = {  

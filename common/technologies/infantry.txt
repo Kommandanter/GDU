@@ -469,6 +469,7 @@ technologies = {
 					TAG = XSM
 					TAG = SHX
 					TAG = SIK
+					TAG = FIN					
 				}
 		}
 
