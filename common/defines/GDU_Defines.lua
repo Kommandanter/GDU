@@ -43,6 +43,7 @@ NDefines.NCountry.SUPPLY_FROM_DAMAGED_INFRA = 0.1                -- damaged infr
 NDefines.NCountry.SUPPLY_BONUS_FROM_INPUT = 0.6					-- % of supply bonus from input area. Look at this as a possible balancing tool. 
 NDefines.NCountry.SPECIAL_FORCES_CAP_BASE = 0.00
 NDefines.NCountry.SPECIAL_FORCES_CAP_MIN = 160
+NDefines.NCountry.EQUIPMENT_UPGRADE_CHUNK_MAX_SIZE = 1000			-- Maximum chunk size of equipment upgrade distribution per update.
 NDefines.NCountry.REINFORCEMENT_EQUIPMENT_DELIVERY_SPEED = 0.7 
 NDefines.NCountry.REINFORCEMENT_MANPOWER_DELIVERY_SPEED = 30.0
 NDefines.NCountry.REINFORCEMENT_MANPOWER_CHUNK = 0.1
