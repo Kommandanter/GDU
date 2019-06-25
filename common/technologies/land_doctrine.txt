@@ -3237,7 +3237,6 @@ technologies = {
 		}
 		motorized_rocket_brigade = {
 			max_organisation = 6
-			supply_consumption_factor = -0.25
 		}
 		
 
