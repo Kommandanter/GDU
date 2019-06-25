@@ -264,7 +264,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			random_owned_controlled_state = {
+			46 = {
 				add_resource = {
 					type = oil
 					amount = 16
@@ -338,10 +338,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		complete_tooltip = {
-			random_state = {
-				limit = {
-					has_state_flag = ROM_national_defense_industry_AF1
-				}
+			46 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = arms_factory
@@ -349,10 +346,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			random_state = {
-				limit = {
-					has_state_flag = ROM_national_defense_industry_AF2
-				}
+			41 = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = arms_factory
@@ -363,15 +357,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			random_owned_controlled_state = {
-				prioritize = { 46 }
-				limit = {
-					free_building_slots = {
-						building = arms_factory
-						size > 0
-						include_locked = yes
-					}
-				}
+			46 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = arms_factory
@@ -380,15 +366,7 @@ focus_tree = {
 				}
 				set_state_flag = ROM_national_defense_industry_AF1
 			}
-			random_owned_controlled_state = {
-				prioritize = { 81 }
-				limit = {
-					free_building_slots = {
-						building = arms_factory
-						size > 0
-						include_locked = yes
-					}
-				}
+			41 = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = arms_factory
@@ -442,30 +420,21 @@ focus_tree = {
 		available_if_capitulated = no
 
 		complete_tooltip = {
-			random_state = {
-				limit = {
-					has_state_flag = ROM_danubian_transport_network_Inf
-				}
+			46 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 1
 					instant_build = yes
 				}
 			}
-			random_state = {
-				limit = {
-					has_state_flag = ROM_danubian_transport_network_Inf_2
-				}
+			81 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 1
 					instant_build = yes
 				}
 			}
-			random_state = {
-				limit = {
-					has_state_flag = ROM_danubian_transport_network_Inf_3
-				}
+			82 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 1
@@ -475,14 +444,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			random_owned_controlled_state = {
-				prioritize = { 46 }
-				limit = {
-					free_building_slots = {
-						building = infrastructure
-						size > 0
-					}
-				}
+			46 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 1
@@ -490,14 +452,7 @@ focus_tree = {
 				}
 				set_state_flag = ROM_danubian_transport_network_Inf
 			}
-			random_owned_controlled_state = {
-				prioritize = { 81 }
-				limit = {
-					free_building_slots = {
-						building = infrastructure
-						size > 0
-					}
-				}
+			81 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 1
@@ -505,14 +460,7 @@ focus_tree = {
 				}
 				set_state_flag = ROM_danubian_transport_network_Inf_2
 			}
-			random_owned_controlled_state = {
-				prioritize = { 82 }
-				limit = {
-					free_building_slots = {
-						building = infrastructure
-						size > 0
-					}
-				}
+			82 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 1
@@ -659,10 +607,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		complete_tooltip = {
-			random_state = {
-				limit = {
-					has_state_flag = ROM_invest_in_the_iar_AF1
-				}
+			83 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = arms_factory
@@ -673,15 +618,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			random_owned_controlled_state = {
-				limit = {
-					ROOT = { has_full_control_of_state = PREV }
-					free_building_slots = {
-						building = arms_factory
-						size > 1
-						include_locked = yes
-					}
-				}
+			83 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = arms_factory
@@ -2307,10 +2244,7 @@ focus_tree = {
 
 		complete_tooltip = {
 			navy_experience = 25
-			random_state = {
-				limit = {
-					has_state_flag = ROM_expand_the_galati_shipyards_AB
-				}
+			46 = {
 				add_building_construction = {
 					type = dockyard
 					level = 2
@@ -2321,15 +2255,7 @@ focus_tree = {
 
 		completion_reward = {
 			navy_experience = 25
-			random_owned_controlled_state = {
-				limit = {
-					ROOT = { has_full_control_of_state = PREV }
-					free_building_slots = {
-						building = dockyard
-						size > 1
-						include_locked = yes
-					}
-				}
+			46 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = dockyard
