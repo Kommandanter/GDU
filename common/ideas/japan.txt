@@ -62,7 +62,7 @@ ideas = {
 			picture = generic_goods_red_bonus
 			
 			modifier = {
-				min_export = -0.25
+				min_export = -0.40
 				local_resources_factor = 0.05
 			}
 		}
@@ -326,7 +326,9 @@ ideas = {
 				production_speed_industrial_complex_factor = -0.1
 				production_speed_dockyard_factor = 0.05
 				production_speed_arms_factory_factor = 0.05
-				production_speed_fuel_silo_factor = 0.15 
+				production_speed_fuel_silo_factor = 0.15
+				army_core_attack_factor = 0.15
+				army_core_defence_factor = 0.15
 			}
 		}
 
@@ -353,6 +355,8 @@ ideas = {
 				research_speed_factor = -0.10
 				production_speed_industrial_complex_factor = -0.1
 				production_speed_arms_factory_factor = 0.05
+				army_core_attack_factor = 0.15
+				army_core_defence_factor = 0.15				
 			}
 		}
 
@@ -377,6 +381,8 @@ ideas = {
 				mobilization_laws_cost_factor = -0.15
 				justify_war_goal_time = -0.1
 				production_speed_industrial_complex_factor = 0.1
+				army_core_attack_factor = 0.15
+				army_core_defence_factor = 0.15				
 			}
 		}
 

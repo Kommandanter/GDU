@@ -411,6 +411,12 @@ focus_tree = {
 					level = 1
 					instant_build = yes
 				}
+			}
+			661 = {
+				add_resource = {
+					type = oil
+					amount = 35
+				}
 			}			
 		}
 	}
@@ -448,7 +454,7 @@ focus_tree = {
 			448 = {
 				add_resource = {
 					type = rubber
-					amount = 55
+					amount = 30
 				}
 			}
 		}
