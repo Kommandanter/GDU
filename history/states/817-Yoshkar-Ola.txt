@@ -1,7 +1,6 @@
-
 state={
-	id=407
-	name="STATE_407"
+	id=817
+	name="STATE_817"
 
 	history={
 		owner = SOV
@@ -14,9 +13,9 @@ state={
 	}
 
 	provinces={
-		468 470 545 3404 3467 3515 3538 6491 6525 6551 6564 6588 9487 9513 9538 9549 11457 11472 11473 11482 11524 11537 
+		282 3361 6372 6383 9050 9270 9280 9305 9381 9390 9402 11149 11255 11263 11286 11354 11387 
 	}
-	manpower=268572
+	manpower=1
 	buildings_max_level_factor=1.000
 	state_category=town
 }
