@@ -27,6 +27,10 @@ NDefines.NDiplomacy.LICENSE_ACCEPTANCE_TECH_DIFFERENCE = -5 		-- Acceptance modi
 NDefines.NDiplomacy.LICENSE_ACCEPTANCE_TECH_DIFFERENCE_BASE = 0    -- Acceptance base for tech difference
 NDefines.NDiplomacy.LICENSE_ACCEPTANCE_SAME_FACTION = 0			-- Acceptance modifier for being in the same faction
 NDefines.NDiplomacy.TENSION_CB_WAR = 2.5
+NDefines.NDiplomacy.LL_TO_PUPPET_AUTONOMY_DAILY_BASE = 0.0			-- If overlord lend leases equipment to puppet of higher tech level as they have, puppet losses autonomy
+NDefines.NDiplomacy.LL_TO_PUPPET_AUTONOMY_DAILY_FACTOR = 0.00		-- If overlord lend leases equipment to puppet of higher tech level as they have, puppet losses autonomy
+NDefines.NDiplomacy.MASTER_BUILD_AUTONOMY_FACTOR = 0.0            -- scales autonomy gain from construction by this
+
 
 NDefines.NFocus.MAX_SAVED_FOCUS_PROGRESS = 15
 
