@@ -423,6 +423,96 @@ focus_tree = {
 					limit = { 251 = { is_controlled_by = ROOT } } 
 					set_capital = 251 
 				}
+				807 = { 
+					if = { 
+						limit = { 807 = { is_controlled_by = ROOT } }  
+						add_building_construction = {
+							type = infrastructure 
+							level = 6
+							instant_build = yes
+						}
+					}
+				}
+				399 = { 
+					if = { 
+						limit = { 399 = { is_controlled_by = ROOT } }  
+						add_building_construction = {
+							type = infrastructure 
+							level = 1
+							instant_build = yes
+						}
+					}
+				}	
+				400 = { 
+					if = { 
+						limit = { 400 = { is_controlled_by = ROOT } }  
+						add_building_construction = {
+							type = infrastructure 
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+				817 = { 
+					if = { 
+						limit = { 400 = { is_controlled_by = ROOT } }  
+						add_building_construction = {
+							type = infrastructure 
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+				815 = { 
+					if = { 
+						limit = { 400 = { is_controlled_by = ROOT } }  
+						add_building_construction = {
+							type = infrastructure 
+							level = 2
+							instant_build = yes
+						}
+					}
+				}
+				809 = { 
+					if = { 
+						limit = { 809 = { is_controlled_by = ROOT } }  
+						add_building_construction = {
+							type = infrastructure 
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+				406 = { 
+					if = { 
+						limit = { 406 = { is_controlled_by = ROOT } }  
+						add_building_construction = {
+							type = infrastructure 
+							level = 4
+							instant_build = yes
+						}
+					}
+				}
+				587 = { 
+					if = { 
+						limit = { 587 = { is_controlled_by = ROOT } }  
+						add_building_construction = {
+							type = infrastructure 
+							level = 3
+							instant_build = yes
+						}
+					}
+				}
+				584 = { 
+					if = { 
+						limit = { 584 = { is_controlled_by = ROOT } }  
+						add_building_construction = {
+							type = infrastructure 
+							level = 2
+							instant_build = yes
+						}
+					}
+				}					
 				251 = { 
 					if = { 
 						limit = { 251 = { is_controlled_by = ROOT } }  
@@ -1929,6 +2019,223 @@ focus_tree = {
 				#	province = 209
 				#	instant_build = yes
 				#}
+			}
+			217 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = bunker
+						level = 7
+						province = 3529
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 7
+						province = 13625
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 5
+						province = 11474
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 5
+						province = 520
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 5
+						province = 13266
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 5
+						province = 11484
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 5
+						province = 3529
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 5
+						province = 11484
+						instant_build = yes
+					}										
+				}
+			}
+			236 = {
+					add_building_construction = {
+						type = bunker
+						level = 5
+						province = 6516
+						instant_build = yes
+					}
+			}
+			815 = {
+					add_building_construction = {
+						type = bunker
+						level = 5
+						province = 6575
+						instant_build = yes
+					}
+			}				
+			195 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = bunker
+						level = 5
+						province = 9197
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 5
+						province = 11068
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 5
+						province = 79
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 5
+						province = 6174
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 5
+						province = 149
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 5
+						province = 13260
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 5
+						province = 13258
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 5
+						province = 3151
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 5
+						province = 13262
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 5
+						province = 13259
+						instant_build = yes
+					}
+				}
+			}
+			146 = {
+					add_building_construction = {
+						type = bunker
+						level = 5
+						province = 9150
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 5
+						province = 3060
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 5
+						province = 9100
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 5
+						province = 9105
+						instant_build = yes
+					}
+			}
+			264 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = bunker
+						level = 5
+						province = 11059
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 5
+						province = 9190
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 5
+						province = 9082
+						instant_build = yes
+					}
+				}
+			}
+			244 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = bunker
+						level = 5
+						province = 70
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 5
+						province = 6095
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 5
+						province = 6035
+						instant_build = yes
+					}
+				}
+			}
+			263 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = bunker
+						level = 5
+						province = 71
+						instant_build = yes
+					}
+				}
 			}
 			210 = {
 				if = {
