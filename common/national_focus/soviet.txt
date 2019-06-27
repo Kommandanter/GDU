@@ -2282,6 +2282,23 @@ focus_tree = {
 					}
 				}
 			}
+			137 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = bunker
+						level = 5
+						province = 705
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 5
+						province = 6704
+						instant_build = yes
+					}					
+				}
+			}			
 			202 = {
 				if = {
 					limit = { is_controlled_by = ROOT }
@@ -2297,6 +2314,12 @@ focus_tree = {
 						province = 3494
 						instant_build = yes
 					}
+					add_building_construction = {
+						type = bunker
+						level = 7
+						province = 13330
+						instant_build = yes
+					}					
 				}
 
 			}
