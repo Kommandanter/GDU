@@ -299,6 +299,8 @@ NDefines.NNavy.NAVAL_SUPREMACY_CAN_INVADE = 0.60
 NDefines.NNavy.NAVAL_TRANSFER_BASE_SPEED = 12
 NDefines.NNavy.NAVAL_INVASION_PREPARE_HOURS = 72
 
+NDefines.NNavy.NAVAL_MINES_IN_REGION_MAX = 0.0
+NDefines.NNavy.NAVAL_MINES_PLANTING_SPEED_MULT = 0.00001
 
 NDefines.NNavy.SHIP_TO_FLEET_ANTI_AIR_RATIO = 0.01 -- (0.2 -> 0.01) -- SilentLegion#1356, MTG 
 NDefines.NNavy.ANTI_AIR_POW_ON_INCOMING_AIR_DAMAGE = 0.8 -- (0.2 -> 0.75) -- SilentLegion#1356, MTG 
@@ -339,8 +341,6 @@ NDefines.NNavy.SPOTTING_SPEED_EFFECT_FOR_INITIAL_UNIT_TRANSFER_SPOTTING = 15.0 -
 NDefines.NNavy.BASE_SPOTTING_EFFECT_FOR_INITIAL_NAVAL_INVASION_SPOTTING = 0.75    -- same as BASE_SPOTTING_EFFECT_FOR_INITIAL_CONVOY_SPOTTING, but for naval invasion convoys
 NDefines.NNavy.SPOTTING_SPEED_EFFECT_FOR_INITIAL_NAVAL_INVASION_SPOTTING = 0.05  -- same as SPOTTING_SPEED_EFFECT_FOR_INITIAL_CONVOY_SPOTTING, but for naval invasion convoys
 
-
-NDefines.NNavy.NAVAL_MINES_IN_REGION_MAX = 100 -- Max number of mines that can be layed by the ships. The value should be hidden from the user, as we present % so it's an abstract value that should be used for balancing.
 NDefines.NNavy.TRAINING_ACCIDENT_CHANCES = 0.00						-- Chances one ship get damage each hour while on training
 
 NDefines.NAI.DIVISION_UPGRADE_MIN_XP = 400
