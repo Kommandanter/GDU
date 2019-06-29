@@ -189,3 +189,28 @@ country_event = {
 	}
 	
 }
+
+
+country_event = { 
+	id = gduannexations.9
+	title = gduannexations.9.t
+	desc = gduannexations.9.d
+	picture = GFX_report_event_canadian_soldiers
+	
+	is_triggered_only = yes 
+	
+	immediate = { 
+				ENG = {
+					annex_country = {
+						target = IRQ
+						transfer_troops = no
+					}
+				}
+	}
+	
+	option = {
+		name = gduannexations.9.a
+	
+	}
+	
+}
