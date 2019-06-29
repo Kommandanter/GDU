@@ -2100,50 +2100,50 @@ on_actions = {
 				USA = {
 					activate_mission = liberate_AST_mission
 
-					add_stability = -0.10
-					add_war_support = -0.10
+					add_stability = -0.125
+					add_war_support = -0.125
 				}
 				ENG = {
 					activate_mission = liberate_AST_mission
 
-					add_stability = -0.10
-					add_war_support = -0.10					
+					add_stability = -0.125
+					add_war_support = -0.125					
 				}
 				CAN = {
 					activate_mission = liberate_AST_mission
 
-					add_stability = -0.10
-					add_war_support = -0.10	
+					add_stability = -0.125
+					add_war_support = -0.125	
 				}
 				SAF = {
 					activate_mission = liberate_AST_mission
 
-					add_stability = -0.10
-					add_war_support = -0.10	
+					add_stability = -0.125
+					add_war_support = -0.125	
 				}
 				RAJ = {
 					activate_mission = liberate_AST_mission
 
-					add_stability = -0.10
-					add_war_support = -0.10	
+					add_stability = -0.125
+					add_war_support = -0.125	
 				}
 				NZL = {
 					activate_mission = liberate_AST_mission
 
-					add_stability = -0.10
-					add_war_support = -0.10	
+					add_stability = -0.125
+					add_war_support = -0.125	
 				}
 				AST = {
 					activate_mission = liberate_AST_mission
 
-					add_stability = -0.10
-					add_war_support = -0.10	
+					add_stability = -0.125
+					add_war_support = -0.125	
 				}
 				FRF = {
 					activate_mission = liberate_AST_mission
 
-					add_stability = -0.10
-					add_war_support = -0.10	
+					add_stability = -0.125
+					add_war_support = -0.125	
 				}				
 			}
 			
@@ -2178,50 +2178,50 @@ on_actions = {
 				USA = {
 					activate_mission = liberate_NZL_mission
 
-					add_stability = -0.05
-					add_war_support = -0.05						
+					add_stability = -0.06
+					add_war_support = -0.06						
 				}
 				ENG = {
 					activate_mission = liberate_NZL_mission
 
-					add_stability = -0.05
-					add_war_support = -0.05	
+					add_stability = -0.06
+					add_war_support = -0.06	
 				}
 				CAN = {
 					activate_mission = liberate_NZL_mission
 
-					add_stability = -0.05
-					add_war_support = -0.05	
+					add_stability = -0.06
+					add_war_support = -0.06	
 				}
 				SAF = {
 					activate_mission = liberate_NZL_mission
 
-					add_stability = -0.05
-					add_war_support = -0.05	
+					add_stability = -0.06
+					add_war_support = -0.06	
 				}
 				RAJ = {
 					activate_mission = liberate_NZL_mission
 
-					add_stability = -0.05
-					add_war_support = -0.05	
+					add_stability = -0.06
+					add_war_support = -0.06	
 				}
 				NZL = {
 					activate_mission = liberate_NZL_mission
 
-					add_stability = -0.05
-					add_war_support = -0.05	
+					add_stability = -0.06
+					add_war_support = -0.06	
 				}
 				AST = {
 					activate_mission = liberate_NZL_mission
 
-					add_stability = -0.05
-					add_war_support = -0.05	
+					add_stability = -0.06
+					add_war_support = -0.06	
 				}
 				FRF = {
 					activate_mission = liberate_NZL_mission
 
-					add_stability = -0.05
-					add_war_support = -0.05	
+					add_stability = -0.06
+					add_war_support = -0.06	
 				}				
 			}
 			
@@ -2260,50 +2260,50 @@ on_actions = {
 				USA = {
 					activate_mission = liberate_NZL_mission
 
-					add_stability = -0.05
-					add_war_support = -0.05
+					add_stability = -0.06
+					add_war_support = -0.06
 				}
 				ENG = {
 					activate_mission = liberate_NZL_mission
 
-					add_stability = -0.05
-					add_war_support = -0.05	
+					add_stability = -0.06
+					add_war_support = -0.06	
 				}
 				CAN = {
 					activate_mission = liberate_NZL_mission
 
-					add_stability = -0.05
-					add_war_support = -0.05	
+					add_stability = -0.06
+					add_war_support = -0.06	
 				}
 				SAF = {
 					activate_mission = liberate_NZL_mission
 
-					add_stability = -0.05
-					add_war_support = -0.05	
+					add_stability = -0.06
+					add_war_support = -0.06	
 				}
 				RAJ = {
 					activate_mission = liberate_NZL_mission
 
-					add_stability = -0.05
-					add_war_support = -0.05	
+					add_stability = -0.06
+					add_war_support = -0.06	
 				}
 				NZL = {
 					activate_mission = liberate_NZL_mission
 
-					add_stability = -0.05
-					add_war_support = -0.05	
+					add_stability = -0.06
+					add_war_support = -0.06	
 				}
 				AST = {
 					activate_mission = liberate_NZL_mission
 
-					add_stability = -0.05
-					add_war_support = -0.05	
+					add_stability = -0.06
+					add_war_support = -0.06	
 				}
 				FRF = {
 					activate_mission = liberate_NZL_mission
 
-					add_stability = -0.05
-					add_war_support = -0.05	
+					add_stability = -0.06
+					add_war_support = -0.06	
 				}				
 			}
 			
@@ -2340,50 +2340,50 @@ on_actions = {
 				USA = {
 					activate_mission = liberate_RAJ_mission
 
-					add_stability = -0.10
-					add_war_support = -0.10						
+					add_stability = -0.15
+					add_war_support = -0.15						
 				}
 				ENG = {
 					activate_mission = liberate_RAJ_mission
 
-					add_stability = -0.10
-					add_war_support = -0.10							
+					add_stability = -0.15
+					add_war_support = -0.15							
 				}
 				CAN = {
 					activate_mission = liberate_RAJ_mission
 
-					add_stability = -0.10
-					add_war_support = -0.10							
+					add_stability = -0.15
+					add_war_support = -0.15							
 				}
 				SAF = {
 					activate_mission = liberate_RAJ_mission
 
-					add_stability = -0.10
-					add_war_support = -0.10							
+					add_stability = -0.15
+					add_war_support = -0.15							
 				}
 				RAJ = {
 					activate_mission = liberate_RAJ_mission
 
-					add_stability = -0.10
-					add_war_support = -0.10							
+					add_stability = -0.15
+					add_war_support = -0.15							
 				}
 				NZL = {
 					activate_mission = liberate_RAJ_mission
 
-					add_stability = -0.10
-					add_war_support = -0.10							
+					add_stability = -0.15
+					add_war_support = -0.15							
 				}
 				AST = {
 					activate_mission = liberate_RAJ_mission
 
-					add_stability = -0.10
-					add_war_support = -0.10							
+					add_stability = -0.15
+					add_war_support = -0.15							
 				}
 				FRF = {
 					activate_mission = liberate_RAJ_mission
 
-					add_stability = -0.10
-					add_war_support = -0.10							
+					add_stability = -0.15
+					add_war_support = -0.15							
 				}				
 			}
 
@@ -2418,50 +2418,50 @@ on_actions = {
 				USA = {
 					activate_mission = liberate_SAF_mission
 
-					add_stability = -0.10
-					add_war_support = -0.10							
+					add_stability = -0.15
+					add_war_support = -0.15							
 				}
 				ENG = {
 					activate_mission = liberate_SAF_mission
 
-					add_stability = -0.10
-					add_war_support = -0.10		
+					add_stability = -0.15
+					add_war_support = -0.15		
 				}
 				CAN = {
 					activate_mission = liberate_SAF_mission
 
-					add_stability = -0.10
-					add_war_support = -0.10		
+					add_stability = -0.15
+					add_war_support = -0.15		
 				}
 				SAF = {
 					activate_mission = liberate_SAF_mission
 
-					add_stability = -0.10
-					add_war_support = -0.10		
+					add_stability = -0.15
+					add_war_support = -0.15		
 				}
 				RAJ = {
 					activate_mission = liberate_SAF_mission
 
-					add_stability = -0.10
-					add_war_support = -0.10		
+					add_stability = -0.15
+					add_war_support = -0.15		
 				}
 				NZL = {
 					activate_mission = liberate_SAF_mission
 
-					add_stability = -0.10
-					add_war_support = -0.10		
+					add_stability = -0.15
+					add_war_support = -0.15		
 				}
 				AST = {
 					activate_mission = liberate_SAF_mission
 
-					add_stability = -0.10
-					add_war_support = -0.10		
+					add_stability = -0.15
+					add_war_support = -0.15		
 				}
 				FRF = {
 					activate_mission = liberate_SAF_mission
 
-					add_stability = -0.10
-					add_war_support = -0.10		
+					add_stability = -0.15
+					add_war_support = -0.15		
 				}				
 			}			
 			

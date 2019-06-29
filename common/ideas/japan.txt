@@ -1254,8 +1254,8 @@ ideas = {
 			
 			modifier = {
 				special_forces_min = 400
-				extra_marine_supply_grace = 100
-				extra_paratrooper_supply_grace = 100
+				extra_marine_supply_grace = 150
+				extra_paratrooper_supply_grace = 150
 				amphibious_invasion_defence = 0.2
 				naval_invasion_capacity = 25
 				amphibious_invasion = 0.25
@@ -2228,6 +2228,27 @@ ideas = {
 			traits = { battlefleet_designer } # built Yamato
 
 		}
+		
+		japanese_raiding_designer = {
+			
+			cost = 75 
+			
+			allowed = {
+				original_tag = JAP
+			}
+			
+			picture = generic_coastal_defense_ships
+
+			
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+			
+			traits = { raiding_fleet_naval_manufacturer }
+			
+			modifier = {
+			}
+		}		
 		
 		yokosuka_naval_arsenal = {
 		
