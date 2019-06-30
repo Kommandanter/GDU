@@ -145,7 +145,6 @@ NDefines.NMilitary.LAND_COMBAT_ORG_DAMAGE_MODIFIER = 0.03
 NDefines.NMilitary.LAND_COMBAT_ORG_ARMOR_DEFLECTION_FACTOR = 0.5 -- damage reduction if armor outclassing enemy, will look at increasing if AT is too deadly to org. 
 NDefines.NMilitary.LAND_COMBAT_ORG_ARMOR_ON_SOFT_DICE_SIZE = 5   -- extra damage dice if our armor outclasses enemy
 NDefines.NMilitary.LAND_COMBAT_STR_ARMOR_DEFLECTION_FACTOR = 0.5 -- damage reduction if armor outclassing enemy
-NDefines.NMilitary.LAND_COMBAT_FORT_DAMAGE_CHANCE = 5.1		-- chance to get a hit to damage on forts. (out of 100)
 NDefines.NMilitary.TACTIC_SWAP_FREQUENCEY = 16
 NDefines.NMilitary.RIVER_CROSSING_PENALTY = -0.15
 NDefines.NMilitary.RIVER_CROSSING_PENALTY_LARGE = -0.25
@@ -185,8 +184,11 @@ NDefines.NMilitary.PARACHUTE_DISRUPTED_AA_PENALTY = 1            -- How much the
 NDefines.NMilitary.PARACHUTE_COMPLETE_ORG = 0.3				   -- Organisation value (in %) after unit being dropped, regardless if failed, disrupted, or successful.
 NDefines.NMilitary.PARACHUTE_ORG_REGAIN_PENALTY_DURATION = 120   -- penalty in org regain after being parachuted. Value is in hours.
 NDefines.NMilitary.PARACHUTE_ORG_REGAIN_PENALTY_MULT = -0.6	   -- penalty to org regain after being parachuted.
-NDefines.NMilitary.PARADROP_PENALTY = -0.2 
-NDefines.NMilitary.LAND_COMBAT_COLLATERAL_FACTOR = 0.002
+NDefines.NMilitary.PARADROP_PENALTY = -0.2
+
+NDefines.NMilitary.LAND_COMBAT_COLLATERAL_FACTOR = 0.0013
+NDefines.NMilitary.LAND_COMBAT_FORT_DAMAGE_CHANCE = 8		-- chance to get a hit to damage on forts. (out of 100)
+
 
 --- Nerfing CAS 
 NDefines.NMilitary.LAND_AIR_COMBAT_STR_DAMAGE_MODIFIER = 0.02   -- air global damage modifier
