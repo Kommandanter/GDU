@@ -3,15 +3,18 @@ state={
 	id=185
 	name="STATE_185"
 	resources={
-		chromium=20.000
+		chromium=42.000
 		steel=20.000
 	}
 
 	history={
 		owner = GRE
 		buildings = {
-			infrastructure = 2
+			infrastructure = 5
 			air_base = 3
+			dockyard = 1
+			arms_factory = 1
+			industrial_complex = 2
 			9805 = {
 				naval_base = 1
 

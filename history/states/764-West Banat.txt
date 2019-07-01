@@ -5,6 +5,10 @@ state={
 	manpower = 585579
 	state_category = town
 
+	resources={
+		steel=4.000
+	}
+
 	history={
 		owner = YUG
 		controller = YUG

@@ -2019,8 +2019,24 @@ on_actions = {
 			if = {
 				limit = {
 					tag = GRE
+					NOT = { has_global_flag = GDU_GRE_capitulated }					
 				}
 				set_global_flag = GDU_GRE_capitulated
+				
+				GER = {
+					transfer_state = 47					
+					}
+
+				BUL = {
+					transfer_state = 184
+					transfer_state = 731					
+					}
+								
+				ITA = {
+					transfer_state = 185
+					transfer_state = 186									
+					}				
+				
 				GRE = { 
 					transfer_navy = { 
 						target = AST 
@@ -2037,8 +2053,37 @@ on_actions = {
 			if = {
 				limit = {
 					tag = YUG
+					NOT = { has_global_flag = GDU_YUG_capitulated }
 				}
 				set_global_flag = GDU_YUG_capitulated
+				
+				GER = {
+					transfer_state = 102
+					transfer_state = 107
+					transfer_state = 108					
+					}
+
+				ROM = {
+					transfer_state = 764
+					}
+					
+				BUL = {
+					transfer_state = 106
+					}
+					
+				HUN = {
+					transfer_state = 45
+					}					
+
+				ITA = {
+					transfer_state = 103
+					transfer_state = 104				
+					transfer_state = 105
+					transfer_state = 109
+					transfer_state = 789					
+					}
+			
+				
 				YUG = { 
 					transfer_navy = { 
 						target = AST 

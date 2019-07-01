@@ -3,15 +3,18 @@ state={
 	id=731
 	name="STATE_731"
 
+	resources={
+		steel=4
+	}
+
 	history={
 		owner = GRE
 		victory_points = {
 			11818 5 
 		}
+
 		buildings = {
 			infrastructure = 5
-			arms_factory = 1
-			industrial_complex = 2
 			air_base = 6
 			11818 = {
 				naval_base = 3
