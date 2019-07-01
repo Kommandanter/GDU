@@ -1708,6 +1708,7 @@ ideas = {
 			available =
 			{
 				NOT = { has_country_flag = purge_1_group_b }
+				NOT = { has_idea = konstantin_rokossovsky2 }				
 				has_completed_focus = SOV_positive_heroism
 			}
 
