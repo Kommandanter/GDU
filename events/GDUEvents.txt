@@ -55,7 +55,7 @@ country_event = {
 	
 	immediate = { 
 		hidden_effect = { 
-			add_manpower = -275000
+			add_manpower = 0
 		}
 	}
 	

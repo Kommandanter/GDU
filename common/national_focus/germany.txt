@@ -110,6 +110,20 @@ focus_tree = {
 				uses = 1
 				technology = tech_signal_company2
 			}
+			
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 1.00 
+				uses = 1
+				technology = tech_field_hospital2
+			}
+
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 1.00 
+				uses = 1
+				technology = tech_field_hospital3
+			}			
 				
 			custom_effect_tooltip = available_chief_of_army
 			show_ideas_tooltip = walther_von_brauchitsch

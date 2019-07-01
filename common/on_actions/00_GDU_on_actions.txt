@@ -697,10 +697,6 @@ on_actions = {
 				country_event = { id = britain.16 days = 20 } 
 				country_event = { id = mtg_britain.1 days = 190 }			
 			}
-			#### Event to drain GER's manpower in return for no suppression troubles. ####
-			GER = { 
-				country_event = { id = gduevents.2 days = 1 } 
-			}
 			#### EVENT EXPLAINING Purge mechanics to Soviets #### 
 			SOV = { 
 				country_event = { id = gduevents.21 days = 5 } 
