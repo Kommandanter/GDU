@@ -389,9 +389,9 @@ ideas = {
 				supply_consumption_factor = -0.1 
 				drift_defence_factor = 0.5
 				global_building_slots_factor = 0.10
-				air_superiority_efficiency = -0.30
-				air_intercept_efficiency = -0.30
-				air_escort_efficiency = -0.30
+				air_superiority_efficiency = -0.35
+				air_intercept_efficiency = -0.35
+				air_escort_efficiency = -0.35
 			}
 		}
 
@@ -924,10 +924,10 @@ ideas = {
 				army_org_factor = -0.325
 				planning_speed = -0.5
 				max_planning = -0.15
-				air_superiority_efficiency = -0.55
+				air_superiority_efficiency = -0.50
 				army_bonus_air_superiority_factor = -0.25
-				air_escort_efficiency = -0.55
-				air_intercept_efficiency = -0.55
+				air_escort_efficiency = -0.50
+				air_intercept_efficiency = -0.50
 				air_cas_efficiency = -0.25
 				air_cas_present_factor = -0.1
 			}
@@ -978,10 +978,10 @@ ideas = {
 				army_org_factor = -0.225
 				planning_speed = -0.25
 				max_planning = -0.075
-				air_superiority_efficiency = -0.275
+				air_superiority_efficiency = -0.225
 				army_bonus_air_superiority_factor = -0.15
-				air_escort_efficiency = -0.275
-				air_intercept_efficiency = -0.275
+				air_escort_efficiency = -0.225
+				air_intercept_efficiency = -0.225
 				air_cas_efficiency = -0.15
 				air_cas_present_factor = -0.075
 			}
