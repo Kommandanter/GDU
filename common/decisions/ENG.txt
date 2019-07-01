@@ -280,10 +280,7 @@ political_actions = {
 			has_government = democratic
 			has_country_leader = { ruling_only = yes name = "Winston Churchill" }
 			has_war_with = GER
-			is_in_faction_with = FRA
-			FRA = {
-				surrender_progress > 0.2
-			}
+			is_in_faction_with = FRF
 		}
 
 		cost = 25
@@ -321,8 +318,7 @@ political_actions = {
 			has_government = democratic
 			has_country_leader = { ruling_only = yes name = "Winston Churchill" }
 			has_war_with = GER
-			is_in_faction_with = FRA
-			FRA = { has_capitulated = yes }
+			is_in_faction_with = FRF
 		}
 
 		cost = 25

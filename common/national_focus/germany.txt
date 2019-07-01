@@ -17,7 +17,7 @@ focus_tree = {
 	focus = {
 		id = GER_rhineland
 		icon = GFX_goal_gdu_rhineland
-		x = 12
+		x = 9
 		y = 0
 		cost = 10
 		available = { is_puppet = no }
@@ -47,7 +47,7 @@ focus_tree = {
 		id = GER_army_innovation
 		icon = GFX_goal_ger_heer
 		prerequisite = { focus = GER_rhineland }
-		x = 20
+		x = 16
 		y = 1
 		cost = 10
 		ai_will_do = {
@@ -134,7 +134,7 @@ focus_tree = {
 		id = GER_four_year_plan
 		icon = GFX_goal_goring_plan
 		prerequisite = { focus = GER_rhineland }
-		x = 4
+		x = 2
 		y = 1
 		cost = 10
 		ai_will_do = {
@@ -307,7 +307,7 @@ focus_tree = {
 
 		prerequisite = { focus = GER_west_wall }
 
-		x = 17
+		x = 13
 		y = 4
 
 		cost = 5
@@ -1187,7 +1187,7 @@ focus_tree = {
 		id = GER_air_innovation
 		icon = GFX_goal_luftwaffe
 		prerequisite = { focus = GER_rhineland }
-		x = 25
+		x = 21
 		y = 1
 		cost = 5
 		ai_will_do = {
@@ -2539,7 +2539,7 @@ focus_tree = {
 	focus = {
 		id = GER_naval_rearmament
 		icon = GFX_goal_der_kriegsmarine
-		x = 30
+		x = 26
 		y = 1
 		cost = 10
 		ai_will_do = {
@@ -3148,15 +3148,14 @@ focus_tree = {
 		id = GER_foreign_ss
 		icon = GFX_goal_generic_SS_focus
 		relative_position_id = GER_army_innovation
-		prerequisite = { focus = GER_flak_36 focus = GER_battle_russia }
-		x = -1
-		y = 5
+		prerequisite = { focus = GER_army_innovation }
+		x = 1
+		y = 1
 		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
         available = {
-			has_war_with = SOV
 		    has_war_with = ENG
 		}
 

@@ -1502,7 +1502,6 @@ on_actions = {
 				limit = {
 					NOT = { has_global_flag = GDU_gothic_line_breached }
 					date > 1941.1.1
-					GER = { has_completed_focus = GER_gothic_line }
 					OR = {
 						original_tag = USA
 						original_tag = ENG
