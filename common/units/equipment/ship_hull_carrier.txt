@@ -44,7 +44,7 @@ equipments = {
 			}
 			fixed_ship_secondaries_slot = {
 				required = no
-				allowed_module_categories = { ship_secondaries ship_anti_air }
+				allowed_module_categories = { ship_secondaries }
 			}
 			
 			front_1_custom_slot = {
@@ -87,9 +87,9 @@ equipments = {
 
 		
 		surface_detection = 20
-		sub_detection = 1
+		sub_detection = 5
 		surface_visibility = 30
-		naval_speed = 26
+		naval_speed = 31
 		reliability = 0.70
 		
 		naval_range = 3000
@@ -104,7 +104,7 @@ equipments = {
 		
 		build_cost_ic = 2450
 		resources = {
-			steel = 3
+			steel = 5
 			chromium = 1
 		}
 		
@@ -119,6 +119,11 @@ equipments = {
 		priority = 1000
 		
 		module_slots = inherit
+		naval_speed = 31.13
+		
+		default_modules = {		
+			fixed_ship_engine_slot = carrier_ship_engine_2		
+		}		
 	}
 
 	ship_hull_carrier_2 = {
@@ -155,8 +160,10 @@ equipments = {
 		default_modules = {
 			front_1_custom_slot = empty
 			mid_1_custom_slot = empty
+			fixed_ship_engine_slot = carrier_ship_engine_3
 		}
 		naval_range = 4000
+		naval_speed = 31.25		
 		reliability = 0.75
 		max_strength = 325
 		
@@ -164,7 +171,7 @@ equipments = {
 
 		build_cost_ic = 2600
 		resources = {
-			steel = 4
+			steel = 5
 			chromium = 1
 		}
 		manpower = 5000
@@ -215,6 +222,7 @@ equipments = {
 		}
 		
 		naval_range = 5000
+		naval_speed = 31.36		
 		reliability = 0.8
 		max_strength = 350
 		
@@ -222,7 +230,7 @@ equipments = {
 
 		build_cost_ic = 3250
 		resources = {
-			steel = 4
+			steel = 5
 			chromium = 2
 		}
 		manpower = 5500
@@ -264,9 +272,9 @@ equipments = {
 		naval_speed = 23
 
 
-		build_cost_ic = 2400
+		build_cost_ic = 2700
 		resources = {
-			steel = 4
+			steel = 3
 			chromium = 1
 		}
 		manpower = 5000
@@ -306,7 +314,7 @@ equipments = {
 
 		reliability = 0.65
 		naval_speed = 26
-		build_cost_ic = 2400
+		build_cost_ic = 2700
 		resources = {
 			steel = 3
 		}
