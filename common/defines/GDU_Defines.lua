@@ -364,3 +364,18 @@ NDefines.NAI.MAX_VOLUNTEER_ARMY_FRACTION = 0.0001
 NDefines.NNavy.AMPHIBIOUS_LANDING_PENALTY = -0.65								-- amphibious landing penalty
 
 NDefines.NNavy.LEADER_EXPERIENCE_SCALE = 0.0                      -- making admirals not level up in battles, similarly to generals
+
+
+NDefines.NNavy.GUN_HIT_PROFILES = { -- hit profiles for guns, if target ih profile is lower the gun will have lower accuracy		
+	        315.0,    -- big guns		
+	        290.0,    -- torpedos		
+	        240.0,    -- small guns		
+	   }		
+			
+NDefines.NNavy.DEPTH_CHARGES_HIT_PROFILE                                         = 320.0    -- hit profile for depth charges		
+			
+NDefines.NNavy.COMBAT_BASE_HIT_CHANCE = 1.0                                    -- base chance for hit
+
+NDefines.NNavy.MIN_SHIP_COUNT_FOR_TASK_FORCE_ROLE_ASSIGNMENT = 2					-- define the minimum number of ship that should be in a task force for it to be considered a patrol or an escort task force (used to the insignia assignment, see TASK_FORCE_ROLE_TO_INSIGNIA) --- 2 --> 4; QOL change. 2 ships can technically be called a TF
+
+NDefines.NNavy.ADMIRAL_TASKFORCE_CAP = 20										-- admirals will start getting penalties after this amount of taskforces   - 10 ---> 20; More QOL - Change revolving around escorts - Dd escort fleets will inevitably be required to cover more than 10 sea zones. Adding another fleet to your large existing list of them is exhausting
