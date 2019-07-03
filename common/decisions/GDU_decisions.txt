@@ -2106,9 +2106,8 @@ foreign_politics = {
 			custom_effect_tooltip = GDU_Jap_pearlharbor_tt
 			USA = { country_event = gdunews.6 } 
 				# Mexico ( a randomly chosen AI country ) gets an event that removes the US cores on Hawaii etc after the Pearl Harbor debuff has run out. This ensures that USA doesn't get a huge amount of extra core attack/defense helping to defend those in i.e. 1942 from the Home of the Free spirit (which is intended to help USA in the event of an invasion of mainland USA, not an invasion of i.e. Hawaii)
-			MEX = { country_event = gduannexations.12 days = 120 } 
-			
-			
+			MEX = { country_event = { id = gduannexations.12 days = 120 } } 
+						
 			USA = { 
 				add_timed_idea = { 
 					idea = USA_pearl_harbor_idea 
