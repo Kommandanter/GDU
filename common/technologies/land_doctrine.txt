@@ -616,10 +616,26 @@ technologies = {
 		xp_research_type = army
 		xp_research_cost = 100
 		xp_research_bonus = 0.5
-		category_all_infantry = {
+		motorized = {
 			default_morale = 0.2
 			max_organisation = 10
 		}
+		mechanized = {
+			default_morale = 0.2
+			max_organisation = 10
+		}
+		mot_artillery_brigade = {
+			default_morale = 0.2
+			max_organisation = 10
+		}
+		mot_anti_tank_brigade = {
+			default_morale = 0.2
+			max_organisation = 10
+		}
+		mot_anti_air_brigade = {
+			default_morale = 0.2
+			max_organisation = 10
+		}		
 		# faster planning
 		planning_speed = 0.2
 		

@@ -92,3 +92,6 @@
  
  antiair4:0 "Improved Anti-Air Upgrade III" 
  antitank4:0 "Improved Anti-Tank Upgrade III" 
+ 
+ uk_asia_focus:0 "Improve Supply in the Raj" 
+ uk_asia_focus_desc:0 "Improve our supply in the British Raj. Also improve supply for Canada and Australia there (and elsewhere), which is limited by their home ports." 
