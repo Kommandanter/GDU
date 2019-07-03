@@ -2057,23 +2057,6 @@ on_actions = {
 				}
 				set_global_flag = GDU_YUG_capitulated
 				
-				GER = {
-					transfer_state = 102
-					transfer_state = 107
-					transfer_state = 108					
-					}
-
-				ROM = {
-					transfer_state = 764
-					}
-					
-				BUL = {
-					transfer_state = 106
-					}
-					
-				HUN = {
-					transfer_state = 45
-					}					
 
 				ITA = {
 					transfer_state = 103
@@ -2089,6 +2072,9 @@ on_actions = {
 						target = AST 
 					}
 				}
+				
+				YUG = { 					country_event = { id = gduannexations.10 days = 3 }  }			}				
+				
 				YUG = { 					country_event = { id = gduannexations.7 days = 10 }  }			}				
 		}
 	}		
