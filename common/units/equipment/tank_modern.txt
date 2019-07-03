@@ -25,7 +25,7 @@ equipments = {
 		reliability = 0.8
 
 		#Defensive Abilities
-		defense = 20.19
+		defense = 22.38
 		breakthrough = 84
 		hardness = 0.98
 		armor_value = 130
@@ -86,7 +86,7 @@ equipments = {
 		reliability = 0.8
 
 		#Defensive Abilities
-		defense = 17.69
+		defense = 20.98
 		breakthrough = 4
 		hardness = 0.85
 		armor_value = 90
@@ -146,7 +146,7 @@ equipments = {
 		reliability = 0.8
 
 		#Defensive Abilities
-		defense = 16.59
+		defense = 18.78
 		breakthrough = 2
 		hardness = 0.98
 		armor_value = 130
@@ -207,7 +207,7 @@ equipments = {
 		reliability = 0.8
 
 		#Defensive Abilities
-		defense = 12.68
+		defense = 18.16
 		breakthrough = 4
 		hardness = 0.85
 		armor_value = 90

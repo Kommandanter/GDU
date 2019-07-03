@@ -1196,6 +1196,9 @@ technologies = {
 		category_all_infantry = {
 			defense = 0.20
 		}
+		category_line_artillery = {
+			defense = 0.20
+		}		
 		
 		enable_tactic = tactic_elastic_defense
 		

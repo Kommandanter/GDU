@@ -25,7 +25,7 @@ equipments = {
 		reliability = 0.8
 
 		#Defensive Abilities
-		defense = 12.42
+		defense = 13.84
 		breakthrough = 36
 		hardness = 0.95
 		armor_value = 70
@@ -72,7 +72,7 @@ equipments = {
 		maximum_speed = 5.5
 
 		#Defensive Abilities
-		defense = 16.83
+		defense = 18.66
 		breakthrough = 52
 		armor_value = 125
 
@@ -103,7 +103,7 @@ equipments = {
 		maximum_speed = 5.5
 
 		#Defensive Abilities
-		defense = 19.19
+		defense = 21.38
 		breakthrough = 67
 		armor_value = 149
 
@@ -148,7 +148,7 @@ equipments = {
 		reliability = 0.8
 
 		#Defensive Abilities
-		defense = 9.33
+		defense = 11.46
 		breakthrough = 2
 		hardness = 0.8
 		armor_value = 45
@@ -197,7 +197,7 @@ equipments = {
 		maximum_speed = 5.5
 
 		#Defensive Abilities
-		defense = 13.54
+		defense = 16.28
 		breakthrough = 3
 		armor_value = 68
 
@@ -230,7 +230,7 @@ equipments = {
 		maximum_speed = 5.5
 
 		#Defensive Abilities
-		defense = 15.89
+		defense = 19.18
 		breakthrough = 3.5
 		armor_value = 90
 
@@ -274,7 +274,7 @@ equipments = {
 		reliability = 0.8
 
 		#Defensive Abilities
-		defense = 8.62
+		defense = 10.04
 		breakthrough = 1
 		hardness = 0.95
 		armor_value = 70
@@ -323,7 +323,7 @@ equipments = {
 		maximum_speed = 5.5
 
 		#Defensive Abilities
-		defense = 12.63
+		defense = 14.46
 		breakthrough = 1.5
 		armor_value = 135
 
@@ -358,7 +358,7 @@ equipments = {
 		maximum_speed = 5.5
 
 		#Defensive Abilities
-		defense = 14.79
+		defense = 16.98
 		breakthrough = 1.8
 		armor_value = 155
 
@@ -404,7 +404,7 @@ equipments = {
 		reliability = 0.8
 
 		#Defensive Abilities
-		defense = 7.16
+		defense = 10.72
 		breakthrough = 2
 		hardness = 0.8
 		armor_value = 45
@@ -454,7 +454,7 @@ equipments = {
 		maximum_speed = 5.5
 
 		#Defensive Abilities
-		defense = 9.97
+		defense = 14.54
 		breakthrough = 3
 		armor_value = 68
 
@@ -491,7 +491,7 @@ equipments = {
 
 		
 		#Defensive Abilities
-		defense = 11.78
+		defense = 17.26
 		breakthrough = 3.5
 		armor_value = 90
 
