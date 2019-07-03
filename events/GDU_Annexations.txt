@@ -283,3 +283,26 @@ country_event = {
 
 
 
+country_event = { 
+	id = gduannexations.12
+	title = gduannexations.12.t
+	desc = gduannexations.12.d
+	picture = GFX_report_event_canadian_soldiers
+	
+	is_triggered_only = yes 
+	
+	immediate = {
+				# removes USA cores on Hawaii etc after the Pearl Harbor debuff has run out
+				USA = { remove_state_core = 632 }
+				USA = { remove_state_core = 650 }
+				USA = { remove_state_core = 638 }
+				USA = { remove_state_core = 631 }
+				USA = { remove_state_core = 629 }
+	}
+	
+	option = {
+		name = gduannexations.12.a
+	
+	}
+	
+}
