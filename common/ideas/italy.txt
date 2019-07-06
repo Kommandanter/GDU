@@ -866,8 +866,10 @@ ideas = {
 	naval_manufacturer = {
 	
 		designer = yes
-		
+				
 		crda = {
+
+		cost = 75
 						
 			allowed = {
 				original_tag = ITA
@@ -882,6 +884,8 @@ ideas = {
 		
 		ansaldo = {
 						
+			cost = 75				
+						
 			allowed = {
 				original_tag = ITA
 			}
@@ -894,7 +898,9 @@ ideas = {
 		}
 
 		odero_terni_orlando = {
-						
+				
+			cost = 75
+				
 			allowed = {
 				original_tag = ITA
 			}

@@ -1100,6 +1100,7 @@ ideas = {
 		kingston_shipbuilding = {
 			picture = generic_naval_manufacturer_2
 
+		cost = 75
 
 			allowed = {
 				original_tag = CAN
@@ -1118,6 +1119,8 @@ ideas = {
 
 		halifax_shipyard_limited = {
 			picture = generic_naval_manufacturer_3
+			
+		cost = 75
 
 
 			allowed = {
@@ -1142,6 +1145,7 @@ ideas = {
 
 		havilland_canada = {
 			picture = generic_air_manufacturer_1
+
 
 
 			allowed = {

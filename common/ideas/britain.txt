@@ -2234,8 +2234,11 @@ ideas = {
 	naval_manufacturer = {
 		
 		designer = yes
-		
+				
 		yarrow_shipbuilders = {
+
+		cost = 75
+
 			
 			allowed = {
 				original_TAG = ENG
@@ -2251,6 +2254,9 @@ ideas = {
 		
 		harland_wolff = {
 			
+			cost = 75
+
+			
 			allowed = {
 				original_TAG = ENG
 			}
@@ -2265,6 +2271,8 @@ ideas = {
 		}
 		
 		cammell_laird = {
+			
+			cost = 75
 			
 			allowed = {
 				original_TAG = ENG
@@ -2283,6 +2291,8 @@ ideas = {
 		}
 		
 		john_brown_company = {
+			
+			cost = 75			
 			
 			allowed = {
 				original_TAG = ENG

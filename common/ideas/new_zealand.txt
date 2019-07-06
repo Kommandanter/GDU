@@ -561,6 +561,8 @@ ideas = {
 
 		NZL_st_mary_bay_ship = {
 
+			cost = 75
+
 			picture = generic_naval_manufacturer_2
 
 			allowed = {
@@ -577,6 +579,8 @@ ideas = {
 		}
 
 		NZL_port_chalmers_shipbuilding = {
+
+			cost = 75
 
 			picture = generic_naval_manufacturer_1
 
