@@ -160,7 +160,7 @@ equipment_modules = {
 		
 		add_stats = {
 			
-			hg_attack = 44
+			hg_attack = 11
 			build_cost_ic = 1275
 		}
 		multiply_stats = {
@@ -185,7 +185,7 @@ equipment_modules = {
 		add_equipment_type = capital_ship
 		
 		add_stats = {
-			hg_attack = 48
+			hg_attack = 12
 			build_cost_ic = 1350
 		}
 		multiply_stats = {
@@ -215,7 +215,7 @@ equipment_modules = {
 		add_equipment_type = capital_ship
 		
 		add_stats = {
-			hg_attack = 52
+			hg_attack = 13
 			build_cost_ic = 1450
 		}
 		multiply_stats = {
@@ -246,7 +246,7 @@ equipment_modules = {
 		
 		add_stats = {
 			
-			hg_attack = 60
+			hg_attack = 15
 			build_cost_ic = 1650
 			
 		}
@@ -277,7 +277,7 @@ equipment_modules = {
 		add_equipment_type = capital_ship
 		
 		add_stats = {
-			hg_attack = 64
+			hg_attack = 16
 			build_cost_ic = 1800
 		}
 		build_cost_resources = {
@@ -314,6 +314,7 @@ equipment_modules = {
 		}
 		add_average_stats = {
 			hg_armor_piercing = 11
+			surface_visibility = 15
 		}
 		build_cost_resources = {
 			steel = 0.5
@@ -345,6 +346,7 @@ equipment_modules = {
 		}
 		add_average_stats = {
 			hg_armor_piercing = 12
+			surface_visibility = 15			
 		}
 		build_cost_resources = {
 			steel = 0.5
@@ -376,6 +378,7 @@ equipment_modules = {
 		}
 		add_average_stats = {
 			hg_armor_piercing = 13
+			surface_visibility = 15			
 		}
 		build_cost_resources = {
 			steel = 0.5
@@ -404,6 +407,7 @@ equipment_modules = {
 			hg_attack = 9
 			build_cost_ic = 900
 			surface_visibility = 0.0
+			surface_visibility = 15			
 		}
 		multiply_stats = {
 			naval_speed = -0.04

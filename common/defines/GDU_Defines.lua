@@ -164,7 +164,7 @@ NDefines.NMilitary.MAX_OUT_OF_SUPPLY_DAYS = 20 -- Because 30 is too long.
 NDefines.NMilitary.OUT_OF_SUPPLY_ATTRITION = 0.4                -- max attrition when out of supply
 NDefines.NMilitary.AIR_SUPPORT_BASE = 0.28
 NDefines.NMilitary.ENCIRCLED_DISBAND_MANPOWER_FACTOR = 0
-NDefines.NMilitary.ORG_LOSS_FACTOR_ON_CONQUER = 0.25
+NDefines.NMilitary.ORG_LOSS_FACTOR_ON_CONQUER = 0.4
 NDefines.NMilitary.PLAYER_ORDER_PLANNING_DECAY = 0.01
 NDefines.NMilitary.STRATEGIC_SPEED_BASE = 7.0
 NDefines.NMilitary.EFFICIENCY_REGION_CHANGE_DAILY_GAIN_STRATEGIC_BOMBER = 0.018
@@ -366,7 +366,7 @@ NDefines.NNavy.LEADER_EXPERIENCE_SCALE = 0.0                      -- making admi
 
 NDefines.NNavy.GUN_HIT_PROFILES = { -- hit profiles for guns, if target ih profile is lower the gun will have lower accuracy		
 	        315.0,    -- big guns		
-	        590.0,    -- torpedos		
+	        790.0,    -- torpedos		
 	        240.0,    -- small guns		
 	   }		
 			
