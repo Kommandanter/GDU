@@ -1758,15 +1758,17 @@ focus_tree = {
 
 		completion_reward = {
 			add_tech_bonus = {
-				bonus = 1.00 
-				uses = 2
-				technology = basic_battleship
-				technology = heavy_battleship
+				bonus = 9.99 
+				uses = 4
+				technology = basic_heavy_armor_scheme
+				technology = improved_heavy_armor_scheme
+				technology = basic_ship_hull_heavy
+				technology = improved_ship_hull_heavy	
 			}
 		}
 	}
 
-	
+		
 	focus = {
 		id = SOV_peoples_commissariat
 		icon = GFX_goal_support_communism
@@ -2476,14 +2478,47 @@ focus_tree = {
 			}
 			add_tech_bonus = {
 				name = ships_bonus
-				bonus = 1.00 
-				uses = 2
-				category = naval_equipment
+				bonus = 9.99 
+				uses = 12
+				technology = improved_ship_hull_light
+				technology = basic_ship_hull_cruiser
+				technology = improved_ship_hull_cruiser
+				technology = improved_ship_hull_submarine
+				technology = basic_cruiser_armor_scheme
+				technology = improved_cruiser_armor_scheme
+			
+				technology = basic_medium_battery
+				technology = basic_heavy_battery				
+				technology = improved_secondary_battery
+				technology = basic_light_shell
+				technology = basic_medium_shell
+				technology = basic_heavy_shell
+				
+				technology = fire_control_methods_1
+				technology = fire_control_methods_2
+				
+				technology = damage_control_1
+				technology = damage_control_2
+				
+				technology = magnetic_detonator
+				technology = improved_ship_torpedo_launcher
+				technology = improved_airplane_launcher
+				technology = smoke_generator
+				
 			}
+			add_tech_bonus = {
+				name = sov_waves_focus
+				bonus = 9.99
+				uses = 3
+				category = naval_doctrine
+			}			
+
+			
 		}
 
 		completion_reward = {
-			navy_experience = 25
+			add_ideas = nevskoye_design_bureau
+			navy_experience = 250
 			random_owned_controlled_state = {
 				limit = {
 					dockyard > 0
@@ -2520,10 +2555,40 @@ focus_tree = {
 			}
 			add_tech_bonus = {
 				name = ships_bonus
-				bonus = 1.00 
-				uses = 2
-				category = naval_equipment
+				bonus = 9.99 
+				uses = 12
+				technology = improved_ship_hull_light
+				technology = basic_ship_hull_cruiser
+				technology = improved_ship_hull_cruiser
+				technology = improved_ship_hull_submarine
+				technology = basic_cruiser_armor_scheme
+				technology = improved_cruiser_armor_scheme
+			
+				technology = basic_medium_battery
+				technology = basic_heavy_battery				
+				technology = improved_secondary_battery
+				technology = basic_light_shell
+				technology = basic_medium_shell
+				technology = basic_heavy_shell
+				
+				technology = fire_control_methods_1
+				technology = fire_control_methods_2
+				
+				technology = damage_control_1
+				technology = damage_control_2
+				
+				technology = magnetic_detonator
+				technology = improved_ship_torpedo_launcher
+				technology = improved_airplane_launcher
+				technology = smoke_generator
+				
 			}
+			add_tech_bonus = {
+				name = sov_waves_focus
+				bonus = 9.99
+				uses = 3
+				category = naval_doctrine
+			}				
 		}
 	}
 	### END BRANCH ###
