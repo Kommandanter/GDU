@@ -15,11 +15,12 @@
 		infantry = { x = 2 y = 0 }
 		infantry = { x = 2 y = 1 }
 		infantry = { x = 2 y = 2 }
-		infantry = { x = 2 y = 3 }
 		artillery_brigade = { x = 3 y = 0 }
 		artillery_brigade = { x = 3 y = 1 }
 		artillery_brigade = { x = 3 y = 2 }
 		artillery_brigade = { x = 3 y = 3 }
+		anti_air_brigade = { x = 4 y = 0 }
+		anti_air_brigade = { x = 4 y = 1 }
 
 
 	}
@@ -27,6 +28,7 @@
 		engineer = { x = 0 y = 0 } 	
 		recon = { x = 0 y = 1 } 		
 		artillery = { x = 0 y = 2 }
+		anti_air = { x = 0 y = 3 }			
 
 	}
 }
@@ -38,11 +40,12 @@ division_template = {
 	    motorized = { x = 0 y = 1 }
 		motorized = { x = 0 y = 2 }
 		motorized = { x = 0 y = 3 }
-		
+		mot_anti_air_brigade = { x = 0 y = 4 }
+
 		motorized = { x = 1 y = 0 }
 		motorized = { x = 1 y = 1 }
 		motorized = { x = 1 y = 2 }
-		motorized = { x = 1 y = 3 }
+		mot_anti_air_brigade = { x = 1 y = 3 }
 	    
 		light_armor = { x = 2 y = 0 }
 		light_armor = { x = 2 y = 1 }
@@ -62,6 +65,7 @@ division_template = {
         engineer = { x = 0 y = 0 }
         recon = { x = 0 y = 1 }
 		logistics_company { x = 0 y = 2 } 
+		anti_air = { x = 0 y = 3 }			
 
 	}
 }

@@ -19,16 +19,16 @@ division_template = {
 
 		infantry = { x = 2 y = 0 }
 		infantry = { x = 2 y = 1 }
-		infantry = { x = 2 y = 2 }
+		anti_tank_brigade = { x = 2 y = 2 }
 		anti_tank_brigade = { x = 2 y = 3 }
-		anti_tank_brigade = { x = 2 y = 4 }
 
 		artillery_brigade = { x = 3 y = 0 }
 		artillery_brigade = { x = 3 y = 1 }
 		artillery_brigade = { x = 3 y = 2 }
 		artillery_brigade = { x = 3 y = 3 }
 
-
+		anti_air_brigade = { x = 4 y = 0 }
+		anti_air_brigade = { x = 4 y = 1 }	
 	}
 	support = {
 		engineer = { x = 0 y = 0 } 	# (semi-mot) Engineer bn
@@ -59,12 +59,14 @@ division_template = {
 		mountaineers = { x = 2 y = 0 }
 		mountaineers = { x = 2 y = 1 }
 		mountaineers = { x = 2 y = 2 }
-		mountaineers = { x = 2 y = 3 }
 
 		artillery_brigade = { x = 3 y = 0 }
 		artillery_brigade = { x = 3 y = 1 }
 		artillery_brigade = { x = 3 y = 2 }
 		artillery_brigade = { x = 3 y = 3 }
+		
+		anti_air_brigade = { x = 4 y = 0 }
+		anti_air_brigade = { x = 4 y = 1 }	
 	}
 	support = {
 		engineer = { x = 0 y = 0 }      # includes 1x AC comp, 1x L tank comp
@@ -82,12 +84,12 @@ division_template = {
 		motorized = { x = 0 y = 0 }
 	    motorized = { x = 0 y = 1 }
 		motorized = { x = 0 y = 2 }
-		motorized = { x = 0 y = 3 }
+		mot_anti_air_brigade = { x = 0 y = 4 }
 
 		motorized = { x = 1 y = 0 }
 		motorized = { x = 1 y = 1 }
 		motorized = { x = 1 y = 2 }
-		motorized = { x = 1 y = 3 }
+		mot_anti_air_brigade = { x = 1 y = 3 }
 
 		light_armor = { x = 2 y = 0 }
 		light_armor = { x = 2 y = 1 }
@@ -134,6 +136,9 @@ division_template = {
 		light_armor = { x = 1 y = 3 }
 		light_armor = { x = 1 y = 4 }
 	}
+	support = {
+		anti_air = { x = 0 y = 0 }
+	}		
 }
 
 division_template = {
@@ -152,6 +157,9 @@ division_template = {
 		heavy_armor = { x = 1 y = 3 }
 		heavy_armor = { x = 1 y = 4 }
 	}
+	support = {
+		anti_air = { x = 0 y = 0 }
+	}	
 }
 
 division_template = {
@@ -183,7 +191,6 @@ division_template = {
 
 		mot_artillery_brigade = { x = 4 y = 0 }
 		mot_artillery_brigade = { x = 4 y = 1 }
-		mot_artillery_brigade = { x = 4 y = 2 }
 
 	}
 	support = {
@@ -214,6 +221,7 @@ division_template = {
 	}
 	support = {
 		recon = { x = 0 y = 0 }      # Recon Group consisted of 64 ACs/scout cars
+		anti_air = { x = 0 y = 1 }		
 	}
 }
 
@@ -236,6 +244,7 @@ division_template = {
 	support = {
 		engineer = { x = 0 y = 0 }
 		artillery = { x = 0 y = 1 }
+		anti_air = { x = 0 y = 2 }		
 
 	}
 	priority = 0

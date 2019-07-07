@@ -15,12 +15,12 @@
 		infantry = { x = 2 y = 0 }
 		infantry = { x = 2 y = 1 }
 		infantry = { x = 2 y = 2 }
-		infantry = { x = 2 y = 3 }
 		artillery_brigade = { x = 3 y = 0 }
 		artillery_brigade = { x = 3 y = 1 }
 		artillery_brigade = { x = 3 y = 2 }
 		artillery_brigade = { x = 3 y = 3 }
-
+		anti_air_brigade = { x = 4 y = 0 }
+		anti_air_brigade = { x = 4 y = 1 }
 
 	}
 	support = {
