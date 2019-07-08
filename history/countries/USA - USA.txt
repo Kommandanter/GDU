@@ -1,4 +1,4 @@
-capital = 361
+﻿capital = 361
 
 oob = "USA_1936"
 if = {
@@ -45,7 +45,11 @@ set_technology = {
 	fuel_refining = 1
 	motorised_infantry = 1
 	marines  = 1
-	synth_oil_experiments = 1	
+	synth_oil_experiments = 1
+	#GDU additions for USA Pacific/SE Asia air control 
+	air_superiority = 1
+	forward_interception = 1 
+	fighter_ace_initiative = 1 	
 }
 
 if = {
