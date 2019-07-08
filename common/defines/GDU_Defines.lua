@@ -397,3 +397,6 @@ NDefines.NNavy.MAX_ESCAPE_SPEED_FROM_COMBAT_DURATION = 5000                    -
 NDefines.NNavy.NAVY_VISIBILITY_BONUS_ON_RETURN_FOR_REPAIR = 0.01                -- Multiplier for the surface/sub visiblity when the heavily damaged fleet is returning to the home base for reparation. 1.0 = no bonus. 0.0 = invisible.
 
 NDefines.NNavy.MAX_POSITIONING_PENALTY_FROM_HIGHER_SHIP_RATIO                    = 0.65  -- maximum penalty to get from larger fleets
+
+NDefines.NNavy.CONVOY_HIT_PROFILE												= 1200.0  	-- convoys has this contant hit profile
+NDefines.NNavy.CONVOY_SINKING_SPILLOVER = 1.5                 				-- Damaged convoys roll for if they sink in the end of combat by accumulating the damage. This scales that chance. 
