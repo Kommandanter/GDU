@@ -2247,6 +2247,8 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = harold_mcclelland		
 			air_experience = 25
 			add_tech_bonus = {
 				name = USA_air_war_plans_division
@@ -2334,8 +2336,6 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			custom_effect_tooltip = available_political_advisor
-			show_ideas_tooltip = harold_mcclelland
 			air_experience = 25
 			add_tech_bonus = {
 				name = USA_TAC

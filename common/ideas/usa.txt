@@ -2521,7 +2521,7 @@ ideas = {
 			}
 			
 			available = { 
-				has_completed_focus = USA_TAC 
+				has_completed_focus = USA_air_war_plans_division 
 			} 
 			
 			
