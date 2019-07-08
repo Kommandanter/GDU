@@ -98,6 +98,10 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
+		xp_research_type = navy
+		xp_research_cost = 35
+		xp_research_bonus = 1.50		
+		
 		research_cost = 1.5
 		
 		folder = {
@@ -127,6 +131,10 @@ technologies = {
 			leads_to_tech = improved_decimetric_radar 
 			research_cost_coeff = 1
 		}
+		
+		xp_research_type = navy
+		xp_research_cost = 35
+		xp_research_bonus = 1.50		
 		
 		research_cost = 1.5
 		start_year = 1938
@@ -181,6 +189,10 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
+		xp_research_type = navy
+		xp_research_cost = 50
+		xp_research_bonus = 1.50		
+		
 		research_cost = 2
 		start_year = 1939
 		
@@ -229,6 +241,10 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
+		xp_research_type = navy
+		xp_research_cost = 50
+		xp_research_bonus = 1.50		
+		
 		research_cost = 2.5
 		start_year = 1940
 		
@@ -266,7 +282,9 @@ technologies = {
 			level = 5
 		}
 
-		
+		xp_research_type = navy
+		xp_research_cost = 50
+		xp_research_bonus = 1.50		
 
 		static_anti_air_hit_chance_factor = 0.2
 		
@@ -317,6 +335,10 @@ technologies = {
 		}
 		
 		static_anti_air_hit_chance_factor = 0.2
+		
+		xp_research_type = navy
+		xp_research_cost = 50
+		xp_research_bonus = 1.50		
 		
 		research_cost = 2.5
 		start_year = 1942
@@ -772,6 +794,10 @@ technologies = {
 			ship_fire_control_system_1
 		}
 		
+		xp_research_type = navy
+		xp_research_cost = 25
+		xp_research_bonus = 1.50		
+		
 		research_cost = 1
 		
 		folder = {
@@ -820,6 +846,10 @@ technologies = {
 			position = { x = 0 y = 8 }
 		}
 		
+		xp_research_type = navy
+		xp_research_cost = 25
+		xp_research_bonus = 1.50		
+		
 		ai_will_do = {
 			factor = 0.75
 			modifier = {
@@ -854,6 +884,10 @@ technologies = {
 		allow_branch = {
 			has_dlc = "Man the Guns"
 		}
+		
+		xp_research_type = navy
+		xp_research_cost = 25
+		xp_research_bonus = 1.50		
 		
 		research_cost = 1
 		
