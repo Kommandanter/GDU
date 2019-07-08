@@ -1,4 +1,4 @@
-﻿capital = 361
+capital = 361
 
 oob = "USA_1936"
 if = {
@@ -604,9 +604,9 @@ create_navy_leader = {
 create_navy_leader = {
 	name = "Chester W. Nimitz"
 		picture = "Portrait_USA_Chester_W_Nimitz.dds"
-	traits = { gentlemanly blue_water_expert naval_lineage superior_tactician spotter }
+	traits = { gentlemanly blue_water_expert naval_lineage superior_tactician spotter air_controller flight_deck_manager }
 	skill = 5
-	attack_skill = 3
+	attack_skill = 4
 	defense_skill = 3
 	maneuvering_skill = 5
 	coordination_skill = 5
@@ -615,12 +615,12 @@ create_navy_leader = {
 create_navy_leader = {
 	name = "William Halsey, Jr."
 		picture = "Portrait_USA_William_Halsey_Jr.dds"
-	traits = { bold aviation_enthusiast superior_tactician spotter }
+	traits = { bold aviation_enthusiast superior_tactician spotter fly_swatter }
 	skill = 4
 	attack_skill = 5
 	defense_skill = 3
 	maneuvering_skill = 3
-	coordination_skill = 2
+	coordination_skill = 3
 }
 
 create_navy_leader = {
