@@ -821,22 +821,8 @@ focus_tree = {
 			ROM = { add_war_support = 0.3 } 
 			if = {
 				limit = {
-					NOT = { is_in_faction_with = HUN }
-				}
-				custom_effect_tooltip = GER_integrate_war_economies_tt
-			}
-			if = {
-				limit = {
-					NOT = { is_in_faction_with = ROM }
-				}
-				custom_effect_tooltip = GER_integrate_war_economies_tt2
-			}
-			if = {
-				limit = {
-					HUN = {
-						is_in_faction_with = GER
-						is_free_or_subject_of_root = yes
-					}
+
+
 				}
 				random_owned_controlled_state = {
 					limit = {
@@ -873,10 +859,6 @@ focus_tree = {
 			}
 			if = {
 				limit = {
-					ROM = {
-						is_in_faction_with = GER
-						is_free_or_subject_of_root = yes
-					}
 				}
 				random_owned_controlled_state = {
 					limit = {
@@ -913,10 +895,7 @@ focus_tree = {
 			}
 			if = {
 				limit = {
-					HUN = {
-						is_in_faction_with = GER
-						is_free_or_subject_of_root = yes
-					}
+
 				}
 				HUN = {
 					random_owned_controlled_state = {
@@ -955,10 +934,7 @@ focus_tree = {
 			}
 			if = {
 				limit = {
-					ROM = {
-						is_in_faction_with = GER
-						is_free_or_subject_of_root = yes
-					}
+
 				}
 				ROM = {
 					random_owned_controlled_state = {
@@ -993,80 +969,7 @@ focus_tree = {
 						}
 						set_state_flag = GER_integrate_war_economies_2
 					}
-					country_event = { id = wtt_germany.7 days = 1 }
 				}
-			}
-			if = {
-				limit = {
-					has_dlc = "Death or Dishonor" 
-					HUN = {
-						is_in_faction_with = GER
-					}
-					is_subject = no
-				}
-				GER = {
-					set_autonomy = { target = HUN autonomy_state = autonomy_satellite }
-				}
-			}
-			if = {
-				limit = { 
-					has_dlc = "Death or Dishonor" 
-					ROM = {
-						is_in_faction_with = GER
-					}
-					is_subject = no
-				}
-				GER = {
-					set_autonomy = { target = ROM autonomy_state = autonomy_satellite }
-				}
-			}
-			if = {
-				limit = { 
-					has_dlc = "Together for Victory"
-					NOT = { has_dlc = "Death or Dishonor" } 
-					HUN = {
-						is_in_faction_with = GER
-					}
-					is_subject = no
-				}
-				GER = {
-					set_autonomy = { target = HUN autonomy_state = autonomy_dominion }
-				}
-			}
-			if = {
-				limit = { 
-					has_dlc = "Together for Victory" 
-					NOT = { has_dlc = "Death or Dishonor" }
-					ROM = {
-						is_in_faction_with = GER
-					}
-					is_subject = no
-				}
-				GER = {
-					set_autonomy = { target = ROM autonomy_state = autonomy_dominion }
-				}
-			}
-			if = {
-				limit = { 
-					NOT = { has_dlc = "Together for Victory" }
-					NOT = { has_dlc = "Death or Dishonor" }
-					HUN = {
-						is_in_faction_with = GER
-					}
-					is_subject = no
-				}
-				puppet = HUN
-			}
-			if = {
-				limit = { 
-					NOT = { has_dlc = "Together for Victory" }
-					NOT = { has_dlc = "Death or Dishonor" }
-					ROM = {
-						is_in_faction_with = GER
-					}
-					is_subject = no
-				}
-				puppet = ROM
 			}
 		}
 	}
