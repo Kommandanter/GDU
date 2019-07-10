@@ -366,7 +366,7 @@ NDefines.NNavy.LEADER_EXPERIENCE_SCALE = 0.0                      -- making admi
 
 NDefines.NNavy.GUN_HIT_PROFILES = { -- hit profiles for guns, if target ih profile is lower the gun will have lower accuracy		
 	        315.0,    -- big guns		
-	        790.0,    -- torpedos		
+	        740.0,    -- torpedos		
 	        240.0,    -- small guns		
 	   }		
 			
