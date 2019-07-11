@@ -524,14 +524,19 @@ foreign_politics = {
 				} 
 				country_event = { id = gduevents.3 }
 			}
-			
+
 				
 					
 		}
 		
 		remove_effect = {
 			custom_effect_tooltip = GER_barbarossa_tooltip
-			
+			GER = {
+				declare_war_on = {
+					target = SOV
+					type = annex_everything
+				}
+			}
 			every_country = { 
 				limit = {
 					is_in_faction_with = GER 
