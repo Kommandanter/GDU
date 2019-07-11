@@ -908,6 +908,17 @@ on_actions = {
 			}
 
 
+		#### If China starts as AI, the China war will be scripted to speed up early game performance/reduce lag. A global flag is set to trigger that.
+
+		if = { 
+			limit = { 
+				NOT = { has_global_flag = china_started_ai } 
+				date < 1936.1.2
+				MAN = { is_ai = yes }
+			}
+			set_global_flag = china_started_ai 
+		}	
+
 		#### Annexing Manchukuo immediately to Japan if it starts the game as AI. In this case, Japan gets some of the industry from focuses Manchukuo would have done if it were a player. Although Japan gets this industry up front, it is less than the focus factories a human Manchukuo player can get. Given that Japan can use this for ongoing construction, Asian Axis should end up with about the same industry as you would get with a good Manchu player who properly develops it ####
 
 		if = { 
