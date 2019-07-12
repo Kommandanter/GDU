@@ -97,7 +97,6 @@ ideas = {
 					has_war = yes
 					threat > 0.05
 				}
-				has_war_support > 0.10
 
 				if = {
 					limit = {
@@ -156,7 +155,6 @@ ideas = {
 					has_war = yes
 					threat > 0.15
 				}
-				has_war_support > 0.15
 
 				if = {
 					limit = {
@@ -212,7 +210,6 @@ ideas = {
 		war_economy = {
 			available = {
 				threat > 0.15
-				has_war_support > 0.40
 				OR = {
 					has_government = fascism
 					has_government = communism
@@ -266,7 +263,6 @@ ideas = {
 			available = {
 				has_war = yes
 				threat > 0.2
-				has_war_support > 0.8
 				date > 1941.1.1 
 				any_enemy_country = {
 					ic_ratio = {
