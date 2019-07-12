@@ -13,11 +13,11 @@ state={
 			5139 3 
 		}
 		buildings = {
-			infrastructure = 4
+			infrastructure = 5
 			air_base = 1
 			industrial_complex = 1 
 			5139 = {
-				naval_base = 15
+				naval_base = 20
 
 			}
 
