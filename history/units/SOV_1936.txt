@@ -1741,39 +1741,48 @@ air_wings = {
 	# MVO Aviatsya Komandovaniya
 	195 = {
 		# 2ya Istrebitel'nye Aviabrigada
-		fighter_equipment_1 = {
+				fighter_equipment_0 = {
+			version_name = "I-15bis"	
 			owner = "SOV"
 			amount = 100
 		}
-		fighter_equipment_1 = {
+				fighter_equipment_0 = {
+			version_name = "I-153"
 			owner = "SOV"
 			amount = 100
 		}
-		fighter_equipment_1 = {
+				fighter_equipment_0 = {
+			version_name = "I-153"
 			owner = "SOV"
 			amount = 100
 		}
-		fighter_equipment_1 = {
+				fighter_equipment_0 = {
+			version_name = "I-153"
 			owner = "SOV"
 			amount = 100
 		}
-		fighter_equipment_1 = {
+				fighter_equipment_0 = {
+			version_name = "I-153"
 			owner = "SOV"
 			amount = 100
 		}
-		fighter_equipment_1 = {
+				fighter_equipment_0 = {
+			version_name = "I-15bis"
 			owner = "SOV"
 			amount = 100
 		}
-		fighter_equipment_1 = {
+				fighter_equipment_0 = {
+			version_name = "I-15bis"
 			owner = "SOV"
 			amount = 100
 		}
-		fighter_equipment_1 = {
+				fighter_equipment_0 = {
+			version_name = "I-15bis"
 			owner = "SOV"
 			amount = 100
 		}		
-		fighter_equipment_1 = {
+				fighter_equipment_0 = {
+			version_name = "I-15bis"		
 			owner = "SOV"
 			amount = 100
 		}
@@ -1982,17 +1991,6 @@ instant_effect = {
 		}
 		requested_factories = 1
 		progress = 0.4
-		efficiency = 70
-	}
-
-
-	add_equipment_production = {
-		equipment = {
-			type = fighter_equipment_1
-			creator = "SOV"
-		}
-		requested_factories = 5
-		progress = 0.15
 		efficiency = 70
 	}
 	add_equipment_production = {
