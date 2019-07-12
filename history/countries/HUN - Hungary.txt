@@ -27,7 +27,6 @@ if = {
 		disarmed_nation
 		HUN_treaty_of_triannon
 		GDU_scuffed_acclim
-		general_staff		
 	}
 }
 
