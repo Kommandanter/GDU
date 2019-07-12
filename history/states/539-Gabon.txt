@@ -6,6 +6,7 @@ state={
 	history={
 		owner = FRA
 		add_core_of = FRA
+		add_core_of = FRF
 		victory_points = {
 			8193 1 
 		}
@@ -17,10 +18,8 @@ state={
 			air_base = 1
 			industrial_complex = 1 
 			5139 = {
-				naval_base = 20
-
-			}
-
+				naval_base = 15
+			}		
 		}
 
 	}
