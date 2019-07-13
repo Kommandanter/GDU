@@ -2886,6 +2886,10 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		category_support_battalions = {
+			max_organisation = 2.5
+		}
+
 		doctrine = yes
 		research_cost = 3.6
 
@@ -2916,7 +2920,7 @@ technologies = {
 		xp_research_bonus = 0.5
 		
 		max_dig_in = 5
-		dig_in_speed_factor = 0.30
+		dig_in_speed_factor = 0.4
 		
 		infantry = {
 			max_organisation = 5
@@ -2971,23 +2975,30 @@ technologies = {
 		supply_consumption_factor = -0.1
 		
 		artillery_brigade = { 
-			max_strength = 13
+			max_strength = 17
+			max_organisation = 2.5
 		}
 		mot_artillery_brigade = {
-			max_strength = 13		
+			max_strength = 17
+			max_organisation = 5
 		}
 		rocket_artillery_brigade = {
-			max_strength = 13			
+			max_strength = 17
+			max_organisation = 2.5
 		}
 		motorized_rocket_brigade = {
-			max_strength = 13			
+			max_strength = 17
+			max_organisation = 5
 		}		
 		anti_air_brigade = { 
-			max_strength = 6
+			max_strength = 9
+			max_organisation = 5
 		}
 		anti_tank_brigade = { 
-			max_strength = 6
+			max_strength = 9
+			max_organisation = 2.5
 		}
+
 
 		enable_tactic = tactic_relentless_assault
 		enable_tactic = tactic_default_relentless_assault
@@ -3028,14 +3039,14 @@ technologies = {
 		xp_research_bonus = 0.5
 
 		mechanized = {
-			max_strength = 3
+			max_strength = 4
 		}
 		motorized = {
-			max_strength = 3
+			max_strength = 4
 		}		
 		
 		category_all_armor = {
-			max_strength = 0.75
+			max_strength = 1
 			default_morale = 0.1
 			max_organisation = 3 
 		}
@@ -3210,7 +3221,7 @@ technologies = {
 			breakthrough = 0.10
 		}
 		motorized_rocket_brigade = {
-			breakthrough = 0.20
+			breakthrough = 0.30
 			default_morale = 0.15			
 		}
 		
