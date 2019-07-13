@@ -93,8 +93,36 @@ if = { limit = { OR = { check_variable = { sealion_score > 67 } check_variable =
 if = { limit = { OR = { check_variable = { sealion_score > 68 } check_variable = { sealion_score < 68 } } } remove_ideas = GDU_SealionScore_68 }
 if = { limit = { OR = { check_variable = { sealion_score > 69 } check_variable = { sealion_score < 69 } } } remove_ideas = GDU_SealionScore_69 }
 if = { limit = { OR = { check_variable = { sealion_score > 70 } check_variable = { sealion_score < 70 } } } remove_ideas = GDU_SealionScore_70 }
-
-
+if = { limit = { OR = { check_variable = { sealion_score > 71 } check_variable = { sealion_score < 71 } } } remove_ideas = GDU_SealionScore_71 }
+if = { limit = { OR = { check_variable = { sealion_score > 72 } check_variable = { sealion_score < 72 } } } remove_ideas = GDU_SealionScore_72 }
+if = { limit = { OR = { check_variable = { sealion_score > 73 } check_variable = { sealion_score < 73 } } } remove_ideas = GDU_SealionScore_73 }
+if = { limit = { OR = { check_variable = { sealion_score > 74 } check_variable = { sealion_score < 74 } } } remove_ideas = GDU_SealionScore_74 }
+if = { limit = { OR = { check_variable = { sealion_score > 75 } check_variable = { sealion_score < 75 } } } remove_ideas = GDU_SealionScore_75 }
+if = { limit = { OR = { check_variable = { sealion_score > 76 } check_variable = { sealion_score < 76 } } } remove_ideas = GDU_SealionScore_76 }
+if = { limit = { OR = { check_variable = { sealion_score > 77 } check_variable = { sealion_score < 77 } } } remove_ideas = GDU_SealionScore_77 }
+if = { limit = { OR = { check_variable = { sealion_score > 78 } check_variable = { sealion_score < 78 } } } remove_ideas = GDU_SealionScore_78 }
+if = { limit = { OR = { check_variable = { sealion_score > 79 } check_variable = { sealion_score < 79 } } } remove_ideas = GDU_SealionScore_79 }
+if = { limit = { OR = { check_variable = { sealion_score > 80 } check_variable = { sealion_score < 80 } } } remove_ideas = GDU_SealionScore_80 }
+if = { limit = { OR = { check_variable = { sealion_score > 81 } check_variable = { sealion_score < 81 } } } remove_ideas = GDU_SealionScore_81 }
+if = { limit = { OR = { check_variable = { sealion_score > 82 } check_variable = { sealion_score < 82 } } } remove_ideas = GDU_SealionScore_82 }
+if = { limit = { OR = { check_variable = { sealion_score > 83 } check_variable = { sealion_score < 83 } } } remove_ideas = GDU_SealionScore_83 }
+if = { limit = { OR = { check_variable = { sealion_score > 84 } check_variable = { sealion_score < 84 } } } remove_ideas = GDU_SealionScore_84 }
+if = { limit = { OR = { check_variable = { sealion_score > 85 } check_variable = { sealion_score < 85 } } } remove_ideas = GDU_SealionScore_85 }
+if = { limit = { OR = { check_variable = { sealion_score > 86 } check_variable = { sealion_score < 86 } } } remove_ideas = GDU_SealionScore_86 }
+if = { limit = { OR = { check_variable = { sealion_score > 87 } check_variable = { sealion_score < 87 } } } remove_ideas = GDU_SealionScore_87 }
+if = { limit = { OR = { check_variable = { sealion_score > 88 } check_variable = { sealion_score < 88 } } } remove_ideas = GDU_SealionScore_88 }
+if = { limit = { OR = { check_variable = { sealion_score > 89 } check_variable = { sealion_score < 89 } } } remove_ideas = GDU_SealionScore_89 }
+if = { limit = { OR = { check_variable = { sealion_score > 90 } check_variable = { sealion_score < 90 } } } remove_ideas = GDU_SealionScore_90 }
+if = { limit = { OR = { check_variable = { sealion_score > 91 } check_variable = { sealion_score < 91 } } } remove_ideas = GDU_SealionScore_91 }
+if = { limit = { OR = { check_variable = { sealion_score > 92 } check_variable = { sealion_score < 92 } } } remove_ideas = GDU_SealionScore_92 }
+if = { limit = { OR = { check_variable = { sealion_score > 93 } check_variable = { sealion_score < 93 } } } remove_ideas = GDU_SealionScore_93 }
+if = { limit = { OR = { check_variable = { sealion_score > 94 } check_variable = { sealion_score < 94 } } } remove_ideas = GDU_SealionScore_94 }
+if = { limit = { OR = { check_variable = { sealion_score > 95 } check_variable = { sealion_score < 95 } } } remove_ideas = GDU_SealionScore_95 }
+if = { limit = { OR = { check_variable = { sealion_score > 96 } check_variable = { sealion_score < 96 } } } remove_ideas = GDU_SealionScore_96 }
+if = { limit = { OR = { check_variable = { sealion_score > 97 } check_variable = { sealion_score < 97 } } } remove_ideas = GDU_SealionScore_97 }
+if = { limit = { OR = { check_variable = { sealion_score > 98 } check_variable = { sealion_score < 98 } } } remove_ideas = GDU_SealionScore_98 }
+if = { limit = { OR = { check_variable = { sealion_score > 99 } check_variable = { sealion_score < 99 } } } remove_ideas = GDU_SealionScore_99 }
+if = { limit = { OR = { check_variable = { sealion_score > 100 } check_variable = { sealion_score < 100 } } } remove_ideas = GDU_SealionScore_100 }
 
 }	
 		
@@ -2466,7 +2494,7 @@ set_variable = { sealion_score = temp2 }
 clamp_variable = {
     var = sealion_score
     min = 0
-    max = 70
+    max = 100
 }
 
 
@@ -2758,7 +2786,126 @@ if = {
 	limit = { check_variable = { sealion_score > 69 } check_variable = { sealion_score < 71 } }	
 	ENG = { add_ideas = GDU_SealionScore_70 }	
 }		
-
+if = {		
+	limit = { check_variable = { sealion_score > 70 } check_variable = { sealion_score < 72 } }	
+	ENG = { add_ideas = GDU_SealionScore_71 }	
+}		
+if = {		
+	limit = { check_variable = { sealion_score > 71 } check_variable = { sealion_score < 73 } }	
+	ENG = { add_ideas = GDU_SealionScore_72 }	
+}		
+if = {		
+	limit = { check_variable = { sealion_score > 72 } check_variable = { sealion_score < 74 } }	
+	ENG = { add_ideas = GDU_SealionScore_73 }	
+}		
+if = {		
+	limit = { check_variable = { sealion_score > 73 } check_variable = { sealion_score < 75 } }	
+	ENG = { add_ideas = GDU_SealionScore_74 }	
+}		
+if = {		
+	limit = { check_variable = { sealion_score > 74 } check_variable = { sealion_score < 76 } }	
+	ENG = { add_ideas = GDU_SealionScore_75 }	
+}		
+if = {		
+	limit = { check_variable = { sealion_score > 75 } check_variable = { sealion_score < 77 } }	
+	ENG = { add_ideas = GDU_SealionScore_76 }	
+}		
+if = {		
+	limit = { check_variable = { sealion_score > 76 } check_variable = { sealion_score < 78 } }	
+	ENG = { add_ideas = GDU_SealionScore_77 }	
+}		
+if = {		
+	limit = { check_variable = { sealion_score > 77 } check_variable = { sealion_score < 79 } }	
+	ENG = { add_ideas = GDU_SealionScore_78 }	
+}		
+if = {		
+	limit = { check_variable = { sealion_score > 78 } check_variable = { sealion_score < 80 } }	
+	ENG = { add_ideas = GDU_SealionScore_79 }	
+}		
+if = {		
+	limit = { check_variable = { sealion_score > 79 } check_variable = { sealion_score < 81 } }	
+	ENG = { add_ideas = GDU_SealionScore_80 }	
+}		
+if = {		
+	limit = { check_variable = { sealion_score > 80 } check_variable = { sealion_score < 82 } }	
+	ENG = { add_ideas = GDU_SealionScore_81 }	
+}		
+if = {		
+	limit = { check_variable = { sealion_score > 81 } check_variable = { sealion_score < 83 } }	
+	ENG = { add_ideas = GDU_SealionScore_82 }	
+}		
+if = {		
+	limit = { check_variable = { sealion_score > 82 } check_variable = { sealion_score < 84 } }	
+	ENG = { add_ideas = GDU_SealionScore_83 }	
+}		
+if = {		
+	limit = { check_variable = { sealion_score > 83 } check_variable = { sealion_score < 85 } }	
+	ENG = { add_ideas = GDU_SealionScore_84 }	
+}		
+if = {		
+	limit = { check_variable = { sealion_score > 84 } check_variable = { sealion_score < 86 } }	
+	ENG = { add_ideas = GDU_SealionScore_85 }	
+}		
+if = {		
+	limit = { check_variable = { sealion_score > 85 } check_variable = { sealion_score < 87 } }	
+	ENG = { add_ideas = GDU_SealionScore_86 }	
+}		
+if = {		
+	limit = { check_variable = { sealion_score > 86 } check_variable = { sealion_score < 88 } }	
+	ENG = { add_ideas = GDU_SealionScore_87 }	
+}		
+if = {		
+	limit = { check_variable = { sealion_score > 87 } check_variable = { sealion_score < 89 } }	
+	ENG = { add_ideas = GDU_SealionScore_88 }	
+}		
+if = {		
+	limit = { check_variable = { sealion_score > 88 } check_variable = { sealion_score < 90 } }	
+	ENG = { add_ideas = GDU_SealionScore_89 }	
+}		
+if = {		
+	limit = { check_variable = { sealion_score > 89 } check_variable = { sealion_score < 91 } }	
+	ENG = { add_ideas = GDU_SealionScore_90 }	
+}		
+if = {		
+	limit = { check_variable = { sealion_score > 90 } check_variable = { sealion_score < 92 } }	
+	ENG = { add_ideas = GDU_SealionScore_91 }	
+}		
+if = {		
+	limit = { check_variable = { sealion_score > 91 } check_variable = { sealion_score < 93 } }	
+	ENG = { add_ideas = GDU_SealionScore_92 }	
+}		
+if = {		
+	limit = { check_variable = { sealion_score > 92 } check_variable = { sealion_score < 94 } }	
+	ENG = { add_ideas = GDU_SealionScore_93 }	
+}		
+if = {		
+	limit = { check_variable = { sealion_score > 93 } check_variable = { sealion_score < 95 } }	
+	ENG = { add_ideas = GDU_SealionScore_94 }	
+}		
+if = {		
+	limit = { check_variable = { sealion_score > 94 } check_variable = { sealion_score < 96 } }	
+	ENG = { add_ideas = GDU_SealionScore_95 }	
+}		
+if = {		
+	limit = { check_variable = { sealion_score > 95 } check_variable = { sealion_score < 97 } }	
+	ENG = { add_ideas = GDU_SealionScore_96 }	
+}		
+if = {		
+	limit = { check_variable = { sealion_score > 96 } check_variable = { sealion_score < 98 } }	
+	ENG = { add_ideas = GDU_SealionScore_97 }
+}
+if = {		
+	limit = { check_variable = { sealion_score > 97 } check_variable = { sealion_score < 99 } }	
+	ENG = { add_ideas = GDU_SealionScore_98 }	
+}		
+if = {		
+	limit = { check_variable = { sealion_score > 98 } check_variable = { sealion_score < 100 } }	
+	ENG = { add_ideas = GDU_SealionScore_99 }	
+}		
+if = {		
+	limit = { check_variable = { sealion_score > 99 } check_variable = { sealion_score < 101 } }	
+	ENG = { add_ideas = GDU_SealionScore_100 }	
+}		
 
 			
 
