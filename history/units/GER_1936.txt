@@ -365,26 +365,26 @@ units = {
 		name = "2. Infanterie-Division"
 		location = 6334
 		division_template = "Infanterie-Division"
-		start_experience_factor = 0.5
+		start_experience_factor = 0.3
 	}
 	division= {	
 		name = "12. Infanterie-Division"
 		location = 537
 		division_template = "Infanterie-Division"
-		start_experience_factor = 0.5
+		start_experience_factor = 0.3
 	}
 	# III. Armeekorps
 	division= {	
 		name = "3. Infanterie-Division"
 		location = 478
 		division_template = "Infanterie-Division"
-		start_experience_factor = 0.5
+		start_experience_factor = 0.3
 	}
 	division= {	
 		name = "23. Infanterie-Division"
 		location = 478
 		division_template = "Infanterie-Division"
-		start_experience_factor = 0.5
+		start_experience_factor = 0.3
 	}
 	# Panzertruppenkommando
 	division= {	
@@ -397,14 +397,14 @@ units = {
 		name = "2. Panzer-Division"
 		location = 6521
 		division_template = "Leichte-Division"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.5
 		force_equipment_variants = { light_tank_equipment_1 = { owner = "GER" } }
 	}
 	division= {	
 		name = "3. Panzer-Division"
 		location = 6521
 		division_template = "Leichte-Division"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.5
 		force_equipment_variants = { light_tank_equipment_1 = { owner = "GER" } }
 	}
 
@@ -428,32 +428,32 @@ units = {
 		name = "4. Infanterie-Division"
 		location = 6462
 		division_template = "Infanterie-Division"
-		start_experience_factor = 0.5
+		start_experience_factor = 0.3
 	}
 	division= {	
 		name = "14. Infanterie-Division"
 		location = 6462
 		division_template = "Infanterie-Division"
-		start_experience_factor = 0.5
+		start_experience_factor = 0.3
 	}
 	division= {	
 		name = "24. Infanterie-Division"
 		location = 6462
 		division_template = "Infanterie-Division"
-		start_experience_factor = 0.5
+		start_experience_factor = 0.3
 	}
 	# VIII. Armeekorps
 	division= {	
 		name = "8. Infanterie-Division"
 		location = 11467
 		division_template = "Infanterie-Division"
-		start_experience_factor = 0.5
+		start_experience_factor = 0.3
 	}
 	division= {	
 		name = "18. Infanterie-Division"
 		location = 11467
 		division_template = "Infanterie-Division"
-		start_experience_factor = 0.5
+		start_experience_factor = 0.3
 	}
 
 	# I. Armeekorps
