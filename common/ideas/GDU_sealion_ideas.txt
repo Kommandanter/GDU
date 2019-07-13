@@ -1404,6 +1404,614 @@ GDU_SealionScore_70 = {
 	}			
 }				
 	
+				
+GDU_SealionScore_71 = {				
+				
+	allowed = {			
+		always = no		
+	}			
+				
+	allowed_civil_war = {			
+		always = yes		
+	}			
+				
+	removal_cost = -1			
+				
+	picture = generic_navy_bonus			
+				
+	modifier = {			
+		army_core_attack_factor = 0.71		
+		army_core_defence_factor = 0.71		
+	}			
+}				
+				
+GDU_SealionScore_72 = {				
+				
+	allowed = {			
+		always = no		
+	}			
+				
+	allowed_civil_war = {			
+		always = yes		
+	}			
+				
+	removal_cost = -1			
+				
+	picture = generic_navy_bonus			
+				
+	modifier = {			
+		army_core_attack_factor = 0.72		
+		army_core_defence_factor = 0.72		
+	}			
+}				
+				
+GDU_SealionScore_73 = {				
+				
+	allowed = {			
+		always = no		
+	}			
+				
+	allowed_civil_war = {			
+		always = yes		
+	}			
+				
+	removal_cost = -1			
+				
+	picture = generic_navy_bonus			
+				
+	modifier = {			
+		army_core_attack_factor = 0.73		
+		army_core_defence_factor = 0.73		
+	}			
+}				
+				
+GDU_SealionScore_74 = {				
+				
+	allowed = {			
+		always = no		
+	}			
+				
+	allowed_civil_war = {			
+		always = yes		
+	}			
+				
+	removal_cost = -1			
+				
+	picture = generic_navy_bonus			
+				
+	modifier = {			
+		army_core_attack_factor = 0.74		
+		army_core_defence_factor = 0.74		
+	}			
+}				
+				
+GDU_SealionScore_75 = {				
+				
+	allowed = {			
+		always = no		
+	}			
+				
+	allowed_civil_war = {			
+		always = yes		
+	}			
+				
+	removal_cost = -1			
+				
+	picture = generic_navy_bonus			
+				
+	modifier = {			
+		army_core_attack_factor = 0.75		
+		army_core_defence_factor = 0.75		
+	}			
+}				
+				
+GDU_SealionScore_76 = {				
+				
+	allowed = {			
+		always = no		
+	}			
+				
+	allowed_civil_war = {			
+		always = yes		
+	}			
+				
+	removal_cost = -1			
+				
+	picture = generic_navy_bonus			
+				
+	modifier = {			
+		army_core_attack_factor = 0.76		
+		army_core_defence_factor = 0.76		
+	}			
+}				
+				
+GDU_SealionScore_77 = {				
+				
+	allowed = {			
+		always = no		
+	}			
+				
+	allowed_civil_war = {			
+		always = yes		
+	}			
+				
+	removal_cost = -1			
+				
+	picture = generic_navy_bonus			
+				
+	modifier = {			
+		army_core_attack_factor = 0.77		
+		army_core_defence_factor = 0.77		
+	}			
+}				
+				
+GDU_SealionScore_78 = {				
+				
+	allowed = {			
+		always = no		
+	}			
+				
+	allowed_civil_war = {			
+		always = yes		
+	}			
+				
+	removal_cost = -1			
+				
+	picture = generic_navy_bonus			
+				
+	modifier = {			
+		army_core_attack_factor = 0.78		
+		army_core_defence_factor = 0.78		
+	}			
+}				
+				
+GDU_SealionScore_79 = {				
+				
+	allowed = {			
+		always = no		
+	}			
+				
+	allowed_civil_war = {			
+		always = yes		
+	}			
+				
+	removal_cost = -1			
+				
+	picture = generic_navy_bonus			
+				
+	modifier = {			
+		army_core_attack_factor = 0.79		
+		army_core_defence_factor = 0.79		
+	}			
+}				
+				
+GDU_SealionScore_80 = {				
+				
+	allowed = {			
+		always = no		
+	}			
+				
+	allowed_civil_war = {			
+		always = yes		
+	}			
+				
+	removal_cost = -1			
+				
+	picture = generic_navy_bonus			
+				
+	modifier = {			
+		army_core_attack_factor = 0.8		
+		army_core_defence_factor = 0.8		
+	}			
+}				
+				
+GDU_SealionScore_81 = {				
+				
+	allowed = {			
+		always = no		
+	}			
+				
+	allowed_civil_war = {			
+		always = yes		
+	}			
+				
+	removal_cost = -1			
+				
+	picture = generic_navy_bonus			
+				
+	modifier = {			
+		army_core_attack_factor = 0.81		
+		army_core_defence_factor = 0.81		
+	}			
+}				
+				
+GDU_SealionScore_82 = {				
+				
+	allowed = {			
+		always = no		
+	}			
+				
+	allowed_civil_war = {			
+		always = yes		
+	}			
+				
+	removal_cost = -1			
+				
+	picture = generic_navy_bonus			
+				
+	modifier = {			
+		army_core_attack_factor = 0.82		
+		army_core_defence_factor = 0.82		
+	}			
+}				
+				
+GDU_SealionScore_83 = {				
+				
+	allowed = {			
+		always = no		
+	}			
+				
+	allowed_civil_war = {			
+		always = yes		
+	}			
+				
+	removal_cost = -1			
+				
+	picture = generic_navy_bonus			
+				
+	modifier = {			
+		army_core_attack_factor = 0.83		
+		army_core_defence_factor = 0.83		
+	}			
+}				
+				
+GDU_SealionScore_84 = {				
+				
+	allowed = {			
+		always = no		
+	}			
+				
+	allowed_civil_war = {			
+		always = yes		
+	}			
+				
+	removal_cost = -1			
+				
+	picture = generic_navy_bonus			
+				
+	modifier = {			
+		army_core_attack_factor = 0.84		
+		army_core_defence_factor = 0.84		
+	}			
+}				
+				
+GDU_SealionScore_85 = {				
+				
+	allowed = {			
+		always = no		
+	}			
+				
+	allowed_civil_war = {			
+		always = yes		
+	}			
+				
+	removal_cost = -1			
+				
+	picture = generic_navy_bonus			
+				
+	modifier = {			
+		army_core_attack_factor = 0.85		
+		army_core_defence_factor = 0.85		
+	}			
+}				
+				
+GDU_SealionScore_86 = {				
+				
+	allowed = {			
+		always = no		
+	}			
+				
+	allowed_civil_war = {			
+		always = yes		
+	}			
+				
+	removal_cost = -1			
+				
+	picture = generic_navy_bonus			
+				
+	modifier = {			
+		army_core_attack_factor = 0.86		
+		army_core_defence_factor = 0.86		
+	}			
+}				
+				
+GDU_SealionScore_87 = {				
+				
+	allowed = {			
+		always = no		
+	}			
+				
+	allowed_civil_war = {			
+		always = yes		
+	}			
+				
+	removal_cost = -1			
+				
+	picture = generic_navy_bonus			
+				
+	modifier = {			
+		army_core_attack_factor = 0.87		
+		army_core_defence_factor = 0.87		
+	}			
+}				
+				
+GDU_SealionScore_88 = {				
+				
+	allowed = {			
+		always = no		
+	}			
+				
+	allowed_civil_war = {			
+		always = yes		
+	}			
+				
+	removal_cost = -1			
+				
+	picture = generic_navy_bonus			
+				
+	modifier = {			
+		army_core_attack_factor = 0.88		
+		army_core_defence_factor = 0.88		
+	}			
+}				
+				
+GDU_SealionScore_89 = {				
+				
+	allowed = {			
+		always = no		
+	}			
+				
+	allowed_civil_war = {			
+		always = yes		
+	}			
+				
+	removal_cost = -1			
+				
+	picture = generic_navy_bonus			
+				
+	modifier = {			
+		army_core_attack_factor = 0.89		
+		army_core_defence_factor = 0.89		
+	}			
+}				
+				
+GDU_SealionScore_90 = {				
+				
+	allowed = {			
+		always = no		
+	}			
+				
+	allowed_civil_war = {			
+		always = yes		
+	}			
+				
+	removal_cost = -1			
+				
+	picture = generic_navy_bonus			
+				
+	modifier = {			
+		army_core_attack_factor = 0.9		
+		army_core_defence_factor = 0.9		
+	}			
+}				
+				
+GDU_SealionScore_91 = {				
+				
+	allowed = {			
+		always = no		
+	}			
+				
+	allowed_civil_war = {			
+		always = yes		
+	}			
+				
+	removal_cost = -1			
+				
+	picture = generic_navy_bonus			
+				
+	modifier = {			
+		army_core_attack_factor = 0.91		
+		army_core_defence_factor = 0.91		
+	}			
+}				
+				
+GDU_SealionScore_92 = {				
+				
+	allowed = {			
+		always = no		
+	}			
+				
+	allowed_civil_war = {			
+		always = yes		
+	}			
+				
+	removal_cost = -1			
+				
+	picture = generic_navy_bonus			
+				
+	modifier = {			
+		army_core_attack_factor = 0.92		
+		army_core_defence_factor = 0.92		
+	}			
+}				
+				
+GDU_SealionScore_93 = {				
+				
+	allowed = {			
+		always = no		
+	}			
+				
+	allowed_civil_war = {			
+		always = yes		
+	}			
+				
+	removal_cost = -1			
+				
+	picture = generic_navy_bonus			
+				
+	modifier = {			
+		army_core_attack_factor = 0.93		
+		army_core_defence_factor = 0.93		
+	}			
+}				
+				
+GDU_SealionScore_94 = {				
+				
+	allowed = {			
+		always = no		
+	}			
+				
+	allowed_civil_war = {			
+		always = yes		
+	}			
+				
+	removal_cost = -1			
+				
+	picture = generic_navy_bonus			
+				
+	modifier = {			
+		army_core_attack_factor = 0.94		
+		army_core_defence_factor = 0.94		
+	}			
+}				
+				
+GDU_SealionScore_95 = {				
+				
+	allowed = {			
+		always = no		
+	}			
+				
+	allowed_civil_war = {			
+		always = yes		
+	}			
+				
+	removal_cost = -1			
+				
+	picture = generic_navy_bonus			
+				
+	modifier = {			
+		army_core_attack_factor = 0.95		
+		army_core_defence_factor = 0.95		
+	}			
+}				
+				
+GDU_SealionScore_96 = {				
+				
+	allowed = {			
+		always = no		
+	}			
+				
+	allowed_civil_war = {			
+		always = yes		
+	}			
+				
+	removal_cost = -1			
+				
+	picture = generic_navy_bonus			
+				
+	modifier = {			
+		army_core_attack_factor = 0.96		
+		army_core_defence_factor = 0.96		
+	}			
+}				
+				
+GDU_SealionScore_97 = {				
+				
+	allowed = {			
+		always = no		
+	}			
+				
+	allowed_civil_war = {			
+		always = yes		
+	}			
+				
+	removal_cost = -1			
+				
+	picture = generic_navy_bonus			
+				
+	modifier = {			
+		army_core_attack_factor = 0.97		
+		army_core_defence_factor = 0.97		
+	}			
+}				
+				
+GDU_SealionScore_98 = {				
+				
+	allowed = {			
+		always = no		
+	}			
+				
+	allowed_civil_war = {			
+		always = yes		
+	}			
+				
+	removal_cost = -1			
+				
+	picture = generic_navy_bonus			
+				
+	modifier = {			
+		army_core_attack_factor = 0.98		
+		army_core_defence_factor = 0.98		
+	}			
+}				
+				
+GDU_SealionScore_99 = {				
+				
+	allowed = {			
+		always = no		
+	}			
+				
+	allowed_civil_war = {			
+		always = yes		
+	}			
+				
+	removal_cost = -1			
+				
+	picture = generic_navy_bonus			
+				
+	modifier = {			
+		army_core_attack_factor = 0.99		
+		army_core_defence_factor = 0.99		
+	}			
+}				
+				
+GDU_SealionScore_100 = {				
+				
+	allowed = {			
+		always = no		
+	}			
+				
+	allowed_civil_war = {			
+		always = yes		
+	}			
+				
+	removal_cost = -1			
+				
+	picture = generic_navy_bonus			
+				
+	modifier = {			
+		army_core_attack_factor = 1		
+		army_core_defence_factor = 1		
+	}			
+}				
+
+
+
+
+
+
+
+
 
 	
 	}
