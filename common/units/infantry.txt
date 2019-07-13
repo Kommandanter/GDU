@@ -28,7 +28,7 @@ sub_units = {
 		
 		#Size Definitions
 		max_strength = 25
-		max_organisation = 55
+		max_organisation = 31
 		default_morale = 0.3
 		maximum_speed = 0.6
 		manpower = 1000
@@ -98,7 +98,7 @@ sub_units = {
 
 		#Size Definitions
 		max_strength = 25
-		max_organisation = 55
+		max_organisation = 40
 		default_morale = 0.3
 		manpower = 1000
 
@@ -142,7 +142,7 @@ sub_units = {
 
 		#Size Definitions
 		max_strength = 25
-		max_organisation = 60
+		max_organisation = 45
 		default_morale = 0.4
 		manpower = 1000
 
@@ -196,7 +196,7 @@ sub_units = {
 
 		#Size Definitions
 		max_strength = 25
-		max_organisation = 60
+		max_organisation = 45
 		default_morale = 0.4
 		manpower = 1000
 
@@ -251,7 +251,7 @@ sub_units = {
 
 		#Size Definitions
 		max_strength = 25
-		max_organisation = 60
+		max_organisation = 45
 		default_morale = 0.4
 		manpower = 1000
 
@@ -295,7 +295,7 @@ sub_units = {
 
 		#Size Definitions
 		max_strength = 25
-		max_organisation = 60
+		max_organisation = 45
 		default_morale = 0.4
 		manpower = 1000
 
@@ -348,7 +348,7 @@ sub_units = {
 
 		#Size Definitions
 		max_strength = 25
-		max_organisation = 60
+		max_organisation = 45
 		default_morale = 0.4
 		manpower = 1000
 
@@ -403,7 +403,7 @@ sub_units = {
 
 		#Size Definitions
 		max_strength = 25
-		max_organisation = 60
+		max_organisation = 45
 		default_morale = 0.4
 		manpower = 1000
 
@@ -455,7 +455,7 @@ sub_units = {
 
 		#Size Definitions
 		max_strength = 25
-		max_organisation = 60
+		max_organisation = 45
 		default_morale = 0.4
 		manpower = 1000
 
@@ -502,7 +502,7 @@ sub_units = {
 
 		#Size Definitions
 		max_strength = 25
-		max_organisation = 55
+		max_organisation = 31
 		default_morale = 0.30
 		manpower = 1200
 
@@ -577,7 +577,7 @@ sub_units = {
 
 		#Size Definitions
 		max_strength = 30
-		max_organisation = 60
+		max_organisation = 36
 		default_morale = 0.3
 		manpower = 1200
 
