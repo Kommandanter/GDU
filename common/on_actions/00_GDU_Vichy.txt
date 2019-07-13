@@ -145,17 +145,33 @@ on_actions = {
 						}
 					}
 					EFR = { transfer_state = 805 }
-				}				
+				}
 				if = {
 					limit = {
 						AND = {
-							458 = { #Tunisia
+							665 = { #Gabes
 								NOT = { is_controlled_by = ITA } 
 							}
 						}
 					}
-					EFR = { transfer_state = 458 }
+					EFR = { transfer_state = 665 }
+				}				
+				if = {
+					limit = {
+							458 = { #Tunisia
+								is_controlled_by = ITA
+							}
+					}
+					ITA = { transfer_state = 805 }
 				}
+				if = {
+					limit = {
+							665 = { #Tunisia
+								is_controlled_by = ITA
+							}
+					}
+					ITA = { transfer_state = 805 }
+				}				
 				if = {
 					limit = {
 						AND = { 
