@@ -386,7 +386,7 @@ ideas = {
 			}
 
 			modifier = {
-				supply_consumption_factor = -0.1 
+				supply_consumption_factor = -0.125 
 				drift_defence_factor = 0.5
 				global_building_slots_factor = 0.10
 				air_superiority_efficiency = -0.35
