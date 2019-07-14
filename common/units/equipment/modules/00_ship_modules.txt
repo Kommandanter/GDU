@@ -2026,7 +2026,7 @@ equipment_modules = {
 		}
 		add_stats = {
 			armor_value = 55
-			surface_visibility = 10
+			surface_visibility = 13
 		}
 		dismantle_cost_ic = 8200
 		

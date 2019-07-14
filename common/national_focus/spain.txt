@@ -407,7 +407,7 @@ focus_tree = {
 				category = infantry_weapons
 				category = artillery
 			}
-			add_ideas = Instalaza_SA
+			add_political_power = 150
 		}
 	}
 
