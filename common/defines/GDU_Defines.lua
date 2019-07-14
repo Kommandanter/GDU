@@ -12,6 +12,7 @@ NDefines.NDiplomacy.BASE_CONDITIONAL_PEACE_WARESCORE_RATIO = 0
 NDefines.NDiplomacy.BASE_CONDITIONAL_PEACE_MONTHS = 1
 NDefines.NDiplomacy.AUTONOMY_LEVEL_CHANGE_PP_FREE = 10
 NDefines.NDiplomacy.BASE_SEND_ATTACHE_COST = 75
+NDefines.NDiplomacy.BASE_SEND_ATTACHE_CP_COST = 0.0				-- Command Power sent attache usage cost
 NDefines.NDiplomacy.VOLUNTEERS_PER_COUNTRY_ARMY = 0.2
 NDefines.NDiplomacy.TRUCE_PERIOD_AFTER_KICKING_FROM_FACTION = 0
 NDefines.NDiplomacy.NUM_DAYS_TO_ENABLE_KICKING_NEW_MEMBERS_OF_FACTION = 0
@@ -366,7 +367,7 @@ NDefines.NNavy.LEADER_EXPERIENCE_SCALE = 0.0                      -- making admi
 
 NDefines.NNavy.GUN_HIT_PROFILES = { -- hit profiles for guns, if target ih profile is lower the gun will have lower accuracy		
 	        315.0,    -- big guns		
-	        690.0,    -- torpedos		
+	        610.0,    -- torpedos		
 	        240.0,    -- small guns		
 	   }		
 			
