@@ -1256,7 +1256,7 @@ focus_tree = {
 			add_political_power = 150
 			add_resource = {
 				type = rubber
-				amount = 10
+				amount = 18
 				state = 404
 			}
 		}
