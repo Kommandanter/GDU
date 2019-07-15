@@ -98,7 +98,7 @@ sub_units = {
 			motorized_equipment = 60
 		}
 		manpower = 500
-		max_organisation = 0
+		max_organisation = 5
 		default_morale = 0
 		max_strength = 0.6
 		training_time = 120
