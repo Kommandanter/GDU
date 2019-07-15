@@ -2569,7 +2569,6 @@ activate_mission = SOV_relocate_industry_from_zaporozhe
 	}
 	
 
-	
 
 	
 	
