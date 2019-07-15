@@ -2519,7 +2519,7 @@ SOV_industry_relocation = {
 							instant_build = yes
 						}
 						hidden_effect = {
-							damage_building = { type = arms_factory damage = 0.4 }
+							damage_building = { type = arms_factory damage = 0.2 }
 						}						
 					}
 					hidden_effect = {
@@ -2561,7 +2561,7 @@ SOV_industry_relocation = {
 							instant_build = yes
 						}
 						hidden_effect = {
-							damage_building = { type = industrial_complex damage = 0.4 }
+							damage_building = { type = industrial_complex damage = 0.2 }
 						}												
 					}
 					hidden_effect = {
@@ -2652,7 +2652,7 @@ SOV_industry_relocation = {
 							instant_build = yes
 						}
 						hidden_effect = {
-							damage_building = { type = arms_factory damage = 0.4 }
+							damage_building = { type = arms_factory damage = 0.2 }
 						}						
 					}
 					hidden_effect = {
@@ -2694,7 +2694,7 @@ SOV_industry_relocation = {
 							instant_build = yes
 						}
 						hidden_effect = {
-							damage_building = { type = industrial_complex damage = 0.4 }
+							damage_building = { type = industrial_complex damage = 0.2 }
 						}												
 					}
 					hidden_effect = {
@@ -2784,7 +2784,7 @@ SOV_industry_relocation = {
 							instant_build = yes
 						}
 						hidden_effect = {
-							damage_building = { type = arms_factory damage = 0.4 }
+							damage_building = { type = arms_factory damage = 0.2 }
 						}						
 					}
 					hidden_effect = {
@@ -2826,7 +2826,7 @@ SOV_industry_relocation = {
 							instant_build = yes
 						}
 						hidden_effect = {
-							damage_building = { type = industrial_complex damage = 0.4 }
+							damage_building = { type = industrial_complex damage = 0.2 }
 						}												
 					}
 					hidden_effect = {
@@ -2918,7 +2918,7 @@ SOV_industry_relocation = {
 							instant_build = yes
 						}
 						hidden_effect = {
-							damage_building = { type = arms_factory damage = 0.4 }
+							damage_building = { type = arms_factory damage = 0.2 }
 						}						
 					}
 					hidden_effect = {
@@ -2960,7 +2960,7 @@ SOV_industry_relocation = {
 							instant_build = yes
 						}
 						hidden_effect = {
-							damage_building = { type = industrial_complex damage = 0.4 }
+							damage_building = { type = industrial_complex damage = 0.2 }
 						}												
 					}
 					hidden_effect = {
@@ -3051,7 +3051,7 @@ SOV_industry_relocation = {
 							instant_build = yes
 						}
 						hidden_effect = {
-							damage_building = { type = arms_factory damage = 0.4 }
+							damage_building = { type = arms_factory damage = 0.2 }
 						}						
 					}
 					hidden_effect = {
@@ -3093,7 +3093,7 @@ SOV_industry_relocation = {
 							instant_build = yes
 						}
 						hidden_effect = {
-							damage_building = { type = industrial_complex damage = 0.4 }
+							damage_building = { type = industrial_complex damage = 0.2 }
 						}												
 					}
 					hidden_effect = {
@@ -3186,7 +3186,7 @@ SOV_industry_relocation = {
 							instant_build = yes
 						}
 						hidden_effect = {
-							damage_building = { type = arms_factory damage = 0.4 }
+							damage_building = { type = arms_factory damage = 0.2 }
 						}						
 					}
 					hidden_effect = {
@@ -3228,7 +3228,7 @@ SOV_industry_relocation = {
 							instant_build = yes
 						}
 						hidden_effect = {
-							damage_building = { type = industrial_complex damage = 0.4 }
+							damage_building = { type = industrial_complex damage = 0.2 }
 						}												
 					}
 					hidden_effect = {
@@ -3318,7 +3318,7 @@ SOV_industry_relocation = {
 							instant_build = yes
 						}
 						hidden_effect = {
-							damage_building = { type = arms_factory damage = 0.4 }
+							damage_building = { type = arms_factory damage = 0.2 }
 						}						
 					}
 					hidden_effect = {
@@ -3360,7 +3360,7 @@ SOV_industry_relocation = {
 							instant_build = yes
 						}
 						hidden_effect = {
-							damage_building = { type = industrial_complex damage = 0.4 }
+							damage_building = { type = industrial_complex damage = 0.2 }
 						}												
 					}
 					hidden_effect = {
@@ -3453,7 +3453,7 @@ SOV_industry_relocation = {
 							instant_build = yes
 						}
 						hidden_effect = {
-							damage_building = { type = arms_factory damage = 0.4 }
+							damage_building = { type = arms_factory damage = 0.2 }
 						}						
 					}
 					hidden_effect = {
@@ -3495,7 +3495,7 @@ SOV_industry_relocation = {
 							instant_build = yes
 						}
 						hidden_effect = {
-							damage_building = { type = industrial_complex damage = 0.4 }
+							damage_building = { type = industrial_complex damage = 0.2 }
 						}												
 					}
 					hidden_effect = {
@@ -3584,7 +3584,7 @@ SOV_industry_relocation = {
 							instant_build = yes
 						}
 						hidden_effect = {
-							damage_building = { type = arms_factory damage = 0.4 }
+							damage_building = { type = arms_factory damage = 0.2 }
 						}						
 					}
 					hidden_effect = {
@@ -3626,7 +3626,7 @@ SOV_industry_relocation = {
 							instant_build = yes
 						}
 						hidden_effect = {
-							damage_building = { type = industrial_complex damage = 0.4 }
+							damage_building = { type = industrial_complex damage = 0.2 }
 						}												
 					}
 					hidden_effect = {
@@ -3718,7 +3718,7 @@ SOV_industry_relocation = {
 							instant_build = yes
 						}
 						hidden_effect = {
-							damage_building = { type = arms_factory damage = 0.4 }
+							damage_building = { type = arms_factory damage = 0.2 }
 						}						
 					}
 					hidden_effect = {
@@ -3760,7 +3760,7 @@ SOV_industry_relocation = {
 							instant_build = yes
 						}
 						hidden_effect = {
-							damage_building = { type = industrial_complex damage = 0.4 }
+							damage_building = { type = industrial_complex damage = 0.2 }
 						}												
 					}
 					hidden_effect = {
@@ -3851,7 +3851,7 @@ SOV_industry_relocation = {
 							instant_build = yes
 						}
 						hidden_effect = {
-							damage_building = { type = arms_factory damage = 0.4 }
+							damage_building = { type = arms_factory damage = 0.2 }
 						}						
 					}
 					hidden_effect = {
@@ -3893,7 +3893,7 @@ SOV_industry_relocation = {
 							instant_build = yes
 						}
 						hidden_effect = {
-							damage_building = { type = industrial_complex damage = 0.4 }
+							damage_building = { type = industrial_complex damage = 0.2 }
 						}												
 					}
 					hidden_effect = {
@@ -3987,7 +3987,7 @@ SOV_industry_relocation = {
 							instant_build = yes
 						}
 						hidden_effect = {
-							damage_building = { type = arms_factory damage = 0.4 }
+							damage_building = { type = arms_factory damage = 0.2 }
 						}						
 					}
 					hidden_effect = {
@@ -4029,7 +4029,7 @@ SOV_industry_relocation = {
 							instant_build = yes
 						}
 						hidden_effect = {
-							damage_building = { type = industrial_complex damage = 0.4 }
+							damage_building = { type = industrial_complex damage = 0.2 }
 						}												
 					}
 					hidden_effect = {
@@ -4122,7 +4122,7 @@ SOV_industry_relocation = {
 							instant_build = yes
 						}
 						hidden_effect = {
-							damage_building = { type = arms_factory damage = 0.4 }
+							damage_building = { type = arms_factory damage = 0.2 }
 						}						
 					}
 					hidden_effect = {
@@ -4164,7 +4164,7 @@ SOV_industry_relocation = {
 							instant_build = yes
 						}
 						hidden_effect = {
-							damage_building = { type = industrial_complex damage = 0.4 }
+							damage_building = { type = industrial_complex damage = 0.2 }
 						}												
 					}
 					hidden_effect = {
@@ -4255,7 +4255,7 @@ SOV_industry_relocation = {
 							instant_build = yes
 						}
 						hidden_effect = {
-							damage_building = { type = arms_factory damage = 0.4 }
+							damage_building = { type = arms_factory damage = 0.2 }
 						}						
 					}
 					hidden_effect = {
@@ -4297,7 +4297,7 @@ SOV_industry_relocation = {
 							instant_build = yes
 						}
 						hidden_effect = {
-							damage_building = { type = industrial_complex damage = 0.4 }
+							damage_building = { type = industrial_complex damage = 0.2 }
 						}												
 					}
 					hidden_effect = {
@@ -4387,7 +4387,7 @@ SOV_industry_relocation = {
 							instant_build = yes
 						}
 						hidden_effect = {
-							damage_building = { type = arms_factory damage = 0.4 }
+							damage_building = { type = arms_factory damage = 0.2 }
 						}						
 					}
 					hidden_effect = {
@@ -4429,7 +4429,7 @@ SOV_industry_relocation = {
 							instant_build = yes
 						}
 						hidden_effect = {
-							damage_building = { type = industrial_complex damage = 0.4 }
+							damage_building = { type = industrial_complex damage = 0.2 }
 						}												
 					}
 					hidden_effect = {
@@ -4521,7 +4521,7 @@ SOV_industry_relocation = {
 							instant_build = yes
 						}
 						hidden_effect = {
-							damage_building = { type = arms_factory damage = 0.4 }
+							damage_building = { type = arms_factory damage = 0.2 }
 						}						
 					}
 					hidden_effect = {
@@ -4563,7 +4563,7 @@ SOV_industry_relocation = {
 							instant_build = yes
 						}
 						hidden_effect = {
-							damage_building = { type = industrial_complex damage = 0.4 }
+							damage_building = { type = industrial_complex damage = 0.2 }
 						}												
 					}
 					hidden_effect = {
@@ -4656,7 +4656,7 @@ SOV_industry_relocation = {
 							instant_build = yes
 						}
 						hidden_effect = {
-							damage_building = { type = arms_factory damage = 0.4 }
+							damage_building = { type = arms_factory damage = 0.2 }
 						}						
 					}
 					hidden_effect = {
@@ -4698,7 +4698,7 @@ SOV_industry_relocation = {
 							instant_build = yes
 						}
 						hidden_effect = {
-							damage_building = { type = industrial_complex damage = 0.4 }
+							damage_building = { type = industrial_complex damage = 0.2 }
 						}												
 					}
 					hidden_effect = {
@@ -4792,7 +4792,7 @@ SOV_industry_relocation = {
 							instant_build = yes
 						}
 						hidden_effect = {
-							damage_building = { type = arms_factory damage = 0.4 }
+							damage_building = { type = arms_factory damage = 0.2 }
 						}						
 					}
 					hidden_effect = {
@@ -4834,7 +4834,7 @@ SOV_industry_relocation = {
 							instant_build = yes
 						}
 						hidden_effect = {
-							damage_building = { type = industrial_complex damage = 0.4 }
+							damage_building = { type = industrial_complex damage = 0.2 }
 						}												
 					}
 					hidden_effect = {
@@ -4925,7 +4925,7 @@ SOV_industry_relocation = {
 							instant_build = yes
 						}
 						hidden_effect = {
-							damage_building = { type = arms_factory damage = 0.4 }
+							damage_building = { type = arms_factory damage = 0.2 }
 						}						
 					}
 					hidden_effect = {
@@ -4967,7 +4967,7 @@ SOV_industry_relocation = {
 							instant_build = yes
 						}
 						hidden_effect = {
-							damage_building = { type = industrial_complex damage = 0.4 }
+							damage_building = { type = industrial_complex damage = 0.2 }
 						}												
 					}
 					hidden_effect = {
@@ -5058,7 +5058,7 @@ SOV_industry_relocation = {
 							instant_build = yes
 						}
 						hidden_effect = {
-							damage_building = { type = arms_factory damage = 0.4 }
+							damage_building = { type = arms_factory damage = 0.2 }
 						}						
 					}
 					hidden_effect = {
@@ -5100,7 +5100,7 @@ SOV_industry_relocation = {
 							instant_build = yes
 						}
 						hidden_effect = {
-							damage_building = { type = industrial_complex damage = 0.4 }
+							damage_building = { type = industrial_complex damage = 0.2 }
 						}												
 					}
 					hidden_effect = {
@@ -5189,7 +5189,7 @@ SOV_industry_relocation = {
 							instant_build = yes
 						}
 						hidden_effect = {
-							damage_building = { type = arms_factory damage = 0.4 }
+							damage_building = { type = arms_factory damage = 0.2 }
 						}						
 					}
 					hidden_effect = {
@@ -5231,7 +5231,7 @@ SOV_industry_relocation = {
 							instant_build = yes
 						}
 						hidden_effect = {
-							damage_building = { type = industrial_complex damage = 0.4 }
+							damage_building = { type = industrial_complex damage = 0.2 }
 						}												
 					}
 					hidden_effect = {
@@ -5324,7 +5324,7 @@ SOV_industry_relocation = {
 							instant_build = yes
 						}
 						hidden_effect = {
-							damage_building = { type = arms_factory damage = 0.4 }
+							damage_building = { type = arms_factory damage = 0.2 }
 						}						
 					}
 					hidden_effect = {
@@ -5366,7 +5366,7 @@ SOV_industry_relocation = {
 							instant_build = yes
 						}
 						hidden_effect = {
-							damage_building = { type = industrial_complex damage = 0.4 }
+							damage_building = { type = industrial_complex damage = 0.2 }
 						}												
 					}
 					hidden_effect = {
@@ -5460,7 +5460,7 @@ SOV_industry_relocation = {
 							instant_build = yes
 						}
 						hidden_effect = {
-							damage_building = { type = arms_factory damage = 0.4 }
+							damage_building = { type = arms_factory damage = 0.2 }
 						}						
 					}
 					hidden_effect = {
@@ -5502,7 +5502,7 @@ SOV_industry_relocation = {
 							instant_build = yes
 						}
 						hidden_effect = {
-							damage_building = { type = industrial_complex damage = 0.4 }
+							damage_building = { type = industrial_complex damage = 0.2 }
 						}												
 					}
 					hidden_effect = {
@@ -5593,7 +5593,7 @@ SOV_industry_relocation = {
 							instant_build = yes
 						}
 						hidden_effect = {
-							damage_building = { type = arms_factory damage = 0.4 }
+							damage_building = { type = arms_factory damage = 0.2 }
 						}						
 					}
 					hidden_effect = {
@@ -5635,7 +5635,7 @@ SOV_industry_relocation = {
 							instant_build = yes
 						}
 						hidden_effect = {
-							damage_building = { type = industrial_complex damage = 0.4 }
+							damage_building = { type = industrial_complex damage = 0.2 }
 						}												
 					}
 					hidden_effect = {
@@ -5725,7 +5725,7 @@ SOV_industry_relocation = {
 							instant_build = yes
 						}
 						hidden_effect = {
-							damage_building = { type = arms_factory damage = 0.4 }
+							damage_building = { type = arms_factory damage = 0.2 }
 						}						
 					}
 					hidden_effect = {
@@ -5767,7 +5767,7 @@ SOV_industry_relocation = {
 							instant_build = yes
 						}
 						hidden_effect = {
-							damage_building = { type = industrial_complex damage = 0.4 }
+							damage_building = { type = industrial_complex damage = 0.2 }
 						}												
 					}
 					hidden_effect = {
@@ -5857,7 +5857,7 @@ SOV_industry_relocation = {
 							instant_build = yes
 						}
 						hidden_effect = {
-							damage_building = { type = arms_factory damage = 0.4 }
+							damage_building = { type = arms_factory damage = 0.2 }
 						}						
 					}
 					hidden_effect = {
@@ -5899,7 +5899,7 @@ SOV_industry_relocation = {
 							instant_build = yes
 						}
 						hidden_effect = {
-							damage_building = { type = industrial_complex damage = 0.4 }
+							damage_building = { type = industrial_complex damage = 0.2 }
 						}												
 					}
 					hidden_effect = {
@@ -5989,7 +5989,7 @@ SOV_industry_relocation = {
 							instant_build = yes
 						}
 						hidden_effect = {
-							damage_building = { type = arms_factory damage = 0.4 }
+							damage_building = { type = arms_factory damage = 0.2 }
 						}						
 					}
 					hidden_effect = {
@@ -6031,7 +6031,7 @@ SOV_industry_relocation = {
 							instant_build = yes
 						}
 						hidden_effect = {
-							damage_building = { type = industrial_complex damage = 0.4 }
+							damage_building = { type = industrial_complex damage = 0.2 }
 						}												
 					}
 					hidden_effect = {
@@ -6120,7 +6120,7 @@ SOV_industry_relocation = {
 							instant_build = yes
 						}
 						hidden_effect = {
-							damage_building = { type = arms_factory damage = 0.4 }
+							damage_building = { type = arms_factory damage = 0.2 }
 						}						
 					}
 					hidden_effect = {
@@ -6162,7 +6162,7 @@ SOV_industry_relocation = {
 							instant_build = yes
 						}
 						hidden_effect = {
-							damage_building = { type = industrial_complex damage = 0.4 }
+							damage_building = { type = industrial_complex damage = 0.2 }
 						}												
 					}
 					hidden_effect = {
@@ -6252,7 +6252,7 @@ SOV_industry_relocation = {
 							instant_build = yes
 						}
 						hidden_effect = {
-							damage_building = { type = arms_factory damage = 0.4 }
+							damage_building = { type = arms_factory damage = 0.2 }
 						}						
 					}
 					hidden_effect = {
@@ -6294,7 +6294,7 @@ SOV_industry_relocation = {
 							instant_build = yes
 						}
 						hidden_effect = {
-							damage_building = { type = industrial_complex damage = 0.4 }
+							damage_building = { type = industrial_complex damage = 0.2 }
 						}												
 					}
 					hidden_effect = {
@@ -6385,7 +6385,7 @@ SOV_industry_relocation = {
 							instant_build = yes
 						}
 						hidden_effect = {
-							damage_building = { type = arms_factory damage = 0.4 }
+							damage_building = { type = arms_factory damage = 0.2 }
 						}						
 					}
 					hidden_effect = {
@@ -6427,7 +6427,7 @@ SOV_industry_relocation = {
 							instant_build = yes
 						}
 						hidden_effect = {
-							damage_building = { type = industrial_complex damage = 0.4 }
+							damage_building = { type = industrial_complex damage = 0.2 }
 						}												
 					}
 					hidden_effect = {
@@ -6518,7 +6518,7 @@ SOV_industry_relocation = {
 							instant_build = yes
 						}
 						hidden_effect = {
-							damage_building = { type = arms_factory damage = 0.4 }
+							damage_building = { type = arms_factory damage = 0.2 }
 						}						
 					}
 					hidden_effect = {
@@ -6560,7 +6560,7 @@ SOV_industry_relocation = {
 							instant_build = yes
 						}
 						hidden_effect = {
-							damage_building = { type = industrial_complex damage = 0.4 }
+							damage_building = { type = industrial_complex damage = 0.2 }
 						}												
 					}
 					hidden_effect = {
@@ -6650,7 +6650,7 @@ SOV_industry_relocation = {
 							instant_build = yes
 						}
 						hidden_effect = {
-							damage_building = { type = arms_factory damage = 0.4 }
+							damage_building = { type = arms_factory damage = 0.2 }
 						}						
 					}
 					hidden_effect = {
@@ -6692,7 +6692,7 @@ SOV_industry_relocation = {
 							instant_build = yes
 						}
 						hidden_effect = {
-							damage_building = { type = industrial_complex damage = 0.4 }
+							damage_building = { type = industrial_complex damage = 0.2 }
 						}												
 					}
 					hidden_effect = {
@@ -6782,7 +6782,7 @@ SOV_industry_relocation = {
 							instant_build = yes
 						}
 						hidden_effect = {
-							damage_building = { type = arms_factory damage = 0.4 }
+							damage_building = { type = arms_factory damage = 0.2 }
 						}						
 					}
 					hidden_effect = {
@@ -6824,7 +6824,7 @@ SOV_industry_relocation = {
 							instant_build = yes
 						}
 						hidden_effect = {
-							damage_building = { type = industrial_complex damage = 0.4 }
+							damage_building = { type = industrial_complex damage = 0.2 }
 						}												
 					}
 					hidden_effect = {
@@ -6915,7 +6915,7 @@ SOV_industry_relocation = {
 							instant_build = yes
 						}
 						hidden_effect = {
-							damage_building = { type = arms_factory damage = 0.4 }
+							damage_building = { type = arms_factory damage = 0.2 }
 						}						
 					}
 					hidden_effect = {
@@ -6957,7 +6957,7 @@ SOV_industry_relocation = {
 							instant_build = yes
 						}
 						hidden_effect = {
-							damage_building = { type = industrial_complex damage = 0.4 }
+							damage_building = { type = industrial_complex damage = 0.2 }
 						}												
 					}
 					hidden_effect = {
@@ -7047,7 +7047,7 @@ SOV_industry_relocation = {
 							instant_build = yes
 						}
 						hidden_effect = {
-							damage_building = { type = arms_factory damage = 0.4 }
+							damage_building = { type = arms_factory damage = 0.2 }
 						}						
 					}
 					hidden_effect = {
@@ -7089,7 +7089,7 @@ SOV_industry_relocation = {
 							instant_build = yes
 						}
 						hidden_effect = {
-							damage_building = { type = industrial_complex damage = 0.4 }
+							damage_building = { type = industrial_complex damage = 0.2 }
 						}												
 					}
 					hidden_effect = {
@@ -7179,7 +7179,7 @@ SOV_industry_relocation = {
 							instant_build = yes
 						}
 						hidden_effect = {
-							damage_building = { type = arms_factory damage = 0.4 }
+							damage_building = { type = arms_factory damage = 0.2 }
 						}						
 					}
 					hidden_effect = {
@@ -7221,7 +7221,7 @@ SOV_industry_relocation = {
 							instant_build = yes
 						}
 						hidden_effect = {
-							damage_building = { type = industrial_complex damage = 0.4 }
+							damage_building = { type = industrial_complex damage = 0.2 }
 						}												
 					}
 					hidden_effect = {
@@ -7311,7 +7311,7 @@ SOV_industry_relocation = {
 							instant_build = yes
 						}
 						hidden_effect = {
-							damage_building = { type = arms_factory damage = 0.4 }
+							damage_building = { type = arms_factory damage = 0.2 }
 						}						
 					}
 					hidden_effect = {
@@ -7353,7 +7353,7 @@ SOV_industry_relocation = {
 							instant_build = yes
 						}
 						hidden_effect = {
-							damage_building = { type = industrial_complex damage = 0.4 }
+							damage_building = { type = industrial_complex damage = 0.2 }
 						}												
 					}
 					hidden_effect = {
@@ -7445,7 +7445,7 @@ SOV_industry_relocation = {
 							instant_build = yes
 						}
 						hidden_effect = {
-							damage_building = { type = arms_factory damage = 0.4 }
+							damage_building = { type = arms_factory damage = 0.2 }
 						}						
 					}
 					hidden_effect = {
@@ -7487,7 +7487,7 @@ SOV_industry_relocation = {
 							instant_build = yes
 						}
 						hidden_effect = {
-							damage_building = { type = industrial_complex damage = 0.4 }
+							damage_building = { type = industrial_complex damage = 0.2 }
 						}												
 					}
 					hidden_effect = {
