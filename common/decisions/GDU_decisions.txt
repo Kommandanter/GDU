@@ -2070,15 +2070,15 @@ foreign_politics = {
 					days = 120
 				}
 			    destroy_ships = {
-					type = ship_hull_light
+					type = ship_hull_light_1
 					count = 4
 				}
 				destroy_ships = {
-					type = ship_hull_cruiser
+					type = ship_hull_cruiser_1
 					count = 1
 				}
 				destroy_ships = {
-					type = ship_hull_heavy
+					type = ship_hull_heavy_1
 					count = 4
 				}
 			}

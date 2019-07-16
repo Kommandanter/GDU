@@ -23,7 +23,7 @@ country_event = {
 							type = annex_everything
 						}
 					}
-					SPR = { give_military_access = EFR }
+					EFR = { give_military_access = SPR }
 					
 	}
 	

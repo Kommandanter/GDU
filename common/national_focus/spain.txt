@@ -71,8 +71,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_infrastructure
 		prerequisite = { focus = SPR_Industry_focus_2 }
 		available = {
-			controls_state = 699
-			controls_state = 290
+
 		}
 		x = 2
 		y = 2
@@ -167,8 +166,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_civ_factory
 		prerequisite = { focus = SPR_Colonial_infra }
 		available = {
-			controls_state = 699
-			controls_state = 290
+
 		}
 		x = 2
 		y = 3
@@ -255,7 +253,6 @@ focus_tree = {
 		icon = GFX_goal_generic_position_armies
 		prerequisite = { focus = SPR_Colonial_Industry }
 		available = {
-			controls_state = 699
 		}
 		x = 2
 		y = 4
@@ -268,7 +265,7 @@ focus_tree = {
 			add_resource = {
 				type = oil
 				amount = 10
-				state = 699
+				state = 168
 			}
 		}
 	}
@@ -495,7 +492,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			177 = {
+			169 = {
 					add_extra_state_shared_building_slots = 1
 					add_building_construction = {
 						type = synthetic_refinery
@@ -522,7 +519,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			177 = {
+			41 = {
 					add_extra_state_shared_building_slots = 1
 					add_building_construction = {
 						type = synthetic_refinery
@@ -549,7 +546,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			177 = {
+			166 = {
 					add_extra_state_shared_building_slots = 2
 					add_building_construction = {
 						type = synthetic_refinery
