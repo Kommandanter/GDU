@@ -20,6 +20,14 @@ technologies = {
 
 		enable_subunits = {
 			infantry
+			cavalry
+		}
+
+		allow = { 
+			NOT =
+				{
+					TAG = SPR					
+				}
 		}
 
 		path = {
