@@ -15,11 +15,11 @@ country_event = {
 		OR = { 
 			tag = IRE 
 			tag = HOL
-			tag = ENG
 			is_in_faction_with = ENG 
 		}
 		NOT = { tag = FRA }
 		NOT = { tag = USA }
+		NOT = { tag = ENG }
 	}
 		
 	
@@ -34,6 +34,7 @@ country_event = {
 	option = {
 		name = gduevents.1.a
 		trigger = { NOT = { tag = FRA } } 
+		trigger = { NOT = { tag = ENG } }
 		add_timed_idea = { idea = alli_phoney_war days = 240 }
 		add_ideas = war_economy
 	

@@ -1753,6 +1753,7 @@ focus_tree = {
 		completion_reward = {
 			add_named_threat = { threat = 5 name = GER_danzig_or_war }
 			hidden_effect = { 
+				ENG = { add_ideas = war_economy }
 				country_event = { id = pfu.18 days = 30 }
 				FRA = { 
 					transfer_navy = { 
