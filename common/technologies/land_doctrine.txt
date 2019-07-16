@@ -2621,7 +2621,10 @@ technologies = {
 		xp_research_type = army
 		xp_research_cost = 100
 		xp_research_bonus = 0.5
-		supply_consumption_factor = -0.10
+
+		logistics_company = {
+			supply_consumption_factor = -0.10
+		}
 		
 		path = {
 			leads_to_tech = night_assault_tactics 
@@ -2971,8 +2974,9 @@ technologies = {
 		}
 
 
-
-		supply_consumption_factor = -0.1
+		logistics_company = {
+			supply_consumption_factor = -0.10
+		}
 		
 		artillery_brigade = { 
 			max_strength = 17
