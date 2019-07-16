@@ -16,6 +16,15 @@ country_event = {
 					transfer_state = 20
 					transfer_state = 33
 					country_event = { id = gduvichy.2 days = 3 } 
+					GER = { add_to_faction = SPR }
+					SPR = {
+						declare_war_on = {
+							target = ENG 
+							type = annex_everything
+						}
+					}
+					SPR = { give_military_access = EFR }
+					
 	}
 	
 	option = {

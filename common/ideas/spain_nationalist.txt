@@ -23,6 +23,27 @@ ideas = {
 			}
 		}
 
+		SPA_recovering_from_civil_war2 = {
+
+			picture = FRA_matignon_agreements
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+
+			}
+
+			modifier = {
+				production_speed_naval_base_factor = -5
+				production_speed_air_base_factor = -5
+				production_speed_dockyard_factor = -5
+				production_speed_radar_station_factor = -5
+				industrial_capacity_dockyard = -5
+				conscription_factor = -0.75				
+			}
+		}
+
 		SPR_Conv = {
 
 			picture = FRA_factory_strikes

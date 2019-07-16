@@ -5,6 +5,8 @@ state=
 	manpower = 365500
 	
 	state_category = rural
+
+	impassable = yes
 	
 	history=
 	{

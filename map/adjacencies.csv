@@ -252,4 +252,59 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 2070;5075;impassable;-1;-1;-1;-1;-1;;GDU Iran
 10782;5075;impassable;-1;-1;-1;-1;-1;;GDU Iran
 10782;12761;impassable;-1;-1;-1;-1;-1;;GDU Iran
+5505;9824;impassable;-1;-1;-1;-1;-1;;GDU Spain
+5505;6927;impassable;-1;-1;-1;-1;-1;;GDU Spain
+5505;854;impassable;-1;-1;-1;-1;-1;;GDU Spain
+8845;854;impassable;-1;-1;-1;-1;-1;;GDU Spain
+8845;9764;impassable;-1;-1;-1;-1;-1;;GDU Spain
+8845;6812;impassable;-1;-1;-1;-1;-1;;GDU Spain
+8845;6966;impassable;-1;-1;-1;-1;-1;;GDU Spain
+8845;3873;impassable;-1;-1;-1;-1;-1;;GDU Spain
+5454;3873;impassable;-1;-1;-1;-1;-1;;GDU Spain
+5454;6817;impassable;-1;-1;-1;-1;-1;;GDU Spain
+5454;9896;impassable;-1;-1;-1;-1;-1;;GDU Spain
+5454;6906;impassable;-1;-1;-1;-1;-1;;GDU Spain
+5454;6959;impassable;-1;-1;-1;-1;-1;;GDU Spain
+5454;962;impassable;-1;-1;-1;-1;-1;;GDU Spain
+5454;4098;impassable;-1;-1;-1;-1;-1;;GDU Spain
+5431;4098;impassable;-1;-1;-1;-1;-1;;GDU Spain
+5431;10024;impassable;-1;-1;-1;-1;-1;;GDU Spain
+5431;10109;impassable;-1;-1;-1;-1;-1;;GDU Spain
+5431;4065;impassable;-1;-1;-1;-1;-1;;GDU Spain
+5431;12038;impassable;-1;-1;-1;-1;-1;;GDU Spain
+8793;12038;impassable;-1;-1;-1;-1;-1;;GDU Spain
+8793;747;impassable;-1;-1;-1;-1;-1;;GDU Spain
+8793;10063;impassable;-1;-1;-1;-1;-1;;GDU Spain
+5407;10063;impassable;-1;-1;-1;-1;-1;;GDU Spain
+5407;7068;impassable;-1;-1;-1;-1;-1;;GDU Spain
+5407;9979;impassable;-1;-1;-1;-1;-1;;GDU Spain
+5407;7153;impassable;-1;-1;-1;-1;-1;;GDU Spain
+4135;7153;impassable;-1;-1;-1;-1;-1;;GDU Spain Gibraltar
+13252;7153;impassable;-1;-1;-1;-1;-1;;GDU Spain Gibraltar
+13252;10094;impassable;-1;-1;-1;-1;-1;;GDU Spain Gibraltar
+13252;1048;impassable;-1;-1;-1;-1;-1;;GDU Spain Gibraltar
+13253;1048;impassable;-1;-1;-1;-1;-1;;GDU Spain Gibraltar
+13253;5382;impassable;-1;-1;-1;-1;-1;;GDU Spain
+4080;5382;impassable;-1;-1;-1;-1;-1;;GDU Spain
+9815;5382;impassable;-1;-1;-1;-1;-1;;GDU Spain
+12070;5382;impassable;-1;-1;-1;-1;-1;;GDU Spain
+6734;5284;impassable;-1;-1;-1;-1;-1;;GDU Spain
+9689;5284;impassable;-1;-1;-1;-1;-1;;GDU Spain
+11710;5284;impassable;-1;-1;-1;-1;-1;;GDU Spain
+11710;8698;impassable;-1;-1;-1;-1;-1;;GDU Spain
+758;8698;impassable;-1;-1;-1;-1;-1;;GDU Spain
+758;5258;impassable;-1;-1;-1;-1;-1;;GDU Spain
+3761;5258;impassable;-1;-1;-1;-1;-1;;GDU Spain
+3761;8618;impassable;-1;-1;-1;-1;-1;;GDU Spain
+6764;8618;impassable;-1;-1;-1;-1;-1;;GDU Spain
+9719;8618;impassable;-1;-1;-1;-1;-1;;GDU Spain
+11707;8618;impassable;-1;-1;-1;-1;-1;;GDU Spain
+11707;5233;impassable;-1;-1;-1;-1;-1;;GDU Spain
+6749;5233;impassable;-1;-1;-1;-1;-1;;GDU Spain
+9703;5233;impassable;-1;-1;-1;-1;-1;;GDU Spain
+11688;5233;impassable;-1;-1;-1;-1;-1;;GDU Spain
+11688;8592;impassable;-1;-1;-1;-1;-1;;GDU Spain
+740;8592;impassable;-1;-1;-1;-1;-1;;GDU Spain
+6756;8592;impassable;-1;-1;-1;-1;-1;;GDU Spain
+3737;8592;impassable;-1;-1;-1;-1;-1;;GDU Spain
 -1;-1;;-1;-1;-1;-1;-1;-1

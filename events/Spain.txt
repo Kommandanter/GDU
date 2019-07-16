@@ -227,6 +227,7 @@ country_event = {
 					ideology = democratic
 					popularity = 0.35
 				}
+				add_ideas = SPA_recovering_from_civil_war2
 			}
 			news_event = { hours = 6 id = news.63 }
 			set_global_flag = spanish_civil_war
@@ -238,7 +239,10 @@ country_event = {
 				ideology = fascism
 				popularity = 1
 			}
-
+			add_ideas = SPA_recovering_from_civil_war2
+			SOV = { air_experience = 300 }
+			GER = { air_experience = 300 }
+			ITA = { air_experience = 300 }
 		}
 		custom_effect_tooltip = nationalists_chosen
 	}

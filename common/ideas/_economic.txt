@@ -270,7 +270,7 @@ ideas = {
 						ratio > 0.5
 					}
 				}
-
+				NOT = { tag = SPR }
 				if = {
 					limit = {
 						original_tag = HUN

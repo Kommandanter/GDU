@@ -4,6 +4,8 @@ state={
 	name="STATE_178"
 	manpower = 561347
 	
+	impassable = yes
+
 	state_category = small_island
 
 	history={
@@ -11,7 +13,7 @@ state={
 		buildings = {
 			infrastructure = 1
 			13071 = {
-				naval_base = 1
+	
 			}
 		}
 		add_core_of = SPR

@@ -11,6 +11,9 @@ if = {
 
 set_research_slots = 3
 
+add_ideas = SPA_recovering_from_civil_war2
+add_ideas = extensive_conscription
+
 set_technology = {
 	interwar_antiair = 1
 	infantry_weapons = 1
