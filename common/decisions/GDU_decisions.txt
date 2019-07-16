@@ -119,7 +119,7 @@ operations = {
 			FRA = { has_capitulated = yes } 
 		}
 
-		days_mission_timeout = 7
+		days_mission_timeout = 8
 		fire_only_once = yes
 
 		activation = {
@@ -154,7 +154,7 @@ operations = {
 			FRA = { has_capitulated = yes } 
 		}
 
-		days_mission_timeout = 7
+		days_mission_timeout = 8
 		fire_only_once = yes
 
 		activation = {
@@ -195,7 +195,7 @@ operations = {
 			FRA = { has_capitulated = yes } 
 		}
 
-		days_mission_timeout = 14
+		days_mission_timeout = 16
 		fire_only_once = yes
 
 		activation = {
@@ -230,7 +230,7 @@ operations = {
 			FRA = { has_capitulated = yes } 
 		}
 
-		days_mission_timeout = 14
+		days_mission_timeout = 16
 		fire_only_once = yes
 
 		activation = {
@@ -266,7 +266,7 @@ operations = {
 			FRA = { has_capitulated = yes } 
 		}
 
-		days_mission_timeout = 21
+		days_mission_timeout = 24
 		fire_only_once = yes
 
 		activation = {
@@ -301,7 +301,7 @@ operations = {
 			FRA = { has_capitulated = yes } 
 		}
 
-		days_mission_timeout = 21
+		days_mission_timeout = 24
 		fire_only_once = yes
 
 		activation = {
@@ -343,7 +343,7 @@ operations = {
 			FRA = { has_capitulated = yes } 
 		}
 
-		days_mission_timeout = 28
+		days_mission_timeout = 32
 		fire_only_once = yes
 
 		activation = {
@@ -378,7 +378,7 @@ operations = {
 			FRA = { has_capitulated = yes } 
 		}
 
-		days_mission_timeout = 28
+		days_mission_timeout = 32
 		fire_only_once = yes
 
 		activation = {
@@ -417,7 +417,7 @@ operations = {
 			FRA = { has_capitulated = yes } 
 		}
 
-		days_mission_timeout = 35
+		days_mission_timeout = 40
 		fire_only_once = yes
 
 		activation = {
@@ -452,7 +452,7 @@ operations = {
 			FRA = { has_capitulated = yes } 
 		}
 
-		days_mission_timeout = 35
+		days_mission_timeout = 40
 		fire_only_once = yes
 
 		activation = {
@@ -489,7 +489,7 @@ operations = {
 			FRA = { has_capitulated = yes } 
 		}
 
-		days_mission_timeout = 42
+		days_mission_timeout = 48
 		fire_only_once = yes
 
 		activation = {
@@ -524,7 +524,7 @@ operations = {
 			FRA = { has_capitulated = yes } 
 		}
 
-		days_mission_timeout = 42
+		days_mission_timeout = 48
 		fire_only_once = yes
 
 		activation = {
@@ -562,7 +562,7 @@ operations = {
 			FRA = { has_capitulated = yes } 
 		}
 
-		days_mission_timeout = 49
+		days_mission_timeout = 56
 		fire_only_once = yes
 
 		activation = {
@@ -597,7 +597,7 @@ operations = {
 			FRA = { has_capitulated = yes } 
 		}
 
-		days_mission_timeout = 49
+		days_mission_timeout = 56
 		fire_only_once = yes
 
 		activation = {
@@ -634,7 +634,7 @@ operations = {
 			FRA = { has_capitulated = yes } 
 		}
 
-		days_mission_timeout = 56
+		days_mission_timeout = 64
 		fire_only_once = yes
 
 		activation = {
@@ -669,7 +669,7 @@ operations = {
 			FRA = { has_capitulated = yes } 
 		}
 
-		days_mission_timeout = 56
+		days_mission_timeout = 64
 		fire_only_once = yes
 
 		activation = {
@@ -709,7 +709,7 @@ operations = {
 			FRA = { has_capitulated = yes } 
 		}
 
-		days_mission_timeout = 63
+		days_mission_timeout = 72
 		fire_only_once = yes
 
 		activation = {
@@ -744,7 +744,7 @@ operations = {
 			FRA = { has_capitulated = yes } 
 		}
 
-		days_mission_timeout = 63
+		days_mission_timeout = 72
 		fire_only_once = yes
 
 		activation = {
@@ -783,7 +783,7 @@ operations = {
 			FRA = { has_capitulated = yes } 
 		}
 
-		days_mission_timeout = 70
+		days_mission_timeout = 80
 		fire_only_once = yes
 
 		activation = {
@@ -821,7 +821,7 @@ operations = {
 			FRA = { has_capitulated = yes } 
 		}
 
-		days_mission_timeout = 70
+		days_mission_timeout = 80
 		fire_only_once = yes
 
 		activation = {
@@ -1218,8 +1218,8 @@ operations = {
 		complete_effect = {
 			set_global_flag = GDU_dday_defeated		
 			clr_global_flag = GDU_dday_started
-			add_war_support = 0.1
-			add_stability = 0.1
+			add_war_support = 0.2
+			add_stability = 0.2
 			
 			add_equipment_to_stockpile = { type = infantry_equipment_2 amount = 8000 producer = USA }
 			add_equipment_to_stockpile = { type = infantry_equipment_3 amount = 2000 producer = USA }
@@ -1245,8 +1245,7 @@ operations = {
 			USA = {
 				add_timed_idea = { idea = ALLIES_fail_dday_idea days = 365 }
 				add_war_support = -0.2
-				add_stability = -0.2
-				add_political_power = -50
+				add_political_power = -100
 				add_popularity = {
 					ideology = fascism
 					popularity = 0.05
@@ -1263,8 +1262,7 @@ operations = {
 			ENG = {
 				add_timed_idea = { idea = ALLIES_fail_dday_idea days = 365 }
 				add_war_support = -0.2
-				add_stability = -0.2
-				add_political_power = -50
+				add_political_power = -100
 				add_popularity = {
 					ideology = fascism
 					popularity = 0.05
@@ -1281,8 +1279,7 @@ operations = {
 			CAN = {
 				add_timed_idea = { idea = ALLIES_fail_dday_idea days = 365 }
 				add_war_support = -0.2
-				add_stability = -0.2
-				add_political_power = -50
+				add_political_power = -100
 				add_popularity = {
 					ideology = fascism
 					popularity = 0.05
@@ -1299,8 +1296,7 @@ operations = {
 			SAF = {
 				add_timed_idea = { idea = ALLIES_fail_dday_idea days = 365 }
 				add_war_support = -0.2
-				add_stability = -0.2
-				add_political_power = -50
+				add_political_power = -100
 				add_popularity = {
 					ideology = fascism
 					popularity = 0.05
@@ -1317,8 +1313,7 @@ operations = {
 			AST = {
 				add_timed_idea = { idea = ALLIES_fail_dday_idea days = 365 }
 				add_war_support = -0.2
-				add_stability = -0.2
-				add_political_power = -50
+				add_political_power = -100
 				add_popularity = {
 					ideology = fascism
 					popularity = 0.05
@@ -1332,47 +1327,10 @@ operations = {
 					popularity = 0.05
 				}				
 			}			
-			USA = {
-				add_timed_idea = { idea = ALLIES_fail_dday_idea days = 365 }
-				add_war_support = -0.2
-				add_stability = -0.2
-				add_political_power = -50
-				add_popularity = {
-					ideology = fascism
-					popularity = 0.05
-				}
-				add_popularity = {
-					ideology = communism
-					popularity = 0.05
-				}
-				add_popularity = {
-					ideology = neutrality
-					popularity = 0.05
-				}				
-			}
 			NZL = {
 				add_timed_idea = { idea = ALLIES_fail_dday_idea days = 365 }
 				add_war_support = -0.2
-				add_stability = -0.2
-				add_political_power = -50
-				add_popularity = {
-					ideology = fascism
-					popularity = 0.05
-				}
-				add_popularity = {
-					ideology = communism
-					popularity = 0.05
-				}
-				add_popularity = {
-					ideology = neutrality
-					popularity = 0.05
-				}				
-			}
-			USA = {
-				add_timed_idea = { idea = ALLIES_fail_dday_idea days = 365 }
-				add_war_support = -0.2
-				add_stability = -0.2
-				add_political_power = -50
+				add_political_power = -100
 				add_popularity = {
 					ideology = fascism
 					popularity = 0.05
@@ -1389,8 +1347,7 @@ operations = {
 			RAJ = {
 				add_timed_idea = { idea = ALLIES_fail_dday_idea days = 365 }
 				add_war_support = -0.2
-				add_stability = -0.2
-				add_political_power = -50
+				add_political_power = -100
 				add_popularity = {
 					ideology = fascism
 					popularity = 0.05
@@ -1407,8 +1364,7 @@ operations = {
 			FRF = {
 				add_timed_idea = { idea = ALLIES_fail_dday_idea days = 365 }
 				add_war_support = -0.2
-				add_stability = -0.2
-				add_political_power = -50
+				add_political_power = -100
 				add_popularity = {
 					ideology = fascism
 					popularity = 0.05
@@ -1420,8 +1376,8 @@ operations = {
 				add_popularity = {
 					ideology = neutrality
 					popularity = 0.05
-				}				
-			}			
+				}	
+			}
 			
 			
 		}

@@ -522,7 +522,7 @@ ideas = {
 			
 			modifier = { 
 				army_morale_factor = -0.05
-				industrial_capacity_factory = -0.15
+				industrial_capacity_factory = -0.20
 			}
 		}
 
@@ -589,7 +589,7 @@ ideas = {
 			
 			removal_cost = -1 
 			
-			modifier = { 
+			modifier = {
 				stability_factor = -0.10
 				war_support_factor = -0.10
 				industrial_capacity_factory = -0.05				
@@ -611,7 +611,7 @@ ideas = {
 				war_support_factor = -0.10
 				industrial_capacity_factory = -0.05				
 			}
-		}		
+		}
 
 		ALLIES_ENG_capitulated_idea = { 
 		
