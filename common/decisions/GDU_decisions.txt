@@ -2069,6 +2069,18 @@ foreign_politics = {
 					idea = USA_pearl_harbor_idea 
 					days = 120
 				}
+			    destroy_ships = {
+					type = ship_hull_light
+					count = 4
+				}
+				destroy_ships = {
+					type = ship_hull_cruiser
+					count = 1
+				}
+				destroy_ships = {
+					type = ship_hull_heavy
+					count = 4
+				}
 			}
 			JAP = { 
 				add_timed_idea = { 
