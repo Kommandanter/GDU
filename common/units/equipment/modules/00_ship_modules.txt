@@ -1812,6 +1812,9 @@ equipment_modules = {
 			sub_detection = 2.5
 			build_cost_ic = 150
 		}
+		multiply_stats = {
+			hg_attack = 0.15
+		}
 	}
 	ship_airplane_launcher_2 = {
 		category = ship_airplane_launcher
@@ -1822,6 +1825,9 @@ equipment_modules = {
 			sub_detection = 3.5
 			build_cost_ic = 170
 		}
+		multiply_stats = {
+			hg_attack = 0.25
+		}		
 		can_convert_from = {
 			module_category = ship_airplane_launcher
 			convert_cost_ic = 80
@@ -1914,12 +1920,12 @@ equipment_modules = {
 		multiply_stats = {
 			build_cost_ic = 0.1
 			naval_speed = 0.0
-			max_strength = 0.1
+			max_strength = 0.2
 		}
 		build_cost_resources = {
 		}
 		add_stats = {
-			armor_value = 26
+			armor_value = 32.5
 			surface_visibility = 10
 		}
 		dismantle_cost_ic = 5500
@@ -1930,8 +1936,8 @@ equipment_modules = {
 		gfx = ship_armor_1
 		
 		multiply_stats = {
-			build_cost_ic = 0.075
-			naval_speed = 0.15
+			build_cost_ic = -0.15
+			naval_speed = 0.10
 			max_strength = 0.05
 		}
 
@@ -1949,12 +1955,12 @@ equipment_modules = {
 		multiply_stats = {
 			build_cost_ic = 0.1
 			naval_speed = 0.0
-			max_strength = 0.15
+			max_strength = 0.25
 		}
 		build_cost_resources = {
 		}
 		add_stats = {
-			armor_value = 31
+			armor_value = 38.75
 			surface_visibility = 10
 		}
 		dismantle_cost_ic = 6000
@@ -1965,8 +1971,8 @@ equipment_modules = {
 		gfx = ship_armor_2
 		
 		multiply_stats = {
-			build_cost_ic = 0.075
-			naval_speed = 0.15
+			build_cost_ic = -0.15
+			naval_speed = 0.10
 			max_strength = 0.1
 		}
 		build_cost_resources = {
@@ -1984,12 +1990,12 @@ equipment_modules = {
 		multiply_stats = {
 			build_cost_ic = 0.1
 			naval_speed = 0.0
-			max_strength = 0.2
+			max_strength = 0.3
 		}
 		build_cost_resources = {
 		}
 		add_stats = {
-			armor_value = 40
+			armor_value = 50
 			surface_visibility = 10
 		}
 		dismantle_cost_ic = 7500
@@ -2000,8 +2006,8 @@ equipment_modules = {
 		gfx = ship_armor_3
 		
 		multiply_stats = {
-			build_cost_ic = 0.075
-			naval_speed = 0.15
+			build_cost_ic = -0.15
+			naval_speed = 0.10
 			max_strength = 0.15
 		}
 		build_cost_resources = {
