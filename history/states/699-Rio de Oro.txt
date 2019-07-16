@@ -4,13 +4,13 @@ state={
 	manpower = 21056
 	
 	state_category = wasteland
-
+	impassable = yes
 	history={
 		owner = SPR
 		buildings = {
 			infrastructure = 1
 			8038 = {
-				naval_base = 1
+		
 			}
 		}
 		victory_points = {

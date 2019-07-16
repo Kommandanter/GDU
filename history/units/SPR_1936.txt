@@ -194,7 +194,7 @@ units = {
 	### Ejército de África ###
 	division = {
 		name = "Circunscripción Occidental"
-		location = 9945  #Ceuta
+		location = 3938 #Ceuta
 		division_template = "División de Infantería"		# garrison division, lower equipment, experience
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.8
@@ -202,7 +202,7 @@ units = {
 	}
 	division = {
 		name = "Circunscripción Oriental"
-		location = 12100  #Melilla
+		location = 3816  #Melilla
 		division_template = "División de Infantería"		# garrison division, lower equipment, experience
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.8
@@ -211,24 +211,7 @@ units = {
 
 }
 
-### Air Wings
-air_wings = {
-	# Arma de Aviación -- Madrid (Getafe)
-	41 = {
-		# Grupo n.1 de Caza FARE 'Alas Rojas'
-		fighter_equipment_0 = {
-			owner = "SPR"
-			amount = 100
-		}
-	}
-	# Aeronáutica Naval -- Murcia
-	168 = {
-		nav_bomber_equipment_1 = {
-			owner = "SPR"
-			amount = 50
-		}
-	}
-}
+
 
 
 instant_effect = {

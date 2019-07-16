@@ -127,7 +127,7 @@ units = {
 	}
 	division = {
 		name = "15a Brigada Legionario"
-		location = 9793  # Coruna
+		location = 3887 # Coruna
 		division_template = "Brigada Legionario"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}
@@ -296,7 +296,7 @@ units = {
 	}
 	division = {
 		name = "43a Brigada Legionario"
-		location = 9793  # Sevilla
+		location = 3816  # Sevilla
 		division_template = "Brigada Legionario"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SPR" } }
 	}

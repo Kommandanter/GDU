@@ -5,13 +5,13 @@ state={
 	manpower = 11043
 	
 	state_category = pastoral
-
+	impassable = yes
 	history={
 		owner = SPR
 		buildings = {
 			infrastructure = 1
 			12857 = {
-				naval_base = 1
+	
 			}
 		}
 	}

@@ -22,7 +22,6 @@ state={
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 1
-			air_base = 3
 			1048 = {
 				naval_base = 5
 			}
