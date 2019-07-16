@@ -20,7 +20,6 @@
 		artillery_brigade = { x = 3 y = 2 }
 		artillery_brigade = { x = 3 y = 3 }
 		anti_air_brigade = { x = 4 y = 0 }
-		anti_air_brigade = { x = 4 y = 1 }
 
 	}
 	support = {
@@ -39,7 +38,7 @@ division_template = {
 		motorized = { x = 0 y = 0 }
 	    motorized = { x = 0 y = 1 }
 		motorized = { x = 0 y = 2 }
-		motorized = { x = 0 y = 3 }
+		mot_anti_air_brigade = { x = 0 y = 3 }
 		
 		motorized = { x = 1 y = 0 }
 		motorized = { x = 1 y = 1 }
