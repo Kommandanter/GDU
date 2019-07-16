@@ -40,7 +40,6 @@ ideas = {
 				production_speed_dockyard_factor = -5
 				production_speed_radar_station_factor = -5
 				industrial_capacity_dockyard = -5
-				conscription_factor = -0.65				
 			}
 		}
 
