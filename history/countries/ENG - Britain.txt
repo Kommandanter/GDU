@@ -58,6 +58,10 @@ set_technology = {
 	air_superiority = 1
 	forward_interception = 1 
 	fighter_ace_initiative = 1 
+	dive_bombing = 1
+	dogfighting_experience = 1
+	interwar_antitank = 1
+	multialtitude_flying = 1
 }
 if = {
 	limit = {

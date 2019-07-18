@@ -147,8 +147,7 @@ ideas = {
 			removal_cost = -1
 						
 			modifier = {
-				conscription_factor = -0.20
-				#conscription = -0.006
+				army_morale_factor = -0.10
 			}
 		}
 		
