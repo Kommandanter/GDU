@@ -208,7 +208,6 @@ country_event = {
 	trigger = {
 		tag = FIN
 		has_war_with = SOV
-		surrender_progress > 0.1
 		has_civil_war = no
 		is_in_faction = no
 	}
@@ -225,7 +224,7 @@ country_event = {
 			base = 8
 		}
 		SOV = {
-			country_event = { id = finland.8 days = 20 }
+			country_event = { id = finland.8 days = 30 }
 			white_peace = FIN
 			transfer_state = 146
 			transfer_state = 147
