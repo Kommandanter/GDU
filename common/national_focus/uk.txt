@@ -4009,8 +4009,13 @@ focus_tree = {
 			factor = 1
 		}	
 		completion_reward = {
-			remove_ideas = ENG_the_war_to_end_all_wars
 			set_rule = { can_send_volunteers = yes }
+			add_tech_bonus = {
+				name = ENG_artillery
+				uses = 1
+				bonus = 1.0
+				category = artillery
+			}			
 		}
 	}
 
