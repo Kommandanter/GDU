@@ -1,0 +1,19 @@
+
+state={
+	id=457
+	name="STATE_457"
+
+	impassable = yes
+
+	history={
+		owner = ENG
+
+	}
+
+	provinces={
+		1080 4068 4910 5069 7156 9957 10126 12002 12889 
+	}
+	manpower=2194
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}
