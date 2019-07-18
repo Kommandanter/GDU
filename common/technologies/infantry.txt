@@ -2170,6 +2170,16 @@ technologies = {
 			position = { x = 0 y = @1942 }
 		}
 		
+		allow = { 
+			OR =
+				{
+					TAG = GER
+					TAG = USA
+					TAG = SOV
+					date > 1941.1.1
+				}
+		}			
+		
 		categories = {
 			motorized_equipment
 			infantry_tech
