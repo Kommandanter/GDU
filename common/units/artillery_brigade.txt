@@ -238,7 +238,6 @@ sub_units = {
 
 		need = {
 			motorized_rocket_equipment = 34
-			motorized_equipment = 20
 		}
 
 		manpower = 500
