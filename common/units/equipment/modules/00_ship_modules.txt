@@ -1813,7 +1813,9 @@ equipment_modules = {
 			build_cost_ic = 150
 		}
 		multiply_stats = {
-			hg_attack = 0.15
+			hg_attack = 0.12
+			lg_attack = 0.15
+			torpedo_attack = 0.15			
 		}
 	}
 	ship_airplane_launcher_2 = {
@@ -1826,7 +1828,9 @@ equipment_modules = {
 			build_cost_ic = 170
 		}
 		multiply_stats = {
-			hg_attack = 0.25
+			hg_attack = 0.18
+			lg_attack = 0.22
+			torpedo_attack = 0.22			
 		}		
 		can_convert_from = {
 			module_category = ship_airplane_launcher
