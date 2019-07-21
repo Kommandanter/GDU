@@ -1943,6 +1943,7 @@ equipment_modules = {
 			build_cost_ic = -0.15
 			naval_speed = 0.10
 			max_strength = 0.05
+			hg_attack = -0.4						
 		}
 
 		add_stats = {
@@ -1978,6 +1979,7 @@ equipment_modules = {
 			build_cost_ic = -0.15
 			naval_speed = 0.10
 			max_strength = 0.1
+			hg_attack = -0.4						
 		}
 		build_cost_resources = {
 		}
@@ -2013,7 +2015,8 @@ equipment_modules = {
 			build_cost_ic = -0.15
 			naval_speed = 0.10
 			max_strength = 0.15
-		}
+			hg_attack = -0.4			
+		}		
 		build_cost_resources = {
 		}
 		add_stats = {
