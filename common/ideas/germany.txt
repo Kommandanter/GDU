@@ -1262,6 +1262,7 @@ ideas = {
 					reliability = 0.1
 					soft_attack = 0.1
 					maximum_speed = 0.05
+					armor_value = 0.05
 				}
 			    light_tank_equipment = {
 					reliability = 0.1
@@ -1311,7 +1312,7 @@ ideas = {
 				}
 				medium_tank_destroyer_equipment = {
 					hard_attack = 0.1
-					ap_attack = 0.10
+					ap_attack = 0.25
 					reliability = 0.1
 					defense = 0.1
 					build_cost_ic = -0.15
@@ -1347,12 +1348,14 @@ ideas = {
 					soft_attack = 0.15
 					defense = 0.15
 					build_cost_ic = 0.05
+					armor_value = 0.05
 				}
 				heavy_tank_destroyer_equipment = {
 					hard_attack = 0.15
 					defense = 0.15
 					breakthrough = 0.10
 					build_cost_ic = 0.05
+					armor_value = 0.05
 				}
 			}
 		}
@@ -1378,7 +1381,7 @@ ideas = {
 				}
 				medium_tank_destroyer_equipment = {
 					hard_attack = 0.15
-					ap_attack = 0.10
+					ap_attack = 0.25
 					reliability = 0.15
 					defense = 0.1
 					build_cost_ic = -0.10
@@ -1440,6 +1443,7 @@ ideas = {
 					soft_attack = 0.05
 					reliability = 0.05
 					build_cost_ic = 0.05
+					armor_value = 0.05
 				}
 			}
 
