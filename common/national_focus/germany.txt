@@ -2998,7 +2998,7 @@ focus_tree = {
 		completion_reward = {
 			army_experience = 100
 			set_technology = {
-				improved_heavy_tank = 1
+				improved_medium_tank = 1
 			}
 			add_tech_bonus = {
 				name = Rasenai_Panther_bonus
