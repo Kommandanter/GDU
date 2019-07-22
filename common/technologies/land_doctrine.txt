@@ -3102,7 +3102,7 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 0.5
 
-		max_planning = 0.05
+		planning_speed = 0.05
 		land_reinforce_rate = 0.08
 		
 		category_all_infantry = {
