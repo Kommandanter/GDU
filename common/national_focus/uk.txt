@@ -2394,7 +2394,7 @@ focus_tree = {
 		will_lead_to_war_with = ITA
 		prerequisite = { focus = uk_protect_suez }
 		icon = GFX_focus_attack_italy
-		x = 0
+		x = -1
 		y = 1
 		relative_position_id = uk_protect_suez
 		cost = 20
@@ -2407,6 +2407,68 @@ focus_tree = {
 				target = ITA
 				expire = 0
 			} 
+		}
+	}
+	
+	focus = {
+		id = ENG_fortify_yemen 
+		prerequisite = { focus = uk_protect_suez }
+		icon = GFX_goal_generic_construct_military
+		x = 1
+		y = 1
+		relative_position_id = uk_protect_suez
+		cost = 3
+		completion_reward = {
+			293 = {
+				add_building_construction = {
+					type = bunker
+					level = 5
+					province = 1920
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = coastal_bunker
+					level = 5
+					province = 10840
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = coastal_bunker
+					level = 5
+					province = 10752 
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = air_base
+					level = 3
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = anti_air_building
+					level = 3
+					instant_build = yes
+				}
+			}
+			
+			659 = {
+				add_building_construction = {
+					type = bunker
+					level = 5
+					province = 5074
+					instant_build = yes
+				}				
+				add_building_construction = {
+					type = air_base
+					level = 3
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = anti_air_building
+					level = 3
+					instant_build = yes
+				}
+			}			
+			
 		}
 	}	
 

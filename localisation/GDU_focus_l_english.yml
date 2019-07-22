@@ -86,7 +86,8 @@
  FRA_joint_refinery:0 "French Synthetic Rubber Program"
  FRA_joint_refinery_desc:0 "With war against Japan having begun, we must prepare for the possibility that our natural rubber supply in Asia will be lost. We shall start a program to produce synthetic rubber to fulfill our resource needs. To do this we must work with the British, Americans and Soviets to set up facilities."
 
- 
+ ENG_fortify_yemen:0 "Fortify Yemen" 
+ ENG_fortify_yemen_desc:0 "Construct Fortifications in Yemen to guard the Bab-el-Mandeb, the strait separating the Red Sea from the Indian Ocean. If Suez should fall, this is of the utmost importance to ensure that the Italian Navy cannot wreak havoc in the Indian Ocean." 
  ENG_blood_toil_tears:0 "Blood, Toil, Tears, and Sweat" 
  ENG_blood_toil_tears_desc:0 "I have nothing to offer but blood, toil, tears and sweat. You ask, what is our policy? It is to wage war, by sea, land and air. That is our policy. You ask, what is our aim? I can answer in one word: Victory. Victory at all costs—Victory in spite of all terror—Victory, however long and hard the road may be... For without victory, there can be no survival."
  uk_extra_tech_slot_2:0 "Complete Commitment" 
