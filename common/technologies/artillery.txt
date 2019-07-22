@@ -318,7 +318,7 @@ technologies = {
 			soft_attack = 0.1
 		}
 		
-		research_cost = 1
+		research_cost = 1.5
 
 		start_year = 1943
 		
@@ -974,7 +974,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1.5
+		research_cost = 1
 
 		start_year = 1940
 		
@@ -1120,7 +1120,7 @@ technologies = {
 		#	ap_attack = 0.05
 		#}
 		
-		research_cost = 1
+		research_cost = 1.5
 
 		start_year = 1943
 		
