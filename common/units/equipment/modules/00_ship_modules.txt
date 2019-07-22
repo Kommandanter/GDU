@@ -1943,7 +1943,8 @@ equipment_modules = {
 			build_cost_ic = -0.15
 			naval_speed = 0.10
 			max_strength = 0.05
-			hg_attack = -0.4						
+			hg_attack = -0.35
+			hg_armor_piercing = -0.15	
 		}
 
 		add_stats = {
@@ -1979,7 +1980,8 @@ equipment_modules = {
 			build_cost_ic = -0.15
 			naval_speed = 0.10
 			max_strength = 0.1
-			hg_attack = -0.4						
+			hg_attack = -0.35
+			hg_armor_piercing = -0.15			
 		}
 		build_cost_resources = {
 		}
@@ -2015,7 +2017,8 @@ equipment_modules = {
 			build_cost_ic = -0.15
 			naval_speed = 0.10
 			max_strength = 0.15
-			hg_attack = -0.4			
+			hg_attack = -0.35
+			hg_armor_piercing = -0.15			
 		}		
 		build_cost_resources = {
 		}
@@ -2031,7 +2034,7 @@ equipment_modules = {
 		gfx = ship_armor_thick_3
 		
 		multiply_stats = {
-			build_cost_ic = 0.15
+			build_cost_ic = 0.3
 			naval_speed = 0.0
 			max_strength = 0.1
 		}
