@@ -1341,6 +1341,12 @@ focus_tree = {
 				name = mech_army_bonus
 				category = cat_mechanized_1
 			}
+			add_tech_bonus = {
+				bonus = 1.25 
+				uses = 1
+				name = katyusha_bonus
+				technology = motorized_rocket_unit
+			}			
 			custom_effect_tooltip = available_military_high_command
 			show_ideas_tooltip = konstantin_rokossovsky 
 			custom_effect_tooltip = available_theorist
