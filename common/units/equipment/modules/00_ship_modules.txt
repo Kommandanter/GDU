@@ -1944,7 +1944,7 @@ equipment_modules = {
 			naval_speed = 0.10
 			max_strength = 0.05
 			hg_attack = -0.35
-			hg_armor_piercing = -0.15	
+			hg_armor_piercing = -0.40	
 		}
 
 		add_stats = {
@@ -1981,7 +1981,7 @@ equipment_modules = {
 			naval_speed = 0.10
 			max_strength = 0.1
 			hg_attack = -0.35
-			hg_armor_piercing = -0.15			
+			hg_armor_piercing = -0.40			
 		}
 		build_cost_resources = {
 		}
@@ -2018,7 +2018,7 @@ equipment_modules = {
 			naval_speed = 0.10
 			max_strength = 0.15
 			hg_attack = -0.35
-			hg_armor_piercing = -0.15			
+			hg_armor_piercing = -0.40			
 		}		
 		build_cost_resources = {
 		}
