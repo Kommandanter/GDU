@@ -98,7 +98,7 @@ country_event = {
 
 	option = {
 		name = pfu.20.a
-		add_timed_idea = { idea = finest_hour_com days = 400 }
+		add_ideas = finest_hour_com
 	}
 	mean_time_to_happen = { days = 0 }
 }
