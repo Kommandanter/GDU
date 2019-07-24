@@ -226,7 +226,7 @@ set_war_support = 0.1
 create_corps_commander = {
 	name = "Thomas Victor Anderson"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-	traits = { infantry_leader trait_engineer  career_officer ranger trait_cautious}
+	traits = { infantry_leader trait_engineer career_officer trait_mountaineer ranger trait_cautious}
 	skill = 4
 	attack_skill = 4
 	defense_skill = 3
@@ -251,7 +251,7 @@ create_corps_commander = {
 	traits = { armor_officer panzer_leader trickster hill_fighter trait_cautious}
 	skill = 4
 		attack_skill = 4
-		defense_skill = 4
+		defense_skill = 5
 		planning_skill = 4
 		logistics_skill = 4
 }
