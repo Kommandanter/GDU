@@ -15,7 +15,7 @@
 		infantry = { x = 1 y = 4 }
 	}
 	support = {
-		anti_air = { x = 0 y = 3 }			
+		anti_air = { x = 0 y = 0 }			
 		
 	}	
 }
@@ -32,7 +32,7 @@ division_template = {
 		cavalry = { x = 1 y = 2 }
 	}
 	support = {
-		anti_air = { x = 0 y = 3 }			
+		anti_air = { x = 0 y = 0 }			
 		
 	}		
 }
