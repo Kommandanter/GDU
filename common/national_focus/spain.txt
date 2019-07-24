@@ -82,7 +82,7 @@ focus_tree = {
 		bypass = {
 			custom_trigger_tooltip = {
 				tooltip = infrastructure_effort_tt
-				290 = {
+				699 = {
 					free_building_slots = {
 						building = infrastructure
 						size < 1
@@ -91,7 +91,7 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
-			290 = {
+			699 = {
 				add_building_construction = {
 				type = infrastructure
 				level = 1
