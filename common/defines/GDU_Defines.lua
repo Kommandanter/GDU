@@ -87,7 +87,7 @@ NDefines.NProduction.EQUIPMENT_MODULE_CONVERT_XP_COST = 0.0				-- XP cost for co
 NDefines.NProduction.EQUIPMENT_MODULE_REMOVE_XP_COST = 0.0				-- XP cost for removing an equipment module and leaving the slot empty when creating an equipment variant.
 
 NDefines.NBuildings.ANTI_AIR_SUPERIORITY_MULT = 20.0	-- How much air superiority reduction to the enemy does our AA guns? Normally each building level = -1 reduction. With this multiplier.
-NDefines.NBuildings.MAX_SHARED_SLOTS = 50
+NDefines.NBuildings.MAX_SHARED_SLOTS = 99
 NDefines.NBuildings.INFRA_TO_SUPPLY = 2.4
 NDefines.NBuildings.INFRA_TO_SUPPLY_COEFF = 1 -- Testing, 1 in vanilla -- TW/WTT 
 NDefines.NBuildings.AIRBASE_CAPACITY_MULT = 100
@@ -366,7 +366,7 @@ NDefines.NNavy.LEADER_EXPERIENCE_SCALE = 0.0                      -- making admi
 
 NDefines.NNavy.GUN_HIT_PROFILES = { -- hit profiles for guns, if target ih profile is lower the gun will have lower accuracy		
 	        315.0,    -- big guns		
-	        790.0,    -- torpedos		
+	        740.0,    -- torpedos		
 	        240.0,    -- small guns		
 	   }		
 			

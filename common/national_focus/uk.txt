@@ -1389,7 +1389,10 @@ focus_tree = {
 				}
 				ENG = {
 					has_completed_focus = general_rearmament_focus
-				}				
+				}
+				GER = {
+					num_of_naval_factories > 19
+				}
 			}
 
 		}
