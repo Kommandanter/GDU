@@ -673,7 +673,7 @@ focus_tree = {
 		x = 8
 		y = 0
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 15
@@ -832,7 +832,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = SAF_south_african_railways
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 20
@@ -932,7 +932,7 @@ focus_tree = {
 		y = 3
 		relative_position_id = SAF_south_african_railways
 
-		cost = 10
+		cost = 6
 
 		ai_will_do = {
 			factor = 15
@@ -1538,7 +1538,7 @@ focus_tree = {
 		x = 16
 		y = 0
 
-		cost = 10
+		cost = 4
 
 		ai_will_do = {
 			factor = 1
@@ -1697,7 +1697,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = SAF_commit_to_the_five_year_plan
 
-		cost = 10
+		cost = 4
 
 		ai_will_do = {
 			factor = 1
@@ -1819,7 +1819,7 @@ focus_tree = {
 		y = 4
 		relative_position_id = SAF_commit_to_the_five_year_plan
 
-		cost = 10
+		cost = 4
 
 		ai_will_do = {
 			factor = 1
