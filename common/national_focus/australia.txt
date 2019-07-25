@@ -632,7 +632,7 @@ focus_tree = {
 		icon = GFX_goal_generic_build_airforce
 		x = 7
 		y = 0
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 1
@@ -746,7 +746,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = AST_expand_the_raaf
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 1
@@ -2024,7 +2024,7 @@ focus_tree = {
 		y = 4
 		relative_position_id = AST_standard_gauge_railway
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 1
@@ -2104,7 +2104,7 @@ focus_tree = {
 		y = 5
 		relative_position_id = AST_standard_gauge_railway
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 1
@@ -2336,7 +2336,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = AST_establish_advisory_war_council
 
-		cost = 4
+		cost = 10
 
 		ai_will_do = {
 			factor = 1
@@ -3198,7 +3198,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = AST_research_collaboration
-		cost = 6
+		cost = 10
 		ai_will_do = {
 			factor = 4
 		}
