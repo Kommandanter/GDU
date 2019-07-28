@@ -239,7 +239,51 @@ if = {
 set_convoys = 250
 set_stability = 0.5
 set_war_support = 0.8
-
+add_equipment_to_stockpile = {
+         type = artillery_equipment_1
+         amount = 13600
+         producer = SOV
+}  
+add_equipment_to_stockpile = {
+         type = support_equipment
+         amount = 401
+         producer = SOV
+} 
+add_equipment_to_stockpile = {
+         type = infantry_equipment_0
+         amount = 74000
+         producer = SOV
+} 
+add_equipment_to_stockpile = {
+         type = infantry_equipment_1
+         amount = 112000
+         producer = SOV
+} 
+add_equipment_to_stockpile = {
+         type = motorized_equipment_1
+         amount = 7400
+         producer = SOV
+} 
+add_equipment_to_stockpile = {
+         type = light_tank_equipment_1
+         amount = 7000
+         producer = SOV
+} 
+add_equipment_to_stockpile = {
+         type = light_tank_equipment_2
+         amount = 7000
+         producer = SOV
+} 
+add_equipment_to_stockpile = {
+         type = anti_air_equipment_1
+         amount = 9000
+         producer = SOV
+} 
+add_equipment_to_stockpile = {
+         type = anti_tank_equipment_1
+         amount = 12000
+         producer = SOV
+} 
 set_politics = {
 	ruling_party = communism
 	last_election = "1933.7.1"

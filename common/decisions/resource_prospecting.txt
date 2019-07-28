@@ -200,7 +200,7 @@ prospect_for_resources = {
 			}
 		}	
 	}
-	develop_yunnan_aluminium_deposits = { #325
+	develop_yunnan_aluminium_deposits = { #599
 		
 		icon = aluminium
 
@@ -211,17 +211,17 @@ prospect_for_resources = {
 		available = {
 			has_tech = excavation3
 			num_of_civilian_factories_available_for_projects > 2
-			owns_state = 325
-			controls_state = 325
+			owns_state = 599
+			controls_state = 599
 		}
 		highlight_states = {
-			state = 325
+			state = 599
 		}
 
 		visible = {
-			owns_state = 325
-			controls_state = 325
-			325 = {
+			owns_state = 599
+			controls_state = 599
+			599 = {
 				NOT = {
 					has_state_flag = yunnan_aluminium_developed
 				}
@@ -241,8 +241,8 @@ prospect_for_resources = {
 			factor = 1
 		}
 		remove_effect = { 
-			325 = { set_state_flag = yunnan_aluminium_developed } 
-			325 = {
+			599 = { set_state_flag = yunnan_aluminium_developed } 
+			599 = {
 				add_resource = {
 					type = aluminium
 					amount = 12
@@ -300,7 +300,7 @@ prospect_for_resources = {
 			}
 		}	
 	}
-	develop_sichuan_aluminium_deposits = { #605
+	develop_sichuan_aluminium_deposits = { #608
 		
 		icon = aluminium
 
@@ -311,17 +311,17 @@ prospect_for_resources = {
 		available = {
 			has_tech = excavation3
 			num_of_civilian_factories_available_for_projects > 2
-			owns_state = 605
-			controls_state = 605
+			owns_state = 608
+			controls_state = 608
 		}
 		highlight_states = {
-			state = 605
+			state = 608
 		}
 
 		visible = {
-			owns_state = 605
-			controls_state = 605
-			605 = {
+			owns_state = 608
+			controls_state = 608
+			608 = {
 				NOT = {
 					has_state_flag = sichuan_aluminium_developed
 				}
@@ -341,8 +341,8 @@ prospect_for_resources = {
 			factor = 1
 		}
 		remove_effect = { 
-			605 = { set_state_flag = sichuan_aluminium_developed } 
-			605 = {
+			608 = { set_state_flag = sichuan_aluminium_developed } 
+			608 = {
 				add_resource = {
 					type = aluminium
 					amount = 12

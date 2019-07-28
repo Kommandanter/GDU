@@ -1,0 +1,172 @@
+on_actions = {
+	
+     on_startup = {
+     effect = {
+
+       #### Temporarily making sure irrelevant nations dont spam divs 
+#        
+#               HOL = { 
+#				add_timed_idea = { idea = turkish_neutrality  days = 920 }  
+#			}
+#               YUG = { 
+#				add_timed_idea = { idea = turkish_neutrality  days = 920 }  
+#			}
+#			   CZE = { 
+#               add_timed_idea = { idea = turkish_neutrality  days = 920 }  
+#		    }
+#			   LUX = { 
+#				add_timed_idea = { idea = turkish_neutrality  days = 920 }  
+#			}
+#			   GRE = { 
+#				add_timed_idea = { idea = turkish_neutrality  days = 920 }  
+#			}
+#			   NOR = { 
+#				add_timed_idea = { idea = turkish_neutrality  days = 920 }  
+#			}
+#			   POL = { 
+#			    add_timed_idea = { idea = turkish_neutrality  days = 720 }  
+#			}
+#			   BEL = { 
+#				add_timed_idea = { idea = turkish_neutrality  days = 720 }  
+#			}
+           
+     
+
+
+
+
+
+       #### Annexing stupid nations
+             BRA = {	
+				annex_country = {
+							target = COL
+							transfer_troops = no
+				}
+			}
+			 BRA = {	
+				annex_country = {
+							target = ECU
+							transfer_troops = no
+				}
+			}
+			 BRA = {	
+				annex_country = {
+							target = PRU
+							transfer_troops = no
+				}
+			}
+			 BRA = {	
+				annex_country = {
+							target = BOL
+							transfer_troops = no
+				}
+			} BRA = {	
+				annex_country = {
+							target = PAR
+							transfer_troops = no
+				}
+			}
+			 BRA = {	
+				annex_country = {
+							target = CHL
+							transfer_troops = no
+				}
+			}
+			 BRA = {	
+				annex_country = {
+							target = ARG
+							transfer_troops = no
+				}
+			}
+			 BRA = {	
+				annex_country = {
+							target = URG
+							transfer_troops = no
+				}
+			}
+			
+			 SWI = {	
+				annex_country = {
+							target = BHU
+							transfer_troops = no
+				}
+			}
+			 SWI = {	
+				annex_country = {
+							target = TIB
+							transfer_troops = no
+				}
+			}
+		
+			 SWI = {	
+				annex_country = {
+							target = AFG
+							transfer_troops = no
+				}
+			}
+				 MEX = {	
+				annex_country = {
+							target = PAN
+							transfer_troops = no
+				}
+			}
+			 MEX = {	
+				annex_country = {
+							target = COS
+							transfer_troops = no
+				}
+			}
+		
+			 MEX = {	
+				annex_country = {
+							target = NIC
+							transfer_troops = no
+				}
+			}
+				 MEX = {	
+				annex_country = {
+							target = HON
+							transfer_troops = no
+				}
+			}
+			 MEX = {	
+				annex_country = {
+							target = ELS
+							transfer_troops = no
+				}
+			}
+		
+			 MEX = {	
+				annex_country = {
+							target = GUA
+							transfer_troops = no
+				}
+			}
+				 MEX = {	
+				annex_country = {
+							target = CUB
+							transfer_troops = no
+				}
+			}
+			 MEX = {	
+				annex_country = {
+							target = DOM
+							transfer_troops = no
+				}
+			}
+		
+			 MEX = {	
+				annex_country = {
+							target = HAI
+							transfer_troops = no
+				}
+			}
+
+
+
+      
+     }
+
+     }
+
+}

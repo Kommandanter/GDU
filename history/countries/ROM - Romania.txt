@@ -189,7 +189,33 @@ set_convoys = 10
 add_ideas = {
 	partial_economic_mobilisation 
 }
+add_equipment_to_stockpile = {
+         type = artillery_equipment_1
+         amount = 1600
+         producer = ROM
+}  
+add_equipment_to_stockpile = {
+         type = support_equipment
+         amount = 372
+         producer = ROM
+} 
 
+add_equipment_to_stockpile = {
+         type = infantry_equipment_1
+         amount = 1600
+         producer = ROM
+} 
+add_equipment_to_stockpile = {
+         type = motorized_equipment_1
+         amount = 30
+         producer = ROM
+} 
+
+add_equipment_to_stockpile = {
+         type = anti_air_equipment_1
+         amount = 833
+         producer = ROM
+} 
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1933.12.20"

@@ -146,6 +146,33 @@ if = {
 		dispersed_industry3 = 1
 	}
 }
+add_equipment_to_stockpile = {
+         type = artillery_equipment_1
+         amount = 505
+         producer = CAN
+}  
+add_equipment_to_stockpile = {
+         type = support_equipment
+         amount = 151
+         producer = CAN
+} 
+
+add_equipment_to_stockpile = {
+         type = infantry_equipment_1
+         amount = 4000
+         producer = CAN
+} 
+add_equipment_to_stockpile = {
+         type = motorized_equipment_1
+         amount = 30
+         producer = CAN
+} 
+
+add_equipment_to_stockpile = {
+	type = anti_air_equipment_1
+    amount = 241
+    producer = CAN
+}
 
 set_politics = {
 	ruling_party = democratic

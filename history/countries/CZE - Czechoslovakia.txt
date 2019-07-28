@@ -19,7 +19,7 @@ set_technology = {
 }
 
 set_research_slots = 3
-
+add_timed_idea = { idea = turkish_neutrality  days = 920 }
 set_politics = {	
 	ruling_party = democratic
 	last_election = "1935.5.19"

@@ -156,6 +156,29 @@ set_politics = {
 	election_frequency = 36
 	elections_allowed = yes
 }
+add_equipment_to_stockpile = {
+         type = artillery_equipment_1
+         amount = 233
+         producer = AST
+}  
+add_equipment_to_stockpile = {
+         type = support_equipment
+         amount = 87
+         producer = AST
+} 
+
+add_equipment_to_stockpile = {
+         type = infantry_equipment_1
+         amount = 4000
+         producer = AST
+} 
+
+
+add_equipment_to_stockpile = {
+	type = anti_air_equipment_1
+    amount = 233
+    producer = AST
+}
 
 set_popularities = {
     democratic = 98

@@ -244,7 +244,48 @@ set_war_support = 0.40
 
 	}
 }
+add_equipment_to_stockpile = {
+         type = artillery_equipment_1
+         amount = 2200
+         producer = GER
+}  
+add_equipment_to_stockpile = {
+         type = support_equipment
+         amount = 1500
+         producer = GER
+} 
 
+add_equipment_to_stockpile = {
+         type = infantry_equipment_1
+         amount = 32000
+         producer = GER
+} 
+add_equipment_to_stockpile = {
+         type = motorized_equipment_1
+         amount = 1900
+         producer = GER
+} 
+add_equipment_to_stockpile = {
+         type = light_tank_equipment_2
+         amount = 1
+         producer = GER
+} 
+add_equipment_to_stockpile = {
+         type = light_tank_equipment_1
+         amount = 1000
+         producer = GER
+} 
+
+add_equipment_to_stockpile = {
+	type = anti_air_equipment_1
+    amount = 2000
+    producer = GER
+}
+add_equipment_to_stockpile = {
+         type = anti_tank_equipment_1
+         amount = 3000
+         producer = GER
+} 
 set_politics = {
 	ruling_party = fascism
 	last_election = "1933.3.5"

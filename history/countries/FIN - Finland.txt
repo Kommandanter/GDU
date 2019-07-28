@@ -110,7 +110,27 @@ add_ideas = {
 		dispersed_industry3 = 1
 	}
 }
+add_equipment_to_stockpile = {
+         type = artillery_equipment_1
+         amount = 1400
+         producer = FIN
+}  
+add_equipment_to_stockpile = {
+         type = support_equipment
+         amount = 356
+         producer = FIN
+} 
 
+add_equipment_to_stockpile = {
+         type = infantry_equipment_1
+         amount = 13000
+         producer = FIN
+} 
+add_equipment_to_stockpile = {
+         type = anti_air_equipment_1
+         amount = 730
+         producer = FIN
+} 
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1933.7.1"

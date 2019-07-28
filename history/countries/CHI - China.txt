@@ -10,7 +10,10 @@ if = {
 		set_naval_oob = "CHI_1936_naval_legacy"
 	}
 }
-
+add_ideas = {
+	turkish_neutrality
+	free_trade
+}
 # Starting tech
 set_technology = {
 	interwar_antiair = 1

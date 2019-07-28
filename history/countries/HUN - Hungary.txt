@@ -126,7 +126,28 @@ if = {
 		fuel_refining = 1
 	}
 }
+add_equipment_to_stockpile = {
+         type = artillery_equipment_1
+         amount = 1100
+         producer = HUN
+}  
+add_equipment_to_stockpile = {
+         type = support_equipment
+         amount = 222
+         producer = HUN
+} 
 
+add_equipment_to_stockpile = {
+         type = infantry_equipment_1
+         amount = 10000
+         producer = HUN
+} 
+
+add_equipment_to_stockpile = {
+	type = anti_air_equipment_1
+    amount = 983
+    producer = HUN
+}
 set_politics = {	
 	ruling_party = neutrality
 	last_election = "1935.3.31"

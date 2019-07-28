@@ -133,6 +133,28 @@ if = {
 		dispersed_industry2 = 1
 	}
 }
+add_equipment_to_stockpile = {
+         type = artillery_equipment_1
+         amount = 168
+         producer = NZL
+}  
+add_equipment_to_stockpile = {
+         type = support_equipment
+         amount = 30
+         producer = NZL
+} 
+
+add_equipment_to_stockpile = {
+         type = infantry_equipment_1
+         amount = 1300
+         producer = NZL
+} 
+
+add_equipment_to_stockpile = {
+         type = anti_air_equipment_1
+         amount = 140
+         producer = NZL
+} 
 set_politics = {
 	ruling_party = democratic
 	last_election = "1935.11.27"

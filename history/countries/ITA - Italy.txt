@@ -88,10 +88,7 @@ if = {
 }
 
 # DIPLOMACY / WAR 36
-	declare_war_on = {
-		target = ETH
-		type = annex_everything
-	}
+
 	give_guarantee = ALB
 
 1939.1.1 = {
@@ -183,7 +180,42 @@ if = {
 set_convoys = 200
 set_stability = 0.65
 set_war_support = 0.71
+add_equipment_to_stockpile = {
+         type = artillery_equipment_1
+         amount = 3300
+         producer = ITA
+}  
+add_equipment_to_stockpile = {
+         type = support_equipment
+         amount = 915
+         producer = ITA
+} 
 
+add_equipment_to_stockpile = {
+         type = infantry_equipment_1
+         amount = 42000
+         producer = ITA
+} 
+add_equipment_to_stockpile = {
+         type = motorized_equipment_1
+         amount = 561
+         producer = ITA
+} 
+add_equipment_to_stockpile = {
+         type = light_tank_equipment_1
+         amount = 600
+         producer = ITA
+} 
+add_equipment_to_stockpile = {
+         type = anti_air_equipment_1
+         amount = 685
+         producer = ITA
+} 
+add_equipment_to_stockpile = {
+         type = anti_tank_equipment_1
+         amount = 3200
+         producer = ITA
+} 
 set_politics = {
 	ruling_party = fascism
 	last_election = "1934.3.26"

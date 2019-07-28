@@ -1,6 +1,8 @@
-NDefines.NGame.LAG_DAYS_FOR_LOWER_SPEED = 70
-NDefines.NGame.LAG_DAYS_FOR_PAUSE = 100
-NDefines.NGame.COMBAT_LOG_MAX_MONTHS = 36
+NDefines.NGame.LAG_DAYS_FOR_LOWER_SPEED = 100
+NDefines.NGame.LAG_DAYS_FOR_PAUSE = 130
+NDefines.NGame.COMBAT_LOG_MAX_MONTHS = 6
+NDefines.NNavy.NAVAL_COMBAT_RESULT_TIMEOUT_YEARS = 0.25							-- after that many years, we clear the naval combat results, so they don't get stuck forever in the memory.
+NDefines.NNavy.CONVOY_LOSS_HISTORY_TIMEOUT_MONTHS = 3						-- after this many months remove the history of lost convoys to not bloat savegames and memory since there is no way to see them anyway
 
 NDefines.NDiplomacy.BASE_STAGE_COUP_DAILY_PP = 999
 NDefines.NDiplomacy.BASE_STAGE_COUP_TOTAL_COST = 0
@@ -72,7 +74,7 @@ NDefines.NCountry.GIE_DIVISION_ATTACK_BONUS_ON_CORE = 0.0 -- Attack bonus factor
 NDefines.NCountry.GIE_DIVISION_DEFENSE_BONUS_ON_CORE = 0.0 -- Defense bonus factor when fighting on cores.
 
 
-NDefines.NProduction.MIN_POSSIBLE_TRAINING_MANPOWER = 500000
+NDefines.NProduction.MIN_POSSIBLE_TRAINING_MANPOWER = 2000000
 NDefines.NProduction.MIN_FIELD_TO_TRAINING_MANPOWER_RATIO = 0.9
 NDefines.NProduction.CAPITULATE_STOCKPILES_RATIO = 0.75
 NDefines.NProduction.BASE_FACTORY_SPEED_MIL = 5

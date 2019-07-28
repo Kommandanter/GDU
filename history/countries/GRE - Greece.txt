@@ -9,7 +9,7 @@ if = {
 	}
 }
 set_research_slots = 3
-
+add_timed_idea = { idea = turkish_neutrality  days = 920 }
 add_ideas = {
 	limited_conscription
 	Thermopylae

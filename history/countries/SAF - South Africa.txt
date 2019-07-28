@@ -120,6 +120,33 @@ set_convoys = 100
 
 set_stability = 0.6
 set_war_support = 0.1
+add_equipment_to_stockpile = {
+         type = artillery_equipment_1
+         amount = 336
+         producer = SAF
+}  
+add_equipment_to_stockpile = {
+         type = support_equipment
+         amount = 140
+         producer = SAF
+} 
+
+add_equipment_to_stockpile = {
+         type = infantry_equipment_1
+         amount = 4700
+         producer = SAF
+} 
+add_equipment_to_stockpile = {
+         type = motorized_equipment_1
+         amount = 20
+         producer = SAF
+} 
+ 
+add_equipment_to_stockpile = {
+         type = anti_air_equipment_1
+         amount = 121
+         producer = SAF
+} 
 
 set_politics = {
 	ruling_party = democratic

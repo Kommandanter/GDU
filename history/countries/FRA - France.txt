@@ -166,7 +166,53 @@ if = {
 set_convoys = 300
 set_stability = 0.5
 set_war_support = 0.15
+add_equipment_to_stockpile = {
+         type = artillery_equipment_1
+         amount = 5300
+         producer = FRA
+}  
+add_equipment_to_stockpile = {
+         type = support_equipment
+         amount = 1000
+         producer = FRA
+} 
 
+add_equipment_to_stockpile = {
+         type = infantry_equipment_1
+         amount = 46000
+         producer = FRA
+} 
+add_equipment_to_stockpile = {
+         type = motorized_equipment_1
+         amount = 8000
+         producer = FRA
+} 
+add_equipment_to_stockpile = {
+         type = gw_tank_equipment
+         amount = 2400
+         producer = FRA
+} 
+add_equipment_to_stockpile = {
+         type = light_tank_equipment_1
+         amount = 480
+         producer = FRA
+} 
+
+add_equipment_to_stockpile = {
+	type = anti_air_equipment_1
+    amount = 2600
+    producer = FRA
+}
+add_equipment_to_stockpile = {
+         type = anti_tank_equipment_1
+         amount = 4300
+         producer = FRA
+} 
+add_equipment_to_stockpile = {
+	     type = heavy_tank_equipment_1
+         amount = 400
+         producer = FRA
+}
 set_politics = {
 	ruling_party = democratic
 	last_election = "1932.5.1"
