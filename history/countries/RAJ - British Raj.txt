@@ -122,6 +122,27 @@ set_cosmetic_tag = RAJ_UK # British Raj
 		dispersed_industry3 = 1
 	}
 }
+add_equipment_to_stockpile = {
+         type = artillery_equipment_1
+         amount = 264
+         producer = RAJ
+}  
+add_equipment_to_stockpile = {
+         type = support_equipment
+         amount = 330
+         producer = RAJ
+} 
+
+add_equipment_to_stockpile = {
+         type = infantry_equipment_1
+         amount = 12000
+         producer = RAJ
+} 
+add_equipment_to_stockpile = {
+         type = anti_air_equipment_1
+         amount = 222
+         producer = RAJ
+} 
 
 set_politics = {
 	ruling_party = neutrality

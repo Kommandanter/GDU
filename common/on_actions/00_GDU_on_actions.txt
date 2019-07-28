@@ -11,6 +11,9 @@ on_actions = {
 			}
 			set_global_flag = airbase_list_created 
 			
+            ## Andachal land airfield
+            add_to_array = { global.small_airbase_list = 434 } #Andachal-tibet-china-india contested zone,Contested zone 
+
 			###Pacific Islands### 
 			
 			add_to_array = { global.small_airbase_list = 646 } #Saipan, JAP, Small Island 
@@ -906,7 +909,7 @@ on_actions = {
 			NZL = { 
 				navy_experience = 33
 			}
-
+       
 
 		#### Annexing Manchukuo immediately to Japan if it starts the game as AI. In this case, Japan gets some of the industry from focuses Manchukuo would have done if it were a player. Although Japan gets this industry up front, it is less than the focus factories a human Manchukuo player can get. Given that Japan can use this for ongoing construction, Asian Axis should end up with about the same industry as you would get with a good Manchu player who properly develops it ####
 
@@ -1052,7 +1055,9 @@ on_actions = {
 	on_daily = { 
 		effect = {
 			 if = {
-                limit = { NOT = { has_global_flag = airbase_limiter_ran } }
+                limit = {
+       
+                 NOT = { has_global_flag = airbase_limiter_ran } }
 				for_each_scope_loop = {
 					array = global.small_airbase_list
 					if = {

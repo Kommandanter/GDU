@@ -2,7 +2,7 @@
 state={
 	id=620
 	name="STATE_620"
-
+    resources={ 	steel=24.000 }
 	history={
 		owner = CHI
 		add_core_of = CHI
@@ -10,7 +10,8 @@ state={
 		buildings = {
 			infrastructure = 4
 			arms_factory = 1
-			industrial_complex = 1
+			industrial_complex = 2
+			arms_factory = 3
 
 		}
 		victory_points = {

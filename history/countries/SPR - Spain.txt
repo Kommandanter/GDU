@@ -59,6 +59,28 @@ if = {
 		mtg_transport = 1
 	}
 }
+add_equipment_to_stockpile = {
+         type = artillery_equipment_1
+         amount = 1700
+         producer = SPR
+}  
+add_equipment_to_stockpile = {
+         type = support_equipment
+         amount = 321
+         producer = SPR
+} 
+
+add_equipment_to_stockpile = {
+         type = infantry_equipment_1
+         amount = 21000
+         producer = SPR
+} 
+
+add_equipment_to_stockpile = {
+         type = anti_air_equipment_1
+         amount = 850
+         producer = SPR
+} 
 set_politics = {
 	ruling_party = democratic
 	last_election = "1933.2.16"

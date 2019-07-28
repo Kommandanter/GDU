@@ -1,3 +1,6 @@
+NDefines_Graphics.NGraphics.GRADIENT_BORDERS_REFRESH_FREQ = 0.2 -- how frequent is gradient borders repainting (optimization for high-speed gameplay)
+NDefines_Graphics.NGraphics.MAPICON_GROUP_PASSES = 10 -- how many mapicons get processed per frame for grouping. more = quicker response, fewer = betteperformancer 
+
 NDefines_Graphics.NGraphics.VICTORY_POINT_MAP_ICON_TEXT_CUTOFF = {300, 500, 1500}
 
 --NDefines_Graphics.NGraphics.MAP_ICONS_GROUP_MAX_SIZE = 0

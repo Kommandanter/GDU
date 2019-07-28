@@ -136,7 +136,7 @@ focus_tree = {
 			}
 		}
 
-		will_lead_to_war_with = CHI
+		
 
 		cancel_if_invalid = no
 		continue_if_invalid = yes
@@ -150,56 +150,36 @@ focus_tree = {
 			}
 		}
 		
-		select_effect = {
-        CHI = { country_event = china.100 }
-		}
+		select_effect = {}
 		completion_reward = {
-			declare_war_on = { target = CHI type = annex_everything }
-			declare_war_on = { target = PRC type = annex_everything }
-			if = {
-				limit = {
-					CHI = { #if CHI owns one of these states, they get the event
-						OR = {
-							controls_state = 608
-							controls_state = 597
-							controls_state = 614
-						}
-					}
-				}
-				CHI = {
-					country_event = china.1
-				}
-			}
-			if = {
-				limit = {
-					PRC = { #only fires the event for PRC if they control ALL of the states (to ensure that only one of them gets it, to avoid issues when one selects to turn over the states and the other doesn't)
-						AND = {
-							controls_state = 608
-							controls_state = 597
-							controls_state = 614
-						}
-					}
-				}
-				PRC = {
-					country_event = china.1
-				}
-			}
-			if = {
-				limit = {
-					SHX = { #only fires the event for SHX if they control ALL of the states (to ensure that only one of them gets it, to avoid issues when one selects to turn over the states and the other doesn't)
-						AND = {
-							controls_state = 608
-							controls_state = 597
-							controls_state = 614
-						}
-					}
-				}
-				SHX = {
-					country_event = china.1
-				}
-			}
-			add_ideas = JAP_intervene_in_china_5
-			unlock_decision_tooltip = JAP_china_step_up_war_effort
+		army_experience = 1000
+		air_experience = 1000
+		navy_experience = 1000
+
+        SOV = { 
+        army_experience = 1000
+        air_experience  = 300
+                }
+        GER = { 
+        air_experience  = 300
+                }
+        ITA = { 
+        air_experience  = 300
+                }
+	   
+	   transfer_state = 608
+       transfer_state = 614
+       transfer_state = 597
+       transfer_state = 743
+       transfer_state = 598
+       transfer_state = 613
+       transfer_state = 596
+       transfer_state = 595
+       transfer_state = 593
+       transfer_state = 592
+       transfer_state = 594
+       transfer_state = 591
+       add_named_threat = { threat = 7 name = JAP_CHIONE }
 		}
 	}
 
@@ -222,17 +202,11 @@ focus_tree = {
 		}
 
 		available = {
-			CHI = {
-				surrender_progress > 0.3
-			}
-			has_war_with = USA
+			date > 1938.02.02
 		}
 
 		bypass = {
-			OR = {
-				NOT = { JAP_has_idea_JAP_intervene_in_china = yes }
-				CHI = { has_capitulated = yes }
-			}
+			
 		}
 
 		cancel_if_invalid = no
@@ -244,10 +218,24 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			JAP_intervene_in_china_remove = yes
-			add_named_threat = { threat = 15 name = JAP_secure_china }		
-			USA = { add_war_support = 0.05 }	
-			unlock_decision_tooltip = JAP_ichi_go
+        transfer_state = 599
+        transfer_state = 602
+        transfer_state = 600
+        transfer_state = 749
+        transfer_state = 606 
+        transfer_state = 607
+        transfer_state = 620
+        transfer_state = 621
+    
+		army_experience = 1000
+		air_experience = 1000
+		navy_experience = 1000
+       
+        
+
+      
+        add_named_threat = { threat = 6 name = JAP_CHITWO }
+
 		}
 	}
 
