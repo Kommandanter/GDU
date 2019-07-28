@@ -38,7 +38,7 @@ focus_tree = {
 				limit = { FRA = { is_puppet = no } }
 				FRA = {
 					country_event = { id = germany.60 }
-				}
+				}					
 			}
 		}
 	}	
