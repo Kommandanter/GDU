@@ -472,64 +472,6 @@ country_event = {
 }
 
 
-# Event for ENG telling FROM voted yes on Imperial Defense
-country_event = {
-	id = mtg_britain.85
-	title = mtg_britain.85.t
-	desc = mtg_britain.85.d
-	picture = GFX_report_event_generic_read_write
-
-	is_triggered_only = yes
-	
-	# Ok
-	option = {
-		name = mtg_britain.85.a
-		effect_tooltip = {
-			FROM = {
-				add_political_power = -25
-				add_timed_idea = { idea = ENG_imperial_conference_defense_dominion days = 365 }
-				add_opinion_modifier = {
-					target = ROOT
-					modifier = ENG_imperial_conference_approved_resolution
-				}
-			}
-		}
-		ENG_imperial_conference_defense_level_up = yes
-		if = {
-			limit = {
-				NOT = {
-					check_variable = {
-						var = ENG_imperial_conference_defense_answers
-						value = 1
-						compare = greater_than_or_equals
-					}
-				}
-			}
-			set_variable = {
-				var = ENG_imperial_conference_defense_answers
-				value = 0
-			}
-		}
-		add_to_variable = {
-			var = ENG_imperial_conference_defense_answers
-			value = 1
-		}
-		if = {
-			limit = {
-				check_variable = {
-					var = ENG_imperial_conference_defense_answers
-					value = 5
-					compare = greater_than_or_equals
-				}
-			}
-			clr_country_flag = ENG_imperial_conference_discussion_in_progress
-			clr_country_flag = ENG_diplomatic_pressure_flag
-			clr_country_flag = ENG_extensive_diplomatic_pressure_flag
-		}
-	}
-}
-
-
 # Event for ENG beginning discussions on Imperial Trade
 country_event = {
 	id = mtg_britain.87
@@ -605,63 +547,6 @@ country_event = {
 		FROM = { country_event = { id = mtg_britain.89 } }
 	}
 
-}
-
-
-# Event for ENG telling FROM voted yes on Imperial Trade
-country_event = {
-	id = mtg_britain.89
-	title = mtg_britain.89.t
-	desc = mtg_britain.89.d
-	picture = GFX_report_event_generic_read_write
-
-	is_triggered_only = yes
-	
-	# Ok
-	option = {
-		name = mtg_britain.89.a
-		effect_tooltip = {
-			FROM = {
-				add_ideas = free_trade
-				add_opinion_modifier = {
-					target = ROOT
-					modifier = ENG_imperial_conference_approved_resolution
-				}
-			}
-			add_opinion_modifier = { target = FROM modifier = ENG_imperial_trade }
-		}
-		if = {
-			limit = {
-				NOT = {
-					check_variable = {
-						var = ENG_imperial_conference_trade_answers
-						value = 1
-						compare = greater_than_or_equals
-					}
-				}
-			}
-			set_variable = {
-				var = ENG_imperial_conference_trade_answers
-				value = 0
-			}
-		}
-		add_to_variable = {
-			var = ENG_imperial_conference_trade_answers
-			value = 1
-		}
-		if = {
-			limit = {
-				check_variable = {
-					var = ENG_imperial_conference_trade_answers
-					value = 5
-					compare = greater_than_or_equals
-				}
-			}
-			clr_country_flag = ENG_imperial_conference_discussion_in_progress
-			clr_country_flag = ENG_diplomatic_pressure_flag
-			clr_country_flag = ENG_extensive_diplomatic_pressure_flag
-		}
-	}
 }
 
 
@@ -764,64 +649,6 @@ country_event = {
 }
 
 
-# Event for ENG telling FROM voted yes on Imperial Economy
-country_event = {
-	id = mtg_britain.93
-	title = mtg_britain.93.t
-	desc = mtg_britain.93.d
-	picture = GFX_report_event_generic_read_write
-
-	is_triggered_only = yes
-	
-	# Ok
-	option = {
-		name = mtg_britain.93.a
-		effect_tooltip = {
-			FROM = {
-				add_political_power = -25
-				add_timed_idea = { idea = ENG_imperial_conference_economy_dominion days = 365 }
-				add_opinion_modifier = {
-					target = ROOT
-					modifier = ENG_imperial_conference_approved_resolution
-				}
-			}
-		}
-		ENG_imperial_conference_economy_level_up = yes
-		if = {
-			limit = {
-				NOT = {
-					check_variable = {
-						var = ENG_imperial_conference_economy_answers
-						value = 1
-						compare = greater_than_or_equals
-					}
-				}
-			}
-			set_variable = {
-				var = ENG_imperial_conference_economy_answers
-				value = 0
-			}
-		}
-		add_to_variable = {
-			var = ENG_imperial_conference_economy_answers
-			value = 1
-		}
-		if = {
-			limit = {
-				check_variable = {
-					var = ENG_imperial_conference_economy_answers
-					value = 5
-					compare = greater_than_or_equals
-				}
-			}
-			clr_country_flag = ENG_imperial_conference_discussion_in_progress
-			clr_country_flag = ENG_diplomatic_pressure_flag
-			clr_country_flag = ENG_extensive_diplomatic_pressure_flag
-		}
-	}
-}
-
-
 # Event for ENG beginning discussions on Appeasement
 country_event = {
 	id = mtg_britain.95
@@ -898,64 +725,6 @@ country_event = {
 		FROM = { country_event = { id = mtg_britain.97 } }
 	}
 
-}
-
-
-# Event for ENG telling FROM voted yes on Appeasement
-country_event = {
-	id = mtg_britain.97
-	title = mtg_britain.97.t
-	desc = mtg_britain.97.d
-	picture = GFX_report_event_generic_read_write
-
-	is_triggered_only = yes
-	
-	# Ok
-	option = {
-		name = mtg_britain.97.a
-		effect_tooltip = {
-			FROM = {
-				add_political_power = -25
-				add_war_support = 0.1
-				add_opinion_modifier = {
-					target = ROOT
-					modifier = ENG_imperial_conference_approved_resolution
-				}
-			}
-		}
-		add_war_support = 0.03
-		if = {
-			limit = {
-				NOT = {
-					check_variable = {
-						var = ENG_imperial_conference_appeasement_answers
-						value = 1
-						compare = greater_than_or_equals
-					}
-				}
-			}
-			set_variable = {
-				var = ENG_imperial_conference_appeasement_answers
-				value = 0
-			}
-		}
-		add_to_variable = {
-			var = ENG_imperial_conference_appeasement_answers
-			value = 1
-		}
-		if = {
-			limit = {
-				check_variable = {
-					var = ENG_imperial_conference_appeasement_answers
-					value = 5
-					compare = greater_than_or_equals
-				}
-			}
-			clr_country_flag = ENG_imperial_conference_discussion_in_progress
-			clr_country_flag = ENG_diplomatic_pressure_flag
-			clr_country_flag = ENG_extensive_diplomatic_pressure_flag
-		}
-	}
 }
 
 

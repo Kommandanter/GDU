@@ -7,7 +7,6 @@ ability = {
 
 		type = army_leader
 
-
 		allowed = {
 			is_leading_army_group = no
 			is_border_war = no
@@ -19,9 +18,6 @@ ability = {
 					NOT = { has_completed_focus = CHI_dare_to_die_corps }
 				}
 			}
-			OWNER = {
-				NOT = { tag = FRA }
-			}					
 		}
 
 		ai_will_do = {
@@ -71,9 +67,6 @@ ability = {
 			OWNER = {
 				NOT = { has_completed_focus = JAP_warrior_spirit }
 			}
-			OWNER = {
-				NOT = { tag = FRA }
-			}			
 		}
 		
 		cost = 0.0
