@@ -71,7 +71,7 @@ NDefines.NCountry.BASE_COMMAND_POWER_GAIN = 0.0015				-- base value for daily co
 NDefines.NCountry.STARTING_COMMAND_POWER = 50.0
 NDefines.NCountry.ATTACHE_XP_SHARE = 0.05
 NDefines.NCountry.BASE_MOBILIZATION_SPEED = 0.04
-NDefines.NCountry.NUM_DAYS_TO_FULLY_DELETE_STOCKPILED_EQUIPMENT = 9999
+NDefines.NCountry.NUM_DAYS_TO_FULLY_DELETE_STOCKPILED_EQUIPMENT = 999
 NDefines.NCountry.MAX_INTELLIGENCE_AIR_DATA_DEVIATION = 0.6 
 NDefines.NCountry.MAX_INTELLIGENCE_MILITARY_DATA_DEVIATION = 0.6 
 NDefines.NCountry.AIR_SUPPLY_CONVERSION_SCALE = 0.35 -- original 0.05 air supply?
@@ -377,7 +377,7 @@ NDefines.NNavy.LEADER_EXPERIENCE_SCALE = 0.0                      -- making admi
 
 
 NDefines.NNavy.GUN_HIT_PROFILES = { -- hit profiles for guns, if target ih profile is lower the gun will have lower accuracy		
-	        390.0,    -- big guns
+	        340.0,    -- big guns
 	        510.0,    -- torpedos
 	        240.0,    -- small guns
 	   }		

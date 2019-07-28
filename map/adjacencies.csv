@@ -284,7 +284,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 13252;10094;impassable;-1;-1;-1;-1;-1;;GDU Spain Gibraltar
 13252;1048;impassable;-1;-1;-1;-1;-1;;GDU Spain Gibraltar
 13253;1048;impassable;-1;-1;-1;-1;-1;;GDU Spain Gibraltar
-5382;1048;impassable;-1;-1;-1;-1;-1;;GDU Spain
 4080;5382;impassable;-1;-1;-1;-1;-1;;GDU Spain
 9815;5382;impassable;-1;-1;-1;-1;-1;;GDU Spain
 12070;5382;impassable;-1;-1;-1;-1;-1;;GDU Spain

@@ -618,8 +618,7 @@ DIPLOMACY_REQUEST_LICENSED_PRODUCTION_ENABLE_TRIGGER = {
 				option = FREE
 			}
 		}
-		#always = yes
-		NOT = { FROM = { tag = SOV } }
+		always = yes
 	}
 	if = {
 		limit = {
@@ -628,7 +627,6 @@ DIPLOMACY_REQUEST_LICENSED_PRODUCTION_ENABLE_TRIGGER = {
 				option = SAME_IDEOLOGY
 			}
 		}
-		NOT = { FROM = { tag = SOV } }
 		custom_trigger_tooltip = {
 			tooltip = RULE_ALLOW_LICENSING_SAME_IDEOLOGY_TT
 			has_government = FROM
@@ -641,7 +639,6 @@ DIPLOMACY_REQUEST_LICENSED_PRODUCTION_ENABLE_TRIGGER = {
 				option = SAME_FACTION
 			}
 		}
-		NOT = { FROM = { tag = SOV } }
 		custom_trigger_tooltip = {
 			tooltip = RULE_ALLOW_LICENSING_SAME_FACTION_TT
 			is_in_faction_with = FROM
