@@ -392,9 +392,9 @@ NDefines.NNavy.REPAIR_AND_RETURN_AMOUNT_SHIPS_HIGH = 0.8                        
 NDefines.NNavy.REPAIR_AND_RETURN_UNIT_DYING_STR = 0.4                            -- Str below this point is considering a single ship "dying", and a high priority to send to repair.
 
 NDefines.NNavy.BASE_ESCAPE_SPEED = 0.045                                        -- daily base escape speed (gained as percentagE)
-NDefines.NNavy.SPEED_TO_ESCAPE_SPEED = .95                                    -- ratio to converstion from ship speed to escape speed (divided by hundred)
-NDefines.NNavy.ESCAPE_SPEED_PER_COMBAT_DAY = 2                                -- daily increase in escape speed during combat duration
-NDefines.NNavy.MAX_ESCAPE_SPEED_FROM_COMBAT_DURATION = 5000                    -- max escape speed that will be gained from combat duration
+NDefines.NNavy.SPEED_TO_ESCAPE_SPEED = 5.00                                    -- ratio to converstion from ship speed to escape speed (divided by hundred)
+NDefines.NNavy.ESCAPE_SPEED_PER_COMBAT_DAY = 0.01                                -- daily increase in escape speed during combat duration
+NDefines.NNavy.MAX_ESCAPE_SPEED_FROM_COMBAT_DURATION = 0.15                    -- max escape speed that will be gained from combat duration
 
 NDefines.NNavy.NAVY_VISIBILITY_BONUS_ON_RETURN_FOR_REPAIR = 0.01                -- Multiplier for the surface/sub visiblity when the heavily damaged fleet is returning to the home base for reparation. 1.0 = no bonus. 0.0 = invisible.
 
@@ -407,7 +407,7 @@ NDefines.NNavy.AA_EFFICIENCY_PENALTY_ON_MINIMUM_POSITIONING					= 1  -- AA penal
 
 
 
-NDefines.NNavy.CONVOY_HIT_PROFILE												= 1200.0  	-- convoys has this contant hit profile
+NDefines.NNavy.CONVOY_HIT_PROFILE												= 120.0  	-- convoys has this contant hit profile
 NDefines.NNavy.CONVOY_SINKING_SPILLOVER = 1.5                 				-- Damaged convoys roll for if they sink in the end of combat by accumulating the damage. This scales that chance. 
 
 NDefines.NNavy.PRIDE_OF_THE_FLEET_UNASSIGN_COST = 0							-- cost to unassign/replace pride of the fleet
