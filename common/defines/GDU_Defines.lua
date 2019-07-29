@@ -1,5 +1,11 @@
-NDefines.NGame.LAG_DAYS_FOR_LOWER_SPEED = 100
-NDefines.NGame.LAG_DAYS_FOR_PAUSE = 130
+------ Recently Added -----
+NDefines.NMilitary.DEPLOY_TRAINING_MAX_LEVEL = 2
+NDefines.NMilitary.TRAINING_EXPERIENCE_SCALE = 124.0
+---------------------------	
+
+
+NDefines.NGame.LAG_DAYS_FOR_LOWER_SPEED = 240 -- these defines are most likely hourly and not daily , rever to 100 and 130 if desyncs during someone lagging for 10 days
+NDefines.NGame.LAG_DAYS_FOR_PAUSE = 240
 NDefines.NGame.COMBAT_LOG_MAX_MONTHS = 6
 NDefines.NNavy.NAVAL_COMBAT_RESULT_TIMEOUT_YEARS = 0.25							-- after that many years, we clear the naval combat results, so they don't get stuck forever in the memory.
 NDefines.NNavy.CONVOY_LOSS_HISTORY_TIMEOUT_MONTHS = 3						-- after this many months remove the history of lost convoys to not bloat savegames and memory since there is no way to see them anyway

@@ -32,10 +32,26 @@ on_actions = {
            
      
 
+      USA = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 800 } }
+      CAN = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 800 } }
+      RAJ = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 800 } }
+      SAF = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 800 } }
+      NZL = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 800 } }
+      AST = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 800 } }
+      ENG = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 800 } }
+      FRA = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 800 } }
+      SOV = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 800 } }
+      FIN = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 800 } }
+      HUN = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 800 } }
+      ROM = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 800 } }
+      BUL = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 800 } } 
+      SPR = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 800 } }
+      ITA = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 800 } }
+      GER = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 800 } }
+      JAP = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 800 } }
+      MAN = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 800 } }
 
-
-
-
+      
        #### Annexing stupid nations
              BRA = {	
 				annex_country = {
@@ -160,7 +176,57 @@ on_actions = {
 							target = HAI
 							transfer_troops = no
 				}
+			} 
+			 CHI = {	
+				annex_country = {
+							target = PRC
+							transfer_troops = no
+				}
 			}
+             CHI = {	
+				annex_country = {
+							target = SHX
+							transfer_troops = no
+				}
+			}
+			 CHI = {	
+				annex_country = {
+							target = XSM
+							transfer_troops = no
+				}
+			}
+			 CHI = {	
+				annex_country = {
+							target = YUN
+							transfer_troops = no
+				}
+			}
+			 CHI = {	
+				annex_country = {
+							target = GXC
+							transfer_troops = no
+				}
+			}
+             SWI = {	
+				annex_country = {
+							target = BRA
+							transfer_troops = no
+				}
+			}
+		
+			 SWI = {	
+				annex_country = {
+							target = MEX
+							transfer_troops = no
+				}
+			} 
+			 SWI = {	
+				annex_country = {
+							target = SAU
+							transfer_troops = no
+				}
+			}
+
 
 
 
