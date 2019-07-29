@@ -1,5 +1,24 @@
 ideas = {
 	country = {
+		human_shall_not_lag_idea = {
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				has_government = democratic
+			}
+			
+			removal_cost = -1
+
+			picture = generic_pp_unity_bonus
+			
+
+			modifier = {
+			 
+				training_time_army_factor = -1.0
+			}
+		}
 		swiss_neutrality = {
 			allowed = {
 				always = no
@@ -22,6 +41,7 @@ ideas = {
 				send_volunteers_tension = 2.00
 				political_power_gain = -2
 				ai_get_ally_desire_factor = -100 
+				conscription_factor = -0.99
 			}
 		}
 		latin_neutrality = {
