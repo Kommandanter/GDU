@@ -1,0 +1,867 @@
+IFU_decisions_category = {
+	turn_IFU_on_decision1 = { 
+		icon = GFX_decision_generic_decision
+		allowed = {
+			always = yes
+		}
+		available = {
+			always = yes
+		}
+		visible = {
+			has_tech = basic_medium_tank 
+			NOT = {
+				has_country_flag = potato1
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+		set_technology = { ifu_mt1 = 1 }
+		set_country_flag = potato1
+		}
+	}
+	turn_IFU_on_decision2 = { 
+		icon = GFX_decision_generic_decision
+		allowed = {
+			always = yes
+		}
+		available = {
+			always = yes 
+		}
+		visible = {
+			has_tech = improved_medium_tank
+			NOT = {
+				has_country_flag = potato2
+			}
+			 
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+		set_technology = { ifu_mt2 = 1 }
+		set_country_flag = potato2
+		
+		}
+	}
+	turn_IFU_on_decision3 = { 
+		icon = GFX_decision_generic_decision
+		allowed = {
+			always = yes
+		}
+		available = {
+			always = yes 
+		}
+		visible = {
+			has_tech = advanced_medium_tank 
+			NOT = {
+				has_country_flag = potato3
+			}
+			
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+		set_technology = { ifu_mt3 = 1 }
+		set_country_flag = potato3
+		
+		}
+	}
+	turn_IFU_on_decision4 = { 
+		icon = GFX_decision_generic_decision
+		allowed = {
+			always = yes
+		}
+		available = {
+			always = yes 
+		}
+		visible = {
+			has_tech = basic_medium_td
+			NOT = {
+				has_country_flag = potato4
+			}
+			
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+		set_technology = { ifu_mtd1 = 1 }
+		set_country_flag = potato4
+		
+		}
+	}
+	turn_IFU_on_decision5 = { 
+		icon = GFX_decision_generic_decision
+		allowed = {
+			always = yes
+		}
+		available = {
+			always = yes 
+		}
+		visible = {
+			has_tech = improved_medium_td
+			NOT = {
+				has_country_flag = potato5
+			}
+			 
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+		set_technology = { ifu_mtd2 = 1 }
+		set_country_flag = potato5
+		
+		}
+	}
+	turn_IFU_on_decision6 = { 
+		icon = GFX_decision_generic_decision
+		allowed = {
+			always = yes
+		}
+		available = {
+			always = yes 
+		}
+		visible = {
+			has_tech = advanced_medium_td 
+			NOT = {
+				has_country_flag = potato6
+			}
+		
+			}
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+		set_technology = { ifu_mtd3 = 1 }
+		set_country_flag = potato6
+		
+		}
+	}
+	turn_IFU_on_decision7 = { 
+		icon = GFX_decision_generic_decision
+		allowed = {
+			always = yes
+		}
+		available = {
+			always = yes 
+		}
+		visible = {
+			has_tech = basic_medium_art 
+			NOT = {
+				has_country_flag = potato7
+			}
+			
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+		set_technology = { ifu_mts1 = 1 }
+		set_country_flag = potato7
+		
+		}
+	}
+	turn_IFU_on_decision8 = { 
+		icon = GFX_decision_generic_decision
+		allowed = {
+			always = yes
+		}
+		available = {
+			always = yes 
+		}
+		visible = {
+			has_tech = improved_medium_art 
+			NOT = {
+				has_country_flag = potato8
+			}
+			
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+		set_technology = { ifu_mts2 = 1 }
+		set_country_flag = potato8
+		
+		}
+	}
+	turn_IFU_on_decision9 = { 
+		icon = GFX_decision_generic_decision
+		allowed = {
+			always = yes
+		}
+		available = {
+			always = yes 
+		}
+		visible = {
+			has_tech = advanced_medium_art 
+			NOT = {
+				has_country_flag = potato9
+			}
+			
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+		set_technology = { ifu_mts3 = 1 }
+		set_country_flag = potato9
+		
+		}
+	}
+	turn_IFU_on_decision10 = { 
+		icon = GFX_decision_generic_decision
+		allowed = {
+			always = yes
+		}
+		available = {
+			always = yes 
+		}
+		visible = {
+			has_tech = basic_medium_spaa
+			NOT = {
+				has_country_flag = potato10
+			}  
+			
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+		set_technology = { ifu_mta1 = 1 }
+		set_country_flag = potato10
+		
+		}
+	}
+	turn_IFU_on_decision11 = { 
+		icon = GFX_decision_generic_decision
+		allowed = {
+			always = yes
+		}
+		available = {
+			always = yes 
+		}
+		visible = {
+			has_tech = improved_medium_spaa 
+			NOT = {
+				has_country_flag = potato11
+			}
+			
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+		set_technology = { ifu_mta2 = 1 }
+		set_country_flag = potato11
+		
+		}
+	}
+	turn_IFU_on_decision12 = { 
+		icon = GFX_decision_generic_decision
+		allowed = {
+			always = yes
+		}
+		available = {
+			always = yes 
+		}
+		visible = {
+			has_tech = advanced_medium_spaa 
+			NOT = {
+				has_country_flag = potato12
+			}
+			
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+		set_technology = { ifu_mta3 = 1 }
+		set_country_flag = potato12
+		
+		}
+	}
+	turn_IFU_on_decision13 = { 
+		icon = GFX_decision_generic_decision
+		allowed = {
+			always = yes
+		}
+		available = {
+			always = yes 
+		}
+		visible = {
+			has_tech = basic_heavy_tank 
+			NOT = {
+				has_country_flag = potato13
+			}
+			
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+		set_technology = { ifu_ht1 = 1 }
+		set_country_flag = potato13
+		
+		}
+	}
+	turn_IFU_on_decision14 = { 
+		icon = GFX_decision_generic_decision
+		allowed = {
+			always = yes
+		}
+		available = {
+			always = yes 
+		}
+		visible = {
+			has_tech = improved_heavy_tank
+			NOT = {
+				has_country_flag = potato14
+			} 
+			
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+		set_technology = { ifu_ht2 = 1 }
+		set_country_flag = potato14
+		
+		}
+	}
+	turn_IFU_on_decision15 = { 
+		icon = GFX_decision_generic_decision
+		allowed = {
+			always = yes
+		}
+		available = {
+			always = yes 
+		}
+		visible = {
+			has_tech = advanced_heavy_tank 
+			NOT = {
+				has_country_flag = potato15
+			}
+			
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+		set_technology = { ifu_ht3 = 1 }
+		set_country_flag = potato15
+		
+		}
+	}
+	turn_IFU_on_decision16 = { 
+		icon = GFX_decision_generic_decision
+		allowed = {
+			always = yes
+		}
+		available = {
+			always = yes 
+		}
+		visible = {
+			has_tech = basic_heavy_td
+			NOT = {
+				has_country_flag = potato16
+			}
+			
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+		set_technology = { ifu_htd1 = 1 }
+		set_country_flag = potato16
+		
+		}
+	}
+	turn_IFU_on_decision17 = { 
+		icon = GFX_decision_generic_decision
+		allowed = {
+			always = yes
+		}
+		available = {
+			always = yes 
+		}
+		visible = {
+			has_tech = improved_heavy_td 
+			NOT = {
+				has_country_flag = potato17
+			}
+			
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+		set_technology = { ifu_htd2 = 1 }
+		set_country_flag = potato17
+		
+		}
+	}
+	turn_IFU_on_decision18 = { 
+		icon = GFX_decision_generic_decision
+		allowed = {
+			always = yes
+		}
+		available = {
+			always = yes 
+		}
+		visible = {
+			has_tech = advanced_heavy_td 
+			NOT = {
+				has_country_flag = potato18
+			}
+			
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+		set_technology = { ifu_htd3 = 1 }
+		
+		set_country_flag = potato18
+		}
+	}
+	turn_IFU_on_decision19 = { 
+		icon = GFX_decision_generic_decision
+		allowed = {
+			always = yes
+		}
+		available = {
+			always = yes 
+		}
+		visible = {
+			has_tech = basic_heavy_art
+			NOT = {
+				has_country_flag = potato19
+			}
+			 
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+		set_technology = { ifu_hts1 = 1 }
+		set_country_flag = potato19
+		
+		}
+	}
+	turn_IFU_on_decision20 = { 
+		icon = GFX_decision_generic_decision
+		allowed = {
+			always = yes
+		}
+		available = {
+			always = yes 
+		}
+		visible = {
+			has_tech = improved_heavy_art 
+			NOT = {
+				has_country_flag = potato20
+			}
+			
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+		set_technology = { ifu_hts2 = 1 }
+		set_country_flag = potato20
+		
+		}
+	}
+	turn_IFU_on_decision21 = { 
+		icon = GFX_decision_generic_decision
+		allowed = {
+			always = yes
+		}
+		available = {
+			always = yes 
+		}
+		visible = {
+			has_tech = advanced_heavy_art 
+			NOT = {
+				has_country_flag = potato21
+			}
+			
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+		set_technology = { ifu_hts3 = 1 }
+		set_country_flag = potato21
+		
+		}
+	}
+	turn_IFU_on_decision22 = { 
+		icon = GFX_decision_generic_decision
+		allowed = {
+			always = yes
+		}
+		available = {
+			always = yes 
+		}
+		visible = {
+			has_tech = basic_heavy_spaa 
+			NOT = {
+				has_country_flag = potato22
+			} 
+			
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+		set_technology = { ifu_hta1 = 1 }
+		set_country_flag = potato22
+		
+		}
+	}
+	turn_IFU_on_decision23 = { 
+		icon = GFX_decision_generic_decision
+		allowed = {
+			always = yes
+		}
+		available = {
+			always = yes 
+		}
+		visible = {
+			has_tech = improved_heavy_spaa 
+			NOT = {
+				has_country_flag = potato233
+			}
+			
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+		set_technology = { ifu_hta2 = 1 }
+		set_country_flag = potato23
+		
+		}
+	}
+	turn_IFU_on_decision24 = { 
+		icon = GFX_decision_generic_decision
+		allowed = {
+			always = yes
+		}
+		available = {
+			always = yes 
+		}
+		visible = {
+			has_tech = advanced_heavy_spaa 
+			NOT = {
+				has_country_flag = potato24
+			}
+			
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+		set_technology = { ifu_hta3 = 1 }
+		set_country_flag = potato24
+		
+		}
+	}
+	turn_IFU_on_decision25 = { 
+		icon = GFX_decision_generic_decision
+		allowed = {
+			always = yes
+		}
+		available = {
+			always = yes 
+		}
+		visible = {
+			has_tech = basic_light_tank 
+			NOT = {
+				has_country_flag = potato25
+			}
+			
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+		set_technology = { ifu_lt1 = 1 }
+		set_country_flag = potato25
+		
+		}
+	}
+	turn_IFU_on_decision26 = { 
+		icon = GFX_decision_generic_decision
+		allowed = {
+			always = yes
+		}
+		available = {
+			always = yes 
+		}
+		visible = {
+			has_tech = improved_light_tank 
+			NOT = {
+				has_country_flag = potato26
+			}
+			
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+		set_technology = { ifu_lt2 = 1 }
+		set_country_flag = potato26
+		
+		}
+	}
+	turn_IFU_on_decision27 = { 
+		icon = GFX_decision_generic_decision
+		allowed = {
+			always = yes
+		}
+		available = {
+			always = yes 
+		}
+		visible = {
+			has_tech = advanced_light_tank 
+			NOT = {
+				has_country_flag = potato27
+			}
+			
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+		set_technology = { ifu_lt3 = 1 }
+		set_country_flag = potato27
+		
+		}
+	}
+	turn_IFU_on_decision28 = { 
+		icon = GFX_decision_generic_decision
+		allowed = {
+			always = yes
+		}
+		available = {
+			always = yes 
+		}
+		visible = {
+			has_tech = basic_light_td
+			NOT = {
+				has_country_flag = potato28
+			}
+			
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+		set_technology = { ifu_ltd1 = 1 }
+		set_country_flag = potato28
+		
+		}
+	}
+	turn_IFU_on_decision29 = { 
+		icon = GFX_decision_generic_decision
+		allowed = {
+			always = yes
+		}
+		available = {
+			always = yes 
+		}
+		visible = {
+			has_tech = improved_light_td 
+			NOT = {
+				has_country_flag = potato29
+			}
+			
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+		set_technology = { ifu_ltd2 = 1 }
+		set_country_flag = potato29
+		
+		}
+	}
+	turn_IFU_on_decision30 = { 
+		icon = GFX_decision_generic_decision
+		allowed = {
+			always = yes
+		}
+		available = {
+			always = yes 
+		}
+		visible = {
+			has_tech = advanced_light_td 
+			NOT = {
+				has_country_flag = potato30
+			}
+			
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+		set_technology = { ifu_ltd3 = 1 }
+		set_country_flag = potato30
+		
+		}
+	}
+	turn_IFU_on_decision31 = { 
+		icon = GFX_decision_generic_decision
+		allowed = {
+			always = yes
+		}
+		available = {
+			always = yes 
+		}
+		visible = {
+			has_tech = basic_light_art 
+			NOT = {
+				has_country_flag = potato31
+			}
+			
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+		set_technology = { ifu_lts1 = 1 }
+		set_country_flag = potato31
+		
+		}
+	}
+	turn_IFU_on_decision32 = { 
+		icon = GFX_decision_generic_decision
+		allowed = {
+			always = yes
+		}
+		available = {
+			always = yes 
+		}
+		visible = {
+			has_tech = improved_light_art 
+			NOT = {
+				has_country_flag = potato32
+			}
+			
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+		set_technology = { ifu_lts2 = 1 }
+		set_country_flag = potato32
+		
+		}
+	}
+	turn_IFU_on_decision33 = { 
+		icon = GFX_decision_generic_decision
+		allowed = {
+			always = yes
+		}
+		available = {
+			always = yes 
+		}
+		visible = {
+			has_tech = advanced_light_art
+			NOT = {
+				has_country_flag = potato33
+			} 
+			
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+		set_technology = { ifu_lts3 = 1 }
+		set_country_flag = potato33
+		
+		}
+	}
+	turn_IFU_on_decision34 = { 
+		icon = GFX_decision_generic_decision
+		allowed = {
+			always = yes
+		}
+		available = {
+			always = yes 
+		}
+		visible = {
+			has_tech = basic_light_spaa  
+			NOT = {
+				has_country_flag = potato34
+			}
+			
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+		set_technology = { ifu_lta1 = 1 }
+		set_country_flag = potato34
+		
+		}
+	}
+	turn_IFU_on_decision35 = { 
+		icon = GFX_decision_generic_decision
+		allowed = {
+			always = yes
+		}
+		available = {
+			always = yes 
+		}
+		visible = {
+			has_tech = improved_light_spaa 
+			NOT = {
+				has_country_flag = potato35
+			}
+			
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+		set_technology = { ifu_lta2 = 1 }
+		set_country_flag = potato35
+		
+		}
+	}
+	turn_IFU_on_decision36 = { 
+		icon = GFX_decision_generic_decision
+		allowed = {
+			always = yes
+		}
+		available = {
+			always = yes 
+		}
+		visible = {
+			has_tech = advanced_light_spaa 
+			NOT = {
+				has_country_flag = potato36
+			}
+			
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+		set_technology = { ifu_lta3 = 1 }
+		set_country_flag = potato36
+		
+		}
+	}
+
+
+
+}

@@ -57,6 +57,7 @@ equipments = {
 		is_convertable = yes
 		can_convert_from = { 
 			light_tank_equipment_2
+			ifu_light_tank_equipment_2
 		}
 	}
 
@@ -69,7 +70,8 @@ equipments = {
 		visual_level = 1
 		is_convertable = yes
 		can_convert_from = { 
-			medium_tank_equipment_1 
+			medium_tank_equipment_1
+			ifu_medium_tank_equipment_1 
 		}
 
 		#Misc Abilities
