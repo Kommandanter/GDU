@@ -1,5 +1,50 @@
+
+NDefines_Graphics.NGraphics.MAX_MESHES_LOADED_PER_FRAME = 5
+
+NDefines_Graphics.NGraphics.DRAW_DETAILED_CUTOFF = 100
+
+NDefines_Graphics.NMapMode.MAP_MODE_TERRAIN_TRANSPARENCY = 0.8
+NDefines_Graphics.NMapMode.RADAR_ROTATION_SPEED = 0.0
+
+NDefines_Graphics.NMapMode.AIR_RANGE_INDICATOR_DEFAULT_COLOR = { 0, 0, 0, 0 }						-- On map circle indicating the air wings range.
+NDefines_Graphics.NMapMode.AIR_RANGE_INDICATOR_NO_WINGS_COLOR = { 0, 0, 0, 0 }							-- Same as above, but for air wings with no airplanes.
+NDefines_Graphics.NMapMode.AIR_RANGE_INDICATOR_ROTATION_SPEED = 0.000									-- How quickly is that indicator rotating
+
+NDefines_Graphics.NAirGfx.AIRPLANES_SMOOTH_INTERPOLATION_MOVE = 0.02 	-- How smooth is the movement interpolation.
+NDefines_Graphics.NAirGfx.AIRPLANES_SMOOTH_INTERPOLATION_TURN = 0.02 	-- How smooth is the turning interpolation.
+
+NDefines_Graphics.NInterface.GRIDBOX_ELEMENTS_INTERPOLATION_SPEED = 0.2 -- A value used to determine how fast the elements within the gridbox are interpolating while drag'n dropping.
+
+NDefines_Graphics.NFrontend.CAMERA_INTERPOLATION_SPEED = 0.5
+
+NDefines_Graphics.NGraphics.TREE_FADE_NEAR = 10.0
+NDefines_Graphics.NGraphics.TREE_FADE_FAR = 25.0
+
+NDefines_Graphics.NGraphics.VICTORY_POINTS_DISTANCE_CUTOFF = {250, 350, 500} -- At what distance VPs are hidden
+NDefines_Graphics.NGraphics.RADAR_ICON_DISTANCE_CUTOFF = 100 -- At what distance the radars are hidden
+NDefines_Graphics.NGraphics.RESOURCE_MAP_ICON_TEXT_CUTOFF = 300  -- At what camera distance the resource name/amount text disappears.
+NDefines_Graphics.NGraphics.PROVINCE_ANIM_TEXT_DISTANCE_CUTOFF = 200
+NDefines_Graphics.NGraphics.CAPITAL_ICON_CUTOFF = 400	-- At what camera distance capital icons disappears
+NDefines_Graphics.NGraphics.UNITS_DISTANCE_CUTOFF = 100
+NDefines_Graphics.NGraphics.SHIPS_DISTANCE_CUTOFF = 200
+NDefines_Graphics.NGraphics.UNIT_ARROW_DISTANCE_CUTOFF = 500
+NDefines_Graphics.NGraphics.UNITS_ICONS_DISTANCE_CUTOFF = 700
+NDefines_Graphics.NGraphics.NAVAL_COMBAT_DISTANCE_CUTOFF = 1200
+NDefines_Graphics.NGraphics.ADJACENCY_RULE_DISTANCE_CUTOFF = 1200
+NDefines_Graphics.NGraphics.LAND_COMBAT_DISTANCE_CUTOFF = 800
+NDefines_Graphics.NGraphics.SUPPLY_ICON_DISTANCE_CUTOFF = 1500
+NDefines_Graphics.NGraphics.PROV_CONSTRUCTION_ICON_DISTANCE_CUTOFF = 300
+NDefines_Graphics.NGraphics.STATE_CONSTRUCTION_ICON_DISTANCE_CUTOFF = 600
+NDefines_Graphics.NGraphics.DECISION_MAP_ICON_DISTANCE_CUTOFF = 100
+
 NDefines_Graphics.NGraphics.GRADIENT_BORDERS_REFRESH_FREQ = 0.2 -- how frequent is gradient borders repainting (optimization for high-speed gameplay)
-NDefines_Graphics.NGraphics.MAPICON_GROUP_PASSES = 10 -- how many mapicons get processed per frame for grouping. more = quicker response, fewer = betteperformancer 
+NDefines_Graphics.NGraphics.MAPICON_GROUP_PASSES = 5 -- how many mapicons get processed per frame for grouping. more = quicker response, fewer = betteperformancer 
+
+NDefines_Graphics.NGraphics.DRAW_REFRACTIONS_CUTOFF = 0
+NDefines_Graphics.NGraphics.GRADIENT_BORDERS_FIELD_COUNTRY_REFRESH = 30 -- When country changes it's size by X provinces, then it refresh it's thickness and rebuilds all provinces
+NDefines_Graphics.NGraphics.DRAW_MAP_OBJECTS_CUTOFF = 1.0					-- Remove map objects at this distance
+
+NDefines_Graphics.NGraphics.WEATHER_DISTANCE_CUTOFF = 50 -- At what distance weather effects are hidden
 
 NDefines_Graphics.NGraphics.VICTORY_POINT_MAP_ICON_TEXT_CUTOFF = {300, 500, 1500}
 
@@ -10,8 +55,7 @@ NDefines_Graphics.NGraphics.MAP_ICONS_STRATEGIC_GROUP_CAM_DISTANCE = 400		--grou
 NDefines_Graphics.NGraphics.MAP_ICONS_STRATEGIC_AREA_HUGE = 220					--size limit for air region grouping
 NDefines_Graphics.NGraphics.MAP_ICONS_STATE_HUGE = 100							--size limit for state grouping
 NDefines_Graphics.NGraphics.MAPICON_GROUP_STRATEGIC_SIZE = 1000
-NDefines_Graphics.NGraphics.MAP_ICONS_GROUP_SPLIT_SELECTED_LIMIT = 10
-NDefines_Graphics.NGraphics.MAP_ICONS_COARSE_COUNTRY_GROUPING_DISTANCE = 200
+NDefines_Graphics.NGraphics.MAP_ICONS_COARSE_COUNTRY_GROUPING_DISTANCE = 300
 NDefines_Graphics.NGraphics.MAP_ICONS_COARSE_COUNTRY_GROUPING_DISTANCE_STRATEGIC = 0
 NDefines_Graphics.NGraphics.BLOOM_WIDTH = 0
 NDefines_Graphics.NGraphics.BLOOM_SCALE = 0
