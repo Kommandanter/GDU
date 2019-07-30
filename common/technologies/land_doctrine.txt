@@ -2983,28 +2983,24 @@ technologies = {
 		}
 		
 		artillery_brigade = { 
-			max_strength = 15
-			max_organisation = 2.5
+			max_strength = 14
 		}
 		mot_artillery_brigade = {
-			max_strength = 15
-			max_organisation = 2.5
+			max_strength = 14
 		}
 		rocket_artillery_brigade = {
-			max_strength = 15
-			max_organisation = 2.5
+			max_strength = 14
 		}
 		motorized_rocket_brigade = {
-			max_strength = 15
+			max_strength = 14
 			max_organisation = 2.5
 		}		
 		anti_air_brigade = { 
 			max_strength = 7
-			max_organisation = 5
+			max_organisation = 2.5
 		}
 		anti_tank_brigade = { 
-			max_strength = 7
-			max_organisation = 2.5
+			max_strength = 6
 		}
 
 
@@ -3054,9 +3050,7 @@ technologies = {
 		}		
 		
 		category_all_armor = {
-			max_strength = 0.5
 			default_morale = 0.1
-			max_organisation = 3 
 		}
 
 		motorized_rocket_brigade = {
