@@ -1829,6 +1829,8 @@ focus_tree = {
 					transfer_navy = { 
 						target = ECU 
 					}
+					remove_state_core = 17
+					remove_state_core = 28					
 				}
 				
 				if = {
