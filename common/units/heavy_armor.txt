@@ -72,8 +72,7 @@ sub_units = {
 		
 		supply_consumption = 0.48
 
-		#Tanks are awesome
-		soft_attack = 0.35
+
 		
 	}
 }
