@@ -1,4 +1,13 @@
 ﻿l_english:
+    GDU1942_airlosses:0 "GDU Air Losses Modifier"
+    GDU1942_airlosses_desc:0 "This modifier is applied in the late game to increase air losses, but only in the late game. This helps to ensure that not too many planes pile up later in the game when production is high. It is partly intended to reduce lag by cutting down on large ever-growing air stockpiles."
+    GDU1943_airlosses:0 "GDU Air Losses Modifier"
+    GDU1943_airlosses_desc:0 "This modifier is applied in the late game to increase air losses, but only in the late game. This helps to ensure that not too many planes pile up later in the game when production is high. It is partly intended to reduce lag by cutting down on large ever-growing air stockpiles."
+    GDU1944_airlosses:0 "GDU Air Losses Modifier"
+    GDU1944_airlosses_desc:0 "This modifier is applied in the late game to increase air losses, but only in the late game. This helps to ensure that not too many planes pile up later in the game when production is high. It is partly intended to reduce lag by cutting down on large ever-growing air stockpiles."
+    GDU1945_airlosses:0 "GDU Air Losses Modifier"
+    GDU1945_airlosses_desc:0 "This modifier is applied in the late game to increase air losses, but only in the late game. This helps to ensure that not too many planes pile up later in the game when production is high. It is partly intended to reduce lag by cutting down on large ever-growing air stockpiles."
+
     GDU_refinery_prebuild_disincentive:0 "Refinery Pre-building Disincentive"
     GDU_refinery_prebuild_disincentive_desc:0 "Historically the Allies did not know when (or if) Japan would attack and take over most of the world's natural rubber supply. Without the benefit of hindsight, they had no reason to prepare major synthetic rubber efforts in advance. This idea serves as a disincentive for you to take advantage of historical foresight and pre-build refineries in advance of Japan's attack. Instead, you are incentivized to hold on to what limited natural rubber supplies you can for as long as possible, while scrambling to begin synthetic rubber production. You should expect some short-term rubber shortages.\n\nYou can get rid of this penalty and instead get a bonus to refinery construction by completing your synthetic rubber focus, which is available as soon as Japan joins the war."
     GDU_special_forces_cap:0 "Special Forces Raiser"

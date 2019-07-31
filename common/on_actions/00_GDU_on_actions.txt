@@ -683,6 +683,21 @@ on_actions = {
 
 		}			
 			
+
+			##### Events that add national spirits to increase air losses a bit in the late game (for 1942, 1943, 1944, and 1945) ####
+			MEX = {
+				country_event = { id = gduairlosses.1 days = 2192 } 
+			}
+			MEX = {
+				country_event = { id = gduairlosses.2 days = 2557 } 
+			}
+			MEX = {
+				country_event = { id = gduairlosses.3 days = 2922 } 
+			}
+			MEX = {
+				country_event = { id = gduairlosses.4 days = 3287 } 
+			}			
+
 			
 			##### Event giving Spain its generals ####
 			SPR = {
