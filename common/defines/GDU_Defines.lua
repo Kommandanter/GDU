@@ -1,7 +1,7 @@
 ------ Recently Added -----
 NDefines.NMilitary.DEPLOY_TRAINING_MAX_LEVEL = 2                         -- vanilla 1, you can train to trained in deployment queue 
 NDefines.NMilitary.TRAINING_EXPERIENCE_SCALE = 124.0                     -- vanilla 62.0  how fast you train in deployment queue
-
+NDefines.NDiplomacy.VOLUNTEERS_DIVISIONS_REQUIRED = 1				-- This many divisons are required for the country to be able to send volunteers.
 NDefines.NNavy.CARRIER_ONLY_COMBAT_ACTIVATE_TIME = 4                     -- this is done due to constantly retreating with carrier fleets essentially making all other ships useless, delete-revert if you see it is unnecesary, 
 NDefines.NNavy.CAPITAL_ONLY_COMBAT_ACTIVATE_TIME = 4                     -- vanilla is 4  , carriers immediatly start firing, capitals start after 4 hours
 NDefines.NNavy.ALL_SHIPS_ACTIVATE_TIME = 4                               -- vanilla is 8
