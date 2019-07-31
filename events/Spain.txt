@@ -5,15 +5,129 @@
 add_namespace = spain
 
 # Nationalists: Seek Support
+country_event = {
+	id = spain.2
+	title = spain.2.t
+	desc = spain.2.d
+	picture = GFX_report_event_spain_civil_war_volunteers_01
 
+	is_triggered_only = yes
+
+	trigger = {
+		has_civil_war = yes
+		original_tag = SPR
+	}
+
+	option = {
+		name = spain.2.a
+		every_other_country = {
+			limit = {
+				has_government = fascism
+				NOT = { original_tag = SPR }
+			}
+			country_event = { id = spain.4 days = 1 }
+		}
+		if = {
+			limit = {
+				POR = { NOT = { has_government = communism } }
+			}
+			POR = { country_event = { id = spain.4 days = 1 } }
+		}
+	}
+
+	option = {
+		name = spain.2.b
+		add_political_power = 40
+		ai_chance = { factor = 0 }
+	}
+}
 
 # Republicans: Seek Support
+country_event = {
+	id = spain.3
+	title = spain.2.t
+	desc = spain.3.d
+	picture = GFX_report_event_spain_civil_war_volunteers
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_civil_war = yes
+	}
+
+	option = {
+		name = spain.3.a
+		every_other_country = {
+			limit = {
+				has_government = communism
+				NOT = { tag = SPR }
+			}
+			country_event = { id = spain.5 days = 1 }
+		}
+		if = {
+			limit = {
+				MEX = { NOT = { has_government = fascism } }
+			}
+			MEX = { country_event = { id = spain.5 days = 1 } }
+		}
+	}
+
+	option = {
+		name = spain.3.b
+		add_political_power = 40
+		ai_chance = { factor = 0 }
+	}
+}
 
 # Nationalist Spain Wants Our Help
+country_event = {
+	id = spain.4
+	title = spain.4.t
+	desc = spain.4.d
+	picture = GFX_report_event_spain_civil_war_soldiers
 
+	is_triggered_only = yes
+
+	trigger = {
+		SPR = { has_civil_war = yes }
+	}
+
+	option = {
+		name = spain.4.a
+		set_country_flag = promised_help_nationalist_spain
+		custom_effect_tooltip = spain.4.a.tt
+	}
+
+	option = {
+		name = spain.4.b
+
+	}
+}
 
 # Republican Spain Wants Our Help
+country_event = {
+	id = spain.5
+	title = spain.5.t
+	desc = spain.5.d
+	picture = GFX_report_event_spain_civil_war_volunteers_02
 
+	is_triggered_only = yes
+
+	trigger = {
+		SPR = { has_civil_war = yes }
+	}
+
+	option = {
+		name = spain.5.a
+		set_country_flag = promised_help_republican_spain
+		custom_effect_tooltip = spain.4.a.tt
+	}
+
+	option = {
+		name = spain.5.b
+
+	}
+}
 
 # Nationalist Spain Appreciates our Help
 
@@ -94,10 +208,31 @@ country_event = {
 		trigger = { is_ai = no }
 		hidden_effect = {
 			set_capital = 176
-	
+			start_civil_war = {
+				ruling_party = fascism
+				ideology = communism
+				size = 0.5
+				capital = 41
+				states = { 41 165 167 168 172 173 175 }
+			}
+			random_other_country = {
+				limit = {
+					original_tag = SPR
+					has_government = communism
+				}
+				load_oob = "SPR_Civil_War"
+				set_equipment_fraction = 1
+				set_stability = 0.8
+				add_popularity = {
+					ideology = democratic
+					popularity = 0.35
+				}
+				add_ideas = SPA_recovering_from_civil_war2
+			}
 			news_event = { hours = 6 id = news.63 }
 			set_global_flag = spanish_civil_war
-            add_timed_idea = { idea = SPA_recovering_from_civil_war days = 770 }
+
+			load_oob = "SPA_Civil_War"
 			set_equipment_fraction = 1
 			set_stability = 0.9
 			add_popularity = {
@@ -106,14 +241,8 @@ country_event = {
 			}
 			add_ideas = SPA_recovering_from_civil_war2
 			SOV = { air_experience = 300 }
-			GER = { air_experience = 500 }
+			GER = { air_experience = 300 }
 			ITA = { air_experience = 300 }
-			SOV = { army_experience = 300 }
-			GER = { army_experience = 500 }
-			ITA = { army_experience = 300 }
-			SPR = { army_experience = 500 }
-			SPR = { air_experience = 300 }
-			
 		}
 		custom_effect_tooltip = nationalists_chosen
 	}

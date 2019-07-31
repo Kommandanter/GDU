@@ -45,7 +45,7 @@ on_actions = {
       HUN = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 800 } }
       ROM = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 800 } }
       BUL = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 800 } } 
-      SPR = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 800 } }
+#     SPR = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 800 } }
       ITA = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 800 } }
       GER = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 800 } }
       JAP = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 800 } }
