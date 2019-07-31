@@ -2,6 +2,296 @@ ideas = {
 
 	country = {
 
+		GDU1942_airlosses = {
+
+			allowed = { 
+
+			}
+			
+			picture = GER_ace_idea
+			
+			equipment_bonus = {
+				fighter_equipment = {
+					air_attack = 0.05
+					instant = yes
+				}
+				heavy_fighter_equipment = {
+					air_attack = 0.05
+					instant = yes
+				}
+				CAS_equipment = {
+					air_attack = 0.05
+					instant = yes
+				}
+				tac_bomber_equipment = {
+					air_attack = 0.05
+					instant = yes
+				}
+				strat_bomber_equipment = {
+					air_attack = 0.05
+					instant = yes
+				}
+				strat_bomber_equipment = {
+					air_attack = 0.05
+					instant = yes
+				}
+				strat_bomber_equipment = {
+					air_attack = 0.05
+					instant = yes
+				}
+				jet_strat_bomber_equipment = {
+					air_attack = 0.05
+					instant = yes
+				}				
+				jet_tac_bomber_equipment = {
+					air_attack = 0.05
+					instant = yes
+				}
+				cv_fighter_equipment = {
+					air_attack = 0.05
+					instant = yes
+				} 
+				cv_CAS_equipment = {
+					air_attack = 0.05
+					instant = yes
+				}
+				nav_bomber_equipment = {
+					air_attack = 0.05
+					instant = yes
+				} 
+				cv_nav_bomber_equipment = {
+					air_attack = 0.05
+					instant = yes
+				} 
+				jet_fighter_equipment = {
+					air_attack = 0.05
+					instant = yes
+				}
+				rocket_interceptor_equipment = {
+					air_attack = 0.05
+					instant = yes
+				}  
+			}
+		} 
+	
+	
+	
+		GDU1943_airlosses = {
+
+			allowed = { 
+
+			}
+			
+			picture = GER_ace_idea
+			
+			equipment_bonus = {
+				fighter_equipment = {
+					air_attack = 0.15
+					instant = yes
+				}
+				heavy_fighter_equipment = {
+					air_attack = 0.15
+					instant = yes
+				}
+				CAS_equipment = {
+					air_attack = 0.15
+					instant = yes
+				}
+				tac_bomber_equipment = {
+					air_attack = 0.15
+					instant = yes
+				}
+				strat_bomber_equipment = {
+					air_attack = 0.15
+					instant = yes
+				}
+				strat_bomber_equipment = {
+					air_attack = 0.15
+					instant = yes
+				}
+				strat_bomber_equipment = {
+					air_attack = 0.15
+					instant = yes
+				}
+				jet_strat_bomber_equipment = {
+					air_attack = 0.15
+					instant = yes
+				}				
+				jet_tac_bomber_equipment = {
+					air_attack = 0.15
+					instant = yes
+				}
+				cv_fighter_equipment = {
+					air_attack = 0.15
+					instant = yes
+				} 
+				cv_CAS_equipment = {
+					air_attack = 0.15
+					instant = yes
+				}
+				nav_bomber_equipment = {
+					air_attack = 0.15
+					instant = yes
+				} 
+				cv_nav_bomber_equipment = {
+					air_attack = 0.15
+					instant = yes
+				} 
+				jet_fighter_equipment = {
+					air_attack = 0.15
+					instant = yes
+				}
+				rocket_interceptor_equipment = {
+					air_attack = 0.15
+					instant = yes
+				}  
+			}
+		}
+	
+		GDU1944_airlosses = {
+
+			allowed = { 
+
+			}
+			
+			picture = GER_ace_idea
+			
+			equipment_bonus = {
+				fighter_equipment = {
+					air_attack = 0.25
+					instant = yes
+				}
+				heavy_fighter_equipment = {
+					air_attack = 0.25
+					instant = yes
+				}
+				CAS_equipment = {
+					air_attack = 0.25
+					instant = yes
+				}
+				tac_bomber_equipment = {
+					air_attack = 0.25
+					instant = yes
+				}
+				strat_bomber_equipment = {
+					air_attack = 0.25
+					instant = yes
+				}
+				strat_bomber_equipment = {
+					air_attack = 0.25
+					instant = yes
+				}
+				strat_bomber_equipment = {
+					air_attack = 0.25
+					instant = yes
+				}
+				jet_strat_bomber_equipment = {
+					air_attack = 0.25
+					instant = yes
+				}				
+				jet_tac_bomber_equipment = {
+					air_attack = 0.25
+					instant = yes
+				}
+				cv_fighter_equipment = {
+					air_attack = 0.25
+					instant = yes
+				} 
+				cv_CAS_equipment = {
+					air_attack = 0.25
+					instant = yes
+				}
+				nav_bomber_equipment = {
+					air_attack = 0.25
+					instant = yes
+				} 
+				cv_nav_bomber_equipment = {
+					air_attack = 0.25
+					instant = yes
+				} 
+				jet_fighter_equipment = {
+					air_attack = 0.25
+					instant = yes
+				}
+				rocket_interceptor_equipment = {
+					air_attack = 0.25
+					instant = yes
+				}  
+			}
+		}	
+
+		GDU1945_airlosses = {
+
+			allowed = { 
+
+			}
+			
+			picture = GER_ace_idea
+			
+			equipment_bonus = {
+				fighter_equipment = {
+					air_attack = 0.5
+					instant = yes
+				}
+				heavy_fighter_equipment = {
+					air_attack = 0.5
+					instant = yes
+				}
+				CAS_equipment = {
+					air_attack = 0.5
+					instant = yes
+				}
+				tac_bomber_equipment = {
+					air_attack = 0.5
+					instant = yes
+				}
+				strat_bomber_equipment = {
+					air_attack = 0.5
+					instant = yes
+				}
+				strat_bomber_equipment = {
+					air_attack = 0.5
+					instant = yes
+				}
+				strat_bomber_equipment = {
+					air_attack = 0.5
+					instant = yes
+				}
+				jet_strat_bomber_equipment = {
+					air_attack = 0.5
+					instant = yes
+				}				
+				jet_tac_bomber_equipment = {
+					air_attack = 0.5
+					instant = yes
+				}
+				cv_fighter_equipment = {
+					air_attack = 0.5
+					instant = yes
+				} 
+				cv_CAS_equipment = {
+					air_attack = 0.5
+					instant = yes
+				}
+				nav_bomber_equipment = {
+					air_attack = 0.5
+					instant = yes
+				} 
+				cv_nav_bomber_equipment = {
+					air_attack = 0.5
+					instant = yes
+				} 
+				jet_fighter_equipment = {
+					air_attack = 0.5
+					instant = yes
+				}
+				rocket_interceptor_equipment = {
+					air_attack = 0.5
+					instant = yes
+				}  
+			}
+		}	
+	
 		GDU_refinery_prebuild_disincentive = {
 
 			allowed = { 
