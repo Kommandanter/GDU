@@ -3043,7 +3043,7 @@ technologies = {
 		xp_research_bonus = 0.5
 
 		mechanized = {
-			max_strength = 7
+			max_strength = 2
 		}
 		motorized = {
 			max_strength = 7

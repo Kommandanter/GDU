@@ -2051,8 +2051,12 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		allow = { 
+			date > 1939.1.1
+		}
+
 		research_cost = 2
-		start_year = 1939
+		start_year = 1940
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1939 }
