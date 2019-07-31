@@ -76,33 +76,6 @@ leader_traits = {
 		
 		attack_skill = 1
 		planning_skill = 1
-		modifier = {
-			desert = {
-				movement = 0.025
-			}
-			hills = {
-				movement = 0.025
-			}
-			forest = {
-				movement = 0.025
-			}
-			mountain = {
-				movement = 0.025
-			}
-			plains = {
-				movement = 0.025
-			}
-			urban = {
-				movement = 0.025
-			}
-			jungle = {
-				movement = 0.025
-			}
-			marsh = {
-				movement = 0.025
-			}
-			army_defence_factor = -0.025
-		}	
 	
 		override_effect_tooltip = brilliant_strategist_GDU
 		
@@ -115,32 +88,7 @@ leader_traits = {
 		type = land
 		trait_type = personality_trait
 		modifier = {
-			desert = {
-				movement = -0.05
-			}
-			hills = {
-				movement = -0.05
-			}
-			forest = {
-				movement = -0.05
-			}
-			mountain = {
-				movement = -0.05
-			}
-			plains = {
-				movement = -0.05
-			}
-			urban = {
-				movement = -0.05
-			}
-			jungle = {
-				movement = -0.05
-			}
-			marsh = {
-				movement = -0.05
-			}
 			army_defence_factor = 0.05
-			
 		}	
 		defense_skill = 1
 		logistics_skill = 1
@@ -256,30 +204,6 @@ leader_traits = {
 
 		modifier = {
 			army_morale_factor = -0.05
-			desert = {
-				movement = 0.05
-			}
-			hills = {
-				movement = 0.05
-			}
-			forest = {
-				movement = 0.05
-			}
-			mountain = {
-				movement = 0.05
-			}
-			plains = {
-				movement = 0.05
-			}
-			urban = {
-				movement = 0.05
-			}
-			jungle = {
-				movement = 0.05
-			}
-			marsh = {
-				movement = 0.05
-			}
 		}
 		
 		attack_skill_factor = 1
@@ -337,31 +261,7 @@ leader_traits = {
 			panzer_leader = 1     #+100%
 		}
 		modifier = {
-			desert = {
-				movement = 0.05
-			}
-			hills = {
-				movement = 0.05
-			}
-			forest = {
-				movement = 0.05
-			}
-			mountain = {
-				movement = 0.05
-			}
-			plains = {
-				movement = 0.05
-			}
-			urban = {
-				movement = 0.05
-			}
-			jungle = {
-				movement = 0.05
-			}
-			marsh = {
-				movement = 0.05
-			}
-			supply_consumption_factor = 0.02
+			supply_consumption_factor = 0.01
 		}
 		
 		override_effect_tooltip = armor_officer_GDU  
@@ -753,7 +653,7 @@ leader_traits = {
 	panzer_leader = {
  		type = corps_commander
 		modifier = {
-			army_armor_speed_factor = 0.025
+			army_armor_speed_factor = 0.015
 			army_armor_attack_factor = 0.06
 			motorized_attack_factor = 0.05
 			mechanized_attack_factor = 0.05
@@ -800,7 +700,7 @@ leader_traits = {
 		type = corps_commander
 		modifier = {
 			marsh = {
-				movement = 0.05
+				movement = 0.02
 				attack = 0.08
 				defence = 0.08
 			}
@@ -817,7 +717,7 @@ leader_traits = {
 		type = corps_commander
 		modifier = {
 			mountain = {
-				movement = 0.05
+				movement = 0.02
 				attack = 0.08
 				defence = 0.08
 			}
@@ -834,7 +734,7 @@ leader_traits = {
 		type = corps_commander
 		modifier = {
 			hills = {
-				movement = 0.05
+				movement = 0.02
 				attack = 0.08
 				defence = 0.08
 			}
@@ -851,7 +751,7 @@ leader_traits = {
 		type = corps_commander
 		modifier = {
 			jungle = {
-				movement = 0.05
+				movement = 0.02
 				attack = 0.08
 				defence = 0.08
 			}
@@ -868,7 +768,7 @@ leader_traits = {
 		type = corps_commander
 		modifier = {
 			forest = {
-				movement = 0.05
+				movement = 0.02
 				attack = 0.08
 				defence = 0.08
 			}
@@ -885,7 +785,7 @@ leader_traits = {
 		type = corps_commander
 		modifier = {
 			urban = {
-				movement = 0.05
+				movement = 0.02
 				attack = 0.08
 				defence = 0.08
 			}
@@ -1198,28 +1098,28 @@ leader_traits = {
 		modifier = {
 			river_crossing_factor = -0.6 
 			desert = {
-				movement = 0.05
+				movement = 0.025
 			}
 			hills = {
-				movement = 0.05
+				movement = 0.025
 			}
 			forest = {
-				movement = 0.05
+				movement = 0.025
 			}
 			mountain = {
-				movement = 0.05
+				movement = 0.025
 			}
 			plains = {
-				movement = 0.05
+				movement = 0.025
 			}
 			urban = {
-				movement = 0.05
+				movement = 0.025
 			}
 			jungle = {
-				movement = 0.05
+				movement = 0.025
 			}
 			marsh = {
-				movement = 0.05
+				movement = 0.025
 			}
 		}
 		

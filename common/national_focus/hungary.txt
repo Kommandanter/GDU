@@ -2357,7 +2357,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = HUN_home_defense
 
-		cost = 8
+		cost = 10
 
 		ai_will_do = {
 			factor = 60
