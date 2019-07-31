@@ -22,7 +22,7 @@ NDefines_Graphics.NGraphics.TREE_FADE_FAR = 25.0
 
 NDefines_Graphics.NGraphics.VICTORY_POINTS_DISTANCE_CUTOFF = {250, 350, 500} -- At what distance VPs are hidden
 NDefines_Graphics.NGraphics.RADAR_ICON_DISTANCE_CUTOFF = 100 -- At what distance the radars are hidden
-NDefines_Graphics.NGraphics.RESOURCE_MAP_ICON_TEXT_CUTOFF = 300  -- At what camera distance the resource name/amount text disappears.
+NDefines_Graphics.NGraphics.RESOURCE_MAP_ICON_TEXT_CUTOFF = 450  -- At what camera distance the resource name/amount text disappears.
 NDefines_Graphics.NGraphics.PROVINCE_ANIM_TEXT_DISTANCE_CUTOFF = 200
 NDefines_Graphics.NGraphics.CAPITAL_ICON_CUTOFF = 400	-- At what camera distance capital icons disappears
 NDefines_Graphics.NGraphics.UNITS_DISTANCE_CUTOFF = 100
