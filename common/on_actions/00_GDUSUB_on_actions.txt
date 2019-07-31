@@ -59,12 +59,7 @@ on_actions = {
 							transfer_troops = no
 				}
 			}
-			 BRA = {	
-				annex_country = {
-							target = ECU
-							transfer_troops = no
-				}
-			}
+			
 			 BRA = {	
 				annex_country = {
 							target = PRU
@@ -214,12 +209,7 @@ on_actions = {
 				}
 			}
 		
-			 SWI = {	
-				annex_country = {
-							target = MEX
-							transfer_troops = no
-				}
-			} 
+			
 			 SWI = {	
 				annex_country = {
 							target = SAU
