@@ -369,7 +369,7 @@ units = {
 		name = "16ya 'Ul'yanovskaya' Strelk. Div."
 		location = 149
 		division_template = "Strelkovaya Diviziya"
-		start_experience_factor = 0.65
+		start_experience_factor = 0.45
 		
 
 	}
@@ -377,7 +377,7 @@ units = {
 		name = "16ya 'Ul'yanovskaya' Strelk. Div."
 		location = 149
 		division_template = "Strelkovaya Diviziya"
-		start_experience_factor = 0.65
+		start_experience_factor = 0.45
 		
 
 	}
@@ -385,7 +385,7 @@ units = {
 		name = "16ya 'Ul'yanovskaya' Strelk. Div."
 		location = 149
 		division_template = "Strelkovaya Diviziya"
-		start_experience_factor = 0.65
+		start_experience_factor = 0.45
 		
 
 	}
@@ -393,7 +393,7 @@ units = {
 		name = "16ya 'Ul'yanovskaya' Strelk. Div."
 		location = 149
 		division_template = "Strelkovaya Diviziya"
-		start_experience_factor = 0.65
+		start_experience_factor = 0.45
 		
 
 	}
@@ -401,7 +401,7 @@ units = {
 		name = "16ya 'Ul'yanovskaya' Strelk. Div."
 		location = 149
 		division_template = "Strelkovaya Diviziya"
-		start_experience_factor = 0.65
+		start_experience_factor = 0.45
 		
 
 	}
@@ -409,7 +409,7 @@ units = {
 		name = "16ya 'Ul'yanovskaya' Strelk. Div."
 		location = 149
 		division_template = "Strelkovaya Diviziya"
-		start_experience_factor = 0.65
+		start_experience_factor = 0.45
 		
 
 	}

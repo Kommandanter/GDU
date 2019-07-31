@@ -239,61 +239,61 @@ units = {
 		name = "4a Divisione Alpina 'Cuneense'"
 		location = 11837
 		division_template = "Divisione Alpina"
-		start_experience_factor = 0.49
+		start_experience_factor = 0.39
 	}
 	division= {
 		name = "4a Divisione Alpina 'Cuneense'"
 		location = 11837
 		division_template = "Divisione Alpina"
-		start_experience_factor = 0.49
+		start_experience_factor = 0.39
 	}
 	division= {
 		name = "4a Divisione Alpina 'Cuneense'"
 		location = 11837
 		division_template = "Divisione Alpina"
-		start_experience_factor = 0.49
+		start_experience_factor = 0.39
 	}
 	division= {
 		name = "4a Divisione Alpina 'Cuneense'"
 		location = 11837
 		division_template = "Divisione Alpina"
-		start_experience_factor = 0.49
+		start_experience_factor = 0.39
 	}
 	division= {
 		name = "4a Divisione Alpina 'Cuneense'"
 		location = 11837
 		division_template = "Divisione Alpina"
-		start_experience_factor = 0.49
+		start_experience_factor = 0.39
 	}
 	division= {
 		name = "4a Divisione Alpina 'Cuneense'"
 		location = 11837
 		division_template = "Divisione Alpina"
-		start_experience_factor = 0.49
+		start_experience_factor = 0.39
 	}
 	division= {
 		name = "4a Divisione Alpina 'Cuneense'"
 		location = 11837
 		division_template = "Divisione Alpina"
-		start_experience_factor = 0.49
+		start_experience_factor = 0.39
 	}
 	division= {
 		name = "4a Divisione Alpina 'Cuneense'"
 		location = 11837
 		division_template = "Divisione Alpina"
-		start_experience_factor = 0.49
+		start_experience_factor = 0.39
 	}
 	division= {
 		name = "4a Divisione Alpina 'Cuneense'"
 		location = 11837
 		division_template = "Divisione Alpina"
-		start_experience_factor = 0.49
+		start_experience_factor = 0.39
 	}
 	division= {
 		name = "4a Divisione Alpina 'Cuneense'"
 		location = 11837
 		division_template = "Divisione Alpina"
-		start_experience_factor = 0.49
+		start_experience_factor = 0.39
 	}
 
 
