@@ -1,10 +1,8 @@
-﻿name="Gotterdammerung MP Beta 1.4: Leningrad"
-path="mod/Gotterdammerung/"
+﻿name="Gotterdammerung Dev"
+path="mod/gdud/"
 tags={
 	"Balance"
-	"Events"
-	"Gameplay"
 }
 replace_path = "history/states"
 picture="Warishell.jpg"
-supported_version="1.6.*"
+supported_version="1.7.1"
