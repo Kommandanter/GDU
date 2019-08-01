@@ -17,9 +17,27 @@ set_technology = {
 	early_bomber = 1
 	CAS1 = 1
 }
+add_equipment_to_stockpile = {
+         type = artillery_equipment_1
+         amount = 8000
+         producer = CZE
+}  
+add_equipment_to_stockpile = {
+         type = support_equipment
+         amount = 750
+         producer = CZE
+} 
 
+add_equipment_to_stockpile = {
+         type = infantry_equipment_1
+         amount = 8000
+         producer = CZE
+} 
 set_research_slots = 3
 add_timed_idea = { idea = turkish_neutrality  days = 920 }
+add_ideas = czech_set_amount_artillery 
+			
+
 set_politics = {	
 	ruling_party = democratic
 	last_election = "1935.5.19"

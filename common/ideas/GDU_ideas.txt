@@ -971,7 +971,24 @@ ideas = {
 
 			}
 		}
+	   czech_set_amount_artillery = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			
+			
+			
+			removal_cost = -1
 	
+			modifier = {
+			industrial_capacity_factory = -1.5
+				
+		
+			}
+		}
 
 
 		
