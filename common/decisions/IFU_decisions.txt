@@ -1085,7 +1085,7 @@ IFU_decisions_category = {
 			always = yes 
 		}
 		visible = {
-			has_tech = jet_fighter1
+			has_tech = jet_fighter2
 			NOT = {
 				has_country_flag = potato46
 			}  

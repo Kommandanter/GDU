@@ -444,12 +444,12 @@ instant_effect = {
 		amount = 1
 	}
 
-	# DD: G/H class (x9) ("HMS Gallant" "HMS Garland" "HMS Gipsy" "HMS Glowworm" "HMS Grafton" "HMS Grenade" "HMS Grenville" "HMS Greyhound" "HMS Griffin")
+	# DD: E/F Class (x9) ("HMS Gallant" "HMS Garland" "HMS Gipsy" "HMS Glowworm" "HMS Grafton" "HMS Grenade" "HMS Grenville" "HMS Greyhound" "HMS Griffin")
 	add_equipment_production = {
 		equipment = {
 			type = ship_hull_light_2
 			creator = "ENG" 
-			version_name = "G/H Class"
+			version_name = "E/F Class"
 		}
 		name = "HMS Gallant"
 		requested_factories = 1
@@ -460,7 +460,7 @@ instant_effect = {
 		equipment = {
 			type = ship_hull_light_2
 			creator = "ENG" 
-			version_name = "G/H Class"
+			version_name = "E/F Class"
 		}
 		name = "HMS Garland"
 		requested_factories = 1
@@ -471,7 +471,7 @@ instant_effect = {
 		equipment = {
 			type = ship_hull_light_2
 			creator = "ENG" 
-			version_name = "G/H Class"
+			version_name = "E/F Class"
 		}
 		name = "HMS Gipsy"
 		requested_factories = 1
@@ -482,7 +482,7 @@ instant_effect = {
 		equipment = {
 			type = ship_hull_light_2
 			creator = "ENG" 
-			version_name = "G/H Class"
+			version_name = "E/F Class"
 		}
 		name = "HMS Glowworm"
 		requested_factories = 1
