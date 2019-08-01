@@ -156,6 +156,9 @@ turn_IFU_on_decision69:0 " gimme str2 pls i forgot designer "
 turn_IFU_on_decision70:0 " gimme str3 pls i forgot designer "
 turn_IFU_on_decision71:0 " gimme jstr1 pls i forgot designer "
 
+turn_news_on_ifu_decisions:0 " turn on i forgot designer decisions "
+turn_news_off_ifu_decisions:0 "turn off i forgot designer decisions "
+
 
 
 

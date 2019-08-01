@@ -4,6 +4,6 @@ IFU_decisions_category = {
 		always = yes 
 	}
 	visible = {
-		always = yes 
+		has_country_flag = ifu_on 
 	}
 }
