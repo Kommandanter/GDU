@@ -8,7 +8,7 @@ state={
 	
 	
 	history={
-		owner = URG
+		#owner = URG
 		buildings = {
 			infrastructure = 5
 			
