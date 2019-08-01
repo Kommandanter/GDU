@@ -79,10 +79,10 @@
 			
 			###CA's
 			
-			#Hawkins Class
-			ship = { name = "HMS Frobisher" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Hawkins Class" } } }
-			ship = { name = "HMS Hawkins" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Hawkins Class" } } }			
-			ship = { name = "HMS Effingham" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Hawkins Class" } } }			
+			#Kent Class
+			ship = { name = "HMS Frobisher" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Kent Class" } } }
+			ship = { name = "HMS Hawkins" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Kent Class" } } }			
+			ship = { name = "HMS Effingham" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Kent Class" } } }			
 			
 			#Kent Class
 			ship = { name = "HMS Berwick" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Kent Class" } } }			
@@ -91,36 +91,36 @@
 			ship = { name = "HMS Kent" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Kent Class" } } }	
 			ship = { name = "HMS Cornwall" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Kent Class" } } }			
 			
-			#London Class
-			ship = { name = "HMS London" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "London Class" } } }			
-			ship = { name = "HMS Devonshire" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "London Class" } } }
-			ship = { name = "HMS Shropshire" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "London Class" } } }
-			ship = { name = "HMS Sussex" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "London Class" } } }					
+			#Kent Class
+			ship = { name = "HMS London" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Kent Class" } } }			
+			ship = { name = "HMS Devonshire" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Kent Class" } } }
+			ship = { name = "HMS Shropshire" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Kent Class" } } }
+			ship = { name = "HMS Sussex" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Kent Class" } } }					
 			
-			#Norfolk Class
-			ship = { name = "HMS Norfolk" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Norfolk Class" } } }
-			ship = { name = "HMS Dorsetshire" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Norfolk Class" } }	}		
+			#Kent Class
+			ship = { name = "HMS Norfolk" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Kent Class" } } }
+			ship = { name = "HMS Dorsetshire" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Kent Class" } }	}		
 
-			#York Class
-			ship = { name = "HMS Exeter" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "York Class" } } }		
-			ship = { name = "HMS York" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "York Class" } } }	
+			#Kent Class
+			ship = { name = "HMS Exeter" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Kent Class" } } }		
+			ship = { name = "HMS York" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Kent Class" } } }	
 
 			###CL's
 
-			#C-Class
-			ship = { name = "HMS Calcutta" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "C-Class"} } }			
-			ship = { name = "HMS Caledon" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "C-Class" } } }
-			ship = { name = "HMS Calypso" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "C-Class" } } }			
-			ship = { name = "HMS Coventry" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "C-Class" } } }			
-			ship = { name = "HMS Colombo" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "C-Class" } } }
-			ship = { name = "HMS Capetown" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "C-Class" } } }
-			ship = { name = "HMS Carlisle" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "C-Class" } } }
-			ship = { name = "HMS Curlew" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "C-Class" } } }			
-			ship = { name = "HMS Curacoa" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "C-Class"} } }
-			ship = { name = "HMS Cardiff" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "C-Class" } } }			
-			ship = { name = "HMS Ceres" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "C-Class" } } }
-			ship = { name = "HMS Caradoc" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "C-Class" } } }
-			ship = { name = "HMS Cairo" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "C-Class" } } }			
+			#Danae Class
+			ship = { name = "HMS Calcutta" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Danae Class"} } }			
+			ship = { name = "HMS Caledon" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Danae Class" } } }
+			ship = { name = "HMS Calypso" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Danae Class" } } }			
+			ship = { name = "HMS Coventry" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Danae Class" } } }			
+			ship = { name = "HMS Colombo" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Danae Class" } } }
+			ship = { name = "HMS Capetown" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Danae Class" } } }
+			ship = { name = "HMS Carlisle" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Danae Class" } } }
+			ship = { name = "HMS Curlew" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Danae Class" } } }			
+			ship = { name = "HMS Curacoa" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Danae Class"} } }
+			ship = { name = "HMS Cardiff" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Danae Class" } } }			
+			ship = { name = "HMS Ceres" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Danae Class" } } }
+			ship = { name = "HMS Caradoc" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Danae Class" } } }
+			ship = { name = "HMS Cairo" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Danae Class" } } }			
 			
 			#Danae Class
 			ship = { name = "HMS Diomede" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Danae Class" } } }
@@ -132,9 +132,9 @@
 			ship = { name = "HMS Despatch" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Danae Class" } } }			
 			ship = { name = "HMS Dauntless" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Danae Class"} } }
 			
-			#Emerald Class
-			ship = { name = "HMS Emerald" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
-			ship = { name = "HMS Enterprise" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+			#Danae Class
+			ship = { name = "HMS Emerald" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Danae Class" } } }
+			ship = { name = "HMS Enterprise" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Danae Class" } } }
 					
 			#Leander Class
 			ship = { name = "HMS Ajax" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "Leander Class" } } }	
@@ -143,9 +143,9 @@
 			ship = { name = "HMS Achilles" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "Leander Class" } } }	
 			ship = { name = "HMS Leander" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "Leander Class" } } }			
 			
-			#Arethusa Class
-			ship = { name = "HMS Arethusa" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "Arethusa Class" } } }	
-			ship = { name = "HMS Galatea" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "Arethusa Class" } } }
+			#Leander Class
+			ship = { name = "HMS Arethusa" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "Leander Class" } } }	
+			ship = { name = "HMS Galatea" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "Leander Class" } } }
 			
 			###DD's
 			
@@ -217,21 +217,21 @@
 			ship = { name = "HMS Stuart" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class"} } }	
 			ship = { name = "HMS Winchester" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }				
 			
-			#S Class
-			ship = { name = "HMS Sabre" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "S Class"} } }
-			ship = { name = "HMS Shikari" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "S Class"} } }
-			ship = { name = "HMS Scout" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "S Class"} } }		
-			ship = { name = "HMS Tenedos" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "S Class"} } }		
-			ship = { name = "HMS Thanet" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "S Class"} } }		
-			ship = { name = "HMS Thracian" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "S Class"} } }	
-			ship = { name = "HMS Skate" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "S Class"} } }
-			ship = { name = "HMS Saladin" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "S Class"} } }
-			ship = { name = "HMS Scimitar" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "S Class"} } }
-			ship = { name = "HMS Sardonyx" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "S Class"} } }
+			#V/W Class
+			ship = { name = "HMS Sabre" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class"} } }
+			ship = { name = "HMS Shikari" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class"} } }
+			ship = { name = "HMS Scout" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class"} } }		
+			ship = { name = "HMS Tenedos" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class"} } }		
+			ship = { name = "HMS Thanet" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class"} } }		
+			ship = { name = "HMS Thracian" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class"} } }	
+			ship = { name = "HMS Skate" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class"} } }
+			ship = { name = "HMS Saladin" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class"} } }
+			ship = { name = "HMS Scimitar" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class"} } }
+			ship = { name = "HMS Sardonyx" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class"} } }
 			
-			#Amazon Class
-			ship = { name = "HMS Amazon" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Amazon Class" } } }				
-			ship = { name = "HMS Ambuscade" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Amazon Class" } } }
+			#A/B Class
+			ship = { name = "HMS Amazon" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "A/B Class" } } }				
+			ship = { name = "HMS Ambuscade" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "A/B Class" } } }
 
 			#A/B Class
 			ship = { name = "HMS Acasta" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "A/B Class" } } }			
@@ -253,21 +253,21 @@
 			ship = { name = "HMS Keith" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "A/B Class" } } }
 			ship = { name = "HMS Active" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "A/B Class" } } }
 
-			#C/D Class
-			ship = { name = "HMS Kempenfelt" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "C/D Class" } } }		# to RCN as Assiniboine, 1939			
-			ship = { name = "HMS Duncan" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "C/D Class" } } }			
-			ship = { name = "HMS Comet" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "C/D Class" } } }			# to RCN as Restigouche, 1938
-			ship = { name = "HMS Crusader" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "C/D Class" } } }			# to RCN as Ottawa, 1938	
-			ship = { name = "HMS Cygnet" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "C/D Class" } } }			# to RCN as St Laurent, 1937
-			ship = { name = "HMS Crescent" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "C/D Class" } } }
-			ship = { name = "HMS Decoy" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "C/D Class" } } }			# to RCN as Kootenay, 1943
-			ship = { name = "HMS Defender" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "C/D Class" } } }
-			ship = { name = "HMS Duchess" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "C/D Class" } } }	
-			ship = { name = "HMS Delight" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "C/D Class" } } }			
-			ship = { name = "HMS Dainty" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "C/D Class" } } }	
-			ship = { name = "HMS Daring" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "C/D Class" } } }	
-			ship = { name = "HMS Diamond" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "C/D Class" } } }	
-			ship = { name = "HMS Diana" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "C/D Class" } } }	
+			#A/B Class
+			ship = { name = "HMS Kempenfelt" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "A/B Class" } } }		# to RCN as Assiniboine, 1939			
+			ship = { name = "HMS Duncan" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "A/B Class" } } }			
+			ship = { name = "HMS Comet" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "A/B Class" } } }			# to RCN as Restigouche, 1938
+			ship = { name = "HMS Crusader" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "A/B Class" } } }			# to RCN as Ottawa, 1938	
+			ship = { name = "HMS Cygnet" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "A/B Class" } } }			# to RCN as St Laurent, 1937
+			ship = { name = "HMS Crescent" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "A/B Class" } } }
+			ship = { name = "HMS Decoy" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "A/B Class" } } }			# to RCN as Kootenay, 1943
+			ship = { name = "HMS Defender" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "A/B Class" } } }
+			ship = { name = "HMS Duchess" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "A/B Class" } } }	
+			ship = { name = "HMS Delight" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "A/B Class" } } }			
+			ship = { name = "HMS Dainty" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "A/B Class" } } }	
+			ship = { name = "HMS Daring" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "A/B Class" } } }	
+			ship = { name = "HMS Diamond" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "A/B Class" } } }	
+			ship = { name = "HMS Diana" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "A/B Class" } } }	
 
 			#E/F Class
 
@@ -372,7 +372,7 @@ instant_effect = {
 		equipment = {
 			type = ship_hull_cruiser_2
 			creator = "ENG" 
-			version_name = "Amphion Class"
+			version_name = "Leander Class"
 		}
 		name = "HMS Apollo"
 		requested_factories = 1
@@ -383,7 +383,7 @@ instant_effect = {
 		equipment = {
 			type = ship_hull_cruiser_2
 			creator = "ENG" 
-			version_name = "Amphion Class"
+			version_name = "Leander Class"
 		}
 		name = "HMS Amphion"
 		requested_factories = 1
@@ -394,7 +394,7 @@ instant_effect = {
 		equipment = {
 			type = ship_hull_cruiser_2
 			creator = "ENG" 
-			version_name = "Arethusa Class"
+			version_name = "Leander Class"
 		}
 		name = "HMS Penelope"
 		requested_factories = 1
@@ -405,19 +405,19 @@ instant_effect = {
 		equipment = {
 			type = ship_hull_cruiser_2
 			creator = "ENG" 
-			version_name = "Arethusa Class"
+			version_name = "Leander Class"
 		}
 		name = "HMS Aurora"
 		requested_factories = 1
 		progress = 0.80
 		amount = 1
 	}
-	#CL: 5x Town Class (Newcastle, Southhampton, Sheffield, Glasgow, Birmingham)
+	#CL: 5x Leander Class (Newcastle, Southhampton, Sheffield, Glasgow, Birmingham)
 	add_equipment_production = {
 		equipment = {
 			type = ship_hull_cruiser_2
 			creator = "ENG" 
-			version_name = "Town Class"
+			version_name = "Leander Class"
 		}
 		requested_factories = 2
 		progress = 0.5
@@ -427,7 +427,7 @@ instant_effect = {
 		equipment = {
 			type = ship_hull_cruiser_2
 			creator = "ENG" 
-			version_name = "Town Class"
+			version_name = "Leander Class"
 		}
 		requested_factories = 2
 		progress = 0.5
@@ -437,7 +437,7 @@ instant_effect = {
 		equipment = {
 			type = ship_hull_cruiser_2
 			creator = "ENG" 
-			version_name = "Town Class"
+			version_name = "Leander Class"
 		}
 		requested_factories = 2
 		progress = 0.25
