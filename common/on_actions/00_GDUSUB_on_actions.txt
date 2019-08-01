@@ -29,9 +29,7 @@ on_actions = {
 #			   BEL = { 
 #				add_timed_idea = { idea = turkish_neutrality  days = 720 }  
 #			}
-           
-     
-
+   
       USA = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 800 } }
       CAN = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 800 } }
       RAJ = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 800 } }
@@ -51,7 +49,28 @@ on_actions = {
       JAP = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 800 } }
       MAN = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 800 } }
 
-      
+      USA = { add_ideas =  airandnavy_idea }
+      CAN = { add_ideas =  airandnavy_idea }
+      RAJ = { add_ideas =  airandnavy_idea }
+      SAF = { add_ideas =  airandnavy_idea }
+      NZL = { add_ideas =  airandnavy_idea }
+      AST = { add_ideas =  airandnavy_idea }
+      ENG = { add_ideas =  airandnavy_idea }
+      FRA = { add_ideas =  airandnavy_idea }
+      SOV = { add_ideas =  airandnavy_idea }
+      FIN = { add_ideas =  airandnavy_idea }
+      HUN = { add_ideas =  airandnavy_idea }
+      ROM = { add_ideas =  airandnavy_idea }
+      BUL = { add_ideas =  airandnavy_idea }
+#     SPR = { add_ideas =  airandnavy_idea }
+      ITA = { add_ideas =  airandnavy_idea }
+      GER = { add_ideas =  airandnavy_idea }
+      JAP = { add_ideas =  airandnavy_idea }
+      MAN = { add_ideas =  airandnavy_idea }
+       
+
+
+
        #### Annexing stupid nations
              BRA = {	
 				annex_country = {
