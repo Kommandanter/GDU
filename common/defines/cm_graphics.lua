@@ -15,8 +15,8 @@ NDefines_Graphics.NAirGfx.AIRPLANES_SMOOTH_INTERPOLATION_TURN = 0.02 	-- How smo
 
 NDefines_Graphics.NInterface.GRIDBOX_ELEMENTS_INTERPOLATION_SPEED = 0.2 -- A value used to determine how fast the elements within the gridbox are interpolating while drag'n dropping.
 
-NDefines_Graphics.NGraphics.TREE_FADE_NEAR = 10.0
-NDefines_Graphics.NGraphics.TREE_FADE_FAR = 25.0
+NDefines_Graphics.NGraphics.TREE_FADE_NEAR = 200.0
+NDefines_Graphics.NGraphics.TREE_FADE_FAR = 260.0
 
 NDefines_Graphics.NGraphics.VICTORY_POINTS_DISTANCE_CUTOFF = {250, 350, 500} -- At what distance VPs are hidden
 NDefines_Graphics.NGraphics.RADAR_ICON_DISTANCE_CUTOFF = 100 -- At what distance the radars are hidden
