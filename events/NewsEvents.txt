@@ -1298,147 +1298,11 @@ news_event = {
 	}
 }
 
-# Trotsky Assassination
-news_event = {
-	id = news.37
-	title = news.37.t
-	desc = news.37.d
-	picture = GFX_news_event_024
-	
-	major = yes
-	
-	is_triggered_only = yes
 
-	immediate = {
-		set_global_flag = trotsky_dead
-	}
-	
-	option = {
-		name = news.37.a
-		trigger = { 
-			NOT = { 
-				TAG = SOV 
-				is_in_faction_with = SOV
-			} 
-		}
-	}
-	option = {
-		name = news.37.b
-		trigger = { TAG = SOV }
-	}
 
-	option = {
-		name = news.37.c
-		trigger = { 
-			is_in_faction_with = SOV
-			NOT = {
-				tag = SOV
-			} 
-		}
-	}
-}
 
-# Trotsky Survives Assassination
-news_event = {
-	id = news.38
-	title = news.38.t
-	desc = news.38.d
-	picture = GFX_news_event_023
-	
-	major = yes
-	
-	is_triggered_only = yes
-	
-	immediate = {
-		set_global_flag = trotsky_survives
-	}
-	
-	option = {
-		name = news.38.a
-		trigger = { NOT = { TAG = SOV } }
-	}
-	option = {
-		name = news.38.b
-		trigger = { TAG = SOV }
-	}
-}
 
-# Trotsky Dies Sneaking Into USSR
-news_event = {
-	id = news.39
-	title = news.39.t
-	desc = news.39.d
-	picture = GFX_news_event_024
-	
-	major = yes
-	
-	is_triggered_only = yes
 
-	immediate = {
-		set_global_flag = trotsky_dead
-	}
-	
-	option = {
-		name = news.39.a
-		trigger = { NOT = { TAG = SOV } }
-	}
-	option = {
-		name = news.39.b
-		trigger = { TAG = SOV }
-	}
-}
-
-# Trotsky Usurps Leadership
-news_event = {
-	id = news.40
-	title = news.40.t
-	desc = news.40.d
-	picture = GFX_news_event_023
-	
-	major = yes
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = news.40.a
-		trigger = { NOT = { TAG = SOV } }
-	}
-	option = {
-		name = news.40.b
-		trigger = { TAG = SOV }
-	}
-}
-
-# Second Trotsky Assassination
-news_event = {
-	id = news.41
-	title = news.41.t
-	desc = news.41.d
-	picture = GFX_news_event_024
-	
-	major = yes
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = news.37.a
-		trigger = { NOT = { TAG = SOV } }
-	}
-	option = {
-		name = news.37.b
-		trigger = { TAG = SOV }
-	}
-
-	option = {
-		name = news.37.c
-		trigger = {
-			is_in_faction_with = SOV
-			NOT = {
-				tag = SOV
-			} 
-		}
-	}
-}
 
 # Hindenburg Disaster
 news_event = {
@@ -1652,38 +1516,7 @@ news_event = {
 	}
 }
 
-# Trotsky Trigger (HIDDEN)
-news_event = {
-	id = news.50
-	hidden = yes
-	
-	fire_only_once = yes
-	
-	trigger = {
-		date > 1940.8.1
-		country_exists = SOV
-		SOV = {
-			has_government = communism
-			NOT = { has_country_flag = counter_purge }
-		}
-		NOT = { has_global_flag = flag_mexico_invited_trotsky_to_government } # This saves the Trotsky
-	}
 
-	mean_time_to_happen = {
-		days = 90
-	}
-	
-	immediate = {
-		random_list = {
-			50 = { SOV = { news_event = { id = news.37 } } }
-			50 = { SOV = { news_event = { id = news.38 } } }
-		}
-	}
-	
-	option = {
-		name = news.50.a
-	}
-}
 
 # Hindenburg Trigger (HIDDEN)
 news_event = {
@@ -8694,47 +8527,7 @@ news_event = {
 	}
 }
 
-#Trotsky Strikes Back
-news_event = {
-	id = news.221
-	title = news.221.t
-	desc = news.221.d
-	picture = GFX_news_event_journalists_speech
 
-	major = yes
-
-	is_triggered_only = yes
-
-	fire_for_sender = no
-
-	option = {
-		name = news.221.a
-		trigger = {
-			OR = {
-				has_government = communism
-			}
-		}
-	}
-
-	option = {
-		name = news.221.b
-		trigger = {
-			NOT = {
-				has_government = communism 
-			}
-			NOT = {
-				tag = MEX
-			}
-		}
-	}
-
-	option = {
-		name = news.221.c
-		trigger = {
-			tag = MEX
-		}
-	}
-}
 
 #UK Plans Scandinavian Intervention
 news_event = {

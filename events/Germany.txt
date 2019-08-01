@@ -3925,39 +3925,4 @@ country_event = {
 
 }
 
-country_event = {
-	id = germany.1001
-	title = germany.1001.t
-	desc = germany.1001.desc
 
-	trigger = {
-		GER = {
-			has_war_with = SOV
-			AND = {
-				controls_state = 202
-				controls_state = 203
-				controls_state = 200
-				controls_state = 196
-			}
-		}
-	}
-	fire_only_once = yes
-	mean_time_to_happen = { days = 30 }
-
-	option = { #a Incorporate the Ukrainians
-		name = germany.1001.a
-		GER = {
-			add_manpower = 25000
-			add_timed_idea = {idea = GER_ukrainian_army days = 60}
-			add_stability = -0.05
-		}
-	}
-
-	option = { #b Exclude the ukrainians
-		name = germany.1001.b
-		GER = {
-			add_timed_idea = {idea = GER_ukrainians_excluded days = 60}
-			add_stability = 0.05
-		}
-	}
-}
