@@ -310,7 +310,6 @@ set_autonomy = {
 
 add_ideas = {
 	trotskyite_plot
-	home_of_revolution
 	soviet_closed_market
 	production_targets_idea
 	GDU_special_forces_cap

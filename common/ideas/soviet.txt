@@ -17,6 +17,12 @@ ideas = {
 				production_speed_buildings_factor = 0.20
 				research_speed_factor =0.10
 				consumer_goods_factor = -0.05
+				supply_consumption_factor = -0.125 
+				drift_defence_factor = 0.5
+				global_building_slots_factor = 0.10
+				air_superiority_efficiency = -0.35
+				air_intercept_efficiency = -0.35
+				air_escort_efficiency = -0.35
 			}
 			
 		}
@@ -37,6 +43,8 @@ ideas = {
 				production_speed_buildings_factor = 0.14
 				research_speed_factor =0.09
 				consumer_goods_factor = -0.05
+				
+				
 			}
 			
 		}
@@ -374,26 +382,7 @@ ideas = {
 			}
 		}
 
-		home_of_revolution = {
-			removal_cost = -1
-
-			allowed = {
-				always = no # Added via focus
-			}
-
-			allowed_civil_war = {
-				has_government = communism
-			}
-
-			modifier = {
-				supply_consumption_factor = -0.125 
-				drift_defence_factor = 0.5
-				global_building_slots_factor = 0.10
-				air_superiority_efficiency = -0.35
-				air_intercept_efficiency = -0.35
-				air_escort_efficiency = -0.35
-			}
-		}
+	
 
 		trotskyite_plot = {
 			removal_cost = -1
