@@ -13,8 +13,9 @@ add_ideas = {
 	limited_conscription
 	partial_economic_mobilisation
 	imperial_austerity_idea
-    	JAP_zaibatsus
+    JAP_zaibatsus
 	JAP_militarism
+	jap_notrade_idea
 }
 
 if = {
