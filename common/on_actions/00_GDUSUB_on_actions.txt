@@ -29,44 +29,44 @@ on_actions = {
 #			   BEL = { 
 #				add_timed_idea = { idea = turkish_neutrality  days = 720 }  
 #			}
-   
-      USA = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 800 } }
-      CAN = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 800 } }
-      RAJ = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 800 } }
-      SAF = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 800 } }
-      NZL = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 800 } }
-      AST = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 800 } }
-      ENG = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 800 } }
-      FRA = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 800 } }
-      SOV = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 800 } }
-      FIN = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 800 } }
-      HUN = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 800 } }
-      ROM = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 800 } }
-      BUL = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 800 } } 
-#     SPR = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 800 } }
+   # they are deleted in diffrent days to prevent desync  caused by their sudden deletion
+      USA = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 900 } }
+      CAN = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 890 } }
+      RAJ = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 880 } }
+      SAF = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 878 } }
+      NZL = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 876 } }
+      AST = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 874 } }
+      ENG = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 802 } }
+      FRA = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 880 } }
+      SOV = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 882 } }
+      FIN = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 884 } }
+      HUN = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 886 } }
+      ROM = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 888 } }
+      BUL = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 898 } } 
+#     SPR = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 896 } }
       ITA = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 800 } }
-      GER = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 800 } }
-      JAP = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 800 } }
-      MAN = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 800 } }
-
-      USA = { add_ideas =  airandnavy_idea }
-      CAN = { add_ideas =  airandnavy_idea }
-      RAJ = { add_ideas =  airandnavy_idea }
-      SAF = { add_ideas =  airandnavy_idea }
-      NZL = { add_ideas =  airandnavy_idea }
-      AST = { add_ideas =  airandnavy_idea }
-      ENG = { add_ideas =  airandnavy_idea }
-      FRA = { add_ideas =  airandnavy_idea }
-      SOV = { add_ideas =  airandnavy_idea }
-      FIN = { add_ideas =  airandnavy_idea }
-      HUN = { add_ideas =  airandnavy_idea }
-      ROM = { add_ideas =  airandnavy_idea }
-      BUL = { add_ideas =  airandnavy_idea }
-#     SPR = { add_ideas =  airandnavy_idea }
-      ITA = { add_ideas =  airandnavy_idea }
-      GER = { add_ideas =  airandnavy_idea }
-      JAP = { add_ideas =  airandnavy_idea }
-      MAN = { add_ideas =  airandnavy_idea }
+      GER = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 892 } }
+      JAP = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 902 } }
+      MAN = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 804 } }
+   # they are deleted in diffrent days to prevent desync  caused by their sudden deletion
+      USA = { add_timed_idea = { idea = airandnavy_idea days = 1668 } }
+      CAN = { add_timed_idea = { idea = airandnavy_idea days = 1160 } }      
+      RAJ = { add_timed_idea = { idea = airandnavy_idea days = 1162 } }
+      SAF = { add_timed_idea = { idea = airandnavy_idea days = 1164 } }
+      NZL = { add_timed_idea = { idea = airandnavy_idea days = 1166 } }
+      AST = { add_timed_idea = { idea = airandnavy_idea days = 1168 } }
+      ENG = { add_timed_idea = { idea = airandnavy_idea days = 1170 } }
+      FRA = { add_timed_idea = { idea = airandnavy_idea days = 1172 } }
+      SOV = { add_timed_idea = { idea = airandnavy_idea days = 1666 } }
+      FIN = { add_timed_idea = { idea = airandnavy_idea days = 1664 } }
+      HUN = { add_timed_idea = { idea = airandnavy_idea days = 1174 } }
+      ROM = { add_timed_idea = { idea = airandnavy_idea days = 1178 } }
+      BUL = { add_timed_idea = { idea = airandnavy_idea days = 1180 } }
+      SPR = { add_timed_idea = { idea = airandnavy_idea days = 1182 } }
+      ITA = { add_timed_idea = { idea = airandnavy_idea days = 1184 } }
+      GER = { add_timed_idea = { idea = airandnavy_idea days = 1188 } }
+      JAP = { add_timed_idea = { idea = airandnavy_idea days = 1662 } }
+      MAN = { add_timed_idea = { idea = airandnavy_idea days = 1660 } }
        
 
 

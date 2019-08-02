@@ -944,10 +944,7 @@ ideas = {
 				always = no
 			}
 
-			
-			cancel = {
-				has_war = yes
-			}
+		
 			
 			removal_cost = -1
 	
