@@ -6,8 +6,7 @@ NDefines_Graphics.NGraphics.DRAW_DETAILED_CUTOFF = 100
 NDefines_Graphics.NMapMode.MAP_MODE_TERRAIN_TRANSPARENCY = 0.8
 NDefines_Graphics.NMapMode.RADAR_ROTATION_SPEED = 0.0
 
-NDefines_Graphics.NMapMode.AIR_RANGE_INDICATOR_DEFAULT_COLOR = { 0, 0, 0, 0 }						-- On map circle indicating the air wings range.
-NDefines_Graphics.NMapMode.AIR_RANGE_INDICATOR_NO_WINGS_COLOR = { 0, 0, 0, 0 }							-- Same as above, but for air wings with no airplanes.
+
 NDefines_Graphics.NMapMode.AIR_RANGE_INDICATOR_ROTATION_SPEED = 0.000									-- How quickly is that indicator rotating
 
 NDefines_Graphics.NAirGfx.AIRPLANES_SMOOTH_INTERPOLATION_MOVE = 0.02 	-- How smooth is the movement interpolation.
