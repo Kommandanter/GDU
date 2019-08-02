@@ -971,26 +971,6 @@ ideas = {
 
 			}
 		}
-		 jap_notrade_idea = {
-			
-			
-			allowed = {
-				always = no
-			}
-
-			
-			cancel = {
-				has_war = yes
-			}
-			
-			removal_cost = -1
-	
-			modifier = {
-				
-		    local_resources_factor = 0.6
-
-			}
-		}
 	   czech_set_amount_artillery = {
 			
 			

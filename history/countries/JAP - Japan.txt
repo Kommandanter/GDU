@@ -13,7 +13,7 @@ add_ideas = {
 	partial_economic_mobilisation
 	JAP_zaibatsus
 	JAP_militarism
-	jap_notrade_idea
+
 }
 
 if = {

@@ -659,6 +659,16 @@ focus_tree = {
 		completion_reward = {
 			country_event = gduevents.13 
 			unlock_decision_tooltip = GDU_JAP_pearl_harbor
+			528 = {
+					
+				add_resource = {
+					type = steel
+					amount = -200
+				}				
+
+				
+				
+			}
 			
 		
 		}
