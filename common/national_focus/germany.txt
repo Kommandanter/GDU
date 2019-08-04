@@ -1827,7 +1827,7 @@ focus_tree = {
 				country_event = { id = pfu.18 days = 30 }
 				FRA = { 
 					transfer_navy = { 
-						target = ECU 
+						target = VEN 
 					}
 					remove_state_core = 17
 					remove_state_core = 28					
