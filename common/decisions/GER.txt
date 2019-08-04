@@ -127,39 +127,13 @@ GER_case_anton_category = {
 		}
 		
 		complete_effect = {
-			GER = { country_event = gduevents.14 }
 				
 		}
 		
 		remove_effect = {
-			if = { 
-				limit = { 
-					OR = { 
-						has_global_flag = vichyfleet_GER 
-						NOT = { has_global_flag = vichyfleet_ITA } 
-					}
-				}
-				EFR = { 
-					transfer_navy = { 
-						target = GER 
-					}
-				}	
-			}
-			if = { 
-				limit = { 
-					has_global_flag = vichyfleet_ITA 
-				}
-				EFR = { 
-					transfer_navy = { 
-						target = ITA 
-					}
-				}	
-			}
 			GER = {
 				annex_country = { target = EFR transfer_troops = no }
-			}
-			
-		
+			}			
 		}
 	}
 	
