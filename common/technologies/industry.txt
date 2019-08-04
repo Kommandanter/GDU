@@ -148,7 +148,7 @@ technologies = {
 	
 	flexible_line = {
 
-		production_factory_max_efficiency_factor = 0.05
+		production_factory_max_efficiency_factor = 0.04
 		line_change_production_efficiency_factor = 0.2
 		
 		research_cost = 2.5
@@ -179,7 +179,7 @@ technologies = {
 	
 	streamlined_line = {
 
-		production_factory_max_efficiency_factor = 0.05
+		production_factory_max_efficiency_factor = 0.04
 		production_factory_efficiency_gain_factor = 0.1
 			
 		research_cost = 2.5
@@ -466,7 +466,7 @@ technologies = {
 	
 	concentrated_industry5 = {
 
-		industrial_capacity_factory = 0.1
+		industrial_capacity_factory = 0.08
 		industrial_capacity_dockyard = 0.1
 		global_building_slots_factor = 0.20
 		

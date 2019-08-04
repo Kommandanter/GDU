@@ -89,7 +89,7 @@ GER_case_anton_category = {
 
 
 		available = {
-			original_tag = GER
+			original_tag = ITA
 			has_government = fascism
 			any_country = {
 				original_tag = EFR
@@ -98,7 +98,7 @@ GER_case_anton_category = {
 			OR = { 
 				EFR = { has_war = yes } 
 				date > 1943.1.1
-				ITA = { surrender_progress > 0.25 }
+				ITA = { surrender_progress > 0.01 }
 				OR = { 
 					FRA = {
 						controls_state = 19  
@@ -119,11 +119,8 @@ GER_case_anton_category = {
 		fire_only_once = yes
 
 		visible = {
-			original_tag = GER
+			original_tag = ITA
 			has_government = fascism
-			any_country = {
-				original_tag = EFR
-			}
 		}
 		ai_will_do = {
 			factor = 1

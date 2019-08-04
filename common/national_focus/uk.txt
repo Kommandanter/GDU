@@ -1454,7 +1454,7 @@ focus_tree = {
 		id = ENG_anti_non_contact_committee
 		prerequisite = { focus = ENG_secure_the_imperial_shipping_routes }
 		icon = GFX_goal_generic_occupy_states_coastal
-		x = 2
+		x = 0
 		y = 1
 		relative_position_id = ENG_secure_the_imperial_shipping_routes
 		cost = 5
@@ -1674,7 +1674,7 @@ focus_tree = {
 		id = uk_amphibious_focus
 		prerequisite = { focus = ENG_secure_the_imperial_shipping_routes }
 		icon = GFX_goal_generic_amphibious_assault
-		x = 0
+		x = 3
 		y = 1
 		relative_position_id = ENG_secure_the_imperial_shipping_routes
 		cost = 5
@@ -1699,6 +1699,34 @@ focus_tree = {
 			}
 		}
 	}
+	
+	focus = {
+		id = mulberry_harbours_focus
+		prerequisite = { focus = uk_amphibious_focus }		
+		
+		available = {
+			date > 1944.01.01
+		}
+		icon = GFX_goal_generic_build_navy
+		x = 0
+		y = 1
+		relative_position_id = uk_amphibious_focus
+		
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}	
+		completion_reward = {
+			add_ideas = mulberry_harbours_idea
+			USA = { add_ideas = mulberry_harbours_idea }
+			CAN = { add_ideas = mulberry_harbours_idea }
+			SAF = { add_ideas = mulberry_harbours_idea }
+			AST = { add_ideas = mulberry_harbours_idea }
+			NZL = { add_ideas = mulberry_harbours_idea }
+			RAJ = { add_ideas = mulberry_harbours_idea }
+			FRF = { add_ideas = mulberry_harbours_idea }			
+		}		
+	}		
 	
 	#focus = {
 	#	id = uk_embargo_focus

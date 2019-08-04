@@ -1,4 +1,11 @@
 ﻿l_english:
+
+    mulberry_harbours_idea:0 "Mulberry Harbours"
+    mulberry_harbours_idea_desc:0 "Mulberry harbours were temporary portable harbours developed by the British during the Second World War to facilitate the rapid offloading of cargo onto beaches during the Allied invasion of Normandy in June 1944. After the Allies successfully held beachheads following D-Day, two prefabricated harbours were taken in sections across the English Channel from Britain with the invading army and assembled off Omaha (Mulberry 'A') and Gold Beach (Mulberry 'B')."
+
+    mulberry_harbours_focus:0 "Mulberry Harbours"
+    mulberry_harbours_focus_desc:0 "Mulberry harbours were temporary portable harbours developed by the British during the Second World War to facilitate the rapid offloading of cargo onto beaches during the Allied invasion of Normandy in June 1944. After the Allies successfully held beachheads following D-Day, two prefabricated harbours were taken in sections across the English Channel from Britain with the invading army and assembled off Omaha (Mulberry 'A') and Gold Beach (Mulberry 'B')."
+
     GDU1942_airlosses:0 "GDU Air Losses Modifier"
     GDU1942_airlosses_desc:0 "This modifier is applied in the late game to increase air losses, but only in the late game. This helps to ensure that not too many planes pile up later in the game when production is high. It is partly intended to reduce lag by cutting down on large ever-growing air stockpiles."
     GDU1943_airlosses:0 "GDU Air Losses Modifier"
