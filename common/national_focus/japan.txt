@@ -152,6 +152,10 @@ focus_tree = {
 		
 		select_effect = {}
 		completion_reward = {
+		USA = {
+					country_event = { id = panay_incident.1 }
+				}					
+
 		army_experience = 1000
 		air_experience = 1000
 		navy_experience = 1000

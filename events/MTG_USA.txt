@@ -459,14 +459,7 @@ country_event = {
 
 	hidden = yes
 
-	trigger = {
-  		tag = CHI
- 		has_war_with = JAP
- 		# Hi, Tornado here. Reducing the ability for Japan to cheese this event and making it so the USA and Japan DON'T GO TO WAR OVER IT in MULTIPLAYER. Think I'd forget this? Yeah, I thought of it immediately when I saw it while playing USA in MTG. 
-
-	}
-
-	mean_time_to_happen = { days = 90 }
+    is_triggered_only = yes
 
 	fire_only_once = yes
 
