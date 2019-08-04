@@ -81,7 +81,6 @@ bookmarks = {
 			history = "JAP_GATHERING_STORM_DESC"
 			ideology = fascism
 			ideas = {
-				state_shintoism
 				JAP_zaibatsus
 				JAP_militarism
 			}
@@ -96,7 +95,6 @@ bookmarks = {
 			ideology = communism
 			ideas = {
 				trotskyite_plot
-				home_of_revolution
 			}
 			focuses = {
 				SOV_great_purge

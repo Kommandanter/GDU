@@ -164,16 +164,16 @@ on_actions = {
 			
 
 			##### Events that add national spirits to increase air losses a bit in the late game (for 1942, 1943, 1944, and 1945) ####
-			MEX = {
+			VEN = {
 				country_event = { id = gduairlosses.1 days = 2192 } 
 			}
-			MEX = {
+			VEN = {
 				country_event = { id = gduairlosses.2 days = 2557 } 
 			}
-			MEX = {
+			VEN = {
 				country_event = { id = gduairlosses.3 days = 2922 } 
 			}
-			MEX = {
+			VEN = {
 				country_event = { id = gduairlosses.4 days = 3287 } 
 			}			
 
@@ -224,7 +224,8 @@ on_actions = {
 				give_resource_rights = { receiver = ENG state = 291 }
 			}
 			VEN = { 
-				give_resource_rights = { receiver = ENG state = 489 } 
+				give_resource_rights = { receiver = ENG state = 489 }
+				give_resource_rights = { receiver = ENG state = 307 } 				
 			}
 			#### The USA is given control over Philippines resources since it is a puppet. This gives USA some rubber and prevents USA from purposely importing too much rubber from UK just for trade-buffing reasons. Later on it perhaps also gives USA a bit more of an incentive to defend the Philippines since USA gets the rubber there itself. ####
 			PHI = {
@@ -2110,7 +2111,6 @@ activate_mission = SOV_relocate_industry_from_zaporozhe
 				
 				set_global_flag = denmark_dead 
 				
-				ENG = { country_event = { id = pfu.1 days = 1 } } # Give Iceland to England 
 			} 
 			
 			

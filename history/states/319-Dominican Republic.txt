@@ -9,7 +9,7 @@ state=
 	
 	history=
 	{
-		owner = DOM
+		#owner = DOM
 		buildings = {
 			infrastructure = 4
 			air_base = 1

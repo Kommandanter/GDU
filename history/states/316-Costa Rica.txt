@@ -9,7 +9,7 @@ state={
 	
 
 	history={
-		owner = COS
+		#owner = COS
 		buildings = {
 			infrastructure = 4
 			air_base = 1

@@ -9,7 +9,7 @@ state=
 	
 	history=
 	{
-		owner = HAI
+		#owner = HAI
 		buildings = {
 			infrastructure = 4
 			air_base = 1

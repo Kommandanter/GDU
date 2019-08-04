@@ -8,7 +8,7 @@ state=
 	
 	history=
 	{
-		owner = DEN
+		#owner = DEN
 		buildings = {
 			13003 = {
 				naval_base = 1
@@ -16,5 +16,5 @@ state=
 		}
 		add_core_of = DEN
 	}
-	provinces= { 13003 }
+	provinces= { 6196 13003 }
 }
