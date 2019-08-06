@@ -549,7 +549,7 @@ available = {				has_completed_focus = HUN_renounce_the_treaty_of_trianon}
 				original_tag = HUN
 			}
 			
-			traits = { army_cavalry_3 }
+			traits = { army_infantry_2 }
 			
 			ai_will_do = {
 				factor = 1
