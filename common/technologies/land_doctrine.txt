@@ -871,6 +871,11 @@ technologies = {
 			default_morale = 0.2
 		}
 		
+		category_light_infantry = {
+			max_organisation = 10
+			default_morale = 0.1
+		}		
+		
 		doctrine = yes	
 		research_cost = 3.6
 		
@@ -1066,6 +1071,11 @@ technologies = {
 			soft_attack = 0.025
 			hard_attack = 0.025
 		}		
+		
+		category_light_infantry = {
+			max_organisation = 10
+			default_morale = 0.1
+		}			
 		
 		enable_tactic = tactic_guerrilla_tactics
 		
@@ -3099,14 +3109,19 @@ technologies = {
 		planning_speed = 0.05
 		land_reinforce_rate = 0.08
 		
-		category_all_infantry = {
+		motorized = {
 			max_organisation = 5
 			default_morale = 0.1
 		}
 		
-		category_light_infantry = { 
-			max_organisation = 5 
-			default_morale = 0.1 
+		mechanized = {
+			max_organisation = 5
+			default_morale = 0.1
+		}		
+		
+		infantry = { 
+			max_organisation = 10
+			default_morale = 0.2
 		}
 
 		enable_tactic = tactic_elastic_defense
@@ -3161,18 +3176,20 @@ technologies = {
 			}
 		}
 		
-		category_all_infantry = {
+		infantry = {
 			max_organisation = 13
 			breakthrough = 0.10
 		}
 		
 		mechanized = {
-			max_organisation = 8
+			max_organisation = 21
 			default_morale = 0.05
+			breakthrough = 0.10			
 		}
 		motorized = {
-			max_organisation = 8
+			max_organisation = 21
 			default_morale = 0.05
+			breakthrough = 0.10			
 		}
 
 
