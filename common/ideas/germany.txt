@@ -599,7 +599,7 @@ ideas = {
 			picture = generic_infantry_bonus
 
          	modifier = {
-            	conscription = 0.02
+            	conscription = 0.01
 			}
 		}
 

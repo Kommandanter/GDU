@@ -1919,7 +1919,7 @@ technologies = {
 	
 	construction5 = {
 
-		production_speed_buildings_factor = 0.07
+		production_speed_buildings_factor = 0.05
 		industry_repair_factor = 0.1
 		
 		path = {

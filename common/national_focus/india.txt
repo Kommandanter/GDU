@@ -897,7 +897,6 @@ focus_tree = {
 		}
 
 		available = {
-			compare_autonomy_state > autonomy_colony
 		}
 
 		bypass = {
@@ -1524,7 +1523,7 @@ focus_tree = {
 		}
 
 		available = {
-			compare_autonomy_state > autonomy_colony
+			date > 1945.1.1
 		}
 
 		bypass = {
@@ -2430,7 +2429,6 @@ focus_tree = {
 		}
 
 		available = {
-			compare_autonomy_state > autonomy_colony
 			has_war = yes
 		}
 
