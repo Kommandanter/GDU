@@ -3063,12 +3063,6 @@ technologies = {
 			default_morale = 0.1
 		}
 
-		motorized_rocket_brigade = {
-			reliability = 0.15
-			soft_attack = 0.05
-			defense = 0.10
-		}
-
 		enable_tactic = tactic_blitz
 		enable_tactic = tactic_default_blitz
 

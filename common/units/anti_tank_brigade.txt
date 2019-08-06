@@ -105,7 +105,7 @@ sub_units = {
 		weight = 0.5
 		hard_attack = -0.25 #Otherwise, the AT changes seriously break these. Remove at your own peril. -TW/MTG 
 
-		supply_consumption = 0.33
+		supply_consumption = 0.25
 
 		forest = {
 			attack = -0.2

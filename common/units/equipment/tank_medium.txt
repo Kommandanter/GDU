@@ -157,7 +157,7 @@ equipments = {
 		armor_value = 50
 
 		#Offensive Abilities
-		soft_attack = 58.8
+		soft_attack = 56
 		hard_attack = 1
 		ap_attack = 5
 		air_attack = 0
@@ -208,7 +208,7 @@ equipments = {
 		armor_value = 60
 
 		#Offensive Abilities
-		soft_attack = 75.6
+		soft_attack = 72
 		hard_attack = 1.5
 		
 		build_cost_ic = 19
@@ -244,7 +244,7 @@ equipments = {
 		armor_value = 80
 
 		#Offensive Abilities
-		soft_attack = 88.2
+		soft_attack = 84
 		hard_attack = 2
 		
 		build_cost_ic = 20
@@ -291,7 +291,7 @@ equipments = {
 
 		#Offensive Abilities
 		soft_attack = 2
-		hard_attack = 31.5
+		hard_attack = 30
 		ap_attack = 60
 		air_attack = 0
 		
@@ -344,7 +344,7 @@ equipments = {
 
 		#Offensive Abilities
 		soft_attack = 3
-		hard_attack = 40
+		hard_attack = 38.75
 		ap_attack = 85
 		
 		build_cost_ic = 19
@@ -382,7 +382,7 @@ equipments = {
 
 		#Offensive Abilities
 		soft_attack = 4
-		hard_attack = 50
+		hard_attack = 47.5
 		ap_attack = 110
 		
 		build_cost_ic = 20
@@ -643,7 +643,7 @@ equipments = {
 		armor_value = 60
 
 		#Offensive Abilities
-		soft_attack = 75.6
+		soft_attack = 72
 		hard_attack = 1.5
 		
 		build_cost_ic = 19
@@ -679,7 +679,7 @@ equipments = {
 		armor_value = 80
 
 		#Offensive Abilities
-		soft_attack = 88.2
+		soft_attack = 84
 		hard_attack = 2
 		
 		build_cost_ic = 20
@@ -732,7 +732,7 @@ equipments = {
 
 		#Offensive Abilities
 		soft_attack = 3
-		hard_attack = 40
+		hard_attack = 28.75
 		ap_attack = 85
 		
 		build_cost_ic = 19
@@ -770,7 +770,7 @@ equipments = {
 
 		#Offensive Abilities
 		soft_attack = 4
-		hard_attack = 50
+		hard_attack = 47.5
 		ap_attack = 110
 		
 		build_cost_ic = 20

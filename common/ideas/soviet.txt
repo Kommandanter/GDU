@@ -2254,6 +2254,14 @@ ideas = {
 				mot_rockets = 0.50
 			}
 
+			equipment_bonus = {
+				motorized_rocket_equipment = {
+					reliability = 0.15
+					soft_attack = 0.05
+					defense = 0.10
+				}	
+			}		
+
 			traits = { motorized_equipment_manufacturer }
 
 			modifier = {
