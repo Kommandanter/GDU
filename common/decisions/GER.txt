@@ -98,7 +98,14 @@ GER_case_anton_category = {
 			OR = { 
 				EFR = { has_war = yes } 
 				date > 1943.1.1
-				ITA = { surrender_progress > 0.01 }
+				AND = {
+					date > 1941.6.1
+					ITA = { surrender_progress > 0.01 }				
+				}
+				AND = {
+					date > 1941.1.1
+					ITA = { surrender_progress > 0.25 }				
+				}				
 				OR = { 
 					FRA = {
 						controls_state = 19  
