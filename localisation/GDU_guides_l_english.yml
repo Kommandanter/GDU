@@ -1,0 +1,7 @@
+﻿l_english:
+
+ 
+guides.1.t:0 "GDU Navy1; Poisitioning"
+guides.1.d:0 "Positioning is basically a value that starts to give your navy debuffs when it drops bellow 100 \n \n  In GDU at 0 positioning you get following debuffs; -70% air attack, -30% screening, -60% naval attack   \n  \n  in GDU it is set so that when your fleet is say 50% bigger than the enemy fleet ( 300vs 200 ships) you do not get any positioning penalties, assuming you have an admiral assigned,  but as battle goes on, and say your fleet becomes 150% bigger than the enemy fleet, (example 2 to 5 ship ration, 200 vs 500 ships) you do get the maximum positioning penalty of 100% and have 0 positioning and get the maximum penalty.   \n  \n  to put it to end, Your positioning will scale between 0%( at 2.5/1.0 and above) and 100%(at 1.5/1.0 ratio and bellow) depending on ship ratio of sides"
+guides.1.a:0 "Thanks for the information."
+

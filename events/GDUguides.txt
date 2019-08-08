@@ -1,0 +1,23 @@
+###########################
+# Guide Events
+###########################
+
+add_namespace = guides
+
+
+########################### Starts bellow ###########
+## this is the positioning guide. will be put into an event where people can choose which guide they want to read when other guides explaining gdu mechanics are added too
+country_event = {   
+	id = guides.1
+	title = guides.1.t
+	desc = guides.1.d
+
+	picture = GFX_report_event_physics_lab_01 
+
+	is_triggered_only = yes
+    fire_only_once = yes 
+
+			option = {
+				name =  pfu.10.a			
+			}
+}

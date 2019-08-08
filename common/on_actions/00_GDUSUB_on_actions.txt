@@ -3,32 +3,26 @@ on_actions = {
      on_startup = {
      effect = {
 
-       #### Temporarily making sure irrelevant nations dont spam divs 
-#        
-#               HOL = { 
-#				add_timed_idea = { idea = turkish_neutrality  days = 920 }  
-#			}
-#               YUG = { 
-#				add_timed_idea = { idea = turkish_neutrality  days = 920 }  
-#			}
-#			   CZE = { 
-#               add_timed_idea = { idea = turkish_neutrality  days = 920 }  
-#		    }
-#			   LUX = { 
-#				add_timed_idea = { idea = turkish_neutrality  days = 920 }  
-#			}
-#			   GRE = { 
-#				add_timed_idea = { idea = turkish_neutrality  days = 920 }  
-#			}
-#			   NOR = { 
-#				add_timed_idea = { idea = turkish_neutrality  days = 920 }  
-#			}
-#			   POL = { 
-#			    add_timed_idea = { idea = turkish_neutrality  days = 720 }  
-#			}
-#			   BEL = { 
-#				add_timed_idea = { idea = turkish_neutrality  days = 720 }  
-#			}
+   
+    JAP = { 
+				country_event = { id = guides.1 days = 3 } 
+			}
+    USA = { 
+				country_event = { id = guides.1 days = 4 } 
+			}
+    ENG = { 
+				country_event = { id = guides.1 days = 5 } 
+			}
+	ITA = { 
+				country_event = { id = guides.1 days = 6 } 
+			}
+	GER = { 
+				country_event = { id = guides.1 days = 7 } 
+			}				
+
+
+
+
    # they are deleted in diffrent days to prevent desync  caused by their sudden deletion
       USA = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 1095 } }
       CAN = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 732 } }
