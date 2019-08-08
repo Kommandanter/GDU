@@ -1,0 +1,101 @@
+GDUGuides_decisions_category = {
+	
+
+GDU_navy1positioning = {
+	
+      icon = eng_trade_unions_support
+
+		allowed = {
+		        always = yes
+		}
+        
+        visible = {
+		        always = yes
+		}
+
+		cost = 0
+        
+        complete_effect = {
+			country_event = { id = guides.1 }
+			
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	
+}
+GDU_army1piercing = {
+	
+      icon = eng_trade_unions_support
+
+		allowed = {
+		        always = yes
+		}
+        
+        visible = {
+		        always = yes
+		}
+
+		cost = 0
+        
+        complete_effect = {
+			country_event = { id = guides.2 }
+			
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	
+}
+GDU_air1cas = {
+	
+      icon = eng_trade_unions_support
+
+		allowed = {
+		        always = yes
+		}
+        
+        visible = {
+		        always = yes
+		}
+
+		cost = 0
+        
+        complete_effect = {
+			country_event = { id = guides.3 }
+			
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	
+}
+GDU_air2gangbang = {
+	
+      icon = eng_trade_unions_support
+
+		allowed = {
+		        always = yes
+		}
+        
+        visible = {
+		        always = yes
+		}
+
+		cost = 0
+        
+        complete_effect = {
+			country_event = { id = guides.4 }
+			
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	
+}
+
+}

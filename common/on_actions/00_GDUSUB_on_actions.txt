@@ -5,22 +5,57 @@ on_actions = {
 
    
     JAP = { 
-				country_event = { id = guides.1 days = 3 } 
+				country_event = { id = guides.0 days = 2 } 
 			}
     USA = { 
-				country_event = { id = guides.1 days = 4 } 
+				country_event = { id = guides.0 days = 3 } 
 			}
     ENG = { 
-				country_event = { id = guides.1 days = 5 } 
+				country_event = { id = guides.0 days = 4 } 
 			}
 	ITA = { 
-				country_event = { id = guides.1 days = 6 } 
+				country_event = { id = guides.0 days = 5 } 
 			}
 	GER = { 
-				country_event = { id = guides.1 days = 7 } 
+				country_event = { id = guides.0 days = 6 } 
 			}				
-
-
+    SOV = { 
+				country_event = { id = guides.0 days = 7 } 
+			}
+    SAF = { 
+				country_event = { id = guides.0 days = 8 } 
+			}
+    AST = { 
+				country_event = { id = guides.0 days = 9 } 
+			}
+	NZL = { 
+				country_event = { id = guides.0 days = 10 } 
+			}
+	RAJ = { 
+				country_event = { id = guides.0 days = 11 } 
+			}	
+	CAN = { 
+				country_event = { id = guides.0 days = 12 } 
+			}
+    MAN = { 
+				country_event = { id = guides.0 days = 13 } 
+			}
+    FIN = { 
+				country_event = { id = guides.0 days = 14 } 
+			}
+	FRA = { 
+				country_event = { id = guides.0 days = 15 } 
+			}
+	HUN = { 
+				country_event = { id = guides.0 days = 16 } 
+			}			
+    ROM = { 
+				country_event = { id = guides.0 days = 17 } 
+			}
+    BUL = { 
+				country_event = { id = guides.0 days = 18 } 
+			}
+  	
 
 
    # they are deleted in diffrent days to prevent desync  caused by their sudden deletion

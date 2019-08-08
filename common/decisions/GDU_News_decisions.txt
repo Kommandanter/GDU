@@ -46,9 +46,7 @@ turn_on_off_news_category = {
 			always = yes 
 		}
 		visible = {
-			NOT = {
-				has_country_flag = no_news 
-			}
+			always = yes
 		}
 		ai_will_do = {
 			factor = 0
@@ -66,15 +64,49 @@ turn_on_off_news_category = {
 			always = yes 
 		}
 		visible = {
-			NOT = {
-				has_country_flag = no_news 
-			}
+			always = yes
 		}
 		ai_will_do = {
 			factor = 0
 		}
 		complete_effect = {
 			clr_country_flag = ifu_on
+		}
+	}
+		turn_news_on_gduguides_decisions = { 
+		icon = GFX_decision_generic_decision
+		allowed = {
+			always = yes
+		}
+		available = {
+			always = yes 
+		}
+		visible = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			set_country_flag = gduguides_on
+		}
+	}
+		turn_news_off_gduguides_decisions = { 
+		icon = GFX_decision_generic_decision
+		allowed = {
+			always = yes
+		}
+		available = {
+			always = yes 
+		}
+		visible = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			clr_country_flag = gduguides_on
 		}
 	}
 }

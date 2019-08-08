@@ -1,7 +1,33 @@
 ﻿l_english:
 
- 
+turn_news_on_gduguides_decisions:0 " Turn On GDU Guides Decision Category"
+turn_news_off_gduguides_decisions:0 " Turn Off GDU Guides Decision Category"
+
+GDU_navy1positioning:0 "GDU Navy1; Poisitioning"
+
+GDU_army1piercing:0 "GDU Army1; Piercing"
+
+GDU_air1cas:0 "GDU Air1; CAS"
+GDU_air2gangbang:0 "GDU Air2; (Reverse)Gangbang effect"
+
+
+
+guides.0.t:0 "GDU Guides"
+guides.0.d:0 "For new players and few uninformed players, in game guides have been added about changes to game mechanics and important stuff in GDU, you can enable these guides by going to your decisions, and clicking on enable GDU Guides decisions under GDU News Category "
+guides.0.a:0 "Thanks for the information."
+
 guides.1.t:0 "GDU Navy1; Poisitioning"
-guides.1.d:0 "Positioning is basically a value that starts to give your navy debuffs when it drops bellow 100 \n \n  In GDU at 0 positioning you get following debuffs; -70% air attack, -30% screening, -60% naval attack   \n  \n  in GDU it is set so that when your fleet is say 50% bigger than the enemy fleet ( 300vs 200 ships) you do not get any positioning penalties, assuming you have an admiral assigned,  but as battle goes on, and say your fleet becomes 150% bigger than the enemy fleet, (example 2 to 5 ship ration, 200 vs 500 ships) you do get the maximum positioning penalty of 100% and have 0 positioning and get the maximum penalty.   \n  \n  to put it to end, Your positioning will scale between 0%( at 2.5/1.0 and above) and 100%(at 1.5/1.0 ratio and bellow) depending on ship ratio of sides"
+guides.1.d:0 "Positioning is basically a value that starts to give your navy debuffs when it drops bellow 100 \n \n  In GDU at 0 positioning you get following debuffs; -70% air attack, -30% screening, -60% naval attack   \n  \n  in GDU it is set so that when your fleet is say 50% bigger than the enemy fleet ( 300vs 200 ships) you do not get any positioning penalties, assuming you have an admiral assigned,  but as battle goes on, and say your fleet becomes 150% bigger than the enemy fleet, (example 2 to 5 ship ration, 200 vs 500 ships) you do get the maximum positioning penalty of 100% and have 0 positioning and get the maximum penalty.   \n  \n  to put it to end, Your positioning will scale between 0%( at 2.5/1.0 and above) and 100%(at 1.5/1.0 ratio and bellow) depending on ship ratio of sides , if you want to hear how it's made, it is done by giving all admirals +50% base positioning and playing with positioning values in 00_defines.lua "
 guides.1.a:0 "Thanks for the information."
 
+guides.2.t:0 "GDU Army1; Piercing"
+guides.2.d:0 "Piercing is basically a value and if it exceeds your enemy's Armor, you get no penalties, and your enemy get no bonusses   \n \n  in vanilla, a division's piercing is basicallly 60% of division's average piercing + 40% of battalion with highest piercing, and for armor it is 70% of division's average armor + 30% of battalion with highest armor  \n  \n  in GDU it is set so that your division's piercing is 100% of the battalion with highest piercing!, meaning if you have a HTD in your division, division's piercing will be HTD's piercing, but beware, you are not allowed mix non foot units with foot units so you cant put a HTD to your infantry battalion \n  \n  In GDU Anti tank have very high hard attack for it's cost. but it is never going to pierce the enemy ,  \n  \n  When you do not get pierced, you take 50% less damage, when you do pierce enemy you deal extra damage, and very high amount of extra organization damage,  This means that AT  will not get the "very high organization "  damage bonus , will mostly lose combat to tanks, but will stil in terms of equipemnt IC , trade very favouribly againist tanks. "
+guides.2.a:0 "Thanks for the information."
+
+guides.3.t:0 "GDU Air1; CAS"
+guides.3.d:0 "CAS in GDU is very , very special. In vanilla there is a point where if your air superiorty is above it, your cas works and you get air support 35% stat bonus, while your enemy lose the 35% air support stat bonus, on top of your cas starting to do actual damage and enemy's cas stopping \n \n  And GDU fixes this problem, in GDU you can safely " assuming you got atleast equal amount of fighters" CAS your enemy while also getting CAS'd  even in say 4k vs 10k planes scenario   \n  \n Is not it great??? so this mod is not a CAS mod   \n  \n  Compared to vanilla, in gdu, Cas also do less direct damage, but still provide fair stat bonusses, so you cant cas with pure inf and kill ppl, Cas dont get mass shotdown by AA, and thats all, i suggest you to also read the Reverse Gangbang guide"
+guides.3.a:0 "Thanks for the information."
+
+guides.4.t:0 "GDU Air2; (Reverse)Gangbang effect"
+guides.4.d:0 "OH NO AIR IS RED, RIP  \n \n  Fear not! in GDU you no longer get a massive air casualties, compared to your enemy , from having less planes flying in the zone  \n  \n It could even be said that gangbang is now reversed and you get very little positive K/D ratios when you use less planes "
+guides.4.a:0 "Thanks for the information."
