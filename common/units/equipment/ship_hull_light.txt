@@ -49,7 +49,6 @@ equipments = {
 					ship_torpedo
 					ship_mine_warfare
 					ship_mine_layer
-					ship_anti_air
 					ship_depth_charge
 				}
 			}
@@ -145,7 +144,6 @@ equipments = {
 					ship_mine_warfare
 					ship_mine_layer
 					ship_depth_charge
-					ship_anti_air
 					ship_light_battery
 				}
 			}
@@ -189,7 +187,6 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_depth_charge
-					ship_anti_air
 					ship_light_battery
 				}
 			}
@@ -200,7 +197,6 @@ equipments = {
 					ship_mine_warfare
 					ship_mine_layer
 					ship_depth_charge
-					ship_anti_air
 					ship_light_battery
 				}
 			}
@@ -211,7 +207,6 @@ equipments = {
 					ship_mine_warfare
 					ship_mine_layer
 					ship_depth_charge
-					ship_anti_air
 					ship_light_battery
 				}
 			}
@@ -257,7 +252,6 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_depth_charge
-					ship_anti_air
 					ship_light_battery
 				}
 			}
@@ -268,7 +262,6 @@ equipments = {
 					ship_mine_warfare
 					ship_mine_layer
 					ship_depth_charge
-					ship_anti_air
 					ship_light_battery
 				}
 			}
@@ -280,7 +273,6 @@ equipments = {
 					ship_mine_warfare
 					ship_mine_layer
 					ship_depth_charge
-					ship_anti_air
 					ship_light_battery
 				}
 			}
