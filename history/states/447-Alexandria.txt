@@ -9,13 +9,13 @@ state={
 	history={
 		owner = ENG
 		victory_points = {
-			4076 125 
+			4076 135 
 		}
 		victory_points = {
-			1071 85
+			1071 75
 		}
 		buildings = {
-			infrastructure = 3
+			infrastructure = 5
 			industrial_complex = 1
 			air_base = 8
 			radar_station = 1
