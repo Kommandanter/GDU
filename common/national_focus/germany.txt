@@ -34,6 +34,7 @@ focus_tree = {
 			add_political_power = 150
 			army_experience = 115
 			add_named_threat = { threat = 5 name = GER_rhineland }
+			add_named_threat = { threat = 1 name = ITA_Ethiopia }
 			if = {
 				limit = { FRA = { is_puppet = no } }
 				FRA = {
