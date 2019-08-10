@@ -1,5 +1,9 @@
 ﻿l_english:
 #Focuses 
+
+ FIN_bicycle_battalions:0 "Bicycle Troops"
+ FIN_bicycle_battalions_desc:0 "Bicycle Troops are more expensive than motorized, but have less speed, less organization, and less hit points. This focus is a trap designed to lure Finland players into building bicycle troops, and then dying quickly to the Soviets as a result."
+
  GER_gothic_line:0 "The Gothic Line"
  GER_gothic_line_desc:0 "The Gothic Line was a German defensive line of the Italian Campaign of World War II. It formed Field Marshal Albert Kesselring's last major line of defence along the summits of the northern part of the Apennine Mountains during the fighting retreat of the German forces in Italy against the Allied Armies in Italy, commanded by General Sir Harold Alexander."
  ITA_consolidate_egypt:0 "Consolidate Egypt"

@@ -341,7 +341,7 @@ focus_tree = {
 		id = FIN_promote_sisu
 		icon = GFX_goal_generic_small_arms
 		prerequisite = { focus = FIN_frantic_planning focus = FIN_molotov_cocktails }
-		x = 5
+		x = 4
 		y = 2
 		cost = 10
 		completion_reward = {
@@ -357,6 +357,39 @@ focus_tree = {
 		}
 	}
 
+	focus = {
+		id = FIN_bicycle_battalions
+		icon = GFX_goal_generic_special_forces
+		prerequisite = { focus = FIN_frantic_planning focus = FIN_molotov_cocktails }
+		x = 6
+		y = 2
+
+		cost = 50
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			set_technology = { bicycle_infantry = 1 }
+		}
+	}
 
 	focus = {
 		id = FIN_ski_infantry
