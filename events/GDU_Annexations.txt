@@ -231,18 +231,24 @@ country_event = {
 					transfer_state = 107
 					transfer_state = 108					
 					}
-
-				ROM = {
-					transfer_state = 764
+				if = {
+					limit = { ROM = { controls_state = 46 } }
+					ROM = {
+						transfer_state = 764
 					}
-					
-				BUL = {
-					transfer_state = 106
+				}	
+				if = {
+					limit = { BUL = { controls_state = 48 } }
+					BUL = {
+						transfer_state = 106
 					}
-					
-				HUN = {
-					transfer_state = 45
+				}
+				if = {
+					limit = { HUN = { controls_state = 43 } }
+					HUN = {
+						transfer_state = 45
 					}
+				}				
 	}
 	
 	option = {
@@ -266,11 +272,14 @@ country_event = {
 				GER = {
 					transfer_state = 47					
 					}
-
-				BUL = {
-					transfer_state = 184
-					transfer_state = 731					
+				if = {
+					limit = { BUL = { controls_state = 48 } }
+					BUL = {
+						transfer_state = 184
+						transfer_state = 731					
 					}
+				}
+
 	}
 	
 	option = {
