@@ -95,7 +95,7 @@ ideas = {
 					has_government = fascism
 					has_government = communism
 					has_war = yes
-					threat > 0.05
+					GER = { has_completed_focus = GER_rhineland }
 				}
 
 				if = {
@@ -153,7 +153,7 @@ ideas = {
 					has_government = fascism
 					has_government = communism
 					has_war = yes
-					threat > 0.15
+					GER = { has_completed_focus = GER_anschluss } 			
 				}
 
 				if = {
@@ -209,7 +209,7 @@ ideas = {
 
 		war_economy = {
 			available = {
-				threat > 0.15
+				GER = { has_completed_focus = GER_anschluss }
 				OR = {
 					has_government = fascism
 					has_government = communism
