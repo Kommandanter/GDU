@@ -2101,7 +2101,7 @@ foreign_politics = {
 				type = annex_everything
 			}
 			declare_war_on = {
-				target = FRA 
+				target = FRF
 				type = annex_everything
 			}
 			declare_war_on = {
