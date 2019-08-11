@@ -259,7 +259,7 @@ equipments = {
 		naval_strike_attack = 15
 		naval_strike_targetting = 8
 
-		build_cost_ic = 39
+		build_cost_ic = 50
 		resources = {
 			#oil = 1
 			aluminium = 2
@@ -760,7 +760,7 @@ equipments = {
 		air_attack = 6
 		air_defence = 13
 
-		build_cost_ic = 41 # cv_version costs 20% more of base archetype
+		build_cost_ic = 50 # cv_version costs 20% more of base archetype
 	}
 	# Improved Carrier nav_bomber
 	cv_nav_bomber_equipment_2 = {
@@ -778,7 +778,7 @@ equipments = {
 		air_defence = 15
 		naval_strike_attack = 20
 		naval_strike_targetting = 10.5
-		build_cost_ic = 44 # cv_version costs 20% more of base archetype
+		build_cost_ic = 55 # cv_version costs 20% more of base archetype
 		resources = {
 			#oil = 1
 			aluminium = 3
@@ -801,7 +801,7 @@ equipments = {
 		air_defence = 17
 		naval_strike_attack = 25
 		naval_strike_targetting = 13
-		build_cost_ic = 47 # cv_version costs 20% more of base archetype
+		build_cost_ic = 58 # cv_version costs 20% more of base archetype
 		resources = {
 			#oil = 2
 			aluminium = 3
@@ -1256,7 +1256,7 @@ equipments = {
 		air_attack = 6
 		air_defence = 13
 
-		build_cost_ic = 41 # cv_version costs 20% more of base archetype
+		build_cost_ic = 50 # cv_version costs 20% more of base archetype
 	}
 	# Improved Carrier nav_bomber
 	ifu_cv_nav_bomber_equipment_2 = {
@@ -1274,7 +1274,7 @@ equipments = {
 		air_defence = 15
 		naval_strike_attack = 20
 		naval_strike_targetting = 10.5
-		build_cost_ic = 44 # cv_version costs 20% more of base archetype
+		build_cost_ic = 55 # cv_version costs 20% more of base archetype
 		resources = {
 			#oil = 1
 			aluminium = 3
@@ -1297,7 +1297,7 @@ equipments = {
 		air_defence = 17
 		naval_strike_attack = 25
 		naval_strike_targetting = 13
-		build_cost_ic = 47 # cv_version costs 20% more of base archetype
+		build_cost_ic = 58 # cv_version costs 20% more of base archetype
 		resources = {
 			#oil = 2
 			aluminium = 3
