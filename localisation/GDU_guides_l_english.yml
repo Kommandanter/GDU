@@ -6,6 +6,7 @@ turn_news_off_gduguides_decisions:0 " Turn Off GDU Guides Decision Category"
 GDU_navy1positioning:0 "GDU Navy1; Poisitioning"
 
 GDU_army1piercing:0 "GDU Army1; Piercing"
+GDU_land2basictemplates:0 "GDU Army2; Basic Division Template Tips"
 
 GDU_air1cas:0 "GDU Air1; CAS"
 GDU_air2gangbang:0 "GDU Air2; (Reverse)Gangbang effect"
@@ -31,3 +32,7 @@ guides.3.a:0 "Thanks for the information."
 guides.4.t:0 "GDU Air2; (Reverse)Gangbang effect"
 guides.4.d:0 "OH NO AIR IS RED, RIP  \n \n  Fear not! in GDU you no longer get a massive air casualties, compared to your enemy , from having less planes flying in the zone  \n  \n It could even be said that gangbang is now reversed and you get very little positive K/D ratios when you use less planes "
 guides.4.a:0 "Thanks for the information."
+
+guides.5.t:0 "GDU Army2; Very Basic Division Template Tips"
+guides.5.d:0 "Firstly, divisions bellow 20w are not allowed, in GDU division templates you make are far diffrent than in vanilla, due to fact that AT, ART, AA, Rifles have their attack, defence, breakthroguh, supply statistics changed a lot  \n \n  In GDU it is a must to have a single AA( one aa in gdu is 2 width) in every single division, Having AA prevents you from being over run easily , reduces effects of air superiorty  and reduces direct damage of enemy cas by 60%  \n \n  In GDU, ART, AT, AA all have good stats, and are actually either as supply efficient as infantry, or even more.  in GDU, NEVER EVER MAKE PURE INFANTRY, rifles have their stats spread among other equipment and other equipment are made cheaper while rifles are more expensive, rifles are basically some defense and HP, nothing more in GDU \n  \n  in GDU, Damage vs brk-defense is far higher than in vanilla, due to this factor, combat is bit faster , so you want to most of the time have Signals on most of your front line-- combat divisions assuming they are made to have reserves-- reinforce in important battles etc. else does not matter if you got 8  40 wdivs or 2 in a tile, a quality division will easily push them at same time \n  \n  as Last, support companies are cheaper, and you can greatly improve quality of your army by making sure all your divisions including reserves have full support companies regardless of doctrine , ( as long as ur not using them to break infra)  "
+guides.5.a:0 "Thanks for the information."
