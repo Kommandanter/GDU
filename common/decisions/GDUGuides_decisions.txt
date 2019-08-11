@@ -98,4 +98,30 @@ GDU_air2gangbang = {
 	
 }
 
+GDU_land2basictemplates = {
+	
+      icon = eng_trade_unions_support
+
+		allowed = {
+		        always = yes
+		}
+        
+        visible = {
+		        always = yes
+		}
+
+		cost = 0
+        
+        complete_effect = {
+			country_event = { id = guides.5 }
+			
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	
+}
+
+
 }
