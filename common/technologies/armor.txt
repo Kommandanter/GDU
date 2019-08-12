@@ -695,8 +695,11 @@ technologies = {
 			leads_to_tech = improved_medium_tank 
 			research_cost_coeff = 1
 		}
-		
-		research_cost = 2
+		path = {
+			leads_to_tech = improved_heavy_tank 
+			research_cost_coeff = 1
+		}
+		research_cost = 1
 		start_year = 1937
 
 		folder = {
@@ -899,10 +902,6 @@ technologies = {
 		path = {
 			leads_to_tech = advanced_medium_tank 
 			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = improved_heavy_tank 
-			research_cost_coeff = 0.9
 		}
 		path = {
 			leads_to_tech = advanced_light_tank
@@ -1482,9 +1481,9 @@ technologies = {
 		}
 		
 		sub_technologies = {
-			basic_heavy_td
-			basic_heavy_art
-			basic_heavy_spaa
+#			basic_heavy_td
+#			basic_heavy_art
+#			basic_heavy_spaa
 		}
 		
 		ai_will_do = {
@@ -1630,12 +1629,12 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 2.5
-		start_year = 1941
+		research_cost = 1.65
+		start_year = 1939
 		
 		folder = {
 			name = armour_folder
-			position = { x = 4 y = 8 }
+			position = { x = 4 y = 6.5 }
 		}
 		
 		sub_technologies = {
