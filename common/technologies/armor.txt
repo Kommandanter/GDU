@@ -1481,7 +1481,7 @@ technologies = {
 		}
 		
 		sub_technologies = {
-#			basic_heavy_td
+			basic_heavy_td
 #			basic_heavy_art
 #			basic_heavy_spaa
 		}
@@ -1630,7 +1630,7 @@ technologies = {
 		}
 		
 		research_cost = 1.65
-		start_year = 1939
+		start_year = 1939.1.1
 		
 		folder = {
 			name = armour_folder
@@ -1638,9 +1638,9 @@ technologies = {
 		}
 		
 		sub_technologies = {
-			improved_heavy_td
-			improved_heavy_art
-			improved_heavy_spaa
+#			improved_heavy_td
+#			improved_heavy_art
+#			improved_heavy_spaa
 		}
 		
 		ai_will_do = {
@@ -1790,9 +1790,9 @@ technologies = {
 		}
 		
 		sub_technologies = {
-			advanced_heavy_td
-			advanced_heavy_art
-			advanced_heavy_spaa
+		    advanced_heavy_td
+#			advanced_heavy_art
+#			advanced_heavy_spaa
 		}
 		
 		ai_will_do = {

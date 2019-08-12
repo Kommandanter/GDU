@@ -504,7 +504,7 @@ technologies = {
 	
 	dispersed_industry = {
 
-		line_change_production_efficiency_factor = 0.1
+		line_change_production_efficiency_factor = 0.15
 		equipment_conversion_speed = 0.20
 		
 		path = {
@@ -570,7 +570,7 @@ technologies = {
 	
 	dispersed_industry2 = {
 
-		line_change_production_efficiency_factor = 0.1
+		line_change_production_efficiency_factor = 0.15
 		
 		path = {
 			leads_to_tech = dispersed_industry3 
@@ -606,7 +606,7 @@ technologies = {
 	
 	dispersed_industry3 = {
 
-		line_change_production_efficiency_factor = 0.1
+		line_change_production_efficiency_factor = 0.15
 		
 		path = {
 			leads_to_tech = dispersed_industry4 
