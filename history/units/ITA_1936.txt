@@ -239,61 +239,61 @@ units = {
 		name = "4a Divisione Alpina 'Cuneense'"
 		location = 11837
 		division_template = "Divisione Alpina"
-		start_experience_factor = 0.39
+		start_experience_factor = 0.49
 	}
 	division= {
 		name = "4a Divisione Alpina 'Cuneense'"
 		location = 11837
 		division_template = "Divisione Alpina"
-		start_experience_factor = 0.39
+		start_experience_factor = 0.49
 	}
 	division= {
 		name = "4a Divisione Alpina 'Cuneense'"
 		location = 11837
 		division_template = "Divisione Alpina"
-		start_experience_factor = 0.39
+		start_experience_factor = 0.49
 	}
 	division= {
 		name = "4a Divisione Alpina 'Cuneense'"
 		location = 11837
 		division_template = "Divisione Alpina"
-		start_experience_factor = 0.39
+		start_experience_factor = 0.49
 	}
 	division= {
 		name = "4a Divisione Alpina 'Cuneense'"
 		location = 11837
 		division_template = "Divisione Alpina"
-		start_experience_factor = 0.39
+		start_experience_factor = 0.49
 	}
 	division= {
 		name = "4a Divisione Alpina 'Cuneense'"
 		location = 11837
 		division_template = "Divisione Alpina"
-		start_experience_factor = 0.39
+		start_experience_factor = 0.49
 	}
 	division= {
 		name = "4a Divisione Alpina 'Cuneense'"
 		location = 11837
 		division_template = "Divisione Alpina"
-		start_experience_factor = 0.39
+		start_experience_factor = 0.49
 	}
 	division= {
 		name = "4a Divisione Alpina 'Cuneense'"
 		location = 11837
 		division_template = "Divisione Alpina"
-		start_experience_factor = 0.39
+		start_experience_factor = 0.49
 	}
 	division= {
 		name = "4a Divisione Alpina 'Cuneense'"
 		location = 11837
 		division_template = "Divisione Alpina"
-		start_experience_factor = 0.39
+		start_experience_factor = 0.49
 	}
 	division= {
 		name = "4a Divisione Alpina 'Cuneense'"
 		location = 11837
 		division_template = "Divisione Alpina"
-		start_experience_factor = 0.39
+		start_experience_factor = 0.49
 	}
 
 
@@ -302,44 +302,7 @@ units = {
 }
 
 ### Air Wings ###
-air_wings = {
-	### 1a Squadra Aerea -- Milan/Turin
 
-	### 3a Squadra Aerea -- Rome
-	2 = {
-		# 5a Divisione Aerea 'Eolo'
-		# 8a Divisione Aerea 'Ibis'
-		fighter_equipment_1 = {
-			owner = "ITA"
-			amount = 100
-		}
-		tac_bomber_equipment_0 =  {
-			owner = "ITA"
-			amount = 100
-		}
-		tac_bomber_equipment_0 =  {
-			owner = "ITA"
-			amount = 100
-		}
-		tac_bomber_equipment_0 =  {
-			owner = "ITA"
-			amount = 100
-		}
-		nav_bomber_equipment_1 = {
-			owner = "ITA"
-			amount = 100
-		}
-		CAS_equipment_1 =  {
-			owner = "ITA"
-			amount = 100
-		}
-	transport_plane_equipment_1 = {
-			owner = "ITA"
-			amount = 25
-		}
-
-	}
- }
 	#########################
 	## STARTING PRODUCTION ##
 	#########################

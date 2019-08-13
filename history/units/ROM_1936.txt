@@ -117,15 +117,7 @@ units = {}
 
 
 ### Fortele Aeriene Regale ale României (FFAR) ###
-air_wings = {
-	46 = {
-		# Grup 1 Avion de Vanatoare -- PZL P.11 fighters
-		fighter_equipment_0 = {
-			owner = "ROM" 
-			amount = 80
-		}
-	}
-}
+
 
 ### Starting Production ###
 instant_effect = {
