@@ -303,6 +303,31 @@ units = {
 
 ### Air Wings ###
 
+air_wings = {
+	 
+	 	2 = { 
+
+	 	transport_plane_equipment_1 = {
+			owner = "ITA"
+		
+			amount = 25
+		}
+
+		nav_bomber_equipment_1 = {
+			owner = "ITA"
+		
+			amount = 100
+		}
+       
+
+        }
+
+
+
+
+
+}
+
 	#########################
 	## STARTING PRODUCTION ##
 	#########################

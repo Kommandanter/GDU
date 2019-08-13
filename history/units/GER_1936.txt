@@ -492,21 +492,13 @@ air_wings = {
 			creator = "ITA"
 			amount = 100
 		}
-		nav_bomber_equipment_1 = {
-			owner = "GER"
-			creator = "ITA"
-			amount = 100
-		}
+		
 		CAS_equipment_1 =  {
 			owner = "GER"
 			creator = "ITA"
 			amount = 100
 		}
-	transport_plane_equipment_1 = {
-			owner = "GER"
-			creator = "ITA"
-			amount = 25
-		}
+	
 
 	}
 
