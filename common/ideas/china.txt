@@ -826,24 +826,6 @@ ideas = {
 			traits = { compassionate_gentleman }
 		}
 
-		CHI_dai_li = {
-
-			picture = GFX_idea_chi_dai_li
-
-			available = {
-				has_completed_focus = CHI_bureau_of_investigation_and_statistics				
-			}
-			
-			allowed = {
-				OR = {
-					original_tag = CHI
-					is_chinese_warlord = yes
-				}
-				has_dlc = "Waking the Tiger"
-			}
-			
-			traits = { prince_of_terror }
-		}
 
 		CHI_lin_sen = {
 
@@ -884,24 +866,7 @@ ideas = {
 			traits = { first_lady }
 		}
 
-		CHI_t_v_soong = {
-
-			picture = GFX_idea_chi_t_v_soong
-
-			available = {
-				has_completed_focus = CHI_financial_policy
-			}
-			
-			allowed = {
-				OR = {
-					original_tag = CHI
-					is_chinese_warlord = yes
-				}
-				has_dlc = "Waking the Tiger"
-			}
-			
-			traits = { financial_expert }
-		}
+		
 	}	
 
 	army_chief = {

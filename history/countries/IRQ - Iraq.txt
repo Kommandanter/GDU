@@ -1,7 +1,7 @@
 ﻿capital = 291
 
 oob = "IRQ_1936"
-
+set_research_slots = 0
 add_ideas = { 
 	iran_neutrality
 }
