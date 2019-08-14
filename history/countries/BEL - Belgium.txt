@@ -2,7 +2,7 @@
 
 oob = "BEL_1936"
 
-set_research_slots = 3
+set_research_slots = 0
 add_timed_idea = { idea = turkish_neutrality  days = 920 }
 
 set_technology = {

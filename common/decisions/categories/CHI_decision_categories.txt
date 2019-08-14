@@ -18,16 +18,6 @@ CHI_army_reform = {
 	}
 }
 
-CHI_industrial_evacuations = {
-	allowed = {
-		tag = CHI 
-	}
-	icon = generic_industry
-	visible = {
-		has_completed_focus = CHI_industrial_evacuations
-	}
-}
-
 
 CHI_xian_incident = {
 	icon = power_struggle

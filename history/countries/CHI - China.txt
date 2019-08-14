@@ -3,6 +3,7 @@
 oob = "CHI_1936"
 set_stability = 0.35
 set_war_support = 0.70
+set_research_slots = 0
 if = {
 	limit = { has_dlc = "Man the Guns" }
 		set_naval_oob = "CHI_1936_naval_mtg"
