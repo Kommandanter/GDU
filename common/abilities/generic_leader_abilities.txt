@@ -21,7 +21,13 @@ ability = {
 			}
 			OWNER = {
 				NOT = { tag = FRA }
-			}					
+			}
+			AND = {
+				OWNER = {
+					NOT = { tag = ENG }
+				}
+				NOT = { has_global_flag = fall_of_france }
+			}			
 		}
 
 		ai_will_do = {
@@ -73,6 +79,12 @@ ability = {
 			}
 			OWNER = {
 				NOT = { tag = FRA }
+			}
+			AND = {
+				OWNER = {
+					NOT = { tag = ENG }
+				}
+				NOT = { has_global_flag = fall_of_france }
 			}			
 		}
 		
