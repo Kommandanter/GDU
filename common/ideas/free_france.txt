@@ -75,7 +75,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				defensive_war_stability_factor = 0.1
+				defensive_war_stability_factor = 0.3
 				consumer_goods_factor = -0.05
 			}
 		}

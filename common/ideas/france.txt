@@ -39,6 +39,7 @@ ideas = {
 				conversion_cost_civ_to_mil_factor = 3.0
 				production_speed_naval_base_factor = -3
 				lend_lease_tension = 1.0
+				consumer_goods_factor = 0.04
 			}
 			
 		}
@@ -60,7 +61,7 @@ ideas = {
 
 			research_bonus = {
 				land_doctrine = -0.4
-				air_doctrine = -0.4 
+				air_doctrine = -2.0 
 				naval_doctrine = -0.4
 			}
 
