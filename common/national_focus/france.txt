@@ -117,7 +117,7 @@ focus_tree = {
 				limit = { has_state_flag = FRA_algerie_france_4Inf }
 				add_building_construction = {
 					type = infrastructure
-					level = 4
+					level = 5
 					instant_build = yes
 				}
 			}
@@ -138,11 +138,25 @@ focus_tree = {
 							size > 2
 						}
 					}
+					694 = {
+						free_building_slots = {
+							building = infrastructure
+							size > 2
+						}
+					}
 				}
 				310 = {
 					add_building_construction = {
 						type = infrastructure
-						level = 2
+						level = 1
+						instant_build = yes
+					}
+					set_state_flag = FRA_algerie_france_2Inf
+				}
+				694 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 1
 						instant_build = yes
 					}
 					set_state_flag = FRA_algerie_france_2Inf
@@ -150,7 +164,7 @@ focus_tree = {
 				539 = {
 					add_building_construction = {
 						type = infrastructure
-						level = 2
+						level = 4
 						instant_build = yes
 					}
 					add_building_construction = {
