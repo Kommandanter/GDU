@@ -8,10 +8,10 @@
  FRA_france_libre_effect_1: "Will gain a division of Infantry in Alexandria."
  FRA_sway_west_africa:0 "Battle for Dakar"
  FRA_sway_west_africa_desc:0 "Pierre Boisson, the governor-general of French Equatorial Africa, is a staunch supporter of the Vichy regime. We must secure the African Colonies as they offer vital manpower and African colonial troops by launching Operation Menace and capturing the vital port of Dakar."
- west_africa_sway_tt:0 "Will attempt to retake the French Equatorial Africa from Vichy."
+ west_africa_sway_tt:0 "Will retake the French Equatorial Africa from Vichy."
  FRA_sway_syria:0 "The Fate of Syria and Lebanon"
  FRA_sway_syria_desc:0 "With the Iraqi coup d'état from the nationalists led by Rashid Ali who appealed for German support, we must secure Syria and the Levant in order to counter the German weapon traffic and retake our rightful colonial possession. We must ask the English for help this time !"
- syria_sway_tt:0 "Will attempt to retake Syria from the traitors in Vichy."
+ syria_sway_tt:0 "Will retake Syria from the traitors in Vichy."
  man_sway_tt:0 "Will reclaim Madagascar for Free France."
  FRA_organize_the_resistance:0 "North African Resistance"
  FRA_organize_the_resistance_desc: "We must regroup and organize all the willing french in France, whether under the yoke of the Germans or the false Vichy government. We must coordinate the Allies effort to build networks of propagandists, spies and saboteurs to harass and discomfit the occupiers and eventually organize all the leaders of these separate and fragmented Résistance organizations under the auspices of the National Council of Resistance (CNR)."
@@ -39,7 +39,7 @@
  FRA_free_france_desc:0 "Forces Françaises Libres"
  FRA_free_france_effect_1:0 "Will gain a division of desert troops in Alexandria."
  FRA_free_france_operation_exporter_tt:0 "Will gain an Infantry Division in Damas"
- FRA_fighters:0 "French Fighter command will send a squadron of aircraft to the eastern front.\n\n " 
+ FRA_fighters:0 "French Fighter command will send a squadron of aircraft to the eastern front. \n\n " 
 
  #EVENTS
  # FFL
