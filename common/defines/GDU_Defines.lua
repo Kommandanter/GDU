@@ -234,7 +234,7 @@ NDefines.NNavy.FUEL_COST_MULT = 0.07 -- fuel multiplier for all naval missions
 --- Modifier Changes 
 																	-- Modifier changes 
 NDefines.NMilitary.UNIT_DIGIN_CAP = 2.0
-NDefines.NMilitary.PLANNING_MAX = 0.2                           	-- can get more from techs
+NDefines.NMilitary.PLANNING_MAX = 0.3                           	-- can get more from techs
 
 NDefines.NMilitary.ANTI_AIR_TARGETTING_TO_CHANCE = 0.01	-- Balancing value to determine the chance of ground AA hitting an attacking airplane, affecting both the effective average damage done by AA to airplanes, and the reduction of damage done by airplanes due to AA support
 NDefines.NMilitary.ANTI_AIR_ATTACK_TO_AMOUNT = 0.001				-- Balancing value to convert equipment stat anti_air_attack to the random % value of airplanes being hit.
@@ -242,6 +242,7 @@ NDefines.NMilitary.ANTI_AIR_ATTACK_TO_AMOUNT = 0.001				-- Balancing value to co
 NDefines.NAir.AIR_MORE_GROUND_CREWS_COST = 500.0 -- Disables ground crews. They're cancerous. 
 NDefines.NAir.ACCIDENT_CHANCE_BASE = 0.05
 NDefines.NAir.COMBAT_DAMAGE_SCALE = 0.03
+NDefines.NAir.COMBAT_DAMAGE_SCALE_CARRIER = 6
 
 NDefines.NAir.AIR_DEPLOYMENT_DAYS = 0							-- Days to deploy one air wing
 
@@ -310,7 +311,7 @@ NDefines.NAir.NAVAL_STRIKE_DETECTION_BALANCE_FACTOR = 0.08		-- Value used to sca
 
 
 
-NDefines.NAir.CARRIER_HOURS_DELAY_AFTER_EACH_COMBAT = 1          -- how often carrier planes do battle inside naval combat
+NDefines.NAir.CARRIER_HOURS_DELAY_AFTER_EACH_COMBAT = 2          -- how often carrier planes do battle inside naval combat
 
 NDefines.NNavy.CARRIER_STACK_PENALTY = 5										-- The most efficient is 4 carriers in combat. 5+ brings the penalty to the amount of wings in battle.
 NDefines.NNavy.CARRIER_STACK_PENALTY_EFFECT = 0.2								-- Each carrier above the optimal amount decreases the amount of airplanes being able to takeoff by such %.
