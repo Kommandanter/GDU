@@ -7,10 +7,7 @@ NDefines_Graphics.NMapMode.MAP_MODE_TERRAIN_TRANSPARENCY = 0.8
 NDefines_Graphics.NMapMode.RADAR_ROTATION_SPEED = 0.0
 
 
-NDefines_Graphics.NGraphics.STRATEGIC_AIR_COLOR_GOOD = {0.8, 0.8, 0, 1}
-NDefines_Graphics.NGraphics.STRATEGIC_AIR_COLOR_AVERAGE = {0, 0.8, 0, 1}
-NDefines_Graphics.NGraphics.STRATEGIC_AIR_COLOR_GOOD_WHILE_HIGHLIGHTING_HOLD = {0.8, 0.8, 0, 1}
-NDefines_Graphics.NGraphics.STRATEGIC_AIR_COLOR_AVERAGE_WHILE_HIGHLIGHTING_HOLD = {0, 0.8, 0, 1}
+
 
 NDefines_Graphics.NMapMode.AIR_RANGE_INDICATOR_ROTATION_SPEED = 0.000									-- How quickly is that indicator rotating
 
