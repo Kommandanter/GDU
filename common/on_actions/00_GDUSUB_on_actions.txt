@@ -59,25 +59,15 @@ on_actions = {
 
 
    # they are deleted in diffrent days to prevent desync  caused by their sudden deletion
-      USA = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 1095 } }
-      CAN = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 732 } }
-      RAJ = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 734 } }
-      SAF = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 736 } }
-      NZL = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 740 } }
-      AST = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 738 } }
-      ENG = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 730 } }
-      FRA = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 742 } }
-      SOV = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 882 } }
-      FIN = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 884 } }
-      HUN = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 750 } }
-      ROM = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 748 } }
-      BUL = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 752 } } 
-#     SPR = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 754 } }
-      ITA = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 746 } }
-      GER = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 744 } }
-      JAP = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 1100 } }
-      MAN = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 1102 } }
+    
    # they are deleted in diffrent days to prevent desync  caused by their sudden deletion
+     if = {
+
+      limit = {
+       NOT = {
+        ENG = { is_ai = yes }
+        }
+      }
       USA = { add_timed_idea = { idea = airandnavy_idea days = 1668 } }
       CAN = { add_timed_idea = { idea = airandnavy_idea days = 1160 } }      
       RAJ = { add_timed_idea = { idea = airandnavy_idea days = 1162 } }
@@ -96,130 +86,31 @@ on_actions = {
       GER = { add_timed_idea = { idea = airandnavy_idea days = 1188 } }
       JAP = { add_timed_idea = { idea = airandnavy_idea days = 1662 } }
       MAN = { add_timed_idea = { idea = airandnavy_idea days = 1660 } }
+      USA = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 1095 } }
+      CAN = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 732 } }
+      RAJ = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 734 } }
+      SAF = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 736 } }
+      NZL = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 740 } }
+      AST = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 738 } }
+      ENG = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 730 } }
+      FRA = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 742 } }
+      SOV = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 882 } }
+      FIN = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 884 } }
+      HUN = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 750 } }
+      ROM = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 748 } }
+      BUL = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 752 } } 
+#     SPR = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 754 } }
+      ITA = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 746 } }
+      GER = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 744 } }
+      JAP = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 1100 } }
+      MAN = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 1102 } }
        
+      }
 
 
 
-       #### Annexing stupid nations
-             BRA = {	
-				annex_country = {
-							target = COL
-							transfer_troops = no
-				}
-			}
-			
-			 BRA = {	
-				annex_country = {
-							target = PRU
-							transfer_troops = no
-				}
-			}
-			 BRA = {	
-				annex_country = {
-							target = BOL
-							transfer_troops = no
-				}
-			} BRA = {	
-				annex_country = {
-							target = PAR
-							transfer_troops = no
-				}
-			}
-			 BRA = {	
-				annex_country = {
-							target = CHL
-							transfer_troops = no
-				}
-			}
-			 BRA = {	
-				annex_country = {
-							target = ARG
-							transfer_troops = no
-				}
-			}
-			 BRA = {	
-				annex_country = {
-							target = URG
-							transfer_troops = no
-				}
-			}
-			
-			 SWI = {	
-				annex_country = {
-							target = BHU
-							transfer_troops = no
-				}
-			}
-			 SWI = {	
-				annex_country = {
-							target = TIB
-							transfer_troops = no
-				}
-			}
-		
-			 SWI = {	
-				annex_country = {
-							target = AFG
-							transfer_troops = no
-				}
-			}
-				 MEX = {	
-				annex_country = {
-							target = PAN
-							transfer_troops = no
-				}
-			}
-			 MEX = {	
-				annex_country = {
-							target = COS
-							transfer_troops = no
-				}
-			}
-		
-			 MEX = {	
-				annex_country = {
-							target = NIC
-							transfer_troops = no
-				}
-			}
-				 MEX = {	
-				annex_country = {
-							target = HON
-							transfer_troops = no
-				}
-			}
-			 MEX = {	
-				annex_country = {
-							target = ELS
-							transfer_troops = no
-				}
-			}
-		
-			 MEX = {	
-				annex_country = {
-							target = GUA
-							transfer_troops = no
-				}
-			}
-				 MEX = {	
-				annex_country = {
-							target = CUB
-							transfer_troops = no
-				}
-			}
-			 MEX = {	
-				annex_country = {
-							target = DOM
-							transfer_troops = no
-				}
-			}
-		
-			 MEX = {	
-				annex_country = {
-							target = HAI
-							transfer_troops = no
-				}
-			} 
+
+       ## Annexing stupid nations 
 			 CHI = {	
 				annex_country = {
 							target = PRC
@@ -250,20 +141,7 @@ on_actions = {
 							transfer_troops = no
 				}
 			}
-             SWI = {	
-				annex_country = {
-							target = BRA
-							transfer_troops = no
-				}
-			}
-		
-			
-			 SWI = {	
-				annex_country = {
-							target = SAU
-							transfer_troops = no
-				}
-			}
+           
 
 
 
