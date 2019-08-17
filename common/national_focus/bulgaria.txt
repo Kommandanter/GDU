@@ -479,64 +479,6 @@ focus_tree = {
 	}
 
 	focus = {
-		id = BUL_oppress_macedonians
-		icon = GFX_goal_generic_political_pressure
-		prerequisite = { focus = BUL_The_Balkan_Strategy }
-		x = 1
-		y = 4
-		cost = 5
-
-		available_if_capitulated = no
-
-		completion_reward = {
-			add_state_core = 731
-			add_manpower = -25000
-	    }
-	}
-
-	focus = {
-		id = BUL_Prepare_For_War
-		icon = GFX_goal_generic_political_pressure
-		prerequisite = { focus = BUL_oppress_macedonians}
-		x = 1
-		y = 5
-		cost = 5
-
-		available_if_capitulated = no
-
-		completion_reward = {
-        GER = { country_event = { id = germany.106 }}
-		add_state_core = 77
-
-	    }
-	}
-
-	focus = {
-		id = BUL_Reclaim_Greek_States
-		icon = GFX_goal_generic_occupy_states_ongoing_war
-		prerequisite = { focus = BUL_Prepare_For_War }
-		available = {
-			threat > 0.50
-			NOT = { is_in_faction_with = GRE }
-			country_exists = GRE
-		}
-		will_lead_to_war_with = GRE
-		x = 1
-		y = 6
-		cost = 5
-		ai_will_do = {
-			factor = 10
-		}
-		completion_reward = {
-			create_wargoal = {
-				type = take_state_focus
-				target = GRE
-				generator = { 184 }
-			}
-		}
-	}
-
-	focus = {
 		id = BUL_Highway_Development
 		icon = GFX_goal_generic_construct_infrastructure
 		x = 10
