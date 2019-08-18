@@ -31,6 +31,90 @@ set_autonomy = {
 	target = MEN 
 	autonomous_state =  autonomy_Imperial_Protectorate 
 }
+add_ace = {
+    name = "Hideki"
+    surname = "Kongo"
+    callsign = "Banzai"
+    type = fighter_genius
+    is_female = yes
+}
+add_ace = {
+    name = "Tomoyuki"
+    surname = "Toyota"
+    callsign = "NoAir"
+    type = fighter_genius
+    is_female = yes
+}
+add_ace = {
+    name = "Yokasuka"
+    surname = "Hiryu"
+    callsign = "DeckSpace"
+    type = fighter_genius
+    is_female = yes
+}
+add_ace = {
+    name = "Akagi"
+    surname = "Soryu"
+    callsign = "Radar"
+    type = fighter_genius
+    is_female = yes
+}
+add_ace = {
+    name = "Adachi"
+    surname = "Yamashita"
+    callsign = "Scubaman"
+    type = support_genius
+    is_female = yes
+}
+add_ace = {
+    name = "Tosh"
+    surname = "Iba"
+    callsign = "Garbageman"
+    type = support_genius
+    is_female = yes
+}
+add_ace = {
+    name = "Mitsu"
+    surname = "Bishi"
+    callsign = "FirstinLastout"
+    type = support_genius
+    is_female = yes
+}
+add_ace = {
+    name = "Sony"
+    surname = "Zaibatsu"
+    callsign = "Kobe"
+    type = support_genius
+    is_female = yes
+}
+add_ace = {
+    name = "Aomine"
+    surname = "Daikin"
+    callsign = "Not"
+    type = support_genius
+    is_female = yes
+}
+add_ace = {
+    name = "Superior"
+    surname = "Will"
+    callsign = "pure"
+    type = support_genius
+    is_female = yes
+}
+add_ace = {
+    name = "Emperors"
+    surname = "Girl"
+    callsign = "Favourite"
+    type = support_genius
+    is_female = yes
+}
+add_ace = {
+    name = "Casio"
+    surname = "Zaibatsu"
+    callsign = "Ticking"
+    type = support_genius
+    is_female = yes
+}
 
 set_technology = {
 	interwar_antiair = 1
