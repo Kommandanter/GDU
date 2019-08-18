@@ -396,7 +396,7 @@ tank_manufacturer = {
 
 
 
-			traits = { army_infantry_2 }
+			traits = { army_commando_2 }
 
 			ai_will_do = {
 				factor = 1
