@@ -474,7 +474,7 @@ foreign_politics = {
 	
 		available = { 
 			has_completed_focus = GER_ussr_war_goal
-			date > 1941.5.16
+			date > 1941.6.1
 			NOT = { has_war_with = SOV } 
 		}	
 	
