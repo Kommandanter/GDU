@@ -1464,7 +1464,9 @@ focus_tree = {
 				name = NZL_schofield_tank
 				bonus = 1.00 
 				uses = 1
+				
 				category = cat_light_armor
+				category = cat_medium_armor
 			}
 		}
 	}

@@ -411,7 +411,7 @@ sub_units = {
 
 		#Size Definitions
 		max_strength = 25
-		max_organisation = 45
+		max_organisation = 52
 		default_morale = 0.4
 		manpower = 1000
 
@@ -471,7 +471,7 @@ sub_units = {
 		training_time = 120
 		suppression = 1
 		weight = 0.4
-		supply_consumption = 0.07
+		supply_consumption = 0.06
 		breakthrough = 0.20
 
 		need = {
