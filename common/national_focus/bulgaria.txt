@@ -937,70 +937,27 @@ focus_tree = {
 		available_if_capitulated = yes
 
 
-		complete_tooltip = {
-			air_experience = 25
-			if = { limit = { has_country_flag = aviation_effort_AB }
-				add_building_construction = {
-					type = air_base
-					level = 2
-					instant_build = yes
-				}
-			}
-			add_tech_bonus = {
-				name = air_doc_bonus
-				bonus = 1.00 
-				uses = 1
-				category = air_doctrine
-			}
-		}
+		
 
 		completion_reward = {
 			air_experience = 25
 
-			if = {
-				limit = {
-					capital_scope = {
-						NOT = {
-							free_building_slots = {
-								building = air_base
-								size > 1
-							}
-						}
-					}
-				}
-				random_owned_controlled_state = {
-					limit = {
-						free_building_slots = {
-							building = air_base
-							size > 1
-						}
-					}
+			211  = {
 					add_building_construction = {
 						type = air_base
-						level = 2
+						level = 5
 						instant_build = yes
-					}
-					ROOT = { set_country_flag = aviation_effort_AB }
-				}
+					}					
 			}
-			if = {
-				limit = {
-					capital_scope = {
-						free_building_slots = {
-							building = air_base
-							size > 1
-						}
-					}
-				}
-				capital_scope = {
+			212  = {
 					add_building_construction = {
 						type = air_base
-						level = 2
+						level = 5
 						instant_build = yes
-					}
-					ROOT = { set_country_flag = aviation_effort_AB }
-				}
+					}					
 			}
+
+
 			add_tech_bonus = {
 				name = air_doc_bonus
 				bonus = 1.00 

@@ -192,7 +192,8 @@ country_event = {
 				GER = { declare_war_on = { target = FRF type = annex_everything } }
 					
 				country_event = { id = gduvichy.7 days = 3 }
-				FRF = { news_event = { id = france.20 days = 1 } }				
+				FRF = { news_event = { id = france.20 days = 1 } }
+				EFR = { country_event = { id = france.1 } }				
 					
 	}
 	
