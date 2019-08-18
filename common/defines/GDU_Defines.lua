@@ -234,7 +234,7 @@ NDefines.NNavy.FUEL_COST_MULT = 0.07 -- fuel multiplier for all naval missions
 --- Modifier Changes 
 																	-- Modifier changes 
 NDefines.NMilitary.UNIT_DIGIN_CAP = 2.0
-NDefines.NMilitary.PLANNING_MAX = 0.3                           	-- can get more from techs
+NDefines.NMilitary.PLANNING_MAX = 0.2                           	-- can get more from techs
 
 NDefines.NMilitary.ANTI_AIR_TARGETTING_TO_CHANCE = 0.01	-- Balancing value to determine the chance of ground AA hitting an attacking airplane, affecting both the effective average damage done by AA to airplanes, and the reduction of damage done by airplanes due to AA support
 NDefines.NMilitary.ANTI_AIR_ATTACK_TO_AMOUNT = 0.001				-- Balancing value to convert equipment stat anti_air_attack to the random % value of airplanes being hit.
