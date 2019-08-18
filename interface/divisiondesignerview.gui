@@ -155,9 +155,9 @@ guiTypes = {
 			
 			gridboxtype = {
 				name = "support_grid"
-				position = { x = 23 y = 57 }
+				position = { x = 23 y = 61 }
 				size = { width = 85 height = 100%% }
-				slotsize = { width = 82 height = 42 }
+				slotsize = { width = 82 height = 32 }
 				format = "UPPER_LEFT"
 			}
 			
@@ -976,7 +976,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "designer_division_support_slot_entry"
 		position = { x=0 y=0}	
-		size = { width=64 height=44 }
+		size = { width=64 height=34 }
 		clipping = no
 
 		background = {
@@ -999,7 +999,7 @@ guiTypes = {
 		buttonType = {
 			name = "unit_icon"
 			spriteType = "GFX_locked_icon"
-			position = {x=2 y=11}
+			position = {x=2 y=1}
 			Orientation = CENTER_LOWER
 			scale = 0.8
 			clicksound = click_default
@@ -1007,7 +1007,7 @@ guiTypes = {
 
 		buttonType = {
 			name = "invisible_icon"
-			position = { x = 2 y = 12 }
+			position = { x = 2 y = 2 }
 			spriteType = "GFX_cost_textbox_inv"
 			Orientation = CENTER_LOWER
 			scale = 0.8
