@@ -24,7 +24,7 @@ set_technology = {
         early_battleship = 1
 	early_battlecruiser = 1
 }
-
+add_ideas = { disloyal_puppet_idea_phi }
 set_convoys = 5
 
 1939.1.1 = {

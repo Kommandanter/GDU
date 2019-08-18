@@ -19,6 +19,7 @@ ideas = {
 
 			modifier = {
             	enemy_justify_war_goal_time = 5.0
+            	surrender_limit = -0.25
 			}
 		}
 		

@@ -47,6 +47,7 @@ if = {
 
 add_ideas = { 
 	benelux_neutrality
+	disloyal_puppet_idea
 }
 
 set_convoys = 25
