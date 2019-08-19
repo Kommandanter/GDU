@@ -991,6 +991,10 @@ focus_tree = {
 		available = {
 			has_war_support > 0.49
 		}
+		
+		cancel_if_invalid = no
+		continue_if_invalid = yes		
+		
 		complete_tooltip = {
 			every_state = {
 				limit = { has_state_flag = GER_german_war_economy }
