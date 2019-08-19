@@ -138,6 +138,8 @@ country_event = {
 					transfer_state = 741
 					transfer_state = 286
 					
+				EFR = { country_event = { id = france.1 days = 5 } }							
+					
 				country_event = { id = gduvichy.8 days = 3 }				
 				
 	}
@@ -193,7 +195,6 @@ country_event = {
 					
 				country_event = { id = gduvichy.7 days = 3 }
 				FRF = { news_event = { id = france.20 days = 1 } }
-				EFR = { country_event = { id = france.1 } }				
 					
 	}
 	
