@@ -11,9 +11,6 @@ state={
 
 	history={
 		owner = ENG
-		victory_points = {
-			4982 1
-		}
 		buildings = {
 			infrastructure = 2
 			4982 = {
