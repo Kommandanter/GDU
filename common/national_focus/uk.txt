@@ -620,25 +620,7 @@ focus_tree = {
 		id = shadow_scheme_focus
 		prerequisite = { focus = ENG_home_defence }
 		available = {
-			if = {
-				limit = {
-					has_dlc = "Man the Guns"
-				}
-				OR = {
-					threat > 0.05
-					has_war = yes
-					NOT = { has_government = democratic }
-				}
-			}
-			if = {
-				limit = {
-					NOT = { has_dlc = "Man the Guns" }
-				}
-				OR = {
-					threat > 0.05
-					has_war = yes
-				}
-			}
+
 		}
 
 		continue_if_invalid = yes
