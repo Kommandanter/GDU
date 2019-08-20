@@ -24,13 +24,13 @@ add_equipment_to_stockpile = {
 }  
 add_equipment_to_stockpile = {
          type = support_equipment
-         amount = 750
+         amount = 2750
          producer = CZE
 } 
 
 add_equipment_to_stockpile = {
          type = infantry_equipment_1
-         amount = 8000
+         amount = 68000
          producer = CZE
 } 
 set_research_slots = 3
