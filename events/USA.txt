@@ -5,85 +5,10 @@
 add_namespace = usa
 
 # Amelia Eartharts wants to join the USAAC
-country_event = {
-	id = usa.1
-	title = usa.1.t
-	desc = usa.1.d
-	picture = GFX_report_event_usa_amelia_earhart_airplane
 
-	fire_only_once = yes
-	
-	trigger = {
-		tag = USA
-		has_war = yes
-		NOT = { has_global_flag = earhart_disappeared }
-	}
-	
-	mean_time_to_happen = {
-		days = 30
-	}
-	
-	option = { # Let her join
-		name = usa.1.a
-		add_political_power = -10
-		add_ace = {
-			name = "Amelia"
-			surname = "Earhart"
-			callsign = "Revenant"
-			type = fighter_genius
-			is_female = yes
-		}
-		set_country_flag = amelia_active_ace
-	}
-	option = { # Refuse
-		name = usa.1.b
-	}
-}
 
 # Pearl Harbor Gambit
-country_event = {
-	id = usa.3
-	title = usa.3.t
-	desc = usa.3.d
-	picture = GFX_report_event_usa_pearl_harbor_airphoto
 
-	fire_only_once = yes
-
-	trigger = {
-		tag = JAP
-		USA = {
-			focus_progress = {
-				focus = USA_pearl_harbor_gambit
-				progress > 0.1
-			}
-		}
-	}
-
-	mean_time_to_happen = {
-		days = 21
-		modifier = {
-			factor = 0.5
-			USA = {
-				focus_progress = {
-					focus = USA_pearl_harbor_gambit
-					progress > 0.6
-				}
-			}
-		}
-	}
-
-	option = {
-		name = usa.3.a
-		USA = {
-			add_war_support = 0.5
-		}
-		create_wargoal = {
-			type = take_state
-			target = USA
-			generator = { 629 } # Hawaii
-		}
-	}
-}
 
 # Destroyers for Bases
 country_event = {
@@ -659,58 +584,7 @@ country_event = {
 	}
 }
 
-# Fascist US reacts to Commienazis 
-country_event = {
-	id = usa.14
-	title = usa.14.t
-	desc = usa.14.d
-	picture = GFX_report_event_molotov_ribentrop_handshake
 
-	is_triggered_only = yes
-
-	trigger = {
-		tag = USA
-		has_government = fascism
-		is_puppet = no
-	}
-	
-	option = { 
-		name = usa.14.a
-		set_politics = {
-			ruling_party = democratic
-			elections_allowed = yes
-		}
-		set_political_party = {
-			ideology = democratic
-			popularity = 0.5
-		}
-		remove_ideas = great_depression
-		add_war_support = 0.2
-		add_timed_idea = { idea = fascism_defeated days = 730 }
-		if = {
-			limit = {
-				ENG = {
-					is_faction_leader = yes
-					NOT = { has_war_with = USA }
-				}
-			}
-			ENG = { add_to_faction = USA }
-			USA = {
-				add_ai_strategy = {
-					type = alliance
-					id = "ENG"
-					value = 200
-				}
-			}
-		}
-		add_opinion_modifier = { target = GER modifier = unholy_alliance }
-	}
-
-	option = {
-		name = usa.14.b
-		ai_chance = { factor = 0 }
-	}
-}
 
 #DO NOT USE USA.15 AS EVENT ID
 #It will make the event text pop up as the name or requirement for two radar technologies for Finland if they are Fascist due to a hash conflict.
@@ -954,60 +828,6 @@ country_event = {
 
 }
 
-
-# Communist US reacts to Commienazis 
-country_event = {
-	id = usa.24
-	title = usa.24.t
-	desc = usa.24.d
-	picture = GFX_report_event_molotov_ribentrop_handshake
-
-	is_triggered_only = yes
-
-	trigger = {
-		tag = USA
-		has_government = communism 
-		is_puppet = no
-	}
-	
-	option = { 
-		name = usa.24.a
-		set_politics = {
-			ruling_party = democratic
-			elections_allowed = yes
-		}
-		set_political_party = {
-			ideology = democratic
-			popularity = 0.5
-		}
-		remove_ideas = great_depression
-		add_war_support = 0.2
-		add_timed_idea = { idea = communism_defeated days = 730 }
-		if = {
-			limit = {
-				ENG = {
-					is_faction_leader = yes
-					NOT = { has_war_with = USA }
-				}
-			}
-			ENG = { add_to_faction = USA }
-			USA = {
-				add_ai_strategy = {
-					type = alliance
-					id = "ENG"
-					value = 200
-				}
-			}
-		}
-		add_opinion_modifier = { target = GER modifier = unholy_alliance }
-		add_opinion_modifier = { target = SOV modifier = unholy_alliance }
-	}
-
-	option = {
-		name = usa.24.b
-		ai_chance = { factor = 0 }
-	}
-}
 
 # US congress elections - outcome
 country_event = {

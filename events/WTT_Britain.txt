@@ -223,30 +223,7 @@ country_event = {
 	}
 }
 
-# Was is over - Give control back to POR
-country_event = {
-	id = wtt_britain_lease_azores.4
-	title = wtt_britain_lease_azores.4.t
-	desc = wtt_britain_lease_azores.4.desc
-	picture = GFX_report_event_ast_navy
 
-	trigger = {
-		has_country_flag = wtt_britain_lease_azores_accepted
-		has_war = no
-	}
-
-	mean_time_to_happen = { days = 2 }
-
-	fire_only_once = yes
-	
-	option = {
-		name = wtt_britain_lease_azores.4.a
-		POR = {
-			transfer_state = 698
-			country_event = wtt_britain_lease_azores.5
-		}
-	}
-}
 
 country_event = {
 	id = wtt_britain_lease_azores.5

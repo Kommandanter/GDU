@@ -135,9 +135,7 @@ country_event = {
 					transfer_state = 741
 				}
 			}
-			hidden_effect = {
-				news_event = { id = wtt_news.25 hours = 6 }
-			}
+			
 		}
 	}
 }
@@ -625,56 +623,6 @@ country_event = {
 	}
 }
 
-# Notification event for Phillipines upon USA giving full sovereignty to the Phillipines
-country_event = {
-	id = wtt_japan.107
-	title = wtt_japan.104.t
-	desc = wtt_japan.107.desc
-	picture = GFX_report_event_generic_usa_treaty
-
-	is_triggered_only = yes
-
-	option = {
-		name = wtt_japan.107.a
-		ai_chance = {
-			base = 1
-		}
-		effect_tooltip = {
-			USA = { set_autonomy = { target = PHI autonomy_state = autonomy_free } }
-		}
-		hidden_effect = {
-			news_event = { id = wtt_news.26 hours = 6 }
-		}
-	}
-}
-
-# Coup placing Hirohito back in full control of the country
-country_event = {
-	id = wtt_japan.108
-	title = wtt_japan.108.t
-	desc = wtt_japan.108.desc
-	picture = GFX_report_event_japanese_parade
-
-	is_triggered_only = yes
-
-	option = {
-		name = wtt_japan.108.a
-		set_politics = { ruling_party = neutrality elections_allowed = no }
-		add_popularity = { ideology = neutrality popularity = 0.9 }
-		create_country_leader = {
-			name = "Hirohito"
-			desc = "POLITICS_Hirohito_DESC"
-			picture = "Portrait_Japan_Hirohito.dds"
-			expire = "1989.1.1"
-			ideology = despotism
-			traits = {
-				warrior_code
-			}
-			id = 700 #Hirohito
-		}
-		hidden_effect = { news_event = { id = wtt_news.27 hours = 6 } }
-	}
-}
 
 ### ###  ### ###   ##  ###  ### ### ### ###     ###   ##   ##  ###
  #  #  #  #  #  # #  # #  #  #   #   #  #       #  # #  # #  #  #

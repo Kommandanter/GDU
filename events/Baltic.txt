@@ -215,13 +215,7 @@ country_event = {
 		}
 		SOV = { country_event = { id = soviet.36 days = 1 } }
 	}
-	option = { # Stay as own communist state
-		name = baltic.5.c
-		trigger = {
-			is_puppet = no
-		}
-		ai_chance = { factor = 5 }
-	}
+	
 
 	mean_time_to_happen = {
 		days = 2

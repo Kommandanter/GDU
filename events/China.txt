@@ -72,23 +72,6 @@ country_event = {
 	}
 }
 
-# Mao is gaining ground, loses his Cornered Fox trait
-# MTTH, and Cornered Fox is needed because it's an essential trait for PRC! Removed. MTG/TW 
-
-# Kuomintang Offensive
-# RNG nonsense. Good for flavor but MTTH so bye. 
-
-# Border War
-
-# CHI loses Border War
-
-# PRC wins Border War
-
-# PRC loses Border War
-
-# CHI wins Border War
-
-# Border War Starts (PRC)
 
 # Japan attacks - Chinese Popular Front forms
 country_event = {
@@ -126,20 +109,3 @@ country_event = {
 	}
 }
 
-# China and Japan no longer at war - Break up faction and Mao claims his part of China
-
-# Restart Chinese civil war - Communist supporters reinforces the PRC army
-
-# Restart Chinese civil war
-
-# China and Japan no longer at war - Break up faction and Mao claims his part of China
-
-# China turns communist / Communists break off from China
-
-# PRC annexes communist revolters from China
-
-#CHI event - PRC takes control of a CHI state - Communist uprising
-
-#PRC event - takes control of a CHI state - Communist uprising
-
-#Move capital if PRC wins civil war

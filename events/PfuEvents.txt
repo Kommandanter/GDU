@@ -1,26 +1,5 @@
 ﻿add_namespace = pfu
 
-country_event = {
-	id = pfu.1
-	title = pfu.1.t
-	desc = pfu.1.d
-	picture = GFX_report_event_generic_usa_treaty
-
-	fire_only_once = yes
-	
-	is_triggered_only = yes 
-
-	option = {
-		name = pfu.1.a
-		ENG = {
-			transfer_state = 337
-			transfer_state = 101 
-			transfer_state = 100 
-		}
-		news_event = { hours = 6 id = pfunews.1 }
-	}
-	
-}
 
 country_event = {
 	id = pfu.18

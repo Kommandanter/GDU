@@ -5,7 +5,15 @@ NDefines.NDiplomacy.VOLUNTEERS_DIVISIONS_REQUIRED = 1				-- This many divisons a
 NDefines.NDiplomacy.TENSION_VOLUNTEER_FORCE_DIVISION = 0.1			-- Amount of tension generated for each sent division
 NDefines.NNavy.CARRIER_ONLY_COMBAT_ACTIVATE_TIME = 4                     -- this is done due to constantly retreating with carrier fleets essentially making all other ships useless, delete-revert if you see it is unnecesary, 
 NDefines.NNavy.CAPITAL_ONLY_COMBAT_ACTIVATE_TIME = 4                     -- vanilla is 4  , carriers immediatly start firing, capitals start after 4 hours
-NDefines.NNavy.ALL_SHIPS_ACTIVATE_TIME = 4                               -- vanilla is 8
+NDefines.NNavy.ALL_SHIPS_ACTIVATE_TIME = 4 
+--bellow added as of 8/20/2019  ,  with low chance help with rare desync, 2 are performance changes
+NDefines.NCountry.COUNTRY_SCORE_MULTIPLIER = 0				-- Weight of the country score.
+NDefines.NCountry.ARMY_SCORE_MULTIPLIER = 0					-- Based on number of armies.
+NDefines.NCountry.NAVY_SCORE_MULTIPLIER = 0					-- Based on number of navies.
+NDefines.NCountry.AIR_SCORE_MULTIPLIER = 0					-- Based on number of planes (which is typically a lot).
+NDefines.NCountry.INDUSTRY_SCORE_MULTIPLIER = 0				-- Based on number of factories.
+NDefines.NCountry.PROVINCE_SCORE_MULTIPLIER = 0				-- Based on number of controlled provinces.
+
 ---------------------------	
 
 
