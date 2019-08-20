@@ -8,6 +8,10 @@ state=
 		owner = ENG
 		buildings = {
 			infrastructure = 1
+			5023 = {
+				naval_base = 1
+
+			}			
 		}
 	}
 	provinces= { 5023 }
