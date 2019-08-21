@@ -1120,23 +1120,22 @@ ideas = {
 		}
 
 		canadian_car_foundry = {
-			picture = generic_air_manufacturer_2
-
-
+			
+			cost = 100 
+			
 			allowed = {
-				original_tag = CAN
+				original_TAG = CAN
 			}
+			
 
+			
 			research_bonus = {
 				air_equipment = 0.15
 			}
-
-			traits = { light_aircraft_manufacturer }
-
-			# fighter/interceptors like Hurricane
-
-			ai_will_do = {
-				factor = 1
+			
+			traits = { supermarine_aircraft_manufacturer }
+			
+			modifier = {
 			}
 		}
 
