@@ -151,7 +151,7 @@ guiTypes = {
 						name = "land_1"
 						position = {x=0 y=28}
 						font = "hoi_18mbs"
-						text = "Land Guide I"
+						text = "Armor&Piercing"
 						maxWidth = 180
 						maxHeight = 23
 						format = center
