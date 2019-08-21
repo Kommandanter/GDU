@@ -17,7 +17,9 @@ scripted_gui = {
 			gdu_guides_land_1_available_click = {
 			country_event = { id = guides.2 }
 			}
-			gdu_guides_land_2_available_click = {}
+			gdu_guides_land_2_available_click = {
+			country_event = { id = guides.5 }
+			}
 			gdu_guides_land_3_available_click = {}
 			gdu_guides_land_4_available_click = {}
 			gdu_guides_land_5_available_click = {}
@@ -29,8 +31,12 @@ scripted_gui = {
 			################
 			
 			###### air ######
-			gdu_guides_air_1_available_click = {}
-			gdu_guides_air_2_available_click = {}
+			gdu_guides_air_1_available_click = {
+			country_event = { id = guides.4 }
+			}
+			gdu_guides_air_2_available_click = {
+			country_event = { id = guides.3 }
+			}
 			gdu_guides_air_3_available_click = {}
 			gdu_guides_air_4_available_click = {}
 			gdu_guides_air_5_available_click = {}
@@ -42,7 +48,9 @@ scripted_gui = {
 			###########
 			
 			###### navy ######
-			gdu_guides_navy_1_available_click = {}
+			gdu_guides_navy_1_available_click = {
+			country_event = { id = guides.1 }
+			}
 			gdu_guides_navy_2_available_click = {}
 			gdu_guides_navy_3_available_click = {}
 			gdu_guides_navy_4_available_click = {}

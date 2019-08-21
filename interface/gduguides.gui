@@ -172,7 +172,7 @@ guiTypes = {
 						name = "land_2"
 						position = {x=0 y=78}
 						font = "hoi_18mbs"
-						text = "Land Guide II"
+						text = "Basic Templates"
 						maxWidth = 180
 						maxHeight = 23
 						format = center
@@ -369,7 +369,7 @@ guiTypes = {
 						name = "air_1"
 						position = {x=0 y=28}
 						font = "hoi_18mbs"
-						text = "Air Guide I"
+						text = "Air Gangbang"
 						maxWidth = 180
 						maxHeight = 23
 						format = center
@@ -389,7 +389,7 @@ guiTypes = {
 						name = "air_2"
 						position = {x=0 y=78}
 						font = "hoi_18mbs"
-						text = "Air Guide II"
+						text = "GDU CAS"
 						maxWidth = 180
 						maxHeight = 23
 						format = center
@@ -582,7 +582,7 @@ guiTypes = {
 						name = "navy_1"
 						position = {x=0 y=28}
 						font = "hoi_18mbs"
-						text = "Navy Guide I"
+						text = "Positioning"
 						maxWidth = 180
 						maxHeight = 23
 						format = center
