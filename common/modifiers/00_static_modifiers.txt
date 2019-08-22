@@ -49,7 +49,7 @@ weather_blizzard = { # on Region
 	naval_strike = -0.4
 	air_accidents = 0.5
 	air_bombing_targetting = -0.9
-	local_org_regain = -0.7
+	local_org_regain = -0.35
 	air_mission_efficiency = -0.9
 
 }
@@ -73,12 +73,12 @@ weather_mud = { # on Province
 }
 weather_extreme_cold = { # on Province
 	winter_attrition = 0.3
-	local_org_regain = -0.1
+	local_org_regain = -0.05
 	army_attack_factor = -0.3
 }
 weather_very_cold = { # on Province
 	winter_attrition = 0.2
-	local_org_regain = -0.05
+	local_org_regain = -0.025
 	army_attack_factor = -0.2
 }
 weather_very_hot = { # on Province
@@ -91,12 +91,12 @@ weather_extreme_hot = { # on Province
 }
 weather_ground_snow_medium = { # on Province
 	army_attack_factor = -0.2
-	local_org_regain = -0.1
+	local_org_regain = -0.05
 	winter_attrition = 0.125
 	naval_retreat_speed = 0.1 
 }
 weather_ground_snow_high = { # on Province
-	local_org_regain = -0.2
+	local_org_regain = -0.1
 	army_attack_factor = -0.4
 	winter_attrition = 0.225
 }
