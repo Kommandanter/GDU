@@ -231,7 +231,7 @@ NDefines.NMilitary.FUEL_CAPACITY_DEFAULT_HOURS = 200               -- default ca
 
 NDefines.NMilitary.DECRYPTION_ADVANTAGE_BONUS = 0.025 -- Reducing all combat modifiers across the board
 NDefines.NMilitary.BASE_FORT_PENALTY = -0.12 					   -- fort penalty 
-NDefines.NNavy.SHORE_BOMBARDMENT_CAP = 0.35
+NDefines.NNavy.SHORE_BOMBARDMENT_CAP = 0.2
 
 --- FUEL: We lower naval and air while increasing army 
 
