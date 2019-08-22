@@ -78,12 +78,7 @@ political_actions = {
 			transfer_state = 461 
 			transfer_state = 462
 			transfer_state = 805			
-			
-			transfer_state = 786 # Saharan 
-			transfer_state = 782
-			transfer_state = 515 
-			transfer_state = 514 
-			
+						
 			transfer_state = 556 # Sub-Saharan 	
 			transfer_state = 557 
 			transfer_state = 272 
@@ -94,7 +89,6 @@ political_actions = {
 			transfer_state = 781 
 			transfer_state = 776 
 			transfer_state = 777
-			transfer_state = 775 
 			
 		}	
 				
@@ -2050,10 +2044,7 @@ foreign_politics = {
 		
 		complete_effect = {
 		    ENG = { 
-				annex_country = {
-					target = INS  
-					transfer_troops = yes 
-				}
+				puppet = INS
 			}
 			333 = { set_demilitarized_zone = no }
 		}
@@ -2090,6 +2081,10 @@ foreign_politics = {
 			}
 			declare_war_on = {
 				target = USA 
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = INS 
 				type = annex_everything
 			}
 			declare_war_on = {

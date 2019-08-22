@@ -775,15 +775,7 @@ on_actions = {
 	
 	on_declare_war = {
 		effect = {
-			if = {
-				limit = {
-					FROM = {
-						tag = USA 
-					}
-					ROOT = { tag = JAP }
-				}
-				USA = { country_event = { id = gduevents.18 days = 5 } } #Philippine military occupation 
-			}
+			
 			if = {
 				limit = {
 					NOT = { has_global_flag = GDU_Battle_Of_France_Missions_Activated }

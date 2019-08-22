@@ -439,23 +439,23 @@ country_event = {
 	
 }
 
-country_event = { 
-	id = gduevents.18
-	title = gduevents.18.t 
-	desc = gduevents.18.d 
-	picture = GFX_report_event_usa_macarthur_speech 
-	
-	is_triggered_only = yes 
-	
-	option = { 
-		name = gduevents.18.a 
-		annex_country = {
-			target = PHI
-		}
-
-	}
-	
-}
+#country_event = { 
+#	id = gduevents.18
+#	title = gduevents.18.t 
+#	desc = gduevents.18.d 
+#	picture = GFX_report_event_usa_macarthur_speech 
+#	
+#	is_triggered_only = yes 
+#	
+#	option = { 
+#		name = gduevents.18.a 
+#		annex_country = {
+#			target = PHI
+#		}
+#
+#	}
+#	
+#}
 
 #HOLD FRANCE YOU MONGREL# 
 country_event = { 
