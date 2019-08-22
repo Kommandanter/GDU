@@ -602,7 +602,7 @@ focus_tree = {
 			446  = {
 					add_building_construction = {
 						type = infrastructure
-						level = 2
+						level = 3
 						instant_build = yes
 					}
 					add_building_construction = {
@@ -633,7 +633,7 @@ focus_tree = {
 			447  = {
 					add_building_construction = {
 						type = infrastructure
-						level = 2
+						level = 3
 						instant_build = yes
 					}
 					add_building_construction = {
