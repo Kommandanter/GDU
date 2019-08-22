@@ -1837,7 +1837,7 @@ focus_tree = {
 					remove_state_core = 17
 					remove_state_core = 28					
 				}
-				
+				ENG = { add_to_faction = POL }
 				if = {
 					limit = {
 						HUN = { is_ai = no }						
@@ -1908,6 +1908,12 @@ focus_tree = {
 				GER = {
 					declare_war_on = {
 						target = POL
+						type = annex_everything
+					}
+				}
+				GER = {
+					declare_war_on = {
+						target = ENG
 						type = annex_everything
 					}
 				}

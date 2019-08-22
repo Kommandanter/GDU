@@ -2,9 +2,9 @@
 guiTypes = {
 	containerWindowType = {
 		name = "gdu_guides_container"
-		orientation = LOWER_RIGHT
-		position = { x = -72 y = -300 }
-		
+		orientation = UPPER_RIGHT
+		position = { x = -400 y = 10 }
+		clipping = no
 		
 		
 		buttonType ={
