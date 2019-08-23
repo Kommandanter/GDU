@@ -211,6 +211,7 @@ NDefines.NMilitary.PARACHUTE_COMPLETE_ORG = 0.3				   -- Organisation value (in 
 NDefines.NMilitary.PARACHUTE_ORG_REGAIN_PENALTY_DURATION = 120   -- penalty in org regain after being parachuted. Value is in hours.
 NDefines.NMilitary.PARACHUTE_ORG_REGAIN_PENALTY_MULT = -0.6	   -- penalty to org regain after being parachuted.
 NDefines.NMilitary.PARADROP_PENALTY = -0.2
+NDefines.NMilitary.SHIP_MORALE_TO_ORG_REGAIN_BASE = 1.0			   -- Base org regain per hour
 
 NDefines.NMilitary.LAND_COMBAT_COLLATERAL_FACTOR = 0.0013
 NDefines.NMilitary.LAND_COMBAT_FORT_DAMAGE_CHANCE = 8		-- chance to get a hit to damage on forts. (out of 100)
@@ -427,8 +428,8 @@ NDefines.NNavy.LEADER_EXPERIENCE_SCALE = 0.0                      -- making admi
 
 
 NDefines.NNavy.GUN_HIT_PROFILES = { -- hit profiles for guns, if target ih profile is lower the gun will have lower accuracy		
-	        390.0,    -- big guns
-	        510.0,    -- torpedos
+	        440.0,    -- big guns
+	        480.0,    -- torpedos
 	        240.0,    -- small guns
 	   }		
 			
