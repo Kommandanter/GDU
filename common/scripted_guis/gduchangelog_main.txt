@@ -1,0 +1,112 @@
+scripted_gui = {
+
+	gdu_changelog_main = {
+		context_type = player_context
+		
+		window_name = "gdu_changelog_main_window_container"
+		
+		visible = {
+            has_country_flag = gduchangelog_opened
+		}
+		
+		effects = {
+			gdu_changelog_main_close_click = {
+				clr_country_flag = gduchangelog_opened
+			}
+			##### land ####
+			gdu_changelog_land_1_available_click = {
+			country_event = { id = changelog.2 }
+			}
+			gdu_changelog_land_2_available_click = {
+			country_event = { id = changelog.5 }
+			}
+			gdu_changelog_land_3_available_click = {}
+			gdu_changelog_land_4_available_click = {}
+			gdu_changelog_land_5_available_click = {}
+			gdu_changelog_land_6_available_click = {}
+			gdu_changelog_land_7_available_click = {}
+			gdu_changelog_land_8_available_click = {}
+			gdu_changelog_land_9_available_click = {}
+			gdu_changelog_land_10_available_click = {}
+			################
+			
+			###### air ######
+			gdu_changelog_air_1_available_click = {
+			country_event = { id = changelog.4 }
+			}
+			gdu_changelog_air_2_available_click = {
+			country_event = { id = changelog.3 }
+			}
+			gdu_changelog_air_3_available_click = {
+			country_event = { id = changelog.6 }
+			}
+			gdu_changelog_air_4_available_click = {}
+			gdu_changelog_air_5_available_click = {}
+			gdu_changelog_air_6_available_click = {}
+			gdu_changelog_air_7_available_click = {}
+			gdu_changelog_air_8_available_click = {}
+			gdu_changelog_air_9_available_click = {}
+			gdu_changelog_air_10_available_click = {}
+			###########
+			
+			###### navy ######
+			gdu_changelog_navy_1_available_click = {
+			country_event = { id = changelog.1 }
+			}
+			gdu_changelog_navy_2_available_click = {}
+			gdu_changelog_navy_3_available_click = {}
+			gdu_changelog_navy_4_available_click = {}
+			gdu_changelog_navy_5_available_click = {}
+			gdu_changelog_navy_6_available_click = {}
+			gdu_changelog_navy_7_available_click = {}
+			gdu_changelog_navy_8_available_click = {}
+			gdu_changelog_navy_9_available_click = {}
+			gdu_changelog_navy_10_available_click = {}
+			###########
+			
+			###### general ######
+			gdu_changelog_general_1_available_click = {}
+			gdu_changelog_general_2_available_click = {}
+			gdu_changelog_general_3_available_click = {}
+			gdu_changelog_general_4_available_click = {}
+			gdu_changelog_general_5_available_click = {}
+			gdu_changelog_general_6_available_click = {}
+			gdu_changelog_general_7_available_click = {}
+			gdu_changelog_general_8_available_click = {}
+			gdu_changelog_general_9_available_click = {}
+			gdu_changelog_general_10_available_click = {}
+			###########
+			###### advanced ######
+			gdu_changelog_advanced_1_available_click = {}
+			gdu_changelog_advanced_2_available_click = {}
+			gdu_changelog_advanced_3_available_click = {}
+			gdu_changelog_advanced_4_available_click = {}
+			gdu_changelog_advanced_5_available_click = {}
+			gdu_changelog_advanced_6_available_click = {}
+			gdu_changelog_advanced_7_available_click = {}
+			gdu_changelog_advanced_8_available_click = {}
+			gdu_changelog_advanced_9_available_click = {}
+			gdu_changelog_advanced_10_available_click = {}
+			###########
+			###### other ######
+			gdu_changelog_other_1_available_click = {}
+			gdu_changelog_other_2_available_click = {}
+			gdu_changelog_other_3_available_click = {}
+			gdu_changelog_other_4_available_click = {}
+			gdu_changelog_other_5_available_click = {}
+			gdu_changelog_other_6_available_click = {}
+			gdu_changelog_other_7_available_click = {}
+			gdu_changelog_other_8_available_click = {}
+			gdu_changelog_other_9_available_click = {}
+			gdu_changelog_other_10_available_click = {}
+			###########
+		}
+		
+		triggers = {}
+		
+
+		ai_enabled = { always= no }
+		
+		}
+	}
+	

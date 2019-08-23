@@ -1,0 +1,38 @@
+scripted_gui = {
+
+	gdu_changelog = {
+		context_type = player_context
+		
+		window_name = "gdu_changelog_container"
+		
+		visible = {
+            always = yes
+		}
+		
+		effects = {
+			gdu_changelog_open_button_click = {
+				if = {
+					limit = { NOT = { has_country_flag = gduchangelog_opened } }
+					set_country_flag = gduchangelog_opened
+				}
+				else = {
+					clr_country_flag = gduchangelog_opened
+				}
+			}
+		}
+		
+		triggers = {
+			gdu_changelog_open_button_visible = {
+				always = yes
+			}
+		}
+		
+		
+		ai_enabled = {
+            always = no
+		}
+
+	}
+    
+}
+
