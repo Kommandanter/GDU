@@ -78,6 +78,7 @@ GDU_land2basictemplates:0 "GDU Army2; Basic Division Template Tips"
 
 GDU_air1cas:0 "GDU Air1; CAS"
 GDU_air2gangbang:0 "GDU Air2; (Reverse)Gangbang effect"
+GDU_air3noobtips:0 " Air Tips for Beginners "
 
 
 
@@ -104,4 +105,8 @@ guides.4.a:0 "Thanks for the information."
 guides.5.t:0 "GDU Army2; Very Basic Division Template Tips"
 guides.5.d:0 "Firstly, divisions bellow 20w are not allowed, in GDU division templates you make are far diffrent than in vanilla, due to fact that AT, ART, AA, Rifles have their attack, defence, breakthroguh, supply statistics changed a lot  \n \n  In GDU it is a must to have a single AA( one aa in gdu is 2 width) in every single division, Having AA prevents you from being over run easily , reduces effects of air superiorty  and reduces direct damage of enemy cas by 60%  \n \n  In GDU, ART, AT, AA all have good stats, and are actually either as supply efficient as infantry, or even more.  in GDU, NEVER EVER MAKE PURE INFANTRY, rifles have their stats spread among other equipment and other equipment are made cheaper while rifles are more expensive, rifles are basically some defense and HP, nothing more in GDU \n  \n  in GDU, Damage vs brk-defense is far higher than in vanilla, due to this factor, combat is bit faster , so you want to most of the time have Signals on most of your front line-- combat divisions assuming they are made to have reserves-- reinforce in important battles etc. else does not matter if you got 8  40 wdivs or 2 in a tile, a quality division will easily push them at same time \n  \n  as Last, support companies are cheaper, and you can greatly improve quality of your army by making sure all your divisions including reserves have full support companies regardless of doctrine , ( as long as ur not using them to break infra)  "
 guides.5.a:0 "Thanks for the information."
+
+guides.6.t:0 " GDU Air Tips for Beginners "
+guides.6.d:0 "1- Transport planes are useful for providing supply to your troops in this mod , but they are expensive \n \n  2- While playing as air controller, you should put your Fighters to airfields where they will have best air coverage, over putting them to say border with enemy. \n \n  3- Make sure your air wings with aces on them are operating from best airfields \n \n  4- In GDU , you train everything faster during early game, so you may wanna due to attrition and fuel reasons train your planes early \n \n  5- There is no air gangbang, dont be afraid of trading air with your enemy \n \n  6- It is not suggested to upgrade reliablity on your planes \n \n  7- Tactical Bombers have good range, but unlike cas , they do get disrupted in gdu often, due to not having mach 2 speed \n \n  8- State AA is a hard counter to bombers in GDU \n \n  9- It is strictly suggested to have atleast 1/5 fighter to cas ratio production in gdu, since Cas can join even in red air \n \n  10- Diffrence between interception and air superiorty is , interception use 1/5 fuel, but dont provide air superiorty, but still disrupt planes as if regularly flying "
+guides.6.a:0 " Thanks for the Information "
 

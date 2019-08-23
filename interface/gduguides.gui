@@ -410,7 +410,7 @@ guiTypes = {
 						name = "air_3"
 						position = {x=0 y=128}
 						font = "hoi_18mbs"
-						text = "Air Guide III"
+						text = "10 Air Tips"
 						maxWidth = 180
 						maxHeight = 23
 						format = center
