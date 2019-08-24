@@ -25,6 +25,7 @@ set_technology = {
 	motorised_infantry = 1
 	interwar_antiair = 1
 	trench_warfare = 1 
+	winter_infantry = 1
 }
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }

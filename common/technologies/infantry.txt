@@ -2241,6 +2241,21 @@ technologies = {
 			bicycle_battalion
 		}		
 	}
+	####### Hidden finnish winter equipment tech, so expeditionaries to them dont get bonusses ######
+    winter_infantry = {
+		
+		allow = {
+			always = no
+		}
 
+		research_cost = 1
+		start_year = 1936
 
+		category_army = {
+			acclimatization_cold_climate_gain_factor = 10.0
+
+		}
+	}
+
+   
 }
