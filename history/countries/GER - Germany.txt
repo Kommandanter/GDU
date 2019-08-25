@@ -448,9 +448,9 @@ create_field_marshal = {
 	skill = 5
 	id = 10
 	attack_skill = 3
-	defense_skill = 6
+	defense_skill = 5
 	planning_skill = 3
-	logistics_skill = 4
+	logistics_skill = 5
 }
 
 create_corps_commander = {
@@ -677,9 +677,9 @@ create_field_marshal = {
 	skill = 6
 	id = 32
 	attack_skill = 4
-	defense_skill = 7
+	defense_skill = 6
 	planning_skill = 3
-	logistics_skill = 4
+	logistics_skill = 5
 }
 
 create_corps_commander = {

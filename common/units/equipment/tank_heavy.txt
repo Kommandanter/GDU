@@ -25,14 +25,14 @@ equipments = {
 		reliability = 0.8
 
 		#Defensive Abilities
-		defense = 13.84
-		breakthrough = 36
+		defense = 15
+		breakthrough = 42
 		hardness = 0.95
 		armor_value = 70
 
 		#Offensive Abilities
-		soft_attack = 16.2
-		hard_attack = 12
+		soft_attack = 17
+		hard_attack = 13
 		ap_attack = 61
 		air_attack = 0
 
@@ -72,13 +72,13 @@ equipments = {
 		maximum_speed = 5.5
 
 		#Defensive Abilities
-		defense = 18.66
-		breakthrough = 52
+		defense = 20
+		breakthrough = 60
 		armor_value = 125
 
 		#Offensive Abilities
-		soft_attack = 29.7
-		hard_attack = 29
+		soft_attack = 32
+		hard_attack = 31
 		ap_attack = 111
 		
 		build_cost_ic = 36.5
@@ -103,13 +103,13 @@ equipments = {
 		maximum_speed = 5.5
 
 		#Defensive Abilities
-		defense = 21.38
-		breakthrough = 67
+		defense = 23
+		breakthrough = 75
 		armor_value = 149
 
 		#Offensive Abilities
-		soft_attack = 37.8
-		hard_attack = 37
+		soft_attack = 40
+		hard_attack = 39
 		ap_attack = 131
 		
 		build_cost_ic = 39.5
@@ -280,12 +280,12 @@ equipments = {
 
 		#Defensive Abilities
 		defense = 10.04
-		breakthrough = 1
+		breakthrough = 14
 		hardness = 0.95
 		armor_value = 70
 
 		#Offensive Abilities
-		soft_attack = 3
+		soft_attack = 4.2
 		hard_attack = 37.5
 		ap_attack = 78
 		air_attack = 0
@@ -331,11 +331,11 @@ equipments = {
 
 		#Defensive Abilities
 		defense = 14.46
-		breakthrough = 1.5
+		breakthrough = 20
 		armor_value = 135
 
 		#Offensive Abilities
-		soft_attack = 5
+		soft_attack = 5.4
 		hard_attack = 51.25
 		ap_attack = 150
 		air_attack = 0
@@ -368,11 +368,11 @@ equipments = {
 
 		#Defensive Abilities
 		defense = 16.98
-		breakthrough = 1.8
+		breakthrough = 25
 		armor_value = 155
 
 		#Offensive Abilities
-		soft_attack = 7
+		soft_attack = 7.56
 		hard_attack = 66.25
 		ap_attack = 160
 		air_attack = 0
@@ -547,13 +547,13 @@ equipments = {
 		maximum_speed = 5.5
 
 		#Defensive Abilities
-		defense = 18.66
-		breakthrough = 52
+		defense = 20
+		breakthrough = 60
 		armor_value = 125
 
 		#Offensive Abilities
-		soft_attack = 29.7
-		hard_attack = 29
+		soft_attack = 32
+		hard_attack = 31
 		ap_attack = 111
 		
 		build_cost_ic = 36.5
@@ -578,13 +578,13 @@ equipments = {
 		maximum_speed = 5.5
 
 		#Defensive Abilities
-		defense = 21.38
-		breakthrough = 67
+		defense = 23
+		breakthrough = 75
 		armor_value = 149
 
 		#Offensive Abilities
-		soft_attack = 37.8
-		hard_attack = 37
+		soft_attack = 40
+		hard_attack = 39
 		ap_attack = 131
 		
 		build_cost_ic = 39.5
@@ -714,11 +714,11 @@ equipments = {
 
 		#Defensive Abilities
 		defense = 14.46
-		breakthrough = 1.5
+		breakthrough = 20
 		armor_value = 135
 
 		#Offensive Abilities
-		soft_attack = 5
+		soft_attack = 5.94
 		hard_attack = 51.25
 		ap_attack = 150
 		air_attack = 0
@@ -751,11 +751,11 @@ equipments = {
 
 		#Defensive Abilities
 		defense = 16.98
-		breakthrough = 1.8
+		breakthrough = 25
 		armor_value = 155
 
 		#Offensive Abilities
-		soft_attack = 7
+		soft_attack = 7.56
 		hard_attack = 66.25
 		ap_attack = 160
 		air_attack = 0
