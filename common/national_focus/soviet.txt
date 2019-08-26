@@ -1486,6 +1486,12 @@ focus_tree = {
 				technology = advanced_medium_tank
 			}
 			add_tech_bonus = {
+				name = armor_bonus
+				bonus = 0.60 
+				uses = 1
+				technology = advanced_heavy_tank
+			}			
+			add_tech_bonus = {
 				name = patriotic_landdoc_8
 				bonus = 8.00 
 				uses = 1
@@ -2849,7 +2855,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = armor_bonus2
-				bonus = 1.25
+				bonus = 1.5
 				technology = improved_heavy_tank
 			}
 		}

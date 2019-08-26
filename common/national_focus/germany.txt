@@ -1388,16 +1388,22 @@ focus_tree = {
 				uses = 1
 				ahead_reduction = 1.0
 				name = mech_army_bonus
-				technology = improved_light_tank								
 				technology = improved_medium_tank				
+			}
+			add_tech_bonus = {
+				bonus = 0.75
+				uses = 1
+				name = mech_army_bonus
+				technology = advanced_light_tank								
 				technology = improved_heavy_tank
+				technology = advanced_heavy_tank				
 			}
 			add_tech_bonus = {
 				bonus = 0.00
 				uses = 1
 				ahead_reduction = 4.0
 				name = mech_army_TD_bonus
-				technology = improved_light_td				
+				technology = advanced_light_td				
 				technology = improved_medium_td
 				technology = improved_heavy_td
 			}			
@@ -1406,7 +1412,7 @@ focus_tree = {
 				uses = 1
 				ahead_reduction = 4.0
 				name = mech_army_ART_bonus
-				technology = improved_light_art				
+				technology = advanced_light_art				
 				technology = improved_medium_art
 				technology = improved_heavy_art
 			}
@@ -1415,7 +1421,7 @@ focus_tree = {
 				uses = 1
 				ahead_reduction = 4.0
 				name = mech_army_SPAA_bonus
-				technology = improved_light_spaa				
+				technology = advanced_light_spaa				
 				technology = improved_medium_spaa
 				technology = improved_heavy_spaa
 			}		
