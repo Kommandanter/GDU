@@ -1034,7 +1034,7 @@ ideas = {
             experience_gain_nav_bomber_training_factor = 10.0
             experience_gain_cv_cas_training_factor  = 10.0
 
-            training_time_factor = -0.65
+            training_time_factor = -0.45
 
 			}
 		}
