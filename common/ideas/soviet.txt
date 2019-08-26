@@ -2001,7 +2001,7 @@ ideas = {
 				heavy_tank_destroyer_equipment = {
 					reliability = 0.15
 					hard_attack = 0.10
-					ap_attack = 0.25
+					ap_attack = 0.15
 					armor_value = 0.05
 				}
 				heavy_tank_artillery_equipment = {
