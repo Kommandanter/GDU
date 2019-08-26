@@ -107,14 +107,24 @@ GER_case_anton_category = {
 					ITA = { surrender_progress > 0.25 }				
 				}				
 				OR = { 
-					FRA = {
-						controls_state = 19  
-						controls_state = 23  
-						controls_state = 30
-						controls_state = 14 
-						controls_state = 15 
-						controls_state = 29
+					any_enemy_country = {
+						controls_state = 19
 					}
+					any_enemy_country = {
+						controls_state = 23  
+					}
+					any_enemy_country = { 
+						controls_state = 30
+					}
+					any_enemy_country = {
+						controls_state = 14 
+					}
+					any_enemy_country = { 
+						controls_state = 15 
+					}
+					any_enemy_country = {
+						controls_state = 29
+					}					
 				} 
 			}
 		}
