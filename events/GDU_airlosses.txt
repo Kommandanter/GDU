@@ -9,6 +9,9 @@ country_event = {
 	is_triggered_only = yes 
 	
 	immediate = { 
+				SOV = {
+					add_ideas = GDU1942_airlosses
+				}	
 				ENG = {
 					add_ideas = GDU1942_airlosses
 				}
@@ -83,6 +86,11 @@ country_event = {
 	is_triggered_only = yes 
 	
 	immediate = { 
+				SOV = {
+					swap_ideas = { 
+						remove_idea = GDU1942_airlosses
+						add_idea = GDU1943_airlosses
+					}		}
 				ENG = {
 					swap_ideas = { 
 						remove_idea = GDU1942_airlosses
@@ -199,6 +207,11 @@ country_event = {
 	is_triggered_only = yes 
 	
 	immediate = { 
+				SOV = {
+					swap_ideas = { 
+						remove_idea = GDU1943_airlosses
+						add_idea = GDU1944_airlosses
+					}				}	
 				ENG = {
 					swap_ideas = { 
 						remove_idea = GDU1943_airlosses
@@ -312,6 +325,11 @@ country_event = {
 	is_triggered_only = yes 
 	
 	immediate = { 
+				SOV = {
+					swap_ideas = { 
+						remove_idea = GDU1944_airlosses
+						add_idea = GDU1945_airlosses
+					}				}	
 				ENG = {
 					swap_ideas = { 
 						remove_idea = GDU1944_airlosses
