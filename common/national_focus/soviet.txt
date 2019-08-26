@@ -391,6 +391,26 @@ focus_tree = {
 					limit = { 251 = { is_controlled_by = ROOT } } 
 					set_capital = 251 
 				}
+				811 = { 
+					if = { 
+						limit = { 811 = { is_controlled_by = ROOT } }  
+						add_building_construction = {
+							type = infrastructure 
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+				399 = { 
+					if = { 
+						limit = { 399 = { is_controlled_by = ROOT } }  
+						add_building_construction = {
+							type = infrastructure 
+							level = 1
+							instant_build = yes
+						}
+					}
+				}				
 				807 = { 
 					if = { 
 						limit = { 807 = { is_controlled_by = ROOT } }  

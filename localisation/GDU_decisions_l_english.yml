@@ -2,6 +2,16 @@
     annex_france_uk:0 "Annex France"
     GDU_ITA_stock_up_oil:0 "Stock Up On Fuel While We Can"
 
+ SOV_Capital_Kuibyshev:0 "Move the Capital to Kuibyshev"
+ SOV_Capital_Moscow:0 "Move the Capital to Moscow"
+ SOV_Capital_Perm:0 "Move the Capital to Perm"
+ SOV_Capital_Magnitogorsk:0 "Move the Capital to Magnitogorsk"
+ SOV_Capital_Baku:0 "Move the Capital to Baku"
+ SOV_Capital_Stalingrad:0 "Move the Capital to Stalingrad"
+ SOV_Capital_Kirov:0 "Move the Capital to Kirov"
+ SOV_Capital_Kazan:0 "Move the Capital to Kazan"
+ SOV_Capital_Gorki:0 "Move the Capital to Gorki"
+
  SOV_relocate_industry_from_moscow:0 "Relocate Industry from Moscow"
  SOV_relocate_industry_from_moscow_desc:0 "Evacuating the heavy machinery of our Moscow factories to the Urals is a huge undertaking, but it is necessary to secure our war production."
  SOV_relocate_industry_from_moscow_tt:0 "§RThese effects require control of Moscow when the decision times out.§!"
