@@ -1844,6 +1844,7 @@ focus_tree = {
 					remove_state_core = 28					
 				}
 				ENG = { add_to_faction = POL }
+				ENG = { add_to_faction = FRA }				
 				if = {
 					limit = {
 						HUN = { is_ai = no }						
@@ -1923,6 +1924,42 @@ focus_tree = {
 						type = annex_everything
 					}
 				}
+				GER = {
+					declare_war_on = {
+						target = FRA
+						type = annex_everything
+					}
+				}
+				GER = {
+					declare_war_on = {
+						target = CAN
+						type = annex_everything
+					}
+				}
+				GER = {
+					declare_war_on = {
+						target = SAF
+						type = annex_everything
+					}
+				}
+				GER = {
+					declare_war_on = {
+						target = RAJ
+						type = annex_everything
+					}
+				}
+				GER = {
+					declare_war_on = {
+						target = AST
+						type = annex_everything
+					}
+				}
+				GER = {
+					declare_war_on = {
+						target = NZL
+						type = annex_everything
+					}
+				}				
 			}
 			if = {
 				limit = {
