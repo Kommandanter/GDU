@@ -725,7 +725,22 @@ DIPLOMACY_REQUEST_LICENSED_PRODUCTION_ENABLE_TRIGGER = {
 			}
 		}
 		#always = yes
-		NOT = { FROM = { tag = SOV } }
+		NOT = {
+			AND = {
+				FROM = { tag = SOV }
+				OR = {
+					tag = USA
+					tag = ENG
+					tag = CAN
+					tag = SAF
+					tag = RAJ
+					tag = AST
+					tag = NZL
+					tag = FRA
+					tag = FRF
+				}			
+			}
+		}
 	}
 	if = {
 		limit = {
@@ -734,7 +749,22 @@ DIPLOMACY_REQUEST_LICENSED_PRODUCTION_ENABLE_TRIGGER = {
 				option = SAME_IDEOLOGY
 			}
 		}
-		NOT = { FROM = { tag = SOV } }
+		NOT = {
+			AND = {
+				FROM = { tag = SOV }
+				OR = {
+					tag = USA
+					tag = ENG
+					tag = CAN
+					tag = SAF
+					tag = RAJ
+					tag = AST
+					tag = NZL
+					tag = FRA
+					tag = FRF
+				}	
+			}
+		}
 		custom_trigger_tooltip = {
 			tooltip = RULE_ALLOW_LICENSING_SAME_IDEOLOGY_TT
 			has_government = FROM
@@ -747,7 +777,22 @@ DIPLOMACY_REQUEST_LICENSED_PRODUCTION_ENABLE_TRIGGER = {
 				option = SAME_FACTION
 			}
 		}
-		NOT = { FROM = { tag = SOV } }
+		NOT = {
+			AND = {
+				FROM = { tag = SOV }
+				OR = {
+					tag = USA
+					tag = ENG
+					tag = CAN
+					tag = SAF
+					tag = RAJ
+					tag = AST
+					tag = NZL
+					tag = FRA
+					tag = FRF
+				}	
+			}
+		}
 		custom_trigger_tooltip = {
 			tooltip = RULE_ALLOW_LICENSING_SAME_FACTION_TT
 			is_in_faction_with = FROM
