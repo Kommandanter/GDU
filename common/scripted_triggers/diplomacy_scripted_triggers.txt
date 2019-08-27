@@ -500,6 +500,19 @@ DIPLOMACY_LEND_LEASE_ENABLE_TRIGGER = {
 		}
 		#always = yes
 		NOT = { tag = FRA }
+		NOT = {
+			AND = {
+			FROM = { tag = ENG }
+			ENG = { controls_state = 126 }
+			ENG = { controls_state = 447 }
+			ENG = { controls_state = 446 }
+			ENG = { controls_state = 118 }
+			FRA = { controls_state = 16 }
+			FRA = { controls_state = 15 }
+			FRA = { controls_state = 27 }
+			FRA = { controls_state = 22 }
+			}
+		}			
 	}
 	if = {
 		limit = {
@@ -510,6 +523,19 @@ DIPLOMACY_LEND_LEASE_ENABLE_TRIGGER = {
 		}
 		#always = yes #handled by game logic, see above
 		NOT = { tag = FRA }
+		NOT = {
+			AND = {
+			FROM = { tag = ENG }
+			ENG = { controls_state = 126 }
+			ENG = { controls_state = 447 }
+			ENG = { controls_state = 446 }
+			ENG = { controls_state = 118 }
+			FRA = { controls_state = 16 }
+			FRA = { controls_state = 15 }
+			FRA = { controls_state = 27 }
+			FRA = { controls_state = 22 }
+			}
+		}	
 	}
 	if = {
 		limit = {
@@ -523,6 +549,19 @@ DIPLOMACY_LEND_LEASE_ENABLE_TRIGGER = {
 			has_government = FROM
 		}
 		NOT = { tag = FRA }
+		NOT = {
+			AND = {
+			FROM = { tag = ENG }
+			ENG = { controls_state = 126 }
+			ENG = { controls_state = 447 }
+			ENG = { controls_state = 446 }
+			ENG = { controls_state = 118 }
+			FRA = { controls_state = 16 }
+			FRA = { controls_state = 15 }
+			FRA = { controls_state = 27 }
+			FRA = { controls_state = 22 }
+			}
+		}
 	}
 	if = {
 		limit = {
@@ -536,6 +575,19 @@ DIPLOMACY_LEND_LEASE_ENABLE_TRIGGER = {
 			is_in_faction_with = FROM
 		}
 		NOT = { tag = FRA }
+		NOT = {
+			AND = {
+			FROM = { tag = ENG }
+			ENG = { controls_state = 126 }
+			ENG = { controls_state = 447 }
+			ENG = { controls_state = 446 }
+			ENG = { controls_state = 118 }
+			FRA = { controls_state = 16 }
+			FRA = { controls_state = 15 }
+			FRA = { controls_state = 27 }
+			FRA = { controls_state = 22 }
+			}
+		}		
 	}
 	if = {
 		limit = {
@@ -560,6 +612,19 @@ DIPLOMACY_INCOMING_LEND_LEASE_ENABLE_TRIGGER = {
 		}
 		#always = yes
 		NOT = { FROM = { tag = FRA } }
+		NOT = {
+			AND = {
+			ROOT = { tag = ENG }
+			ENG = { controls_state = 126 }
+			ENG = { controls_state = 447 }
+			ENG = { controls_state = 446 }
+			ENG = { controls_state = 118 }
+			FRA = { controls_state = 16 }
+			FRA = { controls_state = 15 }
+			FRA = { controls_state = 27 }
+			FRA = { controls_state = 22 }
+			}
+		}			
 	}
 	if = {
 		limit = {
@@ -570,6 +635,19 @@ DIPLOMACY_INCOMING_LEND_LEASE_ENABLE_TRIGGER = {
 		}
 		#always = yes #handled by game logic, see above
 		NOT = { FROM = { tag = FRA } }
+		NOT = {
+			AND = {
+			ROOT = { tag = ENG }
+			ENG = { controls_state = 126 }
+			ENG = { controls_state = 447 }
+			ENG = { controls_state = 446 }
+			ENG = { controls_state = 118 }
+			FRA = { controls_state = 16 }
+			FRA = { controls_state = 15 }
+			FRA = { controls_state = 27 }
+			FRA = { controls_state = 22 }
+			}
+		}			
 	}
 	if = {
 		limit = {
@@ -581,8 +659,22 @@ DIPLOMACY_INCOMING_LEND_LEASE_ENABLE_TRIGGER = {
 		custom_trigger_tooltip = {
 			tooltip = RULE_ALLOW_LEND_LEASE_SAME_IDEOLOGY_TT
 			has_government = FROM
+		}	
 			NOT = { FROM = { tag = FRA } }
-		}
+		NOT = {
+			AND = {
+			ROOT = { tag = ENG }
+			ENG = { controls_state = 126 }
+			ENG = { controls_state = 447 }
+			ENG = { controls_state = 446 }
+			ENG = { controls_state = 118 }
+			FRA = { controls_state = 16 }
+			FRA = { controls_state = 15 }
+			FRA = { controls_state = 27 }
+			FRA = { controls_state = 22 }
+			}
+		}			
+		
 	}
 	if = {
 		limit = {
@@ -594,8 +686,22 @@ DIPLOMACY_INCOMING_LEND_LEASE_ENABLE_TRIGGER = {
 		custom_trigger_tooltip = {
 			tooltip = RULE_ALLOW_LEND_LEASE_SAME_FACTION_TT
 			is_in_faction_with = FROM
+		}	
 			NOT = { FROM = { tag = FRA } }
-		}
+		NOT = {
+			AND = {
+			ROOT = { tag = ENG }
+			ENG = { controls_state = 126 }
+			ENG = { controls_state = 447 }
+			ENG = { controls_state = 446 }
+			ENG = { controls_state = 118 }
+			FRA = { controls_state = 16 }
+			FRA = { controls_state = 15 }
+			FRA = { controls_state = 27 }
+			FRA = { controls_state = 22 }
+			}
+		}			
+		
 	}
 	if = {
 		limit = {
