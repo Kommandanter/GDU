@@ -1,0 +1,72 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_chips"
+		texturefile = "gfx/poker/chips.dds"
+		legacy_lazy_load = no
+	}
+    
+	spriteType = {
+		name = "GFX_card_spades"
+		texturefile = "gfx/poker/spades.dds"
+		noOfFrames = 13
+	}
+	spriteType = {
+		name = "GFX_card_clubs"
+		texturefile = "gfx/poker/clubs.dds"
+		noOfFrames = 13
+	}
+	spriteType = {
+		name = "GFX_card_diamonds"
+		texturefile = "gfx/poker/diamonds.dds"
+		noOfFrames = 13
+	}
+	spriteType = {
+		name = "GFX_card_hearts"
+		texturefile = "gfx/poker/hearts.dds"
+		noOfFrames = 13
+	}
+    
+	spriteType = {
+		name = "GFX_card_back"
+		texturefile = "gfx/poker/back.dds"
+		noOfFrames = 13
+	}
+    
+	spriteType = {
+		name = "GFX_prizes"
+		texturefile = "gfx/poker/prizes.dds"
+		noOfFrames = 13
+	}
+    
+    spriteType = {
+        name = "GFX_speech"
+		texturefile = "gfx/poker/speech.dds"
+    }
+	
+    spriteType = {
+        name = "GFX_poker_buttons"
+		texturefile = "gfx/poker/button_bg.dds"
+    }
+    spriteType = {
+        name = "GFX_loot_bg"
+		texturefile = "gfx/poker/lootbg.dds"
+    }
+    spriteType = {
+        name = "GFX_loot_bg_cut"
+		texturefile = "gfx/poker/lootbginner.dds"
+    }
+    spriteType = {
+        name = "GFX_loot_open"
+		texturefile = "gfx/poker/lootopen.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+    }
+    
+    spriteType = {
+        name = "GFX_loot_closed"
+		texturefile = "gfx/poker/lootclosed.dds"
+    }
+    spriteType = {
+        name = "GFX_cross_disable"
+		texturefile = "gfx/poker/cross_disable.dds"
+    }
+}

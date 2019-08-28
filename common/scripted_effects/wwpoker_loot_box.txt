@@ -1,0 +1,440 @@
+
+get_loot_count = {
+    set_variable = { dummy = 1 }
+    if = { 
+        limit = { check_variable = { temp1 = 2 } }
+        set_variable = { dummy = random }
+        multiply_variable = { dummy = 3 }
+        round_variable = dummy
+        multiply_variable = { dummy = 5 }
+        add_to_variable = { dummy = 5 }
+        clamp_variable = { var = dummy min = 5 max = 20 }
+    }
+    if = { 
+        limit = { check_variable = { temp1 = 3 } }
+        set_variable = { dummy = random }
+        multiply_variable = { dummy = 12 }
+        round_variable = dummy
+        multiply_variable = { dummy = 10 }
+        add_to_variable = { dummy = 80 }
+        clamp_variable = { var = dummy min = 80 max = 200 }
+    }
+    if = { 
+        limit = { check_variable = { temp1 = 4 } }
+        set_variable = { dummy = random }
+        multiply_variable = { dummy = 5 }
+        round_variable = dummy
+        multiply_variable = { dummy = 5 }
+        add_to_variable = { dummy = 15 }
+        clamp_variable = { var = dummy min = 15 max = 40 }
+    }
+    if = { 
+        limit = { check_variable = { temp1 = 5 } }
+        set_variable = { dummy = random }
+        multiply_variable = { dummy = 3 }
+        round_variable = dummy
+        multiply_variable = { dummy = 5 }
+        add_to_variable = { dummy = 10 }
+        clamp_variable = { var = dummy min = 10 max = 25 }
+    }
+    
+    if = { 
+        limit = { check_variable = { temp1 = 6 } }
+        set_variable = { dummy = random }
+        multiply_variable = { dummy = 7 }
+        round_variable = dummy
+        multiply_variable = { dummy = 2 }
+        add_to_variable = { dummy = 1 }
+        clamp_variable = { var = dummy min = 1 max = 15 }
+    }
+    
+    
+    if = { 
+        limit = { check_variable = { temp1 = 7 } }
+        set_variable = { dummy = random }
+        multiply_variable = { dummy = 3 }
+        round_variable = dummy
+        multiply_variable = { dummy = 5 }
+        add_to_variable = { dummy = 10 }
+        clamp_variable = { var = dummy min = 10 max = 25 }
+    }
+    
+    if = { 
+        limit = { check_variable = { temp1 = 8 } }
+        set_variable = { dummy = random }
+        multiply_variable = { dummy = 3 }
+        round_variable = dummy
+        multiply_variable = { dummy = 2 }
+        add_to_variable = { dummy = 6 }
+        clamp_variable = { var = dummy min = 6 max = 12 }
+    }
+    if = { 
+        limit = { check_variable = { temp1 = 9 } }
+        set_variable = { dummy = random }
+        multiply_variable = { dummy = 2 }
+        round_variable = dummy
+        add_to_variable = { dummy = 3 }
+        clamp_variable = { var = dummy min = 3 max = 5 }
+    }
+    if = { 
+        limit = { check_variable = { temp1 = 10 } }
+        set_variable = { dummy = random }
+        multiply_variable = { dummy = 5 }
+        round_variable = dummy
+        multiply_variable = { dummy = 5 }
+        add_to_variable = { dummy = 15 }
+        clamp_variable = { var = dummy min = 15 max = 30 }
+    }
+    set_temp_variable = { temp2 = dummy }
+}
+
+clear_invalid = {
+    if = {
+        limit = {
+            check_variable = { temp1 = 3 }
+            not = { has_tech = infantry_weapons }
+        }
+        set_temp_variable = { temp1 = 0 }
+    }
+
+    if = {
+        limit = {
+            check_variable = { temp1 = 4 }
+            not = { has_tech = tech_support }
+        }
+        set_temp_variable = { temp1 = 0 }
+    }
+    
+    if = {
+        limit = {
+            check_variable = { temp1 = 5 }
+            not = { has_tech = motorised_infantry }
+        }
+        set_temp_variable = { temp1 = 0 }
+    }
+    
+    if = {
+        limit = {
+            check_variable = { temp1 = 7 }
+            not = { has_tech = basic_light_tank }
+        }
+        set_temp_variable = { temp1 = 0 }
+    }
+    if = {
+        limit = {
+            check_variable = { temp1 = 8 }
+            not = { has_tech = basic_medium_tank }
+        }
+        set_temp_variable = { temp1 = 0 }
+    }
+    if = {
+        limit = {
+            check_variable = { temp1 = 9 }
+            not = { has_tech = basic_heavy_tank }
+        }
+        set_temp_variable = { temp1 = 0 }
+    }
+    
+    if = {
+        limit = { check_variable = { temp1 = 0 } }
+        add_to_temp_variable = { try = 1 }
+    }
+}
+
+get_fall_back_loot = {
+    set_temp_variable = { temp1 = 2 }
+    if = {
+        limit = { check_variable = { random < 0.5 } }
+        set_temp_variable = { temp1 = 6 }
+    }
+}
+
+get_regular_loot = {
+    set_variable = { dummy = random }
+    multiply_variable = { dummy = 4.9 }
+    add_to_variable = { dummy = 1.5 }
+    round_variable = dummy
+    clamp_variable = { var = dummy min = 2 max = 6 }
+    set_temp_variable = { temp1 = dummy }
+    
+    clear_invalid = yes
+    if = {
+        limit = { check_variable = { temp1 = 0 } }
+        
+        if = {
+            limit = { check_variable = { try < 20 } }
+            get_regular_loot = yes
+        }
+        
+        if = {
+            limit = { check_variable = { temp1 = 0 } }
+            get_fall_back_loot = yes
+            get_loot_count = yes
+        }
+    }
+    else = {
+        get_loot_count = yes
+    }
+}
+
+get_good_loot_inner = {
+    set_variable = { dummy = random }
+    multiply_variable = { dummy = 2.9 }
+    add_to_variable = { dummy = 6.5 }
+    round_variable = dummy
+    clamp_variable = { var = dummy min = 7 max = 9 }
+    set_temp_variable = { temp1 = dummy }
+
+    clear_invalid = yes
+    if = {
+        limit = { check_variable = { temp1 = 0 } }
+        
+        if = {
+            limit = { check_variable = { try < 20 } }
+            get_good_loot_inner = yes
+        }
+        
+            
+        if = {
+            limit = { check_variable = { temp1 = 0 } }
+            
+            get_fall_back_loot = yes
+            get_loot_count = yes
+        }
+    }
+    else = {
+        get_loot_count = yes
+    }
+}
+
+get_good_loot = {
+    if = {
+        limit = { check_variable = { random < 0.5 } }
+        get_regular_loot = yes
+    }
+    else = {
+        get_good_loot_inner = yes
+    }
+}
+
+get_best_loot_inner = {
+    set_variable = { dummy = random }
+    multiply_variable = { dummy = 3.7 }
+    add_to_variable = { dummy = 9.5 }
+    round_variable = dummy
+    clamp_variable = { var = dummy min = 10 max = 13 }
+    set_temp_variable = { temp1 = dummy }
+
+    clear_invalid = yes
+    if = {
+        limit = { check_variable = { temp1 = 0 } }
+        
+        if = {
+            limit = { check_variable = { try < 20 } }
+            get_best_loot_inner = yes
+        }
+        if = {
+            limit = { check_variable = { temp1 = 0 } }
+            
+            get_fall_back_loot = yes
+            get_loot_count = yes
+        }
+    }
+    else = {
+        get_loot_count = yes
+    }
+}
+
+get_best_loop = {
+    if = {
+        limit = { check_variable = { random < 0.7 } }
+        get_good_loot_inner = yes
+    }
+    else = {
+        get_best_loot_inner = yes
+    }
+}
+
+
+
+open_loot_box = {
+    set_variable = { show_loot_box_open = 1 }
+
+    set_temp_variable = { try = 0 }
+    get_regular_loot = yes
+    add_loot = yes
+    set_variable = { loot_1_t = temp1 }
+    set_variable = { loot_1_c = temp2 }
+    
+    set_temp_variable = { try = 0 }
+    get_regular_loot = yes
+    add_loot = yes
+    set_variable = { loot_2_t = temp1 }
+    set_variable = { loot_2_c = temp2 }
+    
+    set_temp_variable = { try = 0 }
+    get_good_loot = yes
+    add_loot = yes
+    set_variable = { loot_3_t = temp1 }
+    set_variable = { loot_3_c = temp2 }
+    
+    set_temp_variable = { try = 0 }
+    get_good_loot = yes
+    add_loot = yes
+    set_variable = { loot_4_t = temp1 }
+    set_variable = { loot_4_c = temp2 }
+    
+    set_temp_variable = { try = 0 }
+    get_best_loop = yes
+    add_loot = yes
+    set_variable = { loot_5_t = temp1 }
+    set_variable = { loot_5_c = temp2 }
+    
+}
+
+clear_loot_box = {
+    set_variable = { show_loot_box = 0 }
+    set_variable = { show_loot_box_open = 0 }
+    
+    set_variable = { loot_1_t = 1 }
+    set_variable = { loot_2_t = 1 }
+    set_variable = { loot_3_t = 1 }
+    set_variable = { loot_4_t = 1 }
+    set_variable = { loot_5_t = 1 }
+}
+
+
+
+add_loot = {
+    if = { 
+        limit = { check_variable = { temp1 = 2 } }
+        add_political_power = temp2
+    }
+    if = { 
+        limit = { check_variable = { temp1 = 3 } }
+        set_temp_variable = { temp = temp2 }
+        on_buy_ie = yes
+    }
+    if = { 
+        limit = { check_variable = { temp1 = 4 } }
+        set_temp_variable = { temp = temp2 }
+        on_buy_se = yes
+    }
+    if = { 
+        limit = { check_variable = { temp1 = 5 } }
+        set_temp_variable = { temp = temp2 }
+        on_buy_mi = yes
+    }
+    
+    if = { 
+        limit = { check_variable = { temp1 = 6 } }
+        set_temp_variable = { temp3 = temp2 }
+        multiply_temp_variable = { temp3 = 1000 }
+        add_manpower = temp3
+    }
+    
+    if = { 
+        limit = { check_variable = { temp1 = 7 } }
+        set_temp_variable = { temp = temp2 }
+        on_buy_lt = yes
+    }
+    
+    if = { 
+        limit = { check_variable = { temp1 = 8 } }
+        set_temp_variable = { temp = temp2 }
+        on_buy_mt = yes
+    }
+    if = { 
+        limit = { check_variable = { temp1 = 9 } }
+        set_temp_variable = { temp = temp2 }
+        on_buy_ht = yes
+    }
+    if = { 
+        limit = { check_variable = { temp1 = 10 } }
+        army_experience = temp2
+        navy_experience = temp2
+        air_experience = temp2
+    }
+    if = { 
+        limit = { check_variable = { temp1 = 11 } }
+        random_owned_controlled_state = {
+            limit = {
+                is_fully_controlled_by = ROOT
+                free_building_slots = {
+                    building = industrial_complex
+                    size > 1
+                    include_locked = yes
+                }
+            }
+            add_building_construction = { type = industrial_complex level = 1 instant_build = yes }
+        }
+    }
+    if = { 
+        limit = { check_variable = { temp1 = 12 } }
+        random_owned_controlled_state = {
+            limit = {
+                is_fully_controlled_by = ROOT
+                free_building_slots = {
+                    building = arms_factory
+                    size > 1
+                    include_locked = yes
+                }
+            }
+            add_building_construction = { type = arms_factory level = 1 instant_build = yes }
+        }
+    }
+    if = { 
+        limit = { check_variable = { temp1 = 13 } }
+
+        if = {
+            limit = {
+                check_variable = { created_ubermench_template = 0 }
+            }
+            set_variable = { created_ubermench_template = 1 }
+            division_template = {
+                name = "Ubermensch"
+                is_locked = yes
+                division_names_group = UBERMENSCH
+                regiments = {
+                    infantry = { x = 0 y = 0 }
+                    infantry = { x = 0 y = 1 }
+                    infantry = { x = 0 y = 2 }
+                    infantry = { x = 0 y = 3 }
+                    infantry = { x = 0 y = 4 }
+
+                    infantry = { x = 1 y = 0 }
+                    infantry = { x = 1 y = 1 }
+                    infantry = { x = 1 y = 2 }
+                    infantry = { x = 1 y = 3 }
+                    infantry = { x = 1 y = 4 }
+
+                    infantry = { x = 2 y = 0 }
+                    infantry = { x = 2 y = 1 }
+                    infantry = { x = 2 y = 2 }
+                    infantry = { x = 2 y = 3 }
+                    infantry = { x = 2 y = 4 }
+                    
+                    infantry = { x = 3 y = 0 }
+                    infantry = { x = 3 y = 1 }
+                    infantry = { x = 3 y = 2 }
+                    infantry = { x = 3 y = 3 }
+                    infantry = { x = 3 y = 4 }
+                    
+                    infantry = { x = 4 y = 0 }
+                    infantry = { x = 4 y = 1 }
+                    infantry = { x = 4 y = 2 }
+                    infantry = { x = 4 y = 3 }
+                    infantry = { x = 4 y = 4 }
+                }
+            }
+        }
+        random_owned_controlled_state = {
+            limit = {
+                is_fully_controlled_by = ROOT
+            }
+            create_unit = { 
+                division = "name = \"Ubermensch\" division_template = \"Ubermensch\" start_experience_factor = 10.0" owner = ROOT
+            }
+        }
+    }
+}

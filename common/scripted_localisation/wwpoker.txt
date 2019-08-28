@@ -1,0 +1,3724 @@
+
+defined_text = { 
+    name = bet_amount_text
+
+    text = {
+        trigger = {
+            check_variable = { bet_amount = chips_at_table }
+        }
+        localization_key = "All In"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { bet_amount > global.min_bet }
+        }
+        localization_key = "Raise [?bet_amount]"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { bet_amount > already_bet }
+        }
+        localization_key = "Call [?bet_amount]"
+    }
+    
+    text = {
+        localization_key = Check
+    }
+}
+
+defined_text = { 
+    name = bet_amount_text_cheat
+
+    text = {
+        trigger = {
+            event_target:p_cur = {
+                check_variable = { bet_amount = chips_at_table }
+            }
+        }
+        localization_key = "All In"
+    }
+    
+    text = {
+        trigger = {
+            event_target:p_cur = {
+                check_variable = { global.min_bet = 0 }
+                check_variable = { bet_amount > global.min_bet }
+            }
+        }
+        localization_key = "Bet [?event_target:p_cur.bet_amount]"
+    }
+    
+    text = {
+        trigger = {
+            event_target:p_cur = {
+                check_variable = { bet_amount > global.min_bet }
+            }
+        }
+        localization_key = "Raise [?event_target:p_cur.bet_amount]"
+    }
+    
+    text = {
+        trigger = {
+            event_target:p_cur = {
+                check_variable = { global.min_bet > 0 }
+            }
+        }
+        localization_key = "Call [?event_target:p_cur.bet_amount]"
+    }
+    
+    text = {
+        localization_key = Check
+    }
+}
+
+#######
+
+
+defined_text = {
+    name = hand_info_1
+
+    text = { 
+        trigger = {
+            event_target:p_1 = {
+
+                or = {
+                    check_variable = { var = score value = 1100000 }
+                }
+            }
+        }
+        localization_key = "Royal Flush"
+    }
+    
+    text = { 
+        trigger = {
+            event_target:p_1 = {
+
+                or = {
+                    check_variable = { var = score value = 1000000 }
+                }
+            }
+        }
+        localization_key = "Straight Flush"
+    }
+    
+    text = { 
+        trigger = {
+            event_target:p_1 = {
+
+                or = {
+                    check_variable = { var = score value = 900000 }
+                }
+            }
+        }
+        localization_key = "Four of a Kind"
+    }
+    
+    text = { 
+        trigger = {
+            event_target:p_1 = {
+
+                or = {
+                    check_variable = { var = score value = 800000 }
+                }
+            }
+        }
+        localization_key = "Full House"
+    }
+    
+    text = { 
+        trigger = {
+            event_target:p_1 = {
+
+                or = {
+                    check_variable = { var = score value = 700000 }
+                }
+            }
+        }
+        localization_key = "Flush"
+    }
+    
+    text = { 
+        trigger = {
+            event_target:p_1 = {
+
+                or = {
+                    check_variable = { var = score value = 600000 }
+                }
+            }
+        }
+        localization_key = "Straight"
+    }
+    
+    text = { 
+        trigger = {
+            event_target:p_1 = {
+
+                or = {
+                    check_variable = { var = score value = 500000 }
+                }
+            }
+        }
+        localization_key = "Three of a kind"
+    }
+    
+    text = { 
+        trigger = {
+            event_target:p_1 = {
+
+                or = {
+                    check_variable = { var = score value = 400000 }
+                }
+            }
+        }
+        localization_key = "Two Pairs"
+    }
+    
+    text = { 
+        trigger = {
+            event_target:p_1 = {
+
+                or = {
+                    check_variable = { var = score value = 300000 }
+                }
+            }
+        }
+        localization_key = "Pairs"
+    }
+    
+    text = { 
+        trigger = {
+            event_target:p_1 = {
+
+                or = {
+                    check_variable = { var = score value = 200000 }
+                }
+            }
+        }
+        localization_key = "High Card"
+    }
+    
+    text = { 
+        localization_key = "---"
+    }
+}
+
+
+defined_text = {
+    name = hand_info_2
+
+    text = { 
+        trigger = {
+            event_target:p_2 = {
+
+                or = {
+                    check_variable = { var = score value = 1100000 }
+                }
+            }
+        }
+        localization_key = "Royal Flush"
+    }
+    
+    text = { 
+        trigger = {
+            event_target:p_2 = {
+
+                or = {
+                    check_variable = { var = score value = 1000000 }
+                }
+            }
+        }
+        localization_key = "Straight Flush"
+    }
+    
+    text = { 
+        trigger = {
+            event_target:p_2 = {
+
+                or = {
+                    check_variable = { var = score value = 900000 }
+                }
+            }
+        }
+        localization_key = "Four of a Kind"
+    }
+    
+    text = { 
+        trigger = {
+            event_target:p_2 = {
+
+                or = {
+                    check_variable = { var = score value = 800000 }
+                }
+            }
+        }
+        localization_key = "Full House"
+    }
+    
+    text = { 
+        trigger = {
+            event_target:p_2 = {
+
+                or = {
+                    check_variable = { var = score value = 700000 }
+                }
+            }
+        }
+        localization_key = "Flush"
+    }
+    
+    text = { 
+        trigger = {
+            event_target:p_2 = {
+
+                or = {
+                    check_variable = { var = score value = 600000 }
+                }
+            }
+        }
+        localization_key = "Straight"
+    }
+    
+    text = { 
+        trigger = {
+            event_target:p_2 = {
+
+                or = {
+                    check_variable = { var = score value = 500000 }
+                }
+            }
+        }
+        localization_key = "Three of a kind"
+    }
+    
+    text = { 
+        trigger = {
+            event_target:p_2 = {
+
+                or = {
+                    check_variable = { var = score value = 400000 }
+                }
+            }
+        }
+        localization_key = "Two Pairs"
+    }
+    
+    text = { 
+        trigger = {
+            event_target:p_2 = {
+
+                or = {
+                    check_variable = { var = score value = 300000 }
+                }
+            }
+        }
+        localization_key = "Pairs"
+    }
+    
+    text = { 
+        trigger = {
+            event_target:p_2 = {
+
+                or = {
+                    check_variable = { var = score value = 200000 }
+                }
+            }
+        }
+        localization_key = "High Card"
+    }
+    
+    text = { 
+        localization_key = "---"
+    }
+}
+
+
+defined_text = {
+    name = hand_info_3
+
+    text = { 
+        trigger = {
+            event_target:p_3 = {
+
+                or = {
+                    check_variable = { var = score value = 1100000 }
+                }
+            }
+        }
+        localization_key = "Royal Flush"
+    }
+    
+    text = { 
+        trigger = {
+            event_target:p_3 = {
+
+                or = {
+                    check_variable = { var = score value = 1000000 }
+                }
+            }
+        }
+        localization_key = "Straight Flush"
+    }
+    
+    text = { 
+        trigger = {
+            event_target:p_3 = {
+
+                or = {
+                    check_variable = { var = score value = 900000 }
+                }
+            }
+        }
+        localization_key = "Four of a Kind"
+    }
+    
+    text = { 
+        trigger = {
+            event_target:p_3 = {
+
+                or = {
+                    check_variable = { var = score value = 800000 }
+                }
+            }
+        }
+        localization_key = "Full House"
+    }
+    
+    text = { 
+        trigger = {
+            event_target:p_3 = {
+
+                or = {
+                    check_variable = { var = score value = 700000 }
+                }
+            }
+        }
+        localization_key = "Flush"
+    }
+    
+    text = { 
+        trigger = {
+            event_target:p_3 = {
+
+                or = {
+                    check_variable = { var = score value = 600000 }
+                }
+            }
+        }
+        localization_key = "Straight"
+    }
+    
+    text = { 
+        trigger = {
+            event_target:p_3 = {
+
+                or = {
+                    check_variable = { var = score value = 500000 }
+                }
+            }
+        }
+        localization_key = "Three of a kind"
+    }
+    
+    text = { 
+        trigger = {
+            event_target:p_3 = {
+
+                or = {
+                    check_variable = { var = score value = 400000 }
+                }
+            }
+        }
+        localization_key = "Two Pairs"
+    }
+    
+    text = { 
+        trigger = {
+            event_target:p_3 = {
+
+                or = {
+                    check_variable = { var = score value = 300000 }
+                }
+            }
+        }
+        localization_key = "Pairs"
+    }
+    
+    text = { 
+        trigger = {
+            event_target:p_3 = {
+
+                or = {
+                    check_variable = { var = score value = 200000 }
+                }
+            }
+        }
+        localization_key = "High Card"
+    }
+    
+    text = { 
+        localization_key = "---"
+    }
+}
+
+
+defined_text = {
+    name = hand_info_4
+
+    text = { 
+        trigger = {
+            event_target:p_4 = {
+
+                or = {
+                    check_variable = { var = score value = 1100000 }
+                }
+            }
+        }
+        localization_key = "Royal Flush"
+    }
+    
+    text = { 
+        trigger = {
+            event_target:p_4 = {
+
+                or = {
+                    check_variable = { var = score value = 1000000 }
+                }
+            }
+        }
+        localization_key = "Straight Flush"
+    }
+    
+    text = { 
+        trigger = {
+            event_target:p_4 = {
+
+                or = {
+                    check_variable = { var = score value = 900000 }
+                }
+            }
+        }
+        localization_key = "Four of a Kind"
+    }
+    
+    text = { 
+        trigger = {
+            event_target:p_4 = {
+
+                or = {
+                    check_variable = { var = score value = 800000 }
+                }
+            }
+        }
+        localization_key = "Full House"
+    }
+    
+    text = { 
+        trigger = {
+            event_target:p_4 = {
+
+                or = {
+                    check_variable = { var = score value = 700000 }
+                }
+            }
+        }
+        localization_key = "Flush"
+    }
+    
+    text = { 
+        trigger = {
+            event_target:p_4 = {
+
+                or = {
+                    check_variable = { var = score value = 600000 }
+                }
+            }
+        }
+        localization_key = "Straight"
+    }
+    
+    text = { 
+        trigger = {
+            event_target:p_4 = {
+
+                or = {
+                    check_variable = { var = score value = 500000 }
+                }
+            }
+        }
+        localization_key = "Three of a kind"
+    }
+    
+    text = { 
+        trigger = {
+            event_target:p_4 = {
+
+                or = {
+                    check_variable = { var = score value = 400000 }
+                }
+            }
+        }
+        localization_key = "Two Pairs"
+    }
+    
+    text = { 
+        trigger = {
+            event_target:p_4 = {
+
+                or = {
+                    check_variable = { var = score value = 300000 }
+                }
+            }
+        }
+        localization_key = "Pairs"
+    }
+    
+    text = { 
+        trigger = {
+            event_target:p_4 = {
+
+                or = {
+                    check_variable = { var = score value = 200000 }
+                }
+            }
+        }
+        localization_key = "High Card"
+    }
+    
+    text = { 
+        localization_key = "---"
+    }
+}
+
+
+defined_text = {
+    name = hand_info_5
+
+    text = { 
+        trigger = {
+            event_target:p_5 = {
+
+                or = {
+                    check_variable = { var = score value = 1100000 }
+                }
+            }
+        }
+        localization_key = "Royal Flush"
+    }
+    
+    text = { 
+        trigger = {
+            event_target:p_5 = {
+
+                or = {
+                    check_variable = { var = score value = 1000000 }
+                }
+            }
+        }
+        localization_key = "Straight Flush"
+    }
+    
+    text = { 
+        trigger = {
+            event_target:p_5 = {
+
+                or = {
+                    check_variable = { var = score value = 900000 }
+                }
+            }
+        }
+        localization_key = "Four of a Kind"
+    }
+    
+    text = { 
+        trigger = {
+            event_target:p_5 = {
+
+                or = {
+                    check_variable = { var = score value = 800000 }
+                }
+            }
+        }
+        localization_key = "Full House"
+    }
+    
+    text = { 
+        trigger = {
+            event_target:p_5 = {
+
+                or = {
+                    check_variable = { var = score value = 700000 }
+                }
+            }
+        }
+        localization_key = "Flush"
+    }
+    
+    text = { 
+        trigger = {
+            event_target:p_5 = {
+
+                or = {
+                    check_variable = { var = score value = 600000 }
+                }
+            }
+        }
+        localization_key = "Straight"
+    }
+    
+    text = { 
+        trigger = {
+            event_target:p_5 = {
+
+                or = {
+                    check_variable = { var = score value = 500000 }
+                }
+            }
+        }
+        localization_key = "Three of a kind"
+    }
+    
+    text = { 
+        trigger = {
+            event_target:p_5 = {
+
+                or = {
+                    check_variable = { var = score value = 400000 }
+                }
+            }
+        }
+        localization_key = "Two Pairs"
+    }
+    
+    text = { 
+        trigger = {
+            event_target:p_5 = {
+
+                or = {
+                    check_variable = { var = score value = 300000 }
+                }
+            }
+        }
+        localization_key = "Pairs"
+    }
+    
+    text = { 
+        trigger = {
+            event_target:p_5 = {
+
+                or = {
+                    check_variable = { var = score value = 200000 }
+                }
+            }
+        }
+        localization_key = "High Card"
+    }
+    
+    text = { 
+        localization_key = "---"
+    }
+}
+
+
+defined_text = {
+    name = hand_info_6
+
+    text = { 
+        trigger = {
+            event_target:p_6 = {
+
+                or = {
+                    check_variable = { var = score value = 1100000 }
+                }
+            }
+        }
+        localization_key = "Royal Flush"
+    }
+    
+    text = { 
+        trigger = {
+            event_target:p_6 = {
+
+                or = {
+                    check_variable = { var = score value = 1000000 }
+                }
+            }
+        }
+        localization_key = "Straight Flush"
+    }
+    
+    text = { 
+        trigger = {
+            event_target:p_6 = {
+
+                or = {
+                    check_variable = { var = score value = 900000 }
+                }
+            }
+        }
+        localization_key = "Four of a Kind"
+    }
+    
+    text = { 
+        trigger = {
+            event_target:p_6 = {
+
+                or = {
+                    check_variable = { var = score value = 800000 }
+                }
+            }
+        }
+        localization_key = "Full House"
+    }
+    
+    text = { 
+        trigger = {
+            event_target:p_6 = {
+
+                or = {
+                    check_variable = { var = score value = 700000 }
+                }
+            }
+        }
+        localization_key = "Flush"
+    }
+    
+    text = { 
+        trigger = {
+            event_target:p_6 = {
+
+                or = {
+                    check_variable = { var = score value = 600000 }
+                }
+            }
+        }
+        localization_key = "Straight"
+    }
+    
+    text = { 
+        trigger = {
+            event_target:p_6 = {
+
+                or = {
+                    check_variable = { var = score value = 500000 }
+                }
+            }
+        }
+        localization_key = "Three of a kind"
+    }
+    
+    text = { 
+        trigger = {
+            event_target:p_6 = {
+
+                or = {
+                    check_variable = { var = score value = 400000 }
+                }
+            }
+        }
+        localization_key = "Two Pairs"
+    }
+    
+    text = { 
+        trigger = {
+            event_target:p_6 = {
+
+                or = {
+                    check_variable = { var = score value = 300000 }
+                }
+            }
+        }
+        localization_key = "Pairs"
+    }
+    
+    text = { 
+        trigger = {
+            event_target:p_6 = {
+
+                or = {
+                    check_variable = { var = score value = 200000 }
+                }
+            }
+        }
+        localization_key = "High Card"
+    }
+    
+    text = { 
+        localization_key = "---"
+    }
+}
+
+
+defined_text = {
+    name = hand_info_7
+
+    text = { 
+        trigger = {
+            event_target:p_7 = {
+
+                or = {
+                    check_variable = { var = score value = 1100000 }
+                }
+            }
+        }
+        localization_key = "Royal Flush"
+    }
+    
+    text = { 
+        trigger = {
+            event_target:p_7 = {
+
+                or = {
+                    check_variable = { var = score value = 1000000 }
+                }
+            }
+        }
+        localization_key = "Straight Flush"
+    }
+    
+    text = { 
+        trigger = {
+            event_target:p_7 = {
+
+                or = {
+                    check_variable = { var = score value = 900000 }
+                }
+            }
+        }
+        localization_key = "Four of a Kind"
+    }
+    
+    text = { 
+        trigger = {
+            event_target:p_7 = {
+
+                or = {
+                    check_variable = { var = score value = 800000 }
+                }
+            }
+        }
+        localization_key = "Full House"
+    }
+    
+    text = { 
+        trigger = {
+            event_target:p_7 = {
+
+                or = {
+                    check_variable = { var = score value = 700000 }
+                }
+            }
+        }
+        localization_key = "Flush"
+    }
+    
+    text = { 
+        trigger = {
+            event_target:p_7 = {
+
+                or = {
+                    check_variable = { var = score value = 600000 }
+                }
+            }
+        }
+        localization_key = "Straight"
+    }
+    
+    text = { 
+        trigger = {
+            event_target:p_7 = {
+
+                or = {
+                    check_variable = { var = score value = 500000 }
+                }
+            }
+        }
+        localization_key = "Three of a kind"
+    }
+    
+    text = { 
+        trigger = {
+            event_target:p_7 = {
+
+                or = {
+                    check_variable = { var = score value = 400000 }
+                }
+            }
+        }
+        localization_key = "Two Pairs"
+    }
+    
+    text = { 
+        trigger = {
+            event_target:p_7 = {
+
+                or = {
+                    check_variable = { var = score value = 300000 }
+                }
+            }
+        }
+        localization_key = "Pairs"
+    }
+    
+    text = { 
+        trigger = {
+            event_target:p_7 = {
+
+                or = {
+                    check_variable = { var = score value = 200000 }
+                }
+            }
+        }
+        localization_key = "High Card"
+    }
+    
+    text = { 
+        localization_key = "---"
+    }
+}
+
+
+#######
+
+
+defined_text = { 
+    name = bet_amount_info_1
+
+    text = {
+        trigger = {
+            event_target:p_1 = {
+                check_variable = { bet_type = 6 }
+                check_variable = { chips_at_table < 1 }
+            }
+        }
+        localization_key = "Eliminated"
+    }
+
+    text = { 
+        trigger = {
+            check_variable = { global.stage = 0 }
+            check_variable = { global.show_handss = 1 }
+            event_target:p_1 = {
+                check_variable = { bet_type < 6 }
+
+                or = {
+                    check_variable = { var = score value = global.best_score compare = greater_than }
+                    and = {
+                        check_variable = { var = score value = global.best_score compare = equals }
+                        check_variable = { var = kicker_score value = global.best_score_kicker compare = greater_than_or_equals }
+                    }
+                }
+            }
+        }
+        localization_key = "[?event_target:p_1.score] [?event_target:p_1.kicker_score] [hand_info_1] Winner"
+    }
+    
+    text = { 
+        trigger = {
+            check_variable = { global.show_handss = 1 }
+            check_variable = { global.stage = 0 }
+            event_target:p_1 = {
+                check_variable = { bet_type < 6 }
+            }
+        }
+        localization_key = "[?event_target:p_1.score] [?event_target:p_1.kicker_score] [hand_info_1]"
+    }
+    
+    text = { 
+        trigger = {
+            check_variable = { global.stage = 0 }
+            event_target:p_1 = {
+                check_variable = { bet_type < 6 }
+                check_variable = { show_hand = 0 }
+
+                or = {
+                    check_variable = { var = score value = global.best_score compare = greater_than }
+                    and = {
+                        check_variable = { var = score value = global.best_score compare = equals }
+                        check_variable = { var = kicker_score value = global.best_score_kicker compare = greater_than_or_equals }
+                    }
+                }
+                or = {
+                    check_variable = { global.single_win = 1 }
+                    check_variable = { bet_type = 6 }
+                }
+            }
+        }
+        localization_key = "WINNER"
+    }
+    
+    text = { 
+        trigger = {
+            check_variable = { global.stage = 0 }
+            event_target:p_1 = {
+                check_variable = { bet_type < 6 }
+
+                or = {
+                    check_variable = { var = score value = global.best_score compare = greater_than }
+                    and = {
+                        check_variable = { var = score value = global.best_score compare = equals }
+                        check_variable = { var = kicker_score value = global.best_score_kicker compare = greater_than_or_equals }
+                    }
+                }
+            }
+        }
+        localization_key = "WINNER_INFO_1"
+    }
+    
+    text = { 
+        trigger = {
+            check_variable = { global.stage = 0 }
+            event_target:p_1 = {
+                check_variable = { bet_type < 6 }
+            }
+        }
+        localization_key = "[hand_info_1]"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { global.turn = 1 }
+        }
+        localization_key = "Turn"
+    }
+    
+    text = {
+        trigger = {
+            event_target:p_1 = {
+                check_variable = { bet_type = 0 }
+            }
+        }
+        localization_key = ""
+    }
+    
+    text = {
+        trigger = {
+            event_target:p_1 = {
+                check_variable = { bet_type = 1 }
+            }
+        }
+        localization_key = ""
+    }
+    
+    text = {
+        trigger = {
+            event_target:p_1 = {
+                check_variable = { bet_type = 2 }
+            }
+        }
+        localization_key = "Bet [?event_target:p_1.bet_amount]"
+    }
+    
+    text = {
+        trigger = {
+            event_target:p_1 = {
+                check_variable = { bet_type = 3 }
+            }
+        }
+        localization_key = "Call [?event_target:p_1.bet_amount]"
+    }
+    text = {
+        trigger = {
+            event_target:p_1 = {
+                check_variable = { bet_type = 4 }
+            }
+        }
+        localization_key = "Raise [?event_target:p_1.bet_amount]"
+    }
+    
+    text = {
+        trigger = {
+            event_target:p_1 = {
+                check_variable = { bet_type = 5 }
+            }
+        }
+        localization_key = "All In"
+    }
+  
+    text = {
+        trigger = {
+            check_variable = { global.stage = 0 }
+            event_target:p_1 = {
+                check_variable = { bet_type = 6 }
+                or = {
+                    tag = root
+                    check_variable = { show_hand = 1 }
+                }
+            }
+        }
+        localization_key = "FOLD_INFO_1"
+    }
+
+    text = {
+        trigger = {
+            event_target:p_1 = {
+                check_variable = { bet_type = 6 }
+            }
+        }
+        localization_key = "Fold"
+    }
+    
+    text = {
+        localization_key = Check
+    }
+}
+
+
+defined_text = { 
+    name = bet_amount_info_2
+
+    text = {
+        trigger = {
+            event_target:p_2 = {
+                check_variable = { bet_type = 6 }
+                check_variable = { chips_at_table < 1 }
+            }
+        }
+        localization_key = "Eliminated"
+    }
+
+    text = { 
+        trigger = {
+            check_variable = { global.stage = 0 }
+            check_variable = { global.show_handss = 1 }
+            event_target:p_2 = {
+                check_variable = { bet_type < 6 }
+
+                or = {
+                    check_variable = { var = score value = global.best_score compare = greater_than }
+                    and = {
+                        check_variable = { var = score value = global.best_score compare = equals }
+                        check_variable = { var = kicker_score value = global.best_score_kicker compare = greater_than_or_equals }
+                    }
+                }
+            }
+        }
+        localization_key = "[?event_target:p_2.score] [?event_target:p_2.kicker_score] [hand_info_2] Winner"
+    }
+    
+    text = { 
+        trigger = {
+            check_variable = { global.show_handss = 1 }
+            check_variable = { global.stage = 0 }
+            event_target:p_2 = {
+                check_variable = { bet_type < 6 }
+            }
+        }
+        localization_key = "[?event_target:p_2.score] [?event_target:p_2.kicker_score] [hand_info_2]"
+    }
+    
+    text = { 
+        trigger = {
+            check_variable = { global.stage = 0 }
+            event_target:p_2 = {
+                check_variable = { bet_type < 6 }
+                check_variable = { show_hand = 0 }
+
+                or = {
+                    check_variable = { var = score value = global.best_score compare = greater_than }
+                    and = {
+                        check_variable = { var = score value = global.best_score compare = equals }
+                        check_variable = { var = kicker_score value = global.best_score_kicker compare = greater_than_or_equals }
+                    }
+                }
+                or = {
+                    check_variable = { global.single_win = 1 }
+                    check_variable = { bet_type = 6 }
+                }
+            }
+        }
+        localization_key = "WINNER"
+    }
+    
+    text = { 
+        trigger = {
+            check_variable = { global.stage = 0 }
+            event_target:p_2 = {
+                check_variable = { bet_type < 6 }
+
+                or = {
+                    check_variable = { var = score value = global.best_score compare = greater_than }
+                    and = {
+                        check_variable = { var = score value = global.best_score compare = equals }
+                        check_variable = { var = kicker_score value = global.best_score_kicker compare = greater_than_or_equals }
+                    }
+                }
+            }
+        }
+        localization_key = "WINNER_INFO_2"
+    }
+    
+    text = { 
+        trigger = {
+            check_variable = { global.stage = 0 }
+            event_target:p_2 = {
+                check_variable = { bet_type < 6 }
+            }
+        }
+        localization_key = "[hand_info_2]"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { global.turn = 2 }
+        }
+        localization_key = "Turn"
+    }
+    
+    text = {
+        trigger = {
+            event_target:p_2 = {
+                check_variable = { bet_type = 0 }
+            }
+        }
+        localization_key = ""
+    }
+    
+    text = {
+        trigger = {
+            event_target:p_2 = {
+                check_variable = { bet_type = 1 }
+            }
+        }
+        localization_key = ""
+    }
+    
+    text = {
+        trigger = {
+            event_target:p_2 = {
+                check_variable = { bet_type = 2 }
+            }
+        }
+        localization_key = "Bet [?event_target:p_2.bet_amount]"
+    }
+    
+    text = {
+        trigger = {
+            event_target:p_2 = {
+                check_variable = { bet_type = 3 }
+            }
+        }
+        localization_key = "Call [?event_target:p_2.bet_amount]"
+    }
+    text = {
+        trigger = {
+            event_target:p_2 = {
+                check_variable = { bet_type = 4 }
+            }
+        }
+        localization_key = "Raise [?event_target:p_2.bet_amount]"
+    }
+    
+    text = {
+        trigger = {
+            event_target:p_2 = {
+                check_variable = { bet_type = 5 }
+            }
+        }
+        localization_key = "All In"
+    }
+  
+    text = {
+        trigger = {
+            check_variable = { global.stage = 0 }
+            event_target:p_2 = {
+                check_variable = { bet_type = 6 }
+                or = {
+                    tag = root
+                    check_variable = { show_hand = 1 }
+                }
+            }
+        }
+        localization_key = "FOLD_INFO_2"
+    }
+
+    text = {
+        trigger = {
+            event_target:p_2 = {
+                check_variable = { bet_type = 6 }
+            }
+        }
+        localization_key = "Fold"
+    }
+
+    text = {
+        localization_key = Check
+    }
+}
+
+
+defined_text = { 
+    name = bet_amount_info_3
+
+    text = {
+        trigger = {
+            event_target:p_3 = {
+                check_variable = { bet_type = 6 }
+                check_variable = { chips_at_table < 1 }
+            }
+        }
+        localization_key = "Eliminated"
+    }
+
+    text = { 
+        trigger = {
+            check_variable = { global.stage = 0 }
+            check_variable = { global.show_handss = 1 }
+            event_target:p_3 = {
+                check_variable = { bet_type < 6 }
+
+                or = {
+                    check_variable = { var = score value = global.best_score compare = greater_than }
+                    and = {
+                        check_variable = { var = score value = global.best_score compare = equals }
+                        check_variable = { var = kicker_score value = global.best_score_kicker compare = greater_than_or_equals }
+                    }
+                }
+            }
+        }
+        localization_key = "[?event_target:p_3.score] [?event_target:p_3.kicker_score] [hand_info_3] Winner"
+    }
+    
+    text = { 
+        trigger = {
+            check_variable = { global.show_handss = 1 }
+            check_variable = { global.stage = 0 }
+            event_target:p_3 = {
+                check_variable = { bet_type < 6 }
+            }
+        }
+        localization_key = "[?event_target:p_3.score] [?event_target:p_3.kicker_score] [hand_info_3]"
+    }
+    
+    text = { 
+        trigger = {
+            check_variable = { global.stage = 0 }
+            event_target:p_3 = {
+                check_variable = { bet_type < 6 }
+                check_variable = { show_hand = 0 }
+
+                or = {
+                    check_variable = { var = score value = global.best_score compare = greater_than }
+                    and = {
+                        check_variable = { var = score value = global.best_score compare = equals }
+                        check_variable = { var = kicker_score value = global.best_score_kicker compare = greater_than_or_equals }
+                    }
+                }
+                or = {
+                    check_variable = { global.single_win = 1 }
+                    check_variable = { bet_type = 6 }
+                }
+            }
+        }
+        localization_key = "WINNER"
+    }
+    
+    text = { 
+        trigger = {
+            check_variable = { global.stage = 0 }
+            event_target:p_3 = {
+                check_variable = { bet_type < 6 }
+
+                or = {
+                    check_variable = { var = score value = global.best_score compare = greater_than }
+                    and = {
+                        check_variable = { var = score value = global.best_score compare = equals }
+                        check_variable = { var = kicker_score value = global.best_score_kicker compare = greater_than_or_equals }
+                    }
+                }
+            }
+        }
+        localization_key = "WINNER_INFO_3"
+    }
+    
+    text = { 
+        trigger = {
+            check_variable = { global.stage = 0 }
+            event_target:p_3 = {
+                check_variable = { bet_type < 6 }
+            }
+        }
+        localization_key = "[hand_info_3]"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { global.turn = 3 }
+        }
+        localization_key = "Turn"
+    }
+    
+    text = {
+        trigger = {
+            event_target:p_3 = {
+                check_variable = { bet_type = 0 }
+            }
+        }
+        localization_key = ""
+    }
+    
+    text = {
+        trigger = {
+            event_target:p_3 = {
+                check_variable = { bet_type = 1 }
+            }
+        }
+        localization_key = ""
+    }
+    
+    text = {
+        trigger = {
+            event_target:p_3 = {
+                check_variable = { bet_type = 2 }
+            }
+        }
+        localization_key = "Bet [?event_target:p_3.bet_amount]"
+    }
+    
+    text = {
+        trigger = {
+            event_target:p_3 = {
+                check_variable = { bet_type = 3 }
+            }
+        }
+        localization_key = "Call [?event_target:p_3.bet_amount]"
+    }
+    text = {
+        trigger = {
+            event_target:p_3 = {
+                check_variable = { bet_type = 4 }
+            }
+        }
+        localization_key = "Raise [?event_target:p_3.bet_amount]"
+    }
+    
+    text = {
+        trigger = {
+            event_target:p_3 = {
+                check_variable = { bet_type = 5 }
+            }
+        }
+        localization_key = "All In"
+    }
+  
+    text = {
+        trigger = {
+            check_variable = { global.stage = 0 }
+            event_target:p_3 = {
+                check_variable = { bet_type = 6 }
+                or = {
+                    tag = root
+                    check_variable = { show_hand = 1 }
+                }
+            }
+        }
+        localization_key = "FOLD_INFO_3"
+    }
+
+    text = {
+        trigger = {
+            event_target:p_3 = {
+                check_variable = { bet_type = 6 }
+            }
+        }
+        localization_key = "Fold"
+    }
+
+    text = {
+        localization_key = Check
+    }
+}
+
+
+defined_text = { 
+    name = bet_amount_info_4
+
+    text = {
+        trigger = {
+            event_target:p_4 = {
+                check_variable = { bet_type = 6 }
+                check_variable = { chips_at_table < 1 }
+            }
+        }
+        localization_key = "Eliminated"
+    }
+
+    text = { 
+        trigger = {
+            check_variable = { global.stage = 0 }
+            check_variable = { global.show_handss = 1 }
+            event_target:p_4 = {
+                check_variable = { bet_type < 6 }
+
+                or = {
+                    check_variable = { var = score value = global.best_score compare = greater_than }
+                    and = {
+                        check_variable = { var = score value = global.best_score compare = equals }
+                        check_variable = { var = kicker_score value = global.best_score_kicker compare = greater_than_or_equals }
+                    }
+                }
+            }
+        }
+        localization_key = "[?event_target:p_4.score] [?event_target:p_4.kicker_score] [hand_info_4] Winner"
+    }
+    
+    text = { 
+        trigger = {
+            check_variable = { global.show_handss = 1 }
+            check_variable = { global.stage = 0 }
+            event_target:p_4 = {
+                check_variable = { bet_type < 6 }
+            }
+        }
+        localization_key = "[?event_target:p_4.score] [?event_target:p_4.kicker_score] [hand_info_4]"
+    }
+    
+    text = { 
+        trigger = {
+            check_variable = { global.stage = 0 }
+            event_target:p_4 = {
+                check_variable = { bet_type < 6 }
+                check_variable = { show_hand = 0 }
+
+                or = {
+                    check_variable = { var = score value = global.best_score compare = greater_than }
+                    and = {
+                        check_variable = { var = score value = global.best_score compare = equals }
+                        check_variable = { var = kicker_score value = global.best_score_kicker compare = greater_than_or_equals }
+                    }
+                }
+                or = {
+                    check_variable = { global.single_win = 1 }
+                    check_variable = { bet_type = 6 }
+                }
+            }
+        }
+        localization_key = "WINNER"
+    }
+    
+    text = { 
+        trigger = {
+            check_variable = { global.stage = 0 }
+            event_target:p_4 = {
+                check_variable = { bet_type < 6 }
+
+                or = {
+                    check_variable = { var = score value = global.best_score compare = greater_than }
+                    and = {
+                        check_variable = { var = score value = global.best_score compare = equals }
+                        check_variable = { var = kicker_score value = global.best_score_kicker compare = greater_than_or_equals }
+                    }
+                }
+            }
+        }
+        localization_key = "WINNER_INFO_4"
+    }
+    
+    text = { 
+        trigger = {
+            check_variable = { global.stage = 0 }
+            event_target:p_4 = {
+                check_variable = { bet_type < 6 }
+            }
+        }
+        localization_key = "[hand_info_4]"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { global.turn = 4 }
+        }
+        localization_key = "Turn"
+    }
+    
+    text = {
+        trigger = {
+            event_target:p_4 = {
+                check_variable = { bet_type = 0 }
+            }
+        }
+        localization_key = ""
+    }
+    
+    text = {
+        trigger = {
+            event_target:p_4 = {
+                check_variable = { bet_type = 1 }
+            }
+        }
+        localization_key = ""
+    }
+    
+    text = {
+        trigger = {
+            event_target:p_4 = {
+                check_variable = { bet_type = 2 }
+            }
+        }
+        localization_key = "Bet [?event_target:p_4.bet_amount]"
+    }
+    
+    text = {
+        trigger = {
+            event_target:p_4 = {
+                check_variable = { bet_type = 3 }
+            }
+        }
+        localization_key = "Call [?event_target:p_4.bet_amount]"
+    }
+    text = {
+        trigger = {
+            event_target:p_4 = {
+                check_variable = { bet_type = 4 }
+            }
+        }
+        localization_key = "Raise [?event_target:p_4.bet_amount]"
+    }
+    
+    text = {
+        trigger = {
+            event_target:p_4 = {
+                check_variable = { bet_type = 5 }
+            }
+        }
+        localization_key = "All In"
+    }
+  
+    text = {
+        trigger = {
+            check_variable = { global.stage = 0 }
+            event_target:p_4 = {
+                check_variable = { bet_type = 6 }
+                or = {
+                    tag = root
+                    check_variable = { show_hand = 1 }
+                }
+            }
+        }
+        localization_key = "FOLD_INFO_4"
+    }
+
+    text = {
+        trigger = {
+            event_target:p_4 = {
+                check_variable = { bet_type = 6 }
+            }
+        }
+        localization_key = "Fold"
+    }
+
+    text = {
+        localization_key = Check
+    }
+}
+
+
+defined_text = { 
+    name = bet_amount_info_5
+
+    text = {
+        trigger = {
+            event_target:p_5 = {
+                check_variable = { bet_type = 6 }
+                check_variable = { chips_at_table < 1 }
+            }
+        }
+        localization_key = "Eliminated"
+    }
+
+    text = { 
+        trigger = {
+            check_variable = { global.stage = 0 }
+            check_variable = { global.show_handss = 1 }
+            event_target:p_5 = {
+                check_variable = { bet_type < 6 }
+
+                or = {
+                    check_variable = { var = score value = global.best_score compare = greater_than }
+                    and = {
+                        check_variable = { var = score value = global.best_score compare = equals }
+                        check_variable = { var = kicker_score value = global.best_score_kicker compare = greater_than_or_equals }
+                    }
+                }
+            }
+        }
+        localization_key = "[?event_target:p_5.score] [?event_target:p_5.kicker_score] [hand_info_5] Winner"
+    }
+    
+    text = { 
+        trigger = {
+            check_variable = { global.show_handss = 1 }
+            check_variable = { global.stage = 0 }
+            event_target:p_5 = {
+                check_variable = { bet_type < 6 }
+            }
+        }
+        localization_key = "[?event_target:p_5.score] [?event_target:p_5.kicker_score] [hand_info_5]"
+    }
+    
+    text = { 
+        trigger = {
+            check_variable = { global.stage = 0 }
+            event_target:p_5 = {
+                check_variable = { bet_type < 6 }
+                check_variable = { show_hand = 0 }
+
+                or = {
+                    check_variable = { var = score value = global.best_score compare = greater_than }
+                    and = {
+                        check_variable = { var = score value = global.best_score compare = equals }
+                        check_variable = { var = kicker_score value = global.best_score_kicker compare = greater_than_or_equals }
+                    }
+                }
+                or = {
+                    check_variable = { global.single_win = 1 }
+                    check_variable = { bet_type = 6 }
+                }
+            }
+        }
+        localization_key = "WINNER"
+    }
+    
+    text = { 
+        trigger = {
+            check_variable = { global.stage = 0 }
+            event_target:p_5 = {
+                check_variable = { bet_type < 6 }
+
+                or = {
+                    check_variable = { var = score value = global.best_score compare = greater_than }
+                    and = {
+                        check_variable = { var = score value = global.best_score compare = equals }
+                        check_variable = { var = kicker_score value = global.best_score_kicker compare = greater_than_or_equals }
+                    }
+                }
+            }
+        }
+        localization_key = "WINNER_INFO_5"
+    }
+    
+    text = { 
+        trigger = {
+            check_variable = { global.stage = 0 }
+            event_target:p_5 = {
+                check_variable = { bet_type < 6 }
+            }
+        }
+        localization_key = "[hand_info_5]"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { global.turn = 5 }
+        }
+        localization_key = "Turn"
+    }
+    
+    text = {
+        trigger = {
+            event_target:p_5 = {
+                check_variable = { bet_type = 0 }
+            }
+        }
+        localization_key = ""
+    }
+    
+    text = {
+        trigger = {
+            event_target:p_5 = {
+                check_variable = { bet_type = 1 }
+            }
+        }
+        localization_key = ""
+    }
+    
+    text = {
+        trigger = {
+            event_target:p_5 = {
+                check_variable = { bet_type = 2 }
+            }
+        }
+        localization_key = "Bet [?event_target:p_5.bet_amount]"
+    }
+    
+    text = {
+        trigger = {
+            event_target:p_5 = {
+                check_variable = { bet_type = 3 }
+            }
+        }
+        localization_key = "Call [?event_target:p_5.bet_amount]"
+    }
+    text = {
+        trigger = {
+            event_target:p_5 = {
+                check_variable = { bet_type = 4 }
+            }
+        }
+        localization_key = "Raise [?event_target:p_5.bet_amount]"
+    }
+    
+    text = {
+        trigger = {
+            event_target:p_5 = {
+                check_variable = { bet_type = 5 }
+            }
+        }
+        localization_key = "All In"
+    }
+  
+    text = {
+        trigger = {
+            check_variable = { global.stage = 0 }
+            event_target:p_5 = {
+                check_variable = { bet_type = 6 }
+                or = {
+                    tag = root
+                    check_variable = { show_hand = 1 }
+                }
+            }
+        }
+        localization_key = "FOLD_INFO_5"
+    }
+
+    text = {
+        trigger = {
+            event_target:p_5 = {
+                check_variable = { bet_type = 6 }
+            }
+        }
+        localization_key = "Fold"
+    }
+
+    text = {
+        localization_key = Check
+    }
+}
+
+
+defined_text = { 
+    name = bet_amount_info_6
+
+    text = {
+        trigger = {
+            event_target:p_6 = {
+                check_variable = { bet_type = 6 }
+                check_variable = { chips_at_table < 1 }
+            }
+        }
+        localization_key = "Eliminated"
+    }
+
+    text = { 
+        trigger = {
+            check_variable = { global.stage = 0 }
+            check_variable = { global.show_handss = 1 }
+            event_target:p_6 = {
+                check_variable = { bet_type < 6 }
+
+                or = {
+                    check_variable = { var = score value = global.best_score compare = greater_than }
+                    and = {
+                        check_variable = { var = score value = global.best_score compare = equals }
+                        check_variable = { var = kicker_score value = global.best_score_kicker compare = greater_than_or_equals }
+                    }
+                }
+            }
+        }
+        localization_key = "[?event_target:p_6.score] [?event_target:p_6.kicker_score] [hand_info_6] Winner"
+    }
+    
+    text = { 
+        trigger = {
+            check_variable = { global.show_handss = 1 }
+            check_variable = { global.stage = 0 }
+            event_target:p_6 = {
+                check_variable = { bet_type < 6 }
+            }
+        }
+        localization_key = "[?event_target:p_6.score] [?event_target:p_6.kicker_score] [hand_info_6]"
+    }
+    
+    text = { 
+        trigger = {
+            check_variable = { global.stage = 0 }
+            event_target:p_6 = {
+                check_variable = { bet_type < 6 }
+                check_variable = { show_hand = 0 }
+
+                or = {
+                    check_variable = { var = score value = global.best_score compare = greater_than }
+                    and = {
+                        check_variable = { var = score value = global.best_score compare = equals }
+                        check_variable = { var = kicker_score value = global.best_score_kicker compare = greater_than_or_equals }
+                    }
+                }
+                or = {
+                    check_variable = { global.single_win = 1 }
+                    check_variable = { bet_type = 6 }
+                }
+            }
+        }
+        localization_key = "WINNER"
+    }
+    
+    text = { 
+        trigger = {
+            check_variable = { global.stage = 0 }
+            event_target:p_6 = {
+                check_variable = { bet_type < 6 }
+
+                or = {
+                    check_variable = { var = score value = global.best_score compare = greater_than }
+                    and = {
+                        check_variable = { var = score value = global.best_score compare = equals }
+                        check_variable = { var = kicker_score value = global.best_score_kicker compare = greater_than_or_equals }
+                    }
+                }
+            }
+        }
+        localization_key = "WINNER_INFO_6"
+    }
+    
+    text = { 
+        trigger = {
+            check_variable = { global.stage = 0 }
+            event_target:p_6 = {
+                check_variable = { bet_type < 6 }
+            }
+        }
+        localization_key = "[hand_info_6]"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { global.turn = 6 }
+        }
+        localization_key = "Turn"
+    }
+    
+    text = {
+        trigger = {
+            event_target:p_6 = {
+                check_variable = { bet_type = 0 }
+            }
+        }
+        localization_key = ""
+    }
+    
+    text = {
+        trigger = {
+            event_target:p_6 = {
+                check_variable = { bet_type = 1 }
+            }
+        }
+        localization_key = ""
+    }
+    
+    text = {
+        trigger = {
+            event_target:p_6 = {
+                check_variable = { bet_type = 2 }
+            }
+        }
+        localization_key = "Bet [?event_target:p_6.bet_amount]"
+    }
+    
+    text = {
+        trigger = {
+            event_target:p_6 = {
+                check_variable = { bet_type = 3 }
+            }
+        }
+        localization_key = "Call [?event_target:p_6.bet_amount]"
+    }
+    text = {
+        trigger = {
+            event_target:p_6 = {
+                check_variable = { bet_type = 4 }
+            }
+        }
+        localization_key = "Raise [?event_target:p_6.bet_amount]"
+    }
+    
+    text = {
+        trigger = {
+            event_target:p_6 = {
+                check_variable = { bet_type = 5 }
+            }
+        }
+        localization_key = "All In"
+    }
+  
+    text = {
+        trigger = {
+            check_variable = { global.stage = 0 }
+            event_target:p_6 = {
+                check_variable = { bet_type = 6 }
+                or = {
+                    tag = root
+                    check_variable = { show_hand = 1 }
+                }
+            }
+        }
+        localization_key = "FOLD_INFO_6"
+    }
+
+    text = {
+        trigger = {
+            event_target:p_6 = {
+                check_variable = { bet_type = 6 }
+            }
+        }
+        localization_key = "Fold"
+    }
+
+    text = {
+        localization_key = Check
+    }
+}
+
+
+defined_text = { 
+    name = bet_amount_info_7
+
+    text = {
+        trigger = {
+            event_target:p_7 = {
+                check_variable = { bet_type = 6 }
+                check_variable = { chips_at_table < 1 }
+            }
+        }
+        localization_key = "Eliminated"
+    }
+
+    text = { 
+        trigger = {
+            check_variable = { global.stage = 0 }
+            check_variable = { global.show_handss = 1 }
+            event_target:p_7 = {
+                check_variable = { bet_type < 6 }
+
+                or = {
+                    check_variable = { var = score value = global.best_score compare = greater_than }
+                    and = {
+                        check_variable = { var = score value = global.best_score compare = equals }
+                        check_variable = { var = kicker_score value = global.best_score_kicker compare = greater_than_or_equals }
+                    }
+                }
+            }
+        }
+        localization_key = "[?event_target:p_7.score] [?event_target:p_7.kicker_score] [hand_info_7] Winner"
+    }
+    
+    text = { 
+        trigger = {
+            check_variable = { global.show_handss = 1 }
+            check_variable = { global.stage = 0 }
+            event_target:p_7 = {
+                check_variable = { bet_type < 6 }
+            }
+        }
+        localization_key = "[?event_target:p_7.score] [?event_target:p_7.kicker_score] [hand_info_7]"
+    }
+    
+    text = { 
+        trigger = {
+            check_variable = { global.stage = 0 }
+            event_target:p_7 = {
+                check_variable = { bet_type < 6 }
+                check_variable = { show_hand = 0 }
+
+                or = {
+                    check_variable = { var = score value = global.best_score compare = greater_than }
+                    and = {
+                        check_variable = { var = score value = global.best_score compare = equals }
+                        check_variable = { var = kicker_score value = global.best_score_kicker compare = greater_than_or_equals }
+                    }
+                }
+                or = {
+                    check_variable = { global.single_win = 1 }
+                    check_variable = { bet_type = 6 }
+                }
+            }
+        }
+        localization_key = "WINNER"
+    }
+    
+    text = { 
+        trigger = {
+            check_variable = { global.stage = 0 }
+            event_target:p_7 = {
+                check_variable = { bet_type < 6 }
+
+                or = {
+                    check_variable = { var = score value = global.best_score compare = greater_than }
+                    and = {
+                        check_variable = { var = score value = global.best_score compare = equals }
+                        check_variable = { var = kicker_score value = global.best_score_kicker compare = greater_than_or_equals }
+                    }
+                }
+            }
+        }
+        localization_key = "WINNER_INFO_7"
+    }
+    
+    text = { 
+        trigger = {
+            check_variable = { global.stage = 0 }
+            event_target:p_7 = {
+                check_variable = { bet_type < 6 }
+            }
+        }
+        localization_key = "[hand_info_7]"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { global.turn = 7 }
+        }
+        localization_key = "Turn"
+    }
+    
+    text = {
+        trigger = {
+            event_target:p_7 = {
+                check_variable = { bet_type = 0 }
+            }
+        }
+        localization_key = ""
+    }
+    
+    text = {
+        trigger = {
+            event_target:p_7 = {
+                check_variable = { bet_type = 1 }
+            }
+        }
+        localization_key = ""
+    }
+    
+    text = {
+        trigger = {
+            event_target:p_7 = {
+                check_variable = { bet_type = 2 }
+            }
+        }
+        localization_key = "Bet [?event_target:p_7.bet_amount]"
+    }
+    
+    text = {
+        trigger = {
+            event_target:p_7 = {
+                check_variable = { bet_type = 3 }
+            }
+        }
+        localization_key = "Call [?event_target:p_7.bet_amount]"
+    }
+    text = {
+        trigger = {
+            event_target:p_7 = {
+                check_variable = { bet_type = 4 }
+            }
+        }
+        localization_key = "Raise [?event_target:p_7.bet_amount]"
+    }
+    
+    text = {
+        trigger = {
+            event_target:p_7 = {
+                check_variable = { bet_type = 5 }
+            }
+        }
+        localization_key = "All In"
+    }
+  
+    text = {
+        trigger = {
+            check_variable = { global.stage = 0 }
+            event_target:p_7 = {
+                check_variable = { bet_type = 7 }
+                or = {
+                    tag = root
+                    check_variable = { show_hand = 1 }
+                }
+            }
+        }
+        localization_key = "FOLD_INFO_7"
+    }
+
+    text = {
+        trigger = {
+            event_target:p_7 = {
+                check_variable = { bet_type = 6 }
+            }
+        }
+        localization_key = "Fold"
+    }
+
+    text = {
+        localization_key = Check
+    }
+}
+
+
+#######
+
+defined_text = { 
+    name = dealer_card_color_1
+
+    text = {
+        trigger = {
+            check_variable = { global.show_dealer_cheat = 0 }
+            check_variable = { global.dealer_card_show < 1 }
+        }
+        localization_key = GFX_card_back
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { event_target:p_1.dealer_1_color = 1 }
+        }
+        localization_key = GFX_card_clubs
+    }
+    text = {
+        trigger = {
+            check_variable = { event_target:p_1.dealer_1_color = 2 }
+        }
+        localization_key = GFX_card_diamonds
+    }
+    text = {
+        trigger = {
+            check_variable = { event_target:p_1.dealer_1_color = 3 }
+        }
+        localization_key = GFX_card_hearts
+    }
+    
+    text = {
+        localization_key = GFX_card_spades
+    }
+}
+    
+defined_text = { 
+    name = dealer_card_color_2
+
+    text = {
+        trigger = {
+            check_variable = { global.show_dealer_cheat = 0 }
+            check_variable = { global.dealer_card_show < 2 }
+        }
+        localization_key = GFX_card_back
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { event_target:p_1.dealer_2_color = 1 }
+        }
+        localization_key = GFX_card_clubs
+    }
+    text = {
+        trigger = {
+            check_variable = { event_target:p_1.dealer_2_color = 2 }
+        }
+        localization_key = GFX_card_diamonds
+    }
+    text = {
+        trigger = {
+            check_variable = { event_target:p_1.dealer_2_color = 3 }
+        }
+        localization_key = GFX_card_hearts
+    }
+    
+    text = {
+        localization_key = GFX_card_spades
+    }
+}
+    
+defined_text = { 
+    name = dealer_card_color_3
+
+    text = {
+        trigger = {
+            check_variable = { global.show_dealer_cheat = 0 }
+            check_variable = { global.dealer_card_show < 3 }
+        }
+        localization_key = GFX_card_back
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { event_target:p_1.dealer_3_color = 1 }
+        }
+        localization_key = GFX_card_clubs
+    }
+    text = {
+        trigger = {
+            check_variable = { event_target:p_1.dealer_3_color = 2 }
+        }
+        localization_key = GFX_card_diamonds
+    }
+    text = {
+        trigger = {
+            check_variable = { event_target:p_1.dealer_3_color = 3 }
+        }
+        localization_key = GFX_card_hearts
+    }
+    
+    text = {
+        localization_key = GFX_card_spades
+    }
+}
+    
+defined_text = { 
+    name = dealer_card_color_4
+
+    text = {
+        trigger = {
+            check_variable = { global.show_dealer_cheat = 0 }
+            check_variable = { global.dealer_card_show < 4 }
+        }
+        localization_key = GFX_card_back
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { event_target:p_1.dealer_4_color = 1 }
+        }
+        localization_key = GFX_card_clubs
+    }
+    text = {
+        trigger = {
+            check_variable = { event_target:p_1.dealer_4_color = 2 }
+        }
+        localization_key = GFX_card_diamonds
+    }
+    text = {
+        trigger = {
+            check_variable = { event_target:p_1.dealer_4_color = 3 }
+        }
+        localization_key = GFX_card_hearts
+    }
+    text = {
+        localization_key = GFX_card_spades
+    }
+}
+    
+defined_text = { 
+    name = dealer_card_color_5
+
+    text = {
+        trigger = {
+            check_variable = { global.show_dealer_cheat = 0 }
+            check_variable = { global.dealer_card_show < 5 }
+        }
+        localization_key = GFX_card_back
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { event_target:p_1.dealer_5_color = 1 }
+        }
+        localization_key = GFX_card_clubs
+    }
+    text = {
+        trigger = {
+            check_variable = { event_target:p_1.dealer_5_color = 2 }
+        }
+        localization_key = GFX_card_diamonds
+    }
+    text = {
+        trigger = {
+            check_variable = { event_target:p_1.dealer_5_color = 3 }
+        }
+        localization_key = GFX_card_hearts
+    }
+    text = {
+        localization_key = GFX_card_spades
+    }
+}
+
+
+###
+
+
+defined_text = { 
+    name = player_1_card_1_color
+
+    text = {
+        trigger = {
+            check_variable = { global.show_hands = 0 }
+            check_variable = { var = root.p  value = 0.001 compare = not_equals }
+            or = {
+                check_variable = { global.stage > 0 }
+                check_variable = { global.single_win = 1 }
+                check_variable = { event_target:p_1.bet_type = 6 }
+            }
+            check_variable = { event_target:p_1.show_hand = 0 }
+        }
+        localization_key = GFX_card_back
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { event_target:p_1.c_1_color = 1 }
+        }
+        localization_key = GFX_card_clubs
+    }
+    text = {
+        trigger = {
+            check_variable = { event_target:p_1.c_1_color = 2 }
+        }
+        localization_key = GFX_card_diamonds
+    }
+    text = {
+        trigger = {
+            check_variable = { event_target:p_1.c_1_color = 3 }
+        }
+        localization_key = GFX_card_hearts
+    }
+    text = {
+        localization_key = GFX_card_spades
+    }
+}
+
+
+defined_text = { 
+    name = player_1_card_2_color
+
+    text = {
+        trigger = {
+            check_variable = { global.show_hands = 0 }
+            check_variable = { var = root.p  value = 0.001 compare = not_equals }
+            or = {
+                check_variable = { global.stage > 0 }
+                check_variable = { global.single_win = 1 }
+                check_variable = { event_target:p_1.bet_type = 6 }
+            }
+            check_variable = { event_target:p_1.show_hand = 0 }
+        }
+        localization_key = GFX_card_back
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { event_target:p_1.c_2_color = 1 }
+        }
+        localization_key = GFX_card_clubs
+    }
+    text = {
+        trigger = {
+            check_variable = { event_target:p_1.c_2_color = 2 }
+        }
+        localization_key = GFX_card_diamonds
+    }
+    text = {
+        trigger = {
+            check_variable = { event_target:p_1.c_2_color = 3 }
+        }
+        localization_key = GFX_card_hearts
+    }
+    text = {
+        localization_key = GFX_card_spades
+    }
+}
+
+
+defined_text = { 
+    name = player_2_card_1_color
+
+    text = {
+        trigger = {
+            check_variable = { global.show_hands = 0 }
+            check_variable = { var = root.p  value = 0.002 compare = not_equals }
+            or = {
+                check_variable = { global.stage > 0 }
+                check_variable = { global.single_win = 1 }
+                check_variable = { event_target:p_2.bet_type = 6 }
+            }
+            check_variable = { event_target:p_2.show_hand = 0 }
+        }
+        localization_key = GFX_card_back
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { event_target:p_2.c_1_color = 1 }
+        }
+        localization_key = GFX_card_clubs
+    }
+    text = {
+        trigger = {
+            check_variable = { event_target:p_2.c_1_color = 2 }
+        }
+        localization_key = GFX_card_diamonds
+    }
+    text = {
+        trigger = {
+            check_variable = { event_target:p_2.c_1_color = 3 }
+        }
+        localization_key = GFX_card_hearts
+    }
+    text = {
+        localization_key = GFX_card_spades
+    }
+}
+
+
+defined_text = { 
+    name = player_2_card_2_color
+
+    text = {
+        trigger = {
+            check_variable = { global.show_hands = 0 }
+            check_variable = { var = root.p  value = 0.002 compare = not_equals }
+            or = {
+                check_variable = { global.stage > 0 }
+                check_variable = { global.single_win = 1 }
+                check_variable = { event_target:p_2.bet_type = 6 }
+            }
+            check_variable = { event_target:p_2.show_hand = 0 }
+        }
+        localization_key = GFX_card_back
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { event_target:p_2.c_2_color = 1 }
+        }
+        localization_key = GFX_card_clubs
+    }
+    text = {
+        trigger = {
+            check_variable = { event_target:p_2.c_2_color = 2 }
+        }
+        localization_key = GFX_card_diamonds
+    }
+    text = {
+        trigger = {
+            check_variable = { event_target:p_2.c_2_color = 3 }
+        }
+        localization_key = GFX_card_hearts
+    }
+    text = {
+        localization_key = GFX_card_spades
+    }
+}
+
+
+defined_text = { 
+    name = player_3_card_1_color
+
+    text = {
+        trigger = {
+            check_variable = { global.show_hands = 0 }
+            check_variable = { var = root.p  value = 0.003 compare = not_equals }
+            or = {
+                check_variable = { global.stage > 0 }
+                check_variable = { global.single_win = 1 }
+                check_variable = { event_target:p_3.bet_type = 6 }
+            }
+            check_variable = { event_target:p_3.show_hand = 0 }
+        }
+        localization_key = GFX_card_back
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { event_target:p_3.c_1_color = 1 }
+        }
+        localization_key = GFX_card_clubs
+    }
+    text = {
+        trigger = {
+            check_variable = { event_target:p_3.c_1_color = 2 }
+        }
+        localization_key = GFX_card_diamonds
+    }
+    text = {
+        trigger = {
+            check_variable = { event_target:p_3.c_1_color = 3 }
+        }
+        localization_key = GFX_card_hearts
+    }
+    text = {
+        localization_key = GFX_card_spades
+    }
+}
+
+
+defined_text = { 
+    name = player_3_card_2_color
+
+    text = {
+        trigger = {
+            check_variable = { global.show_hands = 0 }
+            check_variable = { var = root.p  value = 0.003 compare = not_equals }
+            or = {
+                check_variable = { global.stage > 0 }
+                check_variable = { global.single_win = 1 }
+                check_variable = { event_target:p_3.bet_type = 6 }
+            }
+            check_variable = { event_target:p_3.show_hand = 0 }
+        }
+        localization_key = GFX_card_back
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { event_target:p_3.c_2_color = 1 }
+        }
+        localization_key = GFX_card_clubs
+    }
+    text = {
+        trigger = {
+            check_variable = { event_target:p_3.c_2_color = 2 }
+        }
+        localization_key = GFX_card_diamonds
+    }
+    text = {
+        trigger = {
+            check_variable = { event_target:p_3.c_2_color = 3 }
+        }
+        localization_key = GFX_card_hearts
+    }
+    text = {
+        localization_key = GFX_card_spades
+    }
+}
+
+
+defined_text = { 
+    name = player_4_card_1_color
+
+    text = {
+        trigger = {
+            check_variable = { global.show_hands = 0 }
+            check_variable = { var = root.p  value = 0.004 compare = not_equals }
+            or = {
+                check_variable = { global.stage > 0 }
+                check_variable = { global.single_win = 1 }
+                check_variable = { event_target:p_4.bet_type = 6 }
+            }
+            check_variable = { event_target:p_4.show_hand = 0 }
+        }
+        localization_key = GFX_card_back
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { event_target:p_4.c_1_color = 1 }
+        }
+        localization_key = GFX_card_clubs
+    }
+    text = {
+        trigger = {
+            check_variable = { event_target:p_4.c_1_color = 2 }
+        }
+        localization_key = GFX_card_diamonds
+    }
+    text = {
+        trigger = {
+            check_variable = { event_target:p_4.c_1_color = 3 }
+        }
+        localization_key = GFX_card_hearts
+    }
+    text = {
+        localization_key = GFX_card_spades
+    }
+}
+
+
+defined_text = { 
+    name = player_4_card_2_color
+
+    text = {
+        trigger = {
+            check_variable = { global.show_hands = 0 }
+            check_variable = { var = root.p  value = 0.004 compare = not_equals }
+            or = {
+                check_variable = { global.stage > 0 }
+                check_variable = { global.single_win = 1 }
+                check_variable = { event_target:p_4.bet_type = 6 }
+            }
+            check_variable = { event_target:p_4.show_hand = 0 }
+        }
+        localization_key = GFX_card_back
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { event_target:p_4.c_2_color = 1 }
+        }
+        localization_key = GFX_card_clubs
+    }
+    text = {
+        trigger = {
+            check_variable = { event_target:p_4.c_2_color = 2 }
+        }
+        localization_key = GFX_card_diamonds
+    }
+    text = {
+        trigger = {
+            check_variable = { event_target:p_4.c_2_color = 3 }
+        }
+        localization_key = GFX_card_hearts
+    }
+    text = {
+        localization_key = GFX_card_spades
+    }
+}
+
+
+defined_text = { 
+    name = player_5_card_1_color
+
+    text = {
+        trigger = {
+            check_variable = { global.show_hands = 0 }
+            check_variable = { var = root.p  value = 0.005 compare = not_equals }
+            or = {
+                check_variable = { global.stage > 0 }
+                check_variable = { global.single_win = 1 }
+                check_variable = { event_target:p_5.bet_type = 6 }
+            }
+            check_variable = { event_target:p_5.show_hand = 0 }
+        }
+        localization_key = GFX_card_back
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { event_target:p_5.c_1_color = 1 }
+        }
+        localization_key = GFX_card_clubs
+    }
+    text = {
+        trigger = {
+            check_variable = { event_target:p_5.c_1_color = 2 }
+        }
+        localization_key = GFX_card_diamonds
+    }
+    text = {
+        trigger = {
+            check_variable = { event_target:p_5.c_1_color = 3 }
+        }
+        localization_key = GFX_card_hearts
+    }
+    text = {
+        localization_key = GFX_card_spades
+    }
+}
+
+
+defined_text = { 
+    name = player_5_card_2_color
+
+    text = {
+        trigger = {
+            check_variable = { global.show_hands = 0 }
+            check_variable = { var = root.p  value = 0.005 compare = not_equals }
+            or = {
+                check_variable = { global.stage > 0 }
+                check_variable = { global.single_win = 1 }
+                check_variable = { event_target:p_5.bet_type = 6 }
+            }
+            check_variable = { event_target:p_5.show_hand = 0 }
+        }
+        localization_key = GFX_card_back
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { event_target:p_5.c_2_color = 1 }
+        }
+        localization_key = GFX_card_clubs
+    }
+    text = {
+        trigger = {
+            check_variable = { event_target:p_5.c_2_color = 2 }
+        }
+        localization_key = GFX_card_diamonds
+    }
+    text = {
+        trigger = {
+            check_variable = { event_target:p_5.c_2_color = 3 }
+        }
+        localization_key = GFX_card_hearts
+    }
+    text = {
+        localization_key = GFX_card_spades
+    }
+}
+
+
+defined_text = { 
+    name = player_6_card_1_color
+
+    text = {
+        trigger = {
+            check_variable = { global.show_hands = 0 }
+            check_variable = { var = root.p  value = 0.006 compare = not_equals }
+            or = {
+                check_variable = { global.stage > 0 }
+                check_variable = { global.single_win = 1 }
+                check_variable = { event_target:p_6.bet_type = 6 }
+            }
+            check_variable = { event_target:p_6.show_hand = 0 }
+        }
+        localization_key = GFX_card_back
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { event_target:p_6.c_1_color = 1 }
+        }
+        localization_key = GFX_card_clubs
+    }
+    text = {
+        trigger = {
+            check_variable = { event_target:p_6.c_1_color = 2 }
+        }
+        localization_key = GFX_card_diamonds
+    }
+    text = {
+        trigger = {
+            check_variable = { event_target:p_6.c_1_color = 3 }
+        }
+        localization_key = GFX_card_hearts
+    }
+    text = {
+        localization_key = GFX_card_spades
+    }
+}
+
+
+defined_text = { 
+    name = player_6_card_2_color
+
+    text = {
+        trigger = {
+            check_variable = { global.show_hands = 0 }
+            check_variable = { var = root.p  value = 0.006 compare = not_equals }
+            or = {
+                check_variable = { global.stage > 0 }
+                check_variable = { global.single_win = 1 }
+                check_variable = { event_target:p_6.bet_type = 6 }
+            }
+            check_variable = { event_target:p_6.show_hand = 0 }
+        }
+        localization_key = GFX_card_back
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { event_target:p_6.c_2_color = 1 }
+        }
+        localization_key = GFX_card_clubs
+    }
+    text = {
+        trigger = {
+            check_variable = { event_target:p_6.c_2_color = 2 }
+        }
+        localization_key = GFX_card_diamonds
+    }
+    text = {
+        trigger = {
+            check_variable = { event_target:p_6.c_2_color = 3 }
+        }
+        localization_key = GFX_card_hearts
+    }
+    text = {
+        localization_key = GFX_card_spades
+    }
+}
+
+
+defined_text = { 
+    name = player_7_card_1_color
+
+    text = {
+        trigger = {
+            check_variable = { global.show_hands = 0 }
+            check_variable = { var = root.p  value = 0.007 compare = not_equals }
+            or = {
+                check_variable = { global.stage > 0 }
+                check_variable = { global.single_win = 1 }
+                check_variable = { event_target:p_7.bet_type = 6 }
+            }
+            check_variable = { event_target:p_7.show_hand = 0 }
+        }
+        localization_key = GFX_card_back
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { event_target:p_7.c_1_color = 1 }
+        }
+        localization_key = GFX_card_clubs
+    }
+    text = {
+        trigger = {
+            check_variable = { event_target:p_7.c_1_color = 2 }
+        }
+        localization_key = GFX_card_diamonds
+    }
+    text = {
+        trigger = {
+            check_variable = { event_target:p_7.c_1_color = 3 }
+        }
+        localization_key = GFX_card_hearts
+    }
+    text = {
+        localization_key = GFX_card_spades
+    }
+}
+
+
+defined_text = { 
+    name = player_7_card_2_color
+
+    text = {
+        trigger = {
+            check_variable = { global.show_hands = 0 }
+            check_variable = { var = root.p  value = 0.007 compare = not_equals }
+            or = {
+                check_variable = { global.stage > 0 }
+                check_variable = { global.single_win = 1 }
+                check_variable = { event_target:p_7.bet_type = 6 }
+            }
+            check_variable = { event_target:p_7.show_hand = 0 }
+        }
+        localization_key = GFX_card_back
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { event_target:p_7.c_2_color = 1 }
+        }
+        localization_key = GFX_card_clubs
+    }
+    text = {
+        trigger = {
+            check_variable = { event_target:p_7.c_2_color = 2 }
+        }
+        localization_key = GFX_card_diamonds
+    }
+    text = {
+        trigger = {
+            check_variable = { event_target:p_7.c_2_color = 3 }
+        }
+        localization_key = GFX_card_hearts
+    }
+    text = {
+        localization_key = GFX_card_spades
+    }
+}
+
+
+#####
+
+
+defined_text = { 
+    name = speech_text_2
+
+    text = {
+        trigger = {
+            check_variable = { global.stage = 0 }
+            check_variable = { global.num_winners = 1 }
+        }
+        localization_key = "[p_winner.GetName] won the round!"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { global.stage = 0 }
+            check_variable = { global.num_winners > 1 }
+        }
+        localization_key = "It is a draw"
+    }
+    text = {
+        trigger = {
+            check_variable = { global.stage = 0 }
+            check_variable = { global.num_winners = 0 }
+        }
+        localization_key = "Woof?"
+    }
+            
+    text = {
+        trigger = {
+            check_variable = { global.text_2_type = 1  }
+        }
+        localization_key = "Welcome to the World War Hold 'em!"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { global.text_2_type = 2  }
+        }
+        localization_key = "A new round has started"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { global.text_2_type = 10  }
+        }
+        localization_key = "[p_prev.GetName] just checks, how boring"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { global.text_2_type = 11  }
+        }
+        localization_key = "[p_prev.GetName] checks beautifully"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { global.text_2_type < 20  }
+        }
+        localization_key = "[p_prev.GetName] checks"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { global.text_2_type = 20  }
+        }
+        localization_key = "[p_prev.GetName] bets [?event_target:p_prev.bet_amount], it is getting excited!"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { global.text_2_type = 21  }
+        }
+        localization_key = "[p_prev.GetName] bets [?event_target:p_prev.bet_amount], it is it bluffing?"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { global.text_2_type < 30  }
+        }
+        localization_key = "[p_prev.GetName] bets [?event_target:p_prev.bet_amount]"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { global.text_2_type = 30  }
+        }
+        localization_key = "[p_prev.GetName] calls [?event_target:p_prev.bet_amount], is it bluffing?"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { global.text_2_type = 31  }
+        }
+        localization_key = "[p_prev.GetName] calls [?event_target:p_prev.bet_amount], must be a good hand!"
+    }
+    text = {
+        trigger = {
+            check_variable = { global.text_2_type = 32  }
+        }
+        localization_key = "[p_prev.GetName] calls [?event_target:p_prev.bet_amount] immediately!"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { global.text_2_type < 40  }
+        }
+        localization_key = "[p_prev.GetName] calls [?event_target:p_prev.bet_amount]"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { global.text_2_type = 40  }
+        }
+        localization_key = "[p_prev.GetName] raises to [?event_target:p_prev.bet_amount], wow!"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { global.text_2_type = 41  }
+        }
+        localization_key = "[p_prev.GetName] raises to [?event_target:p_prev.bet_amount], what a nice play!"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { global.text_2_type = 42  }
+        }
+        localization_key = "[p_prev.GetName] raises to [?event_target:p_prev.bet_amount], surely not a bluff!"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { global.text_2_type < 50  }
+        }
+        localization_key = "[p_prev.GetName] raises to [?event_target:p_prev.bet_amount]"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { global.text_2_type = 50  }
+        }
+        localization_key = "[p_prev.GetName] goes all in, hooray!"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { global.text_2_type = 51  }
+        }
+        localization_key = "[p_prev.GetName] goes all in with all of the country's fortune!"
+    }
+    text = {
+        trigger = {
+            check_variable = { global.text_2_type = 52  }
+        }
+        localization_key = "[p_prev.GetName] goes all in, somebody stop it!"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { global.text_2_type < 60  }
+        }
+        localization_key = "[p_prev.GetName] goes all in!"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { global.text_2_type = 60  }
+        }
+        localization_key = "[p_prev.GetName] folds, coward"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { global.text_2_type = 61  }
+        }
+        localization_key = "[p_prev.GetName] folds, can't take the pressure?"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { global.text_2_type = 62  }
+        }
+        localization_key = "[p_prev.GetName] folds against obvious bluff"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { global.text_2_type < 70  }
+        }
+        localization_key = "[p_prev.GetName] folds"
+    }
+    
+    text = {
+        localization_key = ""
+    }
+}
+
+
+
+defined_text = { 
+    name = speech_text_1
+
+    text = {
+        trigger = {
+            check_variable = { global.stage = 0  }
+        }
+        localization_key = "Waiting for the host to start next round"
+    }
+        
+    text = {
+        trigger = {
+            check_variable = { global.text_1_type = 1  }
+        }
+        localization_key = "It is [p_cur.GetName]'s turn to play"
+    }
+    
+    text = {
+        localization_key = ""
+    }
+}
+
+
+
+
+#####
+
+
+defined_text = { 
+    name = p_1_chip_amount
+
+    text = { 
+        trigger = {
+            event_target:p_1 = {
+                check_variable = { won_amount > 0 }
+            }
+        }
+        localization_key = "CHIP_TEXT_P1_WON"
+    }
+    
+    text = { 
+        trigger = {
+            event_target:p_1 = {
+                check_variable = { var = lost_amount value = 0 }
+            }
+        }
+        localization_key = "CHIP_TEXT_P1_LOST"
+    }
+    
+    
+    text = { 
+        trigger = {
+            event_target:p_1 = {
+                check_variable = { already_bet > 0 }
+            }
+        }
+        localization_key = "CHIP_TEXT_P1_WITH_BET"
+    }
+    text = {
+        localization_key = "CHIP_TEXT_P1"
+    }
+}
+
+
+
+defined_text = { 
+    name = p_2_chip_amount
+
+    text = { 
+        trigger = {
+            event_target:p_2 = {
+                check_variable = { won_amount > 0 }
+            }
+        }
+        localization_key = "CHIP_TEXT_P2_WON"
+    }
+    
+    text = { 
+        trigger = {
+            event_target:p_2 = {
+                check_variable = { var = lost_amount value = 0 }
+            }
+        }
+        localization_key = "CHIP_TEXT_P2_LOST"
+    }
+    
+    
+    text = { 
+        trigger = {
+            event_target:p_2 = {
+                check_variable = { already_bet > 0 }
+            }
+        }
+        localization_key = "CHIP_TEXT_P2_WITH_BET"
+    }
+    text = {
+        localization_key = "CHIP_TEXT_P2"
+    }
+}
+
+
+
+defined_text = { 
+    name = p_3_chip_amount
+
+    text = { 
+        trigger = {
+            event_target:p_3 = {
+                check_variable = { won_amount > 0 }
+            }
+        }
+        localization_key = "CHIP_TEXT_P3_WON"
+    }
+    
+    text = { 
+        trigger = {
+            event_target:p_3 = {
+                check_variable = { var = lost_amount value = 0 }
+            }
+        }
+        localization_key = "CHIP_TEXT_P3_LOST"
+    }
+    
+    
+    text = { 
+        trigger = {
+            event_target:p_3 = {
+                check_variable = { already_bet > 0 }
+            }
+        }
+        localization_key = "CHIP_TEXT_P3_WITH_BET"
+    }
+    text = {
+        localization_key = "CHIP_TEXT_P3"
+    }
+}
+
+
+
+defined_text = { 
+    name = p_4_chip_amount
+
+    text = { 
+        trigger = {
+            event_target:p_4 = {
+                check_variable = { won_amount > 0 }
+            }
+        }
+        localization_key = "CHIP_TEXT_P4_WON"
+    }
+    
+    text = { 
+        trigger = {
+            event_target:p_4 = {
+                check_variable = { var = lost_amount value = 0 }
+            }
+        }
+        localization_key = "CHIP_TEXT_P4_LOST"
+    }
+    
+    
+    text = { 
+        trigger = {
+            event_target:p_4 = {
+                check_variable = { already_bet > 0 }
+            }
+        }
+        localization_key = "CHIP_TEXT_P4_WITH_BET"
+    }
+    text = {
+        localization_key = "CHIP_TEXT_P4"
+    }
+}
+
+
+
+defined_text = { 
+    name = p_5_chip_amount
+
+    text = { 
+        trigger = {
+            event_target:p_5 = {
+                check_variable = { won_amount > 0 }
+            }
+        }
+        localization_key = "CHIP_TEXT_P5_WON"
+    }
+    
+    text = { 
+        trigger = {
+            event_target:p_5 = {
+                check_variable = { var = lost_amount value = 0 }
+            }
+        }
+        localization_key = "CHIP_TEXT_P5_LOST"
+    }
+    
+    
+    text = { 
+        trigger = {
+            event_target:p_5 = {
+                check_variable = { already_bet > 0 }
+            }
+        }
+        localization_key = "CHIP_TEXT_P5_WITH_BET"
+    }
+    text = {
+        localization_key = "CHIP_TEXT_P5"
+    }
+}
+
+
+
+defined_text = { 
+    name = p_6_chip_amount
+
+    text = { 
+        trigger = {
+            event_target:p_6 = {
+                check_variable = { won_amount > 0 }
+            }
+        }
+        localization_key = "CHIP_TEXT_P6_WON"
+    }
+    
+    text = { 
+        trigger = {
+            event_target:p_6 = {
+                check_variable = { var = lost_amount value = 0 }
+            }
+        }
+        localization_key = "CHIP_TEXT_P6_LOST"
+    }
+    
+    
+    text = { 
+        trigger = {
+            event_target:p_6 = {
+                check_variable = { already_bet > 0 }
+            }
+        }
+        localization_key = "CHIP_TEXT_P6_WITH_BET"
+    }
+    text = {
+        localization_key = "CHIP_TEXT_P6"
+    }
+}
+
+
+
+defined_text = { 
+    name = p_7_chip_amount
+
+    text = { 
+        trigger = {
+            event_target:p_7 = {
+                check_variable = { won_amount > 0 }
+            }
+        }
+        localization_key = "CHIP_TEXT_P7_WON"
+    }
+    
+    text = { 
+        trigger = {
+            event_target:p_7 = {
+                check_variable = { var = lost_amount value = 0 }
+            }
+        }
+        localization_key = "CHIP_TEXT_P7_LOST"
+    }
+    
+    
+    text = { 
+        trigger = {
+            event_target:p_7 = {
+                check_variable = { already_bet > 0 }
+            }
+        }
+        localization_key = "CHIP_TEXT_P7_WITH_BET"
+    }
+    text = {
+        localization_key = "CHIP_TEXT_P7"
+    }
+}
+
+
+
+
+#####
+defined_text = { 
+    name = ai_text_1
+
+    text = {
+        trigger = {
+            check_variable = { global.num_players < 1 }
+        }
+        localization_key = ""
+    }
+
+    text = {
+        localization_key = "p_1_ai_score"
+    }
+}
+    
+
+defined_text = { 
+    name = ai_text_2
+
+    text = {
+        trigger = {
+            check_variable = { global.num_players < 2 }
+        }
+        localization_key = ""
+    }
+
+    text = {
+        localization_key = "p_2_ai_score"
+    }
+}
+    
+
+defined_text = { 
+    name = ai_text_3
+
+    text = {
+        trigger = {
+            check_variable = { global.num_players < 3 }
+        }
+        localization_key = ""
+    }
+
+    text = {
+        localization_key = "p_3_ai_score"
+    }
+}
+    
+
+defined_text = { 
+    name = ai_text_4
+
+    text = {
+        trigger = {
+            check_variable = { global.num_players < 4 }
+        }
+        localization_key = ""
+    }
+
+    text = {
+        localization_key = "p_4_ai_score"
+    }
+}
+    
+
+defined_text = { 
+    name = ai_text_5
+
+    text = {
+        trigger = {
+            check_variable = { global.num_players < 5 }
+        }
+        localization_key = ""
+    }
+
+    text = {
+        localization_key = "p_5_ai_score"
+    }
+}
+    
+
+defined_text = { 
+    name = ai_text_6
+
+    text = {
+        trigger = {
+            check_variable = { global.num_players < 6 }
+        }
+        localization_key = ""
+    }
+
+    text = {
+        localization_key = "p_6_ai_score"
+    }
+}
+    
+
+defined_text = { 
+    name = ai_text_7
+
+    text = {
+        trigger = {
+            check_variable = { global.num_players < 7 }
+        }
+        localization_key = ""
+    }
+
+    text = {
+        localization_key = "p_7_ai_score"
+    }
+}
+    
+
+
+###
+
+defined_text = { 
+    name = p1_name_host_settings
+
+    text = {
+        trigger = {
+            check_variable = { global.friendly_game > 0 }
+        }
+        localization_key = "[p_1.GetName]"
+    }
+
+    text = {
+        localization_key = "P1_NAME_CHIP"
+    }
+}
+defined_text = { 
+    name = p2_name_host_settings
+
+    text = {
+        trigger = {
+            check_variable = { global.friendly_game > 0 }
+        }
+        localization_key = "[p_2.GetName]"
+    }
+
+    text = {
+        localization_key = "P2_NAME_CHIP"
+    }
+}
+defined_text = { 
+    name = p3_name_host_settings
+
+    text = {
+        trigger = {
+            check_variable = { global.friendly_game > 0 }
+        }
+        localization_key = "[p_3.GetName]"
+    }
+
+    text = {
+        localization_key = "P3_NAME_CHIP"
+    }
+}
+defined_text = { 
+    name = p4_name_host_settings
+
+    text = {
+        trigger = {
+            check_variable = { global.friendly_game > 0 }
+        }
+        localization_key = "[p_4.GetName]"
+    }
+
+    text = {
+        localization_key = "P4_NAME_CHIP"
+    }
+}
+defined_text = { 
+    name = p5_name_host_settings
+
+    text = {
+        trigger = {
+            check_variable = { global.friendly_game > 0 }
+        }
+        localization_key = "[p_5.GetName]"
+    }
+
+    text = {
+        localization_key = "P5_NAME_CHIP"
+    }
+}
+defined_text = { 
+    name = p6_name_host_settings
+
+    text = {
+        trigger = {
+            check_variable = { global.friendly_game > 0 }
+        }
+        localization_key = "[p_6.GetName]"
+    }
+
+    text = {
+        localization_key = "P6_NAME_CHIP"
+    }
+}
+defined_text = { 
+    name = p7_name_host_settings
+
+    text = {
+        trigger = {
+            check_variable = { global.friendly_game > 0 }
+        }
+        localization_key = "[p_7.GetName]"
+    }
+
+    text = {
+        localization_key = "P7_NAME_CHIP"
+    }
+}
+
+###

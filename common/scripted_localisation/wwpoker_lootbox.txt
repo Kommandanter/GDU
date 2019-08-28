@@ -1,0 +1,430 @@
+
+defined_text = { 
+    name = loot_1_name
+
+    text = {
+        trigger = {
+            check_variable = { loot_1_t = 2 }
+        }
+        localization_key = "[?loot_1_c] Political Power"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { loot_1_t = 3 }
+        }
+        localization_key = "[?loot_1_c] Infantry Equipment"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { loot_1_t = 4 }
+        }
+        localization_key = "[?loot_1_c] Support Equipment"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { loot_1_t = 5 }
+        }
+        localization_key = "[?loot_1_c] Motorized Infantry"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { loot_1_t = 6 }
+        }
+        localization_key = "[?loot_1_c]K Manpower"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { loot_1_t = 7 }
+        }
+        localization_key = "[?loot_1_c] Light Tank"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { loot_1_t = 8 }
+        }
+        localization_key = "[?loot_1_c] Medium Tank"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { loot_1_t = 9 }
+        }
+        localization_key = "[?loot_1_c] Heavy Tank"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { loot_1_t = 10 }
+        }
+        localization_key = "[?loot_1_c] Experience"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { loot_1_t = 11 }
+        }
+        localization_key = "Military Factory"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { loot_1_t = 12 }
+        }
+        localization_key = "Civilian Factory"
+    }
+    
+    text = {
+        localization_key = ""
+    }
+}
+
+
+defined_text = { 
+    name = loot_2_name
+
+    text = {
+        trigger = {
+            check_variable = { loot_2_t = 2 }
+        }
+        localization_key = "[?loot_2_c] Political Power"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { loot_2_t = 3 }
+        }
+        localization_key = "[?loot_2_c] Infantry Equipment"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { loot_2_t = 4 }
+        }
+        localization_key = "[?loot_2_c] Support Equipment"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { loot_2_t = 5 }
+        }
+        localization_key = "[?loot_2_c] Motorized Infantry"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { loot_2_t = 6 }
+        }
+        localization_key = "[?loot_2_c]K Manpower"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { loot_2_t = 7 }
+        }
+        localization_key = "[?loot_2_c] Light Tank"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { loot_2_t = 8 }
+        }
+        localization_key = "[?loot_2_c] Medium Tank"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { loot_2_t = 9 }
+        }
+        localization_key = "[?loot_2_c] Heavy Tank"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { loot_2_t = 10 }
+        }
+        localization_key = "[?loot_2_c] Experience"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { loot_2_t = 11 }
+        }
+        localization_key = "Military Factory"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { loot_2_t = 12 }
+        }
+        localization_key = "Civilian Factory"
+    }
+    
+    text = {
+        localization_key = ""
+    }
+}
+
+
+defined_text = { 
+    name = loot_3_name
+
+    text = {
+        trigger = {
+            check_variable = { loot_3_t = 2 }
+        }
+        localization_key = "[?loot_3_c] Political Power"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { loot_3_t = 3 }
+        }
+        localization_key = "[?loot_3_c] Infantry Equipment"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { loot_3_t = 4 }
+        }
+        localization_key = "[?loot_3_c] Support Equipment"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { loot_3_t = 5 }
+        }
+        localization_key = "[?loot_3_c] Motorized Infantry"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { loot_3_t = 6 }
+        }
+        localization_key = "[?loot_3_c]K Manpower"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { loot_3_t = 7 }
+        }
+        localization_key = "[?loot_3_c] Light Tank"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { loot_3_t = 8 }
+        }
+        localization_key = "[?loot_3_c] Medium Tank"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { loot_3_t = 9 }
+        }
+        localization_key = "[?loot_3_c] Heavy Tank"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { loot_3_t = 10 }
+        }
+        localization_key = "[?loot_3_c] Experience"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { loot_3_t = 11 }
+        }
+        localization_key = "Military Factory"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { loot_3_t = 12 }
+        }
+        localization_key = "Civilian Factory"
+    }
+    
+    text = {
+        localization_key = ""
+    }
+}
+
+
+defined_text = { 
+    name = loot_4_name
+
+    text = {
+        trigger = {
+            check_variable = { loot_4_t = 2 }
+        }
+        localization_key = "[?loot_4_c] Political Power"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { loot_4_t = 3 }
+        }
+        localization_key = "[?loot_4_c] Infantry Equipment"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { loot_4_t = 4 }
+        }
+        localization_key = "[?loot_4_c] Support Equipment"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { loot_4_t = 5 }
+        }
+        localization_key = "[?loot_4_c] Motorized Infantry"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { loot_4_t = 6 }
+        }
+        localization_key = "[?loot_4_c]K Manpower"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { loot_4_t = 7 }
+        }
+        localization_key = "[?loot_4_c] Light Tank"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { loot_4_t = 8 }
+        }
+        localization_key = "[?loot_4_c] Medium Tank"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { loot_4_t = 9 }
+        }
+        localization_key = "[?loot_4_c] Heavy Tank"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { loot_4_t = 10 }
+        }
+        localization_key = "[?loot_4_c] Experience"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { loot_4_t = 11 }
+        }
+        localization_key = "Military Factory"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { loot_4_t = 12 }
+        }
+        localization_key = "Civilian Factory"
+    }
+    
+    text = {
+        localization_key = ""
+    }
+}
+
+
+defined_text = { 
+    name = loot_5_name
+
+    text = {
+        trigger = {
+            check_variable = { loot_5_t = 2 }
+        }
+        localization_key = "[?loot_5_c] Political Power"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { loot_5_t = 3 }
+        }
+        localization_key = "[?loot_5_c] Infantry Equipment"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { loot_5_t = 4 }
+        }
+        localization_key = "[?loot_5_c] Support Equipment"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { loot_5_t = 5 }
+        }
+        localization_key = "[?loot_5_c] Motorized Infantry"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { loot_5_t = 6 }
+        }
+        localization_key = "[?loot_5_c]K Manpower"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { loot_5_t = 7 }
+        }
+        localization_key = "[?loot_5_c] Light Tank"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { loot_5_t = 8 }
+        }
+        localization_key = "[?loot_5_c] Medium Tank"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { loot_5_t = 9 }
+        }
+        localization_key = "[?loot_5_c] Heavy Tank"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { loot_5_t = 10 }
+        }
+        localization_key = "[?loot_5_c] Experience"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { loot_5_t = 11 }
+        }
+        localization_key = "Military Factory"
+    }
+    
+    text = {
+        trigger = {
+            check_variable = { loot_5_t = 12 }
+        }
+        localization_key = "Civilian Factory"
+    }
+    
+    text = {
+        localization_key = ""
+    }
+}
+

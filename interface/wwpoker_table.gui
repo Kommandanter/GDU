@@ -1,0 +1,780 @@
+
+guiTypes = {
+
+	containerWindowType = {
+		name = "poker_table_container"
+        
+		position = { x = -500 y = -300 }
+        size = { width = 1000 height = 700 }
+        moveable = yes
+        clipping = no
+        orientation = center
+        
+        background = {
+            name = "Background"
+            quadTextureSprite ="GFX_tiled_window_thin_border2"
+        }
+    
+		buttonType = {
+			name = "goodboy"
+			quadTextureSprite = "GFX_dog"
+			position = { x= 310 y = -90 }
+			clicksound = click_dog
+		}
+
+		iconType = {
+			name = "speechbg" 
+			position = { x= 360 y = -90 }
+			spriteType = "GFX_speech"
+            frame = 1
+		}
+        
+        
+		instantTextboxType = {
+			name = "speech_2"
+			position = { x = 410 y = -160 }
+			font = "hoi_18mbs"
+			text = "[speech_text_2]"
+			format = center
+			vertical_alignment = center
+            
+			maxWidth = 280
+		}
+        
+		instantTextboxType = {
+			name = "speech_1"
+			position = { x = 410 y = -130 }
+			font = "hoi_18mbs"
+			text = "[speech_text_1]"
+			format = center
+			vertical_alignment = center
+            
+			maxWidth = 280
+		}
+        
+        
+		iconType = {
+			name = "dealer_1" 
+			position = {x=235 y=20}	
+			spriteType = "GFX_card_diamonds"
+            frame = 1
+		}
+        
+		iconType = {
+			name = "dealer_2" 
+			position = {x=340 y=20}	
+			spriteType = "GFX_card_diamonds"
+            frame = 1
+		}
+        
+		iconType = {
+			name = "dealer_3" 
+			position = {x=445 y=20}	
+			spriteType = "GFX_card_diamonds"
+            frame = 1
+		}
+		iconType = {
+			name = "dealer_4" 
+			position = {x=550 y=20}	
+			spriteType = "GFX_card_diamonds"
+            frame = 1
+		}
+		iconType = {
+			name = "dealer_5" 
+			position = {x=655 y=20}	
+			spriteType = "GFX_card_diamonds"
+            frame = 1
+		}
+        
+		instantTextboxType = {
+			name = "pot"
+			position = { x = 395 y = 80 }
+			font = "hoi_18mbs"
+			text = "Pot: [?global.pot]"
+			format = center
+			vertical_alignment = center
+		}
+        
+        
+        ############
+        
+        
+        
+        # p_1
+		instantTextboxType = {
+			name = "p_1_name"
+			position = { x = 395 y = 414 }
+			font = "hoi_18mbs"
+			text = "[p_1.GetName]"
+			format = center
+			vertical_alignment = center
+		}
+        
+		iconType = {
+			name = "card_1_1" 
+			position = {x=410 y=530}	
+			spriteType = "GFX_card_diamonds"
+            frame = 1
+            scale = 0.8
+		}
+        
+		iconType = {
+			name = "card_1_2" 
+			position = {x=500 y=530}	
+			spriteType = "GFX_card_diamonds"
+            frame = 1
+            scale = 0.8
+		}
+        
+        instantTextboxType = {
+			name = "p_1_bet_info"
+			position = { x = 397 y = 555 }
+			font = "hoi_18mbs"
+			text = "[bet_amount_info_1]"
+			format = center
+			vertical_alignment = top
+		}
+        
+		instantTextboxType = {
+			name = "p_1_chips"
+			position = { x = 397 y = 390 }
+			font = "hoi_18mbs"
+			text = "[p_1_chip_amount]"
+			format = center
+			vertical_alignment = center
+		}
+        
+        
+		instantTextboxType = {
+			name = "ai_info_1"
+			position = { x = 590 y = 530 }
+			font = "hoi_18mbs"
+			text = "[ai_text_1]"
+		}
+
+        # p_2
+		instantTextboxType = {
+			name = "p_2_name"
+			position = { x = 820 y = 385 }
+			font = "hoi_18mbs"
+			text = "[p_2.GetName]"
+			format = center
+			vertical_alignment = center
+		}
+        
+        iconType = {
+			name = "card_2_1" 
+			position = {x=860 y=500}	
+			spriteType = "GFX_card_diamonds"
+            frame = 1
+            scale = 0.8
+		}
+        
+		iconType = {
+			name = "card_2_2" 
+			position = {x=900 y=500}	
+			spriteType = "GFX_card_diamonds"
+            frame = 1
+            scale = 0.8
+		}
+        
+        instantTextboxType = {
+			name = "p_2_bet_info"
+			position = { x = 820 y = 525 }
+			font = "hoi_18mbs"
+			text = "[bet_amount_info_2]"
+			format = center
+			vertical_alignment = top
+		}
+        
+        instantTextboxType = {
+			name = "p_2_chips"
+			position = { x = 720 y = 465 }
+			font = "hoi_18mbs"
+			text = "[p_2_chip_amount]"
+			format = center
+			vertical_alignment = center
+		}
+        
+		instantTextboxType = {
+			name = "ai_info_2"
+			position = { x = 780 y = 505 }
+			font = "hoi_18mbs"
+			text = "[ai_text_2]"
+		}
+
+        # p_3
+        
+		instantTextboxType = {
+			name = "p_3_name"
+			position = { x = 820 y = 205 }
+			font = "hoi_18mbs"
+			text = "[p_3.GetName]"
+			format = center
+			vertical_alignment = center
+		}
+        
+		iconType = {
+			name = "card_3_1" 
+			position = {x=860 y=320}	
+			spriteType = "GFX_card_diamonds"
+            frame = 1
+            scale = 0.8
+		}
+        
+		iconType = {
+			name = "card_3_2" 
+			position = {x=900 y=320}	
+			spriteType = "GFX_card_diamonds"
+            frame = 1
+            scale = 0.8
+		}
+        
+        instantTextboxType = {
+			name = "p_3_bet_info"
+			position = { x = 820 y = 345 }
+			font = "hoi_18mbs"
+			text = "[bet_amount_info_3]"
+			format = center
+			vertical_alignment = top
+		}
+        
+        instantTextboxType = {
+			name = "p_3_chips"
+			position = { x = 720 y = 285 }
+			font = "hoi_18mbs"
+			text = "[p_3_chip_amount]"
+			format = center
+			vertical_alignment = center
+		}
+        
+		instantTextboxType = {
+			name = "ai_info_3"
+			position = { x = 780 y = 325 }
+			font = "hoi_18mbs"
+			text = "[ai_text_3]"
+		}
+        
+        # p_4
+		
+    
+		instantTextboxType = {
+			name = "p_4_name"
+			position = { x = 820 y = 25 }
+			font = "hoi_18mbs"
+			text = "[p_4.GetName]"
+			format = center
+			vertical_alignment = center
+		}
+        
+		iconType = {
+			name = "card_4_1" 
+			position = {x=860 y=140}	
+			spriteType = "GFX_card_diamonds"
+            frame = 1
+            scale = 0.8
+		}
+        
+		iconType = {
+			name = "card_4_2" 
+			position = {x=900 y=140}	
+			spriteType = "GFX_card_diamonds"
+            frame = 1
+            scale = 0.8
+		}
+        
+        instantTextboxType = {
+			name = "p_4_bet_info"
+			position = { x = 820 y = 165 }
+			font = "hoi_18mbs"
+			text = "[bet_amount_info_4]"
+			format = center
+			vertical_alignment = top
+		}
+        
+        instantTextboxType = {
+			name = "p_4_chips"
+			position = { x = 720 y = 105 }
+			font = "hoi_18mbs"
+			text = "[p_4_chip_amount]"
+			format = center
+			vertical_alignment = center
+		}
+        
+		instantTextboxType = {
+			name = "ai_info_4"
+			position = { x = 780 y = 145 }
+			font = "hoi_18mbs"
+			text = "[ai_text_4]"
+		}
+        
+        # p_5
+		instantTextboxType = {
+			name = "p_5_name"
+			position = { x = -20 y = 25 }
+			font = "hoi_18mbs"
+			text = "[p_5.GetName]"
+			format = center
+			vertical_alignment = center
+		}
+		iconType = {
+			name = "card_5_1" 
+			position = {x=20 y=140}	
+			spriteType = "GFX_card_diamonds"
+            frame = 1
+            scale = 0.8
+		}
+        
+		iconType = {
+			name = "card_5_2" 
+			position = {x=60 y=140}	
+			spriteType = "GFX_card_diamonds"
+            frame = 1
+            scale = 0.8
+		}
+        
+        instantTextboxType = {
+			name = "p_5_bet_info"
+			position = { x = -20 y = 165 }
+			font = "hoi_18mbs"
+			text = "[bet_amount_info_5]"
+			format = center
+			vertical_alignment = top
+		}
+        
+        instantTextboxType = {
+			name = "p_5_chips"
+			position = { x = 80 y = 105 }
+			font = "hoi_18mbs"
+			text = "[p_5_chip_amount]"
+			format = center
+			vertical_alignment = center
+		}
+        
+		instantTextboxType = {
+			name = "ai_info_5"
+			position = { x = 150 y = 145 }
+			font = "hoi_18mbs"
+			text = "[ai_text_5]"
+		}
+        
+        # p_6
+		instantTextboxType = {
+			name = "p_6_name"
+			position = { x = -20 y = 205 }
+			font = "hoi_18mbs"
+			text = "[p_6.GetName]"
+			format = center
+			vertical_alignment = center
+		}
+        
+		iconType = {
+			name = "card_6_1" 
+			position = {x=20 y=320}	
+			spriteType = "GFX_card_diamonds"
+            frame = 1
+            scale = 0.8
+		}
+        
+		iconType = {
+			name = "card_6_2" 
+			position = {x=60 y=320}	
+			spriteType = "GFX_card_diamonds"
+            frame = 1
+            scale = 0.8
+		}
+        
+        instantTextboxType = {
+			name = "p_6_bet_info"
+			position = { x = -20 y = 345 }
+			font = "hoi_18mbs"
+			text = "[bet_amount_info_6]"
+			format = center
+			vertical_alignment = top
+		}
+        
+        instantTextboxType = {
+			name = "p_6_chips"
+			position = { x = 80 y = 285 }
+			font = "hoi_18mbs"
+			text = "[p_6_chip_amount]"
+			format = center
+			vertical_alignment = center
+		}
+        
+		instantTextboxType = {
+			name = "ai_info_6"
+			position = { x = 150 y = 325 }
+			font = "hoi_18mbs"
+			text = "[ai_text_6]"
+		}
+        
+        
+        # p_7
+        
+		instantTextboxType = {
+			name = "p_7_name"
+			position = { x = -20 y = 385 }
+			font = "hoi_18mbs"
+			text = "[p_7.GetName]"
+			format = center
+			vertical_alignment = center
+		}
+        
+        iconType = {
+			name = "card_7_1" 
+			position = {x=20 y=500}	
+			spriteType = "GFX_card_diamonds"
+            frame = 1
+            scale = 0.8
+		}
+        
+		iconType = {
+			name = "card_7_2" 
+			position = {x=60 y=500}	
+			spriteType = "GFX_card_diamonds"
+            frame = 1
+            scale = 0.8
+		}
+        
+        instantTextboxType = {
+			name = "p_7_bet_info"
+			position = { x = -20 y = 525 }
+			font = "hoi_18mbs"
+			text = "[bet_amount_info_7]"
+			format = center
+			vertical_alignment = top
+		}
+        
+        instantTextboxType = {
+			name = "p_7_chips"
+			position = { x = 80 y = 465 }
+			font = "hoi_18mbs"
+			text = "[p_7_chip_amount]"
+			format = center
+			vertical_alignment = center
+		}
+        
+		instantTextboxType = {
+			name = "ai_info_7"
+			position = { x = 150 y = 505 }
+			font = "hoi_18mbs"
+			text = "[ai_text_7]"
+		}
+        
+        ####
+        
+		buttonType = {
+			name = "end_game_cheat"
+			position = { x = 550 y = 240 }
+			quadTextureSprite = "GFX_button_148x34"
+			buttonFont = "hoi_16mbs"
+			Orientation = "UPPER_LEFT"
+			buttonText = "End Game"
+		}	
+        
+		buttonType = {
+			name = "show_all_cheat"
+			position = { x = 550 y = 280 }
+			quadTextureSprite = "GFX_button_148x34"
+			buttonFont = "hoi_16mbs"
+			Orientation = "UPPER_LEFT"
+			buttonText = "Show Hands"
+		}	
+        
+		buttonType = {
+			name = "deal_cheat"
+			position = { x = 350 y = 280 }
+			quadTextureSprite = "GFX_button_148x34"
+			buttonFont = "hoi_16mbs"
+			Orientation = "UPPER_LEFT"
+			buttonText = "Deal"
+		}
+        
+    
+        ButtonType = {
+            name = "print_ai_0_cheat"
+			position = { x = 280 y = 200 }
+            quadTextureSprite ="GFX_diplo_filter_entry"
+            frame=2
+			buttonFont = "hoi_16mbs"
+			Orientation = "UPPER_LEFT"
+			buttonText = "Print AI 0"
+        }	        
+        
+        ButtonType = {
+            name = "print_ai_3_cheat"
+			position = { x = 410 y = 200 }
+            quadTextureSprite ="GFX_diplo_filter_entry"
+            frame=2
+			buttonFont = "hoi_16mbs"
+			Orientation = "UPPER_LEFT"
+			buttonText = "Print AI 3"
+        }	
+        
+        ButtonType = {
+            name = "print_ai_4_cheat"
+			position = { x = 540 y = 200 }
+            quadTextureSprite ="GFX_diplo_filter_entry"
+            frame=2
+			buttonFont = "hoi_16mbs"
+			Orientation = "UPPER_LEFT"
+			buttonText = "Print AI 4"
+        }	
+        
+        ButtonType = {
+            name = "print_ai_5_cheat"
+			position = { x = 670 y = 200 }
+            quadTextureSprite ="GFX_diplo_filter_entry"
+            frame=2
+			buttonFont = "hoi_16mbs"
+			Orientation = "UPPER_LEFT"
+			buttonText = "Print AI 5"
+        }	
+        
+		buttonType = {
+			name = "update_cheat"
+			position = { x = 350 y = 240 }
+			quadTextureSprite = "GFX_button_148x34"
+			buttonFont = "hoi_16mbs"
+			Orientation = "UPPER_LEFT"
+			buttonText = "Update"
+		}
+        
+		buttonType = {
+			name = "next_round"
+			position = { x = 421 y = 435 }
+			quadTextureSprite = "GFX_button_148x34"
+			buttonFont = "hoi_16mbs"
+			Orientation = "UPPER_LEFT"
+			buttonText = "Next Round"
+            
+		}
+		
+		buttonType = {
+			name = "show_hand"
+			position = { x = 421 y = 395 }
+			quadTextureSprite = "GFX_button_148x34"
+			buttonFont = "hoi_16mbs"
+			Orientation = "UPPER_LEFT"
+			buttonText = "Show Hand"
+            
+		}
+		
+		buttonType = {
+			name = "end_tournament"
+			position = { x = 421 y = 420 }
+			quadTextureSprite = "GFX_button_148x34"
+			buttonFont = "hoi_16mbs"
+			Orientation = "UPPER_LEFT"
+			buttonText = "End Tournament"
+		}
+        
+        
+		buttonType = {
+			name = "bet_cheat"
+			position = { x = 335 y = 325 }
+			quadTextureSprite = "GFX_button_148x34"
+			buttonFont = "hoi_16mbs"
+			Orientation = "UPPER_LEFT"
+			buttonText = ""
+		}
+        
+        
+        instantTextboxType = {
+			name = "bet_text_cheat"
+			position = { x = 308 y = 242 }
+			font = "hoi_18mbs"
+			text = "[bet_amount_text_cheat]"
+			format = center
+			vertical_alignment = center
+		}
+        
+		buttonType = {
+			name = "increase_amount_cheat"
+			quadTextureSprite ="GFX_zoom_in"
+			position = { x = 310 y = 322 }
+			scale = 0.9
+			clicksound = click_default
+		}
+		
+		buttonType = {
+			name = "decrease_amount_cheat"
+			quadTextureSprite ="GFX_zoom_out"
+			position = { x = 310 y = 345 }
+			scale = 0.9
+			clicksound = click_default
+		}
+        
+		buttonType = {
+			name = "fold_cheat"
+			position = { x = 490 y = 325 }
+			quadTextureSprite = "GFX_button_148x34"
+			buttonFont = "hoi_16mbs"
+			Orientation = "UPPER_LEFT"
+			buttonText = "Fold"
+		}
+        
+		buttonType = {
+			name = "force_ai"
+			position = { x = 421 y = 435 }
+			quadTextureSprite = "GFX_button_148x34"
+			buttonFont = "hoi_16mbs"
+			Orientation = "UPPER_LEFT"
+			buttonText = "AI"
+            
+            pdx_tooltip = "POKER_AI"
+            pdx_tooltip_delayed = "POKER_AI_DESC"
+		}
+        
+        ####
+        
+		buttonType = {
+			name = "bet"
+			position = { x = 335 y = 435 }
+			quadTextureSprite = "GFX_button_148x34"
+			buttonFont = "hoi_16mbs"
+			Orientation = "UPPER_LEFT"
+			buttonText = ""
+		}
+        
+        instantTextboxType = {
+			name = "bet_text"
+			position = { x = 308 y = 352 }
+			font = "hoi_18mbs"
+			text = "[bet_amount_text]"
+			format = center
+			vertical_alignment = center
+            
+            pdx_tooltip = "CHECK_POKER"
+            pdx_tooltip_delayed = "CHECK_POKER_DESC"
+		}
+        
+		buttonType = {
+			name = "increase_amount"
+			quadTextureSprite ="GFX_zoom_in"
+			position = { x = 310 y = 432 }
+			scale = 0.9
+			clicksound = click_default
+            
+            pdx_tooltip = "INCREASE_BET_POKER"
+            pdx_tooltip_delayed = "INCREASE_BET_POKER_DESC"
+		}
+		
+		buttonType = {
+			name = "decrease_amount"
+			quadTextureSprite ="GFX_zoom_out"
+			position = { x = 310 y = 455 }
+			scale = 0.9
+			clicksound = click_default
+            
+            pdx_tooltip = "DECREASE_BET_POKER"
+            pdx_tooltip_delayed = "DECREASE_BET_POKER_DESC"
+		}
+        
+		buttonType = {
+			name = "fold"
+			position = { x = 515 y = 435 }
+			quadTextureSprite = "GFX_button_148x34"
+			buttonFont = "hoi_16mbs"
+			Orientation = "UPPER_LEFT"
+			buttonText = "Fold"
+            
+            pdx_tooltip = "FOLD_POKER"
+            pdx_tooltip_delayed = "FOLD_POKER_DESC"
+		}
+        
+        
+		buttonType = {
+			name = "host_tools"
+			position = { x = 805 y = 12 }
+			quadTextureSprite = "GFX_button_148x34"
+			buttonFont = "hoi_16mbs"
+			Orientation = "UPPER_LEFT"
+			buttonText = "Host Tools"
+            
+            pdx_tooltip = "HOST_TOOLS_POKER"
+            pdx_tooltip_delayed = "HOST_TOOLS_POKER_DESC"
+		}
+        
+        
+        containerWindowType = {
+            name = "host_tools_popup"
+            position = { x = 40 y = 20 }
+            size = { width = 480 height = 382 }
+            orientation= center
+            origo = center
+            fade_time = 200
+            fade_type = linear
+             
+            iconType = {
+                name = "host_tools_bg"
+                position = { x = 0 y = 0 }
+                quadTextureSprite = "GFX_pol_goal_popup_bg"
+                scale = 0.8
+            }
+            
+            buttonType = {
+                name = "host_tool_close_button"
+                position = {x=335 y=13}
+                spriteType = "GFX_NV_btn_close"
+                clicksound = click_close
+            }
+            
+            instantTextBoxType = {
+                name = "host_tools_title"
+                position = { x = 10 y = 6 }
+                textureFile = ""
+                font = "hoi_24header"
+                borderSize = {x = 0 y = 10}
+                text = "Host Tools"	
+                maxWidth = 370
+                maxHeight = 40
+                fixedsize = yes
+                vertical_alignment = center 			
+                format = centre
+            }
+            
+            buttonType = {
+                name = "host_tools_cancel_tournament"
+                position = { x = 122 y = 120 }
+                quadTextureSprite = "GFX_button_148x34"
+                buttonFont = "hoi_16mbs"
+                Orientation = "UPPER_LEFT"
+                buttonText = "Cancel Tournament"
+                
+                    
+                pdx_tooltip = "CANCEL_TOURNAMENT"
+                pdx_tooltip_delayed = "CANCEL_TOURNAMENT_DESC"
+            }
+            
+            buttonType = {
+                name = "host_tools_end_tournament"
+                position = { x = 122 y = 180 }
+                quadTextureSprite = "GFX_button_148x34"
+                buttonFont = "hoi_16mbs"
+                Orientation = "UPPER_LEFT"
+                buttonText = "End Tournament"
+                
+                pdx_tooltip = "END_TOURNAMENT"
+                pdx_tooltip_delayed = "END_TOURNAMENT_DESC"
+            }
+        }
+        
+        buttonType = {
+            name = "close_button"
+            position = {x=953 y=15}
+            spriteType = "GFX_NV_btn_close"
+            clicksound = click_close
+            
+            pdx_tooltip = "CLOSE_POKER"
+            pdx_tooltip_delayed = "CLOSE_POKER_DESC"
+        }
+        
+        
+        
+        ## ai info
+        
+
+	}
+}

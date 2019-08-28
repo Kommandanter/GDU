@@ -1,0 +1,35 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			every_country = {
+				set_variable = { chips = 500 }
+				set_variable = { buy_sell_amount = 10 }
+                update_buy_sell = yes
+			}
+			
+			random_country = {
+                limit = { exists = yes }
+                
+				set_variable = { global.instant_ai = 1 }
+				set_variable = { global.instant_ai_frame = 2 }
+                
+				set_variable = { global.entry_amount = 250 }
+				set_variable = { global.min_bet_to_check = 20 }
+				set_variable = { global.small_blind_to_check = 10 }
+			
+				save_global_event_target_as = p_host
+				save_global_event_target_as = p_cur
+				save_global_event_target_as = p_prev
+				save_global_event_target_as = p_1
+				save_global_event_target_as = p_2
+				save_global_event_target_as = p_3
+				save_global_event_target_as = p_4
+				save_global_event_target_as = p_5
+				save_global_event_target_as = p_6
+				save_global_event_target_as = p_7
+				
+				init_poker_globals = yes
+			}
+		}
+	}
+}

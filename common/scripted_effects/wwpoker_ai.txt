@@ -1,0 +1,1667 @@
+check_rs_flush_ai = {
+    set_temp_variable = { highest_flush = -1 }
+    
+    set_temp_variable = { has_3_rs = 0 }
+    set_temp_variable = { has_4_rs = 0 }
+    set_temp_variable = { has_5_rs = 0 }
+    
+    set_temp_variable = { first_run = 1 }
+    set_temp_variable = { cur_c = 1 }
+    set_temp_variable = { j = -0.001 }
+    set_temp_variable = { k = 0.009 }
+    loop_check_rs_flush_ai = yes
+    
+    set_temp_variable = { first_run = 1 }
+    set_temp_variable = { cur_c = 2 }
+    set_temp_variable = { j = 0.012 }
+    set_temp_variable = { k = 0.022 }
+    loop_check_rs_flush_ai = yes
+    
+    set_temp_variable = { first_run = 1 }
+    set_temp_variable = { cur_c = 3 }
+    set_temp_variable = { j = 0.025 }
+    set_temp_variable = { k = 0.035 }
+    loop_check_rs_flush_ai = yes
+    
+    set_temp_variable = { first_run = 1 }
+    set_temp_variable = { cur_c = 4 }
+    set_temp_variable = { j = 0.038 }
+    set_temp_variable = { k = 0.048 }
+    loop_check_rs_flush_ai = yes
+    
+}
+
+loop_check_rs_flush_ai = {
+    if = {
+        limit = {
+            check_variable = { j < k }
+        }
+        
+        set_temp_variable = { tempold = 0 }
+        
+        set_temp_variable = { temp_f1 = 1.id }
+        if = { 
+            limit = { check_variable = { first_run = 1 } }
+            add_to_temp_variable = { temp_f1 = 0.013 }
+            set_temp_variable = { first_run = 0 }
+        }
+        add_to_temp_variable = { temp_f1 = j }
+        if = {
+            limit = {
+                var:temp_f1 = {
+                    check_variable = { card_exist > 0 }
+                }
+                add_to_temp_variable = { tempold = 1 }
+            }
+        }
+        
+        set_temp_variable = { temp_f1 = 2.id }
+        add_to_temp_variable = { temp_f1 = j }
+        if = {
+            limit = {
+                var:temp_f1 = {
+                    check_variable = { card_exist > 0 }
+                }
+                add_to_temp_variable = { tempold = 1 }
+            }
+        }
+        set_temp_variable = { temp_f1 = 3.id }
+        add_to_temp_variable = { temp_f1 = j }
+        if = {
+            limit = {
+                var:temp_f1 = {
+                    check_variable = { card_exist > 0 }
+                }
+                add_to_temp_variable = { tempold = 1 }
+            }
+        }
+        set_temp_variable = { temp_f1 = 4.id }
+        add_to_temp_variable = { temp_f1 = j }
+        if = {
+            limit = {
+                var:temp_f1 = {
+                    check_variable = { card_exist > 0 }
+                }
+                add_to_temp_variable = { tempold = 1 }
+            }
+        }
+        set_temp_variable = { temp_f1 = 5.id }
+        add_to_temp_variable = { temp_f1 = j }
+        if = {
+            limit = {
+                var:temp_f1 = {
+                    check_variable = { card_exist > 0 }
+                }
+                add_to_temp_variable = { tempold = 1 }
+            }
+        }
+        
+        if = {
+            limit = { check_variable = { tempold = 5 } }
+            set_temp_variable = { has_5_rs = 1 }
+            set_temp_variable = { rs_score = j }
+            set_temp_variable = { rs_score_e = j }
+            add_to_temp_variable = { rs_score_e = 0.004 }
+            set_temp_variable = { rs_color = cur_c }
+            
+        }
+        if = {
+            limit = { check_variable = { tempold = 4 } }
+            set_temp_variable = { has_4_rs = 1 }
+        }
+        if = {
+            limit = { check_variable = { tempold = 3 } }
+            set_temp_variable = { has_3_rs = 1 }
+        }
+        
+        add_to_temp_variable = { j = 0.001 }
+        loop_check_rs_flush_ai = yes
+    }
+}
+
+check_pairs_ai = {
+    set_temp_variable = { has_4_p = 0 }
+    set_temp_variable = { has_3_p = 0 }
+    set_temp_variable = { has_2_p = 0 }
+    
+    set_temp_variable = { has_2_2_p = 0 }
+    set_temp_variable = { has_3_2_p = 0 }
+    
+    set_temp_variable = { pairs_2 = 0 }
+    set_temp_variable = { pairs_2_score = 0 }
+    set_temp_variable = { pairs_2_score_old = 0 }
+    set_temp_variable = { pairs_3 = 0 }
+    set_temp_variable = { pairs_3_score = 0 }
+    set_temp_variable = { pairs_4 = 0 }
+    set_temp_variable = { pairs_4_score = 0 }
+    
+    set_temp_variable = { j = 0.000 }
+    loop_check_pairs_ai = yes
+    
+    
+    set_temp_variable = { s = 0 }
+    set_temp_variable = { k_s = 0 }
+    if = {
+        limit = {
+            check_variable = { pairs_4 > 0 }
+        }
+        
+        set_temp_variable = { has_4_p = 1 }
+    }
+    
+    if = {
+        limit = {
+            check_variable = { pairs_3 > 0 }
+            check_variable = { pairs_2 > 0 }
+        }
+        
+        set_temp_variable = { has_3_2_p = 1 }
+    }
+    
+    if = {
+        limit = {
+            check_variable = { pairs_3 > 0 }
+        }
+        
+        set_temp_variable = { has_3_p = 1 }
+    }
+    
+    if = {
+        limit = {
+            check_variable = { pairs_2 > 1 }
+        }
+        
+        set_temp_variable = { has_2_2_p = 1 }
+    }
+    
+    
+    if = {
+        limit = {
+            check_variable = { pairs_2 > 0 }
+        }
+        
+        set_temp_variable = { has_2_p = 1 }
+    }
+
+}
+
+loop_check_pairs_ai = {
+    if = {
+        limit = {
+            check_variable = { j < 0.013 }
+        }
+        
+        set_temp_variable = { temp = j }
+        add_to_temp_variable = { temp = 1.id }
+        
+        var:temp = {
+            if = {
+                limit = {
+                    check_variable = { kind_exist = 4 }
+                }
+                add_to_temp_variable = { pairs_4 = 1 }
+                set_temp_variable = { pairs_4_score = j }
+            }
+            if = {
+                limit = {
+                    check_variable = { kind_exist = 3 }
+                }
+                
+                if = {
+                    limit = {
+                        check_variable = { pairs_3 > 0 }
+                    }
+                    
+                    set_temp_variable = { pairs_2 = 1 }
+                    set_temp_variable = { pairs_2_score = pairs_3_score }
+                }
+                
+                set_temp_variable = { pairs_3 = 1 }
+                set_temp_variable = { pairs_3_score = j }
+            }
+            
+            if = {
+                limit = {
+                    check_variable = { kind_exist = 2 }
+                }
+                
+                
+                set_temp_variable = { pairs_2_score_old = pairs_2_score }
+                
+                add_to_temp_variable = { pairs_2 = 1 }
+                set_temp_variable = { pairs_2_score = j }
+            }
+        }
+    
+        
+        add_to_temp_variable = { j = 0.001 }
+        loop_check_pairs_ai = yes
+    }
+}
+
+check_straight_ai = {
+    
+    set_temp_variable = { has_3_st = 0 }
+    set_temp_variable = { has_4_st = 0 }
+    set_temp_variable = { has_5_st = 0 }
+    set_temp_variable = { st_score = 0 }
+    set_temp_variable = { st_score_e = 0 }
+    
+    set_temp_variable = { first_run = 1 }
+    set_temp_variable = { j = -0.001 }
+    loop_check_straight_ai = yes
+}
+
+loop_check_straight_ai = {
+    if = {
+        limit = {
+            check_variable = { j < 0.009 }
+        }
+        
+        
+        set_temp_variable = { tempold = 0 }
+        
+        set_temp_variable = { temp_f1 = 1.id }
+        if = { 
+            limit = { check_variable = { first_run = 1 } }
+            add_to_temp_variable = { temp_f1 = 0.013 }
+            set_temp_variable = { first_run = 0 }
+        }
+        add_to_temp_variable = { temp_f1 = j }
+        if = {
+            limit = {
+                var:temp_f1 = {
+                    check_variable = { kind_exist > 0 }
+                }
+                add_to_temp_variable = { tempold = 1 }
+            }
+        }
+        
+        set_temp_variable = { temp_f1 = 2.id }
+        add_to_temp_variable = { temp_f1 = j }
+        if = {
+            limit = {
+                var:temp_f1 = {
+                    check_variable = { kind_exist > 0 }
+                }
+                add_to_temp_variable = { tempold = 1 }
+            }
+        }
+        set_temp_variable = { temp_f1 = 3.id }
+        add_to_temp_variable = { temp_f1 = j }
+        if = {
+            limit = {
+                var:temp_f1 = {
+                    check_variable = { kind_exist > 0 }
+                }
+                add_to_temp_variable = { tempold = 1 }
+            }
+        }
+        set_temp_variable = { temp_f1 = 4.id }
+        add_to_temp_variable = { temp_f1 = j }
+        if = {
+            limit = {
+                var:temp_f1 = {
+                    check_variable = { kind_exist > 0 }
+                }
+                add_to_temp_variable = { tempold = 1 }
+            }
+        }
+        set_temp_variable = { temp_f1 = 5.id }
+        add_to_temp_variable = { temp_f1 = j }
+        if = {
+            limit = {
+                var:temp_f1 = {
+                    check_variable = { kind_exist > 0 }
+                }
+                add_to_temp_variable = { tempold = 1 }
+            }
+        }
+        
+        if = {
+            limit = { check_variable = { tempold = 5 } }
+            set_temp_variable = { has_5_st = 1 }
+            set_temp_variable = { st_score = j }
+            set_temp_variable = { st_score_e = j }
+            add_to_temp_variable = { st_score_e = 0.004 }
+        }
+        if = {
+            limit = { check_variable = { tempold = 4 } }
+            set_temp_variable = { has_4_st = 1 }
+        }
+        if = {
+            limit = { check_variable = { tempold = 3 } }
+            set_temp_variable = { has_3_st = 1 }
+        }
+        
+        add_to_temp_variable = { j = 0.001 }
+        loop_check_straight_ai = yes
+    }
+}
+
+check_regular_flush_ai = {
+    
+    set_temp_variable = { has_3_rf = 0 }
+    set_temp_variable = { has_4_rf = 0 }
+    set_temp_variable = { has_5_rf = 0 }
+    set_temp_variable = { rf_color = 0 }
+    set_temp_variable = { rf_score = 0 }
+    
+    set_temp_variable = { highest_reg_flush = -1 }
+    set_temp_variable = { high_card = -1 }
+    set_temp_variable = { high_card_2 = -1 }
+    
+    set_temp_variable = { temp_f = 0 }
+    set_temp_variable = { j = 0.000 }
+    set_temp_variable = { k = 0.013 }
+    set_temp_variable = { cur_c = 1 }
+    loop_check_regular_flush_ai = yes
+    
+    set_temp_variable = { temp_f = 0 }
+    set_temp_variable = { j = 0.013 }
+    set_temp_variable = { k = 0.026 }
+    set_temp_variable = { cur_c = 2 }
+    loop_check_regular_flush_ai = yes
+    
+    set_temp_variable = { temp_f = 0 }
+    set_temp_variable = { j = 0.026 }
+    set_temp_variable = { k = 0.039 }
+    set_temp_variable = { cur_c = 3 }
+    loop_check_regular_flush_ai = yes
+    
+    set_temp_variable = { temp_f = 0 }
+    set_temp_variable = { j = 0.039 }
+    set_temp_variable = { k = 0.052 }
+    set_temp_variable = { cur_c = 4 }
+    loop_check_regular_flush_ai = yes
+
+}
+
+loop_check_regular_flush_ai = {
+    if = {
+        limit = {
+            check_variable = { j < k }
+        }
+        
+        set_temp_variable = { temp_f1 = 1.id }
+        add_to_temp_variable = { temp_f1 = j }
+        
+
+        var:temp_f1 = {
+            if = {
+                limit = {
+                    check_variable = { card_exist > 0 }
+                }
+                
+                add_to_temp_variable = { temp_f = 1 }
+                
+                if = {
+                    limit = {
+                        check_variable = { temp_f > 4 }
+                    }
+                    set_temp_variable = { has_5_rf = 1 }
+                    set_temp_variable = { rf_color = cur_c }
+                    set_temp_variable = { rf_score = j }
+                    
+                    add_to_temp_variable = { rf_score = 0.013 }
+                    subtract_from_temp_variable = { rf_score = k }
+                }
+                
+                if = {
+                    limit = {
+                        check_variable = { temp_f > 3 }
+                    }
+                    set_temp_variable = { has_4_rf = 1 }
+                    set_temp_variable = { rf_color = cur_c }
+                }
+                
+                if = {
+                    limit = {
+                        check_variable = { temp_f > 2 }
+                    }
+                    set_temp_variable = { has_3_rf = 1 }
+                }
+                
+                set_temp_variable = { temp_f2 = j }
+                add_to_temp_variable = { temp_f2 = 0.013 }
+                subtract_from_temp_variable = { temp_f2 = k }
+                
+                if = {
+                    limit = { check_variable = { var = temp_f2 value = high_card } }
+                    set_temp_variable = { high_card_2 = high_card }
+                    set_temp_variable = { high_card = temp_f2 }
+                    set_temp_variable = { temp_f2 = -1 }
+                }
+                
+                if = {
+                    limit = { check_variable = { var = temp_f2 value = high_card_2 } }
+                    set_temp_variable = { high_card_2 = temp_f2 }
+                }
+            }
+        }
+        
+        add_to_temp_variable = { j = 0.001 }
+        loop_check_regular_flush_ai = yes
+    }
+}
+
+calc_ai_score_inner = {
+    set_temp_variable = { j = 0.000 }
+    loop_clear_marks = yes
+    
+    event_target:p_1 = {
+        if = {
+            limit = { check_variable = { dealer_count_to_test > 2 } } 
+                
+            set_temp_variable = { temp1 = dealer_1 }
+            set_temp_variable = { temp3 = dealer_1_id }
+            mark_card = yes
+            
+            set_temp_variable = { temp1 = dealer_2 }
+            set_temp_variable = { temp3 = dealer_2_id }
+            mark_card = yes
+            
+            set_temp_variable = { temp1 = dealer_3 }
+            set_temp_variable = { temp3 = dealer_3_id }
+            mark_card = yes
+        }
+        
+        if = {
+            limit = { check_variable = { dealer_count_to_test > 3 } } 
+            set_temp_variable = { temp1 = dealer_4 }
+            set_temp_variable = { temp3 = dealer_4_id }
+            mark_card = yes
+        }
+        if = {
+            limit = { check_variable = { dealer_count_to_test > 4 } } 
+            set_temp_variable = { temp1 = dealer_5 }
+            set_temp_variable = { temp3 = dealer_5_id }
+            mark_card = yes
+        }
+        
+    }
+
+    if = {
+        limit = { check_variable = { mark_players = 1 } }
+        
+        set_temp_variable = { temp1 = c_1 }
+        set_temp_variable = { temp3 = c_1_id }
+        mark_card = yes
+        
+        set_temp_variable = { temp1 = c_2 }
+        set_temp_variable = { temp3 = c_2_id }
+        mark_card = yes
+    }
+    
+    check_rs_flush_ai = yes
+    check_pairs_ai = yes
+    check_straight_ai = yes
+    check_regular_flush_ai = yes
+
+}
+
+calc_ai_score = {
+    set_temp_variable = { mark_players = 1 }
+    calc_ai_score_inner = yes
+    
+    set_variable = { bluff_chance = 4 }
+    
+    set_variable = { ai_score = 0 }
+    set_temp_variable = { sc = 0.0 }
+    if = { 
+        limit = { check_variable = { dealer_count_to_test = 0 } } 
+        calc_ai_score_with_0 = yes
+    }
+    
+    if = { 
+        limit = { check_variable = { dealer_count_to_test = 3 } } 
+        calc_ai_score_with_3 = yes
+    }
+    if = { 
+        limit = { check_variable = { dealer_count_to_test = 4 } } 
+        calc_ai_score_with_4 = yes
+    }
+    if = { 
+        limit = { check_variable = { dealer_count_to_test = 5 } } 
+        calc_ai_score_with_5 = yes
+    }
+    
+    clamp_variable = { var = ai_score min = 0 max = 100 }
+
+    set_variable = { safe_to_bet_amount = -1 }
+    
+    if = {
+        limit = { check_variable = { dealer_count_to_test = 0 } } 
+        set_variable = { is_bluffing = -1 }
+    }
+
+    set_variable = { ai_raised = 0 }
+    ## todo
+    
+    #set_variable { score = ai_score }
+    
+    if = {
+        limit = { check_variable = { print_score = 1 } }
+        print_variables = {
+            file = log_file
+            text = header_text
+            append = yes
+            var_list = { 
+                ai_score
+                has_5_rs has_4_rs has_3_rs 
+                has_4_p has_3_p has_2_p has_2_2_p has_3_2_p 
+                has_5_st has_4_st has_3_st
+                has_5_rf has_4_rf has_3_rf
+                high_card high_card_2
+            }
+        }
+    }
+}
+
+#0.012
+#0.000
+
+update_ai_score = {
+    set_temp_variable = { temp_sc = sc }
+    subtract_from_temp_variable = { temp_sc = danger }
+    if = {
+        limit = { check_variable = { ai_score < temp_sc } }
+        set_variable = { ai_score = temp_sc }
+    }
+    set_temp_variable = { sc = 0.0 }
+}
+
+is_best_hand = {
+    
+}
+calc_ai_score_with_0 = {
+    set_temp_variable = { danger = 0 }
+    
+    if = {
+        limit = { check_variable = { has_2_p > 0 } }
+        set_temp_variable = { sc = pairs_2_score }
+        multiply_temp_variable = { sc = 10000 }
+        add_to_temp_variable = { sc = 30 }
+    }
+    
+    update_ai_score = yes
+    
+    set_temp_variable = { sc = high_card }
+    subtract_from_temp_variable = { sc = 0.007 }
+    clamp_temp_variable = { var = sc min = 0.0 max = 100.0 }
+
+    multiply_temp_variable = { sc = 15000 }
+    
+    set_temp_variable = { sc2 = high_card_2 }
+    subtract_from_temp_variable = { sc2 = 0.007 }
+    clamp_temp_variable = { var = sc2 min = 0.0 max = 100.0 }
+    
+    multiply_temp_variable = { sc2 = 15000 }
+
+    
+    add_to_temp_variable = { sc = sc2 }
+    
+    set_temp_variable = { sub = high_card }
+    subtract_from_temp_variable = { sub = high_card_2 }
+    
+    if = { 
+        limit = { check_variable = { sub = 0.001 } }
+        add_to_temp_variable = { sc = 20 }
+    }        
+    if = { 
+        limit = { check_variable = { sub = -0.001 } }
+        add_to_temp_variable = { sc = 20 }
+    }
+    
+    if = {
+        limit = { check_variable = { c_1_color = c_2_color} }
+        multiply_temp_variable = { sc = 1.3 }
+        add_to_temp_variable = { sc = 10 }
+    }
+    
+    update_ai_score = yes
+
+}
+
+calc_ai_regular_scores = {
+
+    set_temp_variable = { num_rem = global.num_players }
+    add_to_temp_variable = { num_rem = 1 }
+    subtract_from_temp_variable = { num_rem = global.num_folded }
+    
+    set_temp_variable = { danger = 0 }
+    
+    if = {
+        limit = { check_variable = { has_5_rs > 0 } }
+        
+        set_temp_variable = { danger = 0 }
+        set_temp_variable = { sc = 0 }
+        
+        set_temp_variable = { t = 0 }
+        if = { 
+            limit = { 
+                check_variable = { c_1_color = rs_color }
+                or = {
+                    and = {
+                        check_variable = { var = c_1_id_r value = rs_score compare = greater_than_or_equals } 
+                        check_variable = { var = c_1_id_r value = rs_score_e compare = less_than_or_equals }
+                        set_temp_variable = { t3 = 0 }
+                    } 
+                    and = {
+                        check_variable = { c_1_id_r = 0.012 } 
+                        check_variable = { rs_score = -0.001 }
+                        set_temp_variable = { t3 = 1 }
+                    } 
+                }
+            }
+            add_to_temp_variable = { t = 1 }
+            set_temp_variable = { t2 = c_1_id_r }
+            subtract_from_temp_variable = { t2 = rs_score }
+            
+        }
+        
+        if = { 
+            limit = { 
+                check_variable = { c_2_color = rs_color }
+                or = {
+                    and = {
+                        check_variable = { var = c_2_id_r value = rs_score compare = greater_than_or_equals } 
+                        check_variable = { var = c_2_id_r value = rs_score_e compare = less_than_or_equals }
+                    } 
+                    and = {
+                        check_variable = { c_2_id_r = 0.012 } 
+                        check_variable = { rs_score = -0.001 }
+                    } 
+                }
+            }
+            add_to_temp_variable = { t = 1 }
+        }
+        
+        if = { 
+            limit = { check_variable = { t = 2 } } 
+            set_temp_variable = { sc = 100 }
+            update_ai_score = yes
+        }
+        if = { 
+            limit = { check_variable = { t = 1 } } 
+            set_temp_variable = { sc = 100 } ## todo
+            
+            update_ai_score = yes
+        }
+
+        set_temp_variable = { sc = 30 }
+        update_ai_score = yes
+        
+    }
+    
+    
+    if = {
+        limit = { check_variable = { has_4_p > 0 } }
+        
+        set_temp_variable = { danger = 0 }
+        if = {
+            limit = { check_variable = { c_1_id_r = pairs_4_score } }
+            set_temp_variable = { sc = 100 }
+        }
+        
+        if = {
+            limit = { check_variable = { c_2_id_r = pairs_4_score } }
+            set_temp_variable = { sc = 100 }
+        }
+        
+        if = {
+            limit = { or = {
+                check_variable = { high_card = 0.012 } 
+                check_variable = { high_card_2 = 0.012 } 
+            } }
+            set_temp_variable = { sc = 100 }
+        }
+            
+        update_ai_score = yes
+       
+        if = {
+            limit = { check_variable = { sc = 0 } }
+            
+
+            set_temp_variable = { t = global.hand_high_card }
+            if = { 
+                limit = { check_variable = { t = pairs_4_score } }
+                set_temp_variable = { t = global.hand_high_card_2 }
+            }
+           
+            set_temp_variable = { m = c_1_id_r }
+            if = { 
+                limit = { check_variable = { m = pairs_4_score } }
+                set_temp_variable = { m = c_2_id_r }
+            }
+           
+            if = {
+                limit = {
+                    check_variable = { m > t } 
+                }
+                
+                set_temp_variable = { sc = 10 }
+                
+                set_temp_variable = { t2 = m }
+                subtract_from_temp_variable = { t2 = t }
+                
+                set_temp_variable = { t3 = 0.014 }
+                subtract_from_temp_variable = { t3 = t }
+                
+                divide_temp_variable = { t2 = t3 }
+                multiply_temp_variable = { t2 = 100 }
+                
+                add_to_temp_variable = { sc = t2 }
+                
+                update_ai_score = yes
+                
+                
+                add_to_temp_variable = { sc = m }
+                subtract_from_temp_variable = { sc = 0.003 }
+                divide_temp_variable = { sc = 0.010 }
+                multiply_temp_variable = { sc = 100 }
+                
+                update_ai_score = yes
+                
+            }
+            
+                
+            add_to_temp_variable = { sc = m }
+            divide_temp_variable = { sc = 0.025 }
+            multiply_temp_variable = { sc = 100 }
+            update_ai_score = yes
+
+        }
+       
+        if = {
+            limit = { 
+                check_variable = { sc = 0 } 
+                check_variable = { t > 0.008 } 
+            }
+            
+            set_temp_variable = { sc = 10 }
+            
+            
+        
+            set_temp_variable = { t2 = t }
+            subtract_from_temp_variable = { t2 = 0.008 }
+            
+            divide_temp_variable = { t2 = 0.003 }
+            
+            multiply_temp_variable = { t2 = 70 }
+            
+            add_to_temp_variable = { sc = t2 }
+            
+            update_ai_score = yes
+        }
+        
+        update_ai_score = yes
+    }
+    
+    if = {
+        limit = { check_variable = { has_3_2_p > 0 } }
+        
+        set_temp_variable = { danger = 0 }
+        if = { 
+        
+            limit = { 
+                check_variable = { global.hand_has_3_p > 0 } 
+            }
+            add_to_temp_variable = { danger = 15 }
+        }
+        set_temp_variable = { t = 0 }
+        set_temp_variable = { t2 = 0 }
+        
+        if = {
+            limit = {
+                check_variable = { c_1_id_r = pairs_3_score }
+            }
+            add_to_temp_variable = { t = 1 }
+            add_to_temp_variable = { t2 = 1 }
+        }
+        if = {
+            limit = {
+                check_variable = { c_1_id_r = pairs_2_score }
+            }
+            add_to_temp_variable = { t = 1 }
+        }
+        
+        if = {
+            limit = {
+                check_variable = { c_2_id_r = pairs_3_score }
+            }
+            add_to_temp_variable = { t = 1 }
+            add_to_temp_variable = { t2 = 1 }
+        }
+        if = {
+            limit = {
+                check_variable = { c_2_id_r = pairs_2_score }
+            }
+            add_to_temp_variable = { t = 1 }
+        }
+        
+        if = {
+            limit = { tag = cos }
+            
+            set_variable = { global.z = pairs_2_score }
+            
+        }
+        
+        set_temp_variable = { sc = 30 }
+        if = { 
+            limit = { check_variable = { t = 1 } }
+            add_to_temp_variable = { sc = 40 }
+        }
+        if = { 
+            limit = { check_variable = { t = 2 } }
+            add_to_temp_variable = { sc = 75 }
+        }
+        if = { 
+            limit = { check_variable = { t2 = 1 } }
+            add_to_temp_variable = { sc = 5 }
+        }
+        if = { 
+            limit = { check_variable = { t2 = 2 } }
+            add_to_temp_variable = { sc = 10 }
+        }
+        
+        if = {
+            limit = { 
+                check_variable = { pairs_3_score > pairs_2_score } 
+            }
+            add_to_temp_variable = { sc = 5 }
+                
+            if = { 
+                limit = { check_variable = { t2 > 0 } }
+                add_to_temp_variable = { sc = 10 }
+            }
+        }
+        
+    }
+    
+    
+    if = {
+        limit = { check_variable = { has_5_rf > 0 } }
+        
+        set_temp_variable = { danger = 0 }
+       
+        if = { 
+            limit = { 
+                check_variable = { global.hand_has_3_p > 0 } 
+            }
+            add_to_temp_variable = { danger = 15 }
+        }
+        
+        set_temp_variable = { sc = 0 }
+        
+        set_temp_variable = { t = 0 }
+        set_temp_variable = { t2 = -1 }
+        
+        if = {
+            limit = { check_variable = { c_1_color = rf_color } }
+            add_to_temp_variable = { t = 1 }
+            set_temp_variable = { t2 = c_1_id_r }
+        }
+        if = {
+            limit = { check_variable = { c_2_color = rf_color } }
+            add_to_temp_variable = { t = 1 }
+            
+            if = {
+                limit = { check_variable = { t2 < c_2_id_r } }
+                set_temp_variable = { t2 = c_2_id_r }
+            }
+        }
+        
+        if = { 
+            limit = { check_variable = { rf_score = 0.012 } }
+            set_temp_variable = { sc = 100 }
+            update_ai_score = yes
+        }
+        if = {
+            limit = { check_variable = { t > 0 } }
+            if = {
+                limit = { check_variable = { t = 1 } }
+                set_temp_variable = { sc = 30 }
+                
+            }
+            if = {
+                limit = { check_variable = { t = 2 } }
+                set_temp_variable = { sc = 50 }
+            }
+    
+            set_temp_variable = { t3 = 100 }
+            subtract_from_temp_variable = { t3 = sc }
+            
+            divide_temp_variable = { t2 = 0.012 }
+            
+            set_temp_variable = { t4 = 1 }
+            subtract_from_temp_variable = { t4 = t2 }
+            divide_temp_variable = { t4 = 6 }
+            multiply_temp_variable = { t4 = num_rem }
+            
+            subtract_from_temp_variable = { t2 = t4 }
+            clamp_temp_variable = { var = t2 min = 0 max = 1 }
+            
+            multiply_temp_variable = { t2 = t3 }
+            
+            add_to_temp_variable = { sc = t2 }
+                
+            update_ai_score = yes
+        }
+        
+        set_temp_variable = { sc = 40 }
+        divide_temp_variable = { sc = num_rem }
+        
+        update_ai_score = yes
+        
+    }
+    
+    if = {
+        limit = { check_variable = { has_5_st > 0 } }
+        
+        set_temp_variable = { danger = 0 }
+        
+        if = { 
+            limit = { 
+                check_variable = { global.hand_has_3_p > 0 } 
+            }
+            add_to_temp_variable = { danger = 10 }
+        }
+        
+        if = { 
+            limit = { 
+                check_variable = { global.hand_has_2_p > 0 } 
+            }
+            add_to_temp_variable = { danger = 5 }
+        }
+        
+        if = { 
+            limit = { 
+                check_variable = { global.hand_has_4_rf > 0 } 
+            }
+            add_to_temp_variable = { danger = 10 }
+        }
+        
+        set_temp_variable = { sc = 0 }
+        
+        set_temp_variable = { t = 0 }
+        if = { 
+            limit = { 
+                or = {
+                    and = {
+                        check_variable = { var = c_1_id_r value = st_score compare = greater_than_or_equals } 
+                        check_variable = { var = c_1_id_r value = st_score_e compare = less_than_or_equals }
+                        set_temp_variable = { t3 = 0 }
+                    } 
+                    and = {
+                        check_variable = { c_1_id_r = 0.012 } 
+                        check_variable = { st_score = -0.001 }
+                        set_temp_variable = { t3 = 1 }
+                    } 
+                }
+            }
+            add_to_temp_variable = { t = 1 }
+            set_temp_variable = { t2 = c_1_id_r }
+            subtract_from_temp_variable = { t2 = st_score }
+            
+        }
+        
+        if = { 
+            limit = { 
+                or = {
+                    and = {
+                        check_variable = { var = c_2_id_r value = st_score compare = greater_than_or_equals } 
+                        check_variable = { var = c_2_id_r value = st_score_e compare = less_than_or_equals }
+                    } 
+                    and = {
+                        check_variable = { c_2_id_r = 0.012 } 
+                        check_variable = { st_score = -0.001 }
+                    } 
+                }
+            }
+            add_to_temp_variable = { t = 1 }
+        }
+        
+        if = { 
+            limit = { check_variable = { t = 2 } } 
+            set_temp_variable = { sc = 100 }
+            update_ai_score = yes
+        }
+        if = { 
+            limit = { check_variable = { t = 1 } } 
+            set_temp_variable = { sc = 100 } ## todo
+            
+            update_ai_score = yes
+        }
+
+        set_temp_variable = { sc = 15 }
+        update_ai_score = yes
+    }
+    
+    
+    if = {
+        limit = { check_variable = { has_3_p > 0 } }
+        
+        set_temp_variable = { danger = 5 }
+        
+        if = { 
+            limit = { 
+                check_variable = { global.hand_has_2_p > 0 } 
+                check_variable = { global.hand_pairs_2_score > pairs_3_score } 
+            }
+            add_to_temp_variable = { danger = 15 }
+        }
+        
+        set_temp_variable = { sc = 20 }
+        
+        if = {
+            limit = { check_variable = { c_1_id_r = pairs_3_score } }
+            add_to_temp_variable = { sc = 30 }
+        }
+        
+        if = {
+            limit = { check_variable = { c_2_id_r = pairs_3_score } }
+            add_to_temp_variable = { sc = 30 }
+        }
+    
+        set_temp_variable = { t3 = pairs_3_score }
+        divide_temp_variable = { t3 = 0.012 }
+        multiply_temp_variable = { t3 = 20 }
+        add_to_temp_variable = { sc = t3 }
+        
+        update_ai_score = yes
+    }
+
+    if = {
+        limit = { check_variable = { has_2_2_p > 0 } }
+        
+        set_temp_variable = { danger = 5 }
+        if = { 
+            limit = { check_variable = { global.hand_high_card_2 > pairs_2_score } }
+            add_to_temp_variable = { danger = 10 }
+        }
+        if = { 
+            limit = { check_variable = { global.hand_high_card > pairs_2_score } }
+            add_to_temp_variable = { danger = 10 }
+        }
+        if = { 
+            limit = { check_variable = { global.hand_has_4_rf > 0 } }
+            add_to_temp_variable = { danger = 10 }
+        }
+        if = { 
+            limit = { check_variable = { global.hand_has_3_rf > 0 } }
+            add_to_temp_variable = { danger = 10 }
+        }
+        if = { 
+            limit = { check_variable = { global.hand_has_4_st > 0 } }
+            add_to_temp_variable = { danger = 10 }
+        }
+        if = { 
+            limit = { check_variable = { global.hand_has_3_st > 0 } }
+            add_to_temp_variable = { danger = 10 }
+        }
+        set_temp_variable = { t2 = 0 }
+        set_temp_variable = { t3 = 0 }
+        
+        set_temp_variable = { sc = 20 }
+        if = {
+            limit = { check_variable = { c_1_id_r = pairs_2_score } }
+            add_to_temp_variable = { sc = 15 }
+            set_temp_variable = { t2 = 1 }
+        }
+        
+        if = {
+            limit = { check_variable = { c_2_id_r = pairs_2_score } }
+            add_to_temp_variable = { sc = 15 }
+            set_temp_variable = { t2 = 1 }
+        }
+        if = {
+            limit = { check_variable = { c_1_id_r = pairs_2_score_old } }
+            add_to_temp_variable = { sc = 15 }
+            set_temp_variable = { t3 = 1 }
+        }
+        
+        if = {
+            limit = { check_variable = { c_2_id_r = pairs_2_score_old } }
+            add_to_temp_variable = { sc = 15 }
+            set_temp_variable = { t3 = 1 }
+        }
+        
+        if = {
+            limit = { check_variable = { t2 = 1 } }
+            set_temp_variable = { t3 = pairs_2_score }
+            divide_temp_variable = { t3 = 0.012 }
+            multiply_temp_variable = { t3 = 10 }
+            add_to_temp_variable = { sc = t3 }
+        }
+        
+        if = {
+            limit = { check_variable = { t3 = 1 } }
+            set_temp_variable = { t3 = pairs_2_score_old }
+            divide_temp_variable = { t3 = 0.012 }
+            multiply_temp_variable = { t3 = 10 }
+            add_to_temp_variable = { sc = t3 }
+        }
+        
+            
+        update_ai_score = yes
+    }
+
+    if = {
+        limit = { check_variable = { has_2_p > 0 } }
+        
+        set_temp_variable = { danger = 5 }
+        
+        if = { 
+            limit = { check_variable = { global.hand_high_card > pairs_2_score } }
+            add_to_temp_variable = { danger = 20 }
+        }
+        if = { 
+            limit = { check_variable = { global.hand_high_card_2 > pairs_2_score } }
+            add_to_temp_variable = { danger = 20 }
+        }
+        if = { 
+            limit = { check_variable = { global.hand_has_4_rf > 0 } }
+            add_to_temp_variable = { danger = 10 }
+        }
+        if = { 
+            limit = { check_variable = { global.hand_has_3_rf > 0 } }
+            add_to_temp_variable = { danger = 10 }
+        }
+        if = { 
+            limit = { check_variable = { global.hand_has_4_st > 0 } }
+            add_to_temp_variable = { danger = 10 }
+        }
+        if = { 
+            limit = { check_variable = { global.hand_has_3_st > 0 } }
+            add_to_temp_variable = { danger = 10 }
+        }
+        
+        set_temp_variable = { sc = 0 }
+        if = {
+            limit = { check_variable = { c_1_id_r = pairs_2_score } }
+            add_to_temp_variable = { sc = 30 }
+        }
+        
+        if = {
+            limit = { check_variable = { c_2_id_r = pairs_2_score } }
+            add_to_temp_variable = { sc = 30 }
+        }
+        
+    
+        set_temp_variable = { t3 = pairs_2_score }
+        divide_temp_variable = { t3 = 0.012 }
+        multiply_temp_variable = { t3 = 40 }
+        add_to_temp_variable = { sc = t3 }
+            
+        update_ai_score = yes
+    }
+    
+    
+    set_temp_variable = { danger = 50 }
+            
+    if = { 
+        limit = { check_variable = { var = global.hand_high_card value = high_card } }
+        add_to_temp_variable = { danger = 40 }
+    }
+
+    if = { 
+        limit = { check_variable = { global.hand_has_4_rf > 0 } }
+        add_to_temp_variable = { danger = 10 }
+    }
+    if = { 
+        limit = { check_variable = { global.hand_has_3_rf > 0 } }
+        add_to_temp_variable = { danger = 10 }
+    }
+    if = { 
+        limit = { check_variable = { global.hand_has_4_st > 0 } }
+        add_to_temp_variable = { danger = 10 }
+    }
+    if = { 
+        limit = { check_variable = { global.hand_has_3_st > 0 } }
+        add_to_temp_variable = { danger = 10 }
+    }
+    
+    set_temp_variable = { t3 = high_card }
+    divide_temp_variable = { t3 = 0.012 }
+    multiply_temp_variable = { t3 = 50 }
+    add_to_temp_variable = { sc = t3 }
+    set_temp_variable = { t3 = high_card_2 }
+    divide_temp_variable = { t3 = 0.012 }
+    multiply_temp_variable = { t3 = 50 }
+    add_to_temp_variable = { sc = t3 }
+    
+    update_ai_score = yes
+}
+
+calc_ai_score_with_3 = {
+    calc_ai_regular_scores = yes
+    
+    set_temp_variable = { sc = 0 }
+    if = { 
+        limit = { check_variable = { has_4_rf > 0 } }
+        add_to_temp_variable = { sc = 10 }
+    }    
+    if = { 
+        limit = { check_variable = { has_4_rs > 0 } }
+        add_to_temp_variable = { sc = 5 }
+    }
+    if = { 
+        limit = { check_variable = { has_4_st > 0 } }
+        add_to_temp_variable = { sc = 15 }
+    }
+    if = { 
+        limit = { check_variable = { has_3_rf > 0 } }
+        add_to_temp_variable = { sc = 5 }
+    }    
+    if = { 
+        limit = { check_variable = { has_3_rs > 0 } }
+        add_to_temp_variable = { sc = 5 }
+    }
+    if = { 
+        limit = { check_variable = { has_3_st > 0 } }
+        add_to_temp_variable = { sc = 5 }
+    }
+    update_ai_score = yes
+}
+
+calc_ai_score_with_4 = {
+    calc_ai_regular_scores = yes
+    
+    set_temp_variable = { sc = 0 }
+    if = { 
+        limit = { check_variable = { has_4_rf > 0 } }
+        add_to_temp_variable = { sc = 5 }
+    }    
+    if = { 
+        limit = { check_variable = { has_4_rs > 0 } }
+        add_to_temp_variable = { sc = 5 }
+    }
+    if = { 
+        limit = { check_variable = { has_4_st > 0 } }
+        add_to_temp_variable = { sc = 10 }
+    }
+    
+    update_ai_score = yes
+}
+calc_ai_score_with_5 = {
+    calc_ai_regular_scores = yes
+}
+
+
+calc_hand_score = {
+    set_temp_variable = { mark_players = 0 }
+    calc_ai_score_inner = yes
+    
+    set_variable = { global.hand_has_5_rs = has_5_rs }
+    set_variable = { global.hand_has_4_rs = has_4_rs }
+    set_variable = { global.hand_has_3_rs = has_3_rs }
+    set_variable = { global.hand_has_4_p = has_4_p }
+    set_variable = { global.hand_has_3_p = has_3_p }
+    set_variable = { global.hand_has_2_p = has_2_p }
+    set_variable = { global.hand_has_2_2_p = has_2_2_p }
+    set_variable = { global.hand_has_3_2_p = has_3_2_p }
+    set_variable = { global.hand_has_5_st = has_5_st }
+    set_variable = { global.hand_has_4_st = has_4_st }
+    set_variable = { global.hand_has_3_st = has_3_st }
+    set_variable = { global.hand_has_5_rf = has_5_rf }
+    set_variable = { global.hand_has_4_rf = has_4_rf }
+    set_variable = { global.hand_has_3_rf = has_3_rf }
+    set_variable = { global.hand_high_card = high_card }
+    set_variable = { global.hand_high_card_2 = high_card_2 }
+    
+    set_variable = { global.hand_pairs_2_score = pairs_2_score }
+    set_variable = { global.hand_pairs_3_score = pairs_3_score }
+    set_variable = { global.hand_pairs_4_score = pairs_4_score }
+    
+    
+    if = {
+        limit = { check_variable = { print_score = 1 } }
+        print_variables = {
+            file = log_file
+            text = header_text
+            append = yes
+            var_list = { 
+                ai_score
+                has_5_rs has_4_rs has_3_rs 
+                has_4_p has_3_p has_2_p has_2_2_p has_3_2_p 
+                has_5_st has_4_st has_3_st
+                has_5_rf has_4_rf has_3_rf
+                high_card
+            }
+        }
+    }
+}
+
+loop_calc_ai_scores = {
+    if = {
+        limit = {
+            check_variable = { cn < global.num_players_r }
+        }
+        
+        set_temp_variable = { tempo = cn }
+        add_to_temp_variable = { tempo = 1.id }
+        
+        var:tempo = {
+            var:p = {
+                calc_ai_score = yes
+            }
+        }
+        
+        add_to_temp_variable = { cn = 0.001 }
+        loop_calc_ai_scores = yes
+    }
+}
+
+calc_ai_scores = {
+    
+    set_temp_variable = { print_score = 0 }
+    set_temp_variable = { dealer_count_to_test = global.dealer_card_show }
+    
+    if = {
+        limit = { check_variable = { dealer_count_to_test > 0 } }
+        calc_hand_score = yes
+    }
+    
+    set_temp_variable = { cn = 0.0 }
+    loop_calc_ai_scores = yes
+}
+
+loop_print_player_score = {
+    if = {
+        limit = {
+            check_variable = { cn < global.num_players_r }
+        }
+        
+        set_temp_variable = { tempo = cn }
+        add_to_temp_variable = { tempo = 1.id }
+        
+        var:tempo = {
+            var:p = {
+                calc_ai_score = yes
+            }
+        }
+        
+        add_to_temp_variable = { cn = 0.001 }
+        loop_print_player_score = yes
+    }
+}
+
+print_ai_scores = {
+    
+    set_temp_variable = { print_score = 1 }
+    
+    print_variables = {
+        file = log_file
+        text = header_text
+        append = no
+        var_list = { dealer_count_to_test }
+    }
+        
+    if = {
+        limit = { check_variable = { dealer_count_to_test > 0 } }
+        calc_hand_score = yes
+    }
+    
+    set_temp_variable = { cn = 0.0 }
+    loop_print_player_score = yes
+    
+    set_temp_variable = { print_score = 0 }
+}
+
+loop_check_instant_ai = {
+    if = {
+        limit = {
+            check_variable = { global.stage > 0 }
+            check_variable = { instant_ai_iter > 0 }
+            check_variable = { instant_ai_ended = 0 }
+            event_target:p_cur = {
+                is_ai = yes
+            }
+        }
+        
+        subtract_from_temp_variable = { instant_ai_iter = 1 }
+        event_target:p_cur = {
+            on_ai = yes
+        }
+        
+        loop_check_instant_ai = yes
+    }
+}
+
+check_instant_ai = {
+    if = {
+        limit = { 
+            or = {
+                check_variable = { force_instant_ai = 1 } 
+                check_variable = { global.instant_ai = 1 } 
+            }
+        }
+        set_temp_variable = { instant_ai_iter = global.num_players }
+        subtract_from_temp_variable = { instant_ai_iter = global.num_finished }
+        
+        set_temp_variable = { instant_ai_start = global.turn }
+        subtract_from_temp_variable = { instant_ai_start = 1 }
+        
+        if = {
+            limit = { check_variable = { instant_ai_start = 0 } }
+            set_temp_variable = { instant_ai_start = global.num_players }
+        }
+        
+        set_temp_variable = { instant_ai_ended = 0 }
+        
+        loop_check_instant_ai = yes
+    }
+}
+
+
+on_ai = {
+    # calc_ai_score = yes
+    
+    set_temp_variable = { r = random }
+    multiply_temp_variable = { r = 80 }
+    
+    set_temp_variable = { r2 = random }
+    multiply_temp_variable = { r2 = bluff_chance }
+
+    set_temp_variable = { r3 = r }
+    add_to_temp_variable = { r3 = r2 }
+    
+    set_temp_variable = { temp_rem = chips_at_table }
+    divide_temp_variable = { temp_rem = global.min_bet_to_check }
+    
+    #print_variables = {
+    #    file = poker_ai_log
+    #    text = init
+    #    append = yes
+    #    var_list = { 
+    #        ai_score
+    #        r3
+    #        safe_to_bet_amount
+    #    }
+    #}
+    
+    if = {
+        limit = { 
+            check_variable = { is_bluffing  < 1 }
+        }
+    
+        set_variable = { is_bluffing = 0 }
+        set_temp_variable = { rt = random }
+        multiply_temp_variable = { rt = 100 }
+        if = {
+            limit = { 
+                check_variable = { rt < bluff_chance }
+            }
+                
+            set_variable = { is_bluffing = 1 }
+        }
+    }
+    
+    set_temp_variable = { check_only = 0 }
+    
+    if = {
+        limit = { check_variable = { var = global.min_bet value = safe_to_bet_amount  } } 
+        
+        if = { 
+            limit = { or = {
+                check_variable = { r3 < ai_score } 
+                and = {
+                            
+                    check_variable = { random < 0.9 } 
+                    check_variable = { is_bluffing = 1 } 
+                }
+            } }
+            
+            set_temp_variable = { t2 = ai_score }
+            divide_temp_variable = { t2 = 60 }
+            add_to_temp_variable = { t2 = 1 }
+            
+            set_temp_variable = { t = random }
+            add_to_temp_variable { t = t2 }
+            
+            multiply_temp_variable = { t = global.min_bet_to_check }
+            
+            
+            set_variable = { safe_to_bet_amount = global.min_bet }
+            add_to_variable = { safe_to_bet_amount = t }
+            
+            round_variable = safe_to_bet_amount
+        }
+        
+        if = {
+            limit = { 
+                check_variable = { global.stage < 2 }
+                check_variable = { temp_rem > 3 }
+                check_variable = { global.min_bet = global.min_bet_to_check }
+                check_variable = { safe_to_bet_amount = -1 }
+                or = {
+                    check_variable = { ai_score > 30 }
+                    check_variable = { random < 0.3 }
+                }
+            }
+            
+            clamp_variable = { var = safe_to_bet_amount min = global.min_bet max = safe_to_bet_amount }
+            set_temp_variable = { check_only = 1 }
+        }
+    }
+
+    #print_variables = {
+    #    file = poker_ai_log
+    #    text = init
+    #    append = yes
+    #    var_list = { 
+    #        safe_to_bet_amount
+    #    }
+    #}
+    
+    set_variable = { bet_amount = 0 }
+    clamp_bet = yes
+    
+    
+    set_temp_variable = { cont = 1 }
+    if = {
+        limit = { check_variable = { var = safe_to_bet_amount value = bet_amount } } 
+        
+        set_variable = { bet_amount = 0 }
+        clamp_bet = yes
+        
+        set_temp_variable = { extra = 0.0 }
+        
+        if = {
+            limit = { check_variable = { random < 0.08 } }
+            add_to_temp_variable = { extra = 0.1 }
+        }
+        
+        if = {
+            limit = { 
+                check_variable = { random < 0.08 } 
+                check_variable = { global.stage > 1 } 
+            }
+            add_to_temp_variable = { extra = 0.1 }
+        }
+        
+        set_temp_variable = { rt = random }
+        multiply_temp_variable = { rt = 100 }
+        add_to_temp_variable = { rt = 65 }
+        
+        if = {
+            limit = { check_variable = { global.stage > 1 } }
+            subtract_from_temp_variable = { rt = 35 }
+        }
+        
+        if = {
+            limit = { check_variable = { rt < ai_score } }
+            add_to_temp_variable = { extra = 0.1 }
+        }
+        
+        set_temp_variable = { rt = random }
+        add_to_temp_variable = { rt = 1.0 }
+        multiply_temp_variable = { extra = rt }
+        
+        multiply_temp_variable = { extra = 5 }
+        multiply_temp_variable = { extra = global.min_bet_to_check }
+        
+        if = {
+            limit = { 
+                check_variable = { extra > 0 } 
+                check_variable = { check_only = 0 } 
+                check_variable = { random > ai_raised } 
+            } 
+            
+            add_to_variable = { ai_raised = 0.4 }
+            
+            add_to_variable = { bet_amount = extra }
+            divide_variable = { bet_amount = 5 }
+            round_variable = bet_amount
+            multiply_variable = { bet_amount = 5 }
+        }
+        
+        #print_variables = {
+        #    file = poker_ai_log
+        #    text = init
+        #    append = yes
+        #    var_list = { 
+        #        extra
+        #    }
+        #}
+
+        round_variable = bet_amount
+        clamp_bet = yes
+        on_bet_click = yes
+        
+        set_temp_variable = { cont = 0 }
+    }
+
+    if = {
+        limit = { 
+            check_variable = { cont = 1  }
+            check_variable = { var = already_bet value = bet_amount }
+        }
+        on_bet_click = yes
+        set_temp_variable = { cont = 0 }
+    }
+    
+    set_temp_variable = { t = global.min_bet_to_check }
+    add_to_temp_variable = { t = already_bet }
+    add_to_temp_variable = { t = 10 }
+    
+    if = {
+        limit = { 
+            check_variable = { cont = 1  }
+            check_variable = { t > global.min_bet }
+            check_variable = { random < 0.4 }
+            check_variable = { temp_rem > 3 }
+        }
+        on_bet_click = yes
+        set_temp_variable = { cont = 0 }
+    }
+    
+    if = {
+        limit = { 
+            check_variable = { cont = 1  }
+        }
+        on_fold_click = yes
+        set_temp_variable = { cont = 0 }
+    }
+}

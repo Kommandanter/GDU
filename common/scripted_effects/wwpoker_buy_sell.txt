@@ -1,0 +1,671 @@
+update_buy_sell = {
+    clamp_variable = { var = buy_sell_amount min = 10 max = 100000 }
+
+    set_temp_variable = { buy_mul = 0.9 }
+    set_temp_variable = { sell_mul = 1.1 }
+    
+    set_variable = { buy_pp_amount = buy_sell_amount }
+    multiply_variable = { buy_pp_amount = buy_mul }
+    subtract_from_variable = { buy_pp_amount = 0.45 }
+    round_variable = buy_pp_amount
+    
+    set_variable = { sell_pp_amount = buy_sell_amount }
+    multiply_variable = { sell_pp_amount = sell_mul }
+    add_to_variable = { sell_pp_amount = 0.45 }
+    round_variable = sell_pp_amount
+    
+    
+    set_variable = { buy_ie_amount = buy_sell_amount }
+    multiply_variable = { buy_ie_amount = buy_mul }
+    multiply_variable = { buy_ie_amount = 10 }
+    subtract_from_variable = { buy_ie_amount = 0.45 }
+    round_variable = buy_ie_amount
+    
+    set_variable = { sell_ie_amount = buy_sell_amount }
+    multiply_variable = { sell_ie_amount = sell_mul }
+    multiply_variable = { sell_ie_amount = 10 }
+    add_to_variable = { sell_ie_amount = 0.45 }
+    round_variable = sell_ie_amount
+    
+    
+    set_variable = { buy_se_amount = buy_sell_amount }
+    multiply_variable = { buy_se_amount = buy_mul }
+    multiply_variable = { buy_se_amount = 2 }
+    subtract_from_variable = { buy_se_amount = 0.45 }
+    round_variable = buy_se_amount
+    
+    set_variable = { sell_se_amount = buy_sell_amount }
+    multiply_variable = { sell_se_amount = sell_mul }
+    multiply_variable = { sell_se_amount = 2 }
+    add_to_variable = { sell_se_amount = 0.45 }
+    round_variable = sell_se_amount
+    
+    
+    set_variable = { buy_mi_amount = buy_sell_amount }
+    multiply_variable = { buy_mi_amount = buy_mul }
+    multiply_variable = { buy_mi_amount = 1 }
+    subtract_from_variable = { buy_mi_amount = 0.45 }
+    round_variable = buy_mi_amount
+    
+    set_variable = { sell_mi_amount = buy_sell_amount }
+    multiply_variable = { sell_mi_amount = sell_mul }
+    multiply_variable = { sell_mi_amount = 1 }
+    add_to_variable = { sell_mi_amount = 0.45 }
+    round_variable = sell_mi_amount
+    
+    
+    set_variable = { buy_lt_amount = buy_sell_amount }
+    multiply_variable = { buy_lt_amount = buy_mul }
+    multiply_variable = { buy_lt_amount = 0.45 }
+    subtract_from_variable = { buy_lt_amount = 0.45 }
+    round_variable = buy_lt_amount
+    
+    set_variable = { sell_lt_amount = buy_sell_amount }
+    multiply_variable = { sell_lt_amount = sell_mul }
+    multiply_variable = { sell_lt_amount = 0.45 }
+    add_to_variable = { sell_lt_amount = 0.45 }
+    round_variable = sell_lt_amount
+    
+    
+    set_variable = { buy_mt_amount = buy_sell_amount }
+    multiply_variable = { buy_mt_amount = buy_mul }
+    multiply_variable = { buy_mt_amount = 0.3 }
+    subtract_from_variable = { buy_mt_amount = 0.45 }
+    round_variable = buy_mt_amount
+    
+    set_variable = { sell_mt_amount = buy_sell_amount }
+    multiply_variable = { sell_mt_amount = sell_mul }
+    multiply_variable = { sell_mt_amount = 0.3 }
+    add_to_variable = { mtll_mt_amount = 0.45 }
+    round_variable = sell_mt_amount
+    
+    
+    set_variable = { buy_ht_amount = buy_sell_amount }
+    multiply_variable = { buy_ht_amount = buy_mul }
+    multiply_variable = { buy_ht_amount = 0.15 }
+    subtract_from_variable = { buy_ht_amount = 0.45 }
+    round_variable = buy_ht_amount
+    
+    set_variable = { sell_ht_amount = buy_sell_amount }
+    multiply_variable = { sell_ht_amount = sell_mul }
+    multiply_variable = { sell_ht_amount = 0.15 }
+    add_to_variable = { sell_ht_amount = 0.45 }
+    round_variable = sell_ht_amount
+}
+
+
+on_buy_ie = {
+    if = {
+        limit = { check_variable = { var = temp value =  1000 } }
+        add_equipment_to_stockpile = {
+            type = infantry_equipment
+            amount = 1000
+        }
+        
+        subtract_from_temp_variable = { temp = 1000 }
+        on_buy_ie = yes
+    }
+    
+    if = {
+        limit = { check_variable = { var = temp value =  100 } }
+        add_equipment_to_stockpile = {
+            type = infantry_equipment
+            amount = 100
+        }
+        
+        subtract_from_temp_variable = { temp = 100 }
+        on_buy_ie = yes
+    }
+    
+    
+    if = {
+        limit = { check_variable = { var = temp value =  10 } }
+        add_equipment_to_stockpile = {
+            type = infantry_equipment
+            amount = 10
+        }
+        
+        subtract_from_temp_variable = { temp = 10 }
+        on_buy_ie = yes
+    }
+    
+    if = {
+        limit = { check_variable = { var = temp value =  1 } }
+        add_equipment_to_stockpile = {
+            type = infantry_equipment
+            amount = 1
+        }
+        
+        subtract_from_temp_variable = { temp = 1 }
+        on_buy_ie = yes
+    }
+}
+
+
+on_sell_ie = {
+    if = {
+        limit = { check_variable = { var = temp value =  1000 } }
+        add_equipment_to_stockpile = {
+            type = infantry_equipment
+            amount = -1000
+        }
+        
+        subtract_from_temp_variable = { temp = 1000 }
+        on_sell_ie = yes
+    }
+    
+    if = {
+        limit = { check_variable = { var = temp value =  100 } }
+        add_equipment_to_stockpile = {
+            type = infantry_equipment
+            amount = -100
+        }
+        
+        subtract_from_temp_variable = { temp = 100 }
+        on_sell_ie = yes
+    }
+    
+    
+    if = {
+        limit = { check_variable = { var = temp value =  10 } }
+        add_equipment_to_stockpile = {
+            type = infantry_equipment
+            amount = -10
+        }
+        
+        subtract_from_temp_variable = { temp = 10 }
+        on_sell_ie = yes
+    }
+    
+    if = {
+        limit = { check_variable = { var = temp value =  1 } }
+        add_equipment_to_stockpile = {
+            type = infantry_equipment
+            amount = -1
+        }
+        
+        subtract_from_temp_variable = { temp = 1 }
+        on_sell_ie = yes
+    }
+}
+
+
+on_buy_se = {
+    if = {
+        limit = { check_variable = { var = temp value =  1000 } }
+        add_equipment_to_stockpile = {
+            type = support_equipment
+            amount = 1000
+        }
+        
+        subtract_from_temp_variable = { temp = 1000 }
+        on_buy_se = yes
+    }
+    
+    if = {
+        limit = { check_variable = { var = temp value =  100 } }
+        add_equipment_to_stockpile = {
+            type = support_equipment
+            amount = 100
+        }
+        
+        subtract_from_temp_variable = { temp = 100 }
+        on_buy_se = yes
+    }
+    
+    
+    if = {
+        limit = { check_variable = { var = temp value =  10 } }
+        add_equipment_to_stockpile = {
+            type = support_equipment
+            amount = 10
+        }
+        
+        subtract_from_temp_variable = { temp = 10 }
+        on_buy_se = yes
+    }
+    
+    if = {
+        limit = { check_variable = { var = temp value =  1 } }
+        add_equipment_to_stockpile = {
+            type = support_equipment
+            amount = 1
+        }
+        
+        subtract_from_temp_variable = { temp = 1 }
+        on_buy_se = yes
+    }
+}
+
+
+on_sell_se = {
+    if = {
+        limit = { check_variable = { var = temp value =  1000 } }
+        add_equipment_to_stockpile = {
+            type = support_equipment
+            amount = -1000
+        }
+        
+        subtract_from_temp_variable = { temp = 1000 }
+        on_sell_se = yes
+    }
+    
+    if = {
+        limit = { check_variable = { var = temp value =  100 } }
+        add_equipment_to_stockpile = {
+            type = support_equipment
+            amount = -100
+        }
+        
+        subtract_from_temp_variable = { temp = 100 }
+        on_sell_se = yes
+    }
+    
+    
+    if = {
+        limit = { check_variable = { var = temp value =  10 } }
+        add_equipment_to_stockpile = {
+            type = support_equipment
+            amount = -10
+        }
+        
+        subtract_from_temp_variable = { temp = 10 }
+        on_sell_se = yes
+    }
+    
+    if = {
+        limit = { check_variable = { var = temp value =  1 } }
+        add_equipment_to_stockpile = {
+            type = support_equipment
+            amount = -1
+        }
+        
+        subtract_from_temp_variable = { temp = 1 }
+        on_sell_se = yes
+    }
+}
+
+
+on_buy_mi = {
+    if = {
+        limit = { check_variable = { var = temp value =  1000 } }
+        add_equipment_to_stockpile = {
+            type = motorized_equipment
+            amount = 1000
+        }
+        
+        subtract_from_temp_variable = { temp = 1000 }
+        on_buy_mi = yes
+    }
+    
+    if = {
+        limit = { check_variable = { var = temp value =  100 } }
+        add_equipment_to_stockpile = {
+            type = motorized_equipment
+            amount = 100
+        }
+        
+        subtract_from_temp_variable = { temp = 100 }
+        on_buy_mi = yes
+    }
+    
+    
+    if = {
+        limit = { check_variable = { var = temp value =  10 } }
+        add_equipment_to_stockpile = {
+            type = motorized_equipment
+            amount = 10
+        }
+        
+        subtract_from_temp_variable = { temp = 10 }
+        on_buy_mi = yes
+    }
+    
+    if = {
+        limit = { check_variable = { var = temp value =  1 } }
+        add_equipment_to_stockpile = {
+            type = motorized_equipment
+            amount = 1
+        }
+        
+        subtract_from_temp_variable = { temp = 1 }
+        on_buy_mi = yes
+    }
+}
+
+on_sell_mi = {
+    if = {
+        limit = { check_variable = { var = temp value =  1000 } }
+        add_equipment_to_stockpile = {
+            type = motorized_equipment
+            amount = -1000
+        }
+        
+        subtract_from_temp_variable = { temp = 1000 }
+        on_sell_mi = yes
+    }
+    
+    if = {
+        limit = { check_variable = { var = temp value =  100 } }
+        add_equipment_to_stockpile = {
+            type = motorized_equipment
+            amount = -100
+        }
+        
+        subtract_from_temp_variable = { temp = 100 }
+        on_sell_mi = yes
+    }
+    
+    
+    if = {
+        limit = { check_variable = { var = temp value =  10 } }
+        add_equipment_to_stockpile = {
+            type = motorized_equipment
+            amount = -10
+        }
+        
+        subtract_from_temp_variable = { temp = 10 }
+        on_sell_mi = yes
+    }
+    
+    if = {
+        limit = { check_variable = { var = temp value =  1 } }
+        add_equipment_to_stockpile = {
+            type = motorized_equipment
+            amount = -1
+        }
+        
+        subtract_from_temp_variable = { temp = 1 }
+        on_sell_mi = yes
+    }
+}
+
+
+on_buy_lt = {
+    if = {
+        limit = { check_variable = { var = temp value =  1000 } }
+        add_equipment_to_stockpile = {
+            type = light_tank_equipment
+            amount = 1000
+        }
+        
+        subtract_from_temp_variable = { temp = 1000 }
+        on_buy_lt = yes
+    }
+    
+    if = {
+        limit = { check_variable = { var = temp value =  100 } }
+        add_equipment_to_stockpile = {
+            type = light_tank_equipment
+            amount = 100
+        }
+        
+        subtract_from_temp_variable = { temp = 100 }
+        on_buy_lt = yes
+    }
+    
+    
+    if = {
+        limit = { check_variable = { var = temp value =  10 } }
+        add_equipment_to_stockpile = {
+            type = light_tank_equipment
+            amount = 10
+        }
+        
+        subtract_from_temp_variable = { temp = 10 }
+        on_buy_lt = yes
+    }
+    
+    if = {
+        limit = { check_variable = { var = temp value =  1 } }
+        add_equipment_to_stockpile = {
+            type = light_tank_equipment
+            amount = 1
+        }
+        
+        subtract_from_temp_variable = { temp = 1 }
+        on_buy_lt = yes
+    }
+}
+
+
+on_sell_lt = {
+    if = {
+        limit = { check_variable = { var = temp value =  1000 } }
+        add_equipment_to_stockpile = {
+            type = light_tank_equipment
+            amount = -1000
+        }
+        
+        subtract_from_temp_variable = { temp = 1000 }
+        on_sell_lt = yes
+    }
+    
+    if = {
+        limit = { check_variable = { var = temp value =  100 } }
+        add_equipment_to_stockpile = {
+            type = light_tank_equipment
+            amount = -100
+        }
+        
+        subtract_from_temp_variable = { temp = 100 }
+        on_sell_lt = yes
+    }
+    
+    
+    if = {
+        limit = { check_variable = { var = temp value =  10 } }
+        add_equipment_to_stockpile = {
+            type = light_tank_equipment
+            amount = -10
+        }
+        
+        subtract_from_temp_variable = { temp = 10 }
+        on_sell_lt = yes
+    }
+    
+    if = {
+        limit = { check_variable = { var = temp value =  1 } }
+        add_equipment_to_stockpile = {
+            type = light_tank_equipment
+            amount = -1
+        }
+        
+        subtract_from_temp_variable = { temp = 1 }
+        on_sell_lt = yes
+    }
+}
+
+
+on_buy_mt = {
+    if = {
+        limit = { check_variable = { var = temp value =  1000 } }
+        add_equipment_to_stockpile = {
+            type = medium_tank_equipment
+            amount = 1000
+        }
+        
+        subtract_from_temp_variable = { temp = 1000 }
+        on_buy_mt = yes
+    }
+    
+    if = {
+        limit = { check_variable = { var = temp value =  100 } }
+        add_equipment_to_stockpile = {
+            type = medium_tank_equipment
+            amount = 100
+        }
+        
+        subtract_from_temp_variable = { temp = 100 }
+        on_buy_mt = yes
+    }
+    
+    
+    if = {
+        limit = { check_variable = { var = temp value =  10 } }
+        add_equipment_to_stockpile = {
+            type = medium_tank_equipment
+            amount = 10
+        }
+        
+        subtract_from_temp_variable = { temp = 10 }
+        on_buy_mt = yes
+    }
+    
+    if = {
+        limit = { check_variable = { var = temp value =  1 } }
+        add_equipment_to_stockpile = {
+            type = medium_tank_equipment
+            amount = 1
+        }
+        
+        subtract_from_temp_variable = { temp = 1 }
+        on_buy_mt = yes
+    }
+}
+
+
+on_sell_mt = {
+    if = {
+        limit = { check_variable = { var = temp value =  1000 } }
+        add_equipment_to_stockpile = {
+            type = medium_tank_equipment
+            amount = -1000
+        }
+        
+        subtract_from_temp_variable = { temp = 1000 }
+        on_sell_mt = yes
+    }
+    
+    if = {
+        limit = { check_variable = { var = temp value =  100 } }
+        add_equipment_to_stockpile = {
+            type = medium_tank_equipment
+            amount = -100
+        }
+        
+        subtract_from_temp_variable = { temp = 100 }
+        on_sell_mt = yes
+    }
+    
+    
+    if = {
+        limit = { check_variable = { var = temp value =  10 } }
+        add_equipment_to_stockpile = {
+            type = medium_tank_equipment
+            amount = -10
+        }
+        
+        subtract_from_temp_variable = { temp = 10 }
+        on_sell_mt = yes
+    }
+    
+    if = {
+        limit = { check_variable = { var = temp value =  1 } }
+        add_equipment_to_stockpile = {
+            type = medium_tank_equipment
+            amount = -1
+        }
+        
+        subtract_from_temp_variable = { temp = 1 }
+        on_sell_mt = yes
+    }
+}
+
+
+on_buy_ht = {
+    if = {
+        limit = { check_variable = { var = temp value =  1000 } }
+        add_equipment_to_stockpile = {
+            type = heavy_tank_equipment
+            amount = 1000
+        }
+        
+        subtract_from_temp_variable = { temp = 1000 }
+        on_buy_ht = yes
+    }
+    
+    if = {
+        limit = { check_variable = { var = temp value =  100 } }
+        add_equipment_to_stockpile = {
+            type = heavy_tank_equipment
+            amount = 100
+        }
+        
+        subtract_from_temp_variable = { temp = 100 }
+        on_buy_ht = yes
+    }
+    
+    
+    if = {
+        limit = { check_variable = { var = temp value =  10 } }
+        add_equipment_to_stockpile = {
+            type = heavy_tank_equipment
+            amount = 10
+        }
+        
+        subtract_from_temp_variable = { temp = 10 }
+        on_buy_ht = yes
+    }
+    
+    if = {
+        limit = { check_variable = { var = temp value =  1 } }
+        add_equipment_to_stockpile = {
+            type = heavy_tank_equipment
+            amount = 1
+        }
+        
+        subtract_from_temp_variable = { temp = 1 }
+        on_buy_ht = yes
+    }
+}
+
+
+on_sell_ht = {
+    if = {
+        limit = { check_variable = { var = temp value =  1000 } }
+        add_equipment_to_stockpile = {
+            type = heavy_tank_equipment
+            amount = -1000
+        }
+        
+        subtract_from_temp_variable = { temp = 1000 }
+        on_sell_ht = yes
+    }
+    
+    if = {
+        limit = { check_variable = { var = temp value =  100 } }
+        add_equipment_to_stockpile = {
+            type = heavy_tank_equipment
+            amount = -100
+        }
+        
+        subtract_from_temp_variable = { temp = 100 }
+        on_sell_ht = yes
+    }
+    
+    
+    if = {
+        limit = { check_variable = { var = temp value =  10 } }
+        add_equipment_to_stockpile = {
+            type = heavy_tank_equipment
+            amount = -10
+        }
+        
+        subtract_from_temp_variable = { temp = 10 }
+        on_sell_ht = yes
+    }
+    
+    if = {
+        limit = { check_variable = { var = temp value =  1 } }
+        add_equipment_to_stockpile = {
+            type = heavy_tank_equipment
+            amount = -1
+        }
+        
+        subtract_from_temp_variable = { temp = 1 }
+        on_sell_ht = yes
+    }
+}
+
+

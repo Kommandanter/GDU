@@ -1,0 +1,58 @@
+should_show_host_tools = {
+
+    check_variable = { show_host_tools = 1 }
+    or = {
+        check_variable = { global.stage > 0 }
+        check_variable = { global.num_remaining > 1 }
+    }
+    check_variable = { pn = 1 }
+}
+
+someone_dropped = {
+    or = {
+        and = {
+            check_variable = { global.num_players > 0 }
+            event_target:p_1 = {
+                exists = no
+            }
+        }
+        and = {
+            check_variable = { global.num_players > 1 }
+            event_target:p_2 = {
+                exists = no
+            }
+        }
+        and = {
+            check_variable = { global.num_players > 2 }
+            event_target:p_3 = {
+                exists = no
+            }
+        }
+        and = {
+            check_variable = { global.num_players > 3 }
+            event_target:p_4 = {
+                exists = no
+            }
+        }
+        and = {
+            check_variable = { global.num_players > 4 }
+            event_target:p_5 = {
+                exists = no
+            }
+        }
+        and = {
+            check_variable = { global.num_players > 5 }
+            event_target:p_6 = {
+                exists = no
+            }
+        }
+        and = {
+            check_variable = { global.num_players > 6 }
+            event_target:p_7 = {
+                exists = no
+            }
+        }
+    }
+
+
+}

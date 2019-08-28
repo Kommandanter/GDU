@@ -1,0 +1,376 @@
+scripted_gui = {
+    poker_buy_chips_menu_script = {
+    	context_type = player_context
+		
+		window_name = "poker_buy_chips_menu"
+		
+		visible = {
+			check_variable = { show_buy_chips = 1 }
+		}
+		
+		effects = {
+        
+            close_button_click = {
+                set_variable = { show_buy_chips = 0 }
+            }
+            
+            increase_entry_click = {
+                add_to_variable = { buy_sell_amount = 10 }
+                update_buy_sell = yes
+            }
+            decrease_entry_click = {
+                add_to_variable = { buy_sell_amount = -10 }
+                update_buy_sell = yes
+            }
+            increase_entry_control_click = {
+                add_to_variable = { buy_sell_amount = 100 }
+                update_buy_sell = yes
+            }
+            decrease_entry_control_click = {
+                add_to_variable = { buy_sell_amount = -100 }
+                update_buy_sell = yes
+            }
+            
+            
+            
+            
+            buy_pp_click = {
+                subtract_from_variable = { chips = buy_sell_amount }
+                add_political_power = buy_pp_amount
+            }
+            buy_ie_click = {
+                subtract_from_variable = { chips = buy_sell_amount }
+                set_temp_variable = { temp = buy_ie_amount }
+                on_buy_ie = yes
+            }
+            buy_se_click = {
+                subtract_from_variable = { chips = buy_sell_amount }
+                set_temp_variable = { temp = buy_se_amount }
+                on_buy_se = yes
+            }
+            buy_mi_click = {
+                subtract_from_variable = { chips = buy_sell_amount }
+                set_temp_variable = { temp = buy_mi_amount }
+                on_buy_mi = yes
+            }
+            buy_lt_click = {
+                subtract_from_variable = { chips = buy_sell_amount }
+                set_temp_variable = { temp = buy_lt_amount }
+                on_buy_lt = yes
+            }
+            buy_mt_click = {
+                subtract_from_variable = { chips = buy_sell_amount }
+                set_temp_variable = { temp = buy_mt_amount }
+                on_buy_mt = yes
+            
+            }
+            buy_ht_click = {
+                subtract_from_variable = { chips = buy_sell_amount }
+                set_temp_variable = { temp = buy_ht_amount }
+                on_buy_ht = yes
+            }
+            
+            
+            sell_pp_click = {
+                add_to_variable = { chips = buy_sell_amount }
+                set_temp_variable = { temp = sell_pp_amount }
+                multiply_temp_variable = { temp = -1 }
+                add_political_power = temp
+            }
+            sell_ie_click = {
+                add_to_variable = { chips = buy_sell_amount }
+                set_temp_variable = { temp = sell_ie_amount }
+                on_sell_ie = yes
+            }
+            sell_se_click = {
+                add_to_variable = { chips = buy_sell_amount }
+                set_temp_variable = { temp = sell_se_amount }
+                on_sell_se = yes
+            }
+            sell_mi_click = {
+                add_to_variable = { chips = buy_sell_amount }
+                set_temp_variable = { temp = sell_mi_amount }
+                on_sell_mi = yes
+            }
+            sell_lt_click = {
+                add_to_variable = { chips = buy_sell_amount }
+                set_temp_variable = { temp = sell_lt_amount }
+                on_sell_lt = yes
+            }
+            sell_mt_click = {
+                add_to_variable = { chips = buy_sell_amount }
+                set_temp_variable = { temp = sell_mt_amount }
+                on_sell_mt = yes
+            }
+            sell_ht_click = {
+                add_to_variable = { chips = buy_sell_amount }
+                set_temp_variable = { temp = sell_ht_amount }
+                on_sell_ht = yes
+            }
+            
+            loot_box_menu_click = {
+                set_temp_variable = { show = 1 }
+                subtract_from_temp_variable = { show = show_loot_box }
+                set_variable = { show_loot_box = show }
+                set_variable = { show_loot_box_open = 0 }
+            }
+		}
+		
+		triggers = {
+            buy_pp_click_enabled = {
+                check_variable = { var = chips value = buy_sell_amount compare = greater_than_or_equals }
+            }
+            buy_ie_click_enabled = {
+                check_variable = { var = chips value = buy_sell_amount compare = greater_than_or_equals }
+            }
+            buy_se_click_enabled = {
+                check_variable = { var = chips value = buy_sell_amount compare = greater_than_or_equals }
+            }
+            buy_mi_click_enabled = {
+                check_variable = { var = chips value = buy_sell_amount compare = greater_than_or_equals }
+            }
+            buy_lt_click_enabled = {
+                check_variable = { var = chips value = buy_sell_amount compare = greater_than_or_equals }
+            }
+            buy_mt_click_enabled = {
+                check_variable = { var = chips value = buy_sell_amount compare = greater_than_or_equals }
+            }
+            buy_ht_click_enabled = {
+                check_variable = { var = chips value = buy_sell_amount compare = greater_than_or_equals }
+            }
+            
+            
+            sell_pp_click_enabled = {
+                check_variable = { var = political_power value = sell_pp_amount compare = greater_than_or_equals }
+            }
+            sell_ie_click_enabled = {
+                has_equipment = { infantry_equipment > sell_ie_amount }
+            }
+            sell_se_click_enabled = {
+                has_equipment = { support_equipment > sell_se_amount }
+            }
+            sell_mi_click_enabled = {
+                has_equipment = { motorized_equipment > sell_mi_amount }
+            }
+            sell_lt_click_enabled = {
+                has_equipment = { light_tank_equipment > sell_lt_amount }
+            }
+            sell_mt_click_enabled = {
+                has_equipment = { medium_tank_equipment > sell_mt_amount }
+            }
+            sell_ht_click_enabled = {
+                has_equipment = { heavy_tank_equipment > sell_ht_amount }
+            }
+            
+            buy_ie_visible = {
+                has_tech = infantry_weapons
+            }
+            buy_se_visible = {
+                has_tech = tech_support
+            }
+            buy_mi_visible = {
+                has_tech = motorised_infantry
+            }
+            buy_lt_visible = {
+                has_tech = basic_light_tank
+            }
+            buy_mt_visible = {
+                has_tech = basic_medium_tank
+            }
+            buy_ht_visible = {
+                has_tech = basic_heavy_tank
+            }
+            
+            
+            sell_ie_visible = {
+                has_tech = infantry_weapons
+            }
+            sell_se_visible = {
+                has_tech = tech_support
+            }
+            sell_mi_visible = {
+                has_tech = motorised_infantry
+            }
+            sell_lt_visible = {
+                has_tech = basic_light_tank
+            }
+            sell_mt_visible = {
+                has_tech = basic_medium_tank
+            }
+            sell_ht_visible = {
+                has_tech = basic_heavy_tank
+            }
+            
+            buy_ie_text_visible = {
+                has_tech = infantry_weapons
+            }
+            buy_se_text_visible = {
+                has_tech = tech_support
+            }
+            buy_mi_text_visible = {
+                has_tech = motorised_infantry
+            }
+            buy_lt_text_visible = {
+                has_tech = basic_light_tank
+            }
+            buy_mt_text_visible = {
+                has_tech = basic_medium_tank
+            }
+            buy_ht_text_visible = {
+                has_tech = basic_heavy_tank
+            }
+            
+            
+            sell_ie_text_visible = {
+                has_tech = infantry_weapons
+            }
+            sell_se_text_visible = {
+                has_tech = tech_support
+            }
+            sell_mi_text_visible = {
+                has_tech = motorised_infantry
+            }
+            sell_lt_text_visible = {
+                has_tech = basic_light_tank
+            }
+            sell_mt_text_visible = {
+                has_tech = basic_medium_tank
+            }
+            sell_ht_text_visible = {
+                has_tech = basic_heavy_tank
+            }
+		}
+		
+		properties = {
+		}
+    }
+    
+    loot_box_menu_container_script = {
+        context_type = player_context
+		
+		window_name = "loot_box_menu_container"
+		
+		visible = {
+			check_variable = { show_loot_box = 1 }
+		}
+		
+		effects = {
+            loot_closed_click = {
+                if = {
+                    limit = { 
+                        check_variable = { show_loot_box_open = 0 } 
+                        check_variable = { chips > 99 }
+                    }
+                    open_loot_box = yes
+                    subtract_from_variable = { chips = 100 }
+                }
+            }
+            close_button_click = {
+                clear_loot_box = yes
+            }
+        }
+        triggers = {
+            loot_closed_click_enabled = {
+                or = {
+                    check_variable = { chips > 99 }
+                    check_variable = { show_loot_box_open = 1 }
+                }
+            }
+            loot_locked_visible = {
+                check_variable = { chips < 100 }
+                check_variable = { show_loot_box_open = 0 }
+            }
+        }
+    }
+    loot_box_menu_container_open_script = {
+        context_type = player_context
+		
+		window_name = "loot_box_menu_open_container"
+		
+		effects = {
+            open_another_click = {
+                clear_loot_box = yes
+                set_variable = { show_loot_box = 1 }
+            }
+        }
+		visible = {
+			check_variable = { show_loot_box_open = 1 }
+		}
+    }
+    loot_box_menu_open_container_item_1_script = {
+        context_type = player_context
+		
+		window_name = "loot_box_menu_open_container_item_1"
+		
+		visible = {
+			check_variable = { show_loot_box_open = 1 }
+		}
+        
+        properties = {
+            icon = {
+                frame = loot_1_t
+            }
+        }
+    }
+    loot_box_menu_open_container_item_2_script = {
+        context_type = player_context
+		
+		window_name = "loot_box_menu_open_container_item_2"
+		
+		visible = {
+			check_variable = { show_loot_box_open = 1 }
+		}
+        
+        properties = {
+            icon = {
+                frame = loot_2_t
+            }
+        }
+    }
+    loot_box_menu_open_container_item_3_script = {
+        context_type = player_context
+		
+		window_name = "loot_box_menu_open_container_item_3"
+		
+		visible = {
+			check_variable = { show_loot_box_open = 1 }
+		}
+        
+        properties = {
+            icon = {
+                frame = loot_3_t
+            }
+        }
+    }
+    loot_box_menu_open_container_item_4_script = {
+        context_type = player_context
+		
+		window_name = "loot_box_menu_open_container_item_4"
+		
+		visible = {
+			check_variable = { show_loot_box_open = 1 }
+		}
+        
+        properties = {
+            icon = {
+                frame = loot_4_t
+            }
+        }
+    }
+    loot_box_menu_open_container_item_5_script = {
+        context_type = player_context
+		
+		window_name = "loot_box_menu_open_container_item_5"
+		
+		visible = {
+			check_variable = { show_loot_box_open = 1 }
+		}
+        
+        properties = {
+            icon = {
+                frame = loot_5_t
+            }
+        }
+    }
+}
+

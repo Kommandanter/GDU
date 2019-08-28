@@ -1,0 +1,945 @@
+scripted_gui = {
+
+    
+	wwpoker_table = {
+		context_type = player_context
+		
+		window_name = "poker_table_container"
+		
+		visible = {
+            or = {
+                is_ai = yes
+                check_variable = { show_table > 0.0 }
+            }
+			check_variable = { global.game_state = 2 } 
+            someone_dropped = no
+		}
+		
+		effects = {
+            host_tools_click = {
+                set_temp_variable = { show = 1 }
+                subtract_from_temp_variable = { show = show_host_tools }
+                set_variable = { show_host_tools = show }
+            }
+            
+            close_button_click = {
+                set_variable = { show_table = 0 }
+            }
+            
+            host_tool_close_button_click = {
+                set_variable = { show_host_tools = 0 }
+            }
+            
+            host_tools_cancel_tournament_click = {
+                on_cancel_tournament = yes
+            }
+            
+            host_tools_end_tournament_click = {
+				on_end_tournament_early = yes
+            }
+            
+            update_cheat_click = {
+                init_poker_globals = yes
+                update_positions = yes
+                print_variables = {
+                    file = drawn
+                    text = total_drawn
+                    append = no
+                    var_list = { 1.total_drawn 2.total_drawn 3.total_drawn 4.total_drawn 5.total_drawn 6.total_drawn 7.total_drawn 8.total_drawn 9.total_drawn 10.total_drawn 11.total_drawn 12.total_drawn 13.total_drawn 14.total_drawn 15.total_drawn 16.total_drawn 17.total_drawn 18.total_drawn 19.total_drawn 20.total_drawn 21.total_drawn 22.total_drawn 23.total_drawn 24.total_drawn 25.total_drawn 26.total_drawn 27.total_drawn 28.total_drawn 29.total_drawn 30.total_drawn 31.total_drawn 32.total_drawn 33.total_drawn 34.total_drawn 35.total_drawn 36.total_drawn 37.total_drawn 38.total_drawn 39.total_drawn 40.total_drawn 41.total_drawn 42.total_drawn 43.total_drawn 44.total_drawn 45.total_drawn 46.total_drawn 47.total_drawn 48.total_drawn 49.total_drawn 50.total_drawn 51.total_drawn 52.total_drawn }
+                }
+            }
+            
+            next_round_click = {
+                on_next_round = yes
+                check_instant_ai = yes
+            }
+            
+            end_tournament_click = {
+                on_end_tournament_early = yes
+				clear_everything = yes
+				set_variable = { global.game_state = 0 }
+            }
+			
+            deal_click = {
+                init_poker_globals = yes
+                init_debug = yes
+                
+                start_new_game = yes
+                
+                check_instant_ai = yes
+            }
+            
+            end_game_cheat_control_click = {
+            
+                event_target:p_1 = {
+                    set_variable = { bet_type = 1 }
+                }
+                event_target:p_2 = {
+                    set_variable = { bet_type = 1 }
+                }
+                event_target:p_3 = {
+                    set_variable = { bet_type = 1 }
+                }
+                event_target:p_4 = {
+                    set_variable = { bet_type = 1 }
+                }
+                event_target:p_5 = {
+                    set_variable = { bet_type = 1 }
+                }
+                event_target:p_6 = {
+                    set_variable = { bet_type = 1 }
+                }
+                event_target:p_7 = {
+                    set_variable = { bet_type = 1 }
+                }
+                end_game = yes
+            }
+            
+            end_game_cheat_click = {
+            
+                init_debug = yes
+                
+                deal_cards = yes
+                
+                update_positions = yes
+                
+                start_game = yes
+                
+                event_target:p_1 = {
+                    set_variable = { bet_type = 1 }
+                }
+                event_target:p_2 = {
+                    set_variable = { bet_type = 1 }
+                }
+                event_target:p_3 = {
+                    set_variable = { bet_type = 1 }
+                }
+                event_target:p_4 = {
+                    set_variable = { bet_type = 1 }
+                }
+                event_target:p_5 = {
+                    set_variable = { bet_type = 1 }
+                }
+                event_target:p_6 = {
+                    set_variable = { bet_type = 1 }
+                }
+                event_target:p_7 = {
+                    set_variable = { bet_type = 1 }
+                }
+                end_game = yes
+                
+                
+                set_temp_variable = { dealer_count_to_test = 5 }
+                print_ai_scores = yes
+            }
+            
+            bet_click = {
+                on_bet_click = yes
+                check_instant_ai = yes
+            }
+            
+            
+            show_all_cheat_click = {
+				set_temp_variable = { c = 1 }
+				subtract_from_temp_variable = { c = cheat }
+				set_variable = { cheat = c }
+			}
+            
+            bet_cheat_click = {
+                event_target:p_cur = {
+                    on_bet_click = yes
+                }
+            }
+            
+            fold_click = {
+                on_fold_click = yes
+                check_instant_ai = yes
+            }
+            
+            
+            print_ai_0_cheat_click = {
+                set_temp_variable = { dealer_count_to_test = 0 }
+                print_ai_scores = yes
+            }
+            print_ai_3_cheat_click = {
+                set_temp_variable = { dealer_count_to_test = 3 }
+                print_ai_scores = yes
+            
+            }
+            print_ai_4_cheat_click = {
+                set_temp_variable = { dealer_count_to_test = 4 }
+                print_ai_scores = yes
+            
+            }
+            print_ai_5_cheat_click = {
+                set_temp_variable = { dealer_count_to_test = 5 }
+                print_ai_scores = yes
+            }
+            
+            
+            fold_cheat_click = {
+                event_target:p_cur = {
+                    on_fold_click = yes
+                }
+            }
+            
+            force_ai_click = {
+                event_target:p_cur = {
+                    on_ai = yes
+                }
+            }
+            
+            force_ai_control_click = {
+                set_temp_variable = { force_instant_ai = 1 }
+                check_instant_ai = yes
+            }
+            
+            increase_amount_cheat_click = {
+                event_target:p_cur = {
+                    add_to_variable = { bet_amount = 10 }
+                    clamp_bet = yes
+                }
+            }
+            
+            increase_amount_cheat_control_click = {
+                event_target:p_cur = {
+                    add_to_variable = { bet_amount = 100 }
+                    clamp_bet = yes
+                }
+            }
+                
+            increase_amount_cheat_alt_click = {
+                event_target:p_cur = {
+                    add_to_variable = { bet_amount = 1 }
+                    clamp_bet = yes
+                }
+            }
+            
+            increase_amount_cheat_control_alt_click = {
+                event_target:p_cur = {
+                    set_variable = { bet_amount = chips_at_table }
+                    clamp_bet = yes
+                }
+            }
+            
+            decrease_amount_cheat_click = {
+                event_target:p_cur = {
+                    subtract_from_variable = { bet_amount = 10 }
+                    clamp_bet = yes
+                }
+            }
+                
+            decrease_amount_cheat_control_click = {
+                event_target:p_cur = {
+                    subtract_from_variable = { bet_amount = 100 }
+                    clamp_bet = yes
+                }
+            }
+            
+            decrease_amount_cheat_alt_click = {
+                event_target:p_cur = {
+                    subtract_from_variable = { bet_amount = 1 }
+                    clamp_bet = yes
+                }
+            }
+            
+            decrease_amount_cheat_control_alt_click = {
+                event_target:p_cur = {
+                    set_variable = { bet_amount = 0 }
+                    clamp_bet = yes
+                }
+            }
+            
+            increase_amount_click = {
+                add_to_variable = { bet_amount = 10 }
+                clamp_bet = yes
+            }
+            
+            increase_amount_control_click = {
+                add_to_variable = { bet_amount = 100 }
+                clamp_bet = yes
+            }
+            
+            increase_amount_alt_click = {
+                add_to_variable = { bet_amount = 1 }
+                clamp_bet = yes
+            }
+            
+            increase_amount_control_alt_click = {
+                set_variable = { bet_amount = chips_at_table }
+                clamp_bet = yes
+            }
+            
+            
+            decrease_amount_click = {
+                subtract_from_variable = { bet_amount = 10 }
+                clamp_bet = yes
+            }
+            
+            decrease_amount_control_click = {
+                subtract_from_variable = { bet_amount = 100 }
+                clamp_bet = yes
+            }
+            
+            decrease_amount_alt_click = {
+                subtract_from_variable = { bet_amount = 1 }
+                clamp_bet = yes
+            }
+            
+            decrease_amount_control_alt_click = {
+                set_variable = { bet_amount = 0 }
+                clamp_bet = yes
+            }
+            
+            show_hand_click = {
+                set_variable = { show_hand = 1 }
+            }
+            
+            ai_tick = {
+                if = {
+                    limit = {
+                        check_variable = { pn = global.turn }
+                    }
+            
+                    add_to_variable = { ai_ticked = 1 }
+                    if = {
+                        limit = { check_variable = { ai_ticked > 1 } }
+                        on_ai = yes
+                        set_variable = { ai_ticked = 0 }
+                    }
+                }
+            }
+		}
+		
+        
+        properties = {
+            dealer_1 = {
+                image = "[dealer_card_color_1]"
+                frame = event_target:p_1.dealer_1_id
+            }
+            dealer_2 = {
+                image = "[dealer_card_color_2]"
+                frame = event_target:p_1.dealer_2_id
+            }
+            dealer_3 = {
+                image = "[dealer_card_color_3]"
+                frame = event_target:p_1.dealer_3_id
+            }
+            dealer_4 = {
+                image = "[dealer_card_color_4]"
+                frame = event_target:p_1.dealer_4_id
+            }
+            dealer_5 = {
+                image = "[dealer_card_color_5]"
+                frame = event_target:p_1.dealer_5_id
+            }
+        
+        
+            p_1_name = {
+                x = root.name_pos_x@1
+                y = root.name_pos_y@1
+            }
+            
+            p_2_name = {
+                x = root.name_pos_x@2
+                y = root.name_pos_y@2
+            }
+            
+            p_3_name = {
+                x = root.name_pos_x@3
+                y = root.name_pos_y@3
+            }
+            
+            p_4_name = {
+                x = root.name_pos_x@4
+                y = root.name_pos_y@4
+            }
+            
+            p_5_name = {
+                x = root.name_pos_x@5
+                y = root.name_pos_y@5
+            }
+            
+            p_6_name = {
+                x = root.name_pos_x@6
+                y = root.name_pos_y@6
+            }
+            
+            p_7_name = {
+                x = root.name_pos_x@7
+                y = root.name_pos_y@7
+            }
+            
+        
+            p_1_bet_info = {
+                x = root.bet_info_pos_x@1
+                y = root.bet_info_pos_y@1
+            }
+
+            p_2_bet_info = {
+                x = root.bet_info_pos_x@2
+                y = root.bet_info_pos_y@2
+            }
+
+            p_3_bet_info = {
+                x = root.bet_info_pos_x@3
+                y = root.bet_info_pos_y@3
+            }
+
+            p_4_bet_info = {
+                x = root.bet_info_pos_x@4
+                y = root.bet_info_pos_y@4
+            }
+
+            p_5_bet_info = {
+                x = root.bet_info_pos_x@5
+                y = root.bet_info_pos_y@5
+            }
+
+            p_6_bet_info = {
+                x = root.bet_info_pos_x@6
+                y = root.bet_info_pos_y@6
+            }
+
+            p_7_bet_info = {
+                x = root.bet_info_pos_x@7
+                y = root.bet_info_pos_y@7
+            }
+
+            card_1_1 = {
+                image = "[player_1_card_1_color]"
+                frame = event_target:p_1.c_1_id
+                
+                x = root.c1_pos_x@1
+                y = root.c1_pos_y@1
+            }
+            
+            card_1_2 = {
+                image = "[player_1_card_2_color]"
+                frame = event_target:p_1.c_2_id
+                
+                x = root.c2_pos_x@1
+                y = root.c2_pos_y@1
+            }
+
+            card_2_1 = {
+                image = "[player_2_card_1_color]"
+                frame = event_target:p_2.c_1_id
+                
+                x = root.c1_pos_x@2
+                y = root.c1_pos_y@2
+            }
+            card_2_2 = {
+                image = "[player_2_card_2_color]"
+                frame = event_target:p_2.c_2_id
+                
+                x = root.c2_pos_x@2
+                y = root.c2_pos_y@2
+            }
+
+            card_3_1 = {
+                image = "[player_3_card_1_color]"
+                frame = event_target:p_3.c_1_id
+                
+                x = root.c1_pos_x@3
+                y = root.c1_pos_y@3
+            }
+            card_3_2 = {
+                image = "[player_3_card_2_color]"
+                frame = event_target:p_3.c_2_id
+                
+                x = root.c2_pos_x@3
+                y = root.c2_pos_y@3
+            }
+
+            card_4_1 = {
+                image = "[player_4_card_1_color]"
+                frame = event_target:p_4.c_1_id
+                
+                x = root.c1_pos_x@4
+                y = root.c1_pos_y@4
+            }
+            card_4_2 = {
+                image = "[player_4_card_2_color]"
+                frame = event_target:p_4.c_2_id
+                
+                x = root.c2_pos_x@4
+                y = root.c2_pos_y@4
+            }
+
+            card_5_1 = {
+                image = "[player_5_card_1_color]"
+                frame = event_target:p_5.c_1_id
+                
+                x = root.c1_pos_x@5
+                y = root.c1_pos_y@5
+            }
+            card_5_2 = {
+                image = "[player_5_card_2_color]"
+                frame = event_target:p_5.c_2_id
+                
+                x = root.c2_pos_x@5
+                y = root.c2_pos_y@5
+            }
+
+            card_6_1 = {
+                image = "[player_6_card_1_color]"
+                frame = event_target:p_6.c_1_id
+                
+                x = root.c1_pos_x@6
+                y = root.c1_pos_y@6
+            }
+            card_6_2 = {
+                image = "[player_6_card_2_color]"
+                frame = event_target:p_6.c_2_id
+                
+                x = root.c2_pos_x@6
+                y = root.c2_pos_y@6
+            }
+
+            card_7_1 = {
+                image = "[player_7_card_1_color]"
+                frame = event_target:p_7.c_1_id
+                
+                x = root.c1_pos_x@7
+                y = root.c1_pos_y@7
+            }
+            
+            card_7_2 = {
+                image = "[player_7_card_2_color]"
+                frame = event_target:p_7.c_2_id
+                
+                x = root.c2_pos_x@7
+                y = root.c2_pos_y@7
+            }
+            
+            p_1_chips = {
+                x = root.chips_pos_x@1
+                y = root.chips_pos_y@1
+            }
+            p_2_chips = {
+                x = root.chips_pos_x@2
+                y = root.chips_pos_y@2
+            }
+            p_3_chips = {
+                x = root.chips_pos_x@3
+                y = root.chips_pos_y@3
+            }
+            p_4_chips = {
+                x = root.chips_pos_x@4
+                y = root.chips_pos_y@4
+            }
+            p_5_chips = {
+                x = root.chips_pos_x@5
+                y = root.chips_pos_y@5
+            }
+            p_6_chips = {
+                x = root.chips_pos_x@6
+                y = root.chips_pos_y@6
+            }
+            p_7_chips = {
+                x = root.chips_pos_x@7
+                y = root.chips_pos_y@7
+            }
+            ai_info_1 = {
+                x = root.ai_info_pos_x@1
+                y = root.ai_info_pos_y@1
+            }
+            ai_info_2 = {
+                x = root.ai_info_pos_x@2
+                y = root.ai_info_pos_y@2
+            }
+            ai_info_3 = {
+                x = root.ai_info_pos_x@3
+                y = root.ai_info_pos_y@3
+            }
+            ai_info_4 = {
+                x = root.ai_info_pos_x@4
+                y = root.ai_info_pos_y@4
+            }
+            ai_info_5 = {
+                x = root.ai_info_pos_x@5
+                y = root.ai_info_pos_y@5
+            }
+            ai_info_6 = {
+                x = root.ai_info_pos_x@6
+                y = root.ai_info_pos_y@6
+            }
+            ai_info_7 = {
+                x = root.ai_info_pos_x@7
+                y = root.ai_info_pos_y@7
+            }
+
+        }
+        
+		triggers = {
+            bet_text_visible = {
+                check_variable = { pn = global.turn }
+                check_variable = { global.stage > 0 }
+            }
+            increase_amount_visible = {
+                check_variable = { pn = global.turn }
+                check_variable = { global.stage > 0 }
+            }
+            decrease_amount_visible = {
+                check_variable = { pn = global.turn }
+                check_variable = { global.stage > 0 }
+            }
+            fold_visible = {
+                check_variable = { pn = global.turn }
+                check_variable = { global.stage > 0 }
+            }
+            bet_visible = {
+                check_variable = { pn = global.turn }
+                check_variable = { global.stage > 0 }
+            }
+            force_ai_visible = {
+                check_variable = { global.stage > 0 }
+                or = {
+                    check_variable = { global.show_ai > 0 }
+                    event_target:p_cur = {
+                        is_ai = yes
+                        or = {
+                            check_variable = { pn = global.turn }
+                            check_variable = { root.pn = 1 }
+                        }
+                    }
+                }
+            }
+            
+            next_round_visible = {
+                check_variable = { global.stage = 0 }
+                check_variable = { pn = 1 }
+				check_variable = { global.num_remaining > 1 }
+            }
+            
+			end_tournament_visible = {
+                check_variable = { global.stage = 0 }
+                check_variable = { pn = 1 }
+				check_variable = { global.num_remaining < 2 }
+            }
+            
+            host_tools_visible = {
+                or = {
+                    check_variable = { global.stage > 0 }
+                    check_variable = { global.num_remaining > 1 }
+                }
+                check_variable = { pn = 1 }
+            }
+			
+            p_1_name_visible = {
+                check_variable = { var = global.num_players value = 1 compare = greater_than_or_equals }
+            }
+            card_1_1_visible = {
+                check_variable = { var = global.num_players value = 1 compare = greater_than_or_equals }
+                or = {
+                    check_variable = { event_target:p_1.already_bet > 0 }
+                    check_variable = { event_target:p_1.chips_at_table > 0 }
+                }
+            }
+            card_1_2_visible = {
+                check_variable = { var = global.num_players value = 1 compare = greater_than_or_equals }
+                or = {
+                    check_variable = { event_target:p_1.already_bet > 0 }
+                    check_variable = { event_target:p_1.chips_at_table > 0 }
+                }
+            }
+            p_1_bet_info_visible = {
+                check_variable = { var = global.num_players value = 1 compare = greater_than_or_equals }
+            }
+            p_1_chips_visible = {
+                check_variable = { var = global.num_players value = 1 compare = greater_than_or_equals }
+            }
+            
+
+            p_2_name_visible = {
+                check_variable = { var = global.num_players value = 2 compare = greater_than_or_equals }
+            }
+            card_2_1_visible = {
+                check_variable = { var = global.num_players value = 2 compare = greater_than_or_equals }
+                or = {
+                    check_variable = { event_target:p_2.already_bet > 0 }
+                    check_variable = { event_target:p_2.chips_at_table > 0 }
+                }
+            }
+            card_2_2_visible = {
+                check_variable = { var = global.num_players value = 2 compare = greater_than_or_equals }
+                or = {
+                    check_variable = { event_target:p_2.already_bet > 0 }
+                    check_variable = { event_target:p_2.chips_at_table > 0 }
+                }
+            }
+            p_2_bet_info_visible = {
+                check_variable = { var = global.num_players value = 2 compare = greater_than_or_equals }
+            }
+            p_2_chips_visible = {
+                check_variable = { var = global.num_players value = 2 compare = greater_than_or_equals }
+            }
+            
+
+            p_3_name_visible = {
+                check_variable = { var = global.num_players value = 3 compare = greater_than_or_equals }
+            }
+            card_3_1_visible = {
+                check_variable = { var = global.num_players value = 3 compare = greater_than_or_equals }
+                or = {
+                    check_variable = { event_target:p_3.already_bet > 0 }
+                    check_variable = { event_target:p_3.chips_at_table > 0 }
+                }
+            }
+            card_3_2_visible = {
+                check_variable = { var = global.num_players value = 3 compare = greater_than_or_equals }
+                or = {
+                    check_variable = { event_target:p_3.already_bet > 0 }
+                    check_variable = { event_target:p_3.chips_at_table > 0 }
+                }
+            }
+            p_3_bet_info_visible = {
+                check_variable = { var = global.num_players value = 3 compare = greater_than_or_equals }
+            }
+            p_3_chips_visible = {
+                check_variable = { var = global.num_players value = 3 compare = greater_than_or_equals }
+            }
+            
+
+            p_4_name_visible = {
+                check_variable = { var = global.num_players value = 4 compare = greater_than_or_equals }
+            }
+            card_4_1_visible = {
+                check_variable = { var = global.num_players value = 4 compare = greater_than_or_equals }
+                or = {
+                    check_variable = { event_target:p_4.already_bet > 0 }
+                    check_variable = { event_target:p_4.chips_at_table > 0 }
+                }
+            }
+            card_4_2_visible = {
+                check_variable = { var = global.num_players value = 4 compare = greater_than_or_equals }
+                or = {
+                    check_variable = { event_target:p_4.already_bet > 0 }
+                    check_variable = { event_target:p_4.chips_at_table > 0 }
+                }
+            }
+            p_4_bet_info_visible = {
+                check_variable = { var = global.num_players value = 4 compare = greater_than_or_equals }
+            }
+            p_4_chips_visible = {
+                check_variable = { var = global.num_players value = 4 compare = greater_than_or_equals }
+            }
+            
+
+            p_5_name_visible = {
+                check_variable = { var = global.num_players value = 5 compare = greater_than_or_equals }
+            }
+            card_5_1_visible = {
+                check_variable = { var = global.num_players value = 5 compare = greater_than_or_equals }
+                or = {
+                    check_variable = { event_target:p_5.already_bet > 0 }
+                    check_variable = { event_target:p_5.chips_at_table > 0 }
+                }
+            }
+            card_5_2_visible = {
+                check_variable = { var = global.num_players value = 5 compare = greater_than_or_equals }
+                or = {
+                    check_variable = { event_target:p_5.already_bet > 0 }
+                    check_variable = { event_target:p_5.chips_at_table > 0 }
+                }
+            }
+            p_5_bet_info_visible = {
+                check_variable = { var = global.num_players value = 5 compare = greater_than_or_equals }
+            }
+            p_5_chips_visible = {
+                check_variable = { var = global.num_players value = 5 compare = greater_than_or_equals }
+            }
+            
+
+            p_6_name_visible = {
+                check_variable = { var = global.num_players value = 6 compare = greater_than_or_equals }
+            }
+            card_6_1_visible = {
+                check_variable = { var = global.num_players value = 6 compare = greater_than_or_equals }
+                or = {
+                    check_variable = { event_target:p_6.already_bet > 0 }
+                    check_variable = { event_target:p_6.chips_at_table > 0 }
+                }
+            }
+            card_6_2_visible = {
+                check_variable = { var = global.num_players value = 6 compare = greater_than_or_equals }
+                or = {
+                    check_variable = { event_target:p_6.already_bet > 0 }
+                    check_variable = { event_target:p_6.chips_at_table > 0 }
+                }
+            }
+            p_6_bet_info_visible = {
+                check_variable = { var = global.num_players value = 6 compare = greater_than_or_equals }
+            }
+            p_6_chips_visible = {
+                check_variable = { var = global.num_players value = 6 compare = greater_than_or_equals }
+            }
+            
+
+            p_7_name_visible = {
+                check_variable = { var = global.num_players value = 7 compare = greater_than_or_equals }
+            }
+            card_7_1_visible = {
+                check_variable = { var = global.num_players value = 7 compare = greater_than_or_equals }
+                or = {
+                    check_variable = { event_target:p_7.already_bet > 0 }
+                    check_variable = { event_target:p_7.chips_at_table > 0 }
+                }
+            }
+            card_7_2_visible = {
+                check_variable = { var = global.num_players value = 7 compare = greater_than_or_equals }
+                or = {
+                    check_variable = { event_target:p_7.already_bet > 0 }
+                    check_variable = { event_target:p_7.chips_at_table > 0 }
+                }
+            }
+            p_7_bet_info_visible = {
+                check_variable = { var = global.num_players value = 7 compare = greater_than_or_equals }
+            }
+            p_7_chips_visible = {
+                check_variable = { var = global.num_players value = 7 compare = greater_than_or_equals }
+            }
+            
+            host_tools_bg_visible = {
+                should_show_host_tools = yes
+            }
+            host_tools_title_visible = {
+                should_show_host_tools = yes
+            }
+            host_tool_close_button_visible = {
+                should_show_host_tools = yes
+            }
+            host_tools_cancel_tournament_visible = {
+                should_show_host_tools = yes
+            }
+            host_tools_end_tournament_visible = {
+                should_show_host_tools = yes
+            }
+            
+            print_ai_0_cheat_visible = {
+                check_variable = { global.cheats = 1 }
+            }
+            print_ai_3_cheat_visible = {
+                check_variable = { global.cheats = 1 }
+            }
+            print_ai_4_cheat_visible = {
+                check_variable = { global.cheats = 1 }
+            }
+            print_ai_5_cheat_visible = {
+                check_variable = { global.cheats = 1 }
+            }
+            
+            update_cheat_visible = {
+                check_variable = { global.cheats = 1 }
+            }
+            deal_cheat_visible = {
+                check_variable = { global.cheats = 1 }
+            }
+            bet_text_cheat_visible = {
+                check_variable = { global.cheats = 1 }
+                check_variable = { global.stage > 0 }
+            }
+            increase_amount_cheat_visible = {
+                check_variable = { global.cheats = 1 }
+                check_variable = { global.stage > 0 }
+            }
+            decrease_amount_cheat_visible = {
+                check_variable = { global.cheats = 1 }
+                check_variable = { global.stage > 0 }
+            }
+            fold_cheat_visible = {
+                check_variable = { global.cheats = 1 }
+                check_variable = { global.stage > 0 }
+            }
+            bet_cheat_visible = {
+                check_variable = { global.cheats = 1 }
+                check_variable = { global.stage > 0 }
+            }
+            end_game_cheat_visible = {
+                check_variable = { global.cheats = 1 }
+            }
+            show_all_cheat_visible = {
+                check_variable = { global.cheats = 1 }
+            }
+            end_game_cheat_visible = {
+                check_variable = { global.cheats = 1 }
+            }
+
+            ai_info_1_visible = {
+                check_variable = { global.show_ai = 1 }
+            }
+            ai_info_2_visible = {
+                check_variable = { global.show_ai = 1 }
+            }
+            ai_info_3_visible = {
+                check_variable = { global.show_ai = 1 }
+            }
+            ai_info_4_visible = {
+                check_variable = { global.show_ai = 1 }
+            }
+            ai_info_5_visible = {
+                check_variable = { global.show_ai = 1 }
+            }
+            ai_info_6_visible = {
+                check_variable = { global.show_ai = 1 }
+            }
+            ai_info_7_visible = {
+                check_variable = { global.show_ai = 1 }
+            }
+
+            
+            show_hand_visible = {
+                check_variable = { global.stage = 0 }
+                check_variable = { chips_at_table > 0 }
+                or = {
+                    check_variable = { global.single_win = 1 }
+                }
+                check_variable = { show_hand = 0 }
+            }
+		}
+            
+        ai_enabled = {
+            always = yes
+        }
+
+        ai_check = {
+            check_variable = { pn > 0 }
+        }
+        
+        ai_test_interval = 3
+        ai_test_variance = 0.2
+
+        ai_weights = {
+           ai_tick = {
+                ai_will_do = {
+                    factor = -1
+                    modifier = {
+                        check_variable = { global.show_ai = 0 }
+                        add = 2
+                    }
+                }
+           }
+        }
+	}
+    
+    
+	wwpoker_someone_dropped = {
+		context_type = player_context
+		
+		window_name = "poker_someone_dropped"
+		
+		visible = {
+            someone_dropped = yes
+		}
+        effects = {
+            ok_button_click = {
+                set_variable = { global.zzz = 1 }
+                on_cancel_tournament = yes
+            }
+        }
+    }
+}
+
+
+
