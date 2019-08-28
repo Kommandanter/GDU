@@ -1,0 +1,32 @@
+scripted_gui = {
+
+	tic_tac_toe_open = {
+		context_type = player_context
+
+		window_name = "tic_tac_toe_open_container"
+
+		visible = {
+			always = yes
+		}
+
+		effects = {
+			open_TTT_click = {
+				if = {
+					limit = { NOT = { has_global_flag = TTT_opened } }
+					TTT_set_up_tic_tac_toe = yes
+					set_global_flag = TTT_opened
+				}
+				else = {
+					clr_global_flag = TTT_opened
+					TTT_cleanup = yes
+				}
+			}
+		}
+		triggers = {
+			open_TTT_click_enabled = {
+				NOT = { has_global_flag = TTT_daily_refresh }
+			}
+		}
+	}
+
+}
