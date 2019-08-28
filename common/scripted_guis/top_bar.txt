@@ -7,6 +7,7 @@ scripted_gui = {
 		
 		visible = {
             check_variable = { global.always_friendly_game = 1 }
+            has_country_flag = gduminigames_opened
 		}
 		
         effects = {

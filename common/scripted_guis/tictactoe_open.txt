@@ -6,7 +6,7 @@ scripted_gui = {
 		window_name = "tic_tac_toe_open_container"
 
 		visible = {
-			always = yes
+			has_country_flag = gduminigames_opened
 		}
 
 		effects = {

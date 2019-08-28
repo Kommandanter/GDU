@@ -5,7 +5,7 @@ scripted_gui = {
 		window_name = "mine_tech_button"
 		
 		visible = {
-			always = yes
+			has_country_flag = gduminigames_opened
 		}
         
 		effects = {

@@ -1,6 +1,8 @@
 ﻿l_english:
  GDUGUIDES_TOOLTIP:0 " Here you can read GDU Guides."
  GDUGUIDESCLOSE_TOOLTIP:0 "Close"
+ GDUTOOLS_TOOLTIP:0 " Mini games & Other Stuff"
+
  
  gdu_guides_land_1_tt:0 "Armor and Piercing Guide"
  gdu_guides_land_2_tt:0 ""

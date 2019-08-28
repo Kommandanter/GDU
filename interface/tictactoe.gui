@@ -8,7 +8,7 @@ guiTypes = {
 		buttonType = {
 			name = "open_TTT"
 			quadTextureSprite = "GFX_tictactoe_open"
-			position = { x = -350 y = 8}
+			position = { x = -450 y = 8}
 			pdx_tooltip = "TTT_TOOLTIP"
 			clicksound = click_ok
 			oversound = ui_menu_over

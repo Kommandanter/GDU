@@ -3,7 +3,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "gdu_guides_container"
 		orientation = UPPER_RIGHT
-		position = { x = -480 y = 7 }
+		position = { x = -420 y = 7 }
 		clipping = no
 		
 		
