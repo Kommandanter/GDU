@@ -5,7 +5,7 @@ state={
 		1004 1139 4066 4606 6932 7656 9958 10364 11931 
 	}
 	history={
-		owner = CHI
+		#owner = CHI
 		add_core_of = CHI
 		add_core_of = PRC
 		victory_points = {
