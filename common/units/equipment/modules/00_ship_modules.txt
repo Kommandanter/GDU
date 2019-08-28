@@ -2034,7 +2034,7 @@ equipment_modules = {
 		gfx = ship_armor_thick_3
 		
 		multiply_stats = {
-			build_cost_ic = 0.3
+			build_cost_ic = 0.50
 			naval_speed = 0.0
 			max_strength = 0.1
 		}
