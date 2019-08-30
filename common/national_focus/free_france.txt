@@ -351,7 +351,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_ideas = FRA_FREE_research_efforts
+			add_to_tech_sharing_group = commonwealth_research
 		}
 	}
 	
