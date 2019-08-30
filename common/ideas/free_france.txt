@@ -75,8 +75,8 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				defensive_war_stability_factor = 0.15
-				consumer_goods_factor = -0.05
+				defensive_war_stability_factor = 0.3
+				consumer_goods_factor = -0.1
 			}
 		}
 		FRA_FREE_viva_la_france = {
