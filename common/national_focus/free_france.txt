@@ -330,7 +330,7 @@ focus_tree = {
 				}
 				add_resource = {
 					type = rubber
-					amount = 10
+					amount = 8
 				}
 			}
 		}
@@ -351,7 +351,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_to_tech_sharing_group = commonwealth_research
+			add_ideas = FRA_FREE_research_efforts
 		}
 	}
 	
