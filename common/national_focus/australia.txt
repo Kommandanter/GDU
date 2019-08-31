@@ -676,19 +676,19 @@ focus_tree = {
 
 		completion_reward = {
 			air_experience = 25
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = air_base
-						size > 1
-					}
-				}
-				add_building_construction = {
-					type = air_base
-					level = 2
-					instant_build = yes
-				}
-				set_state_flag = AST_expand_the_raaf_AB
+			521  = {
+					add_building_construction = {
+						type = air_base
+						level = 5
+						instant_build = yes
+					}					
+			}
+			523  = {
+					add_building_construction = {
+						type = air_base
+						level = 3
+						instant_build = yes
+					}					
 			}
 			add_tech_bonus = {
 				name = AST_expand_the_raaf
@@ -770,10 +770,7 @@ focus_tree = {
 
 		complete_tooltip = {
 			air_experience = 25
-			random_state = {
-				limit = {
-					has_state_flag = AST_expand_northern_presence_AB
-				}
+			520 = {
 				add_building_construction = {
 					type = air_base
 					level = 2
@@ -790,20 +787,12 @@ focus_tree = {
 
 		completion_reward = {
 			air_experience = 25
-			random_owned_controlled_state = {
-				prioritize = { 521 520 }
-				limit = {
-					free_building_slots = {
-						building = air_base
-						size > 1
-					}
-				}
+			520 = {
 				add_building_construction = {
 					type = air_base
 					level = 2
 					instant_build = yes
 				}
-				set_state_flag = AST_expand_the_raaf_AB
 			}
 			add_tech_bonus = {
 				name = AST_expand_northern_presence
@@ -1125,40 +1114,28 @@ focus_tree = {
 
 		complete_tooltip = {
 			air_experience = 25
-			random_state = {
-				limit = {
-					has_state_flag = AST_death_from_down_under_AB
-				}
+			520 = {
 				add_building_construction = {
 					type = air_base
 					level = 2
 					instant_build = yes
 				}
 			}
-			random_state = {
-				limit = {
-					has_state_flag = AST_death_from_down_under_AA1
-				}
+			520 = {
 				add_building_construction = {
 					type = anti_air_building
 					level = 2
 					instant_build = yes
 				}
 			}
-			random_state = {
-				limit = {
-					has_state_flag = AST_death_from_down_under_AA2
-				}
+			521 = {
 				add_building_construction = {
 					type = anti_air_building
 					level = 2
 					instant_build = yes
 				}
 			}
-			random_state = {
-				limit = {
-					has_state_flag = AST_death_from_down_under_AA3
-				}
+			285 = {
 				add_building_construction = {
 					type = anti_air_building
 					level = 2
@@ -1175,64 +1152,33 @@ focus_tree = {
 
 		completion_reward = {
 			air_experience = 25
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = air_base
-						size > 1
-					}
-				}
+			520 = {
 				add_building_construction = {
 					type = air_base
 					level = 2
 					instant_build = yes
 				}
-				set_state_flag = AST_death_from_down_under_AB
 			}
-			random_owned_controlled_state = {
-				limit = {
-					is_in_home_area = yes
-					free_building_slots = {
-						building = anti_air_building
-						size > 1
-					}
-				}
+			520 = {
 				add_building_construction = {
 					type = anti_air_building
 					level = 2
 					instant_build = yes
 				}
-				set_state_flag = AST_death_from_down_under_AA1
 			}
-			random_owned_controlled_state = {
-				limit = {
-					is_in_home_area = yes
-					free_building_slots = {
-						building = anti_air_building
-						size > 1
-					}
-				}
+			521 = {
 				add_building_construction = {
 					type = anti_air_building
 					level = 2
 					instant_build = yes
 				}
-				set_state_flag = AST_death_from_down_under_AA2
 			}
-			random_owned_controlled_state = {
-				limit = {
-					is_in_home_area = yes
-					free_building_slots = {
-						building = anti_air_building
-						size > 1
-					}
-				}
+			285 = {
 				add_building_construction = {
 					type = anti_air_building
 					level = 2
 					instant_build = yes
 				}
-				set_state_flag = AST_death_from_down_under_AA3
 			}
 
 			add_tech_bonus = {
@@ -1310,10 +1256,7 @@ focus_tree = {
 
 		complete_tooltip = {
 			air_experience = 25
-			random_state = {
-				limit = {
-					has_state_flag = AST_dominate_the_skies_AB
-				}
+			285 = {
 				add_building_construction = {
 					type = air_base
 					level = 2
@@ -1330,19 +1273,12 @@ focus_tree = {
 
 		completion_reward = {
 			air_experience = 25
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = air_base
-						size > 1
-					}
-				}
+			285 = {
 				add_building_construction = {
 					type = air_base
 					level = 2
 					instant_build = yes
 				}
-				set_state_flag = AST_dominate_the_skies_AB
 			}
 			add_tech_bonus = {
 				name = AST_expand_the_raaf
