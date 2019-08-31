@@ -54,7 +54,7 @@ NDefines.NDiplomacy.LL_TO_PUPPET_AUTONOMY_DAILY_FACTOR = 0.00		-- If overlord le
 NDefines.NDiplomacy.MASTER_BUILD_AUTONOMY_FACTOR = 0.0            -- scales autonomy gain from construction by this
 
 
-NDefines.NFocus.MAX_SAVED_FOCUS_PROGRESS = 35  -- increased from 15 to 35 8/3/2019
+NDefines.NFocus.MAX_SAVED_FOCUS_PROGRESS = 15  -- increased from 15 to 35 8/3/2019
 
 NDefines.NAI.DIPLOMACY_ACCEPT_ATTACHE_BASE = 100
 NDefines.NAI.DIPLOMACY_ACCEPT_ATTACHE_OPINION_TRASHHOLD = 0
@@ -120,7 +120,7 @@ NDefines.NBuildings.AIRBASE_CAPACITY_MULT = 100
 NDefines.NBuildings.DESTRUCTION_COOLDOWN_IN_WAR = 120
 NDefines.NBuildings.OWNER_CHANGE_EXTRA_SHARED_SLOTS_FACTOR = 1.0 --Scale factor of extra shared slots when state owner change.
 
-NDefines.NTechnology.BASE_RESEARCH_POINTS_SAVED = 55.0  -- increased from 45 to 55 8/3/2019
+NDefines.NTechnology.BASE_RESEARCH_POINTS_SAVED = 45.0  -- increased from 45 to 55 8/3/2019
 NDefines.NTechnology.BASE_TECH_COST = 90
 NDefines.NTechnology.LICENSE_PRODUCTION_TECH_BONUS = 0.00
 NDefines.NTechnology.MAX_TECH_SHARING_BONUS = 0.40  			-- Max technology sharing bonus that can be applied instantly
