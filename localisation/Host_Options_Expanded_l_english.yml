@@ -1,0 +1,69 @@
+﻿l_english:
+    HOST_TOOLTIP:0 "§GOptions for Hosts§!"
+ 
+
+    #Events
+    player_permission.1.t:0 "Permission asked from [selected_player.GetName]"
+    player_permission.1.d:0 "[selected_player.GetName] did not give you permission to change their ideology at the start of the game. You are now asking them for permission, and if this person doesn't give it, you will be able to start a vote."
+    player_permission.1.a:0 "Good to know."
+
+    player_permission.2.t:0 "Host Asks for Ideology switching permission"
+    player_permission.2.d:0 "The Host of the game asks permission to change your Ideology. Do you agree to doing this?"
+    player_permission.2.a:0 "I give permission"
+    player_permission.2.b:0 "No permission"
+
+    player_permission.3.t:0 "The Host wants to switch your Ideology"
+    player_permission.3.d:0 "The Host of the game, [game_host.GetName], wants to change your Ideology. Do you agree to doing this? Not agreeing will lead to a vote, and if 80% of that vote is for, you will have your ideology changed regardless of whether you said no."
+    player_permission.3.a:0 "I give permission"
+    player_permission.3.b:0 "No permission, the Host is trolling me"
+
+    player_permission.4.t:0 "[selected_player.GetName] does not give permission!"
+    player_permission.4.d:0 "[selected_player.GetName] has not given permission for the ideology change. You now have the option to let it go, or to start a vote to which 80% of the players will have to agree."
+    player_permission.4.a:0 "Can't hold it back anymore..."
+    player_permission.4.b:0 "Start the vote."
+
+    player_permission.5.t:0 "Vote on [selected_player.GetNameDef]"
+    player_permission.5.d:0 "[selected_player.GetName] has not given permission for the ideology change. You now have to vote whether this person should have their ideology changed. You need at least 80% for this vote to succeed."
+    player_permission.5.a:0 "Aye, change his ideology"
+    player_permission.5.b:0 "Nay, let him be"
+
+    player_permission.6.t:0 "Vote on [selected_player.GetNameDef]: Results"
+    player_permission.6.d.succeed:0 "[?vote_for|%G0] of the players have given permission for the ideology change. The player can now be moved to the wanted ideology by the host."
+    player_permission.6.d.fail:0 "[?vote_for|%G0] of the players have given permission for the ideology change. The vote has failed, and the player will keep their original ideology."
+    player_permission.6.a:0 "Now on with the game."
+
+    player_permission.7.t:0 "[selected_player.GetName] has given permission!"
+    player_permission.7.d:0 "[selected_player.GetName] has given permission for any future ideology change."
+    player_permission.7.a:0 "Good."
+
+    player_permission.8.t:0 "A vote is already going on!"
+    player_permission.8.d:0 "You cannot move players to different factions before the vote on [country_being_asked_permission.GetName] is over."
+    player_permission.8.a:0 "Okay..."
+
+    switching_countries.1.t:0 "Switching Countries"
+    switching_countries.1.d:0 "Are you sure you want to switch [country_to_switch.GetName] with [country_to_switch_to.GetName]? Now is your last chance to turn back."
+    switching_countries.1.a:0 "Yes"
+    switching_countries.1.b:0 "No"
+
+    switching_countries.3.t:0 "Switching Countries"
+    switching_countries.3.d:0 "The Country switch has failed, either because the host stopped or the country did not want to be switched."
+    switching_countries.3.a:0 "Okay..."
+
+    host_vote.1.t:0 "Vote on a New Host"
+    host_vote.1.d:0 "This is the beginning of the game and there is no current confirmed host, or the host has decided there needs to be a vote on a new host. It is now time to vote for a host. The vote will have to be over 80% on the same country."
+    host_vote.1.a:0 "I will vote in the menu on the lower right hand side!"
+
+    host_vote.2.t:0 "Vote on a New Host: Results"
+    host_vote.2.d.succeed:0 "The results are in: The new host has been chosen, and is [current_highest_vote_holder.GetNameDefCap]!"
+    host_vote.2.d.fail:0 "The results are in: No host has been chosen. In 3 days, a new vote will occur."
+    host_vote.2.a:0 "Here we go."
+
+    #GUI tooltips
+    HOE_UNSET_COUNTRY_TT:0 "Press §GRight Click§! to Unset"
+    HOE_SET_AND_UNSET_COUNTRY_TT:0 "Press §GLeft Click§! on the right hand side to Set \nPress §GRight Click§! to Unset"
+    CLICK_ME_TT:0 "§GClick me!§!"
+    CLICK_ME_COUNTRY_OPTIONS_TT:0 "§GClick to see Country Options \nOr to vote for Host§!"
+    CLICK_ME_HOST_OPTIONS_TT:0 "§GClick to see Host Options§!"
+
+    # Ideas
+    AI_no_faction_joining:0 "No Faction Joining for AI"

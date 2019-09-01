@@ -203,10 +203,14 @@ country_event = {
 
 	is_triggered_only = yes 
 
-	option = { # Support Nationalists
+	option = { 
+
+
+	# Support Nationalists
 		name = spain.1.a
-		trigger = { is_ai = no }
+		trigger = { NOT = { has_global_flag = scw_over } }
 		hidden_effect = {
+		    SPR = { country_event = { id = veren.2 days = 1 } }
 			set_capital = 176
 			start_civil_war = {
 				ruling_party = fascism
@@ -243,6 +247,54 @@ country_event = {
 			SOV = { air_experience = 300 }
 			GER = { air_experience = 300 }
 			ITA = { air_experience = 300 }
+		}
+		custom_effect_tooltip = nationalists_chosen
+	}
+	option = { 
+
+
+	# Support Nationalists
+		name = spain.1.b
+		trigger = { has_global_flag = scw_over }
+		
+		hidden_effect = {
+		    SPR = { country_event = { id = veren.2 days = 1 } }
+			set_capital = 176
+			
+			random_other_country = {
+				limit = {
+					original_tag = SPR
+					has_government = communism
+				}
+				load_oob = "SPR_Civil_War"
+				set_equipment_fraction = 1
+				set_stability = 0.8
+				add_popularity = {
+					ideology = democratic
+					popularity = 0.35
+				}
+				add_ideas = SPA_recovering_from_civil_war2
+			}
+			news_event = { hours = 6 id = news.63 }
+			set_global_flag = spanish_civil_war
+
+			load_oob = "SPA_Civil_War"
+			set_equipment_fraction = 1
+			set_stability = 0.9
+			add_popularity = {
+				ideology = fascism
+				popularity = 1
+			}
+			add_ideas = SPA_recovering_from_civil_war2
+			SOV = { air_experience = 300 }
+			GER = { air_experience = 300 }
+			ITA = { air_experience = 300 }
+			SOV = { army_experience = 300 }
+			GER = { army_experience = 500 }
+			ITA = { army_experience = 300 }
+			SPR = { army_experience = 500 }
+			SPR = { air_experience = 300 }
+
 		}
 		custom_effect_tooltip = nationalists_chosen
 	}
