@@ -574,7 +574,115 @@ on_actions = {
 		}
 	}
 
-		
+	
+	#### In Barbarossa, if other countries like Romania/Hungary/etc capture states, they get transferred to Germany automatically so that Germany can build up infra/airfields. If Germany wants to give some territory/building slots to minors later, they may do so via requests for territory/offers of territory ####
+
+	on_state_control_changed = {
+		effect = {
+
+			if = {
+				limit = {
+					original_tag = ROM 
+					FROM.FROM = {
+						is_core_of = SOV
+						NOT = { is_core_of = ROM } 
+						NOT = { has_state_flag = GDU_Barb_territory_transferred } 
+					}
+				}
+				FROM.FROM = { 
+					set_state_flag = GDU_Barb_territory_transferred 
+				}
+				GER = { set_state_controller = FROM.FROM }
+			}
+
+		}
+	}
+
+	on_state_control_changed = {
+		effect = {
+
+			if = {
+				limit = {
+					original_tag = HUN 
+					FROM.FROM = {
+						is_core_of = SOV
+						NOT = { is_core_of = HUN } 
+						NOT = { has_state_flag = GDU_Barb_territory_transferred } 
+					}
+				}
+				FROM.FROM = { 
+					set_state_flag = GDU_Barb_territory_transferred 
+				}
+				GER = { set_state_controller = FROM.FROM }
+			}
+
+		}
+	}
+	
+	on_state_control_changed = {
+		effect = {
+
+			if = {
+				limit = {
+					original_tag = BUL 
+					FROM.FROM = {
+						is_core_of = SOV
+						NOT = { is_core_of = BUL } 
+						NOT = { has_state_flag = GDU_Barb_territory_transferred } 
+					}
+				}
+				FROM.FROM = { 
+					set_state_flag = GDU_Barb_territory_transferred 
+				}
+				GER = { set_state_controller = FROM.FROM }
+			}
+
+		}
+	}
+
+	on_state_control_changed = {
+		effect = {
+
+			if = {
+				limit = {
+					original_tag = ITA 
+					FROM.FROM = {
+						is_core_of = SOV
+						NOT = { is_core_of = ITA } 
+						NOT = { has_state_flag = GDU_Barb_territory_transferred } 
+					}
+				}
+				FROM.FROM = { 
+					set_state_flag = GDU_Barb_territory_transferred 
+				}
+				GER = { set_state_controller = FROM.FROM }
+			}
+
+		}
+	}
+	
+	on_state_control_changed = {
+		effect = {
+
+			if = {
+				limit = {
+					original_tag = SPR 
+					FROM.FROM = {
+						is_core_of = SOV
+						NOT = { is_core_of = SPR } 
+						NOT = { has_state_flag = GDU_Barb_territory_transferred } 
+					}
+				}
+				FROM.FROM = { 
+					set_state_flag = GDU_Barb_territory_transferred 
+				}
+				GER = { set_state_controller = FROM.FROM }
+			}
+
+		}
+	}
+	
+	
 	
 	#### This thing gives JAP EXP when they conquer things in China. Also, Spanish Civil War. ####
 	

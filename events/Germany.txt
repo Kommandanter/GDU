@@ -350,6 +350,7 @@ country_event = {
 				}
 			}
 			SOV = { transfer_state = 96 }
+			SOV = { add_state_core = 96 }
 		}
 		if = {
 			limit = {
@@ -365,6 +366,7 @@ country_event = {
 				}
 			}
 			SOV = { transfer_state = 784 }
+			SOV = { add_state_core = 784 }			
 		}
 		if = {
 			limit = {
@@ -380,6 +382,7 @@ country_event = {
 				}
 			}
 			SOV = { transfer_state = 95 }
+			SOV = { add_state_core = 95 }			
 		}
 		if = {
 			limit = {
@@ -395,6 +398,7 @@ country_event = {
 				}
 			}
 			SOV = { transfer_state = 94 }
+			SOV = { add_state_core = 94 }			
 		}
 		if = {
 			limit = {
@@ -410,6 +414,7 @@ country_event = {
 				}
 			}
 			SOV = { transfer_state = 93 }
+			SOV = { add_state_core = 93 }			
 		}
 		if = {
 			limit = {
@@ -425,6 +430,7 @@ country_event = {
 				}
 			}
 			SOV = { transfer_state = 91 }
+			SOV = { add_state_core = 91 }			
 		}
 		if = {
 			limit = {
@@ -440,6 +446,7 @@ country_event = {
 				}
 			}
 			SOV = { transfer_state = 97 }
+			SOV = { add_state_core = 97 }			
 		}
 		if = {
 			limit = {
@@ -455,6 +462,7 @@ country_event = {
 				}
 			}
 			SOV = { transfer_state = 89 }
+			SOV = { add_state_core = 89 }			
 		}
 		if = {
 			limit = {
@@ -470,6 +478,7 @@ country_event = {
 				}
 			}
 			SOV = { transfer_state = 751 }
+			SOV = { add_state_core = 751 }			
 		}
 		SOV = { country_event = germany.15 }
 	}
