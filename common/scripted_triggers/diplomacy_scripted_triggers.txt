@@ -512,7 +512,91 @@ DIPLOMACY_LEND_LEASE_ENABLE_TRIGGER = {
 			FRA = { controls_state = 27 }
 			FRA = { controls_state = 22 }
 			}
-		}			
+		}
+		NOT = {
+			AND = {
+			tag = HUN
+			FROM = { tag = GER }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = HUN
+			FROM = { tag = ITA }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = HUN
+			FROM = { tag = SPR }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = ROM
+			FROM = { tag = GER }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = ROM
+			FROM = { tag = ITA }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = ROM
+			FROM = { tag = SPR }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = BUL
+			FROM = { tag = GER }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = BUL
+			FROM = { tag = ITA }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = BUL
+			FROM = { tag = SPR }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = FIN
+			FROM = { tag = GER }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = FIN
+			FROM = { tag = ITA }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = FIN
+			FROM = { tag = SPR }
+			date < 1943.1.1
+			}
+		}		
 	}
 	if = {
 		limit = {
@@ -535,7 +619,91 @@ DIPLOMACY_LEND_LEASE_ENABLE_TRIGGER = {
 			FRA = { controls_state = 27 }
 			FRA = { controls_state = 22 }
 			}
-		}	
+		}
+		NOT = {
+			AND = {
+			tag = HUN
+			FROM = { tag = GER }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = HUN
+			FROM = { tag = ITA }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = HUN
+			FROM = { tag = SPR }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = ROM
+			FROM = { tag = GER }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = ROM
+			FROM = { tag = ITA }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = ROM
+			FROM = { tag = SPR }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = BUL
+			FROM = { tag = GER }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = BUL
+			FROM = { tag = ITA }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = BUL
+			FROM = { tag = SPR }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = FIN
+			FROM = { tag = GER }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = FIN
+			FROM = { tag = ITA }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = FIN
+			FROM = { tag = SPR }
+			date < 1943.1.1
+			}
+		}		
 	}
 	if = {
 		limit = {
@@ -562,6 +730,90 @@ DIPLOMACY_LEND_LEASE_ENABLE_TRIGGER = {
 			FRA = { controls_state = 22 }
 			}
 		}
+		NOT = {
+			AND = {
+			tag = HUN
+			FROM = { tag = GER }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = HUN
+			FROM = { tag = ITA }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = HUN
+			FROM = { tag = SPR }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = ROM
+			FROM = { tag = GER }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = ROM
+			FROM = { tag = ITA }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = ROM
+			FROM = { tag = SPR }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = BUL
+			FROM = { tag = GER }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = BUL
+			FROM = { tag = ITA }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = BUL
+			FROM = { tag = SPR }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = FIN
+			FROM = { tag = GER }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = FIN
+			FROM = { tag = ITA }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = FIN
+			FROM = { tag = SPR }
+			date < 1943.1.1
+			}
+		}		
 	}
 	if = {
 		limit = {
@@ -587,7 +839,91 @@ DIPLOMACY_LEND_LEASE_ENABLE_TRIGGER = {
 			FRA = { controls_state = 27 }
 			FRA = { controls_state = 22 }
 			}
-		}		
+		}
+		NOT = {
+			AND = {
+			tag = HUN
+			FROM = { tag = GER }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = HUN
+			FROM = { tag = ITA }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = HUN
+			FROM = { tag = SPR }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = ROM
+			FROM = { tag = GER }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = ROM
+			FROM = { tag = ITA }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = ROM
+			FROM = { tag = SPR }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = BUL
+			FROM = { tag = GER }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = BUL
+			FROM = { tag = ITA }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = BUL
+			FROM = { tag = SPR }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = FIN
+			FROM = { tag = GER }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = FIN
+			FROM = { tag = ITA }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			tag = FIN
+			FROM = { tag = SPR }
+			date < 1943.1.1
+			}
+		}
 	}
 	if = {
 		limit = {
@@ -624,7 +960,91 @@ DIPLOMACY_INCOMING_LEND_LEASE_ENABLE_TRIGGER = {
 			FRA = { controls_state = 27 }
 			FRA = { controls_state = 22 }
 			}
-		}			
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = GER }
+			FROM = { tag = HUN }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = ITA }
+			FROM = { tag = HUN }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = SPR }
+			FROM = { tag = HUN }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = GER }
+			FROM = { tag = ROM }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = ITA }
+			FROM = { tag = ROM }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = SPR }
+			FROM = { tag = ROM }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = GER }
+			FROM = { tag = BUL }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = ITA }
+			FROM = { tag = BUL }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = SPR }
+			FROM = { tag = BUL }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = GER }
+			FROM = { tag = FIN }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = ITA }
+			FROM = { tag = FIN }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = SPR }
+			FROM = { tag = FIN }
+			date < 1943.1.1
+			}
+		}
 	}
 	if = {
 		limit = {
@@ -647,7 +1067,91 @@ DIPLOMACY_INCOMING_LEND_LEASE_ENABLE_TRIGGER = {
 			FRA = { controls_state = 27 }
 			FRA = { controls_state = 22 }
 			}
-		}			
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = GER }
+			FROM = { tag = HUN }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = ITA }
+			FROM = { tag = HUN }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = SPR }
+			FROM = { tag = HUN }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = GER }
+			FROM = { tag = ROM }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = ITA }
+			FROM = { tag = ROM }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = SPR }
+			FROM = { tag = ROM }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = GER }
+			FROM = { tag = BUL }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = ITA }
+			FROM = { tag = BUL }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = SPR }
+			FROM = { tag = BUL }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = GER }
+			FROM = { tag = FIN }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = ITA }
+			FROM = { tag = FIN }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = SPR }
+			FROM = { tag = FIN }
+			date < 1943.1.1
+			}
+		}	
 	}
 	if = {
 		limit = {
@@ -673,7 +1177,91 @@ DIPLOMACY_INCOMING_LEND_LEASE_ENABLE_TRIGGER = {
 			FRA = { controls_state = 27 }
 			FRA = { controls_state = 22 }
 			}
-		}			
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = GER }
+			FROM = { tag = HUN }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = ITA }
+			FROM = { tag = HUN }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = SPR }
+			FROM = { tag = HUN }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = GER }
+			FROM = { tag = ROM }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = ITA }
+			FROM = { tag = ROM }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = SPR }
+			FROM = { tag = ROM }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = GER }
+			FROM = { tag = BUL }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = ITA }
+			FROM = { tag = BUL }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = SPR }
+			FROM = { tag = BUL }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = GER }
+			FROM = { tag = FIN }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = ITA }
+			FROM = { tag = FIN }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = SPR }
+			FROM = { tag = FIN }
+			date < 1943.1.1
+			}
+		}		
 		
 	}
 	if = {
@@ -700,7 +1288,91 @@ DIPLOMACY_INCOMING_LEND_LEASE_ENABLE_TRIGGER = {
 			FRA = { controls_state = 27 }
 			FRA = { controls_state = 22 }
 			}
-		}			
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = GER }
+			FROM = { tag = HUN }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = ITA }
+			FROM = { tag = HUN }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = SPR }
+			FROM = { tag = HUN }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = GER }
+			FROM = { tag = ROM }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = ITA }
+			FROM = { tag = ROM }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = SPR }
+			FROM = { tag = ROM }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = GER }
+			FROM = { tag = BUL }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = ITA }
+			FROM = { tag = BUL }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = SPR }
+			FROM = { tag = BUL }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = GER }
+			FROM = { tag = FIN }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = ITA }
+			FROM = { tag = FIN }
+			date < 1943.1.1
+			}
+		}
+		NOT = {
+			AND = {
+			ROOT = { tag = SPR }
+			FROM = { tag = FIN }
+			date < 1943.1.1
+			}
+		}	
 		
 	}
 	if = {
