@@ -5,7 +5,9 @@ state={
 	manpower = 2508159
 
 	state_category = metropolis
-
+	resources={
+		steel=20
+	}
 	history={
 		owner = GER
 		buildings = {

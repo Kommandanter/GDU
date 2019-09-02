@@ -1833,6 +1833,12 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_named_threat = { threat = 5 name = GER_danzig_or_war }
+			ROM = {
+				give_resource_rights = { receiver = GER state = 46 }
+			}
+			GER = {
+				give_resource_rights = { receiver = ROM state = 54 }
+			}			
 			hidden_effect = { 
 				ENG = { add_ideas = war_economy }
 				country_event = { id = pfu.18 days = 30 }
