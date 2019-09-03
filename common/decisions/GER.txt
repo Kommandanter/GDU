@@ -214,7 +214,13 @@ political_actions = {
 		complete_effect = {
 			GER = {
 				annex_country = { target = BUL transfer_troops = yes }
-				add_ideas = annex_bulgaria_idea
+				add_state_core = 77
+				add_state_core = 211
+				add_state_core = 212
+				add_state_core = 48
+				add_state_core = 184
+				add_state_core = 731
+				add_state_core = 106					
 			}
 		}
 	}
@@ -232,7 +238,9 @@ political_actions = {
 		complete_effect = {
 			GER = {
 				annex_country = { target = HUN transfer_troops = yes }
-				add_ideas = annex_hungary_idea
+				add_state_core = 155
+				add_state_core = 154
+				add_state_core = 43			
 			}
 		}
 	}
@@ -249,7 +257,20 @@ political_actions = {
 		}
 
 		complete_effect = {
-			GER = { puppet = ROM }
+			GER = {
+				annex_country = { target = ROM transfer_troops = yes }
+				add_state_core = 78
+				add_state_core = 766
+				add_state_core = 79
+				add_state_core = 80
+				add_state_core = 46
+				add_state_core = 77
+				add_state_core = 76
+				add_state_core = 84
+				add_state_core = 81
+				add_state_core = 82
+				add_state_core = 83
+			}
 		}
 	}
 
