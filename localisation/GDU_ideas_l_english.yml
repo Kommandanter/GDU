@@ -88,6 +88,7 @@
     USA_ships_for_victory_idea_desc:0 "The Emergency Shipbuilding Program (late 1940 – September 1945) was a United States government effort to quickly build ships during World War II. Run by the U.S. Maritime Commission, the program built almost 6,000 ships."
     
     FRA_FREE_gold_reserves:0 "French Gold Reserves"
+    FRA_expand_the_repair_yards:0 "Refit and Repair Effort"
     FRA_FREE_colonial_manpower:0 "Colonial Recruitment Efforts"
     FRA_FREE_viva_la_france:0 "Vive la France"
     FRA_FREE_research_efforts:0 "Renewed Research Efforts"
@@ -317,6 +318,7 @@
     FRA_evacuate_france8:0 "Hold France for 8 Weeks"
     FRA_evacuate_france9:0 "Hold France for 9 Weeks"
     FRA_evacuate_france10:0 "Hold France for 10 Weeks"
+    francecivsandmils_idea:0 "Build Civs, Not Mils."
 
     GER_triumph_france1:0 "Capitulate France within 1 Week"
     GER_triumph_france2:0 "Capitulate France within 2 Weeks"
@@ -329,8 +331,8 @@
     GER_triumph_france9:0 "Capitulate France within 9 Weeks"
     GER_triumph_france10:0 "Capitulate France within 10 Weeks"
     
-    GDU_SOV_Stalin_Line_Fallen:0 "Early Barbarossa Balance Adjustment"
-    GDU_SOV_Danger_To_Heartland:0 "Late Barbarossa Balance Adjustment"
+    GDU_SOV_Stalin_Line_Fallen:0 "Stalin Line Fallen Balance Adjustment"
+    GDU_SOV_Danger_To_Heartland:0 "The Heartland is in Danger Balance Adjustment"
     GDU_SOV_Heartland_Falling:0 "The Heartland is Falling Balance Adjustment"
 
     inexperienced_army:0 "An Inexperienced Army"

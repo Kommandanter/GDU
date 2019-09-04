@@ -117,6 +117,12 @@
  FRA_capital_ship_two_focus_desc:0 "While carriers are the predominant force of the seas, there still is room for battleships in this war. Or at least we are going to tell ourselves that and build some battleships anyway, all for the honor of France."
  FRA_marines:0 "New Techonolgy From our Labs"
  FRA_marines_desc:0 "Our researchers have come up with a new piece of equipment, called Scuba gear. This will allow us to swim underwater for long periods of time and catch the enemy off guard when we attempt to take ports."
+ FRA_light_tank:0 "Light Tank Bonus"
+ FRA_light_tank_desc:0 "Light tank research bonus."
+ FRA_medium_tank: "Medium Tank Bonus"
+ FRA_medium_tank_desc:0 "Medium tank research bonus."
+ FRA_heavy_tank:0 "Heavy Tank Bonus"
+ FRA_heavy_tank_desc:0 "Heavy tank research bonus."
 
  ENG_fortify_yemen:0 "Fortify Yemen" 
  ENG_fortify_yemen_desc:0 "Construct Fortifications in Yemen to guard the Bab-el-Mandeb, the strait separating the Red Sea from the Indian Ocean. If Suez should fall, this is of the utmost importance to ensure that the Italian Navy cannot wreak havoc in the Indian Ocean." 

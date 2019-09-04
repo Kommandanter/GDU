@@ -229,56 +229,6 @@ country_event = {
 	}
 }
 
-# North Africa Switch
-country_event = {
-	id = free_france.10
-	title = free_france.10.t
-	desc = free_france.10.desc
-	picture = GFX_report_event_french_resistance
-	fire_only_once = yes
-	trigger = {
-		OR = {
-			FRF = {
-				date > 1941.1.1
-				controls_state = 461
-				controls_state = 459
-				controls_state = 460
-				controls_state = 1
-			}
-			ENG = {
-				controls_state= 461
-				controls_state= 459
-				controls_state= 462
-				controls_state = 1
-			}
-			USA = {
-				controls_state= 461
-				controls_state= 459
-				controls_state= 462
-				controls_state = 1
-			}
-		}
-	}
-	mean_time_to_happen = {
-			days = 1
-		}
-	option = {
-		name = free_france.10.a
-		FRF = { transfer_state = 1 }
-		FRF = { transfer_state = 665 }
-		FRF = { transfer_state = 461 }
-		FRF = { transfer_state = 459 }
-		FRF = { transfer_state = 458 }
-		FRF = { transfer_state = 462 }
-		FRF = { transfer_state = 460 }
-		FRF = { transfer_state = 513 }
-		ai_chance = {
-			factor = 100
-		}
-	}
-}
-
-
 
 country_event = {
 	id = free_france.11

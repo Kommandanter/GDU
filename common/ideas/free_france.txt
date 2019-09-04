@@ -40,6 +40,26 @@ ideas = {
 				research_speed_factor =0.05
 			}
 		}
+		FRA_expand_the_repair_yards = {
+
+			picture = generic_coastal_defense_ships
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				NOT = { has_government = communism }
+			}
+			
+			removal_cost = -1
+						
+			modifier = {
+				refit_ic_cost = -0.1
+				refit_speed = 0.1
+				repair_speed_factor = 0.1
+			}
+		}
 		FRA_rubber_refinery_program = {
 		
 		    picture = generic_goods_red_bonus
@@ -75,7 +95,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				defensive_war_stability_factor = 0.15
+				defensive_war_stability_factor = 0.2
 				consumer_goods_factor = -0.05
 			}
 		}
@@ -115,8 +135,8 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				non_core_manpower = 0.2
-				conscription = 0.025
+				non_core_manpower = 0.125
+				conscription = 0.015
 			}
 		}
 
