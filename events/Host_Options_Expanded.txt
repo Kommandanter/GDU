@@ -363,7 +363,6 @@ country_event = {
 		}
 
 		set_global_flag = vote_on_host
-		set_variable = { global.votes_for_@THIS = 0 }
 
 		hidden_effect = { country_event = { id = host_vote.2 days = 10 } }
 	}
@@ -384,7 +383,10 @@ country_event = {
 	immediate = {
 		hidden_effect = {
 			every_country = {
-				limit = { is_ai = no }
+				limit = { 
+                tag = ENG
+				 }
+                
 				if = {
 					limit = {
 						OR = {
@@ -403,7 +405,7 @@ country_event = {
 			divide_variable = { global.current_highest_vote = vote_total }
 			log = "Percentage for host: [?global.current_highest_vote]"
 			if = {
-				limit = { check_variable = { global.current_highest_vote > 0.8 } }
+				limit = { check_variable = { global.current_highest_vote > -1 } }
 
 				set_global_flag = vote_for_new_host_succeeded
 				if = {
