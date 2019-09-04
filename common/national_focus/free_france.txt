@@ -1122,9 +1122,15 @@ focus_tree = {
 		completion_reward = {
 			add_ideas = FRA_motorized_focus
 		    add_tech_bonus = {
-			name = lig_armor_bonus
-			bonus = 1.75
-			technology = advanced_light_tank
+			    name = lig_armor_bonus
+			    bonus = 1.75
+			    technology = advanced_light_tank
+			}
+			add_tech_bonus = {
+				bonus = 2.00 
+				uses = 1
+				name = mech_army_bonus
+				category = cat_mechanized_1
 			}
 		}
 	}
@@ -1145,9 +1151,15 @@ focus_tree = {
 		completion_reward = {		
      		add_ideas = FRA_motorized_focus
 		    add_tech_bonus = {
-			name = med_armor_bonus
-			bonus = 1.75
-			technology = improved_medium_tank
+			    name = med_armor_bonus
+			    bonus = 1.75
+			    technology = improved_medium_tank
+			}
+			add_tech_bonus = {
+				bonus = 2.00 
+				uses = 1
+				name = mech_army_bonus
+				category = cat_mechanized_1
 			}
 		}
 	}

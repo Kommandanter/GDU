@@ -1025,9 +1025,6 @@ ideas = {
             experience_gain_carrier_training_factor = 10.0 
             experience_gain_heavy_cruiser_training_factor = 10.0 
             experience_gain_light_cruiser_training_factor = 10.0 
-		
-			production_speed_arms_factory_factor = -0.5
-		    production_speed_industrial_complex_factor = 0.15
 
             experience_gain_cv_nav_bomber_training_factor = 10.0
             experience_gain_fighter_training_factor = 10.0
@@ -1054,7 +1051,7 @@ ideas = {
 	
 			modifier = {
 		
-			production_speed_arms_factory_factor = -0.5
+			production_speed_arms_factory_factor = -1.00
 		    production_speed_industrial_complex_factor = -0.15
 
 			}
