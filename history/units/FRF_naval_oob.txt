@@ -7,7 +7,7 @@ units = {
 			location = 5139 # Gabon			
 			ship = { name = "Béarn" definition = carrier equipment = { ship_hull_carrier_conversion_bb = { amount = 1 owner = FRF version_name = "Béarn Class" } } 
 				air_wings = {
-					cv_fighter_equipment_2 =  { owner = "FRF" amount = 40 }
+					cv_fighter_equipment_1 =  { owner = "FRF" amount = 40 }
 				}
 			}
 			# Battleship Group

@@ -1053,7 +1053,7 @@ ideas = {
 		
 			production_speed_arms_factory_factor = -1.00
 		    production_speed_industrial_complex_factor = -0.15
-
+		    production_speed_infrastructure_factor = -0.15
 			}
 		}
 		

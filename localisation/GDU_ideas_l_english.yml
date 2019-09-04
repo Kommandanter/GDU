@@ -331,8 +331,8 @@
     GER_triumph_france9:0 "Capitulate France within 9 Weeks"
     GER_triumph_france10:0 "Capitulate France within 10 Weeks"
     
-    GDU_SOV_Stalin_Line_Fallen:0 "Stalin Line Fallen Balance Adjustment"
-    GDU_SOV_Danger_To_Heartland:0 "The Heartland is in Danger Balance Adjustment"
+    GDU_SOV_Stalin_Line_Fallen:0 "Early Barbarossa Balance Adjustment"
+    GDU_SOV_Danger_To_Heartland:0 "Late Barbarossa Balance Adjustment"
     GDU_SOV_Heartland_Falling:0 "The Heartland is Falling Balance Adjustment"
 
     inexperienced_army:0 "An Inexperienced Army"
