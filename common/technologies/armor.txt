@@ -697,11 +697,11 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1937
+		start_year = 1938
 
 		folder = {
 			name = armour_folder
-			position = { x = 0 y = 5 }
+			position = { x = 0 y = 5.5 }
 		}
 		
 		sub_technologies = {
@@ -761,7 +761,7 @@ technologies = {
 		}
 	
 		research_cost = 0.5
-		start_year = 1936
+		start_year = 1937
 
 		
 		ai_will_do = {
@@ -820,7 +820,7 @@ technologies = {
 		}
 	
 		research_cost = 0.5
-		start_year = 1936
+		start_year = 1937
 		
 		ai_will_do = {
 			factor = 1
@@ -866,7 +866,7 @@ technologies = {
 		}
 	
 		research_cost = 0.5
-		start_year = 1936
+		start_year = 1937
 		
 		ai_will_do = {
 			factor = 1
