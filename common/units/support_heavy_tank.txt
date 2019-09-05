@@ -41,8 +41,8 @@ sub_units = {
 		fuel_consumption = -0.5
 
 		#support unit nerf
-		soft_attack = -0.25
-		hard_attack = -0.25
+		soft_attack = -0.2
+		hard_attack = -0.2
 		breakthrough = -0.9
 		defense = -0.75
 		ap_attack = -0.65
