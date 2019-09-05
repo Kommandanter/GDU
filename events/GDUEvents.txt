@@ -798,27 +798,3 @@ country_event = {
 	
 }
 
-
-
-
-# The late Barbarossa balance adjustment which reduces the effect of the purge. This was formerly the "Danger to the Heartland" geographic balance adjustment, but is now time-based rather than geography based.
-country_event = { 
-	id = gduevents.29
-	title = gduevents.29.t
-	desc = gduevents.29.d
-	picture = GFX_report_event_soviet_tanks
-	
-	is_triggered_only = yes
-		
-	fire_only_once = yes 
-	
-	option = {
-		name = gduevents.29.a
-		hidden_effect = { 
-			SOV = { add_ideas = GDU_SOV_Danger_To_Heartland } 
-		}
-	}
-	
-	
-}
-

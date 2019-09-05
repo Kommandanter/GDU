@@ -574,115 +574,7 @@ on_actions = {
 		}
 	}
 
-	
-	#### In Barbarossa, if other countries like Romania/Hungary/etc capture states, they get transferred to Germany automatically so that Germany can build up infra/airfields. If Germany wants to give some territory/building slots to minors later, they may do so via requests for territory/offers of territory ####
-
-	on_state_control_changed = {
-		effect = {
-
-			if = {
-				limit = {
-					original_tag = ROM 
-					FROM.FROM = {
-						is_core_of = SOV
-						NOT = { is_core_of = ROM } 
-						NOT = { has_state_flag = GDU_Barb_territory_transferred } 
-					}
-				}
-				FROM.FROM = { 
-					set_state_flag = GDU_Barb_territory_transferred 
-				}
-				GER = { set_state_controller = FROM.FROM }
-			}
-
-		}
-	}
-
-	on_state_control_changed = {
-		effect = {
-
-			if = {
-				limit = {
-					original_tag = HUN 
-					FROM.FROM = {
-						is_core_of = SOV
-						NOT = { is_core_of = HUN } 
-						NOT = { has_state_flag = GDU_Barb_territory_transferred } 
-					}
-				}
-				FROM.FROM = { 
-					set_state_flag = GDU_Barb_territory_transferred 
-				}
-				GER = { set_state_controller = FROM.FROM }
-			}
-
-		}
-	}
-	
-	on_state_control_changed = {
-		effect = {
-
-			if = {
-				limit = {
-					original_tag = BUL 
-					FROM.FROM = {
-						is_core_of = SOV
-						NOT = { is_core_of = BUL } 
-						NOT = { has_state_flag = GDU_Barb_territory_transferred } 
-					}
-				}
-				FROM.FROM = { 
-					set_state_flag = GDU_Barb_territory_transferred 
-				}
-				GER = { set_state_controller = FROM.FROM }
-			}
-
-		}
-	}
-
-	on_state_control_changed = {
-		effect = {
-
-			if = {
-				limit = {
-					original_tag = ITA 
-					FROM.FROM = {
-						is_core_of = SOV
-						NOT = { is_core_of = ITA } 
-						NOT = { has_state_flag = GDU_Barb_territory_transferred } 
-					}
-				}
-				FROM.FROM = { 
-					set_state_flag = GDU_Barb_territory_transferred 
-				}
-				GER = { set_state_controller = FROM.FROM }
-			}
-
-		}
-	}
-	
-	on_state_control_changed = {
-		effect = {
-
-			if = {
-				limit = {
-					original_tag = SPR 
-					FROM.FROM = {
-						is_core_of = SOV
-						NOT = { is_core_of = SPR } 
-						NOT = { has_state_flag = GDU_Barb_territory_transferred } 
-					}
-				}
-				FROM.FROM = { 
-					set_state_flag = GDU_Barb_territory_transferred 
-				}
-				GER = { set_state_controller = FROM.FROM }
-			}
-
-		}
-	}
-	
-	
+		
 	
 	#### This thing gives JAP EXP when they conquer things in China. Also, Spanish Civil War. ####
 	
@@ -967,10 +859,6 @@ activate_mission = SOV_relocate_industry_from_wilejka
 activate_mission = SOV_relocate_industry_from_wilno
 activate_mission = SOV_relocate_industry_from_yaroslavl
 activate_mission = SOV_relocate_industry_from_zaporozhe
-
-				}
-				VEN = {
-					country_event = { id = gduevents.29 days = 85 }
 				}
 			}
 
@@ -1132,7 +1020,91 @@ activate_mission = SOV_relocate_industry_from_zaporozhe
 	
 	
 	
+	
+	
+	
+	#### Check if core parts of the Soviet heartland like Leningrad/Moscow/Stalingrad are threatened; give Soviets a buff after they are. Though this is artificial, this is intended as a temporary feature to be gradually phased out while Barbarossa balance is improved in a more natural way  ####
+	
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_global_flag = GDU_SOV_Danger_To_Heartland }
+					NOT = {
+						SOV = { 
+							has_completed_focus = SOV_defense_of_stalingrad
+						}	
+					}					
+					date > 1941.1.1
+					OR = {
+						original_tag = GER
+						original_tag = ITA
+						original_tag = HUN
+						original_tag = ROM
+						original_tag = BUL
+						original_tag = FIN
+						original_tag = SPR					
+					}
+					OR = {
+						controls_state = 581
+						controls_state = 262
+						controls_state = 214
+						controls_state = 351
+						controls_state = 818												
+						controls_state = 264       #Northern Coast to Leningrad#
+						controls_state = 244
+						controls_state = 195
+						controls_state = 208
 
+						controls_state = 263
+						controls_state = 246
+						controls_state = 795
+						controls_state = 205		#Line from Luga to Vyazma to Kursk to Rostov#
+						controls_state = 222
+						controls_state = 220
+						controls_state = 240
+						controls_state = 228
+
+						controls_state = 218		#Rostov to Cauacasus/Baku#
+						controls_state = 234
+						controls_state = 810
+						controls_state = 812						
+						controls_state = 233
+						controls_state = 231
+						controls_state = 230
+						controls_state = 814						
+						controls_state = 229
+						controls_state = 813
+						controls_state = 232
+						
+						controls_state = 584		#Central Asia and Far East#
+						controls_state = 405
+						controls_state = 586
+						controls_state = 587
+						controls_state = 585
+						controls_state = 742
+						controls_state = 732						
+						controls_state = 408
+						controls_state = 409
+						controls_state = 560
+						controls_state = 562
+						controls_state = 657
+						controls_state = 561
+
+					}
+				}
+				hidden_effect = {
+					SOV = {
+						add_ideas = GDU_SOV_Danger_To_Heartland				
+					}
+					set_global_flag = GDU_SOV_Danger_To_Heartland
+				}
+			}
+			
+
+				
+		}
+	}	
 	
 	
 	
