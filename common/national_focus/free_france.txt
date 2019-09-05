@@ -332,7 +332,7 @@ focus_tree = {
 					amount = 20
 				}
 				add_resource = {
-					type = chromium
+					type = rubber
 					amount = 10
 				}
 			}
@@ -968,7 +968,7 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = FRF_destroyer_focus
+		id = FRA_destroyer_focus
 		icon = GFX_focus_generic_destroyer
 	 	prerequisite = { focus = FRA_naval_two_doctrine	 }
 		x = 18
@@ -985,7 +985,7 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = FRF_destroyer_focus2
+		id = FRA_destroyer_focuses
 		icon = GFX_focus_generic_destroyer
 	 	prerequisite = { focus = FRA_naval_two_doctrine	 }
 		x = 20
@@ -1003,7 +1003,7 @@ focus_tree = {
 		id = FRA_submarine_two
 		icon = GFX_goal_generic_navy_submarine
 		mutually_exclusive = { focus = FRA_improved_screen_two_ships }
-	 	prerequisite = { focus = FRF_destroyer_focus focus = FRF_destroyer_focus2 }
+	 	prerequisite = { focus = FRA_destroyer_focus focus = FRA_destroyer_focuses }
 		x = 18
 		y = 3
 		cost = 5
@@ -1024,7 +1024,7 @@ focus_tree = {
 		id = FRA_improved_screen_two_ships
 		icon = GFX_goal_generic_navy_cruiser
 		mutually_exclusive = { focus = FRA_submarine_two }
-	 	prerequisite = { focus = FRF_destroyer_focus focus = FRF_destroyer_focus2 }
+	 	prerequisite = { focus = FRA_destroyer_focus focus = FRA_destroyer_focuses }
 		x = 20
 		y = 3
 		cost = 5
@@ -1136,6 +1136,11 @@ focus_tree = {
 				name = mech_army_bonus
 				category = cat_mechanized_1
 			}
+		    add_tech_bonus = {
+			    name = lig_armor_bonus
+			    bonus = 0.2
+			    technology = advanced_light_tank
+			}
 		}
 	}
 	focus = {
@@ -1160,6 +1165,11 @@ focus_tree = {
 				name = mech_army_bonus
 				category = cat_mechanized_1
 			}
+		    add_tech_bonus = {
+			    name = med_armor_bonus
+			    bonus = 0.2
+			    technology = improved_medium_tank
+			}
 		}
 	}
 	focus = {
@@ -1179,6 +1189,11 @@ focus_tree = {
 		completion_reward = {
 			add_ideas = FRA_infantry_focus
 			add_ideas = FRA_fortification_focus
-		}
+		    add_tech_bonus = {
+			    name = hvy_armor_bonus
+			    bonus = 0.2
+			    technology = improved_heavy_tank
+			}
+        }
 	}
 }

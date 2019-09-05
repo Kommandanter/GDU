@@ -21,25 +21,6 @@ ideas = {
 				mobilization_laws_cost_factor = -0.25
 			}
 		}
-		FRA_FREE_research_efforts = {
-		
-			picture = generic_research_bonus
-			
-			allowed = {
-				original_tag = FRF
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = no
-			}
-
-			removal_cost = -1
-			
-		    modifier = {
-				research_speed_factor =0.05
-			}
-		}
 		FRA_expand_the_repair_yards = {
 
 			picture = generic_coastal_defense_ships
