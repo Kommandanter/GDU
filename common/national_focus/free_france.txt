@@ -744,7 +744,6 @@ focus_tree = {
 			add_tech_bonus = {
 				name = FRA_armor
 				bonus = 1.00 
-				ahead_reduction = 0.5 
 				uses = 1
 				category = armor
 			}
@@ -839,7 +838,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = FRA_cas_focus
-				bonus = 2.00
+				bonus = 1.00
 				uses = 1
 				technology = cas2
 			}
@@ -860,7 +859,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = FRA_naval_bomber_focus
-				bonus = 3.00
+				bonus = 1.00
 				uses = 1
 				technology = naval_bomber2
 			}
@@ -884,7 +883,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = FRA_bomber_focus
-				bonus = 3.00 
+				bonus = 1.00 
 				uses = 1
 				technology = tactical_bomber2
 			}
@@ -908,7 +907,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = FRA_heavy_bomber_focus
-				bonus = 2.00 
+				bonus = 1.00 
 				uses = 1
 				technology = strategic_bomber2
 			}
@@ -955,14 +954,8 @@ focus_tree = {
 			add_tech_bonus = {
 				name = FRA_naval_doctrine
 				bonus = 1.00 
-				uses = 2
+				uses = 3
 				category = naval_doctrine
-			}
-			add_tech_bonus = {
-				name = FRA_convoy_tactics
-				bonus = 1.0
-				uses = 2
-				category = convoy_defense_tree
 			}
 		}
 	}
@@ -1013,7 +1006,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = FRA_modern_submarines
-				bonus = 2.00 
+				bonus = 1.00 
 				uses = 1
 				technology = improved_ship_hull_submarine
 			}
@@ -1034,7 +1027,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = FRA_improved_screen_ships
-				bonus = 3.00 
+				bonus = 1.00 
 				uses = 1
 				technology = improved_ship_hull_cruiser
 			}
@@ -1058,7 +1051,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = FRA_capital_ship
-				bonus = 2.00 
+				bonus = 1.00 
 				uses = 1
 				technology = improved_ship_hull_heavy
 			}
@@ -1082,7 +1075,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = FRA_carrier
-				bonus = 3.00 
+				bonus = 1.00 
 				uses = 1
 				technology = improved_ship_hull_carrier
 			}
@@ -1108,7 +1101,6 @@ focus_tree = {
 			add_tech_bonus = {
 				name = FRA_marines
 				bonus = 1.00 
-				ahead_reduction = 0.5
 				uses = 1
 			    technology = marines3
 			}
