@@ -253,7 +253,7 @@ political_actions = {
 			tag = GER
 			ROM = { is_ai = yes }
 			country_exists = ROM
-			date > 1936.1.1
+			date > 1939.1.1
 		}
 
 		complete_effect = {
