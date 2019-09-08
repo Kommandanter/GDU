@@ -1398,6 +1398,23 @@ DIPLOMACY_REQUEST_LICENSED_PRODUCTION_ENABLE_TRIGGER = {
 		}
 		#always = yes
 		NOT = {
+		OR = { 
+            
+            AND = {
+				FROM = { tag = JAP }
+				OR = {
+					tag = GER
+					tag = JAP
+					tag = FIN
+					tag = SPR
+					tag = BUL
+					tag = HUN
+					tag = ROM
+					tag = BUL
+					
+				}			
+			}
+
 			AND = {
 				FROM = { tag = SOV }
 				OR = {
@@ -1412,6 +1429,7 @@ DIPLOMACY_REQUEST_LICENSED_PRODUCTION_ENABLE_TRIGGER = {
 					tag = FRF
 				}			
 			}
+			}
 		}
 	}
 	if = {
@@ -1422,6 +1440,23 @@ DIPLOMACY_REQUEST_LICENSED_PRODUCTION_ENABLE_TRIGGER = {
 			}
 		}
 		NOT = {
+		OR = { 
+            
+            AND = {
+				FROM = { tag = JAP }
+				OR = {
+					tag = GER
+					tag = JAP
+					tag = FIN
+					tag = SPR
+					tag = BUL
+					tag = HUN
+					tag = ROM
+					tag = BUL
+					
+				}			
+			}
+
 			AND = {
 				FROM = { tag = SOV }
 				OR = {
@@ -1434,7 +1469,8 @@ DIPLOMACY_REQUEST_LICENSED_PRODUCTION_ENABLE_TRIGGER = {
 					tag = NZL
 					tag = FRA
 					tag = FRF
-				}	
+				}			
+			}
 			}
 		}
 		custom_trigger_tooltip = {
@@ -1450,6 +1486,23 @@ DIPLOMACY_REQUEST_LICENSED_PRODUCTION_ENABLE_TRIGGER = {
 			}
 		}
 		NOT = {
+		OR = { 
+            
+            AND = {
+				FROM = { tag = JAP }
+				OR = {
+					tag = GER
+					tag = JAP
+					tag = FIN
+					tag = SPR
+					tag = BUL
+					tag = HUN
+					tag = ROM
+					tag = BUL
+					
+				}			
+			}
+
 			AND = {
 				FROM = { tag = SOV }
 				OR = {
@@ -1462,7 +1515,8 @@ DIPLOMACY_REQUEST_LICENSED_PRODUCTION_ENABLE_TRIGGER = {
 					tag = NZL
 					tag = FRA
 					tag = FRF
-				}	
+				}			
+			}
 			}
 		}
 		custom_trigger_tooltip = {
