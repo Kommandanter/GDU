@@ -2476,6 +2476,36 @@ ideas = {
 				}
 			}
 		}	
+	yamato_army_arsenal = {
+		
+			cost = 75 
+			
+			allowed = {
+				OR = { 
+				original_tag = JAP
+				original_tag = MAN	
+				}
+				
+			}
+				
+			research_bonus = {
+				armor = 0.15
+			}
+			
+			equipment_bonus = {
+				amphibious_tank_equipment = {
+					reliability = 0.1
+					soft_attack = 0.5
+				}
+				light_tank_equipment = {
+					reliability = 0.2
+					soft_attack = 0.15
+					air_attack = 0.05
+				}
+				
+			}
+		}	
+
 	}
 	
 	theorist = {

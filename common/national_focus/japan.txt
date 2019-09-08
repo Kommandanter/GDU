@@ -1915,18 +1915,9 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_tech_bonus = { 
-				name = JAP_armored_divisions
-				ahead_reduction = 3.5
-				uses = 1
-				technology = amphibious_tank
-			}
-			add_tech_bonus = { 
-				name = JAP_armored_divisions
-				ahead_reduction = 3.5
-				uses = 1
-				technology = amphibious_tank_2
-			}
+		
+            set_technology = { amphibious_tank = 1 }
+			set_technology = { amphibious_tank_2 = 1 }
 			add_tech_bonus = { 
 				name = JAP_armored_divisions
 				ahead_reduction = 3.5
