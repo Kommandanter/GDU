@@ -471,7 +471,7 @@ instant_effect = {
 			version_name = "Wichita Class"
 		} 
 		requested_factories = 2
-		progress = 0.10
+		progress = 0.90
 		amount = 1
 	}
 	##2 Yorktowns (Yorktown, Enterprise)
@@ -492,7 +492,7 @@ instant_effect = {
 			version_name = "Yorktown Class"
 		}
 		requested_factories = 2
-		progress = 0.40
+		progress = 0.70
 		amount = 1
 	}
 

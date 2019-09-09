@@ -254,7 +254,7 @@ give_guarantee = URG
 
 
 set_convoys = 800
-set_stability = 0.75
+set_stability = 0.8
 set_war_support = 0
 add_equipment_to_stockpile = {
          type = artillery_equipment_1
@@ -263,7 +263,7 @@ add_equipment_to_stockpile = {
 }  
 add_equipment_to_stockpile = {
          type = support_equipment
-         amount = 591
+         amount = 1591
          producer = USA
 } 
 add_equipment_to_stockpile = {
@@ -273,12 +273,12 @@ add_equipment_to_stockpile = {
 } 
 add_equipment_to_stockpile = {
          type = infantry_equipment_1
-         amount = 16000
+         amount = 20000
          producer = USA
 } 
 add_equipment_to_stockpile = {
          type = motorized_equipment_1
-         amount = 118
+         amount = 1118
          producer = USA
 } 
 
@@ -313,7 +313,7 @@ set_autonomy = {
 }
 
 1939.1.1 = {
-	set_stability = 0.7
+	set_stability = 0.8
 
 	set_politics = {
 		ruling_party = democratic
