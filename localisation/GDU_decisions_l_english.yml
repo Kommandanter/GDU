@@ -11,6 +11,8 @@
  SOV_Capital_Kirov:0 "Move the Capital to Kirov"
  SOV_Capital_Kazan:0 "Move the Capital to Kazan"
  SOV_Capital_Gorki:0 "Move the Capital to Gorki"
+ 
+ develop_sudan_rubber_plantations:0 "Develop Sudan Rubber"
 
  SOV_relocate_industry_from_moscow:0 "Relocate Industry from Moscow"
  SOV_relocate_industry_from_moscow_desc:0 "Evacuating the heavy machinery of our Moscow factories to the Urals is a huge undertaking, but it is necessary to secure our war production."

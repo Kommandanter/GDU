@@ -1051,7 +1051,7 @@ prospect_for_resources = {
 			}
 		}
 	}
-	develop_nigeria_rubber_plantations = { #558
+	develop_sudan_rubber_plantations = { #549
 		
 		icon = rubber
 
@@ -1060,19 +1060,19 @@ prospect_for_resources = {
 		}
 
 		available = {
-			owns_state = 558
-			controls_state = 558
+			owns_state = 549
+			controls_state = 549
 			num_of_civilian_factories_available_for_projects > 2
 		}
 
 		highlight_states = {
-			state = 558
+			state = 549
 		}
 
 		visible = {
-			owns_state = 558
-			controls_state = 558
-			558 = {
+			owns_state = 549
+			controls_state = 549
+			549 = {
 				NOT = {
 					has_state_flag = nigeria_rubber_developed
 				}
@@ -1099,10 +1099,10 @@ prospect_for_resources = {
 		}
 
 		remove_effect = {
-			558 = {
+			549 = {
 				set_state_flag = nigeria_rubber_developed
 			}
-			558 = {
+			549 = {
 				add_resource = {
 					type = rubber
 					amount = 10
