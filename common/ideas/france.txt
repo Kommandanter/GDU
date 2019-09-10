@@ -15,10 +15,30 @@ ideas = {
 			removal_cost = -1
 
 			picture = FRA_factory_strikes
+			
+			equipment_bonus = {
 
+				ship_hull_heavy = {
+					build_cost_ic = 1.0 instant = yes
+				}
+				ship_hull_carrier = {
+					build_cost_ic = 1.0 instant = yes
+				}
+				ship_hull_cruiser = {
+					build_cost_ic = 1.0 instant = yes
+				}
+				ship_hull_light = {
+					build_cost_ic = 1.0 instant = yes
+				}
+				
+				ship_hull_submarine = {
+					build_cost_ic = 1.0 instant = yes
+				}
+            }
 			modifier = {
 				conversion_cost_civ_to_mil_factor = 3.0
 				production_speed_naval_base_factor = -3
+				lend_lease_tension = 1.0
 			}
 			
 		}
@@ -40,6 +60,8 @@ ideas = {
 
 			research_bonus = {
 				land_doctrine = -0.4
+				air_doctrine = -2.0 
+				naval_doctrine = -0.4
 			}
 
 		}

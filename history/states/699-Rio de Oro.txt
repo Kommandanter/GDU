@@ -3,12 +3,15 @@ state={
 	name="STATE_699"
 	manpower = 21056
 	
-	state_category = enclave
+	state_category = wasteland
 
 	history={
-		owner = VEN
+		#owner = SPR
 		buildings = {
 			infrastructure = 1
+			8038 = {
+		
+			}
 		}
 		victory_points = {
 			8038 1

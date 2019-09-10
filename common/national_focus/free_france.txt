@@ -332,7 +332,7 @@ focus_tree = {
 					amount = 20
 				}
 				add_resource = {
-					type = rubber
+					type = chromium
 					amount = 10
 				}
 			}
@@ -444,43 +444,7 @@ focus_tree = {
 		}
 	}
 	
-	focus = {
-		id = FRA_request_uk_territory
-		icon = GFX_goal_tfv_saf_secure_interests_in_africa
-		prerequisite = { focus = FRA_take_Manda }
-		x = 8
-		y = 4
-		cost = 5
-		
-		available_if_capitulated = yes
 
-		completion_reward = {
-			custom_effect_tooltip = FRA_request_uk_territory_tt
-
-			hidden_effect = {
-				if = {
-					limit = { 558 = { is_controlled_by = ENG } }
-					FRF = { transfer_state = 558 }
-				}
-				if = {
-					limit = { 274 = { is_controlled_by = ENG } }
-					FRF = { transfer_state = 274 }
-				}
-				if = {
-					limit = { 700 = { is_controlled_by = ENG } }
-					FRF = { transfer_state = 700 }
-				}
-				if = {
-					limit = { 296 = { is_controlled_by = ENG } }
-					FRF = { transfer_state = 296 }
-				}
-				if = {
-					limit = { 701 = { is_controlled_by = ENG } }
-					FRF = { transfer_state = 701 }
-				}
-			}
-		}
-	}
 	
 	focus = {
 		id = FRA_sway_syria
@@ -600,9 +564,6 @@ focus_tree = {
 				if = {
 					FRF = { transfer_state = 805 }
 				}
-				if = {
-					FRF = { transfer_state = 699 }
-				}
 			}
 		}
 	}
@@ -610,10 +571,10 @@ focus_tree = {
 	focus = {
 		id = FRA_unleash_the_resistance_2
 		icon = GFX_france_four
-		prerequisite = { focus = FRA_request_uk_territory }
+		prerequisite = { focus = FRA_take_Manda }
 		x = 8
-		y = 5
-		cost = 5
+		y = 4
+		cost = 10
 
 		available_if_capitulated = yes
 
@@ -628,7 +589,7 @@ focus_tree = {
 		icon = GFX_france_five
 		prerequisite = { focus = FRA_unleash_the_resistance_2 }
 		x = 8
-		y = 6
+		y = 5
 		cost = 5
 
 		available_if_capitulated = yes
@@ -744,8 +705,11 @@ focus_tree = {
 			add_tech_bonus = {
 				name = FRA_armor
 				bonus = 1.00 
+				ahead_reduction = 0.5 
 				uses = 1
-				category = armor
+				technology = advanced_light_tank
+				technology = improved_medium_tank
+				technology = improved_heavy_tank
 			}
 			add_tech_bonus = {
 				name = FRA_mechanized_focus
@@ -934,7 +898,7 @@ focus_tree = {
  
 		completion_reward = {
 			custom_effect_tooltip = FRA_fighters
-			SOV = { add_equipment_to_stockpile = { type = fighter_equipment_2 amount = 100 producer = FRA } }
+			SOV = { add_equipment_to_stockpile = { type = fighter_equipment_2 amount = 100 producer = FRF } }
 		}
 	}
 	
@@ -954,14 +918,20 @@ focus_tree = {
 			add_tech_bonus = {
 				name = FRA_naval_doctrine
 				bonus = 1.00 
-				uses = 3
+				uses = 2
 				category = naval_doctrine
+			}
+			add_tech_bonus = {
+				name = FRA_convoy_tactics
+				bonus = 1.0
+				uses = 2
+				category = convoy_defense_tree
 			}
 		}
 	}
 	
 	focus = {
-		id = FRA_destroyer_focus
+		id = FRF_destroyer_focus
 		icon = GFX_focus_generic_destroyer
 	 	prerequisite = { focus = FRA_naval_two_doctrine	 }
 		x = 18
@@ -978,7 +948,7 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = FRA_destroyer_focuses
+		id = FRF_destroyer_focus2
 		icon = GFX_focus_generic_destroyer
 	 	prerequisite = { focus = FRA_naval_two_doctrine	 }
 		x = 20
@@ -996,7 +966,7 @@ focus_tree = {
 		id = FRA_submarine_two
 		icon = GFX_goal_generic_navy_submarine
 		mutually_exclusive = { focus = FRA_improved_screen_two_ships }
-	 	prerequisite = { focus = FRA_destroyer_focus focus = FRA_destroyer_focuses }
+	 	prerequisite = { focus = FRF_destroyer_focus focus = FRF_destroyer_focus2 }
 		x = 18
 		y = 3
 		cost = 5
@@ -1006,7 +976,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = FRA_modern_submarines
-				bonus = 1.00 
+				bonus = 2.00 
 				uses = 1
 				technology = improved_ship_hull_submarine
 			}
@@ -1017,7 +987,7 @@ focus_tree = {
 		id = FRA_improved_screen_two_ships
 		icon = GFX_goal_generic_navy_cruiser
 		mutually_exclusive = { focus = FRA_submarine_two }
-	 	prerequisite = { focus = FRA_destroyer_focus focus = FRA_destroyer_focuses }
+	 	prerequisite = { focus = FRF_destroyer_focus focus = FRF_destroyer_focus2 }
 		x = 20
 		y = 3
 		cost = 5
@@ -1027,7 +997,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = FRA_improved_screen_ships
-				bonus = 1.00 
+				bonus = 2.00 
 				uses = 1
 				technology = improved_ship_hull_cruiser
 			}
@@ -1051,7 +1021,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = FRA_capital_ship
-				bonus = 1.00 
+				bonus = 2.00 
 				uses = 1
 				technology = improved_ship_hull_heavy
 			}
@@ -1075,7 +1045,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = FRA_carrier
-				bonus = 1.00 
+				bonus = 2.00 
 				uses = 1
 				technology = improved_ship_hull_carrier
 			}
@@ -1102,7 +1072,7 @@ focus_tree = {
 				name = FRA_marines
 				bonus = 1.00 
 				uses = 1
-			    technology = marines3
+			    technology = marines2
 			}
 		}
 	}
@@ -1128,11 +1098,6 @@ focus_tree = {
 				name = mech_army_bonus
 				category = cat_mechanized_1
 			}
-		    add_tech_bonus = {
-			    name = lig_armor_bonus
-			    bonus = 0.2
-			    technology = advanced_light_tank
-			}
 		}
 	}
 	focus = {
@@ -1157,11 +1122,6 @@ focus_tree = {
 				name = mech_army_bonus
 				category = cat_mechanized_1
 			}
-		    add_tech_bonus = {
-			    name = med_armor_bonus
-			    bonus = 0.2
-			    technology = improved_medium_tank
-			}
 		}
 	}
 	focus = {
@@ -1181,11 +1141,6 @@ focus_tree = {
 		completion_reward = {
 			add_ideas = FRA_infantry_focus
 			add_ideas = FRA_fortification_focus
-		    add_tech_bonus = {
-			    name = hvy_armor_bonus
-			    bonus = 0.2
-			    technology = improved_heavy_tank
-			}
-        }
+		}
 	}
 }

@@ -1771,6 +1771,11 @@ focus_tree = {
    				technology = advanced_rubber_processing
    				technology = modern_rubber_processing
    			}
+				add_resource = {
+					type = rubber
+					amount = 6
+					state = 369 #Kentucky
+				}
    		}
    	}
 
