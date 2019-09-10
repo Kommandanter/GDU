@@ -3152,11 +3152,6 @@ focus_tree = {
 				remove_idea = GDU_refinery_prebuild_disincentive
 				add_idea = AST_synthetic_rubber
 			}			
-        	modify_building_resources = {
-        	   building = synthetic_refinery
-        	   resource = rubber
-        	   amount = 1
-        	}
 			add_tech_bonus = {
 				name = AST_rubber
 				bonus = 1

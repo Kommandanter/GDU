@@ -138,7 +138,7 @@ ideas = {
 			picture = FRA_motorized_focus
 
 			modifier = {
-				production_speed_synthetic_refinery_factor = 0.4
+				production_speed_synthetic_refinery_factor = 0.3
 			}
 		}
 		production_targets_idea = {
