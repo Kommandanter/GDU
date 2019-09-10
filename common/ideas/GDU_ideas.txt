@@ -80,63 +80,63 @@ ideas = {
 			
 			equipment_bonus = {
 				fighter_equipment = {
-					air_attack = 0.05
+					air_attack = 0.10
 					instant = yes
 				}
 				heavy_fighter_equipment = {
-					air_attack = 0.05
+					air_attack = 0.10
 					instant = yes
 				}
 				CAS_equipment = {
-					air_attack = 0.05
+					air_attack = 0.10
 					instant = yes
 				}
 				tac_bomber_equipment = {
-					air_attack = 0.05
+					air_attack = 0.10
 					instant = yes
 				}
 				strat_bomber_equipment = {
-					air_attack = 0.05
+					air_attack = 0.10
 					instant = yes
 				}
 				strat_bomber_equipment = {
-					air_attack = 0.05
+					air_attack = 0.10
 					instant = yes
 				}
 				strat_bomber_equipment = {
-					air_attack = 0.05
+					air_attack = 0.10
 					instant = yes
 				}
 				jet_strat_bomber_equipment = {
-					air_attack = 0.05
+					air_attack = 0.10
 					instant = yes
 				}				
 				jet_tac_bomber_equipment = {
-					air_attack = 0.05
+					air_attack = 0.10
 					instant = yes
 				}
 				cv_fighter_equipment = {
-					air_attack = 0.05
+					air_attack = 0.10
 					instant = yes
 				} 
 				cv_CAS_equipment = {
-					air_attack = 0.05
+					air_attack = 0.10
 					instant = yes
 				}
 				nav_bomber_equipment = {
-					air_attack = 0.05
+					air_attack = 0.10
 					instant = yes
 				} 
 				cv_nav_bomber_equipment = {
-					air_attack = 0.05
+					air_attack = 0.10
 					instant = yes
 				} 
 				jet_fighter_equipment = {
-					air_attack = 0.05
+					air_attack = 0.10
 					instant = yes
 				}
 				rocket_interceptor_equipment = {
-					air_attack = 0.05
+					air_attack = 0.10
 					instant = yes
 				}  
 			}
@@ -154,63 +154,63 @@ ideas = {
 			
 			equipment_bonus = {
 				fighter_equipment = {
-					air_attack = 0.15
+					air_attack = 0.3
 					instant = yes
 				}
 				heavy_fighter_equipment = {
-					air_attack = 0.15
+					air_attack = 0.3
 					instant = yes
 				}
 				CAS_equipment = {
-					air_attack = 0.15
+					air_attack = 0.3
 					instant = yes
 				}
 				tac_bomber_equipment = {
-					air_attack = 0.15
+					air_attack = 0.3
 					instant = yes
 				}
 				strat_bomber_equipment = {
-					air_attack = 0.15
+					air_attack = 0.3
 					instant = yes
 				}
 				strat_bomber_equipment = {
-					air_attack = 0.15
+					air_attack = 0.3
 					instant = yes
 				}
 				strat_bomber_equipment = {
-					air_attack = 0.15
+					air_attack = 0.3
 					instant = yes
 				}
 				jet_strat_bomber_equipment = {
-					air_attack = 0.15
+					air_attack = 0.3
 					instant = yes
 				}				
 				jet_tac_bomber_equipment = {
-					air_attack = 0.15
+					air_attack = 0.3
 					instant = yes
 				}
 				cv_fighter_equipment = {
-					air_attack = 0.15
+					air_attack = 0.3
 					instant = yes
 				} 
 				cv_CAS_equipment = {
-					air_attack = 0.15
+					air_attack = 0.3
 					instant = yes
 				}
 				nav_bomber_equipment = {
-					air_attack = 0.15
+					air_attack = 0.3
 					instant = yes
 				} 
 				cv_nav_bomber_equipment = {
-					air_attack = 0.15
+					air_attack = 0.3
 					instant = yes
 				} 
 				jet_fighter_equipment = {
-					air_attack = 0.15
+					air_attack = 0.3
 					instant = yes
 				}
 				rocket_interceptor_equipment = {
-					air_attack = 0.15
+					air_attack = 0.3
 					instant = yes
 				}  
 			}
@@ -226,63 +226,63 @@ ideas = {
 			
 			equipment_bonus = {
 				fighter_equipment = {
-					air_attack = 0.25
+					air_attack = 0.5
 					instant = yes
 				}
 				heavy_fighter_equipment = {
-					air_attack = 0.25
+					air_attack = 0.5
 					instant = yes
 				}
 				CAS_equipment = {
-					air_attack = 0.25
+					air_attack = 0.5
 					instant = yes
 				}
 				tac_bomber_equipment = {
-					air_attack = 0.25
+					air_attack = 0.5
 					instant = yes
 				}
 				strat_bomber_equipment = {
-					air_attack = 0.25
+					air_attack = 0.5
 					instant = yes
 				}
 				strat_bomber_equipment = {
-					air_attack = 0.25
+					air_attack = 0.5
 					instant = yes
 				}
 				strat_bomber_equipment = {
-					air_attack = 0.25
+					air_attack = 0.5
 					instant = yes
 				}
 				jet_strat_bomber_equipment = {
-					air_attack = 0.25
+					air_attack = 0.5
 					instant = yes
 				}				
 				jet_tac_bomber_equipment = {
-					air_attack = 0.25
+					air_attack = 0.5
 					instant = yes
 				}
 				cv_fighter_equipment = {
-					air_attack = 0.25
+					air_attack = 0.5
 					instant = yes
 				} 
 				cv_CAS_equipment = {
-					air_attack = 0.25
+					air_attack = 0.5
 					instant = yes
 				}
 				nav_bomber_equipment = {
-					air_attack = 0.25
+					air_attack = 0.5
 					instant = yes
 				} 
 				cv_nav_bomber_equipment = {
-					air_attack = 0.25
+					air_attack = 0.5
 					instant = yes
 				} 
 				jet_fighter_equipment = {
-					air_attack = 0.25
+					air_attack = 0.5
 					instant = yes
 				}
 				rocket_interceptor_equipment = {
-					air_attack = 0.25
+					air_attack = 0.5
 					instant = yes
 				}  
 			}
@@ -298,63 +298,63 @@ ideas = {
 			
 			equipment_bonus = {
 				fighter_equipment = {
-					air_attack = 0.5
+					air_attack = 0.7
 					instant = yes
 				}
 				heavy_fighter_equipment = {
-					air_attack = 0.5
+					air_attack = 0.7
 					instant = yes
 				}
 				CAS_equipment = {
-					air_attack = 0.5
+					air_attack = 0.7
 					instant = yes
 				}
 				tac_bomber_equipment = {
-					air_attack = 0.5
+					air_attack = 0.7
 					instant = yes
 				}
 				strat_bomber_equipment = {
-					air_attack = 0.5
+					air_attack = 0.7
 					instant = yes
 				}
 				strat_bomber_equipment = {
-					air_attack = 0.5
+					air_attack = 0.7
 					instant = yes
 				}
 				strat_bomber_equipment = {
-					air_attack = 0.5
+					air_attack = 0.7
 					instant = yes
 				}
 				jet_strat_bomber_equipment = {
-					air_attack = 0.5
+					air_attack = 0.7
 					instant = yes
 				}				
 				jet_tac_bomber_equipment = {
-					air_attack = 0.5
+					air_attack = 0.7
 					instant = yes
 				}
 				cv_fighter_equipment = {
-					air_attack = 0.5
+					air_attack = 0.7
 					instant = yes
 				} 
 				cv_CAS_equipment = {
-					air_attack = 0.5
+					air_attack = 0.7
 					instant = yes
 				}
 				nav_bomber_equipment = {
-					air_attack = 0.5
+					air_attack = 0.7
 					instant = yes
 				} 
 				cv_nav_bomber_equipment = {
-					air_attack = 0.5
+					air_attack = 0.7
 					instant = yes
 				} 
 				jet_fighter_equipment = {
-					air_attack = 0.5
+					air_attack = 0.7
 					instant = yes
 				}
 				rocket_interceptor_equipment = {
-					air_attack = 0.5
+					air_attack = 0.7
 					instant = yes
 				}  
 			}

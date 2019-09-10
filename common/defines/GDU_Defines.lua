@@ -250,7 +250,7 @@ NDefines.NMilitary.ANTI_AIR_ATTACK_TO_AMOUNT = 0.001				-- Balancing value to co
 
 NDefines.NAir.AIR_MORE_GROUND_CREWS_COST = 500.0 -- Disables ground crews. They're cancerous. 
 NDefines.NAir.ACCIDENT_CHANCE_BASE = 0.05
-NDefines.NAir.COMBAT_DAMAGE_SCALE = 0.03
+NDefines.NAir.COMBAT_DAMAGE_SCALE = 0.033
 NDefines.NAir.COMBAT_DAMAGE_SCALE_CARRIER = 6
 
 NDefines.NAir.AIR_DEPLOYMENT_DAYS = 0							-- Days to deploy one air wing
