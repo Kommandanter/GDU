@@ -272,6 +272,42 @@ focus_tree = {
 			custom_effect_tooltip = GDU_homedefense_tt
 			# Ipswich
 		   hidden_effect = { 
+			135 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					#Dover
+					add_building_construction = {
+						type = bunker
+						level = 5
+						province = 3501
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = bunker
+						level = 5
+						province = 13070
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = coastal_bunker
+						level = 5
+						province = 3501
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = coastal_bunker
+						level = 5
+						province = 13070
+						instant_build = yes
+					}						
+					add_building_construction = {
+						type = coastal_bunker
+						level = 5
+						province = 11446
+						instant_build = yes
+					}
+				}
+			}		   
 			125 = {
 				if = {
 					limit = { is_controlled_by = ROOT }
@@ -325,25 +361,6 @@ focus_tree = {
 			127 = {
 				if = {
 					limit = { is_controlled_by = ROOT }
-					#Dover
-					add_building_construction = {
-						type = bunker
-						level = 5
-						province = 3501
-						instant_build = yes
-					}
-					add_building_construction = {
-						type = bunker
-						level = 5
-						province = 13070
-						instant_build = yes
-					}					
-					add_building_construction = {
-						type = coastal_bunker
-						level = 5
-						province = 11446
-						instant_build = yes
-					}
 					#Portsmouth
 					add_building_construction = {
 						type = coastal_bunker
