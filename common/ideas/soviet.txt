@@ -322,7 +322,7 @@ ideas = {
 			picture = generic_research_bonus
 
 			modifier = {
-				research_speed_factor = 0.10
+				research_speed_factor = 0.15
 			}
 		}
 
@@ -909,9 +909,9 @@ ideas = {
 
 
 			modifier = {			
-				army_attack_factor = -0.05
-				army_defence_factor = -0.15
-				army_org_factor = -0.225				
+				army_attack_factor = -0.025
+				army_defence_factor = -0.125
+				army_org_factor = -0.2				
 				planning_speed = -0.5
 				max_planning = -0.15
 				air_superiority_efficiency = -0.475
@@ -963,9 +963,9 @@ ideas = {
 			}
 
 			modifier = {			
-				army_attack_factor = -0.05
-				army_defence_factor = -0.10
-				army_org_factor = -0.075
+				army_attack_factor = -0.025
+				army_defence_factor = -0.075
+				army_org_factor = -0.05
 				planning_speed = -0.25
 				max_planning = -0.075
 				air_superiority_efficiency = -0.225
@@ -1021,9 +1021,7 @@ ideas = {
 			picture = officers_purged
 
 			modifier = {			
-				army_attack_factor = 0.025
-				army_defence_factor = 0.05
-				army_org_factor = 0.025				
+				army_defence_factor = 0.025
 				army_morale_factor = 0.025
 				air_superiority_efficiency = 0.03
 				army_bonus_air_superiority_factor = 0.05
@@ -1863,6 +1861,7 @@ ideas = {
 
 		morozov_design_bureau = {
 
+			cost = 75		
 
 			allowed = {
 				original_tag = SOV
@@ -1909,6 +1908,8 @@ ideas = {
 		morozov_design_bureau2 = {
 
 		picture = morozov_design_bureau
+
+			cost = 75		
 
 			allowed = {
 				original_tag = SOV
@@ -1966,7 +1967,7 @@ ideas = {
 				original_tag = SOV
 			}
 
-
+			cost = 75		
 
 			research_bonus = {
 				armor = 0.15
@@ -1987,6 +1988,9 @@ ideas = {
 			allowed = {
 				original_tag = SOV
 			}
+			
+			cost = 75		
+			
 			
 			research_bonus = {
 				armor = 0.15

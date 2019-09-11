@@ -209,6 +209,7 @@ political_actions = {
 			BUL = { is_ai = yes }
 			country_exists = BUL
 			date > 1939.1.1
+			GER = { has_war = yes }		
 		}
 		fire_only_once = yes
 		complete_effect = {
@@ -233,6 +234,7 @@ political_actions = {
 			HUN = { is_ai = yes }
 			country_exists = HUN
 			date > 1939.1.1
+			GER = { has_war = yes }		
 		}
 		fire_only_once = yes
 		complete_effect = {
@@ -254,6 +256,7 @@ political_actions = {
 			ROM = { is_ai = yes }
 			country_exists = ROM
 			date > 1939.1.1
+			GER = { has_war = yes }		
 		}
 
 		complete_effect = {
@@ -283,6 +286,7 @@ political_actions = {
 			FIN = { is_ai = yes }
 			country_exists = FIN
 			date > 1940.1.1
+			GER = { has_war = yes }		
 		}
 
 		complete_effect = {
@@ -298,7 +302,8 @@ political_actions = {
 			tag = GER
 			HUN = { is_ai = yes }
 			country_exists = HUN
-			date > 1936.1.1
+			date > 1939.1.1
+			GER = { has_war = yes }		
 		}
 
 		complete_effect = {
@@ -684,35 +689,7 @@ GER_military_buildup = {
 
 	}
 
-	
-	GER_jaegernotprogramm = {
 
-		icon = generic_air
-
-		available = {
-			has_war = yes
-			NOT = {
-				has_idea = GER_jaegernotprogramm
-			}
-		}
-
-		cost = 50
-		fire_only_once = yes
-		ai_will_do = {
-			factor = 1
-		}
-
-		visible = {
-			has_war = yes
-			NOT = {
-				has_idea = GER_jaegernotprogramm
-			}
-		}
-
-		complete_effect = {
-			add_timed_idea = { idea = GER_jaegernotprogramm days = 90 }
-		}
-	}
 }
 
 special_projects = {

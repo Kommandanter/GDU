@@ -1082,7 +1082,6 @@ focus_tree = {
 		prerequisite = { focus = FRA_france_libre }
 	    mutually_exclusive = { 
 		    focus = FRA_heavy_tank
-			focus = FRA_medium_tank
 			}
 		x = 21
 		y = 1
@@ -1100,39 +1099,15 @@ focus_tree = {
 			}
 		}
 	}
-	focus = {
-		id = FRA_medium_tank
-		icon = GFX_goal_generic_army_tanks
-		prerequisite = { focus = FRA_france_libre }
-	    mutually_exclusive = { 
-		    focus = FRA_heavy_tank
-			focus = FRA_light_tank
-			}
-		x = 23
-		y = 1
-		cost = 1
 
-		available_if_capitulated = yes
-
-		completion_reward = {		
-     		add_ideas = FRA_motorized_focus
-			add_tech_bonus = {
-				bonus = 1.00 
-				uses = 1
-				name = mech_army_bonus
-				category = cat_mechanized_1
-			}
-		}
-	}
 	focus = {
 		id = FRA_heavy_tank
 		icon = GFX_goal_generic_army_tanks
 		prerequisite = { focus = FRA_france_libre }
 	    mutually_exclusive = { 
-		    focus = FRA_medium_tank
 			focus = FRA_light_tank
 			}
-		x = 25
+		x = 23
 		y = 1
 		cost = 1
 

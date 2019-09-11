@@ -613,7 +613,7 @@ instant_effect = {
 			type = infantry_equipment_1
 			creator = "SOV"
 		}
-		requested_factories = 15
+		requested_factories = 19
 		progress = 0.1
 		efficiency = 70
 	}
@@ -623,7 +623,7 @@ instant_effect = {
 			type = artillery_equipment_1
 			creator = "SOV"
 		}
-		requested_factories = 8
+		requested_factories = 7
 		progress = 0.3
 		efficiency = 70
 	}
@@ -633,7 +633,7 @@ instant_effect = {
 			type = support_equipment_1
 			creator = "SOV"
 		}
-		requested_factories = 4
+		requested_factories = 6
 		progress = 0.3
 		efficiency = 70
 	}
@@ -642,7 +642,7 @@ instant_effect = {
 			type = anti_tank_equipment_1
 			creator = "SOV"
 		}
-		requested_factories = 3
+		requested_factories = 5
 		progress = 0.3
 		efficiency = 70
 	}
@@ -657,22 +657,13 @@ instant_effect = {
 		efficiency = 70
 	}
 	
-			add_equipment_production = {
-		equipment = {
-			type = light_tank_equipment_2
-			version_name = "BT.7"
-			creator = "SOV"
-		}
-		requested_factories = 4
-		progress = 0.4
-		efficiency = 70
-	}
+
 		add_equipment_production = {
 		equipment = {
 			type = motorized_equipment_1
 			creator = "SOV"
 		}
-		requested_factories = 1
+		requested_factories = 7
 		progress = 0.4
 		efficiency = 70
 	}
@@ -682,7 +673,7 @@ instant_effect = {
 			version_name = "I-153"
 			creator = "SOV"
 		}
-		requested_factories = 5
+		requested_factories = 1
 		progress = 0.15
 		efficiency = 70
 	}
@@ -692,7 +683,7 @@ instant_effect = {
 			version_name = "Sh-1" 
 			creator = "SOV"
 		}
-		requested_factories = 3
+		requested_factories = 7
 		progress = 0.15
 		efficiency = 70
 	}

@@ -85,12 +85,9 @@ country_event = {
 	title = player_permission.2.t
 	desc = player_permission.2.d
 
-	is_triggered_only = yes
+	hidden = yes
 
-	option = {
-		name = player_permission.2.a
-		set_country_flag = permission_given_for_ideology_switch
-	}
+	is_triggered_only = yes
 
 	option = {
 		name = player_permission.2.b
@@ -350,6 +347,8 @@ country_event = {
 	id = host_vote.1
 	title = host_vote.1.t
 	desc = host_vote.1.d
+
+	hidden = yes
 
 	is_triggered_only = yes
 
