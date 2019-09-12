@@ -1065,7 +1065,7 @@ focus = {
 	}
 
 	focus = {
-		id = HUN_expand_the_aluminum_industry
+		id = HUN_expand_the_steel_industry
 		icon = GFX_goal_generic_construct_civilian
 		prerequisite = { focus = HUN_invite_foreign_investors }
 		x = -1

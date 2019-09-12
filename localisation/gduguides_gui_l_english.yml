@@ -1,7 +1,7 @@
 ﻿l_english:
- GDUGUIDES_TOOLTIP:0 " Here you can read GDU Guides."
+ GDUGUIDES_TOOLTIP:0 " Read GDU Guides."
  GDUGUIDESCLOSE_TOOLTIP:0 "Close"
- GDUTOOLS_TOOLTIP:0 " Mini games & Other Stuff"
+ GDUTOOLS_TOOLTIP:0 " Mini Games & Other Stuff"
 
  
  gdu_guides_land_1_tt:0 "Armor and Piercing Guide"
@@ -85,7 +85,7 @@ GDU_air3noobtips:0 " Air Tips for Beginners "
 
 
 guides.0.t:0 "GDU Guides"
-guides.0.d:0 "For new players and few uninformed players, in game guides have been added about changes to game mechanics and important stuff in GDU, you can enable these guides by going to your decisions, and clicking on enable GDU Guides decisions under GDU News Category "
+guides.0.d:0 "For new players and those who may be uninformed, we have provided guides concerning changes to game mechanics and orher very important stuff. If you would like, you may enable these guides by navigating to your decisions tab and clicking on Enable GDU Guides decisions under GDU News Category
 guides.0.a:0 "Thanks for the information."
 
 guides.1.t:0 "GDU Navy1; Poisitioning"

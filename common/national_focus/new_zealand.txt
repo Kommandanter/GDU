@@ -794,7 +794,7 @@ focus_tree = {
 		x = 17
 		y = 0
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 8
@@ -836,7 +836,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = NZL_national_roads_board
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 25
@@ -1298,7 +1298,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = NZL_army_reforms
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 25
@@ -1383,7 +1383,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = NZL_army_reforms
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 25
@@ -1479,7 +1479,7 @@ focus_tree = {
 		y = 3
 		relative_position_id = NZL_army_reforms
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 25
@@ -1560,7 +1560,7 @@ focus_tree = {
 		y = 5
 		relative_position_id = NZL_army_reforms
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 25
@@ -1597,7 +1597,7 @@ focus_tree = {
 		y = 4
 		relative_position_id = NZL_army_reforms
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 25
@@ -1791,7 +1791,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = NZL_ratana_alliance
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 25
@@ -1869,7 +1869,7 @@ focus_tree = {
 		y = 3
 		relative_position_id = NZL_ratana_alliance
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 8
@@ -1996,7 +1996,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = NZL_the_first_labor_government
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 30
@@ -2115,7 +2115,7 @@ focus_tree = {
 		y = 3
 		relative_position_id = NZL_strengthen_the_commonwealth
 
-		cost = 8
+		cost = 5
 
 		ai_will_do = {
 			factor = 25
