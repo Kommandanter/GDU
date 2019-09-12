@@ -12,6 +12,125 @@ technologies = {
 	@1945 = 18
 	@1946 = 20
 
+	HUN_light_infantry_tech = {
+
+		research_cost = 1
+
+		# only from focus!!! #####
+		allow = {
+			always = no
+		}
+
+
+		#If you change these
+		#Change the custom tooltip too: HUN_light_infantry_divisions_doctrine_effect
+		infantry = {
+			forest = {
+				attack = 0.02
+				movement = 0.05
+			}
+
+			urban = {
+				attack = 0.05
+				movement = 0.05
+			}
+		}
+	}
+
+		dog_tech = {
+		
+		allow = { always = no }
+
+		enable_subunits = {
+		dog_company
+		}
+		enable_equipments = {
+			dogs_equipment_1
+		}
+
+
+		research_cost = 1
+		start_year = 1936
+		
+
+
+	}
+	    dog_scav_tech = {
+		
+		allow = { always = no }
+
+		enable_subunits = {
+		dog_scav_company
+		}
+		enable_equipments = {
+			dogs_equipment_1
+		}
+
+
+		research_cost = 1
+		start_year = 1936
+		
+
+
+	}
+	    dog_rescue_tech = {
+		
+		allow = { always = no }
+
+		enable_subunits = {
+		dog_rescue_company
+		}
+		enable_equipments = {
+			dogs_equipment_1
+		}
+
+
+		research_cost = 1
+		start_year = 1936
+		
+
+
+	}
+
+	ROM_urban_infantry_tech = {
+
+		research_cost = 1
+
+
+		allow = { always = no }
+
+
+	
+	
+			shocktroop = {
+				
+
+			urban = { 	attack = 0.10
+				defence = 0.10
+				movement = 0.05
+			}
+			}
+	
+	}
+	
+	ROM_forest_infantry_tech = {
+
+		research_cost = 1
+
+	
+		allow = { always = no }
+
+
+		jaeger = {
+			forest = {
+				attack = 0.08
+				defence = 0.08
+				movement = 0.05
+			}
+
+	}
+	}
+
 	infantry_weapons = {
 
 		enable_equipments = {

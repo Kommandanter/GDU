@@ -303,7 +303,7 @@ NDefines.NAir.MISSION_COMMAND_POWER_COSTS = {  -- command power cost per plane t
 NDefines.NNavy.SPOTTING_ENEMY_SPOTTING_MULTIPLIER_FOR_RUNNING_AWAY = 0.10		-- enemy spotting is multiplied by this value to simulate running away
 
 
-NDefines.NNavy.NAVAL_STRIKE_CARRIER_MULTIPLIER = 12.0              -- damage bonus when planes are in naval combat where their carrier is present (and can thus sortie faster and more effectively)
+NDefines.NNavy.NAVAL_STRIKE_CARRIER_MULTIPLIER = 13.0              -- damage bonus when planes are in naval combat where their carrier is present (and can thus sortie faster and more effectively)
 
 NDefines.NAir.NAVAL_COMBAT_EXTERNAL_PLANES_JOIN_RATIO = 0.2		-- Max planes that can join a combat comparing to the total strength of the ships
 NDefines.NAir.NAVAL_COMBAT_EXTERNAL_PLANES_JOIN_RATIO_PER_DAY = 0.75 -- max extra plane % that can join every day
@@ -426,11 +426,12 @@ NDefines.NNavy.AMPHIBIOUS_LANDING_PENALTY = -0.65								-- amphibious landing p
 
 NDefines.NNavy.LEADER_EXPERIENCE_SCALE = 0.0                      -- making admirals not level up in battles, similarly to generals
 
+NDefines.NNavy.COMBAT_ARMOR_PIERCING_DAMAGE_REDUCTION = -0.99					-- All damage reduction % when target armor is >= then shooter armor piercing.
 
 NDefines.NNavy.GUN_HIT_PROFILES = { -- hit profiles for guns, if target ih profile is lower the gun will have lower accuracy		
-	        440.0,    -- big guns
-	        460.0,    -- torpedos
-	        240.0,    -- small guns
+	        470.0,    -- big guns
+	        470.0,    -- torpedos
+	        210.0,    -- small guns
 	   }		
 			
 NDefines.NNavy.DEPTH_CHARGES_HIT_PROFILE                                         = 270.0    -- hit profile for depth charges	

@@ -22,7 +22,9 @@
  GER_me262_desc:0 "Our rocket and jet engine designs are far surpassing our expectations, we can now push for development of innovative new jet aircraft designs."
  GER_extra_tech_slot_2:0 "Push the Limits" 
  GER_extra_tech_slot_2_desc:0 "Our regime, due to its distinct National Socialist character, is not bound by the petty traditional norms of morality. We will ask every question that needs to be asked of the natural world, and learn as much from it as we can.. Regardless of what others say about our methods." 
- 
+
+ sov_flavour_six_tooltip:0 " This focus will auto research LTD2 , remove 6000 LT1 from stockpile and add 6000 LTD2 "
+ sov_flavour_five_tooltip:0 " This focus will allow production of Dog support companies, providing 30 hard attack and -18 Defense at cost of 40 IC per battalion " 
  SOV_invade_Japan:0 "Liberate Manchuria"
  SOV_invade_Japan_desc:0 "With the situation in the West relatively stable, the time has come to teach the Japanese Imperialists a lesson. The workers of Manchuria and China await liberation!" 
  SOV_anti_capitalist_raids:0 "Crush the Trudoviks"

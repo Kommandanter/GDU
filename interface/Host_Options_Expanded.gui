@@ -192,7 +192,7 @@ guiTypes = {
 				position = { x = -500 y = -154 }
 				spriteType = "GFX_HOE_button"
 				font = "hoi_16mbs"
-				text = "AI Faction Joining Off"
+				text = "Meme Focuses Off"
 				orientation = LOWER_RIGHT
 			}
 
@@ -201,7 +201,25 @@ guiTypes = {
 				position = { x = -500 y = -154 }
 				spriteType = "GFX_HOE_button"
 				font = "hoi_16mbs"
-				text = "AI Faction Joining On"
+				text = "Meme Focuses On"
+				orientation = LOWER_RIGHT
+			}
+
+			buttonType = {
+				name = "general_option_9"
+				position = { x = -320 y = -294 }
+				spriteType = "GFX_HOE_button"
+				font = "hoi_16mbs"
+				text = "Meme Focuses Off"
+				orientation = LOWER_RIGHT
+			}
+
+			buttonType = {
+				name = "general_option_10"
+				position = { x = -320 y = -294 }
+				spriteType = "GFX_HOE_button"
+				font = "hoi_16mbs"
+				text = "Meme Focuses On"
 				orientation = LOWER_RIGHT
 			}
 

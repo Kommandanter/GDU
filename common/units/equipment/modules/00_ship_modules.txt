@@ -1929,8 +1929,8 @@ equipment_modules = {
 		build_cost_resources = {
 		}
 		add_stats = {
-			armor_value = 32.5
-			surface_visibility = 10
+			armor_value = 65
+			surface_visibility = 22
 		}
 		dismantle_cost_ic = 5500
 		
@@ -1986,8 +1986,8 @@ equipment_modules = {
 		build_cost_resources = {
 		}
 		add_stats = {
-			armor_value = 25
-			surface_visibility = 8
+			armor_value = 50
+			surface_visibility = 20
 		}
 		dismantle_cost_ic = 5500
 	}
@@ -2003,8 +2003,8 @@ equipment_modules = {
 		build_cost_resources = {
 		}
 		add_stats = {
-			armor_value = 50
-			surface_visibility = 10
+			armor_value = 100
+			surface_visibility = 22
 		}
 		dismantle_cost_ic = 7500
 		
@@ -2023,8 +2023,8 @@ equipment_modules = {
 		build_cost_resources = {
 		}
 		add_stats = {
-			armor_value = 30
-			surface_visibility = 8
+			armor_value = 60
+			surface_visibility = 20
 		}
 		dismantle_cost_ic = 6200
 		
