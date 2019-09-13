@@ -29,12 +29,10 @@ focus = {
 		id = AST_flavour_one
 		icon = GFX_goal_generic_navy_battleship
 
-		allow_branch = {
-			has_global_flag = ttfocus_enabled
-		}
 		
-		x = 5
-		y = 20
+		
+		x = -3
+		y = 0
 	
 
 		cost = 4
