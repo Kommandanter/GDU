@@ -5,11 +5,9 @@ on_actions = {
 
             #Setting Host
             every_country = {
-                
+                country_event = host_vote.1
     			add_to_array = { global.countrybase = THIS.id }
             }
-
-            ENG = { country_event = host_vote.1 }
 
             random_country = {
                 add_player_countries = yes

@@ -47,6 +47,26 @@ country_event = {
 		log = "Percentage for host: [?global.current_highest_vote]"
 	}
 }
+country_event = {
+	id = logging_events.4
+
+	is_triggered_only = yes
+	hidden = yes
+
+	option = {
+		add_player_countries = yes
+	}
+}
+country_event = {
+	id = logging_events.5
+
+	is_triggered_only = yes
+	hidden = yes
+
+	option = {
+	}
+}
+
 
 #Sorting the array through event, only a helper
 country_event = {
@@ -85,9 +105,12 @@ country_event = {
 	title = player_permission.2.t
 	desc = player_permission.2.d
 
-	hidden = yes
-
 	is_triggered_only = yes
+
+	option = {
+		name = player_permission.2.a
+		set_country_flag = permission_given_for_ideology_switch
+	}
 
 	option = {
 		name = player_permission.2.b
@@ -191,10 +214,16 @@ country_event = {
 
 	immediate = {
 		set_temp_variable = { vote_total = vote_for }
+		log = "Votes for: [?vote_for]"
+		log = "Votes against: [?vote_against]"
 		add_to_temp_variable = { vote_total = vote_against }
 		divide_variable = { vote_for = vote_total }
 		if = {
-			limit = { check_variable = { vote_for > 0.8 } }
+			limit = {
+				check_variable = { vote_for > 0.8 }
+				check_variable = { vote_for < 1.1 }
+			}
+			log = "Vote percentage: [?vote_for|%G0]"
 
 			event_target:country_being_asked_permission = {
 				set_country_flag = vote_succeeded
@@ -207,21 +236,22 @@ country_event = {
 				set_country_flag = permission_not_given_for_ideology_switch
 			}
 		}
-		clr_global_flag = permission_being_asked
-		clear_global_event_target = country_being_asked_permission
 	}
 
 	desc = {
 		text = player_permission.6.d.succeed
-		trigger = { any_country = { has_country_flag = vote_succeeded } }
+		trigger = { event_target:country_being_asked_permission = { has_country_flag = vote_succeeded } }
 	}
 	desc = {
 		text = player_permission.6.d.fail
-		trigger = { any_country = { has_country_flag = vote_failed } }
+		trigger = { event_target:country_being_asked_permission = { has_country_flag = vote_failed } }
 	}
 
 	option = {
 		name = player_permission.6.a
+
+		clr_global_flag = permission_being_asked
+		clear_global_event_target = country_being_asked_permission
 	}
 }
 
@@ -348,8 +378,6 @@ country_event = {
 	title = host_vote.1.t
 	desc = host_vote.1.d
 
-	hidden = yes
-
 	is_triggered_only = yes
 
 	immediate = {
@@ -362,6 +390,10 @@ country_event = {
 		}
 
 		set_global_flag = vote_on_host
+		set_variable = { global.votes_for_@THIS = 0 }
+		clear_variable = global.highest_vote
+		clear_variable = total_votes_num
+		clear_variable = votes_needed
 
 		hidden_effect = { country_event = { id = host_vote.2 days = 10 } }
 	}
@@ -371,7 +403,6 @@ country_event = {
 	}
 }
 
-#THIS DOESNT WORK PROPERLY ATM
 #Results of host vote
 country_event = {
 	id = host_vote.2
@@ -381,11 +412,11 @@ country_event = {
 
 	immediate = {
 		hidden_effect = {
+			set_variable = { total_votes_num = 0 }
+
 			every_country = {
-				limit = { 
-                tag = ENG
-				 }
-                
+				limit = { is_ai = no }
+				add_to_variable = { total_votes_num = global.votes_for_@THIS }
 				if = {
 					limit = {
 						OR = {
@@ -400,11 +431,15 @@ country_event = {
 				}
 			}
 
-			set_temp_variable = { vote_total = global.playerbase^num }
+			set_temp_variable = { vote_total = total_votes_num }
+			set_variable = { global.highest_vote = global.current_highest_vote }
+			set_variable = { votes_needed = total_votes_num }
+			multiply_variable = { votes_needed = 0.6 }
 			divide_variable = { global.current_highest_vote = vote_total }
 			log = "Percentage for host: [?global.current_highest_vote]"
+			log = "Votes needed: [?votes_needed]"
 			if = {
-				limit = { check_variable = { global.current_highest_vote > -1 } }
+				limit = { check_variable = { global.current_highest_vote > 0.6 } }
 
 				set_global_flag = vote_for_new_host_succeeded
 				if = {
@@ -421,6 +456,10 @@ country_event = {
 					country_event = { id = host_vote.1 days = 3 }
 				}
 			}
+
+			clr_global_flag = vote_on_host
+			clr_country_flag = country_has_voted
+			clear_variable = local_country_has_voted_for
 		}
 	}
 

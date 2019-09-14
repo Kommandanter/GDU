@@ -46,7 +46,10 @@ scripted_gui = {
 						has_global_flag = vote_on_host
 						ROOT = { NOT = { has_country_flag = country_has_voted } }
 					}
-					ROOT = { set_country_flag = country_has_voted }
+					ROOT = {
+						set_country_flag = country_has_voted
+						set_variable = { local_country_has_voted_for = PREV }
+					}
 					add_to_variable = { global.votes_for_@THIS = 1 }
 				}
 				if = {
@@ -81,7 +84,7 @@ scripted_gui = {
 				clr_global_flag = no_ai_faction_joining
 			}
 			general_option_9_click = { set_global_flag = ttfocus_enabled }
-			general_option_10_click = { clr_global_flag = ttfocus_enabled }			
+			general_option_10_click = { clr_global_flag = ttfocus_enabled }
 			general_option_20_click = { add_player_countries = yes }
 
 
@@ -198,6 +201,7 @@ scripted_gui = {
 
 		triggers = {
 			country_options_title_secondary_visible = { ROOT = { TAG = event_target:game_host } }
+			current_vote_visible = { has_global_flag = vote_on_host }
 			country_options_title_visible = { ROOT = { TAG = event_target:game_host } }
 			general_options_title_visible = { ROOT = { TAG = event_target:game_host } }
 			general_option_1_visible = { ROOT = { TAG = event_target:game_host } }
@@ -227,7 +231,7 @@ scripted_gui = {
 			general_option_10_visible = {
 				has_global_flag = ttfocus_enabled
 				ROOT = { TAG = event_target:game_host }
-			}			
+			}
 			general_option_20_visible = { ROOT = { TAG = event_target:game_host } }
 
 
