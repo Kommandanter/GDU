@@ -1,6 +1,6 @@
 ﻿l_english:
     HOST_TOOLTIP:0 "§GOptions for Hosts§!"
- 
+
 
     #Events
     player_permission.1.t:0 "Permission asked from [selected_player.GetName]"
@@ -67,3 +67,7 @@
 
     # Ideas
     AI_no_faction_joining:0 "No Faction Joining for AI"
+
+    #Gamerules
+    RULE_HOST_COUNTRY:0 "Host Options Expanded Gamerules"
+    RULE_GROUP_HOE:0 "Rule Group: HOE"
