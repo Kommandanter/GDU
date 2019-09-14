@@ -86,7 +86,9 @@ focus = {
 		continue_if_invalid = no
 		available_if_capitulated = yes
 
-		completion_reward = {}
+		completion_reward = {
+		army_experience = 50
+		}
 	}
 	focus = {
 		id = CAN_flavour_two
@@ -121,7 +123,10 @@ focus = {
 		}
 
 		completion_reward = {
-		add_ideas = dense_combat_stimulants
+		set_technology = { support_weapons = 1 }
+		set_technology = { support_weapons2 = 1 }
+		set_technology = { support_weapons3 = 1 }
+
 		
 		}
 	}
@@ -159,7 +164,9 @@ focus = {
 			
 		}
 
-		completion_reward = {}
+		completion_reward = {
+		add_ideas = CAN_flavour_three_idea
+		}
 	}
 		
 	focus = {
@@ -189,7 +196,9 @@ focus = {
 		continue_if_invalid = no
 		available_if_capitulated = yes
 
-		completion_reward = {}
+		completion_reward = {
+        add_ideas = CAN_flavour_four_idea
+		}
 	}
 	focus = {
 		id = CAN_flavour_five
@@ -207,7 +216,8 @@ focus = {
 		}
 
 		available = {
-			
+		
+
 		}
 		
 		bypass = {
@@ -222,7 +232,9 @@ focus = {
 			
 		}
 
-		completion_reward = {}
+		completion_reward = {
+		add_ideas = CAN_flavour_five_idea	
+		}
 	}
 	focus = {
 		id = CAN_flavour_six
@@ -253,7 +265,9 @@ focus = {
 			
 		}
 
-		completion_reward = {}
+		completion_reward = {
+		add_ideas = CAN_flavour_six_idea
+		}
 	}
 	focus = {
 		id = CAN_flavour_seven
@@ -284,7 +298,9 @@ focus = {
 			
 		}
 
-		completion_reward = {}
+		completion_reward = {
+		add_ideas = CAN_flavour_seven_idea
+		}
 	}
 
 

@@ -1,5 +1,4 @@
 ﻿l_english:
-
  
 SOV_flavour_one:0 " Talent Tree "
 SOV_flavour_two:0 " Alcohol For Vodka "
@@ -87,25 +86,31 @@ ROM_flavour_six:0 " Fight in Stalingrad "
 ROM_flavour_seven:0 " Fight on Flanks of Stalingrad "
 ROM_flavour_seven_tt:0 " This gives 8% jaeger attack/defence in forests"
 ROM_flavour_six_tt:0 "This gives 10% shock troop attack/defence in urban "
-####################################################################### 
-
-HUN_flavour_one:0 " Purchase Swedish Blueprints "
-HUN_flavour_two:0 " Improved Toldi I  "
-HUN_flavour_three:0 "Improved 43m Zrinyi "
-HUN_flavour_four:0 " Tanks that cross every bridge "
-HUN_flavour_five:0 " Tanks that crush trees "
-HUN_flavour_six:0 " Cross Drill Romanian oil "
-HUN_flavour_seven:0 " Cross Mine Slovakian Mountains "
-
-
 
 CAN_flavour_one:0 " Talent Tree "
 CAN_flavour_two:0 " Ronnie The Bren Gun Girl "
 CAN_flavour_three:0 " Ronnie The Tank Girl "
 CAN_flavour_four:0 " Tactical Two Way Radio "
 CAN_flavour_five:0 " Strategical Two Way Radio  "
-CAN_flavour_six:0 " Camp X;Sabotage Libya "
-CAN_flavour_seven:0 " Camp X;Sabotage Atlantic wall  "
+CAN_flavour_six:0 " Forward To Glory "
+CAN_flavour_seven:0 " Forward To Next Village  "
+
+HUN_flavour_one:0 " Purchase Swedish Blueprints "
+HUN_flavour_two:0 " Improved Turan I  "
+HUN_flavour_three:0 "Improved  Zrinyi II "
+HUN_flavour_four:0 " Tanks that can cross every bridge "
+HUN_flavour_five:0 " Tanks that chop trees "
+HUN_flavour_six:0 " Cross Drill Romanian oil "
+HUN_flavour_seven:0 " Cross Mine Romanian Mountains "
+HUN_flavour_three_tt:0 " This focus will give you a variant of 1941 Medium tank, with 4 attack 5 Reliablity "
+HUN_flavour_two_tt:0 " This focus will give you a variant of 1941 Medium SPG, with 6 attack but no reliablity "
+HUN_flavour_four_tt:0 " tank equipments gains 5% river attack"
+HUN_flavour_five_tt:0 " tank equipments gains 5% forest attack  "
+
+####################################################################### 
+
+
+
 
 
 

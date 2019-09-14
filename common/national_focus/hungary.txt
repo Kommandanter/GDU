@@ -44,7 +44,9 @@ focus = {
 		continue_if_invalid = no
 		available_if_capitulated = yes
 
-		completion_reward = {}
+		completion_reward = {
+		add_ideas = HUN_flavour_one_idea
+		}
 	}
 	focus = {
 		id = HUN_flavour_two
@@ -63,7 +65,7 @@ focus = {
 		}
 
 		available = {
-			
+		has_tech = improved_medium_tank		
 		}
 		
 		bypass = {
@@ -78,9 +80,23 @@ focus = {
 			
 		}
 
-		completion_reward = {
-		add_ideas = dense_combat_stimulants
+		completion_reward = { 
+		custom_effect_tooltip = HUN_flavour_two_tt
+        hidden_effect = {
 		
+        create_equipment_variant = {
+				name = "Improved Turan"
+				type = medium_tank_equipment_1
+				parent_version = 0
+				upgrades = {
+					tank_gun_upgrade = 4
+					tank_armor_upgrade = 0
+					tank_engine_upgrade = 0
+					tank_reliability_upgrade = 5
+				}
+			}
+
+		}
 		}
 	}
 
@@ -101,7 +117,7 @@ focus = {
 		}
 
 		available = {
-			
+		has_tech = improved_medium_tank
 
 				}
 		
@@ -117,7 +133,25 @@ focus = {
 			
 		}
 
-		completion_reward = {}
+		completion_reward = {
+
+		  custom_effect_tooltip = HUN_flavour_three_tt
+		  hidden_effect = {							
+			
+          create_equipment_variant = {
+				name = "Improved Zrinjy"
+				type = medium_tank_artillery_equipment_1
+				parent_version = 0
+				upgrades = {
+					tank_art_upgrade = 6
+					tank_armor_upgrade = 0
+					tank_engine_upgrade = 0
+					tank_reliability_upgrade = 0
+				}
+			}
+        }
+		
+		}
 	}
 		
 	focus = {
@@ -147,7 +181,10 @@ focus = {
 		continue_if_invalid = no
 		available_if_capitulated = yes
 
-		completion_reward = {}
+		completion_reward = {
+		custom_effect_tooltip = HUN_flavour_four_tt
+		hidden_effect = { set_technology = {  HUN_river_tank_tech = 1  } } 
+		}
 	}
 	focus = {
 		id = HUN_flavour_five
@@ -176,11 +213,10 @@ focus = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-		complete_tooltip = {
-			
+		completion_reward = {
+		custom_effect_tooltip = HUN_flavour_five_tt
+		hidden_effect = { set_technology = { HUN_forest_tank_tech = 1 } }	
 		}
-
-		completion_reward = {}
 	}
 	focus = {
 		id = HUN_flavour_six
@@ -211,7 +247,28 @@ focus = {
 			
 		}
 
-		completion_reward = {}
+		completion_reward = {
+		46 = {
+					
+				add_resource = {
+					type = oil
+					amount = -15
+				}				
+
+				
+				
+			}
+		154 = {
+					
+				add_resource = {
+					type = oil
+					amount = 25
+				}				
+
+				
+				
+			}	
+		}
 	}
 	focus = {
 		id = HUN_flavour_seven
@@ -242,7 +299,28 @@ focus = {
 			
 		}
 
-		completion_reward = {}
+		completion_reward = {
+		81 = {
+					
+				add_resource = {
+					type = steel
+					amount = -15
+				}				
+
+				
+				
+			}
+		154 = {
+					
+				add_resource = {
+					type = steel
+					amount = 20
+				}				
+
+				
+				
+			}
+		}
 	}
 
 

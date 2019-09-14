@@ -124,9 +124,9 @@ ideas = {
 			}
 
 			picture = generic_manpower_bonus
-			targeted_modifier = { tag = GER attack_bonus_against = 0.05 }
+			
 			modifier = {
-				conscription = 0.03
+			
 			}
 			
 		
@@ -150,7 +150,7 @@ ideas = {
 			
 			modifier = {
 				consumer_goods_factor = -0.05
-				local_resources_factor = 0.1
+				local_resources_factor = 0.05
 			}
 		
         
@@ -163,16 +163,16 @@ ideas = {
         removal_cost = -1 
         modifier = {
                      army_armor_attack_factor = 0.05
-                     army_armor_defence_factor = -0.05
+                     army_armor_defence_factor = -0.06
                       }
 		}
-       light_combat_stimulants = {
+        light_combat_stimulants = {
         allowed = { always = no }
         allowed_civil_war = { always = yes }
         removal_cost = -1 
         modifier = { army_attack_factor = 0.02 }
 		}
-		 labour_camps = {
+		labour_camps = {
         allowed = { always = no }
         allowed_civil_war = { always = yes }
         removal_cost = -1 
@@ -180,15 +180,16 @@ ideas = {
                      consumer_goods_factor = -0.08
                       }
 		}
-		 soviet_reaction = {
+		soviet_reaction = {
         allowed = { always = no }
         allowed_civil_war = { always = yes }
         removal_cost = -1 
         
-        targeted_modifier = { tag = GER attack_bonus_against = 0.065 }
+        targeted_modifier = { tag = GER attack_bonus_against = 0.06 }
+        targeted_modifier = { tag = GER defense_bonus_against = 0.06 }
         
 		}
-		 indoctrination_camps = {
+		indoctrination_camps = {
         allowed = { always = no }
         allowed_civil_war = { always = yes }
         removal_cost = -1 
@@ -367,7 +368,7 @@ HUN_flavour_one_idea = {
 			picture = generic_manpower_bonus
 			
 			modifier = {
-				
+			research_speed_factor = 0.05	
 			}
 		
         }
@@ -1119,7 +1120,7 @@ RAJ_flavour_two_idea = {
 			picture = generic_manpower_bonus
 			
 			modifier = {
-			local_resources_factor = 0.1
+			local_resources_factor = 0.05
 			consumer_goods_factor = -0.01	
 			}
 		
@@ -1225,7 +1226,7 @@ RAJ_flavour_seven_idea = {
 			picture = generic_manpower_bonus
 			
 			modifier = {
-			consumer_goods_factor = -0.08
+			industrial_capacity_factory = 0.1
 			}
 		
         }
@@ -1548,9 +1549,7 @@ CAN_flavour_two_idea = {
 
 			picture = generic_manpower_bonus
 			
-			modifier = {
-				
-			}
+			modifier = {}
 		
         }
 CAN_flavour_three_idea = {
@@ -1568,8 +1567,10 @@ CAN_flavour_three_idea = {
 
 			picture = generic_manpower_bonus
 			
-			modifier = {
-				
+			equipment_bonus = {
+			medium_tank_equipment = { 
+				build_cost_ic = -0.05 instant = yes
+				}
 			}
 		
         }
@@ -1589,7 +1590,7 @@ CAN_flavour_four_idea = {
 			picture = generic_manpower_bonus
 			
 			modifier = {
-				
+			planning_speed = 0.30	
 			}
 		
         }
@@ -1609,7 +1610,8 @@ CAN_flavour_five_idea = {
 			picture = generic_manpower_bonus
 			
 			modifier = {
-				
+			recon_factor = 0.1
+		    air_cas_present_factor = 0.05	
 			}
 		
         }
@@ -1629,7 +1631,8 @@ CAN_flavour_six_idea = {
 			picture = generic_manpower_bonus
 			
 			modifier = {
-				
+			army_attack_factor = 0.05
+			army_defence_factor = -0.06		
 			}
 		
         }
@@ -1649,7 +1652,8 @@ CAN_flavour_seven_idea = {
 			picture = generic_manpower_bonus
 			
 			modifier = {
-				
+			army_attack_factor = 0.025
+			army_defence_factor = -0.02		
 			}
 		
         }
