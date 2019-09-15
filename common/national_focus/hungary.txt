@@ -16,15 +16,15 @@ focus_tree = {
 
 	continuous_focus_position = { x = 50 y = 1600 }
 
-focus = {   
+focus = {
 		id = HUN_flavour_one
 		icon = GFX_goal_generic_navy_battleship
-		
-		
-		
+
+
+
 		x = -3
 		y = 0
-	
+
 
 		cost = 4
 
@@ -33,9 +33,9 @@ focus = {
 		}
 
 		available = {
-			
+			NOT = { has_global_flag = ttfocus_disabled }
 		}
-		
+
 		bypass = {
 
 		}
@@ -61,13 +61,13 @@ focus = {
 
 		ai_will_do = {
 			factor = 1
-			
+
 		}
 
 		available = {
-		has_tech = improved_medium_tank		
+		has_tech = improved_medium_tank
 		}
-		
+
 		bypass = {
 
 		}
@@ -75,15 +75,15 @@ focus = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-        
+
 		complete_tooltip = {
-			
+
 		}
 
-		completion_reward = { 
+		completion_reward = {
 		custom_effect_tooltip = HUN_flavour_two_tt
         hidden_effect = {
-		
+
         create_equipment_variant = {
 				name = "Improved Turan"
 				type = medium_tank_equipment_1
@@ -102,7 +102,7 @@ focus = {
 
 focus = {
 		id = HUN_flavour_three
-		icon = GFX_goal_tfv_saf_anti_colonialist_crusade  
+		icon = GFX_goal_tfv_saf_anti_colonialist_crusade
 		prerequisite = { focus = HUN_flavour_one }
 		mutually_exclusive = { focus = HUN_flavour_two }
 		x = -1
@@ -113,31 +113,31 @@ focus = {
 
 		ai_will_do = {
 			factor = 1
-			
+
 		}
 
 		available = {
 		has_tech = improved_medium_tank
 
 				}
-		
+
 		bypass = {
-			
+
 		}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = yes
-        
+
 		complete_tooltip = {
-			
+
 		}
 
 		completion_reward = {
 
 		  custom_effect_tooltip = HUN_flavour_three_tt
-		  hidden_effect = {							
-			
+		  hidden_effect = {
+
           create_equipment_variant = {
 				name = "Improved Zrinjy"
 				type = medium_tank_artillery_equipment_1
@@ -150,10 +150,10 @@ focus = {
 				}
 			}
         }
-		
+
 		}
 	}
-		
+
 	focus = {
 		id = HUN_flavour_four
 		icon = GFX_goal_generic_intelligence_exchange
@@ -169,10 +169,10 @@ focus = {
 			factor = 1
 		}
 
-		available = { 
+		available = {
 
 		}
-			
+
 		bypass = {
 
 		}
@@ -183,7 +183,7 @@ focus = {
 
 		completion_reward = {
 		custom_effect_tooltip = HUN_flavour_four_tt
-		hidden_effect = { set_technology = {  HUN_river_tank_tech = 1  } } 
+		hidden_effect = { set_technology = {  HUN_river_tank_tech = 1  } }
 		}
 	}
 	focus = {
@@ -202,9 +202,9 @@ focus = {
 		}
 
 		available = {
-			
+
 		}
-		
+
 		bypass = {
 
 		}
@@ -215,7 +215,7 @@ focus = {
 
 		completion_reward = {
 		custom_effect_tooltip = HUN_flavour_five_tt
-		hidden_effect = { set_technology = { HUN_forest_tank_tech = 1 } }	
+		hidden_effect = { set_technology = { HUN_forest_tank_tech = 1 } }
 		}
 	}
 	focus = {
@@ -234,7 +234,7 @@ focus = {
 		}
 
 		available = {}
-		
+
 		bypass = {
 
 		}
@@ -244,30 +244,30 @@ focus = {
 		available_if_capitulated = no
 
 		complete_tooltip = {
-			
+
 		}
 
 		completion_reward = {
 		46 = {
-					
+
 				add_resource = {
 					type = oil
 					amount = -15
-				}				
+				}
 
-				
-				
+
+
 			}
 		154 = {
-					
+
 				add_resource = {
 					type = oil
 					amount = 25
-				}				
+				}
 
-				
-				
-			}	
+
+
+			}
 		}
 	}
 	focus = {
@@ -286,7 +286,7 @@ focus = {
 		}
 
 		available = {}
-		
+
 		bypass = {
 
 		}
@@ -296,29 +296,29 @@ focus = {
 		available_if_capitulated = no
 
 		complete_tooltip = {
-			
+
 		}
 
 		completion_reward = {
 		81 = {
-					
+
 				add_resource = {
 					type = steel
 					amount = -15
-				}				
+				}
 
-				
-				
+
+
 			}
 		154 = {
-					
+
 				add_resource = {
 					type = steel
 					amount = 20
-				}				
+				}
 
-				
-				
+
+
 			}
 		}
 	}
@@ -677,7 +677,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = HUN_industrial_revitalization
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				category = industry
 			}
@@ -947,7 +947,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = HUN_announce_the_gyor_program
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 2
 				category = industry
 			}
@@ -1406,7 +1406,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = HUN_synthetic_industry
-				bonus = 2.00 
+				bonus = 2.00
 				uses = 1
 				category = synth_resources
 			}
@@ -1579,7 +1579,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = HUN_theoretical_air_efforts
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				category = air_doctrine
 			}
@@ -1690,7 +1690,7 @@ focus = {
 			air_experience = 25
 			add_tech_bonus = {
 				name = HUN_establish_the_air_force
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				category = air_doctrine
 			}
@@ -1770,7 +1770,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = HUN_heavy_fighter_effort
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				technology = heavy_fighter1
 				technology = heavy_fighter2
@@ -1813,7 +1813,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = HUN_light_fighter_effort
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				technology = early_fighter
 				technology = fighter1
@@ -1857,7 +1857,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = HUN_cas_focus
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				technology = CAS1
 				technology = CAS2
@@ -1899,7 +1899,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = HUN_tac_focus
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				technology = tactical_bomber1
 				technology = tactical_bomber2
@@ -1944,7 +1944,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = land_doc_bonus
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 3
 				category = air_doctrine
 			}
@@ -1989,7 +1989,7 @@ focus = {
 			army_experience = 10
 			add_tech_bonus = {
 				name = HUN_army_maneuvers
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				category = land_doctrine
 			}
@@ -2034,7 +2034,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = HUN_mobile_focus
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				category = cat_mobile_warfare
 			}
@@ -2074,7 +2074,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = HUN_the_botond
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				category = motorized_equipment
 			}
@@ -2114,7 +2114,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = HUN_motorized_support_bonus
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 2
 				category = hospital_tech
 				category = logistics_tech
@@ -2156,7 +2156,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = HUN_develop_tanks
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				category = armor
 			}
@@ -2233,7 +2233,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = HUN_armored_warfare
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				category = armor
 			}
@@ -2273,7 +2273,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = HUN_mobile_corps_doctrine
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				category = cat_mobile_warfare
 			}
@@ -2310,7 +2310,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = HUN_home_defense
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 2
 				category = cat_grand_battle_plan
 			}
@@ -2350,7 +2350,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = HUN_danuvia_submachine_gunssub
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				category = infantry_weapons
 			}
@@ -2390,7 +2390,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = HUN_artillery_effort
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 2
 				category = artillery
 			}
@@ -2520,7 +2520,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = HUN_form_parachute_battalions
-				bonus = 2.00 
+				bonus = 2.00
 				uses = 1
 				category = para_tech
 			}

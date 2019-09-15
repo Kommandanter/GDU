@@ -16,15 +16,15 @@ focus_tree = {
 
 	continuous_focus_position = { x = 50 y = 1100 }
 
-focus = {   
+focus = {
 		id = ROM_flavour_one
 		icon = GFX_goal_generic_navy_battleship
-		
-				
-		
+
+
+
 		x = -2
 		y = 0
-	
+
 
 		cost = 4
 
@@ -33,9 +33,9 @@ focus = {
 		}
 
 		available = {
-			
+			NOT = { has_global_flag = ttfocus_disabled }
 		}
-		
+
 		bypass = {
 
 		}
@@ -61,13 +61,13 @@ focus = {
 
 		ai_will_do = {
 			factor = 1
-			
+
 		}
 
 		available = {
-			
+
 		}
-		
+
 		bypass = {
 
 		}
@@ -75,9 +75,9 @@ focus = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-        
+
 		complete_tooltip = {
-			
+
 		}
 
 		completion_reward = {
@@ -92,13 +92,13 @@ focus = {
 				}
 			}
 
-		
+
 		}
 	}
 
 focus = {
 		id = ROM_flavour_three
-		icon = GFX_goal_tfv_saf_anti_colonialist_crusade  
+		icon = GFX_goal_tfv_saf_anti_colonialist_crusade
 		prerequisite = { focus = ROM_flavour_one }
 		mutually_exclusive = { focus = ROM_flavour_two }
 		x = -1
@@ -109,24 +109,24 @@ focus = {
 
 		ai_will_do = {
 			factor = 1
-			
+
 		}
 
 		available = {
-			
+
 
 				}
-		
+
 		bypass = {
-			
+
 		}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = yes
-        
+
 		complete_tooltip = {
-			
+
 		}
 
 		completion_reward = {
@@ -142,7 +142,7 @@ focus = {
 			}
 		}
 	}
-		
+
 	focus = {
 		id = ROM_flavour_four
 		icon = GFX_goal_generic_intelligence_exchange
@@ -158,10 +158,10 @@ focus = {
 			factor = 1
 		}
 
-		available = { 
+		available = {
 
 		}
-			
+
 		bypass = {
 
 		}
@@ -193,9 +193,9 @@ focus = {
 		}
 
 		available = {
-			
+
 		}
-		
+
 		bypass = {
 
 		}
@@ -205,7 +205,7 @@ focus = {
 		available_if_capitulated = no
 
 		complete_tooltip = {
-			
+
 		}
 
 		completion_reward = {
@@ -228,7 +228,7 @@ focus = {
 		}
 
 		available = {}
-		
+
 		bypass = {
 
 		}
@@ -238,13 +238,13 @@ focus = {
 		available_if_capitulated = no
 
 		complete_tooltip = {
-			
+
 		}
 
 		completion_reward = {
         custom_effect_tooltip = ROM_flavour_six_tt
 		hidden_effect = { set_technology = { ROM_urban_infantry_tech = 1 } }
-		
+
 		}
 	}
 	focus = {
@@ -263,7 +263,7 @@ focus = {
 		}
 
 		available = {}
-		
+
 		bypass = {
 
 		}
@@ -273,7 +273,7 @@ focus = {
 		available_if_capitulated = no
 
 		complete_tooltip = {
-			
+
 		}
 
 		completion_reward = {
@@ -380,7 +380,7 @@ focus = {
 			}
 			add_tech_bonus = {
 				name = land_doc_bonus
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				category = land_doctrine
 			}
@@ -542,7 +542,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = ROM_civil_works
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 2
 				category = industry
 			}
@@ -952,7 +952,7 @@ focus = {
 			add_ideas = ROM_exploit_the_baita_mines
 			add_tech_bonus = {
 				name = Nuclear_Research
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				category = nuclear
 			}
@@ -1500,14 +1500,14 @@ focus = {
 						type = air_base
 						level = 5
 						instant_build = yes
-					}					
+					}
 			}
 			84  = {
 					add_building_construction = {
 						type = air_base
 						level = 5
 						instant_build = yes
-					}					
+					}
 			}
 		}
 	}
@@ -1582,7 +1582,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = ROM_air_superiority
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 2
 				category = strategic_destruction_tree
 			}
@@ -1622,7 +1622,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = ROM_cas
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				technology = CAS1
 				technology = CAS2
@@ -1668,7 +1668,7 @@ focus = {
 				}
 				add_tech_bonus = {
 					name = ROM_iar_80
-					bonus = 1.00 
+					bonus = 1.00
 					ahead_reduction = 1
 					uses = 1
 					technology = fighter1
@@ -1677,7 +1677,7 @@ focus = {
 				else = {
 					add_tech_bonus = {
 						name = ROM_iar_80
-						bonus = 1.00 
+						bonus = 1.00
 						ahead_reduction = 1
 						uses = 1
 						technology = fighter2
@@ -1721,7 +1721,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = ROM_strategic_bomber_force
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				technology = strategic_bomber1
 				technology = strategic_bomber2
@@ -1762,7 +1762,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = ROM_heavy_bombers
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				technology = strategic_bomber1
 				technology = strategic_bomber2
@@ -1803,7 +1803,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = ROM_nuclear_bomb_project
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				category = nuclear
 			}
@@ -1900,7 +1900,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = ROM_the_zb_53
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				category = infantry_weapons
 			}
@@ -1944,7 +1944,7 @@ focus = {
 			}
 			add_tech_bonus = {
 				name = ROM_vanatori_de_munte
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				category = mountaineers_tech
 			}
@@ -1976,7 +1976,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = ROM_artillery_modernization
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				category = artillery
 			}
@@ -2009,7 +2009,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = ROM_modern_at_guns
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 2
 				category = cat_anti_tank
 			}
@@ -2397,7 +2397,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = ROM_the_maresal
-				bonus = 1.00 
+				bonus = 1.00
 				ahead_reduction = 0.75
 				uses = 1
 				category = cat_heavy_armor
@@ -2565,7 +2565,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = ROM_torpedo_bombers
-				bonus = 2.00 
+				bonus = 2.00
 				uses = 1
 				category = dd_tech
 			}
@@ -2643,7 +2643,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = ROM_modern_submarines
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				category = ss_tech
 			}
@@ -2720,7 +2720,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = ROM_capital_ships
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 2
 				category = ca_tech
 				category = bb_tech
@@ -2762,7 +2762,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = ROM_torpedo_bombers
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				category = naval_bomber
 			}
@@ -2802,7 +2802,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = ROM_expand_the_marine_regiment
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 2
 				category = tp_tech
 				category = marine_tech

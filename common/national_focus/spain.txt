@@ -12,15 +12,15 @@ focus_tree = {
 	default = no
 	reset_on_civilwar = no
 
-focus = {   
+focus = {
 		id = SPR_flavour_one
 		icon = GFX_goal_generic_navy_battleship
-		
-				
-		
+
+
+
 		x = -3
 		y = 0
-	
+
 
 		cost = 4
 
@@ -29,9 +29,9 @@ focus = {
 		}
 
 		available = {
-			
+			NOT = { has_global_flag = ttfocus_disabled }
 		}
-		
+
 		bypass = {
 
 		}
@@ -58,13 +58,13 @@ focus = {
 
 		ai_will_do = {
 			factor = 1
-			
+
 		}
 
 		available = {
-			
+
 		}
-		
+
 		bypass = {
 
 		}
@@ -72,22 +72,22 @@ focus = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-        
+
 		complete_tooltip = {
-			
+
 		}
 
 		completion_reward = {
 		every_army_leader = {
 				add_attack = 1
 			}
-		
+
 		}
 	}
 
 focus = {
 		id = SPR_flavour_three
-		icon = GFX_goal_tfv_saf_anti_colonialist_crusade  
+		icon = GFX_goal_tfv_saf_anti_colonialist_crusade
 		prerequisite = { focus = SPR_flavour_one }
 		mutually_exclusive = { focus = SPR_flavour_two }
 		x = -1
@@ -98,24 +98,24 @@ focus = {
 
 		ai_will_do = {
 			factor = 1
-			
+
 		}
 
 		available = {
-			
+
 
 				}
-		
+
 		bypass = {
-			
+
 		}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = yes
-        
+
 		complete_tooltip = {
-			
+
 		}
 
 		completion_reward = {
@@ -124,10 +124,10 @@ focus = {
 			}
 		every_army_leader = {
 				add_logistics = 1
-			}	
+			}
 		}
 	}
-		
+
 	focus = {
 		id = SPR_flavour_four
 		icon = GFX_goal_generic_intelligence_exchange
@@ -143,10 +143,10 @@ focus = {
 			factor = 1
 		}
 
-		available = { 
+		available = {
 
 		}
-			
+
 		bypass = {
 
 		}
@@ -175,9 +175,9 @@ focus = {
 		}
 
 		available = {
-			
+
 		}
-		
+
 		bypass = {
 
 		}
@@ -187,7 +187,7 @@ focus = {
 		available_if_capitulated = no
 
 		complete_tooltip = {
-			
+
 		}
 
 		completion_reward = {
@@ -210,7 +210,7 @@ focus = {
 		}
 
 		available = {}
-		
+
 		bypass = {
 
 		}
@@ -220,7 +220,7 @@ focus = {
 		available_if_capitulated = no
 
 		complete_tooltip = {
-			
+
 		}
 
 		completion_reward = {
@@ -251,7 +251,7 @@ focus = {
 		}
 
 		available = {}
-		
+
 		bypass = {
 
 		}
@@ -261,7 +261,7 @@ focus = {
 		available_if_capitulated = no
 
 		complete_tooltip = {
-			
+
 		}
 
 		completion_reward = {
@@ -325,7 +325,7 @@ focus = {
 			}
 			add_tech_bonus = {
 				name = electronics_bonus
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				category = electronics
 			}
@@ -478,7 +478,7 @@ focus = {
 			}
 			add_tech_bonus = {
 				name = industrial_bonus
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				category = industry
 			}
@@ -665,7 +665,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = weapons_bonus
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				category = infantry_weapons
 				category = artillery
@@ -701,7 +701,7 @@ focus = {
 		ai_will_do = {
 			factor = 5
 		}
-	
+
 			completion_reward = {
 				set_technology = { synth_oil_experiments = 1 }
 				add_resource = {
@@ -720,8 +720,8 @@ focus = {
 						type = fuel_silo
 						level = 1
 						instant_build = yes
-					}					
-				}			
+					}
+				}
 			}
 		}
 
@@ -739,7 +739,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = synth_bonus
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				category = synth_resources
 			}
@@ -769,7 +769,7 @@ focus = {
 						type = fuel_silo
 						level = 1
 						instant_build = yes
-					}					
+					}
 				}
 		}
 	}
@@ -796,7 +796,7 @@ focus = {
 						type = fuel_silo
 						level = 1
 						instant_build = yes
-					}					
+					}
 			}
 		}
 	}
@@ -818,7 +818,7 @@ focus = {
 						type = synthetic_refinery
 						level = 2
 						instant_build = yes
-					}					
+					}
 			}
 		}
 	}
@@ -837,7 +837,7 @@ focus = {
 		air_experience = 10
 			add_tech_bonus = {
 				name = SPR_Air_bonus
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				category = air_doctrine
 			}
@@ -886,7 +886,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = SPR_Fighters
-				bonus = 1.00 
+				bonus = 1.00
 				technology = fighter1
 				technology = fighter2
 			}
@@ -909,7 +909,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = SPR_CAS_Bonus
-				bonus = 1.00 
+				bonus = 1.00
 				technology = CAS1
 				technology = CAS2
 				technology = CAS3
@@ -933,7 +933,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = SPR_Tac_Bonus
-				bonus = 1.00 
+				bonus = 1.00
 				technology = tactical_bomber1
 				technology = tactical_bomber2
 				category = naval_bomber
@@ -957,7 +957,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = SPR_Tac_Bonus
-				bonus = 1.00 
+				bonus = 1.00
 				technology = strategic_bomber1
 				technology = strategic_bomber2
 				technology = strategic_bomber3
@@ -980,7 +980,7 @@ focus = {
 		air_experience = 10
 			add_tech_bonus = {
 				name = SPR_Air_bonus
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 2
 				category = battlefield_support_tree
 			}
@@ -1002,7 +1002,7 @@ focus = {
 		air_experience = 10
 			add_tech_bonus = {
 				name = SPR_Air_bonus_2
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 2
 				category = operational_integrity_tree
 			}
@@ -1024,7 +1024,7 @@ focus = {
 		air_experience = 10
 			add_tech_bonus = {
 				name = SPR_Air_bonus_3
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 2
 				category = strategic_destruction_tree
 			}
@@ -1217,7 +1217,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = SPR_Nuclear_Bonus
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 2
 				category = nuclear
 				category = rocketry
@@ -1242,7 +1242,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = SPR_Doc_Bonus
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				category = land_doctrine
 			}
@@ -1265,7 +1265,7 @@ focus = {
 			add_tech_bonus = {
 				name = SPR_eq_bonus
 				uses = 1
-				bonus = 1.00 
+				bonus = 1.00
 				category = infantry_weapons
 				category = artillery
 			}
@@ -1288,7 +1288,7 @@ focus = {
 		army_experience = 5
 			add_tech_bonus = {
 				name = SPR_Mot
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				technology = motorised_infantry
 			}
@@ -1309,7 +1309,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = SPR_Mot
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 2
 				category = cat_light_armor
 				category = cat_mechanized_equipment
@@ -1331,7 +1331,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = SPR_Tanks
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				category = armor
 				}
@@ -1351,7 +1351,7 @@ focus = {
 			army_experience = 30
 			add_tech_bonus = {
 				name = SPR_Doc_Bonus_4
-				bonus = 0.65 
+				bonus = 0.65
 				uses = 1
 				category = land_doctrine
 			}
@@ -1373,7 +1373,7 @@ focus = {
 		army_experience = 5
 			add_tech_bonus = {
 				name = SPR_Doc_Bonus
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				category = land_doctrine
 			}
@@ -1395,7 +1395,7 @@ focus = {
 		army_experience = 5
 			add_tech_bonus = {
 				name = SPR_Doc_Bonus
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				category = land_doctrine
 			}
@@ -1416,7 +1416,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = SPR_Art_bonus
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				category = artillery
 				category = cat_anti_tank
@@ -1438,14 +1438,14 @@ focus = {
 			completion_reward = {
 			add_tech_bonus = {
 				name = SPR_Comb_Bonus
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				category = infantry_weapons
 				category = artillery
 				}
 			add_tech_bonus = {
 				name = SPR_Doc_Bonus_3
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				category = land_doctrine
 				}

@@ -14,15 +14,15 @@ focus_tree = {
 
 	default = no
 
-focus = {   
+focus = {
 		id = GER_flavour_one
 		icon = GFX_goal_generic_navy_battleship
 
-		
-		
+
+
 		x = -3
 		y = 0
-	
+
 
 		cost = 4
 
@@ -31,9 +31,9 @@ focus = {
 		}
 
 		available = {
-			
+			NOT = { has_global_flag = ttfocus_disabled }
 		}
-		
+
 		bypass = {
 
 		}
@@ -60,13 +60,13 @@ focus = {
 
 		ai_will_do = {
 			factor = 1
-			
+
 		}
 
 		available = {
-			
+
 		}
-		
+
 		bypass = {
 
 		}
@@ -74,20 +74,20 @@ focus = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-        
+
 		complete_tooltip = {
-			
+
 		}
 
 		completion_reward = {
 		add_ideas = dense_combat_stimulants
-		
+
 		}
 	}
 
 focus = {
 		id = GER_flavour_three
-		icon = GFX_goal_tfv_saf_anti_colonialist_crusade  
+		icon = GFX_goal_tfv_saf_anti_colonialist_crusade
 		prerequisite = { focus = GER_flavour_one }
 		mutually_exclusive = { focus = GER_flavour_two }
 		x = -1
@@ -98,31 +98,31 @@ focus = {
 
 		ai_will_do = {
 			factor = 1
-			
+
 		}
 
 		available = {
-			
+
 
 				}
-		
+
 		bypass = {
-			
+
 		}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = yes
-        
+
 		complete_tooltip = {
-			
+
 		}
 
 		completion_reward = {
         add_ideas = light_combat_stimulants
 		}
 	}
-		
+
 	focus = {
 		id = GER_flavour_four
 		icon = GFX_goal_generic_intelligence_exchange
@@ -138,10 +138,10 @@ focus = {
 			factor = 1
 		}
 
-		available = { 
+		available = {
 
 		}
-			
+
 		bypass = {
 
 		}
@@ -154,8 +154,8 @@ focus = {
 		  custom_effect_tooltip = GER_flavour_four_tt
 		  hidden_effect = {
 
-		  set_technology = { basic_medium_art = 1 }							
-			
+		  set_technology = { basic_medium_art = 1 }
+
         create_equipment_variant = {
 				name = "Improved Grille"
 				type = medium_tank_artillery_equipment_1
@@ -186,9 +186,9 @@ focus = {
 		}
 
 		available = {
-			
+
 		}
-		
+
 		bypass = {
 
 		}
@@ -198,13 +198,13 @@ focus = {
 		available_if_capitulated = no
 
 		complete_tooltip = {
-			
+
 		}
 
-		completion_reward = { 
+		completion_reward = {
 		custom_effect_tooltip = GER_flavour_five_tt
         hidden_effect = {
-		set_technology = { basic_medium_td = 1 }	
+		set_technology = { basic_medium_td = 1 }
 
         create_equipment_variant = {
 				name = "Improved Stug3"
@@ -239,7 +239,7 @@ focus = {
 		available = {
 		date > 1941.7.1
 		}
-		
+
 		bypass = {
 
 		}
@@ -249,13 +249,13 @@ focus = {
 		available_if_capitulated = no
 
 		complete_tooltip = {
-			
+
 		}
 
 		completion_reward = {
-		              
-		add_ideas = indoctrination_camps	
-		
+
+		add_ideas = indoctrination_camps
+
 		}
 	}
 	focus = {
@@ -274,9 +274,9 @@ focus = {
 		}
 
 		available = {
-		date > 1941.6.1	
+		date > 1941.6.1
 		}
-		
+
 		bypass = {
 
 		}
@@ -286,15 +286,15 @@ focus = {
 		available_if_capitulated = no
 
 		complete_tooltip = {
-			
+
 		}
 
 		completion_reward = {
-		              
+
 		add_ideas = labour_camps
 
 		SOV = { add_ideas = soviet_reaction }
-		
+
 		}
 	}
 
@@ -323,11 +323,11 @@ focus = {
 				limit = { FRA = { is_puppet = no } }
 				FRA = {
 					country_event = { id = germany.60 }
-				}					
+				}
 			}
 		}
 	}
-	
+
 	focus = {
 		id = GER_army_innovation
 		icon = GFX_goal_ger_heer
@@ -349,67 +349,67 @@ focus = {
 
 			add_tech_bonus = {
 				name = land_doc_bonus
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 2
 				category = land_doctrine
 			}
 
 			add_tech_bonus = {
 				name = land_doc_bonus
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				technology = improved_infantry_weapons
 			}
-			
+
 			add_tech_bonus = {
 				name = land_doc_bonus
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				technology = artillery1
 			}
-			
+
 			add_tech_bonus = {
 				name = land_doc_bonus
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
-				technology = antitank2 
+				technology = antitank2
 			}
-			
+
 			add_tech_bonus = {
 				name = land_doc_bonus
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				technology = tech_engineers2
 			}
-			
+
 			add_tech_bonus = {
 				name = land_doc_bonus
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				technology = tech_recon2
 			}
-			
+
 			add_tech_bonus = {
 				name = land_doc_bonus
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				technology = tech_signal_company2
 			}
-			
+
 			add_tech_bonus = {
 				name = land_doc_bonus
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				technology = tech_field_hospital2
 			}
 
 			add_tech_bonus = {
 				name = land_doc_bonus
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				technology = tech_field_hospital3
-			}			
-				
+			}
+
 			custom_effect_tooltip = available_chief_of_army
 			show_ideas_tooltip = walther_von_brauchitsch
 		}
@@ -428,10 +428,10 @@ focus = {
 		completion_reward = {
 			add_ideas = hjalmar_schacht
 
-			
+
 
 		}
-		
+
 	}
 
 	focus = {
@@ -585,7 +585,7 @@ focus = {
 			add_ideas = GER_ostwall_idea
 		}
 	}
-	
+
 	focus = {
 		id = GER_gothic_line
 		icon = GFX_goal_generic_construct_military
@@ -597,10 +597,10 @@ focus = {
 
 		cost = 5
 
-		available = {	
+		available = {
 				ITA = {
 					has_war_with = ENG
-				}			
+				}
 	}
 
 		continue_if_invalid = yes
@@ -611,24 +611,24 @@ focus = {
 				add_building_construction = { type = bunker province = 6973 level = 5 instant_build = yes }
 				add_building_construction = { type = bunker province = 1616 level = 5 instant_build = yes }
 				add_building_construction = { type = bunker province = 11889 level = 5 instant_build = yes }
-				add_building_construction = { type = bunker province = 9879 level = 5 instant_build = yes }				
-			}		
+				add_building_construction = { type = bunker province = 9879 level = 5 instant_build = yes }
+			}
 			157 = {
 				add_building_construction = { type = bunker province = 11861 level = 5 instant_build = yes }
-				add_building_construction = { type = bunker province = 967 level = 5 instant_build = yes }			
+				add_building_construction = { type = bunker province = 967 level = 5 instant_build = yes }
 			}
 			161 = {
 				add_building_construction = { type = bunker province = 9924 level = 5 instant_build = yes }
 				add_building_construction = { type = bunker province = 782 level = 5 instant_build = yes }
 				add_building_construction = { type = bunker province = 6985 level = 5 instant_build = yes }
 				add_building_construction = { type = bunker province = 3976 level = 5 instant_build = yes }
-				add_building_construction = { type = bunker province = 3773 level = 5 instant_build = yes }				
+				add_building_construction = { type = bunker province = 3773 level = 5 instant_build = yes }
 			}
 			158 = {
 				add_building_construction = { type = bunker province = 6788 level = 5 instant_build = yes }
-			}			
+			}
 	 }
-  }	
+  }
 
 	focus = {
 		id = GER_autarky
@@ -645,7 +645,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = GER_autarky
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 2
 				technology = excavation1
 				technology = excavation2
@@ -655,7 +655,7 @@ focus = {
 			}
 			add_tech_bonus = {
 				name = GER_four_year_plan
-				bonus = 1.5 
+				bonus = 1.5
 				uses = 1
 				technology = construction3
 			}
@@ -847,22 +847,22 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = GER_coal_liquidization
-				bonus = 2.00 
+				bonus = 2.00
 				uses = 1
 				category = synth_resources
 			}
-			
+
 			add_tech_bonus = {
 				name = GER_coal_liquidization
-				bonus = 2.00 
+				bonus = 2.00
 				uses = 1
-				technology = fuel_refining2	
+				technology = fuel_refining2
 			}
 			add_tech_bonus = {
 				name = GER_coal_liquidization
-				bonus = 2.00  
+				bonus = 2.00
 				uses = 1
-				technology = fuel_refining3	
+				technology = fuel_refining3
 			}
 			if = {
 				limit = {
@@ -882,7 +882,7 @@ focus = {
 						level = 3
 						instant_build = yes
 					}
-				}				
+				}
 			}
 		}
 	}
@@ -1013,7 +1013,7 @@ focus = {
 		}
 	}
 
-	
+
 	focus = {
 		id = GER_integrate_war_economies
 		icon = GFX_goal_generic_construct_mil_factory
@@ -1039,7 +1039,7 @@ focus = {
 		}
 
 		available_if_capitulated = no
-		
+
 		complete_tooltip = {
 			every_state = {
 				limit = { has_state_flag = GER_integrate_war_economies_1 }
@@ -1100,10 +1100,10 @@ focus = {
 				}
 			}
 		}
-		
+
 		completion_reward = {
-			HUN = { add_war_support = 0.3 } 
-			ROM = { add_war_support = 0.3 } 
+			HUN = { add_war_support = 0.3 }
+			ROM = { add_war_support = 0.3 }
 			if = {
 				limit = {
 
@@ -1258,7 +1258,7 @@ focus = {
 			}
 		}
 	}
-	
+
 	focus = {
 		id = GER_german_war_economy
 		icon = GFX_goal_generic_construct_mil_factory
@@ -1275,10 +1275,10 @@ focus = {
 		available = {
 			has_war_support > 0.49
 		}
-		
+
 		cancel_if_invalid = no
-		continue_if_invalid = yes		
-		
+		continue_if_invalid = yes
+
 		complete_tooltip = {
 			every_state = {
 				limit = { has_state_flag = GER_german_war_economy }
@@ -1371,7 +1371,7 @@ focus = {
 					instant_build = yes
 				}
 				set_state_flag = GER_german_war_economy
-			}			
+			}
 		}
 	}
 
@@ -1397,31 +1397,31 @@ focus = {
 				uses = 1
 				technology = fighter2
 			}
-		
+
 			add_ideas = GER_air_innovations_2_idea
 
-			51 = { 
+			51 = {
 				add_building_construction = {
 					type = air_base
 					level = 6
 					instant_build = yes
 				}
 			}
-			42 = { 
+			42 = {
 				add_building_construction = {
 					type = air_base
 					level = 4
 					instant_build = yes
 				}
 			}
-			50 = { 
+			50 = {
 				add_building_construction = {
 					type = air_base
 					level = 7
 					instant_build = yes
 				}
 			}
-			57 = { 
+			57 = {
 				add_building_construction = {
 					type = air_base
 					level = 2
@@ -1452,14 +1452,14 @@ focus = {
 			air_experience = 150
 			add_tech_bonus = {
 				name = op_dest_bonus
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 2
 				category = air_doctrine
 			}
 			add_tech_bonus = {
 				name = bomber_bonus
-				bonus = 1.00 
-				ahead_reduction = 2.0 
+				bonus = 1.00
+				ahead_reduction = 2.0
 				uses = 1
 				category = cas_bomber
 			}
@@ -1483,7 +1483,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = GER_long_range_escorts
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				category = cat_heavy_fighter
 			}
@@ -1509,7 +1509,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = nav_bomber_bonus
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				category = naval_bomber
 			}
@@ -1535,14 +1535,14 @@ focus = {
 			air_experience = 150
 			add_tech_bonus = {
 				name = strat_dest_bonus
-				bonus = 1.00				
+				bonus = 1.00
 				uses = 2
 				category = air_doctrine
 			}
 			add_tech_bonus = {
 				name = bomber_bonus
-				bonus = 1.00 
-				ahead_reduction = 2.0 
+				bonus = 1.00
+				ahead_reduction = 2.0
 				uses = 1
 				category = cat_strategic_bomber
 			}
@@ -1553,14 +1553,14 @@ focus = {
 		id = GER_soviet_treaty
 		icon = GFX_goal_generic_scientific_exchange
 		prerequisite = { focus = GER_army_innovation }
-		
+
 		#cancel = {
 		#	OR = {
 		#		has_war_with = SOV
 		#		NOT = { country_exists = SOV }
 		#	}
 		#}
-	
+
 
 		x = 0
 		y = 2
@@ -1579,26 +1579,26 @@ focus = {
 				# Trade influence with the USSR? Or simply let the opinion mod do the work
 				add_tech_bonus = {
 					name = med_armor_bonus
-					bonus = 2.00 
+					bonus = 2.00
 					technology = basic_medium_tank
 				}
 				add_tech_bonus = {
 					name = GER_soviet_treaty
-					bonus = 2.00 
+					bonus = 2.00
 					technology = basic_medium_td
 				}
 				add_tech_bonus = {
 					name = GER_soviet_treaty
-					bonus = 2.00 
+					bonus = 2.00
 					technology = basic_medium_art
 				}
 				add_tech_bonus = {
 					name = GER_soviet_treaty
-					bonus = 2.00 
+					bonus = 2.00
 					technology = basic_medium_spaa
 				}
 				# Balance research bonus to 2 techs in armor, also in event
-				
+
 			}
 		}
 	}
@@ -1621,14 +1621,14 @@ focus = {
 			air_experience = 50
 			add_tech_bonus = {
 				name = air_sup_bonus
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 3
 				category = air_doctrine
 			}
 			# Balance research bonus to next tech among radio, radio_detection, decimetric_radar, improved_decimetric_radar, centimetric_radar, improved_centimetric_radar, advanced_centimetric_radar
 			add_tech_bonus = {
 				name = radar_tech_bonus
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 3
 				category = radar_tech
 			}
@@ -1663,40 +1663,40 @@ focus = {
 			army_experience = 50
 			add_tech_bonus = {
 				name = land_doc_bonus
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 2
 				category = land_doctrine
-			}	
+			}
 			add_tech_bonus = {
 				bonus = 1.00
 				uses = 1
 				ahead_reduction = 1.0
 				name = mech_army_bonus
-				technology = improved_medium_tank				
+				technology = improved_medium_tank
 			}
 			add_tech_bonus = {
 				bonus = 0.75
 				uses = 1
 				name = mech_army_bonus
-				technology = advanced_light_tank								
+				technology = advanced_light_tank
 				technology = improved_heavy_tank
-				technology = advanced_heavy_tank				
+				technology = advanced_heavy_tank
 			}
 			add_tech_bonus = {
 				bonus = 0.00
 				uses = 1
 				ahead_reduction = 4.0
 				name = mech_army_TD_bonus
-				technology = advanced_light_td				
+				technology = advanced_light_td
 				technology = improved_medium_td
 				technology = improved_heavy_td
-			}			
+			}
 			add_tech_bonus = {
 				bonus = 0.00
 				uses = 1
 				ahead_reduction = 4.0
 				name = mech_army_ART_bonus
-				technology = advanced_light_art				
+				technology = advanced_light_art
 				technology = improved_medium_art
 				technology = improved_heavy_art
 			}
@@ -1705,18 +1705,18 @@ focus = {
 				uses = 1
 				ahead_reduction = 4.0
 				name = mech_army_SPAA_bonus
-				technology = advanced_light_spaa				
+				technology = advanced_light_spaa
 				technology = improved_medium_spaa
 				technology = improved_heavy_spaa
-			}		
+			}
 			add_tech_bonus = {
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				name = mech_army_bonus
 				category = cat_mechanized_2
 			}
 			add_tech_bonus = {
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				name = mech_army_bonus
 				category = cat_mechanized_1
@@ -1728,12 +1728,12 @@ focus = {
 
 
 
-	
+
 	focus = {
 		id = GER_extra_tech_slot_2
 		icon = GFX_focus_research
 		prerequisite = { focus = GER_army_innovation_2 }
-		prerequisite = { focus = GER_air_innovation_2 }		
+		prerequisite = { focus = GER_air_innovation_2 }
 		x = -2
 		y = 1
 		relative_position_id = GER_air_innovation_2
@@ -1759,7 +1759,7 @@ focus = {
 					GER = { controls_state = 110 }
 					GER = { controls_state = 6 }
 					GER = { controls_state = 7 }
-					GER = { controls_state = 16 }					
+					GER = { controls_state = 16 }
 				}
 				OR = {
 					ITA = { controls_state = 446 }
@@ -1774,15 +1774,15 @@ focus = {
 			add_research_slot = 1
 			add_tech_bonus = {
 				name = secret_bonus
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 2
 				category = electronics
 				category = nuclear
-			}					
+			}
 		}
 	}
-	
-	
+
+
 	focus = {
 		id = GER_rocketry_focus
 		icon = GFX_focus_rocketry
@@ -1809,7 +1809,7 @@ focus = {
 					level = 1
 					instant_build = yes
 				}
-			}			
+			}
 			6 = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
@@ -1827,9 +1827,9 @@ focus = {
 				}
 			}
 		}
-	}	
-	
-	
+	}
+
+
 	focus = {
 		id = GER_wunderwaffe
 		icon = GFX_focus_wonderweapons
@@ -1841,7 +1841,7 @@ focus = {
 		ai_will_do = {
 			factor = 1
 		}
-		
+
 		available_if_capitulated = yes
 
 		completion_reward = {
@@ -1854,13 +1854,13 @@ focus = {
 			add_tech_bonus = {
 				name = advanced_rocket_engines
 				uses = 1
-				ahead_reduction = 1				
+				ahead_reduction = 1
 				technology = advanced_rocket_engines
-			}				
+			}
 		}
 	}
-	
-	
+
+
 	focus = {
 		id = GER_anschluss
 		icon = GFX_goal_anschluss
@@ -2016,7 +2016,7 @@ focus = {
 			}
 		}
 	}
-	
+
 	focus = {
 		id = GER_demand_memel
 		icon = GFX_goal_generic_forceful_treaty
@@ -2057,7 +2057,7 @@ focus = {
 			}
 		}
 	}
-	
+
 	focus = {
 		id = GER_danzig_or_war
 		icon = GFX_goal_generic_demand_territory
@@ -2074,7 +2074,7 @@ focus = {
 					original_tag = POL
 				}
 			}
-		
+
 		}
 
 		bypass = {
@@ -2122,25 +2122,25 @@ focus = {
 			}
 			GER = {
 				give_resource_rights = { receiver = ROM state = 54 }
-			}			
-			hidden_effect = { 
+			}
+			hidden_effect = {
 				ENG = { add_ideas = war_economy }
 				country_event = { id = pfu.18 days = 30 }
-				FRA = { 
-					transfer_navy = { 
-						target = VEN 
+				FRA = {
+					transfer_navy = {
+						target = VEN
 					}
 					remove_state_core = 17
-					remove_state_core = 28					
+					remove_state_core = 28
 				}
 				ENG = { add_to_faction = POL }
-				ENG = { add_to_faction = FRA }				
+				ENG = { add_to_faction = FRA }
 				if = {
 					limit = {
-						HUN = { is_ai = no }						
+						HUN = { is_ai = no }
 					}
 					GER = { add_to_faction = HUN }
-					
+
 					HUN = {
 						declare_war_on = {
 							target = ENG
@@ -2149,16 +2149,16 @@ focus = {
 							declare_war_on = {
 							target = POL
 							type = annex_everything
-						}					
+						}
 					}
 				}
 
 				if = {
 					limit = {
-						ROM = { is_ai = no }						
+						ROM = { is_ai = no }
 					}
 					GER = { add_to_faction = ROM }
-					
+
 					ROM = {
 						declare_war_on = {
 							target = ENG
@@ -2167,16 +2167,16 @@ focus = {
 							declare_war_on = {
 							target = POL
 							type = annex_everything
-						}					
+						}
 					}
 				}
 
 				if = {
 					limit = {
-						BUL = { is_ai = no }						
+						BUL = { is_ai = no }
 					}
 					GER = { add_to_faction = BUL }
-					
+
 					BUL = {
 						declare_war_on = {
 							target = ENG
@@ -2185,10 +2185,10 @@ focus = {
 							declare_war_on = {
 							target = POL
 							type = annex_everything
-						}					
+						}
 					}
 				}
-				
+
 			}
 
 			if = {
@@ -2249,7 +2249,7 @@ focus = {
 						target = NZL
 						type = annex_everything
 					}
-				}				
+				}
 			}
 			if = {
 				limit = {
@@ -2279,7 +2279,7 @@ focus = {
 			}
 		}
 	}
-	
+
 	focus = {
 		id = GER_around_maginot
 		icon = GFX_goal_generic_attack_allies
@@ -2351,7 +2351,7 @@ focus = {
 			}
 		}
 		completion_reward = {
-			#Unlocks decision to declare war 
+			#Unlocks decision to declare war
 			custom_effect_tooltip = GER_fall_gelb_tooltip
 			unlock_decision_tooltip = GER_fall_gelb
 			hidden_effect = {
@@ -2359,7 +2359,7 @@ focus = {
 			}
 		}
 	}
-	
+
 	focus = {
 		id = GER_war_with_france
 		icon = GFX_goal_generic_major_war
@@ -2402,7 +2402,7 @@ focus = {
  			}
 		}
 	}
-	
+
 	focus = {
 		id = GER_ussr_war_goal
 		icon = GFX_goal_generic_war_with_comintern
@@ -2415,7 +2415,7 @@ focus = {
 		y = 1
 		relative_position_id = GER_war_with_france
 		cost = 1
-		
+
 		available = {
 			date > 1941.1.1
 		}
@@ -2458,14 +2458,14 @@ focus = {
 	}
 }
 
-	
+
 	focus = { #should already be signed in 39
 		id = GER_mol_rib_pact
 		icon = GFX_goal_molotov_ribbentrop_pact
 		prerequisite = { focus = GER_demand_memel }
 		prerequisite = { focus = GER_end_of_czechoslovakia }
 		available = {
-			has_completed_focus = GER_soviet_treaty 
+			has_completed_focus = GER_soviet_treaty
 			is_puppet = no
 			has_government = fascism
 			SOV = {
@@ -2495,7 +2495,7 @@ focus = {
 				custom_effect_tooltip = GER_mol_rib_pact_tt
 				add_named_threat = { threat = 5 name = GER_mol_rib_pact }
 			}
-			add_named_threat = { threat = 5 name = GER_mol_rib_pact } 
+			add_named_threat = { threat = 5 name = GER_mol_rib_pact }
 		}
 	}
 
@@ -2546,7 +2546,7 @@ focus = {
 
 			add_tech_bonus = {
 				name = tp_bonus
-				bonus = 1.00 
+				bonus = 1.00
 				ahead_reduction = 1
 				uses = 1
 				technology = transport
@@ -2558,21 +2558,21 @@ focus = {
 			}
 		}
 	}
-	
+
 	focus = {
 		id = GER_crush_yugoslavia
 		icon = GFX_goal_military_mission
 		prerequisite = { focus = GER_danzig_or_war }
 
 		available = {
-			
+
 		}
 
 		bypass = {
 			YUG = {
 				OR = {
 					has_war_with = ROOT
-					exists = no 
+					exists = no
 				}
 			}
 		}
@@ -2621,7 +2621,7 @@ focus = {
 					generator = { 6 }
 				}
 			}
-	
+
 		}
 	}
 
@@ -2855,7 +2855,7 @@ focus = {
 			}
 		}
 	}
-	
+
 	focus = {
 		id = GER_naval_rearmament
 		icon = GFX_goal_der_kriegsmarine
@@ -2915,7 +2915,7 @@ focus = {
 			}
 		}
 	}
-	
+
 	focus = {
 		id = GER_naval_effort
 		text = naval_effort
@@ -2936,14 +2936,14 @@ focus = {
 
 			add_tech_bonus = {
 				name = dd_bonus
-				bonus = 1.00 
+				bonus = 1.00
 				ahead_reduction = 1
 				uses = 1
 				category = dd_tech
 			}
 			add_tech_bonus = {
 				name = cr_bonus
-				bonus = 1.00 
+				bonus = 1.00
 				ahead_reduction = 1
 				uses = 1
 				category = cl_tech
@@ -2955,14 +2955,14 @@ focus = {
 			navy_experience = 25
 			add_tech_bonus = {
 				name = dd_bonus
-				bonus = 1.00 
+				bonus = 1.00
 				ahead_reduction = 1
 				uses = 1
 				category = dd_tech
 			}
 			add_tech_bonus = {
 				name = cr_bonus
-				bonus = 1.00 
+				bonus = 1.00
 				ahead_reduction = 1
 				uses = 1
 				category = cl_tech
@@ -3022,7 +3022,7 @@ focus = {
 		cost = 5
 		ai_will_do = {
 			factor = 0.25
-		}	
+		}
 
 		available_if_capitulated = yes
 
@@ -3030,14 +3030,14 @@ focus = {
 			navy_experience = 50
 			add_tech_bonus = {
 				name = bc_bonus
-				bonus = 1.00 
+				bonus = 1.00
 				ahead_reduction = 1
 				uses = 1
 				category = bc_tech
 			}
 			add_tech_bonus = {
 				name = bb_bonus
-				bonus = 1.00 
+				bonus = 1.00
 				ahead_reduction = 1
 				uses = 1
 				category = bb_tech
@@ -3045,7 +3045,7 @@ focus = {
 			}
 			add_tech_bonus = {
 				name = cv_bonus
-				bonus = 1.00 
+				bonus = 1.00
 				ahead_reduction = 1
 				uses = 1
 				category = cv_tech
@@ -3056,14 +3056,14 @@ focus = {
 			navy_experience = 50
 			add_tech_bonus = {
 				name = bc_bonus
-				bonus = 1.00 
+				bonus = 1.00
 				ahead_reduction = 1
 				uses = 1
 				category = bc_tech
 			}
 			add_tech_bonus = {
 				name = bb_bonus
-				bonus = 1.00 
+				bonus = 1.00
 				ahead_reduction = 1
 				uses = 1
 				category = bb_tech
@@ -3071,7 +3071,7 @@ focus = {
 			}
 			add_tech_bonus = {
 				name = cv_bonus
-				bonus = 1.00 
+				bonus = 1.00
 				ahead_reduction = 1
 				uses = 1
 				category = cv_tech
@@ -3098,17 +3098,17 @@ focus = {
 			navy_experience = 25
 			add_tech_bonus = {
 				name = GER_u_boat_effort
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				category = ss_tech
 			}
 		}
-		
+
 		completion_reward = {
 			navy_experience = 25
 			add_tech_bonus = {
 				name = GER_u_boat_effort
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				category = ss_tech
 			}
@@ -3126,14 +3126,14 @@ focus = {
 		ai_will_do = {
 			factor = 1
 		}
-			
+
 		available_if_capitulated = yes
 
 		completion_reward = {
 			add_tech_bonus = {
 				name = ti_bonus
 				name = GER_trade_interdiction
-				bonus = 1.25 
+				bonus = 1.25
 				uses = 3
 				category = trade_interdiction_tree
 			}
@@ -3151,7 +3151,7 @@ focus = {
 		ai_will_do = {
 			factor = 1
 		}
-			
+
 		available_if_capitulated = yes
 
 		completion_reward = {
@@ -3171,7 +3171,7 @@ focus = {
 			factor = 10
 		}
 		available = {
-			has_war_with = SOV 
+			has_war_with = SOV
 		}
 		completion_reward = {
 			add_war_support = 0.20
@@ -3180,8 +3180,8 @@ focus = {
 		}
 	}
 
-	##Below is content from PFU-mod. Ger_flak_36 combined with some Spot bonuses as well (anti air in provinces)## 
-	
+	##Below is content from PFU-mod. Ger_flak_36 combined with some Spot bonuses as well (anti air in provinces)##
+
 	focus = {
 		id = GER_flak_36
 		icon = GFX_goal_generic_army_artillery
@@ -3263,12 +3263,12 @@ focus = {
 					}
 			add_tech_bonus = {
 				name = anti_air
-				bonus = 1.5 
-				ahead_reduction = 2.0 
+				bonus = 1.5
+				ahead_reduction = 2.0
 				uses = 6
 				category = cat_antiair
 			}
-			
+
 		}
 	}
 
@@ -3297,9 +3297,9 @@ focus = {
 			}
 			add_tech_bonus = {
 				name = Rasenai_Panther_bonus
-				bonus = 1.5 
+				bonus = 1.5
 				uses = 1
-				ahead_reduction = 1 
+				ahead_reduction = 1
 				technology = advanced_medium_tank
 				technology = advanced_heavy_tank
 			}
@@ -3308,16 +3308,16 @@ focus = {
 				uses = 1
 				ahead_reduction = 2.0
 				name = Rasenai_TD_bonus
-				technology = advanced_light_td				
+				technology = advanced_light_td
 				technology = advanced_medium_td
 				technology = advanced_heavy_td
-			}			
+			}
 			add_tech_bonus = {
 				bonus = 0.00
 				uses = 1
 				ahead_reduction = 2.0
 				name = Rasenai_ART_bonus
-				technology = advanced_light_art				
+				technology = advanced_light_art
 				technology = advanced_medium_art
 				technology = advanced_heavy_art
 			}
@@ -3326,21 +3326,21 @@ focus = {
 				uses = 1
 				ahead_reduction = 2.0
 				name = Rasenai_SPAA_bonus
-				technology = advanced_light_spaa				
+				technology = advanced_light_spaa
 				technology = advanced_medium_spaa
 				technology = advanced_heavy_spaa
-			}					
+			}
 			add_tech_bonus = {
 				name = at_bonus
-				bonus = 1.5 
+				bonus = 1.5
 				uses = 4
 				ahead_reduction = 0.25
 				category = cat_anti_tank
 				}
 			}
 		}
-	
-	
+
+
 	focus = {
 		id = GER_foreign_ss
 		icon = GFX_goal_generic_SS_focus
@@ -3363,8 +3363,8 @@ focus = {
 		}
 	}
 
-	
-	
+
+
 	focus = {
 		id = GER_me262
 		icon = GFX_goal_generic_air_fighter2
@@ -3386,7 +3386,7 @@ focus = {
 			set_technology = { jet_engines = 1 }
 			add_tech_bonus = {
 				name = ta152_bonus
-				ahead_reduction = 5.0  
+				ahead_reduction = 5.0
 				bonus = 1.00
 				uses = 1
 				technology = fighter3
@@ -3400,5 +3400,3 @@ focus = {
 			}
 		}
 	}
-	
-	

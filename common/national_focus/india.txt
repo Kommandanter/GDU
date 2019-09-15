@@ -14,14 +14,14 @@ focus_tree = {
 	default = no
 
 
-focus = {   
+focus = {
 		id = RAJ_flavour_one
 		icon = GFX_goal_generic_navy_battleship
 
-		
+
 		x = -3
 		y = 0
-	
+
 
 		cost = 4
 
@@ -30,9 +30,9 @@ focus = {
 		}
 
 		available = {
-			
+			NOT = { has_global_flag = ttfocus_disabled }
 		}
-		
+
 		bypass = {
 
 		}
@@ -58,13 +58,13 @@ focus = {
 
 		ai_will_do = {
 			factor = 1
-			
+
 		}
 
 		available = {
-			
+
 		}
-		
+
 		bypass = {
 
 		}
@@ -72,20 +72,20 @@ focus = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-        
+
 		complete_tooltip = {
-			
+
 		}
 
 		completion_reward = {
 		add_ideas = RAJ_flavour_two_idea
-		
+
 		}
 	}
 
 focus = {
 		id = RAJ_flavour_three
-		icon = GFX_goal_tfv_saf_anti_colonialist_crusade  
+		icon = GFX_goal_tfv_saf_anti_colonialist_crusade
 		prerequisite = { focus = RAJ_flavour_one }
 		mutually_exclusive = { focus = RAJ_flavour_two }
 		x = -1
@@ -96,31 +96,31 @@ focus = {
 
 		ai_will_do = {
 			factor = 1
-			
+
 		}
 
 		available = {
-			
+
 
 				}
-		
+
 		bypass = {
-			
+
 		}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = yes
-        
+
 		complete_tooltip = {
-			
+
 		}
 
 		completion_reward = {
 		add_ideas = RAJ_flavour_three_idea
 		}
 	}
-		
+
 	focus = {
 		id = RAJ_flavour_four
 		icon = GFX_goal_generic_intelligence_exchange
@@ -136,10 +136,10 @@ focus = {
 			factor = 1
 		}
 
-		available = { 
+		available = {
 
 		}
-			
+
 		bypass = {
 
 		}
@@ -168,9 +168,9 @@ focus = {
 		}
 
 		available = {
-			
+
 		}
-		
+
 		bypass = {
 
 		}
@@ -180,7 +180,7 @@ focus = {
 		available_if_capitulated = no
 
 		complete_tooltip = {
-			
+
 		}
 
 		completion_reward = {
@@ -206,7 +206,7 @@ focus = {
 		date > 1941.4.4
 		ENG = { controls_state = 422 }
 		}
-		
+
 		bypass = {
 
 		}
@@ -216,7 +216,7 @@ focus = {
 		available_if_capitulated = no
 
 		complete_tooltip = {
-			
+
 		}
 
 		completion_reward = {
@@ -231,7 +231,7 @@ focus = {
 					type = rubber
 					amount = 40
 				}
-			}	
+			}
 		}
 	}
 	focus = {
@@ -253,7 +253,7 @@ focus = {
         date > 1941.4.4
         ENG = { controls_state = 422 }
 		}
-		
+
 		bypass = {
 
 		}
@@ -263,7 +263,7 @@ focus = {
 		available_if_capitulated = no
 
 		complete_tooltip = {
-			
+
 		}
 
 		completion_reward = {
@@ -697,7 +697,7 @@ focus = {
 			army_experience = 20
 			add_tech_bonus = {
 				name = RAJ_british_army_support
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				category = support_tech
 			}
@@ -818,7 +818,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = RAJ_lessons_of_the_great_war
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				category = land_doctrine
 			}
@@ -903,7 +903,7 @@ focus = {
 			add_ideas = RAJ_indian_gurkhas
 				add_tech_bonus = {
 				name = RAJ_chindits
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 2
 				category = mountaineers_tech
 			}
@@ -1176,7 +1176,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = RAJ_the_bangalore_torpedo
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 2
 				category = engineers_tech
 			}
@@ -1216,7 +1216,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = RAJ_vickers_berthier_gun
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				category = infantry_weapons
 			}
@@ -1257,7 +1257,7 @@ focus = {
 			army_experience = 10
 			add_tech_bonus = {
 				name = RAJ_royal_indian_artillery
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				category = artillery
 			}
@@ -1297,7 +1297,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = RAJ_army_motorization
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				category = motorized_equipment
 			}
@@ -1381,8 +1381,8 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = RAJ_indian_armor
-				bonus = 1.00 
-				ahead_reduction = 0.5 
+				bonus = 1.00
+				ahead_reduction = 0.5
 				uses = 1
 				category = cat_light_armor
 				category = cat_medium_armor
@@ -1424,7 +1424,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = RAJ_modernizing_army
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				category = land_doctrine
 			}
@@ -1503,7 +1503,7 @@ focus = {
 			air_experience = 25
 			add_tech_bonus = {
 				name = RAJ_british_pilot_training
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				category = air_doctrine
 			}
@@ -1543,14 +1543,14 @@ focus = {
 						type = air_base
 						level = 5
 						instant_build = yes
-					}					
+					}
 			}
 			431  = {
 					add_building_construction = {
 						type = air_base
 						level = 5
 						instant_build = yes
-					}					
+					}
 			}
 		}
 
@@ -1621,7 +1621,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = RAJ_air_support_effort
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				technology = tactical_bomber1
 				technology = tactical_bomber2
@@ -1665,7 +1665,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = RAJ_fighter_effort
-				bonus = 0.5 
+				bonus = 0.5
 				uses = 1
 				technology = early_fighter
 				technology = fighter1
@@ -1716,7 +1716,7 @@ focus = {
 			air_experience = 25
 			add_tech_bonus = {
 				name = RAJ_royal_indian_air_force
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				category = air_doctrine
 			}
@@ -1757,7 +1757,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = RAJ_the_smiling_buddha
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				category = nuclear
 			}
@@ -2252,7 +2252,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = RAJ_royal_indian_navy
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				category = naval_doctrine
 			}
@@ -2447,7 +2447,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = RAJ_modernizing_navy
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 2
 				category = naval_doctrine
 			}

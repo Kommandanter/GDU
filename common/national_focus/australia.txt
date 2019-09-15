@@ -25,15 +25,15 @@ focus_tree = {
 
 
 
-focus = {   
+focus = {
 		id = AST_flavour_one
 		icon = GFX_goal_generic_navy_battleship
 
-		
-		
+
+
 		x = -3
 		y = 0
-	
+
 
 		cost = 4
 
@@ -42,9 +42,9 @@ focus = {
 		}
 
 		available = {
-			
+			NOT = { has_global_flag = ttfocus_disabled }
 		}
-		
+
 		bypass = {
 
 		}
@@ -70,13 +70,13 @@ focus = {
 
 		ai_will_do = {
 			factor = 1
-			
+
 		}
 
 		available = {
-			
+
 		}
-		
+
 		bypass = {
 
 		}
@@ -84,20 +84,20 @@ focus = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-        
+
 		complete_tooltip = {
-			
+
 		}
 
 		completion_reward = {
 		add_ideas = AST_flavour_two_idea
-		
+
 		}
 	}
 
 focus = {
 		id = AST_flavour_three
-		icon = GFX_goal_tfv_saf_anti_colonialist_crusade  
+		icon = GFX_goal_tfv_saf_anti_colonialist_crusade
 		prerequisite = { focus = AST_flavour_one }
 		mutually_exclusive = { focus = AST_flavour_two }
 		x = -1
@@ -108,31 +108,31 @@ focus = {
 
 		ai_will_do = {
 			factor = 1
-			
+
 		}
 
 		available = {
-			
+
 
 				}
-		
+
 		bypass = {
-			
+
 		}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = yes
-        
+
 		complete_tooltip = {
-			
+
 		}
 
 		completion_reward = {
 		add_ideas = AST_flavour_three_idea
 		}
 	}
-		
+
 	focus = {
 		id = AST_flavour_four
 		icon = GFX_goal_generic_intelligence_exchange
@@ -148,10 +148,10 @@ focus = {
 			factor = 1
 		}
 
-		available = { 
-        
+		available = {
+
 		}
-			
+
 		bypass = {
 
 		}
@@ -180,9 +180,9 @@ focus = {
 		}
 
 		available = {
-			
+
 		}
-		
+
 		bypass = {
 
 		}
@@ -192,7 +192,7 @@ focus = {
 		available_if_capitulated = no
 
 		complete_tooltip = {
-			
+
 		}
 
 		completion_reward = {
@@ -215,7 +215,7 @@ focus = {
 		}
 
 		available = {}
-		
+
 		bypass = {
 
 		}
@@ -225,7 +225,7 @@ focus = {
 		available_if_capitulated = no
 
 		complete_tooltip = {
-			
+
 		}
 
 		completion_reward = {
@@ -248,7 +248,7 @@ focus = {
 		}
 
 		available = {}
-		
+
 		bypass = {
 
 		}
@@ -258,7 +258,7 @@ focus = {
 		available_if_capitulated = no
 
 		complete_tooltip = {
-			
+
 		}
 
 		completion_reward = {
@@ -298,7 +298,7 @@ focus = {
 			army_experience = 5
 			add_tech_bonus = {
 				name = AST_additional_militia_training
-				bonus = 0.5 
+				bonus = 0.5
 				uses = 1
 				category = land_doctrine
 			}
@@ -334,7 +334,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = AST_royal_australian_artillery
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				category = artillery
 			}
@@ -371,7 +371,7 @@ focus = {
 			army_experience = 5
 			add_tech_bonus = {
 				name = AST_promote_reservists
-				bonus = 0.5 
+				bonus = 0.5
 				uses = 1
 				category = land_doctrine
 			}
@@ -416,7 +416,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = motorized_bonus
-				bonus = 1.00 
+				bonus = 1.00
 				category = motorized_equipment
 			}
 		}
@@ -452,13 +452,13 @@ focus = {
 			army_experience = 5
 			add_tech_bonus = {
 				name = AST_hmas_assault
-				bonus = 0.5 
+				bonus = 0.5
 				uses = 1
 				category = land_doctrine
 			}
 			add_tech_bonus = {
 				name = AST_hmas_assault
-				bonus = 0.5 
+				bonus = 0.5
 				uses = 1
 				category = marine_tech
 			}
@@ -494,7 +494,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = AST_specialize_equipment
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				category = infantry_weapons
 				category = artillery
@@ -563,7 +563,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = AST_fund_owen_gun_research
-				bonus = 2.00 
+				bonus = 2.00
 				uses = 1
 				technology = tech_logistics_company
 				technology = tech_logistics_company2
@@ -604,7 +604,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = AST_fund_owen_gun_research
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				category = infantry_weapons
 			}
@@ -640,8 +640,8 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = AST_sentinel_tank_project
-				bonus = 1.00 
-				ahead_reduction = 1 
+				bonus = 1.00
+				ahead_reduction = 1
 				uses = 1
 				category = cat_light_armor
 				category = cat_medium_armor
@@ -679,7 +679,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = AST_airborne_defence
-				bonus = 2.00 
+				bonus = 2.00
 				uses = 1
 				category = para_tech
 			}
@@ -747,7 +747,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = AST_z_special_unit
-				bonus = 2.00 
+				bonus = 2.00
 				uses = 1
 				category = marine_tech
 				category = para_tech
@@ -788,7 +788,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = AST_m_special_unit
-				bonus = 1.00 
+				bonus = 1.00
 				ahead_reduction = 1
 				uses = 1
 				technology = tech_recon
@@ -834,18 +834,18 @@ focus = {
 						type = air_base
 						level = 5
 						instant_build = yes
-					}					
+					}
 			}
 			523  = {
 					add_building_construction = {
 						type = air_base
 						level = 5
 						instant_build = yes
-					}					
+					}
 			}
 			add_tech_bonus = {
 				name = AST_expand_the_raaf
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				category = air_doctrine
 			}
@@ -858,18 +858,18 @@ focus = {
 						type = air_base
 						level = 5
 						instant_build = yes
-					}					
+					}
 			}
 			523  = {
 					add_building_construction = {
 						type = air_base
 						level = 3
 						instant_build = yes
-					}					
+					}
 			}
 			add_tech_bonus = {
 				name = AST_expand_the_raaf
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				category = air_doctrine
 			}
@@ -909,7 +909,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = AST_cac_boomerang
-				bonus = 1.00 
+				bonus = 1.00
 				ahead_reduction = 1
 				uses = 1
 				technology = early_fighter
@@ -956,7 +956,7 @@ focus = {
 			}
 			add_tech_bonus = {
 				name = AST_expand_northern_presence
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				category = air_doctrine
 			}
@@ -973,7 +973,7 @@ focus = {
 			}
 			add_tech_bonus = {
 				name = AST_expand_northern_presence
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				category = air_doctrine
 			}
@@ -1009,7 +1009,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = AST_cac_woomera
-				bonus = 0.65 
+				bonus = 0.65
 				uses = 1
 				technology = strategic_bomber1
 				technology = strategic_bomber2
@@ -1057,7 +1057,7 @@ focus = {
 		complete_tooltip = {
 			add_tech_bonus = {
 				name = AST_volunteer_air_observers_corps
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				category = radar_tech
 			}
@@ -1096,7 +1096,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = AST_volunteer_air_observers_corps
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				category = radar_tech
 			}
@@ -1254,7 +1254,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = AST_naval_bombers
-				bonus = 1.00 
+				bonus = 1.00
 				ahead_reduction = 1
 				uses = 1
 				technology = naval_bomber1
@@ -1321,7 +1321,7 @@ focus = {
 			}
 			add_tech_bonus = {
 				name = AST_death_from_down_under
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				category = air_doctrine
 			}
@@ -1360,7 +1360,7 @@ focus = {
 
 			add_tech_bonus = {
 				name = AST_death_from_down_under
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				category = air_doctrine
 			}
@@ -1442,7 +1442,7 @@ focus = {
 			}
 			add_tech_bonus = {
 				name = AST_dominate_the_skies
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				category = air_doctrine
 			}
@@ -1459,7 +1459,7 @@ focus = {
 			}
 			add_tech_bonus = {
 				name = AST_expand_the_raaf
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				category = air_doctrine
 			}
@@ -1554,7 +1554,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = AST_protect_overseas_commerce
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 2
 				category = fleet_in_being_tree
 				category = convoy_defense_tree
@@ -1592,7 +1592,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = AST_fly_the_jolly_roger
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 2
 				category = submarine_doctrine
 			}
@@ -1628,7 +1628,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = AST_scrap_iron_flotilla
-				bonus = 1.00 
+				bonus = 1.00
 				ahead_reduction = 1
 				uses = 1
 				category = dd_tech
@@ -1737,7 +1737,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = AST_cruisers
-				bonus = 1.00 
+				bonus = 1.00
 				ahead_reduction = 1
 				uses = 1
 				category = cl_tech
@@ -1775,7 +1775,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = AST_pacific_area_navy
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				category = naval_doctrine
 			}
@@ -1836,13 +1836,13 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = industrial_bonus
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				category = industry
 			}
 		}
 	}
-	
+
 	focus = {
 		id = AST_army_inventions_directorate
 		icon = GFX_focus_research
@@ -2238,7 +2238,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = AST_uranium_mining
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 2
 				category = nuclear
 			}
@@ -3328,7 +3328,7 @@ focus = {
 			swap_ideas = {
 				remove_idea = GDU_refinery_prebuild_disincentive
 				add_idea = AST_synthetic_rubber
-			}			
+			}
 			add_tech_bonus = {
 				name = AST_rubber
 				bonus = 1

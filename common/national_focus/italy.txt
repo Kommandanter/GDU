@@ -14,15 +14,15 @@ focus_tree = {
 
 	continuous_focus_position = { x = 50 y = 1100 }
 
-focus = {   
+focus = {
 		id = ITA_flavour_one
 		icon = GFX_goal_generic_navy_battleship
 
-		
-		
+
+
 		x = -3
 		y = 0
-	
+
 
 		cost = 4
 
@@ -31,9 +31,9 @@ focus = {
 		}
 
 		available = {
-			
+			NOT = { has_global_flag = ttfocus_disabled }
 		}
-		
+
 		bypass = {
 
 		}
@@ -61,13 +61,13 @@ focus = {
 
 		ai_will_do = {
 			factor = 1
-			
+
 		}
 
 		available = {
-		date > 1937.6.6	
+		date > 1937.6.6
 		}
-		
+
 		bypass = {
 
 		}
@@ -75,22 +75,22 @@ focus = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-        
+
 		complete_tooltip = {
-			
+
 		}
 
 		completion_reward = {
 		custom_effect_tooltip = ITA_flavour_two_tt
 		hidden_effect = { set_technology = { artillery1 = 1 } }
-		
-		
+
+
 		}
 	}
 
 focus = {
 		id = ITA_flavour_three
-		icon = GFX_goal_tfv_saf_anti_colonialist_crusade  
+		icon = GFX_goal_tfv_saf_anti_colonialist_crusade
 		prerequisite = { focus = ITA_flavour_one }
 		mutually_exclusive = { focus = ITA_flavour_two }
 		x = -1
@@ -101,33 +101,33 @@ focus = {
 
 		ai_will_do = {
 			factor = 1
-			
+
 		}
 
 		available = {
 			date > 1937.1.1
 
 				}
-		
+
 		bypass = {
-			
+
 		}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = yes
-        
+
 		complete_tooltip = {
-			
+
 		}
 
 		completion_reward = {
 		custom_effect_tooltip = ITA_flavour_three_tt
-		
+
 		hidden_effect = { set_technology = { improved_infantry_weapons = 1 } }
 		}
 	}
-		
+
 	focus = {
 		id = ITA_flavour_four
 		icon = GFX_goal_generic_intelligence_exchange
@@ -143,10 +143,10 @@ focus = {
 			factor = 1
 		}
 
-		available = { 
+		available = {
 
 		}
-			
+
 		bypass = {
 
 		}
@@ -175,9 +175,9 @@ focus = {
 		}
 
 		available = {
-			
+
 		}
-		
+
 		bypass = {
 
 		}
@@ -187,7 +187,7 @@ focus = {
 		available_if_capitulated = no
 
 		complete_tooltip = {
-			
+
 		}
 
 		completion_reward = {
@@ -210,7 +210,7 @@ focus = {
 		}
 
 		available = {}
-		
+
 		bypass = {
 
 		}
@@ -220,7 +220,7 @@ focus = {
 		available_if_capitulated = no
 
 		complete_tooltip = {
-			
+
 		}
 
 		completion_reward = {
@@ -243,7 +243,7 @@ focus = {
 		}
 
 		available = {}
-		
+
 		bypass = {
 
 		}
@@ -253,7 +253,7 @@ focus = {
 		available_if_capitulated = no
 
 		complete_tooltip = {
-			
+
 		}
 
 		completion_reward = {
@@ -644,7 +644,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = ITA_autarky
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 2
 				technology = excavation1
 				technology = excavation2
@@ -664,7 +664,7 @@ focus = {
 					type = oil
 					amount = 35
 				}
-			}			
+			}
 		}
 	}
 
@@ -689,7 +689,7 @@ focus = {
 		}
 		completion_reward = {
 		set_technology = { synth_oil_experiments = 1 }
-			
+
 			450 = {
 				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
@@ -724,43 +724,43 @@ focus = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			663 = { 
+			663 = {
 				add_building_construction = {
-						type = bunker 
+						type = bunker
 						level = 2
 						province = 13238
 						instant_build = yes
 					}
-					
+
 				add_building_construction = {
-						type = bunker 
+						type = bunker
 						level = 2
 						province = 13240
 						instant_build = yes
 					}
 				add_building_construction = {
-						type = bunker 
+						type = bunker
 						level = 2
 						province = 1060
 						instant_build = yes
 					}
-					
+
 				add_building_construction = {
-						type = bunker 
+						type = bunker
 						level = 2
 						province = 4060
 						instant_build = yes
 					}
 				add_building_construction = {
-						type = bunker 
+						type = bunker
 						level = 2
 						province = 13236
 						instant_build = yes
 					}
 			}
-			451 = {		
+			451 = {
 				add_building_construction = {
-						type = bunker 
+						type = bunker
 						level = 2
 						province = 10120
 						instant_build = yes
@@ -787,13 +787,13 @@ focus = {
 						instant_build = yes
 					}
 					add_building_construction = {
-						type = bunker 
+						type = bunker
 						level = 2
 						province = 1149
 						instant_build = yes
-					}				
+					}
 				}
-			}			
+			}
 			450  = {
 				if = {
 					limit = { is_controlled_by = ROOT }
@@ -808,7 +808,7 @@ focus = {
 						level = 2
 						province = 11954
 						instant_build = yes
-					}					
+					}
 				}
 			}
 			661 = {
@@ -869,13 +869,13 @@ focus = {
 						level = 5
 						province = 4073
 						instant_build = yes
-					}		
+					}
 					add_building_construction = {
 						type = bunker
 						level = 5
 						province = 12049
 						instant_build = yes
-					}						
+					}
 			}
 			447  = {
 					add_building_construction = {
@@ -888,7 +888,7 @@ focus = {
 						level = 3
 						province = 4076
 						instant_build = yes
-					}					
+					}
 			}
 			453  = {
 					add_building_construction = {
@@ -896,8 +896,8 @@ focus = {
 						level = 3
 						province = 9946
 						instant_build = yes
-					}									
-			}			
+					}
+			}
 		}
 	}
 
@@ -932,15 +932,15 @@ focus = {
 						type = air_base
 						level = 5
 						instant_build = yes
-					}					
+					}
 			}
 			455  = {
 					add_building_construction = {
 						type = air_base
 						level = 5
 						instant_build = yes
-					}					
-			}			
+					}
+			}
 			553  = {
 					add_building_construction = {
 						type = infrastructure
@@ -951,7 +951,7 @@ focus = {
 						type = air_base
 						level = 5
 						instant_build = yes
-					}					
+					}
 			}
 			554  = {
 					add_building_construction = {
@@ -963,29 +963,29 @@ focus = {
 						type = air_base
 						level = 5
 						instant_build = yes
-					}					
-			}			
+					}
+			}
 			675  = {
 					add_building_construction = {
 						type = air_base
 						level = 5
 						instant_build = yes
-					}					
+					}
 			}
 			677  = {
 					add_building_construction = {
 						type = air_base
 						level = 5
 						instant_build = yes
-					}					
-			}			
+					}
+			}
 			680  = {
 					add_building_construction = {
 						type = air_base
 						level = 5
 						instant_build = yes
-					}					
-			}			
+					}
+			}
 
 		}
 	}
@@ -1023,7 +1023,7 @@ focus = {
 
 			add_tech_bonus = {
 				name = land_doc_bonus
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 2
 				category = land_doctrine
 			}
@@ -1046,7 +1046,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = arty_bonus
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 2
 				category = artillery
 			}
@@ -1071,7 +1071,7 @@ focus = {
 			army_experience = 35
 			add_tech_bonus = {
 				name = special_bonus
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 2
 				technology = tech_recon
 				technology = tech_recon2
@@ -1079,7 +1079,7 @@ focus = {
 			}
 			add_tech_bonus = {
 				name = land_doc_bonus
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 2
 				category = land_doctrine
 			}
@@ -1104,7 +1104,7 @@ focus = {
 			army_experience = 50
 			add_tech_bonus = {
 				name = special_bonus
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				technology = paratroopers
 				technology = paratroopers2
@@ -1135,10 +1135,10 @@ focus = {
 			army_experience = 50
 			add_tech_bonus = {
 				name = armor_effort
-				bonus = 1.00 
-				ahead_reduction = 0.5 
+				bonus = 1.00
+				ahead_reduction = 0.5
 				uses = 1
-				category = armor 
+				category = armor
 				category = cat_mechanized_equipment
 			}
 		}
@@ -1177,7 +1177,7 @@ focus = {
 
 			add_tech_bonus = {
 				name = naval_doctrine_bonus
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 2
 				category = naval_doctrine
 			}
@@ -1202,8 +1202,8 @@ focus = {
 			air_experience = 50
 			add_tech_bonus = {
 				name = fighter_bonus
-				bonus = 1.00 
-				ahead_reduction = 0.5 
+				bonus = 1.00
+				ahead_reduction = 0.5
 				uses = 1
 				technology = early_fighter
 				technology = fighter1
@@ -1213,7 +1213,7 @@ focus = {
 			}
 			add_tech_bonus = {
 				name = air_doc_bonus
-				bonus = 2.00 
+				bonus = 2.00
 				uses = 2
 				category = air_doctrine
 			}
@@ -1241,16 +1241,16 @@ focus = {
 					level = 1
 					instant_build = yes
 				}
-			}		
+			}
 			add_tech_bonus = {
 				name = cv_bonus
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				category = cv_tech
 			}
 			add_tech_bonus = {
 				name = fighter_bonus
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				technology = cv_fighter2
 			}
@@ -1278,10 +1278,10 @@ focus = {
 					level = 1
 					instant_build = yes
 				}
-			}			
+			}
 			navy_experience = 25
 			add_tech_bonus = {
-				name = bb_bonus 
+				name = bb_bonus
 				bonus = 1.0
 				uses = 1
 				category = bb_tech
@@ -1309,13 +1309,13 @@ focus = {
 
 			add_tech_bonus = {
 				name = ITA_bomber_effort
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				technology = tactical_bomber2
 			}
 			add_tech_bonus = {
 				name = ITA_bomber_effort
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				technology = CAS2
 			}
@@ -1342,7 +1342,7 @@ focus = {
 
 			add_tech_bonus = {
 				name = ITA_naval_air_effort
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				technology = naval_bomber1
 				technology = naval_bomber2
@@ -1372,7 +1372,7 @@ focus = {
 					level = 1
 					instant_build = yes
 				}
-			}					
+			}
 			navy_experience = 25
 			add_tech_bonus = {
 				name = ITA_atlantic_fleet
@@ -1405,14 +1405,14 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = ITA_marines_and_landing_craft
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 2
 				technology = marines
 				technology = marines2
 			}
 			add_tech_bonus = {
 				name = ITA_marines_and_landing_craft
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				category = tp_tech
 			}
@@ -1437,7 +1437,7 @@ focus = {
 			air_experience = 50
 			add_tech_bonus = {
 				name = air_doc_bonus
-				bonus = 2.00 
+				bonus = 2.00
 				uses = 2
 				category = air_doctrine
 			}
@@ -1461,7 +1461,7 @@ focus = {
 		# Caproni Campini N.1
 			add_tech_bonus = {
 				name = ITA_jet_engine_effort
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				technology = jet_engines
 				technology = jet_fighter1
@@ -1489,7 +1489,7 @@ focus = {
 					level = 1
 					instant_build = yes
 				}
-			}			
+			}
 			add_tech_bonus = {
 				name = dd_bonus
 				bonus = 1.0
@@ -1498,7 +1498,7 @@ focus = {
 			}
 			add_tech_bonus = {
 				name = naval_doctrine_bonus
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 1
 				category = naval_doctrine
 			}
@@ -1526,7 +1526,7 @@ focus = {
 					level = 1
 					instant_build = yes
 				}
-			}			
+			}
 			add_tech_bonus = {
 				name = dd_bonus
 				bonus = 1.25
@@ -1558,7 +1558,7 @@ focus = {
 					level = 1
 					instant_build = yes
 				}
-			}			
+			}
 			add_tech_bonus = {
 				name = ss_bonus
 				bonus = 1.0
@@ -1881,7 +1881,7 @@ focus = {
 			effect_tooltip = {
 				add_tech_bonus = {
 					name = synth_bonus
-					bonus = 2.00 
+					bonus = 2.00
 					uses = 2
 					category = synth_resources
 				}
@@ -1906,7 +1906,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = secret_bonus
-				bonus = 1.00 
+				bonus = 1.00
 				uses = 2
 				category = electronics
 				category = rocketry
