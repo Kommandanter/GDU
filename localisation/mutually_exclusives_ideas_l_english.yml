@@ -8,7 +8,7 @@
 
   soviet_reaction:0 " Men with no Option "
   indoctrination_camps:0 "Indoctrination Camps "
-  labour_camps:0 "Labour Camps "
+  labour_camps:0 "Low salary worker prisons "
 
   free_vodka:0 " More vodka "
   free_vodka_desc:0 " For some men, the only reason to live is alcohol and weed. Bravery comes from vodka "
@@ -57,14 +57,14 @@ ENG_flavour_two_idea:0 " "
 ENG_flavour_three_idea:0 " "
 ENG_flavour_four_idea:0 " If we lose war in the air we ... "
 ENG_flavour_five_idea:0 " If we lose war in the desert we ... "
-ENG_flavour_six_idea:0 " freed Bevin boys "
+ENG_flavour_six_idea:0 " Freed Bevin boys "
 ENG_flavour_seven_idea:0 " The Clock ticks "
 
 ITA_flavour_one_idea:0 "  "
 ITA_flavour_two_idea:0 " "
 ITA_flavour_three_idea:0 " "
-ITA_flavour_four_idea:0 " Mediterranean Rations "
-ITA_flavour_five_idea:0 " Fast Food "
+ITA_flavour_four_idea:0 " Too Brave Army "
+ITA_flavour_five_idea:0 " Logical Army "
 ITA_flavour_six_idea:0 " Gas Powered "
 ITA_flavour_seven_idea:0 " Wood Powered "
 

@@ -1405,7 +1405,7 @@ leader_traits = {
 	loading_drill_master = { 
 		type = navy
 		modifier = {
-			naval_torpedo_cooldown_factor = -0.25
+			naval_torpedo_hit_chance_factor = 0.2
 		}
 				
 		ai_will_do = {
