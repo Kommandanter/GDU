@@ -83,8 +83,8 @@ scripted_gui = {
 				}
 				clr_global_flag = no_ai_faction_joining
 			}
-			general_option_9_click = { set_global_flag = ttfocus_enabled }
-			general_option_10_click = { clr_global_flag = ttfocus_enabled }
+			general_option_7_click = { set_global_flag = ttfocus_disabled }
+			general_option_8_click = { clr_global_flag = ttfocus_disabled }
 			general_option_20_click = { add_player_countries = yes }
 
 
@@ -217,19 +217,11 @@ scripted_gui = {
 				ROOT = { TAG = event_target:game_host }
 			}
 			general_option_7_visible = {
-				NOT = { has_global_flag = no_ai_faction_joining }
+				NOT = { has_global_flag = ttfocus_disabled }
 				ROOT = { TAG = event_target:game_host }
 			}
 			general_option_8_visible = {
-				has_global_flag = no_ai_faction_joining
-				ROOT = { TAG = event_target:game_host }
-			}
-			general_option_9_visible = {
-				NOT = { has_global_flag = ttfocus_enabled }
-				ROOT = { TAG = event_target:game_host }
-			}
-			general_option_10_visible = {
-				has_global_flag = ttfocus_enabled
+				has_global_flag = ttfocus_disabled
 				ROOT = { TAG = event_target:game_host }
 			}
 			general_option_20_visible = { ROOT = { TAG = event_target:game_host } }

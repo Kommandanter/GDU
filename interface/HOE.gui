@@ -206,24 +206,6 @@ guiTypes = {
 			}
 
 			buttonType = {
-				name = "general_option_9"
-				position = { x = -320 y = -294 }
-				spriteType = "GFX_HOE_button"
-				font = "hoi_16mbs"
-				text = "Meme Focuses Off"
-				orientation = LOWER_RIGHT
-			}
-
-			buttonType = {
-				name = "general_option_10"
-				position = { x = -320 y = -294 }
-				spriteType = "GFX_HOE_button"
-				font = "hoi_16mbs"
-				text = "Meme Focuses On"
-				orientation = LOWER_RIGHT
-			}
-
-			buttonType = {
 				name = "general_option_20"
 				position = { x = -320 y = -329 }#+180x
 				spriteType = "GFX_HOE_button"
