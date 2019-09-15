@@ -79,17 +79,22 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			set_technology = { amphibious_tank = 1 }
-			set_technology = { amphibious_tank_2 = 1 }
-			add_tech_bonus = { 
+			add_tech_bonus = {
 				name = JAP_armored_divisions
-				ahead_reduction = 5
+				ahead_reduction = 4
+				bonus = 4.0 				
 				uses = 1
-				technology = amphibious_mechanized_infantry
+				technology = amphibious_tank
 			}
-
-		
+			add_tech_bonus = {
+				name = JAP_armored_divisions
+				ahead_reduction = 2.5
+				bonus = 2.5 				
+				uses = 1
+				technology = amphibious_tank_2
+			}	
 		}
+			
 	}
 
 focus = {
@@ -125,14 +130,7 @@ focus = {
 			
 		}
 
-		completion_reward = {
-		add_tech_bonus = {
-				name = JAP_armored_divisions
-				bonus = 1.25
-				uses = 2
-				category = armor	
-			}
-		}
+		completion_reward = { custom_effect_tooltip = jap_flavour_three_tt}
 	}
 		
 	focus = {
@@ -2238,23 +2236,11 @@ focus = {
 
 		completion_reward = {
 		
-			add_tech_bonus = {
-				name = JAP_armored_divisions
-				ahead_reduction = 4
-				bonus = 4.0 				
-				uses = 1
-				technology = amphibious_tank
-			}
-			add_tech_bonus = {
-				name = JAP_armored_divisions
-				ahead_reduction = 2.5
-				bonus = 2.5 				
-				uses = 1
-				technology = amphibious_tank_2
-			}			
+				
 			add_tech_bonus = { 
 				name = JAP_armored_divisions
-				ahead_reduction = 3.5
+				ahead_reduction = 2
+				bonus = 1.0
 				uses = 1
 				technology = amphibious_mechanized_infantry
 			}

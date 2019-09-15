@@ -2457,22 +2457,22 @@ ideas = {
 				original_tag = MAN	
 				}
 			}
-				
+			available = { has_completed_focus = JAP_flavour_three }	
 			research_bonus = {
 				armor = 0.15
 			}
 			
 			equipment_bonus = {
 				medium_tank_equipment = {
-					reliability = 0.1
+					reliability = 0.2
 					soft_attack = 0.05
 				}
 				heavy_tank_equipment = { 
-					reliability = 0.1 
+					reliability = 0.2 
 					soft_attack = 0.05 
 				} 
 				light_tank_equipment = {
-					reliability = 0.1
+					reliability = 0.2
 					air_attack = 0.05
 				}
 			}
