@@ -1948,8 +1948,8 @@ equipment_modules = {
 		}
 
 		add_stats = {
-			armor_value = 20
-			surface_visibility = 8
+			armor_value = 40
+			surface_visibility = 20
 		}
 		dismantle_cost_ic = 4500
 		
@@ -1966,8 +1966,8 @@ equipment_modules = {
 		build_cost_resources = {
 		}
 		add_stats = {
-			armor_value = 38.75
-			surface_visibility = 10
+			armor_value = 77.50
+			surface_visibility = 22
 		}
 		dismantle_cost_ic = 6000
 		
