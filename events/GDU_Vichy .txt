@@ -22,6 +22,34 @@ country_event = {
 							target = ENG 
 							type = annex_everything
 						}
+						declare_war_on = {
+							target = CAN 
+							type = annex_everything
+						}
+						declare_war_on = {
+							target = SAF 
+							type = annex_everything
+						}
+						declare_war_on = {
+							target = FRA 
+							type = annex_everything
+						}
+						declare_war_on = {
+							target = FRF 
+							type = annex_everything
+						}
+						declare_war_on = {
+							target = RAJ 
+							type = annex_everything
+						}
+						declare_war_on = {
+							target = AST 
+							type = annex_everything
+						}
+						declare_war_on = {
+							target = NZL
+							type = annex_everything
+						}						
 					}
 					EFR = { give_military_access = SPR }
 					
@@ -192,6 +220,13 @@ country_event = {
 				ENG = { add_to_faction = FRF }
 				
 				GER = { declare_war_on = { target = FRF type = annex_everything } }
+				ITA = { declare_war_on = { target = FRF type = annex_everything } }
+				SPR = { declare_war_on = { target = FRF type = annex_everything } }
+				HUN = { declare_war_on = { target = FRF type = annex_everything } }
+				ROM = { declare_war_on = { target = FRF type = annex_everything } }
+				BUL = { declare_war_on = { target = FRF type = annex_everything } }
+
+
 					
 				country_event = { id = gduvichy.7 days = 3 }
 				FRF = { news_event = { id = france.20 days = 1 } }
