@@ -475,7 +475,7 @@ focus = {
 		relative_position_id = ROM_trade_treaty_with_germany
 
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -710,7 +710,7 @@ focus = {
 		y = 3
 		relative_position_id = ROM_civil_works
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 9
@@ -776,7 +776,7 @@ focus = {
 		y = 4
 		relative_position_id = ROM_civil_works
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -826,7 +826,7 @@ focus = {
 		y = 4
 		relative_position_id = ROM_civil_works
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -1190,7 +1190,7 @@ focus = {
 		y = 1
 		relative_position_id = ROM_revise_the_constitution
 
-		cost = 10
+		cost = 55
 
 		ai_will_do = {
 			factor = 9
@@ -1225,7 +1225,7 @@ focus = {
 		y = 1
 		relative_position_id = ROM_flexible_foreign_policy
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -1820,7 +1820,7 @@ focus = {
 		x = 21
 		y = 0
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 9
@@ -1847,7 +1847,7 @@ focus = {
 		y = 1
 		relative_position_id = ROM_army_maneuvers
 
-		cost = 10
+		cost = 2
 
 		ai_will_do = {
 			factor = 1
@@ -2141,7 +2141,7 @@ focus = {
 		y = 1
 		relative_position_id = ROM_royal_guards_divisions
 
-		cost = 5
+		cost = 3
 
 		ai_will_do = {
 			factor = 5

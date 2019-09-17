@@ -1904,7 +1904,7 @@ focus_tree = {
 		y = 4
 		relative_position_id = NZL_ratana_alliance
 
-		cost = 10
+		cost = 2
 
 		ai_will_do = {
 			factor = 25
@@ -1939,7 +1939,7 @@ focus_tree = {
 		y = 4
 		relative_position_id = NZL_ratana_alliance
 
-		cost = 10
+		cost = 2
 
 		ai_will_do = {
 			factor = 25
@@ -2041,7 +2041,7 @@ focus_tree = {
 #		y = 1
 #		relative_position_id = NZL_strengthen_the_commonwealth
 #
-#		cost = 10
+#		cost = 5
 #
 #		ai_will_do = {
 #			factor = 25
@@ -2076,7 +2076,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = NZL_strengthen_the_commonwealth
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 30
