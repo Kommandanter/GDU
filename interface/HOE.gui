@@ -174,7 +174,7 @@ guiTypes = {
 				position = { x = -500 y = -189 }
 				spriteType = "GFX_HOE_button"
 				font = "hoi_16mbs"
-				text = "Spanish Civil War Currently On"
+				text = "SCW Currently On"
 				orientation = LOWER_RIGHT
 			}
 
@@ -183,7 +183,7 @@ guiTypes = {
 				position = { x = -500 y = -189 }
 				spriteType = "GFX_HOE_button"
 				font = "hoi_16mbs"
-				text = "Spanish Civil War Currently Off"
+				text = "SCW Currently Off"
 				orientation = LOWER_RIGHT
 			}
 
@@ -207,10 +207,19 @@ guiTypes = {
 
 			buttonType = {
 				name = "general_option_20"
-				position = { x = -320 y = -329 }#+180x
+				position = { x = -320 y = -294 }#+180x
 				spriteType = "GFX_HOE_button"
 				font = "hoi_16mbs"
 				text = "Refresh Teams"
+				orientation = LOWER_RIGHT
+			}
+
+			buttonType = {
+				name = "general_option_21"
+				position = { x = -320 y = -331 }#+180x
+				spriteType = "GFX_HOE_button"
+				font = "hoi_16mbs"
+				text = "Show Help"
 				orientation = LOWER_RIGHT
 			}
 

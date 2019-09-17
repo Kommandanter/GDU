@@ -82,6 +82,75 @@ country_event = {
 	}
 }
 
+add_namespace = help_event
+
+#Help event for mod
+country_event = {
+	id = help_event.1
+	title = help_event.1.t
+	desc = help_event.1.d
+
+	is_triggered_only = yes
+
+	#Explanation Host Vote
+	option = {
+		name = help_event.1.a
+		country_event = help_event.2
+	}
+
+	#Explanation moving factions
+	option = {
+		name = help_event.1.b
+		country_event = help_event.3
+	}
+
+	#Explanation changing countries
+	option = {
+		name = help_event.1.c
+		country_event = help_event.4
+	}
+}
+
+#Explanation Host Vote
+country_event = {
+	id = help_event.2
+	title = help_event.2.t
+	desc = help_event.2.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = help_event.2.a
+	}
+}
+
+#Explanation moving factions
+country_event = {
+	id = help_event.3
+	title = help_event.3.t
+	desc = help_event.3.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = help_event.3.a
+	}
+}
+
+#Explanation changing countries
+country_event = {
+	id = help_event.4
+	title = help_event.4.t
+	desc = help_event.4.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = help_event.4.a
+	}
+}
+
+
 add_namespace = player_permission
 
 #Message for host saying youre requesting permission

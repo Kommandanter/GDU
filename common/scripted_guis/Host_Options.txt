@@ -86,6 +86,7 @@ scripted_gui = {
 			general_option_7_click = { set_global_flag = ttfocus_disabled }
 			general_option_8_click = { clr_global_flag = ttfocus_disabled }
 			general_option_20_click = { add_player_countries = yes }
+			general_option_21_click = { ROOT = { country_event = help_event.1 } }
 
 
 			option_1_click = {
