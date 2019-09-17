@@ -9,7 +9,7 @@ if = {
 	}
 }
 set_research_slots = 3
-set_stability = 0.6
+set_stability = 0.7
 set_war_support = 0.6
 
 # Starting tech
@@ -78,6 +78,35 @@ if = {
 
 
 set_convoys = 10
+
+add_equipment_to_stockpile = {
+         type = artillery_equipment_1
+         amount = 1600
+         producer = ROM
+}  
+add_equipment_to_stockpile = {
+         type = support_equipment
+         amount = 500
+         producer = ROM
+} 
+
+add_equipment_to_stockpile = {
+         type = infantry_equipment_1
+         amount = 4000
+         producer = ROM
+} 
+add_equipment_to_stockpile = {
+         type = motorized_equipment_1
+         amount = 300
+         producer = ROM
+} 
+add_equipment_to_stockpile = {
+         type = anti_air_equipment_1
+         amount = 1000
+         producer = ROM
+} 
+#Build fucking AA Eray -- Kommandanter
+
 1939.1.1 = {
 
 	remove_ideas = neutrality_idea
