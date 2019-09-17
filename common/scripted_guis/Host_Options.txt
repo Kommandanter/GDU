@@ -4,6 +4,7 @@ scripted_gui = {
 		context_type = player_context
 
 		window_name = "host_container"
+		parent_window_token = top_bar
 
 		visible = { is_ai = no }
 
