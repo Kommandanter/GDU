@@ -1190,7 +1190,7 @@ focus = {
 		y = 1
 		relative_position_id = ROM_revise_the_constitution
 
-		cost = 55
+		cost = 5
 
 		ai_will_do = {
 			factor = 9
@@ -1521,7 +1521,7 @@ focus = {
 		y = 1
 		relative_position_id = ROM_expand_the_air_force
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 9
@@ -1778,7 +1778,7 @@ focus = {
 		y = 2
 		relative_position_id = ROM_strategic_bomber_force
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 1
