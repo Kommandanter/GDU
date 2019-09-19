@@ -160,7 +160,10 @@ on_actions = {
 				country_event = { id = gduairlosses.4 days = 3287 } 
 			}			
 
-					
+			##### Events that add national spirits to increase air losses a bit in the late game (for 1942, 1943, 1944, and 1945) ####
+			VEN = {
+				country_event = { id = gduevents.30 days = 1195 } 
+			}					
 			
 			#### We give Japan Siam's rubber because the AI isn't going to trade Germany back and now we need one less player to start the game. ####
 			SIA = {
@@ -639,6 +642,173 @@ on_actions = {
 		}
 	}
 	
+	#### Ensure that LUX gets added to Allies when it is attacked ####
+	
+	on_declare_war = {
+		effect = {
+			
+			if = {
+				limit = {
+							FROM = {
+								tag = LUX 
+							}	
+				}
+				hidden_effect = {
+					ENG = { add_to_faction = LUX }
+					ROOT = { declare_war_on = {
+							target = ENG
+							type = annex_everything
+						}
+					}
+				}
+			}
+		
+		}
+	}		
+	
+	#### Ensure that HOL gets added to Allies when it is attacked ####
+	
+	on_declare_war = {
+		effect = {
+			
+			if = {
+				limit = {
+							FROM = {
+								tag = HOL 
+							}	
+				}
+				hidden_effect = {
+					ENG = { add_to_faction = HOL }
+					ROOT = { declare_war_on = {
+							target = ENG
+							type = annex_everything
+						}
+					}
+				}
+			}
+		
+		}
+	}	
+
+	#### Ensure that BEL gets added to Allies when it is attacked ####
+	
+	on_declare_war = {
+		effect = {
+			
+			if = {
+				limit = {
+							FROM = {
+								tag = BEL 
+							}	
+				}
+				hidden_effect = {
+					ENG = { add_to_faction = BEL }
+					ROOT = { declare_war_on = {
+							target = ENG
+							type = annex_everything
+						}
+					}
+				}
+			}
+		
+		}
+	}	
+	
+	#### Ensure that NOR gets added to Allies when it is attacked ####
+	
+	on_declare_war = {
+		effect = {
+			
+			if = {
+				limit = {
+							FROM = {
+								tag = NOR 
+							}	
+				}
+				hidden_effect = {
+					ENG = { add_to_faction = NOR }
+					ROOT = { declare_war_on = {
+							target = ENG
+							type = annex_everything
+						}
+					}
+				}
+			}
+		
+		}
+	}		
+	
+	#### Ensure that DEN gets added to Allies when it is attacked ####
+	
+	on_declare_war = {
+		effect = {
+			
+			if = {
+				limit = {
+							FROM = {
+								tag = DEN 
+							}	
+				}
+				hidden_effect = {
+					ENG = { add_to_faction = DEN }
+					ROOT = { declare_war_on = {
+							target = ENG
+							type = annex_everything
+						}
+					}
+				}
+			}
+		
+		}
+	}		
+	
+	#### Ensure that GRE gets added to Allies when it is attacked ####
+	
+	on_declare_war = {
+		effect = {
+			
+			if = {
+				limit = {
+							FROM = {
+								tag = GRE 
+							}	
+				}
+				hidden_effect = {
+					ENG = { add_to_faction = GRE }
+					ROOT = { declare_war_on = {
+							target = ENG
+							type = annex_everything
+						}
+					}
+				}
+			}
+		
+		}
+	}		
+	
+	#### Ensure that YUG gets added to Allies when it is attacked ####
+	
+	on_declare_war = {
+		effect = {
+			
+			if = {
+				limit = {
+							FROM = {
+								tag = YUG 
+							}	
+				}
+				hidden_effect = {
+					ENG = { add_to_faction = YUG }
+					ROOT = { declare_war_on = {
+							target = ENG
+							type = annex_everything
+						}
+					}
+				}
+			}
+		
+		}
+	}	
 	
 	#### This thing gives Soviets 100 army XP each time they finish a new land doctrine tech. The purpose is to allow them to take the XP boost to land doctrine research for every tech, allowing the purge penalty on land doctrine to be higher and making it effectively impossible for Soviets to rush land doctrine more than desired for balance. ####
 	

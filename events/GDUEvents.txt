@@ -804,7 +804,7 @@ country_event = {
 
 
 
-country_event = { 
+country_event = {
 	id = gduevents.29
 	title = gduevents.29.t
 	desc = gduevents.29.d
@@ -826,3 +826,31 @@ country_event = {
 	
 }
 
+
+
+country_event = {
+	id = gduevents.30
+	title = gduevents.30.t
+	desc = gduevents.30.d
+	picture = GFX_report_event_soviet_tanks
+	
+	is_triggered_only = yes
+		
+	fire_only_once = yes 
+	
+	option = {
+		name = gduevents.30.a
+		
+		POL = {
+			load_oob = "POL_GDU_SPAWN"
+		}
+		YUG = {
+			load_oob = "YUG_GDU_SPAWN"
+		}
+		GRE = {
+			load_oob = "GRE_GDU_SPAWN"
+		}		
+	}
+	
+	
+}

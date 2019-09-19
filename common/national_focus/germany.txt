@@ -2121,7 +2121,7 @@ focus = {
 				give_resource_rights = { receiver = GER state = 46 }
 			}
 			GER = {
-				give_resource_rights = { receiver = ROM state = 54 }
+				give_resource_rights = { receiver = ROM state = 53 }
 			}
 			hidden_effect = {
 				ENG = { add_ideas = war_economy }
