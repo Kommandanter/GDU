@@ -208,11 +208,11 @@ equipments = {
 			plane_reliability_upgrade
 		}
 
-		air_superiority = 1
+		air_superiority = 0.2
 		reliability = 0.9
 
 		# Air vs Navy - high damage / medium hit chance / easy to hurt
-		naval_strike_attack = 15
+		naval_strike_attack = 16.5
 		naval_strike_targetting = 8
 
 		build_cost_ic = 39
@@ -252,7 +252,7 @@ equipments = {
 			plane_reliability_upgrade
 		}
 
-		air_superiority = 1
+		air_superiority = 0.2
 		reliability = 0.8
 
 		# Air vs Navy - high damage / medium hit chance / easy to hurt
@@ -711,7 +711,7 @@ equipments = {
 		air_agility = 30
 		air_attack = 10
 		air_defence = 14
-		naval_strike_attack = 21
+		naval_strike_attack = 23
 		naval_strike_targetting = 10.5
 
 		build_cost_ic = 42
@@ -735,7 +735,7 @@ equipments = {
 		air_agility = 35
 		air_attack = 14
 		air_defence = 16
-		naval_strike_attack = 25
+		naval_strike_attack = 28
 		naval_strike_targetting = 13
 
 		build_cost_ic = 45
@@ -1207,7 +1207,7 @@ equipments = {
 		air_agility = 30
 		air_attack = 10
 		air_defence = 14
-		naval_strike_attack = 21
+		naval_strike_attack = 23
 		naval_strike_targetting = 10.5
 
 		build_cost_ic = 42
@@ -1231,7 +1231,7 @@ equipments = {
 		air_agility = 35
 		air_attack = 14
 		air_defence = 16
-		naval_strike_attack = 25
+		naval_strike_attack = 28
 		naval_strike_targetting = 13
 
 		build_cost_ic = 45

@@ -15,7 +15,7 @@ state={
 			1071 95
 		}
 		buildings = {
-			infrastructure = 4
+			infrastructure = 6
 			industrial_complex = 1
 			air_base = 8
 			radar_station = 1
@@ -28,7 +28,7 @@ state={
 	}
 
 	provinces={
-		1071 4076 4145 7091 7164 10005 10073 11910 11964 
+		1071 4076 4145 7091 7164 10005 10073 11964 
 	}
 	manpower=3859239
 	buildings_max_level_factor=1.000

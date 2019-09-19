@@ -849,7 +849,7 @@ focus = {
 			446  = {
 					add_building_construction = {
 						type = infrastructure
-						level = 3
+						level = 1
 						instant_build = yes
 					}
 					add_building_construction = {
@@ -880,7 +880,7 @@ focus = {
 			447  = {
 					add_building_construction = {
 						type = infrastructure
-						level = 3
+						level = 1
 						instant_build = yes
 					}
 					add_building_construction = {
