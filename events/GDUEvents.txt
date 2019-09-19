@@ -854,3 +854,61 @@ country_event = {
 	
 	
 }
+
+
+
+
+country_event = {
+	id = gduevents.31
+	title = gduevents.31.t
+	desc = gduevents.31.d
+	picture = GFX_report_event_soviet_tanks
+	
+	is_triggered_only = yes
+		
+	fire_only_once = yes 
+	
+	option = {
+		name = gduevents.31.a
+		
+		ENG = {
+			add_political_power = -150
+			add_ideas = tot_economic_mobilisation			
+		}
+		CAN = {
+			add_political_power = -150
+			add_ideas = tot_economic_mobilisation			
+		}
+		SAF = {
+			add_political_power = -150
+			add_ideas = tot_economic_mobilisation			
+		}
+		AST = {
+			add_political_power = -150
+			add_ideas = tot_economic_mobilisation			
+		}
+		NZL = {
+			add_political_power = -150
+			add_ideas = tot_economic_mobilisation			
+		}
+		HUN = {
+			add_political_power = -150
+			add_ideas = tot_economic_mobilisation			
+		}
+		ROM = {
+			add_political_power = -150
+			add_ideas = tot_economic_mobilisation			
+		}
+		BUL = {
+			add_political_power = -150
+			add_ideas = tot_economic_mobilisation			
+		}
+		ITA = {
+			add_political_power = -150
+			add_ideas = tot_economic_mobilisation			
+		}		
+
+	}
+	
+	
+}

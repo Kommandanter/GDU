@@ -160,10 +160,15 @@ on_actions = {
 				country_event = { id = gduairlosses.4 days = 3287 } 
 			}			
 
-			##### Events that add national spirits to increase air losses a bit in the late game (for 1942, 1943, 1944, and 1945) ####
+			##### Event that spawns divisions for Poland/Yugoslavia/Greece in early 1939, since the AI doesn't train them itself.
 			VEN = {
 				country_event = { id = gduevents.30 days = 1195 } 
-			}					
+			}
+
+			##### On Jan 1, 1941, countries get switched to Total Mob and get -150 PP automatically, so players don't forget to switch
+			VEN = {
+				country_event = { id = gduevents.31 days = 1825 } 
+			}				
 			
 			#### We give Japan Siam's rubber because the AI isn't going to trade Germany back and now we need one less player to start the game. ####
 			SIA = {
