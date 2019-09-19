@@ -13,10 +13,18 @@ state={
 		}
 		buildings = {
 			infrastructure = 6
-			6906 = {
-				naval_base = 4
-			}
+			
 		}
+		victory_points = { 962 1 }
+		victory_points = { 3799 1 }
+		victory_points = { 3873 1 }
+		victory_points = { 4098 1 }
+		victory_points = { 6817 1 }
+		victory_points = { 6856 1 }
+		victory_points = { 6906 1 }
+		victory_points = { 6959 1 }
+		victory_points = { 9889 1 }
+		victory_points = { 9896 1 }
 		add_core_of = SPR
 	}
 

@@ -603,7 +603,7 @@ guiTypes = {
 						name = "navy_2"
 						position = {x=0 y=78}
 						font = "hoi_18mbs"
-						text = "Navy Guide II"
+						text = "Naval Compositions"
 						maxWidth = 180
 						maxHeight = 23
 						format = center
@@ -623,7 +623,7 @@ guiTypes = {
 						name = "navy_3"
 						position = {x=0 y=128}
 						font = "hoi_18mbs"
-						text = "Navy Guide III"
+						text = "10 Naval Tips"
 						maxWidth = 180
 						maxHeight = 23
 						format = center
@@ -1241,7 +1241,7 @@ guiTypes = {
 						name = "other_1"
 						position = {x=0 y=28}
 						font = "hoi_18mbs"
-						text = "Other Guide I"
+						text = "Be Prepared For Beginners"
 						maxWidth = 180
 						maxHeight = 23
 						format = center
@@ -1261,7 +1261,7 @@ guiTypes = {
 						name = "other_2"
 						position = {x=0 y=78}
 						font = "hoi_18mbs"
-						text = "Other Guide II"
+						text = "Summary of GDU"
 						maxWidth = 180
 						maxHeight = 23
 						format = center
@@ -1281,7 +1281,7 @@ guiTypes = {
 						name = "other_3"
 						position = {x=0 y=128}
 						font = "hoi_18mbs"
-						text = "Other Guide III"
+						text = "Other Guide III Dont do these mistakes"
 						maxWidth = 180
 						maxHeight = 23
 						format = center

@@ -21,6 +21,22 @@ state={
 			industrial_complex = 1
 
 		}
+		victory_points = { 858 1 }
+		victory_points = { 896 1 }
+		victory_points = { 939 1 }
+		victory_points = { 977 1 }
+		victory_points = { 3794 1 }
+		victory_points = { 3845 1 }
+		victory_points = { 3858 1 }
+		victory_points = { 3986 1 }
+		victory_points = { 6841 1 }
+		victory_points = { 6914 1 }
+		victory_points = { 6993 1 }
+		victory_points = { 9767 1 }
+		victory_points = { 9785 1 }
+		victory_points = { 9933 1 }
+		victory_points = { 11820 1 }
+		victory_points = { 11870 1 }
 		add_core_of = SPR
 	}
 

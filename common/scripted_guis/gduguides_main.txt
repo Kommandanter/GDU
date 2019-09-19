@@ -53,8 +53,12 @@ scripted_gui = {
 			gdu_guides_navy_1_available_click = {
 			country_event = { id = guides.1 }
 			}
-			gdu_guides_navy_2_available_click = {}
-			gdu_guides_navy_3_available_click = {}
+			gdu_guides_navy_2_available_click = {
+			country_event = { id = guides.7 }
+			}
+			gdu_guides_navy_3_available_click = {
+			country_event = { id = guides.8 }
+			}
 			gdu_guides_navy_4_available_click = {}
 			gdu_guides_navy_5_available_click = {}
 			gdu_guides_navy_6_available_click = {}
@@ -89,9 +93,15 @@ scripted_gui = {
 			gdu_guides_advanced_10_available_click = {}
 			###########
 			###### other ######
-			gdu_guides_other_1_available_click = {}
-			gdu_guides_other_2_available_click = {}
-			gdu_guides_other_3_available_click = {}
+			gdu_guides_other_1_available_click = {
+			country_event = { id = guides.9 }
+			}
+			gdu_guides_other_2_available_click = {
+			country_event = { id = guides.10 }
+			}
+			gdu_guides_other_3_available_click = {
+			country_event = { id = guides.11 }
+			}
 			gdu_guides_other_4_available_click = {}
 			gdu_guides_other_5_available_click = {}
 			gdu_guides_other_6_available_click = {}
