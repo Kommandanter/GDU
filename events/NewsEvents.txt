@@ -505,8 +505,8 @@ news_event = {
 	major = yes
 	
 	trigger = {
+		NOT = { has_global_flag = donttouchthispls }
 		has_global_flag = spanish_civil_war
-		NOT = { has_global_flag = scw_over }
 		SPR = { has_civil_war = no }
 		any_other_country = {
 			original_tag = SPR
@@ -527,6 +527,7 @@ news_event = {
 	immediate = {
 		set_global_flag = nationalist_victory
 		set_global_flag = scw_over
+		set_global_flag = donttouchthispls
 	}
 	
 	option = {

@@ -211,9 +211,48 @@ country_event = {
 	# Support Nationalists
 		name = spain.1.a
 
+        if = {
+
+			limit = { has_global_flag = scw_over }
 
 
-		if = {
+				    SPR = { country_event = { id = veren.2 days = 1 } }
+
+			news_event = { hours = 24 id = news.63 }
+			news_event = { hours = 48 id = news.64 }
+			set_global_flag = spanish_civil_war
+            
+			set_stability = 0.9
+			add_popularity = {
+				ideology = fascism
+				popularity = 1
+			}
+			add_ideas = SPA_recovering_from_civil_war2
+			SOV = { air_experience = 300 }
+			GER = { air_experience = 300 }
+			ITA = { air_experience = 300 }
+			SOV = { army_experience = 300 }
+			GER = { army_experience = 500 }
+			ITA = { army_experience = 300 }
+			SPR = { army_experience = 500 }
+			SPR = { air_experience = 300 }
+
+					add_timed_idea = { idea = SPA_recovering_from_civil_war days = 800 }
+
+						add_equipment_to_stockpile = {
+            type = infantry_equipment_1
+            amount = 50000
+            producer = SPR
+	}
+
+							custom_effect_tooltip = nationalists_chosen
+
+
+
+
+}
+
+		else = {
 			limit = { NOT = { has_global_flag = scw_over } }
 
 
@@ -260,45 +299,7 @@ country_event = {
 
 
 
-		if = {
-
-			limit = { has_global_flag = scw_over }
-
-
-				    SPR = { country_event = { id = veren.2 days = 1 } }
-
-			news_event = { hours = 6 id = news.63 }
-			set_global_flag = spanish_civil_war
-
-			set_stability = 0.9
-			add_popularity = {
-				ideology = fascism
-				popularity = 1
-			}
-			add_ideas = SPA_recovering_from_civil_war2
-			SOV = { air_experience = 300 }
-			GER = { air_experience = 300 }
-			ITA = { air_experience = 300 }
-			SOV = { army_experience = 300 }
-			GER = { army_experience = 500 }
-			ITA = { army_experience = 300 }
-			SPR = { army_experience = 500 }
-			SPR = { air_experience = 300 }
-
-					add_timed_idea = { idea = SPA_recovering_from_civil_war days = 800 }
-
-						add_equipment_to_stockpile = {
-            type = infantry_equipment_1
-            amount = 50000
-            producer = SPR
-	}
-
-							custom_effect_tooltip = nationalists_chosen
-
-
-
-
-}
+		
 }
 
 }
