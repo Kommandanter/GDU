@@ -1,7 +1,25 @@
 ideas = { 
 
 	country = {
+        USA_low_dockyard_count = {
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				has_government = democratic
+			}
+			
+			removal_cost = -1
 
+			picture = generic_pp_unity_bonus
+			
+
+			modifier = {
+            	
+            	navy_max_range_factor = 0.55
+			}
+		}
         disloyal_puppet_idea = {
 			allowed = {
 				always = no
