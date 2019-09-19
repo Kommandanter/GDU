@@ -203,7 +203,7 @@ country_event = {
 
 	is_triggered_only = yes
 
-	trigger = { NOT = { has_global_flag = scw_over } }
+	trigger = { tag = SPR }
 
 	option = {
 
