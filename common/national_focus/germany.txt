@@ -139,7 +139,7 @@ focus = {
 		}
 
 		available = {
-
+        date > 1939.6.1 
 		}
 
 		bypass = {
@@ -161,10 +161,10 @@ focus = {
 				type = medium_tank_artillery_equipment_1
 				parent_version = 0
 				upgrades = {
-					tank_art_upgrade = 11
-					tank_armor_upgrade = 1
-					tank_engine_upgrade = 1
-					tank_reliability_upgrade = 5
+					tank_art_upgrade = 12
+					tank_armor_upgrade = 0
+					tank_engine_upgrade = 4
+					tank_reliability_upgrade = 9
 				}
 			}
         }
@@ -186,7 +186,7 @@ focus = {
 		}
 
 		available = {
-
+        date > 1939.6.1
 		}
 
 		bypass = {
@@ -212,9 +212,9 @@ focus = {
 				parent_version = 0
 				upgrades = {
 					tank_at_upgrade = 8
-					tank_armor_upgrade = 1
-					tank_engine_upgrade = 1
-					tank_reliability_upgrade = 5
+					tank_armor_upgrade = 5
+					tank_engine_upgrade = 5
+					tank_reliability_upgrade = 10
 				}
 			}
 

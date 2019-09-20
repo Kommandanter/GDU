@@ -515,7 +515,7 @@ JAP_flavour_one_idea = {
 			}
 		
         }
-JAP_flavour_two_idea = {
+JAP_flavour_two_idea = { ## not used
         removal_cost = -1
 			
 			allowed = {
@@ -530,8 +530,10 @@ JAP_flavour_two_idea = {
 
 			picture = generic_manpower_bonus
 			
-			modifier = {
-				
+			equipment_bonus = {
+				medium_tank_equipment = { 
+				build_cost_ic = -0.05 instant = yes
+				}
 			}
 		
         }

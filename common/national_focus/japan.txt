@@ -63,7 +63,7 @@ focus_tree = {
 		}
 
 		available = {
-			date > 1938.5.5
+			date > 1938.1.1
 		}
 
 		bypass = {
@@ -80,18 +80,10 @@ focus_tree = {
 
 		completion_reward = {
 			add_tech_bonus = {
-				name = JAP_armored_divisions
-				ahead_reduction = 4
-				bonus = 4.0
-				uses = 1
-				technology = amphibious_tank
-			}
-			add_tech_bonus = {
-				name = JAP_armored_divisions
-				ahead_reduction = 2.5
-				bonus = 2.5
-				uses = 1
-				technology = amphibious_tank_2
+				name = secret_bonus
+				bonus = 1.30
+				uses = 2
+				category = rocketry
 			}
 		}
 
@@ -114,7 +106,7 @@ focus = {
 		}
 
 		available = {
-
+            date > 1938.1.1
 
 				}
 
@@ -130,7 +122,20 @@ focus = {
 
 		}
 
-		completion_reward = { custom_effect_tooltip = jap_flavour_three_tt}
+		completion_reward = { 
+		add_tech_bonus = {
+				name = JAP_modern_at_guns
+				bonus = 1.00
+				uses = 1
+				category = cat_anti_tank
+			}
+		add_tech_bonus = {
+				name = JAP_small_arms_modernization2
+				bonus = 1.0
+				uses = 1
+				category = infantry_weapons
+			}	
+		}
 	}
 
 	focus = {
@@ -149,7 +154,7 @@ focus = {
 		}
 
 		available = {
-
+        date > 1939.1.1
 		}
 
 		bypass = {
@@ -163,9 +168,10 @@ focus = {
 		completion_reward = {
         custom_effect_tooltip = jap_flavour_four_tt
         hidden_effect = {
+        set_technology = { improved_ship_hull_carrier = 1 }
         create_equipment_variant = {
 			name = "Passenger Class"
-			type = ship_hull_carrier_1
+			type = ship_hull_carrier_2
 			name_group = JAP_CV_HISTORICAL
 			parent_version = 0
 			modules = {
@@ -176,11 +182,14 @@ focus = {
 				fixed_ship_engine_slot = carrier_ship_engine_1
 				fixed_ship_secondaries_slot = ship_secondaries_1
 				front_1_custom_slot = ship_deck_space
+				front_2_custom_slot = ship_deck_space
+				
+
 			}
 		}
 		add_equipment_production = {
 						equipment = {
-							type = ship_hull_carrier_1
+							type = ship_hull_carrier_2
 							creator = "JAP"
 							version_name = "Passenger Class"
 						}
@@ -191,7 +200,7 @@ focus = {
 					}
 		add_equipment_production = {
 						equipment = {
-							type = ship_hull_carrier_1
+							type = ship_hull_carrier_2
 							creator = "JAP"
 							version_name = "Passenger Class"
 						}
@@ -200,18 +209,6 @@ focus = {
 						progress = 0.8
 						amount = 1
 					}
-		add_equipment_production = {
-						equipment = {
-							type = ship_hull_carrier_1
-							creator = "JAP"
-							version_name = "Passenger Class"
-						}
-						name = "Storm"
-						requested_factories = 1
-						progress = 0.8
-						amount = 1
-					}
-
 
         }
 		}
@@ -232,7 +229,7 @@ focus = {
 		}
 
 		available = {
-
+        date > 1939.1.1
 		}
 
 		bypass = {
@@ -252,7 +249,8 @@ focus = {
 
 				add_resource = {
 					type = steel
-					amount = 16
+					amount = 28
+
 				}
 
 
@@ -2235,7 +2233,21 @@ focus = {
 		}
 
 		completion_reward = {
-
+            
+            add_tech_bonus = {
+				name = JAP_armored_divisions
+				ahead_reduction = 4
+				bonus = 4.0 				
+				uses = 1
+				technology = amphibious_tank
+			}
+			add_tech_bonus = {
+				name = JAP_armored_divisions
+				ahead_reduction = 2.5
+				bonus = 2.5 				
+				uses = 1
+				technology = amphibious_tank_2
+			}	
 
 			add_tech_bonus = {
 				name = JAP_armored_divisions

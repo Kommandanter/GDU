@@ -2457,7 +2457,7 @@ ideas = {
 				original_tag = MAN	
 				}
 			}
-			available = { has_completed_focus = JAP_flavour_three }	
+			
 			research_bonus = {
 				armor = 0.15
 			}
