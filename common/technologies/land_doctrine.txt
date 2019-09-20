@@ -2311,10 +2311,6 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 0.5
 		max_planning = 0.1
-		category_army = {
-			breakthrough = 0.10
-			soft_attack = 0.05
-		}
 
 		enable_tactic = tactic_overwhelming_fire
 		
@@ -3010,7 +3006,7 @@ technologies = {
 		
 		infantry = {
 			max_organisation = 5
-			max_strength = 5.5
+			max_strength = 6.5
 		}
 
 
@@ -3062,31 +3058,28 @@ technologies = {
 		}
 		
 		artillery_brigade = { 
-			max_strength = 11
+			max_strength = 12
 		}
 		mot_artillery_brigade = {
-			max_strength = 11
+			max_strength = 12
 		}
 		rocket_artillery_brigade = {
-			max_strength = 11
+			max_strength = 12
 		}
 		motorized_rocket_brigade = {
-			max_strength = 11
+			max_strength = 12
 			max_organisation = 2.5
 		}		
 		anti_air_brigade = { 
-			max_strength = 5.5
+			max_strength = 7
 			max_organisation = 2.5
-		}
-		anti_tank_brigade = { 
-			max_strength = 4.5
 		}
 		
 		support_heavy_armor = {
-			max_strength = 4
+			max_strength = 5
 		}
 		category_assault_guns = {
-			max_strength = 4			
+			max_strength = 5			
 		}
 
 
@@ -3132,7 +3125,7 @@ technologies = {
 			max_strength = 2
 		}
 		motorized = {
-			max_strength = 5.5
+			max_strength = 7
 		}		
 		
 		category_all_armor = {
