@@ -1675,7 +1675,7 @@ focus = {
 				technology = improved_medium_tank
 			}
 			add_tech_bonus = {
-				bonus = 0.75
+				bonus = 1.00
 				uses = 1
 				name = mech_army_bonus
 				technology = advanced_light_tank
