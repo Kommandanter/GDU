@@ -2,6 +2,22 @@
 #### SOVIET ####
 ################
 
+SOV_deployment = {
+	
+	allowed = {
+		original_tag = SOV
+	}
+
+	available = {
+		date > 1940.1.1
+		date < 1940.9.1
+	}
+
+	visible = {
+
+	}
+}
+
 SOV_industry_relocation = {
 	
 	allowed = {

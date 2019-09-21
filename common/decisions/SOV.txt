@@ -1,3 +1,93 @@
+
+######### Soviet divisions deployment decisions - spawns some divisions which Soviets can change template of in every tile, to make it easier for Soviets to deploy troops in depth before the war with less effort ######
+
+
+SOV_deployment = {
+	
+	GDU_Belarus_Deployment_decision = {
+		icon = GFX_decision_category_border_war
+		ai_will_do = { factor = 0 }
+		cost = 0
+						
+		visible = { always = yes }
+						
+		fire_only_once = yes
+		
+		complete_effect = {
+			SOV = {
+				delete_unit_template_and_units = {
+					division_template = "Strelkovaya Diviziya A"
+				}			
+				load_oob = "SOV_Belarus_Deployment"
+			}
+		}
+	}	
+	
+	GDU_Baltic_Deployment_decision = {
+		icon = GFX_decision_category_border_war
+		ai_will_do = { factor = 0 }
+		cost = 0
+						
+		visible = { always = yes }
+						
+		fire_only_once = yes
+		
+		complete_effect = {
+			SOV = {
+				delete_unit_template_and_units = {
+					division_template = "Strelkovaya Diviziya B"
+				}			
+				load_oob = "SOV_Baltic_Deployment"
+			}
+		}
+	}	
+	
+	GDU_NorthUkraine_Deployment_decision = {
+		icon = GFX_decision_category_border_war
+		ai_will_do = { factor = 0 }
+		cost = 0
+						
+		visible = { always = yes }
+						
+		fire_only_once = yes
+		
+		complete_effect = {
+			SOV = {
+				delete_unit_template_and_units = {
+					division_template = "Strelkovaya Diviziya C"
+				}			
+				load_oob = "SOV_NorthUkraine_Deployment"
+			}
+		}
+	}	
+	
+	GDU_SouthUkraine_Deployment_decision = {
+		icon = GFX_decision_category_border_war
+		ai_will_do = { factor = 0 }
+		cost = 0
+						
+		visible = { always = yes }
+						
+		fire_only_once = yes
+		
+		complete_effect = {
+			SOV = {
+				delete_unit_template_and_units = {
+					division_template = "Strelkovaya Diviziya D"
+				}			
+				load_oob = "SOV_SouthUkraine_Deployment"
+			}
+		}
+	}		
+}
+
+
+
+
+
+
+
+
 ### #  # ###  #  #  ### ### ###  #   #    ###  #### #     ##   ##   ##  ### ###  ##  #  #
  #  ## # #  # #  # #     #  #  #  # #     #  # #    #    #  # #  # #  #  #   #  #  # ## #
  #  # ## #  # #  #   #   #  ###    #      ###  ##   #    #  # #    ####  #   #  #  # # ##

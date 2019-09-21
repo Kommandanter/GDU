@@ -2,6 +2,13 @@
     annex_france_uk:0 "Annex France"
     GDU_ITA_stock_up_oil:0 "Stock Up On Fuel While We Can"
 
+ SOV_deployment:0 "Soviet Division Deployment QOL Decisions"
+ GDU_Belarus_Deployment_decision:0 "Place 1 Division in every tile of the Belarus Air Zone"
+ GDU_Baltic_Deployment_decision:0 "Place 1 Division in every tile of the Baltic States Air Zone"
+ GDU_NorthUkraine_Deployment_decision:0 "Place 1 Division in every tile of the Northern Ukraine Air Zone"
+ GDU_SouthUkraine_Deployment_decision:0 "Place 1 Division in every tile of the Southern Ukraine Air Zone"
+ 
+
  SOV_Capital_Kuibyshev:0 "Move the Capital to Kuibyshev"
  SOV_Capital_Moscow:0 "Move the Capital to Moscow"
  SOV_Capital_Perm:0 "Move the Capital to Perm"
