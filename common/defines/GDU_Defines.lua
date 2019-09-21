@@ -104,8 +104,8 @@ NDefines.NProduction.ANNEX_FIELD_EQUIPMENT_RATIO = 1.0
 NDefines.NProduction.EQUIPMENT_BASE_LEND_LEASE_WEIGHT = 2.25
 NDefines.NProduction.LICENSE_EQUIPMENT_BASE_SPEED = -0.20
 NDefines.NProduction.LICENSE_EQUIPMENT_TECH_SPEED_PER_YEAR = -0.000
-NDefines.NProduction.CAPITAL_SHIP_MAX_NAV_FACTORIES_PER_LINE = 50
-NDefines.NProduction.DEFAULT_MAX_NAV_FACTORIES_PER_LINE = 50
+NDefines.NProduction.CAPITAL_SHIP_MAX_NAV_FACTORIES_PER_LINE = 10
+NDefines.NProduction.DEFAULT_MAX_NAV_FACTORIES_PER_LINE = 15
  
 NDefines.NProduction.EQUIPMENT_MODULE_ADD_XP_COST = 0.0					-- XP cost for adding a new equipment module in an empty slot when creating an equipment variant.
 NDefines.NProduction.EQUIPMENT_MODULE_REPLACE_XP_COST = 0.0				-- XP cost for replacing one equipment module with an unrelated module when creating an equipment variant.
@@ -430,7 +430,7 @@ NDefines.NNavy.COMBAT_ARMOR_PIERCING_DAMAGE_REDUCTION = -0.99					-- All damage 
 
 NDefines.NNavy.GUN_HIT_PROFILES = { -- hit profiles for guns, if target ih profile is lower the gun will have lower accuracy		
 	        470.0,    -- big guns
-	        470.0,    -- torpedos
+	        145.0,    -- torpedos
 	        210.0,    -- small guns
 	   }		
 			
@@ -442,7 +442,7 @@ NDefines.NNavy.BASE_GUN_COOLDOWNS = { -- number of hours for a gun to be ready a
 		1.0,	-- small guns
 	}
 			
-NDefines.NNavy.COMBAT_BASE_HIT_CHANCE = 1.0                                    -- base chance for hit
+NDefines.NNavy.COMBAT_BASE_HIT_CHANCE = 0.1                                    -- base chance for hit
 
 NDefines.NNavy.MIN_SHIP_COUNT_FOR_TASK_FORCE_ROLE_ASSIGNMENT = 2					-- define the minimum number of ship that should be in a task force for it to be considered a patrol or an escort task force (used to the insignia assignment, see TASK_FORCE_ROLE_TO_INSIGNIA) --- 2 --> 4; QOL change. 2 ships can technically be called a TF
 
