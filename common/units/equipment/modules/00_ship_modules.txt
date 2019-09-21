@@ -1850,7 +1850,7 @@ equipment_modules = {
 		add_equipment_type = capital_ship
 		add_stats = {
 			carrier_size = 25
-			build_cost_ic = 1500
+			build_cost_ic = 500
 		}
 		manpower = 500 #outside the add_stats section for code reasons
 		multiply_stats = {
@@ -1858,7 +1858,7 @@ equipment_modules = {
 		}
 		build_cost_resources = {
 		}
-		dismantle_cost_ic = 700
+		dismantle_cost_ic = 300
 	}
 
 ### #  # ### #       ###  ##  #  # # #  ## 
