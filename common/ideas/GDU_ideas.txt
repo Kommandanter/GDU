@@ -62,7 +62,37 @@ ideas = {
 
 
 
-
+		GDU_triumph_egypt = { 
+		
+			picture = chi_war_of_resistance	
+			
+			allowed = { 
+				always = no 
+			}
+			
+			removal_cost = -1 
+			
+			modifier = { 
+				stability_factor = 0.10
+				consumer_goods_factor = -0.01
+			}
+		}
+		
+		GDU_triumph_egypt2 = { 
+		
+			picture = chi_war_of_resistance	
+			
+			allowed = { 
+				always = no 
+			}
+			
+			removal_cost = -1 
+			
+			modifier = { 
+				stability_factor = 0.20
+				consumer_goods_factor = -0.02
+			}
+		}		
 
 		mulberry_harbours_idea = {
 			

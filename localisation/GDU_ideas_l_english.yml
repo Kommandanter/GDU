@@ -1,5 +1,9 @@
 ﻿l_english:
-
+    
+    GDU_triumph_egypt:0 "Triumph in Egypt"
+    GDU_triumph_egypt2:0 "Triumph in Egypt"
+    
+    
     category_assault_guns:0 "Assault Gun Support Battalion"
     
     service_by_requirement_42:0 "Service by Requirement '42"

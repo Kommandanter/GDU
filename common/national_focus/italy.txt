@@ -846,6 +846,26 @@ focus = {
 		available_if_capitulated = yes
 
 		completion_reward = {
+			if = {
+				limit = { ENG = { has_completed_focus = uk_protect_suez } }
+				GER = { add_ideas = GDU_triumph_egypt }
+				ITA = { add_ideas = GDU_triumph_egypt }
+				HUN = { add_ideas = GDU_triumph_egypt }
+				ROM = { add_ideas = GDU_triumph_egypt }
+				BUL = { add_ideas = GDU_triumph_egypt }
+				SPR = { add_ideas = GDU_triumph_egypt }
+				FIN = { add_ideas = GDU_triumph_egypt }
+			}
+			if = {
+				limit = { NOT = { ENG = { has_completed_focus = uk_protect_suez } } }
+				GER = { add_ideas = GDU_triumph_egypt2 }
+				ITA = { add_ideas = GDU_triumph_egypt2 }
+				HUN = { add_ideas = GDU_triumph_egypt2 }
+				ROM = { add_ideas = GDU_triumph_egypt2 }
+				BUL = { add_ideas = GDU_triumph_egypt2 }
+				SPR = { add_ideas = GDU_triumph_egypt2 }
+				FIN = { add_ideas = GDU_triumph_egypt2 }
+			}			
 			446  = {
 					add_building_construction = {
 						type = infrastructure
