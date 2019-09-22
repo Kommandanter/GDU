@@ -14,10 +14,7 @@ SOV_deployment = {
 		fire_only_once = yes
 		
 		complete_effect = {
-			SOV = {
-				delete_unit_template_and_units = {
-					division_template = "Strelkovaya Diviziya A"
-				}			
+			SOV = {		
 				load_oob = "SOV_Belarus_Deployment"
 			}
 		}
@@ -33,10 +30,7 @@ SOV_deployment = {
 		fire_only_once = yes
 		
 		complete_effect = {
-			SOV = {
-				delete_unit_template_and_units = {
-					division_template = "Strelkovaya Diviziya B"
-				}			
+			SOV = {		
 				load_oob = "SOV_Baltic_Deployment"
 			}
 		}
@@ -52,10 +46,7 @@ SOV_deployment = {
 		fire_only_once = yes
 		
 		complete_effect = {
-			SOV = {
-				delete_unit_template_and_units = {
-					division_template = "Strelkovaya Diviziya C"
-				}			
+			SOV = {		
 				load_oob = "SOV_NorthUkraine_Deployment"
 			}
 		}
@@ -71,10 +62,8 @@ SOV_deployment = {
 		fire_only_once = yes
 		
 		complete_effect = {
-			SOV = {
-				delete_unit_template_and_units = {
-					division_template = "Strelkovaya Diviziya D"
-				}			
+			SOV = {	
+			
 				load_oob = "SOV_SouthUkraine_Deployment"
 			}
 		}
