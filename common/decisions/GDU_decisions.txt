@@ -2281,7 +2281,7 @@ foreign_politics = {
 				} 
 				date > 1939.11.1 
 			} 
-			has_completed_focus = uk_iraq_focus 
+			has_completed_focus = uk_service_focus 
 		} 
 		
 		fire_only_once = yes
@@ -2346,7 +2346,7 @@ foreign_politics = {
 				}
 				date > 1940.6.1 
 			}
-			has_completed_focus = uk_iran_focus
+			has_completed_focus = uk_service_focus
 			444 = { is_controlled_by = RAJ } 
 
 		} 

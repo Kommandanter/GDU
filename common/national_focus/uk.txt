@@ -2384,11 +2384,13 @@ focus = {
 			}
 		}
 		relative_position_id = ENG_global_defense
-		cost = 2
+		cost = 4
 
 		available_if_capitulated = yes
 
 		completion_reward = {
+			unlock_decision_tooltip = GDU_eng_irq_invasion		
+			unlock_decision_tooltip = GDU_eng_countenance		
 			army_experience = 50
 			navy_experience = 25
 			air_experience = 25
@@ -2598,7 +2600,13 @@ focus = {
 						type = infrastructure
 						level = 3
 						instant_build = yes
-					}			
+					}
+				add_building_construction = {
+					type = bunker
+					level = 5
+					province = 10127
+					instant_build = yes
+				}					
 				add_building_construction = {
 					type = air_base
 					level = 2
@@ -4203,61 +4211,7 @@ focus = {
 
 	# START IRAQ/IRAN/USSR INTERVENTION #
 
-	focus = {
-		id = uk_iraq_focus
-		available = {
 
-		}
-
-		bypass = {
-			IRQ = { exists = no }
-		}
-
-		will_lead_to_war_with = IRQ
-		prerequisite = { focus = uk_service_focus }
-		icon = GFX_goal_generic_occupy_states_ongoing_war
-		x = 0
-		y = 1
-		offset = {
-			x = 1
-			y = 0
-			trigger = {
-				NOT = { has_dlc = "Man the Guns" }
-			}
-		}
-		relative_position_id = uk_service_focus
-		cost = 1
-		ai_will_do = {
-			factor = 1
-		}
-		completion_reward = {
-			unlock_decision_tooltip = GDU_eng_irq_invasion
-		}
-	}
-	focus = {
-		id = uk_iran_focus
-		available = {
-
-		} #UK at war with fascist/commie. iran is fascist/commie
-
-		bypass = {
-			PER = { exists = no }
-		}
-
-		will_lead_to_war_with = PER
-		prerequisite = { focus = uk_iraq_focus }
-		icon = GFX_goal_generic_forceful_treaty
-		x = 0
-		y = 1
-		relative_position_id = uk_iraq_focus
-		cost = 1
-		ai_will_do = {
-			factor = 1
-		}
-		completion_reward = {
-			unlock_decision_tooltip = GDU_eng_countenance
-		}
-	}
 
 	# END IRAQ/IRAN/USSR INTERVENTION #
 
