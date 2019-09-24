@@ -21,7 +21,6 @@
 		destroyer = {		
 			surface_detection = 0.10		
 		}		
-		mines_planting_by_fleets_factor = 0.1
 		#####
 
 
@@ -79,7 +78,6 @@
 		heavy_cruiser = {
 			max_organisation = 12
 		}
-		strike_force_movement_org_loss = -0.3
 		########
 
 		path = {
@@ -375,9 +373,8 @@
 			max_organisation = 25
 		}
 
-		navy_anti_air_attack_factor = 0.10
+		navy_anti_air_attack_factor = 0.20
 		navy_capital_ship_attack_factor = 0.15
-		mines_planting_by_fleets_factor = 0.1
 		
 		xp_research_type = navy
 		xp_research_cost = 75
@@ -1416,8 +1413,7 @@
 		}
 		heavy_cruiser = {
 			max_organisation = 10
-		}		
-		strike_force_movement_org_loss = -0.2
+		}
 		########
 		
 		path = {
@@ -1704,7 +1700,7 @@
 			max_organisation = 5			
 		}
 		modifier = {
-			naval_strike_targetting_factor = 0.1
+			naval_strike_targetting_factor = 0.05
 		}
 		########
 
@@ -1819,7 +1815,7 @@
 		sortie_efficiency = 0.2
 
 		modifier = {
-			naval_strike_targetting_factor = 0.125
+			naval_strike_targetting_factor = 0.1
 		}
 		#############
 
