@@ -1604,7 +1604,7 @@ focus = {
 	}
 
 	focus = {
-		id = GER_air_innovation_2
+		id = GER_luftverteidigungskommando
 		icon = GFX_goal_ger_bf
 		prerequisite = { focus = GER_strategic_air_effort focus = GER_tactical_air_effort }
 		x = 0
