@@ -3,7 +3,8 @@
     generic_artillery_manufacturer_HUN1:0 "Artillery Designer"
     generic_artillery_manufacturer_HUN2:0 "Artillery Designer"
     generic_artillery_manufacturer_HUN3:0 "Artillery Designer"
-    
+
+    generic_infantry_equipment_manufacturer_BUL1:0 "Small Arms Designer"    
     generic_infantry_equipment_manufacturer_HUN2:0 "Small Arms Designer"
     generic_infantry_equipment_manufacturer_HUN3:0 "Small Arms Designer"
    

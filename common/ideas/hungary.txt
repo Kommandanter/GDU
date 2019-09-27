@@ -719,7 +719,11 @@ available = {				has_completed_focus = HUN_renounce_the_treaty_of_trianon}
 			picture = generic_infantry_equipment_manufacturer_2
 
 			allowed = {
-				original_tag = HUN
+				OR = {
+					original_tag = HUN
+					original_tag = ROM
+					original_tag = BUL				
+				}
 			}
 			
 			cost = 50
@@ -746,7 +750,11 @@ available = {				has_completed_focus = HUN_renounce_the_treaty_of_trianon}
 			picture = generic_infantry_equipment_manufacturer_3
 
 			allowed = {
-				original_tag = HUN
+				OR = {
+					original_tag = HUN
+					original_tag = ROM
+					original_tag = BUL				
+				}
 			}
 			
 			cost = 50
@@ -774,7 +782,10 @@ available = {				has_completed_focus = HUN_renounce_the_treaty_of_trianon}
 			picture = generic_artillery_manufacturer_1
 
 			allowed = {
-				original_tag = HUN
+				OR = {
+					original_tag = HUN
+					original_tag = BUL				
+				}
 			}
 			
 			cost = 50
@@ -798,7 +809,7 @@ available = {				has_completed_focus = HUN_renounce_the_treaty_of_trianon}
 					reliability = 0.1
 					soft_attack = 0.1
 					hard_attack = 0.05
-					defense = 0.1
+					defense = -0.1
 					ap_attack = 0.05
 				}	
 			}
@@ -820,7 +831,11 @@ available = {				has_completed_focus = HUN_renounce_the_treaty_of_trianon}
 			picture = generic_artillery_manufacturer_2
 
 			allowed = {
-				original_tag = HUN
+				OR = {
+					original_tag = HUN
+					original_tag = ROM
+					original_tag = BUL				
+				}
 			}
 			
 			cost = 50
@@ -844,7 +859,7 @@ available = {				has_completed_focus = HUN_renounce_the_treaty_of_trianon}
 					reliability = 0.05
 					soft_attack = 0.15
 					hard_attack = 0.1
-					defense = 0.2
+					defense = -0.2
 					build_cost_ic = 0.1	
 					ap_attack = -0.1					
 				}	
@@ -868,7 +883,11 @@ available = {				has_completed_focus = HUN_renounce_the_treaty_of_trianon}
 			picture = generic_artillery_manufacturer_3
 
 			allowed = {
-				original_tag = HUN
+				OR = {
+					original_tag = HUN
+					original_tag = ROM
+					original_tag = BUL				
+				}
 			}
 			
 			cost = 50
@@ -893,7 +912,7 @@ available = {				has_completed_focus = HUN_renounce_the_treaty_of_trianon}
 					reliability = 0.15
 					soft_attack = 0.1
 					hard_attack = -0.05
-					defense = -0.05
+					defense = 0.05
 					build_cost_ic = -0.05	
 					ap_attack = 0.1					
 				}	
