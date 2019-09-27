@@ -840,6 +840,8 @@ focus = {
 			ITA = {
 				controls_state = 446
 				controls_state = 447
+				controls_state = 453
+				controls_state = 454								
 			}
 		}
 
