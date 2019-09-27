@@ -896,41 +896,6 @@ focus = {
 	}
 
 	focus = {
-		id = ROM_expand_the_university_of_bucharest
-		icon = GFX_focus_research
-		prerequisite = { focus = ROM_expand_ploiesti_oil_production }
-		x = 1
-		y = 6
-		relative_position_id = ROM_civil_works
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-			num_of_factories > 50
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = no
-		continue_if_invalid = yes
-		available_if_capitulated = no
-
-		complete_tooltip = {
-
-		}
-
-		completion_reward = {
-			add_research_slot = 1
-		}
-	}
-
-	focus = {
 		id = ROM_exploit_the_baita_mines
 		icon = GFX_goal_generic_construction2
 		prerequisite = { focus = ROM_trade_treaty_with_germany }

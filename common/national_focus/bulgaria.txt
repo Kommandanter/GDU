@@ -333,24 +333,6 @@ focus_tree = {
 	}
 
 	focus = {
-		id = BUL_research_collaboration
-		prerequisite = { focus = BUL_Finnish_2_Year_Plan }
-		icon = GFX_focus_research
-		x = 9
-		y = 6
-		cost = 10
-
-		available_if_capitulated = yes
-		available = {
-			num_of_factories > 25
-		}
-
-		completion_reward = {
-			add_research_slot = 1
-		}
-	}
-
-	focus = {
 		id = BUL_Expand_Western_Mines
 		icon = GFX_goal_generic_production
 		prerequisite = { focus = BUL_Geological_Survey }
