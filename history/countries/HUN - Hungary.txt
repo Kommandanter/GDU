@@ -2,7 +2,7 @@
 
 oob = "HUN_1936"
 
-set_research_slots = 3
+set_research_slots = 4
 set_stability = 0.7
 set_war_support = 0.6
 
@@ -25,7 +25,7 @@ if = {
 		has_dlc = "Death or Dishonor"
 	}
 	add_ideas = {
-		disarmed_nation
+		limited_conscription
 		HUN_treaty_of_triannon
 		GDU_scuffed_acclim
 		general_staff		
@@ -352,6 +352,16 @@ create_corps_commander = {
 	defense_skill = 3
 	planning_skill = 3
 	logistics_skill = 5
+}
+create_corps_commander = {
+	name = "Hugo Miklos"
+	picture = "Portrait_Romania_Constantin_Pantazi.dds"
+	traits = { harsh_leader infantry_officer infantry_leader infantry_expert swamp_fox paratrooper camouflage_expert career_officer trait_reckless media_personality brilliant_strategist }
+	skill = 4
+	attack_skill = 9
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 6
 }
 create_field_marshal = {
 	name = "Karoly Bartha"

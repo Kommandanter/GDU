@@ -555,6 +555,21 @@ available = {				has_completed_focus = HUN_renounce_the_treaty_of_trianon}
 				factor = 1
 			}
 		}
+		
+		HUN_shvoy_kalman2 = {
+
+			picture = generic_army_europe_1
+
+			allowed = {
+				original_tag = HUN
+			}
+			
+			traits = { army_commando_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}		
 
 
 	}
@@ -682,14 +697,223 @@ available = {				has_completed_focus = HUN_renounce_the_treaty_of_trianon}
 				original_tag = HUN
 			}
 			
-			cost = 150
-			#removal_cost = 10
+			cost = 50
 			
 			research_bonus = {
 				infantry_weapons = 0.15
 			}
 			
+			equipment_bonus = {
+				infantry_equipment = {
+					reliability = 0.05
+					defense = 0.05
+					hard_attack = 0.1					
+				}	
+			}				
+			
 			traits = { infantry_equipment_manufacturer }
 		}
+		
+		generic_infantry_equipment_manufacturer_HUN2 = {
+			
+			picture = generic_infantry_equipment_manufacturer_2
+
+			allowed = {
+				original_tag = HUN
+			}
+			
+			cost = 50
+			
+			research_bonus = {
+				infantry_weapons = 0.15
+			}
+			
+			equipment_bonus = {
+				infantry_equipment = {
+					reliability = -0.05
+					defense = 0.1
+					hard_attack = -0.1
+					soft_attack = -0.05
+					build_cost_ic = -0.05					
+				}	
+			}				
+			
+			traits = { infantry_equipment_manufacturer }
+		}
+		
+		generic_infantry_equipment_manufacturer_HUN3 = {
+			
+			picture = generic_infantry_equipment_manufacturer_3
+
+			allowed = {
+				original_tag = HUN
+			}
+			
+			cost = 50
+			
+			research_bonus = {
+				infantry_weapons = 0.15
+			}
+			
+			equipment_bonus = {
+				infantry_equipment = {
+					reliability = 0.15
+					breakthrough = 0.05
+					defense = 0.1
+					hard_attack = -0.05
+					soft_attack = 0.05
+					build_cost_ic = 0.1					
+				}	
+			}				
+			
+			traits = { infantry_equipment_manufacturer }
+		}			
+		
+		generic_artillery_manufacturer_HUN1 = {
+			
+			picture = generic_artillery_manufacturer_1
+
+			allowed = {
+				original_tag = HUN
+			}
+			
+			cost = 50
+			
+			research_bonus = {
+				artillery = 0.15
+			}
+			
+			equipment_bonus = {
+				artillery_equipment = {
+					reliability = -0.05
+					soft_attack = 0.05
+					hard_attack = 0.1
+					breakthrough = 0.1
+					defense = 0.05
+				}	
+			}
+
+			equipment_bonus = {
+				anti_tank_equipment = {
+					reliability = 0.1
+					soft_attack = 0.1
+					hard_attack = 0.05
+					defense = 0.1
+					ap_attack = 0.05
+				}	
+			}
+
+			equipment_bonus = {
+				anti_air_equipment = {
+					breakthrough = 0.2
+					air_attack = 0.1
+					hard_attack = 0.05
+					defense = 0.05
+				}	
+			}				
+			
+			traits = { artillery_manufacturer }
+		}
+		
+		generic_artillery_manufacturer_HUN2 = {
+			
+			picture = generic_artillery_manufacturer_2
+
+			allowed = {
+				original_tag = HUN
+			}
+			
+			cost = 50
+			
+			research_bonus = {
+				artillery = 0.15
+			}
+			
+			equipment_bonus = {
+				artillery_equipment = {
+					reliability = 0.10
+					soft_attack = 0.05
+					hard_attack = 0.1
+					breakthrough = -0.05
+					build_cost_ic = -0.05
+				}	
+			}
+
+			equipment_bonus = {
+				anti_tank_equipment = {
+					reliability = 0.05
+					soft_attack = 0.15
+					hard_attack = 0.1
+					defense = 0.2
+					build_cost_ic = 0.1	
+					ap_attack = -0.1					
+				}	
+			}
+
+			equipment_bonus = {
+				anti_air_equipment = {
+					breakthrough = 0.1
+					air_attack = -0.1
+					hard_attack = 0.05
+					defense = 0.10
+					build_cost_ic = -0.05										
+				}	
+			}				
+			
+			traits = { artillery_manufacturer }
+		}			
+		
+		generic_artillery_manufacturer_HUN3 = {
+			
+			picture = generic_artillery_manufacturer_3
+
+			allowed = {
+				original_tag = HUN
+			}
+			
+			cost = 50
+			
+			research_bonus = {
+				artillery = 0.15
+			}
+			
+			equipment_bonus = {
+				artillery_equipment = {
+					reliability = -0.20
+					soft_attack = -0.05
+					hard_attack = 0.2
+					breakthrough = -0.05
+					defense = -0.1
+					build_cost_ic = -0.1
+				}	
+			}
+
+			equipment_bonus = {
+				anti_tank_equipment = {
+					reliability = 0.15
+					soft_attack = 0.1
+					hard_attack = -0.05
+					defense = -0.05
+					build_cost_ic = -0.05	
+					ap_attack = 0.1					
+				}	
+			}
+
+			equipment_bonus = {
+				anti_air_equipment = {
+					breakthrough = 0.1
+					air_attack = 0.05
+					soft_attack = 0.05
+					hard_attack = -0.05
+					defense = 0.05
+				}	
+			}				
+			
+			traits = { artillery_manufacturer }
+		}				
+		
 	}
+	
+
+		
 }

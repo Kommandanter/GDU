@@ -1241,9 +1241,12 @@ ideas = {
 
 			cost = 75
 			allowed = {
-				OR = { 
-				original_tag = BUL
-				original_tag = GER
+				or = { 
+					original_TAG = GER
+					original_TAG = HUN 
+					original_TAG = BUL 
+					original_TAG = SPR
+					original_TAG = ROM 					
 				}
 			}
 
@@ -1296,6 +1299,8 @@ ideas = {
 					original_TAG = GER
 					original_TAG = HUN 
 					original_TAG = BUL 
+					original_TAG = SPR
+					original_TAG = ROM					
 				}
 			}
 
@@ -1328,7 +1333,13 @@ ideas = {
 
 			cost = 75
 			allowed = {
-				original_tag = GER
+				or = { 
+					original_TAG = GER
+					original_TAG = HUN 
+					original_TAG = BUL 
+					original_TAG = SPR
+					original_TAG = ROM					
+				}			
 			}
 			available = {
 				date > 1941.1.1
@@ -1367,6 +1378,8 @@ ideas = {
 					original_TAG = GER
 					original_TAG = HUN 
 					original_TAG = BUL 
+					original_TAG = SPR
+					original_TAG = ROM					
 				}
 			}
 			research_bonus = {
@@ -1398,7 +1411,13 @@ ideas = {
 			picture = GER_MAN
 
 			allowed = {
-				original_tag = GER
+				or = { 
+					original_TAG = GER
+					original_TAG = HUN 
+					original_TAG = BUL 
+					original_TAG = SPR
+					original_TAG = ROM					
+				}
 			}
 			available = {
 				date > 1941.1.1
@@ -1429,6 +1448,9 @@ ideas = {
 				or = { 
 					original_TAG = GER
 					original_TAG = HUN 
+					original_TAG = BUL 
+					original_TAG = SPR
+					original_TAG = ROM
 				}
 			}
 

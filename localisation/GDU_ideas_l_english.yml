@@ -1,4 +1,14 @@
 ﻿l_english:
+
+    generic_artillery_manufacturer_HUN1:0 "Artillery Designer"
+    generic_artillery_manufacturer_HUN2:0 "Artillery Designer"
+    generic_artillery_manufacturer_HUN3:0 "Artillery Designer"
+    
+    generic_infantry_equipment_manufacturer_HUN2:0 "Small Arms Designer"
+    generic_infantry_equipment_manufacturer_HUN3:0 "Small Arms Designer"
+   
+
+    HUN_shvoy_kalman2:0 "Shvoy Kalman"
     
     GDU_triumph_egypt:0 "Triumph in Egypt"
     GDU_triumph_egypt2:0 "Triumph in Egypt"
