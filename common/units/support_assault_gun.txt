@@ -38,6 +38,8 @@ sub_units = {
 		#support assault gun uses less fuel than full battalion
 		fuel_consumption = -0.5
 		
+		can_be_parachuted = no		
+		
 		#support unit nerf
 		soft_attack = -0.5
 		hard_attack = -0.9
@@ -83,6 +85,8 @@ sub_units = {
 		#support assault gun uses less fuel than full battalion
 		fuel_consumption = -0.5
 		
+		can_be_parachuted = no				
+		
 		#support unit nerf
 		soft_attack = -0.5
 		hard_attack = -0.9
@@ -126,6 +130,8 @@ sub_units = {
 		
 		#support assault gun uses less fuel than full battalion
 		fuel_consumption = -0.5
+		
+		can_be_parachuted = no				
 		
 		#support unit nerf
 		soft_attack = -0.5
@@ -171,6 +177,8 @@ sub_units = {
 		#support assault gun uses less fuel than full battalion
 		fuel_consumption = -0.5
 		
+		can_be_parachuted = no				
+		
 		#support unit nerf
 		soft_attack = -0.5
 		hard_attack = -0.9
@@ -214,6 +222,8 @@ sub_units = {
 		
 		#support assault gun uses less fuel than full battalion
 		fuel_consumption = -0.5
+		
+		can_be_parachuted = no				
 		
 		#support unit nerf
 		soft_attack = -0.5
