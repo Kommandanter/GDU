@@ -696,6 +696,17 @@ ideas = {
 			traits = { army_infantry_2 }
 		}
 		
+		evered_poole_hc = {
+			
+			picture = generic_army_europe_3
+
+			allowed = {
+				original_tag = SAF
+			}
+			
+			traits = { army_commando_2 }
+		}		
+		
 		SAF_c_de_weenburg_du_toit = {
 
 			picture = generic_army_europe_5
