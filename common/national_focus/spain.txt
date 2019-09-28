@@ -674,22 +674,6 @@ focus = {
 		}
 	}
 
-	focus = {
-		id = SPR_Research
-		icon = GFX_focus_research
-		prerequisite = { focus = SPR_Colonial_Industry focus = SPR_Industry_focus_3}
-		prerequisite = { focus = SPR_Instalaza }
-		x = 4
-		y = 4
-		cost = 10
-		ai_will_do = {
-			factor = 10
-		}
-
-		completion_reward = {
-			add_research_slot = 1
-		}
-	}
 
 
 	focus = {
@@ -1189,10 +1173,11 @@ focus = {
 	focus = {
 		id = SPR_Nuclear
 		icon = GFX_focus_wonderweapons
-		prerequisite = { focus = SPR_Research }
+		prerequisite = { focus = SPR_Colonial_Industry focus = SPR_Industry_focus_3}
+		prerequisite = { focus = SPR_Instalaza }
 		x = 4
 		y = 5
-		cost = 10
+		cost = 20
 		ai_will_do = {
 			factor = 6
 		}
