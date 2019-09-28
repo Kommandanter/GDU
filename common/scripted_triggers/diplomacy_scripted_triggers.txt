@@ -1545,7 +1545,12 @@ DIPLOMACY_BOOST_PARTY_POPULARITY_ENABLE_TRIGGER = {
 				option = FREE
 			}
 		}
-		always = yes
+			NOT = {
+				AND = {
+					FROM = { tag = HUN }
+					date < 1939.1.1
+				}				
+			}
 	}
 	if = {
 		limit = {
@@ -1554,6 +1559,12 @@ DIPLOMACY_BOOST_PARTY_POPULARITY_ENABLE_TRIGGER = {
 				option = AI_ONLY
 			}
 		}
+			NOT = {
+				AND = {
+					FROM = { tag = HUN }
+					date < 1939.1.1
+				}				
+			}		
 		custom_trigger_tooltip = {
 			tooltip = RULE_BOOST_PARTY_AI_ONLY_TT
 			FROM = { is_ai = yes }
@@ -1566,6 +1577,12 @@ DIPLOMACY_BOOST_PARTY_POPULARITY_ENABLE_TRIGGER = {
 				option = PLAYER_ONLY
 			}
 		}
+			NOT = {
+				AND = {
+					FROM = { tag = HUN }
+					date < 1939.1.1
+				}				
+			}		
 		custom_trigger_tooltip = {
 			tooltip = RULE_BOOST_PARTY_PLAYER_ONLY_TT
 			FROM = { is_ai = no }
@@ -1578,6 +1595,12 @@ DIPLOMACY_BOOST_PARTY_POPULARITY_ENABLE_TRIGGER = {
 				option = BLOCKED
 			}
 		}
+			NOT = {
+				AND = {
+					FROM = { tag = HUN }
+					date < 1939.1.1
+				}				
+			}		
 		custom_trigger_tooltip = {
 			tooltip = RULE_BOOST_PARTY_BLOCKED_TT
 			always = no
