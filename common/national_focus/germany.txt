@@ -316,7 +316,7 @@ focus = {
 			42 = { set_demilitarized_zone = no }
 			51 = { set_demilitarized_zone = no }
 			add_political_power = 150
-			army_experience = 115
+			army_experience = 265
 			add_named_threat = { threat = 5 name = GER_rhineland }
 			add_named_threat = { threat = 1 name = ITA_Ethiopia }
 			if = {
@@ -3293,7 +3293,7 @@ focus = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			army_experience = 100
+			army_experience = 500
 			set_technology = {
 				improved_heavy_tank = 1
 			}
