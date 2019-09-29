@@ -931,9 +931,9 @@ ideas = {
 				original_tag = ROM
 			}
 
-			picture = generic_air_europe_3
+			picture = generic_army_europe_4
 
-			traits = { air_strategic_bombing_2 }
+			traits = { army_armored_3 }
 
 			ai_will_do = {
 				factor = 1

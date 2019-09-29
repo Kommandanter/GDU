@@ -193,7 +193,7 @@ ideas = {
 				original_tag = BUL
 			}
 
-			traits = { army_cavalry_2 }
+			traits = { army_armored_3 }
 
 			ai_will_do = {
 				factor = 1

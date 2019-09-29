@@ -1,5 +1,6 @@
 ideas = {
 	country = {
+		
 		victor_emmanuel = {
 			
 			
@@ -22,7 +23,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				stability_factor = 0.1			
+				stability_factor = 0.1		
 			}
 		}
 		vittoria_mutilata = {			
@@ -48,6 +49,7 @@ ideas = {
 				fascism_acceptance = 10
 				ai_focus_aggressive_factor = 0.5
 				justify_war_goal_time = -0.05
+				research_speed_factor = 0.10				
 			}
 		}
 

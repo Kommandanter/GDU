@@ -9,6 +9,8 @@ set_war_support = 0.71
 add_ideas = {
 	limited_conscription
 	GDU_scuffed_acclim
+	general_staff
+	
 }
 
 set_technology = { 
@@ -177,6 +179,28 @@ create_country_leader = {
 	traits = {
 		#
 	}
+}
+
+create_field_marshal = {
+	name = "Erich von Manstein"
+	picture = "Portrait_Germany_Erich_von_Manstein.dds"
+	traits = { offensive_doctrine  brilliant_strategist infantry_leader trickster trait_engineer cavalry_officer }
+	skill = 6
+	attack_skill = 6
+	defense_skill = 6
+	planning_skill = 3
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Heinz Guderian"
+	picture = "Portrait_Germany_Heinz_Guderian.dds"
+	traits = { trickster panzer_leader ranger trait_engineer trait_reckless armor_officer career_officer}
+	skill = 6
+	attack_skill = 6
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 5
 }
 
 create_field_marshal = {

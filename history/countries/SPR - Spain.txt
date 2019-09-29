@@ -13,6 +13,7 @@ set_research_slots = 4
 
 add_ideas = SPA_recovering_from_civil_war2
 add_ideas = extensive_conscription
+add_ideas = general_staff
 
 set_technology = {
 	interwar_antiair = 1
@@ -240,6 +241,28 @@ create_corps_commander = {
 	defense_skill = 2
 	planning_skill = 3
 	logistics_skill = 2
+}
+
+create_field_marshal = {
+	name = "Erich von Manstein"
+	picture = "Portrait_Germany_Erich_von_Manstein.dds"
+	traits = { offensive_doctrine  brilliant_strategist infantry_leader trickster trait_engineer cavalry_officer }
+	skill = 6
+	attack_skill = 6
+	defense_skill = 6
+	planning_skill = 3
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Heinz Guderian"
+	picture = "Portrait_Germany_Heinz_Guderian.dds"
+	traits = { trickster panzer_leader ranger trait_engineer trait_reckless armor_officer career_officer}
+	skill = 6
+	attack_skill = 6
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 5
 }
 
 
