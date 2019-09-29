@@ -2828,6 +2828,7 @@ focus = {
 				name = JAP_carrier_warfare_experiments
 				bonus = 1.0
 				uses = 1
+				ahead_reduction = 0.5
 				category = cv_tech
 			}
 			navy_experience = 50
@@ -3138,12 +3139,14 @@ focus = {
 				name = JAP_cruiser_modernization
 				bonus = 1
 				uses = 1
+				ahead_reduction = 0.5
 				category = ca_tech
 			}
 			add_tech_bonus = {
 				name = JAP_cruiser_modernization
 				bonus = 1
 				uses = 1
+				ahead_reduction = 0.5				
 				category = cl_tech
 			}
 		}

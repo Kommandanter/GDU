@@ -2362,10 +2362,10 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = ROM_the_maresal
-				bonus = 1.00
-				ahead_reduction = 0.75
-				uses = 1
-				category = cat_heavy_armor
+				bonus = 1.25
+				ahead_reduction = 1.00
+				uses = 2
+				category = cat_armor
 			}
 		}
 	}

@@ -920,7 +920,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = industrial_bonus
-				bonus = 1.0
+				bonus = 1.5
 				uses = 2
 				category = industry
 			}
@@ -1607,7 +1607,7 @@ focus = {
 			add_ideas = ENG_the_sun_never_sets_idea
 			add_tech_bonus = {
 				name = ENG_secure_the_imperial_shipping_routes
-				bonus = 1.0
+				bonus = 1.5
 				uses = 2
 				category = cl_tech
 			}
@@ -1699,7 +1699,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = dd_bonus
-				bonus = 1.0
+				bonus = 1.5
 				uses = 2
 				category = dd_tech
 			}
@@ -1727,7 +1727,7 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = ENG_asw_warfare
-				bonus = 1.0
+				bonus = 1.5
 				ahead_reduction = 2
 				uses = 2
 				category = asw_tech
@@ -1837,7 +1837,7 @@ focus = {
 			navy_experience = 25
 			add_tech_bonus = {
 				name = uk_carrier_focus
-				bonus = 1.0
+				bonus = 1.5
 				uses = 2
 				category = cv_tech
 			}
@@ -1862,7 +1862,7 @@ focus = {
 			navy_experience = 25
 			add_tech_bonus = {
 				name = uk_battleship_focus
-				bonus = 1.0
+				bonus = 1.5
 				uses = 2
 				category = bb_tech
 			}
