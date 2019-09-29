@@ -6,6 +6,7 @@ set_research_slots = 4
 set_stability = 0.65
 set_war_support = 0.71
 
+add_timed_idea = { idea = airandnavy_idea days = 1180 }
 add_ideas = {
 	limited_conscription
 	GDU_scuffed_acclim
@@ -26,6 +27,9 @@ set_technology = {
 	trench_warfare = 1
 	transport = 1
 }
+add_opinion_modifier = { target = GER modifier = huge_increase  }
+add_opinion_modifier = { target = GER modifier = huge_increase  }
+add_opinion_modifier = { target = GER modifier = huge_increase  }
 
 1939.1.1 = {
 

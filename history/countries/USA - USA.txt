@@ -8,7 +8,7 @@ if = {
 		set_naval_oob = "USA_1936_naval_legacy"
 	}
 }
-
+navy_experience = 33
 set_research_slots = 5
 set_variable = { var = senators_support value = 96 }
 set_variable = { var = senators_total value = 96 }
@@ -51,6 +51,10 @@ set_technology = {
 	forward_interception = 1 
 	fighter_ace_initiative = 1 	
 }
+add_opinion_modifier = { target = SPR modifier = embargo }
+add_opinion_modifier = { target = SPR modifier = sanctions_relations }
+add_opinion_modifier = { target = SPR modifier = large_decrease }
+add_opinion_modifier = { target = SPR modifier = hostile_status }
 
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
@@ -294,7 +298,7 @@ set_popularities = {
     fascism = 0
     communism = 0
 }
-
+add_timed_idea = { idea = airandnavy_idea days = 1668 }
 add_ideas = {
 	undisturbed_isolation
 	great_depression

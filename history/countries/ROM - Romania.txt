@@ -12,6 +12,7 @@ set_research_slots = 4
 set_stability = 0.7
 set_war_support = 0.6
 
+add_timed_idea = { idea = airandnavy_idea days = 1178 }
 # Starting tech
 set_technology = {
 	fuel_silos = 1

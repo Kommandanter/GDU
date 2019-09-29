@@ -2,8 +2,9 @@
 
 oob = "SAF_1936"
 set_research_slots = 3
-
+add_timed_idea = { idea = airandnavy_idea days = 1164 }
 # Starting tech
+navy_experience = 33
 set_technology = {
 	interwar_antiair = 1
 	infantry_weapons = 1
@@ -28,6 +29,10 @@ set_technology = {
 	synth_oil_experiments = 1
 	transport = 1
 }
+add_opinion_modifier = { target = SPR modifier = embargo }
+add_opinion_modifier = { target = SPR modifier = sanctions_relations }
+add_opinion_modifier = { target = SPR modifier = large_decrease }
+add_opinion_modifier = { target = SPR modifier = hostile_status }
 
 if = {
 	limit = { has_dlc = "Together for Victory" }

@@ -13,6 +13,7 @@ set_research_slots = 3
 set_stability = 0.6
 set_war_support = 0.71
 
+add_timed_idea = { idea = airandnavy_idea days = 1664 }
 set_technology = {
 	interwar_antiair = 1
 	infantry_weapons = 1
@@ -27,6 +28,11 @@ set_technology = {
 	trench_warfare = 1 
 	winter_infantry = 1
 }
+
+add_opinion_modifier = { target = GER modifier = huge_increase  }
+add_opinion_modifier = { target = GER modifier = huge_increase  }
+add_opinion_modifier = { target = GER modifier = huge_increase  }
+
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
 	set_technology = {

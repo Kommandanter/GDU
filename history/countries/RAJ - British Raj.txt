@@ -3,9 +3,9 @@
 oob = "RAJ_1936"
 set_stability = 0.71
 set_war_support = 0.1
-
+navy_experience = 33
 set_research_slots = 3
-
+add_timed_idea = { idea = airandnavy_idea days = 1162 }
 # Starting tech
 set_technology = {
 	interwar_antiair = 1
@@ -24,6 +24,10 @@ set_technology = {
 	fuel_refining = 1
 	synth_oil_experiments = 1	
 }
+add_opinion_modifier = { target = SPR modifier = embargo }
+add_opinion_modifier = { target = SPR modifier = sanctions_relations }
+add_opinion_modifier = { target = SPR modifier = large_decrease }
+add_opinion_modifier = { target = SPR modifier = hostile_status }
 
 if = {
 	limit = { has_dlc = "Together for Victory" }

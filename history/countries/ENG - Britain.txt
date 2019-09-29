@@ -12,10 +12,11 @@ if = {
 }
 
 set_research_slots = 4
-
+navy_experience = 33
 set_stability = 0.65
 set_war_support = 0.11
 
+add_timed_idea = { idea = airandnavy_idea days = 1170 }
 # Starting tech
 set_technology = {
 
@@ -63,6 +64,11 @@ set_technology = {
 	interwar_antitank = 1
 	multialtitude_flying = 1
 }
+add_opinion_modifier = { target = SPR modifier = embargo }
+add_opinion_modifier = { target = SPR modifier = sanctions_relations }
+add_opinion_modifier = { target = SPR modifier = large_decrease }
+add_opinion_modifier = { target = SPR modifier = hostile_status }
+
 if = {
 	limit = {
 		not = { has_dlc = "Man the Guns" }

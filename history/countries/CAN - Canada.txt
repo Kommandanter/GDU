@@ -8,9 +8,10 @@ if = {
 		set_naval_oob = "CAN_1936_naval_legacy"
 	}
 }
+navy_experience = 33
 set_research_slots = 3
 set_country_flag = monroe_doctrine
-
+add_timed_idea = { idea = airandnavy_idea days = 1160 }
 # Starting tech
 set_technology = {
 	interwar_antiair = 1
