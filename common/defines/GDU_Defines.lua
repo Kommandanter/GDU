@@ -121,10 +121,10 @@ NDefines.NBuildings.DESTRUCTION_COOLDOWN_IN_WAR = 120
 NDefines.NBuildings.OWNER_CHANGE_EXTRA_SHARED_SLOTS_FACTOR = 1.0 --Scale factor of extra shared slots when state owner change.
 
 NDefines.NTechnology.BASE_RESEARCH_POINTS_SAVED = 45.0  -- increased from 45 to 55 8/3/2019
-NDefines.NTechnology.BASE_TECH_COST = 90
+NDefines.NTechnology.BASE_TECH_COST = 87
 NDefines.NTechnology.LICENSE_PRODUCTION_TECH_BONUS = 0.00
 NDefines.NTechnology.MAX_TECH_SHARING_BONUS = 0.40  			-- Max technology sharing bonus that can be applied instantly
-NDefines.NTechnology.BASE_YEAR_AHEAD_PENALTY_FACTOR = 3.0		-- Base year ahead penalty
+NDefines.NTechnology.BASE_YEAR_AHEAD_PENALTY_FACTOR = 4		-- Base year ahead penalty
 
 NDefines.NPolitics.DEFAULT_OCCUPATION_POLICY = 3
 NDefines.NPolitics.BASE_LEADER_TRAITS = 6
@@ -190,7 +190,7 @@ NDefines.NMilitary.OVERSEAS_LOSE_EQUIPMENT_FACTOR = 1
 NDefines.NMilitary.ENCIRCLED_PENALTY = -0.4
 NDefines.NMilitary.MAX_OUT_OF_SUPPLY_DAYS = 20 -- Because 30 is too long. 
 NDefines.NMilitary.OUT_OF_SUPPLY_ATTRITION = 0.4                -- max attrition when out of supply
-NDefines.NMilitary.AIR_SUPPORT_BASE = 0.275
+NDefines.NMilitary.AIR_SUPPORT_BASE = 0.26
 NDefines.NMilitary.ENCIRCLED_DISBAND_MANPOWER_FACTOR = 0
 NDefines.NMilitary.ORG_LOSS_FACTOR_ON_CONQUER = 0.4
 NDefines.NMilitary.PLAYER_ORDER_PLANNING_DECAY = 0.01
@@ -250,7 +250,7 @@ NDefines.NMilitary.ANTI_AIR_ATTACK_TO_AMOUNT = 0.001				-- Balancing value to co
 
 NDefines.NAir.AIR_MORE_GROUND_CREWS_COST = 500.0 -- Disables ground crews. They're cancerous. 
 NDefines.NAir.ACCIDENT_CHANCE_BASE = 0.05
-NDefines.NAir.COMBAT_DAMAGE_SCALE = 0.033
+NDefines.NAir.COMBAT_DAMAGE_SCALE = 0.035
 NDefines.NAir.COMBAT_DAMAGE_SCALE_CARRIER = 6
 
 NDefines.NAir.AIR_DEPLOYMENT_DAYS = 0							-- Days to deploy one air wing

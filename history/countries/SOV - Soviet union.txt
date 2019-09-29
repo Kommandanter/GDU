@@ -257,12 +257,7 @@ add_equipment_to_stockpile = {
 } 
 add_equipment_to_stockpile = {
          type = infantry_equipment_0
-         amount = 74000
-         producer = SOV
-} 
-add_equipment_to_stockpile = {
-         type = infantry_equipment_1
-         amount = 112000
+         amount = 236000
          producer = SOV
 } 
 add_equipment_to_stockpile = {
@@ -1110,10 +1105,10 @@ create_equipment_variant = {
 	name = "I-153"
 	type = fighter_equipment_0
 	upgrades = {
-		plane_gun_upgrade = 5
-		plane_range_upgrade = 5
-		plane_engine_upgrade = 5
-		plane_reliability_upgrade = 5
+		plane_gun_upgrade = 3
+		plane_range_upgrade = 3
+		plane_engine_upgrade = 3
+		plane_reliability_upgrade = 3
 	}
 }
 create_equipment_variant = {
@@ -1179,8 +1174,8 @@ create_equipment_variant = {
 	type = CAS_equipment_1 
 	upgrades = {
 		plane_cas_upgrade = 0
-		plane_range_upgrade = 2
-		plane_engine_upgrade = 1
+		plane_range_upgrade = 0
+		plane_engine_upgrade = 0
 		plane_reliability_upgrade = 1
 	}
 }

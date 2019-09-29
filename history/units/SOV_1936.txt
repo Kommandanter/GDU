@@ -425,31 +425,6 @@ air_wings = {
 	195 = {
 		# 2ya Istrebitel'nye Aviabrigada
 				fighter_equipment_0 = {
-			version_name = "I-15bis"	
-			owner = "SOV"
-			amount = 100
-		}
-				fighter_equipment_0 = {
-			version_name = "I-153"
-			owner = "SOV"
-			amount = 100
-		}
-				fighter_equipment_0 = {
-			version_name = "I-153"
-			owner = "SOV"
-			amount = 100
-		}
-				fighter_equipment_0 = {
-			version_name = "I-153"
-			owner = "SOV"
-			amount = 100
-		}
-				fighter_equipment_0 = {
-			version_name = "I-153"
-			owner = "SOV"
-			amount = 100
-		}
-				fighter_equipment_0 = {
 			version_name = "I-15bis"
 			owner = "SOV"
 			amount = 100
@@ -500,104 +475,9 @@ air_wings = {
 			owner = "SOV"
 			amount = 100
 		}
-				fighter_equipment_0 = {
-			version_name = "I-15bis"
-			owner = "SOV"
-			amount = 100
-		}
-				fighter_equipment_0 = {
-			version_name = "I-15bis"
-			owner = "SOV"
-			amount = 100
-		}
-				fighter_equipment_0 = {
-			version_name = "I-15bis"
-			owner = "SOV"
-			amount = 100
-		}
-						fighter_equipment_0 = {
-			version_name = "I-15bis"
-			owner = "SOV"
-			amount = 100
-		}
-						fighter_equipment_0 = {
-			version_name = "I-15bis"
-			owner = "SOV"
-			amount = 100
-		}
+
  }
- 219 = {
- fighter_equipment_0 = {
-			owner = "SOV"
-			amount = 100
-		}
-				fighter_equipment_0 = {
-			version_name = "I-15bis"
-			owner = "SOV"
-			amount = 100
-		}
-				fighter_equipment_0 = {
-			version_name = "I-153"
-			owner = "SOV"
-			amount = 100
-		}
-				fighter_equipment_0 = {
-			version_name = "I-153"
-			owner = "SOV"
-			amount = 100
-		}
-				fighter_equipment_0 = {
-			version_name = "I-153"
-			owner = "SOV"
-			amount = 100
-		}
-						fighter_equipment_0 = {
-			version_name = "I-153"
-			owner = "SOV"
-			amount = 100
-		}
-						fighter_equipment_0 = {
-			version_name = "I-153"
-			owner = "SOV"
-			amount = 100
-		}
-						fighter_equipment_0 = {
-			version_name = "I-153"
-			owner = "SOV"
-			amount = 100
-		}
-						fighter_equipment_0 = {
-			version_name = "I-15bis"
-			owner = "SOV"
-			amount = 100
-		}
-						fighter_equipment_0 = {
-			version_name = "I-15bis"
-			owner = "SOV"
-			amount = 100
-		}
-						fighter_equipment_0 = {
-			version_name = "I-15bis"
-			owner = "SOV"
-			amount = 100
-		}
-						fighter_equipment_0 = {
-			version_name = "I-15bis"
-			owner = "SOV"
-			amount = 100
-		}				fighter_equipment_0 = {
-			owner = "SOV"
-			amount = 100
-		}
-						fighter_equipment_0 = {
-			owner = "SOV"
-			amount = 100
-		}
-						fighter_equipment_0 = {
-			owner = "SOV"
-			amount = 100
-		}
-   }
+
 	}
 
 
@@ -613,7 +493,7 @@ instant_effect = {
 			type = infantry_equipment_1
 			creator = "SOV"
 		}
-		requested_factories = 19
+		requested_factories = 30
 		progress = 0.1
 		efficiency = 70
 	}
@@ -623,7 +503,7 @@ instant_effect = {
 			type = artillery_equipment_1
 			creator = "SOV"
 		}
-		requested_factories = 7
+		requested_factories = 12
 		progress = 0.3
 		efficiency = 70
 	}
@@ -633,7 +513,7 @@ instant_effect = {
 			type = support_equipment_1
 			creator = "SOV"
 		}
-		requested_factories = 6
+		requested_factories = 10
 		progress = 0.3
 		efficiency = 70
 	}
@@ -642,7 +522,7 @@ instant_effect = {
 			type = anti_tank_equipment_1
 			creator = "SOV"
 		}
-		requested_factories = 5
+		requested_factories = 8
 		progress = 0.3
 		efficiency = 70
 	}
@@ -652,7 +532,7 @@ instant_effect = {
 			type = anti_air_equipment_1
 			creator = "SOV"
 		}
-		requested_factories = 2
+		requested_factories = 4
 		progress = 0.3
 		efficiency = 70
 	}
@@ -663,28 +543,8 @@ instant_effect = {
 			type = motorized_equipment_1
 			creator = "SOV"
 		}
-		requested_factories = 7
+		requested_factories = 11
 		progress = 0.4
-		efficiency = 70
-	}
-	add_equipment_production = {
-		equipment = {
-			type = fighter_equipment_0
-			version_name = "I-153"
-			creator = "SOV"
-		}
-		requested_factories = 1
-		progress = 0.15
-		efficiency = 70
-	}
-	add_equipment_production = {
-		equipment = {
-			type = CAS_equipment_1
-			version_name = "Sh-1" 
-			creator = "SOV"
-		}
-		requested_factories = 7
-		progress = 0.15
 		efficiency = 70
 	}
 
