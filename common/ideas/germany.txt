@@ -454,7 +454,7 @@ ideas = {
 				planning_speed = 0.25
 				army_org_Factor = 0.05
 				army_morale_factor = 0.10
-				command_power_gain_mult = 0.15
+				command_power_gain_mult = 0.35
 				training_time_factor = -0.2
 			}
 		}
@@ -1354,6 +1354,7 @@ ideas = {
 
 			equipment_bonus = {
 				heavy_tank_equipment = {
+					reliability = 0.05				
 					hard_attack = 0.20
 					soft_attack = 0.20
 					defense = 0.15
@@ -1460,6 +1461,7 @@ ideas = {
 
 			equipment_bonus = {
 				heavy_tank_equipment = {
+					reliability = 0.05								
 					hard_attack = 0.10 
 					soft_attack = 0.10
 					reliability = 0.05
