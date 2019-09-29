@@ -2365,7 +2365,7 @@ focus = {
 				bonus = 1.25
 				ahead_reduction = 1.00
 				uses = 2
-				category = cat_armor
+				category = armor
 			}
 		}
 	}

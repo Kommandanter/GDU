@@ -2962,6 +2962,7 @@ focus = {
 				name = USA_battleship_primacy
 				bonus = 1.0
 				uses = 1
+				ahead_reduction = 0.5
 				category = bb_tech
 			}
 		}
@@ -3063,6 +3064,7 @@ focus = {
 				name = USA_carrier_primacy
 				bonus = 1.0
 				uses = 1
+				ahead_reduction = 0.5				
 				category = cv_tech
 			}
 		}
@@ -3087,6 +3089,7 @@ focus = {
 				name = USA_bureau_of_aeronautics
 				bonus = 1.0
 				uses = 1
+				ahead_reduction = 0.5				
 				category = naval_bomber
 				category = naval_air
 			}
@@ -3147,6 +3150,7 @@ focus = {
 				name = dd_bonus
 				bonus = 1.0
 				uses = 2
+				ahead_reduction = 0.5				
 				category = dd_tech
 			}
 
@@ -3207,6 +3211,7 @@ focus = {
 				name = USA_fleet_submarines
 				bonus = 1.0
 				uses = 2
+				ahead_reduction = 0.5				
 				category = ss_tech
 			}
 			if = {
