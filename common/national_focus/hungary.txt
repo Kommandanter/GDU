@@ -248,21 +248,11 @@ focus = {
 		}
 
 		completion_reward = {
-		46 = {
-
-				add_resource = {
-					type = oil
-					amount = -15
-				}
-
-
-
-			}
 		154 = {
 
 				add_resource = {
-					type = oil
-					amount = 25
+					type = tungsten
+					amount = 15
 				}
 
 
@@ -300,16 +290,6 @@ focus = {
 		}
 
 		completion_reward = {
-		81 = {
-
-				add_resource = {
-					type = steel
-					amount = -15
-				}
-
-
-
-			}
 		154 = {
 
 				add_resource = {
