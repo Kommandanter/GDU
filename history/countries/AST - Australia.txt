@@ -318,11 +318,11 @@ create_corps_commander = {
 	name = "Horace Robertson"
 	gfx = "GFX_AST_horace_robertson"
 	traits = { desert_fox infantry_leader cavalry_officer harsh_leader trait_reckless panzer_leader}
-	skill = 4
+	skill = 5
 	attack_skill = 4
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 3
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 7
 }
 create_corps_commander = {
 	name = "John Northcott"
