@@ -779,117 +779,6 @@ create_navy_leader = {
 }
 
 
-### Ship Variants ###
-
-#create_equipment_variant = {
-#	name = "O/P/R Class"
-#	type = submarine_1
-#	upgrades = {
-#		ship_reliability_upgrade = 1
-#		sub_engine_upgrade = 1
-#		sub_stealth_upgrade = 1
-#		sub_torpedo_upgrade = 1
-#	}
-#}
-#
-#create_equipment_variant = {
-#	name = "S Class"
-#	type = submarine_1
-#	upgrades = {
-#		ship_reliability_upgrade = 2
-#		sub_engine_upgrade = 2
-#		sub_stealth_upgrade =2
-#		sub_torpedo_upgrade = 2
-#	}
-#}
-#
-#create_equipment_variant = {
-#	name = "A/B/C/D Class"
-#	type = destroyer_1
-#	upgrades = {
-#		ship_torpedo_upgrade = 1
-#		ship_engine_upgrade = 1
-#		ship_ASW_upgrade = 1
-#		ship_anti_air_upgrade = 1
-#	}
-#}
-#
-#create_equipment_variant = {
-#	name = "Tribal Class"
-#	type = destroyer_1
-#	upgrades = {
-#		ship_torpedo_upgrade = 2
-#		ship_engine_upgrade = 2
-#		ship_ASW_upgrade = 2
-#		ship_anti_air_upgrade = 2
-#	}
-#}
-#
-#create_equipment_variant = {
-#	name = "Emerald Class"
-#	type = light_cruiser_1
-#	upgrades = {
-#		ship_reliability_upgrade = 1
-#		ship_engine_upgrade = 1
-#		ship_gun_upgrade = 1
-#		ship_anti_air_upgrade = 1
-#	}
-#}
-#
-#create_equipment_variant = {
-#	name = "Amphion Class"
-#	type = light_cruiser_1
-#	upgrades = {
-#		ship_reliability_upgrade = 2
-#		ship_engine_upgrade = 2
-#		ship_gun_upgrade = 2
-#		ship_anti_air_upgrade = 2
-#	}
-#}
-#
-#create_equipment_variant = {
-#	name = "Edinburgh Class"
-#	type = light_cruiser_2
-#	upgrades = {
-#		ship_reliability_upgrade = 3
-#		ship_engine_upgrade = 3
-#		ship_gun_upgrade = 3
-#		ship_anti_air_upgrade = 3
-#	}
-#}
-#
-#create_equipment_variant = {
-#	name = "County Class"
-#	type = heavy_cruiser_1
-#	upgrades = {
-#		ship_reliability_upgrade = 2
-#		ship_engine_upgrade = 2
-#		ship_armor_upgrade = 2
-#		ship_gun_upgrade = 2
-#	}
-#}
-#
-#create_equipment_variant = {
-#	name = "Admiral Class"
-#	type = battle_cruiser_1
-#	upgrades = {
-#		ship_reliability_upgrade = 1
-#		ship_engine_upgrade = 1
-#		ship_armor_upgrade = 1
-#		ship_gun_upgrade = 1
-#	}
-#}
-#
-#create_equipment_variant = {
-#	name = "Nelson Class"
-#	type = battleship_1
-#	upgrades = {
-#		ship_reliability_upgrade = 1
-#		ship_engine_upgrade = 1
-#		ship_armor_upgrade = 1
-#		ship_gun_upgrade = 1
-#	}
-#}
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
 	### Variants ###
@@ -906,7 +795,7 @@ if = {
 		}
 	}
 	create_equipment_variant = {
-		name = "S Class"
+		name = "SS2"
 		type = submarine_1
 		parent_version = 1
 		upgrades = {
@@ -967,7 +856,7 @@ if = {
 	}
 	# Battlecruisers #
 	create_equipment_variant = {
-		name = "Admiral Class"
+		name = "BC1"
 		type = battle_cruiser_1
 		parent_version = 0
 		upgrades = {
@@ -979,7 +868,7 @@ if = {
 	}
 	# Battleships #
 	create_equipment_variant = {
-		name = "Nelson Class"
+		name = "BB1"
 		type = battleship_1
 		parent_version = 0
 		upgrades = {
@@ -1005,7 +894,7 @@ if = {
 	### Variants ###
 	# Submarines #
 	create_equipment_variant = {
-		name = "Rainbow Class"
+		name = "SS1"
 		type = ship_hull_cruiser_submarine
 		name_group = ENG_SS_HISTORICAL
 		parent_version = 0
@@ -1019,7 +908,7 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "S Class"
+		name = "SS2"
 		type = ship_hull_submarine_2
 		name_group = ENG_SS_HISTORICAL
 		parent_version = 0
@@ -1031,7 +920,7 @@ if = {
 	}
 	# Destroyers #
 	create_equipment_variant = {
-		name = "A/B Class"
+		name = "Torp DD1"
 		type = ship_hull_light_1
 		name_group = ENG_DD_HISTORICAL
 		parent_version = 0
@@ -1050,7 +939,7 @@ if = {
 	
 
 	create_equipment_variant = {
-		name = "E/F Class"
+		name = "DD2"
 		type = ship_hull_light_2
 		name_group = ENG_DD_HISTORICAL
 		parent_version = 0
@@ -1064,11 +953,10 @@ if = {
 			mid_1_custom_slot = ship_torpedo_1
 			rear_1_custom_slot = ship_depth_charge_1
 		}
-		obsolete = yes
 	}
 
 	create_equipment_variant = {
-		name = "V/W Class"
+		name = "ASW DD1"
 		type = ship_hull_light_1
 		name_group = ENG_DD_HISTORICAL
 		parent_version = 0
@@ -1086,7 +974,7 @@ if = {
 	}
 	
 	create_equipment_variant = {
-		name = "Danae Class"
+		name = "CL1"
 		type = ship_hull_cruiser_1
 		name_group = ENG_CL_HISTORICAL
 		parent_version = 0
@@ -1105,7 +993,7 @@ if = {
 	}
 
 	create_equipment_variant = {
-		name = "Leander Class"
+		name = "CL2"
 		type = ship_hull_cruiser_2
 		name_group = ENG_CL_HISTORICAL
 		parent_version = 0
@@ -1122,7 +1010,6 @@ if = {
 			mid_2_custom_slot = ship_torpedo_1
 			rear_1_custom_slot = ship_airplane_launcher_1
 		}
-		obsolete = yes
 
 	}
 	
@@ -1131,7 +1018,7 @@ if = {
 	# Heavy Cruisers #
 
 	create_equipment_variant = {
-		name = "Kent Class"
+		name = "CA1"
 		type = ship_hull_cruiser_1
 		name_group = ENG_CA_HISTORICAL
 		parent_version = 0
@@ -1152,7 +1039,7 @@ if = {
 	
 	# Battlecruisers #
 	create_equipment_variant = {
-		name = "Admiral Class"
+		name = "BC1"
 		type = ship_hull_heavy_1
 		name_group = ENG_BC_HISTORICAL
 		parent_version = 0
@@ -1171,7 +1058,7 @@ if = {
 		}
 	}
 		create_equipment_variant = {
-			name = "Ark Royal Class"
+			name = "CV2"
 			type = ship_hull_carrier_1
 			name_group = ENG_CV_HISTORICAL
 			parent_version = 0
@@ -1188,7 +1075,7 @@ if = {
 
 	# Battleships #
 	create_equipment_variant = {
-		name = "Nelson Class"
+		name = "BB1"
 		type = ship_hull_heavy_1
 		name_group = ENG_BB_HISTORICAL
 		parent_version = 0
@@ -1225,7 +1112,7 @@ if = {
 	
 
 	create_equipment_variant = {
-		name = "Courageous Class"
+		name = "CV1"
 		type = ship_hull_carrier_conversion_bb
 		name_group = ENG_CV_HISTORICAL
 		parent_version = 0
