@@ -328,10 +328,10 @@ create_corps_commander = {
 	picture = "Portrait_CAN_Kenneth_Stuart.dds"
 	traits = { desert_fox career_officer trickster infantry_leader cavalry_officer panzer_leader  skilled_staffer old_guard trait_cautious brilliant_strategist}
 	skill = 5
-		attack_skill = 5
-		defense_skill = 4
-		planning_skill = 3
-		logistics_skill = 3
+		attack_skill = 8
+		defense_skill = 1
+		planning_skill = 4
+		logistics_skill = 2
 }
 
 create_navy_leader = {

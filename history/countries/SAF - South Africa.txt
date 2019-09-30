@@ -325,8 +325,8 @@ create_corps_commander = {
 	picture = "Portrait_SAF_Nick_Bierman.dds"
 	traits = { harsh_leader trait_reckless career_officer armor_officer organizer panzer_leader desert_fox }
 	skill = 6
-	attack_skill = 5
-	defense_skill = 5
+	attack_skill = 6
+	defense_skill = 4
 	planning_skill = 3
 	logistics_skill = 4
 }
