@@ -689,7 +689,7 @@ focus = {
 			completion_reward = {
 				add_resource = {
 				type = steel
-				amount = 6
+				amount = 15
 				state = 41
 				}
 			}
@@ -709,7 +709,7 @@ focus = {
 		completion_reward = {
 				add_resource = {
 				type = steel
-				amount = 6
+				amount = 20
 				state = 174
 				}
 		}
@@ -730,7 +730,7 @@ focus = {
 
 				add_resource = {
 				type = steel
-				amount = 10
+				amount = 25
 				state = 169
 				}
 
@@ -750,7 +750,7 @@ focus = {
 		completion_reward = {
 				add_resource = {
 				type = steel
-				amount = 10
+				amount = 30
 				state = 41
 				}
 		}
@@ -769,7 +769,7 @@ focus = {
 		completion_reward = {
 				add_resource = {
 				type = steel
-				amount = 10
+				amount = 35
 				state = 169
 				}
 		}
