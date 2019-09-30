@@ -28,7 +28,7 @@ country_event = {
 			}
 		}
 		SOV = { country_event = { id = sovfin_events.1 days = 3 } }
-		FIN = country_event = { id = finland.2 days = 30 }
+		FIN = { country_event = { id = finland.2 days = 30 } }
 	}
 }
 # Request Swedish Assistance?
@@ -46,10 +46,8 @@ country_event = {
 			has_war_with = SOV
 		}
 
-		SWE = {
-			country_event = { id = finland.3 days = 1 }
-		}
-		FIN = country_event = { id = finland.2 days = 30 }
+		SWE = { country_event = { id = finland.3 days = 1 } }
+		FIN = { country_event = { id = finland.2 days = 30 } }
 	}
 }
 
