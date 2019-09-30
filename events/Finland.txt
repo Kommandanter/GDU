@@ -27,6 +27,7 @@ country_event = {
 				}
 			}
 		}
+		SOV = { country_event = { id = sovfin_events.1 days = 3 } }
 	}
 }
 
@@ -87,41 +88,41 @@ country_event = {
 	}
 }
 
-#Surrender when Soviet has taken too much land
-country_event = {
-	id = finland.7
-	title = finland.7.t
-	desc = finland.7.d
-	picture = GFX_report_event_soviet_tanks_snow
-
-	trigger = {
-		tag = FIN
-		has_war_with = SOV
-		has_civil_war = no
-		is_in_faction = no
-	}
-
-	mean_time_to_happen = { days = 1 }
-
-	fire_only_once = yes
-
-	#Surrender and offer territory
-	option = {
-		name = finland.7.a
-		give_military_access = SOV 
-		ai_chance = {
-			base = 8
-		}
-		SOV = {
-			country_event = { id = finland.8 days = 7 }
-			white_peace = FIN
-			transfer_state = 146
-			transfer_state = 147
-		}
-		GER = { add_to_faction = FIN }
-		remove_state_core = 146 
-	}
-}
+##Surrender when Soviet has taken too much land
+#country_event = {
+#	id = finland.7
+#	title = finland.7.t
+#	desc = finland.7.d
+#	picture = GFX_report_event_soviet_tanks_snow
+#
+#	trigger = {
+#		tag = FIN
+#		has_war_with = SOV
+#		has_civil_war = no
+#		is_in_faction = no
+#	}
+#
+#	mean_time_to_happen = { days = 1 }
+#
+#	fire_only_once = yes
+#
+#	#Surrender and offer territory
+#	option = {
+#		name = finland.7.a
+#		give_military_access = SOV 
+#		ai_chance = {
+#			base = 8
+#		}
+#		SOV = {
+#			country_event = { id = finland.8 days = 7 }
+#			white_peace = FIN
+#			transfer_state = 146
+#			transfer_state = 147
+#		}
+#		GER = { add_to_faction = FIN }
+#		remove_state_core = 146 
+#	}
+#}
 
 #Soviet response to Finish surrender
 country_event = {
