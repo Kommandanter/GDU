@@ -113,7 +113,7 @@ country_event = {
 			base = 8
 		}
 		SOV = {
-			country_event = { id = finland.8 days = 30 }
+			country_event = { id = finland.8 days = 7 }
 			white_peace = FIN
 			transfer_state = 146
 			transfer_state = 147
