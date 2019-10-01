@@ -8,9 +8,10 @@ if = {
 		set_naval_oob = "CAN_1936_naval_legacy"
 	}
 }
+navy_experience = 33
 set_research_slots = 3
 set_country_flag = monroe_doctrine
-
+add_timed_idea = { idea = airandnavy_idea days = 1160 }
 # Starting tech
 set_technology = {
 	interwar_antiair = 1
@@ -276,11 +277,11 @@ create_corps_commander = {
 	name = "John Montague"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
 	traits = { armor_officer panzer_leader trickster hill_fighter trait_cautious}
-	skill = 4
+	skill = 5
 		attack_skill = 4
 		defense_skill = 5
 		planning_skill = 4
-		logistics_skill = 4
+		logistics_skill = 5
 }
 create_corps_commander = {
 	name = "Bert Hoffmeister"
@@ -325,11 +326,11 @@ create_field_marshal = {
 create_corps_commander = {
 	name = "Kenneth Stuart"
 	picture = "Portrait_CAN_Kenneth_Stuart.dds"
-	traits = { career_officer trickster infantry_leader cavalry_officer panzer_leader  skilled_staffer old_guard trait_cautious brilliant_strategist}
-	skill = 4
-		attack_skill = 5
-		defense_skill = 4
-		planning_skill = 3
+	traits = { desert_fox career_officer trickster infantry_leader cavalry_officer panzer_leader  skilled_staffer old_guard trait_cautious brilliant_strategist}
+	skill = 5
+		attack_skill = 8
+		defense_skill = 1
+		planning_skill = 4
 		logistics_skill = 2
 }
 

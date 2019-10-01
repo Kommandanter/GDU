@@ -18,6 +18,102 @@ focus_tree = {
 		id = JAP_flavour_one
 		icon = GFX_goal_generic_navy_battleship
 
+		mutually_exclusive = { focus = JAP_flavour_onehalf }
+
+
+		x = 0
+		y = 0
+
+
+		cost = 4
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			NOT = { has_global_flag = ttfocus_disabled }
+			date < 1940.1.1
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+				428 = {
+					add_building_construction = {
+						type = naval_base
+						level = 1
+						province = 4090
+						instant_build = yes
+					}
+				}
+				424 = {
+					add_building_construction = {
+						type = naval_base
+						level = 1
+						province = 1430
+						instant_build = yes
+					}
+				}
+				430 = {
+					add_building_construction = {
+						type = naval_base
+						level = 1
+						province = 9935
+						instant_build = yes
+					}
+				}
+				
+				
+				
+				USA = {
+					country_event = { id = gduevents.32 }
+				}				
+				ENG = {
+					country_event = { id = gduevents.32 }
+				}
+				NZL = {
+					country_event = { id = gduevents.32 }
+				}
+				AST = {
+					country_event = { id = gduevents.32 }
+				}
+				RAJ = {
+					country_event = { id = gduevents.32 }
+				}
+				SAF = {
+					country_event = { id = gduevents.32 }
+				}
+				CAN = {
+					country_event = { id = gduevents.32 }
+				}
+				FRA = {
+					country_event = { id = gduevents.32 }
+				}
+				FRF = {
+					country_event = { id = gduevents.32 }
+				}				
+				
+				
+				
+				
+				
+				
+			add_ideas = JAP_flavour_one_idea
+		}
+	}
+	focus = {
+		id = JAP_flavour_onehalf
+		icon = GFX_goal_generic_navy_battleship
+
+		mutually_exclusive = { focus = JAP_flavour_one }
 
 
 		x = -2
@@ -32,6 +128,7 @@ focus_tree = {
 
 		available = {
 			NOT = { has_global_flag = ttfocus_disabled }
+			date < 1940.1.1			
 		}
 
 		bypass = {
@@ -43,15 +140,69 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
+		
+				285 = {
+					add_building_construction = {
+						type = naval_base
+						level = 1
+						province = 4763
+						instant_build = yes
+					}
+				}
+				285 = {
+					add_building_construction = {
+						type = naval_base
+						level = 1
+						province = 7520
+						instant_build = yes
+					}
+				}
+				521 = {
+					add_building_construction = {
+						type = naval_base
+						level = 1
+						province = 1644
+						instant_build = yes
+					}
+				}					
+		
+				USA = {
+					country_event = { id = gduevents.31 }
+				}				
+				ENG = {
+					country_event = { id = gduevents.31 }
+				}
+				NZL = {
+					country_event = { id = gduevents.31 }
+				}
+				AST = {
+					country_event = { id = gduevents.31 }
+				}
+				RAJ = {
+					country_event = { id = gduevents.31 }
+				}
+				SAF = {
+					country_event = { id = gduevents.31 }
+				}
+				CAN = {
+					country_event = { id = gduevents.31 }
+				}
+				FRA = {
+					country_event = { id = gduevents.31 }
+				}
+				FRF = {
+					country_event = { id = gduevents.31 }
+				}				
+		
 	    add_ideas = JAP_flavour_one_idea
 		}
-	}
+	}	
 	focus = {
 		id = JAP_flavour_two
 		icon = GFX_goal_generic_CAS
-		prerequisite = { focus = JAP_flavour_one }
+		prerequisite = { focus = JAP_flavour_one focus = JAP_flavour_onehalf }
 		mutually_exclusive = { focus = JAP_flavour_three }
-		x = 1
+		x = 0
 		y = 1
 		relative_position_id = JAP_flavour_one
 
@@ -81,9 +232,11 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = secret_bonus
-				bonus = 1.30
+				bonus = 1.00
 				uses = 2
-				category = rocketry
+				technology = rocket_artillery
+				technology = rocket_artillery2
+				technology = rocket_artillery3
 			}
 		}
 
@@ -92,9 +245,9 @@ focus_tree = {
 focus = {
 		id = JAP_flavour_three
 		icon = GFX_goal_tfv_saf_anti_colonialist_crusade
-		prerequisite = { focus = JAP_flavour_one }
+		prerequisite = { focus = JAP_flavour_one focus = JAP_flavour_onehalf }
 		mutually_exclusive = { focus = JAP_flavour_two }
-		x = -1
+		x = -2
 		y = 1
 		relative_position_id = JAP_flavour_one
 
@@ -143,7 +296,7 @@ focus = {
 		icon = GFX_goal_generic_intelligence_exchange
 		prerequisite = { focus = JAP_flavour_three focus = JAP_flavour_two }
 		mutually_exclusive = { focus = JAP_flavour_five }
-		x = -1
+		x = -2
 		y = 2
 		relative_position_id = JAP_flavour_one
 
@@ -167,6 +320,17 @@ focus = {
 
 		completion_reward = {
         custom_effect_tooltip = jap_flavour_four_tt
+				535 = {
+
+				add_resource = {
+					type = steel
+					amount = -8
+
+				}
+
+
+
+			}
         hidden_effect = {
         set_technology = { improved_ship_hull_carrier = 1 }
         create_equipment_variant = {
@@ -218,7 +382,7 @@ focus = {
 		icon = GFX_goal_generic_demand_territory
 		prerequisite = { focus = JAP_flavour_two focus = JAP_flavour_three }
 		mutually_exclusive = { focus = JAP_flavour_four }
-		x = 1
+		x = 0
 		y = 2
 		relative_position_id = JAP_flavour_one
 
@@ -249,7 +413,7 @@ focus = {
 
 				add_resource = {
 					type = steel
-					amount = 28
+					amount = 10
 
 				}
 
@@ -263,7 +427,7 @@ focus = {
 		icon = GFX_goal_generic_build_airforce
 		prerequisite = { focus = JAP_flavour_four focus = JAP_flavour_five }
 		mutually_exclusive = { focus = JAP_flavour_seven }
-		x = -1
+		x = -2
 		y = 3
 		relative_position_id = JAP_flavour_one
 
@@ -300,7 +464,7 @@ focus = {
 		icon = GFX_goal_generic_attack_allies
 		prerequisite = { focus = JAP_flavour_four focus = JAP_flavour_five }
 		mutually_exclusive = { focus = JAP_flavour_six }
-		x = 1
+		x = 0
 		y = 3
 		relative_position_id = JAP_flavour_one
 
@@ -1289,8 +1453,8 @@ focus = {
 		id = JAP_nationalize_war_industry
 		icon = GFX_goal_generic_construct_mil_factory
 		prerequisite = { focus = JAP_Infra }
-		x = -1
-		y = 1
+		x = 0
+		y = 2
 		relative_position_id = JAP_Infra
 
 		cost = 10
@@ -2828,6 +2992,7 @@ focus = {
 				name = JAP_carrier_warfare_experiments
 				bonus = 1.0
 				uses = 1
+				ahead_reduction = 0.5
 				category = cv_tech
 			}
 			navy_experience = 50
@@ -3138,12 +3303,14 @@ focus = {
 				name = JAP_cruiser_modernization
 				bonus = 1
 				uses = 1
+				ahead_reduction = 0.5
 				category = ca_tech
 			}
 			add_tech_bonus = {
 				name = JAP_cruiser_modernization
 				bonus = 1
 				uses = 1
+				ahead_reduction = 0.5				
 				category = cl_tech
 			}
 		}

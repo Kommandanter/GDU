@@ -321,64 +321,64 @@ technologies = {
 		}		
 		
 		light_sp_artillery_brigade = {
-			soft_attack = 0.05
-			hard_attack = 0.05
+			soft_attack = 0.075
+			hard_attack = 0.075
 		}	
 		medium_sp_artillery_brigade = {
-			soft_attack = 0.05
-			hard_attack = 0.05
+			soft_attack = 0.075
+			hard_attack = 0.075
 		}
 		heavy_sp_artillery_brigade = {
-			soft_attack = 0.05
-			hard_attack = 0.05
+			soft_attack = 0.075
+			hard_attack = 0.075
 		}
 		super_heavy_sp_artillery_brigade = {
-			soft_attack = 0.05
-			hard_attack = 0.05		
+			soft_attack = 0.075
+			hard_attack = 0.075		
 		}
 		modern_sp_artillery_brigade = {
-			soft_attack = 0.05
-			hard_attack = 0.05		
+			soft_attack = 0.075
+			hard_attack = 0.075		
 		}			
 		light_tank_destroyer_brigade = {
-			soft_attack = 0.05
-			hard_attack = 0.05		
+			soft_attack = 0.075
+			hard_attack = 0.075		
 		}
 		medium_tank_destroyer_brigade = {
-			soft_attack = 0.05
-			hard_attack = 0.05		
+			soft_attack = 0.075
+			hard_attack = 0.075		
 		}
 		heavy_tank_destroyer_brigade = {
-			soft_attack = 0.05
-			hard_attack = 0.05		
+			soft_attack = 0.075
+			hard_attack = 0.075		
 		}
 		super_heavy_tank_destroyer_brigade = {
-			soft_attack = 0.05
-			hard_attack = 0.05		
+			soft_attack = 0.075
+			hard_attack = 0.075		
 		}
 		modern_tank_destroyer_brigade = {
-			soft_attack = 0.05
-			hard_attack = 0.05		
+			soft_attack = 0.075
+			hard_attack = 0.075		
 		}			
 		light_sp_anti_air_brigade = {
-			soft_attack = 0.05
-			hard_attack = 0.05		
+			soft_attack = 0.075
+			hard_attack = 0.075		
 		}
 		medium_sp_anti_air_brigade = {
-			soft_attack = 0.05
-			hard_attack = 0.05		
+			soft_attack = 0.075
+			hard_attack = 0.075		
 		}
 		heavy_sp_anti_air_brigade = {
-			soft_attack = 0.05
-			hard_attack = 0.05		
+			soft_attack = 0.075
+			hard_attack = 0.075		
 		}
 		super_heavy_sp_anti_air_brigade = {
-			soft_attack = 0.05
-			hard_attack = 0.05		
+			soft_attack = 0.075
+			hard_attack = 0.075		
 		}
 		modern_sp_anti_air_brigade = {
-			soft_attack = 0.05
-			hard_attack = 0.05		
+			soft_attack = 0.075
+			hard_attack = 0.075		
 		}	
 
 		enable_tactic = tactic_blitz
@@ -575,7 +575,7 @@ technologies = {
 		amphibious_mechanized = {
 			max_organisation = 5
 		}
-		air_cas_present_factor = 0.05		
+		air_cas_present_factor = 0.1		
 		
 		path = {
 			leads_to_tech = kampfgruppe 
@@ -872,8 +872,8 @@ technologies = {
 		xp_research_bonus = 0.5
 		category_all_armor = {
 			max_organisation = 3
-			soft_attack = 0.025
-			hard_attack = 0.025
+			soft_attack = 0.05
+			hard_attack = 0.05
 		}
 
 		category_all_armor = {
@@ -881,8 +881,8 @@ technologies = {
 		}
 		
 		support_heavy_armor = {
-			soft_attack = 0.05
-			hard_attack = 0.05
+			soft_attack = 0.15
+			hard_attack = 0.15
 		}
 		category_assault_guns = {
 			breakthrough = 0.20
@@ -1085,12 +1085,18 @@ technologies = {
 		partisan_effect = 0.1 #10% more partisan effects
 		
 		category_all_armor = {
-			soft_attack = 0.025
-			hard_attack = 0.025
+			max_organisation = 3
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+
+		category_all_armor = {
+			default_morale = 0.2
 		}
 		
 		support_heavy_armor = {
-			breakthrough = 0.20
+			soft_attack = 0.15
+			hard_attack = 0.15
 		}
 		category_assault_guns = {
 			breakthrough = 0.20
@@ -2960,8 +2966,8 @@ technologies = {
 
 
 		#reduced pocketed combat penalty and/or reduces the out of supply penalty or increases time before moving to worse penalty
-		no_supply_grace = 96 # more hours before supply penalty changes
-		out_of_supply_factor = -0.10
+		no_supply_grace = 144 # more hours before supply penalty changes
+		out_of_supply_factor = -0.2
 
 		path = {
 			leads_to_tech = defence_in_depth

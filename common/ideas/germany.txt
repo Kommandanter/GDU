@@ -454,7 +454,7 @@ ideas = {
 				planning_speed = 0.25
 				army_org_Factor = 0.05
 				army_morale_factor = 0.10
-				command_power_gain_mult = 0.15
+				command_power_gain_mult = 0.35
 				training_time_factor = -0.2
 			}
 		}
@@ -1116,6 +1116,10 @@ ideas = {
 			allowed = {
 				original_tag = GER
 			}
+			
+			available = {
+				has_completed_focus = GER_four_year_plan
+			}			
 
 			traits = { captain_of_industry }
 			ai_will_do = {
@@ -1237,9 +1241,12 @@ ideas = {
 
 			cost = 75
 			allowed = {
-				OR = { 
-				original_tag = BUL
-				original_tag = GER
+				or = { 
+					original_TAG = GER
+					original_TAG = HUN 
+					original_TAG = BUL 
+					original_TAG = SPR
+					original_TAG = ROM 					
 				}
 			}
 
@@ -1292,6 +1299,8 @@ ideas = {
 					original_TAG = GER
 					original_TAG = HUN 
 					original_TAG = BUL 
+					original_TAG = SPR
+					original_TAG = ROM					
 				}
 			}
 
@@ -1324,7 +1333,13 @@ ideas = {
 
 			cost = 75
 			allowed = {
-				original_tag = GER
+				or = { 
+					original_TAG = GER
+					original_TAG = HUN 
+					original_TAG = BUL 
+					original_TAG = SPR
+					original_TAG = ROM					
+				}			
 			}
 			available = {
 				date > 1941.1.1
@@ -1339,6 +1354,7 @@ ideas = {
 
 			equipment_bonus = {
 				heavy_tank_equipment = {
+					reliability = 0.05				
 					hard_attack = 0.20
 					soft_attack = 0.20
 					defense = 0.15
@@ -1363,6 +1379,8 @@ ideas = {
 					original_TAG = GER
 					original_TAG = HUN 
 					original_TAG = BUL 
+					original_TAG = SPR
+					original_TAG = ROM					
 				}
 			}
 			research_bonus = {
@@ -1394,7 +1412,13 @@ ideas = {
 			picture = GER_MAN
 
 			allowed = {
-				original_tag = GER
+				or = { 
+					original_TAG = GER
+					original_TAG = HUN 
+					original_TAG = BUL 
+					original_TAG = SPR
+					original_TAG = ROM					
+				}
 			}
 			available = {
 				date > 1941.1.1
@@ -1425,6 +1449,9 @@ ideas = {
 				or = { 
 					original_TAG = GER
 					original_TAG = HUN 
+					original_TAG = BUL 
+					original_TAG = SPR
+					original_TAG = ROM
 				}
 			}
 
@@ -1434,6 +1461,7 @@ ideas = {
 
 			equipment_bonus = {
 				heavy_tank_equipment = {
+					reliability = 0.05								
 					hard_attack = 0.10 
 					soft_attack = 0.10
 					reliability = 0.05

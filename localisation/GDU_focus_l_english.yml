@@ -1,6 +1,12 @@
 ﻿l_english:
 #Focuses 
 
+ ITA_italian_refineries:0 "Italian Refineries"
+ ITA_italian_refineries_desc:0 "Let's bring the results of our experiments in Libya back to Italy"
+
+ HUN_expand_the_steel_industry:0 "Expand the Steel Industry"
+
+
  FIN_bicycle_battalions:0 "Bicycle Troops"
  FIN_bicycle_battalions_desc:0 "Bicycle Troops are more expensive than motorized, but have less speed, less organization, and less hit points. This focus is a trap designed to lure Finland players into building bicycle troops, and then dying quickly to the Soviets as a result."
 

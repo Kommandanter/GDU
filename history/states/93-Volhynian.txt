@@ -11,7 +11,17 @@ state={
 
 		}
 		add_core_of = POL
-
+		
+		victory_points = {
+			6579 1
+		}
+		victory_points = {
+			535 1
+		}
+		victory_points = {
+			6520 1
+		}	
+		
 	}
 
 	provinces={

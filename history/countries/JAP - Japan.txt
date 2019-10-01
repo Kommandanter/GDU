@@ -7,6 +7,7 @@ set_war_support = 0.8
 
 set_research_slots = 4
 set_fuel_ratio = 1.0
+add_timed_idea = { idea = airandnavy_idea days = 1662 }
 add_ideas = {
 	export_focus 
 	limited_conscription
@@ -115,7 +116,7 @@ add_ace = {
     type = support_genius
     is_female = yes
 }
-
+navy_experience = 99
 set_technology = {
 	interwar_antiair = 1
 	infantry_weapons = 1

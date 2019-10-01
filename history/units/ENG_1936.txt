@@ -202,90 +202,90 @@ air_wings = {
 	### RAF Fighter Command ###
 	126 = {
 		### No. 11 Fighter Command, Middlesex area -- Hawker Demons, Furys, Gloster Gauntlets
-		fighter_equipment_1 = {
+		fighter_equipment_0 = {
 			owner = "ENG"
 			amount = 100
-			version_name = "Hurricane 109 B"
+
 		}
-		fighter_equipment_1 = {
+		fighter_equipment_0 = {
 			owner = "ENG"
 			amount = 100
-			version_name = "Hurricane 109 B"
+
 		}
-		fighter_equipment_1 = {
+		fighter_equipment_0 = {
 			owner = "ENG"
 			amount = 100
-			version_name = "Hurricane 109 B"
+
 		}
-		fighter_equipment_1 = {
+		fighter_equipment_0 = {
 			owner = "ENG"
 			amount = 100
-			version_name = "Hurricane 109 B"
+
 		}		
-		fighter_equipment_1 = {
+		fighter_equipment_0 = {
 			owner = "ENG"
 			amount = 100
-			version_name = "Hurricane 109 B"
+
 		}
-		fighter_equipment_1 = {
+		fighter_equipment_0 = {
 			owner = "ENG"
 			amount = 100
-			version_name = "Hurricane 109 B"
+
 		}		
-		fighter_equipment_1 = {
+		fighter_equipment_0 = {
 			owner = "ENG"
 			amount = 100
-			version_name = "Hurricane 109 B"
+
 		}
-		fighter_equipment_1 = {
+		fighter_equipment_0 = {
 			owner = "ENG"
 			amount = 100
-			version_name = "Hurricane 109 B"
+
 		}		
-		fighter_equipment_1 = {
+		fighter_equipment_0 = {
 			owner = "ENG"
 			amount = 100
-			version_name = "Hurricane 109 B"
+
 		}
-		fighter_equipment_1 = {
+		fighter_equipment_0 = {
 			owner = "ENG"
 			amount = 100
-			version_name = "Hurricane 109 B"
+
 		}
-		fighter_equipment_1 = {
+		fighter_equipment_0 = {
 			owner = "ENG"
 			amount = 100
-			version_name = "Hurricane 109 B"
+
 		}
-		fighter_equipment_1 = {
+		fighter_equipment_0 = {
 			owner = "ENG"
 			amount = 100
-			version_name = "Hurricane 109 B"
+
 		}		
 		fighter_equipment_1 =  {		# Ar 68
 			owner = "ENG" 
 			amount = 100
-			version_name = "Hurricane 109 B"
+
 		}
 		fighter_equipment_1 =  {		# Ar 68
 			owner = "ENG" 
 			amount = 100
-			version_name = "Hurricane 109 B"
+
 		}
 		fighter_equipment_1 =  {		# Ar 68
 			owner = "ENG" 
 			amount = 100
-			version_name = "Hurricane 109 B"
+
 		}
 		fighter_equipment_1 =  {		# Ar 68
 			owner = "ENG" 
 			amount = 100
-			version_name = "Hurricane 109 B"
+
 		}
 		fighter_equipment_1 =  {		# Ar 68
 			owner = "ENG" 
 			amount = 100
-			version_name = "Hurricane 109 B"
+
 		}		
 		CAS_equipment_1 = {
 			owner = "ENG"
@@ -320,19 +320,19 @@ air_wings = {
 			amount = 100
 		}
 		###Below is equipment which technically belongs to France but goes to ENG anyway because they're the air controller
-		fighter_equipment_1 = {
+		fighter_equipment_0 = {
 			owner = "ENG"
-			version_name = "Hurricane 109 B"
+
 			amount = 100
 		}
-		fighter_equipment_1 = {
+		fighter_equipment_0 = {
 			owner = "ENG"
-			version_name = "Hurricane 109 B"
+
 			amount = 100
 		}
-		fighter_equipment_1 = {
+		fighter_equipment_0 = {
 			owner = "ENG"
-			version_name = "Hurricane 109 B"
+
 			amount = 100
 		}
 		tac_bomber_equipment_1 =  {
@@ -412,7 +412,7 @@ instant_effect = {
 		equipment = {
 			type = fighter_equipment_1
 			creator = "ENG"
-			version_name = "Hurricane 109 B"
+
 		}
 		requested_factories = 2
 		progress = 0.15

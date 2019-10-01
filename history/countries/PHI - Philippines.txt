@@ -6,6 +6,13 @@ set_research_slots = 3
 
 set_stability = 0.60
 
+give_resource_rights = { receiver = USA state = 623 }
+give_resource_rights = { receiver = USA state = 327 }
+give_resource_rights = { receiver = USA state = 626 }
+give_resource_rights = { receiver = USA state = 624 }
+give_resource_rights = { receiver = USA state = 625 }
+give_resource_rights = { receiver = USA state = 628 }
+give_resource_rights = { receiver = USA state = 627 }
 # Starting tech
 set_technology = {
 	bicycle_infantry = 1

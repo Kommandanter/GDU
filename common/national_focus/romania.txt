@@ -896,41 +896,6 @@ focus = {
 	}
 
 	focus = {
-		id = ROM_expand_the_university_of_bucharest
-		icon = GFX_focus_research
-		prerequisite = { focus = ROM_expand_ploiesti_oil_production }
-		x = 1
-		y = 6
-		relative_position_id = ROM_civil_works
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-			num_of_factories > 50
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = no
-		continue_if_invalid = yes
-		available_if_capitulated = no
-
-		complete_tooltip = {
-
-		}
-
-		completion_reward = {
-			add_research_slot = 1
-		}
-	}
-
-	focus = {
 		id = ROM_exploit_the_baita_mines
 		icon = GFX_goal_generic_construction2
 		prerequisite = { focus = ROM_trade_treaty_with_germany }
@@ -1987,7 +1952,6 @@ focus = {
 		id = ROM_modern_at_guns
 		icon = GFX_goal_generic_army_artillery
 		prerequisite = { focus = ROM_artillery_modernization }
-		mutually_exclusive = { focus = ROM_mobile_tank_destroyers }
 		x = 1
 		y = 2
 		relative_position_id = ROM_the_zb_53
@@ -2347,7 +2311,6 @@ focus = {
 		icon = GFX_goal_generic_build_tank
 		prerequisite = { focus = ROM_acquire_modern_tanks }
 		prerequisite = { focus = ROM_artillery_modernization }
-		mutually_exclusive = { focus = ROM_modern_at_guns }
 		x = 0
 		y = 1
 		relative_position_id = ROM_acquire_modern_tanks
@@ -2397,10 +2360,10 @@ focus = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = ROM_the_maresal
-				bonus = 1.00
-				ahead_reduction = 0.75
-				uses = 1
-				category = cat_heavy_armor
+				bonus = 1.25
+				ahead_reduction = 1.00
+				uses = 2
+				category = armor
 			}
 		}
 	}

@@ -12,6 +12,23 @@ state={
 			infrastructure = 3
 		}
 		add_core_of = SOV
+		
+		victory_points = {
+			3203 1
+		}
+		victory_points = {
+			215 1
+		}
+		victory_points = {
+			6232 1
+		}
+		victory_points = {
+			9554 1
+		}
+		victory_points = {
+			6319 1
+		}				
+		
 	}
 
 	provinces={

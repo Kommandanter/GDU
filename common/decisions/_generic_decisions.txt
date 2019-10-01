@@ -635,42 +635,6 @@ war_measures = {
 		}
 	}
 
-	desperate_defense = {
-
-		icon = generic_prepare_civil_war
-
-		available = {
-			surrender_progress > 0.5
-		}
-
-		visible = {
-			surrender_progress > 0
-		}
-
-		fire_only_once = no
-
-		days_remove = 45
-		days_re_enable = 360
-
-		cost = 50
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				surrender_progress > 0.6
-				factor = 10
-			}
-		}
-
-		modifier = {
-			defence = 0.2
-			dig_in_speed_factor = 0.5
-		}
-
-		complete_effect = {
-
-		}
-	}
-
 	women_in_the_workforce = {
 
 		icon = generic_industry
@@ -683,28 +647,6 @@ war_measures = {
         	NOT = { has_country_flag = women_in_workforce }
             has_war = yes
             has_idea = tot_economic_mobilisation
-            OR = {
-                AND = {
-                    has_government = democratic
-                    has_war_support > 0.79
-                }
-                AND = {
-                    has_government = communism
-                    has_war_support > 0.79
-                }
-                AND = {
-                    has_government = fascism
-                    OR = {
-                        has_war_support > 0.79
-                        surrender_progress > 0
-                    }
-                }
-                AND = {
-                    has_government = neutrality
-                    has_war_support > 0.84
-                    has_stability > 0.7
-                }
-            }
         }
         visible = {
 

@@ -214,6 +214,7 @@ country_event = {
 			SOV = {
 				country_event = { days = 1 id = news.12 }
 			}
+		SOV = { country_event = { id = sovfin_events.1 days = 3 } }	
 		}
 	}
 }

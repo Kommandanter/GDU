@@ -223,13 +223,13 @@ focus = {
 		422 = {
 				add_resource = {
 					type = rubber
-					amount = -40
+					amount = -10
 				}
 			}
 		423 = {
 				add_resource = {
 					type = rubber
-					amount = 40
+					amount = 10
 				}
 			}
 		}
@@ -1016,7 +1016,7 @@ focus = {
 					attack_skill = 6
 					defense_skill = 2
 					planning_skill = 4
-					logistics_skill = 3
+					logistics_skill = 4
 				}
 			}
 		}

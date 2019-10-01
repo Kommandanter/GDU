@@ -1,3 +1,227 @@
+crisis = {
+
+	Retake_Guam_Crisis = {
+		icon = revolt
+		allowed = {
+			OR = {
+				tag = ENG
+				tag = USA
+			}
+		}
+		available = {
+			controls_state = 638
+		}
+		highlight_states = { state = 638 }
+		days_mission_timeout = 120
+		is_good = no
+		activation = {
+			guam_island_taken = yes
+		}
+		timeout_effect = {
+			add_stability = -0.01
+		}
+	}
+	
+	Retake_Wake_Crisis = {
+		icon = revolt
+		allowed = {
+			OR = {
+				tag = ENG
+				tag = USA
+			}
+		}
+		available = {
+			controls_state = 632
+		}
+		highlight_states = { state = 632 }
+		days_mission_timeout = 120
+		is_good = no
+		activation = {
+			wake_island_taken = yes
+		}
+		timeout_effect = {
+			add_stability = -0.01
+		}
+	}
+	
+	Retake_Midway_Crisis = {
+		icon = revolt
+		allowed = {
+			OR = {
+				tag = ENG
+				tag = USA
+			}
+		}
+		available = {
+			controls_state = 631
+		}
+		highlight_states = { state = 631 }
+		days_mission_timeout = 120
+		is_good = no
+		activation = {
+			midway_island_taken = yes
+		}
+		timeout_effect = {
+			add_stability = -0.01
+		}
+	}
+	
+	Retake_Hawaii_Crisis = {
+		icon = revolt
+		allowed = {
+			OR = {
+				tag = ENG
+				tag = USA
+			}
+		}
+		available = {
+			controls_state = 629
+		}
+		highlight_states = { state = 629 }
+		days_mission_timeout = 120
+		is_good = no
+		activation = {
+			hawaii_island_taken = yes
+		}
+		timeout_effect = {
+			add_stability = -0.01
+		}
+	}
+	
+	Retake_Singapore_Crisis = {
+		icon = revolt
+		allowed = {
+			OR = {
+				tag = ENG
+				tag = USA
+			}
+		}
+		available = {
+			controls_state = 336
+		}
+		highlight_states = { state = 336 }
+		days_mission_timeout = 120
+		is_good = no
+		activation = {
+			singapore_taken = yes
+		}
+		timeout_effect = {
+			add_stability = -0.01
+		}
+	}
+	
+	Liberate_SAF_Crisis = {
+		icon = revolt
+		allowed = {
+			OR = {
+				tag = ENG
+				tag = USA
+			}
+		}
+		available = {
+			AND = {
+			    controls_state = 275
+			    controls_state = 541
+			    controls_state = 681
+			    controls_state = 719
+		    }
+		}
+		highlight_states = { state = 275 }
+		days_mission_timeout = 120
+		is_good = no
+		activation = {
+			saf_has_fallen = yes
+		}
+		timeout_effect = {
+			add_stability = -0.01
+		}
+	}
+	
+	Liberate_RAJ_Crisis = {
+		icon = revolt
+		allowed = {
+			OR = {
+				tag = ENG
+				tag = USA
+			}
+		}
+		available = {
+		    AND = {
+    			controls_state = 426
+    			controls_state = 435
+    			controls_state = 423
+    			controls_state = 429
+    			controls_state = 428
+    			controls_state = 443
+    			controls_state = 439
+    			controls_state = 436
+    		}
+		}
+		highlight_states = { state = 423 }
+		days_mission_timeout = 120
+		is_good = no
+		activation = {
+			raj_has_fallen = yes
+		}
+		timeout_effect = {
+			add_stability = -0.01
+		}
+	}
+	
+	Liberate_AST_Crisis = {
+		icon = revolt
+		allowed = {
+			OR = {
+				tag = ENG
+				tag = USA
+			}
+		}
+		available = {
+		    AND = {
+			    controls_state = 285
+			    controls_state = 522
+			    controls_state = 521
+			    controls_state = 520
+		    }
+		}
+		highlight_states = { state = 520 }
+		days_mission_timeout = 120
+		is_good = no
+		activation = {
+			ast_has_fallen = yes
+		}
+		timeout_effect = {
+			add_stability = -0.01
+		}
+	}
+	
+	Liberate_NZL_Crisis = {
+		icon = revolt
+		allowed = {
+			OR = {
+				tag = ENG
+				tag = USA
+			}
+		}
+		available = {
+			controls_state = 284
+			controls_state = 723
+		}
+		highlight_states = { state = 638 }
+		days_mission_timeout = 120
+		is_good = no
+		activation = {
+			nzl_has_fallen = yes
+		}
+		timeout_effect = {
+			add_stability = -0.01
+		}
+	}
+}
+
+
+
+
 political_actions = {
 	
 	GDU_FRA_seize_Africa = {
@@ -2053,7 +2277,7 @@ foreign_politics = {
 			custom_effect_tooltip = GDU_Jap_pearlharbor_tt
 			USA = { country_event = gdunews.6 } 
 				# Mexico ( a randomly chosen AI country ) gets an event that removes the US cores on Hawaii etc after the Pearl Harbor debuff has run out. This ensures that USA doesn't get a huge amount of extra core attack/defense helping to defend those in i.e. 1942 from the Home of the Free spirit (which is intended to help USA in the event of an invasion of mainland USA, not an invasion of i.e. Hawaii)
-			MEX = { country_event = { id = gduannexations.12 days = 120 } } 
+			VEN = { country_event = { id = gduannexations.12 days = 120 } } 
 						
 			USA = { 
 				add_timed_idea = { 

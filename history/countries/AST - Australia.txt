@@ -3,8 +3,9 @@
 oob = "AST_1936"
 set_stability = 0.8
 set_war_support = 0.3
-
+navy_experience = 33
 set_research_slots = 3
+add_timed_idea = { idea = airandnavy_idea days = 1168 }
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -27,6 +28,15 @@ set_technology = {
 	interwar_antiair = 1
 	synth_oil_experiments = 1		
 }
+
+add_opinion_modifier = { target = NZL modifier = huge_increase  }
+add_opinion_modifier = { target = NZL modifier = huge_increase  }
+add_opinion_modifier = { target = NZL modifier = huge_increase  }
+add_opinion_modifier = { target = SPR modifier = embargo }
+add_opinion_modifier = { target = SPR modifier = sanctions_relations }
+add_opinion_modifier = { target = SPR modifier = large_decrease }
+add_opinion_modifier = { target = SPR modifier = hostile_status }
+
 if = {
 	limit = {
 		not = { has_dlc = "Man the Guns" }
@@ -308,11 +318,11 @@ create_corps_commander = {
 	name = "Horace Robertson"
 	gfx = "GFX_AST_horace_robertson"
 	traits = { desert_fox infantry_leader cavalry_officer harsh_leader trait_reckless panzer_leader}
-	skill = 4
+	skill = 5
 	attack_skill = 4
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 3
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 7
 }
 create_corps_commander = {
 	name = "John Northcott"

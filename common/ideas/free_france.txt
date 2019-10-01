@@ -312,7 +312,7 @@ ideas = {
 			}
 
 			available = {
-				has_completed_focus = FRA_revive_naval_construction
+				has_completed_focus = FRA_naval_two_doctrine
 			}
 			
 			research_bonus = {

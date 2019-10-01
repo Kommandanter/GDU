@@ -11,6 +11,9 @@ set_technology = {
 	CAS1 = 1
 	tech_support = 1
 }
+give_resource_rights = { receiver = ENG state = 412 }
+give_resource_rights = { receiver = ENG state = 413 }
+give_resource_rights = { receiver = ENG state = 411 }
 add_ideas = {
 	iran_neutrality
 	free_trade

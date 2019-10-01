@@ -2,7 +2,7 @@ on_actions = {
 	
      on_startup = {
      effect = {
-     USA = { country_event = { id = usajap_events.1 days = 15 } } ## temporarily set to be short for quick testing , make it 1500 or smth and delete this 
+     USA = { country_event = { id = usajap_events.1 days = 1300 } } ##  
 
      if = {
     limit = { FIN = { is_ai = yes }  }
@@ -50,12 +50,8 @@ on_actions = {
 							instant_build = yes
 						}											
 					}					
-}
+                }
    
-  	
-
-
-   # they are deleted in diffrent days to prevent desync  caused by their sudden deletion
     
    # they are deleted in diffrent days to prevent desync  caused by their sudden deletion
      if = {
@@ -65,24 +61,6 @@ on_actions = {
         ENG = { is_ai = yes }
         }
       }
-      USA = { add_timed_idea = { idea = airandnavy_idea days = 1668 } }
-      CAN = { add_timed_idea = { idea = airandnavy_idea days = 1160 } }      
-      RAJ = { add_timed_idea = { idea = airandnavy_idea days = 1162 } }
-      SAF = { add_timed_idea = { idea = airandnavy_idea days = 1164 } }
-      NZL = { add_timed_idea = { idea = airandnavy_idea days = 1166 } }
-      AST = { add_timed_idea = { idea = airandnavy_idea days = 1168 } }
-      ENG = { add_timed_idea = { idea = airandnavy_idea days = 1170 } }
-      FRA = { add_timed_idea = { idea = airandnavy_idea days = 1172 } }
-      SOV = { add_timed_idea = { idea = airandnavy_idea days = 1666 } }
-      FIN = { add_timed_idea = { idea = airandnavy_idea days = 1664 } }
-      HUN = { add_timed_idea = { idea = airandnavy_idea days = 1174 } }
-      ROM = { add_timed_idea = { idea = airandnavy_idea days = 1178 } }
-      BUL = { add_timed_idea = { idea = airandnavy_idea days = 1180 } }
-      SPR = { add_timed_idea = { idea = airandnavy_idea days = 1182 } }
-      ITA = { add_timed_idea = { idea = airandnavy_idea days = 1184 } }
-      GER = { add_timed_idea = { idea = airandnavy_idea days = 1188 } }
-      JAP = { add_timed_idea = { idea = airandnavy_idea days = 1662 } }
-      MAN = { add_timed_idea = { idea = airandnavy_idea days = 1660 } }
       USA = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 1095 } }
       CAN = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 732 } }
       RAJ = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 734 } }
@@ -104,48 +82,22 @@ on_actions = {
        
       }
 
-    FRA = { add_timed_idea = { idea = francecivsandmils_idea days = 800 } }
-
-
-       ## Annexing stupid nations 
-			 CHI = {	
-				annex_country = {
-							target = PRC
-							transfer_troops = no
-				}
-			}
-             CHI = {	
+        ## Annexing stupid nations 
+		    CHI = {	
 				annex_country = {
 							target = SHX
 							transfer_troops = no
 				}
-			}
-			 CHI = {	
-				annex_country = {
-							target = XSM
-							transfer_troops = no
-				}
-			}
-			 CHI = {	
-				annex_country = {
-							target = YUN
-							transfer_troops = no
-				}
-			}
-			 CHI = {	
+			}	
+			CHI = {	
 				annex_country = {
 							target = GXC
 							transfer_troops = no
 				}
 			}
            
+        }
 
-
-
-
-      
-     }
-
-     }
+    }
 
 }

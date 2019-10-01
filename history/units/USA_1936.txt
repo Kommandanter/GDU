@@ -178,7 +178,7 @@ instant_effect = {
 			type = infantry_equipment_1
 			creator = "USA"
 		}
-		requested_factories = 4
+		requested_factories = 3
 		progress = 0.1
 		efficiency = 50
 	}
@@ -187,7 +187,7 @@ instant_effect = {
 			type = artillery_equipment_1
 			creator = "USA"
 		}
-		requested_factories = 3
+		requested_factories = 2
 		progress = 0.3
 		efficiency = 50
 	}
@@ -209,10 +209,29 @@ instant_effect = {
 			type = CAS_equipment_1
 			creator = "USA" 
 		}
-		requested_factories = 2
+		requested_factories = 1
 		progress = 0.2
 		efficiency = 50
 	}
+	
+	add_equipment_production = {
+		equipment = {
+			type = cv_fighter_equipment_1
+			creator = "USA" 
+		}
+		requested_factories = 1
+		progress = 0.2
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = cv_nav_bomber_equipment_1
+			creator = "USA" 
+		}
+		requested_factories = 2
+		progress = 0.2
+		efficiency = 50
+	}	
 	add_equipment_production = {
 		equipment = {
 			type = anti_air_equipment_1

@@ -2,8 +2,9 @@
 
 oob = "SAF_1936"
 set_research_slots = 3
-
+add_timed_idea = { idea = airandnavy_idea days = 1164 }
 # Starting tech
+navy_experience = 33
 set_technology = {
 	interwar_antiair = 1
 	infantry_weapons = 1
@@ -28,6 +29,10 @@ set_technology = {
 	synth_oil_experiments = 1
 	transport = 1
 }
+add_opinion_modifier = { target = SPR modifier = embargo }
+add_opinion_modifier = { target = SPR modifier = sanctions_relations }
+add_opinion_modifier = { target = SPR modifier = large_decrease }
+add_opinion_modifier = { target = SPR modifier = hostile_status }
 
 if = {
 	limit = { has_dlc = "Together for Victory" }
@@ -278,7 +283,7 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Evered Poole"
 	picture = "Portrait_SAF_Evered_Poole.dds"
-	traits = { desert_fox trait_mountaineer commando infantry_officer trait_cautious infantry_leader skilled_staffer}
+	traits = { trickster trait_mountaineer commando infantry_officer trait_cautious infantry_leader skilled_staffer}
 	skill = 4
 	attack_skill = 5
 	defense_skill = 3
@@ -298,7 +303,7 @@ create_corps_commander = {
 create_field_marshal = {
 	name = "Jan Smuts"
 	picture = "Portrait_SAF_Jan_Smuts.dds"
-	traits = { organizer brilliant_strategist trait_cautious skilled_staffer career_officer politically_connected }
+	traits = { panzer_leader organizer brilliant_strategist trait_cautious skilled_staffer career_officer politically_connected }
 	skill = 5
 	attack_skill = 4
 	defense_skill = 2
@@ -318,11 +323,11 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Nick Bierman"
 	picture = "Portrait_SAF_Nick_Bierman.dds"
-	traits = { harsh_leader trait_reckless career_officer armor_officer organizer panzer_leader trait_mountaineer}
-	skill = 5
-	attack_skill = 5
-	defense_skill = 5
-	planning_skill = 2
+	traits = { harsh_leader trait_reckless career_officer armor_officer organizer panzer_leader desert_fox }
+	skill = 6
+	attack_skill = 6
+	defense_skill = 4
+	planning_skill = 3
 	logistics_skill = 4
 }
 

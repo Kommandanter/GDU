@@ -135,17 +135,6 @@ on_actions = {
 			add_to_array = { global.medium_airbase_list = 685 } #Panama Canal, USA (oh yeah I did)
 
 		}
-			
-
-
-
-
-
-
-
-			
-			
-
 			##### Events that add national spirits to increase air losses a bit in the late game (for 1942, 1943, 1944, and 1945) ####
 			VEN = {
 				country_event = { id = gduairlosses.1 days = 2192 } 
@@ -165,11 +154,6 @@ on_actions = {
 				country_event = { id = gduevents.30 days = 1195 } 
 			}					
 			
-			#### We give Japan Siam's rubber because the AI isn't going to trade Germany back and now we need one less player to start the game. ####
-			SIA = {
-				give_resource_rights = { receiver = JAP state = 724 }
-				give_resource_rights = { receiver = JAP state = 289 }
-			}
 			##### Soviet event to remind/explain that they get a bonus for the 7th land doctrine into an on_startup event instead of MTTH to help performance####
 			SOV = {
 				country_event = { id = gduevents.28 days = 1582 } 
@@ -191,205 +175,16 @@ on_actions = {
 			USA = { 
 				country_event = { id = gduevents.23 days = 5 } 
 			}			
-			#### Intro event for Japan #### 
-			JAP = { 
-				country_event = { id = pfu.28 days = 30 } 
-			}
+
 			#### Strike event for France no longer MTTH #### 
 			FRA = { 
 				country_event = { id = france.21 days = 180 } 
 			}
-			#### The UK had a commanding stake in Iranian and Iraqi oil, as well as Venezuela. We don't give them Venezuela for balance reasons. Actually, as of 5/9/2019, we do--Removal of Strike Force from UK denial capability means they have to actually patrol and need more oil. ####
-			PER = {
-				give_resource_rights = { receiver = ENG state = 412 }
-				give_resource_rights = { receiver = ENG state = 413 }
-				give_resource_rights = { receiver = ENG state = 411 }
-			}
-			IRQ = { 
-				give_resource_rights = { receiver = ENG state = 676 }
-				give_resource_rights = { receiver = ENG state = 291 }
-			}
-			VEN = { 
-				give_resource_rights = { receiver = ENG state = 489 }
-				give_resource_rights = { receiver = ENG state = 307 } 				
-			}
-			#### The USA is given control over Philippines resources since it is a puppet. This gives USA some rubber and prevents USA from purposely importing too much rubber from UK just for trade-buffing reasons. Later on it perhaps also gives USA a bit more of an incentive to defend the Philippines since USA gets the rubber there itself. ####
-			PHI = {
-				give_resource_rights = { receiver = USA state = 623 }
-				give_resource_rights = { receiver = USA state = 327 }
-				give_resource_rights = { receiver = USA state = 626 }
-				give_resource_rights = { receiver = USA state = 624 }
-				give_resource_rights = { receiver = USA state = 625 }
-				give_resource_rights = { receiver = USA state = 628 }
-				give_resource_rights = { receiver = USA state = 627 }
-			}		
+	
 			#### The Spanish Civil war as a non-MTTH event. #### 
 			SPR = { 
 				country_event = { id = spain.10 days = 185 } 
 			}
-			### Opinion modifiers so possible AI minors trade with right people 
-			GER = { 
-				add_opinion_modifier = { target = BUL modifier = huge_increase  }
-				add_opinion_modifier = { target = BUL modifier = huge_increase  }
-				add_opinion_modifier = { target = BUL modifier = huge_increase  }
-				add_opinion_modifier = { target = FIN modifier = huge_increase  }
-				add_opinion_modifier = { target = FIN modifier = huge_increase  }
-				add_opinion_modifier = { target = FIN modifier = huge_increase  }
-			}
-			BUL = { 
-				add_opinion_modifier = { target = GER modifier = huge_increase  }
-				add_opinion_modifier = { target = GER modifier = huge_increase  }
-				add_opinion_modifier = { target = GER modifier = huge_increase  }
-			}
-			FIN = { 
-				add_opinion_modifier = { target = GER modifier = huge_increase  }
-				add_opinion_modifier = { target = GER modifier = huge_increase  }
-				add_opinion_modifier = { target = GER modifier = huge_increase  }
-			}
-			NZL = { 
-				add_opinion_modifier = { target = AST modifier = huge_increase  }
-				add_opinion_modifier = { target = AST modifier = huge_increase  }
-				add_opinion_modifier = { target = AST modifier = huge_increase  }
-			}
-			AST = { 
-				add_opinion_modifier = { target = NZL modifier = huge_increase  }
-				add_opinion_modifier = { target = NZL modifier = huge_increase  }
-				add_opinion_modifier = { target = NZL modifier = huge_increase  }
-			}
-			SPR = {
-				add_opinion_modifier = { target = ENG modifier = embargo }
-				add_opinion_modifier = { target = ENG modifier = sanctions_relations }
-				add_opinion_modifier = { target = ENG modifier = large_decrease }
-				add_opinion_modifier = { target = ENG modifier = hostile_status }
-				add_opinion_modifier = { target = RAJ modifier = embargo }
-				add_opinion_modifier = { target = RAJ modifier = sanctions_relations }
-				add_opinion_modifier = { target = RAJ modifier = large_decrease }
-				add_opinion_modifier = { target = RAJ modifier = hostile_status }
-				add_opinion_modifier = { target = CAN modifier = embargo }
-				add_opinion_modifier = { target = CAN modifier = sanctions_relations }
-				add_opinion_modifier = { target = CAN modifier = large_decrease }
-				add_opinion_modifier = { target = CAN modifier = hostile_status }
-				add_opinion_modifier = { target = SOV modifier = embargo }
-				add_opinion_modifier = { target = SOV modifier = sanctions_relations }
-				add_opinion_modifier = { target = SOV modifier = large_decrease }
-				add_opinion_modifier = { target = SOV modifier = hostile_status }
-				add_opinion_modifier = { target = SAF modifier = embargo }
-				add_opinion_modifier = { target = SAF modifier = sanctions_relations }
-				add_opinion_modifier = { target = SAF modifier = large_decrease }
-				add_opinion_modifier = { target = SAF modifier = hostile_status }
-				add_opinion_modifier = { target = AST modifier = embargo }
-				add_opinion_modifier = { target = AST modifier = sanctions_relations }
-				add_opinion_modifier = { target = AST modifier = large_decrease }
-				add_opinion_modifier = { target = AST modifier = hostile_status }
-				add_opinion_modifier = { target = NZL modifier = embargo }
-				add_opinion_modifier = { target = NZL modifier = sanctions_relations }
-				add_opinion_modifier = { target = NZL modifier = large_decrease }
-				add_opinion_modifier = { target = NZL modifier = hostile_status }
-				add_opinion_modifier = { target = USA modifier = embargo }
-				add_opinion_modifier = { target = USA modifier = sanctions_relations }   
-				add_opinion_modifier = { target = USA modifier = large_decrease }
-				add_opinion_modifier = { target = USA modifier = hostile_status } 
-				add_opinion_modifier = { target = VEN modifier = embargo }
-				add_opinion_modifier = { target = VEN modifier = sanctions_relations }   
-				add_opinion_modifier = { target = VEN modifier = large_decrease }
-				add_opinion_modifier = { target = VEN modifier = hostile_status }  				
-			}
-			VEN = { 
-				add_opinion_modifier = { target = SPR modifier = embargo }
-				add_opinion_modifier = { target = SPR modifier = sanctions_relations }
-				add_opinion_modifier = { target = SPR modifier = large_decrease }
-				add_opinion_modifier = { target = SPR modifier = hostile_status }
-			}
-			SOV = { 
-				add_opinion_modifier = { target = SPR modifier = embargo }
-				add_opinion_modifier = { target = SPR modifier = sanctions_relations }
-				add_opinion_modifier = { target = SPR modifier = large_decrease }
-				add_opinion_modifier = { target = SPR modifier = hostile_status }
-			}
-			CAN = { 
-				add_opinion_modifier = { target = SPR modifier = embargo }
-				add_opinion_modifier = { target = SPR modifier = sanctions_relations }
-				add_opinion_modifier = { target = SPR modifier = large_decrease }
-				add_opinion_modifier = { target = SPR modifier = hostile_status }
-			}
-			ENG = { 
-				add_opinion_modifier = { target = SPR modifier = embargo }
-				add_opinion_modifier = { target = SPR modifier = sanctions_relations }
-				add_opinion_modifier = { target = SPR modifier = large_decrease }
-				add_opinion_modifier = { target = SPR modifier = hostile_status }
-			}
-			RAJ = { 
-				add_opinion_modifier = { target = SPR modifier = embargo }
-				add_opinion_modifier = { target = SPR modifier = sanctions_relations }
-				add_opinion_modifier = { target = SPR modifier = large_decrease }
-				add_opinion_modifier = { target = SPR modifier = hostile_status }
-			}
-			SAF = { 
-				add_opinion_modifier = { target = SPR modifier = embargo }
-				add_opinion_modifier = { target = SPR modifier = sanctions_relations }
-				add_opinion_modifier = { target = SPR modifier = large_decrease }
-				add_opinion_modifier = { target = SPR modifier = hostile_status }
-			}
-			AST = { 
-				add_opinion_modifier = { target = SPR modifier = embargo }
-				add_opinion_modifier = { target = SPR modifier = sanctions_relations }
-				add_opinion_modifier = { target = SPR modifier = large_decrease }
-				add_opinion_modifier = { target = SPR modifier = hostile_status }
-			}
-			NZL = { 
-				add_opinion_modifier = { target = SPR modifier = embargo }
-				add_opinion_modifier = { target = SPR modifier = sanctions_relations }
-				add_opinion_modifier = { target = SPR modifier = large_decrease }
-				add_opinion_modifier = { target = SPR modifier = hostile_status }
-			}
-			USA = { 
-				add_opinion_modifier = { target = SPR modifier = embargo }
-				add_opinion_modifier = { target = SPR modifier = sanctions_relations }
-				add_opinion_modifier = { target = SPR modifier = large_decrease }
-				add_opinion_modifier = { target = SPR modifier = hostile_status }
-			}
-
-			
-			
-			#### Countries are given small amounts of starting navy XP to make some starting ship templates. Japan gets more because it is fuel deprived and can't really afford to train its navy early for navy XP. #### 
-
-			USA = { 
-				navy_experience = 33
-			}
-			ENG = { 
-				navy_experience = 33
-			}
-			ITA = { 
-				navy_experience = 33
-			}
-			GER = { 
-				navy_experience = 33
-			}
-			SOV = { 
-				navy_experience = 33
-			}
-			FRA = { 
-				navy_experience = 33
-			}
-			JAP = { 
-				navy_experience = 99
-			}
-			AST = { 
-				navy_experience = 33
-			}
-			CAN = { 
-				navy_experience = 33
-			}
-			SAF = { 
-				navy_experience = 33
-			}
-			RAJ = { 
-				navy_experience = 33
-			}
-			NZL = { 
-				navy_experience = 33
-			}
-       
 
 		#### Annexing Manchukuo immediately to Japan if it starts the game as AI. In this case, Japan gets some of the industry from focuses Manchukuo would have done if it were a player. Although Japan gets this industry up front, it is less than the focus factories a human Manchukuo player can get. Given that Japan can use this for ongoing construction, Asian Axis should end up with about the same industry as you would get with a good Manchu player who properly develops it ####
 

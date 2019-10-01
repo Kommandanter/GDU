@@ -333,24 +333,6 @@ focus_tree = {
 	}
 
 	focus = {
-		id = BUL_research_collaboration
-		prerequisite = { focus = BUL_Finnish_2_Year_Plan }
-		icon = GFX_focus_research
-		x = 9
-		y = 6
-		cost = 10
-
-		available_if_capitulated = yes
-		available = {
-			num_of_factories > 25
-		}
-
-		completion_reward = {
-			add_research_slot = 1
-		}
-	}
-
-	focus = {
 		id = BUL_Expand_Western_Mines
 		icon = GFX_goal_generic_production
 		prerequisite = { focus = BUL_Geological_Survey }
@@ -1116,10 +1098,15 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = armor_bonus
-				bonus = 2.00 
-				uses = 1
-				category = armor
-			}
+				bonus = 1.00 
+				uses = 4
+				ahead_reduction = 1								
+				technology = advanced_medium_tank
+				technology = advanced_heavy_tank
+				technology = improved_medium_tank
+				technology = improved_heavy_tank
+				technology = advanced_light_tank
+			}			
 		}
 	}
 
@@ -1171,8 +1158,6 @@ focus_tree = {
 		id = BUL_Marine_Specialization
 		icon = GFX_goal_generic_amphibious_assault
 		prerequisite = { focus = BUL_Special_Forces }
-		mutually_exclusive = { focus = BUL_Airborne_Specialization }
-		mutually_exclusive = { focus = BUL_Mountain_Specialization }
 		x = 17
 		y = 1
 		cost = 10
@@ -1194,8 +1179,6 @@ focus_tree = {
 		id = BUL_Airborne_Specialization
 		icon = GFX_goal_generic_CAS
 		prerequisite = { focus = BUL_Special_Forces }
-		mutually_exclusive = { focus = BUL_Marine_Specialization }
-		mutually_exclusive = { focus = BUL_Mountain_Specialization }
 		x = 19
 		y = 1
 		cost = 10
@@ -1217,8 +1200,6 @@ focus_tree = {
 		id = BUL_Mountain_Specialization
 		icon = GFX_goal_generic_army_doctrines
 		prerequisite = { focus = BUL_Special_Forces }
-		mutually_exclusive = { focus = BUL_Marine_Specialization }
-		mutually_exclusive = { focus = BUL_Airborne_Specialization }
 		x = 21
 		y = 1
 		cost = 10
