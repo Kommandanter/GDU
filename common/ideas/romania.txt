@@ -1233,6 +1233,7 @@ ideas = {
 
 			picture = generic_motorized_equipment_manufacturer_1
 
+			cost = 50
 
 			allowed = {
 				original_TAG = ROM
@@ -1250,6 +1251,7 @@ ideas = {
 
 			picture = idea_ROM_cugir #used with permission from Turning Point mod
 
+			cost = 50
 
 			allowed = {
 				original_TAG = ROM
@@ -1279,6 +1281,8 @@ ideas = {
 			allowed = {
 				original_TAG = ROM
 			}
+
+			cost = 50
 
 			research_bonus = {
 				artillery = 0.15

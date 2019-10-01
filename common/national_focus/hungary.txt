@@ -2009,7 +2009,6 @@ focus = {
 		id = HUN_mobile_focus
 		icon = GFX_goal_generic_cavalry
 		prerequisite = { focus = HUN_army_maneuvers }
-		mutually_exclusive = { focus = HUN_home_defense }
 		x = -2
 		y = 1
 		relative_position_id = HUN_army_maneuvers
@@ -2131,8 +2130,7 @@ focus = {
 	focus = {
 		id = HUN_develop_tanks
 		icon = GFX_goal_generic_army_tanks
-		prerequisite = { focus = HUN_mobile_focus }
-		mutually_exclusive = { focus = HUN_assault_gun_focus }
+		prerequisite = { focus = HUN_mobile_focus focus = HUN_home_defense }
 		x = 0
 		y = 1
 		relative_position_id = HUN_mobile_focus
@@ -2178,7 +2176,6 @@ focus = {
 		id = HUN_assault_gun_focus
 		icon = GFX_goal_generic_army_artillery2
 		prerequisite = { focus = HUN_mobile_focus focus = HUN_home_defense }
-		mutually_exclusive = { focus = HUN_develop_tanks }
 		x = 2
 		y = 1
 		relative_position_id = HUN_mobile_focus
@@ -2337,7 +2334,7 @@ focus = {
 	focus = {
 		id = HUN_danuvia_submachine_guns
 		icon = GFX_goal_generic_small_arms
-		prerequisite = { focus = HUN_home_defense }
+		prerequisite = { focus = HUN_mobile_focus focus = HUN_home_defense }
 		x = 0
 		y = 1
 		relative_position_id = HUN_home_defense
