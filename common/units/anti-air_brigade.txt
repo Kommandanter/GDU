@@ -76,7 +76,7 @@ sub_units = {
 			anti_air
 		}
 		
-		group = mobile
+		group = armor
 		
 		categories = {
 			category_army

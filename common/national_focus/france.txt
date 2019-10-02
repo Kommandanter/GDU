@@ -278,7 +278,7 @@ focus_tree = {
 	focus = {
 		id = FRA_anti_air_development
 		icon = GFX_goal_generic_defence
-		x = 7
+		x = 6
 		y = 0
 		cost = 5
 
@@ -303,7 +303,7 @@ focus_tree = {
 		icon = GFX_goal_generic_army_artillery
 		mutually_exclusive = { focus = FRA_aggressive_focus }
 		prerequisite = { focus = FRA_anti_air_development }
-		x = 6
+		x = 5
 		y = 1
 		cost = 5
 
@@ -323,7 +323,7 @@ focus_tree = {
 	focus = {
 		id = FRA_fortification_focus
 		icon = GFX_goal_generic_construction2
-		prerequisite = { focus = FRA_defensive_focus }
+		prerequisite = { focus = FRA_defensive_focus focus = FRA_aggressive_focus }
 		x = 4
 		y = 2
 		cost = 5
@@ -385,7 +385,7 @@ focus_tree = {
 	focus = {
 		id = FRA_infantry_focus
 		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = { focus = FRA_defensive_focus }
+		prerequisite = { focus = FRA_defensive_focus focus = FRA_aggressive_focus }
 		x = 6
 		y = 2
 		cost = 10
@@ -458,7 +458,7 @@ focus_tree = {
 		icon = GFX_goal_generic_major_war
 		mutually_exclusive = { focus = FRA_defensive_focus }
 		prerequisite = { focus = FRA_anti_air_development }
-		x = 8
+		x = 7
 		y = 1
 		cost = 5
 
@@ -477,7 +477,7 @@ focus_tree = {
 	focus = {
 		id = FRA_motorized_focus
 		icon = GFX_goal_generic_army_motorized
-		prerequisite = { focus = FRA_aggressive_focus }
+		prerequisite = { focus = FRA_defensive_focus focus = FRA_aggressive_focus }
 		x = 8
 		y = 2
 		cost = 10

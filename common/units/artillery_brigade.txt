@@ -83,7 +83,7 @@ sub_units = {
 			artillery
 		}
 
-		group = mobile
+		group = armor
 		
 		categories = {
 			category_army
@@ -227,7 +227,7 @@ sub_units = {
 			rocket
 		}
 
-		group = mobile
+		group = armor
 
 		categories = {
 			category_army
@@ -299,7 +299,7 @@ sub_units = {
 			artillery
 		}
 
-		group = mobile
+		group = armor
 		
 		categories = {
 			category_army
