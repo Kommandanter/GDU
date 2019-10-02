@@ -186,7 +186,7 @@
  gdunews.7.general:0 "It seems the Soviets aren't just going to roll over..."  
  
  gduevents.1.t:0 "The Phoney War"
- gduevents.1.d:0 "Despite being at war with Germany, allied forces and command remain hesitant and unwilling to fight. There remains a lingering hope for peace with the Axis. Only something drastic like a declaration of war from Italy or the improbable collapse of French forces will rouse the Empire from this stupor."
+ gduevents.1.d:0 "Despite being at war with Germany, Allied forces remain hesitant and unwilling to fight. There remains a lingering hope for peace with the Axis. Only something drastic like a declaration of war from Italy or the improbable collapse of French forces will rouse the Empire from this stupor."
  gduevents.1.a:0 "Surely, there's nothing to be too alarmed about?"
  gduevents.2.t:0 "Welcome to the Reich!"
  gduevents.2.d:0 "Germany in GDU is a bit different from in vanilla. Strike hard and strike fast. I suggest building a high quality army with fighters, CAS, tanks, and good infantry.\n\nIn addition, you don't have to worry about resistance. The SS is working hard in the background to keep those partisans down for you! Unfortunately, they do need 275,000 manpower for the job, which they'll be taking right now.\nGood luck! Check out the decision tab for more documentation and tips, if you need them."
@@ -232,7 +232,7 @@
  gduevents.15.a:0 "Heard and understood!" 
  
  gduevents.17.t:0 "Time to Leave Vichy!"
- gduevents.17.d:0 "Following the Armistice, the Vichy state granted temporary military access to the Axis forces. To keep up the pretense of neutrality, the French State has now formally requested that we leave their country immediately. Any remaining troops will be interned. We should move them out."
+ gduevents.17.d:0 "Following the Armistice, the new Vichy state granted temporary military access to the Axis forces. To keep up the pretense of neutrality, the French State has now formally requested that we leave their country immediately. Any remaining troops will be interned. We should move them out."
  gduevents.17.a:0 "Understood."
  
  gduevents.18.t:0 "Military Administration in the Philippines" 
@@ -240,8 +240,8 @@
  gduevents.18.a:0 "It's for their own protection!"
  
  gduevents.19.t:0 "The Battle of France"
- gduevents.19.d:0 "Germany has invaded the Benelux, and war--A real war--approaches.\n\nWe need to put up a fight and defend our homeland. Should we lose too quickly, our people's hope and faith in continued resistance will be devastated.\n\n For every week that we survive up to a maximum of 10 weeks, we will gain 1 Civilian factory and 1 Military factory from our France in Exile focus tree (maximum of 10 mils and 10 civs if we survive at least 70 days).\n\n But for every week less than 70 days that Germany capitulates us, Germany will instead get 1 Civilian factory and 1 Military factory (maximum of 10 mils and 10 civs for Germany if you somehow manage to capitulate in less than 7 days).\n\n You will also get -- or not -- varying amounts of other factories in your France in Exile focus tree depending on how long you hold.\n\n If you put up a good fight, you will be rewarded. If not, Germany will be rewarded instead. Fight or perish§!"
- gduevents.19.a:0 "Then we will die with our boots on, and take some Germans with us." 
+ gduevents.19.d:0 "Germany has alas moved into the Low Countries.  The war we've awaited for has arrived.\n\nWe must fight to defend our homeland as we did in the Great War.  The French Army is the largest, most powerful force on the continent - victory should not be in doubt.  However, the Germans must never be underestimated.  If we are defeated, let us have first bloodied Hitler's nose.  If we surrender as cowards, our people's hope and faith in continued resistance will be devastated.\n\n Hold the Line.  You are on a timer:  For every week that you survive - up to a maximum of 10 weeks - you will gain 1 Civilian Factory and 1 Military Factory towards your eventual Free France focus tree. (Up to a maximum of 10 MIC and CIC, considering a hold of at least 70 days.)\n\n However, for every week you cannot hold, Germany will inturn receive 1 Civilian factory and 1 Military factory (Up to a maximum of 10 MIC and CIC if you somehow manage to capitulate in less than 7 days).\n\n Varying amounts of other factories in your Free France focus tree will also appear - or may not appear - depending on how long you hold.\n\n Put up a fight, and you will be rewarded. If not, the road back to Europe and to your eventual liberation will be ever more difficult. Fight or perish§!"
+ gduevents.19.a:0 "If we die, It'll be with our boots on  Vive le France." 
  
  gduevents.20.t:0 "Resistance Prepared!" 
  gduevents.20.d:0 "The resistance is now set up and prepared to continue the struggle overseas. The fight continues; should the worst come to pass, the French people will not give up hope!" 
@@ -269,27 +269,27 @@
  
  gduevents.27.t:0 "IMPORTANT INFORMATION"
  gduevents.27.d:0 "IF YOU READ NOTHING ELSE, READ THIS\n\nGDU has a new mechanic whereby your navy can help defend you against Sealion, at least if you do actually have a navy and keep it close to home.\n\nIn the top bar, just to the right of your air experience box, there is a box that shows your current Sealion Naval Defense Score (capped at 70). Try moving some ships in and out of the English Channel and you will see that this goes up when you move more ships in, and goes down when you move them out of the English Channel. Also look at your national spirits and see that when you have ships in the English Channel, you get a core defense and attack bonus for your troops that is equal to your Sealion Naval Defense Score.\n\nDon't rely on the US navy (or army). The US can't join the allies or get military access or docking rights until you are 70% towards capitulation, or until 1941, and US ships don't count towards your bonus. Home Defense is in your hands, and in particular in the Royal Navy's hands.\n\nIt is recommended that you keep a strong and large home fleet somewhere within easy range of the English Channel at all times. Then, if the Axis Sealions you, move your fleet into the English channel and put up air cover over the Channel to help limit any damage from naval bombing. As long as your navy can beat the Axis fleet and your ships survive, your troops will all get large attack and defense bonuses and you should be able to beat off the invasion.\n\nBut as long as you maintain proper Royal Navy control over the seas, are ready to put sufficient air over the English channel, and keep a sufficiently strong Home Fleet on hand, it should be next to impossible for the Axis to succesfully Sealion you."
- gduevents.27.a:0 "OK, I think I'll go no-navy UK, send my entire starting fleet to the Med, and see if I can manage to get Sealioned. Thanks." 
+ gduevents.27.a:0 "OK, I'll go no-navy UK, send my entire starting fleet to the Med, and see if I can manage to get Sealioned. Thanks." 
  
  gduevents.28.t:0 "Land Doctrine"
  gduevents.28.d:0 "It's about a year before Barbarossa and you should probably be researching your 6th land doctrine by this point to finish it before Barbarossa. \n\nUnless it is already May 1941, you will find that you can't research the 7th doctrine yet once the 6th one is done.\n\nThis is to prevent you from accidentally wasting a lot of research.\n\nWhen you get the "Suspicious Acivity at the Western border" event right before Barbarossa, it gives you a huge research bonus for the 7th land doctrine, and you should be able to research it instantly then.\n\n"
  gduevents.28.a:0 "Wait until the Suspicious Activity event, then research the 7th Land Doctrine."  
  
  pfu.31.t:0 "The Fight Goes On"
- pfu.31.desc:0 "The Battle for France is over, but the war still rages on. Do not leave juste because you lost metropolitan France. \n \n GDU has some interesting mechanics for Free France in your new National Focus tree where you can help a lot for Operation Torch and get free divisions from the war in North Africa and later help in the war in Italy/D-Day. Keep in mind that your focuses will be more limited or even totally unavailable if you did not manage to defend France for very long.\n \n Courage!"
+ pfu.31.desc:0 "The Battle for France is over. Your country is now divided as your government is in exile - a new French State has been recognized, and the German Reich dominates the European continent.  However, this is only the beggining. You must carry on the fight alongside the Allied powers as the Free French. Your contribution to the struggle henceforth will be invaluable.  Beat the fascists back, Liberate your homeland.  \n \n GDU has some interesting mechanics for Free France in your new National Focus tree where you can help a lot for Operation Torch and get free divisions from the war in North Africa and later help in the war in Italy/D-Day. Keep in mind that your focuses will be more limited or even totally unavailable if you did not manage to defend France for very long.\n \n Courage!"
 
  usa.25.t:0 "Operation Torch"
- usa.25.d:0 "With Vichy refusing to join our cause and the French troops in North Africa seemingly ready to fight us, we must be ready to fight..."
- usa.25.a:0 "Destroy them!"
+ usa.25.d:0 "With the French State refusing to join our cause, Force reluctantly remains our only option if we wish to open a Western front against Hitler in the North African desert.  May God be with us all."
+ usa.25.a:0 "Time to prod the Soft Underbelly."
  SOV_molotov_ribbentrop_tension:0 "Molotov Ribbentrop Claims"
  
  
  gduevents.31.t:0 "Japan Expands Trade with Australia"
- gduevents.31.d:0 "In recent years, Japanese trade with Australia has been flourishing.\n\nThis has led 3 new small ports in Australia to spring up as maritime trade continues to grow.\n\n"
+ gduevents.31.d:0 "In recent years, Japanese trade with Australia has been flourishing.\n\nThis has led to 3 new small ports in Australia springing up as maritime trade continues to grow.\n\n"
  gduevents.31.a:0 "Wonderful! But should peace and prosperity come to an end, we had better defend these new ports..."
  
  gduevents.32.t:0 "Japan Expands Trade with The British Raj"
- gduevents.32.d:0 "In recent years, Japanese trade with the British Raj has been flourishing.\n\nThis has led 3 new small ports in the Raj to spring up as maritime trade continues to grow.\n\n"
+ gduevents.32.d:0 "In recent years, Japanese trade with the British Raj has been flourishing.\n\nThis has led to 3 new small ports in British India springing up as maritime trade continues to grow.\n\n"
  gduevents.32.a:0 "Wonderful! But should peace and prosperity come to an end, we had better defend these new ports..." 
  
  
