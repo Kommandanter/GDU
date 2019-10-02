@@ -1640,26 +1640,6 @@ equipment_modules = {
 
 
 
-	ship_mine_layer_1 = {
-		category = ship_mine_layer
-		gui_category = ship_mine_warfare
-		gfx = ship_mine_layer
-		
-		add_stats = {
-			mines_planting = 1
-			build_cost_ic = 90
-		}
-	}
-
-	ship_mine_layer_sub = {
-		category = ship_mine_layer_sub
-		gfx = ship_mine_layer_sub
-		
-		add_stats = {
-			mines_planting = 1
-			build_cost_ic = 90
-		}
-	}
 
 
 #   # ### #  # ###      ## #   # ### ### ###  ### ###  
@@ -1670,15 +1650,6 @@ equipment_modules = {
 
 
 
-	ship_mine_sweeper_1 = {
-		category = ship_mine_warfare
-		gfx = ship_mine_sweeper
-		
-		add_stats = {
-			mines_sweeping = 1
-			build_cost_ic = 30
-		}		
-	}
 
 
 ###  ### ###  ### #  #      ##  #  #  ##  ###   ##  ### 

@@ -116,7 +116,7 @@ add_ace = {
     type = support_genius
     is_female = yes
 }
-navy_experience = 99
+navy_experience = 0
 set_technology = {
 	interwar_antiair = 1
 	infantry_weapons = 1
@@ -157,8 +157,6 @@ if = {
 		has_dlc = "Man the Guns"
 	}
 	set_technology = {
-		basic_naval_mines = 1
-		submarine_mine_laying = 1
 		basic_torpedo = 1
 		basic_battery = 1
 		basic_light_battery = 1
@@ -1231,7 +1229,7 @@ if = {
 				fixed_ship_armor_slot = ship_armor_cruiser_1
 				mid_1_custom_slot = ship_light_medium_battery_1
 				mid_2_custom_slot = ship_torpedo_1
-				rear_1_custom_slot = ship_mine_layer_1
+				rear_1_custom_slot = empty
 			}
 			obsolete = yes
 		}
@@ -1249,7 +1247,7 @@ if = {
 				fixed_ship_armor_slot = empty
 				mid_1_custom_slot = empty
 				mid_2_custom_slot = empty
-				rear_1_custom_slot = ship_mine_layer_1
+				rear_1_custom_slot = empty
 			}
 		}
 		### Destroyer Variants
@@ -1317,7 +1315,7 @@ if = {
 			modules = {
 				fixed_ship_torpedo_slot = ship_torpedo_sub_1
 				fixed_ship_engine_slot = sub_ship_engine_1
-				rear_1_custom_slot = ship_mine_layer_sub
+				rear_1_custom_slot = empty
 			}
 		}
 }
@@ -1455,8 +1453,8 @@ if = {
 					fixed_ship_radar_slot = empty
 					fixed_ship_engine_slot = light_ship_engine_1
 					fixed_ship_torpedo_slot = empty
-					mid_1_custom_slot = ship_mine_layer_1
-					rear_1_custom_slot = ship_mine_layer_1
+					mid_1_custom_slot = empty
+					rear_1_custom_slot = empty
 				}
 			}
 			create_equipment_variant = {
