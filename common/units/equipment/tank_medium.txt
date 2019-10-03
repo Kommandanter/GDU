@@ -466,10 +466,10 @@ equipments = {
 		priority = 70
 		visual_level = 1
 		can_convert_from = { 
-			medium_tank_equipment_3 
 			medium_tank_equipment_2
-			ifu_medium_tank_equipment_3
+			medium_tank_equipment_1
 			ifu_medium_tank_equipment_2
+			ifu_medium_tank_equipment_1
 		}
 
 		#Misc Abilities

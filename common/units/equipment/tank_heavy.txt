@@ -617,9 +617,9 @@ equipments = {
 		family = heavy_tank_equipment_2
 		can_convert_from = { 
 			heavy_tank_equipment_1
-		
+			heavy_tank_equipment_2		
 			ifu_heavy_tank_equipment_1
-			
+			ifu_heavy_tank_equipment_2
 		}
 		priority = 101
 		visual_level = 1
