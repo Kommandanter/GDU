@@ -2343,6 +2343,42 @@ foreign_politics = {
 				target = SAF 
 				type = annex_everything
 			}
+			GER = {	
+				declare_war_on = {
+					target = USA 
+					type = annex_everything
+				}
+			}
+			ITA = {	
+				declare_war_on = {
+					target = USA 
+					type = annex_everything
+				}
+			}
+			ROM = {	
+				declare_war_on = {
+					target = USA 
+					type = annex_everything
+				}
+			}
+			HUN = {	
+				declare_war_on = {
+					target = USA 
+					type = annex_everything
+				}
+			}
+			BUL = {	
+				declare_war_on = {
+					target = USA 
+					type = annex_everything
+				}
+			}
+			SPR = {	
+				declare_war_on = {
+					target = USA 
+					type = annex_everything
+				}
+			}		
 		}
 	
 	}
