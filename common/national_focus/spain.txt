@@ -80,6 +80,9 @@ focus = {
 		completion_reward = {
 		every_army_leader = {
 				add_attack = 1
+				add_logistics = -1
+				add_defense = -1
+				add_planning = -1
 			}
 
 		}
@@ -121,9 +124,9 @@ focus = {
 		completion_reward = {
 		every_army_leader = {
 				add_defense = 1
-			}
-		every_army_leader = {
 				add_logistics = 1
+				add_planning = -1
+				add_attack = -1				
 			}
 		}
 	}
@@ -157,6 +160,7 @@ focus = {
 
 		completion_reward = {
 		add_ideas = SPR_flavour_four_idea
+		SOV = { add_ideas = SPR_flavour_four_idea2 }
 		}
 	}
 	focus = {
@@ -192,6 +196,7 @@ focus = {
 
 		completion_reward = {
 		add_ideas = SPR_flavour_five_idea
+		SOV = { add_ideas = SPR_flavour_five_idea2 }		
 		}
 	}
 	focus = {

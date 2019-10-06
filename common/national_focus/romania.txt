@@ -173,6 +173,7 @@ focus = {
 		completion_reward = {
 			every_army_leader = {
 				add_planning = 1
+				add_logistics = -1				
 			}
 
 		}

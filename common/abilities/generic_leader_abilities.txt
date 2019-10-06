@@ -215,16 +215,12 @@ ability = {
 		}
 
 		unit_modifiers = {
-			no_supply_grace = 168
-		}
-
-		one_time_effect = {
-			supply_units = 168
+			supply_consumption_factor = -0.025
 		}
 
 		cost = 0.1
 		duration = 168
-		cooldown = 504
+		cooldown = 8760
 	}
 
 	requisition_winter_gear = {

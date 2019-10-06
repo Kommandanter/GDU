@@ -210,7 +210,7 @@ ideas = {
 			}
 
 			
-			traits = { army_chief_offensive_3 }
+			traits = { army_chief_offensive_2 }
 			
 			ai_will_do = {
 				factor = 1
@@ -249,7 +249,7 @@ ideas = {
 			
 
 			
-			traits = { air_chief_ground_support_3 }
+			traits = { air_chief_ground_support_2 }
 			
 			ai_will_do = {
 				factor = 1
