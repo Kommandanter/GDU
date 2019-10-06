@@ -24,7 +24,7 @@ equipments = {
 
 
 		#Offensive Abilities
-		hard_attack = 22.8
+		hard_attack = 21.3
 		ap_attack = 20
 		air_attack = 0
 
@@ -56,7 +56,7 @@ equipments = {
 		
 		defense = -7.2
 		breakthrough = 0.375
-		hard_attack = 33.75
+		hard_attack = 30.8
 		ap_attack = 25
 		
 		build_cost_ic = 2.0
@@ -75,7 +75,7 @@ equipments = {
 		visual_level = 2
 		
 		defense = -11.475
-		hard_attack = 46.55
+		hard_attack = 42
 		breakthrough = 0.5  
 		ap_attack = 45
 		
