@@ -244,7 +244,29 @@ focus = {
 
 		completion_reward = {
         custom_effect_tooltip = ROM_flavour_six_tt
+		custom_effect_tooltip = GDU_spacer
+		custom_effect_tooltip = GDU_romania_stalingrad_tt
+		custom_effect_tooltip = GDU_spacer		
+		
 		hidden_effect = { set_technology = { ROM_urban_infantry_tech = 1 } }
+
+		SOV = {
+
+		create_corps_commander = {
+		name = "Aleksandr Vasilevsky"
+		id = 407
+			picture = "Portrait_Soviet_Aleksandr_Vasilevsky.dds"
+		traits = { winter_specialist armor_officer politically_connected trait_cautious harsh_leader skilled_staffer panzer_leader organizer}
+		skill = 6
+
+
+		attack_skill = 4
+		defense_skill = 3
+		planning_skill = 8
+		logistics_skill = 4
+		}
+		
+		}
 
 		}
 	}
@@ -279,7 +301,30 @@ focus = {
 
 		completion_reward = {
 		custom_effect_tooltip = ROM_flavour_seven_tt
+		custom_effect_tooltip = GDU_spacer
+		custom_effect_tooltip = GDU_romania_stalingrad_tt
+		custom_effect_tooltip = GDU_spacer
+				
 		hidden_effect = { set_technology = { ROM_forest_infantry_tech = 1 } }
+		
+		SOV = {
+
+		create_corps_commander = {
+		name = "Aleksandr Vasilevsky"
+		id = 407
+			picture = "Portrait_Soviet_Aleksandr_Vasilevsky.dds"
+		traits = { winter_specialist armor_officer politically_connected trait_cautious harsh_leader skilled_staffer panzer_leader organizer}
+		skill = 6
+
+
+		attack_skill = 4
+		defense_skill = 3
+		planning_skill = 8
+		logistics_skill = 4
+		}
+		
+		}		
+		
 		}
 	}
 
