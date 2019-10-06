@@ -129,6 +129,7 @@ NDefines.NTechnology.BASE_YEAR_AHEAD_PENALTY_FACTOR = 4		-- Base year ahead pena
 NDefines.NPolitics.DEFAULT_OCCUPATION_POLICY = 3
 NDefines.NPolitics.BASE_LEADER_TRAITS = 6
 
+NDefines.NMilitary.INFRA_ORG_IMPACT = 0.25				-- scale factor of infra on org regain.
 NDefines.NMilitary.LAND_SPEED_MODIFIER = 0.033                    -- basic speed control
 NDefines.NMilitary.INFRASTRUCTURE_MOVEMENT_SPEED_IMPACT = -0.025	-- speed penalty per infrastucture below maximum.
 
