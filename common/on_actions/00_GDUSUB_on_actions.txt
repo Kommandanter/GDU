@@ -57,9 +57,11 @@ on_actions = {
      if = {
 
       limit = {
-       NOT = {
-        ENG = { is_ai = yes }
-        }
+	  AND = {
+        ENG = { is_ai = no }
+        GER = { is_ai = no }
+        SOV = { is_ai = no }
+		}
       }
       USA = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 1095 } }
       CAN = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 732 } }
