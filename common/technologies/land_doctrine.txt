@@ -654,12 +654,7 @@ technologies = {
 		}
 		
 		allow = {
-			NOT = {
-				AND = {
-					date < 1941.5.1 
-					tag = SOV
-				}
-			}
+
 		}
 		
 		enable_tactic = tactic_overwhelming_fire
@@ -1604,12 +1599,7 @@ technologies = {
 		}
 
 		allow = {
-			NOT = {
-				AND = {
-					date < 1941.5.1 
-					tag = SOV
-				}
-			}
+
 		}
 		
 		path = {
@@ -1829,12 +1819,7 @@ technologies = {
 		}
 
 		allow = {
-			NOT = {
-				AND = {
-					date < 1941.5.1 
-					tag = SOV
-				}
-			}
+
 		}
 		
 		doctrine = yes	
@@ -2376,12 +2361,7 @@ technologies = {
 		}
 
 		allow = {
-			NOT = {
-				AND = {
-					date < 1941.5.1 
-					tag = SOV
-				}
-			}
+
 		}
 		
 		path = {
@@ -2717,12 +2697,7 @@ technologies = {
 		research_cost = 3.6
 
 		allow = {
-			NOT = {
-				AND = {
-					date < 1941.5.1 
-					tag = SOV
-				}
-			}
+
 		}
 		
 		categories = {
@@ -3234,12 +3209,7 @@ technologies = {
 		}
 	
 		allow = {
-			NOT = {
-				AND = {
-					date < 1941.5.1 
-					tag = SOV
-				}
-			}
+
 		}
 		
 		infantry = {
@@ -3571,12 +3541,7 @@ technologies = {
 		}
 
 		allow = {
-			NOT = {
-				AND = {
-					date < 1941.5.1 
-					tag = SOV
-				}
-			}
+
 		}
 
 		path = {
