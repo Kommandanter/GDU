@@ -1431,33 +1431,7 @@ focus = {
 		}
 	}
 
-	focus = {
-		id = RAJ_indian_defense_research
-		icon = GFX_focus_research
-		prerequisite = { focus = RAJ_modernizing_army }
-		prerequisite = { focus = RAJ_indian_gentlemen_officers }
-		x = -1
-		y = 4
-		relative_position_id = RAJ_the_bangalore_torpedo
 
-		cost = 10
-
-		ai_will_do = {
-			factor = 25
-		}
-
-		available = {
-			num_of_factories > 60
-		}
-
-		cancel_if_invalid = no
-		continue_if_invalid = yes
-		available_if_capitulated = no
-
-		completion_reward = {
-			add_research_slot = 1
-		}
-	}
 
 
 	############################
@@ -2142,6 +2116,12 @@ focus = {
 					set_state_flag = RAJ_expand_mazagon_dock_NB
 				}
 			}
+			439 = {
+				add_resource = {
+					type = steel
+					amount = 2
+				}		
+			}				
 		}
 	}
 
@@ -2215,6 +2195,12 @@ focus = {
 					set_state_flag = RAJ_found_scindia_shipyard_NB
 				}
 			}
+			439 = {
+				add_resource = {
+					type = steel
+					amount = 2
+				}		
+			}				
 		}
 	}
 
@@ -2234,7 +2220,7 @@ focus = {
 		}
 
 		available = {
-
+			date > 1940.1.1
 		}
 
 		bypass = {
@@ -2246,7 +2232,12 @@ focus = {
 		available_if_capitulated = no
 
 		complete_tooltip = {
-
+			441 = {
+				add_resource = {
+					type = steel
+					amount = 1
+				}			
+			}	
 		}
 
 		completion_reward = {
@@ -2297,6 +2288,12 @@ focus = {
 				category = dd_tech
 				category = cl_tech
 			}
+			787 = {
+				add_resource = {
+					type = steel
+					amount = 1
+				}			
+			}				
 		}
 	}
 
@@ -2338,6 +2335,12 @@ focus = {
 				category = bc_tech
 				category = ca_tech
 			}
+			787 = {
+				add_resource = {
+					type = steel
+					amount = 1
+				}			
+			}				
 		}
 	}
 
@@ -2378,6 +2381,12 @@ focus = {
 				uses = 1
 				category = ss_tech
 			}
+			787 = {
+				add_resource = {
+					type = steel
+					amount = 1
+				}			
+			}				
 		}
 	}
 
@@ -2419,6 +2428,12 @@ focus = {
 				category = cv_tech
 				category = bb_tech
 			}
+			787 = {
+				add_resource = {
+					type = steel
+					amount = 1
+				}			
+			}				
 		}
 	}
 
@@ -2451,6 +2466,12 @@ focus = {
 				uses = 2
 				category = naval_doctrine
 			}
+			787 = {
+				add_resource = {
+					type = steel
+					amount = 1
+				}			
+			}				
 		}
 	}
 

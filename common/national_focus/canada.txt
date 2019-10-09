@@ -1469,40 +1469,7 @@ focus = {
 		}
 	}
 
-	focus = {
-		id = CAN_defense_research_grants
-		icon = GFX_focus_research
-		prerequisite = { focus = CAN_victory_aircraft_limited focus = CAN_fund_the_national_research_council }
-		x = -1
-		y = 4
-		relative_position_id = CAN_defence_of_canada_regulations
 
-		cost = 5
-
-		ai_will_do = {
-			factor = 25
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = no
-		continue_if_invalid = yes
-		available_if_capitulated = yes
-
-		complete_tooltip = {
-
-		}
-
-		completion_reward = {
-			add_research_slot = 1
-		}
-	}
 
 	focus = {
 		id = CAN_national_steel_car
@@ -1686,7 +1653,7 @@ focus = {
 	focus = {
 		id = CAN_uranium_mining
 		icon = GFX_focus_wonderweapons
-		prerequisite = { focus = CAN_defense_research_grants focus = CAN_national_steel_car }
+		prerequisite = { focus = CAN_national_steel_car }
 		x = 0
 		y = 5
 		relative_position_id = CAN_defence_of_canada_regulations
@@ -3491,6 +3458,12 @@ focus = {
 				}
 				set_state_flag = CAN_halifax_shipyards_DY
 			}
+			467 = {
+				add_resource = {
+					type = steel
+					amount = 3
+				}					
+			}				
 		}
 	}
 
@@ -3532,6 +3505,12 @@ focus = {
 				uses = 1
 				category = dd_tech
 			}
+			467 = {
+				add_resource = {
+					type = steel
+					amount = 1
+				}					
+			}			
 		}
 	}
 
@@ -3573,6 +3552,16 @@ focus = {
 				uses = 1
 				category = cl_tech
 			}
+			469 = {
+				add_resource = {
+					type = steel
+					amount = 1
+				}
+				add_resource = {
+					type = oil
+					amount = 2
+				}					
+			}			
 		}
 	}
 
@@ -3614,6 +3603,16 @@ focus = {
 				uses = 1
 				category = ca_tech
 			}
+			469 = {
+				add_resource = {
+					type = steel
+					amount = 1
+				}
+				add_resource = {
+					type = oil
+					amount = 2
+				}					
+			}				
 		}
 	}
 
@@ -3660,6 +3659,16 @@ focus = {
 				uses = 2
 				category = convoy_defense_tree
 			}
+			469 = {
+				add_resource = {
+					type = steel
+					amount = 1
+				}
+				add_resource = {
+					type = oil
+					amount = 2
+				}					
+			}				
 		}
 	}
 
@@ -3702,6 +3711,16 @@ focus = {
 				uses = 2
 				category = cat_fleet_in_being
 			}
+			469 = {
+				add_resource = {
+					type = steel
+					amount = 1
+				}
+				add_resource = {
+					type = oil
+					amount = 2
+				}					
+			}				
 		}
 	}
 
@@ -3737,6 +3756,16 @@ focus = {
 
 		completion_reward = {
 			add_ideas = CAN_degauss_ship_hulls
+			469 = {
+				add_resource = {
+					type = steel
+					amount = 2
+				}
+				add_resource = {
+					type = oil
+					amount = 2
+				}					
+			}				
 		}
 	}
 
@@ -3772,6 +3801,16 @@ focus = {
 
 		completion_reward = {
 			add_ideas = CAN_trade_fleet
+			469 = {
+				add_resource = {
+					type = steel
+					amount = 2
+				}
+				add_resource = {
+					type = oil
+					amount = 2
+				}					
+			}				
 		}
 	}
 
@@ -3835,6 +3874,16 @@ focus = {
 				}
 				set_state_flag = CAN_united_shipyards_DY
 			}
+			470 = {
+				add_resource = {
+					type = steel
+					amount = 12
+				}
+				add_resource = {
+					type = oil
+					amount = 20
+				}					
+			}				
 		}
 	}
 

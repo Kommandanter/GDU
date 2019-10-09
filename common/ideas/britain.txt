@@ -434,7 +434,14 @@ ideas = {
 				trade_laws_cost_factor = -0.15
 				mobilization_laws_cost_factor = -0.15
 				economy_cost_factor = -0.15
+				experience_gain_navy = 0.05
 			}
+			
+			research_bonus = {
+				naval_equipment = 0.1
+				naval_doctrine = 0.1				
+			}	
+			
 
 			picture = eng_guided_by_britain
 			

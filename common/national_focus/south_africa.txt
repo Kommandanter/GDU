@@ -1087,32 +1087,7 @@ focus_tree = {
 		}
 	}
 
-	focus = {
-		id = SAF_defense_collaboration_initiative
-		icon = GFX_goal_generic_scientific_exchange
-		prerequisite = { focus = SAF_fund_the_university_of_south_africa }
-		x = 0
-		y = 6
-		relative_position_id = SAF_south_african_railways
 
-		cost = 10
-
-		ai_will_do = {
-			factor = 25
-		}
-
-		available = {
-			has_war = yes
-			is_in_faction = yes
-			num_of_factories > 35
-		}
-
-		cancel_if_invalid = no
-		continue_if_invalid = yes
-		available_if_capitulated = no
-
-		completion_reward = { add_research_slot = 1 }
-	}
 
 
 	############################
@@ -1914,6 +1889,16 @@ focus_tree = {
 				uses = 1
 				category = naval_doctrine
 			}
+			681 = {
+				add_resource = {
+					type = steel
+					amount = 1
+				}
+				add_resource = {
+					type = oil
+					amount = 1
+				}					
+			}				
 		}
 	}
 
@@ -1943,6 +1928,12 @@ focus_tree = {
 				uses = 2
 				category = convoy_defense_tree
 			}
+			681 = {
+				add_resource = {
+					type = steel
+					amount = 1
+				}					
+			}				
 		}
 	}
 
@@ -1976,6 +1967,12 @@ focus_tree = {
 				uses = 2
 				category = cat_trade_interdiction
 			}
+			681 = {
+				add_resource = {
+					type = steel
+					amount = 1
+				}				
+			}				
 		}
 	}
 
@@ -2053,6 +2050,16 @@ focus_tree = {
 					set_state_flag = SAF_expand_the_simons_town_base_NB
 				}
 			}
+			681 = {
+				add_resource = {
+					type = steel
+					amount = 3
+				}
+				add_resource = {
+					type = oil
+					amount = 2
+				}					
+			}				
 		}
 	}
 
@@ -2071,7 +2078,7 @@ focus_tree = {
 		}
 
 		available = {
-
+			date > 1939.6.1
 		}
 
 		bypass = {
@@ -2094,6 +2101,12 @@ focus_tree = {
 				uses = 1
 				category = dd_tech
 			}
+			681 = {
+				add_resource = {
+					type = oil
+					amount = 1
+				}					
+			}			
 		}
 	}
 
@@ -2116,7 +2129,7 @@ focus_tree = {
 		}
 
 		available = {
-
+			date > 1939.6.1
 		}
 
 		bypass = {
@@ -2139,6 +2152,12 @@ focus_tree = {
 				uses = 1
 				category = ss_tech
 			}
+			681 = {
+				add_resource = {
+					type = oil
+					amount = 1
+				}					
+			}				
 		}
 	}
 
@@ -2256,7 +2275,7 @@ focus_tree = {
 		id = SAF_synthetic_rubber
 		icon = GFX_focus_generic_rubber
 		prerequisite = { focus = SAF_fund_the_university_of_south_africa }
-		x = -2
+		x = 0
 		y = 1
 		relative_position_id = SAF_fund_the_university_of_south_africa
 		cost = 10

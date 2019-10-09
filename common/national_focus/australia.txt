@@ -1499,6 +1499,12 @@ focus = {
 		available_if_capitulated = no
 
 		complete_tooltip = {
+			285 = {
+				add_resource = {
+					type = steel
+					amount = 4
+				}			
+			}
 			navy_experience = 25
 			285 = {
 				add_extra_state_shared_building_slots = 3
@@ -1511,6 +1517,12 @@ focus = {
 		}
 
 		completion_reward = {
+			285 = {
+				add_resource = {
+					type = steel
+					amount = 4
+				}		
+			}				
 			navy_experience = 25
 			285 = {
 				add_extra_state_shared_building_slots = 3
@@ -1552,6 +1564,12 @@ focus = {
 		available_if_capitulated = yes
 
 		completion_reward = {
+			285 = {
+				add_resource = {
+					type = steel
+					amount = 2
+				}			
+			}		
 			add_tech_bonus = {
 				name = AST_protect_overseas_commerce
 				bonus = 1.00
@@ -1590,6 +1608,12 @@ focus = {
 		available_if_capitulated = yes
 
 		completion_reward = {
+			285 = {
+				add_resource = {
+					type = steel
+					amount = 2
+				}			
+			}				
 			add_tech_bonus = {
 				name = AST_fly_the_jolly_roger
 				bonus = 1.00
@@ -1626,6 +1650,16 @@ focus = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			285 = {
+				add_resource = {
+					type = steel
+					amount = 4
+				}
+				add_resource = {
+					type = oil
+					amount = 1
+				}				
+			}				
 			add_tech_bonus = {
 				name = AST_scrap_iron_flotilla
 				bonus = 1.00
@@ -1663,6 +1697,16 @@ focus = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			285 = {
+				add_resource = {
+					type = steel
+					amount = 4
+				}
+				add_resource = {
+					type = oil
+					amount = 1
+				}				
+			}				
 			add_tech_bonus = {
 				name = AST_royal_australian_submarine_service
 				bonus = 0.5
@@ -1704,6 +1748,16 @@ focus = {
 		}
 
 		completion_reward = {
+			285 = {
+				add_resource = {
+					type = steel
+					amount = 4
+				}
+				add_resource = {
+					type = oil
+					amount = 1
+				}				
+			}				
 			add_ideas = AST_naval_auxiliary_patrol
 		}
 	}
@@ -1735,6 +1789,16 @@ focus = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			285 = {
+				add_resource = {
+					type = steel
+					amount = 6
+				}
+				add_resource = {
+					type = oil
+					amount = 1
+				}				
+			}				
 			add_tech_bonus = {
 				name = AST_cruisers
 				bonus = 1.00
@@ -1773,6 +1837,16 @@ focus = {
 		available_if_capitulated = yes
 
 		completion_reward = {
+			285 = {
+				add_resource = {
+					type = steel
+					amount = 6
+				}
+				add_resource = {
+					type = oil
+					amount = 1
+				}				
+			}				
 			add_tech_bonus = {
 				name = AST_pacific_area_navy
 				bonus = 1.00
@@ -2644,44 +2718,6 @@ focus = {
 	}
 
 	focus = {
-		id = AST_research_collaboration
-		icon = GFX_goal_generic_scientific_exchange
-		prerequisite = { focus = AST_fight_work_or_perish }
-		prerequisite = { focus = AST_australian_arms_production }
-		x = -5
-		y = 5
-		relative_position_id = AST_establish_advisory_war_council
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 25
-		}
-
-		available = {
-			has_war = yes
-			is_in_faction = yes
-				num_of_factories > 40
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = no
-		continue_if_invalid = yes
-		available_if_capitulated = no
-
-		complete_tooltip = {
-
-		}
-
-		completion_reward = {
-			add_research_slot = 1
-		}
-	}
-
-	focus = {
 		id = AST_squash_the_squanderbugs
 		icon = GFX_focus_AST_squander_bug
 		prerequisite = { focus = AST_invest_in_victory }
@@ -3311,11 +3347,12 @@ focus = {
 	focus = {
 		id = AST_synthetic_rubber
 		icon = GFX_focus_generic_rubber
-		prerequisite = { focus = AST_research_collaboration }
-		x = 0
-		y = 1
-		relative_position_id = AST_research_collaboration
-		cost = 6
+		prerequisite = { focus = AST_fight_work_or_perish }
+		prerequisite = { focus = AST_australian_arms_production }
+		x = -5
+		y = 5
+		relative_position_id = AST_establish_advisory_war_council
+		cost = 10
 		ai_will_do = {
 			factor = 4
 		}
