@@ -651,6 +651,24 @@ focus = {
         ITA = {
         air_experience  = 300
                 }
+        ENG = {
+        army_experience = 50
+                }
+        CAN = {
+        army_experience = 50
+                }
+        SAF = {
+        army_experience = 50
+                }
+        RAJ = {
+        army_experience = 50
+                }
+        AST = {
+        army_experience = 50
+                }
+        NZL = {
+        army_experience = 50
+                }			
 
 	   transfer_state = 608
        transfer_state = 614

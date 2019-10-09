@@ -2194,26 +2194,18 @@ foreign_politics = {
 		icon = generic_civil_support
 		
 		available = {
+			original_tag = GER		
 			any_country = {
 				original_tag = EFR
 			}
-			ENG = { 
-				NOT = {
-						controls_state = 446
-					}
-				NOT = {
-						controls_state = 447
-					}
-				NOT = {
-						controls_state = 453
-					}
-				NOT = {
-						controls_state = 454 
-					}					
-				}
-				
+			ITA = { 
+				controls_state = 446
+				controls_state = 447
+				controls_state = 453
+				controls_state = 454 
 			}
 		}
+		
 		
 		fire_only_once = yes
 		

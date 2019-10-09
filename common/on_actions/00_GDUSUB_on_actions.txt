@@ -69,8 +69,8 @@ on_actions = {
       SAF = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 736 } }
       NZL = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 740 } }
       AST = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 738 } }
-      ENG = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 730 } }
-      FRA = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 742 } }
+      ENG = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 365 } }
+      FRA = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 600 } }
       SOV = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 882 } }
       FIN = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 884 } }
       HUN = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 750 } }
@@ -78,7 +78,7 @@ on_actions = {
       BUL = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 752 } } 
 #     SPR = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 754 } }
       ITA = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 746 } }
-      GER = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 744 } }
+      GER = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 500 } }
       JAP = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 1100 } }
       MAN = { add_timed_idea = { idea = human_shall_not_lag_idea  days = 1102 } }
        
