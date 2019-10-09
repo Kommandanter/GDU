@@ -1,4 +1,3 @@
-
 state={
 	id=446
 	name="STATE_446"
@@ -20,10 +19,10 @@ state={
 
 		}
 		victory_points = {
-			7011 15
+			7011 90
 		}
 		victory_points = {
-			10127 90
+			10127 15
 		}		
 		
 
