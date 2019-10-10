@@ -3,7 +3,6 @@
 oob = "AST_1936"
 set_stability = 0.8
 set_war_support = 0.3
-navy_experience = 33
 set_research_slots = 4
 add_timed_idea = { idea = airandnavy_idea days = 1168 }
 # Starting tech
@@ -349,7 +348,7 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "John Northcott"
 	gfx = "GFX_AST_john_northcott"
-	traits = { panzer_leader armor_officer jungle_rat trait_cautious trait_mountaineer}
+	traits = { panzer_leader armor_officer jungle_rat trait_cautious }
 	skill = 4
 	attack_skill = 4
 	defense_skill = 4

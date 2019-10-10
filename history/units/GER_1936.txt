@@ -509,7 +509,7 @@ air_wings = {
 		fighter_equipment_0 =  {
 			
 			owner = "GER" 
-			amount = 48
+			amount = 100
 		}
 	} 
 
@@ -520,7 +520,7 @@ air_wings = {
 		fighter_equipment_0 = {
 			creator = "ROM"
 			owner = "GER" 
-			amount = 80
+			amount = 100
 		}
 	}
 
@@ -532,7 +532,7 @@ air_wings = {
 		fighter_equipment_0 = {
 			creator = "HUN" 
 			owner = "GER"
-			amount = 72
+			amount = 100
 		}
 
 	}
@@ -541,7 +541,7 @@ air_wings = {
 		CAS_equipment_1 = {
 			creator = "HUN"
 			owner = "GER" 
-			amount = 24
+			amount = 100
 		}
 	}
 
@@ -641,10 +641,6 @@ air_wings = {
 		CAS_equipment_1 =  {			# Hs 123
 			owner = "GER" 
 			amount = 100
-		}
-		CAS_equipment_1 =  {			# Hs 123
-			owner = "GER" 
-			amount = 100
 		}		
 		CAS_equipment_1 =  {			# Hs 123
 			owner = "GER" 
@@ -692,7 +688,7 @@ air_wings = {
 		# Küstenfliegergruppe 106		
 		nav_bomber_equipment_1 =  {		# He 59, Do 18
 			owner = "GER" 
-			amount = 80
+			amount = 100
 		}
 		# Küstenfliegergruppe 206
 	}
