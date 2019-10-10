@@ -1868,7 +1868,12 @@ focus = {
 		icon = GFX_goal_anschluss
 		prerequisite = { focus = GER_rhineland }
 		available = {
-			is_puppet = no
+			GER = {
+				has_completed_focus = GER_extra_tech_slot
+			}
+			GER = {
+				has_completed_focus = GER_autobahn
+			}			
 		}
 		cancel = {
 			OR = {
@@ -2126,6 +2131,12 @@ focus = {
 				give_resource_rights = { receiver = ROM state = 53 }
 			}
 			hidden_effect = {
+				ENG = {
+					swap_ideas = {
+						remove_idea = stiff_upper_lip
+						add_idea = stiff_upper_lip2
+					}	
+				}			
 				ENG = { add_ideas = war_economy }
 				country_event = { id = pfu.18 days = 30 }
 				FRA = {

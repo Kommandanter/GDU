@@ -165,6 +165,7 @@ ideas = {
 			
 			modifier = {
 				drift_defence_factor = 0.5
+				production_speed_naval_base_factor = -1.09
 			}
 			
 			rule = {
@@ -172,7 +173,28 @@ ideas = {
 			}			
 		}
 
-		
+		stiff_upper_lip2 = {
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = stiff_upper_lip
+			
+			removal_cost = -1
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				drift_defence_factor = 0.5
+			}
+			
+			rule = {
+				can_create_factions = yes
+			}			
+		}		
 		
 		british_austerity_idea = {
 			
