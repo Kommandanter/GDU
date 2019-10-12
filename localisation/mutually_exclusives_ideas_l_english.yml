@@ -4,7 +4,7 @@
   dense_combat_stimulants_desc:0 " He was not an immortal man, he just had too much willpower "
 
   light_combat_stimulants:0 " Light Stimulants "
-  light_combat_stimulants_desc:0 " You got some cigarette? "
+  light_combat_stimulants_desc:0 "Feuer, bitte."
 
   soviet_reaction:0 " Men with no Option "
   indoctrination_camps:0 "Indoctrination Camps "
@@ -51,7 +51,7 @@ RAJ_flavour_three_idea:0 "Skilled Factory Workers"
 RAJ_flavour_four_idea:0 " Accepted being cannon fodder "
 RAJ_flavour_five_idea:0 " Refused being cannon fodder "
 RAJ_flavour_six_idea:0 "  "
-RAJ_flavour_seven_idea:0 " Ahh free Tea "
+RAJ_flavour_seven_idea:0 " "
 
 ENG_flavour_one_idea:0 "  "
 ENG_flavour_two_idea:0 " "

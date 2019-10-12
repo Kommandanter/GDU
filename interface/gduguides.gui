@@ -152,7 +152,7 @@ guiTypes = {
 						name = "land_1"
 						position = {x=0 y=28}
 						font = "hoi_18mbs"
-						text = "Armor&Piercing"
+						text = "Armor & Piercing"
 						maxWidth = 180
 						maxHeight = 23
 						format = center
@@ -1281,7 +1281,7 @@ guiTypes = {
 						name = "other_3"
 						position = {x=0 y=128}
 						font = "hoi_18mbs"
-						text = "Other Guide III Dont do these mistakes"
+						text = "Dont do these mistakes"
 						maxWidth = 180
 						maxHeight = 23
 						format = center
