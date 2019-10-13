@@ -1,5 +1,4 @@
 
-
 focus_tree = {
 	id = german_focus
 
@@ -2485,7 +2484,7 @@ focus = {
 				NOT = { has_war_with = GER }
 				country_exists = SOV
 			}
-			date > 1939.4.1
+			date > 1939.8.1
 		}
 		cancel = {
 			OR = {
