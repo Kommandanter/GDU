@@ -910,8 +910,8 @@ ideas = {
 
 			modifier = {			
 				army_attack_factor = -0.05
-				army_defence_factor = -0.175
-				army_org_factor = -0.225				
+				army_defence_factor = -0.1
+				army_org_factor = -0.3				
 				planning_speed = -0.5
 				max_planning = -0.15
 				air_superiority_efficiency = -0.5
@@ -964,8 +964,8 @@ ideas = {
 
 			modifier = {			
 				army_attack_factor = -0.025
-				army_defence_factor = -0.075
-				army_org_factor = -0.075
+				army_defence_factor = -0.05
+				army_org_factor = -0.15
 				planning_speed = -0.35
 				max_planning = -0.10
 				air_superiority_efficiency = -0.3
@@ -1023,11 +1023,12 @@ ideas = {
 			modifier = {			
 				army_defence_factor = 0.025
 				army_morale_factor = 0.025
+				army_org_factor = 0.1
 				air_superiority_efficiency = 0.03
 				army_bonus_air_superiority_factor = 0.05
 				air_escort_efficiency = 0.03
 				air_intercept_efficiency = 0.03
-				air_cas_efficiency = 0.035
+				air_cas_efficiency = 0.04
 				air_cas_present_factor = 0.05
 			}
 			equipment_bonus = {
@@ -1064,15 +1065,15 @@ ideas = {
 
 			modifier = {			
 				army_attack_factor = 0.025
-				army_defence_factor = 0.05
-				army_org_factor = 0.025								
-				army_morale_factor = 0.025
+				army_defence_factor = 0.025
+				army_org_factor = 0.075								
+				army_morale_factor = 0.05
 				air_superiority_efficiency = 0.10
 				army_bonus_air_superiority_factor = 0.15
 				air_escort_efficiency = 0.10
 				air_intercept_efficiency = 0.10
-				air_cas_efficiency = 0.05
-				air_cas_present_factor = 0.05
+				air_cas_efficiency = 0.075
+				air_cas_present_factor = 0.075
 			}
 			equipment_bonus = {
 				fighter_equipment = {
