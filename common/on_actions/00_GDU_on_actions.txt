@@ -135,6 +135,22 @@ on_actions = {
 			add_to_array = { global.medium_airbase_list = 685 } #Panama Canal, USA (oh yeah I did)
 
 		}
+		
+			##### Spanish Civil War Scripted by default, unless host chooses otherwise #####
+			
+			set_global_flag = scw_over
+			
+			##### set flag if Finland starts as AI, which will be used to script the Winter War in this case #####
+			
+			if = {
+				limit = { 
+					NOT = { has_global_flag = finland_started_ai } 
+					date < 1936.1.2
+					FIN = { is_ai = yes }
+				}
+				set_global_flag = finland_started_ai 
+			}
+		
 			##### Events that add national spirits to increase air losses a bit in the late game (for 1942, 1943, 1944, and 1945) ####
 			VEN = {
 				country_event = { id = gduairlosses.1 days = 2192 } 

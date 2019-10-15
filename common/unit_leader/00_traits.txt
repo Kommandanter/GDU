@@ -1681,9 +1681,6 @@ leader_traits = {
 		cost = 1000
 		modifier = {
 			naval_attrition = -0.1
-				attack = 0.1
-				movement = 0.05
-				defence = 0.1
 		}
 
 		ai_will_do = {
