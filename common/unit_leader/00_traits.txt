@@ -1157,6 +1157,8 @@ leader_traits = {
 		cost = 700
 		modifier = {
 			navy_submarine_attack_factor = 0.3 # +X% stronger damage for submarines
+			navy_submarine_defence_factor = 0.1
+			convoy_raiding_efficiency_factor = 0.1
 		}
 		custom_gain_xp_trigger_tooltip = SEAWOLF_TRIGGER_TT
 		ai_will_do = {
@@ -1176,6 +1178,7 @@ leader_traits = {
 		cost = 500
 		modifier = {
 			screening_efficiency = 0.3
+			convoy_escort_efficiency = 0.05
 		}
 		
 		ai_will_do = {
@@ -1192,9 +1195,10 @@ leader_traits = {
 			#gains XP when running away
 		}
 		modifier = {
-			naval_retreat_chance = 0.25
+			naval_retreat_chance = 0.15
 			naval_retreat_speed = 0.1
 			convoy_retreat_speed = 0.05
+			naval_coordination = 0.03
 		}
 		custom_gain_xp_trigger_tooltip = BLOCKADE_RUNNER_TRIGGER_TT
 		ai_will_do = {
@@ -1213,6 +1217,10 @@ leader_traits = {
 		modifier = {
 			naval_damage_factor = 0.05
 			naval_coordination = 0.03
+			ships_at_battle_start = 0.1
+			naval_hit_chance = 0.05
+			navy_org_factor = 0.05
+			naval_morale_factor = 0.05
 		}
 		custom_gain_xp_trigger_tooltip = SUPERIOR_TACTICIAN_TRIGGER_TT
 		ai_will_do = {
@@ -1230,7 +1238,10 @@ leader_traits = {
 		gain_xp_on_spotting = 10
 		cost = 500
 		modifier = {
-			spotting_chance = 0.05
+			spotting_chance = 0.1
+			convoy_escort_efficiency = 0.05
+			convoy_raiding_efficiency_factor = 0.05
+			naval_retreat_chance = 0.05
 		}
 		custom_gain_xp_trigger_tooltip = SPOTTER_TRIGGER_TT
 		ai_will_do = {
@@ -1269,6 +1280,7 @@ leader_traits = {
 		cost = 500
 		modifier = {
 			navy_capital_ship_defence_factor = 0.1
+			naval_morale_factor = 0.05
 		}
 
 		ai_will_do = {
@@ -1306,7 +1318,13 @@ leader_traits = {
 	silent_hunter = { 
 		type = navy
 		modifier = {
-			naval_torpedo_reveal_chance_factor = -0.30
+			naval_torpedo_reveal_chance_factor = -0.20
+			navy_submarine_attack_factor = 0.2 
+			navy_submarine_defence_factor = 0.1
+			convoy_raiding_efficiency_factor = 0.15
+			spotting_chance = 0.1 							
+			naval_hit_chance = 0.05
+			sub_retreat_speed = 0.05
 		}
 
 		ai_will_do = {
@@ -1408,6 +1426,7 @@ leader_traits = {
 		modifier = {
 			navy_submarine_detection_factor = 0.1
 			navy_submarine_attack_factor = 0.1
+			convoy_escort_efficiency = 0.1
 		}
 				
 		ai_will_do = {
@@ -1450,7 +1469,8 @@ leader_traits = {
 	search_pattern_expert = {
 		type = navy
 		modifier = {
-			 spotting_chance = 0.15
+			 spotting_chance = 0.2
+			 naval_coordination = 0.05
 		}
 				
 		ai_will_do = {
@@ -1485,6 +1505,7 @@ leader_traits = {
 		type = navy
 		modifier = {
 			navy_visibility = -0.1
+			naval_coordination = 0.05
 		}
 				
 		ai_will_do = {
@@ -1573,7 +1594,7 @@ leader_traits = {
 	marksman = { 
 		type = navy
 		modifier = {
-			naval_critical_score_chance_factor = 0.15
+			naval_critical_score_chance_factor = 0.2
 		}
 				
 		ai_will_do = {
@@ -1783,7 +1804,7 @@ leader_traits = {
 		
 		modifier = {
 			naval_damage_factor = 0.05
-			navy_visibility = 0.03
+			navy_visibility = 0.02
 		}
 		
 		ai_will_do = {
@@ -1860,7 +1881,7 @@ leader_traits = {
 	
 		modifier = {
 			naval_damage_factor = 0.05
-			naval_speed_factor = 0.05
+			naval_speed_factor = 0.01
 		}
 		
 		ai_will_do = {
@@ -1897,6 +1918,7 @@ leader_traits = {
 		trait_type = personality_trait
 	
 		modifier = {
+			carrier_capacity_penalty_reduction = -0.1
 			
 		}
 		ai_will_do = {
