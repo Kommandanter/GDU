@@ -295,7 +295,7 @@ focus = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			army_experience = 5
+			army_experience = 10
 			add_tech_bonus = {
 				name = AST_additional_militia_training
 				bonus = 0.5
@@ -510,7 +510,7 @@ focus = {
 		y = 3
 		relative_position_id = AST_additional_militia_training
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -694,7 +694,7 @@ focus = {
 		y = 5
 		relative_position_id = AST_additional_militia_training
 
-		cost = 10
+		cost = 4
 
 		ai_will_do = {
 			factor = 1
@@ -1036,7 +1036,7 @@ focus = {
 
 		x = -1
 		y = 3
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -1375,7 +1375,7 @@ focus = {
 		y = 4
 		relative_position_id = AST_expand_the_raaf
 
-		cost = 10
+		cost = 4
 
 		ai_will_do = {
 			factor = 1
@@ -1868,7 +1868,7 @@ focus = {
 		x = 14
 		y = 0
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 4
@@ -1955,7 +1955,7 @@ focus = {
 		y = 1
 		relative_position_id = AST_standard_gauge_railway
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 5
