@@ -80,6 +80,16 @@ leader_traits = {
 		planning_skill_factor = 1
 	}
 	
+	ein_befehl = { 
+		type = all
+		trait_type = personality_trait
+		
+		modifier = {
+			army_core_defence_factor = 0.025
+			army_core_attack_factor = 0.025
+		}
+	}	
+	
 	
 	inflexible_strategist = { 
 		type = land
