@@ -775,8 +775,8 @@ leader_traits = {
 	naval_invader = {
 		type = corps_commander
 		modifier = {
-			amphibious_invasion = 0.3 # 30% faster invasions
-			invasion_preparation = -0.3
+			amphibious_invasion = 0.1 # 30% faster invasions
+			invasion_preparation = -0.33
 		}
 		
 		ai_will_do = {
