@@ -18,6 +18,7 @@ state= {
 			infrastructure = 5
 			industrial_complex = 5
 			arms_factory = 1
+			air_base = 10
 			377 = {
 				naval_base = 3
 			}
