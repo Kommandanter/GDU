@@ -685,6 +685,156 @@ focus = {
 					limit = { 251 = { is_controlled_by = ROOT } }
 					set_capital = 251
 				}
+				806 = {
+					if = {
+						limit = { 806 = { is_controlled_by = ROOT } }
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+					}
+				}					
+				247 = {
+					if = {
+						limit = { 247 = { is_controlled_by = ROOT } }
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+					}
+				}					
+				250 = {
+					if = {
+						limit = { 250 = { is_controlled_by = ROOT } }
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+					}
+				}		
+				822 = {
+					if = {
+						limit = { 822 = { is_controlled_by = ROOT } }
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+					}
+				}		
+				826 = {
+					if = {
+						limit = { 826 = { is_controlled_by = ROOT } }
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+					}
+				}						
+				808 = {
+					if = {
+						limit = { 808 = { is_controlled_by = ROOT } }
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+					}
+				}		
+				256 = {
+					if = {
+						limit = { 256 = { is_controlled_by = ROOT } }
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+					}
+				}						
+				821 = {
+					if = {
+						limit = { 821 = { is_controlled_by = ROOT } }
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+					}
+				}				
+				824 = {
+					if = {
+						limit = { 824 = { is_controlled_by = ROOT } }
+						add_building_construction = {
+							type = infrastructure
+							level = 2
+							instant_build = yes
+						}
+					}
+				}
+				264 = {
+					if = {
+						limit = { 264 = { is_controlled_by = ROOT } }
+						add_building_construction = {
+							type = infrastructure
+							level = 2
+							instant_build = yes
+						}
+					}
+				}						
+				809 = {
+					if = {
+						limit = { 809 = { is_controlled_by = ROOT } }
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+					}
+				}				
+				832 = {
+					if = {
+						limit = { 832 = { is_controlled_by = ROOT } }
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+					}
+				}				
+				830 = {
+					if = {
+						limit = { 830 = { is_controlled_by = ROOT } }
+						add_building_construction = {
+							type = infrastructure
+							level = 2
+							instant_build = yes
+						}
+					}
+				}
+				808 = {
+					if = {
+						limit = { 808 = { is_controlled_by = ROOT } }
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+					}
+				}					
+				829 = {
+					if = {
+						limit = { 829 = { is_controlled_by = ROOT } }
+						add_building_construction = {
+							type = infrastructure
+							level = 3
+							instant_build = yes
+						}
+					}
+				}				
 				811 = {
 					if = {
 						limit = { 811 = { is_controlled_by = ROOT } }
@@ -1900,7 +2050,7 @@ focus = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			247 = {
+			253 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 3
