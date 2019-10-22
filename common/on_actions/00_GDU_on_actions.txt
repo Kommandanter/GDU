@@ -1181,7 +1181,7 @@ activate_mission = SOV_relocate_industry_from_zaporozhe
         		    transfer_state = 183
         		}
         		JAP = { 
-        		    annex_country = { target = DEI transfer_troops = no }
+        		    annex_country = { target = INS transfer_troops = no }
         		    annex_country = { target = PHI transfer_troops = no }	
         		    transfer_state = 336
         		    transfer_state = 333
