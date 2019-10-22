@@ -568,6 +568,7 @@ equipments = {
 					ship_secondaries
 					ship_torpedo
 				}
+			}
 			mid_1_custom_slot = {
 				required = yes
 				allowed_module_categories = {
@@ -1528,7 +1529,4 @@ equipments = {
 		manpower = 4000
 	}
 
-
-	
-	
 }
