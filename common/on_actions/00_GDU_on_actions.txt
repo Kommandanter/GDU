@@ -1021,10 +1021,39 @@ activate_mission = SOV_relocate_industry_from_zaporozhe
 		}
 	}	
 	
-	
-	
-	
-	
+	### Annexation of Northern Italy by Germany so German Troops don't get surrounded trying to defend their Southern Flank
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					ITA = { surrender_progress > .5 }
+					OR = {
+						original_tag = USA
+						original_tag = ENG
+						original_tag = FRF
+						original_tag = CAN
+						original_tag = SAF
+						original_tag = RAJ
+						original_tag = AST
+						original_tag = NZL						
+					}
+					OR = {
+						controls_state = 117 # Capania
+						controls_state = 156 # Calabria
+						controls_state = 115 # Sicily
+						controls_state = 2   # Latium				
+					}
+				}
+				GER = { 
+				    change_tag_from = ITA
+    				annex_country = {
+    					target = ITA 
+    					transfer_troops = yes 
+    				}
+				} 
+			}	
+		}
+	}	
 	
 	#### Check if core parts of the Soviet heartland like Leningrad/Moscow/Stalingrad are threatened; give Soviets a buff after they are. Though this is artificial, this is intended as a temporary feature to be gradually phased out while Barbarossa balance is improved in a more natural way  ####
 	
