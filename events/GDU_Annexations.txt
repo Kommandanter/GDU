@@ -360,7 +360,7 @@ country_event = {
 	}
 	
 	option = {
-		yalta.1.d
+	    name = yalta.1.d
 	}
 }
 
@@ -407,7 +407,7 @@ country_event = {
 			}
 		}
 	option = {
-		yalta.1.d
+		name = yalta.1.d
 	}
 }
 
@@ -455,7 +455,7 @@ country_event = {
 	}
 	
 	option = {
-	    yalta.1.d
+	    name = yalta.1.d
 	}
 }
 
@@ -511,7 +511,7 @@ country_event = {
 	}
 	
 	option = {
-		yalta.1.d
+		name = yalta.1.d
 	}
 }
 
@@ -541,6 +541,6 @@ country_event = {
 	}
 	
 	option = {
-		yalta.1.d
+		name = yalta.1.d
 	}
 }
