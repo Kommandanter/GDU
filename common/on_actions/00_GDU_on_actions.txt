@@ -1060,6 +1060,7 @@ activate_mission = SOV_relocate_industry_from_zaporozhe
 		effect = {
 			if = {
 				limit = {
+				    date > 1941.9.1
 					GER = { surrender_progress > .5 }
 					any_country = {
     					controls_state = 64 #Brandenburg Berlin
