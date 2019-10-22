@@ -389,15 +389,14 @@ country_event = {
 				transfer_state = PREV
 			}
 		}
-	}
-	every_state = {
-			limit = {
-				is_core_of = DEN
-			}
-			DEN = {
-				transfer_state = PREV
-			}
-		}
+    	every_state = {
+    	    limit = {
+	    		is_core_of = DEN
+	    	}
+	    	DEN = {
+	    		transfer_state = PREV
+	    	}
+    	}
 		every_state = {
 			limit = {
 				is_core_of = NOR
@@ -406,6 +405,7 @@ country_event = {
 				transfer_state = PREV
 			}
 		}
+	}
 	option = {
 		name = yalta.1.d
 	}
