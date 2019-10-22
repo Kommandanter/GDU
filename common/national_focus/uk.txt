@@ -2328,10 +2328,10 @@ focus_tree = {
 				}
 				add_building_construction = {
 					type = bunker
-					level = 5
-					province = 1071
+					level = 3
+					province = 4076
 					instant_build = yes
-				}
+				}				
 				add_building_construction = {
 					type = anti_air_building
 					level = 2
@@ -2349,6 +2349,24 @@ focus_tree = {
 					province = 10073
 					instant_build = yes
 				}
+				add_building_construction = {
+					type = coastal_bunker
+					level = 5
+					province = 1071
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = coastal_bunker
+					level = 5
+					province = 4145
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = coastal_bunker
+					level = 5
+					province = 7091
+					instant_build = yes
+				}					
 			}
 			446 = {
 					add_building_construction = {
@@ -2356,12 +2374,6 @@ focus_tree = {
 						level = 3
 						instant_build = yes
 					}
-				add_building_construction = {
-					type = bunker
-					level = 5
-					province = 10127
-					instant_build = yes
-				}					
 				add_building_construction = {
 					type = air_base
 					level = 2

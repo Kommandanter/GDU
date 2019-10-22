@@ -623,8 +623,16 @@ focus_tree = {
         	modify_building_resources = {
         	   building = synthetic_refinery
         	   resource = rubber
-        	   amount = 2
+        	   amount = 1
         	}
+			ITA = {
+				modify_building_resources = {
+					building = synthetic_refinery
+					resource = rubber
+					amount = 1
+				}			
+			}
+			
 			add_tech_bonus = {
 				name = GER_coal_liquidization
 				bonus = 2
