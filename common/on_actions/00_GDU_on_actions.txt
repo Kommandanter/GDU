@@ -1026,7 +1026,8 @@ activate_mission = SOV_relocate_industry_from_zaporozhe
 		effect = {
 			if = {
 				limit = {
-					ITA = { surrender_progress > .5 }
+				    date > 1941.1.1
+					ITA = { surrender_progress > .8 }
 					OR = {
 						original_tag = USA
 						original_tag = ENG
@@ -1061,7 +1062,7 @@ activate_mission = SOV_relocate_industry_from_zaporozhe
 			if = {
 				limit = {
 				    date > 1941.9.1
-					GER = { surrender_progress > .5 }
+					GER = { surrender_progress > .65 }
 					any_country = {
     					controls_state = 64 #Brandenburg Berlin
     					OR = {
@@ -1129,7 +1130,8 @@ activate_mission = SOV_relocate_industry_from_zaporozhe
 		effect = {
 			if = {
 				limit = {
-					SOV = { surrender_progress > .75 }
+				    date > 1941.9.1				
+					SOV = { surrender_progress > .95 }
 					any_country = {
     					controls_state = 219 #moscow
     					controls_state = 195 #Leningrad

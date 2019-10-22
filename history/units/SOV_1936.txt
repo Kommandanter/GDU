@@ -103,7 +103,7 @@ division_template = {
 }
 
 division_template = {
-	name = "Tank Korpus" 				# Represents regular mechanized corps (4 existed in 1935-38);
+	name = "Tankovy Korpus" 				# Represents regular mechanized corps (4 existed in 1935-38);
 													# Also represents groups of independent tank, mech brigades of the time, though groups are best represented by tank bge
 													# (2x M/L tank + 1x mot), and 2x mech bge (2x L tank + 1x mot)
 	regiments = {

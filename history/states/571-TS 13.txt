@@ -14,7 +14,7 @@ state={
 			air_base = 8
 		}
 		victory_points = {
-			10696 10 
+			10696 15 
 		}
 		add_core_of = SOV
 		1939.1.1 = {
