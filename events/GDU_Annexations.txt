@@ -316,7 +316,7 @@ country_event = {
 }
 
 country_event = { 
-	id = yalta.1
+	id = gduannexations.13
 	title = yalta.1.a
 	desc = yalta.1.b
 	picture = GFX_report_event_canadian_soldiers
@@ -365,7 +365,7 @@ country_event = {
 }
 
 country_event = { 
-	id = yalta.2
+	id = gduannexations.14
 	title = yalta.1.a
 	desc = yalta.1.b
 	picture = GFX_report_event_canadian_soldiers
@@ -412,7 +412,7 @@ country_event = {
 }
 
 country_event = { 
-	id = yalta.3
+	id = gduannexations.15
 	title = yalta.1.a
 	desc = yalta.1.b
 	picture = GFX_report_event_canadian_soldiers
@@ -460,7 +460,7 @@ country_event = {
 }
 
 country_event = { 
-	id = yalta.4
+	id = gduannexations.16
 	title = yalta.1.a
 	desc = yalta.1.b
 	picture = GFX_report_event_canadian_soldiers
@@ -516,7 +516,7 @@ country_event = {
 }
 
 country_event = { 
-	id = yalta.5
+	id = gduannexations.17
 	title = yalta.1.a
 	desc = yalta.1.b
 	picture = GFX_report_event_canadian_soldiers
