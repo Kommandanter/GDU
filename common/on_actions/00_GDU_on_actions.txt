@@ -1062,7 +1062,7 @@ activate_mission = SOV_relocate_industry_from_zaporozhe
 				limit = {
 					GER = { surrender_progress > .5 }
 					any_country = {
-    					controls_state = 64 (Brandenburg Berlin)
+    					controls_state = 64 #Brandenburg Berlin
     					OR = {
     						is_in_faction_with = ENG
     						TAG = SOV
@@ -1123,23 +1123,26 @@ activate_mission = SOV_relocate_industry_from_zaporozhe
 		effect = {
 			if = {
 				limit = {
-					GER = { surrender_progress > .5 }
+					SOV = { surrender_progress > .75 }
 					any_country = {
-    					controls_state = 64 (Brandenburg Berlin)
+    					controls_state = 219 #moscow
+    					controls_state = 195 #Leningrad
+    					controls_state = 217 #stalingrad
+    					controls_state = 229 #baku
     					OR = {
-    						is_in_faction_with = ENG
-    						TAG = SOV
+    						is_in_faction_with = GER
+    						TAG = GER
     					}
     				}
 				}
 				#
 				every_country = {
         			limit = { has_war_with = GER }
-        			white_peace = GER
+        			white_peace = BUL
         			white_peace = ITA
         			white_peace = HUN
         			white_peace = ROM
-        			white_peace = BUL
+        			white_peace = GER
         		}
         		every_country = {
         			limit = { has_war_with = JAP }
@@ -1154,7 +1157,33 @@ activate_mission = SOV_relocate_industry_from_zaporozhe
         		    transfer_state = 78
         		    transfer_state = 80
         		}
+        		ITA = {
+        		    transfer_state = 452
+        		    transfer_state = 447
+        		    transfer_state = 453
+        		    transfer_state = 454
+        		    transfer_state = 455
+        		    transfer_state = 675
+        		    transfer_state = 676
+        		    transfer_state = 291
+        		    transfer_state = 656
+        		    
+        		    transfer_state = 116
+        		    transfer_state = 183
+        		}
         		JAP = { 
+        		    annex_country = { target = DEI transfer_troops = no }
+        		    annex_country = { target = PHI transfer_troops = no }	
+        		    transfer_state = 336
+        		    transfer_state = 333
+        		    transfer_state = 792
+        		    transfer_state = 523
+        		    transfer_state = 737
+        		    transfer_state = 634
+        		    transfer_state = 638
+        		    transfer_state = 650
+        		    transfer_state = 632
+        		    
         		    transfer_state = 408
         		    transfer_state = 409
         		    transfer_state = 560
@@ -1163,11 +1192,115 @@ activate_mission = SOV_relocate_industry_from_zaporozhe
         		    transfer_state = 655
         		}
         		GER = {
+        		    transfer_state = 85
+        		    transfer_state = 86
+        		    transfer_state = 66
+        		    transfer_state = 67
+        		    transfer_state = 88
+        		    transfer_state = 92
+        		    transfer_state = 90
+        		    transfer_state = 10
+        		    transfer_state = 98
+        		    transfer_state = 87
+        		    transfer_state = 72
+        		    
+        		    transfer_state = 110
+        		    transfer_state = 142
+        		    transfer_state = 790
+        		    transfer_state = 143
+        		    transfer_state = 144
+        		    transfer_state = 99
+        		    transfer_state = 37
+        		    
+        		    transfer_state = 107
+        		    transfer_state = 108
+        		    transfer_state = 184
+        		    transfer_state = 731
+        		    transfer_state = 47
+        		    transfer_state = 182
+        		    transfer_state = 187
+        		    transfer_state = 164
+        		    
+        		    transfer_state = 229
+        		    transfer_state = 230
+        		    transfer_state = 231
+        		    transfer_state = 232
+        		    transfer_state = 233
+        		    transfer_state = 234
+        		    transfer_state = 235
+        		    transfer_state = 236
+        		    transfer_state = 237
+        		    transfer_state = 238
+        		    transfer_state = 406
+        		    transfer_state = 407
+        		    
+        		    transfer_state = 217
+        		    transfer_state = 218
+        		    transfer_state = 245
+        		    transfer_state = 226
+        		    transfer_state = 227
+        		    transfer_state = 197
+        		    transfer_state = 200
+        		    transfer_state = 201
+        		    transfer_state = 203
+        		    transfer_state = 199
+        		    transfer_state = 93
+        		    transfer_state = 94
+        		    transfer_state = 202
+        		    transfer_state = 193
+        		    transfer_state = 259
+        		    transfer_state = 221
+        		    transfer_state = 228
+        		    transfer_state = 265
+        		    transfer_state = 260
+        		    transfer_state = 240
+        		    transfer_state = 220
+        		    transfer_state = 225
+        		    transfer_state = 194
+        		    transfer_state = 257
+        		    transfer_state = 258
+        		    transfer_state = 239
+        		    transfer_state = 401
+        		    
+        		    transfer_state = 95
+        		    transfer_state = 97
+        		    transfer_state = 96
+        		    transfer_state = 204
+        		    transfer_state = 206
+        		    transfer_state = 207
+        		    transfer_state = 210
+        		    transfer_state = 209
+        		    transfer_state = 208
+        		    transfer_state = 195
+        		    transfer_state = 241
+        		    transfer_state = 191
+        		    transfer_state = 13
+        		    transfer_state = 12
+        		    transfer_state = 190
+        		    transfer_state = 189
+        		    transfer_state = 11
         		    transfer_state = 146
-        		    transfer_state = 146
-        		    transfer_state = 146
+        		    
+        		    transfer_state = 243
+        		    transfer_state = 242
+        		    transfer_state = 246
+        		    transfer_state = 263
+        		    transfer_state = 244
+        		    transfer_state = 205
+        		    transfer_state = 223
+        		    transfer_state = 254
+        		    transfer_state = 264
+        		    transfer_state = 224
+        		    transfer_state = 222
+        		    transfer_state = 255
+        		    transfer_state = 253
+        		    transfer_state = 219
+        		    transfer_state = 247
+        		    transfer_state = 248
+        		    transfer_state = 250
+        		    transfer_state = 252
         		}
-				#news_event = { id = news.236 }
+				news_event = { id = news.290 } 
 				#VEN = { country_event = { id = bitter.1 days = 2 } }
 				#
 			}	
