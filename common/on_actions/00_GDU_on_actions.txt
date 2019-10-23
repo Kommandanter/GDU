@@ -379,9 +379,9 @@ on_actions = {
 							USA = { controls_state = 331 }														
 						}
 						OR = {
-							ENG = { controls_state = 373 }	# St. Pierre and Miquelon
-							FRA = { controls_state = 373 }
-							FRF = { controls_state = 373 }
+							ENG = { controls_state = 730 }	# St. Pierre and Miquelon
+							FRA = { controls_state = 730 }
+							FRF = { controls_state = 730 }
 						}								
 						OR = {
 							ENG = { controls_state = 696 }	# Bermuda
@@ -439,7 +439,6 @@ on_actions = {
 							FRF = { controls_state = 310 }		
 							ENG = { controls_state = 310 }		
 						}		
-						
 						USA = { is_in_faction = yes }
 					}
 				}
