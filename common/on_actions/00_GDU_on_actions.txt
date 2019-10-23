@@ -360,38 +360,27 @@ on_actions = {
 	}
 
 	### USA ERNIE KING SCORING SYSTEM ###
-	
+
 on_declare_war = { 
 	effect = { 
 		if = { 
-			limit = { 
-				ROOT = { tag = USA } 
-				FROM = { has_idea = JAP_pearl_harbor_idea } 
+			limit = {  
+				FROM = { tag = USA } 
 			}
-			set_variable = { ernieking_score = 0 }
-			set_variable = { usa_capital_weight = 3 }
-			set_variable = { usa_carrier_weight = 5 }
+			every_country = {
+				limit = { 
+                    tag = USA
+                }
+				set_variable = { ernieking_score = 0 }
+				set_variable = { usa_capital_weight = 1.5 }
+				set_variable = { usa_carrier_weight = 2 }
+			}
 		} 
 	} 
 }
 
-on_state_control_changed = {
-	effect = {
-	
-		if = {
-			limit = {
-				ROOT = { tag = JAP }
-				FROM = {
-					OR = {
-						tag = INS
-						tag = ENG
-						tag = AST
-						tag = NZL
-						tag = USA
-						tag = RAJ
-					}
-				}
-			}
+on_daily = {
+	effect = {			
 			### from sealion score template, we won't want to clear, but instead to add it::: clear_variable = ernieking_score		
 				#reset the sealion score to re-calculate it each day
 				
@@ -1127,8 +1116,8 @@ on_state_control_changed = {
 			#	min = 0
 			#	max = 200
 			#}
-			round_variable = ernieking_score
-		}
+			#round_variable = ernieking_score
+
 	}
 }
 
@@ -1228,8 +1217,8 @@ on_state_control_changed = {
 		effect = {
 			 if = {
                 limit = {
-       
-                 NOT = { has_global_flag = airbase_limiter_ran } }
+                NOT = { has_global_flag = airbase_limiter_ran } 
+				}
 				for_each_scope_loop = {
 					array = global.small_airbase_list
 					if = {
