@@ -41,6 +41,9 @@ sub_units = {
 		mountain = 	{
 		    attack = -0.15
 		}
+		gibraltar = 	{
+		    attack = -0.15
+		}		
 		plains = {
 			attack = -0.1
 			movement = -0.1

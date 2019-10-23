@@ -54,6 +54,9 @@ sub_units = {
 		mountain = {
 			movement = 0.05
 		}
+		gibraltar = {
+			movement = 0.05
+		}		
 		marsh = {
 			movement = 0.05
 		}
@@ -222,6 +225,11 @@ sub_units = {
 			defence = 0.2
 			movement = 0.2
 		}
+		gibraltar = {
+			attack = 0.3
+			defence = 0.2
+			movement = 0.2
+		}		
 	}
 
 	paratrooper = {
@@ -537,6 +545,11 @@ sub_units = {
 			defence = -0.1 
 			movement = -0.2 
 		}
+		gibraltar = {
+			attack = -0.1
+			defence = -0.1 
+			movement = -0.2 
+		}		
 		jungle = {
 			attack = -0.2
 			movement = -0.5
@@ -619,6 +632,11 @@ sub_units = {
 			defence = -0.1 
 			movement = -0.2 
 		}
+		gibraltar = {
+			attack = -0.1
+			defence = -0.1 
+			movement = -0.2 
+		}		
 		jungle = {
 			attack = -0.3
 		}

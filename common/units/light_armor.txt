@@ -45,6 +45,11 @@ sub_units = {
 			defence = -0.15
 			movement = -0.5
 		}
+		gibraltar = 	{
+		    attack = -0.3
+			defence = -0.15
+			movement = -0.5
+		}		
 		jungle = {
 		    attack = -0.1
 			defence = -0.05 

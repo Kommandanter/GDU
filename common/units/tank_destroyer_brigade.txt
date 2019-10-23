@@ -42,6 +42,11 @@ sub_units = {
 			defence = -0.15
 			movement = -0.6
 		}
+		gibraltar = 	{
+		    attack = -0.3
+			defence = -0.15
+			movement = -0.6
+		}		
 		jungle = {
 		    attack = -0.1
 			defence = -0.05 
@@ -111,6 +116,11 @@ sub_units = {
 			defence = -0.3 
 			movement = -0.8
 		}
+		gibraltar = 	{
+			attack = -0.55
+			defence = -0.3 
+			movement = -0.8
+		}		
 		jungle = {
 		    attack = -0.3
 			defence = -0.15 
@@ -179,6 +189,11 @@ sub_units = {
 			defence = -0.35
 			movement = -0.6
 		}
+		gibraltar = 	{
+		    attack = -0.7
+			defence = -0.35
+			movement = -0.6
+		}		
 		jungle = {
 		    attack = -0.6
 			defence = -0.2 
@@ -247,6 +262,9 @@ sub_units = {
 		mountain = 	{
 		    attack = -0.8
 		}
+		gibraltar = 	{
+		    attack = -0.8
+		}		
 		jungle = {
 		    attack = -0.7
 			movement = -0.4
@@ -319,6 +337,11 @@ sub_units = {
 			defence = -0.15 
 			movement = -0.45
 		}
+		gibraltar = 	{
+		    attack = -0.3
+			defence = -0.15 
+			movement = -0.45
+		}		
 		jungle = {
 		    attack = -0.3
 			defence = -0.15 

@@ -46,6 +46,9 @@ sub_units = {
 		mountain = {
 			movement = -0.2
 		}
+		gibraltar = {
+			movement = -0.2
+		}		
 
 		jungle = {
 			attack = -0.25
@@ -118,6 +121,9 @@ sub_units = {
 		mountain = {
 			movement = -0.2
 		}
+		gibraltar = {
+			movement = -0.2
+		}		
 
 		jungle = {
 			attack = -0.25
@@ -189,6 +195,9 @@ sub_units = {
 		mountain = {
 			movement = -0.2
 		}
+		gibraltar = {
+			movement = -0.2
+		}		
 
 		jungle = {
 			attack = -0.25
@@ -262,6 +271,9 @@ sub_units = {
 		mountain = {
 			movement = -0.2
 		}
+		gibraltar = {
+			movement = -0.2
+		}		
 
 		jungle = {
 			attack = -0.25
@@ -334,6 +346,9 @@ sub_units = {
 		mountain = {
 			movement = -0.2
 		}
+		gibraltar = {
+			movement = -0.2
+		}		
 
 		jungle = {
 			attack = -0.25
