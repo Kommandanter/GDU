@@ -92,7 +92,10 @@
     USA_pearl_harbor_idea_desc:0 "The attack on Pearl Harbor has left our navy chaotically disorganized and incapable of responding for a while." 
     JAP_pearl_harbor_idea:0 "Tora, Tora, Tora!" 
     JAP_pearl_harbor_idea_desc:0 "For the Emperor!" 
-	
+    ernest_king_1:0 "Ernest King"
+    ernest_king_2:0 "Ernest King"
+    anglophobe:0 "Anglophobe\n(Incompetent)"
+    
     USA_giant_sleeps_idea:0 "The Giant Sleeps"
     USA_giant_sleeps_idea_desc:0 "Our nation is peaceful and prosperous; we'll keep it that way."
     USA_giant_sleeps_idea_2:0 "The Giant Sleeps"

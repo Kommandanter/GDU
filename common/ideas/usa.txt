@@ -1692,14 +1692,35 @@ ideas = {
 	
 	navy_chief = {
 	
-		ernest_king = {
+		ernest_king_1 = {
 			
+			picture = ernest_king
+			
+			allowed = {
+				original_tag = USA
+				always = no
+			}
+			allowed_to_remove = {
+				always = no
+			}
+			traits = { anglophobe }
+			
+			modifier = {
+
+			}
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		ernest_king_2 = {
+			
+			picture = ernest_king
 			
 			allowed = {
 				original_tag = USA
 			}
-			
-
 			
 			traits = { navy_chief_reform_2 }
 			
@@ -1715,8 +1736,6 @@ ideas = {
 				original_tag = USA
 			}
 			
-
-			
 			traits = { navy_chief_commerce_raiding_2 }
 			
 			ai_will_do = {
@@ -1730,8 +1749,6 @@ ideas = {
 			allowed = {
 				original_tag = USA
 			}
-			
-
 			
 			traits = { navy_chief_naval_aviation_2 }
 			

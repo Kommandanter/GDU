@@ -6,3 +6,12 @@ spriteTypes = {
 	}
     
 }
+
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_ernieking_score"
+		texturefile = "gfx/ernieking_score.dds"
+		legacy_lazy_load = no
+	}
+    
+}

@@ -292,5 +292,8 @@
  gduevents.32.d:0 "In recent years, Japanese trade with the British Raj has been flourishing.\n\nThis has led to 3 new small ports in British India springing up as maritime trade continues to grow.\n\n"
  gduevents.32.a:0 "Should peace and prosperity come to an end, we had better defend these new ports..." 
  
- 
+ usa.65.t:0 "Recovery from Pearl Harbor"
+ usa.65.desc:0 "The surprise attack has come and gone; if you weren't able to remove the debuff earlier, this event will do so for you now...coward."
+ usa.65.a:0 "I've Paid My Price"
+ usa.65.b:0 "Hopefully There is Still Time"
  
