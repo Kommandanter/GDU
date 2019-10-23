@@ -95,8 +95,6 @@ SOV_deployment = {
 		}
 
 		allowed = {
-			date < 1941.1.1
-			not = { has_country_flag = SOV_scorched_earth }
 		}
 
 		cost = 0
@@ -126,8 +124,6 @@ SOV_deployment = {
 		icon = generic_scorched_earth
  
 		allowed = {
-			date < 1941.1.1
-			not = { has_country_flag = automate_scorched }	
 		}
  
 		available = {
