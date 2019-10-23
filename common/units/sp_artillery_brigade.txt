@@ -186,7 +186,7 @@ sub_units = {
 			defence = -0.45 
 			movement = -0.8
 		}
-		gibtraltar = 	{
+		gibraltar = 	{
 		    attack = -0.9
 			defence = -0.45 
 			movement = -0.8

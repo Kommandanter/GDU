@@ -20,7 +20,6 @@ categories =  {
 
 		units = {
 			attack = -0.5
-			combat_width_factor = 0.5
 		}
 
 		enemy_army_bonus_air_superiority_factor = -0.50

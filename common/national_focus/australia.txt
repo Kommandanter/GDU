@@ -1273,6 +1273,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			add_ideas = GDU_Commonwealth_Navy_Manpower1		
 			285 = {
 				add_resource = {
 					type = steel
@@ -1320,6 +1321,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
+			add_ideas = GDU_Commonwealth_Navy_Manpower2		
 			285 = {
 				add_resource = {
 					type = steel
@@ -1364,6 +1366,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
+			add_ideas = GDU_Commonwealth_Navy_Manpower2			
 			285 = {
 				add_resource = {
 					type = steel
@@ -1406,6 +1409,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			add_ideas = GDU_Commonwealth_Navy_Manpower3		
 			285 = {
 				add_resource = {
 					type = steel
@@ -1453,6 +1457,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			add_ideas = GDU_Commonwealth_Navy_Manpower3		
 			285 = {
 				add_resource = {
 					type = steel
@@ -1504,6 +1509,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			add_ideas = GDU_Commonwealth_Navy_Manpower4		
 			285 = {
 				add_resource = {
 					type = steel
@@ -1545,6 +1551,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			add_ideas = GDU_Commonwealth_Navy_Manpower5		
 			285 = {
 				add_resource = {
 					type = steel
@@ -1593,6 +1600,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
+			add_ideas = GDU_Commonwealth_Navy_Manpower6		
 			285 = {
 				add_resource = {
 					type = steel

@@ -1,7 +1,43 @@
 on_actions = {
-
 	on_startup = {
 		effect = {
+		
+			# transfer AI allied navies to Commonwealth at the start of the game. In addition, later when they cap they will get any ships that the AI has built.
+				BEL = { 
+					transfer_navy = { 
+						target = CAN 
+					}
+				}
+				HOL = { 
+					transfer_navy = { 
+						target = AST 
+					}
+				}
+				DEN = { 
+					transfer_navy = { 
+						target = CAN 
+					}
+				}
+				NOR = { 
+					transfer_navy = { 
+						target = CAN 
+					}
+				}
+				GRE = { 
+					transfer_navy = { 
+						target = AST 
+					}
+				}
+				YUG = { 
+					transfer_navy = { 
+						target = AST 
+					}
+				}
+				POL = { 
+					transfer_navy = { 
+						target = CAN 
+					}
+				}		
 		
 			#Initializing the global.small_airbase_list array#
 	
