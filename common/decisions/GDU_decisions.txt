@@ -2241,13 +2241,14 @@ foreign_politics = {
 		fire_only_once = yes
 		
 		allowed = { 
-			tag = JAP 
+			tag = JAP
 		}
 	
 		available = { 
 			has_completed_focus = JAP_strike_on_the_southern_resource_area
 			NOT = { has_war_with = USA } 
 			NOT = { has_war_with = ENG } 
+			date > 1940.12.31 						
 		}	
 	
 		cost = 0

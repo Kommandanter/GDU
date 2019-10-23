@@ -368,6 +368,78 @@ on_actions = {
 					AND = {
 						date < 1941.1.1
 						ENG = { surrender_progress < 0.5 }
+						CAN = { surrender_progress < 0.01 }
+						OR = {
+							ENG = { controls_state = 332 }	# Labrador
+							CAN = { controls_state = 332 }							
+						}
+						OR = {
+							ENG = { controls_state = 331 }	# Newfoundland
+							CAN = { controls_state = 331 }
+							USA = { controls_state = 331 }														
+						}
+						OR = {
+							ENG = { controls_state = 373 }	# St. Pierre and Miquelon
+							FRA = { controls_state = 373 }
+							FRF = { controls_state = 373 }
+						}								
+						OR = {
+							ENG = { controls_state = 696 }	# Bermuda
+							USA = { controls_state = 696 }							
+						}
+						OR = {
+							ENG = { controls_state = 690 }	# Northern Bahamas
+							USA = { controls_state = 690 }							
+						}
+						OR = {
+							ENG = { controls_state = 693 }	# Southern Bahamas
+							USA = { controls_state = 693 }							
+						}
+						OR = {
+							ENG = { controls_state = 311 }	# Belize
+							USA = { controls_state = 311 }							
+						}
+						OR = {
+							ENG = { controls_state = 689 }	# Jamaica
+							USA = { controls_state = 689 }							
+						}
+						OR = {
+							ENG = { controls_state = 308 }	# Leeward Islands
+							USA = { controls_state = 308 }							
+						}	
+						OR = {
+							ENG = { controls_state = 692 }	# Windward Islands
+							USA = { controls_state = 692 }							
+						}
+						OR = {
+							ENG = { controls_state = 691 }	# Trinidad
+							USA = { controls_state = 691 }							
+						}
+						OR = {
+							HOL = { controls_state = 695 }	# Curacao
+							FRA = { controls_state = 695 }		
+							FRF = { controls_state = 695 }		
+							ENG = { controls_state = 695 }		
+						}							
+						OR = {
+							HOL = { controls_state = 687 }	# British Guyana
+							FRA = { controls_state = 687 }		
+							FRF = { controls_state = 687 }		
+							ENG = { controls_state = 687 }		
+						}		
+						OR = {
+							HOL = { controls_state = 309 }	# Suriname
+							FRA = { controls_state = 309 }		
+							FRF = { controls_state = 309 }		
+							ENG = { controls_state = 309 }		
+						}		
+						OR = {
+							HOL = { controls_state = 310 }	# French Guyana
+							FRA = { controls_state = 310 }		
+							FRF = { controls_state = 310 }		
+							ENG = { controls_state = 310 }		
+						}		
+						
 						USA = { is_in_faction = yes }
 					}
 				}
