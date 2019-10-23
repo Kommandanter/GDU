@@ -11,12 +11,49 @@ phases = {
 	hold_bridge
 }
 
+tactic_basic_defend_gibraltar = {
+	
+	is_attacker = no
+	trigger = { # combined scope for both country and combatant
+		is_attacker = no
+		phase = no
+		is_fighting_in_terrain = gibraltar
+	}
+		
+	active = yes
+	
+	base =  { factor = 999 }
+	picture = defend
+	
+	combat_width = 0.5
+	
+	attacker = -0.5
+}
+
+tactic_basic_attack_gibraltar = {
+	
+	is_attacker = yes
+	trigger = { # combined scope for both country and combatant
+		is_attacker = yes
+		phase = no
+		is_fighting_in_terrain = gibraltar
+	}
+		
+	active = yes
+	
+	base =  { factor = 999 }
+	picture = attack
+	
+	defender = -0.5
+}
+
 tactic_basic_attack = {
 
 	is_attacker = yes
 	trigger = { # combined scope for both country and combatant
 		is_attacker = yes
 		phase = no
+		not = { is_fighting_in_terrain = gibraltar }
 	}
 
 	active = yes
@@ -33,6 +70,7 @@ tactic_basic_defend = {
 	trigger = {
 		is_attacker = no
 		phase = no
+		not = { is_fighting_in_terrain = gibraltar }		
 	}
 
 	active = yes
@@ -47,6 +85,7 @@ tactic_default_attack = {
 	trigger = { # combined scope for both country and combatant
 		is_attacker = yes
 		phase = default
+		not = { is_fighting_in_terrain = gibraltar }		
 	}
 
 	active = yes
@@ -62,6 +101,7 @@ tactic_default_defend = {
 	trigger = {
 		is_attacker = no
 		phase = default
+		not = { is_fighting_in_terrain = gibraltar }		
 	}
 
 	active = yes
@@ -76,6 +116,7 @@ tactic_counterattack = { # counters basic attack, assault
 		is_attacker = no
 		skill_advantage > 0
 		phase = no
+		not = { is_fighting_in_terrain = gibraltar }		
 	}
 
 	active = yes
@@ -92,6 +133,7 @@ tactic_assault = {
 	trigger = {
 		is_attacker = yes
 		phase = no
+		not = { is_fighting_in_terrain = gibraltar }		
 	}
 
 	active = yes
@@ -112,6 +154,7 @@ tactic_default_counterattack = { # counters basic attack, assault
 		is_attacker = no
 		skill_advantage > 0
 		phase = default
+		not = { is_fighting_in_terrain = gibraltar }		
 	}
 
 	active = yes
@@ -128,6 +171,7 @@ tactic_default_assault = {
 	trigger = {
 		is_attacker = yes
 		phase = default
+		not = { is_fighting_in_terrain = gibraltar }		
 	}
 
 	active = yes
@@ -147,6 +191,7 @@ tactic_cc_attack = {
 	trigger = {
 		is_attacker = yes
 		phase = close_combat
+		not = { is_fighting_in_terrain = gibraltar }		
 	}
 
 	active = yes
@@ -163,6 +208,7 @@ tactic_cc_defend = {
 	trigger = {
 		is_attacker = no
 		phase = close_combat
+		not = { is_fighting_in_terrain = gibraltar }		
 	}
 
 	active = yes
@@ -180,6 +226,7 @@ tactic_cc_storm = {
 	trigger = {
 		is_attacker = yes
 		phase = close_combat
+		not = { is_fighting_in_terrain = gibraltar }		
 	}
 
 	active = yes
@@ -196,6 +243,7 @@ tactic_cc_local_strong_point = {
 	trigger = {
 		is_attacker = no
 		phase = close_combat
+		not = { is_fighting_in_terrain = gibraltar }		
 	}
 
 	active = yes
@@ -213,6 +261,7 @@ tactic_cc_withdraw = {
 	trigger = {
 		is_attacker = yes
 		phase = close_combat
+		not = { is_fighting_in_terrain = gibraltar }		
 	}
 
 	active = yes
@@ -239,6 +288,7 @@ tactic_encirclement = {
 			has_trait = panzer_leader
 			has_trait = trickster
 		}
+		not = { is_fighting_in_terrain = gibraltar }		
 	}
 
 	active = yes
@@ -257,6 +307,7 @@ tactic_delay = {
 	trigger = {
 		is_attacker = no
 		phase = no
+		not = { is_fighting_in_terrain = gibraltar }		
 	}
 
 	active = no
@@ -275,6 +326,7 @@ tactic_shock = { #counters delay
 	trigger = {
 		is_attacker = yes
 		phase = no
+		not = { is_fighting_in_terrain = gibraltar }		
 	}
 
 	active = yes
@@ -298,6 +350,7 @@ tactic_default_encirclement = {
 			has_trait = panzer_leader
 			has_trait = trickster
 		}
+		not = { is_fighting_in_terrain = gibraltar }		
 	}
 
 	active = yes
@@ -316,6 +369,7 @@ tactic_default_delay = {
 	trigger = {
 		is_attacker = no
 		phase = default
+		not = { is_fighting_in_terrain = gibraltar }		
 	}
 
 	active = no
@@ -334,6 +388,7 @@ tactic_default_shock = { #counters delay
 	trigger = {
 		is_attacker = yes
 		phase = default
+		not = { is_fighting_in_terrain = gibraltar }		
 	}
 
 	active = yes
@@ -354,6 +409,7 @@ tactic_tactical_withdrawal = { #counters encirclement
 			skill_advantage > 0
 			has_trait = trickster
 		}
+		not = { is_fighting_in_terrain = gibraltar }		
 	}
 
 	active = no
@@ -377,6 +433,7 @@ tactic_default_tactical_withdrawal = { #counters encirclement
 			skill_advantage > 0
 			has_trait = trickster
 		}
+		not = { is_fighting_in_terrain = gibraltar }		
 	}
 
 	active = no
@@ -396,6 +453,7 @@ tactic_tw_attack = {
 	trigger = {
 		is_attacker = yes
 		phase = tactical_withdrawal
+		not = { is_fighting_in_terrain = gibraltar }		
 	}
 
 	base =  { factor = 4 }
@@ -411,6 +469,7 @@ tactic_tw_defend = {
 	trigger = {
 		is_attacker = no
 		phase = tactical_withdrawal
+		not = { is_fighting_in_terrain = gibraltar }		
 	}
 
 	base =  { factor = 4 }
@@ -426,6 +485,7 @@ tactic_tw_chase = {
 	trigger = {
 		is_attacker = yes
 		phase = tactical_withdrawal
+		not = { is_fighting_in_terrain = gibraltar }		
 	}
 
 	base =  { factor = 4 }
@@ -442,6 +502,7 @@ tactic_tw_evade = {
 	trigger = {
 		is_attacker = no
 		phase = tactical_withdrawal
+		not = { is_fighting_in_terrain = gibraltar }		
 	}
 
 	base =  { factor = 4 }
@@ -458,6 +519,7 @@ tactic_tw_intercept = {
 	trigger = {
 		is_attacker = yes
 		phase = tactical_withdrawal
+		not = { is_fighting_in_terrain = gibraltar }		
 	}
 
 	base =  { factor = 4 }
@@ -481,6 +543,7 @@ tactic_breakthrough = { #counters ambush
 			hardness > 0.5
 			skill_advantage > 1
 		}
+		not = { is_fighting_in_terrain = gibraltar }		
 	}
 
 	active = no
@@ -504,6 +567,7 @@ tactic_default_breakthrough = { #counters ambush
 			hardness > 0.5
 			skill_advantage > 1
 		}
+		not = { is_fighting_in_terrain = gibraltar }		
 	}
 
 	active = no
@@ -528,6 +592,7 @@ tactic_ambush = { #counters shock
 			skill > 2
 			has_trait = trickster
 		}
+		not = { is_fighting_in_terrain = gibraltar }		
 	}
 
 	active = yes
@@ -549,6 +614,7 @@ tactic_default_ambush = { #counters shock
 			skill > 2
 			has_trait = trickster
 		}
+		not = { is_fighting_in_terrain = gibraltar }		
 	}
 
 	active = yes
@@ -571,6 +637,7 @@ tactic_blitz = {
 			has_trait = panzer_leader
 			skill_advantage > 1
 		}
+		not = { is_fighting_in_terrain = gibraltar }		
 	}
 
 	active = no
@@ -595,6 +662,7 @@ tactic_default_blitz = {
 			has_trait = panzer_leader
 			skill_advantage > 1
 		}
+		not = { is_fighting_in_terrain = gibraltar }		
 	}
 
 	active = no
@@ -618,6 +686,7 @@ tactic_elastic_defense = { #counters blitz
 			has_trait = defensive_doctrine
 			skill > 2
 		}
+		not = { is_fighting_in_terrain = gibraltar }		
 	}
 
 	active = no
@@ -639,6 +708,7 @@ tactic_default_elastic_defense = { #counters blitz
 			has_trait = defensive_doctrine
 			skill > 2
 		}
+		not = { is_fighting_in_terrain = gibraltar }		
 	}
 
 	active = no
@@ -663,6 +733,7 @@ tactic_backhand_blow = { #counters breakthrough
 				skill > 3
 			}
 		}
+		not = { is_fighting_in_terrain = gibraltar }		
 	}
 	active = no
 
@@ -686,6 +757,7 @@ tactic_default_backhand_blow = { #counters breakthrough
 				skill > 3
 			}
 		}
+		not = { is_fighting_in_terrain = gibraltar }		
 	}
 	active = no
 
@@ -710,6 +782,7 @@ tactic_seize_bridge = {
 				skill > 2
 			}
 		}
+		not = { is_fighting_in_terrain = gibraltar }		
 	}
 
 	base = { factor = 2 }
@@ -736,6 +809,8 @@ tactic_default_seize_bridge = {
 				skill > 2
 			}
 		}
+		not = { is_fighting_in_terrain = gibraltar }
+		
 	}
 
 	base = { factor = 2 }
@@ -754,6 +829,7 @@ tactic_attacker_sb_hold = {
 	trigger = {
 		is_attacker = yes
 		phase = seize_bridge
+		not = { is_fighting_in_terrain = gibraltar }		
 	}
 
 	base =  { factor = 4 }
@@ -769,6 +845,7 @@ tactic_attacker_sb_skillful_defence = {
 		is_attacker = yes
 		phase = seize_bridge
 		skill > 4
+		not = { is_fighting_in_terrain = gibraltar }		
 	}
 
 	base =  { factor = 4 }
@@ -784,6 +861,7 @@ tactic_defender_sb_assault = {
 	trigger = {
 		is_attacker = no
 		phase = seize_bridge
+		not = { is_fighting_in_terrain = gibraltar }		
 	}
 
 	base =  { factor = 4 }
@@ -799,6 +877,7 @@ tactic_defender_sb_reckless_assault = {
 		is_attacker = no
 		phase = seize_bridge
 		skill < 3
+		not = { is_fighting_in_terrain = gibraltar }		
 	}
 
 	base =  { factor = 4 }
@@ -818,6 +897,7 @@ tactic_defender_sb_retake_bridge = {
 			skill > 2
 			has_trait = trickster
 		}
+		not = { is_fighting_in_terrain = gibraltar }		
 	}
 
 	countered_by = tactic_attacker_sb_skillful_defence
@@ -842,6 +922,7 @@ tactic_hold_bridge = {
 			skill > 2
 			has_trait = defensive_doctrine
 		}
+		not = { is_fighting_in_terrain = gibraltar }		
 	}
 
 	base = { factor = 2 }
@@ -865,6 +946,7 @@ tactic_default_hold_bridge = {
 			skill > 2
 			has_trait = defensive_doctrine
 		}
+		not = { is_fighting_in_terrain = gibraltar }		
 	}
 
 	base = { factor = 2 }
@@ -883,6 +965,7 @@ tactic_attacker_hb_attack = {
 	trigger = {
 		is_attacker = yes
 		phase = hold_bridge
+		not = { is_fighting_in_terrain = gibraltar }		
 	}
 
 	base =  { factor = 4 }
@@ -898,6 +981,7 @@ tactic_attacker_hb_rush = {
 		is_attacker = yes
 		phase = hold_bridge
 		skill > 4
+		not = { is_fighting_in_terrain = gibraltar }		
 	}
 
 	base =  { factor = 4 }
@@ -912,6 +996,7 @@ tactic_attacker_hb_storm = {
 	trigger = {
 		is_attacker = yes
 		phase = hold_bridge
+		not = { is_fighting_in_terrain = gibraltar }		
 	}
 
 	base = { factor = 2 }
@@ -932,6 +1017,7 @@ tactic_defender_hb_hold = {
 		is_attacker = no
 		phase = hold_bridge
 		skill < 3
+		not = { is_fighting_in_terrain = gibraltar }		
 	}
 
 	base = { factor = 2 }
@@ -951,6 +1037,7 @@ tactic_defender_hb_skillful_defence = {
 			skill > 2
 			has_trait = trickster
 		}
+		not = { is_fighting_in_terrain = gibraltar }		
 	}
 
 	base = { factor = 2 }
@@ -971,6 +1058,7 @@ tactic_guerrilla_tactics = { #People's army defender tactic. also for German vol
 			skill > 2
 			has_trait = trickster
 		}
+		not = { is_fighting_in_terrain = gibraltar }		
 	}
 
 	active = no
@@ -992,6 +1080,7 @@ tactic_default_guerrilla_tactics = { #People's army defender tactic. also for Ge
 			skill > 2
 			has_trait = trickster
 		}
+		not = { is_fighting_in_terrain = gibraltar }		
 	}
 
 	active = no
@@ -1011,6 +1100,7 @@ tactic_human_wave_tactics = { #People's army attacker tactic
 		phase = no
 		frontage_full = yes
 		has_reserves = yes
+		not = { is_fighting_in_terrain = gibraltar }		
 	}
 
 	active = no
@@ -1030,6 +1120,7 @@ tactic_default_human_wave_tactics = { #People's army attacker tactic
 		phase = default
 		frontage_full = yes
 		has_reserves = yes
+		not = { is_fighting_in_terrain = gibraltar }		
 	}
 
 	active = no
@@ -1048,6 +1139,7 @@ tactic_banzai_charge = { #Special Japan attacker tactic
 		tag = JAP
 		is_attacker = yes
 		phase = no
+		not = { is_fighting_in_terrain = gibraltar }		
 	}
 
 	active = yes
@@ -1068,6 +1160,7 @@ tactic_default_banzai_charge = { #Special Japan attacker tactic
 		tag = JAP
 		is_attacker = yes
 		phase = default
+		not = { is_fighting_in_terrain = gibraltar }		
 	}
 
 	active = yes
@@ -1087,6 +1180,7 @@ tactic_infantry_charge = { #GBP -> Infantry attacker tactic
 	trigger = {
 		is_attacker = yes
 		phase = no
+		not = { is_fighting_in_terrain = gibraltar }		
 	}
 
 	active = no
@@ -1103,6 +1197,7 @@ tactic_default_infantry_charge = { #GBP -> Infantry attacker tactic
 	trigger = {
 		is_attacker = yes
 		phase = default
+		not = { is_fighting_in_terrain = gibraltar }		
 	}
 
 	active = no
@@ -1119,6 +1214,7 @@ tactic_planned_attack = { #GBP -> Armor attacker tactic
 	trigger = {
 		is_attacker = yes
 		phase = no
+		not = { is_fighting_in_terrain = gibraltar }		
 	}
 
 	active = no
@@ -1134,6 +1230,7 @@ tactic_default_planned_attack = { #GBP -> Armor attacker tactic
 	trigger = {
 		is_attacker = yes
 		phase = default
+		not = { is_fighting_in_terrain = gibraltar }		
 	}
 
 	active = no
@@ -1149,6 +1246,7 @@ tactic_relentless_assault = { #Deep battle attacker tactic
 	trigger = {
 		is_attacker = yes
 		phase = no
+		not = { is_fighting_in_terrain = gibraltar }		
 	}
 
 	active = no
@@ -1166,6 +1264,7 @@ tactic_default_relentless_assault = { #Deep battle attacker tactic
 	trigger = {
 		is_attacker = yes
 		phase = default
+		not = { is_fighting_in_terrain = gibraltar }		
 	}
 
 	active = no
@@ -1183,6 +1282,7 @@ tactic_unexpected_thrust = { #Mobile warfare attacker tactic
 	trigger = {
 		is_attacker = yes
 		phase = no
+		not = { is_fighting_in_terrain = gibraltar }		
 	}
 
 	active = no
@@ -1199,6 +1299,7 @@ tactic_default_unexpected_thrust = { #Mobile warfare attacker tactic
 	trigger = {
 		is_attacker = yes
 		phase = default
+		not = { is_fighting_in_terrain = gibraltar }		
 	}
 
 	active = no
@@ -1215,6 +1316,7 @@ tactic_overwhelming_fire = { # Counters Banzai charge
 	trigger = {
 		is_attacker = no
 		phase = no
+		not = { is_fighting_in_terrain = gibraltar }		
 	}
 
 	active = no
@@ -1231,6 +1333,7 @@ tactic_default_overwhelming_fire = { # Counters Banzai charge
 	trigger = {
 		is_attacker = no
 		phase = default
+		not = { is_fighting_in_terrain = gibraltar }		
 	}
 
 	active = no
@@ -1247,6 +1350,7 @@ tactic_barrage = { #Superior firepower attacker tactic
 	trigger = {
 		is_attacker = yes
 		phase = no
+		not = { is_fighting_in_terrain = gibraltar }		
 	}
 
 	active = no
@@ -1263,6 +1367,8 @@ tactic_default_barrage = { #Superior firepower attacker tactic
 	trigger = {
 		is_attacker = yes
 		phase = default
+		not = { is_fighting_in_terrain = gibraltar }
+		
 	}
 
 	active = no

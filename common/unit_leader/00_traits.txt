@@ -693,6 +693,11 @@ leader_traits = {
 				attack = 0.08
 				defence = 0.08
 			}
+			gibraltar = {
+				movement = 0.02
+				attack = 0.08
+				defence = 0.08
+			}			
 		}
 		
 		ai_will_do = {
@@ -1080,6 +1085,9 @@ leader_traits = {
 			mountain = {
 				movement = 0.025
 			}
+			gibraltar = {
+				movement = 0.025
+			}			
 			plains = {
 				movement = 0.025
 			}

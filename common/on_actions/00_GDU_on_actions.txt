@@ -1,7 +1,43 @@
 on_actions = {
-
 	on_startup = {
 		effect = {
+		
+			# transfer AI allied navies to Commonwealth at the start of the game. In addition, later when they cap they will get any ships that the AI has built.
+				BEL = { 
+					transfer_navy = { 
+						target = CAN 
+					}
+				}
+				HOL = { 
+					transfer_navy = { 
+						target = AST 
+					}
+				}
+				DEN = { 
+					transfer_navy = { 
+						target = CAN 
+					}
+				}
+				NOR = { 
+					transfer_navy = { 
+						target = CAN 
+					}
+				}
+				GRE = { 
+					transfer_navy = { 
+						target = AST 
+					}
+				}
+				YUG = { 
+					transfer_navy = { 
+						target = AST 
+					}
+				}
+				POL = { 
+					transfer_navy = { 
+						target = CAN 
+					}
+				}		
 		
 			#Initializing the global.small_airbase_list array#
 	
@@ -1106,6 +1142,77 @@ on_state_control_changed = {
 					AND = {
 						date < 1941.1.1
 						ENG = { surrender_progress < 0.5 }
+						CAN = { surrender_progress < 0.01 }
+						OR = {
+							ENG = { controls_state = 332 }	# Labrador
+							CAN = { controls_state = 332 }							
+						}
+						OR = {
+							ENG = { controls_state = 331 }	# Newfoundland
+							CAN = { controls_state = 331 }
+							USA = { controls_state = 331 }														
+						}
+						OR = {
+							ENG = { controls_state = 730 }	# St. Pierre and Miquelon
+							FRA = { controls_state = 730 }
+							FRF = { controls_state = 730 }
+						}								
+						OR = {
+							ENG = { controls_state = 696 }	# Bermuda
+							USA = { controls_state = 696 }							
+						}
+						OR = {
+							ENG = { controls_state = 690 }	# Northern Bahamas
+							USA = { controls_state = 690 }							
+						}
+						OR = {
+							ENG = { controls_state = 693 }	# Southern Bahamas
+							USA = { controls_state = 693 }							
+						}
+						OR = {
+							ENG = { controls_state = 311 }	# Belize
+							USA = { controls_state = 311 }							
+						}
+						OR = {
+							ENG = { controls_state = 689 }	# Jamaica
+							USA = { controls_state = 689 }							
+						}
+						OR = {
+							ENG = { controls_state = 308 }	# Leeward Islands
+							USA = { controls_state = 308 }							
+						}	
+						OR = {
+							ENG = { controls_state = 692 }	# Windward Islands
+							USA = { controls_state = 692 }							
+						}
+						OR = {
+							ENG = { controls_state = 691 }	# Trinidad
+							USA = { controls_state = 691 }							
+						}
+						OR = {
+							HOL = { controls_state = 695 }	# Curacao
+							FRA = { controls_state = 695 }		
+							FRF = { controls_state = 695 }		
+							ENG = { controls_state = 695 }		
+						}							
+						OR = {
+							HOL = { controls_state = 687 }	# British Guyana
+							FRA = { controls_state = 687 }		
+							FRF = { controls_state = 687 }		
+							ENG = { controls_state = 687 }		
+						}		
+						OR = {
+							HOL = { controls_state = 309 }	# Suriname
+							FRA = { controls_state = 309 }		
+							FRF = { controls_state = 309 }		
+							ENG = { controls_state = 309 }		
+						}		
+						OR = {
+							HOL = { controls_state = 310 }	# French Guyana
+							FRA = { controls_state = 310 }		
+							FRF = { controls_state = 310 }		
+							ENG = { controls_state = 310 }		
+						}		
 						USA = { is_in_faction = yes }
 					}
 				}
@@ -1161,6 +1268,1462 @@ on_state_control_changed = {
 			}	
 		}
 	}
+
+
+
+
+
+	#### Automatically do the Soviet Scorched Earth Decisions when appropriate areas have been lost, so players don't have to remember to click them 
+	
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_global_flag = GDU_SOV_scorched_earth_baltics }			
+					date > 1941.1.1
+					OR = {
+						original_tag = GER
+						original_tag = ITA
+						original_tag = HUN
+						original_tag = ROM
+						original_tag = BUL
+						original_tag = FIN
+						original_tag = SPR
+					}
+					OR = {
+						controls_state = 12
+
+
+					}
+				}
+				hidden_effect = {
+				189 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				11 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				190 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+					set_global_flag = GDU_SOV_scorched_earth_baltics
+				}
+			}
+			
+
+				
+		}
+	}
+
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_global_flag = GDU_SOV_scorched_earth_balticsriga }			
+					date > 1941.1.1
+					OR = {
+						original_tag = GER
+						original_tag = ITA
+						original_tag = HUN
+						original_tag = ROM
+						original_tag = BUL
+						original_tag = FIN
+						original_tag = SPR
+					}
+					OR = {
+						controls_state = 191
+						controls_state = 209
+					}
+				}
+				hidden_effect = {
+				12 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+					set_global_flag = GDU_SOV_scorched_earth_balticsriga
+				}
+			}	
+		}
+	}	
+	
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_global_flag = GDU_SOV_scorched_earth_balticsnorth }			
+					date > 1941.1.1
+					OR = {
+						original_tag = GER
+						original_tag = ITA
+						original_tag = HUN
+						original_tag = ROM
+						original_tag = BUL
+						original_tag = FIN
+						original_tag = SPR
+					}
+					OR = {
+						controls_state = 208
+						controls_state = 209
+					}
+				}
+				hidden_effect = {
+				191 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				13 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+					set_global_flag = GDU_SOV_scorched_earth_balticsnorth
+				}
+			}	
+		}
+	}	
+	
+	
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_global_flag = GDU_SOV_scorched_earth_minskarea }			
+					date > 1941.1.1
+					OR = {
+						original_tag = GER
+						original_tag = ITA
+						original_tag = HUN
+						original_tag = ROM
+						original_tag = BUL
+						original_tag = FIN
+						original_tag = SPR
+					}
+					OR = {
+						controls_state = 96
+						controls_state = 204
+						controls_state = 206						
+					}
+				}
+				hidden_effect = {
+				784 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				95 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				97 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}				
+					set_global_flag = GDU_SOV_scorched_earth_minskarea
+				}
+			}	
+		}
+	}	
+	
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_global_flag = GDU_SOV_scorched_earth_moreminsk }			
+					date > 1941.1.1
+					OR = {
+						original_tag = GER
+						original_tag = ITA
+						original_tag = HUN
+						original_tag = ROM
+						original_tag = BUL
+						original_tag = FIN
+						original_tag = SPR
+					}
+					OR = {
+						controls_state = 206
+						controls_state = 207
+					}
+				}
+				hidden_effect = {
+				96 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}			
+					set_global_flag = GDU_SOV_scorched_earth_moreminsk
+				}
+			}	
+		}
+	}		
+ 	
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_global_flag = GDU_SOV_scorched_earth_marshes }			
+					date > 1941.1.1
+					OR = {
+						original_tag = GER
+						original_tag = ITA
+						original_tag = HUN
+						original_tag = ROM
+						original_tag = BUL
+						original_tag = FIN
+						original_tag = SPR
+					}
+					OR = {
+						controls_state = 194
+						controls_state = 204
+						controls_state = 202						
+					}
+				}
+				hidden_effect = {
+				93 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				94 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}					
+					set_global_flag = GDU_SOV_scorched_earth_marshes
+				}
+			}	
+		}
+	}		
+		
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_global_flag = GDU_SOV_scorched_earth_westukraine }			
+					date > 1941.1.1
+					OR = {
+						original_tag = GER
+						original_tag = ITA
+						original_tag = HUN
+						original_tag = ROM
+						original_tag = BUL
+						original_tag = FIN
+						original_tag = SPR
+					}
+					OR = {
+						controls_state = 202
+						controls_state = 193
+						controls_state = 259
+						controls_state = 226						
+						controls_state = 196												
+					}
+				}
+				hidden_effect = {
+				199 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				201 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				198 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				192 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				202 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}	
+				203 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				197 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}					
+					set_global_flag = GDU_SOV_scorched_earth_westukraine
+				}
+			}	
+		}
+	}	
+ 	
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_global_flag = GDU_SOV_scorched_earth_southukraine }			
+					date > 1941.1.1
+					OR = {
+						original_tag = GER
+						original_tag = ITA
+						original_tag = HUN
+						original_tag = ROM
+						original_tag = BUL
+						original_tag = FIN
+						original_tag = SPR
+					}
+					OR = {
+						controls_state = 221
+						controls_state = 227												
+					}
+				}
+				hidden_effect = {
+				196 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				200 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				226 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}				
+					set_global_flag = GDU_SOV_scorched_earth_southukraine
+				}
+			}	
+		}
+	}
+	
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_global_flag = GDU_SOV_scorched_earth_chernigovgomel }			
+					date > 1941.1.1
+					OR = {
+						original_tag = GER
+						original_tag = ITA
+						original_tag = HUN
+						original_tag = ROM
+						original_tag = BUL
+						original_tag = FIN
+						original_tag = SPR
+					}
+					OR = {
+						controls_state = 224
+						controls_state = 225
+						controls_state = 220
+						controls_state = 222							
+					}
+				}
+				hidden_effect = {
+				193 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				241 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}			
+					set_global_flag = GDU_SOV_scorched_earth_chernigovgomel
+				}
+			}	
+		}
+	}		
+	
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_global_flag = GDU_SOV_scorched_earth_eastukraine }			
+					date > 1941.1.1
+					OR = {
+						original_tag = GER
+						original_tag = ITA
+						original_tag = HUN
+						original_tag = ROM
+						original_tag = BUL
+						original_tag = FIN
+						original_tag = SPR
+					}
+					OR = {
+						controls_state = 218
+						controls_state = 228
+						controls_state = 245
+						controls_state = 238							
+					}
+				}
+				hidden_effect = {
+				221 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				227 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}			
+					set_global_flag = GDU_SOV_scorched_earth_eastukraine
+				}
+			}	
+		}
+	}	
+	
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_global_flag = GDU_SOV_scorched_earth_bryansksumy }			
+					date > 1941.1.1
+					OR = {
+						original_tag = GER
+						original_tag = ITA
+						original_tag = HUN
+						original_tag = ROM
+						original_tag = BUL
+						original_tag = FIN
+						original_tag = SPR
+					}
+					OR = {
+						controls_state = 218
+						controls_state = 228
+						controls_state = 245
+						controls_state = 238							
+					}
+				}
+				hidden_effect = {
+				224 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				225 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}			
+					set_global_flag = GDU_SOV_scorched_earth_bryansksumy
+				}
+			}	
+		}
+	}	
+	
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_global_flag = GDU_SOV_scorched_earth_rostov }			
+					date > 1941.1.1
+					OR = {
+						original_tag = GER
+						original_tag = ITA
+						original_tag = HUN
+						original_tag = ROM
+						original_tag = BUL
+						original_tag = FIN
+						original_tag = SPR
+					}
+					OR = {
+						controls_state = 235
+						controls_state = 217
+						controls_state = 245
+						controls_state = 238
+						controls_state = 265													
+					}
+				}
+				hidden_effect = {
+				218 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				228 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}			
+					set_global_flag = GDU_SOV_scorched_earth_rostov
+				}
+			}	
+		}
+	}		
+	
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_global_flag = GDU_SOV_scorched_earth_kursk }			
+					date > 1941.1.1
+					OR = {
+						original_tag = GER
+						original_tag = ITA
+						original_tag = HUN
+						original_tag = ROM
+						original_tag = BUL
+						original_tag = FIN
+						original_tag = SPR
+					}
+					OR = {
+						controls_state = 260
+						controls_state = 258
+						controls_state = 265
+						controls_state = 257
+						controls_state = 258													
+					}
+				}
+				hidden_effect = {
+				220 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				240 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}			
+					set_global_flag = GDU_SOV_scorched_earth_kursk
+				}
+			}	
+		}
+	}
+	
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_global_flag = GDU_SOV_scorched_earth_smolensk }			
+					date > 1941.1.1
+					OR = {
+						original_tag = GER
+						original_tag = ITA
+						original_tag = HUN
+						original_tag = ROM
+						original_tag = BUL
+						original_tag = FIN
+						original_tag = SPR
+					}
+					OR = {
+						controls_state = 205
+						controls_state = 795
+						controls_state = 246
+						controls_state = 219
+						controls_state = 247
+						controls_state = 223													
+						
+					}
+				}
+				hidden_effect = {
+				242 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				243 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}			
+					set_global_flag = GDU_SOV_scorched_earth_smolensk
+				}
+			}	
+		}
+	}
+	
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_global_flag = GDU_SOV_scorched_earth_oreltula }			
+					date > 1941.1.1
+					OR = {
+						original_tag = GER
+						original_tag = ITA
+						original_tag = HUN
+						original_tag = ROM
+						original_tag = BUL
+						original_tag = FIN
+						original_tag = SPR
+					}
+					OR = {
+						controls_state = 223
+						controls_state = 219
+						controls_state = 254
+						controls_state = 258
+						controls_state = 257
+						controls_state = 239													
+						controls_state = 265						
+					}
+				}
+				hidden_effect = {
+				222 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				223 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}			
+					set_global_flag = GDU_SOV_scorched_earth_oreltula
+				}
+			}	
+		}
+	}
+	
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_global_flag = GDU_SOV_scorched_earth_kalugavyazma }			
+					date > 1941.1.1
+					OR = {
+						original_tag = GER
+						original_tag = ITA
+						original_tag = HUN
+						original_tag = ROM
+						original_tag = BUL
+						original_tag = FIN
+						original_tag = SPR
+					}
+					OR = {
+						controls_state = 205
+						controls_state = 795
+						controls_state = 223
+						controls_state = 219
+						controls_state = 247
+						controls_state = 254													
+					}
+				}
+				hidden_effect = {
+				205 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				795 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}			
+					set_global_flag = GDU_SOV_scorched_earth_kalugavyazma
+				}
+			}	
+		}
+	}
+	
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_global_flag = GDU_SOV_scorched_earth_pskov }			
+					date > 1941.1.1
+					OR = {
+						original_tag = GER
+						original_tag = ITA
+						original_tag = HUN
+						original_tag = ROM
+						original_tag = BUL
+						original_tag = FIN
+						original_tag = SPR
+					}
+					OR = {
+						controls_state = 209
+						controls_state = 210
+						controls_state = 263
+						controls_state = 246													
+					}
+				}
+				hidden_effect = {
+				209 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				210 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}			
+					set_global_flag = GDU_SOV_scorched_earth_pskov
+				}
+			}	
+		}
+	}
+	
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_global_flag = GDU_SOV_scorched_earth_luga }			
+					date > 1941.1.1
+					OR = {
+						original_tag = GER
+						original_tag = ITA
+						original_tag = HUN
+						original_tag = ROM
+						original_tag = BUL
+						original_tag = FIN
+						original_tag = SPR
+					}
+					OR = {
+						controls_state = 208
+						controls_state = 195
+						controls_state = 263
+					}
+				}
+				hidden_effect = {
+				208 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				191 = {
+					damage_building = {
+						type = infrastructure
+						damage = 1
+					}
+				}
+				209 = {
+					damage_building = {
+						type = infrastructure
+						damage = 1
+					}
+				}				
+					set_global_flag = GDU_SOV_scorched_earth_pskov
+				}
+			}	
+		}
+	}
+	
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_global_flag = GDU_SOV_scorched_earth_novgorod }			
+					date > 1941.1.1
+					OR = {
+						original_tag = GER
+						original_tag = ITA
+						original_tag = HUN
+						original_tag = ROM
+						original_tag = BUL
+						original_tag = FIN
+						original_tag = SPR
+					}
+					OR = {
+						controls_state = 264
+						controls_state = 247
+					}
+				}
+				hidden_effect = {
+				263 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}			
+					set_global_flag = GDU_SOV_scorched_earth_novgorod
+				}
+			}	
+		}
+	}
+	
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_global_flag = GDU_SOV_scorched_earth_rzhev }			
+					date > 1941.1.1
+					OR = {
+						original_tag = GER
+						original_tag = ITA
+						original_tag = HUN
+						original_tag = ROM
+						original_tag = BUL
+						original_tag = FIN
+						original_tag = SPR
+					}
+					OR = {
+						controls_state = 246
+						controls_state = 247
+					}
+				}
+				hidden_effect = {
+				246 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}			
+					set_global_flag = GDU_SOV_scorched_earth_rzhev
+				}
+			}	
+		}
+	}	
+
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_global_flag = GDU_SOV_scorched_earth_rzhev }			
+					date > 1941.1.1
+					OR = {
+						original_tag = GER
+						original_tag = ITA
+						original_tag = HUN
+						original_tag = ROM
+						original_tag = BUL
+						original_tag = FIN
+						original_tag = SPR
+					}
+					OR = {
+						controls_state = 246
+						controls_state = 247
+					}
+				}
+				hidden_effect = {
+				246 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}			
+					set_global_flag = GDU_SOV_scorched_earth_rzhev
+				}
+			}	
+		}
+	}
+	
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_global_flag = GDU_SOV_scorched_earth_leningrad }			
+					date > 1941.1.1
+					OR = {
+						original_tag = GER
+						original_tag = ITA
+						original_tag = HUN
+						original_tag = ROM
+						original_tag = BUL
+						original_tag = FIN
+						original_tag = SPR
+					}
+					OR = {
+						controls_state = 195
+					}
+				}
+				hidden_effect = {
+				195 = {
+					damage_building = {
+						type = infrastructure
+						damage = 5
+					}
+				}
+				146 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}	
+				208 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}					
+					set_global_flag = GDU_SOV_scorched_earth_leningrad
+				}
+			}	
+		}
+	}
+	
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_global_flag = GDU_SOV_scorched_earth_tikhvin }			
+					date > 1941.1.1
+					OR = {
+						original_tag = GER
+						original_tag = ITA
+						original_tag = HUN
+						original_tag = ROM
+						original_tag = BUL
+						original_tag = FIN
+						original_tag = SPR
+					}
+					OR = {
+						controls_state = 806
+						controls_state = 811
+						controls_state = 828
+						controls_state = 351						
+					}
+				}
+				hidden_effect = {
+				244 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				823 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}	
+				264 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				824 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}	
+				247 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}					
+					set_global_flag = GDU_SOV_scorched_earth_tikhvin
+				}
+			}	
+		}
+	}	
+	
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_global_flag = GDU_SOV_scorched_earth_moscow }			
+					date > 1941.1.1
+					OR = {
+						original_tag = GER
+						original_tag = ITA
+						original_tag = HUN
+						original_tag = ROM
+						original_tag = BUL
+						original_tag = FIN
+						original_tag = SPR
+					}
+					OR = {
+						controls_state = 219
+						controls_state = 822
+						controls_state = 826
+					}
+				}
+				hidden_effect = {
+				219 = {
+					damage_building = {
+						type = infrastructure
+						damage = 5
+					}
+				}
+				795 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}	
+				205 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				224 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}	
+				
+					set_global_flag = GDU_SOV_scorched_earth_tikhvin
+				}
+			}	
+		}
+	}
+	
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_global_flag = GDU_SOV_scorched_earth_ryazan }			
+					date > 1941.1.1
+					OR = {
+						original_tag = GER
+						original_tag = ITA
+						original_tag = HUN
+						original_tag = ROM
+						original_tag = BUL
+						original_tag = FIN
+						original_tag = SPR
+					}
+					OR = {
+						controls_state = 253
+						controls_state = 822
+						controls_state = 252
+						controls_state = 826
+					}
+				}
+				hidden_effect = {
+				253 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				254 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}	
+				
+					set_global_flag = GDU_SOV_scorched_earth_ryazan
+				}
+			}	
+		}
+	}
+	
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_global_flag = GDU_SOV_scorched_earth_voronezh }			
+					date > 1941.1.1
+					OR = {
+						original_tag = GER
+						original_tag = ITA
+						original_tag = HUN
+						original_tag = ROM
+						original_tag = BUL
+						original_tag = FIN
+						original_tag = SPR
+					}
+					OR = {
+						controls_state = 257
+						controls_state = 255
+						controls_state = 239
+						controls_state = 821
+					}
+				}
+				hidden_effect = {
+				258 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				260 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}	
+				
+					set_global_flag = GDU_SOV_scorched_earth_voronezh
+				}
+			}	
+		}
+	}
+	
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_global_flag = GDU_SOV_scorched_earth_voronezh }			
+					date > 1941.1.1
+					OR = {
+						original_tag = GER
+						original_tag = ITA
+						original_tag = HUN
+						original_tag = ROM
+						original_tag = BUL
+						original_tag = FIN
+						original_tag = SPR
+					}
+					OR = {
+						controls_state = 257
+						controls_state = 255
+						controls_state = 239
+						controls_state = 821
+					}
+				}
+				hidden_effect = {
+				257 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}				
+				258 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				260 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}	
+				
+					set_global_flag = GDU_SOV_scorched_earth_voronezh
+				}
+			}	
+		}
+	}
+	
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_global_flag = GDU_SOV_scorched_earth_krasnodar }			
+					date > 1941.1.1
+					OR = {
+						original_tag = GER
+						original_tag = ITA
+						original_tag = HUN
+						original_tag = ROM
+						original_tag = BUL
+						original_tag = FIN
+						original_tag = SPR
+					}
+					OR = {
+						controls_state = 235
+						controls_state = 232
+						controls_state = 236
+					}
+				}
+				hidden_effect = {
+				234 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}				
+				238 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				235 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}	
+				
+					set_global_flag = GDU_SOV_scorched_earth_krasnodar
+				}
+			}	
+		}
+	}
+	
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_global_flag = GDU_SOV_scorched_earth_saratov }			
+					date > 1941.1.1
+					OR = {
+						original_tag = GER
+						original_tag = ITA
+						original_tag = HUN
+						original_tag = ROM
+						original_tag = BUL
+						original_tag = FIN
+						original_tag = SPR
+					}
+					OR = {
+						controls_state = 239
+						controls_state = 401
+						controls_state = 815
+						controls_state = 217
+						controls_state = 825
+						controls_state = 407
+						controls_state = 831
+					}
+				}
+				hidden_effect = {
+				245 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}				
+				265 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				239 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}	
+				
+					set_global_flag = GDU_SOV_scorched_earth_saratov
+				}
+			}	
+		}
+	}
+
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_global_flag = GDU_SOV_scorched_earth_stalingrad }			
+					date > 1941.1.1
+					OR = {
+						original_tag = GER
+						original_tag = ITA
+						original_tag = HUN
+						original_tag = ROM
+						original_tag = BUL
+						original_tag = FIN
+						original_tag = SPR
+					}
+					OR = {
+						controls_state = 217
+						controls_state = 825
+						controls_state = 407
+						controls_state = 831
+					}
+				}
+				hidden_effect = {
+				217 = {
+					damage_building = {
+						type = infrastructure
+						damage = 5
+					}
+				}				
+				265 = {
+					damage_building = {
+						type = infrastructure
+						damage = 1
+					}
+				}
+				238 = {
+					damage_building = {
+						type = infrastructure
+						damage = 1
+					}
+				}
+				245 = {
+					damage_building = {
+						type = infrastructure
+						damage = 1
+					}
+				}					
+				
+					set_global_flag = GDU_SOV_scorched_earth_stalingrad
+				}
+			}	
+		}
+	}
+	
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_global_flag = GDU_SOV_scorched_earth_engels }			
+					date > 1941.1.1
+					OR = {
+						original_tag = GER
+						original_tag = ITA
+						original_tag = HUN
+						original_tag = ROM
+						original_tag = BUL
+						original_tag = FIN
+						original_tag = SPR
+					}
+					OR = {
+						controls_state = 407
+						controls_state = 831
+						controls_state = 251
+						controls_state = 807
+						controls_state = 809
+						controls_state = 832
+					}
+				}
+				hidden_effect = {
+				401 = {
+					damage_building = {
+						type = infrastructure
+						damage = 3
+					}
+				}				
+				815 = {
+					damage_building = {
+						type = infrastructure
+						damage = 3
+					}
+				}				
+				
+					set_global_flag = GDU_SOV_scorched_earth_engels
+				}
+			}	
+		}
+	}
+	
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_global_flag = GDU_SOV_scorched_earth_baku }			
+					date > 1941.1.1
+					OR = {
+						original_tag = GER
+						original_tag = ITA
+						original_tag = HUN
+						original_tag = ROM
+						original_tag = BUL
+						original_tag = FIN
+						original_tag = SPR
+					}
+					OR = {
+						controls_state = 229
+					}
+				}
+				hidden_effect = {
+				229 = {
+					damage_building = {
+						type = infrastructure
+						damage = 8
+					}
+				}				
+				
+				
+					set_global_flag = GDU_SOV_scorched_earth_baku
+				}
+			}	
+		}
+	}
+	
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_global_flag = GDU_SOV_scorched_earth_gorki }			
+					date > 1941.1.1
+					OR = {
+						original_tag = GER
+						original_tag = ITA
+						original_tag = HUN
+						original_tag = ROM
+						original_tag = BUL
+						original_tag = FIN
+						original_tag = SPR
+					}
+					OR = {
+						controls_state = 229
+						controls_state = 252
+						controls_state = 249
+						controls_state = 830
+						
+					}
+				}
+				hidden_effect = {
+				255 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}				
+				821 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				252 = {
+					damage_building = {
+						type = infrastructure
+						damage = 4
+					}
+				}					
+				
+					set_global_flag = GDU_SOV_scorched_earth_gorki
+				}
+			}	
+		}
+	}			
+
 
 #### In Barbarossa, if other countries like Romania/Hungary/etc capture states, they get transferred to Germany automatically so that Germany can build up infra/airfields. If Germany wants to give some territory/building slots to minors later, they may do so via requests for territory/offers of territory ####
 

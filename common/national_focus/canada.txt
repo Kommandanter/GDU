@@ -3194,6 +3194,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			add_ideas = GDU_Commonwealth_Navy_Manpower1 
 			navy_experience = 25
 			random_owned_controlled_state = {
 				prioritize = { 464 }
@@ -3253,6 +3254,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			add_ideas = GDU_Commonwealth_Navy_Manpower2		
 			add_tech_bonus = {
 				name = CAN_destroyer_effort
 				bonus = 1.00
@@ -3300,6 +3302,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			add_ideas = GDU_Commonwealth_Navy_Manpower3		
 			add_tech_bonus = {
 				name = CAN_light_cruiser_effort
 				bonus = 1.00
@@ -3351,6 +3354,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			add_ideas = GDU_Commonwealth_Navy_Manpower3				
 			add_tech_bonus = {
 				name = CAN_heavy_cruiser_effort
 				bonus = 1.00
@@ -3407,6 +3411,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			add_ideas = GDU_Commonwealth_Navy_Manpower4		
 			navy_experience = 25
 			add_tech_bonus = {
 				name = CAN_escort_fleet
@@ -3459,6 +3464,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			add_ideas = GDU_Commonwealth_Navy_Manpower4		
 			navy_experience = 25
 			add_tech_bonus = {
 				name = CAN_fleet_in_being
@@ -3510,6 +3516,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			add_ideas = GDU_Commonwealth_Navy_Manpower5		
 			add_ideas = CAN_degauss_ship_hulls
 			469 = {
 				add_resource = {
@@ -3555,6 +3562,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			add_ideas = GDU_Commonwealth_Navy_Manpower5		
 			add_ideas = CAN_trade_fleet
 			469 = {
 				add_resource = {
@@ -3611,6 +3619,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			add_ideas = GDU_Commonwealth_Navy_Manpower6		
 			navy_experience = 25
 			random_owned_controlled_state = {
 				limit = {

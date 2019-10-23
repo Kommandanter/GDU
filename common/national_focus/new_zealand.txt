@@ -92,6 +92,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			add_ideas = GDU_Commonwealth_Navy_Manpower1		
 			custom_effect_tooltip = NZL_transfer_ships_tt
 			hidden_effect = {
 				load_oob = "NZ_LightCruisers"
@@ -136,6 +137,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			add_ideas = GDU_Commonwealth_Navy_Manpower2		
 			navy_experience = 25
 			add_tech_bonus = {
 				name = NZL_form_the_rnzn
@@ -190,6 +192,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			add_ideas = GDU_Commonwealth_Navy_Manpower3		
 			284 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
@@ -334,6 +337,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			add_ideas = GDU_Commonwealth_Navy_Manpower4		
 			add_tech_bonus = {
 				name = NZL_destroyer_effort
 				bonus = 1.00 
@@ -386,6 +390,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			add_ideas = GDU_Commonwealth_Navy_Manpower4		
 			add_tech_bonus = {
 				name = NZL_submarine_effort
 				bonus = 0.5
@@ -437,6 +442,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			add_ideas = GDU_Commonwealth_Navy_Manpower7		
 			add_tech_bonus = {
 				name = NZL_light_cruiser_effort
 				bonus = 1.00 
@@ -488,6 +494,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			add_ideas = GDU_Commonwealth_Navy_Manpower7		
 			add_tech_bonus = {
 				name = NZL_capital_ship_effort
 				bonus = 1.00 
