@@ -9,6 +9,9 @@ SOV_deployment = {
 		ai_will_do = { factor = 0 }
 		cost = 0
 						
+		available = { 		date > 1940.1.1
+		date < 1940.9.1 }				
+						
 		visible = { always = yes }
 						
 		fire_only_once = yes
@@ -24,7 +27,10 @@ SOV_deployment = {
 		icon = GFX_decision_category_border_war
 		ai_will_do = { factor = 0 }
 		cost = 0
-						
+				
+		available = { 		date > 1940.1.1
+		date < 1940.9.1 }		
+				
 		visible = { always = yes }
 						
 		fire_only_once = yes
@@ -40,6 +46,9 @@ SOV_deployment = {
 		icon = GFX_decision_category_border_war
 		ai_will_do = { factor = 0 }
 		cost = 0
+						
+		available = { 		date > 1940.1.1
+		date < 1940.9.1 }								
 						
 		visible = { always = yes }
 						
@@ -57,6 +66,9 @@ SOV_deployment = {
 		ai_will_do = { factor = 0 }
 		cost = 0
 						
+		available = { 		date > 1940.1.1
+		date < 1940.9.1 }								
+						
 		visible = { always = yes }
 						
 		fire_only_once = yes
@@ -67,7 +79,474 @@ SOV_deployment = {
 				load_oob = "SOV_SouthUkraine_Deployment"
 			}
 		}
-	}		
+	}
+	
+	
+	
+	
+	
+	SOV_scorched_earth = {
+ 
+		icon = generic_scorched_earth
+ 
+		available = {
+			date < 1941.1.1
+			not = { has_country_flag = SOV_scorched_earth }
+		}
+
+		allowed = {
+		}
+
+		cost = 0
+		fire_only_once = no
+		visible = {
+			not = { has_country_flag = SOV_scorched_earth }
+		}
+
+		complete_effect = {
+			set_country_flag = SOV_scorched_earth
+			clr_country_flag = automate_scorched
+			unlock_decision_tooltip = SOV_scorched_earth_baltics
+			unlock_decision_tooltip = SOV_scorched_earth_byelorussia
+			unlock_decision_tooltip = SOV_scorched_earth_ukraine
+			unlock_decision_tooltip = SOV_scorched_earth_stalingrad
+			unlock_decision_tooltip = SOV_scorched_earth_caucasus
+			unlock_decision_tooltip = SOV_scorched_earth_moscow
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	SOV_scorched_earth_auto = {
+ 
+		icon = generic_scorched_earth
+ 
+		allowed = {
+		}
+ 
+		available = {
+			date < 1941.1.1
+			not = { has_country_flag = automate_scorched }
+		}
+
+		cost = 0
+		fire_only_once = no
+		visible = {
+			not = { has_country_flag = automate_scorched }
+		}
+
+		complete_effect = {
+			set_country_flag = automate_scorched
+			clr_country_flag = SOV_scorched_earth
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}	
+	
+	
+	SOV_scorched_earth_baltics = {
+
+		icon = generic_scorched_earth
+
+		available = {
+			has_war = yes
+			has_country_flag = SOV_scorched_earth
+		}
+
+		cost = 0
+		fire_only_once = yes
+		visible = {
+			has_war = yes
+			has_country_flag = SOV_scorched_earth
+		}
+
+		complete_effect = {
+				189 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				11 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				190 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				784 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				12 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				191 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				13 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	SOV_scorched_earth_byelorussia = {
+
+		icon = generic_scorched_earth
+
+		available = {
+			has_war = yes
+			has_country_flag = SOV_scorched_earth
+		}
+
+		cost = 0
+		fire_only_once = yes
+		visible = {
+			has_war = yes
+			has_country_flag = SOV_scorched_earth
+		}
+ 
+		complete_effect = {
+			96 = {
+				damage_building = {
+					type = infrastructure
+					damage = 2
+				}
+			}
+			194 = {
+				damage_building = {
+					type = infrastructure
+					damage = 2
+				}
+			}
+			204 = {
+				damage_building = {
+					type = infrastructure
+					damage = 2
+				}
+			}
+			206 = {
+				damage_building = {
+					type = infrastructure
+					damage = 2
+				}
+			}
+			207 = {
+				damage_building = {
+					type = infrastructure
+					damage = 2
+				}
+			}
+			241 = {
+				damage_building = {
+					type = infrastructure
+					damage = 2
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}		
+	}
+ 	
+	SOV_scorched_earth_ukraine = {
+
+		icon = generic_scorched_earth
+
+		available = {
+			has_war = yes
+			has_country_flag = SOV_scorched_earth
+		}
+
+		cost = 0
+		fire_only_once = yes
+		visible = {
+			has_war = yes
+			has_country_flag = SOV_scorched_earth
+		}
+
+		complete_effect = {
+			192 = {
+				damage_building = {
+					type = infrastructure
+					damage = 2
+				}
+			}
+			198 = {
+				damage_building = {
+					type = infrastructure
+					damage = 2
+				}
+			}
+			199 = {
+				damage_building = {
+					type = infrastructure
+					damage = 2
+				}
+			}
+			197 = {
+				damage_building = {
+					type = infrastructure
+					damage = 2
+				}
+			}
+			203 = {
+				damage_building = {
+					type = infrastructure
+					damage = 2
+				}
+			}
+			202 = {
+				damage_building = {
+					type = infrastructure
+					damage = 2
+				}
+			}
+			201 = {
+				damage_building = {
+					type = infrastructure
+					damage = 2
+				}
+			}
+			259 = {
+				damage_building = {
+					type = infrastructure
+					damage = 2
+				}
+			}
+			193 = {
+				damage_building = {
+					type = infrastructure
+					damage = 2
+				}
+			}
+			225 = {
+				damage_building = {
+					type = infrastructure
+					damage = 2
+				}
+			}
+			221 = {
+				damage_building = {
+					type = infrastructure
+					damage = 2
+				}
+			}
+			227 = { 
+				damage_building = { 
+					type = infrastructure
+					damage = 2 
+				}
+			}
+			228 = {
+				damage_building = {
+					type = infrastructure
+					damage = 2
+				}
+			}
+			
+			
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	SOV_scorched_earth_caucasus = {
+
+		icon = generic_scorched_earth
+
+		available = {
+			has_war = yes
+			has_country_flag = SOV_scorched_earth
+		}
+
+		cost = 0
+		fire_only_once = yes
+		visible = {
+			has_war = yes
+			has_country_flag = SOV_scorched_earth
+		}
+
+		complete_effect = {
+				229 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				230 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				231 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				232 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				233 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				234 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				235 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+			}
+		
+		ai_will_do = { factor = 0 }
+	}
+
+	SOV_scorched_earth_stalingrad = {
+
+		icon = generic_scorched_earth
+
+		available = {
+			has_war = yes
+			has_country_flag = SOV_scorched_earth
+		}
+
+		cost = 0
+		fire_only_once = yes
+		visible = {
+			has_war = yes
+			has_country_flag = SOV_scorched_earth
+		}
+
+		complete_effect = {
+				245 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				217 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				218 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				238 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				237 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				236 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+				265 = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+				}
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	SOV_scorched_earth_moscow = {
+
+		icon = generic_scorched_earth
+
+		available = {
+			has_war = yes
+			has_country_flag = SOV_scorched_earth
+		}
+
+		cost = 0
+		fire_only_once = yes
+		visible = {
+			has_war = yes
+			has_country_flag = SOV_scorched_earth
+		}
+
+		complete_effect = {
+			every_state = {
+				limit = {
+					OR = {
+						state = 220
+						state = 222
+						state = 224
+						state = 243
+						state = 205
+						state = 242
+						state = 246
+					}
+				}
+				damage_building = {
+					type = infrastructure
+					damage = 2
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	
+	
 }
 
 

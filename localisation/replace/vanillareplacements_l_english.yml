@@ -1,5 +1,8 @@
 ﻿l_english:
 
+ SOV_scorched_earth:0 "Manually fire Scorched Earth (not recommended)"
+ SOV_scorched_earth_auto:0 "Automatically fire Scorched Earth at appropriate times (recommended)"
+
  news.109.t:0 "The Fall of El-Alamein"
  news.109.d:0 "Forces from the Deutsches Afrikakorps have fought their way to El-Alamein. \n\nAs Allied forces retreated further into the desert in disarray, German soldiers marching through El-Alamein were cheered as liberators by Bedouin who had come to view the British as oppressors.\n\nThe fall of El-Alamein is a significant loss to the Allied war effort, and several experts have speculated that all of the Middle East now lies open to German conquest."
  news.113.t:0 "The Fall of El-Alamein"
