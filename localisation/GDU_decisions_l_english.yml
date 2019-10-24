@@ -188,6 +188,10 @@
  ITA_Mediterranean_Deployment_desc:0 "Only Shitty Italies forget to place Garrisons; don't be a shitty Italy."
  ITA_EastAfrican_Deployment:0 "Deploy an East African Army"
  ITA_EastAfrican_Deployment_desc:0 "Today, we hold Ethiopia."
+ 
+ ENG_Capital_London:0 "Move Capital back to London"
+ ENG_Capital_Newfoundland:0 "Move Capital to Newfoundland"
+ ENG_Capital_Guyana:0 "Move Capital to Guyana"
 
 
 

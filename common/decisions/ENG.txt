@@ -505,7 +505,95 @@ political_actions = {
 				annex_country = { target = FRF transfer_troops = yes }
 			}
 		}
+	}
+
+	ENG_Capital_London = {
+
+		icon = generic_political_actions
+
+		visible = {
+			always = yes
+		}
+
+		cost = 0
+		fire_only_once = no
+		available = {
+			has_country_flag = London_has_Fallen
+			126 = { is_controlled_by = ENG }
+		}
+
+		complete_effect = {
+			set_capital = 126
+		}
 	}	
+	ENG_Capital_Newfoundland = {
+
+		icon = generic_political_actions
+
+		visible = {
+			always = yes
+		}
+
+		cost = 0
+		fire_only_once = no
+		available = {
+			has_war = yes
+			331 = { is_controlled_by = ENG }
+			NOT = { 126 = { is_controlled_by = ENG } }
+		}
+
+		complete_effect = {
+			set_capital = 331
+			set_country_flag = London_has_Fallen
+			331 = {
+				add_building_construction = {
+					type = naval_base
+					level = 9
+					province = 12505
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 4
+					instant_build = yes
+				}			
+			}
+		}
+	}
+	ENG_Capital_Guyana = {
+
+		icon = generic_political_actions
+
+		visible = {
+			always = yes
+		}
+
+		cost = 0
+		fire_only_once = no
+		available = {
+			has_war = yes
+			687 = { is_controlled_by = ENG }
+			NOT = { 126 = { is_controlled_by = ENG } }
+		}
+
+		complete_effect = {
+			set_capital = 687
+			set_country_flag = London_has_Fallen
+			687 = {
+				add_building_construction = {
+					type = naval_base
+					level = 9
+					province = 4982
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 4
+					instant_build = yes
+				}			
+			}
+		}
+	}
 }
 
 operations = {
