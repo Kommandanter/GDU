@@ -409,6 +409,7 @@ ideas = {
 			NOT = { has_idea = soviet_closed_market }		
 			NOT = { tag = POR }
 			NOT = { tag = SWE }
+			NOT = { tag = INS }
 			}
 
 			modifier = {
