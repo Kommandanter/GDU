@@ -2,17 +2,19 @@
 ######### Soviet divisions deployment decisions - spawns some divisions which Soviets can change template of in every tile, to make it easier for Soviets to deploy troops in depth before the war with less effort ######
 
 
-SOV_deployment = {
+GDU_automatic_unit_deployment = {
 	
 	GDU_Belarus_Deployment_decision = {
 		icon = GFX_decision_category_border_war
 		ai_will_do = { factor = 0 }
 		cost = 0
 						
-		available = { 		date > 1940.1.1
-		date < 1940.9.1 }				
+		available = { 		
+			date > 1940.1.1
+			date < 1940.12.1 
+		}				
 						
-		visible = { always = yes }
+		visible = { tag = SOV }
 						
 		fire_only_once = yes
 		
@@ -28,10 +30,12 @@ SOV_deployment = {
 		ai_will_do = { factor = 0 }
 		cost = 0
 				
-		available = { 		date > 1940.1.1
-		date < 1940.9.1 }		
+		available = { 		
+			date > 1940.1.1
+			date < 1940.12.1 
+		}		
 				
-		visible = { always = yes }
+		visible = { tag = SOV }
 						
 		fire_only_once = yes
 		
@@ -47,10 +51,12 @@ SOV_deployment = {
 		ai_will_do = { factor = 0 }
 		cost = 0
 						
-		available = { 		date > 1940.1.1
-		date < 1940.9.1 }								
+		available = { 		
+			date > 1940.1.1
+			date < 1940.12.1 
+		}								
 						
-		visible = { always = yes }
+		visible = { tag = SOV }
 						
 		fire_only_once = yes
 		
@@ -66,16 +72,17 @@ SOV_deployment = {
 		ai_will_do = { factor = 0 }
 		cost = 0
 						
-		available = { 		date > 1940.1.1
-		date < 1940.9.1 }								
+		available = { 		
+			date > 1940.1.1
+			date < 1940.12.1 
+		}								
 						
-		visible = { always = yes }
+		visible = { tag = SOV }
 						
 		fire_only_once = yes
 		
 		complete_effect = {
 			SOV = {	
-			
 				load_oob = "SOV_SouthUkraine_Deployment"
 			}
 		}
@@ -100,6 +107,7 @@ SOV_deployment = {
 		cost = 0
 		fire_only_once = no
 		visible = {
+			tag = SOV
 			not = { has_country_flag = SOV_scorched_earth }
 		}
 
@@ -134,6 +142,7 @@ SOV_deployment = {
 		cost = 0
 		fire_only_once = no
 		visible = {
+			tag = SOV
 			not = { has_country_flag = automate_scorched }
 		}
 
@@ -160,6 +169,7 @@ SOV_deployment = {
 		cost = 0
 		fire_only_once = yes
 		visible = {
+			tag = SOV
 			has_war = yes
 			has_country_flag = SOV_scorched_earth
 		}
@@ -225,6 +235,7 @@ SOV_deployment = {
 		cost = 0
 		fire_only_once = yes
 		visible = {
+			tag = SOV
 			has_war = yes
 			has_country_flag = SOV_scorched_earth
 		}
@@ -284,6 +295,7 @@ SOV_deployment = {
 		cost = 0
 		fire_only_once = yes
 		visible = {
+			tag = SOV
 			has_war = yes
 			has_country_flag = SOV_scorched_earth
 		}
@@ -387,6 +399,7 @@ SOV_deployment = {
 		cost = 0
 		fire_only_once = yes
 		visible = {
+			tag = SOV
 			has_war = yes
 			has_country_flag = SOV_scorched_earth
 		}
@@ -451,6 +464,7 @@ SOV_deployment = {
 		cost = 0
 		fire_only_once = yes
 		visible = {
+			tag = SOV
 			has_war = yes
 			has_country_flag = SOV_scorched_earth
 		}
@@ -516,6 +530,7 @@ SOV_deployment = {
 		cost = 0
 		fire_only_once = yes
 		visible = {
+			tag = SOV
 			has_war = yes
 			has_country_flag = SOV_scorched_earth
 		}
@@ -544,9 +559,6 @@ SOV_deployment = {
 			factor = 0
 		}
 	}
-
-	
-	
 }
 
 

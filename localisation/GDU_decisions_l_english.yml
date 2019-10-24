@@ -169,6 +169,21 @@
  SOV_relocate_industry_from_wilejka_desc:0 "Evacuating the heavy machinery of our Wilejka factories to the Urals is a huge undertaking, but it is necessary to secure our war production."
  SOV_relocate_industry_from_wilejka_tt:0 "§RThese effects require control of Wilejka when the decision times out.§!"
  
+ GDU_automatic_unit_deployment:0 "Automatic Unit Deployment"
+ ENG_HomeDefenseArmy_Deployment:0 "Deploy Home Defense Army Divisions"
+ ENG_HomeDefenseArmy_Deployment_desc:0 "Garrisons the Home Islands"
+ ENG_EastAfrican_Deployment:0 "Deploy SDF and Aden Army Divisions"
+ ENG_EastAfrican_Deployment_desc:0 "Garrisons Southwest Yemen, British Somaliland and lines Italian Ethiopia"
+ ENG_Mediterranean_Deployment:0 "Deploy Northumbrian and Royal Gibraltar Regiments"
+ ENG_Mediterranean_Deployment_desc:0 "Garrisons Gibraltar, Malta, Cyprus and Egyptian Coasts"
+ 
+ USA_Pacific_Deployment:0 "Deploy Pacific Garrisons"
+ USA_Pacific_Deployment_desc:0 "Garrisons West Coast and Important Pacific Island Holdings"
+ 
+ ITA_Mediterranean_Deployment:0 "Deploy Mediterranean Garrisons"
+ ITA_Mediterranean_Deployment_desc:0 "Only Shitty Italies forget to place Garrisons; don't be a shitty Italy."
+ ITA_EastAfrican_Deployment:0 "Deploy an East African Army"
+ ITA_EastAfrican_Deployment_desc:0 "Today, we hold Ethiopia."
 
 
 

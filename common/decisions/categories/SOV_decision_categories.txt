@@ -2,21 +2,6 @@
 #### SOVIET ####
 ################
 
-SOV_deployment = {
-	
-	allowed = {
-		original_tag = SOV
-	}
-
-	available = {
-
-	}
-
-	visible = {
-
-	}
-}
-
 SOV_industry_relocation = {
 	
 	allowed = {
