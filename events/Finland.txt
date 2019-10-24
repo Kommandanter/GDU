@@ -47,7 +47,6 @@ country_event = {
 		}
 
 		SWE = { country_event = { id = finland.3 days = 1 } }
-		FIN = { country_event = { id = finland.2 days = 30 } }
 	}
 }
 

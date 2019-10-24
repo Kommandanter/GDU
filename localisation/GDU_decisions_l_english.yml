@@ -8,6 +8,10 @@
  GDU_NorthUkraine_Deployment_decision:0 "Place 1 Division in every tile of the Northern Ukraine Air Zone"
  GDU_SouthUkraine_Deployment_decision:0 "Place 1 Division in every tile of the Southern Ukraine Air Zone"
  
+ GDU_Soviet_Single_Deployment_decision:0 "Deploy One Division per Tile"
+ GDU_Soviet_Single_Deployment_decision_desc:0 "This is Done over 3 Days to Prevent Lag"
+ GDU_Soviet_Double_Deployment_decision:0 "Deploy Two Divisions per Tile"
+ GDU_Soviet_Double_Deployment_decision:0 "This is Done over 7 Days to Prevent Lag"
 
  SOV_Capital_Kuibyshev:0 "Move the Capital to Kuibyshev"
  SOV_Capital_Moscow:0 "Move the Capital to Moscow"
