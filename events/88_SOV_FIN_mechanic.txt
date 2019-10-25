@@ -13,7 +13,7 @@ add_namespace = sovfin_events
 			hidden_effect = {
 				if = {
 					limit = { casualties_k > 150 }    
-					
+					SOV = { set_country_flag = SOV_war_since_purge}
 					SOV = {
 						country_event = { id = finland.8 days = 7 }
 						white_peace = FIN
@@ -38,12 +38,14 @@ add_namespace = sovfin_events
 		immediate = { 
 			hidden_effect = { 
 				if = {
-					limit = { 
+					limit = {
 						OR = {
 							casualties_k > 50 
 							has_global_flag = finland_started_ai
 						}
-					}    
+						SOV = { has_war_with = FIN }
+					}
+					SOV = { set_country_flag = SOV_war_since_purge}					
 					SOV = {
 						country_event = { id = finland.8 days = 7 }
 						white_peace = FIN
@@ -51,13 +53,19 @@ add_namespace = sovfin_events
 						transfer_state = 147
 					}
 					GER = { add_to_faction = FIN }
-					remove_state_core = 146 
+					remove_state_core = 146
+					
+					if = {
+						limit = { has_global_flag = finland_started_ai }
+						SOV = { army_experience = 50 }
+						SOV = { air_experience = 15 }
+					}
 				}
-				else = { 
+				else = {
 					SOV = { 
 						country_event = { id = sovfin_events.1 days = 3 } 
 					} 
-				}
+				}				
 			}
 		}	
 	}
