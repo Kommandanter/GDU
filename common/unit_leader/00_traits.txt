@@ -1276,6 +1276,7 @@ leader_traits = {
 		cost = 500
 		modifier = {
 			navy_capital_ship_defence_factor = 0.1
+			critical_receive_chance = -0.1
 			naval_morale_factor = 0.05
 		}
 
@@ -1403,7 +1404,7 @@ leader_traits = {
 	loading_drill_master = { 
 		type = navy
 		modifier = {
-			naval_torpedo_hit_chance_factor = 0.25
+			naval_torpedo_cooldown_factor = -0.25
 		}
 				
 		ai_will_do = {
@@ -1595,6 +1596,7 @@ leader_traits = {
 	marksman = { 
 		type = navy
 		modifier = {
+			naval_hit_chance = 0.05
 			naval_critical_score_chance_factor = 0.2
 		}
 				
@@ -1627,7 +1629,7 @@ leader_traits = {
 	flight_deck_manager = { 
 		type = navy
 		modifier = {
-			 fighter_sortie_efficiency = 0.2
+			carrier_capacity_penalty_reduction = -0.2
 		}
 				
 		ai_will_do = {
@@ -1709,6 +1711,7 @@ leader_traits = {
 		}
 		
 		cost = 1000
+		
 		modifier = {
 			naval_attrition = -0.1
 		}
