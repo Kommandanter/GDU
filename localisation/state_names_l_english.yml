@@ -56,7 +56,7 @@
  STATE_55:0 "Hessen"
  STATE_56:0 "Weser-Ems"
  STATE_57:0 "Westfalen"
- STATE_58:0 "Schleswig-Holstein"
+ STATE_58:0 "Hamburg"
  STATE_59:0 "Hannover"
  STATE_60:0 "Thüringen"
  STATE_61:0 "Mecklenburg"
@@ -831,12 +831,13 @@
  STATE_830:0 "Zabolshkiy"
  STATE_831:0 "Sagiz"
  STATE_832:0 "Vaktynshi"
-
- 
-
-
-
-
-
-
-
+ STATE_833:0 "Bremen"
+ STATE_834:0 "Schleswig-Holstein"
+ STATE_835:0 "Sachsen-Anhalt"
+ STATE_836:0 "Mittelsachsen"
+ STATE_837:0 "Styria"
+ STATE_838:0 "Baden"
+ STATE_839:0 "Kassel"
+ STATE_840:0 "Würzburg"
+ STATE_841:0 "Liegnitz"
+ STATE_842:0 "Saarland"

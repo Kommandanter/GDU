@@ -51,6 +51,62 @@ country_event = {
 							type = annex_everything
 						}						
 					}
+					
+					17 = {
+						remove_building = {
+							type = infrastructure
+							level = 2
+						}
+					}
+					20 = {
+						remove_building = {
+							type = infrastructure
+							level = 1
+						}
+					}
+					24 = {
+						remove_building = {
+							type = infrastructure
+							level = 1
+						}
+					}
+					27 = {
+						remove_building = {
+							type = infrastructure
+							level = 1
+						}
+					}
+					18 = {
+						remove_building = {
+							type = infrastructure
+							level = 1
+						}
+					}
+					16 = {
+						remove_building = {
+							type = infrastructure
+							level = 2
+						}
+					}					
+					785 = {
+						remove_building = {
+							type = infrastructure
+							level = 2
+						}
+					}					
+					29 = {
+						remove_building = {
+							type = infrastructure
+							level = 1
+						}
+					}
+					6 = {
+						remove_building = {
+							type = infrastructure
+							level = 3
+						}
+					}					
+					
 					EFR = { give_military_access = SPR }
 					
 			SPR = {
