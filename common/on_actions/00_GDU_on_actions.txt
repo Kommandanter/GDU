@@ -3840,6 +3840,78 @@ activate_mission = SOV_relocate_industry_from_zaporozhe
 	
 	
 	
+	#### Check for Sealion. If a Sealion occurs, Allies get a mission to defeat the Sealion within 1 year; if they defeat it, Allies gets some buffs and Axis lose stability/war support because of the failed Sealion. UK also gets total mob upon Sealion, if it does not already have it. The idea is that this gives Axis realistic incentives for Sealion; they shouldn't want to launch one until they are sure that they will succeed, because in reality a failed Sealion would have been a disaster and would have resulted in large amounts of lost/captured equipment (like Dunkirk). ####
+	
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_global_flag = GDU_sealion_started }				
+					OR = {
+						original_tag = GER
+						original_tag = ROM
+						original_tag = HUN
+						original_tag = BUL
+						original_tag = ITA
+						original_tag = SPR
+						original_tag = EFR						
+						original_tag = FIN
+						original_tag = JAP
+						original_tag = MAN
+						original_tag = SIA
+					}
+					OR = {
+						controls_state = 123 # SW England
+						controls_state = 338 # Gloucesestershire
+						controls_state = 127 # Sussex
+						controls_state = 135 # Kent
+						controls_state = 126 # Greater London
+						controls_state = 125 # East Anglia
+						controls_state = 129 # East Midlands
+						controls_state = 128 # West Midlands
+						controls_state = 122 # Wales
+						controls_state = 132 # Lancashire
+						controls_state = 134 # Manchester
+						controls_state = 130 # Yorkshire
+						controls_state = 131 # Northern England
+						controls_state = 121 # Lothian
+						controls_state = 133 # Lanark
+						controls_state = 136 # Aberdeenshire
+						controls_state = 120 # Scottish Highlands
+						controls_state = 119 # Northern Ireland
+					}	
+								
+						
+					}
+				
+				hidden_effect = {
+					set_global_flag = GDU_sealion_started
+					ENG = { 
+						activate_mission = GER_defeat_sealion				
+					}				
+				}
+					ENG = { country_event = { id = gduevents.34 } }
+					USA = { country_event = { id = gduevents.34 } }
+					SOV = { country_event = { id = gduevents.34 } }
+					CAN = { country_event = { id = gduevents.34 } }
+					SAF = { country_event = { id = gduevents.34 } }
+					FRA = { country_event = { id = gduevents.34 } }
+					FRF = { country_event = { id = gduevents.34 } }
+					RAJ = { country_event = { id = gduevents.34 } }
+					AST = { country_event = { id = gduevents.34 } }
+					NZL = { country_event = { id = gduevents.34 } }
+					GER = { country_event = { id = gduevents.34 } }
+					ITA = { country_event = { id = gduevents.34 } }
+					ROM = { country_event = { id = gduevents.34 } }
+					HUN = { country_event = { id = gduevents.34 } }
+					BUL = { country_event = { id = gduevents.34 } }
+					SPR = { country_event = { id = gduevents.34 } }
+					JAP = { country_event = { id = gduevents.34 } }
+					MAN = { country_event = { id = gduevents.34 } }					
+			}
+			}
+	}
+			
 	
 	
 	

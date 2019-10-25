@@ -1064,6 +1064,341 @@ operations = {
 	
 	
 	
+	GER_defeat_sealion = {
+
+		icon = generic_operation
+
+		allowed = {
+			always = no
+			#added through on_action
+		}
+
+		available = {
+			
+			custom_trigger_tooltip = {
+				tooltip = GER_defeat_sealion_tt
+			}
+
+			NOT = {
+					OR = {
+						GER = { controls_state = 123 }
+						ITA = { controls_state = 123 }
+						ROM = { controls_state = 123 }
+						HUN = { controls_state = 123 }
+						BUL = { controls_state = 123 }
+						FIN = { controls_state = 123 }
+						EFR = { controls_state = 123 }						
+						SPR = { controls_state = 123 }
+						JAP = { controls_state = 123 }
+						MAN = { controls_state = 123 }
+						SIA = { controls_state = 123 }									
+					}
+					OR = {
+						GER = { controls_state = 338 }
+						ITA = { controls_state = 338 }
+						ROM = { controls_state = 338 }
+						HUN = { controls_state = 338 }
+						BUL = { controls_state = 338 }
+						FIN = { controls_state = 338 }
+						EFR = { controls_state = 338 }						
+						SPR = { controls_state = 338 }
+						JAP = { controls_state = 338 }
+						MAN = { controls_state = 338 }
+						SIA = { controls_state = 338 }									
+					}
+					OR = {
+						GER = { controls_state = 127 }
+						ITA = { controls_state = 127 }
+						ROM = { controls_state = 127 }
+						HUN = { controls_state = 127 }
+						BUL = { controls_state = 127 }
+						FIN = { controls_state = 127 }
+						EFR = { controls_state = 127 }						
+						SPR = { controls_state = 127 }
+						JAP = { controls_state = 127 }
+						MAN = { controls_state = 127 }
+						SIA = { controls_state = 127 }									
+					}
+					OR = {
+						GER = { controls_state = 135 }
+						ITA = { controls_state = 135 }
+						ROM = { controls_state = 135 }
+						HUN = { controls_state = 135 }
+						BUL = { controls_state = 135 }
+						FIN = { controls_state = 135 }
+						EFR = { controls_state = 135 }						
+						SPR = { controls_state = 135 }
+						JAP = { controls_state = 135 }
+						MAN = { controls_state = 135 }
+						SIA = { controls_state = 135 }									
+					}
+					OR = {
+						GER = { controls_state = 126 }
+						ITA = { controls_state = 126 }
+						ROM = { controls_state = 126 }
+						HUN = { controls_state = 126 }
+						BUL = { controls_state = 126 }
+						FIN = { controls_state = 126 }
+						EFR = { controls_state = 126 }						
+						SPR = { controls_state = 126 }
+						JAP = { controls_state = 126 }
+						MAN = { controls_state = 126 }
+						SIA = { controls_state = 126 }									
+					}
+					OR = {
+						GER = { controls_state = 125 }
+						ITA = { controls_state = 125 }
+						ROM = { controls_state = 125 }
+						HUN = { controls_state = 125 }
+						BUL = { controls_state = 125 }
+						FIN = { controls_state = 125 }
+						EFR = { controls_state = 125 }						
+						SPR = { controls_state = 125 }
+						JAP = { controls_state = 125 }
+						MAN = { controls_state = 125 }
+						SIA = { controls_state = 125 }									
+					}
+					OR = {
+						GER = { controls_state = 129 }
+						ITA = { controls_state = 129 }
+						ROM = { controls_state = 129 }
+						HUN = { controls_state = 129 }
+						BUL = { controls_state = 129 }
+						FIN = { controls_state = 129 }
+						EFR = { controls_state = 129 }						
+						SPR = { controls_state = 129 }
+						JAP = { controls_state = 129 }
+						MAN = { controls_state = 129 }
+						SIA = { controls_state = 129 }									
+					}
+					OR = {
+						GER = { controls_state = 129 }
+						ITA = { controls_state = 129 }
+						ROM = { controls_state = 129 }
+						HUN = { controls_state = 129 }
+						BUL = { controls_state = 129 }
+						FIN = { controls_state = 129 }
+						EFR = { controls_state = 129 }						
+						SPR = { controls_state = 129 }
+						JAP = { controls_state = 129 }
+						MAN = { controls_state = 129 }
+						SIA = { controls_state = 129 }									
+					}
+					OR = {
+						GER = { controls_state = 128 }
+						ITA = { controls_state = 128 }
+						ROM = { controls_state = 128 }
+						HUN = { controls_state = 128 }
+						BUL = { controls_state = 128 }
+						FIN = { controls_state = 128 }
+						EFR = { controls_state = 128 }						
+						SPR = { controls_state = 128 }
+						JAP = { controls_state = 128 }
+						MAN = { controls_state = 128 }
+						SIA = { controls_state = 128 }									
+					}
+					OR = {
+						GER = { controls_state = 122 }
+						ITA = { controls_state = 122 }
+						ROM = { controls_state = 122 }
+						HUN = { controls_state = 122 }
+						BUL = { controls_state = 122 }
+						FIN = { controls_state = 122 }
+						EFR = { controls_state = 122 }						
+						SPR = { controls_state = 122 }
+						JAP = { controls_state = 122 }
+						MAN = { controls_state = 122 }
+						SIA = { controls_state = 122 }									
+					}
+					OR = {
+						GER = { controls_state = 132 }
+						ITA = { controls_state = 132 }
+						ROM = { controls_state = 132 }
+						HUN = { controls_state = 132 }
+						BUL = { controls_state = 132 }
+						FIN = { controls_state = 132 }
+						EFR = { controls_state = 132 }						
+						SPR = { controls_state = 132 }
+						JAP = { controls_state = 132 }
+						MAN = { controls_state = 132 }
+						SIA = { controls_state = 132 }									
+					}
+					OR = {
+						GER = { controls_state = 134 }
+						ITA = { controls_state = 134 }
+						ROM = { controls_state = 134 }
+						HUN = { controls_state = 134 }
+						BUL = { controls_state = 134 }
+						FIN = { controls_state = 134 }
+						EFR = { controls_state = 134 }						
+						SPR = { controls_state = 134 }
+						JAP = { controls_state = 134 }
+						MAN = { controls_state = 134 }
+						SIA = { controls_state = 134 }									
+					}
+					OR = {
+						GER = { controls_state = 130 }
+						ITA = { controls_state = 130 }
+						ROM = { controls_state = 130 }
+						HUN = { controls_state = 130 }
+						BUL = { controls_state = 130 }
+						FIN = { controls_state = 130 }
+						EFR = { controls_state = 130 }						
+						SPR = { controls_state = 130 }
+						JAP = { controls_state = 130 }
+						MAN = { controls_state = 130 }
+						SIA = { controls_state = 130 }									
+					}
+					OR = {
+						GER = { controls_state = 131 }
+						ITA = { controls_state = 131 }
+						ROM = { controls_state = 131 }
+						HUN = { controls_state = 131 }
+						BUL = { controls_state = 131 }
+						FIN = { controls_state = 131 }
+						EFR = { controls_state = 131 }						
+						SPR = { controls_state = 131 }
+						JAP = { controls_state = 131 }
+						MAN = { controls_state = 131 }
+						SIA = { controls_state = 131 }									
+					}
+					OR = {
+						GER = { controls_state = 121 }
+						ITA = { controls_state = 121 }
+						ROM = { controls_state = 121 }
+						HUN = { controls_state = 121 }
+						BUL = { controls_state = 121 }
+						FIN = { controls_state = 121 }
+						EFR = { controls_state = 121 }						
+						SPR = { controls_state = 121 }
+						JAP = { controls_state = 121 }
+						MAN = { controls_state = 121 }
+						SIA = { controls_state = 121 }									
+					}
+					OR = {
+						GER = { controls_state = 133 }
+						ITA = { controls_state = 133 }
+						ROM = { controls_state = 133 }
+						HUN = { controls_state = 133 }
+						BUL = { controls_state = 133 }
+						FIN = { controls_state = 133 }
+						EFR = { controls_state = 133 }						
+						SPR = { controls_state = 133 }
+						JAP = { controls_state = 133 }
+						MAN = { controls_state = 133 }
+						SIA = { controls_state = 133 }									
+					}
+					OR = {
+						GER = { controls_state = 136 }
+						ITA = { controls_state = 136 }
+						ROM = { controls_state = 136 }
+						HUN = { controls_state = 136 }
+						BUL = { controls_state = 136 }
+						FIN = { controls_state = 136 }
+						EFR = { controls_state = 136 }						
+						SPR = { controls_state = 136 }
+						JAP = { controls_state = 136 }
+						MAN = { controls_state = 136 }
+						SIA = { controls_state = 136 }									
+					}
+					OR = {
+						GER = { controls_state = 120 }
+						ITA = { controls_state = 120 }
+						ROM = { controls_state = 120 }
+						HUN = { controls_state = 120 }
+						BUL = { controls_state = 120 }
+						FIN = { controls_state = 120 }
+						EFR = { controls_state = 120 }						
+						SPR = { controls_state = 120 }
+						JAP = { controls_state = 120 }
+						MAN = { controls_state = 120 }
+						SIA = { controls_state = 120 }									
+					}
+					OR = {
+						GER = { controls_state = 119 }
+						ITA = { controls_state = 119 }
+						ROM = { controls_state = 119 }
+						HUN = { controls_state = 119 }
+						BUL = { controls_state = 119 }
+						FIN = { controls_state = 119 }
+						EFR = { controls_state = 119 }						
+						SPR = { controls_state = 119 }
+						JAP = { controls_state = 119 }
+						MAN = { controls_state = 119 }
+						SIA = { controls_state = 119 }									
+					}					
+				}
+			
+			
+
+		}
+
+		days_mission_timeout = 999
+		fire_only_once = yes
+
+		activation = {
+		
+		}
+
+		is_good = no
+
+		complete_effect = {
+			set_global_flag = GDU_sealion_defeated		
+			clr_global_flag = GDU_sealion_started
+			add_war_support = 0.2
+			add_stability = 0.2
+			
+			add_equipment_to_stockpile = { type = infantry_equipment_2 amount = 8000 producer = GER }
+			add_equipment_to_stockpile = { type = infantry_equipment_3 amount = 2000 producer = GER }
+
+			add_equipment_to_stockpile = { type = anti_air_equipment_2 amount = 500 producer = GER }
+			add_equipment_to_stockpile = { type = anti_air_equipment_3 amount = 150 producer = GER }
+			
+			add_equipment_to_stockpile = { type = artillery_equipment_2 amount = 800 producer = GER }
+			add_equipment_to_stockpile = { type = artillery_equipment_3 amount = 200 producer = GER }			
+
+			add_equipment_to_stockpile = { type = anti_tank_equipment_2 amount = 600 producer = GER }
+			add_equipment_to_stockpile = { type = anti_tank_equipment_3 amount = 150 producer = GER }
+
+			add_equipment_to_stockpile = { type = motorized_equipment_1 amount = 1000 producer = GER }
+			add_equipment_to_stockpile = { type = mechanized_equipment_2 amount = 700 producer = GER }			
+			add_equipment_to_stockpile = { type = support_equipment_1 amount = 1000 producer = GER }
+
+			add_equipment_to_stockpile = { type = heavy_tank_equipment_2 amount = 200 producer = GER }
+			add_equipment_to_stockpile = { type = light_tank_equipment_2 amount = 200 producer = GER }
+			add_equipment_to_stockpile = { type = medium_tank_equipment_2 amount = 1000 producer = GER }
+						
+			add_timed_idea = { idea = ENG_triumph_sealion_idea days = 365 } 
+			GER = {
+				add_timed_idea = { idea = AXIS_fail_sealion_idea days = 365 }
+				add_war_support = -0.1
+				add_political_power = -100
+				add_popularity = {
+					ideology = democratic
+					popularity = 0.05
+				}
+				add_popularity = {
+					ideology = communism
+					popularity = 0.05
+				}
+				add_popularity = {
+					ideology = neutrality
+					popularity = 0.05
+				}				
+			}
+			
+			
+		}
+
+		timeout_effect = {
+			set_global_flag = GDU_sealion_succeeded				
+ 			set_global_flag = GDU_sealion_started
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	
 	
 	GER_defeat_dday = {

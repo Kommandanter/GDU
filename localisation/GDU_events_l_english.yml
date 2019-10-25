@@ -264,11 +264,11 @@
  gduevents.25.a:0 "Alrighty then."  
 
  gduevents.26.t:0 "Sorry, but... not just yet"
- gduevents.26.d:0 "You cannot join the Allies until it is either 1941 or until the UK is above 70% surrender progress.\n\nTry again later." 
+ gduevents.26.d:0 "You cannot join the Allies until it is either 1941 or until the UK is above 50% surrender progress.\n\nTry again later." 
  gduevents.26.a:0 "Too bad, so sad."
  
  gduevents.27.t:0 "IMPORTANT INFORMATION"
- gduevents.27.d:0 "IF YOU READ NOTHING ELSE, READ THIS\n\nGDU has a new mechanic whereby your navy can help defend you against Sealion, at least if you do actually have a navy and keep it close to home.\n\nIn the top bar, just to the right of your air experience box, there is a box that shows your current Sealion Naval Defense Score (capped at 70). Try moving some ships in and out of the English Channel and you will see that this goes up when you move more ships in, and goes down when you move them out of the English Channel. Also look at your national spirits and see that when you have ships in the English Channel, you get a core defense and attack bonus for your troops that is equal to your Sealion Naval Defense Score.\n\nDon't rely on the US navy (or army). The US can't join the allies or get military access or docking rights until you are 70% towards capitulation, or until 1941, and US ships don't count towards your bonus. Home Defense is in your hands, and in particular in the Royal Navy's hands.\n\nIt is recommended that you keep a strong and large home fleet somewhere within easy range of the English Channel at all times. Then, if the Axis Sealions you, move your fleet into the English channel and put up air cover over the Channel to help limit any damage from naval bombing. As long as your navy can beat the Axis fleet and your ships survive, your troops will all get large attack and defense bonuses and you should be able to beat off the invasion.\n\nBut as long as you maintain proper Royal Navy control over the seas, are ready to put sufficient air over the English channel, and keep a sufficiently strong Home Fleet on hand, it should be next to impossible for the Axis to succesfully Sealion you."
+ gduevents.27.d:0 "IF YOU READ NOTHING ELSE, READ THIS\n\nGDU has a new mechanic whereby your navy can help defend you against Sealion, at least if you do actually have a navy and keep it close to home.\n\nIn the top bar, just to the right of your air experience box, there is a box that shows your current Sealion Naval Defense Score (capped at 150). Try moving some ships in and out of the English Channel and you will see that this goes up when you move more ships in, and goes down when you move them out of the English Channel. Also look at your national spirits and see that when you have ships in the English Channel, you get a core defense and attack bonus for your troops that is equal to your Sealion Naval Defense Score.\n\nDon't rely on the US navy (or army). The US can't join the allies or get military access or docking rights until you are 50% towards capitulation, or until 1941, and US ships don't count towards your bonus. Home Defense is in your hands, and in particular in the Royal Navy's hands.\n\nIt is recommended that you keep a strong and large home fleet somewhere within easy range of the English Channel at all times. Then, if the Axis Sealions you, move your fleet into the English channel and put up air cover over the Channel to help limit any damage from naval bombing. As long as your navy can beat the Axis fleet and your ships survive, your troops will all get large attack and defense bonuses and you should be able to beat off the invasion.\n\nBut as long as you maintain proper Royal Navy control over the seas, are ready to put sufficient air over the English channel, and keep a sufficiently strong Home Fleet on hand, it should be next to impossible for the Axis to succesfully Sealion you."
  gduevents.27.a:0 "OK, I'll go no-navy UK, send my entire starting fleet to the Med, and see if I can manage to get Sealioned. Thanks." 
  
  gduevents.28.t:0 "Land Doctrine"
@@ -296,4 +296,7 @@
  usa.65.desc:0 "The surprise attack has come and gone; if you weren't able to remove the debuff earlier, this event will do so for you now...coward."
  usa.65.a:0 "I've Paid My Price"
  usa.65.b:0 "Hopefully There is Still Time"
- 
+
+ gduevents.34.t:0 "Operation Sealion"
+ gduevents.34.d:0 "Operation Sealion, the long-awaited and much feared Axis invasion of Great Britain, has begun. \n\n The world holds its breath.\n\n"
+

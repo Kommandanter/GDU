@@ -937,6 +937,23 @@ country_event = {
 
 
 
+country_event = {
+	id = gduevents.34
+	title = gduevents.34.t
+	desc = gduevents.34.d
+	picture = GFX_report_event_usa_british_sailors_destroyers
+	
+	is_triggered_only = yes
+		
+	fire_only_once = yes 
+	
+	option = {
+		name = gduevents.34.a
+		
+		
+	}
+	
+}	
 
 
 

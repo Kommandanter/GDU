@@ -1,5 +1,8 @@
 ﻿l_english:
 
+    AXIS_fail_sealion_idea:0 "Failed Sealion"
+    ENG_defeat_sealion:0 "Push the Axis Sealion back into the channel!"
+
     USA_transfer_iceland:0 "Transfer Iceland to the UK"
     USA_transfer_greenland:0 "Transfer Greenland to the UK"    
 

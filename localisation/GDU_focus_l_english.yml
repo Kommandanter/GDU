@@ -4,6 +4,11 @@
  GER_exploit_foreign_workers:0 "Exploit Foreign Workers and Industry"
  GER_exploit_foreign_workers_desc:0 "Now that we occupy Europe, we have the opportunity to exploit workers in the occupied countries to support German war production. Let's harness the workers and industry of our conquered foes by bringing them to Germany to work here at home."
 
+ GER_triumph_britain:0 "Triumph in Great Britain"
+ GER_triumph_britain_idea:0 "British Naval Collaborators"
+ john_brown_company_GER:0 "John Brown Company"
+ harland_wolff_GER:0 "Harland Wolff"
+
  ITA_italian_refineries:0 "Italian Refineries"
  ITA_italian_refineries_desc:0 "Let's bring the results of our experiments in Libya back to Italy"
 

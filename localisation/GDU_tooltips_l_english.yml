@@ -1,4 +1,8 @@
 ﻿l_english:
+
+ GER_defeat_sealion_tt:0 "Drive the Axis back into the English Channel; push them out of all British territory to defeat the Sealion"
+ GER_defeat_sealion:0 "Defeat the Sealion Attempt, Save Britain!"
+
  ENG_burma_road_tt:0 "Will increase the opinion of China and the Yunnan Clique, but will decrease Japan's opinion of us.\n"
  ENG_commonwealth_focus_tt:0 "Increases opinion with all of the commonwealth.\n"
  FRA_request_uk_territory_tt:0 "Request the transfer of all UK territory in south-west Africa."

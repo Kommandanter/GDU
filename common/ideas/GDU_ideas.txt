@@ -2,6 +2,62 @@ ideas = {
 
 	country = {
 	
+      GER_triumph_britain_idea = {
+			
+			allowed = {
+				always = no
+			}
+
+			picture = generic_manpower_bonus
+			
+			removal_cost = -1
+	
+			modifier = {
+				production_speed_dockyard_factor = 0.15
+				industrial_capacity_dockyard = 0.05
+			}
+			research_bonus = {
+				naval_equipment = 0.1
+				naval_doctrine = 0.1				
+			}				
+		}	
+	
+		ENG_triumph_sealion_idea = { 
+		
+			picture = chi_war_of_resistance	
+			
+			allowed = { 
+				always = no 
+			}
+			
+			removal_cost = -1 
+			
+			modifier = { 
+				stability_factor = 0.10
+				army_morale_factor = 0.05
+				production_factory_efficiency_gain_factor = 4
+				industry_repair_factor = 4
+			}
+		}		
+	
+	
+		AXIS_fail_sealion_idea = { 
+		
+			picture = chi_war_of_resistance	
+			
+			allowed = { 
+				always = no 
+			}
+			
+			removal_cost = -1 
+			
+			modifier = { 
+				army_morale_factor = -0.05
+				industrial_capacity_factory = -0.05
+				industrial_capacity_dockyard = -0.8
+			}
+	
+	
 		GDU_Commonwealth_Navy_Manpower1 = {
 
 			allowed = {

@@ -2701,6 +2701,56 @@ activate_mission = GER_relocate_industry_from_friesland
 	}
 
 	focus = {
+		id = GER_triumph_britain
+		icon = GFX_focus_generic_cruiser2
+		x = 24
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = { focus = GER_naval_rearmament }
+		available_if_capitulated = yes
+
+		cancel_if_invalid = yes
+		available = {
+			GER = {
+				controls_state = 126
+				controls_state = 128
+				controls_state = 134
+				controls_state = 133								
+			}
+		}
+
+		complete_tooltip = {
+			GER = { add_ideas = GER_triumph_britain_idea }
+			custom_effect_tooltip = GDU_spacer			
+			custom_effect_tooltip = available_designer
+			show_ideas_tooltip = yarrow_shipbuilders_GER
+			custom_effect_tooltip = GDU_spacer
+			custom_effect_tooltip = available_designer			
+			show_ideas_tooltip = harland_wolff_GER
+			custom_effect_tooltip = GDU_spacer
+			custom_effect_tooltip = available_designer			
+			show_ideas_tooltip = john_brown_company_GER
+		}
+
+		completion_reward = {
+			GER = { add_ideas = GER_triumph_britain_idea }
+			custom_effect_tooltip = GDU_spacer			
+			custom_effect_tooltip = available_designer
+			show_ideas_tooltip = yarrow_shipbuilders_GER
+			custom_effect_tooltip = GDU_spacer
+			custom_effect_tooltip = available_designer			
+			show_ideas_tooltip = harland_wolff_GER
+			custom_effect_tooltip = GDU_spacer
+			custom_effect_tooltip = available_designer			
+			show_ideas_tooltip = john_brown_company_GER
+		}
+	}
+
+
+	focus = {
 		id = GER_naval_effort
 		text = naval_effort
 		icon = GFX_goal_generic_navy_doctrines_tactics
