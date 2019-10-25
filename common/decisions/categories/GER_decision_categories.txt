@@ -27,6 +27,21 @@ GER_case_anton_category = {
 	}
 }
 
+GER_industry_relocation = {
+	
+	allowed = {
+		original_tag = GER
+	}
+
+	available = {
+		GER = { has_war_with = ENG }
+	}
+
+	visible = {
+		has_war = yes
+	}
+}
+
 GER_reichskommissariats = {
 	
 	allowed = {
