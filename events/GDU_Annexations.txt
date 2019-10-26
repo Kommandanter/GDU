@@ -55,12 +55,12 @@ country_event = {
 	is_triggered_only = yes 
 	
 	immediate = { 
-				ENG = {
-					annex_country = {
-						target = HOL
-						transfer_troops = yes
-					}
-				}
+		ENG = {
+			annex_country = {
+				target = HOL
+				transfer_troops = yes
+			}
+		}
 	}
 	
 	option = {
@@ -316,7 +316,7 @@ country_event = {
 }
 
 country_event = { 
-	id = gduannexations.13
+	id = yalta.1
 	title = yalta.1.a
 	desc = yalta.1.b
 	picture = GFX_report_event_canadian_soldiers
@@ -324,48 +324,11 @@ country_event = {
 	is_triggered_only = yes 
 	
 	immediate = {
-
-	    every_state = {
-			limit = {
-				is_core_of = DDR
-			}
-			DDR = {
-				transfer_state = PREV
-			}
-		}
-		every_state = {
-			limit = {
-				is_core_of = WGR
-			}
-			WGR = {
-				transfer_state = PREV
-			}
-		}
-		every_state = {
-			limit = {
-				is_core_of = FRF
-			}
-			FRF = {
-				transfer_state = PREV
-			}
-		}
-		every_state = {
-			limit = {
-				is_core_of = POL
-			}
-			POL = {
-				transfer_state = PREV
-			}
-		}
-	}
-	
-	option = {
-	    name = yalta.1.d
 	}
 }
 
 country_event = { 
-	id = gduannexations.14
+	id = yalta.2
 	title = yalta.1.a
 	desc = yalta.1.b
 	picture = GFX_report_event_canadian_soldiers
@@ -406,13 +369,10 @@ country_event = {
 			}
 		}
 	}
-	option = {
-		name = yalta.1.d
-	}
 }
 
 country_event = { 
-	id = gduannexations.15
+	id = yalta.3
 	title = yalta.1.a
 	desc = yalta.1.b
 	picture = GFX_report_event_canadian_soldiers
@@ -453,14 +413,10 @@ country_event = {
 			}
 		}
 	}
-	
-	option = {
-	    name = yalta.1.d
-	}
 }
 
 country_event = { 
-	id = gduannexations.16
+	id = yalta.4
 	title = yalta.1.a
 	desc = yalta.1.b
 	picture = GFX_report_event_canadian_soldiers
@@ -509,14 +465,10 @@ country_event = {
 			}
 		}
 	}
-	
-	option = {
-		name = yalta.1.d
-	}
 }
 
 country_event = { 
-	id = gduannexations.17
+	id = yalta.5
 	title = yalta.1.a
 	desc = yalta.1.b
 	picture = GFX_report_event_canadian_soldiers
@@ -538,9 +490,5 @@ country_event = {
 	        puppet = WGR
 	        puppet = ITA
 	    }
-	}
-	
-	option = {
-		name = yalta.1.d
 	}
 }
