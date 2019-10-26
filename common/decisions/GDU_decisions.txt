@@ -1418,6 +1418,34 @@ operations = {
 
 			NOT = {
 					OR = {
+						USA = { controls_state = 833 }
+						ENG = { controls_state = 833 }
+						CAN = { controls_state = 833 }
+						SAF = { controls_state = 833 }
+						RAJ = { controls_state = 833 }
+						NZL = { controls_state = 833 }
+						AST = { controls_state = 833 }
+						FRF = { controls_state = 833 }
+						HOL = { controls_state = 833 }
+						BEL = { controls_state = 833 }
+						LUX = { controls_state = 833 }
+						DEN	= { controls_state = 833 }											
+					}
+					OR = {
+						USA = { controls_state = 834 }
+						ENG = { controls_state = 834 }
+						CAN = { controls_state = 834 }
+						SAF = { controls_state = 834 }
+						RAJ = { controls_state = 834 }
+						NZL = { controls_state = 834 }
+						AST = { controls_state = 834 }
+						FRF = { controls_state = 834 }
+						HOL = { controls_state = 834 }
+						BEL = { controls_state = 834 }
+						LUX = { controls_state = 834 }
+						DEN	= { controls_state = 834 }											
+					}					
+					OR = {
 						USA = { controls_state = 735 }
 						ENG = { controls_state = 735 }
 						CAN = { controls_state = 735 }
@@ -8982,128 +9010,7 @@ GER_industry_relocation = {
 	}
 
 
-	GER_relocate_industry_from_paris = {
-		icon = generic_construction
-		highlight_states = {
-			state = 16
-		}	
-		available = {
-			NOT = {
-				16 = { #Paris
-					is_controlled_by  = GER
-					OR = {
-						arms_factory > 0
-						industrial_complex > 0
-					}
-				} 
-			}
-			
-		}
 
-		is_good = yes
-
-		allowed = {
-			always = no
-			#added through on_action
-		}
-
-		fire_only_once = no
-		days_mission_timeout = 1
-
-		visible = {
-			GER = { has_war_with = ENG }
-		}
-
-        timeout_effect = {
-				if = {
-					limit = { 
-						16 = { #
-							is_controlled_by = GER
-							arms_factory > 0
-						} 
-					}
-					16 = { #
-						remove_building = {
-							type = arms_factory
-							level = 1
-						}
-					}
-					66	= {
-						add_extra_state_shared_building_slots = 1										
-						add_building_construction = {
-							type = arms_factory
-							level = 1
-							instant_build = yes
-						}				
-					}
-					hidden_effect = {
-						if = {
-							limit = { 
-								OR = {
-									16 = { 
-										is_controlled_by = GER
-										arms_factory > 0
-									}
-									16 = { 
-										is_controlled_by = GER
-										industrial_complex > 0
-									} 									
-								}	
-							}
-							activate_mission = GER_relocate_industry_from_paris								
-						}
-					}						
-				}
-				else_if = {
-					limit = { 
-						16 = { 
-							is_controlled_by = GER
-							industrial_complex > 0
-						} 
-					}
-					16 = { 
-						remove_building = {
-							type = industrial_complex
-							level = 1
-						}
-					}
-					841	= {
-						add_extra_state_shared_building_slots = 1					
-						add_building_construction = {
-							type = industrial_complex
-							level = 1
-							instant_build = yes
-						}											
-					}
-					hidden_effect = {
-						if = {
-							limit = { 
-								OR = {
-									16 = { 
-										is_controlled_by = GER
-										arms_factory > 0
-									}
-									16 = { 
-										is_controlled_by = GER
-										industrial_complex > 0
-									} 									
-								}	
-							}
-							activate_mission = GER_relocate_industry_from_paris						
-						}
-					}						
-				}
-				
-				custom_effect_tooltip = Germany_exploit_foreign_workers_tt
-			
-			custom_effect_tooltip = GER_relocate_industry_from_paris_tt
-        }
-
-        complete_effect = {
-
-        }
-
-	}	
 	
 	GER_relocate_industry_from_bourgougne = {
 		icon = generic_construction
