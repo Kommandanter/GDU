@@ -2987,7 +2987,7 @@ technologies = {
 		
 		infantry = {
 			max_organisation = 5
-			max_strength = 6.5
+			max_strength = 7
 		}
 
 
@@ -3039,13 +3039,13 @@ technologies = {
 		}
 		
 		artillery_brigade = { 
-			max_strength = 12
+			max_strength = 10.5
 		}
 		mot_artillery_brigade = {
 			max_strength = 12
 		}
 		rocket_artillery_brigade = {
-			max_strength = 12
+			max_strength = 10.5
 		}
 		motorized_rocket_brigade = {
 			max_strength = 12
