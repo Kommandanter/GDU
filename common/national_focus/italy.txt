@@ -537,7 +537,14 @@ focus_tree = {
 						province = 13238
 						instant_build = yes
 					}
-
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = infrastructure
+						level = 5
+						instant_build = yes
+					}
+				}
 				add_building_construction = {
 						type = bunker
 						level = 2
@@ -626,7 +633,7 @@ focus_tree = {
 						instant_build = yes
 					}
 				}
-			}
+			}			
 		}
 	}
 

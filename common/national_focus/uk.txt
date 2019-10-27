@@ -2402,8 +2402,15 @@ focus_tree = {
 					level = 2
 					province = 7188
 					instant_build = yes
-				}
+				}				
 			}
+			453 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 4
+						instant_build = yes
+					}						
+			}			
 		}
 	}
 

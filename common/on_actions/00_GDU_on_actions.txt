@@ -4012,13 +4012,15 @@ activate_mission = SOV_relocate_industry_from_zaporozhe
 							NOT = { has_global_flag = total_war }
 						}
 						GER = { country_event = { id = pfu.21 } }
-					}
+					}				
+				}
+
 
 			}
 			}
 
 			
-		}
+		
 		
 	
 
