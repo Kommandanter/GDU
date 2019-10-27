@@ -6,8 +6,8 @@ USA_congress = {
 		}
 		visible = {has_government = democratic }
 		cost = 40
-		days_remove = 90
-		days_re_enable = 275
+		days_remove = 120
+		days_re_enable = 300
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -26,8 +26,8 @@ USA_congress = {
 		}
 		visible = {has_government = democratic }
 		cost = 40
-		days_remove = 90
-		days_re_enable = 275
+		days_remove = 120
+		days_re_enable = 300
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -35,7 +35,7 @@ USA_congress = {
 				factor = 0
 			}
 		}
-		modifier = { research_speed_factor = 0.04 }
+		modifier = { research_speed_factor = 0.05 }
 		remove_effect = {
 		}
 	}
@@ -53,7 +53,7 @@ USA_congress = {
 		highlight_states = {
 			has_state_flag = USA_congress_build_factory
 		}
-		days_mission_timeout = 250
+		days_mission_timeout = 275
 		is_good = no
 		activation = {
 			any_owned_state = {
@@ -69,7 +69,7 @@ USA_congress = {
 				clear_variable = factory_goal
 			}
 			
-			add_political_power = -5
+			add_political_power = -20
 			clr_country_flag = USA_congress_investment
 		}
 		complete_effect = {
@@ -81,7 +81,7 @@ USA_congress = {
 				clear_variable = factory_goal
 			}
 			ROOT = {
-				add_political_power = 20 
+				add_political_power = 50 
 				clr_country_flag = USA_congress_investment
 			}
 			
@@ -101,7 +101,7 @@ USA_congress = {
 		highlight_states = {
 			has_state_flag = USA_congress_build_arms_factory
 		}
-		days_mission_timeout = 250
+		days_mission_timeout = 275
 		is_good = no
 		activation = {
 			any_owned_state = {
@@ -117,7 +117,7 @@ USA_congress = {
 				clear_variable = arms_factory_goal
 			}
 			
-			add_political_power = -5 
+			add_political_power = -15
 			clr_country_flag = USA_congress_investment
 		}
 		complete_effect = {
@@ -129,7 +129,7 @@ USA_congress = {
 				clear_variable = arms_factory_goal
 			}
 			ROOT = {
-				add_political_power = 20 
+				add_political_power = 40 
 				clr_country_flag = USA_congress_investment
 			}
 			
@@ -149,7 +149,7 @@ USA_congress = {
 		highlight_states = {
 			has_state_flag = USA_congress_build_dockyard
 		}
-		days_mission_timeout = 250
+		days_mission_timeout = 275
 		is_good = no
 		activation = {
 			any_owned_state = {
@@ -164,7 +164,7 @@ USA_congress = {
 				clr_state_flag = USA_congress_build_dockyard
 				clear_variable = dockyard_goal
 			}
-			add_political_power = -5 
+			add_political_power = -15 
 			clr_country_flag = USA_congress_investment
 		}
 		complete_effect = {
@@ -176,7 +176,7 @@ USA_congress = {
 				clear_variable = dockyard_goal
 			}
 			ROOT = {
-				add_political_power = 20 
+				add_political_power = 40 
 				clr_country_flag = USA_congress_investment
 			}
 		}
@@ -195,7 +195,7 @@ USA_congress = {
 		highlight_states = {
 			has_state_flag = USA_congress_build_infrastructure
 		}
-		days_mission_timeout = 250
+		days_mission_timeout = 275
 		is_good = no
 		activation = {
 			any_owned_state = {
@@ -211,7 +211,7 @@ USA_congress = {
 				clear_variable = infrastructure_goal
 			}
 			
-			add_political_power = -5 
+			add_political_power = -10
 			clr_country_flag = USA_congress_investment
 		}
 		complete_effect = {
@@ -223,7 +223,7 @@ USA_congress = {
 				clear_variable = infrastructure_goal
 			}
 			ROOT = {
-				add_political_power = 20 
+				add_political_power = 35
 				clr_country_flag = USA_congress_investment
 			}
 			

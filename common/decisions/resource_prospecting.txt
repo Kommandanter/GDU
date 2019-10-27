@@ -1357,7 +1357,7 @@ prospect_for_resources = {
 
 		fire_only_once = yes
 
-		cost = 25
+		cost = 15
 		days_remove = 90
 
 		modifier = {
@@ -1373,7 +1373,7 @@ prospect_for_resources = {
 			331 = {
 				add_resource = {
 					type = steel
-					amount = 12
+					amount = 24
 				}
 			}
 		}
@@ -1411,7 +1411,7 @@ prospect_for_resources = {
 
 		fire_only_once = yes
 
-		cost = 25
+		cost = 15
 		days_remove = 90
 
 		modifier = {
@@ -1424,7 +1424,7 @@ prospect_for_resources = {
 			466 = {
 				add_resource = {
 					type = steel
-					amount = 12
+					amount = 24
 				}
 			}
 		}
@@ -1521,11 +1521,11 @@ prospect_for_resources = {
 			}
 		}
 
-		cost = 25
+		cost = 15
 		days_remove = USA_arkansas_aluminium_duration
 
 		modifier = {
-			civilian_factory_use = 12
+			civilian_factory_use = 3
 		}
 
 		remove_effect = {
@@ -1552,7 +1552,7 @@ prospect_for_resources = {
 			372 = {
 				add_resource = {
 					type = aluminium
-					amount = 12
+					amount = 35
 				}
 			}
 		}
@@ -1600,11 +1600,11 @@ prospect_for_resources = {
 			}
 		}
 
-		cost = 25
+		cost = 15
 		days_remove = USA_new_york_aluminium_duration
 
 		modifier = {
-			civilian_factory_use = 12
+			civilian_factory_use = 3
 		}
 
 		ai_will_do = {
@@ -1635,7 +1635,7 @@ prospect_for_resources = {
 			358 = {
 				add_resource = {
 					type = aluminium
-					amount = 12
+					amount = 35
 				}
 			}
 		}
@@ -1681,11 +1681,11 @@ prospect_for_resources = {
 			}
 		}
 
-		cost = 25
+		cost = 15
 		days_remove = USA_tennessee_aluminium_duration
 
 		modifier = {
-			civilian_factory_use = 12
+			civilian_factory_use = 3
 		}
 
 		ai_will_do = {
@@ -1716,7 +1716,7 @@ prospect_for_resources = {
 			368 = {
 				add_resource = {
 					type = aluminium
-					amount = 12
+					amount = 35
 				}
 			}
 		}
@@ -1762,11 +1762,11 @@ prospect_for_resources = {
 			}
 		}
 
-		cost = 25
+		cost = 15
 		days_remove = USA_washington_aluminium_duration
 
 		modifier = {
-			civilian_factory_use = 12
+			civilian_factory_use = 3
 		}
 
 		ai_will_do = {
@@ -1797,7 +1797,7 @@ prospect_for_resources = {
 			386 = {
 				add_resource = {
 					type = aluminium
-					amount = 12
+					amount = 35
 				}
 			}
 		}
@@ -1847,7 +1847,7 @@ prospect_for_resources = {
 		days_remove = USA_idaho_tungsten_duration
 
 		modifier = {
-			civilian_factory_use = 12
+			civilian_factory_use = 5
 		}
 
 		ai_will_do = {
@@ -1878,7 +1878,7 @@ prospect_for_resources = {
 			387 = {
 				add_resource = {
 					type = tungsten
-					amount = 6
+					amount = 40
 				}
 			}
 		}
@@ -1928,7 +1928,7 @@ prospect_for_resources = {
 		days_remove = USA_california_tungsten_duration
 
 		modifier = {
-			civilian_factory_use = 12
+			civilian_factory_use = 5
 		}
 
 		ai_will_do = {
@@ -1959,7 +1959,7 @@ prospect_for_resources = {
 			378 = {
 				add_resource = {
 					type = tungsten
-					amount = 6
+					amount = 40
 				}
 			}
 		}
@@ -2005,11 +2005,11 @@ prospect_for_resources = {
 			}
 		}
 
-		cost = 25
+		cost = 15
 		days_remove = USA_minnesota_steel_duration
 
 		modifier = {
-			civilian_factory_use = 12
+			civilian_factory_use = 3
 		}
 
 		ai_will_do = {
@@ -2040,7 +2040,7 @@ prospect_for_resources = {
 			391 = {
 				add_resource = {
 					type = steel
-					amount = 12
+					amount = 50
 				}
 			}
 		}
@@ -2086,11 +2086,11 @@ prospect_for_resources = {
 			}
 		}
 
-		cost = 25
+		cost = 15
 		days_remove = USA_pennsylvania_steel_duration
 
 		modifier = {
-			civilian_factory_use = 12
+			civilian_factory_use = 3
 		}
 
 		ai_will_do = {
@@ -2121,7 +2121,7 @@ prospect_for_resources = {
 			360 = {
 				add_resource = {
 					type = steel
-					amount = 12
+					amount = 50
 				}
 			}
 		}
@@ -2168,11 +2168,11 @@ prospect_for_resources = {
 			}
 		}
 
-		cost = 25
+		cost = 15
 		days_remove = USA_ohio_steel_duration
 
 		modifier = {
-			civilian_factory_use = 12
+			civilian_factory_use = 3
 		}
 
 		ai_will_do = {
@@ -2203,7 +2203,7 @@ prospect_for_resources = {
 			261 = {
 				add_resource = {
 					type = steel
-					amount = 12
+					amount = 50
 				}
 			}
 		}
@@ -2249,11 +2249,11 @@ prospect_for_resources = {
 			}
 		}
 
-		cost = 25
+		cost = 15
 		days_remove = USA_indiana_steel_duration
 
 		modifier = {
-			civilian_factory_use = 12
+			civilian_factory_use = 3
 		}
 
 		ai_will_do = {
@@ -2284,7 +2284,7 @@ prospect_for_resources = {
 			396 = {
 				add_resource = {
 					type = steel
-					amount = 12
+					amount = 50
 				}
 			}
 		}
@@ -2336,7 +2336,7 @@ prospect_for_resources = {
 		days_remove = USA_montana_chromium_duration
 
 		modifier = {
-			civilian_factory_use = 12
+			civilian_factory_use = 5
 		}
 
 		ai_will_do = {
@@ -2367,7 +2367,7 @@ prospect_for_resources = {
 			388 = {
 				add_resource = {
 					type = chromium
-					amount = 6
+					amount = 35
 				}
 			}
 		}
@@ -2419,7 +2419,7 @@ prospect_for_resources = {
 		days_remove = USA_california_chromium_duration
 
 		modifier = {
-			civilian_factory_use = 12
+			civilian_factory_use = 5
 		}
 
 		ai_will_do = {
@@ -2450,7 +2450,7 @@ prospect_for_resources = {
 			378 = {
 				add_resource = {
 					type = chromium
-					amount = 6
+					amount = 35
 				}
 			}
 		}
@@ -2505,7 +2505,7 @@ prospect_for_resources = {
 			537 = {
 				add_resource = {
 					type = oil
-					amount = 8
+					amount = 12
 				}
 				set_state_flag = sakhalin_oil_developed
 			}
@@ -3668,7 +3668,7 @@ prospect_for_resources = {
 		days_remove = SOV_Belgorod_steel_duration_3
 
 		modifier = {
-			civilian_factory_use = 15
+			civilian_factory_use = 5
 		}
 
 		ai_will_do = {
@@ -3705,7 +3705,7 @@ prospect_for_resources = {
 			240 = {
 				add_resource = {
 					type = steel
-					amount = 12
+					amount = 24
 				}
 			}
 		}
@@ -3772,7 +3772,7 @@ prospect_for_resources = {
 			407 = {
 				add_resource = {
 					type = chromium
-					amount = 10
+					amount = 16
 				}
 			}
 		}
@@ -3831,7 +3831,7 @@ prospect_for_resources = {
 			407 = {
 				add_resource = {
 					type = chromium
-					amount = 15
+					amount = 24
 				}
 			}
 		}

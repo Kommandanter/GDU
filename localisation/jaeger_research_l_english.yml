@@ -1,10 +1,10 @@
 ﻿l_english:
-jaegers:0"Jaeger I"
-jaegers_desc:0"Jaeger are forces that specialize in surviving the wilderness of the boreal forest. Usually these troops are native to their territory and take a long time to train."
-jaegers2:0"Jaeger II"
-jaegers2_desc:0"Jaeger are forces that specialize in surviving the wilderness of the boreal forest. Usually these troops are native to their territory and take a long time to train."
-jaegers3:0"Jaeger III"
-jaegers3_desc:0"Jaeger are forces that specialize in surviving the wilderness of the boreal forest. Usually these troops are native to their territory and take a long time to train."
+jaegers:0"Jäger I"
+jaegers_desc:0"Jägers, or 'hunters,' are forces that specialize in surviving the wilderness of the boreal forest. Usually these troops are native to their territory and take a long time to train."
+jaegers2:0"Jäger II"
+jaegers2_desc:0"Jägers, or 'hunters,' are forces that specialize in surviving the wilderness of the boreal forest. Usually these troops are native to their territory and take a long time to train."
+jaegers3:0"Jäger III"
+jaegers3_desc:0"Jägers, or 'hunters,' are forces that specialize in surviving the wilderness of the boreal forest. Usually these troops are native to their territory and take a long time to train."
 
 jungletroops:0"Jungle Specialists I"
 jungletroops_desc:0"Jungle Specialists are trained to sustain the harsh conditions of the Jungle Warfare and to cope with the frequent lack of supplies."
@@ -39,8 +39,8 @@ tech_flamethrower3_desc:0"Flamethrowers are very useful in close combat and can 
 tech_flamethrower4:0"Flamethrower IV"
 tech_flamethrower4_desc:0"Flamethrowers are very useful in close combat and can be used very effectively in urban warfare and against fixed fortifications. These also add a substantial soft attack to your Divisions."
 
-jaeger:0"Jaeger"
-jaeger_desc:0"Jaeger are forces that specialize in surviving the wilderness of the boreal forest. Usually these troops are native to their territory and take a long time to train."
+jaeger:0"Jäger"
+jaeger_desc:0"Jägers, or 'hunters,' are forces that specialize in surviving the wilderness of the boreal forest. Usually these troops are native to their territory and take a long time to train."
 
 jungletroop:0"Jungle Specialists"
 jungletroop_desc:0"Jungle Specialists are trained to sustain the harsh conditions of Jungle Warfare and challenge the Enemy on their own terms."

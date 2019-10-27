@@ -636,7 +636,7 @@ ideas = {
 			
 			modifier = { 
 				production_factory_efficiency_gain_factor = 0.1 
-				training_time_factor = -0.25
+				training_time_factor = -0.15
 			}
 		}
 	
