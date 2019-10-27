@@ -3444,7 +3444,26 @@ activate_mission = SOV_relocate_industry_from_zaporozhe
 				}
 				#
 				news_event = { id = news.236 }
-				WGR = {
+				FRF = {
+				    annex_country = { target = EFR transfer_troops = no }
+				}
+				USA = { 
+    				annex_country = { target = ITA transfer_troops = no }
+				} 
+				SOV = { 
+    				annex_country = { target = GER transfer_troops = no }
+    				annex_country = { target = HUN transfer_troops = no }
+    				annex_country = { target = BUL transfer_troops = no }
+    				annex_country = { target = ROM transfer_troops = no }
+				} 
+				VEN = { 
+				    country_event = { id = yalta.1 days = 3 } 
+				    country_event = { id = yalta.2 days = 6 } 
+				    country_event = { id = yalta.3 days = 9 } 
+				    country_event = { id = yalta.4 days = 12 } 
+				    country_event = { id = yalta.5 days = 15 } 
+				}
+			    WGR = {
         			add_state_core = 42
         			add_state_core = 50
         			add_state_core = 51
@@ -3457,40 +3476,6 @@ activate_mission = SOV_relocate_industry_from_zaporozhe
         			add_state_core = 58
         			add_state_core = 59
         		}
-				every_state = {
-					limit = {
-						is_core_of = WGR
-					}
-					DDR = {
-						transfer_state = WGR
-					}
-				}
-				FRF = {
-				    annex_country = { target = EFR transfer_troops = no }
-				}
-				every_state = {
-					limit = {
-						is_core_of = FRF
-					}
-					FRF = {
-						transfer_state = PREV
-					}
-				}
-				USA = { 
-    				annex_country = { target = ITA transfer_troops = no }
-				} 
-				SOV = { 
-    				annex_country = { target = HUN transfer_troops = no }
-    				annex_country = { target = BUL transfer_troops = no }
-    				annex_country = { target = ROM transfer_troops = no }
-				} 
-				VEN = { 
-				    country_event = { id = yalta.1 days = 3 } 
-				    country_event = { id = yalta.2 days = 6 } 
-				    country_event = { id = yalta.3 days = 9 } 
-				    country_event = { id = yalta.4 days = 12 } 
-				    country_event = { id = yalta.5 days = 15 } 
-				}
         		DDR = {
         			add_state_core = 60
         			add_state_core = 61
@@ -3500,28 +3485,12 @@ activate_mission = SOV_relocate_industry_from_zaporozhe
         			add_state_core = 66
         			add_state_core = 67
         		}
-				every_state = {
-					limit = {
-						is_core_of = DDR
-					}
-					DDR = {
-						transfer_state = PREV
-					}
-				}
         		POL = {
         			add_state_core = 66
         			add_state_core = 67
         			add_state_core = 68
         			add_state_core = 63
         		}
-				every_state = {
-					limit = {
-						is_core_of = POL
-					}
-					POL = {
-						transfer_state = PREV
-					}
-				}
 				#
 			}	
 		}
@@ -4017,10 +3986,8 @@ activate_mission = SOV_relocate_industry_from_zaporozhe
 				hidden_effect = {
 					set_global_flag = GDU_dday_started
 					GER = { 
-						activate_mission = GER_defeat_dday
-						annex_country = { target = EFR transfer_troops = no }						
+						activate_mission = GER_defeat_dday					
 					}
-				}
 				}
 					ENG = { country_event = { id = gduevents.35 } }
 					USA = { country_event = { id = gduevents.35 } }
