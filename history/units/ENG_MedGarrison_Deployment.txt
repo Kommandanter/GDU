@@ -64,157 +64,157 @@ division_template = {
 }
 units = {
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = 2
+		start_equipment_factor = 0.01 start_experience_factor = .3
 		location = 4135
 		division_template = "Royal Gibraltar Regiment"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = 2
+		start_equipment_factor = 0.01 start_experience_factor = .3
 		location = 4135
 		division_template = "Royal Gibraltar Regiment"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = 2
+		start_equipment_factor = 0.01 start_experience_factor = .3
 		location = 4135
 		division_template = "Royal Gibraltar Regiment"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = 2
+		start_equipment_factor = 0.01 start_experience_factor = .3
 		location = 4135
 		division_template = "Royal Gibraltar Regiment"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = 2
+		start_equipment_factor = 0.01 start_experience_factor = .3
 		location = 4135
 		division_template = "Royal Gibraltar Regiment"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = 2
+		start_equipment_factor = 0.01 start_experience_factor = .3
 		location = 13253
 		division_template = "Royal Gibraltar Regiment"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = 2
+		start_equipment_factor = 0.01 start_experience_factor = .3
 		location = 13253
 		division_template = "Royal Gibraltar Regiment"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = 2
+		start_equipment_factor = 0.01 start_experience_factor = .3
 		location = 13253
 		division_template = "Royal Gibraltar Regiment"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = 2
+		start_equipment_factor = 0.01 start_experience_factor = .3
 		location = 12003
 		division_template = "Northumbrian Infantry Army"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = 2
+		start_equipment_factor = 0.01 start_experience_factor = .3
 		location = 12003
 		division_template = "Northumbrian Infantry Army"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = 2
+		start_equipment_factor = 0.01 start_experience_factor = .3
 		location = 11984
 		division_template = "Northumbrian Infantry Army"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = 2
+		start_equipment_factor = 0.01 start_experience_factor = .3
 		location = 11984
 		division_template = "Northumbrian Infantry Army"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = 2
+		start_equipment_factor = 0.01 start_experience_factor = .3
 		location = 11984
 		division_template = "Northumbrian Infantry Army"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = 2
+		start_equipment_factor = 0.01 start_experience_factor = .3
 		location = 7193
 		division_template = "Northumbrian Infantry Army"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = 2
+		start_equipment_factor = 0.01 start_experience_factor = .3
 		location = 7193
 		division_template = "Northumbrian Infantry Army"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = 2
+		start_equipment_factor = 0.01 start_experience_factor = .3
 		location = 4206
 		division_template = "Northumbrian Infantry Army"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = 2
+		start_equipment_factor = 0.01 start_experience_factor = .3
 		location = 4206
 		division_template = "Northumbrian Infantry Army"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = 2
+		start_equipment_factor = 0.01 start_experience_factor = .3
 		location = 1201
 		division_template = "Northumbrian Infantry Army"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = 2
+		start_equipment_factor = 0.01 start_experience_factor = .3
 		location = 4088
 		division_template = "Northumbrian Infantry Army"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = 2
+		start_equipment_factor = 0.01 start_experience_factor = .3
 		location = 1155
 		division_template = "Northumbrian Infantry Army"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = 2
+		start_equipment_factor = 0.01 start_experience_factor = .3
 		location = 1155
 		division_template = "Northumbrian Infantry Army"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = 2
+		start_equipment_factor = 0.01 start_experience_factor = .3
 		location = 11979
 		division_template = "Northumbrian Infantry Army"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = 2
+		start_equipment_factor = 0.01 start_experience_factor = .3
 		location = 12049
 		division_template = "Northumbrian Infantry Army"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = 2
+		start_equipment_factor = 0.01 start_experience_factor = .3
 		location = 4076
 		division_template = "Northumbrian Infantry Army"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = 2
+		start_equipment_factor = 0.01 start_experience_factor = .3
 		location = 4076
 		division_template = "Northumbrian Infantry Army"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = 2
+		start_equipment_factor = 0.01 start_experience_factor = .3
 		location = 7091
 		division_template = "Northumbrian Infantry Army"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
