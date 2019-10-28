@@ -212,7 +212,8 @@ technologies = {
 		allow = { 
 			NOT =
 				{
-					TAG = SPR					
+					TAG = SPR
+					TAG = FRA
 				}
 		}
 
