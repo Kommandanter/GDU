@@ -33,217 +33,217 @@
 
 units = {
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = .3
+		start_equipment_factor = 0.01 start_experience_factor = .8
 		location = 7315
 		division_template = "Pacific Garrisons"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "USA" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = .3
+		start_equipment_factor = 0.01 start_experience_factor = .8
 		location = 7315
 		division_template = "Pacific Garrisons"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "USA" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = .3
+		start_equipment_factor = 0.01 start_experience_factor = .8
 		location = 7386
 		division_template = "Pacific Garrisons"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "USA" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = .3
+		start_equipment_factor = 0.01 start_experience_factor = .8
 		location = 12211
 		division_template = "Pacific Garrisons"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "USA" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = .3
+		start_equipment_factor = 0.01 start_experience_factor = .8
 		location = 10183
 		division_template = "Pacific Garrisons"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "USA" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = .3
+		start_equipment_factor = 0.01 start_experience_factor = .8
 		location = 4380
 		division_template = "Pacific Garrisons"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "USA" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = .3
+		start_equipment_factor = 0.01 start_experience_factor = .8
 		location = 610
 		division_template = "Pacific Garrisons"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "USA" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = .3
+		start_equipment_factor = 0.01 start_experience_factor = .8
 		location = 610
 		division_template = "Pacific Garrisons"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "USA" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = .3
+		start_equipment_factor = 0.01 start_experience_factor = .8
 		location = 3644
 		division_template = "Pacific Garrisons"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "USA" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = .3
+		start_equipment_factor = 0.01 start_experience_factor = .8
 		location = 9730
 		division_template = "Pacific Garrisons"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "USA" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = .3
+		start_equipment_factor = 0.01 start_experience_factor = .8
 		location = 9671
 		division_template = "Pacific Garrisons"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "USA" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = .3
+		start_equipment_factor = 0.01 start_experience_factor = .8
 		location = 9671
 		division_template = "Pacific Garrisons"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "USA" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = .3
+		start_equipment_factor = 0.01 start_experience_factor = .8
 		location = 3678
 		division_template = "Pacific Garrisons"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "USA" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = .3
+		start_equipment_factor = 0.01 start_experience_factor = .8
 		location = 9637
 		division_template = "Pacific Garrisons"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "USA" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = .3
+		start_equipment_factor = 0.01 start_experience_factor = .8
 		location = 9814
 		division_template = "Pacific Garrisons"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "USA" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = .3
+		start_equipment_factor = 0.01 start_experience_factor = .8
 		location = 9814
 		division_template = "Pacific Garrisons"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "USA" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = .3
+		start_equipment_factor = 0.01 start_experience_factor = .8
 		location = 11859
 		division_template = "Pacific Garrisons"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "USA" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = .3
+		start_equipment_factor = 0.01 start_experience_factor = .8
 		location = 11757
 		division_template = "Pacific Garrisons"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "USA" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = .3
+		start_equipment_factor = 0.01 start_experience_factor = .8
 		location = 7517
 		division_template = "Pacific Garrisons"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "USA" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = .3
+		start_equipment_factor = 0.01 start_experience_factor = .8
 		location = 1562
 		division_template = "Pacific Garrisons"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "USA" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = .3
+		start_equipment_factor = 0.01 start_experience_factor = .8
 		location = 1562
 		division_template = "Pacific Garrisons"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "USA" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = .3
+		start_equipment_factor = 0.01 start_experience_factor = .8
 		location = 4180
 		division_template = "Pacific Garrisons"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "USA" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = .3
+		start_equipment_factor = 0.01 start_experience_factor = .8
 		location = 4180
 		division_template = "Pacific Garrisons"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "USA" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = .3
+		start_equipment_factor = 0.01 start_experience_factor = .8
 		location = 7112
 		division_template = "Pacific Garrisons"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "USA" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = .3
+		start_equipment_factor = 0.01 start_experience_factor = .8
 		location = 7195
 		division_template = "Pacific Garrisons"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "USA" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = .3
+		start_equipment_factor = 0.01 start_experience_factor = .8
 		location = 12021
 		division_template = "Pacific Garrisons"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "USA" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = .3
+		start_equipment_factor = 0.01 start_experience_factor = .8
 		location = 13051
 		division_template = "Pacific Garrisons"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "USA" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = .3
+		start_equipment_factor = 0.01 start_experience_factor = .8
 		location = 13051
 		division_template = "Pacific Garrisons"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "USA" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = .3
+		start_equipment_factor = 0.01 start_experience_factor = .8
 		location = 13052
 		division_template = "Pacific Garrisons"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "USA" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = .3
+		start_equipment_factor = 0.01 start_experience_factor = .8
 		location = 13052
 		division_template = "Pacific Garrisons"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "USA" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = .3
+		start_equipment_factor = 0.01 start_experience_factor = .8
 		location = 13047
 		division_template = "Pacific Garrisons"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "USA" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = .3
+		start_equipment_factor = 0.01 start_experience_factor = .8
 		location = 13047
 		division_template = "Pacific Garrisons"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "USA" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = .3
+		start_equipment_factor = 0.01 start_experience_factor = .8
 		location = 12140
 		division_template = "Pacific Garrisons"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "USA" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = .3
+		start_equipment_factor = 0.01 start_experience_factor = .8
 		location = 12140
 		division_template = "Pacific Garrisons"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "USA" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = .3
+		start_equipment_factor = 0.01 start_experience_factor = .8
 		location = 13067
 		division_template = "Pacific Garrisons"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "USA" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = .3
+		start_equipment_factor = 0.01 start_experience_factor = .8
 		location = 13067 
 		division_template = "Pacific Garrisons"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "USA" } }

@@ -3979,16 +3979,14 @@ activate_mission = SOV_relocate_industry_from_zaporozhe
 						controls_state = 833 # Bremen
 						controls_state = 834 # Schleswig-Holstein
 					}	
-				}
+								
+						
+					}
 				
 				hidden_effect = {
 					set_global_flag = GDU_dday_started
 					GER = { 
-						activate_mission = GER_defeat_dday	
-						annex_country = { target = EFR transfer_troops = no }
-					}
-					ITA = { 
-						set_country_flag = case_anton 
+						activate_mission = GER_defeat_dday					
 					}
 				}
 					ENG = { country_event = { id = gduevents.35 } }
@@ -4015,9 +4013,11 @@ activate_mission = SOV_relocate_industry_from_zaporozhe
 						}
 						GER = { country_event = { id = pfu.21 } }
 					}				
+				}
+
+
 			}
-		}
-	}
+			}
 
 			
 		

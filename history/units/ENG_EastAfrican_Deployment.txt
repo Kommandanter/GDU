@@ -64,31 +64,31 @@ division_template = {
 }
 units = {
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = .3
+		start_equipment_factor = 0.01 start_experience_factor = 2
 		location = 10840
 		division_template = "Aden Protectorate Levies"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = .3
+		start_equipment_factor = 0.01 start_experience_factor = 2
 		location = 10840
 		division_template = "Aden Protectorate Levies"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = .3
+		start_equipment_factor = 0.01 start_experience_factor = 2
 		location = 1920
 		division_template = "Aden Protectorate Levies"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = .3
+		start_equipment_factor = 0.01 start_experience_factor = 2
 		location = 10752
 		division_template = "Aden Protectorate Levies"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = .3
+		start_equipment_factor = 0.01 start_experience_factor = 2
 		location = 10752
 		division_template = "Aden Protectorate Levies"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
@@ -97,139 +97,139 @@ units = {
 	##Regular Infantry##
 	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = .3
+		start_equipment_factor = 0.01 start_experience_factor = 2
 		location = 10777
 		division_template = "SDF 12th Infantry Army"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = .3
+		start_equipment_factor = 0.01 start_experience_factor = 2
 		location = 5068
 		division_template = "SDF 12th Infantry Army"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = .3
+		start_equipment_factor = 0.01 start_experience_factor = 2
 		location = 8094
 		division_template = "SDF 12th Infantry Army"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = .3
+		start_equipment_factor = 0.01 start_experience_factor = 2
 		location = 12814
 		division_template = "SDF 12th Infantry Army"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = .3
+		start_equipment_factor = 0.01 start_experience_factor = 2
 		location = 10921
 		division_template = "SDF 12th Infantry Army"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = .3
+		start_equipment_factor = 0.01 start_experience_factor = 2
 		location = 12725
 		division_template = "SDF 12th Infantry Army"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = .3
+		start_equipment_factor = 0.01 start_experience_factor = 2
 		location = 12725
 		division_template = "SDF 12th Infantry Army"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = .3
+		start_equipment_factor = 0.01 start_experience_factor = 2
 		location = 1977
 		division_template = "SDF 12th Infantry Army"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = .3
+		start_equipment_factor = 0.01 start_experience_factor = 2
 		location = 1977
 		division_template = "SDF 12th Infantry Army"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = .3
+		start_equipment_factor = 0.01 start_experience_factor = 2
 		location = 2003
 		division_template = "SDF 12th Infantry Army"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = .3
+		start_equipment_factor = 0.01 start_experience_factor = 2
 		location = 2088
 		division_template = "SDF 12th Infantry Army"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = .3
+		start_equipment_factor = 0.01 start_experience_factor = 2
 		location = 12862
 		division_template = "SDF 12th Infantry Army"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = .3
+		start_equipment_factor = 0.01 start_experience_factor = 2
 		location = 4918
 		division_template = "SDF 12th Infantry Army"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = .3
+		start_equipment_factor = 0.01 start_experience_factor = 2
 		location = 12887
 		division_template = "SDF 12th Infantry Army"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = .3
+		start_equipment_factor = 0.01 start_experience_factor = 2
 		location = 12800
 		division_template = "SDF 12th Infantry Army"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = .3
+		start_equipment_factor = 0.01 start_experience_factor = 2
 		location = 10877
 		division_template = "SDF 12th Infantry Army"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = .3
+		start_equipment_factor = 0.01 start_experience_factor = 2
 		location = 10859
 		division_template = "SDF 12th Infantry Army"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
 	}	
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = .3
+		start_equipment_factor = 0.01 start_experience_factor = 2
 		location = 11145
 		division_template = "SDF 12th Infantry Army"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
 	}
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = .3
+		start_equipment_factor = 0.01 start_experience_factor = 2
 		location = 2066
 		division_template = "SDF 12th Infantry Army"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
 	}
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = .3
+		start_equipment_factor = 0.01 start_experience_factor = 2
 		location = 8133
 		division_template = "SDF 12th Infantry Army"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
 	}
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = .3
+		start_equipment_factor = 0.01 start_experience_factor = 2
 		location = 12927
 		division_template = "SDF 12th Infantry Army"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
 	}
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = .3
+		start_equipment_factor = 0.01 start_experience_factor = 2
 		location = 10761
 		division_template = "SDF 12th Infantry Army"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
 	}
 	division = {	
-		start_equipment_factor = 0.01 start_experience_factor = .3
+		start_equipment_factor = 0.01 start_experience_factor = 2
 		location = 10976
 		division_template = "SDF 12th Infantry Army"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
