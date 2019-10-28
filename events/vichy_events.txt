@@ -50,10 +50,17 @@ country_event = {
 				target = EFR
 				type = annex_everything
 			}
-				USA = {
-					transfer_state = 461
-					transfer_state = 462					
-					}	
+
+					if = { 
+						limit = { 461 = { is_controlled_by = EFR } } 
+						USA = { transfer_state = 461 }					
+					}
+					if = { 
+						limit = { 462 = { is_controlled_by = EFR } } 
+						USA = { transfer_state = 462 }					
+					}					
+					
+						
 		}
 			461 = {
 				add_building_construction = {
