@@ -1,5 +1,7 @@
 ﻿l_english:
 
+    DELETE_DOCK:0 "Remove a Dockyard"
+
     yarrow_shipbuilders_GER:0 "Yarrow Shipbuilders"
 
     AXIS_fail_sealion_idea:0 "Failed Sealion"

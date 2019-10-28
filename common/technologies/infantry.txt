@@ -198,6 +198,18 @@ technologies = {
 	}
 	}
 
+
+	FRA_inf_cav_tech = {
+
+		enable_subunits = {
+			infantry
+			cavalry
+		}
+		
+		allow = { always = no }
+		
+	}
+
 	infantry_weapons = {
 
 		enable_equipments = {

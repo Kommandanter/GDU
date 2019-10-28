@@ -8,10 +8,12 @@ if = {
 		set_naval_oob = "FRA_1936_naval_legacy"
 	}
 }
+
 set_research_slots = 3
 add_timed_idea = { idea = airandnavy_idea days = 1172 }
 # Starting tech
 set_technology = {
+	FRA_inf_cav_tech = 1
 	infantry_weapons1 = 1
 	tech_support = 1
 	tech_recon = 1

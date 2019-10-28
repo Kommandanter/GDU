@@ -10,6 +10,7 @@ state={
 		owner = HOL
 		buildings = {
 			infrastructure = 6
+			dockyard = 3
 			industrial_complex = 2
 			6336 = {
 				naval_base = 3

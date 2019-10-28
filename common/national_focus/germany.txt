@@ -1491,6 +1491,7 @@ activate_mission = GER_relocate_industry_from_friesland
 			add_tech_bonus = {
 				bonus = 1.25
 				uses = 1
+				ahead_reduction = 1.0				
 				name = mech_army_bonus
 				category = cat_mechanized_1
 			}
