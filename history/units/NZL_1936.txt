@@ -91,7 +91,15 @@ division_template = {
 	priority = 0
 }
 
-units = {}
+units = {
+	division= {
+		name = "Use this division to select generals' traits"
+		location = 1814
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+	}
+}
 
 
 

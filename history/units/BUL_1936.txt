@@ -33,8 +33,15 @@
 }
 
 
-units = {}
-
+units = {
+	division= {
+		name = "Use this division to select generals' traits"
+		location = 949
+		division_template = "Pekhotna Divizija"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+	}
+}
 
 
 ### Starting Production ###

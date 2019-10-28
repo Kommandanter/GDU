@@ -119,6 +119,7 @@ set_research_slots = 4
 set_convoys = 200
 set_stability = 0.75
 set_war_support = 0.40
+AUS = { give_military_access = GER }
 
 1939.1.1 = {
 	add_named_threat = { threat = 40 name = 1939_bookmark_threat }

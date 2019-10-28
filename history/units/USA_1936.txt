@@ -127,8 +127,15 @@ division_template = {
 
 
 ###### OOB ######
-units = {}
-
+units = {
+	division= {
+		name = "Use this division to select generals' traits"
+		location = 3957
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+	}
+}
 	##### NAVAL UNITS #####
 
 	air_wings = {

@@ -172,8 +172,15 @@ division_template = {
 	}
 }
 
-units = {}
-
+units = {
+	division= {
+		name = "Use this division to select generals' traits"
+		location = 6103
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+	}
+}
 air_wings = {
 	### RAF Fighter Command ###
 	126 = {
