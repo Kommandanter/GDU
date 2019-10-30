@@ -12,7 +12,10 @@ add_namespace = sovfin_events
 		immediate = { 
 			hidden_effect = {
 				if = {
-					limit = { casualties_k > 150 }    
+					limit = { 
+						casualties_k > 150 
+						date < 1941.5.5
+					}    
 					SOV = { set_country_flag = SOV_war_since_purge}
 					SOV = {
 						country_event = { id = finland.8 days = 7 }
@@ -44,6 +47,7 @@ add_namespace = sovfin_events
 							has_global_flag = finland_started_ai
 						}
 						SOV = { has_war_with = FIN }
+						date < 1941.5.5
 					}
 					SOV = { set_country_flag = SOV_war_since_purge}					
 					SOV = {

@@ -199,6 +199,7 @@ country_event = {
 		tag = SOV
 		has_global_flag = soviet_demand
 		NOT = { has_global_flag = finland_refuse }
+		date < 1941.5.5
 	}
 	mean_time_to_happen = { days = 5 }
 

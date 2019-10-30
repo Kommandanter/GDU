@@ -14,11 +14,6 @@ scripted_gui = {
 		effects = {
 			EAI_stockpile_close_button_click = {
 				clr_country_flag = EAI_config_STOCKPILE
-				if = { 
-					limit = { NOT = { has_country_flag = EAI_config_ARMY } }
-
-					clear_variable = EAI_configuration_target
-				}
 				EAI_clear_stockpile_variables = yes
 			}
 		}

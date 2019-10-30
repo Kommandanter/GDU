@@ -799,14 +799,6 @@ activate_mission = GER_relocate_industry_from_friesland
 
 		available = {
 		    date > 1941.7.1
-			AND = {
-				HUN = {
-					is_in_faction_with = ROOT
-				}
-				ROM = {
-					is_in_faction_with = ROOT
-				}
-			}
 		}
 
 		available_if_capitulated = no
