@@ -1165,7 +1165,7 @@ ideas = {
 			modifier = {
 				industry_repair_factor = 1.0
 				consumer_goods_factor = -0.1
-				training_time_factor = -0.7
+				minimum_training_level = -0.7
 				global_building_slots_factor = 0.05
 			}
 		}
@@ -1186,7 +1186,7 @@ ideas = {
 			modifier = {
 				consumer_goods_factor = -0.1
 				conscription = 0.02
-				training_time_factor = -0.7
+				minimum_training_level = -0.7
 				global_building_slots_factor = 0.05
 			}
 		}
@@ -1207,7 +1207,7 @@ ideas = {
 			modifier = {
 				consumer_goods_factor = -0.1
 				conscription = 0.02
-				training_time_factor = -0.7
+				minimum_training_level = -0.7
 				global_building_slots_factor = 0.10
 			}
 		}

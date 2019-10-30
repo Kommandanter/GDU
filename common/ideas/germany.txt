@@ -455,7 +455,7 @@ ideas = {
 				army_org_Factor = 0.05
 				army_morale_factor = 0.10
 				command_power_gain_mult = 0.35
-				training_time_factor = -0.2
+				training_time_factor = -0.15
 			}
 		}
 
@@ -662,7 +662,7 @@ ideas = {
 				army_morale_factor = 0.05
 				stability_weekly_factor = -0.002
 				war_support_weekly_factor = -0.002
-				training_time_factor = -0.5				
+				minimum_training_level = -0.5				
 			}
 		}
 
