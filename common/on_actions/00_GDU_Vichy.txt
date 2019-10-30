@@ -94,10 +94,10 @@ on_actions = {
 					create_navy_leader = {
 						name = "Émile Muselier"
 						picture = "Portrait_France_Emile_Muselier.dds"
-						traits = { spotter }
-						skill = 3
-						attack_skill = 3
-						defense_skill = 3
+						traits = { seawolf fleet_protector blockade_runner spotter }
+						skill = 5
+						attack_skill = 5
+						defense_skill = 5
 						maneuvering_skill = 3
 						coordination_skill = 3
 					}
@@ -333,10 +333,7 @@ on_actions = {
 					transfer_navy = { 
 						target = EFR 
 					}
-				}
-						
-						
-						
+				}		
 			}
 		}
 	}
