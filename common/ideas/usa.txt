@@ -9,7 +9,7 @@ ideas = {
 			picture = generic_victors_of_ww1
 			
 			research_bonus = {
-				land_doctrine = -0.35
+				land_doctrine = -0.30
 			}
 			modifier = {
 
@@ -110,8 +110,8 @@ ideas = {
 			modifier = {
 				production_speed_industrial_complex_factor = 1.00
 				consumer_goods_factor = -0.225
-				production_speed_arms_factory_factor = -0.1
-				production_speed_dockyard_factor = -0.1			
+				production_speed_arms_factory_factor = -0.15
+				production_speed_dockyard_factor = -0.15			
 			}
 		}
 		
@@ -131,9 +131,9 @@ ideas = {
 			modifier = {
 				production_speed_industrial_complex_factor = 0.80
 				consumer_goods_factor = -0.275
-				production_speed_arms_factory_factor = 0.55
+				production_speed_arms_factory_factor = 0.45
 				production_speed_dockyard_factor = 0.70
-				production_factory_efficiency_gain_factor = 0.2 
+				production_factory_efficiency_gain_factor = 0.15 
 			}
 		}
 		
@@ -212,7 +212,7 @@ ideas = {
 			
 			modifier = {
 				political_power_cost = 0.5
-				consumer_goods_factor = 0.4
+				consumer_goods_factor = 0.41
 				conscription_factor = -0.4
 				join_faction_tension = 0.20
 				min_export = -0.60								
@@ -233,7 +233,7 @@ ideas = {
 			
 			modifier = {
 				political_power_cost = 0.35
-				consumer_goods_factor = 0.35
+				consumer_goods_factor = 0.37
 				conscription_factor = -0.2
 				join_faction_tension = 0.20
 				min_export = -0.60								
@@ -434,7 +434,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				max_command_power = 50	
+				max_command_power = 25	
 			}
 		}
 		USA_department_of_defense = {	
@@ -498,7 +498,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				production_speed_dockyard_factor = 0.15	
+				production_speed_dockyard_factor = 0.1	
 			}
 		}
 		USA_us_air_force = {
@@ -514,7 +514,7 @@ ideas = {
 			removal_cost = -1
 			
 			research_bonus = {
-				air_doctrine = 0.15
+				air_doctrine = 0.1
 			}
 
 			modifier = {
@@ -672,7 +672,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				spotting_chance = 0.15
+				spotting_chance = 0.2
 			}
 		}
 		USA_banking_sector_deregulation = {	
@@ -774,7 +774,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				production_speed_infrastructure_factor = 0.25
+				production_speed_infrastructure_factor = 0.2
 				stability_factor = 0.10
 			}
 		}
@@ -794,7 +794,7 @@ ideas = {
 			
 			modifier = {
 				production_speed_infrastructure_factor = 0.1
-				stability_factor = 0.1
+				stability_factor = 0.05
 				drift_defence_factor = 0.2
 			}
 		}
@@ -898,10 +898,6 @@ ideas = {
 				submarine = {
 					surface_detection = 0.1 instant = yes
 					sub_visibility = -0.1 instant = yes
-				}
-				
-				ship_hull_submarine = {
-					build_cost_ic = -0.05 instant = yes
 				}
 			}
 		}
@@ -1045,7 +1041,7 @@ ideas = {
 			}
 			equipment_bonus = {
 				convoy = {
-					build_cost_ic = -0.45
+					build_cost_ic = -0.25
 				}
 			}
 		}
@@ -1064,10 +1060,10 @@ ideas = {
 		
 			equipment_bonus = {
 				fighter_equipment = {
-					build_cost_ic = -0.05 instant = yes
+					build_cost_ic = -0.1 instant = yes
 				}
 				heavy_fighter_equipment = {
-					build_cost_ic = -0.05 instant = yes
+					build_cost_ic = -0.1 instant = yes
 				}
 			}
 		}
@@ -1086,10 +1082,10 @@ ideas = {
 			
 			equipment_bonus = {
 				CAS_equipment = {
-					build_cost_ic = -0.05 instant = yes
+					build_cost_ic = -0.1 instant = yes
 				}
 				tac_bomber_equipment = {
-					build_cost_ic = -0.05 instant = yes
+					build_cost_ic = -0.1 instant = yes
 				}
 			}
 		}
@@ -1108,7 +1104,7 @@ ideas = {
 			
 			equipment_bonus = {
 				strat_bomber_equipment = {
-					build_cost_ic = -0.05 instant = yes
+					build_cost_ic = -0.1 instant = yes
 				}
 			}
 		}
@@ -1508,6 +1504,10 @@ ideas = {
 			
 			allowed = {
 				original_tag = USA
+			}
+			
+			available = { 
+				has_completed_focus = USA_federal_housing_act 
 			}
 			
 			traits = { financial_expert }
