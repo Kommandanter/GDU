@@ -490,9 +490,9 @@ USA_aid_britain = {
 
 		modifier = {
 			war_support_weekly = 0.001
-			industrial_capacity_factory = 0.05
-			industrial_capacity_dockyard = 0.05
-			consumer_goods_factor = -0.04
+			industrial_capacity_factory = 0.04
+			industrial_capacity_dockyard = 0.02
+			consumer_goods_factor = -0.02
 		}
 
 		days_remove = 360

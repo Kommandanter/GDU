@@ -798,7 +798,7 @@ economy_decisions = {
             always = yes
         }
 
-        cost = 50
+        cost = 100
         fire_only_once = no
 
         days_re_enable = 30
@@ -864,7 +864,7 @@ economy_decisions = {
             always = yes
         }
 
-        cost = 35
+        cost = 50
         fire_only_once = no
 
         available = {
