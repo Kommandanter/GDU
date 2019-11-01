@@ -15,7 +15,7 @@ state={
 			1222 = {
 				naval_base = 1
 
-			}			
+			}		
 			4329 = {
 				naval_base = 2
 
@@ -48,7 +48,18 @@ state={
 		victory_points = {
 			12237 1 
 		}
-
+		victory_points = {
+			12154 1 
+		}
+		victory_points = {
+			12240 1 
+		}
+		victory_points = {
+			1222 1 
+		}
+		victory_points = {
+			10260 1 
+		}
 	}
 
 	provinces={
