@@ -71,18 +71,6 @@ focus_tree = {
 			factor = 2
 		}
 
-		bypass = {
-			custom_trigger_tooltip = {
-				tooltip = construction_effort_tt
-				all_owned_state = {
-					free_building_slots = {
-						building = industrial_complex
-						size < 1
-						include_locked = yes
-					}
-				}
-			}
-		}
 
 		complete_tooltip = {
 			add_extra_state_shared_building_slots = 3
@@ -94,6 +82,13 @@ focus_tree = {
 		}
 
 		completion_reward = {
+		
+				if = {
+					limit = { 
+						EFR = { is_ai = yes }
+					}
+				GER = { add_offsite_building = { type = industrial_complex level = 3 } }
+				else = {
 			random_owned_controlled_state = {
 				limit = {
 					free_building_slots = {
@@ -124,6 +119,11 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
+				}					
+				}
+		
+		
+
 		}
 	}
 
@@ -163,7 +163,16 @@ focus_tree = {
 			}
 		}
 
+		
+
 		completion_reward = {
+		
+				if = {
+					limit = { 
+						EFR = { is_ai = yes }
+					}
+				GER = { add_offsite_building = { type = industrial_complex level = 3 } }
+				else = {
 			random_owned_controlled_state = {
 				limit = {
 					free_building_slots = {
@@ -194,7 +203,15 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-		}
+				}					
+				}	
+		
+		
+
+		}		
+		
+		
+		
 	}
 
     focus = {
@@ -214,14 +231,6 @@ focus_tree = {
 		}
         completion_reward = {
 			set_technology = { synth_oil_experiments = 1 }
-            26 = {
-                add_extra_state_shared_building_slots = 2
-                add_building_construction = {
-                    type = synthetic_refinery
-                    level = 2
-                    instant_build = yes
-                }
-            }
         }
     }
 
@@ -304,7 +313,14 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_ideas =	idea_EFR_rationning
+					add_ideas =	idea_EFR_rationning
+
+				if = {
+					limit = { 
+						EFR = { is_ai = yes }
+					}
+				GER = { add_offsite_building = { type = industrial_complex level = 2 } }
+				else = {
 			random_owned_controlled_state = {
 				limit = {
 					free_building_slots = {
@@ -335,7 +351,14 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
+				}					
+				}		
+		
+		
+
 		}
+
+
 	}
 
 	focus = {
@@ -1358,15 +1381,8 @@ focus_tree = {
 			country_exists = GER
 		}
 
+		
 		completion_reward = {
-			26 = {
-				add_extra_state_shared_building_slots = 2
-					add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-			}
 			if = {
 				limit = {
 					has_dlc = "Together for Victory"
@@ -1378,7 +1394,51 @@ focus_tree = {
 					}
 				}
 			}
-		}
+
+				if = {
+					limit = { 
+						EFR = { is_ai = yes }
+					}
+				GER = { add_offsite_building = { type = industrial_complex level = 2 } }
+				else = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+				}					
+				}
+		
+		
+		
+
+		}		
+		
 	}
 
 	focus = {

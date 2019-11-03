@@ -420,6 +420,7 @@ focus_tree = {
 				bonus = 1.00 
 				uses = 1
 				category = cat_heavy_armor
+				ahead_reduction = 0.5				
 			}
 			# add_tech_bonus = {
 				# name = FRA_medium_armor_focus
@@ -510,6 +511,7 @@ focus_tree = {
 				uses = 1
 				category = cat_light_armor
 				category = cat_medium_armor
+				ahead_reduction = 0.5				
 			}
 		}
 	}
