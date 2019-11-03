@@ -60,7 +60,7 @@ ideas = {
 
 			research_bonus = {
 				land_doctrine = -0.4
-				air_doctrine = -2.0 
+				air_doctrine = -0.9 
 				naval_doctrine = -0.4
 			}
 

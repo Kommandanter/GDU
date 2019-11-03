@@ -9730,11 +9730,11 @@ GER_industry_relocation = {
 						if = {
 							limit = { 
 								OR = {
-									29 = { 
+									6 = { 
 										is_controlled_by = GER
 										arms_factory > 0
 									}
-									29 = { 
+									6 = { 
 										is_controlled_by = GER
 										industrial_complex > 0
 									} 									
@@ -9754,17 +9754,17 @@ GER_industry_relocation = {
 
         }
 
-	}	
+	}
 	
 	
 	GER_relocate_industry_from_wallonie = {
 		icon = generic_construction
 		highlight_states = {
-			state = 6
+			state = 34
 		}	
 		available = {
 			NOT = {
-				6 = { #Wallonie
+				34 = { #Wallonie
 					is_controlled_by  = GER
 					OR = {
 						arms_factory > 0
@@ -9792,12 +9792,12 @@ GER_industry_relocation = {
         timeout_effect = {
 				if = {
 					limit = { 
-						6 = { #
+						34 = { #
 							is_controlled_by = GER
 							arms_factory > 0
 						} 
 					}
-					6 = { #
+					34 = { #
 						remove_building = {
 							type = arms_factory
 							level = 1
@@ -9815,11 +9815,11 @@ GER_industry_relocation = {
 						if = {
 							limit = { 
 								OR = {
-									6 = { 
+									34 = { 
 										is_controlled_by = GER
 										arms_factory > 0
 									}
-									6 = { 
+									34 = { 
 										is_controlled_by = GER
 										industrial_complex > 0
 									} 									
