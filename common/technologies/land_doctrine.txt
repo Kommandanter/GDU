@@ -3039,20 +3039,20 @@ technologies = {
 		}
 		
 		artillery_brigade = { 
-			max_strength = 10.5
+			max_strength = 9.75
 		}
 		mot_artillery_brigade = {
 			max_strength = 12
 		}
 		rocket_artillery_brigade = {
-			max_strength = 10.5
+			max_strength = 9.75
 		}
 		motorized_rocket_brigade = {
 			max_strength = 12
 			max_organisation = 2.5
 		}		
 		anti_air_brigade = { 
-			max_strength = 7
+			max_strength = 9
 			max_organisation = 2.5
 		}
 		
@@ -3272,9 +3272,8 @@ technologies = {
 			default_morale = 0.05	
 		}
 		
-		artillery_brigade = {
-			breakthrough = 0.10
-		}
+		recon_factor_while_entrenched = 0.05
+
 		motorized_rocket_brigade = {
 			breakthrough = 0.30
 			default_morale = 0.15			

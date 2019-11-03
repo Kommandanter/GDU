@@ -605,6 +605,31 @@ country_event = {
 		FROM = { country_event = { id = mtg_britain.89 } }
 	}
 
+# Reject
+	option = {
+		name = mtg_britain.88.b
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0.8
+				has_opinion = { target = ENG value > 0 }
+			}
+			modifier = {
+				factor = 0.8
+				has_opinion = { target = ENG value > 25 }
+			}
+			modifier = {
+				factor = 0.8
+				has_opinion = { target = ENG value > 50 }
+			}
+			modifier = {
+				factor = 0.8
+				has_opinion = { target = ENG value > 75 }
+			}
+		}
+		FROM = { country_event = { id = mtg_britain.90 } }
+	}
+
 }
 
 
@@ -630,6 +655,53 @@ country_event = {
 			}
 			add_opinion_modifier = { target = FROM modifier = ENG_imperial_trade }
 		}
+		if = {
+			limit = {
+				NOT = {
+					check_variable = {
+						var = ENG_imperial_conference_trade_answers
+						value = 1
+						compare = greater_than_or_equals
+					}
+				}
+			}
+			set_variable = {
+				var = ENG_imperial_conference_trade_answers
+				value = 0
+			}
+		}
+		add_to_variable = {
+			var = ENG_imperial_conference_trade_answers
+			value = 1
+		}
+		if = {
+			limit = {
+				check_variable = {
+					var = ENG_imperial_conference_trade_answers
+					value = 5
+					compare = greater_than_or_equals
+				}
+			}
+			clr_country_flag = ENG_imperial_conference_discussion_in_progress
+			clr_country_flag = ENG_diplomatic_pressure_flag
+			clr_country_flag = ENG_extensive_diplomatic_pressure_flag
+		}
+	}
+	
+}
+
+# Event for ENG telling FROM voted no on Imperial Trade
+country_event = {
+	id = mtg_britain.90
+	title = mtg_britain.90.t
+	desc = mtg_britain.90.d
+	picture = GFX_report_event_generic_read_write
+
+	is_triggered_only = yes
+	
+	# Ok
+	option = {
+		name = mtg_britain.90.a
 		if = {
 			limit = {
 				NOT = {

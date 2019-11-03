@@ -2386,7 +2386,7 @@ focus_tree = {
 
 	focus = {
 		id = CAN_the_plan
-		icon = GFX_goal_generic_air_fighter
+		icon = GFX_goal_generic_construct_civilian
 		prerequisite = { focus = CAN_shadow_factories }
 		x = -2
 		y = 2
@@ -2419,7 +2419,24 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_ideas = CAN_the_plan
+			682 = {
+				add_resource = {
+					type = steel
+					amount = 100
+				}				
+			}
+			466 = {
+				add_resource = {
+					type = steel
+					amount = 30
+				}						
+			}
+			468 = {
+				add_resource = {
+					type = steel
+					amount = 30
+				}				
+			}
 		}
 	}
 
@@ -2548,19 +2565,19 @@ focus_tree = {
 				add_resource = {
 					type = aluminium
 					amount = 100
-				}
+				}			
 			}
 			466 = {
 				add_resource = {
 					type = aluminium
 					amount = 30
-				}
+				}					
 			}
 			468 = {
 				add_resource = {
 					type = aluminium
 					amount = 30
-				}
+				}			
 			}
 		}
 	}

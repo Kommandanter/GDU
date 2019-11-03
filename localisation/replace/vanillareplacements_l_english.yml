@@ -1,5 +1,8 @@
 ﻿l_english:
 
+ CAN_the_plan:0 "Canadian Steel Company"
+ CAN_the_plan_desc:0 "Canadian Steel Company"
+
  SOV_scorched_earth:0 "Manually fire Scorched Earth (not recommended)"
  SOV_scorched_earth_auto:0 "Automatically fire Scorched Earth at appropriate times (recommended)"
 
