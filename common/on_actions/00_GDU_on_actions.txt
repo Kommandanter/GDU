@@ -359,6 +359,65 @@ on_actions = {
 		}
 	}
 
+
+
+# A check to hopefully ensure that if Italy is at war, it is at war with all the Allies (so you don't get weird bugs where Italy is at war with UK but not South Africa, for example)
+
+	on_daily = {
+		effect = {
+			
+			if = {
+				limit = {
+					date > 1939.6.1
+					date < 1941.1.1
+					GER = { has_war = yes }
+					ITA = { has_war = yes }
+					not = { has_global_flag = ITA_in_the_war }
+				}
+				hidden_effect = {
+					ITA = {
+						declare_war_on = {
+							target = ENG
+							type = annex_everything
+						}
+						declare_war_on = {
+							target = FRA
+							type = annex_everything
+						}
+						declare_war_on = {
+							target = FRF
+							type = annex_everything
+						}
+						declare_war_on = {
+							target = CAN
+							type = annex_everything
+						}
+						declare_war_on = {
+							target = SAF
+							type = annex_everything
+						}
+						declare_war_on = {
+							target = RAJ
+							type = annex_everything
+						}
+						declare_war_on = {
+							target = AST
+							type = annex_everything
+						}			
+						declare_war_on = {
+							target = NZL
+							type = annex_everything
+						}					
+					}
+					set_global_flag = ITA_in_the_war				
+				}
+			}
+		}
+		
+	}
+
+
+
 	### USA ERNIE KING SCORING SYSTEM ###
 
 on_declare_war = { 

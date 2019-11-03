@@ -2270,7 +2270,10 @@ ideas = {
 
 			
 			allowed = {
-				original_TAG = ENG
+				OR = {
+					original_TAG = ENG
+					original_TAG = SAF					
+				}
 			}
 						
 			research_bonus = {
@@ -2324,7 +2327,10 @@ ideas = {
 			cost = 75			
 			
 			allowed = {
-				original_TAG = ENG
+				OR = {
+					original_TAG = ENG
+					original_TAG = SAF					
+				}
 			}
 			
 

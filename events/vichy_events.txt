@@ -59,8 +59,7 @@ country_event = {
 						limit = { 462 = { is_controlled_by = EFR } } 
 						USA = { transfer_state = 462 }					
 					}					
-					
-						
+			VEN = { country_event = { id = vichy.5 } }
 		}
 			461 = {
 				add_building_construction = {
@@ -104,4 +103,21 @@ country_event = {
 }
 
 
+# Event to annex Vichy to Germany right after Torch. This is meant to remove any Vichy troops that the AI might have created, and gets Case Anton out of the way.
+country_event = {
+	id = vichy.5
+	title = vichy.5.t
+	desc = vichy.5.desc
+	picture = GFX_report_event_vichy_neutrality
+	is_triggered_only = yes
+	
+	option = {
+		name = vichy.5.a
+
+		GER = {
+			annex_country = { target = EFR transfer_troops = no }
+		}
+
+		}
+}
 
