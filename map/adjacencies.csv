@@ -335,4 +335,21 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 5069;10902;impassable;-1;-1;-1;-1;-1;;GDU Egypt
 4068;12733;impassable;-1;-1;-1;-1;-1;;GDU Egypt
 5069;12733;impassable;-1;-1;-1;-1;-1;;GDU Egypt
+11130;6208;impassable;-1;-1;-1;-1;-1;;GDU Finland
+11130;6107;impassable;-1;-1;-1;-1;-1;;GDU Finland
+11130;9191;impassable;-1;-1;-1;-1;-1;;GDU Finland
+203;9191;impassable;-1;-1;-1;-1;-1;;GDU Finland
+203;11169;impassable;-1;-1;-1;-1;-1;;GDU Finland
+167;11169;impassable;-1;-1;-1;-1;-1;;GDU Finland
+167;9128;impassable;-1;-1;-1;-1;-1;;GDU Finland
+3069;9128;impassable;-1;-1;-1;-1;-1;;GDU Finland
+3069;11104;impassable;-1;-1;-1;-1;-1;;GDU Finland
+6061;11104;impassable;-1;-1;-1;-1;-1;;GDU Finland
+6061;9064;impassable;-1;-1;-1;-1;-1;;GDU Finland
+6061;6092;impassable;-1;-1;-1;-1;-1;;GDU Finland
+3097;6092;impassable;-1;-1;-1;-1;-1;;GDU Finland
+3097;9116;impassable;-1;-1;-1;-1;-1;;GDU Finland
+6183;9116;impassable;-1;-1;-1;-1;-1;;GDU Finland
+11142;9116;impassable;-1;-1;-1;-1;-1;;GDU Finland
+9140;9116;impassable;-1;-1;-1;-1;-1;;GDU Finland
 -1;-1;;-1;-1;-1;-1;-1;-1
