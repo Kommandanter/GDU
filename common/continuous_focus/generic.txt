@@ -44,7 +44,7 @@ continuous_focus_palette = {
 		icon = GFX_goal_continuous_reduce_training_time
 
 		modifier = {
-			training_time_army_factor = -0.25
+			minimum_training_level = -0.25
 		}
 
 		ai_will_do = {

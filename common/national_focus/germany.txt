@@ -1895,6 +1895,27 @@ activate_mission = GER_relocate_industry_from_friesland
 				give_resource_rights = { receiver = ROM state = 53 }
 			}
 			hidden_effect = {
+			
+				CAN = {
+					add_timed_idea = { idea = alli_phoney_war days = 240 }
+					add_ideas = war_economy
+				}
+				SAF = {
+					add_timed_idea = { idea = alli_phoney_war days = 240 }
+					add_ideas = war_economy
+				}
+				RAJ = {
+					add_timed_idea = { idea = alli_phoney_war days = 240 }
+					add_ideas = war_economy
+				}
+				NZL = {
+					add_timed_idea = { idea = alli_phoney_war days = 240 }
+					add_ideas = war_economy
+				}
+				AST = {
+					add_timed_idea = { idea = alli_phoney_war days = 240 }
+					add_ideas = war_economy
+				}			
 				ENG = {
 					swap_ideas = {
 						remove_idea = stiff_upper_lip

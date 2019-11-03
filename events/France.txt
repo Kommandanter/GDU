@@ -267,14 +267,13 @@ country_event = {
 		remove_ideas = FRA_disjointed_government
 		remove_ideas = FRA_protected_by_the_maginot_line
 		remove_ideas = FRA_inflexible_industry
-		add_timed_idea = { idea = FRF_efficiency_gain days = 100 }
-		add_timed_idea = { idea = FRF_retrain days = 200 }
+		add_timed_idea = { idea = FRF_efficiency_gain days = 50 }
+		add_timed_idea = { idea = FRF_retrain days = 50 }
 		hidden_effect =  {
-			retire_country_leader = yes
 			add_political_power = 1200
-			army_experience = 500
-			air_experience = 125
-			navy_experience = 100 
+			army_experience = 700
+			air_experience = 225
+			navy_experience = 250 
 			add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 8000 producer = FRF }
 			add_equipment_to_stockpile = { type = infantry_equipment_2 amount = 2000 producer = FRF }
 
