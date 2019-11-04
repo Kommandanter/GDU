@@ -1,5 +1,8 @@
 ﻿l_english:
 
+    FRA_armistice_negotiations_idea:0 "Armistice Negotiations"
+    AXIS_armistice_negotiations_idea:0 "Armistice Negotiations"
+
     DELETE_DOCK:0 "Remove a Dockyard"
 
     yarrow_shipbuilders_GER:0 "Yarrow Shipbuilders"

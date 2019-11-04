@@ -306,3 +306,19 @@
  gduevents.36.t:0 "Total Mobilization"
  gduevents.36.d:0 "Reminder: Total Mobilization is available\n\n If you need manpower, remember also you can take Women in the Workforce."
  gduevents.36.a:0 "But I forgot to save political power :(" 
+ 
+ gduevents.37.t:0 "Rumors of a French Armistice"
+ gduevents.37.d:0 "Our Intelligence Services report that Marshal Pétain has commenced Armistice negotiations with Germany. The end is nigh."
+ gduevents.37.a:0 "You have 10 days to get out of France. Run."
+ 
+ gduevents.38.t:0 "Armistice Negotiations"
+ gduevents.38.d:0 "Marshal Pétain has commenced Armistice negotiations with Germany. The end is nigh."
+ gduevents.38.a:0 "We have lost the Second World War."   
+ 
+ gduevents.39.t:0 "Armistice Negotiations"
+ gduevents.39.d:0 "We have begun armistice negotiations with Marshal Pétain. We have avenged Versailles, and we have begun planning for a triumph through the streets of Paris."
+ gduevents.39.a:0 "We have won the Second World War! Peace will soon return!"
+ 
+ gduevents.40.t:0 "Rumors of a French Armistice"
+ gduevents.40.d:0 "Our Intelligence Services report that Marshal Pétain has commenced Armistice negotiations with Germany."
+ gduevents.40.a:0 "The world will have to adjust to this new reality."     

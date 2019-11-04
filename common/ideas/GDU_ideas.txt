@@ -2,6 +2,53 @@ ideas = {
 
 	country = {
 	
+		FRA_armistice_negotiations_idea = {
+		
+			picture = chi_war_of_resistance	
+			
+			allowed = { 
+				always = no 
+			}
+			
+			removal_cost = -1 
+			
+			targeted_modifier = {
+				tag = GER attack_bonus_against = -0.95
+			}
+			targeted_modifier = {
+				tag = ITA attack_bonus_against = -0.7
+			}
+			targeted_modifier = {
+				tag = ROM attack_bonus_against = -0.7
+			}
+			targeted_modifier = {
+				tag = HUN attack_bonus_against = -0.7
+			}
+			targeted_modifier = {
+				tag = BUL attack_bonus_against = -0.7
+			}
+
+			modifier = {
+				army_attack_factor = -0.95
+			}
+			
+		}
+
+		AXIS_armistice_negotiations_idea = {
+		
+			picture = chi_war_of_resistance	
+			
+			allowed = { 
+				always = no 
+			}
+			
+			removal_cost = -1 
+			
+			targeted_modifier = {
+				tag = FRA attack_bonus_against = -0.3
+			}
+		}			
+	
       GER_triumph_britain_idea = {
 			
 			allowed = {
@@ -39,6 +86,12 @@ ideas = {
 				industry_repair_factor = 4
 			}
 		}		
+	
+	
+
+				FRA = { targeted_modifier = { tag = GER attack_bonus_against = -0.9 } }
+
+				GER = { targeted_modifier = { tag = FRA attack_bonus_against = -0.6 } }		
 	
 	
 		AXIS_fail_sealion_idea = {

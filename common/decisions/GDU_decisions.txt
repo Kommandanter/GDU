@@ -334,7 +334,7 @@ operations = {
 		}
 
 		available = {
-			FRA = { has_capitulated = yes } 
+			FRA = { surrender_progress > 0.33 } 
 		}
 
 		days_mission_timeout = 8
@@ -369,7 +369,7 @@ operations = {
 		}
 
 		available = {
-			FRA = { has_capitulated = yes } 
+			FRA = { surrender_progress > 0.33 } 
 		}
 
 		days_mission_timeout = 8
@@ -410,7 +410,7 @@ operations = {
 		}
 
 		available = {
-			FRA = { has_capitulated = yes } 
+			FRA = { surrender_progress > 0.33 } 
 		}
 
 		days_mission_timeout = 16
@@ -445,7 +445,7 @@ operations = {
 		}
 
 		available = {
-			FRA = { has_capitulated = yes } 
+			FRA = { surrender_progress > 0.33 } 
 		}
 
 		days_mission_timeout = 16
@@ -481,7 +481,7 @@ operations = {
 		}
 
 		available = {
-			FRA = { has_capitulated = yes } 
+			FRA = { surrender_progress > 0.33 } 
 		}
 
 		days_mission_timeout = 24
@@ -516,7 +516,7 @@ operations = {
 		}
 
 		available = {
-			FRA = { has_capitulated = yes } 
+			FRA = { surrender_progress > 0.33 } 
 		}
 
 		days_mission_timeout = 24
@@ -558,7 +558,7 @@ operations = {
 		}
 
 		available = {
-			FRA = { has_capitulated = yes } 
+			FRA = { surrender_progress > 0.33 } 
 		}
 
 		days_mission_timeout = 32
@@ -593,7 +593,7 @@ operations = {
 		}
 
 		available = {
-			FRA = { has_capitulated = yes } 
+			FRA = { surrender_progress > 0.33 } 
 		}
 
 		days_mission_timeout = 32
@@ -632,7 +632,7 @@ operations = {
 		}
 
 		available = {
-			FRA = { has_capitulated = yes } 
+			FRA = { surrender_progress > 0.33 } 
 		}
 
 		days_mission_timeout = 40
@@ -667,7 +667,7 @@ operations = {
 		}
 
 		available = {
-			FRA = { has_capitulated = yes } 
+			FRA = { surrender_progress > 0.33 } 
 		}
 
 		days_mission_timeout = 40
@@ -704,7 +704,7 @@ operations = {
 		}
 
 		available = {
-			FRA = { has_capitulated = yes } 
+			FRA = { surrender_progress > 0.33 } 
 		}
 
 		days_mission_timeout = 48
@@ -739,7 +739,7 @@ operations = {
 		}
 
 		available = {
-			FRA = { has_capitulated = yes } 
+			FRA = { surrender_progress > 0.33 } 
 		}
 
 		days_mission_timeout = 48
@@ -777,7 +777,7 @@ operations = {
 		}
 
 		available = {
-			FRA = { has_capitulated = yes } 
+			FRA = { surrender_progress > 0.33 } 
 		}
 
 		days_mission_timeout = 56
@@ -812,7 +812,7 @@ operations = {
 		}
 
 		available = {
-			FRA = { has_capitulated = yes } 
+			FRA = { surrender_progress > 0.33 } 
 		}
 
 		days_mission_timeout = 56
@@ -849,7 +849,7 @@ operations = {
 		}
 
 		available = {
-			FRA = { has_capitulated = yes } 
+			FRA = { surrender_progress > 0.33 } 
 		}
 
 		days_mission_timeout = 64
@@ -884,7 +884,7 @@ operations = {
 		}
 
 		available = {
-			FRA = { has_capitulated = yes } 
+			FRA = { surrender_progress > 0.33 } 
 		}
 
 		days_mission_timeout = 64
@@ -924,7 +924,7 @@ operations = {
 		}
 
 		available = {
-			FRA = { has_capitulated = yes } 
+			FRA = { surrender_progress > 0.33 } 
 		}
 
 		days_mission_timeout = 72
@@ -959,7 +959,7 @@ operations = {
 		}
 
 		available = {
-			FRA = { has_capitulated = yes } 
+			FRA = { surrender_progress > 0.33 } 
 		}
 
 		days_mission_timeout = 72
@@ -998,7 +998,7 @@ operations = {
 		}
 
 		available = {
-			FRA = { has_capitulated = yes } 
+			FRA = { surrender_progress > 0.33 } 
 		}
 
 		days_mission_timeout = 80
@@ -1036,7 +1036,7 @@ operations = {
 		}
 
 		available = {
-			FRA = { has_capitulated = yes } 
+			FRA = { surrender_progress > 0.33 } 
 		}
 
 		days_mission_timeout = 80

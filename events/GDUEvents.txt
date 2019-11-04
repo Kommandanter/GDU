@@ -993,6 +993,83 @@ country_event = {
 }	
 
 
+### event telling allies France has started armistice negotiations, they have 10 days to get out of France
 
+country_event = {
+	id = gduevents.37
+	title = gduevents.37.t
+	desc = gduevents.37.d
+	picture = GFX_report_event_worried_french
+	
+	is_triggered_only = yes
+		
+	fire_only_once = yes 
+	
+	option = {
+		name = gduevents.37.a
+		
+		
+	}
+	
+}	
 
+### French armistice news event
+
+country_event = {
+	id = gduevents.38
+	title = gduevents.38.t
+	desc = gduevents.38.d
+	picture = GFX_report_event_worried_french
+	
+	is_triggered_only = yes
+		
+	fire_only_once = yes 
+	
+	option = {
+		name = gduevents.38.a
+		
+		
+	}
+	
+}	
+
+### Axis armistice news event
+
+country_event = {
+	id = gduevents.39
+	title = gduevents.39.t
+	desc = gduevents.39.d
+	picture = GFX_report_event_worried_french
+	
+	is_triggered_only = yes
+		
+	fire_only_once = yes 
+	
+	option = {
+		name = gduevents.39.a
+		
+		
+	}
+	
+}	
+
+### Neutral armistice news event
+
+country_event = {
+	id = gduevents.40
+	title = gduevents.40.t
+	desc = gduevents.40.d
+	picture = GFX_report_event_worried_french
+	
+	is_triggered_only = yes
+		
+	fire_only_once = yes 
+	
+	option = {
+		name = gduevents.40.a
+		
+		
+	}
+	
+}	
 
