@@ -1290,6 +1290,9 @@ technologies = {
 			max_organisation = 10
 			soft_attack = 0.25
 		}
+		category_line_artillery = {
+			max_organisation = 3
+		}		
 		
 		support_heavy_armor = {
 			max_organisation = 10
@@ -1415,6 +1418,7 @@ technologies = {
 		
 		category_line_artillery = {
 			default_morale = 0.3
+			max_organisation = 10.0
 		}
 		
 		support_heavy_armor = {
@@ -2987,7 +2991,7 @@ technologies = {
 		
 		infantry = {
 			max_organisation = 5
-			max_strength = 7
+			max_strength = 3
 		}
 
 
@@ -3039,20 +3043,22 @@ technologies = {
 		}
 		
 		artillery_brigade = { 
-			max_strength = 9.75
+			default_morale = .3
+		    max_strength = 7.5
+			max_organisation = 1.5
 		}
 		mot_artillery_brigade = {
-			max_strength = 12
+			max_strength = 6
 		}
 		rocket_artillery_brigade = {
-			max_strength = 9.75
+			max_strength = 6
 		}
 		motorized_rocket_brigade = {
-			max_strength = 12
+			max_strength = 10
 			max_organisation = 2.5
 		}		
 		anti_air_brigade = { 
-			max_strength = 9
+			max_strength = 6
 			max_organisation = 2.5
 		}
 		
@@ -3103,7 +3109,7 @@ technologies = {
 		xp_research_bonus = 0.5
 
 		mechanized = {
-			max_strength = 2
+			max_strength = 4
 		}
 		motorized = {
 			max_strength = 7
@@ -3205,7 +3211,9 @@ technologies = {
 		xp_research_bonus = 0.5
 		
 		artillery_brigade = { 
-			soft_attack = 0.05 
+		breakthrough = .05
+		soft_attack = .02
+				max_organisation = 2
 		}
 	
 		allow = {
@@ -3213,8 +3221,10 @@ technologies = {
 		}
 		
 		infantry = {
-			max_organisation = 13
+			max_organisation = 12
 			breakthrough = 0.10
+			defense = .05
+			default_morale = .01
 		}
 		
 		mechanized = {
@@ -3269,7 +3279,7 @@ technologies = {
 		category_all_armor = {
 			max_organisation = 1
 			breakthrough = 0.10 
-			default_morale = 0.05	
+			default_morale = 0.1
 		}
 		
 		recon_factor_while_entrenched = 0.05
@@ -3318,7 +3328,7 @@ technologies = {
 
 
 		category_all_armor = {
-			default_morale = 0.05 
+			default_morale = 0.1 
 		}
 
 		mechanized = {
