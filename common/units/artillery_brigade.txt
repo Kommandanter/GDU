@@ -98,7 +98,7 @@ sub_units = {
 		transport = motorized_equipment
 		manpower = 500
 		need = {
-			artillery_equipment = 60
+			artillery_equipment = 50
 			motorized_equipment = 60
 		}
 		
@@ -107,7 +107,7 @@ sub_units = {
 		default_morale = 0.1
 		training_time = 120
 		weight = 0.5
-		supply_consumption = 0.2
+		supply_consumption = 0.16
 		
 		forest = {
 			attack = -0.2
@@ -246,7 +246,7 @@ sub_units = {
 		combat_width = 3
 
 		need = {
-			motorized_rocket_equipment = 28		
+			motorized_rocket_equipment = 26	
 		}
 
 		manpower = 500
@@ -257,7 +257,7 @@ sub_units = {
 		weight = 0.5
 
 
-		supply_consumption = 0.2
+		supply_consumption = 0.16
 
 		forest = {
 			attack = -0.1
@@ -321,7 +321,7 @@ sub_units = {
 		combat_width = 3
 		transport = motorized_equipment
 		need = {
-			rocket_artillery_equipment = 60
+			rocket_artillery_equipment = 50
 			motorized_equipment = 60
 		}
 		
@@ -332,7 +332,7 @@ sub_units = {
 		training_time = 120
 		weight = 0.5
 
-		supply_consumption = 0.2
+		supply_consumption = 0.16
 		
 		forest = {
 			attack = -0.2
