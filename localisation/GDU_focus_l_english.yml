@@ -1,6 +1,9 @@
 ﻿l_english:
 #Focuses 
 
+ ENG_reconsolidate_egypt:0 "Reconsolidate Egypt"
+ ENG_reconsolidate_egypt_desc:0 "With the reconquest of Egypt complete, Axis morale is starting to sag and, at least as importantly, their ability to harness Middle East oil is at an end."
+
  GER_exploit_foreign_workers:0 "Exploit Foreign Workers and Industry"
  GER_exploit_foreign_workers_desc:0 "Now that we occupy Europe, we have the opportunity to exploit workers in the occupied countries to support German war production. Let's harness the workers and industry of our conquered foes by bringing them to Germany to work here at home."
 

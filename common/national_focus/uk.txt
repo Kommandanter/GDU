@@ -2415,6 +2415,55 @@ focus_tree = {
 	}
 
 	focus = {
+		id = ENG_reconsolidate_egypt
+		icon = GFX_goal_generic_construct_civilian
+		text = ENG_reconsolidate_egypt
+		prerequisite = { focus = uk_protect_suez }
+		x = 0
+		y = 4
+		cost = 5		
+		relative_position_id = uk_mediterranean_focus
+		ai_will_do = {
+			factor = 1
+		}
+		cancel_if_invalid = no
+		available = {
+			ITA = { has_completed_focus = ITA_consolidate_egypt }
+			ENG = {
+				controls_state = 446
+				controls_state = 447
+				controls_state = 453
+				controls_state = 454
+				controls_state = 455				
+				controls_state = 452
+				controls_state = 456				
+				controls_state = 457				
+				
+			}
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+				GER = { remove_ideas = GDU_triumph_egypt }
+				ITA = { remove_ideas = GDU_triumph_egypt }
+				HUN = { remove_ideas = GDU_triumph_egypt }
+				ROM = { remove_ideas = GDU_triumph_egypt }
+				BUL = { remove_ideas = GDU_triumph_egypt }
+				SPR = { remove_ideas = GDU_triumph_egypt }
+				FIN = { remove_ideas = GDU_triumph_egypt }
+				GER = { remove_ideas = GDU_triumph_egypt2 }
+				ITA = { remove_ideas = GDU_triumph_egypt2 }
+				HUN = { remove_ideas = GDU_triumph_egypt2 }
+				ROM = { remove_ideas = GDU_triumph_egypt2 }
+				BUL = { remove_ideas = GDU_triumph_egypt2 }
+				SPR = { remove_ideas = GDU_triumph_egypt2 }
+				FIN = { remove_ideas = GDU_triumph_egypt2 }
+					
+		}
+	}
+
+	focus = {
 		id = ENG_war_with_italy
 		available = {
 			has_war_with = GER
