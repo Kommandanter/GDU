@@ -1437,7 +1437,7 @@ ideas = {
 					hard_attack = 0.15
 					soft_attack = 0.15
 					maximum_speed = 0.10 
-					build_cost_ic = 0.1
+					build_cost_ic = 0.05
 				}
 			}
 		}

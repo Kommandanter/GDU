@@ -1052,7 +1052,7 @@ focus_tree = {
 		relative_position_id = SOV_move_industry_to_urals
 		x = 0
 		y = 3
-		cost = 25.8
+		cost = 30
 		ai_will_do = {
 			factor = 100
 		}

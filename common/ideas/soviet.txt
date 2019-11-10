@@ -81,7 +81,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-             army_speed_factor = 0.10
+             army_speed_factor = 0.075
 			}
 		}
 		general_winter_idea = {
@@ -959,7 +959,7 @@ ideas = {
 			modifier = {
 				army_attack_factor = -0.05
 				army_defence_factor = -0.075
-				army_org_factor = -0.30
+				army_org_factor = -0.325
 				planning_speed = -0.5
 				max_planning = -0.15
 				air_superiority_efficiency = -0.5
@@ -990,6 +990,14 @@ ideas = {
 					air_ground_attack = -0.275
 					instant = yes
 				}
+				strat_bomber_equipment = {
+					air_agility = -0.275
+					air_attack = -0.275
+					instant = yes
+				}
+				
+				
+				
 			}			
 		}
 
@@ -1013,7 +1021,7 @@ ideas = {
 			modifier = {			
 				army_attack_factor = -0.025
 				army_defence_factor = -0.05
-				army_org_factor = -0.15
+				army_org_factor = -0.2
 				planning_speed = -0.35
 				max_planning = -0.10
 				air_superiority_efficiency = -0.3
@@ -1044,6 +1052,11 @@ ideas = {
 					air_ground_attack = -0.225
 					instant = yes
 				}
+				strat_bomber_equipment = {
+					air_agility = -0.225
+					air_attack = -0.225
+					instant = yes
+				}				
 			}
 
 		}
