@@ -5,4 +5,4 @@ tags={
 }
 replace_path = "history/states"
 picture="Warishell.jpg"
-supported_version="1.7.1"
+supported_version="1.8.*"
