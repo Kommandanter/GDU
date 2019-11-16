@@ -8,4 +8,4 @@ tags={
 }
 picture="Warishell.jpg"
 remote_file_id="1758094609"
-supported_version="1.8.*"
+supported_version="1.7.*"
