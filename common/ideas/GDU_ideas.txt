@@ -312,7 +312,7 @@ ideas = {
 			modifier = { 
 				stability_factor = 0.10
 				consumer_goods_factor = -0.01
-				army_speed_factor = 0.25
+				army_speed_factor = 0.025
 			}
 		}
 		
@@ -329,7 +329,7 @@ ideas = {
 			modifier = { 
 				stability_factor = 0.20
 				consumer_goods_factor = -0.02
-				army_speed_factor = 0.25				
+				army_speed_factor = 0.025				
 			}
 		}		
 
