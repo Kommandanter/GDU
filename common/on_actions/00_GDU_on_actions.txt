@@ -449,6 +449,86 @@ on_actions = {
 	}
 
 
+	### Docking rights/Mil Access from Barbarossa so Allies can protect convoys in Murmansk/fight in Iran/etc ###
+
+on_declare_war = { 
+	effect = { 
+		if = { 
+				limit = {
+					FROM = {
+						tag = SOV 
+					}
+					ROOT = { tag = GER }
+				}
+			ENG = { give_military_access = SOV }
+			SOV = { give_military_access = ENG }
+			SOV = { give_military_access = USA }
+			SOV = { give_military_access = CAN }
+			SOV = { give_military_access = SAF }
+			SOV = { give_military_access = RAJ }
+			SOV = { give_military_access = AST }
+			SOV = { give_military_access = NZL }
+			SOV = { give_military_access = FRF }
+			ENG = {
+				diplomatic_relation = {
+					country = SOV
+					relation = docking_rights
+					active = yes
+				}			
+			}
+			USA = {
+				diplomatic_relation = {
+					country = SOV
+					relation = docking_rights
+					active = yes
+				}			
+			}
+			CAN = {
+				diplomatic_relation = {
+					country = SOV
+					relation = docking_rights
+					active = yes
+				}			
+			}
+			SAF = {
+				diplomatic_relation = {
+					country = SOV
+					relation = docking_rights
+					active = yes
+				}			
+			}
+			RAJ = {
+				diplomatic_relation = {
+					country = SOV
+					relation = docking_rights
+					active = yes
+				}			
+			}
+			AST = {
+				diplomatic_relation = {
+					country = SOV
+					relation = docking_rights
+					active = yes
+				}			
+			}
+			NZL = {
+				diplomatic_relation = {
+					country = SOV
+					relation = docking_rights
+					active = yes
+				}			
+			}
+			FRF = {
+				diplomatic_relation = {
+					country = SOV
+					relation = docking_rights
+					active = yes
+				}			
+			}			
+		} 
+	} 
+}
+
 
 	### USA ERNIE KING SCORING SYSTEM ###
 
