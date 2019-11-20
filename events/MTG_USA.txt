@@ -31,9 +31,7 @@ country_event = {
 			country_event = mtg_usa_foreign_support.2
 		}
 		effect_tooltip = {
-			FROM = {
-				add_offsite_building = { type = industrial_complex level = 1 }
-			}
+
 		}
 	}
 	option = { #refuse
@@ -60,7 +58,6 @@ country_event = {
 		ai_chance = {
 			factor = 70
 		}
-		add_offsite_building = { type = industrial_complex level = 1 }	
 	}
 }
 #event for US, donations refused
@@ -399,9 +396,7 @@ country_event = {
 			country_event = mtg_usa_foreign_support.16
 		}
 		effect_tooltip = {
-			FROM = {
-				add_offsite_building = { type = dockyard level = 1}
-			}
+
 		}
 	}
 	option = { #refuse
@@ -428,7 +423,6 @@ country_event = {
 		ai_chance = {
 			factor = 70
 		}
-		add_offsite_building = { type = dockyard level = 1 }
 	}
 }
 #event for US, shipyards refused
