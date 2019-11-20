@@ -2981,7 +2981,8 @@ early_ship_hull_carrier = {
 					TAG = YUN
 					TAG = XSM
 					TAG = SHX
-					TAG = SIK					
+					TAG = SIK
+					TAG = FIN					
 				}
 		}	
 		

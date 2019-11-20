@@ -352,4 +352,13 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 6183;9116;impassable;-1;-1;-1;-1;-1;;GDU Finland
 11142;9116;impassable;-1;-1;-1;-1;-1;;GDU Finland
 9140;9116;impassable;-1;-1;-1;-1;-1;;GDU Finland
+9140;5765;impassable;-1;-1;-1;-1;-1;;GDU Finland
+11130;6170;impassable;-1;-1;-1;-1;-1;;GDU Finland
+11130;61;impassable;-1;-1;-1;-1;-1;;GDU Finland
+11115;61;impassable;-1;-1;-1;-1;-1;;GDU Finland
+11115;6168;impassable;-1;-1;-1;-1;-1;;GDU Finland
+3193;6168;impassable;-1;-1;-1;-1;-1;;GDU Finland
+3193;201;impassable;-1;-1;-1;-1;-1;;GDU Finland
+3193;9147;impassable;-1;-1;-1;-1;-1;;GDU Finland
+11125;9147;impassable;-1;-1;-1;-1;-1;;GDU Finland
 -1;-1;;-1;-1;-1;-1;-1;-1

@@ -17,11 +17,66 @@ ideas = {
 
 			modifier = {
 				army_morale_factor = 0.10
-				army_core_attack_factor = 0.35
-				army_core_defence_factor = 0.35
+				army_core_attack_factor = 0.6
+				army_core_defence_factor = 0.6
+				max_planning = -0.1
+				planning_speed = 0.25
+				dig_in_speed_factor = 0.5
+				army_attack_factor = -0.2
+				army_defence_factor = -0.2				
 				surrender_limit = 0.8
+				industrial_capacity_dockyard = -5				
 			}
+			
+			targeted_modifier = {
+				tag = ENG
+				attack_bonus_against = -0.99
+				defense_bonus_against = -0.99
+			}
+			targeted_modifier = {
+				tag = USA
+				attack_bonus_against = -0.99
+				defense_bonus_against = -0.99
+			}
+			targeted_modifier = {
+				tag = CAN
+				attack_bonus_against = -0.99
+				defense_bonus_against = -0.99
+			}
+			targeted_modifier = {
+				tag = SAF
+				attack_bonus_against = -0.99
+				defense_bonus_against = -0.99
+			}
+			targeted_modifier = {
+				tag = RAJ
+				attack_bonus_against = -0.99
+				defense_bonus_against = -0.99
+			}
+			targeted_modifier = {
+				tag = AST
+				attack_bonus_against = -0.99
+				defense_bonus_against = -0.99
+			}
+			targeted_modifier = {
+				tag = NZL
+				attack_bonus_against = -0.99
+				defense_bonus_against = -0.99
+			}
+			targeted_modifier = {
+				tag = FRA
+				attack_bonus_against = -0.99
+				defense_bonus_against = -0.99
+			}
+			targeted_modifier = {
+				tag = FRF
+				attack_bonus_against = -0.99
+				defense_bonus_against = -0.99
+			}				
+			
+			
 		}
+		
 		no_finnish_justification = {
 
 			allowed = {
