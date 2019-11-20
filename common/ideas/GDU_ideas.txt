@@ -312,6 +312,7 @@ ideas = {
 			modifier = { 
 				stability_factor = 0.10
 				consumer_goods_factor = -0.01
+				army_speed_factor = 0.025
 			}
 		}
 		
@@ -326,8 +327,9 @@ ideas = {
 			removal_cost = -1 
 			
 			modifier = { 
-				stability_factor = 0.15
-				consumer_goods_factor = -0.02				
+				stability_factor = 0.20
+				consumer_goods_factor = -0.02
+				army_speed_factor = 0.025				
 			}
 		}		
 
@@ -806,7 +808,7 @@ ideas = {
 			}
 		}
 
-        #irish_neutrality = {
+        irish_neutrality = {
 			allowed = {
 				always = no
 			}
