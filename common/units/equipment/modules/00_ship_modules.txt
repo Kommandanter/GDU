@@ -67,7 +67,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		
 		add_stats = {
-			lg_attack = 2
+			lg_attack = 2.5
 			build_cost_ic = 150			
 		}
 		multiply_stats = {
@@ -95,7 +95,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		
 		add_stats = {
-			lg_attack = 2.5
+			lg_attack = 3.25
 			build_cost_ic = 175	
 		}
 		multiply_stats = {
@@ -185,7 +185,7 @@ equipment_modules = {
 		add_equipment_type = capital_ship
 		
 		add_stats = {
-			hg_attack = 12
+			hg_attack = 12.5
 			build_cost_ic = 1350
 		}
 		multiply_stats = {
@@ -215,7 +215,7 @@ equipment_modules = {
 		add_equipment_type = capital_ship
 		
 		add_stats = {
-			hg_attack = 13
+			hg_attack = 14.25
 			build_cost_ic = 1450
 		}
 		multiply_stats = {
@@ -246,8 +246,8 @@ equipment_modules = {
 		
 		add_stats = {
 			
-			hg_attack = 15
-			build_cost_ic = 1650
+			hg_attack = 16.25
+			build_cost_ic = 1550
 			
 		}
 		multiply_stats = {
@@ -336,7 +336,7 @@ equipment_modules = {
 
 		add_equipment_type = capital_ship
 		add_stats = {
-			hg_attack = 7.25
+			hg_attack = 7.5
 			build_cost_ic = 800
 			surface_visibility = 0.0
 		}
@@ -368,8 +368,8 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			hg_attack = 7.75
-			build_cost_ic = 825
+			hg_attack = 8.5
+			build_cost_ic = 850
 			surface_visibility = 0.0
 		}
 		multiply_stats = {
@@ -404,7 +404,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			hg_attack = 9
+			hg_attack = 9.75
 			build_cost_ic = 900
 			surface_visibility = 0.0
 			surface_visibility = 15			
@@ -461,7 +461,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {	
-			lg_attack = 5
+			lg_attack = 5.25
 			build_cost_ic = 275
 		}
 		multiply_stats = {
@@ -491,7 +491,7 @@ equipment_modules = {
 		
 		add_stats = {
 			
-			lg_attack = 6
+			lg_attack = 6.5
 			build_cost_ic = 300
 		}
 		multiply_stats = {
@@ -522,7 +522,7 @@ equipment_modules = {
 		parent = ship_light_medium_battery_3
 		add_stats = {
 			
-			lg_attack = 7.5
+			lg_attack = 8.25
 			
 			build_cost_ic = 350
 		}
