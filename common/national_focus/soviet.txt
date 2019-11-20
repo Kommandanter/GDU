@@ -34,10 +34,10 @@ focus_tree = {
 	}
 
 	focus = {
-		id = SOV_great_empty
+		id = SOV_great_purge
 		icon = GFX_goal_generic_war_with_comintern
 		available = {
-			has_country_flag = SOV_empty_complete
+			has_country_flag = SOV_purge_complete
 		}
 		prerequisite = { focus = SOV_stalin_constitution }
 		relative_position_id = SOV_stalin_constitution
@@ -47,28 +47,28 @@ focus_tree = {
 
 		bypass = {
 			custom_trigger_tooltip = {
-				tooltip = SOV_great_empty_complete_tt
-				has_country_flag = SOV_empty_complete
+				tooltip = SOV_great_purge_complete_tt
+				has_country_flag = SOV_purge_complete
 			}
 		}
 
 		completion_reward = {
-			custom_effect_tooltip = SOV_great_empty_completed
+			custom_effect_tooltip = SOV_great_purge_completed
 
-			#Full military empty. Hardest penalty
+			#Full military purge. Hardest penalty
 			if = {
 				limit = {
 					OR = {
-						has_country_flag = empty_1_group_a
-						has_country_flag = empty_1_group_b
+						has_country_flag = purge_1_group_a
+						has_country_flag = purge_1_group_b
 					}
 					OR = {
-						has_country_flag = empty_2_group_a
-						has_country_flag = empty_2_group_b
+						has_country_flag = purge_2_group_a
+						has_country_flag = purge_2_group_b
 					}
 				}
 				add_timed_idea = {
-					idea = officers_emptyd
+					idea = officers_purged
 					days = 2200
 				}
 				hidden_effect = {
@@ -86,8 +86,8 @@ focus_tree = {
 		id = SOV_anti_fascist_diplomacy
 		icon = GFX_goal_generic_military_deal
 
-		prerequisite = { focus = SOV_great_empty }
-		relative_position_id = SOV_great_empty
+		prerequisite = { focus = SOV_great_purge }
+		relative_position_id = SOV_great_purge
 		x = -4
 		y = 1
 
@@ -128,8 +128,8 @@ focus_tree = {
 	focus = {
 		id = SOV_anti_capitalist_diplomacy
 		icon = GFX_goal_molotov_ribbentrop_pact
-		relative_position_id = SOV_great_empty
-		prerequisite = { focus = SOV_great_empty }
+		relative_position_id = SOV_great_purge
+		prerequisite = { focus = SOV_great_purge }
 		x = 4
 		y = 1
 
@@ -270,7 +270,7 @@ focus_tree = {
 					instant_build = yes
 				}
 				set_state_flag = SOV_finish_five_year_plan_2IC
-			}			
+			}				
 			
 		}
 	}
@@ -280,8 +280,8 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_civilian
 		x = 0
 		y = 2
-		relative_position_id = SOV_great_empty
-		prerequisite = { focus = SOV_great_empty }
+		relative_position_id = SOV_great_purge
+		prerequisite = { focus = SOV_great_purge }
 
 		cost = 4.3
 		ai_will_do = {
@@ -318,17 +318,17 @@ focus_tree = {
 		completion_reward = {		
 			add_ideas = tot_economic_mobilisation
 			add_ideas = SOV_industrial_relocations
-			if = { limit = { has_idea = officers_emptyd } remove_ideas = officers_emptyd }
-			if = { limit = { has_idea = officers_emptyd_2 } remove_ideas = officers_emptyd_2 }
-			if = { limit = { has_idea = officers_emptyd_3 } remove_ideas = officers_emptyd_3 }
-			if = { limit = { has_idea = officers_emptyd_4 } remove_ideas = officers_emptyd_4 }
-			if = { limit = { has_idea = officers_emptyd_5 } remove_ideas = officers_emptyd_5 }
-			if = { limit = { has_idea = officers_emptyd_6 } remove_ideas = officers_emptyd_6 }
-			if = { limit = { has_idea = officers_emptyd_7 } remove_ideas = officers_emptyd_7 }
-			if = { limit = { has_idea = officers_emptyd_8 } remove_ideas = officers_emptyd_8 }
-			if = { limit = { has_idea = officers_emptyd_9 } remove_ideas = officers_emptyd_9 }
-			if = { limit = { has_idea = officers_emptyd_10 } remove_ideas = officers_emptyd_10 }
-			add_ideas = officers_emptyd_9
+			if = { limit = { has_idea = officers_purged } remove_ideas = officers_purged }
+			if = { limit = { has_idea = officers_purged_2 } remove_ideas = officers_purged_2 }
+			if = { limit = { has_idea = officers_purged_3 } remove_ideas = officers_purged_3 }
+			if = { limit = { has_idea = officers_purged_4 } remove_ideas = officers_purged_4 }
+			if = { limit = { has_idea = officers_purged_5 } remove_ideas = officers_purged_5 }
+			if = { limit = { has_idea = officers_purged_6 } remove_ideas = officers_purged_6 }
+			if = { limit = { has_idea = officers_purged_7 } remove_ideas = officers_purged_7 }
+			if = { limit = { has_idea = officers_purged_8 } remove_ideas = officers_purged_8 }
+			if = { limit = { has_idea = officers_purged_9 } remove_ideas = officers_purged_9 }
+			if = { limit = { has_idea = officers_purged_10 } remove_ideas = officers_purged_10 }
+			add_ideas = officers_purged_9
 		}
 
 	}
@@ -409,17 +409,17 @@ focus_tree = {
 				add_idea = SOV_war_for_communism
 			}
 			custom_effect_tooltip = GDU_spacer
-			if = { limit = { has_idea = officers_emptyd } remove_ideas = officers_emptyd }
-			if = { limit = { has_idea = officers_emptyd_2 } remove_ideas = officers_emptyd_2 }
-			if = { limit = { has_idea = officers_emptyd_3 } remove_ideas = officers_emptyd_3 }
-			if = { limit = { has_idea = officers_emptyd_4 } remove_ideas = officers_emptyd_4 }
-			if = { limit = { has_idea = officers_emptyd_5 } remove_ideas = officers_emptyd_5 }
-			if = { limit = { has_idea = officers_emptyd_6 } remove_ideas = officers_emptyd_6 }
-			if = { limit = { has_idea = officers_emptyd_7 } remove_ideas = officers_emptyd_7 }
-			if = { limit = { has_idea = officers_emptyd_8 } remove_ideas = officers_emptyd_8 }
-			if = { limit = { has_idea = officers_emptyd_9 } remove_ideas = officers_emptyd_9 }
-			if = { limit = { has_idea = officers_emptyd_10 } remove_ideas = officers_emptyd_10 }
-			add_ideas = officers_emptyd_10
+			if = { limit = { has_idea = officers_purged } remove_ideas = officers_purged }
+			if = { limit = { has_idea = officers_purged_2 } remove_ideas = officers_purged_2 }
+			if = { limit = { has_idea = officers_purged_3 } remove_ideas = officers_purged_3 }
+			if = { limit = { has_idea = officers_purged_4 } remove_ideas = officers_purged_4 }
+			if = { limit = { has_idea = officers_purged_5 } remove_ideas = officers_purged_5 }
+			if = { limit = { has_idea = officers_purged_6 } remove_ideas = officers_purged_6 }
+			if = { limit = { has_idea = officers_purged_7 } remove_ideas = officers_purged_7 }
+			if = { limit = { has_idea = officers_purged_8 } remove_ideas = officers_purged_8 }
+			if = { limit = { has_idea = officers_purged_9 } remove_ideas = officers_purged_9 }
+			if = { limit = { has_idea = officers_purged_10 } remove_ideas = officers_purged_10 }
+			add_ideas = officers_purged_10
 
 			custom_effect_tooltip = GDU_spacer
 			hidden_effect = {
@@ -1138,16 +1138,16 @@ focus_tree = {
 				}
 				set_technology = { continuous_offensive = 1 }
 			}
-			if = { limit = { has_idea = officers_emptyd } remove_ideas = officers_emptyd }
-			if = { limit = { has_idea = officers_emptyd_2 } remove_ideas = officers_emptyd_2 }
-			if = { limit = { has_idea = officers_emptyd_3 } remove_ideas = officers_emptyd_3 }
-			if = { limit = { has_idea = officers_emptyd_4 } remove_ideas = officers_emptyd_4 }
-			if = { limit = { has_idea = officers_emptyd_5 } remove_ideas = officers_emptyd_5 }
-			if = { limit = { has_idea = officers_emptyd_6 } remove_ideas = officers_emptyd_6 }
-			if = { limit = { has_idea = officers_emptyd_7 } remove_ideas = officers_emptyd_7 }
-			if = { limit = { has_idea = officers_emptyd_8 } remove_ideas = officers_emptyd_8 }
-			if = { limit = { has_idea = officers_emptyd_9 } remove_ideas = officers_emptyd_9 }
-			if = { limit = { has_idea = officers_emptyd_10 } remove_ideas = officers_emptyd_10 }
+			if = { limit = { has_idea = officers_purged } remove_ideas = officers_purged }
+			if = { limit = { has_idea = officers_purged_2 } remove_ideas = officers_purged_2 }
+			if = { limit = { has_idea = officers_purged_3 } remove_ideas = officers_purged_3 }
+			if = { limit = { has_idea = officers_purged_4 } remove_ideas = officers_purged_4 }
+			if = { limit = { has_idea = officers_purged_5 } remove_ideas = officers_purged_5 }
+			if = { limit = { has_idea = officers_purged_6 } remove_ideas = officers_purged_6 }
+			if = { limit = { has_idea = officers_purged_7 } remove_ideas = officers_purged_7 }
+			if = { limit = { has_idea = officers_purged_8 } remove_ideas = officers_purged_8 }
+			if = { limit = { has_idea = officers_purged_9 } remove_ideas = officers_purged_9 }
+			if = { limit = { has_idea = officers_purged_10 } remove_ideas = officers_purged_10 }
 
 			217 = {
 				add_building_construction = {
@@ -2916,7 +2916,7 @@ focus_tree = {
 		available = {
 			OR = {
 				date > 1941.1.1
-				has_country_flag = SOV_war_since_empty
+				has_country_flag = SOV_war_since_purge
 			}
 		}
 		x = -1
