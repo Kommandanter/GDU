@@ -95,9 +95,10 @@ ideas = {
 
 			removal_cost = -1
 			
-			modifier = {
-				army_core_attack_factor = 0.05
-				army_core_defence_factor = 0.05
+			targeted_modifier = {
+				tag = GER
+				attack_bonus_against = 0.05
+				defense_bonus_against = 0.05
 			}
 		}
 		FRA_FREE_colonial_manpower = {

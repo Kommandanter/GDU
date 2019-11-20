@@ -594,6 +594,8 @@ focus_tree = {
 
 		available_if_capitulated = yes
 
+		available = { date > 1944.6.6 }
+
 		completion_reward = {
 			add_ideas = FRA_FREE_viva_la_france
 		}
