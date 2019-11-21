@@ -2272,6 +2272,7 @@ ideas = {
 			allowed = {
 				original_tag = SOV
 			}
+			cost = 75
 
 
 

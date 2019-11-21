@@ -2347,6 +2347,8 @@ leader_traits = {
 		sprite = 8
 		army_armor_attack_factor = 0.04
 	    army_armor_defence_factor = 0.04
+		motorized_attack_factor = 0.04
+		motorized_defence_factor = 0.04
 
 		ai_will_do = {
 			factor = 1
@@ -2357,6 +2359,8 @@ leader_traits = {
 		sprite = 8
 		army_armor_attack_factor = 0.08
 	    army_armor_defence_factor = 0.08
+		motorized_attack_factor = 0.08
+		motorized_defence_factor = 0.08
 
 		ai_will_do = {
 			factor = 2
@@ -2367,6 +2371,8 @@ leader_traits = {
 		sprite = 8
 		army_armor_attack_factor = 0.12
 	    army_armor_defence_factor = 0.12
+		motorized_attack_factor = 0.12
+		motorized_defence_factor = 0.12
 
 		ai_will_do = {
 			factor = 3
