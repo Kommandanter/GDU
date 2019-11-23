@@ -89,17 +89,17 @@ set_stability = 0.5
 set_war_support = 0.8
 add_equipment_to_stockpile = {
          type = artillery_equipment_1
-         amount = 13600
+         amount = 18600
          producer = SOV
 }  
 add_equipment_to_stockpile = {
          type = support_equipment
-         amount = 401
+         amount = 7001
          producer = SOV
 } 
 add_equipment_to_stockpile = {
          type = infantry_equipment_0
-         amount = 74000
+         amount = 104000
          producer = SOV
 } 
 add_equipment_to_stockpile = {
@@ -124,12 +124,12 @@ add_equipment_to_stockpile = {
 } 
 add_equipment_to_stockpile = {
          type = anti_air_equipment_1
-         amount = 9000
+         amount = 11000
          producer = SOV
 } 
 add_equipment_to_stockpile = {
          type = anti_tank_equipment_1
-         amount = 12000
+         amount = 17500
          producer = SOV
 } 
 set_politics = {
