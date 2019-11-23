@@ -126,7 +126,7 @@ equipments = {
 		naval_strike_attack = 3
 		naval_strike_targetting = 10
 
-		build_cost_ic = 33
+		build_cost_ic = 36
 		resources = {
 			#oil = 1
 			aluminium = 2
@@ -173,7 +173,7 @@ equipments = {
 		naval_strike_attack = 4
 		naval_strike_targetting = 10
 
-		build_cost_ic = 35
+		build_cost_ic = 38
 		resources = {
 			#oil = 1
 			aluminium = 2
@@ -618,7 +618,7 @@ equipments = {
 		air_defence = 2.5
 		air_ground_attack = 20
 
-		build_cost_ic = 36
+		build_cost_ic = 39
 		resources = {
 			#oil = 1
 			aluminium = 3
@@ -648,7 +648,7 @@ equipments = {
 		air_defence = 3
 		air_ground_attack = 25
 
-		build_cost_ic = 39
+		build_cost_ic = 42
 		resources = {
 			#oil = 2
 			aluminium = 3
@@ -703,7 +703,7 @@ equipments = {
 		air_defence = 2.5
 		air_ground_attack = 20
 
-		build_cost_ic = 38 # cv_version costs 20% more of base archetype
+		build_cost_ic = 41 # cv_version costs 20% more of base archetype
 		resources = {
 			#oil = 1
 			aluminium = 3
@@ -733,7 +733,7 @@ equipments = {
 		air_defence = 3
 		air_ground_attack = 25
 
-		build_cost_ic = 41 # cv_version costs 20% more of base archetype
+		build_cost_ic = 44 # cv_version costs 20% more of base archetype
 		resources = {
 			#oil = 2
 			aluminium = 3
@@ -1154,7 +1154,7 @@ equipments = {
 		air_defence = 2.5
 		air_ground_attack = 20
 
-		build_cost_ic = 36
+		build_cost_ic = 39
 		resources = {
 			#oil = 1
 			aluminium = 3
@@ -1180,7 +1180,7 @@ equipments = {
 		air_defence = 3
 		air_ground_attack = 25
 
-		build_cost_ic = 39
+		build_cost_ic = 42
 		resources = {
 			#oil = 2
 			aluminium = 3
@@ -1206,7 +1206,7 @@ equipments = {
 		air_defence = 2
 		air_ground_attack = 15
 
-		build_cost_ic = 35 # cv_version costs 20% more of base archetype
+		build_cost_ic = 38 # cv_version costs 20% more of base archetype
 
 		naval_strike_attack = 4
 		naval_strike_targetting = 10
@@ -1227,7 +1227,7 @@ equipments = {
 		air_defence = 2.5
 		air_ground_attack = 20
 
-		build_cost_ic = 38 # cv_version costs 20% more of base archetype
+		build_cost_ic = 41 # cv_version costs 20% more of base archetype
 		resources = {
 			#oil = 1
 			aluminium = 3
@@ -1253,7 +1253,7 @@ equipments = {
 		air_defence = 3
 		air_ground_attack = 25
 
-		build_cost_ic = 41 # cv_version costs 20% more of base archetype
+		build_cost_ic = 44 # cv_version costs 20% more of base archetype
 		resources = {
 			#oil = 2
 			aluminium = 3

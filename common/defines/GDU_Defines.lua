@@ -191,7 +191,7 @@ NDefines.NMilitary.OVERSEAS_LOSE_EQUIPMENT_FACTOR = 1
 NDefines.NMilitary.ENCIRCLED_PENALTY = -0.35
 NDefines.NMilitary.MAX_OUT_OF_SUPPLY_DAYS = 22 -- Because 30 is too long. 
 NDefines.NMilitary.OUT_OF_SUPPLY_ATTRITION = 0.4                -- max attrition when out of supply
-NDefines.NMilitary.AIR_SUPPORT_BASE = 0.225
+NDefines.NMilitary.AIR_SUPPORT_BASE = 0.2
 NDefines.NMilitary.ENCIRCLED_DISBAND_MANPOWER_FACTOR = 0
 NDefines.NMilitary.ORG_LOSS_FACTOR_ON_CONQUER = 0.4
 NDefines.NMilitary.PLAYER_ORDER_PLANNING_DECAY = 0.01
@@ -221,6 +221,9 @@ NDefines.NMilitary.LAND_COMBAT_FORT_DAMAGE_CHANCE = 8		-- chance to get a hit to
 --- Nerfing CAS 
 NDefines.NMilitary.LAND_AIR_COMBAT_STR_DAMAGE_MODIFIER = 0.015   -- air global damage modifier
 NDefines.NMilitary.LAND_AIR_COMBAT_ORG_DAMAGE_MODIFIER = 0.015    -- global damage modifier
+
+NDefines.NMilitary.LAND_AIR_COMBAT_MAX_PLANES_PER_ENEMY_WIDTH = 1 -- how many CAS/TAC can enter a combat depending on enemy width there
+
 
 NDefines.NMilitary.ACCLIMATIZATION_IN_COMBAT_SPEED_FACTOR = 1		-- Acclimatization speed multiplier while being in combat.
 NDefines.NMilitary.ACCLIMATIZATION_SPEED_GAIN = 0.015				-- A variable used to balance the overall speed of gaining the acclimatization
