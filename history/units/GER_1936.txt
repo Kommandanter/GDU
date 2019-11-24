@@ -649,6 +649,14 @@ air_wings = {
 		CAS_equipment_1 =  {			# Hs 123
 			owner = "GER" 
 			amount = 100
+		}		
+		CAS_equipment_1 =  {			# Hs 123
+			owner = "GER" 
+			amount = 100
+		}
+		CAS_equipment_1 =  {			# Hs 123
+			owner = "GER" 
+			amount = 100
 		}
 		# Kampfgeschwader 154	
 		tac_bomber_equipment_1 = {		# Do 23

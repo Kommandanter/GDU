@@ -219,7 +219,15 @@ air_wings = {
 			owner = "ENG" 
 			amount = 100
 
-		}		
+		}
+		CAS_equipment_1 = {
+			owner = "ENG"
+			amount = 100
+		}
+		CAS_equipment_1 = {
+			owner = "ENG"
+			amount = 100
+		}	
 		CAS_equipment_1 = {
 			owner = "ENG"
 			amount = 100

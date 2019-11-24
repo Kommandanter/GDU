@@ -246,7 +246,7 @@ focus_tree = {
 			focus = FRA_nuclear_effort
 		}
 		available = {
-			num_of_factories > 75
+
 		}
 		x = 1
 		y = 5
