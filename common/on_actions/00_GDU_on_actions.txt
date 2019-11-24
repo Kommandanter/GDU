@@ -3635,28 +3635,6 @@ activate_mission = SOV_relocate_industry_from_zaporozhe
 				    country_event = { id = yalta.4 days = 12 } 
 				    country_event = { id = yalta.5 days = 15 } 
 				}
-			    WGR = {
-        			add_state_core = 42
-        			add_state_core = 50
-        			add_state_core = 51
-        			add_state_core = 52
-        			add_state_core = 53
-        			add_state_core = 54
-        			add_state_core = 55
-        			add_state_core = 56
-        			add_state_core = 57
-        			add_state_core = 58
-        			add_state_core = 59
-        		}
-        		DDR = {
-        			add_state_core = 60
-        			add_state_core = 61
-        			add_state_core = 62
-        			add_state_core = 64
-        			add_state_core = 65
-        			add_state_core = 66
-        			add_state_core = 67
-        		}
         		POL = {
         			add_state_core = 66
         			add_state_core = 67

@@ -266,13 +266,6 @@ country_event = {
 		effect_tooltip = {
 			CAN = {
 				create_faction = "northern_sovereignty_coalition"
-				random_country = {
-					limit = {
-						original_tag = MEX
-						has_government = fascism
-					}
-					CAN = { add_to_faction = PREV }
-				}
 			}
 			add_state_claim = 375 # Texas
 			add_state_claim = 378 # California
@@ -317,23 +310,9 @@ country_event = {
 		name = tfv_canada.41.a
 		
 		create_faction = "northern_sovereignty_coalition"
-		random_country = {
-			limit = {
-				original_tag = MEX
-				has_government = fascism
-			}
-			CAN = { add_to_faction = PREV }
-		}
+
 		
-		MEX = {
-			add_state_claim = 375 # Texas
-			add_state_claim = 378 # California
-			add_state_claim = 379 # Nevada
-			add_state_claim = 377 # Arizona
-			add_state_claim = 380 # Utah
-			add_state_claim = 382 # Colorado
-			add_state_claim = 376 # New Mexico
-		}
+
 		hidden_effect = {
 			news_event = { id = news.249 hours = 6 }
 		}

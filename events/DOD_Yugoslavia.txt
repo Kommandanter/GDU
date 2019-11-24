@@ -8,61 +8,7 @@ add_namespace = DOD_yugoslavia
 # Yugoslavia joins axis without solving Anti-German military - coup event
 # Removed, mtth 
 
-#Yugoslavian coup event - Yugoslavia has rolled over, event for Germany to intervene
-country_event = {
-	id = DOD_yugoslavia.2
-	title = DOD_yugoslavia.2.t
-	desc = DOD_yugoslavia.2.desc
-	picture = GFX_report_event_military_planning
-	
-	is_triggered_only = yes
-	
-	option = { #invasion!
-		name = DOD_yugoslavia.2.a	
-		create_wargoal = {
-			type = annex_everything
-			target = YUG
-		}
-		if = {
-			limit = {
-				CRO = { 
-					exists = yes 
-					is_subject_of = YUG
-				}
-			}
-			puppet = CRO
-		}
-	}
-}
 
-#Yugoslavian coup event - Yugoslavian government resists the coup, Germany comes to the rescue...or not
-country_event = {
-	id = DOD_yugoslavia.3
-	title = DOD_yugoslavia.2.t
-	desc = DOD_yugoslavia.3.desc
-	picture = GFX_report_event_military_planning
-	
-	is_triggered_only = yes
-	
-	option = { #invasion!
-		name = DOD_yugoslavia.3.a
-		ai_chance = {
-			factor = 70
-		}	
-		create_wargoal = {
-			type = annex_everything
-			target = YUG
-		}
-	}
-
-	option = { #rescue
-		name = DOD_yugoslavia.3.b	
-		ai_chance = {
-			factor = 30
-		}
-		add_to_faction = YUG
-	}
-}
 
 
 #Yugoslavia wants to buy planes - event for GER,FRA,ENG,ITA

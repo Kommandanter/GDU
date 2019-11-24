@@ -65,35 +65,8 @@ country_event = {
 	option = {
 		name = tfv_south_africa.2.a
 
-		if = {
-			limit = { 
-				ZIM = { exists = no }	
-					}
-			transfer_state = 545
-		}
 
-		if = {
-			limit = { 
-				ZIM = { exists = yes }	
-					}
-			puppet = ZIM
-		}
 
-		if = {
-			limit = { 
-				KEN = { exists = no } 
-					}
-			transfer_state = 546
-			transfer_state = 547
-			transfer_state = 548
-		}
-
-		if = {
-			limit = { 
-				KEN = { exists = yes } 
-			}
-			puppet = KEN
-		}
 		transfer_state = 542
 		hidden_effect = {
 			news_event = { id = news.260 hours = 6 }
@@ -127,32 +100,9 @@ country_event = {
 	option = {
 		name = tfv_south_africa.4.a
 
-		if = {
-		limit = { 
-			ZIM = { exists = no }	
-			}
 
-			ZIM = { transfer_state = 545 }
 
-			ENG = {
-			puppet = ZIM 
-				}
-			}
 
-		if = {
-		limit = { 
-			KEN = { exists = no } 
-				}
-			KEN = {
-				transfer_state = 546
-				transfer_state = 547
-				transfer_state = 548
-				}
-			
-			ENG = { 
-				puppet = KEN 
-				}
-			}
 
 		SAF = { transfer_state = 542 }
 		hidden_effect = {

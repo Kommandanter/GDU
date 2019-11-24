@@ -6,7 +6,7 @@ state={
 	history={
 		owner = CHI
 		add_core_of = CHI
-		add_core_of = PRC
+		#add_core_of = PRC
 		buildings = {
 			7071 = {
 				naval_base = 1
@@ -19,14 +19,7 @@ state={
 		victory_points = {
 			7071 1 
 		}
-		1938.10.25 = {
-			JAP = {
-				set_province_controller = 4196
-				set_province_controller = 7071
 
-			}
-
-		}
 
 	}
 

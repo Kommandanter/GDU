@@ -84,19 +84,6 @@ on_actions = {
        
       }
 
-        ## Annexing stupid nations 
-		    CHI = {	
-				annex_country = {
-							target = SHX
-							transfer_troops = no
-				}
-			}	
-			CHI = {	
-				annex_country = {
-							target = GXC
-							transfer_troops = no
-				}
-			}
            
         }
 

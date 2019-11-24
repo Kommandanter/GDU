@@ -1449,8 +1449,6 @@ focus_tree = {
 		available = {
 			OR = {
 				owns_state = 271
-				ETH = { is_puppet_of = ITA }
-				NOT = { has_war_with = ETH }
 			}
 		}
 

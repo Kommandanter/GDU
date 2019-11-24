@@ -87,24 +87,9 @@ country_event = {
 		name = china.100.a
 		news_event = { id = news.288 }
 		create_faction = chinese_united_front
-		PRC = { add_opinion_modifier = { target = CHI modifier = unstable_alliance } }
-		CHI = { add_opinion_modifier = { target = PRC modifier = unstable_alliance } }
 		hidden_effect = {
-			if = {
-				limit = { country_exists = PRC }
-				add_to_faction = PRC
-			}
-			annex_country = { target = GXC transfer_troops = yes }
-			annex_country = { target = XSM transfer_troops = yes }
-			annex_country = { target = YUN transfer_troops = yes }
-			annex_country = { target = SIK transfer_troops = yes }
-			if = {
-				limit = {
-					country_exists = SHX
-					country_exists = PRC
-				}
-				PRC = { annex_country = { target = SHX transfer_troops = yes } }
-			}
+
+
 		}
 	}
 }

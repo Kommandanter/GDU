@@ -260,12 +260,7 @@ focus_tree = {
 				has_government = fascism
 				has_government = neutrality
 			}
-			if = {
-				limit = {
-					SLO = { is_subject = yes }
-				}
-				SLO = { OVERLORD = { has_government = fascism } }
-			}
+
 		}
 		x = 0
 		y = 1

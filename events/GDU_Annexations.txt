@@ -325,22 +325,6 @@ country_event = {
 	
 	immediate = {
 
-	    every_state = {
-			limit = {
-				is_core_of = DDR
-			}
-			DDR = {
-				transfer_state = PREV
-			}
-		}
-		every_state = {
-			limit = {
-				is_core_of = WGR
-			}
-			WGR = {
-				transfer_state = PREV
-			}
-		}
 		every_state = {
 			limit = {
 				is_core_of = FRF

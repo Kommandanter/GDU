@@ -40,13 +40,7 @@ shared_focus = {
 	icon = GFX_focus_generic_concessions
 	x = 38
 	y = 0
-	offset = {
-		x = -6
-		y = 0
-		trigger = {
-			tag = PRC
-		}
-	}
+
 	offset = {
 		x = -14
 		y = 0
@@ -204,10 +198,6 @@ shared_focus = {
 				has_tech = tech_mountaineers # Wait for the full benefit
 			}
 		}
-		modifier = {
-			factor = 4
-			tag = PRC
-		}
 	}
 
 	available = {
@@ -233,32 +223,6 @@ shared_focus = {
 			uses = 1
 			category = mountaineers_tech
 		}
-		if = {
-			limit = {
-				has_tech = tech_mountaineers
-			}
-			custom_effect_tooltip = CHI_free_mountain_template_tt
-			division_template = {
-				name = "Chinese Mountain Division"
-				division_names_group = CHI_MNT_01
-				regiments = {
-					mountaineers = { x = 0 y = 0 }
-					mountaineers = { x = 0 y = 1 }
-					mountaineers = { x = 0 y = 2 }
-
-					mountaineers = { x = 1 y = 0 }
-					mountaineers = { x = 1 y = 1 }
-					mountaineers = { x = 1 y = 2 }
-
-					mountaineers = { x = 2 y = 0 }
-					artillery_brigade = { x = 2 y = 1 }
-					artillery_brigade = { x = 2 y = 2 }
-				}
-				support = {
-					artillery = { x = 0 y = 0 }
-				}
-			}
-		}
 	}
 }
 
@@ -272,13 +236,7 @@ shared_focus = {
 
 	cost = 10
 
-	ai_will_do = {
-		factor = 1
-		modifier = {
-			factor = 4
-			tag = PRC
-		}
-	}
+
 
 	available = {
 

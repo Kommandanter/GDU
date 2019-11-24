@@ -337,12 +337,6 @@ technologies = {
 
 				OR = {
 					tag = CHI
-					tag = PRC
-					tag = XSM
-					tag = SIK
-					tag = GXC
-					tag = SHX
-					tag = YUN
 				}
 			}
 
@@ -670,12 +664,6 @@ technologies = {
 			NOT =
 				{
 					TAG = CHI
-					TAG = PRC
-					TAG = GXC
-					TAG = YUN
-					TAG = XSM
-					TAG = SHX
-					TAG = SIK
 					TAG = FIN
 					TAG = FRA
 				}
@@ -1801,12 +1789,6 @@ technologies = {
 
 				OR = {
 					tag = CHI
-					tag = PRC
-					tag = XSM
-					tag = SIK
-					tag = GXC
-					tag = SHX
-					tag = YUN
 				}
 			}
 			modifier = {
@@ -1909,12 +1891,6 @@ technologies = {
 
 				OR = {
 					tag = CHI
-					tag = PRC
-					tag = XSM
-					tag = SIK
-					tag = GXC
-					tag = SHX
-					tag = YUN
 				}
 			}
 			modifier = {

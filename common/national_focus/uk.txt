@@ -2034,10 +2034,6 @@ focus_tree = {
 					limit = {
 						OR = {
 							is_controlled_by = ROOT
-							AND = {
-								is_controlled_by = MAL
-								MAL = { is_in_faction_with = ROOT }
-							}
 						}
 					}
 					add_building_construction = {
@@ -2060,10 +2056,6 @@ focus_tree = {
 					limit = {
 						OR = {
 							is_controlled_by = ROOT
-							AND = {
-								is_controlled_by = EGY
-								EGY = { is_in_faction_with = ROOT }
-							}
 						}
 					}
 					add_building_construction = {
@@ -2078,10 +2070,6 @@ focus_tree = {
 					limit = {
 						OR = {
 							is_controlled_by = ROOT
-							AND = {
-								is_controlled_by = EGY
-								EGY = { is_in_faction_with = ROOT }
-							}
 						}
 					}
 					# Alexandria
@@ -2866,10 +2854,6 @@ focus_tree = {
 			CHI = {
 				add_opinion_modifier = { target = ENG modifier = burma_road_good }
 				country_event = britain.4
-			}
-			YUN = {
-				add_opinion_modifier = { target = ENG modifier = burma_road_good }
-				country_event = britain.5
 			}
 			JAP = {
 				add_opinion_modifier = { target = ENG modifier = burma_road_bad }

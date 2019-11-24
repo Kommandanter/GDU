@@ -1206,10 +1206,6 @@ focus = {
 		factor = 1
 		modifier = {
 			factor = 4
-			tag = PRC
-		}
-		modifier = {
-			factor = 4
 			tag = CHI
 		}
 	}
@@ -1243,10 +1239,6 @@ focus = {
 
 	ai_will_do = {
 		factor = 1
-		modifier = {
-			factor = 4
-			tag = PRC
-		}
 		modifier = {
 			factor = 4
 			tag = CHI
@@ -1404,10 +1396,6 @@ focus = {
 		factor = 1
 		modifier = {
 			factor = 4
-			tag = PRC
-		}
-		modifier = {
-			factor = 4
 			tag = CHI
 		}
 	}
@@ -1427,160 +1415,6 @@ focus = {
 	completion_reward = {
 		custom_effect_tooltip = CHI_experimental_mechanised_unit_effect
 		hidden_effect = {
-			if = {
-				limit = {
-					tag = CHI
-				}
-				division_template = {
-					name = "Experimental Mechanised Division"
-					division_names_group = CHI_MEC_01
-					priority = 2
-					regiments = {
-						light_armor = { x = 0 y = 0 }
-						light_armor = { x = 0 y = 1 }
-			
-						motorized = { x = 1 y = 0 }
-						motorized = { x = 1 y = 1 }
-						motorized = { x = 1 y = 2 }
-						motorized = { x = 1 y = 3 }
-					}
-					support = {
-						
-					}
-				}
-			}
-			if = {
-				limit = {
-					tag = PRC
-				}
-				division_template = {
-					name = "Experimental Mechanised Division"
-					division_names_group = PRC_MEC_01
-					priority = 2
-					regiments = {
-						light_armor = { x = 0 y = 0 }
-						light_armor = { x = 0 y = 1 }
-			
-						motorized = { x = 1 y = 0 }
-						motorized = { x = 1 y = 1 }
-						motorized = { x = 1 y = 2 }
-						motorized = { x = 1 y = 3 }
-					}
-					support = {
-						
-					}
-				}
-			}
-			if = {
-				limit = {
-					tag = YUN
-				}
-				division_template = {
-					name = "Experimental Mechanised Division"
-					division_names_group = YUN_MEC_01
-					priority = 2
-					regiments = {
-						light_armor = { x = 0 y = 0 }
-						light_armor = { x = 0 y = 1 }
-			
-						motorized = { x = 1 y = 0 }
-						motorized = { x = 1 y = 1 }
-						motorized = { x = 1 y = 2 }
-						motorized = { x = 1 y = 3 }
-					}
-					support = {
-						
-					}
-				}
-			}
-			if = {
-				limit = {
-					tag = GXC
-				}
-				division_template = {
-					name = "Experimental Mechanised Division"
-					division_names_group = GXC_MEC_01
-					priority = 2
-					regiments = {
-						light_armor = { x = 0 y = 0 }
-						light_armor = { x = 0 y = 1 }
-			
-						motorized = { x = 1 y = 0 }
-						motorized = { x = 1 y = 1 }
-						motorized = { x = 1 y = 2 }
-						motorized = { x = 1 y = 3 }
-					}
-					support = {
-						
-					}
-				}
-			}
-			if = {
-				limit = {
-					tag = SHX
-				}
-				division_template = {
-					name = "Experimental Mechanised Division"
-					division_names_group = SHX_MEC_01
-					priority = 2
-					regiments = {
-						light_armor = { x = 0 y = 0 }
-						light_armor = { x = 0 y = 1 }
-			
-						motorized = { x = 1 y = 0 }
-						motorized = { x = 1 y = 1 }
-						motorized = { x = 1 y = 2 }
-						motorized = { x = 1 y = 3 }
-					}
-					support = {
-						
-					}
-				}
-			}
-			if = {
-				limit = {
-					tag = XSM
-				}
-				division_template = {
-					name = "Experimental Mechanised Division"
-					division_names_group = XSM_MEC_01
-					priority = 2
-					regiments = {
-						light_armor = { x = 0 y = 0 }
-						light_armor = { x = 0 y = 1 }
-			
-						motorized = { x = 1 y = 0 }
-						motorized = { x = 1 y = 1 }
-						motorized = { x = 1 y = 2 }
-						motorized = { x = 1 y = 3 }
-					}
-					support = {
-						
-					}
-				}
-			}
-			if = {
-				limit = {
-					tag = SIK
-				}
-				division_template = {
-					name = "Experimental Mechanised Division"
-					division_names_group = SIK_MEC_01
-					priority = 2
-					regiments = {
-						light_armor = { x = 0 y = 0 }
-						light_armor = { x = 0 y = 1 }
-			
-						motorized = { x = 1 y = 0 }
-						motorized = { x = 1 y = 1 }
-						motorized = { x = 1 y = 2 }
-						motorized = { x = 1 y = 3 }
-					}
-					support = {
-						
-					}
-				}
-			}
 			if = {
 				limit = {
 					tag = MAN
@@ -1706,7 +1540,6 @@ focus = {
 			custom_effect_tooltip = CHI_free_mountain_template_tt
 			division_template = {
 				name = "Chinese Mountain Division"
-				division_names_group = CHI_MNT_01
 				regiments = {
 					mountaineers = { x = 0 y = 0 }
 					mountaineers = { x = 0 y = 1 }
