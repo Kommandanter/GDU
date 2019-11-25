@@ -121,25 +121,25 @@ ideas = {
 			cancel_if_invalid = no
 
 			ai_will_do = {
-   				factor = 2
+   				factor = 5
 
    				modifier = {
-					factor = 20
+					factor = 100
 
 					is_major = yes
 				}
 				modifier = {
-					factor = 50
+					factor = 100
 
 					original_tag = NZL 
 				}
 				modifier = {
-					factor = 50
+					factor = 100
 
 					original_tag = BUL 
 				}
 				modifier = {
-					factor = 50
+					factor = 100
 
 					original_tag = FIN 
 				}
@@ -182,25 +182,25 @@ ideas = {
 			cancel_if_invalid = no
 
 			ai_will_do = {
-   				factor = 2
+   				factor = 5
 
    				modifier = {
-					factor = 20
+					factor = 100
 
 					is_major = yes
 				}
 				modifier = {
-					factor = 50
+					factor = 100
 
 					original_tag = NZL 
 				}
 				modifier = {
-					factor = 50
+					factor = 100
 
 					original_tag = BUL 
 				}
 				modifier = {
-					factor = 50
+					factor = 100
 
 					original_tag = FIN 
 				}
