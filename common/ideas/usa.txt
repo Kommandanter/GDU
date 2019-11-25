@@ -1507,7 +1507,7 @@ ideas = {
 			}
 			
 			available = { 
-				has_completed_focus = USA_federal_housing_act 
+				has_completed_focus = USA_fair_labour_standards_act 
 			}
 			
 			traits = { financial_expert }

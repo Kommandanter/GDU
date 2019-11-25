@@ -130,6 +130,8 @@
  turn_on_off_news_category:0 "News Event Settings"
  turn_news_on_decision:0 "Turn on News Events"
  turn_news_off_decision:0 "Turn off News Events"
+ turn_news_on_gduguides_decisions:0 "GDU Guides - ON"
+ turn_news_off_gduguides_decisions:0 "GDU Guides - OFF"
  
  # News Events Themselves
  gdunews.1.t:0 "Beginning of World War II"
