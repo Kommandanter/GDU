@@ -2096,7 +2096,6 @@ activate_mission = GER_relocate_industry_from_friesland
 			OR = {
 				NOT = { HOL = { is_in_faction_with = GER } }
 				NOT = { BEL = { is_in_faction_with = GER } }
-				NOT = { LUX = { is_in_faction_with = GER } }
 			}
 		}
 
@@ -2109,13 +2108,6 @@ activate_mission = GER_relocate_industry_from_friesland
 				}
 			}
 			BEL = {
-				OR = {
-					exists = no
-					is_in_faction_with = GER
-					has_war_with = ROOT
-				}
-			}
-			LUX = {
 				OR = {
 					exists = no
 					is_in_faction_with = GER
@@ -2136,7 +2128,6 @@ activate_mission = GER_relocate_industry_from_friesland
 		}
 		will_lead_to_war_with = BEL
 		will_lead_to_war_with = HOL
-		will_lead_to_war_with = LUX
 		will_lead_to_war_with = FRA
 		x = 0
 		y = 1

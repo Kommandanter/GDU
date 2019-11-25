@@ -18,14 +18,13 @@ state=
 			4429 1 
 		}
 
-		owner = PHI
+		owner = USA
 		buildings = {
 			infrastructure = 1
 			4429 = {
 				naval_base = 1
 			}
 		}
-		add_core_of = PHI
 	}
 	provinces={
 		4429 7419 10145 

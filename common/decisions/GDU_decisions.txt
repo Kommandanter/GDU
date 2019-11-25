@@ -1428,7 +1428,6 @@ operations = {
 						FRF = { controls_state = 833 }
 						HOL = { controls_state = 833 }
 						BEL = { controls_state = 833 }
-						LUX = { controls_state = 833 }
 						DEN	= { controls_state = 833 }											
 					}
 					OR = {
@@ -1442,7 +1441,6 @@ operations = {
 						FRF = { controls_state = 834 }
 						HOL = { controls_state = 834 }
 						BEL = { controls_state = 834 }
-						LUX = { controls_state = 834 }
 						DEN	= { controls_state = 834 }											
 					}					
 					OR = {
@@ -1456,7 +1454,6 @@ operations = {
 						FRF = { controls_state = 735 }
 						HOL = { controls_state = 735 }
 						BEL = { controls_state = 735 }
-						LUX = { controls_state = 735 }
 						DEN	= { controls_state = 735 }											
 					}
 					OR = {
@@ -1470,7 +1467,6 @@ operations = {
 						FRF = { controls_state = 21 }
 						HOL = { controls_state = 21 }
 						BEL = { controls_state = 21 }
-						LUX = { controls_state = 21 }
 						DEN	= { controls_state = 21 }											
 					}
 										OR = {
@@ -1484,7 +1480,6 @@ operations = {
 						FRF = { controls_state = 18 }
 						HOL = { controls_state = 18 }
 						BEL = { controls_state = 18 }
-						LUX = { controls_state = 18 }
 						DEN	= { controls_state = 18 }											
 					}
 										OR = {
@@ -1498,7 +1493,6 @@ operations = {
 						FRF = { controls_state = 31 }
 						HOL = { controls_state = 31 }
 						BEL = { controls_state = 31 }
-						LUX = { controls_state = 31 }
 						DEN	= { controls_state = 31 }											
 					}
 										OR = {
@@ -1512,7 +1506,6 @@ operations = {
 						FRF = { controls_state = 19 }
 						HOL = { controls_state = 19 }
 						BEL = { controls_state = 19 }
-						LUX = { controls_state = 19 }
 						DEN	= { controls_state = 19 }											
 					}
 										OR = {
@@ -1526,7 +1519,6 @@ operations = {
 						FRF = { controls_state = 23 }
 						HOL = { controls_state = 23 }
 						BEL = { controls_state = 23 }
-						LUX = { controls_state = 23 }
 						DEN	= { controls_state = 23 }											
 					}
 										OR = {
@@ -1540,7 +1532,6 @@ operations = {
 						FRF = { controls_state = 30 }
 						HOL = { controls_state = 30 }
 						BEL = { controls_state = 30 }
-						LUX = { controls_state = 30 }
 						DEN	= { controls_state = 30 }											
 					}
 										OR = {
@@ -1554,7 +1545,6 @@ operations = {
 						FRF = { controls_state = 14 }
 						HOL = { controls_state = 14 }
 						BEL = { controls_state = 14 }
-						LUX = { controls_state = 14 }
 						DEN	= { controls_state = 14 }											
 					}
 										OR = {
@@ -1568,7 +1558,6 @@ operations = {
 						FRF = { controls_state = 15 }
 						HOL = { controls_state = 15 }
 						BEL = { controls_state = 15 }
-						LUX = { controls_state = 15 }
 						DEN	= { controls_state = 15 }											
 					}
 										OR = {
@@ -1582,7 +1571,6 @@ operations = {
 						FRF = { controls_state = 785 }
 						HOL = { controls_state = 785 }
 						BEL = { controls_state = 785 }
-						LUX = { controls_state = 785 }
 						DEN	= { controls_state = 785 }											
 					}
 										OR = {
@@ -1596,7 +1584,6 @@ operations = {
 						FRF = { controls_state = 29 }
 						HOL = { controls_state = 29 }
 						BEL = { controls_state = 29 }
-						LUX = { controls_state = 29 }
 						DEN	= { controls_state = 29 }											
 					}
 										OR = {
@@ -1610,7 +1597,6 @@ operations = {
 						FRF = { controls_state = 6 }
 						HOL = { controls_state = 6 }
 						BEL = { controls_state = 6 }
-						LUX = { controls_state = 6 }
 						DEN	= { controls_state = 6 }											
 					}
 										OR = {
@@ -1624,7 +1610,6 @@ operations = {
 						FRF = { controls_state = 7 }
 						HOL = { controls_state = 7 }
 						BEL = { controls_state = 7 }
-						LUX = { controls_state = 7 }
 						DEN	= { controls_state = 7 }											
 					}
 										OR = {
@@ -1638,7 +1623,6 @@ operations = {
 						FRF = { controls_state = 36 }
 						HOL = { controls_state = 36 }
 						BEL = { controls_state = 36 }
-						LUX = { controls_state = 36 }
 						DEN	= { controls_state = 36 }											
 					}
 										OR = {
@@ -1652,7 +1636,6 @@ operations = {
 						FRF = { controls_state = 56 }
 						HOL = { controls_state = 56 }
 						BEL = { controls_state = 56 }
-						LUX = { controls_state = 56 }
 						DEN	= { controls_state = 56 }											
 					}
 										OR = {
@@ -1666,7 +1649,6 @@ operations = {
 						FRF = { controls_state = 59 }
 						HOL = { controls_state = 59 }
 						BEL = { controls_state = 59 }
-						LUX = { controls_state = 59 }
 						DEN	= { controls_state = 59 }											
 					}
 										OR = {
@@ -1680,7 +1662,6 @@ operations = {
 						FRF = { controls_state = 58 }
 						HOL = { controls_state = 58 }
 						BEL = { controls_state = 58 }
-						LUX = { controls_state = 58 }
 						DEN	= { controls_state = 58 }											
 					}
 										OR = {
@@ -1694,7 +1675,6 @@ operations = {
 						FRF = { controls_state = 99 }
 						HOL = { controls_state = 99 }
 						BEL = { controls_state = 99 }
-						LUX = { controls_state = 99 }
 						DEN	= { controls_state = 99 }											
 					}
 										OR = {
@@ -1708,7 +1688,6 @@ operations = {
 						FRF = { controls_state = 61 }
 						HOL = { controls_state = 61 }
 						BEL = { controls_state = 61 }
-						LUX = { controls_state = 61 }
 						DEN	= { controls_state = 61 }											
 					}
 										OR = {
@@ -1722,7 +1701,6 @@ operations = {
 						FRF = { controls_state = 62 }
 						HOL = { controls_state = 62 }
 						BEL = { controls_state = 62 }
-						LUX = { controls_state = 62 }
 						DEN	= { controls_state = 62 }											
 					}
 										OR = {
@@ -1736,7 +1714,6 @@ operations = {
 						FRF = { controls_state = 63 }
 						HOL = { controls_state = 63 }
 						BEL = { controls_state = 63 }
-						LUX = { controls_state = 63 }
 						DEN	= { controls_state = 63 }											
 					}
 										OR = {
@@ -1750,7 +1727,6 @@ operations = {
 						FRF = { controls_state = 85 }
 						HOL = { controls_state = 85 }
 						BEL = { controls_state = 85 }
-						LUX = { controls_state = 85 }
 						DEN	= { controls_state = 85 }											
 					}
 										OR = {
@@ -1764,7 +1740,6 @@ operations = {
 						FRF = { controls_state = 788 }
 						HOL = { controls_state = 788 }
 						BEL = { controls_state = 788 }
-						LUX = { controls_state = 788 }
 						DEN	= { controls_state = 788 }											
 					}
 										OR = {
@@ -1778,7 +1753,6 @@ operations = {
 						FRF = { controls_state = 763 }
 						HOL = { controls_state = 763 }
 						BEL = { controls_state = 763 }
-						LUX = { controls_state = 763 }
 						DEN	= { controls_state = 763 }											
 					}
 				}
@@ -2740,45 +2714,6 @@ foreign_politics = {
 		}
 	
 	}
-
-	GDU_GER_invade_irq = { 
-		icon = generic_civil_support
-		
-		available = {
-			original_tag = GER 
-			any_country = {
-				original_tag = IRQ 
-			}
-			ENG = { 
-				NOT = { 
-					controls_state = 455 
-				}
-				
-			}
-		}
-		
-		fire_only_once = yes
-		
-		visible = {
-			original_tag = GER
-			has_war_with = ENG 
-			any_country = {
-				original_tag = IRQ 
-			}
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		complete_effect = {
-			declare_war_on = {
-				target = IRQ 
-				type = annex_everything
-			}
-		}
-	
-	}
 	
 	GDU_GER_invade_iran = { 
 		icon = generic_civil_support
@@ -2882,71 +2817,6 @@ foreign_politics = {
 			
 		}
 	
-	}
-	
-	GDU_eng_irq_invasion = {
-		icon = generic_operation
-		
-		available = { 
-			IRQ = { exists = yes } 
-			NOT = { 
-				has_war_with = IRQ 
-			} 
-			OR = { 
-				AND = { 
-				has_war_with = GER 
-				has_war_with = ITA 
-				} 
-				date > 1939.11.1 
-			} 
-			has_completed_focus = uk_service_focus 
-		} 
-		
-		fire_only_once = yes
-		
-		cost = 25 
-		
-		days_remove = 7
-		
-		ai_will_do = {
-			factor = 0
-			
-		}
-		visible = { 
-			tag = ENG 
-			IRQ = { exists = yes }  
-		}
-
-		complete_effect = {
-		 hidden_effect = { 
-			every_country = { 
-				limit = { is_in_faction_with = ENG } 
-				
-				diplomatic_relation = {
-					country = IRQ 
-					relation = military_access 
-					active = no
-				}
-				diplomatic_relation = {
-					country = IRQ
-					relation = guarantee 
-					active = no
-				}
-				diplomatic_relation = {
-					country = IRQ
-					relation = puppet  
-					active = no
-				}
-			}
-		 }
-		} 
-		remove_effect = {	
-			declare_war_on = {
-				target = IRQ 
-				type = annex_everything
-			}
-		}
-
 	}
 	
 	 

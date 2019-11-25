@@ -1378,7 +1378,6 @@ on_daily = {
 					}
 				}
 				USA = { leave_faction = yes }
-				PHI = { leave_faction = yes }
 				USA = { country_event = { id = gduevents.26 } }
 			}
 		}
@@ -1429,6 +1428,115 @@ on_daily = {
 			}	
 		}
 	}
+
+
+
+
+
+
+
+# When Japan invades the Philippines, it doesn't have to take every last tile, they will flip to Japanese control
+
+	on_state_control_changed = {
+		effect = {
+
+				
+		
+			if = {
+				limit = {
+					original_tag = JAP 
+					FROM.FROM = {
+						state = 327
+						NOT = { has_state_flag = GDU_PHI_fall } 
+					}
+				}
+				FROM.FROM = { 
+					set_state_flag = GDU_PHI_fall 
+				}
+				if = {
+					limit = {
+						USA = {
+							divisions_in_state = {
+								size < 1
+								state = 327
+							}
+						}
+					}
+					JAP = { set_state_controller = 327 }
+				}
+				if = {
+					limit = {
+						USA = {
+							divisions_in_state = {
+								size < 1
+								state = 623
+							}
+						}
+					}
+					JAP = { set_state_controller = 623 }
+				}
+				if = {
+					limit = {
+						USA = {
+							divisions_in_state = {
+								size < 1
+								state = 624
+							}
+						}
+					}
+					JAP = { set_state_controller = 624 }
+				}
+				if = {
+					limit = {
+						USA = {
+							divisions_in_state = {
+								size < 1
+								state = 625
+							}
+						}
+					}
+					JAP = { set_state_controller = 625 }
+				}
+				if = {
+					limit = {
+						USA = {
+							divisions_in_state = {
+								size < 1
+								state = 626
+							}
+						}
+					}
+					JAP = { set_state_controller = 626 }
+				}
+				if = {
+					limit = {
+						USA = {
+							divisions_in_state = {
+								size < 1
+								state = 627
+							}
+						}
+					}
+					JAP = { set_state_controller = 627 }
+				}
+				if = {
+					limit = {
+						USA = {
+							divisions_in_state = {
+								size < 1
+								state = 628
+							}
+						}
+					}
+					JAP = { set_state_controller = 628 }
+				}
+			}
+		
+		
+		
+	}
+	}
+
 
 
 
@@ -3006,29 +3114,6 @@ on_daily = {
 		}
 	}
 	
-	#### Ensure that LUX gets added to Allies when it is attacked ####
-	
-	on_declare_war = {
-		effect = {
-			
-			if = {
-				limit = {
-							FROM = {
-								tag = LUX 
-							}	
-				}
-				hidden_effect = {
-					ENG = { add_to_faction = LUX }
-					ROOT = { declare_war_on = {
-							target = ENG
-							type = annex_everything
-						}
-					}
-				}
-			}
-		
-		}
-	}		
 	
 	#### Ensure that HOL gets added to Allies when it is attacked ####
 	
@@ -3426,10 +3511,7 @@ activate_mission = SOV_relocate_industry_from_zaporozhe
 						}
 						FROM.FROM = {
 							is_core_of = HOL
-						}
-						FROM.FROM = {
-							is_core_of = LUX
-						}						
+						}					
 					}
 				}
 				hidden_effect = {
@@ -3703,7 +3785,6 @@ activate_mission = SOV_relocate_industry_from_zaporozhe
         		}
         		JAP = { 
         		    annex_country = { target = INS transfer_troops = no }
-        		    annex_country = { target = PHI transfer_troops = no }	
         		    transfer_state = 336
         		    transfer_state = 333
         		    transfer_state = 792
@@ -4098,7 +4179,6 @@ activate_mission = SOV_relocate_industry_from_zaporozhe
 						original_tag = FRF
 						original_tag = HOL
 						original_tag = BEL
-						original_tag = LUX
 						original_tag = DEN												
 					}
 					OR = {
@@ -4235,23 +4315,6 @@ activate_mission = SOV_relocate_industry_from_zaporozhe
 
 	# Check if Allies have capitulated and create missions to liberate them if they have and apply penalties/bonuses accordingly #
 
-			# When Iraq capitulates, UK annexes it and gets its troops/navy #
-
-	on_capitulation = {
-		effect = {		
-			if = {
-				limit = {
-					tag = IRQ
-				}
-				set_global_flag = GDU_IRQ_capitulated
-				IRQ = { 
-					transfer_navy = { 
-						target = AST 
-					}
-				}
-				IRQ = { 					country_event = { id = gduannexations.9 days = 10 }  }			}
-		}
-	}
 
 
 			# When Belgium capitulates, UK annexes it and gets its troops/navy #
@@ -4273,24 +4336,7 @@ activate_mission = SOV_relocate_industry_from_zaporozhe
 		}
 	}			
 
-			# When Luxembourg capitulates, UK annexes it and gets its troops/navy #
-
-	on_capitulation = {
-		effect = {			
-			if = {
-				limit = {
-					tag = LUX
-				}
-				set_global_flag = GDU_LUX_capitulated
-				LUX = { 
-					transfer_navy = { 
-						target = CAN 
-					}
-				}
-				LUX = { 					country_event = { id = gduannexations.2 days = 10 }  }
-			}
-		}
-	}					
+			
 			# When Holland capitulates, UK annexes it and gets its troops/navy #
 
 	on_capitulation = {
@@ -4855,31 +4901,6 @@ activate_mission = SOV_relocate_industry_from_zaporozhe
 	
 	on_capitulation = {
 		effect = {
-			if = { 
-				limit = { 
-					AND = { 
-						tag = IRQ
-						OR = { 
-							291 = { is_controlled_by = ENG } 
-							291 = { is_controlled_by = USA }
-							291 = { is_controlled_by = CAN } 
-							291 = { is_controlled_by = SAF }
-							291 = { is_controlled_by = AST }
-							291 = { is_controlled_by = NZL } 
-							291 = { is_controlled_by = RAJ } 
-						}
-					} 
-						
-						
-				}
-				ENG = { 
-					annex_country = {
-						target = IRQ 
-						transfer_troops = no 
-					}
-					set_state_controller = 291 
-				} 
-			}
 			
 			if = { 
 				limit = { 

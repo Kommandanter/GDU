@@ -2132,7 +2132,6 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			unlock_decision_tooltip = GDU_eng_irq_invasion		
 			unlock_decision_tooltip = GDU_eng_countenance		
 			army_experience = 50
 			navy_experience = 25

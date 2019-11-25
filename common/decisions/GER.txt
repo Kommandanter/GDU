@@ -453,11 +453,7 @@ foreign_politics = {
 			declare_war_on = {
 				target = BEL
 				type = annex_everything
-			}
-			declare_war_on = {
-				target = LUX
-				type = annex_everything
-			}		
+			}	
 		}
 	
 	}

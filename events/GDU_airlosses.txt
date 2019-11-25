@@ -21,9 +21,6 @@ country_event = {
 				CAN = {
 					add_ideas = GDU1942_airlosses
 				}
-				PHI = {
-					add_ideas = GDU1942_airlosses
-				}
 				SAF = {
 					add_ideas = GDU1942_airlosses
 				}
@@ -102,11 +99,6 @@ country_event = {
 						add_idea = GDU1943_airlosses
 					}				}
 				CAN = {
-					swap_ideas = { 
-						remove_idea = GDU1942_airlosses
-						add_idea = GDU1943_airlosses
-					}				}
-				PHI = {
 					swap_ideas = { 
 						remove_idea = GDU1942_airlosses
 						add_idea = GDU1943_airlosses
@@ -227,11 +219,6 @@ country_event = {
 						remove_idea = GDU1943_airlosses
 						add_idea = GDU1944_airlosses
 					}				}
-				PHI = {
-					swap_ideas = { 
-						remove_idea = GDU1943_airlosses
-						add_idea = GDU1944_airlosses
-					}				}
 				SAF = {
 					swap_ideas = { 
 						remove_idea = GDU1943_airlosses
@@ -341,11 +328,6 @@ country_event = {
 						add_idea = GDU1945_airlosses
 					}				}
 				CAN = {
-					swap_ideas = { 
-						remove_idea = GDU1944_airlosses
-						add_idea = GDU1945_airlosses
-					}				}
-				PHI = {
 					swap_ideas = { 
 						remove_idea = GDU1944_airlosses
 						add_idea = GDU1945_airlosses

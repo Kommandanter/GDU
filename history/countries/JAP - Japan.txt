@@ -28,10 +28,7 @@ set_autonomy = {
 	autonomous_state =  autonomy_Imperial_Protectorate 
 }
 
-set_autonomy = {
-	target = MEN 
-	autonomous_state =  autonomy_Imperial_Protectorate 
-}
+
 add_ace = {
     name = "Hideki"
     surname = "Kongo"

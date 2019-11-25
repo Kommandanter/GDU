@@ -187,17 +187,12 @@ DIPLOMACY_MILACC_ENABLE_TRIGGER = {
 			NOT = {
 				OR = {
 					tag = USA
-					tag = PHI
 				}
 			}
 			AND = {
 				tag = USA			
 				USA = { has_war = yes }					
-			}
-			AND = {
-				tag = PHI			
-				PHI = { has_war = yes }					
-			}			
+			}		
 		}
 		
 	}
@@ -216,16 +211,11 @@ DIPLOMACY_MILACC_ENABLE_TRIGGER = {
 			NOT = {
 				OR = {
 					tag = USA
-					tag = PHI
 				}
 			}
 			AND = {
 				tag = USA			
 				USA = { has_war = yes }					
-			}
-			AND = {
-				tag = PHI			
-				PHI = { has_war = yes }					
 			}			
 		}			
 	}
@@ -312,16 +302,11 @@ DIPLOMACY_DOCKING_RIGHTS_ENABLE_TRIGGER = {
 			NOT = {
 				OR = {
 					tag = USA
-					tag = PHI
 				}
 			}
 			AND = {
 				tag = USA			
 				USA = { has_war = yes }					
-			}
-			AND = {
-				tag = PHI			
-				PHI = { has_war = yes }					
 			}			
 		}
 		NOT = { tag = SOV }
@@ -341,17 +326,12 @@ DIPLOMACY_DOCKING_RIGHTS_ENABLE_TRIGGER = {
 			NOT = {
 				OR = {
 					tag = USA
-					tag = PHI
 				}
 			}
 			AND = {
 				tag = USA			
 				USA = { has_war = yes }					
-			}
-			AND = {
-				tag = PHI			
-				PHI = { has_war = yes }					
-			}			
+			}		
 		}
 		NOT = { tag = SOV }		
 	}

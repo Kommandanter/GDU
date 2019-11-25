@@ -316,10 +316,7 @@ add_ideas = {
 
 
 # DIPLOMACY
-set_autonomy = {
-	target = PHI
-	autonomous_state =  autonomy_PCommonwealth
-}
+
 
 1939.1.1 = {
 	set_stability = 0.8
