@@ -69,7 +69,7 @@ USA_congress = {
 				clear_variable = factory_goal
 			}
 			
-			add_political_power = -5
+			add_political_power = -20
 			clr_country_flag = USA_congress_investment
 		}
 		complete_effect = {
@@ -81,7 +81,7 @@ USA_congress = {
 				clear_variable = factory_goal
 			}
 			ROOT = {
-				add_political_power = 20 
+				add_political_power = 50 
 				clr_country_flag = USA_congress_investment
 			}
 			
@@ -117,7 +117,7 @@ USA_congress = {
 				clear_variable = arms_factory_goal
 			}
 			
-			add_political_power = -5 
+			add_political_power = -15 
 			clr_country_flag = USA_congress_investment
 		}
 		complete_effect = {
@@ -129,7 +129,7 @@ USA_congress = {
 				clear_variable = arms_factory_goal
 			}
 			ROOT = {
-				add_political_power = 20 
+				add_political_power = 35 
 				clr_country_flag = USA_congress_investment
 			}
 			
@@ -164,7 +164,7 @@ USA_congress = {
 				clr_state_flag = USA_congress_build_dockyard
 				clear_variable = dockyard_goal
 			}
-			add_political_power = -5 
+			add_political_power = -15 
 			clr_country_flag = USA_congress_investment
 		}
 		complete_effect = {
@@ -176,7 +176,7 @@ USA_congress = {
 				clear_variable = dockyard_goal
 			}
 			ROOT = {
-				add_political_power = 20 
+				add_political_power = 35 
 				clr_country_flag = USA_congress_investment
 			}
 		}
@@ -211,7 +211,7 @@ USA_congress = {
 				clear_variable = infrastructure_goal
 			}
 			
-			add_political_power = -5 
+			add_political_power = -10 
 			clr_country_flag = USA_congress_investment
 		}
 		complete_effect = {
@@ -223,7 +223,7 @@ USA_congress = {
 				clear_variable = infrastructure_goal
 			}
 			ROOT = {
-				add_political_power = 20 
+				add_political_power = 25 
 				clr_country_flag = USA_congress_investment
 			}
 			
