@@ -1747,7 +1747,7 @@
 		carrier = {
 			max_organisation = 25
 		}
-		port_strike = 0.5
+		port_strike = 0.35
 		#####
 		
 		xor = { fleet_in_being trade_interdiction } 
@@ -1816,7 +1816,7 @@
 		sortie_efficiency = 0.2
 
 		modifier = {
-			naval_strike_targetting_factor = 0.1
+			naval_strike_targetting_factor = 0.075
 		}
 		#############
 
@@ -1886,7 +1886,7 @@
 			max_organisation = 25
 		}
 		modifier = {
-			naval_strike_targetting_factor = 0.1
+			naval_strike_targetting_factor = 0.075
 		}
 		##########
 
