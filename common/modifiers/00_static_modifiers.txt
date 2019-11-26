@@ -358,18 +358,18 @@ water_modifier_shark_infested = {
 }
 
 screening_bonus = { 
-  naval_retreat_speed = 0.2 
-  naval_hit_chance = 0.5
+  naval_retreat_speed = 0.1 
+  naval_hit_chance = 0.33
 }
 
 capital_screening_bonus = { 
-  naval_retreat_speed = 0.2
-  fighter_sortie_efficiency = 0.1
+  naval_retreat_speed = 0.1
+  fighter_sortie_efficiency = 0.15
 }
 
 ship_experience_bonus_max = {
     naval_damage_factor = 0.1
-    naval_defense_factor = 0.1
+    naval_defense_factor = 0.025
 }
 
 ship_experience_malus_min = {

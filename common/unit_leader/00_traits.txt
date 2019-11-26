@@ -1173,8 +1173,8 @@ leader_traits = {
 		custom_gain_xp_trigger_tooltip = FLEET_PROTECTOR_TRIGGER_TT
 		cost = 500
 		modifier = {
-			screening_efficiency = 0.15
-			convoy_escort_efficiency = 0.025
+			screening_efficiency = 0.2
+			convoy_escort_efficiency = 0.05
 		}
 		
 		ai_will_do = {
@@ -1191,10 +1191,10 @@ leader_traits = {
 			#gains XP when running away
 		}
 		modifier = {
-			naval_retreat_chance = 0.075
+			naval_retreat_chance = 0.1
 			naval_retreat_speed = 0.05
-			convoy_retreat_speed = 0.025
-			naval_coordination = 0.015
+			convoy_retreat_speed = 0.05
+			naval_coordination = 0.03
 		}
 		custom_gain_xp_trigger_tooltip = BLOCKADE_RUNNER_TRIGGER_TT
 		ai_will_do = {
@@ -1214,9 +1214,9 @@ leader_traits = {
 			naval_damage_factor = 0.025
 			naval_coordination = 0.015
 			ships_at_battle_start = 0.05
-			naval_hit_chance = 0.025
-			navy_org_factor = 0.025
-			naval_morale_factor = 0.025
+			naval_hit_chance = 0.03
+			navy_org_factor = 0.05
+			naval_morale_factor = 0.05
 		}
 		custom_gain_xp_trigger_tooltip = SUPERIOR_TACTICIAN_TRIGGER_TT
 		ai_will_do = {
@@ -1235,9 +1235,9 @@ leader_traits = {
 		cost = 500
 		modifier = {
 			spotting_chance = 0.05
-			convoy_escort_efficiency = 0.025
-			convoy_raiding_efficiency_factor = 0.025
-			naval_retreat_chance = 0.025
+			convoy_escort_efficiency = 0.05
+			convoy_raiding_efficiency_factor = 0.05
+			naval_retreat_chance = 0.05
 		}
 		custom_gain_xp_trigger_tooltip = SPOTTER_TRIGGER_TT
 		ai_will_do = {
@@ -1276,8 +1276,8 @@ leader_traits = {
 		cost = 500
 		modifier = {
 			navy_capital_ship_defence_factor = 0.05
-			critical_receive_chance = -0.05
-			naval_morale_factor = 0.025
+			critical_receive_chance = -0.1
+			naval_morale_factor = 0.05
 		}
 
 		ai_will_do = {
@@ -1316,12 +1316,12 @@ leader_traits = {
 		type = navy
 		modifier = {
 			naval_torpedo_reveal_chance_factor = -0.10
-			navy_submarine_attack_factor = 0.1
+			navy_submarine_attack_factor = 0.15
 			navy_submarine_defence_factor = 0.05
-			convoy_raiding_efficiency_factor = 0.075
+			convoy_raiding_efficiency_factor = 0.1
 			spotting_chance = 0.05 							
 			naval_hit_chance = 0.025
-			sub_retreat_speed = 0.025
+			sub_retreat_speed = 0.05
 		}
 
 		ai_will_do = {
@@ -1382,7 +1382,7 @@ leader_traits = {
 			#		defence = 0.1
 			#	}
 			#}
-			convoy_escort_efficiency = 0.05
+			convoy_escort_efficiency = 0.1
 		}
 		
 		sub_unit_modifiers = {
@@ -1423,9 +1423,14 @@ leader_traits = {
 	hunter_killer = { 
 		type = navy
 		modifier = {
-			navy_submarine_detection_factor = 0.05
-			navy_submarine_attack_factor = 0.05
 			convoy_escort_efficiency = 0.05
+		}
+		
+		sub_unit_modifiers = {
+			destroyer = {
+				navy_submarine_detection_factor = 0.05
+				navy_submarine_attack_factor = 0.05
+			}
 		}
 				
 		ai_will_do = {
@@ -1447,11 +1452,11 @@ leader_traits = {
 		sub_unit_modifiers = {
 			light_cruiser = {
 				naval_damage_factor = 0.05
-				naval_speed_factor = 0.005
+				naval_speed_factor = 0.01
 			}
 			heavy_cruiser = {
 				naval_damage_factor = 0.05
-				naval_speed_factor = 0.005
+				naval_speed_factor = 0.01
 			}
 		}	
 		ai_will_do = {
@@ -1470,9 +1475,9 @@ leader_traits = {
 		modifier = {
 			 spotting_chance = 0.1
 			 naval_coordination = 0.025
-			 naval_speed_factor = 0.005
+			 naval_speed_factor = 0.01
 			 navy_submarine_detection_factor = 0.05
-			 convoy_raiding_efficiency_factor = 0.025
+			 convoy_raiding_efficiency_factor = 0.05
 		}
 				
 		ai_will_do = {
@@ -1489,7 +1494,7 @@ leader_traits = {
 	lone_wolf = { 
 		type = navy
 		modifier = {
-			naval_enemy_fleet_size_ratio_penalty_factor = 0.165
+			naval_enemy_fleet_size_ratio_penalty_factor = 0.15
 		}
 				
 		ai_will_do = {
@@ -1506,8 +1511,8 @@ leader_traits = {
 	concealment_expert = { 
 		type = navy
 		modifier = {
-			navy_visibility = -0.0375
-			naval_coordination = 0.025
+			navy_visibility = -0.05
+			naval_coordination = 0.05
 		}
 				
 		ai_will_do = {
@@ -1527,9 +1532,9 @@ leader_traits = {
 	smoke_screen_expert = { 
 		type = navy
 		modifier = {
-			naval_retreat_chance = 0.125
-			naval_retreat_speed = 0.0375
-			convoy_retreat_speed = 0.025
+			naval_retreat_chance = 0.15
+			naval_retreat_speed = 0.05
+			convoy_retreat_speed = 0.05
 			
 		}
 		
@@ -1580,7 +1585,7 @@ leader_traits = {
 	safety_first = { 
 		type = navy
 		modifier = {
-			critical_receive_chance = -0.165
+			critical_receive_chance = -0.2
 		}
 				
 		ai_will_do = {
@@ -1613,7 +1618,7 @@ leader_traits = {
 	crisis_magician = { 
 		type = navy
 		modifier = {
-			 naval_critical_effect_factor = -0.25
+			 naval_critical_effect_factor = -0.33
 		}
 				
 		ai_will_do = {
@@ -1665,7 +1670,7 @@ leader_traits = {
 		type = navy
 		sub_unit_modifiers = {
 			cv_cas = {
-				air_mission_efficiency = 0.05
+				air_mission_efficiency = 0.2
 			}
 		}	
 		ai_will_do = {
@@ -1714,6 +1719,9 @@ leader_traits = {
 		
 		modifier = {
 			naval_attrition = -0.05
+			arctic_water = {
+				movement = 0.025
+			}
 		}
 
 		ai_will_do = {
@@ -1883,7 +1891,7 @@ leader_traits = {
 	
 		modifier = {
 			naval_damage_factor = 0.025
-			naval_speed_factor = 0.005
+			naval_speed_factor = 0.01
 		}
 		
 		ai_will_do = {
@@ -1895,7 +1903,7 @@ leader_traits = {
 		trait_type = personality_trait
 		
 		modifier = {
-			naval_coordination = 0.015
+			naval_coordination = 0.02
 		}
 		
 		ai_will_do = {

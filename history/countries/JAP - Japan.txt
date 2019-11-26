@@ -747,21 +747,21 @@ create_field_marshal = {
 create_navy_leader = {
 	name = "Isoroku Yamamoto"
 		picture = "Portrait_Japan_Isoroku_Yamamoto.dds"
-	traits = { bold air_controller flight_deck_manager superior_tactician spotter blue_water_expert }
+	traits = { aviation_enthusiast bold air_controller flight_deck_manager superior_tactician spotter blue_water_expert }
 	skill = 7
 	attack_skill = 7
-	defense_skill = 4
-	maneuvering_skill = 6
+	defense_skill = 3
+	maneuvering_skill = 5
 	coordination_skill = 7
 }
 
 create_navy_leader = {
 	name = "Mineichi Koga"
 		picture = "Portrait_Japan_Mineichi_Koga.dds"
-	traits = { bold superior_tactician spotter ironside air_controller inshore_fighter }
+	traits = { gunnery_expert battleship_adherent bold superior_tactician spotter ironside inshore_fighter }
 	skill = 6
-	attack_skill = 6
-	defense_skill = 3
+	attack_skill = 7
+	defense_skill = 2
 	maneuvering_skill = 5
 	coordination_skill = 6
 }
@@ -769,11 +769,11 @@ create_navy_leader = {
 create_navy_leader = {
 	name = "Kiyoshi Hasegawa"
 		picture = "Portrait_Japan_Hasegawa_Kiyoshi.dds"
-	traits = { fleet_protector spotter inshore_fighter }
+	traits = { chief_engineer fleet_protector spotter inshore_fighter }
 	skill = 2
 	attack_skill = 2
-	defense_skill = 2
-	maneuvering_skill = 1
+	defense_skill = 3
+	maneuvering_skill = 5
 	coordination_skill = 2
 }
 
@@ -782,61 +782,61 @@ create_navy_leader = {
 	name = "Shigeyoshi Inoue"
 		picture = "Portrait_Japan_Shigeyoshi_Inoue.dds"
 	traits = { air_controller }
-	skill = 4
-	attack_skill = 5
-	defense_skill = 3
-	maneuvering_skill = 4
+	skill = 3
+	attack_skill = 6
+	defense_skill = 2
+	maneuvering_skill = 5
 	coordination_skill = 5
 }
 
 create_navy_leader = {
 	name = "Nobutake Kondō"
 		picture = "Portrait_Japan_Nobutake_Kondo.dds"
-	traits = { fly_swatter ironside inshore_fighter }
+	traits = { navy_media_personality fly_swatter ironside inshore_fighter }
 	skill = 3
-	attack_skill = 4
+	attack_skill = 3
 	defense_skill = 2
-	maneuvering_skill = 2
+	maneuvering_skill = 5
 	coordination_skill = 2
 }
 
 create_navy_leader = {
 	name = "Takeo Takagi"
 		picture = "Portrait_Japan_Takeo_Takagi.dds"
-	traits = { seawolf spotter inshore_fighter }
+	traits = { craven seawolf spotter inshore_fighter }
 	skill = 4
 	attack_skill = 4
 	defense_skill = 1
-	maneuvering_skill = 6
+	maneuvering_skill = 5
 	coordination_skill = 6
 }
 
 create_navy_leader = {
 	name = "Soemu Toyoda"
 		picture = "Portrait_Japan_Soemu_Toyoda.dds"
-	traits = { bold fly_swatter ironside inshore_fighter }
+	traits = { old_guard_navy navy_career_officer bold fly_swatter inshore_fighter blockade_runner }
 	skill = 5
-	attack_skill = 5
+	attack_skill = 4
 	defense_skill = 3
-	maneuvering_skill = 4
-	coordination_skill = 6
+	maneuvering_skill = 5
+	coordination_skill = 7
 }
 
 create_navy_leader = {
 	name = "Jisaburo Ozawa"
 		picture = "Portrait_Japan_Jisaburo_Ozawa.dds"
-	traits = { bold blockade_runner superior_tactician air_controller blue_water_expert }
+	traits = { cuts_corners bold blockade_runner superior_tactician air_controller blue_water_expert }
 	skill = 5
 	attack_skill = 6
 	defense_skill = 3
-	maneuvering_skill = 4
+	maneuvering_skill = 5
 	coordination_skill = 5
 }
 
 create_navy_leader = {
 	name = "Zengo Yoshida"
 		picture = "Portrait_Japan_Zengo_Yoshida.dds"
-	traits = { blockade_runner green_water_expert }
+	traits = { gentlemanly blockade_runner green_water_expert }
 	skill = 3
 	attack_skill = 2
 	defense_skill = 2
@@ -847,11 +847,11 @@ create_navy_leader = {
 create_navy_leader = {
 	name = "Hiroaki Abe"
 		picture = "Portrait_Japan_Hiroaki_Abe.dds"
-	traits = { fly_swatter }
-	skill = 2
+	traits = { spotter fly_swatter }
+	skill = 3
 	attack_skill = 3
 	defense_skill = 1
-	maneuvering_skill = 2
+	maneuvering_skill = 5
 	coordination_skill = 1
 }
 
@@ -863,7 +863,7 @@ create_navy_leader = {
 	attack_skill = 3
 	defense_skill = 1
 	maneuvering_skill = 5
-	coordination_skill = 6
+	coordination_skill = 5
 }
 
 create_navy_leader = {
@@ -873,7 +873,7 @@ create_navy_leader = {
 	skill = 2
 	attack_skill = 1
 	defense_skill = 2
-	maneuvering_skill = 2
+	maneuvering_skill = 5
 	coordination_skill = 2
 }
 

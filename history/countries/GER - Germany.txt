@@ -737,7 +737,7 @@ create_navy_leader = {
 	skill = 7
 	id = 26
 	attack_skill = 7
-	defense_skill = 3
+	defense_skill = 2
 	maneuvering_skill = 5
 	coordination_skill = 8
 }
@@ -745,8 +745,8 @@ create_navy_leader = {
 create_navy_leader = {
 	name = "Erich Raeder"
 		picture = "Portrait_Germany_Erich_Raeder.dds"
-	traits = { fly_swatter superior_tactician ironside }
-	skill = 5
+	traits = { old_guard_navy gunnery_expert fly_swatter superior_tactician ironside fleet_protector }
+	skill = 6
 	id = 27
 	attack_skill = 5
 	defense_skill = 4
@@ -762,7 +762,7 @@ create_navy_leader = {
 	id = 28
 	attack_skill = 5
 	defense_skill = 2
-	maneuvering_skill = 6
+	maneuvering_skill = 5
 	coordination_skill = 4
 }
 
@@ -774,32 +774,32 @@ create_navy_leader = {
 	id = 29
 	attack_skill = 3
 	defense_skill = 4
-	maneuvering_skill = 4
+	maneuvering_skill = 5
 	coordination_skill = 2
 }
 
 create_navy_leader = {
 	name = "Wilhelm Marschall"
 		picture = "Portrait_Germany_Wilhelm_Marschall.dds"
-	traits = { bold spotter fly_swatter blue_water_expert }
-	skill = 4
+	traits = { navy_career_officer bold spotter fly_swatter blue_water_expert }
+	skill = 5
 	id = 30
 	attack_skill = 5
 	defense_skill = 2
-	maneuvering_skill = 6
+	maneuvering_skill = 5
 	coordination_skill = 5
 }
 
 create_navy_leader = {
 	name = "Günther Lütjens"
 		picture = "Portrait_Germany_Gunter_Lutjens.dds"
-	traits = { superior_tactician ironside blue_water_expert  }
+	traits = { navy_media_personality battleship_adherent superior_tactician ironside blue_water_expert  }
 	skill = 6
 	id = 31
 	attack_skill = 7
 	defense_skill = 5
-	maneuvering_skill = 7
-	coordination_skill = 3
+	maneuvering_skill = 5
+	coordination_skill = 2
 }
 
 

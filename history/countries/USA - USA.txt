@@ -628,23 +628,23 @@ create_corps_commander = {
 create_navy_leader = {
 	name = "Ernest King"
 		picture = "Portrait_USA_Earnest_King.dds"
-	traits = { caustic_personality blockade_runner superior_tactician ironside }
+	traits = { caustic_personality chief_engineer blockade_runner superior_tactician ironside }
 	skill = 5
 	attack_skill = 4
 	defense_skill = 3
-	maneuvering_skill = 3
+	maneuvering_skill = 5
 	coordination_skill = 6
 }
 
 create_navy_leader = {
 	name = "Chester W. Nimitz"
 		picture = "Portrait_USA_Chester_W_Nimitz.dds"
-	traits = { superior_tactician spotter air_controller blue_water_expert }
+	traits = { navy_career_officer aviation_enthusiast superior_tactician spotter air_controller blue_water_expert }
 	skill = 8
 	attack_skill = 5
 	defense_skill = 3
 	maneuvering_skill = 5
-	coordination_skill = 6
+	coordination_skill = 7
 }
 
 create_navy_leader = {
@@ -653,53 +653,53 @@ create_navy_leader = {
 	traits = { bold superior_tactician spotter air_controller flight_deck_manager inshore_fighter }
 	skill = 7
 	attack_skill = 7
-	defense_skill = 4
+	defense_skill = 3
 	maneuvering_skill = 5
-	coordination_skill = 4
+	coordination_skill = 5
 }
 
 create_navy_leader = {
 	name = "Frank Jack Fletcher"
 		picture = "Portrait_USA_Frank_Jack_Fletcher.dds"
-	traits = { fly_swatter spotter superior_tactician air_controller }
-	skill = 6
+	traits = { aviation_enthusiast fly_swatter spotter superior_tactician air_controller }
+	skill = 7
 	attack_skill = 5
 	defense_skill = 5
-	maneuvering_skill = 6
-	coordination_skill = 3
+	maneuvering_skill = 5
+	coordination_skill = 2
 }
 
 create_navy_leader = {
 	name = "Raymond A. Spruance"
 		picture = "Portrait_USA_Raymond_A_Spruance.dds"
-	traits = { superior_tactician fly_swatter air_controller blue_water_expert }
+	traits = { gentlemanly superior_tactician fly_swatter air_controller blue_water_expert }
 	skill = 7
 	attack_skill = 6
 	defense_skill = 6
-	maneuvering_skill = 3
+	maneuvering_skill = 5
 	coordination_skill = 5
 }
 
 create_navy_leader = {
 	name = "Harold Rainsford Stark"
 		picture = "Portrait_USA_Harold_Rainsford_Stark.dds"
-	traits = { cuts_corners seawolf fleet_protector spotter ironside blue_water_expert }
-	skill = 2
-	attack_skill = 2
+	traits = { cuts_corners seawolf fleet_protector spotter blockade_runner blue_water_expert }
+	skill = 3
+	attack_skill = 1
 	defense_skill = 1
-	maneuvering_skill = 2
-	coordination_skill = 2
+	maneuvering_skill = 5
+	coordination_skill = 4
 }
 
 create_navy_leader = {
 	name = "Arleigh Burke"
 		picture = "Portrait_USA_Arleigh_Burke.dds"
-	traits = { bold fleet_protector superior_tactician }
-	skill = 5
-	attack_skill = 5
-	defense_skill = 3
-	maneuvering_skill = 6
-	coordination_skill = 6
+	traits = { old_guard_navy bold spotter fleet_protector superior_tactician }
+	skill = 6
+	attack_skill = 6
+	defense_skill = 2
+	maneuvering_skill = 5
+	coordination_skill = 5
 }
 
 create_navy_leader = {
@@ -709,7 +709,7 @@ create_navy_leader = {
 	skill = 2
 	attack_skill = 1
 	defense_skill = 1
-	maneuvering_skill = 2
+	maneuvering_skill = 5
 	coordination_skill = 3
 }
 
