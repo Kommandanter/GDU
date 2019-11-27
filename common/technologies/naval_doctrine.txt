@@ -1561,7 +1561,7 @@
 			max_organisation = 15
 		}
 		modifier = {
-			naval_strike_targetting_factor = 0.05
+			navy_carrier_air_targetting_factor = 0.05
 		}
 		########
 		
@@ -1701,7 +1701,7 @@
 			max_organisation = 5			
 		}
 		modifier = {
-			naval_strike_targetting_factor = 0.1
+			navy_carrier_air_targetting_factor = 0.05
 		}
 		########
 
@@ -1816,7 +1816,7 @@
 		sortie_efficiency = 0.2
 
 		modifier = {
-			naval_strike_targetting_factor = 0.075
+			navy_carrier_air_targetting_factor = 0.075
 		}
 		#############
 
@@ -1886,7 +1886,7 @@
 			max_organisation = 25
 		}
 		modifier = {
-			naval_strike_targetting_factor = 0.075
+			navy_carrier_air_targetting_factor = 0.075
 		}
 		##########
 
@@ -2035,7 +2035,7 @@
 		sortie_efficiency = 0.25
 
 		modifier = {
-			naval_strike_targetting_factor = 0.1
+			navy_carrier_air_targetting_factor = 0.075
 		}
 		########
 		
@@ -2179,7 +2179,7 @@
 			max_organisation = 25
 		}
 
-		navy_carrier_air_agility_factor = 0.1
+		navy_carrier_air_agility_factor = 0.05
 
 		###########
 

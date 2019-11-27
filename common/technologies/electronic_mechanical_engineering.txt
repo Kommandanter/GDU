@@ -287,6 +287,7 @@ technologies = {
 		xp_research_bonus = 1.50		
 
 		static_anti_air_hit_chance_factor = 0.2
+		carrier_capacity_penalty_reduction = -0.1
 		
 		path = {
 			leads_to_tech = advanced_centimetric_radar 
