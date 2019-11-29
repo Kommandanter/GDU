@@ -148,7 +148,7 @@ equipments = {
 		defense = 16.98
 		breakthrough = 24.67
 		hardness = 0.99
-		armor_value = 200
+		armor_value = 170
 
 		#Offensive Abilities
 		soft_attack = 8.4

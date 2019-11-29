@@ -332,7 +332,7 @@ equipments = {
 		#Defensive Abilities
 		defense = 14.46
 		breakthrough = 20
-		armor_value = 135
+		armor_value = 125
 
 		#Offensive Abilities
 		soft_attack = 5.4
@@ -369,7 +369,7 @@ equipments = {
 		#Defensive Abilities
 		defense = 16.98
 		breakthrough = 25
-		armor_value = 155
+		armor_value = 149
 
 		#Offensive Abilities
 		soft_attack = 7.56
@@ -715,7 +715,7 @@ equipments = {
 		#Defensive Abilities
 		defense = 14.46
 		breakthrough = 20
-		armor_value = 135
+		armor_value = 125
 
 		#Offensive Abilities
 		soft_attack = 5.94
@@ -752,7 +752,7 @@ equipments = {
 		#Defensive Abilities
 		defense = 16.98
 		breakthrough = 25
-		armor_value = 155
+		armor_value = 149
 
 		#Offensive Abilities
 		soft_attack = 7.56
