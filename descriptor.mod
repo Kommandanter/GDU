@@ -8,4 +8,5 @@ tags={
 picture="Warishell.jpg"
 version="1.8.*"
 replace_path="history/states"
+replace_path="history/countries"
 remote_file_id="1758094609"
