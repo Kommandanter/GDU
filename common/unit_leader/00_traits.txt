@@ -1719,9 +1719,6 @@ leader_traits = {
 		
 		modifier = {
 			naval_attrition = -0.05
-			arctic_water = {
-				movement = 0.025
-			}
 		}
 
 		ai_will_do = {
