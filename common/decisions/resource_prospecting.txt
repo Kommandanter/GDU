@@ -195,7 +195,7 @@ prospect_for_resources = {
 			714 = {
 				add_resource = {
 					type = oil
-					amount = 8
+					amount = 4
 				}
 			}
 		}	
@@ -2505,7 +2505,7 @@ prospect_for_resources = {
 			537 = {
 				add_resource = {
 					type = oil
-					amount = 12
+					amount = 8
 				}
 				set_state_flag = sakhalin_oil_developed
 			}

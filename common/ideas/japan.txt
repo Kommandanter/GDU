@@ -59,7 +59,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				naval_torpedo_screen_penetration_factor = 0.05 # a bit OP 
+				naval_torpedo_screen_penetration_factor = 0.1 # a bit OP 
 			}
 		}
 		
@@ -542,95 +542,95 @@ ideas = {
 			}
 			
 			modifier = {
-				production_speed_arms_factory_factor = 0.07
+				production_speed_arms_factory_factor = 0.05
 				production_speed_dockyard_factor = 0.00
 			}			
 			
 			equipment_bonus = {
 				fighter_equipment = {
 					instant = yes
-					build_cost_ic = -0.0175
+					build_cost_ic = -0.015
 				}
 				jet_fighter_equipment = {
 					instant = yes
-					build_cost_ic = -0.0175
+					build_cost_ic = -0.015
 				}
 				rocket_interceptor_equipment = {
 					instant = yes
-					build_cost_ic = -0.0175
+					build_cost_ic = -0.015
 				}
 				heavy_fighter_equipment = {
 					instant = yes
-					build_cost_ic = -0.0175
+					build_cost_ic = -0.015
 				}					
 
 				armor = {
 					instant = yes
-					build_cost_ic = -0.07
+					build_cost_ic = -0.05
 				}
 				motorized_equipment = {
 					instant = yes
-					build_cost_ic = -0.07
+					build_cost_ic = -0.05
 				}
 				mechanized_equipment = {
 					instant = yes
-					build_cost_ic = -0.07
+					build_cost_ic = -0.05
 				}
 				motorized_rocket_equipment = {
-					build_cost_ic = -0.07
+					build_cost_ic = -0.05
 					instant = yes
 				}
 				infantry_equipment   = {
-					build_cost_ic = -0.07
+					build_cost_ic = -0.05
 					instant = yes
 				}
 				support_equipment   = {
-					build_cost_ic = -0.07
+					build_cost_ic = -0.05
 					instant = yes
 				}	
 				anti_air_equipment = {
 					instant = yes
-					build_cost_ic = -0.07
+					build_cost_ic = -0.05
 				}
 				anti_tank_equipment = {
 					instant = yes
-					build_cost_ic = -0.07
+					build_cost_ic = -0.05
 				}
 				artillery_equipment  = {
-					build_cost_ic = -0.07
+					build_cost_ic = -0.05
 					instant = yes
 				}
 				rocket_artillery_equipment  = {
-					build_cost_ic = -0.07
+					build_cost_ic = -0.05
 					instant = yes
 				}
 				CAS_equipment = {
 					instant = yes
-					build_cost_ic = -0.07
+					build_cost_ic = -0.05
 				}				
 				tac_bomber_equipment = {
 					instant = yes
-					build_cost_ic = -0.07
+					build_cost_ic = -0.05
 				}
 				jet_tac_bomber_equipment = {
 					instant = yes
-					build_cost_ic = -0.07
+					build_cost_ic = -0.05
 				}
 				jet_strat_bomber_equipment = {
 					instant = yes
-					build_cost_ic = -0.07
+					build_cost_ic = -0.05
 				}
 				strat_bomber_equipment = {
 					instant = yes
-					build_cost_ic = -0.07
+					build_cost_ic = -0.05
 				}
 				transport_plane_equipment = {
 					instant = yes
-					build_cost_ic = -0.07
+					build_cost_ic = -0.05
 				}
 				guided_missile_equipment = {
 					instant = yes
-					build_cost_ic = -0.07
+					build_cost_ic = -0.05
 				}				
 			}
 		}
@@ -655,132 +655,132 @@ ideas = {
 			}			
 			
 			modifier = {
-				production_speed_arms_factory_factor = 0.065
-				production_speed_dockyard_factor = 0.03
+				production_speed_arms_factory_factor = 0.05
+				production_speed_dockyard_factor = 0.025
 			}
 			
 			equipment_bonus = {
 				fighter_equipment = {
 					instant = yes
-					build_cost_ic = -0.02375
+					build_cost_ic = -0.02
 				}
 				jet_fighter_equipment = {
 					instant = yes
-					build_cost_ic = -0.02375
+					build_cost_ic = -0.02
 				}
 				rocket_interceptor_equipment = {
 					instant = yes
-					build_cost_ic = -0.02375
+					build_cost_ic = -0.02
 				}
 				heavy_fighter_equipment = {
 					instant = yes
-					build_cost_ic = -0.02375
+					build_cost_ic = -0.02
 				}		
 				
 				carrier = {
 					instant = yes
-					build_cost_ic = -0.03
+					build_cost_ic = -0.02
 				}
 				capital_ship = {
 					instant = yes
-					build_cost_ic = -0.03
+					build_cost_ic = -0.02
 				}
 				screen_ship = {
 					instant = yes
-					build_cost_ic = -0.03
+					build_cost_ic = -0.02
 				}
 				submarine = {
 					instant = yes
-					build_cost_ic = -0.03
+					build_cost_ic = -0.02
 				}
 				convoy = {
 					instant = yes
-					build_cost_ic = -0.03
+					build_cost_ic = -0.02
 				}
 				cv_fighter_equipment = {
 					instant = yes
-					build_cost_ic = -0.03
+					build_cost_ic = -0.02
 				}
 				cv_CAS_equipment = {
 					instant = yes
-					build_cost_ic = -0.03
+					build_cost_ic = -0.02
 				}
 				cv_nav_bomber_equipment = {
 					instant = yes
-					build_cost_ic = -0.03
+					build_cost_ic = -0.02
 				}
 				nav_bomber_equipment = {
 					instant = yes
-					build_cost_ic = -0.03
+					build_cost_ic = -0.02
 				}				
 
 				armor = {
 					instant = yes
-					build_cost_ic = -0.065
+					build_cost_ic = -0.05
 				}
 				motorized_equipment = {
 					instant = yes
-					build_cost_ic = -0.065
+					build_cost_ic = -0.05
 				}
 				mechanized_equipment = {
 					instant = yes
-					build_cost_ic = -0.065
+					build_cost_ic = -0.05
 				}
 				motorized_rocket_equipment = {
-					build_cost_ic = -0.065
+					build_cost_ic = -0.05
 					instant = yes
 				}
 				infantry_equipment   = {
-					build_cost_ic = -0.065
+					build_cost_ic = -0.05
 					instant = yes
 				}
 				support_equipment   = {
-					build_cost_ic = -0.065
+					build_cost_ic = -0.05
 					instant = yes
 				}	
 				anti_air_equipment = {
 					instant = yes
-					build_cost_ic = -0.065
+					build_cost_ic = -0.05
 				}
 				anti_tank_equipment = {
 					instant = yes
-					build_cost_ic = -0.065
+					build_cost_ic = -0.05
 				}
 				artillery_equipment  = {
-					build_cost_ic = -0.065
+					build_cost_ic = -0.05
 					instant = yes
 				}
 				rocket_artillery_equipment  = {
-					build_cost_ic = -0.065
+					build_cost_ic = -0.05
 					instant = yes
 				}
 				CAS_equipment = {
 					instant = yes
-					build_cost_ic = -0.065
+					build_cost_ic = -0.05
 				}				
 				tac_bomber_equipment = {
 					instant = yes
-					build_cost_ic = -0.065
+					build_cost_ic = -0.05
 				}
 				jet_tac_bomber_equipment = {
 					instant = yes
-					build_cost_ic = -0.065
+					build_cost_ic = -0.05
 				}
 				jet_strat_bomber_equipment = {
 					instant = yes
-					build_cost_ic = -0.065
+					build_cost_ic = -0.05
 				}
 				strat_bomber_equipment = {
 					instant = yes
-					build_cost_ic = -0.065
+					build_cost_ic = -0.05
 				}
 				transport_plane_equipment = {
 					instant = yes
-					build_cost_ic = -0.065
+					build_cost_ic = -0.05
 				}
 				guided_missile_equipment = {
 					instant = yes
-					build_cost_ic = -0.065
+					build_cost_ic = -0.05
 				}				
 			}
 		}
@@ -805,132 +805,132 @@ ideas = {
 			}				
 			
 			modifier = {
-				production_speed_arms_factory_factor = 0.06
-				production_speed_dockyard_factor = 0.06
+				production_speed_arms_factory_factor = 0.05
+				production_speed_dockyard_factor = 0.05
 			}
 			
 			equipment_bonus = {
 				fighter_equipment = {
 					instant = yes
-					build_cost_ic = -0.03
+					build_cost_ic = -0.02
 				}
 				jet_fighter_equipment = {
 					instant = yes
-					build_cost_ic = -0.03
+					build_cost_ic = -0.02
 				}
 				rocket_interceptor_equipment = {
 					instant = yes
-					build_cost_ic = -0.03
+					build_cost_ic = -0.02
 				}
 				heavy_fighter_equipment = {
 					instant = yes
-					build_cost_ic = -0.03
+					build_cost_ic = -0.02
 				}		
 				
 				carrier = {
 					instant = yes
-					build_cost_ic = -0.06
+					build_cost_ic = -0.04
 				}
 				capital_ship = {
 					instant = yes
-					build_cost_ic = -0.06
+					build_cost_ic = -0.04
 				}
 				screen_ship = {
 					instant = yes
-					build_cost_ic = -0.06
+					build_cost_ic = -0.04
 				}
 				submarine = {
 					instant = yes
-					build_cost_ic = -0.06
+					build_cost_ic = -0.04
 				}
 				convoy = {
 					instant = yes
-					build_cost_ic = -0.06
+					build_cost_ic = -0.04
 				}
 				cv_fighter_equipment = {
 					instant = yes
-					build_cost_ic = -0.06
+					build_cost_ic = -0.04
 				}
 				cv_CAS_equipment = {
 					instant = yes
-					build_cost_ic = -0.06
+					build_cost_ic = -0.04
 				}
 				cv_nav_bomber_equipment = {
 					instant = yes
-					build_cost_ic = -0.06
+					build_cost_ic = -0.04
 				}
 				nav_bomber_equipment = {
 					instant = yes
-					build_cost_ic = -0.06
+					build_cost_ic = -0.04
 				}				
 
 				armor = {
 					instant = yes
-					build_cost_ic = -0.06
+					build_cost_ic = -0.04
 				}
 				motorized_equipment = {
 					instant = yes
-					build_cost_ic = -0.06
+					build_cost_ic = -0.04
 				}
 				mechanized_equipment = {
 					instant = yes
-					build_cost_ic = -0.06
+					build_cost_ic = -0.04
 				}
 				motorized_rocket_equipment = {
-					build_cost_ic = -0.06
+					build_cost_ic = -0.04
 					instant = yes
 				}
 				infantry_equipment   = {
-					build_cost_ic = -0.06
+					build_cost_ic = -0.04
 					instant = yes
 				}
 				support_equipment   = {
-					build_cost_ic = -0.06
+					build_cost_ic = -0.04
 					instant = yes
 				}	
 				anti_air_equipment = {
 					instant = yes
-					build_cost_ic = -0.06
+					build_cost_ic = -0.04
 				}
 				anti_tank_equipment = {
 					instant = yes
-					build_cost_ic = -0.06
+					build_cost_ic = -0.04
 				}
 				artillery_equipment  = {
-					build_cost_ic = -0.06
+					build_cost_ic = -0.04
 					instant = yes
 				}
 				rocket_artillery_equipment  = {
-					build_cost_ic = -0.06
+					build_cost_ic = -0.04
 					instant = yes
 				}
 				CAS_equipment = {
 					instant = yes
-					build_cost_ic = -0.06
+					build_cost_ic = -0.04
 				}				
 				tac_bomber_equipment = {
 					instant = yes
-					build_cost_ic = -0.06
+					build_cost_ic = -0.04
 				}
 				jet_tac_bomber_equipment = {
 					instant = yes
-					build_cost_ic = -0.06
+					build_cost_ic = -0.04
 				}
 				jet_strat_bomber_equipment = {
 					instant = yes
-					build_cost_ic = -0.06
+					build_cost_ic = -0.04
 				}
 				strat_bomber_equipment = {
 					instant = yes
-					build_cost_ic = -0.06
+					build_cost_ic = -0.04
 				}
 				transport_plane_equipment = {
 					instant = yes
-					build_cost_ic = -0.06
+					build_cost_ic = -0.04
 				}
 				guided_missile_equipment = {
 					instant = yes
-					build_cost_ic = -0.06
+					build_cost_ic = -0.04
 				}				
 			}
 			
@@ -956,132 +956,132 @@ ideas = {
 			}				
 			
 			modifier = {
-				production_speed_arms_factory_factor = 0.03
-				production_speed_dockyard_factor = 0.065
+				production_speed_arms_factory_factor = 0.025
+				production_speed_dockyard_factor = 0.05
 			}
 			
 			equipment_bonus = {
 				fighter_equipment = {
 					instant = yes
-					build_cost_ic = -0.02375
+					build_cost_ic = -0.02
 				}
 				jet_fighter_equipment = {
 					instant = yes
-					build_cost_ic = -0.02375
+					build_cost_ic = -0.02
 				}
 				rocket_interceptor_equipment = {
 					instant = yes
-					build_cost_ic = -0.02375
+					build_cost_ic = -0.02
 				}
 				heavy_fighter_equipment = {
 					instant = yes
-					build_cost_ic = -0.02375
+					build_cost_ic = -0.02
 				}		
 				
 				carrier = {
 					instant = yes
-					build_cost_ic = -0.065
+					build_cost_ic = -0.05
 				}
 				capital_ship = {
 					instant = yes
-					build_cost_ic = -0.065
+					build_cost_ic = -0.05
 				}
 				screen_ship = {
 					instant = yes
-					build_cost_ic = -0.065
+					build_cost_ic = -0.05
 				}
 				submarine = {
 					instant = yes
-					build_cost_ic = -0.065
+					build_cost_ic = -0.05
 				}
 				convoy = {
 					instant = yes
-					build_cost_ic = -0.065
+					build_cost_ic = -0.05
 				}
 				cv_fighter_equipment = {
 					instant = yes
-					build_cost_ic = -0.065
+					build_cost_ic = -0.05
 				}
 				cv_CAS_equipment = {
 					instant = yes
-					build_cost_ic = -0.065
+					build_cost_ic = -0.05
 				}
 				cv_nav_bomber_equipment = {
 					instant = yes
-					build_cost_ic = -0.065
+					build_cost_ic = -0.05
 				}
 				nav_bomber_equipment = {
 					instant = yes
-					build_cost_ic = -0.065
+					build_cost_ic = -0.05
 				}				
 
 				armor = {
 					instant = yes
-					build_cost_ic = -0.03
+					build_cost_ic = -0.025
 				}
 				motorized_equipment = {
 					instant = yes
-					build_cost_ic = -0.03
+					build_cost_ic = -0.025
 				}
 				mechanized_equipment = {
 					instant = yes
-					build_cost_ic = -0.03
+					build_cost_ic = -0.025
 				}
 				motorized_rocket_equipment = {
-					build_cost_ic = -0.03
+					build_cost_ic = -0.025
 					instant = yes
 				}
 				infantry_equipment   = {
-					build_cost_ic = -0.03
+					build_cost_ic = -0.025
 					instant = yes
 				}
 				support_equipment   = {
-					build_cost_ic = -0.03
+					build_cost_ic = -0.025
 					instant = yes
 				}	
 				anti_air_equipment = {
 					instant = yes
-					build_cost_ic = -0.03
+					build_cost_ic = -0.025
 				}
 				anti_tank_equipment = {
 					instant = yes
-					build_cost_ic = -0.03
+					build_cost_ic = -0.025
 				}
 				artillery_equipment  = {
-					build_cost_ic = -0.03
+					build_cost_ic = -0.025
 					instant = yes
 				}
 				rocket_artillery_equipment  = {
-					build_cost_ic = -0.03
+					build_cost_ic = -0.025
 					instant = yes
 				}
 				CAS_equipment = {
 					instant = yes
-					build_cost_ic = -0.03
+					build_cost_ic = -0.025
 				}				
 				tac_bomber_equipment = {
 					instant = yes
-					build_cost_ic = -0.03
+					build_cost_ic = -0.025
 				}
 				jet_tac_bomber_equipment = {
 					instant = yes
-					build_cost_ic = -0.03
+					build_cost_ic = -0.025
 				}
 				jet_strat_bomber_equipment = {
 					instant = yes
-					build_cost_ic = -0.03
+					build_cost_ic = -0.025
 				}
 				strat_bomber_equipment = {
 					instant = yes
-					build_cost_ic = -0.03
+					build_cost_ic = -0.025
 				}
 				transport_plane_equipment = {
 					instant = yes
-					build_cost_ic = -0.03
+					build_cost_ic = -0.025
 				}
 				guided_missile_equipment = {
 					instant = yes
-					build_cost_ic = -0.03
+					build_cost_ic = -0.025
 				}				
 			}
 		}
@@ -1107,62 +1107,62 @@ ideas = {
 
 			modifier = {
 				production_speed_arms_factory_factor = 0.0
-				production_speed_dockyard_factor = 0.07
+				production_speed_dockyard_factor = 0.05
 			}
 			
 			equipment_bonus = {
 				fighter_equipment = {
 					instant = yes
-					build_cost_ic = -0.0175
+					build_cost_ic = -0.015
 				}
 				jet_fighter_equipment = {
 					instant = yes
-					build_cost_ic = -0.0175
-				}
+					build_cost_ic = -0.015
+				}		
 				rocket_interceptor_equipment = {
 					instant = yes
-					build_cost_ic = -0.0175
+					build_cost_ic = -0.015
 				}
 				heavy_fighter_equipment = {
 					instant = yes
-					build_cost_ic = -0.0175
+					build_cost_ic = -0.015
 				}				
 				
 				carrier = {
 					instant = yes
-					build_cost_ic = -0.07
+					build_cost_ic = -0.05
 				}
 				capital_ship = {
 					instant = yes
-					build_cost_ic = -0.07
+					build_cost_ic = -0.05
 				}
 				screen_ship = {
 					instant = yes
-					build_cost_ic = -0.07
+					build_cost_ic = -0.05
 				}
 				submarine = {
 					instant = yes
-					build_cost_ic = -0.07
+					build_cost_ic = -0.05
 				}
 				convoy = {
 					instant = yes
-					build_cost_ic = -0.07
+					build_cost_ic = -0.05
 				}
 				cv_fighter_equipment = {
 					instant = yes
-					build_cost_ic = -0.07
+					build_cost_ic = -0.05
 				}
 				cv_CAS_equipment = {
 					instant = yes
-					build_cost_ic = -0.07
+					build_cost_ic = -0.05
 				}
 				cv_nav_bomber_equipment = {
 					instant = yes
-					build_cost_ic = -0.07
+					build_cost_ic = -0.05
 				}
 				nav_bomber_equipment = {
 					instant = yes
-					build_cost_ic = -0.07
+					build_cost_ic = -0.05
 				}									
 			}			
 		}		
@@ -1181,7 +1181,7 @@ ideas = {
 			picture = jap_supremacy_of_technology
 			
 			modifier = { 
-				research_speed_factor = 0.1 
+				research_speed_factor = 0.125 
 			} 
 		}
 
@@ -1700,25 +1700,25 @@ ideas = {
 
 			equipment_bonus = {
 				CAS_equipment = {
-					build_cost_ic = -0.04 instant = yes
+					build_cost_ic = -0.03 instant = yes
 				}
 				tac_bomber_equipment = {
-					build_cost_ic = -0.04 instant = yes
+					build_cost_ic = -0.03 instant = yes
 				}
 				fighter_equipment = { 
-					build_cost_ic = -0.04
+					build_cost_ic = -0.03
 				}
 				jet_fighter_equipment = {
 					instant = yes
-					build_cost_ic = -0.04
+					build_cost_ic = -0.03
 				}				
 				jet_tac_bomber_equipment = {
 					instant = yes
-					build_cost_ic = -0.04
+					build_cost_ic = -0.03
 				}
 				rocket_interceptor_equipment = {
 					instant = yes
-					build_cost_ic = -0.04
+					build_cost_ic = -0.03
 				}
 			}
 		}
@@ -1739,20 +1739,20 @@ ideas = {
 
 			equipment_bonus = {
 				cv_fighter_equipment = {
-					build_cost_ic = -0.04 instant = yes
+					build_cost_ic = -0.03 instant = yes
 				}
 				cv_CAS_equipment = {
-					build_cost_ic = -0.04 instant = yes
+					build_cost_ic = -0.03 instant = yes
 				}
 				cv_nav_bomber_equipment = {
-					build_cost_ic = -0.04 instant = yes
+					build_cost_ic = -0.03 instant = yes
 				}
 				nav_bomber_equipment = {
-					build_cost_ic = -0.04 instant = yes
+					build_cost_ic = -0.03 instant = yes
 				}
 				heavy_fighter_equipment = {
 					instant = yes
-					build_cost_ic = -0.04
+					build_cost_ic = -0.03
 				}				
 			}
 		}
