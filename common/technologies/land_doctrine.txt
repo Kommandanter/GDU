@@ -2688,7 +2688,7 @@ technologies = {
 			supply_consumption_factor = -0.10
 		}
 		
-		special_forces_min = 32
+		special_forces_min = 60
 		
 		path = {
 			leads_to_tech = night_assault_tactics 
@@ -2742,7 +2742,7 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 0.5
 		#reduce land night combat penalty
-		land_night_attack = 0.25 # negates half of base penalty
+		land_night_attack = 0.3 # negates half of base penalty
 	
 	
 		path = {
@@ -2800,7 +2800,7 @@ technologies = {
 		category_tanks = {
 			max_organisation = 1
 		}
-		special_forces_min = 32
+		special_forces_min = 60
 
 		path = {
 			leads_to_tech = infiltration_in_depth 
