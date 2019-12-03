@@ -11,9 +11,7 @@ leader_traits = {
 
 	warrior_code = {
 		random = no
-		ai_call_ally_desire_factor = -40
-		ai_join_ally_desire_factor = -30
-
+		surrender_limit = 0.10
 		ai_will_do = {
 			factor = 1
 		}
@@ -1092,7 +1090,7 @@ leader_traits = {
 	financial_expert = {
 		sprite = 10
 		random = yes
-		consumer_goods_factor = -0.05
+		consumer_goods_factor = -0.03
 		
 		ai_will_do = {
 			factor = 2
@@ -1833,16 +1831,16 @@ leader_traits = {
 		random = no
 		equipment_bonus = {
 			carrier = {
-				carrier_size = 0.20 armor_value = -0.10 naval_range = 0.25
+				carrier_size = 0.20 armor_value = -0.10 naval_range = 0.33
 			}
 			capital_ship = {
-				naval_range = 0.25
+				naval_range = 0.33
 			}
 			screen_ship = {
-				naval_range = 0.25
+				naval_range = 0.33
 			}
 			submarine = {
-				naval_range = 0.25
+				naval_range = 0.33
 			}
 		}
 
@@ -1858,7 +1856,7 @@ leader_traits = {
 				armor_value = 0.5
 			}
 			capital_ship = {
-				armor_value = 0.1 
+				armor_value = 0.075
 				hg_attack = 0.1
 			}
 			#screen_ship = {
@@ -1878,12 +1876,12 @@ leader_traits = {
 		random = no
 		equipment_bonus = {
 			capital_ship = {
-				armor_value = 0.15 
+				armor_value = 0.10
 				hg_attack = 0.15
 			}
 			screen_ship = {
 				torpedo_attack = 0.25
-				sub_detection = -0.25
+				sub_detection = -0.33
 			}
 		}
 		
@@ -1896,13 +1894,13 @@ leader_traits = {
 		random = no
 		equipment_bonus = {
 			carrier = {
-				surface_visibility = -0.1 naval_speed = 0.1 carrier_size = -0.1
+				surface_visibility = -0.075 naval_speed = 0.075 carrier_size = -0.1
 			}
 			capital_ship = {
-				surface_visibility = -0.1 naval_speed = 0.1 hg_attack = -0.1
+				surface_visibility = -0.075 naval_speed = 0.075 hg_attack = -0.1
 			}
 			screen_ship = {
-				surface_visibility = -0.1 naval_speed = 0.1
+				surface_visibility = -0.075 naval_speed = 0.075
 			}
 			submarine = {
 				sub_visibility = -0.1 surface_visibility = -0.1 naval_speed = 0.1
@@ -1918,7 +1916,7 @@ leader_traits = {
 		random = no
 		equipment_bonus = {
 			screen_ship = {
-				naval_range = 0.3 sub_detection = 0.2 naval_speed = 0.1 build_cost_ic = 0.1
+				naval_range = 0.33 sub_detection = 0.2 naval_speed = 0.1 build_cost_ic = 0.1
 			}
 		}
 
@@ -1934,7 +1932,7 @@ leader_traits = {
 	            carrier_size = 0.1 naval_range = 0.1
 			}
 			capital_ship = {
-				naval_range = 0.1 armor_value = 0.05 hg_attack = 0.05
+				naval_range = 0.1 armor_value = 0.025 hg_attack = 0.05
 			}
 			screen_ship = {
 			    naval_range = 0.1 sub_detection = 0.1 naval_speed = 0.1
@@ -3061,7 +3059,7 @@ leader_traits = {
 	navy_chief_decisive_battle_1 = {
 		sprite = 3
 		navy_capital_ship_attack_factor = 0.05
-		navy_capital_ship_defence_factor = 0.05
+		navy_capital_ship_defence_factor = 0.025
 		navy_screen_attack_factor = 0.05
 		navy_screen_defence_factor = 0.05
 
@@ -3073,7 +3071,7 @@ leader_traits = {
 	navy_chief_decisive_battle_2 = {
 		sprite = 3
 		navy_capital_ship_attack_factor = 0.1
-		navy_capital_ship_defence_factor = 0.1
+		navy_capital_ship_defence_factor = 0.05
 		navy_screen_attack_factor = 0.1
 		navy_screen_defence_factor = 0.1
 
@@ -3085,7 +3083,7 @@ leader_traits = {
 	navy_chief_decisive_battle_3 = {
 		sprite = 3
 		navy_capital_ship_attack_factor = 0.15
-		navy_capital_ship_defence_factor = 0.15
+		navy_capital_ship_defence_factor = 0.075
 		navy_screen_attack_factor = 0.15
 		navy_screen_defence_factor = 0.15
 
@@ -3333,7 +3331,7 @@ leader_traits = {
 	navy_capital_ship_1 = {
 		sprite = 3
 		navy_capital_ship_attack_factor = 0.05
-		navy_capital_ship_defence_factor = 0.05
+		navy_capital_ship_defence_factor = 0.025
 
 		ai_will_do = {
 			factor = 1
@@ -3343,7 +3341,7 @@ leader_traits = {
 	navy_capital_ship_2 = {
 		sprite = 3
 		navy_capital_ship_attack_factor = 0.1
-		navy_capital_ship_defence_factor = 0.1
+		navy_capital_ship_defence_factor = 0.05
 
 		ai_will_do = {
 			factor = 2
@@ -3353,7 +3351,7 @@ leader_traits = {
 	navy_capital_ship_3 = {
 		sprite = 3
 		navy_capital_ship_attack_factor = 0.15
-		navy_capital_ship_defence_factor = 0.15
+		navy_capital_ship_defence_factor = 0.075
 
 		ai_will_do = {
 			factor = 3
