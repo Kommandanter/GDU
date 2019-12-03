@@ -679,7 +679,7 @@ focus_tree = {
 		}
 
 		available = {
-			has_political_power > -25
+			has_political_power > 15
 			has_completed_focus = USA_agricultural_adjustment_act
 			OR = {
 				date < 1936.11.1
@@ -697,7 +697,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_ideas = USA_giant_sleeps_idea
-			add_political_power = 200
+			add_political_power = 175
 			add_ideas = USA_neutrality_act
 			add_war_support = -0.05
 			if = {
@@ -1445,14 +1445,14 @@ focus_tree = {
 		y = 1
 		prerequisite = { focus = USA_america_first }
 		relative_position_id = USA_america_first
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
 		}
 
 		available = {
-			has_political_power > -25
+			has_political_power > 25
 		}
 
 		bypass = {
@@ -1464,7 +1464,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 50
+			add_political_power = 75
 			event_target:WTT_current_china_leader = {
 				add_opinion_modifier = { modifier = USA_extend_the_chinese_exclusion_acts target = ROOT }
 			}
@@ -1494,7 +1494,7 @@ focus_tree = {
 		y = 1
 		prerequisite = { focus = USA_america_first }
 		relative_position_id = USA_america_first
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
