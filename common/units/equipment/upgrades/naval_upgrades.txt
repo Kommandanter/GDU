@@ -18,7 +18,7 @@ upgrades = {
 	ship_armor_upgrade = {
 		max_level = 5
 		cost = naval 
-		armor_value = 0.05
+		armor_value = 0.03
 
 		naval_speed = -0.01
 	}

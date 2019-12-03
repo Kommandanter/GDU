@@ -1667,6 +1667,24 @@ equipment_modules = {
 		
 		add_stats = {
 			sub_attack = 4
+			build_cost_ic = 30
+		}
+		multiply_stats = {
+			naval_speed = -0.005
+		}
+		can_convert_from = {
+			module_category = ship_depth_charge
+			convert_cost_ic = 30
+		}
+	}
+
+	ship_depth_charge_2 = {
+		category = ship_depth_charge
+		sfx = sfx_ui_sd_module_turret
+
+		
+		add_stats = {
+			sub_attack = 8
 			build_cost_ic = 45
 		}
 		multiply_stats = {
@@ -1678,13 +1696,13 @@ equipment_modules = {
 		}
 	}
 
-	ship_depth_charge_2 = {
+	ship_depth_charge_3 = {
 		category = ship_depth_charge
 		sfx = sfx_ui_sd_module_turret
 
 		
 		add_stats = {
-			sub_attack = 8
+			sub_attack = 12
 			build_cost_ic = 60
 		}
 		multiply_stats = {
@@ -1696,24 +1714,6 @@ equipment_modules = {
 		}
 	}
 
-	ship_depth_charge_3 = {
-		category = ship_depth_charge
-		sfx = sfx_ui_sd_module_turret
-
-		
-		add_stats = {
-			sub_attack = 12
-			build_cost_ic = 75
-		}
-		multiply_stats = {
-			naval_speed = -0.005
-		}
-		can_convert_from = {
-			module_category = ship_depth_charge
-			convert_cost_ic = 75
-		}
-	}
-
 	ship_depth_charge_4 = {
 		category = ship_depth_charge
 		sfx = sfx_ui_sd_module_turret
@@ -1721,12 +1721,12 @@ equipment_modules = {
 		
 		add_stats = {
 			sub_attack = 18
-			build_cost_ic = 90
+			build_cost_ic = 75
 		}
 
 		can_convert_from = {
 			module_category = ship_depth_charge
-			convert_cost_ic = 90
+			convert_cost_ic = 75
 		}
 	}
 
@@ -1900,7 +1900,7 @@ equipment_modules = {
 		build_cost_resources = {
 		}
 		add_stats = {
-			armor_value = 30
+			armor_value = 25
 			surface_visibility = 22
 		}
 		dismantle_cost_ic = 5500
@@ -1919,7 +1919,7 @@ equipment_modules = {
 		}
 
 		add_stats = {
-			armor_value = 25
+			armor_value = 20
 			surface_visibility = 20
 		}
 		dismantle_cost_ic = 4500
@@ -1937,7 +1937,7 @@ equipment_modules = {
 		build_cost_resources = {
 		}
 		add_stats = {
-			armor_value = 40
+			armor_value = 35
 			surface_visibility = 22
 		}
 		dismantle_cost_ic = 6000
@@ -1957,7 +1957,7 @@ equipment_modules = {
 		build_cost_resources = {
 		}
 		add_stats = {
-			armor_value = 30
+			armor_value = 27.5
 			surface_visibility = 20
 		}
 		dismantle_cost_ic = 5500
@@ -1974,7 +1974,7 @@ equipment_modules = {
 		build_cost_resources = {
 		}
 		add_stats = {
-			armor_value = 60
+			armor_value = 50
 			surface_visibility = 22
 		}
 		dismantle_cost_ic = 7500
@@ -1994,7 +1994,7 @@ equipment_modules = {
 		build_cost_resources = {
 		}
 		add_stats = {
-			armor_value = 35
+			armor_value = 32.5
 			surface_visibility = 20
 		}
 		dismantle_cost_ic = 6200
@@ -2012,7 +2012,7 @@ equipment_modules = {
 		build_cost_resources = {
 		}
 		add_stats = {
-			armor_value = 75
+			armor_value = 67.5
 			surface_visibility = 20
 		}
 		dismantle_cost_ic = 8200
