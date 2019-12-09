@@ -102,6 +102,8 @@ sub_units = {
 			motorized_equipment = 60
 		}
 		
+		soft_attack = 0.15
+		
 		max_strength = 0.6
 		max_organisation = 5
 		default_morale = 0.1
@@ -324,6 +326,8 @@ sub_units = {
 			rocket_artillery_equipment = 50
 			motorized_equipment = 60
 		}
+
+		soft_attack = 0.15
 		
 		manpower = 500
 		max_organisation = 5
