@@ -2602,9 +2602,6 @@ foreign_politics = {
 		}
 		
 		complete_effect = {
-		    ENG = { 
-				puppet = INS
-			}
 			333 = { set_demilitarized_zone = no }
 		}
 		
@@ -2675,6 +2672,55 @@ foreign_politics = {
 				target = SAF 
 				type = annex_everything
 			}
+			
+			
+			INS = {
+			
+						declare_war_on = {
+				target = USA 
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = ENG 
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = FRF
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = CAN
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = RAJ
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = AST
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = NZL 
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = SAF 
+				type = annex_everything
+			}
+			
+			}
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
 			GER = {	
 				declare_war_on = {
 					target = USA 

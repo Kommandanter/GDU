@@ -1,7 +1,7 @@
 
 NDefines_Graphics.NGraphics.MAX_MESHES_LOADED_PER_FRAME = 5
 
-NDefines_Graphics.NGraphics.DRAW_DETAILED_CUTOFF = 100
+--NDefines_Graphics.NGraphics.DRAW_DETAILED_CUTOFF = 400
 
 NDefines_Graphics.NMapMode.MAP_MODE_TERRAIN_TRANSPARENCY = 0.8
 NDefines_Graphics.NMapMode.RADAR_ROTATION_SPEED = 0.0
