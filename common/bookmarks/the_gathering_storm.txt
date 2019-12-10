@@ -139,7 +139,6 @@ bookmarks = {
 			}
 			focuses = {
 				NZL_bob_semple_tank
-				NZL_maori_volunteers
 			}
 		}
 		"SAF"={

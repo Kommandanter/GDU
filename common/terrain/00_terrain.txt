@@ -260,7 +260,6 @@ categories =  {
 		}
 		carrier = {
 			units = {
-				sortie_efficiency = 0.05
 				movement = 0.05
 			}
 		}
