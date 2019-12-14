@@ -1411,7 +1411,7 @@ on_daily = {
 					array = global.medium_airbase_list
 					if = {
 						limit = { 
-							air_base > 3 
+							air_base > 2 
 						}
 						remove_building = { 
 							type = air_base 

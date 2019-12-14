@@ -248,8 +248,8 @@ create_field_marshal = {
 	traits = { old_guard offensive_doctrine infantry_leader skilled_staffer  media_personality career_officer brilliant_strategist}
 	skill = 5
 	attack_skill = 5
-	defense_skill = 3
-	planning_skill = 5
+	defense_skill = 2
+	planning_skill = 6
 	logistics_skill = 6
 	
 }
@@ -260,8 +260,8 @@ create_field_marshal = {
 	traits = { defensive_doctrine old_guard infantry_officer infantry_leader  politically_connected inflexible_strategist desert_fox}
 	skill = 4
 	attack_skill = 5
-	defense_skill = 4
-	planning_skill = 2
+	defense_skill = 1
+	planning_skill = 5
 	logistics_skill = 4
 
 }
@@ -328,8 +328,8 @@ create_field_marshal = {
 	traits = { old_guard infantry_officer infantry_leader trait_cautious hill_fighter inflexible_strategist  politically_connected skilled_staffer }
 	skill = 5
 	attack_skill = 5
-	defense_skill = 5
-	planning_skill = 3
+	defense_skill = 2
+	planning_skill = 6
 	logistics_skill = 3
 }
 
@@ -394,8 +394,8 @@ create_field_marshal = {
 	traits = {old_guard infantry_officer trait_cautious inflexible_strategist organizer}
 	skill = 4
 	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 5
+	defense_skill = 0
+	planning_skill = 6
 	logistics_skill = 7
 }
 
