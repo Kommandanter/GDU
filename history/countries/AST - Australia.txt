@@ -48,8 +48,7 @@ set_technology = {
 		basic_heavy_armor_scheme = 1
 		mtg_transport = 1
 		improved_secondary_battery = 1
-		basic_fire_control_system = 1
-		cruiser_submarines = 1	
+		basic_fire_control_system = 1	
 }
 
 add_opinion_modifier = { target = NZL modifier = huge_increase  }
@@ -213,9 +212,9 @@ add_equipment_to_stockpile = {
 }
 
 set_popularities = {
-    democratic = 98
+    democratic = 100
     fascism = 0
-    communism = 2
+    communism = 0
 }
 
 create_country_leader = {
