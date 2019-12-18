@@ -438,6 +438,10 @@ ideas = {
 
 
 		RAJ_john_edward_golightly = {
+		
+			available = {
+				has_completed_focus = RAJ_indian_national_congress
+			}
 
 			picture = generic_political_advisor_europe_1
 
