@@ -1657,7 +1657,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			1014 = {
+			288 = {
 				add_resource = {
 					type = oil
 					amount = 24
