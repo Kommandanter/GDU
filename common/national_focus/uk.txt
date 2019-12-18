@@ -52,7 +52,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = codebreaking_bonus
 				bonus = 1.0
-				uses = 3
+				uses = 4
 				category = decryption_tech
 				category = computing_tech
 			}
@@ -88,7 +88,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = crypto_bomb_focus
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -116,10 +116,23 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = maud_focus
-				bonus = 1.0
-				uses = 1
+				bonus = 1.5
+				uses = 3
 				category = nuclear
 			}
+			add_tech_bonus = {
+				name = maud_focus
+				bonus = 1.0
+				uses = 2
+				category = electronics
+			}
+			add_tech_bonus = {
+				name = maud_focus
+				bonus = 1.0
+				uses = 2
+				category = rocketry
+			}
+			
 		}
 	}
 
@@ -647,7 +660,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = ENG_home_defence
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -863,43 +876,6 @@ focus_tree = {
 					instant_build = yes
 				}
 				set_state_flag = royal_ordinance_focus_2AF
-			}
-		}
-	}
-
-	focus = {
-		id = UK_secret_focus
-		prerequisite = { focus = royal_ordinance_focus }
-		prerequisite = { focus = maud_focus }
-		icon = GFX_goal_generic_secret_weapon
-		x = -1
-		y = 1
-		relative_position_id = royal_ordinance_focus
-		cost = 10
-		ai_will_do = {
-			factor = 1
-		}
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = UK_secret_focus
-				bonus = 1.0
-				uses = 2
-				category = electronics
-			}
-			add_tech_bonus = {
-				name = UK_secret_focus
-				bonus = 1.0
-				uses = 2
-				category = rocketry
-			}
-			add_tech_bonus = {
-				name = UK_secret_focus
-				bonus = 1.0
-				uses = 1
-				category = nuclear
 			}
 		}
 	}
@@ -1196,11 +1172,12 @@ focus_tree = {
 			air_experience = 25
 			add_tech_bonus = {
 				name = bomber_command_focus
-				bonus = 1.0
+				bonus = 1.5
 				uses = 2
 				category = cat_strategic_bomber
-				category = tactical_bomber
 			}
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = arthur_harris
 		}
 	}
 	focus = {
@@ -1343,9 +1320,9 @@ focus_tree = {
 					has_completed_focus = naval_rearmament_focus
 				}
 			OR = {
-				GER = {
-					has_completed_focus = GER_naval_rearmament
-				}
+				###GER = {
+					###has_completed_focus = GER_naval_rearmament
+				###}
 				ENG = {
 					has_completed_focus = general_rearmament_focus
 				}
@@ -1422,18 +1399,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_tech_bonus = {
-				name = ENG_anti_non_contact_committee
-				bonus = 1.0
-				uses = 1
-				category = naval_minelaying
-			}
-			add_tech_bonus = {
-				name = ENG_anti_non_contact_committee
-				bonus = 1.0
-				uses = 2
-				category = naval_minesweeping
-			}
+			add_ideas = british_convoy_discount
 		}
 	}
 
@@ -1505,7 +1471,6 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_ideas = british_convoy_discount
 			add_tech_bonus = {
 				name = ENG_anti_submarine_training_school
 				bonus = 1.0
@@ -2848,7 +2813,6 @@ focus_tree = {
 				limit = {
 					has_dlc = "Waking the Tiger"
 				}
-				unlock_decision_tooltip = CHI_expand_the_burma_road
 			}
 			CHI = {
 				add_opinion_modifier = { target = ENG modifier = burma_road_good }
@@ -3351,18 +3315,18 @@ focus_tree = {
 					}
 				}
 				519 = {
-					add_extra_state_shared_building_slots = 1
+					add_extra_state_shared_building_slots = 2
 					add_building_construction = {
 						type = industrial_complex
-						level = 1
+						level = 2
 						instant_build = yes
 					}
 				}
 				521 = {
-					add_extra_state_shared_building_slots = 2
+					add_extra_state_shared_building_slots = 1
 					add_building_construction = {
 						type = dockyard
-						level = 2
+						level = 1
 						instant_build = yes
 					}
 				}
@@ -3385,19 +3349,19 @@ focus_tree = {
 					}
 				}
 				519 = {
-					add_extra_state_shared_building_slots = 1
+					add_extra_state_shared_building_slots = 2
 					add_building_construction = {
 						type = industrial_complex
-						level = 1
+						level = 2
 						instant_build = yes
 					}
 					set_state_flag = ENG_uk_australia_focus_1IC
 				}
 				521 = {
-					add_extra_state_shared_building_slots = 2
+					add_extra_state_shared_building_slots = 1
 					add_building_construction = {
 						type = dockyard
-						level = 2
+						level = 1
 						instant_build = yes
 					}
 					set_state_flag = ENG_uk_australia_focus_1IC
@@ -3462,10 +3426,10 @@ focus_tree = {
 					}
 				}
 				284 = {
-					add_extra_state_shared_building_slots = 1
+					add_extra_state_shared_building_slots = 4
 					add_building_construction = {
 						type = industrial_complex
-						level = 1
+						level = 2
 						instant_build = yes
 					}
 				}
@@ -3473,7 +3437,7 @@ focus_tree = {
 					add_extra_state_shared_building_slots = 2
 					add_building_construction = {
 						type = dockyard
-						level = 2
+						level = 1
 						instant_build = yes
 					}
 				}
@@ -3496,10 +3460,10 @@ focus_tree = {
 					}
 				}
 				284 = {
-					add_extra_state_shared_building_slots = 1
+					add_extra_state_shared_building_slots = 4
 					add_building_construction = {
 						type = industrial_complex
-						level = 1
+						level = 2
 						instant_build = yes
 					}
 					set_state_flag = ENG_uk_new_zealand_focus_1IC
@@ -3508,7 +3472,7 @@ focus_tree = {
 					add_extra_state_shared_building_slots = 2
 					add_building_construction = {
 						type = dockyard
-						level = 2
+						level = 1
 						instant_build = yes
 					}
 					set_state_flag = ENG_uk_new_zealand_focus_1IC
@@ -3573,10 +3537,10 @@ focus_tree = {
 					}
 				}
 				467 = {
-					add_extra_state_shared_building_slots = 1
+					add_extra_state_shared_building_slots = 3
 					add_building_construction = {
 						type = industrial_complex
-						level = 1
+						level = 2
 						instant_build = yes
 					}
 				}
@@ -3584,7 +3548,7 @@ focus_tree = {
 					add_extra_state_shared_building_slots = 2
 					add_building_construction = {
 						type = dockyard
-						level = 2
+						level = 1
 						instant_build = yes
 					}
 				}
@@ -3607,10 +3571,10 @@ focus_tree = {
 					}
 				}
 				467 = {
-					add_extra_state_shared_building_slots = 1
+					add_extra_state_shared_building_slots = 3
 					add_building_construction = {
 						type = industrial_complex
-						level = 1
+						level = 2
 						instant_build = yes
 					}
 					set_state_flag = ENG_uk_canada_focus_2IC
@@ -3619,7 +3583,7 @@ focus_tree = {
 					add_extra_state_shared_building_slots = 2
 					add_building_construction = {
 						type = dockyard
-						level = 2
+						level = 1
 						instant_build = yes
 					}
 					set_state_flag = ENG_uk_canada_focus_1IC
@@ -3683,10 +3647,10 @@ focus_tree = {
 					}
 				}
 				275 = {
-					add_extra_state_shared_building_slots = 1
+					add_extra_state_shared_building_slots = 4
 					add_building_construction = {
 						type = industrial_complex
-						level = 1
+						level = 2
 						instant_build = yes
 					}
 				}
@@ -3694,7 +3658,7 @@ focus_tree = {
 					add_extra_state_shared_building_slots = 2
 					add_building_construction = {
 						type = dockyard
-						level = 2
+						level = 1
 						instant_build = yes
 					}
 				}
@@ -3717,10 +3681,10 @@ focus_tree = {
 					}
 				}
 				275 = {
-					add_extra_state_shared_building_slots = 1
+					add_extra_state_shared_building_slots = 4
 					add_building_construction = {
 						type = industrial_complex
-						level = 1
+						level = 2
 						instant_build = yes
 					}
 					set_state_flag = ENG_uk_south_africa_focus_2IC
@@ -3729,7 +3693,7 @@ focus_tree = {
 					add_extra_state_shared_building_slots = 2
 					add_building_construction = {
 						type = dockyard
-						level = 2
+						level = 1
 						instant_build = yes
 					}
 					set_state_flag = ENG_uk_south_africa_focus_1IC
@@ -4077,8 +4041,8 @@ focus_tree = {
 			set_rule = { can_send_volunteers = yes }
 			add_tech_bonus = {
 				name = ENG_artillery
-				uses = 1
-				bonus = 1.0
+				uses = 2
+				bonus = 0.6
 				category = artillery
 			}
 		}

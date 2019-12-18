@@ -1122,11 +1122,11 @@ ideas = {
 				}
 			}
 			
-			cost = 150
+			cost = 75
 			removal_cost = 10
 			
 			research_bonus = {
-				naval_equipment = 0.15
+				naval_equipment = 0.2
 			}
 			
 			traits = { naval_manufacturer }
@@ -1166,7 +1166,7 @@ ideas = {
 				}
 			}
 			
-			cost = 150
+			cost = 100
 			removal_cost = 10
 			
 			research_bonus = {
@@ -1205,7 +1205,7 @@ ideas = {
 				}
 			}
 			
-			cost = 150
+			cost = 100
 			removal_cost = 10
 			
 			research_bonus = {
@@ -1244,7 +1244,7 @@ ideas = {
 				}
 			}
 			
-			cost = 150
+			cost = 100
 			removal_cost = 10
 			
 			research_bonus = {
@@ -1279,7 +1279,7 @@ ideas = {
 				}
 			}
 			
-			cost = 150
+			cost = 100
 			removal_cost = 10
 			
 			research_bonus = {
@@ -1389,11 +1389,11 @@ ideas = {
 				}
 			}
 			
-			cost = 150
+			cost = 75
 			removal_cost = 10
 			
 			research_bonus = {
-				motorized_equipment = 0.15
+				motorized_equipment = 0.2
 			}
 			
 			traits = { motorized_equipment_manufacturer }
@@ -1633,7 +1633,7 @@ ideas = {
 			}
 			
 			research_bonus = {
-				air_warfare_doctrine = 0.07
+				air_warfare_doctrine = 0.1
 			}
 			
 			traits = { air_warfare_theorist }
