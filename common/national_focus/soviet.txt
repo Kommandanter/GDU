@@ -14,7 +14,7 @@ focus_tree = {
 
 	focus = {
 		id = SOV_stalin_constitution
-		icon = GFX_focus_generic_join_comintern
+		icon = GFX_goal_PCR
 		x = 18
 		y = 0
 		cost = 10

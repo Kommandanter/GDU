@@ -5,6 +5,21 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/goal_ships_for_victory.dds"
 	}
 	
+	SpriteType = {
+		name = "GFX_goal_PCR"
+		texturefile = "gfx/interface/goals/goal_PCR.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_ships_for_victory"
+		texturefile = "gfx/interface/goals/goal_ships_for_victory.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_ships_for_victory"
+		texturefile = "gfx/interface/goals/goal_ships_for_victory.dds"
+	}
+	
 	SpriteType = { name = "GFX_goal_ships_for_victory_shine"
 		texturefile = "gfx/interface/goals/goal_ships_for_victory.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
