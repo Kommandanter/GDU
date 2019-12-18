@@ -2183,7 +2183,7 @@ ideas = {
 		arthur_harris = {
 		
 			available = {
-				has_completed_focus = ENG_bomber_command_focus
+				has_completed_focus = bomber_command_focus
 			}
 			
 			allowed = {
