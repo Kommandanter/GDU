@@ -59,7 +59,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = RAJ_provincial_elections
 
-		cost = 35
+		cost = 5
 
 		ai_will_do = {
 			factor = 27
@@ -404,7 +404,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = RAJ_british_army_support
 
-		cost = 4
+		cost = 5
 
 		ai_will_do = {
 			factor = 25
@@ -882,7 +882,7 @@ focus_tree = {
 		y = 0
 		relative_position_id = RAJ_the_bangalore_torpedo
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 20
