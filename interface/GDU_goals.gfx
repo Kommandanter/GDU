@@ -16,8 +16,41 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_goal_ships_for_victory"
-		texturefile = "gfx/interface/goals/goal_ships_for_victory.dds"
+		name = "GFX_RUS_tank"
+		texturefile = "gfx/interface/goals/RUS_tank.tga"
+	}
+		
+	SpriteType = {
+		name = "GFX_goal_manage_industries"
+		texturefile = "gfx/interface/goals/goal_manage_industries.tga"
+	}
+		
+	SpriteType = {
+		name = "GFX_goal_commune_politics"
+		texturefile = "gfx/interface/goals/goal_commune_politics.tga"
+	}
+		
+	SpriteType = {
+		name = "GFX_goal_generic_army_tanks2"
+		texturefile = "gfx/interface/goals/goal_generic_army_tanks2.tga"
+	}
+
+		
+	SpriteType = {
+		name = "GFX_america_goal_sabo_tabby"
+		texturefile = "gfx/interface/goals/america_goal_sabo_tabby.tga"
+	}
+
+
+			
+	SpriteType = {
+		name = "GFX_goal_bluewater_navy"
+		texturefile = "gfx/interface/goals/goal_bluewater_navy.tga"
+	}
+			
+	SpriteType = {
+		name = "GFX_focus_generic_navy_battleship3"
+		texturefile = "gfx/interface/goals/focus_generic_navy_battleship3.tga"
 	}
 	
 	SpriteType = { name = "GFX_goal_ships_for_victory_shine"
