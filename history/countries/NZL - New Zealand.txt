@@ -7,7 +7,7 @@ add_timed_idea = { idea = airandnavy_idea days = 1166 }
 set_stability = 0.8
 set_war_support = 0.3
 
-navy_experience = 33
+navy_experience = 0
 set_technology = {
 	interwar_antiair = 1
 	infantry_weapons = 1
@@ -309,22 +309,22 @@ create_corps_commander = {
 create_navy_leader = {
 	name = "Edmund Rupert Drummond"
 	gfx = "GFX_NZL_edmund_drummond"
-	traits = { }
-	skill = 3
-	attack_skill = 3
-	defense_skill = 2
-	maneuvering_skill = 3
-	coordination_skill = 2
+	traits = { chief_engineer fleet_protector spotter blockade_runner }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	maneuvering_skill = 5
+	coordination_skill = 3
 }
 
 create_navy_leader = {
-	name = "Peter Phipps"
+	name = "Neil Anderson"
 	gfx = "GFX_NZL_peter_phipps"
-	traits = { navy_career_officer }
-	skill = 3
-	attack_skill = 2
-	defense_skill = 3
-	maneuvering_skill = 2
-	coordination_skill = 3
+	traits = { bold navy_career_officer superior_tactician fly_swatter blue_water_expert }
+	skill = 5
+	attack_skill = 3
+	defense_skill = 4
+	maneuvering_skill = 5
+	coordination_skill = 5
 }
 

@@ -21,7 +21,7 @@ focus_tree = {
 		id = RAJ_provincial_elections
 		icon = GFX_goal_generic_forceful_treaty
 		x = 1
-		y = 0
+		y = 1
 
 		cost = 10
 
@@ -48,14 +48,6 @@ focus_tree = {
 
 		completion_reward = {
 			add_political_power = 100
-			add_autonomy_ratio = {
-				value = 0.1
-				localization = RAJ_provincial_elections
-			}
-			swap_ideas = {
-				add_idea = RAJ_princely_states_election
-				remove_idea = RAJ_princely_states
-			}
 		}
 	}
 
@@ -67,7 +59,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = RAJ_provincial_elections
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 27
@@ -96,49 +88,11 @@ focus_tree = {
 			}
 			add_opinion_modifier = { target = ENG modifier = RAJ_indian_national_congress }
 			custom_effect_tooltip = available_political_advisor
-			show_ideas_tooltip = RAJ_bhimrao_ramji_ambedkar
+			show_ideas_tooltip = RAJ_john_edward_golightly
 			hidden_effect = { news_event = { id = news.283 hours = 12 } }
 		}
 	}
 
-	focus = {
-		id = RAJ_quit_india_movement
-		icon = GFX_goal_generic_propaganda
-		prerequisite = { focus = RAJ_provincial_elections }
-		x = 0
-		y = 1
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 25
-		}
-
-		available = {
-			is_subject = yes
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = no
-		continue_if_invalid = yes
-		available_if_capitulated = no
-
-		complete_tooltip = {
-
-		}
-
-		completion_reward = {
-			add_ideas = RAJ_quit_india_movement
-			custom_effect_tooltip = "tfv_raj_quit_india_unrest_tt"
-			hidden_effect = {
-				country_event = { id = tfv_raj.210 days = 15 random = 20 }
-				news_event = { id = news.282 hours = 6 }
-			}
-		}
-	}
 
 	############################
 	######### SHARED ###########
@@ -155,7 +109,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = RAJ_indian_national_congress
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 25
@@ -220,7 +174,6 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			custom_effect_tooltip = RAJ_two_nation_theory_effect
 			swap_ideas = {
 				add_idea = RAJ_marginalized_muslim_community_happy
 				remove_idea = RAJ_marginalized_muslim_community_angry
@@ -274,7 +227,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = RAJ_princely_state_donations
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 25
@@ -451,7 +404,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = RAJ_british_army_support
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 25
@@ -532,7 +485,7 @@ focus_tree = {
 		x = 13
 		y = 0
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 3
@@ -850,14 +803,13 @@ focus_tree = {
 		y = 3
 		relative_position_id = RAJ_indianisation_of_army
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 25
 		}
 
 		available = {
-			date > 1941.1.1
 		}
 
 		bypass = {
@@ -890,7 +842,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = RAJ_lessons_of_the_great_war
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 20
@@ -916,7 +868,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = RAJ_the_bangalore_torpedo
 				bonus = 1.00
-				uses = 2
+				uses = 1
 				category = engineers_tech
 			}
 		}
@@ -1011,7 +963,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = RAJ_the_bangalore_torpedo
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 30
@@ -1138,7 +1090,7 @@ focus_tree = {
 		y = 3
 		relative_position_id = RAJ_the_bangalore_torpedo
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 25
@@ -1167,6 +1119,12 @@ focus_tree = {
 				uses = 1
 				category = land_doctrine
 			}
+			add_tech_bonus = {
+				name = RAJ_modernizing_army
+				bonus = 1.00
+				uses = 1
+				category = engineers_tech
+			}
 		}
 	}
 
@@ -1185,7 +1143,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = RAJ_lessons_of_the_great_war
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 20
@@ -1232,7 +1190,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = RAJ_british_pilot_training
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 25
@@ -1278,7 +1236,7 @@ focus_tree = {
 				}
 				add_building_construction = {
 					type = air_base
-					level = 1
+					level = 5
 					instant_build = yes
 				}
 				set_state_flag = RAJ_expand_air_bases_AB1
@@ -1293,7 +1251,7 @@ focus_tree = {
 				}
 				add_building_construction = {
 					type = air_base
-					level = 1
+					level = 5
 					instant_build = yes
 				}
 				set_state_flag = RAJ_expand_air_bases_AB2
@@ -1353,7 +1311,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = RAJ_british_pilot_training
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 25
@@ -1396,7 +1354,7 @@ focus_tree = {
 		y = 3
 		relative_position_id = RAJ_british_pilot_training
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 25
@@ -1452,7 +1410,7 @@ focus_tree = {
 		}
 
 		available = {
-			date > 1945.1.1
+			date > 1944.1.1
 		}
 
 		bypass = {
@@ -1470,7 +1428,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = RAJ_the_smiling_buddha
-				bonus = 1.00
+				bonus = 1.50
 				uses = 1
 				category = nuclear
 			}
@@ -1489,7 +1447,7 @@ focus_tree = {
 		x = 24
 		y = 0
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 7
@@ -1593,7 +1551,7 @@ focus_tree = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = industrial_complex
-					level = 1
+					level = 2
 					instant_build = yes
 				}
 			}
@@ -1612,7 +1570,7 @@ focus_tree = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = industrial_complex
-					level = 1
+					level = 2
 					instant_build = yes
 				}
 				set_state_flag = RAJ_industrial_expansion_IC
@@ -1658,7 +1616,7 @@ focus_tree = {
 			429 = {
 				add_resource = {
 					type = steel
-					amount = 24
+					amount = 32
 				}
 			}
 		}
@@ -1683,7 +1641,7 @@ focus_tree = {
 		}
 
 		available = {
-			controls_state = 640
+			controls_state = 1014
 		}
 
 		bypass = {
@@ -1699,10 +1657,10 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			640 = {
+			288 = {
 				add_resource = {
 					type = oil
-					amount = 15
+					amount = 24
 				}
 			}
 		}
@@ -1752,7 +1710,7 @@ focus_tree = {
 		y = 3
 		relative_position_id = RAJ_industrial_expansion
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 25
@@ -1858,7 +1816,7 @@ focus_tree = {
 			439 = {
 				add_resource = {
 					type = steel
-					amount = 2
+					amount = 8
 				}		
 			}				
 		}
@@ -1937,7 +1895,7 @@ focus_tree = {
 			439 = {
 				add_resource = {
 					type = steel
-					amount = 2
+					amount = 8
 				}		
 			}				
 		}
@@ -1959,7 +1917,6 @@ focus_tree = {
 		}
 
 		available = {
-			date > 1940.1.1
 		}
 
 		bypass = {
@@ -1974,7 +1931,7 @@ focus_tree = {
 			441 = {
 				add_resource = {
 					type = steel
-					amount = 1
+					amount = 6
 				}			
 			}	
 		}
@@ -2030,7 +1987,7 @@ focus_tree = {
 			787 = {
 				add_resource = {
 					type = steel
-					amount = 1
+					amount = 6
 				}			
 			}				
 		}
@@ -2077,7 +2034,7 @@ focus_tree = {
 			787 = {
 				add_resource = {
 					type = steel
-					amount = 1
+					amount = 6
 				}			
 			}				
 		}
@@ -2123,7 +2080,7 @@ focus_tree = {
 			787 = {
 				add_resource = {
 					type = steel
-					amount = 1
+					amount = 6
 				}			
 			}				
 		}
@@ -2170,7 +2127,7 @@ focus_tree = {
 			787 = {
 				add_resource = {
 					type = steel
-					amount = 1
+					amount = 6
 				}			
 			}				
 		}
@@ -2208,7 +2165,7 @@ focus_tree = {
 			787 = {
 				add_resource = {
 					type = steel
-					amount = 1
+					amount = 6
 				}			
 			}				
 		}
@@ -2227,7 +2184,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = RAJ_great_indian_peninsula_railway
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 25
@@ -2290,7 +2247,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = RAJ_east_india_railways
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 25
@@ -2304,14 +2261,14 @@ focus_tree = {
 			433 = {
 				add_building_construction = {
 					type = infrastructure
-					level = 2
+					level = 1
 					instant_build = yes
 				}
 			}
 			438 = {
 				add_building_construction = {
 					type = infrastructure
-					level = 2
+					level = 1
 					instant_build = yes
 				}
 			}
@@ -2321,7 +2278,7 @@ focus_tree = {
 			433 = {
 				add_building_construction = {
 					type = infrastructure
-					level = 2
+					level = 1
 					instant_build = yes
 				}
 				set_state_flag = RAJ_integrate_princely_railways_Inf1
@@ -2329,7 +2286,7 @@ focus_tree = {
 			438 = {
 				add_building_construction = {
 					type = infrastructure
-					level = 2
+					level = 1
 					instant_build = yes
 				}
 				set_state_flag = RAJ_integrate_princely_railways_Inf2
@@ -2398,7 +2355,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = RAJ_integrate_princely_railways
 
-		cost = 8.6
+		cost = 10
 
 		ai_will_do = {
 			factor = 30
@@ -2413,11 +2370,12 @@ focus_tree = {
 		available_if_capitulated = no
 
 		complete_tooltip = {
+			add_stability = 0.05
 
 		}
 
 		completion_reward = {
-			remove_ideas = RAJ_risk_of_famine
+			add_stability = 0.05
 		}
 	}
 
@@ -2560,7 +2518,7 @@ focus_tree = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
-					level = 2
+					level = 1
 					instant_build = yes
 				}
 			}
@@ -2594,7 +2552,7 @@ focus_tree = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
-					level = 2
+					level = 1
 					instant_build = yes
 				}
 				set_state_flag = RAJ_british_rail_investors_IC1

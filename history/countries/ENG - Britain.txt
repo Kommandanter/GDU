@@ -338,9 +338,9 @@ set_politics = {
 }
 
 set_popularities = {
-    democratic = 97
-    fascism = 2
-    communism = 1
+    democratic = 100
+    fascism = 0
+    communism = 0
 }
 
 
@@ -1141,7 +1141,7 @@ if = {
 }
 
 
-create_equipment_variant = {
+	create_equipment_variant = {
 		name = "Hurricane 109 B"
 		type = fighter_equipment_1
 		upgrades = {
