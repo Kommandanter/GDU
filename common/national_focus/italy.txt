@@ -1094,7 +1094,7 @@ focus_tree = {
 
 	focus = {
 		id = ITA_capital_ships
-		icon = GFX_goal_generic_navy_battleship
+		icon = GFX_goal_bluewater_navy
 		prerequisite = { focus = ITA_mare_nostrum }
 		x = 9
 		y = 1
@@ -1187,7 +1187,7 @@ focus_tree = {
 
 	focus = {
 		id = ITA_atlantic_fleet
-		icon = GFX_goal_generic_navy_doctrines_tactics
+		icon = GFX_focus_generic_navy_battleship3
 		prerequisite = { focus = ITA_carrier_effort }
 		prerequisite = { focus = ITA_capital_ships }
 		x = 8
@@ -1445,7 +1445,7 @@ focus_tree = {
 
 	focus = {
 		id = ITA_victoryinETH
-		icon = GFX_goal_generic_propaganda
+		icon = GFX_america_goal_sabo_tabby
 		available = {
 			OR = {
 				owns_state = 271
