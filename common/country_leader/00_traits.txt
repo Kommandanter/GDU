@@ -1611,15 +1611,9 @@ leader_traits = {
 
 	grand_fleet_proponent = {
 		sprite = 14
-		
-		equipment_bonus = {
-			capital_ship = {
-				navy_capital_ship_anti_air_attack_factor = 0.025
-			}
-			screen_ship = {
-				navy_screen_anti_air_attack_factor = 0.025
-			}
-		}
+
+		navy_anti_air_attack_factor	 = 0.025
+
 		experience_gain_navy = 0.2
 		experience_gain_army = 0.1
 		experience_gain_air = 0.05		
