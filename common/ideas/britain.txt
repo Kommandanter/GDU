@@ -2180,7 +2180,7 @@ ideas = {
 			}
 		}
 		
-		arthur_harris = {
+		arthur_harris_highcommand = {
 		
 			available = {
 				has_completed_focus = bomber_command_focus
