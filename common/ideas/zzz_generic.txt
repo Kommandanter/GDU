@@ -662,7 +662,7 @@ ideas = {
 				production_speed_nuclear_reactor_factor = 0.2
 			}
 			research_bonus = {
-				nuclear = 0.15
+				nuclear = 0.2
 			}
 		}
 
@@ -686,7 +686,7 @@ ideas = {
 				political_power_factor = -0.5
 			}
 			research_bonus = {
-				nuclear = 0.15
+				nuclear = 0.2
 			}
 		}
 		
@@ -920,7 +920,7 @@ ideas = {
 		generic_communist_revolutionary = {
 			
 			allowed = {
-				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = FRF tag = ITA tag = JAP tag = USA tag = AST tag = RAJ tag = CAN tag = SAF tag = CZE tag = ROM tag = CHI tag = MAN tag = HOL tag = HUN tag = BUL } }
+				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = FRF tag = ITA tag = JAP tag = USA tag = AST tag = RAJ tag = CAN tag = SAF tag = CZE tag = ROM tag = CHI tag = MAN tag = HOL tag = HUN tag = BUL tag = NZL } }
 				NOT = {
 					has_available_idea_with_traits = { idea = communist_revolutionary limit = 1 }
 				}
@@ -930,10 +930,8 @@ ideas = {
 			available = {
 				if = {
 					limit = { 
-						original_tag = NZL
 						has_dlc = "Together for Victory"
 					}
-					has_completed_focus = NZL_the_lee_affair
 				}
 				if = {
 					limit = { has_dlc = "Man the Guns" }	
@@ -1006,7 +1004,7 @@ ideas = {
 		generic_fascist_demagogue = {
 			
 			allowed = {
-				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = FRF tag = ITA tag = JAP tag = USA tag = AST tag = RAJ tag = CAN tag = SAF tag = ROM tag = CZE tag = CHI tag = MAN tag = HOL tag = HUN } }
+				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = FRF tag = ITA tag = JAP tag = USA tag = AST tag = RAJ tag = CAN tag = SAF tag = ROM tag = CZE tag = CHI tag = MAN tag = HOL tag = HUN tag = NZL } }
 				NOT = {
 					has_available_idea_with_traits = { idea = fascist_demagogue limit = 1 }
 				}
@@ -1016,10 +1014,8 @@ ideas = {
 			available = {
 				if = {
 					limit = { 
-						original_tag = NZL
 						has_dlc = "Together for Victory"
 					}
-					has_completed_focus = NZL_in_the_darkness
 				}
 				if = {
 					limit = { has_dlc = "Man the Guns" }	
@@ -1078,7 +1074,7 @@ ideas = {
 				}
 			}
 			
-			cost = 150
+			cost = 75
 			removal_cost = 10
 			
 			research_bonus = {

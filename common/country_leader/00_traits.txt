@@ -26,11 +26,6 @@ leader_traits = {
 	imperial_sanction = {
 		random = no
 
-		targeted_modifier = {
-			tag = CHI
-			generate_wargoal_tension_against = 0.75
-		}
-
 		ai_will_do = {
 			factor = 1
 		}
@@ -64,18 +59,9 @@ leader_traits = {
 		}
 	}
 
-	stout_defender = { # This particular trait will make the AI heavily prioritize defensive warfare, rarely, if ever, attacking out of fortified locations
-		random = no
-		ai_focus_defense_factor = 0.5
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
 	warmonger = {
 		random = no
-		ai_focus_aggressive_factor = 0.5
+		
 
 		ai_will_do = {
 			factor = 1
@@ -622,7 +608,6 @@ leader_traits = {
 
 	fascist_sympathies = {
 		random = no
-		fascism_acceptance = 70
 
 		ai_will_do = {
 			factor = 1
@@ -631,8 +616,6 @@ leader_traits = {
 
 	anti_communist = {
 		random = no
-		communism_acceptance = -50
-		communism_drift = -0.01
 
 		ai_will_do = {
 			factor = 1
@@ -843,7 +826,6 @@ leader_traits = {
 	leider = {
 		random = no
 		war_support_factor = 0.1
-		fascism_acceptance = 50
 	}
 
 	comintern_workhorse = {
@@ -865,7 +847,7 @@ leader_traits = {
 		random = no
 		# Boosts Communism
 		sprite = 13
-		communism_drift = 0.75
+		communism_drift = 0.5
 
 		ai_will_do = {
 			factor = 1
@@ -880,7 +862,7 @@ leader_traits = {
 		random = no
 		# Boosts Democracy
 		sprite = 13
-		democratic_drift = 0.75
+		democratic_drift = 0.5
 
 		ai_will_do = {
 			factor = 0
@@ -891,15 +873,15 @@ leader_traits = {
 		random = no
 		# Boosts Fascism
 		sprite = 13
-		fascism_drift = 0.75
+		fascism_drift = 0.5
 
 		ai_will_do = {
 			factor = 1
 			modifier = { 
 				not = { has_completed_focus = USA_america_first }
 			factor = 0
+			}
 		}
-	}
 	}
 	staunch_monarchist = {
 		random = no
@@ -975,7 +957,6 @@ leader_traits = {
 	}
 	anti_communist_crusader = {
 		stability_factor = 0.05
-		communism_drift = -0.1
 
 		ai_will_do = {
 			factor = 1
@@ -1013,7 +994,7 @@ leader_traits = {
 	compassionate_gentleman = {
 		random = yes
 		sprite = 13
-		stability_factor = 0.05
+		stability_factor = 0.075
 		political_power_factor = 0.05
 
 		ai_will_do = {
@@ -1195,9 +1176,7 @@ leader_traits = {
 	
 	baron_of_terror = {
 		sprite = 13
-		enemy_partisan_effect = -0.15
-		foreign_subversive_activites = -0.15
-		non_core_manpower = 0.01
+		non_core_manpower = 0.075
 		
 		ai_will_do = {
 			factor = 1
@@ -1247,9 +1226,9 @@ leader_traits = {
 	fortification_armchair_general = {
 		sprite = 10
 		random = yes
-		production_speed_bunker_factor = 0.1
-		production_speed_coastal_bunker_factor = 0.1
-		production_speed_anti_air_building_factor = 0.1
+		production_speed_bunker_factor = 0.15
+		production_speed_coastal_bunker_factor = 0.15
+		production_speed_anti_air_building_factor = 0.15
 		
 		ai_will_do = {
 			factor = 1
@@ -1600,9 +1579,15 @@ leader_traits = {
 
 	naval_aviation_pioneer = {
 		sprite = 14
+		
+		equipment_bonus = {
+			cv_fighter_equipment = {
+				sortie_efficiency = 0.075
+			}
+		}
 		experience_gain_navy = 0.2
-		experience_gain_army = 0.1
-		experience_gain_air = 0.05		
+		experience_gain_army = 0.05
+		experience_gain_air = 0.1		
 
 		ai_will_do = {
 			factor = 100
@@ -1673,10 +1658,10 @@ leader_traits = {
 		random = no
 		equipment_bonus = {
 			fighter_equipment = {
-				air_agility = 0.175 maximum_speed = 0.1
+				air_agility = 0.175 maximum_speed = 0.175
 			}
 			cv_fighter_equipment = {
-				air_agility = 0.175 maximum_speed = 0.1
+				air_agility = 0.175 maximum_speed = 0.175
 			}
 		}
 		
@@ -1867,7 +1852,7 @@ leader_traits = {
 			}
 			capital_ship = {
 				armor_value = 0.05
-				hg_attack = 0.1
+				hg_attack = 0.15
 			}
 			#screen_ship = {
 			#
@@ -1886,12 +1871,13 @@ leader_traits = {
 		random = no
 		equipment_bonus = {
 			capital_ship = {
-				armor_value = 0.05
-				hg_attack = 0.15
+				armor_value = 0.075 surface_visibility = 0.1 naval_speed = -0.1
+				hg_attack = 0.2
 			}
 			screen_ship = {
-				torpedo_attack = 0.25
+				torpedo_attack = 0.33
 				sub_detection = -0.30
+				naval_speed = -0.1
 			}
 		}
 		
@@ -1913,7 +1899,7 @@ leader_traits = {
 				surface_visibility = -0.075 naval_speed = 0.075
 			}
 			submarine = {
-				sub_visibility = -0.1 surface_visibility = -0.1 naval_speed = 0.1
+				sub_visibility = -0.15 surface_visibility = -0.2 naval_speed = 0.15
 			}
 		}
 
@@ -1926,7 +1912,7 @@ leader_traits = {
 		random = no
 		equipment_bonus = {
 			screen_ship = {
-				naval_range = 0.33 sub_detection = 0.1 naval_speed = 0.05
+				naval_range = 0.25 sub_detection = 0.2 naval_speed = 0.05
 			}
 		}
 
@@ -1942,13 +1928,13 @@ leader_traits = {
 	            carrier_size = 0.1 naval_range = -0.1
 			}
 			capital_ship = {
-				naval_range = -0.1 armor_value = 0.025 hg_attack = 0.05
+				naval_range = -0.1 armor_value = 0.03 hg_attack = 0.05
 			}
 			screen_ship = {
-			    naval_range = -0.1 sub_detection = 0.1 naval_speed = 0.1
+			    naval_range = -0.1 sub_detection = 0.15 naval_speed = 0.15
 			}
 			submarine = { 
-				naval_range = -0.10 sub_visibility = -0.05 surface_visibility = -0.05
+				naval_range = -0.2 sub_visibility = -0.05 surface_visibility = -0.05 naval_speed = 0.15
 		    }
 		}
 
@@ -2271,7 +2257,7 @@ leader_traits = {
 	army_chief_maneuver_1 = { # Ground units move 5% faster and have a recovery boost 
 		sprite = 5
 		army_speed_factor = 0.025
-		army_morale_factor  = 0.03
+		army_morale_factor  = 0.025
 		
 		ai_will_do = {
 			factor = 1
@@ -2291,7 +2277,7 @@ leader_traits = {
 	army_chief_maneuver_3 = { # Ground units move 7.5% faster and have a recovery boost 
 		sprite = 5
 		army_speed_factor = 0.075
-		army_morale_factor  = 0.07
+		army_morale_factor  = 0.075
 
 		ai_will_do = {
 			factor = 3
@@ -2758,8 +2744,7 @@ leader_traits = {
 	# Guesstimation of what % increased efficiency might look like
 	air_naval_strike_1 = { # Naval Strike mission efficiency increased by 4%
 		sprite = 2
-		naval_strike_attack_factor = 0.02
-		naval_strike_targetting_factor = 0.02
+		naval_strike_attack_factor = 0.03
 
 		ai_will_do = {
 			factor = 1
@@ -2768,8 +2753,7 @@ leader_traits = {
 
 	air_naval_strike_2 = { # Naval Strike mission efficiency increased by 8%
 		sprite = 2
-		naval_strike_attack_factor = 0.03
-		naval_strike_targetting_factor = 0.03
+		naval_strike_attack_factor = 0.04
 
 		ai_will_do = {
 			factor = 2
@@ -2779,7 +2763,6 @@ leader_traits = {
 	air_naval_strike_3 = { # Naval Strike mission efficiency increased by 12%
 		sprite = 2
 		naval_strike_attack_factor = 0.05
-		naval_strike_targetting_factor = 0.05
 
 		ai_will_do = {
 			factor = 3
@@ -2823,9 +2806,9 @@ leader_traits = {
 
 	air_air_superiority_1 = { # Air Superiority mission efficiency increased by 4%
 		sprite = 1
-		air_air_superiority_attack_factor = 0.02
-		air_air_superiority_defence_factor = 0.02
-		air_air_superiority_agility_factor = 0.02
+		air_air_superiority_attack_factor = 0.03
+		air_air_superiority_defence_factor = 0.01
+		air_air_superiority_agility_factor = 0.01
 
 		ai_will_do = {
 			factor = 1
@@ -2834,9 +2817,9 @@ leader_traits = {
 
 	air_air_superiority_2 = { # Air Superiority mission efficiency increased by 8%
 		sprite = 1
-		air_air_superiority_attack_factor = 0.03
-		air_air_superiority_defence_factor = 0.03
-		air_air_superiority_agility_factor = 0.03
+		air_air_superiority_attack_factor = 0.04
+		air_air_superiority_defence_factor = 0.02
+		air_air_superiority_agility_factor = 0.02
 
 		ai_will_do = {
 			factor = 2
@@ -2845,9 +2828,9 @@ leader_traits = {
 
 	air_air_superiority_3 = { # Air Superiority mission efficiency increased by 12%
 		sprite = 1
-		air_air_superiority_attack_factor = 0.05
-		air_air_superiority_defence_factor = 0.05
-		air_air_superiority_agility_factor = 0.05
+		air_air_superiority_attack_factor = 0.06
+		air_air_superiority_defence_factor = 0.04
+		air_air_superiority_agility_factor = 0.04
 
 		ai_will_do = {
 			factor = 3
@@ -2858,7 +2841,7 @@ leader_traits = {
 	air_close_air_support_1 = { # Close Air Support mission efficiency increased by 4%
 		sprite = 1
 		air_close_air_support_attack_factor = 0.02
-		air_close_air_support_defence_factor = 0.02
+		air_close_air_support_defence_factor = 0.01
 
 		ai_will_do = {
 			factor = 1
@@ -2868,7 +2851,7 @@ leader_traits = {
 	air_close_air_support_2 = { # Close Air Support mission efficiency increased by 8%
 		sprite = 1
 		air_close_air_support_attack_factor = 0.03
-		air_close_air_support_defence_factor = 0.03
+		air_close_air_support_defence_factor = 0.02
 
 		ai_will_do = {
 			factor = 2
@@ -2878,7 +2861,7 @@ leader_traits = {
 	air_close_air_support_3 = { # Close Air Support mission efficiency increased by 12%
 		sprite = 1
 		air_close_air_support_attack_factor = 0.05
-		air_close_air_support_defence_factor = 0.05
+		air_close_air_support_defence_factor = 0.04
 
 		ai_will_do = {
 			factor = 3
@@ -3029,7 +3012,7 @@ leader_traits = {
 	navy_chief_naval_aviation_1 = {
 		sprite = 1
 		navy_carrier_air_attack_factor = 0.03
-		navy_carrier_air_targetting_factor = 0.025
+		navy_carrier_air_targetting_factor = 0.02
 
 		ai_will_do = {
 			factor = 1
@@ -3039,7 +3022,7 @@ leader_traits = {
 	navy_chief_naval_aviation_2 = {
 		sprite = 1
 		navy_carrier_air_attack_factor = 0.06
-		navy_carrier_air_targetting_factor = 0.05
+		navy_carrier_air_targetting_factor = 0.04
 
 		ai_will_do = {
 			factor = 2
@@ -3049,7 +3032,7 @@ leader_traits = {
 	navy_chief_naval_aviation_3 = {
 		sprite = 1
 		navy_carrier_air_attack_factor = 0.1
-		navy_carrier_air_targetting_factor = 0.075
+		navy_carrier_air_targetting_factor = 0.06
 
 		ai_will_do = {
 			factor = 3
@@ -3086,7 +3069,7 @@ leader_traits = {
 		navy_capital_ship_attack_factor = 0.15
 		navy_screen_attack_factor = 0.15
 		navy_screen_defence_factor = 0.15
-		naval_coordination = 0.05
+		naval_coordination = 0.075
 
 		ai_will_do = {
 			factor = 3
@@ -3097,6 +3080,7 @@ leader_traits = {
 	navy_chief_commerce_raiding_1 = {
 		sprite = 3
 		convoy_raiding_efficiency_factor = 0.15
+		naval_coordination = 0.025
 
 		ai_will_do = {
 			factor = 1
@@ -3106,6 +3090,7 @@ leader_traits = {
 	navy_chief_commerce_raiding_2 = {
 		sprite = 3
 		convoy_raiding_efficiency_factor = 0.2
+		naval_coordination = 0.035
 
 		ai_will_do = {
 			factor = 2
@@ -3115,6 +3100,7 @@ leader_traits = {
 	navy_chief_commerce_raiding_3 = {
 		sprite = 3
 		convoy_raiding_efficiency_factor = 0.25
+		naval_coordination = 0.045
 
 		ai_will_do = {
 			factor = 3
@@ -3169,7 +3155,7 @@ leader_traits = {
 
 	navy_chief_maneuver_2 = { # Naval units move 10% faster
 		sprite = 3
-		naval_speed_factor = 0.1
+		naval_speed_factor = 0.075
 
 		ai_will_do = {
 			factor = 2
@@ -3178,7 +3164,7 @@ leader_traits = {
 
 	navy_chief_maneuver_3 = { # Naval units move 15% faster
 		sprite = 3
-		naval_speed_factor = 0.15
+		naval_speed_factor = 0.1
 
 		ai_will_do = {
 			factor = 3
@@ -3189,6 +3175,7 @@ leader_traits = {
 	navy_anti_submarine_1 = {
 		sprite = 4
 		navy_submarine_detection_factor = 0.1
+		naval_coordination = 0.025
 
 		ai_will_do = {
 			factor = 1
@@ -3198,6 +3185,7 @@ leader_traits = {
 	navy_anti_submarine_2 = {
 		sprite = 4
 		navy_submarine_detection_factor = 0.15
+		naval_coordination = 0.035
 
 		ai_will_do = {
 			factor = 2
@@ -3206,7 +3194,8 @@ leader_traits = {
 
 	navy_anti_submarine_3 = {
 		sprite = 4
-		navy_submarine_detection_factor = 0.2
+		navy_submarine_detection_factor = 0.25
+		naval_coordination = 0.045
 
 		ai_will_do = {
 			factor = 3
@@ -3301,7 +3290,7 @@ leader_traits = {
 	navy_submarine_1 = {
 		sprite = 4
 		navy_submarine_attack_factor = 0.15
-		navy_submarine_defence_factor = 0.05
+		navy_submarine_defence_factor = 0.15
 
 		ai_will_do = {
 			factor = 1
@@ -3311,7 +3300,7 @@ leader_traits = {
 	navy_submarine_2 = {
 		sprite = 4
 		navy_submarine_attack_factor = 0.2
-		navy_submarine_defence_factor = 0.1
+		navy_submarine_defence_factor = 0.2
 
 		ai_will_do = {
 			factor = 2
@@ -3321,7 +3310,7 @@ leader_traits = {
 	navy_submarine_3 = {
 		sprite = 4
 		navy_submarine_attack_factor = 0.25
-		navy_submarine_defence_factor = 0.15
+		navy_submarine_defence_factor = 0.25
 
 		ai_will_do = {
 			factor = 3
@@ -3362,7 +3351,7 @@ leader_traits = {
 
 	navy_screen_1 = {
 		sprite = 3
-		navy_screen_attack_factor = 0.05
+		navy_screen_attack_factor = 0.075
 		navy_screen_defence_factor = 0.05
 
 		ai_will_do = {
@@ -3372,7 +3361,7 @@ leader_traits = {
 
 	navy_screen_2 = {
 		sprite = 3
-		navy_screen_attack_factor = 0.1
+		navy_screen_attack_factor = 0.125
 		navy_screen_defence_factor = 0.075
 
 		ai_will_do = {
@@ -3382,7 +3371,7 @@ leader_traits = {
 
 	navy_screen_3 = {
 		sprite = 3
-		navy_screen_attack_factor = 0.15
+		navy_screen_attack_factor = 0.175
 		navy_screen_defence_factor = 0.1
 
 		ai_will_do = {
