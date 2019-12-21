@@ -1579,12 +1579,7 @@ leader_traits = {
 
 	naval_aviation_pioneer = {
 		sprite = 14
-		
-		equipment_bonus = {
-			cv_fighter_equipment = {
-				sortie_efficiency = 0.075
-			}
-		}
+
 		experience_gain_navy = 0.2
 		experience_gain_army = 0.05
 		experience_gain_air = 0.1		
