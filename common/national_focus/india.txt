@@ -48,6 +48,14 @@ focus_tree = {
 
 		completion_reward = {
 			add_political_power = 100
+			add_autonomy_ratio = {
+				value = 0.1
+				localization = RAJ_provincial_elections
+			}
+			swap_ideas = {
+				add_idea = RAJ_princely_states_election
+				remove_idea = RAJ_princely_states
+			}
 		}
 	}
 
@@ -59,7 +67,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = RAJ_provincial_elections
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 27
@@ -1090,7 +1098,7 @@ focus_tree = {
 		y = 3
 		relative_position_id = RAJ_the_bangalore_torpedo
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 25
