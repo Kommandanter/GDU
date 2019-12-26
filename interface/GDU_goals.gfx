@@ -74,5 +74,11 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_goal_generic_air_defense"
 		texturefile = "gfx/interface/goals/Generic_Air_Defense.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_strike_france"
+		texturefile = "gfx/interface/goals/strike_france.dds"
+	}
 	
 }
