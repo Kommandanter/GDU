@@ -3032,7 +3032,7 @@ activate_mission = GER_relocate_industry_from_friesland
 
 	focus = {
 		id = GER_flak_36
-		icon = GFX_goal_generic_aafocus
+		icon = GFX_goal_generic_air_defense
 		relative_position_id = GER_army_innovation
 		prerequisite = { focus = GER_army_innovation_2 }
 		x = -2

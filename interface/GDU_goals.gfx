@@ -71,4 +71,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/AAfocus.dds"
 	}
 	
+	SpriteType = {
+		name = "GFX_goal_generic_air_defense"
+		texturefile = "gfx/interface/goals/Generic_Air_Defense.dds"
+	
 }
