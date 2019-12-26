@@ -81,4 +81,9 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/strike_france.dds"
 	}
 	
+	SpriteType = {
+		name = "GFX_goal_hes_coming_south"
+		texturefile = "gfx/interface/goals/AST_goal_coming_south.dds"
+	}
+	
 }

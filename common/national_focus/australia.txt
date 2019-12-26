@@ -2158,7 +2158,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = AST_establish_advisory_war_council
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 1
@@ -2247,17 +2247,17 @@ focus_tree = {
 	}
 
 	focus = {
-		id = AST_citizen_military_forces
-		icon = GFX_goal_generic_political_pressure
+		id = AST_rationing_and_recycling
+		icon = GFX_goal_generic_trade
 		prerequisite = { focus = AST_volunteer_defence_corps }
 		x = 2
 		y = 2
 		relative_position_id = AST_establish_advisory_war_council
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
-			factor = 1
+			factor = 5
 		}
 
 		available = {
@@ -2270,14 +2270,42 @@ focus_tree = {
 
 		cancel_if_invalid = no
 		continue_if_invalid = yes
-		available_if_capitulated = yes
+		available_if_capitulated = no
 
 		complete_tooltip = {
-
+			random_state = {
+				limit = { has_state_flag = AST_rationing_and_recycling_alu }
+				add_resource = {
+					type = aluminium
+					amount = 24
+				}
+			}
+			random_state = {
+				limit = { has_state_flag = AST_rationing_and_recycling_oil }
+				add_resource = {
+					type = oil
+					amount = 12
+				}
+			}
 		}
 
 		completion_reward = {
-			add_ideas = AST_citizen_military_forces
+			random_owned_controlled_state = {
+				limit = { is_in_home_area = yes }
+				add_resource = {
+					type = aluminium
+					amount = 24
+				}
+				set_state_flag = AST_rationing_and_recycling_alu
+			}
+			random_owned_controlled_state = {
+				limit = { is_in_home_area = yes }
+				add_resource = {
+					type = oil
+					amount = 12
+				}
+				set_state_flag = AST_rationing_and_recycling_oil
+			}
 		}
 	}
 
@@ -2514,138 +2542,41 @@ focus_tree = {
 		}
 	}
 
+	###HES COMING SOUTH###
 	focus = {
-		id = AST_rationing_and_recycling
-		icon = GFX_goal_generic_trade
+		id = AST_hes_coming_south
+		icon = GFX_goal_hes_coming_south
 		prerequisite = { focus = AST_invest_in_victory }
+		prerequisite = { focus = AST_rationing_and_recycling }
 		x = 0
 		y = 3
 		relative_position_id = AST_establish_advisory_war_council
 
-		cost = 10
 
-		ai_will_do = {
-			factor = 5
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = no
-		continue_if_invalid = yes
-		available_if_capitulated = no
-
-		complete_tooltip = {
-			random_state = {
-				limit = { has_state_flag = AST_rationing_and_recycling_alu }
-				add_resource = {
-					type = aluminium
-					amount = 24
-				}
-			}
-			random_state = {
-				limit = { has_state_flag = AST_rationing_and_recycling_oil }
-				add_resource = {
-					type = oil
-					amount = 12
-				}
-			}
-		}
-
-		completion_reward = {
-			random_owned_controlled_state = {
-				limit = { is_in_home_area = yes }
-				add_resource = {
-					type = aluminium
-					amount = 24
-				}
-				set_state_flag = AST_rationing_and_recycling_alu
-			}
-			random_owned_controlled_state = {
-				limit = { is_in_home_area = yes }
-				add_resource = {
-					type = oil
-					amount = 12
-				}
-				set_state_flag = AST_rationing_and_recycling_oil
-			}
-		}
-	}
-
-	focus = {
-		id = AST_classify_aliens
-		icon = GFX_goal_generic_defence
-		prerequisite = { focus = AST_citizen_military_forces }
-		x = 2
-		y = 3
-		relative_position_id = AST_establish_advisory_war_council
-
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
 		}
 
 		available = {
-
+			AST = { has_war_with = JAP }	
 		}
-
+		
 		bypass = {
 
 		}
 
-		cancel_if_invalid = no
-		continue_if_invalid = yes
+		cancel_if_invalid = yes
+		continue_if_invalid = no
 		available_if_capitulated = yes
-
-		complete_tooltip = {
-
-		}
 
 		completion_reward = {
 			add_ideas = AST_classify_aliens
-			if = {
-				limit = {
-					has_government = democratic
-				}
-				add_popularity = {
-					ideology = democratic
-					popularity = 0.15
-				}
-			}
-			if = {
-				limit = {
-					has_government = fascism
-				}
-				add_popularity = {
-					ideology = democratic
-					popularity = -0.1
-				}
-				add_popularity = {
-					ideology = communism
-					popularity = -0.1
-				}
-			}
-			if = {
-				limit = {
-					has_government = communism
-				}
-				add_popularity = {
-					ideology = democratic
-					popularity = -0.1
-				}
-				add_popularity = {
-					ideology = fascism
-					popularity = -0.1
-				}
-			}
 		}
 	}
+
+	
 
 
 	############################
