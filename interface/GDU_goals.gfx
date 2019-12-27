@@ -336,6 +336,13 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/ITA_focus_Befriend_Bulgaria.dds"
 	}
 	
+	SpriteType = {
+		name = "GFX_decision_category_military_operation1"
+		texturefile = "gfx/interface/goals/decision_category_military_operation1.dds"
+	}
+	
+	
+	
 	
 	
 	
