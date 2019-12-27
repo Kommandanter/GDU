@@ -338,7 +338,7 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_goal_military_operation1"
-		texturefile = "gfx/interface/goals/decision_category_military_operation1.dds"
+		texturefile = "gfx/interface/goals/idea_military_operation1.dds"
 	}
 	
 	
