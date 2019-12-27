@@ -1296,7 +1296,7 @@ ideas = {
 		
 		airandnavy_idea = {
 			
-			picture = generic_military_mission_1
+			picture = GFX_focus_generic_military_mission
 			
 			allowed = {
 				always = no
