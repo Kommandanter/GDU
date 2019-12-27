@@ -27,7 +27,7 @@ ideas = {
 				army_org_Factor = 0.1
 				army_morale_factor = 0.05
 				army_speed_factor = 0.05
-				amphibious_invasion = 0.8
+				amphibious_invasion = 0.3
 				invasion_preparation = -0.8
 				supply_consumption_factor = -0.20
 				attrition = -0.10
@@ -57,7 +57,7 @@ ideas = {
 				army_org_Factor = 0.05
 				army_morale_factor = 0.05
 				army_speed_factor = 0.05
-				amphibious_invasion = 0.8
+				amphibious_invasion = 0.3
 				invasion_preparation = -0.8
 				supply_consumption_factor = -0.20
 				attrition = -0.10
@@ -87,7 +87,7 @@ ideas = {
 				army_org_Factor = 0.05
 				army_morale_factor = 0.05
 				army_speed_factor = 0.05
-				amphibious_invasion = 0.4
+				amphibious_invasion = 0.15
 				invasion_preparation = -0.4
 				supply_consumption_factor = -0.20
 				attrition = -0.10
@@ -139,8 +139,8 @@ ideas = {
 			removal_cost = -1
 			picture = generic_goods_red_bonus
 			modifier = {
-				consumer_goods_factor = 0.01
-				stability_factor = -0.03
+				##consumer_goods_factor = 0.01
+				stability_factor = -0.01
 			}
 		}
 
@@ -189,7 +189,7 @@ ideas = {
 			picture = generic_goods_red_bonus
 			modifier = {
 				consumer_goods_factor = 0.01
-				stability_factor = -0.03
+				stability_factor = -0.02
 			}
 		}
 

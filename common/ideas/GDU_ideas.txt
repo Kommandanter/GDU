@@ -60,7 +60,7 @@ ideas = {
 			removal_cost = -1
 	
 			modifier = {
-				production_speed_dockyard_factor = 0.15
+				production_speed_dockyard_factor = 0.1
 				industrial_capacity_dockyard = 0.05
 			}
 			research_bonus = {
@@ -882,7 +882,7 @@ ideas = {
 			removal_cost = -1 
 			
 			modifier = { 
-				stability_factor = 0.05 
+				stability_factor = 0.025 
 			}
 		}
 		
@@ -897,8 +897,8 @@ ideas = {
 			removal_cost = -1 
 			
 			modifier = { 
-				stability_factor = 0.10
-				army_morale_factor = 0.05
+				stability_factor = 0.05
+				army_morale_factor = 0.025
 			}
 		}
 		
@@ -913,7 +913,7 @@ ideas = {
 			removal_cost = -1 
 			
 			modifier = { 
-				stability_factor = 0.10
+				stability_factor = 0.075
 				war_support_factor = 0.10
 				army_morale_factor = 0.01
 			}
@@ -947,7 +947,7 @@ ideas = {
 			removal_cost = -1 
 			
 			modifier = { 
-				stability_factor = 0.10
+				stability_factor = 0.075
 				war_support_factor = 0.10
 				army_morale_factor = 0.01
 			}
@@ -1296,7 +1296,7 @@ ideas = {
 		
 		airandnavy_idea = {
 			
-			picture = YUG_federal_defense_council
+			picture = GFX_decision_category_military_operation
 			allowed = {
 				always = no
 			}

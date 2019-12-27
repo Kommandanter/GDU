@@ -703,7 +703,7 @@ ideas = {
 			picture = generic_wall_line
 
 			modifier = {
-				production_speed_bunker_factor = 0.15
+				production_speed_bunker_factor = 0.2
 			}
 		}
 
@@ -1256,33 +1256,33 @@ ideas = {
 
 			equipment_bonus = {
 				medium_tank_artillery_equipment = {
-					reliability = 0.1
-					soft_attack = 0.1
+					reliability = 0.05
+					soft_attack = 0.15
 					maximum_speed = 0.05
 				}
 				heavy_tank_artillery_equipment = {
-					reliability = 0.1
+					reliability = 0.05
 					soft_attack = 0.15
 					maximum_speed = 0.05
 					armor_value = 0.05
 				}
 			    light_tank_equipment = {
-					reliability = 0.1
-					soft_attack = 0.10
-					maximum_speed = 0.05
-				}
-				light_tank_artillery_equipment = {
-					reliability = 0.1
+					reliability = 0.05
 					soft_attack = 0.1
 					maximum_speed = 0.05
 				}
+				light_tank_artillery_equipment = {
+					reliability = 0.05
+					soft_attack = 0.15
+					maximum_speed = 0.05
+				}
 				light_tank_destroyer_equipment = {
-					reliability = 0.1
+					reliability = 0.05
 					hard_attack = 0.1
 					maximum_speed = 0.05
 				}
 				light_tank_aa_equipment = {
-					reliability = 0.1
+					reliability = 0.05
 					air_attack = 0.1
 					maximum_speed = 0.05
 				}
@@ -1310,19 +1310,19 @@ ideas = {
 
 			equipment_bonus = {
 				medium_tank_equipment = {
-					reliability = 0.1
+					reliability = 0.05
 					maximum_speed = 0.1
 					hard_attack = 0.1
 				}
 				medium_tank_destroyer_equipment = {
 					hard_attack = 0.1
 					ap_attack = 0.25
-					reliability = 0.1
+					reliability = 0.075
 					defense = 0.1
 					build_cost_ic = -0.15
 				}
 				medium_tank_aa_equipment = {
-					reliability = 0.15
+					reliability = 0.1
 					air_attack = 0.1
 				}
 			}
@@ -1389,13 +1389,13 @@ ideas = {
 
 			equipment_bonus = {
 				medium_tank_equipment = {
-					reliability = 0.1
+					reliability = 0.05
 					soft_attack = 0.1
 				}
 				medium_tank_destroyer_equipment = {
 					hard_attack = 0.15
 					ap_attack = 0.25
-					reliability = 0.15
+					reliability = 0.1
 					defense = 0.1
 					build_cost_ic = -0.10
 				}
@@ -1648,7 +1648,7 @@ ideas = {
 
 
 			research_bonus = {
-				air_equipment = 0.15
+				air_equipment = 0.2
 			}
 
 			traits = { focke_wulf_aircraft_manufacturer }
@@ -1670,7 +1670,7 @@ ideas = {
 
 
 			research_bonus = {
-				air_equipment = 0.15
+				air_equipment = 0.2
 			}
 
 			traits = { heinkel_aircraft_manufacturer }
@@ -1691,7 +1691,7 @@ ideas = {
 
 
 			research_bonus = {
-				air_equipment = 0.15
+				air_equipment = 0.2
 			}
 
 			traits = { dornier_aircraft_manufacturer }
@@ -1712,7 +1712,7 @@ ideas = {
 
 
 			research_bonus = {
-				air_equipment = 0.15
+				air_equipment = 0.2
 			}
 
 			traits = { arado_aircraft_manufacturer }
@@ -1735,7 +1735,7 @@ ideas = {
 
 			research_bonus = {
 				industry = 0.05
-				synth_resources = 0.2
+				synth_resources = 0.15
 			}
 
 			traits = { refinery_concern }
@@ -1823,7 +1823,7 @@ ideas = {
 			}
 
 			research_bonus = {
-				motorized_equipment = 0.3
+				motorized_equipment = 0.25
 			}
 
 			traits = { motorized_equipment_manufacturer }
@@ -1838,7 +1838,7 @@ ideas = {
 			}
 
 			research_bonus = {
-				rocketry = 0.15
+				rocketry = 0.2
 			}
 
 			traits = { rocket_scientist }
@@ -1852,7 +1852,7 @@ ideas = {
 			}
 
 			research_bonus = {
-				nuclear = 0.15
+				nuclear = 0.2
 			}
 
 			traits = { nuclear_scientist }
@@ -1944,7 +1944,7 @@ ideas = {
 			cost = 150
 
 			research_bonus = {
-				cat_trade_interdiction = 0.20
+				cat_trade_interdiction = 0.15
 			}
 
 			traits = { submarine_specialist }
@@ -2192,7 +2192,7 @@ ideas = {
 				original_tag = GER
 			}
 
-			traits = { air_bomber_interception_2 }
+			traits = { air_bomber_interception_3 }
 
 			ai_will_do = {
 				factor = 1
@@ -2234,7 +2234,7 @@ ideas = {
 				original_tag = GER
 			}
 
-			traits = { navy_fleet_logistics_2 }
+			traits = { navy_fleet_logistics_3 }
 
 			ai_will_do = {
 				factor = 1

@@ -261,8 +261,6 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				communism_acceptance = 100
-				fascism_acceptance = 100
 			}
 		}
 		
@@ -303,7 +301,7 @@ ideas = {
 			picture = FRA_scw_intervention_nationalists_focus
 			
 			modifier = {
-				special_forces_min = 32 
+				special_forces_min = 60 
 			}
 		}
 		
@@ -364,7 +362,6 @@ ideas = {
 	
 			modifier = {
 				conscription = 0.05
-				enemy_partisan_effect = -0.1
 			}
 		}
 	
@@ -458,8 +455,8 @@ ideas = {
 	
 			modifier = {
 				war_support_factor = 0.05
-				army_core_attack_factor = 0.1
-				army_core_defence_factor = 0.1
+				army_core_attack_factor = 0.15
+				army_core_defence_factor = 0.15
 			}
 		}
 	
@@ -548,7 +545,6 @@ ideas = {
 			picture = generic_volunteer_expedition_bonus
 
 			modifier = {
-				send_volunteer_divisions_required = -0.25
 			}
 		}
 
@@ -566,7 +562,6 @@ ideas = {
 			picture = generic_volunteer_expedition_bonus
 			
 			modifier = {
-				send_volunteer_divisions_required = -0.5
 			}
 		}
 
@@ -603,7 +598,6 @@ ideas = {
 			picture = generic_intel_bonus
 			
 			modifier = {
-				foreign_subversive_activites = -0.75
 			}			
 		}
 
@@ -620,7 +614,7 @@ ideas = {
 			}
 
 			modifier = {
-				communism_drift = -0.05
+				communism_drift = -0.1
 			}
 		}
 
@@ -639,7 +633,7 @@ ideas = {
 			}
 
 			modifier = {
-				fascism_drift = -0.05
+				fascism_drift = -0.1
 			}
 		}
 
@@ -908,8 +902,6 @@ ideas = {
 			picture = chi_war_of_resistance3
 			
 			modifier = {
-				resistance_tick_in_states_controlled_by_enemy = 0.01
-				partisan_effect = 0.25
 			}
 		}	
 		
@@ -1162,7 +1154,7 @@ ideas = {
 				}
 			}
 			
-			cost = 100
+			cost = 75
 			removal_cost = 10
 			
 			research_bonus = {
@@ -1201,11 +1193,11 @@ ideas = {
 				}
 			}
 			
-			cost = 100
+			cost = 75
 			removal_cost = 10
 			
 			research_bonus = {
-				air_equipment = 0.15
+				air_equipment = 0.2
 			}
 			
 			traits = { medium_aircraft_manufacturer }
@@ -1240,11 +1232,11 @@ ideas = {
 				}
 			}
 			
-			cost = 100
+			cost = 75
 			removal_cost = 10
 			
 			research_bonus = {
-				air_equipment = 0.15
+				air_equipment = 0.2
 			}
 			
 			traits = { heavy_aircraft_manufacturer }
@@ -1275,11 +1267,11 @@ ideas = {
 				}
 			}
 			
-			cost = 100
+			cost = 75
 			removal_cost = 10
 			
 			research_bonus = {
-				air_equipment = 0.15
+				air_equipment = 0.2
 			}
 			
 			traits = { naval_aircraft_manufacturer }
@@ -1389,7 +1381,7 @@ ideas = {
 			removal_cost = 10
 			
 			research_bonus = {
-				motorized_equipment = 0.2
+				motorized_equipment = 0.25
 			}
 			
 			traits = { motorized_equipment_manufacturer }
