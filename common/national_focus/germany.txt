@@ -152,7 +152,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_west_wall
-		icon = GFX_goal_generic_construct_military
+		icon = GFX_anti_air_as_anti_tank
 		prerequisite = { focus = GER_army_innovation }
 		x = -3
 		y = 1
@@ -266,7 +266,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_ostwall
-		icon = GFX_goal_generic_fortify_city
+		icon = GFX_goal_ger_panther_wotan_line
 		prerequisite = { focus = GER_west_wall }
 		available = {
 			any_country = {
@@ -1024,7 +1024,7 @@ activate_mission = GER_relocate_industry_from_friesland
 
 	focus = {
 		id = GER_german_war_economy
-		icon = GFX_goal_generic_construct_mil_factory
+		icon = GFX_goal_ger_war_industry
 		prerequisite = { focus = GER_autobahn }
 		x = 0
 		y = 1
@@ -1198,7 +1198,7 @@ activate_mission = GER_relocate_industry_from_friesland
 
 	focus = {
 		id = GER_tactical_air_effort
-		icon = GFX_ger_goal_air
+		icon = GFX_goal_junkers_2
 		prerequisite = { focus = GER_air_innovation }
 		mutually_exclusive = { focus = GER_strategic_air_effort }
 		x = 1
@@ -1281,7 +1281,7 @@ activate_mission = GER_relocate_industry_from_friesland
 
 	focus = {
 		id = GER_strategic_air_effort
-		icon = GFX_ger_goal_air_2
+		icon = GFX_goal_heinkel_2
 		prerequisite = { focus = GER_air_innovation }
 		mutually_exclusive = { focus = GER_tactical_air_effort }
 		x = -1
@@ -1410,7 +1410,7 @@ activate_mission = GER_relocate_industry_from_friesland
 
 	focus = {
 		id = GER_army_innovation_2
-		icon = GFX_goal_generic_army_tanks
+		icon = GFX_goal_examine_foreign_small_arms
 		prerequisite = { focus = GER_soviet_treaty }
 		x = 0
 		y = 1
@@ -1629,7 +1629,7 @@ activate_mission = GER_relocate_industry_from_friesland
 
 	focus = {
 		id = GER_anschluss
-		icon = GFX_goal_anschluss
+		icon = GFX_anschluss_2
 		prerequisite = { focus = GER_rhineland }
 		available = {
 			GER = {
@@ -1831,7 +1831,7 @@ activate_mission = GER_relocate_industry_from_friesland
 
 	focus = {
 		id = GER_danzig_or_war
-		icon = GFX_goal_generic_demand_territory
+		icon = GFX_goal_fall_weiss
 		prerequisite = { focus = GER_mol_rib_pact }
 		will_lead_to_war_with = POL
 		available = {
@@ -2089,7 +2089,7 @@ activate_mission = GER_relocate_industry_from_friesland
 
 	focus = {
 		id = GER_around_maginot
-		icon = GFX_goal_generic_attack_allies
+		icon = GFX_goal_planning_bonus
 		prerequisite = { focus = GER_danzig_or_war }
 
 		available = {
@@ -2299,7 +2299,7 @@ activate_mission = GER_relocate_industry_from_friesland
 
 	focus = {
 		id = GER_weserubung
-		icon = GFX_goal_generic_more_territorial_claims
+		icon = GFX_goal_weserubung
 		prerequisite = { focus = GER_danzig_or_war }
 		will_lead_to_war_with = DEN
 		will_lead_to_war_with = NOR
@@ -2821,7 +2821,7 @@ activate_mission = GER_relocate_industry_from_friesland
 
 	focus = {
 		id = GER_naval_effort2
-		icon = GFX_goal_generic_construct_naval_dockyard
+		icon = GFX_goal_ger_bb
 		relative_position_id = GER_naval_rearmament
 		prerequisite = { focus = GER_naval_effort }
 		x = 0
@@ -3123,7 +3123,7 @@ activate_mission = GER_relocate_industry_from_friesland
 
 	focus = {
 		id = GER_battle_russia
-		icon = GFX_goal_generic_army_tanks
+		icon = GFX_goal_ger_rasaineinei2
 		relative_position_id = GER_army_innovation
 		prerequisite = { focus = GER_army_innovation_2 }
 		x = 0
@@ -3213,7 +3213,7 @@ activate_mission = GER_relocate_industry_from_friesland
 
 	focus = {
 		id = GER_me262
-		icon = GFX_goal_generic_air_fighter2
+		icon = GFX_goal_ger_me262
 		relative_position_id = GER_extra_tech_slot_2
 		prerequisite = { focus = GER_extra_tech_slot_2 }
 		x = 1

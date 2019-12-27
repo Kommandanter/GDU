@@ -2821,7 +2821,7 @@ focus_tree = {
 
 	focus = {
 		id = AST_swpa_protector
-		icon = GFX_goal_generic_defence
+		icon = GFX_goal_singapore_protect
 		prerequisite = { focus = AST_adopt_westminster }
 		x = 1
 		y = 3
