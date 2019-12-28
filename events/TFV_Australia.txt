@@ -18,7 +18,15 @@ country_event = {
 			base = 33
 		}
 		name = tfv_australia.90.a
-		add_stability = 0.05
+		if = { 
+			limit = { 
+				NOT = { has_global_flag = AST_coronation_event }
+				AST = { has_completed_focus = AST_strengthen_ties_with_uk }
+			}
+			set_global_flag = AST_coronation_event
+	    AST = {	add_stability = 0.05 }
+	    }
+
 	}
 
 	option = {
@@ -26,8 +34,15 @@ country_event = {
 			base = 34
 		}
 		name = tfv_australia.90.b
-		add_manpower = 5000
-		add_war_support = 0.05
+		if = { 
+			limit = { 
+				NOT = { has_global_flag = AST_coronation_event } 
+				AST = { has_completed_focus = AST_strengthen_ties_with_uk }
+			}
+			set_global_flag = AST_coronation_event
+	    AST = { add_manpower = 5000 add_war_support = 0.05 }
+	    }
+
 	}
 
 	option = {
@@ -35,7 +50,16 @@ country_event = {
 			base = 33
 		}
 		name = tfv_australia.90.c
-		add_political_power = 75
+		if = { 
+			limit = { 
+				NOT = { has_global_flag = AST_coronation_event }
+				AST = { has_completed_focus = AST_strengthen_ties_with_uk } 
+			}
+			set_global_flag = AST_coronation_event
+	    AST = { add_political_power = 75 }
+	    }
+		
 	}
 }
+
 
