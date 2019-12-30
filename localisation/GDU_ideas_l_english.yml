@@ -9,7 +9,7 @@
 
     yarrow_shipbuilders_GER:0 "Yarrow Shipbuilders"
 
-    AXIS_fail_sealion_idea:0 "Failed Sealion"
+    AXIS_fail_sealion_idea:0 "§RFailed Sealion§!"
     ENG_defeat_sealion:0 "Push the Axis Sealion back into the channel!"
 
     USA_transfer_iceland:0 "Transfer Iceland to the UK"
@@ -103,10 +103,10 @@
 	
     CHI_primitive_shipindustry:0 "Outdated Shipbuilding Industry" 
     CHI_primitive_shipindustry_desc:0 "The best thing China's shipbuilding industries can hope to produce are basic coastal patrol vessels. Submarines and more advanced models of ships are completely out of the question." 
-	
+
     GER_triumph_france_idea:0 "Triumph in France" 
     GER_triumph_france_idea_desc:0 "We didn't just win in France, we annihilated our foe. This great victory has brought popularity to our regime." 
-	
+
     total_war_organizer:0 "Reich Minister of Armaments" 
 
     USA_advanced_mahanian_doctrine:0 "Advanced Mahanian Doctrine"
@@ -239,7 +239,7 @@
     iran_neutrality:0 "Iran and Iraqi Neutrality"
     iran_neutrality_desc:0 "With key foreign allied oil companies boosting the economy and a looming Soviet threat to the North, neither Iran nor Iraq seems committed to any immediate war."
     wartime_industry_focus_us:0 "Wartime Industry"
-    fall_blau:0 "Operation Fall Blau"
+    fall_blau:0 "Fall Blau"
     fall_blau_desc:0 "We failed to capture our objectives of the last year, however we have not yet lost the innitiative on the Eastern front. The majority of the Soviet forces are situated in and around Moscow and along our central front. We have the option to strike south and capture the vital baku oil fields, along with the City of Stalins name, which would be a striking blow to the Bolsheviks."
     JAP_rebels:0 "Chinese Partisans"
     JAP_rebels_desc:0 "We have completely over stretched our occupational limits. Our railway and supply lines are being constantly ambushed and destroyed, mainland factories sabatoged, and we are finding out more and more, that there is a rifle behind every blade of grass."
@@ -392,7 +392,7 @@
     practical_experience:0 "Practical Experience"
     practical_experience_desc:0 "Over the past year, we have made great strides in transforming the miniscule interwar Army to the great force that will defeat the Axis in Africa, Europe, the Pacific, and Asia. Historically, the army learned important lessons from early battles such as Guadalcanal and the disastrous Battle of Kasserine Pass (as late as February 1943) which helped turn the U.S. Army into a fully functional modern fighting force."
     
-    ALLIES_fail_dday_idea:0 "Failed DDay"
+    ALLIES_fail_dday_idea:0 "§RFailed DDay§!"
     GER_defeat_dday:0 "Push the Allied invasion back into the sea!"
     GER_triumph_dday_idea:0 "Allied DDay has been thwarted"
     
